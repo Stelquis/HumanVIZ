@@ -48,6 +48,7 @@ git commit -m "chore: mask API keys for GitHub sync" --no-verify || true
 # -------------------------------------------------------------------
 echo "🔀 同步文件到 github-main..."
 git checkout github-main
+git rm -rf .
 git checkout main -- .
 git add -A
 
