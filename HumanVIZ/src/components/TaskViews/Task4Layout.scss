@@ -1,0 +1,2189 @@
+// ============================================================
+//  Task 4 — 叙事结构分析与模式总结 · 可视化面板
+//  Colour scheme: "燕京清晖", consistent with Task 1 layout
+//  Layout: 三栏悬浮式 (mirrors Task 1 structure)
+// ============================================================
+
+$paper: var(--theme-paper);
+$parchment: var(--theme-parchment);
+$khaki: var(--theme-khaki);
+$camel: var(--theme-gold);
+$ochre: var(--theme-bamboo);
+$wood: var(--theme-wood);
+$ink: var(--theme-ink);
+$red: var(--theme-red);
+$celadon: var(--theme-celadon);
+$slate: var(--theme-slate);
+$border: var(--theme-border);
+$border-strong: var(--theme-border-strong);
+$border-soft: var(--theme-border-soft);
+$shadow: var(--theme-shadow-color);
+$glow: var(--theme-glow);
+$text-soft: var(--theme-text-soft);
+
+/* ============================================================
+   Screen — full viewport
+   ============================================================ */
+.t4-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  overflow: hidden;
+  padding: 10px 14px 14px;
+  color: $ink;
+  background: linear-gradient(180deg,
+    rgba(255, 253, 249, 0.55) 0%,
+    rgba(246, 241, 231, 0.38) 100%);
+}
+
+/* ============================================================
+   Topbar
+   ============================================================ */
+.t4-topbar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 14px;
+  padding: 10px 16px;
+  border-radius: 16px;
+  min-height: 0;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
+  border: 1px solid $border;
+  box-shadow: 0 8px 18px $shadow;
+}
+
+.t4-kicker {
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $ochre;
+  font-weight: 600;
+}
+
+.t4-topbar-title-group {
+  h1 {
+    margin: 2px 0 0;
+    font-size: clamp(1.15rem, 1.5vw, 1.45rem);
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    line-height: 1.25;
+    color: $wood;
+  }
+
+  p {
+    color: $text-soft;
+    line-height: 1.5;
+    font-size: 12px;
+    margin: 3px 0 0;
+  }
+}
+
+.t4-topbar-report-trigger {
+  display: flex; align-items: center; flex-shrink: 0; justify-content: flex-end;
+}
+
+.t4-topbar-report-btn {
+  display: inline-flex; align-items: center; align-self: center; gap: 8px;
+  padding: 10px 20px; border-radius: 14px;
+  background: linear-gradient(135deg, rgba(212,197,176,.55), rgba(184,149,111,.12));
+  border: 1.5px solid $border-soft;
+  font-size: 14px; font-weight: 600; color: $wood; cursor: pointer;
+  transition: all .2s ease;
+  font-family: "Noto Serif SC", "PT Serif", "STSong", "SimSun", serif;
+  white-space: nowrap;
+  &:hover { border-color: $camel; background: linear-gradient(135deg, rgba(212,197,176,.7), rgba(184,149,111,.2)); box-shadow: 0 3px 12px $shadow; transform: translateY(-1px); }
+  &:active { transform: scale(.97); }
+}
+
+.t4-report-btn-icon { font-size: 18px; flex-shrink: 0; }
+
+/* ============================================================
+   Main grid — 双栏布局: 中央主区 + 右侧面板
+   ============================================================ */
+.t4-main-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 20vw);
+  gap: 10px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ============================================================
+   Side Panels — 左右悬浮面板
+   ============================================================ */
+.t4-side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 2px;
+
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+.t4-side-block {
+  background: linear-gradient(180deg, rgba(255,255,255,0.58), rgba(246,241,231,0.4)), $paper;
+  border: 1px solid $border;
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 0 6px 16px $shadow;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 8px 20px $shadow;
+  }
+}
+
+.t4-side-block-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid $border;
+
+  h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+}
+
+.t4-side-block-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.t4-side-block-note {
+  font-size: 11px;
+  color: $text-soft;
+  margin-top: 6px;
+  padding-top: 5px;
+  border-top: 1px solid $border-soft;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   Method list (left panel)
+   ============================================================ */
+.t4-method-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.t4-method-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid $border-soft;
+  background: linear-gradient(180deg, rgba(255,255,255,0.45), rgba(246,241,231,0.18));
+  transition: border-color 0.2s ease;
+
+  &:hover { border-color: $border-strong; }
+}
+
+.t4-method-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: $celadon;
+  flex-shrink: 0;
+}
+
+.t4-method-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+  margin-bottom: 2px;
+}
+
+.t4-method-desc {
+  font-size: 11px;
+  color: $text-soft;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   Narrative type chart thumbnail (left panel)
+   ============================================================ */
+.t4-narrative-type-chart {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 0 2px $red, 0 6px 18px $shadow;
+    transform: scale(1.02);
+  }
+}
+
+/* ============================================================
+   Center Stage — 叙事结构可视化主区
+   ============================================================ */
+.t4-center-stage {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.65), rgba(246,241,231,0.45)), $paper;
+  border: 1px solid $border-strong;
+  border-radius: 16px;
+  padding: 12px 14px;
+  box-shadow: 0 8px 24px $shadow;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.t4-center-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+
+  h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+    flex: 1;
+  }
+}
+
+.t4-center-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.t4-center-header-actions {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.t4-center-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.t4-center-row {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  min-height: 0;
+  align-items: stretch;
+}
+
+.t4-ribbon-area {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background: linear-gradient(180deg, rgba(255,255,255,0.4), rgba(246,241,231,0.2));
+  border-radius: 12px;
+  border: 1px solid $border-soft;
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  gap: 0;
+
+  .p4-viewer-container {
+    padding: 0;
+    max-width: none;
+    min-width: 100%;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow: hidden;
+  }
+
+  .p4-ribbon-svg-wrapper {
+    flex: 1;
+    min-height: 0;
+    border-radius: 8px;
+    border: 1px solid $border-soft;
+    background: $paper;
+    overflow: auto;
+    cursor: grab;
+
+    &.dragging {
+      cursor: grabbing;
+      user-select: none;
+    }
+
+    svg {
+      display: block;
+    }
+  }
+}
+
+.p4-secondary-layout {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+
+  &.compact {
+    gap: 6px;
+  }
+}
+
+.p4-viewer-empty,
+.p4-selector-bar,
+.p4-metrics-panel,
+.p4-scene-strip,
+.p4-focus-grid,
+.p4-legend {
+  width: 100%;
+}
+
+.p4-viewer-empty {
+  padding: 28px 24px;
+  border: 1px dashed $border-strong;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.6);
+  color: $text-soft;
+  text-align: center;
+}
+
+.p4-selector-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px 12px;
+  border: 1px solid $border-soft;
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.72), rgba(246,241,231,0.45));
+}
+
+.p4-opera-select {
+  min-width: 220px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid $border;
+  background: rgba(255,255,255,0.88);
+  color: $wood;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.p4-fingerprint-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.p4-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.9);
+  border: 1px solid $border-soft;
+  color: $wood;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.p4-toggle-btn {
+  margin-left: auto;
+  padding: 7px 12px;
+  border-radius: 10px;
+  border: 1px solid $border;
+  background: rgba(255,255,255,0.82);
+  color: $wood;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+
+  &:hover,
+  &.active {
+    background: rgba(184,149,111,0.14);
+    border-color: $camel;
+  }
+}
+
+.p4-metrics-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.p4-metric-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid $border-soft;
+  background: rgba(255,255,255,0.6);
+
+  label {
+    font-size: 11px;
+    font-weight: 700;
+    color: $ochre;
+    letter-spacing: 0.04em;
+  }
+
+  small {
+    font-size: 11px;
+    color: $text-soft;
+    line-height: 1.45;
+  }
+}
+
+.p4-metric-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.p4-mini-bar {
+  width: 100%;
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(94, 107, 118, 0.1);
+  overflow: hidden;
+}
+
+.p4-mini-bar-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, $celadon, $camel, $red);
+}
+
+.p4-scene-strip {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid $border-soft;
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.68), rgba(246,241,231,0.42));
+
+  &.compact {
+    padding: 6px 8px;
+    gap: 4px;
+  }
+}
+
+.p4-scene-strip-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+
+  strong {
+    display: block;
+    font-size: 14px;
+    color: $wood;
+    margin-bottom: 2px;
+  }
+
+  span,
+  small {
+    color: $text-soft;
+    font-size: 11px;
+  }
+}
+
+.p4-scene-strip-track {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(152px, 1fr));
+  gap: 8px;
+}
+
+.p4-scene-strip.compact .p4-scene-strip-track {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 2px;
+
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+}
+
+.p4-scene-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid $border-soft;
+  background: rgba(255,255,255,0.72);
+  color: $wood;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+
+  .p4-scene-strip.compact & {
+    min-width: 110px;
+    gap: 3px;
+    padding: 6px 8px;
+  }
+
+  &:hover,
+  &.active {
+    border-color: $border-strong;
+    background: rgba(255,255,255,0.92);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(58, 44, 33, 0.08);
+  }
+}
+
+.p4-scene-pill-top,
+.p4-scene-pill-meta,
+.p4-scene-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.p4-scene-pill-no {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.p4-scene-pill-phase {
+  font-size: 10px;
+  color: $ochre;
+  background: rgba(184,149,111,0.12);
+  border-radius: 999px;
+  padding: 2px 7px;
+}
+
+.p4-scene-pill-name {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.p4-scene-pill-meta {
+  font-size: 11px;
+  color: $text-soft;
+}
+
+.p4-scene-pill-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.p4-scene-bar-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: $ochre;
+  min-width: 24px;
+}
+
+.p4-scene-bar-track {
+  flex: 1;
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(94,107,118,0.1);
+  overflow: hidden;
+
+  &.mood {
+    background: linear-gradient(90deg, rgba(94,107,118,0.12), rgba(184,149,111,0.14));
+  }
+}
+
+.p4-scene-bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+
+  &.conflict { background: linear-gradient(90deg, #c8a494, #96544D); }
+  &.positive { background: linear-gradient(90deg, #B89B6D, #d1b071); }
+  &.negative { background: linear-gradient(90deg, #7F968D, #5E6B76); }
+}
+
+.p4-focus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+
+  &.compact {
+    gap: 8px;
+  }
+}
+
+.p4-focus-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid $border-soft;
+  background: linear-gradient(180deg, rgba(255,255,255,0.78), rgba(246,241,231,0.5));
+
+  &.compact {
+    padding: 10px 12px;
+    gap: 8px;
+  }
+}
+
+.p4-focus-card-head strong {
+  display: block;
+  font-size: 14px;
+  color: $wood;
+  margin-bottom: 2px;
+}
+
+.p4-focus-card-head span {
+  font-size: 11px;
+  color: $text-soft;
+}
+
+.p4-focus-title-row,
+.p4-focus-meta-row,
+.p4-focus-kpis {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.p4-focus-title-row {
+  justify-content: space-between;
+
+  h4 {
+    margin: 0;
+    font-size: 18px;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+}
+
+.p4-focus-phase-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(184,149,111,0.12);
+  color: $ochre;
+  font-size: 11px;
+  font-weight: 700;
+
+  &.role {
+    background: color-mix(in srgb, var(--chip-color, #B89B6D) 14%, white);
+    color: var(--chip-color, #B89B6D);
+  }
+}
+
+.p4-focus-meta-row {
+  font-size: 11px;
+  color: $text-soft;
+}
+
+.p4-focus-summary {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.7;
+  color: $wood;
+
+  &.compact {
+    font-size: 11px;
+    line-height: 1.55;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+.p4-focus-kpis {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+
+  &.char {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.p4-focus-kpi {
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.74);
+  border: 1px solid rgba(184,149,111,0.14);
+
+  label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    color: $ochre;
+  }
+
+  strong {
+    font-size: 15px;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+}
+
+.p4-focus-card.compact .p4-focus-kpis {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.p4-focus-card.compact .p4-focus-kpi {
+  padding: 8px;
+
+  strong {
+    font-size: 13px;
+  }
+}
+
+.p4-focus-pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  &.compact .p4-focus-pill {
+    min-width: 76px;
+  }
+}
+
+.p4-focus-pill {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(184,149,111,0.18);
+  background: color-mix(in srgb, var(--pill-color, #B89B6D) 10%, white);
+  color: $wood;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover,
+  &.active {
+    border-color: var(--pill-color, $camel);
+    box-shadow: 0 4px 12px rgba(58, 44, 33, 0.08);
+    transform: translateY(-1px);
+  }
+
+  span {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  small {
+    font-size: 10px;
+    color: $text-soft;
+  }
+}
+
+.p4-focus-card.compact .p4-focus-pill {
+  padding: 6px 8px;
+  gap: 1px;
+
+  span {
+    font-size: 11px;
+  }
+
+  small {
+    font-size: 9px;
+  }
+}
+
+.p4-focus-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px dashed $border;
+  background: rgba(255,255,255,0.5);
+
+  strong {
+    font-size: 14px;
+    color: $wood;
+  }
+
+  span {
+    font-size: 12px;
+    color: $text-soft;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 1180px) {
+  .p4-focus-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .p4-focus-kpis,
+  .p4-focus-kpis.char {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── 丝带可视化主体容器 ── */
+.t4-ribbon-viewer-wrap {
+  flex: 1;
+  min-width: 0;
+  padding: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* ============================================================
+   Script axis — 剧本切换轴 (vertical sidebar, left of ribbon)
+   ============================================================ */
+/* ============================================================
+   Center right: quick switch panel (legacy, now replaced by axis)
+   ============================================================ */
+.t4-center-right {
+  width: 175px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+.t4-quick-switch {
+  background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(246,241,231,0.2));
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.t4-quick-switch-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t4-quick-switch-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.t4-quick-switch-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 2px solid $border-soft;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.22s ease;
+  font-family: inherit;
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    background: rgba(184, 149, 111, 0.1);
+    border-color: $camel;
+    transform: translateX(2px);
+  }
+
+  &:active { transform: scale(0.97); }
+
+  &.active {
+    background: rgba(255, 255, 255, 0.8);
+    border-color: $border-strong;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+}
+
+.t4-quick-switch-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.t4-quick-switch-name {
+  flex: 1;
+  font-size: 12px;
+  font-weight: 600;
+  color: $wood;
+  text-align: left;
+  line-height: 1;
+}
+
+.t4-quick-switch-state {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 5px;
+  letter-spacing: 0.04em;
+  transition: all 0.25s ease;
+
+  &.on {
+    color: #fff;
+    background: $celadon;
+  }
+
+  &.off {
+    color: $text-soft;
+    background: rgba(0, 0, 0, 0.06);
+  }
+}
+
+/* ============================================================
+   Guide Popup Trigger Buttons (in center header)
+   ============================================================ */
+.t4-guide-popup-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1.5px solid $border-strong;
+  background: linear-gradient(180deg, rgba(255,255,255,0.65), rgba(246,241,231,0.3));
+  color: $wood;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+
+  &:hover {
+    background: linear-gradient(180deg, rgba(184,149,111,0.15), rgba(184,149,111,0.08));
+    border-color: $camel;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px $shadow;
+  }
+
+  &:active { transform: translateY(0); }
+}
+
+.t4-guide-popup-trigger-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.t4-guide-popup-trigger-label {
+  line-height: 1;
+}
+
+/* ============================================================
+   Script dropdown — 剧本选择下拉
+   ============================================================ */
+.t4-script-dropdown {
+  position: relative;
+  display: inline-flex;
+}
+
+.t4-script-dropdown-arrow {
+  font-size: 10px;
+  margin-left: 2px;
+  opacity: 0.6;
+}
+
+.t4-script-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 100;
+  min-width: 200px;
+  max-height: 320px;
+  overflow-y: auto;
+  padding: 6px;
+  border-radius: 12px;
+  border: 1.5px solid $border-strong;
+  background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(246,241,231,0.92));
+  box-shadow: 0 8px 24px $shadow;
+
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+.t4-script-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: $wood;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: left;
+  font-family: inherit;
+
+  &:hover {
+    background: rgba(184,149,111,0.12);
+  }
+
+  &.active {
+    background: rgba(184,149,111,0.18);
+    font-weight: 700;
+  }
+}
+
+.t4-script-dropdown-dot {
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.8);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+}
+
+.t4-script-dropdown-label {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.t4-script-dropdown-type {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 500;
+  color: $text-soft;
+  background: rgba(184,149,111,0.1);
+  padding: 2px 6px;
+  border-radius: 999px;
+}
+
+/* ============================================================
+   Metrics block (right panel)
+   ============================================================ */
+.t4-metrics-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.t4-metrics-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.t4-metrics-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: $ochre;
+  min-width: 64px;
+  flex-shrink: 0;
+  letter-spacing: 0.03em;
+}
+
+.t4-metrics-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t4-metrics-unit {
+  font-size: 10px;
+  color: $text-soft;
+  margin-left: 2px;
+}
+
+.t4-metrics-empty {
+  font-size: 12px;
+  color: $text-soft;
+  font-style: italic;
+  margin: 0;
+  text-align: center;
+  padding: 16px 0;
+}
+
+/* Mini bar for sentiment */
+.t4-mini-bar {
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(94, 107, 118, 0.1);
+  margin-top: 3px;
+
+  .t4-mini-bar-fill {
+    height: 100%;
+    border-radius: 2px;
+    background: linear-gradient(90deg, $celadon, $camel, $red);
+    transition: width 0.4s ease;
+  }
+}
+
+/* ============================================================
+   Design Process Report Sidebar
+   ============================================================ */
+.t4-report-backdrop {
+  position: fixed; inset: 0;
+  background: rgba(58,44,33,.32); backdrop-filter: blur(4px);
+  opacity: 0; pointer-events: none; transition: opacity .28s ease; z-index: 80;
+  &.visible { opacity: 1; pointer-events: auto; }
+}
+
+.t4-report-sidebar {
+  position: fixed; top: 0; right: 0;
+  width: min(620px, 52vw); height: 100vh; z-index: 90;
+  display: flex; flex-direction: column;
+  background: linear-gradient(180deg, rgba(255,253,249,.98), rgba(246,241,231,.96));
+  border-left: 1px solid $border-strong;
+  box-shadow: -8px 0 32px rgba(58,44,33,.18);
+  transform: translateX(100%); transition: transform .32s cubic-bezier(.4,0,.2,1);
+  &.open { transform: translateX(0); }
+}
+
+.t4-report-sidebar-header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 18px 22px; border-bottom: 1px solid $border; flex-shrink: 0;
+  h2 { flex: 1; margin: 0; font-size: 20px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+}
+
+.t4-report-sidebar-header-icon { font-size: 22px; flex-shrink: 0; }
+
+.t4-report-sidebar-close {
+  display: flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border-radius: 50%;
+  border: 1.5px solid $border-strong; background: rgba(255,255,255,.6);
+  color: $wood; font-size: 16px; cursor: pointer; transition: all .2s ease; flex-shrink: 0;
+  &:hover { background: $red; color: #fff; border-color: $red; }
+}
+
+.t4-report-tabs {
+  display: flex; gap: 2px; padding: 10px 14px;
+  border-bottom: 1px solid $border; flex-shrink: 0;
+  overflow-x: auto; background: rgba(246,241,231,.25);
+  &::-webkit-scrollbar { height: 3px; }
+  &::-webkit-scrollbar-thumb { background: $border; border-radius: 2px; }
+}
+
+.t4-report-tab {
+  display: flex; align-items: center; gap: 5px;
+  padding: 7px 13px; border-radius: 8px;
+  border: 1.5px solid transparent; background: transparent;
+  color: $text-soft; font-size: 12px; font-weight: 600;
+  cursor: pointer; transition: all .2s ease;
+  font-family: inherit; white-space: nowrap; flex-shrink: 0;
+  &:hover { color: $wood; background: rgba(184,149,111,.1); border-color: $border-soft; }
+  &.active { color: $red; background: rgba(150,84,77,.1); border-color: rgba(150,84,77,.3); box-shadow: 0 2px 6px rgba(150,84,77,.1); }
+}
+
+.t4-report-tab-icon { font-size: 14px; line-height: 1; }
+.t4-report-tab-label { line-height: 1; }
+
+.t4-report-sidebar-body {
+  flex: 1; min-height: 0; overflow-y: auto; padding: 18px 22px;
+  &::-webkit-scrollbar { width: 5px; }
+  &::-webkit-scrollbar-thumb { background: $border; border-radius: 3px; }
+}
+
+/* Guide list */
+.t4-guide-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  li {
+    font-size: 12px;
+    color: $wood;
+    line-height: 1.55;
+    padding-left: 16px;
+    position: relative;
+
+    &::before {
+      content: "◆";
+      position: absolute;
+      left: 0;
+      font-size: 7px;
+      color: $camel;
+      top: 5px;
+    }
+
+    strong { color: $red; }
+  }
+}
+
+/* Guide insights */
+.t4-guide-insight {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  h4 {
+    font-size: 13px;
+    font-weight: 700;
+    color: $red;
+    padding: 6px 0 0;
+    margin: 10px 0 4px;
+    letter-spacing: 0.03em;
+
+    &:first-child { margin-top: 0; }
+  }
+
+  p {
+    font-size: 12px;
+    background: rgba(127, 150, 141, 0.08);
+    border-radius: 8px;
+    padding: 10px 12px;
+    border-left: 3px solid $celadon;
+    line-height: 1.55;
+    margin: 0;
+  }
+}
+
+/* ============================================================
+   Panel sections (drawer content)
+   ============================================================ */
+.t4-section-intro {
+  margin-bottom: 16px;
+
+  strong {
+    display: block;
+    font-size: 14px;
+    color: $wood;
+    margin-bottom: 4px;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+
+  p {
+    margin: 0;
+    font-size: 12px;
+    color: $text-soft;
+    line-height: 1.65;
+  }
+}
+
+.t4-panel-placeholder {
+  text-align: center;
+  padding: 40px 20px;
+
+  p {
+    font-size: 13px;
+    color: $text-soft;
+    line-height: 1.6;
+    margin: 0;
+
+    &.t4-panel-hint {
+      margin-top: 8px;
+      font-size: 11px;
+      color: $text-soft;
+      font-style: italic;
+    }
+  }
+}
+
+.t4-panel-hint {
+  font-size: 11px;
+  color: $text-soft;
+  font-style: italic;
+}
+
+/* ============================================================
+   Stage cards (narrative stages)
+   ============================================================ */
+.t4-stage-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.t4-stage-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.2)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 4px 12px $shadow;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 6px 18px $shadow;
+  }
+}
+
+.t4-stage-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.t4-stage-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+  font-family: "PT Serif", serif;
+}
+
+.t4-stage-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+  line-height: 1.3;
+}
+
+.t4-stage-subtitle {
+  font-size: 10px;
+  color: $text-soft;
+  margin-top: 2px;
+  font-style: italic;
+}
+
+.t4-stage-desc {
+  margin: 0 0 8px 36px;
+  font-size: 11px;
+  color: $text-soft;
+  line-height: 1.55;
+}
+
+.t4-stage-details {
+  margin: 0 0 8px 36px;
+  padding: 0;
+  list-style: none;
+
+  li {
+    font-size: 11px;
+    color: $wood;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 14px;
+
+    &::before {
+      content: "·";
+      position: absolute;
+      left: 0;
+      font-weight: 700;
+      color: $camel;
+    }
+  }
+}
+
+.t4-stage-evidence {
+  margin-left: 36px;
+  font-size: 10px;
+  color: $text-soft;
+  background: rgba(127, 150, 141, 0.08);
+  border-radius: 5px;
+  padding: 4px 10px;
+  line-height: 1.4;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.t4-evidence-icon {
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   Pattern cards
+   ============================================================ */
+.t4-pattern-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.t4-pattern-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.t4-pattern-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(246,241,231,0.2));
+  border: 1px solid $border;
+  border-left-width: 4px;
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 3px 10px $shadow;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 5px 16px $shadow;
+  }
+}
+
+.t4-pattern-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.t4-pattern-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: $celadon;
+  flex-shrink: 0;
+}
+
+.t4-pattern-type {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t4-pattern-desc {
+  margin: 0 0 8px 32px;
+  font-size: 11px;
+  color: $text-soft;
+  line-height: 1.6;
+}
+
+.t4-pattern-detail {
+  margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.t4-pattern-item {
+  display: flex;
+  gap: 6px;
+  font-size: 11px;
+
+  .t4-pattern-label {
+    font-weight: 600;
+    color: $ochre;
+    min-width: 64px;
+    flex-shrink: 0;
+  }
+
+  span:last-child {
+    color: $wood;
+    line-height: 1.5;
+  }
+}
+
+/* ============================================================
+   Rhythm panel
+   ============================================================ */
+.t4-rhythm-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.t4-rhythm-metrics-row {
+  display: flex;
+  gap: 16px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(212, 197, 176, 0.25), rgba(184, 149, 111, 0.08));
+  border: 1px solid $border-soft;
+  margin-bottom: 8px;
+}
+
+.t4-rhythm-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 90px;
+}
+
+.t4-rhythm-metric-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: $ochre;
+  letter-spacing: 0.04em;
+}
+
+.t4-rhythm-metric-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t4-rhythm-interpretation {
+  margin-top: 12px;
+
+  h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: $red;
+    margin: 0 0 6px;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+
+  p {
+    font-size: 12px;
+    color: $text-soft;
+    background: rgba(127, 150, 141, 0.08);
+    border-radius: 8px;
+    padding: 10px 12px;
+    border-left: 3px solid $celadon;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+/* ============================================================
+   Character narrative role cards
+   ============================================================ */
+.t4-char-narrative-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.t4-char-role-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.t4-char-role-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(246,241,231,0.2));
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 3px 10px $shadow;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 5px 16px $shadow;
+  }
+}
+
+.t4-char-role-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.t4-char-role-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: $slate;
+  flex-shrink: 0;
+}
+
+.t4-char-role-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+  line-height: 1.3;
+}
+
+.t4-char-role-function {
+  font-size: 10px;
+  color: $ochre;
+  margin-top: 1px;
+  font-style: italic;
+}
+
+.t4-char-role-desc {
+  margin: 0 0 6px 34px;
+  font-size: 11px;
+  color: $text-soft;
+  line-height: 1.55;
+}
+
+.t4-char-role-examples {
+  margin-left: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+
+.t4-char-role-examples-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: $ochre;
+}
+
+.t4-char-role-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(184, 149, 111, 0.12);
+  color: $wood;
+}
+
+/* Current character analysis */
+.t4-current-char-analysis {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid $border;
+
+  h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: $red;
+    margin: 0 0 6px;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+
+  p {
+    font-size: 12px;
+    color: $text-soft;
+    line-height: 1.6;
+    margin: 0 0 10px;
+  }
+}
+
+.t4-char-list-mini {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.t4-char-mini-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid $border-soft;
+  font-size: 11px;
+}
+
+.t4-char-mini-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.t4-char-mini-name {
+  font-weight: 600;
+  color: $wood;
+}
+
+.t4-char-mini-group {
+  font-size: 10px;
+  color: $text-soft;
+}
+
+/* ============================================================
+   Dataset overview panel
+   ============================================================ */
+.t4-dataset-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.t4-dataset-note {
+  margin-top: 12px;
+  font-size: 11px;
+  color: $text-soft;
+  font-style: italic;
+  padding-top: 8px;
+  border-top: 1px solid $border-soft;
+
+  p {
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  strong { color: $wood; }
+}
+
+/* ============================================================
+   Report content sections
+   ============================================================ */
+.t4-report-section {
+  margin-bottom: 20px;
+
+  h3 {
+    margin: 0 0 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+    padding-bottom: 4px;
+    border-bottom: 1px solid $border-soft;
+  }
+
+  h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+
+  p {
+    margin: 0;
+    font-size: 12px;
+    color: $text-soft;
+    line-height: 1.75;
+
+    strong { color: $wood; }
+  }
+}
+
+.t4-report-dim-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+
+  th {
+    text-align: left;
+    padding: 5px 8px;
+    color: $ochre;
+    font-weight: 600;
+    font-size: 10px;
+    background: rgba(184, 149, 111, 0.08);
+    border-bottom: 1px solid $border-strong;
+  }
+
+  td {
+    padding: 4px 8px;
+    color: $wood;
+    border-bottom: 1px solid $border-soft;
+    vertical-align: top;
+  }
+
+  tbody tr:hover { background: rgba(184, 149, 111, 0.04); }
+}
+
+.t4-script-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 4px 12px $shadow;
+
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 6px 18px $shadow;
+  }
+}
+
+.t4-script-card-header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.t4-script-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.15) 100%), $red;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.t4-script-alias {
+  font-size: 11px;
+  color: $text-soft;
+  font-weight: 400;
+  font-style: italic;
+  margin-left: 4px;
+}
+
+.t4-script-meta {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  margin-bottom: 8px;
+
+  td {
+    padding: 2px 0;
+    vertical-align: top;
+  }
+
+  td:first-child {
+    width: 72px;
+    color: $ochre;
+    font-weight: 600;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  td:last-child {
+    color: $wood;
+    line-height: 1.5;
+  }
+}
+
+.t4-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: rgba(127, 150, 141, 0.12);
+  color: $celadon;
+}
+
+.t4-tag-role {
+  background: rgba(184, 149, 111, 0.15);
+  color: $ochre;
+}
+
+.t4-script-summary {
+  font-size: 11px;
+  color: $text-soft;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  background: rgba(200, 188, 164, 0.1);
+  border-radius: 6px;
+  border-left: 3px solid $border-strong;
+
+  strong {
+    color: $wood;
+    display: block;
+    margin-bottom: 2px;
+    font-size: 10px;
+  }
+}
+
+.t4-script-reasons {
+  strong {
+    display: block;
+    font-size: 10px;
+    color: $wood;
+    margin-bottom: 4px;
+  }
+
+  ol {
+    margin: 0;
+    padding-left: 20px;
+
+    li {
+      font-size: 11px;
+      color: $text-soft;
+      line-height: 1.6;
+      margin-bottom: 3px;
+
+      &::marker { color: $red; font-weight: 700; font-size: 10px; }
+    }
+  }
+}
+
+.t4-comparison-wrap {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid $border-soft;
+
+  &::-webkit-scrollbar { height: 3px; }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+.t4-comparison-table {
+  width: 100%;
+  min-width: 540px;
+  border-collapse: collapse;
+  font-size: 10px;
+
+  th, td {
+    padding: 5px 6px;
+    text-align: center;
+    border-bottom: 1px solid $border-soft;
+    white-space: nowrap;
+  }
+
+  th {
+    color: $ochre;
+    font-weight: 700;
+    font-size: 10px;
+    background: rgba(184, 149, 111, 0.08);
+    border-bottom: 1px solid $border-strong;
+    position: sticky;
+    top: 0;
+  }
+
+  td:first-child {
+    text-align: left;
+    color: $ochre;
+    font-weight: 600;
+    background: rgba(255, 253, 249, 0.5);
+  }
+
+  td { color: $wood; }
+
+  tbody tr:hover td { background: rgba(184, 149, 111, 0.04); }
+}
+
+.t4-coverage-list {
+  margin: 0;
+  padding-left: 20px;
+
+  li {
+    font-size: 11px;
+    color: $text-soft;
+    line-height: 1.6;
+    margin-bottom: 4px;
+
+    strong { color: $wood; }
+
+    &::marker { color: $celadon; font-weight: 700; }
+  }
+}
+
+/* ============================================================
+   Report content (design doc modal)
+   ============================================================ */
+.t4-report-content {
+  p {
+    margin: 0 0 14px;
+    font-size: 14px;
+    line-height: 1.85;
+    color: $ink;
+    text-align: justify;
+    text-indent: 2em;
+
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+.t4-report-subtitle {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: $wood !important;
+  text-align: center !important;
+  text-indent: 0 !important;
+  padding-bottom: 14px;
+  margin-bottom: 16px !important;
+  border-bottom: 1px solid $border-soft;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+/* ============================================================
+   P4 Story Ribbon Viewer overrides
+   ============================================================ */
+
+/* Legend overrides inside side-block */
+.t4-side-block {
+  .p4-legend {
+    margin-top: 0;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  .p4-legend-title { display: none; }
+
+  .p4-legend-groups { gap: 4px; }
+
+  .p4-legend-char {
+    font-size: 10px;
+    padding: 1px 5px;
+  }
+
+  .p4-legend-group-label {
+    font-size: 10px;
+    min-width: 28px;
+    padding: 1px 6px;
+  }
+
+  .p4-legend-dot {
+    width: 7px;
+    height: 7px;
+  }
+}
+
+/* ============================================================
+   Character sparkline list (side panel)
+   ============================================================ */
+.t4-char-sparkline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.t4-char-sparkline-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 6px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: rgba(184, 149, 111, 0.08);
+    border-color: $border-soft;
+  }
+}
+
+.t4-char-sparkline-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.t4-char-sparkline-name {
+  font-size: 11px;
+  font-weight: 600;
+  color: $wood;
+  min-width: 36px;
+  flex-shrink: 0;
+}
+
+.t4-char-sparkline-group {
+  font-size: 9px;
+  color: $text-soft;
+  min-width: 22px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.t4-char-sparkline-item svg {
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.t4-char-sparkline-more {
+  font-size: 10px;
+  color: $text-soft;
+  font-style: italic;
+  text-align: center;
+  padding: 4px 0;
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 1300px) {
+  .t4-main-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 18vw);
+  }
+}
+
+@media (max-width: 1100px) {
+  .t4-screen {
+    height: auto;
+    overflow: visible;
+  }
+
+  .t4-main-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    overflow-y: auto;
+  }
+
+  .t4-side-panel {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .t4-center-stage {
+    min-height: 500px;
+  }
+
+  .t4-topbar {
+    grid-template-columns: 1fr;
+  }
+
+  .t4-report-drawer {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .t4-ribbon-area {
+    overflow-x: hidden;
+  }
+}

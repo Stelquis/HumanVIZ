@@ -1,0 +1,59 @@
+---
+description: 读取改动文件，生成 Conventional Commits 提交信息并自动 commit + push。用法：@git-commit-msg 整理
+alwaysApply: false
+enabled: true
+updatedAt: 2026-05-28T16:16:22.348Z
+provider: 
+---
+
+When this rule is invoked:
+
+1. Run `git status --short` and `git --no-pager diff --stat` to identify all changed files (staged, unstaged, and untracked).
+2. For modified files, read the diffs via `git --no-pager diff`.
+3. For untracked new files, briefly note their purpose.
+4. Summarize the overall change into a **Conventional Commits** message following this format:
+
+   ```
+   <type>(<scope>): <subject>
+   ```
+
+   **Type** — pick ONE from:
+   | Type | When to use |
+   |------|-------------|
+   | `feat` | A new feature or functionality |
+   | `fix` | A bug fix |
+   | `docs` | Documentation only changes |
+   | `style` | Formatting, missing semicolons, etc. (no code change) |
+   | `refactor` | Code restructuring, neither fixes nor adds features |
+   | `perf` | Performance improvement |
+   | `test` | Adding or updating tests |
+   | `build` | Build system / external dependencies (e.g., npm, Docker) |
+   | `ci` | CI/CD configuration |
+   | `chore` | Routine tasks, tooling, maintenance |
+   | `revert` | Reverting a previous commit |
+
+   **Scope** — optional but recommended; use the affected module/directory/file name in lowercase (e.g., `resume`, `docker`, `api`). Omit if no clear scope.
+
+   **Subject** — rules:
+   - Imperative mood, lowercase first letter ("add" not "Added" or "Add")
+   - No trailing period
+   - Describe **what** the change does concisely and accurately
+   - Prefer clarity and precision over brevity; write as long as needed to capture the change faithfully and logically
+
+   **Examples:**
+   - `feat(resume): add standalone HTML version of README`
+   - `fix(docker): resolve port binding conflict on startup`
+   - `docs(readme): update installation instructions`
+   - `refactor(scripts): extract shared deployment logic`
+   - `chore(deps): bump base image to python 3.13`
+
+5. Print the generated commit message to the user.
+6. Immediately execute the following three commands in sequence:
+   - `git add -A`
+   - `git commit -m "<generated commit message>"`
+   - `git push`
+7. Report the result of each command to the user.
+
+---
+
+**Usage:** In the IDE chat, type `@git-commit-msg 整理` to invoke this rule. It will read all current changes, generate a Conventional Commits message, then automatically stage, commit, and push.

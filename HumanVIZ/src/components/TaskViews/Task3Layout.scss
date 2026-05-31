@@ -1,0 +1,453 @@
+// ============================================================
+//  Task 3 — 剧本主题提取与跨剧本比较 · 可视化面板 (Enriched)
+//  Colour scheme: "燕京清晖", consistent with main theme
+//  Layout: 三栏悬浮式
+// ============================================================
+
+$paper: var(--theme-paper);
+$parchment: var(--theme-parchment);
+$khaki: var(--theme-khaki);
+$camel: var(--theme-gold);
+$ochre: var(--theme-bamboo);
+$wood: var(--theme-wood);
+$ink: var(--theme-ink);
+$red: var(--theme-red);
+$celadon: var(--theme-celadon);
+$slate: var(--theme-slate);
+$border: var(--theme-border);
+$border-strong: var(--theme-border-strong);
+$border-soft: var(--theme-border-soft);
+$shadow: var(--theme-shadow-color);
+$glow: var(--theme-glow);
+$text-soft: var(--theme-text-soft);
+
+/* ============================================================
+   Screen
+   ============================================================ */
+.t3-screen {
+  display: flex; flex-direction: column; gap: 8px;
+  height: 100%; overflow: hidden; padding: 8px 10px 10px;
+  color: $ink;
+  background: linear-gradient(180deg, rgba(255,253,249,.55), rgba(246,241,231,.38));
+}
+
+/* ============================================================
+   Topbar
+   ============================================================ */
+.t3-topbar {
+  display: grid; grid-template-columns: 1fr auto; gap: 14px;
+  padding: 10px 16px; border-radius: 16px; flex-shrink: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.35)), $paper;
+  border: 1px solid $border; box-shadow: 0 8px 18px $shadow;
+}
+
+.t3-kicker {
+  font-size: 13px; letter-spacing: .08em; text-transform: uppercase;
+  color: $ochre; font-weight: 600;
+}
+
+.t3-topbar-title-group {
+  h1 {
+    margin: 2px 0 0; font-size: clamp(1.15rem, 1.5vw, 1.45rem);
+    font-family: "PT Serif", "Noto Serif SC", serif; line-height: 1.25; color: $wood;
+  }
+  p { color: $text-soft; line-height: 1.5; font-size: 12px; margin: 3px 0 0; max-width: 720px; }
+}
+
+.t3-topbar-report-trigger {
+  display: flex; align-items: center; flex-shrink: 0; justify-content: flex-end;
+}
+
+.t3-topbar-report-btn {
+  display: inline-flex; align-items: center; align-self: center; gap: 8px;
+  padding: 10px 20px; border-radius: 14px;
+  background: linear-gradient(135deg, rgba(212,197,176,.55), rgba(184,149,111,.12));
+  border: 1.5px solid $border-soft;
+  font-size: 14px; font-weight: 600; color: $wood; cursor: pointer;
+  transition: all .2s ease;
+  font-family: "Noto Serif SC", "PT Serif", "STSong", "SimSun", serif;
+  white-space: nowrap;
+  &:hover { border-color: $camel; background: linear-gradient(135deg, rgba(212,197,176,.7), rgba(184,149,111,.2)); box-shadow: 0 3px 12px $shadow; transform: translateY(-1px); }
+  &:active { transform: scale(.97); }
+}
+
+.t3-report-btn-icon { font-size: 18px; flex-shrink: 0; }
+
+/* ============================================================
+   Main grid
+   ============================================================ */
+.t3-main-grid {
+  display: grid; grid-template-columns: minmax(250px, 19vw) minmax(0, 1fr) minmax(250px, 19vw);
+  gap: 8px; flex: 1; min-height: 0; overflow: hidden;
+}
+
+/* ============================================================
+   Side Panels
+   ============================================================ */
+.t3-side-panel {
+  display: flex; flex-direction: column; gap: 7px; min-height: 0;
+  overflow-y: auto; padding-right: 2px;
+  &::-webkit-scrollbar { width: 3px; }
+  &::-webkit-scrollbar-thumb { background: $border; border-radius: 2px; }
+}
+
+.t3-side-block {
+  background: linear-gradient(180deg, rgba(255,255,255,.58), rgba(246,241,231,.4)), $paper;
+  border: 1px solid $border; border-radius: 12px;
+  padding: 10px 12px; box-shadow: 0 4px 12px $shadow;
+  transition: border-color .2s ease, box-shadow .2s ease;
+  &:hover { border-color: $border-strong; box-shadow: 0 6px 16px $shadow; }
+}
+
+.t3-side-block-header {
+  display: flex; align-items: center; gap: 5px;
+  padding-bottom: 5px; margin-bottom: 6px; border-bottom: 1px solid $border;
+  h3 { margin: 0; font-size: 13px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+  .t3-side-block-icon { font-size: 14px; flex-shrink: 0; }
+}
+
+.t3-side-block-note {
+  font-size: 10px; color: $text-soft; margin-top: 5px; padding-top: 4px;
+  border-top: 1px solid $border-soft; font-style: italic; line-height: 1.4;
+}
+
+/* ============================================================
+   Type selector
+   ============================================================ */
+.t3-type-selector { display: flex; flex-direction: column; gap: 3px; }
+
+.t3-type-btn {
+  display: flex; align-items: center; gap: 7px;
+  padding: 5px 10px; border-radius: 8px; border: 1.5px solid $border-soft;
+  background: linear-gradient(135deg, rgba(255,255,255,.65), rgba(250,247,242,.35));
+  cursor: pointer; font-size: 11px; font-weight: 500; color: $ink;
+  transition: all .18s ease; font-family: inherit;
+  .t3-type-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+  .t3-type-count { margin-left: auto; font-size: 10px; color: $text-soft; background: rgba(255,255,255,.5); padding: 0px 6px; border-radius: 6px; }
+  &:hover { border-color: $border-strong; box-shadow: 0 2px 8px $shadow; transform: translateX(2px); }
+  &.active { border-color: $wood; font-weight: 700; box-shadow: 0 3px 12px $shadow; transform: translateX(3px); }
+}
+
+/* ============================================================
+   Archetype cards
+   ============================================================ */
+.t3-archetype-list { display: flex; flex-direction: column; gap: 4px; }
+
+.t3-archetype-card {
+  display: flex; flex-direction: column;
+  padding: 6px 9px; border-radius: 8px;
+  border: 1.5px solid $border-soft;
+  border-left-width: 4px;
+  background: rgba(255,255,255,.35);
+  cursor: pointer; transition: all .18s ease;
+  font-family: inherit; text-align: left;
+  &:hover { box-shadow: 0 2px 8px $shadow; transform: translateX(1px); }
+  &.expanded { background: rgba(255,255,255,.55); box-shadow: 0 3px 12px $shadow; }
+}
+
+.t3-arch-header {
+  display: flex; justify-content: space-between; align-items: center;
+  .t3-arch-name { font-size: 12px; font-weight: 700; color: $wood; }
+  .t3-arch-count { font-size: 10px; color: $text-soft; background: rgba(255,255,255,.5); padding: 1px 7px; border-radius: 8px; border: 1px solid $border-soft; }
+}
+
+.t3-arch-subtitle { font-size: 9px; color: $text-soft; text-transform: uppercase; letter-spacing: .04em; margin-top: 1px; }
+
+.t3-arch-detail {
+  margin-top: 6px; padding-top: 6px; border-top: 1px solid $border-soft;
+  .t3-arch-themes { display: flex; flex-wrap: wrap; gap: 3px; margin-bottom: 5px; align-items: center; }
+  .t3-arch-label { font-size: 9px; color: $text-soft; margin-right: 2px; }
+  .t3-arch-tag {
+    font-size: 9px; padding: 1px 6px; border-radius: 5px; border: 1px solid; font-weight: 500;
+    &.core { font-weight: 700; }
+  }
+  .t3-arch-desc { font-size: 10px; color: $text-soft; line-height: 1.45; margin: 0; }
+  .t3-arch-meta { font-size: 9px; color: $text-soft; margin-top: 3px; display: flex; gap: 10px; }
+}
+
+/* ============================================================
+   Diversity rows (enhanced)
+   ============================================================ */
+.t3-diversity-row {
+  display: flex; align-items: center; gap: 6px;
+  padding: 3px 8px; border-left: 3px solid; border-radius: 0 5px 5px 0;
+  margin-bottom: 2px; transition: background .15s;
+  .t3-div-type { font-size: 10px; font-weight: 600; color: $wood; min-width: 60px; }
+  .t3-div-bar-wrap { flex: 1; height: 5px; background: rgba(0,0,0,.05); border-radius: 2px; overflow: hidden; }
+  .t3-div-bar { display: block; height: 100%; border-radius: 2px; transition: width .4s ease; }
+  .t3-div-stat { font-size: 10px; color: $text-soft; white-space: nowrap; }
+}
+
+/* ============================================================
+   Right panel — Combo rank rows
+   ============================================================ */
+.t3-combo-rank-row {
+  display: flex; align-items: flex-start; gap: 5px; padding: 3px 0;
+  border-bottom: 1px solid rgba(0,0,0,.04);
+  &:last-child { border-bottom: none; }
+  .t3-combo-rank-num {
+    font-size: 10px; font-weight: 700; color: $camel; min-width: 16px; text-align: center;
+  }
+  .t3-combo-rank-info { flex: 1; min-width: 0; }
+  .t3-combo-rank-themes { display: flex; flex-wrap: wrap; gap: 2px; }
+  .t3-combo-mini-tag {
+    font-size: 9px; padding: 1px 5px; border-radius: 4px; white-space: nowrap;
+    font-weight: 500; color: $wood;
+  }
+  .t3-combo-rank-count {
+    font-size: 10px; font-weight: 700; color: $text-soft; min-width: 24px; text-align: right;
+  }
+}
+
+/* ============================================================
+   PMI rows
+   ============================================================ */
+.t3-pmi-row {
+  display: flex; align-items: center; gap: 5px; padding: 3px 0;
+  font-size: 10px; font-weight: 500;
+  .t3-pmi-connector { color: $text-soft; font-size: 12px; }
+  .t3-pmi-val { margin-left: auto; font-size: 9px; color: $text-soft; text-align: right; }
+  .t3-pmi-npmi { display: block; font-size: 8px; color: $ochre; }
+}
+
+/* ============================================================
+   Genre similarity rows
+   ============================================================ */
+.t3-genre-sim-row {
+  display: flex; align-items: center; gap: 5px; padding: 2px 0;
+  font-size: 10px;
+  .t3-genre-sim-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+  .t3-genre-sim-label { font-weight: 600; color: $wood; min-width: 50px; }
+  .t3-genre-sim-arrow { color: $text-soft; }
+  .t3-genre-sim-target { color: $text-soft; b { color: $wood; } }
+}
+
+/* ============================================================
+   Center
+   ============================================================ */
+.t3-center { display: flex; flex-direction: column; gap: 6px; min-height: 0; overflow: hidden; }
+
+.t3-view-switcher {
+  display: flex; gap: 4px; flex-shrink: 0;
+  .t3-view-btn {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 5px 12px; border-radius: 9px;
+    background: linear-gradient(135deg, rgba(255,255,255,.55), rgba(250,247,242,.35));
+    border: 1.5px solid $border-soft;
+    font-size: 11px; font-weight: 500; color: $wood; cursor: pointer;
+    transition: all .18s ease; font-family: inherit;
+    &:hover { border-color: $border-strong; box-shadow: 0 2px 6px $shadow; transform: translateY(-1px); }
+    &.active { background: linear-gradient(135deg, rgba(94,58,46,.10), rgba(94,58,46,.05)); border-color: $wood; font-weight: 700; box-shadow: 0 3px 10px $shadow; }
+  }
+}
+
+.t3-view-icon { font-size: 13px; }
+
+.t3-main-vis {
+  flex: 1; min-height: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(246,241,231,.3)), $paper;
+  border: 1px solid $border; border-radius: 12px;
+  box-shadow: 0 4px 14px $shadow; overflow: hidden; position: relative;
+}
+
+.t3-chart-box { width: 100%; height: 100%; }
+
+/* ============================================================
+   Design Process Report Sidebar
+   ============================================================ */
+.t3-report-backdrop {
+  position: fixed; inset: 0;
+  background: rgba(58,44,33,.32); backdrop-filter: blur(4px);
+  opacity: 0; pointer-events: none; transition: opacity .28s ease; z-index: 80;
+  &.visible { opacity: 1; pointer-events: auto; }
+}
+
+.t3-report-sidebar {
+  position: fixed; top: 0; right: 0;
+  width: min(620px, 52vw); height: 100vh; z-index: 90;
+  display: flex; flex-direction: column;
+  background: linear-gradient(180deg, rgba(255,253,249,.98), rgba(246,241,231,.96));
+  border-left: 1px solid $border-strong;
+  box-shadow: -8px 0 32px rgba(58,44,33,.18);
+  transform: translateX(100%); transition: transform .32s cubic-bezier(.4,0,.2,1);
+  &.open { transform: translateX(0); }
+}
+
+.t3-report-sidebar-header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 18px 22px; border-bottom: 1px solid $border; flex-shrink: 0;
+  h2 { flex: 1; margin: 0; font-size: 20px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+}
+
+.t3-report-sidebar-header-icon { font-size: 22px; flex-shrink: 0; }
+
+.t3-report-sidebar-close {
+  display: flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border-radius: 50%;
+  border: 1.5px solid $border-strong; background: rgba(255,255,255,.6);
+  color: $wood; font-size: 16px; cursor: pointer; transition: all .2s ease; flex-shrink: 0;
+  &:hover { background: $red; color: #fff; border-color: $red; }
+}
+
+.t3-report-tabs {
+  display: flex; gap: 2px; padding: 10px 14px;
+  border-bottom: 1px solid $border; flex-shrink: 0;
+  overflow-x: auto; background: rgba(246,241,231,.25);
+  &::-webkit-scrollbar { height: 3px; }
+  &::-webkit-scrollbar-thumb { background: $border; border-radius: 2px; }
+}
+
+.t3-report-tab {
+  display: flex; align-items: center; gap: 5px;
+  padding: 7px 13px; border-radius: 8px;
+  border: 1.5px solid transparent; background: transparent;
+  color: $text-soft; font-size: 12px; font-weight: 600;
+  cursor: pointer; transition: all .2s ease;
+  font-family: inherit; white-space: nowrap; flex-shrink: 0;
+  &:hover { color: $wood; background: rgba(184,149,111,.1); border-color: $border-soft; }
+  &.active { color: $red; background: rgba(150,84,77,.1); border-color: rgba(150,84,77,.3); box-shadow: 0 2px 6px rgba(150,84,77,.1); }
+}
+
+.t3-report-tab-icon { font-size: 14px; line-height: 1; }
+.t3-report-tab-label { line-height: 1; }
+
+.t3-report-sidebar-body {
+  flex: 1; min-height: 0; overflow-y: auto; padding: 18px 22px;
+  &::-webkit-scrollbar { width: 5px; }
+  &::-webkit-scrollbar-thumb { background: $border; border-radius: 3px; }
+}
+
+/* ── Drawer content: method tab ── */
+.t3-method-tab {
+  display: flex; flex-direction: column; gap: 16px;
+}
+
+.t3-method-section {
+  h4 { margin: 0 0 6px; font-size: 14px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+  p { font-size: 12px; color: $text-soft; line-height: 1.6; margin: 0; }
+}
+
+.t3-method-note { font-size: 11px; color: $text-soft; font-style: italic; margin-top: 4px; }
+
+.t3-method-theme-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 5px;
+}
+
+.t3-method-theme-card {
+  padding: 5px 8px; border-radius: 6px; border: 1px solid $border-soft;
+  border-left-width: 3px; background: rgba(255,255,255,.35);
+  .t3-method-theme-name { font-size: 11px; font-weight: 600; display: flex; align-items: center; gap: 4px; }
+  .t3-method-theme-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .t3-method-theme-stats { font-size: 9px; color: $text-soft; margin-top: 2px; }
+}
+
+/* Extraction examples */
+.t3-extract-card {
+  padding: 8px 10px; border-radius: 8px; border: 1px solid $border-soft;
+  background: rgba(255,255,255,.4); margin-bottom: 6px;
+  .t3-extract-title { font-size: 12px; font-weight: 700; color: $wood; margin-bottom: 3px; display: flex; align-items: center; gap: 6px; }
+  .t3-extract-genre { font-size: 9px; color: $text-soft; background: rgba(0,0,0,.04); padding: 1px 6px; border-radius: 4px; }
+  .t3-extract-count { font-size: 9px; color: $ochre; margin-left: auto; }
+  .t3-extract-plot { font-size: 10px; color: $text-soft; line-height: 1.5; margin-bottom: 5px; }
+  .t3-extract-themes { display: flex; flex-wrap: wrap; gap: 3px; }
+  .t3-extract-theme-tag {
+    font-size: 10px; padding: 2px 7px; border-radius: 5px; border: 1px solid; font-weight: 500;
+    .t3-extract-kw { font-size: 8px; color: $text-soft; }
+  }
+}
+
+/* ── Drawer content: combos tab ── */
+.t3-combos-tab { display: flex; flex-direction: column; gap: 10px; }
+
+.t3-combos-filter {
+  display: flex; align-items: center; gap: 5px; flex-wrap: wrap;
+  .t3-combos-filter-label { font-size: 11px; font-weight: 600; color: $wood; }
+}
+
+.t3-combos-filter-btn {
+  padding: 3px 9px; border-radius: 6px; border: 1px solid $border-soft;
+  background: rgba(255,255,255,.4); font-size: 10px; cursor: pointer;
+  color: $wood; font-family: inherit; transition: all .15s ease;
+  &:hover { border-color: $border-strong; }
+  &.active { background: linear-gradient(135deg, rgba(94,58,46,.10), rgba(94,58,46,.05)); border-color: $wood; font-weight: 700; }
+}
+
+.t3-combos-list { display: flex; flex-direction: column; gap: 6px; }
+
+.t3-combo-detail-card {
+  padding: 8px 10px; border-radius: 8px; border: 1px solid $border-soft;
+  background: rgba(255,255,255,.4);
+  .t3-combo-detail-header { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+  .t3-combo-detail-rank { font-size: 12px; font-weight: 700; color: $camel; }
+  .t3-combo-detail-count { font-size: 11px; font-weight: 600; color: $wood; }
+  .t3-combo-detail-primary { font-size: 9px; color: $text-soft; margin-left: auto; }
+  .t3-combo-detail-themes { display: flex; flex-wrap: wrap; gap: 3px; margin-bottom: 4px; }
+  .t3-combo-detail-tag {
+    font-size: 10px; padding: 2px 7px; border-radius: 5px; border: 1px solid; font-weight: 500;
+  }
+  .t3-combo-detail-none { font-size: 10px; color: $text-soft; font-style: italic; }
+  .t3-combo-detail-examples { font-size: 9px; color: $text-soft; margin-bottom: 3px; }
+  .t3-combo-detail-genre-dist { display: flex; gap: 2px; height: 14px; border-radius: 3px; overflow: hidden; }
+  .t3-combo-detail-gbar {
+    display: flex; align-items: center; justify-content: center;
+    font-size: 7px; color: #fff; white-space: nowrap; overflow: hidden;
+    transition: flex .3s ease;
+  }
+}
+
+/* ── Drawer content: stats tab ── */
+.t3-stats-tab { display: flex; flex-direction: column; gap: 16px; }
+
+.t3-drawer-chart-half { width: 100%; height: 300px; }
+
+.t3-distance-matrix {
+  overflow-x: auto;
+  table {
+    width: 100%; border-collapse: collapse;
+    th, td { padding: 5px 8px; font-size: 11px; border: 1px solid $border-soft; }
+    th { font-weight: 700; font-size: 10px; }
+  }
+}
+
+.t3-findings-list {
+  margin: 0; padding-left: 18px;
+  li { font-size: 11px; color: $text-soft; line-height: 1.6; margin-bottom: 4px; b { color: $wood; } }
+}
+
+/* ── Report Content ── */
+.t3-report-content {
+  h3 {
+    margin: 20px 0 8px; font-size: 15px; font-weight: 700; color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+    padding-bottom: 6px; border-bottom: 1px solid $border-soft;
+    &:first-of-type { margin-top: 0; }
+  }
+  p {
+    margin: 0 0 14px; font-size: 14px; line-height: 1.85; color: $ink;
+    text-align: justify; text-indent: 2em;
+    font-family: "Noto Serif SC", "PT Serif", "STSong", "SimSun", serif;
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+.t3-report-subtitle {
+  font-size: 15px !important; font-weight: 700 !important; color: $wood !important;
+  text-align: center !important; text-indent: 0 !important;
+  padding-bottom: 14px; margin-bottom: 16px !important;
+  border-bottom: 1px solid $border-soft;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 1200px) {
+  .t3-report-sidebar { width: min(520px, 56vw); }
+}
+
+@media (max-width: 1080px) {
+  .t3-main-grid { grid-template-columns: 1fr; }
+  .t3-report-sidebar { width: 100vw; }
+  .t3-topbar-report-btn { padding: 8px 16px; font-size: 13px; }
+  .t3-method-theme-grid { grid-template-columns: 1fr; }
+}

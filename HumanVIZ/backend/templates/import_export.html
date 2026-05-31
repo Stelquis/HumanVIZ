@@ -1,0 +1,271 @@
+{% extends "base.html" %}
+
+{% block title %}导入导出 - HumanVIZ{% endblock %}
+
+{% block content %}
+<div class="page-header animate-fade-in">
+    <h1 class="page-title">📥📤 数据导入导出</h1>
+    <p class="page-subtitle">简单快速的数据交换工具</p>
+</div>
+
+<!-- 数据导入 -->
+<div class="card animate-card" style="--delay: 0.08s;">
+    <div class="card-header">
+        <div class="card-title">📥 数据导入</div>
+    </div>
+    <div class="card-body">
+        <div class="upload-area" id="uploadArea" onclick="document.getElementById('fileInput').click()">
+            <div class="upload-icon">📁</div>
+            <div class="upload-text">点击或拖拽文件到此处上传</div>
+            <div class="upload-hint">支持格式: Excel (.xlsx, .xls), CSV (.csv), JSON (.json), TXT (.txt)</div>
+            <input type="file" id="fileInput" style="display: none;" accept=".xlsx,.xls,.csv,.json,.txt" onchange="handleFileUpload(event)">
+        </div>
+        <div id="uploadStatus" style="margin-top: 0.75rem; display: none;">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div id="uploadMessage" class="upload-status-message"></div>
+        </div>
+    </div>
+</div>
+
+<!-- 数据导出 -->
+<div class="card animate-card" style="--delay: 0.16s;">
+    <div class="card-header">
+        <div class="card-title">📤 数据导出</div>
+    </div>
+    <div class="card-body">
+        <div style="margin-bottom: 0.75rem;">
+            <label class="form-label-custom">选择要导出的数据集</label>
+            <select id="exportDataset" class="form-select">
+                <option value="">-- 请选择 --</option>
+                {% for dataset in datasets %}
+                <option value="{{ dataset.id }}">{{ dataset.name }} ({{ dataset.record_count }} 条)</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div style="margin-bottom: 0.75rem;">
+            <label class="form-label-custom">导出格式</label>
+            <div class="radio-group">
+                <label class="radio-label">
+                    <input type="radio" name="exportFormat" value="json" checked> JSON
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="exportFormat" value="csv"> CSV
+                </label>
+            </div>
+        </div>
+        <button class="btn btn-primary" onclick="exportData()">📥 导出数据</button>
+    </div>
+</div>
+
+
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* 上传区域 - 统一主题配色 */
+    .upload-area {
+        border: 2px dashed var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background: var(--surface-base);
+    }
+    .upload-area:hover {
+        border-color: var(--primary);
+        background: var(--bg-hover);
+    }
+    .upload-icon {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .upload-text {
+        font-size: 0.9375rem;
+        color: var(--text-primary);
+        margin-bottom: 0.25rem;
+        font-weight: 500;
+    }
+    .upload-hint {
+        font-size: 0.8125rem;
+        color: var(--text-muted);
+    }
+
+    /* 表单选择器 */
+    .form-select {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        border: var(--card-border);
+        border-radius: 10px;
+        background: var(--surface-base);
+        font-size: 0.875rem;
+        color: var(--text-primary);
+        transition: all 0.3s ease;
+    }
+    .form-select:focus {
+        outline: none;
+        border-color: var(--primary);
+        box-shadow: var(--focus-ring);
+    }
+
+    /* 按钮样式 - 继承 style.css */
+
+    /* 进度条 - 统一配色 */
+    .progress-bar {
+        width: 100%;
+        height: 8px;
+        background: var(--paper-light);
+        border-radius: 4px;
+        overflow: hidden;
+        border: 1px solid var(--border-soft);
+    }
+    .progress-fill {
+        height: 100%;
+        background: var(--gradient-primary);
+        width: 0%;
+        transition: width 0.3s ease;
+    }
+
+    /* 表单标签 */
+    .form-label-custom {
+        display: block;
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+        margin-bottom: 0.5rem;
+    }
+
+    /* 单选框样式 */
+    .radio-group {
+        display: flex;
+        gap: 1rem;
+    }
+    .radio-label {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+        color: var(--text-primary);
+        transition: color 0.2s ease;
+    }
+    .radio-label:hover {
+        color: var(--primary);
+    }
+
+    /* 上传状态 */
+    .upload-status-message {
+        margin-top: 0.5rem;
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+    }
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// 拖拽上传
+const uploadArea = document.getElementById('uploadArea');
+uploadArea.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    uploadArea.style.borderColor = 'var(--primary)';
+    uploadArea.style.background = 'var(--bg-hover)';
+});
+uploadArea.addEventListener('dragleave', () => {
+    uploadArea.style.borderColor = '';
+    uploadArea.style.background = '';
+});
+uploadArea.addEventListener('drop', (e) => {
+    e.preventDefault();
+    uploadArea.style.borderColor = '';
+    uploadArea.style.background = '';
+    const files = e.dataTransfer.files;
+    if (files.length > 0) {
+        uploadFile(files[0]);
+    }
+});
+
+function handleFileUpload(event) {
+    const file = event.target.files[0];
+    if (file) {
+        uploadFile(file);
+    }
+}
+
+async function uploadFile(file) {
+    const statusDiv = document.getElementById('uploadStatus');
+    const progressFill = document.getElementById('progressFill');
+    const messageDiv = document.getElementById('uploadMessage');
+    
+    statusDiv.style.display = 'block';
+    progressFill.style.width = '0%';
+    messageDiv.textContent = `正在上传: ${file.name}`;
+    
+    const formData = new FormData();
+    formData.append('file', file);
+    
+    try {
+        // 模拟进度
+        let progress = 0;
+        const interval = setInterval(() => {
+            progress += 10;
+            if (progress <= 90) {
+                progressFill.style.width = progress + '%';
+            }
+        }, 100);
+        
+        const response = await fetch('/api/v1/admin/import', {
+            method: 'POST',
+            body: formData
+        });
+        
+        clearInterval(interval);
+        progressFill.style.width = '100%';
+        
+        const result = await response.json();
+        
+        if (result.code === 0) {
+            messageDiv.innerHTML = `<span style="color: var(--success);">✅ 导入成功: ${result.data.imported} 条记录</span>`;
+            setTimeout(() => location.reload(), 1500);
+        } else {
+            messageDiv.innerHTML = `<span style="color: var(--error);">❌ 导入失败: ${result.message}</span>`;
+        }
+    } catch (error) {
+        messageDiv.innerHTML = `<span style="color: var(--error);">❌ 上传失败: ${error.message}</span>`;
+    }
+}
+
+async function exportData() {
+    const datasetId = document.getElementById('exportDataset').value;
+    const format = document.querySelector('input[name="exportFormat"]:checked').value;
+    
+    if (!datasetId) {
+        alert('请选择要导出的数据集');
+        return;
+    }
+    
+    try {
+        const response = await fetch(`/api/v1/admin/export?dataset_id=${datasetId}&format=${format}`);
+        const result = await response.json();
+        
+        if (result.code === 0 && result.data) {
+            // 创建下载
+            const blob = new Blob(
+                [format === 'json' ? JSON.stringify(result.data, null, 2) : result.data],
+                { type: format === 'json' ? 'application/json' : 'text/csv' }
+            );
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${datasetId}.${format}`;
+            a.click();
+            URL.revokeObjectURL(url);
+        } else {
+            alert('导出失败: ' + result.message);
+        }
+    } catch (error) {
+        alert('导出失败: ' + error.message);
+    }
+}
+</script>
+{% endblock %}

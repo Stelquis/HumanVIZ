@@ -1,0 +1,387 @@
+{% extends "base.html" %}
+
+{% block title %}数据管理 - HumanVIZ{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* 数据表格 - 统一主题配色 */
+    .data-table tr.expandable {
+        cursor: pointer;
+    }
+    .data-table tr.expandable:hover td {
+        background: var(--bg-hover);
+    }
+
+    /* 预览行 */
+    .preview-row {
+        animation: slideDown 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .preview-row td {
+        padding: 0 !important;
+        background: var(--bg-container) !important;
+        border-bottom: 1px solid var(--border-strong);
+        width: 900px;
+        max-width: 900px;
+    }
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-12px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .preview-row .preview-cell {
+        padding: 0 1.5rem 1.5rem;
+    }
+
+    /* 预览头部 */
+    .preview-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--border);
+    }
+    .preview-title {
+        font-weight: 600;
+        color: var(--text-primary);
+    }
+    .preview-title span {
+        color: var(--primary);
+    }
+    .preview-count {
+        font-size: 0.75rem;
+        color: var(--text-secondary);
+        font-weight: 400;
+        margin-left: 0.5rem;
+    }
+    .preview-actions {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    /* 白板容器 - 统一使用 surface 色系 */
+    .preview-whiteboard {
+        background: var(--surface-base);
+        border: var(--card-border-strong);
+        border-radius: 12px;
+        box-shadow: var(--card-shadow);
+        overflow: auto;
+        height: 320px;
+        width: 100%;
+        scrollbar-width: thin;
+        scrollbar-color: var(--gold-mid) var(--paper-light);
+        animation: fadeInScale 0.4s cubic-bezier(0.22, 1, 0.36, 1) 0.1s both;
+    }
+    @keyframes fadeInScale {
+        from {
+            opacity: 0;
+            transform: scale(0.98);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    .preview-whiteboard::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    .preview-whiteboard::-webkit-scrollbar-track {
+        background: var(--paper-light);
+        border-radius: 4px;
+    }
+    .preview-whiteboard::-webkit-scrollbar-thumb {
+        background: var(--gold-mid);
+        border-radius: 4px;
+    }
+    .preview-whiteboard::-webkit-scrollbar-thumb:hover {
+        background: var(--gold-dark);
+    }
+    .preview-whiteboard pre {
+        margin: 0;
+        padding: 1rem;
+        white-space: pre;
+        font-size: 0.8125rem;
+        line-height: 1.6;
+        background: var(--surface-base);
+        min-width: max-content;
+    }
+    .preview-whiteboard code {
+        background: var(--surface-base);
+        color: var(--text-primary);
+    }
+
+    /* 加载动画 */
+    .loading-spinner {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border: 2px solid var(--border-strong);
+        border-top-color: var(--primary);
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+        to { transform: rotate(360deg); }
+    }
+
+    /* 展开图标 */
+    .expand-icon {
+        transition: transform 0.3s ease;
+        display: inline-block;
+        color: var(--text-secondary);
+    }
+    .expand-icon.expanded {
+        transform: rotate(90deg);
+        color: var(--primary);
+    }
+
+    /* 代码标签 - 统一配色 */
+    .code-tag {
+        background: var(--bg-module-warm);
+        color: var(--theme-wood);
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.8125rem;
+        border: 1px solid var(--gold-border);
+        font-family: monospace;
+    }
+
+    /* 统计卡片文字 - 保持渐变效果 */
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="page-header animate-fade-in">
+    <h1 class="page-title">🗂️ 数据管理中心</h1>
+    <p class="page-subtitle">查看、预览和管理所有数据集</p>
+</div>
+
+<!-- 数据集统计 -->
+<div class="stats-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+    <div class="stat-card animate-card" style="--delay: 0.08s;">
+        <div class="stat-value" style="font-size: 2rem;">{{ datasets|length }}</div>
+        <div class="stat-label">总数据集</div>
+    </div>
+    <div class="stat-card animate-card" style="--delay: 0.16s;">
+        <div class="stat-value" style="font-size: 2rem;">{{ datasets|selectattr("record_count")|map(attribute="record_count")|sum }}</div>
+        <div class="stat-label">总记录数</div>
+    </div>
+</div>
+
+<!-- 数据集列表 -->
+<div class="card animate-card" style="--delay: 0.24s;">
+    <div class="card-header">
+        <div class="card-title">📁 所有数据集</div>
+        <span class="badge badge-info">共 {{ datasets|length }} 个</span>
+    </div>
+    <div class="card-body" style="padding: 0; overflow-x: auto;">
+        <table class="data-table" id="dataset-table" style="min-width: 800px;">
+            <thead>
+                <tr>
+                    <th style="width: 40px;"></th>
+                    <th>ID</th>
+                    <th>名称</th>
+                    <th>记录数</th>
+                    <th>描述</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for dataset in datasets %}
+                <tr data-id="{{ dataset.id }}" onclick="togglePreview('{{ dataset.id }}')" class="expandable">
+                    <td style="text-align: center;">
+                        <span class="expand-icon" id="icon-{{ dataset.id }}">▶</span>
+                    </td>
+                    <td><code class="code-tag">{{ dataset.id }}</code></td>
+                    <td><strong>{{ dataset.name }}</strong></td>
+                    <td>{% if dataset.record_count %}{{ dataset.record_count }} 条{% else %}-{% endif %}</td>
+                    <td>{{ dataset.description }}</td>
+                    <td onclick="event.stopPropagation();">
+                        <button onclick="previewDataset('{{ dataset.id }}')" class="btn btn-primary btn-sm">预览</button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let expandedRows = new Set();
+let currentPreviewData = null;
+
+function togglePreview(datasetId) {
+    const icon = document.getElementById('icon-' + datasetId);
+
+    // 如果点击的是已展开的行，则收起
+    if (expandedRows.has(datasetId)) {
+        closePreview(datasetId);
+        icon.classList.remove('expanded');
+        expandedRows.delete(datasetId);
+        return;
+    }
+
+    // 展开新行
+    icon.classList.add('expanded');
+    expandedRows.add(datasetId);
+
+    // 创建预览行
+    const currentRow = document.querySelector(`tr[data-id="${datasetId}"]`);
+    const previewRow = document.createElement('tr');
+    previewRow.id = 'preview-' + datasetId;
+    previewRow.className = 'preview-row';
+    previewRow.innerHTML = `
+        <td colspan="6">
+            <div class="preview-cell">
+                <div class="preview-header">
+                    <div class="preview-title">
+                        👁️ 数据预览: <span>${datasetId}</span>
+                        <span class="preview-count" id="preview-count-${datasetId}"></span>
+                    </div>
+                    <div class="preview-actions">
+                        <button onclick="copyPreviewData('${datasetId}')" class="btn btn-primary btn-sm">
+                            <span>📋</span><span>复制 JSON</span>
+                        </button>
+                        <button onclick="event.stopPropagation(); closePreview('${datasetId}')" class="btn btn-secondary btn-sm">关闭</button>
+                    </div>
+                </div>
+                <div class="preview-whiteboard" id="preview-content-${datasetId}">
+                    <div style="text-align: center; padding: 3rem; color: var(--text-secondary);">
+                        <span class="loading-spinner"></span> 加载中...
+                    </div>
+                </div>
+            </div>
+        </td>
+    `;
+
+    currentRow.parentNode.insertBefore(previewRow, currentRow.nextSibling);
+
+    // 加载数据
+    loadPreview(datasetId);
+}
+
+async function loadPreview(datasetId) {
+    const contentDiv = document.getElementById('preview-content-' + datasetId);
+    const previewDataMap = window.previewDataMap = window.previewDataMap || {};
+
+    try {
+        const response = await fetch(`/api/v1/datasets/${datasetId}/preview?limit=50`);
+        const result = await response.json();
+
+        if (result.code === 0) {
+            previewDataMap[datasetId] = result.data;
+            const countInfo = `(共计 ${result.data.total} 条)`;
+            contentDiv.innerHTML = `
+                <pre><code>${syntaxHighlight(JSON.stringify(result.data.data, null, 2))}</code></pre>
+            `;
+            // 更新头部记录数
+            const countElement = document.getElementById('preview-count-' + datasetId);
+            if (countElement) {
+                countElement.textContent = countInfo;
+            }
+        } else {
+            contentDiv.innerHTML = `
+                <div style="padding: 3rem; text-align: center; color: var(--error);">
+                    加载失败: ${result.message}
+                </div>
+            `;
+        }
+    } catch (error) {
+            contentDiv.innerHTML = `
+                <div style="padding: 3rem; text-align: center; color: var(--error);">
+                    请求失败: ${error.message}
+                </div>
+            `;
+    }
+}
+
+function closePreview(datasetId) {
+    const previewRow = document.getElementById('preview-' + datasetId);
+    if (previewRow) {
+        previewRow.remove();
+    }
+    expandedRows.delete(datasetId);
+}
+
+// 保持原有函数兼容
+async function previewDataset(datasetId) {
+    togglePreview(datasetId);
+}
+
+function copyPreviewData(datasetId) {
+    const previewDataMap = window.previewDataMap = window.previewDataMap || {};
+    const data = previewDataMap[datasetId];
+
+    if (!data) {
+        showToast('没有可复制的数据');
+        return;
+    }
+
+    const jsonStr = JSON.stringify(data.data, null, 2);
+    navigator.clipboard.writeText(jsonStr).then(() => {
+        showToast('JSON 已复制到剪贴板');
+    }).catch(err => {
+        console.error('复制失败:', err);
+        alert('复制失败，请手动复制');
+    });
+}
+
+function syntaxHighlight(json) {
+    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+        let cls = 'color: var(--syntax-string);';
+        if (/^"/.test(match)) {
+            if (/:$/.test(match)) {
+                cls = 'color: var(--syntax-key);';
+            } else {
+                cls = 'color: var(--syntax-string);';
+            }
+        } else if (/true|false/.test(match)) {
+            cls = 'color: var(--syntax-boolean);';
+        } else if (/null/.test(match)) {
+            cls = 'color: var(--syntax-null);';
+        } else {
+            cls = 'color: var(--syntax-number);';
+        }
+        return '<span style="' + cls + '">' + match + '</span>';
+    });
+}
+
+function showToast(message) {
+    const toast = document.createElement('div');
+    toast.style.cssText = `
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        background: var(--toast-bg);
+        backdrop-filter: blur(10px);
+        color: var(--text-inverse);
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+        font-weight: 500;
+        z-index: 10000;
+        animation: fadeIn 0.3s ease;
+        box-shadow: var(--shadow-float);
+    `;
+    toast.textContent = message;
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 3000);
+}
+
+// 如果有URL参数指定数据集，自动预览
+const urlParams = new URLSearchParams(window.location.search);
+const datasetParam = urlParams.get('dataset');
+if (datasetParam) {
+    togglePreview(datasetParam);
+}
+</script>
+{% endblock %}

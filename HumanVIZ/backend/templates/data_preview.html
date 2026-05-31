@@ -1,0 +1,293 @@
+{% extends "base.html" %}
+
+{% block title %}数据预览 - HumanVIZ{% endblock %}
+
+{% block content %}
+<div class="page-header animate-fade-in">
+    <h1 class="page-title">🔍 数据预览</h1>
+    <p class="page-subtitle">浏览和筛选数据集中的记录</p>
+</div>
+
+<!-- 数据集选择 -->
+<div class="card animate-card" style="--delay: 0.08s;">
+    <div class="card-header">
+        <div class="card-title">📁 选择数据集</div>
+    </div>
+    <div class="card-body">
+        <select id="datasetSelect" class="form-select" onchange="loadDataset()">
+            <option value="">-- 请选择数据集 --</option>
+            {% for dataset in datasets %}
+            <option value="{{ dataset.id }}">{{ dataset.name }} ({{ dataset.record_count }} 条)</option>
+            {% endfor %}
+        </select>
+    </div>
+</div>
+
+<!-- 筛选条件 -->
+<div class="card animate-card" style="--delay: 0.16s; display: none;" id="filterCard">
+    <div class="card-header">
+        <div class="card-title">🔎 筛选条件</div>
+    </div>
+    <div class="card-body">
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 200px;">
+                <label class="form-label-custom">搜索关键词</label>
+                <input type="text" id="searchInput" class="form-input" placeholder="输入关键词搜索..." onkeyup="applyFilter()">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 数据表格 -->
+<div class="card animate-card" style="--delay: 0.24s; display: none;" id="dataCard">
+    <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="card-title">📊 数据列表</div>
+        <div class="stats-text">
+            显示 <span id="showingCount">0</span> / <span id="totalCount">0</span> 条
+        </div>
+    </div>
+    <div class="card-body" style="padding: 0; overflow-x: auto;">
+        <table class="data-table" id="dataTable">
+            <thead>
+                <tr id="tableHeader"></tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- 分页 -->
+<div class="card animate-card" style="--delay: 0.32s; display: none;" id="paginationCard">
+    <div class="card-body" style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+        <button class="btn btn-secondary" onclick="changePage(-1)">← 上一页</button>
+        <span id="pageInfo" style="color: var(--text-secondary);">第 1 页</span>
+        <button class="btn btn-secondary" onclick="changePage(1)">下一页 →</button>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* 表单元素 - 统一主题配色 */
+    .form-select, .form-input {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        border: var(--card-border);
+        border-radius: 10px;
+        background: var(--surface-base);
+        font-size: 0.875rem;
+        color: var(--text-primary);
+        transition: all 0.3s ease;
+    }
+    .form-select:focus, .form-input:focus {
+        outline: none;
+        border-color: var(--primary);
+        box-shadow: var(--focus-ring);
+    }
+
+    /* 数据表格 - 统一配色 */
+    .data-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.875rem;
+    }
+    .data-table th,
+    .data-table td {
+        padding: 0.875rem 1.25rem;
+        text-align: left;
+        border-bottom: var(--table-border);
+    }
+    .data-table th {
+        background: var(--table-head-bg);
+        font-weight: 600;
+        color: var(--text-secondary);
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        white-space: nowrap;
+    }
+    .data-table tr:hover {
+        background: var(--table-row-hover);
+    }
+    .data-table td {
+        max-width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    /* 次级按钮 - 统一配色 */
+    .btn-secondary {
+        padding: 0.5rem 1rem;
+        background: var(--bg-hover);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 0.875rem;
+        color: var(--text-primary);
+        transition: all 0.3s ease;
+    }
+    .btn-secondary:hover {
+        background: var(--border);
+        border-color: var(--primary);
+    }
+    .btn-secondary:disabled {
+        background: var(--bg-disabled);
+        color: var(--text-disabled);
+        cursor: not-allowed;
+        opacity: 0.6;
+    }
+
+    /* 标签样式 */
+    .form-label-custom {
+        display: block;
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+        margin-bottom: 0.5rem;
+    }
+
+    /* 统计文字 */
+    .stats-text {
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+    }
+    .stats-text span {
+        color: var(--primary);
+        font-weight: 600;
+    }
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let currentData = [];
+let filteredData = [];
+let currentPage = 1;
+const pageSize = 20;
+
+async function loadDataset() {
+    const datasetId = document.getElementById('datasetSelect').value;
+    if (!datasetId) {
+        document.getElementById('filterCard').style.display = 'none';
+        document.getElementById('dataCard').style.display = 'none';
+        document.getElementById('paginationCard').style.display = 'none';
+        return;
+    }
+
+    try {
+        const response = await fetch(`/api/v1/datasets/${datasetId}`);
+        const result = await response.json();
+        
+        if (result.code === 0 && result.data) {
+            currentData = result.data.entities || [];
+            filteredData = [...currentData];
+            currentPage = 1;
+            
+            // 显示卡片
+            document.getElementById('filterCard').style.display = 'block';
+            document.getElementById('dataCard').style.display = 'block';
+            document.getElementById('paginationCard').style.display = 'block';
+            
+            renderTable();
+        }
+    } catch (error) {
+        console.error('加载数据失败:', error);
+        alert('加载数据失败');
+    }
+}
+
+function applyFilter() {
+    const keyword = document.getElementById('searchInput').value.toLowerCase();
+    
+    filteredData = currentData.filter(item => {
+        let attrs = item.attributes;
+        if (typeof attrs === 'string') {
+            try {
+                attrs = JSON.parse(attrs);
+            } catch {
+                attrs = {};
+            }
+        }
+        
+        // 关键词搜索
+        if (keyword) {
+            const text = JSON.stringify(attrs).toLowerCase();
+            if (!text.includes(keyword)) return false;
+        }
+        
+        return true;
+    });
+    
+    currentPage = 1;
+    renderTable();
+}
+
+function renderTable() {
+    const start = (currentPage - 1) * pageSize;
+    const end = start + pageSize;
+    const pageData = filteredData.slice(start, end);
+    
+    // 更新计数
+    document.getElementById('showingCount').textContent = pageData.length;
+    document.getElementById('totalCount').textContent = filteredData.length;
+    
+    // 生成表头
+    const headerRow = document.getElementById('tableHeader');
+    headerRow.innerHTML = '<th>ID</th><th>名称</th>';
+    
+    if (pageData.length > 0 && pageData[0].attributes) {
+        let attrs = pageData[0].attributes;
+        if (typeof attrs === 'string') {
+            try {
+                attrs = JSON.parse(attrs);
+            } catch {
+                attrs = {};
+            }
+        }
+        Object.keys(attrs).slice(0, 5).forEach(key => {
+            headerRow.innerHTML += `<th>${key}</th>`;
+        });
+    }
+    
+    // 生成表格内容
+    const tbody = document.getElementById('tableBody');
+    tbody.innerHTML = '';
+    
+    pageData.forEach(item => {
+        let attrs = item.attributes || {};
+        if (typeof attrs === 'string') {
+            try {
+                attrs = JSON.parse(attrs);
+            } catch {
+                attrs = {};
+            }
+        }
+        
+        let row = `<td>${item.id}</td>`;
+        row += `<td>${item.name || '-'}</td>`;
+        
+        Object.values(attrs).slice(0, 5).forEach(val => {
+            let text = val === null ? '-' : String(val);
+            if (text.length > 50) text = text.substring(0, 50) + '...';
+            row += `<td>${text}</td>`;
+        });
+        
+        tbody.innerHTML += `<tr>${row}</tr>`;
+    });
+    
+    // 更新分页
+    document.getElementById('pageInfo').textContent = 
+        `第 ${currentPage} 页 / 共 ${Math.ceil(filteredData.length / pageSize)} 页`;
+}
+
+function changePage(delta) {
+    const maxPage = Math.ceil(filteredData.length / pageSize);
+    const newPage = currentPage + delta;
+    
+    if (newPage >= 1 && newPage <= maxPage) {
+        currentPage = newPage;
+        renderTable();
+    }
+}
+</script>
+{% endblock %}

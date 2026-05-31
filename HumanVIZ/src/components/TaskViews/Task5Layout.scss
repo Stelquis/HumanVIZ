@@ -1,0 +1,427 @@
+// ============================================================
+//  Task 5 — 梨园星图 · 多维综合分析
+//  Layout: 顶栏 + 全屏星图 + 滑出面板
+// ============================================================
+
+$paper: var(--theme-paper);
+$parchment: var(--theme-parchment);
+$khaki: var(--theme-khaki);
+$camel: var(--theme-gold);
+$ochre: var(--theme-bamboo);
+$wood: var(--theme-wood);
+$ink: var(--theme-ink);
+$red: var(--theme-red);
+$celadon: var(--theme-celadon);
+$slate: var(--theme-slate);
+$border: var(--theme-border);
+$border-strong: var(--theme-border-strong);
+$border-soft: var(--theme-border-soft);
+$shadow: var(--theme-shadow-color);
+$text-soft: var(--theme-text-soft);
+
+/* ============================================================
+   Screen
+   ============================================================ */
+.t5-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  overflow: hidden;
+  padding: 10px 12px;
+  color: $ink;
+  background: linear-gradient(180deg,
+    rgba(255, 253, 249, 0.55) 0%,
+    rgba(246, 241, 231, 0.38) 100%);
+}
+
+/* ============================================================
+   Topbar (matches LiyuanOverview style)
+   ============================================================ */
+.t5-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 8px 18px;
+  border-radius: 14px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.35)), $paper;
+  border: 1px solid $border;
+  box-shadow: 0 6px 16px $shadow;
+}
+
+.t5-topbar-left {
+  min-width: 0;
+}
+
+.t5-kicker {
+  font-size: 10px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: $ochre;
+  font-weight: 600;
+}
+
+.t5-topbar-left h1 {
+  margin: 0;
+  font-size: clamp(1.1rem, 1.4vw, 1.4rem);
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  font-weight: 700;
+  color: $wood;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.t5-topbar-right {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.t5-topbar-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 14px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(212, 197, 176, 0.35), rgba(184, 149, 111, 0.08));
+  border: 1.5px solid $border-soft;
+  font-size: 12px;
+  font-weight: 500;
+  color: $wood;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  white-space: nowrap;
+
+  &:hover {
+    border-color: $camel;
+    background: linear-gradient(135deg, rgba(212, 197, 176, 0.55), rgba(184, 149, 111, 0.15));
+    box-shadow: 0 3px 10px $shadow;
+    transform: translateY(-1px);
+  }
+
+  &.active {
+    background: $wood;
+    color: #fff;
+    border-color: $wood;
+  }
+}
+
+/* ============================================================
+   Star Map Area — fills remaining space, card style
+   ============================================================ */
+.t5-starmap-area {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid $border;
+  box-shadow: 0 6px 16px $shadow;
+}
+
+/* ============================================================
+   Panel Backdrop
+   ============================================================ */
+.t5-panel-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 50;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+/* ============================================================
+   Slide-out Panels (shared)
+   ============================================================ */
+.t5-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(480px, 88vw);
+  height: 100vh;
+  background: linear-gradient(180deg, #f9f4e8, #f2e9d5);
+  border-left: 1px solid $border;
+  box-shadow: -6px 0 24px rgba(0, 0, 0, 0.1);
+  z-index: 51;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+
+  &.open {
+    transform: translateX(0);
+  }
+}
+
+.t5-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+
+  h2 {
+    margin: 0;
+    font-size: 15px;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+    flex: 1;
+  }
+}
+
+.t5-panel-close {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid $border-soft;
+  background: transparent;
+  color: $text-soft;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+
+  &:hover {
+    border-color: $red;
+    color: $red;
+    background: rgba(150, 84, 77, 0.06);
+  }
+}
+
+.t5-panel-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 18px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: $ink;
+
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb { background: $border; border-radius: 2px; }
+
+  h4 {
+    margin: 16px 0 5px;
+    font-size: 13px;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+    border-bottom: 1px solid $border-soft;
+    padding-bottom: 3px;
+
+    &:first-of-type { margin-top: 0; }
+  }
+
+  p { margin: 0 0 8px; }
+}
+
+.t5-panel-intro {
+  font-size: 12px;
+  color: $text-soft;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.t5-panel-subtitle {
+  font-size: 11px;
+  color: $text-soft;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid $border-soft;
+}
+
+/* ============================================================
+   Causal Panel — Triangle & Edge Selector
+   ============================================================ */
+.t5-triangle-svg {
+  width: 100%;
+  max-height: 240px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.t5-edge-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
+.t5-edge-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 7px 10px;
+  border-radius: 7px;
+  border: 1.5px solid $border-soft;
+  border-left: 3px solid $border;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  font-family: inherit;
+
+  &:hover {
+    border-color: $camel;
+    background: rgba(184, 149, 111, 0.06);
+  }
+
+  &.active {
+    border-color: $wood;
+    background: linear-gradient(135deg, rgba(94, 58, 46, 0.06), rgba(94, 58, 46, 0.03));
+    box-shadow: 0 2px 6px $shadow;
+  }
+}
+
+.t5-edge-btn-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: $wood;
+}
+
+.t5-edge-btn-q {
+  font-size: 10px;
+  color: $text-soft;
+  line-height: 1.4;
+}
+
+/* ============================================================
+   Findings (vertical in panel)
+   ============================================================ */
+.t5-findings-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.t5-finding-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(246, 241, 231, 0.4)), $paper;
+  border: 1px solid $border;
+  border-top: 3px solid $border;
+  border-radius: 8px;
+  padding: 9px 11px;
+  box-shadow: 0 2px 8px $shadow;
+}
+
+.t5-finding-hdr {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 5px;
+}
+
+.t5-finding-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.t5-finding-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  line-height: 1.3;
+}
+
+.t5-finding-detail {
+  margin: 0 0 5px;
+  font-size: 11px;
+  color: $ink;
+  line-height: 1.5;
+}
+
+.t5-finding-evidence {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  font-size: 10px;
+  color: $text-soft;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.t5-finding-strength {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.t5-str-label {
+  font-size: 10px;
+  color: $text-soft;
+  flex-shrink: 0;
+}
+
+.t5-str-track {
+  flex: 1;
+  height: 4px;
+  background: $border-soft;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.t5-str-fill {
+  display: block;
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+.t5-str-val {
+  font-size: 10px;
+  font-weight: 600;
+  color: $wood;
+  min-width: 26px;
+  text-align: right;
+}
+
+/* ============================================================
+   Chart Card (inside panel)
+   ============================================================ */
+.t5-chart-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(246, 241, 231, 0.4)), $paper;
+  border: 1px solid $border;
+  border-radius: 8px;
+  padding: 10px 12px;
+  box-shadow: 0 2px 8px $shadow;
+}
+
+.t5-chart-card-hdr {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+
+  h3 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+}
+
+.t5-chart-box {
+  width: 100%;
+  height: 220px;
+}

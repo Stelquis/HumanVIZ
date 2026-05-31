@@ -1,0 +1,313 @@
+/* ============================================================
+   RoleTree Drawer — 行当体系结构 右侧抽屉
+   ============================================================ */
+
+/* Backdrop */
+.rtm-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(58, 44, 33, 0.32);
+  backdrop-filter: blur(4px);
+  z-index: 200;
+  animation: rtm-fade-in 0.28s ease;
+}
+
+@keyframes rtm-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Drawer panel */
+.rtm-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(620px, 52vw);
+  height: 100vh;
+  z-index: 210;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(255,253,249,0.995), rgba(248,244,236,0.98));
+  backdrop-filter: blur(16px);
+  border-left: 1px solid rgba(184, 146, 106, 0.25);
+  box-shadow: -12px 0 48px rgba(58, 44, 33, 0.15);
+  animation: rtm-slide-in 0.34s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes rtm-slide-in {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+/* ── Header ── */
+.rtm-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(184, 146, 106, 0.2);
+  flex-shrink: 0;
+  background: rgba(255, 253, 249, 0.6);
+}
+
+.rtm-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rtm-header-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.rtm-header h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #5a3e2b;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  flex: 1;
+}
+
+.rtm-header-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #96544d;
+  background: rgba(150, 84, 77, 0.08);
+  border: 1px solid rgba(150, 84, 77, 0.18);
+  letter-spacing: 0.08em;
+  flex-shrink: 0;
+}
+
+.rtm-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(184, 146, 106, 0.35);
+  background: rgba(255, 255, 255, 0.6);
+  color: #5a3e2b;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    background: #96544d;
+    color: #fff;
+    border-color: #96544d;
+  }
+}
+
+/* ── Body ── */
+.rtm-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 20px 24px 32px;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(184, 146, 106, 0.25);
+    border-radius: 3px;
+  }
+}
+
+/* ── Summary Stats ── */
+.rtm-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.rtm-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 8px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(184, 146, 106, 0.15);
+  border-left: 3px solid;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(58, 44, 33, 0.08);
+    transform: translateY(-1px);
+  }
+}
+
+.rtm-stat-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: #5a3e2b;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  line-height: 1.2;
+}
+
+.rtm-stat-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #8b7355;
+  margin-top: 4px;
+}
+
+/* ── Section Title ── */
+.rtm-section-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #5a3e2b;
+  margin: 0 0 14px;
+  padding-left: 12px;
+  border-left: 3px solid #c8a96e;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+/* ── Chart Area ── */
+.rtm-chart-area {
+  background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(246,241,231,0.2));
+  border: 1px solid rgba(184, 146, 106, 0.15);
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 26px;
+}
+
+.rtm-chart {
+  width: 100%;
+  height: 420px;
+}
+
+/* ── Category Groups ── */
+.rtm-category-group {
+  margin-bottom: 20px;
+}
+
+.rtm-category-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border-left: 3px solid;
+  margin-bottom: 10px;
+}
+
+.rtm-category-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.rtm-category-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #5a3e2b;
+  flex-shrink: 0;
+}
+
+.rtm-category-desc {
+  font-size: 12px;
+  color: #8b7355;
+  line-height: 1.4;
+}
+
+/* ── Role Cards ── */
+.rtm-category-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.rtm-detail-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(248,244,236,0.4));
+  border: 1px solid rgba(184, 146, 106, 0.15);
+  border-radius: 12px;
+  padding: 14px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    border-color: rgba(184, 146, 106, 0.35);
+    box-shadow: 0 4px 18px rgba(58, 44, 33, 0.08);
+    transform: translateY(-2px);
+  }
+}
+
+.rtm-detail-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.rtm-detail-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.rtm-detail-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #5a3e2b;
+}
+
+.rtm-detail-desc {
+  margin: 0 0 8px;
+  font-size: 12px;
+  color: #7a6b5d;
+  line-height: 1.65;
+}
+
+.rtm-detail-traits {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.rtm-trait-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #96544d;
+  background: rgba(150, 84, 77, 0.07);
+  border: 1px solid rgba(150, 84, 77, 0.14);
+}
+
+/* ── Inference Section ── */
+.rtm-inference-section {
+  margin-top: 8px;
+}
+
+.rtm-section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(184, 146, 106, 0.35), transparent);
+  margin: 24px 0 20px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 700px) {
+  .rtm-drawer {
+    width: 100vw;
+  }
+
+  .rtm-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .rtm-category-cards {
+    grid-template-columns: 1fr;
+  }
+}

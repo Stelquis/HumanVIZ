@@ -1,0 +1,171 @@
+:root {
+   /* ============================================
+      六主体色
+      ============================================ */
+   --theme-paper: #f6f1e7;
+   --theme-parchment: #e9dfc9;
+   --theme-gold: #b89b6d;
+   --theme-celadon: #7f968d;
+   --theme-slate: #5e6b76;
+   --theme-red: #96544d;
+
+   /* ============================================
+      基础衍生色
+      ============================================ */
+   --theme-khaki: color-mix(in srgb, var(--theme-parchment) 72%, var(--theme-gold) 28%);
+   --theme-bamboo: color-mix(in srgb, var(--theme-red) 54%, var(--theme-slate) 46%);
+   --theme-wood: color-mix(in srgb, var(--theme-red) 45%, var(--theme-gold) 55%);
+
+   /* ============================================
+      文字色  (深 → 浅)
+      ============================================ */
+   --text-primary: color-mix(in srgb, var(--theme-slate) 48%, black 52%);
+   --text-secondary: color-mix(in srgb, var(--theme-slate) 70%, transparent);
+   --text-muted: color-mix(in srgb, var(--theme-slate) 50%, transparent);
+   --text-disabled: color-mix(in srgb, var(--theme-slate) 30%, transparent);
+   --text-inverse: var(--theme-paper);
+
+   /* ============================================
+      主色 / 强调色
+      ============================================ */
+   --primary: var(--theme-gold);
+   --primary-dark: color-mix(in srgb, var(--theme-gold) 80%, var(--theme-slate) 20%);
+
+   /* ============================================
+      语义色
+      ============================================ */
+   --error: var(--theme-red);
+   --error-bg: var(--red-lightest);
+   --error-border: var(--red-light);
+   --success: var(--theme-celadon);
+
+   /* ============================================
+      背景色  (深 → 浅：底层深、顶层浅)
+        body  parchment #E9DFC9
+          └─ card  paper #F6F1E7
+              └─ surface/container  更浅
+                  └─ input  最浅
+      ============================================ */
+   --bg-body: var(--theme-parchment);
+   --bg-card: var(--theme-paper);
+   --bg-container: color-mix(in srgb, var(--theme-paper) 85%, white 15%);
+   --surface-base: color-mix(in srgb, var(--theme-paper) 70%, white 30%);
+   --bg-input: var(--paper-lightest);
+   --bg-hover: var(--gold-lightest);
+   --bg-module-warm: color-mix(in srgb, var(--theme-parchment) 50%, white 50%);
+   --bg-disabled: var(--paper-mid);
+
+   /* ============================================
+      边框  (弱 → 强)
+      ============================================ */
+   --border: color-mix(in srgb, var(--theme-slate) 20%, transparent);
+   --border-soft: color-mix(in srgb, var(--theme-slate) 12%, transparent);
+   --border-strong: color-mix(in srgb, var(--theme-slate) 35%, transparent);
+   --border-color: var(--border);
+   --card-border: 1px solid color-mix(in srgb, var(--theme-khaki) 60%, transparent);
+   --card-border-strong: 1px solid color-mix(in srgb, var(--theme-gold) 35%, transparent);
+
+   /* ============================================
+      阴影  (sm → md → lg → float)
+      ============================================ */
+   --shadow-sm: 0 2px 8px color-mix(in srgb, var(--theme-slate) 8%, transparent);
+   --shadow: 0 4px 16px color-mix(in srgb, var(--theme-slate) 12%, transparent);
+   --shadow-md: 0 8px 24px color-mix(in srgb, var(--theme-slate) 14%, transparent);
+   --shadow-float: 0 12px 40px color-mix(in srgb, var(--theme-slate) 18%, transparent);
+   --card-shadow: var(--shadow);
+
+   /* ============================================
+      聚焦环
+      ============================================ */
+   --focus-ring: 0 0 0 3px var(--gold-light);
+
+   /* ============================================
+      表格
+      ============================================ */
+   --table-border: 1px solid color-mix(in srgb, var(--theme-slate) 15%, transparent);
+   --table-head-bg: color-mix(in srgb, var(--theme-parchment) 60%, white 40%);
+   --table-row-hover: var(--gold-lightest);
+
+   /* ============================================
+      代码高亮
+      ============================================ */
+   --syntax-string: var(--theme-gold);
+   --syntax-key: var(--theme-slate);
+   --syntax-boolean: var(--theme-celadon);
+   --syntax-null: var(--text-muted);
+   --syntax-number: var(--theme-red);
+
+   /* ============================================
+      Toast 通知
+      ============================================ */
+   --toast-bg: color-mix(in srgb, var(--theme-paper) 92%, transparent);
+
+   /* ============================================
+      衍生色系统
+      ============================================ */
+
+   /* Paper 系列 - 浅色背景 */
+   --paper-lightest: color-mix(in srgb, var(--theme-paper) 50%, white 50%);
+   --paper-light: var(--theme-paper);
+   --paper-mid: color-mix(in srgb, var(--theme-paper) 60%, var(--theme-parchment) 40%);
+   --paper-dark: color-mix(in srgb, var(--theme-paper) 30%, var(--theme-parchment) 70%);
+
+   /* Gold 系列 - 暖色强调 */
+   --gold-lightest: color-mix(in srgb, var(--theme-gold) 15%, transparent);
+   --gold-light: color-mix(in srgb, var(--theme-gold) 35%, transparent);
+   --gold-mid: color-mix(in srgb, var(--theme-gold) 55%, transparent);
+   --gold-dark: color-mix(in srgb, var(--theme-gold) 75%, transparent);
+   --gold-border: color-mix(in srgb, var(--theme-gold) 85%, transparent);
+
+   /* Celadon 系列 - 冷色层级 */
+   --celadon-lightest: color-mix(in srgb, var(--theme-celadon) 15%, transparent);
+   --celadon-light: color-mix(in srgb, var(--theme-celadon) 35%, transparent);
+   --celadon-mid: color-mix(in srgb, var(--theme-celadon) 55%, transparent);
+   --celadon-dark: color-mix(in srgb, var(--theme-celadon) 75%, transparent);
+   --celadon-border: color-mix(in srgb, var(--theme-celadon) 85%, transparent);
+
+   /* Red 系列 - 警示状态 */
+   --red-lightest: color-mix(in srgb, var(--theme-red) 15%, transparent);
+   --red-light: color-mix(in srgb, var(--theme-red) 35%, transparent);
+   --red-mid: color-mix(in srgb, var(--theme-red) 55%, transparent);
+   --red-dark: color-mix(in srgb, var(--theme-red) 75%, transparent);
+   --red-border: color-mix(in srgb, var(--theme-red) 85%, transparent);
+
+   /* Slate 系列 - 中性深色 */
+   --slate-light: color-mix(in srgb, var(--theme-slate) 30%, transparent);
+   --slate-mid: color-mix(in srgb, var(--theme-slate) 55%, transparent);
+   --slate-dark: color-mix(in srgb, var(--theme-slate) 80%, transparent);
+
+   /* ============================================
+      布局衍生色（组件层常用）
+      ============================================ */
+   --theme-ink: color-mix(in srgb, var(--theme-slate) 60%, black 40%);
+   --theme-shadow-color: color-mix(in srgb, var(--theme-slate) 16%, transparent);
+   --theme-glow: color-mix(in srgb, var(--theme-gold) 30%, transparent);
+   --theme-text-soft: color-mix(in srgb, var(--theme-slate) 40%, transparent);
+   --theme-border-soft: color-mix(in srgb, var(--theme-slate) 12%, transparent);
+   --theme-border-strong: color-mix(in srgb, var(--theme-slate) 35%, transparent);
+
+   /* ============================================
+      渐变色
+      ============================================ */
+   --gradient-primary: linear-gradient(
+      135deg,
+      var(--theme-red) 0%,
+      var(--theme-gold) 52%,
+      var(--theme-celadon) 100%
+   );
+
+   --gradient-warm: linear-gradient(
+      135deg,
+      var(--theme-parchment) 0%,
+      var(--theme-khaki) 50%,
+      var(--theme-gold) 100%
+   );
+
+   --gradient-cool: linear-gradient(
+      135deg,
+      var(--theme-celadon) 0%,
+      var(--theme-slate) 100%
+   );
+}

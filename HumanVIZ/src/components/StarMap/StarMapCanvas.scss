@@ -1,0 +1,480 @@
+/* ═══════════════════════════════════════════
+   梨园星图 Styles
+   ═══════════════════════════════════════════ */
+
+.starmap-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  background: #faf8f5;
+  overflow: hidden;
+  font-family: "Noto Sans SC", "Atkinson Hyperlegible", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Canvas layers ── */
+
+.starmap-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.starmap-canvas-main {
+  z-index: 0;
+  pointer-events: none;
+  transition: opacity 200ms ease-in;
+}
+
+.starmap-canvas-hover {
+  z-index: 1;
+  cursor: grab;
+}
+
+/* ── Top bar: filter chips ── */
+
+.starmap-topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 10px 14px;
+  background: linear-gradient(to bottom, rgba(247, 247, 247, 0.92), rgba(247, 247, 247, 0));
+  pointer-events: none;
+
+  > * { pointer-events: auto; }
+}
+
+.starmap-filter-tabs {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.starmap-filter-tab {
+  padding: 3px 10px;
+  border: 1px solid rgba(160, 130, 100, 0.2);
+  border-radius: 5px;
+  background: transparent;
+  color: #8b7355;
+  font-size: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+
+  &:hover { background: rgba(255, 255, 255, 0.5); }
+
+  &.active {
+    background: rgba(184, 147, 106, 0.15);
+    color: #4d4950;
+    font-weight: 700;
+    border-color: rgba(184, 147, 106, 0.3);
+  }
+}
+
+.starmap-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 6px 8px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(160, 130, 100, 0.15);
+  border-radius: 0 8px 8px 8px;
+  backdrop-filter: blur(4px);
+  max-width: min(600px, 70vw);
+}
+
+.starmap-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 10px;
+  border: 1.5px solid;
+  border-radius: 14px;
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+
+  &.active {
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.starmap-filter-cnt {
+  font-size: 9px;
+  opacity: 0.7;
+  margin-left: 1px;
+}
+
+.starmap-filter-clear {
+  padding: 3px 10px;
+  border: 1px solid rgba(150, 84, 77, 0.3);
+  border-radius: 14px;
+  background: transparent;
+  color: #96544d;
+  font-size: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+  &:hover {
+    background: rgba(150, 84, 77, 0.08);
+  }
+}
+
+.starmap-zoom-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 10px;
+  border-radius: 6px;
+  background: rgba(184, 147, 106, 0.12);
+  color: #b8926a;
+  font-weight: 700;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+/* ── Selected character indicator ── */
+
+.starmap-char-indicator {
+  position: absolute;
+  top: 80px;
+  left: 14px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(160, 130, 100, 0.2);
+  border-radius: 8px;
+  font-size: 12px;
+  color: #8b7355;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  animation: starmap-slide-in 0.25s ease;
+}
+
+@keyframes starmap-slide-in {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.starmap-char-name {
+  font-weight: 700;
+  color: #4d4950;
+}
+
+.starmap-char-clear {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(160, 130, 100, 0.2);
+  background: transparent;
+  color: #8b7355;
+  font-size: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+
+  &:hover {
+    border-color: #96544d;
+    color: #96544d;
+  }
+}
+
+/* ── Bottom bar: tabs + legend + zoom ── */
+
+.starmap-bottom-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 14px;
+  background: linear-gradient(180deg, rgba(255,255,255,.35), rgba(246,241,231,.18));
+  border-top: 1px solid rgba(160, 130, 100, 0.12);
+  font-size: 10px;
+  color: #8b7355;
+  pointer-events: none;
+
+  > * { pointer-events: auto; }
+}
+
+.starmap-legend-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #b8926a;
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.starmap-legend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.starmap-legend-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.starmap-legend-cnt {
+  font-variant-numeric: tabular-nums;
+  color: rgba(139, 115, 85, 0.7);
+  font-size: 9px;
+}
+
+.starmap-legend-sep {
+  color: rgba(160, 130, 100, 0.3);
+  font-weight: 300;
+}
+
+/* ── Detail overlay ── */
+
+.starmap-detail-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: starmap-fade-in 0.2s ease;
+}
+
+@keyframes starmap-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.starmap-detail-card {
+  position: relative;
+  width: min(720px, 90vw);
+  max-height: 85vh;
+  overflow-y: auto;
+  background: linear-gradient(180deg, #f9f4e8, #f2e9d5);
+  border: 1px solid rgba(160, 130, 100, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  padding: 28px 32px;
+  animation: starmap-card-in 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb { background: rgba(160,130,100,0.3); border-radius: 2px; }
+}
+
+@keyframes starmap-card-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.starmap-detail-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(160, 130, 100, 0.25);
+  background: rgba(255, 255, 255, 0.5);
+  color: #8b7355;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+
+  &:hover {
+    border-color: #96544d;
+    color: #96544d;
+    background: rgba(150, 84, 77, 0.06);
+  }
+}
+
+.starmap-detail-header {
+  margin-bottom: 20px;
+
+  h2 {
+    margin: 4px 0 6px;
+    font-size: 22px;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+    font-weight: 700;
+    color: #4d4950;
+  }
+}
+
+.starmap-detail-genre { font-size: 12px; font-weight: 600; }
+
+.starmap-detail-narr {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.starmap-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.starmap-detail-panel {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(160, 130, 100, 0.15);
+  border-radius: 12px;
+  padding: 14px 16px;
+
+  h3 {
+    margin: 0 0 10px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #5e3a2e;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+}
+
+.starmap-detail-role-bar {
+  display: flex;
+  height: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.starmap-detail-role-seg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.starmap-detail-chars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.starmap-detail-char-tag {
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(184, 147, 106, 0.1);
+  font-size: 11px;
+  color: #5e3a2e;
+}
+
+.starmap-detail-ribbon {
+  display: flex;
+  height: 28px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.starmap-detail-ribbon-seg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  min-width: 0;
+}
+
+.starmap-detail-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 11px;
+  color: #8b7355;
+
+  b { color: #4d4950; margin-left: 2px; }
+}
+
+.starmap-detail-themes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.starmap-detail-theme-tag {
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 12px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.starmap-detail-radar {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.starmap-detail-radar-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.starmap-detail-radar-label {
+  font-size: 11px;
+  color: #8b7355;
+  min-width: 36px;
+  flex-shrink: 0;
+}
+
+.starmap-detail-radar-track {
+  flex: 1;
+  height: 8px;
+  background: rgba(160, 130, 100, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.starmap-detail-radar-fill {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.starmap-detail-radar-val {
+  font-size: 11px;
+  font-weight: 600;
+  color: #4d4950;
+  min-width: 32px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}

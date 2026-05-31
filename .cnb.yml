@@ -1,0 +1,203 @@
+# ===================================================================
+# HumanVIZ 云原生开发协作设计文档
+# ===================================================================
+#
+# 一、仓库结构关系
+# ──────────────────────────────────────────────────────────────────────
+#   oriondawn/HumanVIZ (主仓库)
+#          │
+#          ├── A/HumanVIZ (成员A的Fork)
+#          ├── B/HumanVIZ (成员B的Fork)
+#          ├── C/HumanVIZ (成员C的Fork)
+#          └── D/HumanVIZ (成员D的Fork)
+#
+#   Git 远程仓库约定：
+#   • origin   → 成员自己的 Fork 仓库
+#   • upstream → 主仓库 oriondawn/HumanVIZ
+#
+# 二、代码存储与镜像关系
+# ──────────────────────────────────────────────────────────────────────
+#   CNB 有两层存储：
+#   • 镜像层 (Image)  → 存储在 docker.cnb.cool/oriondawn/humanviz:latest（镜像存储在源仓库中）
+#                       包含开发环境（Node.js、Python、Ubuntu 等）
+#   • 代码层 (Code)   → 存储在各成员的 Fork 仓库主页
+#                       成员推送代码到自己的 Fork 仓库，不会丢失
+#
+#   成员打开 CNB 时（分为两步）：
+#   • 拉取源仓库 latest 镜像启动开发环境
+#   • 代码从自己的 Fork 仓库拉取
+#
+# 三、构建触发规则
+# ──────────────────────────────────────────────────────────────────────
+#   触发构建条件（需同时满足）：
+#   ✓ git remote get-url origin 包含 "oriondawn/HumanVIZ" (主仓库)
+#   ✓ 本次提交涉及配置文件变更
+#
+#   说明：主仓库只使用 main 分支，无需额外判断分支
+#
+#   跳过构建场景：
+#   ✗ Fork 仓库推送（任意分支）
+#   ✗ 主仓库推送但无配置文件变更
+#
+#   构建逻辑（使用 git 命令，避免环境变量不可靠问题）：
+#   1. 检查是否为 oriondawn/HumanVIZ 主仓库
+#   2. 检查本次提交是否涉及配置文件变更
+#   3. 仅当两者同时满足时才执行构建
+#
+#   配置变更文件列表：
+#   • Dockerfile
+#   • .cnb.yml
+#
+# 四、版本策略
+# ──────────────────────────────────────────────────────────────────────
+#   镜像标签策略：使用 latest 单一版本
+#   • 每次 main 分支构建直接覆盖 latest
+#   • 简化版本管理，减少镜像仓库存储
+#
+# 五、模块隔离策略（避免冲突）
+# ──────────────────────────────────────────────────────────────────────
+#   协作原则：每人负责独立模块，不修改他人代码
+#
+#   目录结构示例：
+#   ├── src/
+#   │   ├── components/      # 公共组件（需协商修改）
+#   │   ├── features/
+#   │   │   ├── ui/          # A 负责
+#   │   │   ├── api_v2/      # B 负责
+#   │   │   └── utils_v2/    # C 负责
+#   │   └── shared/          # 公共工具（需协商修改）
+#   └── tests/               # 测试文件
+#
+#   冲突避免方法：
+#   1. 新功能使用新目录（如 api_v2 而非修改 api）
+#   2. 保持旧模块可用，作为过渡
+#   3. 新模块稳定后，删除旧模块
+#
+# 六、完整协作工作流
+# ──────────────────────────────────────────────────────────────────────
+#   成员 A 开发新功能流程：
+#   1. 在自己的 Fork (A/HumanVIZ) 创建功能分支
+#   2. 编写代码，推送到自己的 Fork
+#      → 不触发构建，仅保存代码
+#   3. 提交 PR 到主仓库 oriondawn/HumanVIZ
+#   4. 管理员 Review 并合并到 main
+#      → 触发构建，镜像更新
+#   5. 其他成员 同步最新 代码
+#
+#   成员 B 获取最新代码：
+#   方法一：CNB 网页
+#   • 进入自己的 Fork 仓库
+#   • 点击 "Sync fork" → "Sync fork" 按钮
+
+# ===================================================================
+# 云原生构建配置文件
+# ===================================================================
+
+# -----------------------------------------------------------------------------
+# 制品推送配置
+# -----------------------------------------------------------------------------
+main:
+  push:
+    - services:
+        - docker
+      stages:
+        # 检查是否为主仓库
+        - name: check main repo
+          script: |
+            GIT_REMOTE=$(git remote get-url origin 2>/dev/null || echo "unknown")
+            echo "远程仓库: ${GIT_REMOTE}"
+            if echo "${GIT_REMOTE}" | grep -qi "oriondawn/HumanVIZ"; then
+              echo "IS_MAIN_REPO=true" >> /tmp/build_env
+            else
+              echo "IS_MAIN_REPO=false" >> /tmp/build_env
+            fi
+
+        # 检查配置文件变更
+        - name: check config changes
+          script: |
+            source /tmp/build_env 2>/dev/null || true
+            if [[ "${IS_MAIN_REPO}" != "true" ]]; then
+              echo "非主仓库，跳过变更检查"
+              echo "HAS_CONFIG_CHANGE=false" >> /tmp/build_env
+              exit 0
+            fi
+            
+            # 获取与上一个 commit 的变更文件
+            CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
+            
+            echo "变更文件列表:"
+            echo "${CHANGED_FILES:-无变更}"
+            echo "---"
+            
+            # 定义需要触发构建的配置文件
+            BUILD_TRIGGER_FILES="Dockerfile .cnb.yml"
+            
+            # 检查是否有配置变更
+            HAS_CONFIG_CHANGE="false"
+            for file in ${CHANGED_FILES}; do
+              for trigger in ${BUILD_TRIGGER_FILES}; do
+                if [[ "${file}" == "${trigger}" ]] || [[ "${file}" == *"/${trigger}" ]]; then
+                  echo "检测到配置变更: ${file}"
+                  HAS_CONFIG_CHANGE="true"
+                  break 2
+                fi
+              done
+            done
+            
+            echo "HAS_CONFIG_CHANGE=${HAS_CONFIG_CHANGE}" >> /tmp/build_env
+            
+            if [[ "${HAS_CONFIG_CHANGE}" == "true" ]]; then
+              echo "将触发镜像构建"
+            else
+              echo "跳过镜像构建（无配置变更）"
+            fi
+
+        # Docker 登录
+        - name: docker login
+          script: |
+            source /tmp/build_env 2>/dev/null || true
+            if [[ "${IS_MAIN_REPO}" != "true" ]] || [[ "${HAS_CONFIG_CHANGE}" != "true" ]]; then
+              echo "跳过 docker login（不满足构建条件）"
+              exit 0
+            fi
+            docker login -u cnb -p "98lCfekHWg1fac4MQYe6T3xI5JY" docker.cnb.cool
+
+        # Docker 镜像构建（超时: 60分钟）
+        - name: docker build
+          timeout: 3600s
+          script: |
+            source /tmp/build_env 2>/dev/null || true
+            if [[ "${IS_MAIN_REPO}" != "true" ]] || [[ "${HAS_CONFIG_CHANGE}" != "true" ]]; then
+              echo "跳过 docker build（不满足构建条件）"
+              exit 0
+            fi
+            echo "构建镜像: docker.cnb.cool/oriondawn/humanviz:latest"
+            docker build -t docker.cnb.cool/oriondawn/humanviz:latest .
+
+        # Docker 镜像推送
+        - name: docker push
+          script: |
+            source /tmp/build_env 2>/dev/null || true
+            if [[ "${IS_MAIN_REPO}" != "true" ]] || [[ "${HAS_CONFIG_CHANGE}" != "true" ]]; then
+              echo "跳过 docker push（不满足构建条件）"
+              exit 0
+            fi
+            docker push docker.cnb.cool/oriondawn/humanviz:latest
+            echo "latest 镜像更新完成"
+
+# -----------------------------------------------------------------------------
+# 云原生开发环境配置
+# -----------------------------------------------------------------------------
+$:
+  vscode:
+    - name: HumanVIZ
+      docker:
+        image: docker.cnb.cool/oriondawn/humanviz:latest
+      services:
+        - vscode
+        - docker
+      stages:
+        # 工作空间初始化
+        - name: workspace init
+          script: |
+            echo "🚀 云原生开发环境已就绪"

@@ -1,0 +1,466 @@
+#chinavis-overview-modal {
+  --about-card-gap: 14px;
+  --about-card-padding: 18px;
+
+  .overview-modal-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.15em;
+    font-size: clamp(2rem, 2.8vw, 3rem);
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0;
+  }
+
+  .overview-modal-title-prefix {
+    color: var(--theme-wood);
+    font: inherit;
+  }
+
+  .overview-modal-title-brand {
+    font: inherit;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  /* ============================================================
+     统一样式：合并数据概览 + 趋势分析，紧凑无滚动布局
+     ============================================================ */
+
+  /* ---- 顶部统计栏（竹褐→深木渐变，融合统计 + 大类筛选） ---- */
+  .unified-top-bar {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 18px;
+    background: linear-gradient(135deg, var(--theme-bamboo) 0%, var(--theme-wood) 100%);
+    border-radius: 12px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+
+  .top-stats {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+
+  .top-stat-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .top-stat-icon {
+    font-size: 14px;
+  }
+
+  .top-stat-value {
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .top-stat-divider {
+    width: 1px;
+    height: 18px;
+    background: rgba(255, 255, 255, 0.28);
+  }
+
+  .top-group-filter {
+    display: flex;
+    gap: 5px;
+    margin-left: auto;
+    flex-wrap: wrap;
+  }
+
+  .group-filter-pill {
+    padding: 3px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    border-radius: 14px;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.85);
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    &.active {
+      background: #fff;
+      color: var(--theme-bamboo);
+      border-color: #fff;
+      font-weight: 600;
+    }
+  }
+
+  /* ---- 左右分栏布局 ---- */
+  .modal-layout {
+    display: flex;
+    gap: var(--about-card-gap);
+    align-items: flex-start;
+  }
+
+  .about-intro,
+  .about-data,
+  .about-chart-card,
+  .about-stats-bar {
+    box-sizing: border-box;
+  }
+
+  .about-data {
+    display: flex;
+    flex-direction: column;
+    gap: var(--about-card-gap);
+    min-width: 0;
+  }
+
+  .about-stats-bar,
+  .about-chart-card,
+  .about-intro {
+    padding: var(--about-card-padding);
+  }
+
+  .about-charts-row {
+    display: grid;
+    gap: var(--about-card-gap);
+  }
+
+  /* ---- 项目说明侧边栏 ---- */
+  .project-sidebar {
+    flex: 0 0 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 18px 16px;
+    background: linear-gradient(180deg,
+      rgba(255, 253, 249, 0.95) 0%,
+      rgba(246, 241, 231, 0.7) 100%);
+    border: 1px solid var(--theme-border);
+    border-radius: 14px;
+    position: sticky;
+    top: 0;
+    align-self: stretch;
+  }
+
+  .sidebar-header {
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--theme-border-soft);
+  }
+
+  .sidebar-icon {
+    font-size: 36px;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .sidebar-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--theme-wood);
+    font-family: "PT Serif", serif;
+    margin: 0 0 2px;
+    line-height: 1.2;
+  }
+
+  .sidebar-subtitle {
+    font-size: 11px;
+    color: var(--theme-text-soft);
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  .sidebar-desc {
+    font-size: 12px;
+    color: var(--theme-text-soft);
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  .sidebar-section {
+    h4 {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--theme-bamboo);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin: 0 0 6px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 14px;
+      list-style: none;
+
+      li {
+        font-size: 11px;
+        color: var(--theme-text-soft);
+        line-height: 1.7;
+        position: relative;
+
+        &::before {
+          content: "·";
+          position: absolute;
+          left: -12px;
+          color: var(--theme-bamboo);
+          font-weight: bold;
+        }
+      }
+    }
+
+    p {
+      font-size: 11px;
+      color: var(--theme-text-soft);
+      line-height: 1.6;
+      margin: 0;
+      padding: 4px 8px;
+      background: rgba(233, 223, 201, 0.35);
+      border-radius: 6px;
+    }
+  }
+
+  .sidebar-links {
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px solid var(--theme-border-soft);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    a {
+      font-size: 11px;
+      color: var(--theme-bamboo);
+      text-decoration: none;
+      padding: 6px 10px;
+      border-radius: 8px;
+      background: var(--theme-parchment-soft);
+      text-align: center;
+      transition: all 0.2s;
+      font-weight: 500;
+
+      &:hover {
+        background: rgba(107, 86, 70, 0.12);
+        color: var(--theme-wood);
+      }
+    }
+  }
+
+  .sidebar-footer {
+    font-size: 10px;
+    color: rgba(63, 49, 39, 0.4);
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  /* ---- 主体内容网格 ---- */
+  .unified-content {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+
+
+  /* ---- 紧凑图表卡片 ---- */
+  .chart-card-compact {
+    background: rgba(255, 253, 249, 0.92);
+    border-radius: 12px;
+    padding: 12px 14px;
+    box-shadow: 0 2px 8px var(--theme-shadow-color);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .chart-card-header {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--theme-border-soft);
+    flex-shrink: 0;
+  }
+
+  .chart-card-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--theme-wood);
+    white-space: nowrap;
+  }
+
+  .chart-card-subtitle {
+    font-size: 11px;
+    color: rgba(63, 49, 39, 0.5);
+  }
+
+  .chart-card-body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 0;
+  }
+
+  /* ---- 颜色图例条（紧凑单行，置于两行图表之间） ---- */
+  .color-legend-strip {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 7px 14px;
+    background: linear-gradient(135deg, var(--theme-paper) 0%, var(--theme-parchment) 100%);
+    border-radius: 8px;
+    flex-wrap: wrap;
+  }
+
+  .legend-strip-title {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--theme-wood);
+    white-space: nowrap;
+  }
+
+  .legend-strip-items {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex: 1;
+  }
+
+  .legend-strip-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .legend-strip-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .legend-strip-name {
+    font-size: 10px;
+    color: var(--theme-text-soft);
+    font-weight: 500;
+  }
+
+  /* ---- 数据集紧凑表格 ---- */
+  .dataset-table-compact {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+
+    thead {
+      background: rgba(233, 223, 201, 0.4);
+    }
+
+    th {
+      padding: 4px 8px;
+      text-align: left;
+      font-weight: 600;
+      color: var(--theme-text-soft);
+      border-bottom: 1px solid var(--theme-border);
+      white-space: nowrap;
+      font-size: 10px;
+    }
+
+    td {
+      padding: 3px 8px;
+      border-bottom: 1px solid var(--theme-border-soft);
+      color: var(--theme-text-soft);
+    }
+
+    tbody tr {
+      transition: background 0.15s;
+
+      &:hover {
+        background: rgba(233, 223, 201, 0.3);
+      }
+    }
+
+    .category-badge {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 8px;
+      font-size: 9px;
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .name-cell {
+      font-weight: 500;
+      color: var(--theme-wood);
+      font-size: 11px;
+    }
+
+    .count-cell {
+      font-weight: 600;
+      color: var(--theme-bamboo);
+      text-align: right;
+      font-family: monospace;
+      font-size: 11px;
+    }
+
+    .desc-cell {
+      color: var(--theme-text-soft);
+      font-size: 10px;
+      max-width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .empty-cell {
+      text-align: center;
+      color: rgba(63, 49, 39, 0.45);
+      padding: 20px;
+    }
+  }
+
+  .dataset-table-wrapper {
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--theme-border);
+      border-radius: 2px;
+    }
+  }
+
+  /* ---- 加载与空状态 ---- */
+  .loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    color: rgba(63, 49, 39, 0.55);
+    font-size: 16px;
+  }
+
+  .modal-icon {
+    font-size: 22px;
+  }
+}

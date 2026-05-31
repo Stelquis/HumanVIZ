@@ -1,0 +1,905 @@
+// ============================================================
+//  Task 2 — 角色关系网络与剧目类型分析 · 可视化面板
+//  东方古籍卷轴风格 · 双栏布局
+// ============================================================
+
+$paper: var(--theme-paper);
+$parchment: var(--theme-parchment);
+$camel: var(--theme-gold);
+$ochre: var(--theme-bamboo);
+$wood: var(--theme-wood);
+$ink: var(--theme-ink);
+$red: var(--theme-red);
+$border: var(--theme-border);
+$border-strong: var(--theme-border-strong);
+$border-soft: var(--theme-border-soft);
+$shadow: var(--theme-shadow-color);
+$text-soft: var(--theme-text-soft);
+
+// 古籍字体
+$font-ancient: "Noto Serif SC", "PT Serif", "STSong", "SimSun", serif;
+
+// Type color palette — muted earth/ heritage tones
+$type-colors: (
+  history:   #b8926a,
+  family:    #96544d,
+  chivalry:  #5e6b76,
+  romance:   #c77d8b,
+  myth:      #7f968d,
+  crime:     #6b7b8e,
+  technique: #c4a56e,
+);
+
+/* ============================================================
+   Screen — full viewport
+   ============================================================ */
+.t2-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  overflow: hidden;
+  padding: 10px 14px 14px;
+  color: $ink;
+  /* 古籍书卷底色 — 低饱和暖调 */
+  background:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 3px,
+      rgba(180, 155, 120, 0.015) 3px,
+      rgba(180, 155, 120, 0.015) 6px
+    ),
+    linear-gradient(
+      175deg,
+      #f9f4e8 0%,
+      #f2e9d5 30%,
+      #f5edda 60%,
+      #efe4ce 100%
+    );
+}
+
+/* ============================================================
+   Topbar
+   ============================================================ */
+.t2-topbar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 14px;
+  padding: 10px 16px;
+  border-radius: 16px;
+  min-height: 0;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
+  border: 1px solid $border;
+  box-shadow: 0 8px 18px $shadow;
+}
+
+.t2-kicker {
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $ochre;
+  font-weight: 600;
+}
+
+.t2-topbar-title-group {
+  h1 {
+    margin: 2px 0 0;
+    font-size: clamp(1.15rem, 1.5vw, 1.45rem);
+    font-family: $font-ancient;
+    font-style: normal;
+    line-height: 1.25;
+    color: $wood;
+  }
+
+  p {
+    color: $text-soft;
+    line-height: 1.5;
+    font-size: 12px;
+    margin: 3px 0 0;
+    font-family: $font-ancient;
+  }
+}
+
+.t2-topbar-report-trigger {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+
+.t2-topbar-report-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(212,197,176,0.55), rgba(184,149,111,0.12));
+  border: 1.5px solid $border-soft;
+  font-size: 14px;
+  font-weight: 600;
+  color: $wood;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: $font-ancient;
+  white-space: nowrap;
+
+  &:hover {
+    border-color: $camel;
+    background: linear-gradient(135deg, rgba(212,197,176,0.7), rgba(184,149,111,0.2));
+    box-shadow: 0 3px 12px $shadow;
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
+.t2-report-btn-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   Main grid — 双栏布局 (左窄右宽)
+   ============================================================ */
+.t2-main-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 300px) minmax(0, 1fr);
+  gap: 10px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ============================================================
+   Side Panels — 左右悬浮面板 (mirrors Task1 .t1-side-panel)
+   ============================================================ */
+.t2-side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 2px;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+.t2-side-block {
+  background: linear-gradient(180deg, rgba(255,255,255,0.58), rgba(246,241,231,0.4)), $paper;
+  border: 1px solid $border;
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 0 6px 16px $shadow;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 8px 20px $shadow;
+  }
+}
+
+.t2-side-block-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(165,140,110,0.25);
+
+  h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: $wood;
+    font-family: $font-ancient;
+  }
+}
+
+.t2-side-block-note {
+  font-size: 11px;
+  color: $text-soft;
+  margin-top: 6px;
+  padding-top: 5px;
+  border-top: 1px solid $border-soft;
+  line-height: 1.5;
+  font-family: $font-ancient;
+}
+
+/* ============================================================
+   Type selector — 剧目类型按钮组
+   ============================================================ */
+.t2-type-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.t2-type-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: 3px;
+  border: 1px solid rgba(165,140,110,0.25);
+  background: linear-gradient(135deg, rgba(255,255,255,0.55), rgba(246,241,231,0.25));
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  color: $ink;
+  transition: all 0.18s ease;
+  font-family: $font-ancient;
+
+  .t2-type-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  }
+
+  .t2-type-count {
+    margin-left: auto;
+    font-size: 10px;
+    color: $text-soft;
+    background: rgba(255,255,255,0.5);
+    padding: 1px 7px;
+    border-radius: 3px;
+    border: 1px solid rgba(165,140,110,0.2);
+    font-family: $font-ancient;
+  }
+
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 3px 10px $shadow;
+    transform: translateX(2px);
+  }
+
+  &.active {
+    border-color: $wood;
+    font-weight: 700;
+    box-shadow: 0 4px 14px $shadow;
+    transform: translateX(3px);
+    .t2-type-count { color: $wood; border-color: $wood; background: rgba(184,146,106,0.10); }
+  }
+}
+
+/* ============================================================
+   Stat cards — 网络概览 (mirrors .ly-stat-card)
+   ============================================================ */
+.t2-stat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.t2-stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 6px;
+  border-radius: 3px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(246,241,231,0.2));
+  border: 1px solid rgba(165,140,110,0.2);
+
+  .t2-stat-value {
+    font-size: 17px;
+    font-weight: 700;
+    color: $wood;
+    font-family: $font-ancient;
+  }
+
+  .t2-stat-label {
+    font-size: 10px;
+    color: $text-soft;
+    font-family: $font-ancient;
+  }
+}
+
+/* ============================================================
+   Metric rank bars — 结构特征排名
+   ============================================================ */
+.t2-metric-rank-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(165,140,110,0.12);
+  font-size: 11px;
+  cursor: default;
+
+  &:last-child { border-bottom: none; }
+
+  .t2-metric-rank-label {
+    min-width: 80px;
+    color: $text-soft;
+    font-family: $font-ancient;
+  }
+
+  .t2-metric-rank-bar-wrap {
+    flex: 1;
+    height: 6px;
+    background: rgba(180,155,120,0.12);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .t2-metric-rank-bar {
+    display: block;
+    height: 100%;
+    border-radius: 3px;
+    opacity: 0.75;
+    transition: width 0.3s ease;
+  }
+
+  .t2-metric-rank-val {
+    min-width: 82px;
+    text-align: right;
+    color: $ink;
+    font-weight: 500;
+    font-family: $font-ancient;
+    font-size: 10px;
+  }
+}
+
+.t2-metric-rank-tip {
+  margin-top: 6px;
+  padding: 6px 8px;
+  background: rgba(94,58,46,0.88);
+  color: #f5efe0;
+  border-radius: 3px;
+  font-size: 10px;
+  line-height: 1.5;
+  font-family: $font-ancient;
+}
+
+/* ============================================================
+   Hub character row — 枢纽角色
+   ============================================================ */
+.t2-hub-char-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(165,140,110,0.12);
+  font-size: 12px;
+
+  &:last-child { border-bottom: none; }
+
+  .t2-hub-char-rank {
+    font-weight: 700;
+    color: $camel;
+    min-width: 24px;
+    font-family: $font-ancient;
+  }
+
+  .t2-hub-char-name {
+    flex: 1;
+    font-weight: 600;
+    color: $ink;
+    font-family: $font-ancient;
+  }
+
+  .t2-hub-char-degree {
+    color: $text-soft;
+    font-size: 10px;
+    font-family: $font-ancient;
+  }
+}
+
+.t2-no-data-sm {
+  font-size: 12px;
+  color: $text-soft;
+  text-align: center;
+  padding: 8px;
+  font-family: $font-ancient;
+}
+
+/* ============================================================
+   Center — 主视图区
+   ============================================================ */
+.t2-center {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.t2-view-switcher {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+
+  .t2-view-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 3px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.55), rgba(250,247,242,0.35));
+    border: 1px solid rgba(165,140,110,0.3);
+    font-size: 11px;
+    font-weight: 500;
+    color: $wood;
+    cursor: pointer;
+    transition: all 0.18s ease;
+    font-family: $font-ancient;
+
+    &:hover {
+      border-color: $border-strong;
+      box-shadow: 0 2px 8px $shadow;
+      transform: translateY(-1px);
+    }
+
+    &.active {
+      background: linear-gradient(135deg, rgba(94,58,46,0.10), rgba(94,58,46,0.05));
+      border-color: $wood;
+      font-weight: 700;
+      box-shadow: 0 3px 12px $shadow;
+    }
+  }
+}
+
+.t2-main-vis {
+  flex: 1;
+  min-height: 0;
+  /* ═══ 宣纸纹理背景 ═══ */
+  background-color: #f6efe0;
+  background-image:
+    /* 纸纤维横向纹理 */
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 1px,
+      rgba(180, 155, 120, 0.025) 1px,
+      rgba(180, 155, 120, 0.025) 2px
+    ),
+    /* 纸纤维纵向纹理 */
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 1px,
+      rgba(170, 145, 110, 0.018) 1px,
+      rgba(170, 145, 110, 0.018) 2px
+    ),
+    /* 不规则墨渍斑点 — 左上 */
+    radial-gradient(
+      ellipse 200px 120px at 18% 15%,
+      rgba(200, 175, 140, 0.08) 0%,
+      transparent 100%
+    ),
+    /* 不规则墨渍斑点 — 右下 */
+    radial-gradient(
+      ellipse 180px 100px at 78% 82%,
+      rgba(190, 165, 130, 0.06) 0%,
+      transparent 100%
+    ),
+    /* 纸张边缘做旧 */
+    radial-gradient(
+      ellipse 90% 95% at 50% 50%,
+      rgba(250, 245, 232, 0.55) 40%,
+      rgba(235, 220, 195, 0.35) 100%
+    ),
+    /* 底色调 */
+    linear-gradient(
+      175deg,
+      #f8f2e5 0%,
+      #f2e9d5 25%,
+      #f6eedd 50%,
+      #efe4ce 75%,
+      #f5ebd8 100%
+    );
+  border: 1px solid rgba(175, 150, 120, 0.35);
+  border-radius: 4px 4px 4px 4px;
+  /* 卷轴上下边框装饰 */
+  border-top: 3px solid rgba(155, 125, 90, 0.35);
+  border-bottom: 3px solid rgba(155, 125, 90, 0.35);
+  box-shadow:
+    0 6px 18px rgba(0,0,0,0.08),
+    inset 0 0 60px rgba(200, 170, 130, 0.06);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.t2-net-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  /* 卷轴题签样式 */
+  background: linear-gradient(180deg,
+    rgba(235, 220, 195, 0.35) 0%,
+    rgba(245, 235, 215, 0.25) 40%,
+    rgba(235, 220, 195, 0.30) 100%
+  );
+  border-bottom: 1px solid rgba(165, 140, 110, 0.3);
+  font-size: 12px;
+  flex-shrink: 0;
+  font-family: $font-ancient;
+
+  .t2-net-title {
+    font-weight: 600;
+    color: $wood;
+    font-family: $font-ancient;
+    letter-spacing: 0.03em;
+  }
+
+  .t2-net-stat {
+    color: $text-soft;
+    font-size: 11px;
+  }
+
+  .t2-net-switch-btn {
+    margin-left: auto;
+    padding: 3px 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(155, 130, 100, 0.3);
+    background: rgba(245, 235, 215, 0.5);
+    font-size: 11px;
+    color: $wood;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-family: $font-ancient;
+
+    &:hover {
+      border-color: rgba(155, 125, 90, 0.55);
+      background: rgba(235, 220, 195, 0.55);
+    }
+  }
+}
+
+.t2-chart-box {
+  flex: 1;
+  min-height: 0;
+  /* ECharts canvas 继承宣纸底,古画留白内边距 */
+  padding: 4px;
+}
+
+.t2-no-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: $text-soft;
+  font-size: 14px;
+  font-family: $font-ancient;
+}
+
+/* ============================================================
+   Design Process Report Sidebar
+   ============================================================ */
+.t2-report-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(58, 44, 33, 0.32);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.28s ease;
+  z-index: 80;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+.t2-report-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(620px, 52vw);
+  height: 100vh;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.96));
+  border-left: 1px solid $border-strong;
+  box-shadow: -8px 0 32px rgba(58, 44, 33, 0.18);
+  transform: translateX(100%);
+  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.open {
+    transform: translateX(0);
+  }
+}
+
+.t2-report-sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 22px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+
+  h2 {
+    flex: 1;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: $wood;
+    font-family: $font-ancient;
+  }
+}
+
+.t2-report-sidebar-header-icon {
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.t2-report-sidebar-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid $border-strong;
+  background: rgba(255,255,255,0.6);
+  color: $wood;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    background: $red;
+    color: #fff;
+    border-color: $red;
+  }
+}
+
+/* ---- Report Tab Navigation ---- */
+.t2-report-tabs {
+  display: flex;
+  gap: 2px;
+  padding: 10px 14px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+  overflow-x: auto;
+  background: rgba(246, 241, 231, 0.25);
+
+  &::-webkit-scrollbar {
+    height: 3px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+.t2-report-tab {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 13px;
+  border-radius: 8px;
+  border: 1.5px solid transparent;
+  background: transparent;
+  color: $text-soft;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: $font-ancient;
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  &:hover {
+    color: $wood;
+    background: rgba(184, 149, 111, 0.1);
+    border-color: $border-soft;
+  }
+
+  &.active {
+    color: $red;
+    background: rgba(150, 84, 77, 0.1);
+    border-color: rgba(150, 84, 77, 0.3);
+    box-shadow: 0 2px 6px rgba(150, 84, 77, 0.1);
+  }
+}
+
+.t2-report-tab-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.t2-report-tab-label {
+  line-height: 1;
+}
+
+/* ---- Report Sidebar Body ---- */
+.t2-report-sidebar-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 18px 22px;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 3px;
+  }
+}
+
+/* ============================================================
+   Drawer tab content
+   ============================================================ */
+
+/* ── Gallery ── */
+.t2-gallery-grid {
+  .t2-gallery-type-row {
+    margin-bottom: 18px;
+
+    h4 {
+      margin: 0 0 8px;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: $font-ancient;
+      color: $wood;
+    }
+  }
+}
+
+.t2-gallery-nets {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.t2-gallery-net-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(250,247,242,0.35)), $parchment;
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 10px 12px;
+  min-width: 150px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px $shadow;
+
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 6px 16px $shadow;
+    transform: translateY(-2px);
+  }
+
+  .t2-gallery-net-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: $wood;
+    margin-bottom: 4px;
+    font-family: $font-ancient;
+  }
+
+  .t2-gallery-net-stats {
+    font-size: 10px;
+    color: $text-soft;
+    font-family: $font-ancient;
+  }
+}
+
+/* ── Ranking ── */
+.t2-ranking-tab {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.t2-ranking-type-group {
+  flex: 1;
+  min-width: 180px;
+
+  h4 {
+    margin: 0 0 8px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: $font-ancient;
+    color: $wood;
+  }
+}
+
+.t2-ranking-char {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 12px;
+  border-bottom: 1px solid $border-soft;
+
+  .t2-ranking-name {
+    font-weight: 600;
+    color: $ink;
+    font-family: $font-ancient;
+  }
+
+  .t2-ranking-degree {
+    color: $text-soft;
+    font-size: 11px;
+    font-family: $font-ancient;
+  }
+}
+
+/* ── Metrics tab chart ── */
+.t2-drawer-chart-full {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+}
+
+/* ── Report Content ── */
+.t2-report-content {
+  h3 {
+    margin: 20px 0 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: $wood;
+    font-family: $font-ancient;
+    padding-bottom: 6px;
+    border-bottom: 1px solid $border-soft;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    margin: 0 0 14px;
+    font-size: 14px;
+    line-height: 1.85;
+    color: $ink;
+    text-align: justify;
+    text-indent: 2em;
+    font-family: $font-ancient;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.t2-report-subtitle {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: $wood !important;
+  text-align: center !important;
+  text-indent: 0 !important;
+  padding-bottom: 14px;
+  margin-bottom: 16px !important;
+  border-bottom: 1px solid $border-soft;
+  font-family: $font-ancient;
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 1200px) {
+  .t2-report-sidebar {
+    width: min(520px, 56vw);
+  }
+}
+
+@media (max-width: 1080px) {
+  .t2-main-grid {
+    grid-template-columns: 1fr;
+  }
+  .t2-report-sidebar {
+    width: 100vw;
+  }
+  .t2-topbar-report-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+}

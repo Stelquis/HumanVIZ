@@ -1,0 +1,220 @@
+{% extends "base.html" %}
+
+{% block title %}概览 - HumanVIZ{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* 统计卡片 - 统一使用主题配色 */
+    .stats-grid {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: start;
+    }
+
+    .stat-card-compact {
+        padding: 1rem;
+        height: 150px;
+        display: grid;
+        grid-template-rows: 56px 40px 24px;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .stat-icon-custom {
+        width: 48px;
+        height: 48px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .stat-icon-gold {
+        background: var(--gold-light);
+    }
+
+    .stat-icon-celadon {
+        background: var(--celadon-light);
+    }
+
+    .stat-icon-paper {
+        background: var(--gold-lightest);
+    }
+
+    .stat-value-lg {
+        font-size: 1.75rem;
+        line-height: 1;
+    }
+
+    .stat-value-md {
+        font-size: 1.5rem;
+        line-height: 1;
+        color: var(--primary);
+    }
+
+    .stat-value-gradient {
+        font-size: 1.25rem;
+        line-height: 1;
+        background: var(--gradient-cool);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .stat-label-custom {
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+    }
+
+    /* 信息卡片 */
+    .info-card .card-header {
+        padding: 0.75rem 1.25rem;
+    }
+
+    .info-card .card-title {
+        font-size: 1rem;
+    }
+
+    .info-card .card-body {
+        padding: 0.75rem 1.25rem;
+    }
+
+    .info-grid {
+        display: grid;
+        gap: 1.25rem;
+        height: 60px;
+        align-items: center;
+    }
+
+    .info-grid-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .info-grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .info-item {
+        display: grid;
+        grid-template-rows: 24px 32px;
+        align-items: center;
+        justify-items: start;
+    }
+
+    .info-label {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        line-height: 1;
+    }
+
+    .info-value {
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    /* 响应式 */
+    @media (max-width: 900px) {
+        .stats-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .info-grid-4,
+        .info-grid-3 {
+            grid-template-columns: repeat(2, 1fr);
+            height: auto;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .stats-grid {
+            grid-template-columns: 1fr;
+        }
+        .info-grid-4,
+        .info-grid-3 {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="page-header animate-fade-in">
+    <h1 class="page-title">📊 数据概览</h1>
+    <p class="page-subtitle">查看系统状态和数据集统计信息</p>
+</div>
+
+<!-- 统计卡片 -->
+<div class="stats-grid">
+    <div class="stat-card stat-card-compact animate-card" style="--delay: 0.08s;">
+        <div class="stat-icon-custom stat-icon-gold">📁</div>
+        <div class="stat-value stat-value-lg">{{ dataset_count }}</div>
+        <div class="stat-label stat-label-custom">可用数据集</div>
+    </div>
+    <div class="stat-card stat-card-compact animate-card" style="--delay: 0.16s;">
+        <div class="stat-icon-custom stat-icon-paper">🤖</div>
+        <div class="stat-value stat-value-md">{{ llm_provider }}</div>
+        <div class="stat-label stat-label-custom">LLM 提供商</div>
+    </div>
+    <div class="stat-card stat-card-compact animate-card" style="--delay: 0.24s;">
+        <div class="stat-icon-custom stat-icon-celadon">⚡</div>
+        <div class="stat-value stat-value-gradient">{{ llm_model }}</div>
+        <div class="stat-label stat-label-custom">当前模型</div>
+    </div>
+</div>
+
+<!-- 数据库状态 -->
+<div class="card info-card animate-card" style="--delay: 0.32s; height: 150px;">
+    <div class="card-header">
+        <div class="card-title">🗄️ 数据库状态</div>
+    </div>
+    <div class="card-body">
+        <div class="info-grid info-grid-4">
+            <div class="info-item">
+                <div class="info-label">数据库类型</div>
+                <div class="info-value">SQLite</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">表数量</div>
+                <div class="info-value">{{ db_table_count }}</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">总记录数</div>
+                <div class="info-value">{{ db_total_records }}</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">数据库大小</div>
+                <div class="info-value">{{ db_size }}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 系统信息 -->
+<div class="card info-card animate-card" style="--delay: 0.4s; height: 150px;">
+    <div class="card-header">
+        <div class="card-title">ℹ️ 系统信息</div>
+    </div>
+    <div class="card-body">
+        <div class="info-grid info-grid-3">
+            <div class="info-item">
+                <div class="info-label">后端版本</div>
+                <div class="info-value">{{ version }}</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">FastAPI</div>
+                <div class="info-value">✅ 运行中</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">LLM 服务</div>
+                <div class="info-value">
+                    {% if llm_status == 'available' %}
+                    <span class="badge badge-success">● 可用</span>
+                    {% else %}
+                    <span class="badge badge-info">○ 未加载</span>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

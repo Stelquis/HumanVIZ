@@ -1,0 +1,2330 @@
+// ============================================================
+//  Task 1 — 戏曲角色行当推断与演化分析 · 可视化面板
+//  Colour scheme: "燕京清晖", consistent with main theme
+//  Layout: 三栏悬浮式 (参考数据总览侧边栏格式)
+// ============================================================
+
+$paper: var(--theme-paper);
+$parchment: var(--theme-parchment);
+$khaki: var(--theme-khaki);
+$camel: var(--theme-gold);
+$ochre: var(--theme-bamboo);
+$wood: var(--theme-wood);
+$ink: var(--theme-ink);
+$red: var(--theme-red);
+$celadon: var(--theme-celadon);
+$slate: var(--theme-slate);
+$border: var(--theme-border);
+$border-strong: var(--theme-border-strong);
+$border-soft: var(--theme-border-soft);
+$shadow: var(--theme-shadow-color);
+$glow: var(--theme-glow);
+$text-soft: var(--theme-text-soft);
+
+/* ============================================================
+   Screen — full viewport
+   ============================================================ */
+.t1-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  overflow: hidden;
+  padding: 10px 14px 14px;
+  color: $ink;
+  background: linear-gradient(180deg,
+    rgba(255, 253, 249, 0.55) 0%,
+    rgba(246, 241, 231, 0.38) 100%);
+}
+
+/* ============================================================
+   Topbar
+   ============================================================ */
+.t1-topbar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 14px;
+  padding: 10px 16px;
+  border-radius: 16px;
+  min-height: 0;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
+  border: 1px solid $border;
+  box-shadow: 0 8px 18px $shadow;
+}
+
+.t1-kicker {
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $ochre;
+  font-weight: 600;
+}
+
+.t1-topbar-title-group {
+  h1 {
+    margin: 2px 0 0;
+    font-size: clamp(1.15rem, 1.5vw, 1.45rem);
+    font-family: "PT Serif", "Noto Serif SC", serif;
+    font-style: normal;
+    line-height: 1.25;
+    color: $wood;
+  }
+
+  p {
+    color: $text-soft;
+    line-height: 1.5;
+    font-size: 12px;
+    margin: 3px 0 0;
+  }
+}
+
+.t1-topbar-report-btn {
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(212,197,176,0.55), rgba(184,149,111,0.12));
+  border: 1.5px solid $border-soft;
+  font-size: 14px;
+  font-weight: 600;
+  color: $wood;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: "Noto Serif SC", "PT Serif", "STSong", "SimSun", serif;
+  white-space: nowrap;
+
+  &:hover {
+    border-color: $camel;
+    background: linear-gradient(135deg, rgba(212,197,176,0.7), rgba(184,149,111,0.2));
+    box-shadow: 0 3px 12px $shadow;
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
+.t1-report-btn-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   Main grid — 三栏布局 (参考 Overview 侧边栏格式)
+   ============================================================ */
+.t1-main-grid {
+  display: grid;
+  grid-template-columns: minmax(270px, 21vw) minmax(380px, 1fr) minmax(280px, 24vw);
+  gap: 10px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ============================================================
+   Side Panels — 左右悬浮面板
+   ============================================================ */
+.t1-side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 2px;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+.t1-side-block {
+  background: linear-gradient(180deg, rgba(255,255,255,0.58), rgba(246,241,231,0.4)), $paper;
+  border: 1px solid $border;
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 0 6px 16px $shadow;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 8px 20px $shadow;
+  }
+}
+
+.t1-side-block-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid $border;
+
+  h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+}
+
+.t1-side-block-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.t1-side-block-note {
+  font-size: 11px;
+  color: $text-soft;
+  margin-top: 6px;
+  padding-top: 5px;
+  border-top: 1px solid $border-soft;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* Right panel — fill height to match center stage */
+.t1-right-panel {
+  overflow: hidden !important;
+
+  .t1-side-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .t1-side-block-header {
+    flex-shrink: 0;
+  }
+
+  .t1-side-block-note {
+    flex-shrink: 0;
+  }
+}
+
+/* ============================================================
+   Expand button & RoleTree thumbnail
+   ============================================================ */
+.t1-expand-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin-left: auto;
+  border-radius: 6px;
+  border: 1.5px solid $border-strong;
+  background: rgba(255, 255, 255, 0.5);
+  color: $wood;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  padding: 0;
+
+  &:hover {
+    background: rgba(184, 149, 111, 0.15);
+    border-color: $camel;
+    transform: scale(1.08);
+  }
+
+  &:active {
+    transform: scale(0.96);
+  }
+}
+
+.t1-expand-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.t1-role-tree-thumb {
+  width: 100%;
+  height: 220px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  position: relative;
+
+  &:hover {
+    box-shadow: 0 0 0 2px $red, 0 6px 18px $shadow;
+    transform: scale(1.02);
+  }
+
+  &::after {
+    content: "🔍 点击查看大图";
+    position: absolute;
+    bottom: 6px;
+    right: 8px;
+    font-size: 10px;
+    color: $text-soft;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 2px 8px;
+    border-radius: 6px;
+    border: 1px solid $border-soft;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+}
+
+/* ============================================================
+   Center Stage — 角色表演模式分析主区
+   ============================================================ */
+.t1-center-stage {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.65), rgba(246,241,231,0.45)), $paper;
+  border: 1px solid $border-strong;
+  border-radius: 16px;
+  padding: 14px 18px;
+  box-shadow: 0 8px 24px $shadow;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.t1-center-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+
+  h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+    flex: 1;
+  }
+}
+
+.t1-center-header-actions {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.t1-center-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+/* ---- Chart mode toggle button ---- */
+.t1-chart-mode-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: 1.5px solid $border-strong;
+  background: linear-gradient(180deg, rgba(255,255,255,0.65), rgba(246,241,231,0.3));
+  color: $wood;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  &:hover {
+    background: linear-gradient(180deg, rgba(184,149,111,0.15), rgba(184,149,111,0.08));
+    border-color: $camel;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px $shadow;
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.t1-chart-mode-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.t1-chart-mode-label {
+  line-height: 1;
+}
+
+.t1-center-badge {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: $red;
+  background: rgba(150, 84, 77, 0.1);
+  border: 1px solid rgba(150, 84, 77, 0.2);
+  letter-spacing: 0.06em;
+}
+
+/* ---- Dimension selector buttons ---- */
+.t1-dim-selectors {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.t1-dim-btn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  padding: 5px 12px;
+  border-radius: 10px;
+  border: 2px solid $border-soft;
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35));
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  min-width: 44px;
+
+  &:hover {
+    border-color: color-mix(in srgb, var(--theme-gold) 40%, transparent);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px $shadow;
+  }
+
+  &:active {
+    transform: scale(0.96);
+  }
+
+  &.active {
+    border-width: 2px;
+    box-shadow: 0 0 0 1px rgba(150, 84, 77, 0.15), 0 4px 12px $shadow;
+    transform: translateY(-1px);
+  }
+}
+
+.t1-dim-btn-label {
+  font-size: 18px;
+  font-weight: 700;
+  color: $wood;
+  line-height: 1;
+}
+
+.t1-dim-btn-full {
+  font-size: 10px;
+  color: $text-soft;
+  line-height: 1;
+}
+
+/* ---- Dimension bar comparison panel ---- */
+.t1-dim-bar-area {
+  flex-shrink: 0;
+  max-height: 45%;
+  overflow-y: auto;
+  background: linear-gradient(180deg, rgba(255,255,255,0.45), rgba(246,241,231,0.18));
+  border-radius: 12px;
+  border: 1px solid $border;
+  padding: 8px 12px;
+  animation: t1-bar-slide-in 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+@keyframes t1-bar-slide-in {
+  from { opacity: 0; max-height: 0; transform: translateY(-8px); }
+  to   { opacity: 1; max-height: 45%; transform: translateY(0); }
+}
+
+.t1-dim-bar-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.t1-dim-bar-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.t1-dim-bar-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.t1-dim-bar-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+}
+
+.t1-center-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.t1-center-row {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  min-height: 0;
+  align-items: stretch;
+}
+
+.t1-radar-area {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(255,255,255,0.4), rgba(246,241,231,0.2));
+  border-radius: 12px;
+  border: 1px solid $border-soft;
+  padding: 8px;
+  transition: flex 0.25s ease;
+  position: relative;
+
+  /* 背景装饰图 — 角色表演模式示意图 */
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("/role-performance-bg.png");
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  &.has-bar {
+    flex: 0.7;
+  }
+}
+
+/* ---- Center right panel: role toggles + compact guide ---- */
+.t1-center-right {
+  width: 170px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+.t1-center-note {
+  font-size: 12px;
+  color: $text-soft;
+  padding-top: 6px;
+  border-top: 1px solid $border-soft;
+  font-style: italic;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   Guide Popup Trigger Buttons (in center header)
+   ============================================================ */
+.t1-guide-popup-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1.5px solid $border-strong;
+  background: linear-gradient(180deg, rgba(255,255,255,0.65), rgba(246,241,231,0.3));
+  color: $wood;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+
+  &:hover {
+    background: linear-gradient(180deg, rgba(184,149,111,0.15), rgba(184,149,111,0.08));
+    border-color: $camel;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px $shadow;
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.t1-guide-popup-trigger-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.t1-guide-popup-trigger-label {
+  line-height: 1;
+}
+
+/* ============================================================
+   Role Toggle Switches
+   ============================================================ */
+.t1-role-toggles {
+  background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(246,241,231,0.2));
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.t1-role-toggles-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-role-toggles-title-icon {
+  font-size: 14px;
+}
+
+.t1-role-toggles-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.t1-role-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 2px solid $border-soft;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.22s ease;
+  font-family: inherit;
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    background: rgba(184, 149, 111, 0.1);
+    border-color: $camel;
+    transform: translateX(2px);
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+
+  &.active {
+    background: rgba(255, 255, 255, 0.8);
+    border-color: $border-strong;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+}
+
+.t1-role-toggle-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.t1-role-toggle-name {
+  flex: 1;
+  font-size: 13px;
+  font-weight: 600;
+  color: $wood;
+  text-align: left;
+  line-height: 1;
+}
+
+.t1-role-toggle-state {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 5px;
+  letter-spacing: 0.04em;
+  transition: all 0.25s ease;
+
+  &.on {
+    color: #fff;
+    background: $celadon;
+  }
+
+  &.off {
+    color: $text-soft;
+    background: rgba(0, 0, 0, 0.06);
+  }
+}
+
+/* ============================================================
+   Compact Guide (right panel below toggles)
+   ============================================================ */
+.t1-guide-compact {
+  background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(246,241,231,0.2));
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.t1-guide-compact-title {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-guide-compact-intro {
+  margin: 8px 0 0;
+  font-size: 11px;
+  color: $text-soft;
+  line-height: 1.5;
+  padding-top: 7px;
+  border-top: 1px solid $border-soft;
+
+  strong {
+    color: $wood;
+  }
+}
+
+/* ============================================================
+   Guide Modal
+   ============================================================ */
+.t1-guide-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(58, 44, 33, 0.35);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  animation: t1-fade-in 0.2s ease;
+}
+
+@keyframes t1-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.t1-guide-modal {
+  width: min(480px, 90vw);
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.96));
+  border: 1px solid $border-strong;
+  border-radius: 16px;
+  box-shadow: 0 16px 48px rgba(58, 44, 33, 0.22);
+  animation: t1-modal-slide-up 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.t1-guide-modal--wide {
+    width: min(720px, 92vw);
+    max-height: 85vh;
+  }
+}
+
+@keyframes t1-modal-slide-up {
+  from { opacity: 0; transform: translateY(24px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.t1-guide-modal-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 20px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+
+  h3 {
+    flex: 1;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+}
+
+.t1-guide-modal-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.t1-guide-modal-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid $border;
+  background: rgba(255, 255, 255, 0.6);
+  color: $wood;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    background: $red;
+    color: #fff;
+    border-color: $red;
+  }
+}
+
+.t1-guide-modal-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 18px 20px;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 3px;
+  }
+}
+
+/* ── Design Report Modal Content ── */
+.t1-report-content {
+  p {
+    margin: 0 0 14px;
+    font-size: 14px;
+    line-height: 1.85;
+    color: $ink;
+    text-align: justify;
+    text-indent: 2em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.t1-report-subtitle {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: $wood !important;
+  text-align: center !important;
+  text-indent: 0 !important;
+  padding-bottom: 14px;
+  margin-bottom: 16px !important;
+  border-bottom: 1px solid $border-soft;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-guide-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.t1-guide-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  font-size: 12px;
+  color: $wood;
+  line-height: 1.5;
+}
+
+.t1-guide-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+  color: #fff;
+}
+
+.t1-label-sing { background: var(--theme-red); }
+.t1-label-speak { background: var(--theme-gold); }
+.t1-label-act { background: var(--theme-celadon); }
+.t1-label-fight { background: var(--theme-slate); }
+
+.t1-guide-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+
+  li {
+    font-size: 11px;
+    color: $wood;
+    line-height: 1.4;
+    padding-left: 14px;
+    position: relative;
+
+    &::before {
+      content: "◆";
+      position: absolute;
+      left: 0;
+      font-size: 6px;
+      color: $camel;
+      top: 4px;
+    }
+
+    strong {
+      color: $red;
+    }
+  }
+}
+
+.t1-guide-insight {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  h4 {
+    font-size: 13px;
+    font-weight: 700;
+    color: $red;
+    padding: 6px 0 0;
+    margin: 10px 0 4px;
+    letter-spacing: 0.03em;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    background: rgba(127, 150, 141, 0.08);
+    border-radius: 8px;
+    padding: 10px 12px;
+    border-left: 3px solid $celadon;
+    line-height: 1.55;
+    margin: 0;
+  }
+}
+
+/* ============================================================
+   Method list (右侧面板 — 推断方法概述)
+   ============================================================ */
+.t1-method-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.t1-method-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  border: 1px solid $border-soft;
+  background: linear-gradient(180deg, rgba(255,255,255,0.45), rgba(246,241,231,0.18));
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-color: $border-strong;
+  }
+}
+
+.t1-method-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  background: $celadon;
+  flex-shrink: 0;
+}
+
+.t1-method-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: $wood;
+  margin-bottom: 1px;
+}
+
+.t1-method-desc {
+  font-size: 10px;
+  color: $text-soft;
+  line-height: 1.3;
+}
+
+/* ============================================================
+   Feedback button (topbar)
+   ============================================================ */
+.t1-feedback-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--theme-border);
+  background: linear-gradient(135deg, rgba(150, 84, 77, 0.08), rgba(184, 149, 111, 0.12));
+  color: var(--theme-wood);
+  cursor: pointer;
+  transition: all 0.22s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    background: linear-gradient(135deg, rgba(150, 84, 77, 0.15), rgba(184, 149, 111, 0.2));
+    border-color: var(--theme-border-strong);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px var(--theme-shadow-color);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.t1-feedback-btn-icon {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.t1-feedback-btn-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+/* ============================================================
+   Drawer trigger buttons
+   ============================================================ */
+.t1-drawer-triggers {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.t1-drawer-trigger-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: $wood;
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
+  border: 1.5px solid $border-strong;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: "Noto Sans SC", sans-serif;
+  white-space: nowrap;
+  box-shadow: 0 4px 10px $shadow;
+
+  &:hover {
+    border-color: $camel;
+    box-shadow: 0 6px 14px $shadow;
+    transform: translateY(-1px);
+  }
+
+  &.active {
+    border-color: $red;
+    box-shadow: 0 0 0 1px rgba(150, 84, 77, 0.3), 0 6px 14px $shadow;
+  }
+}
+
+.t1-trigger-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.t1-trigger-icon {
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.t1-trigger-label {
+  line-height: 1;
+}
+
+/* ============================================================
+   Drawer panel (slides from right)
+   ============================================================ */
+.t1-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(58, 44, 33, 0.32);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.28s ease;
+  z-index: 80;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+.t1-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(540px, 46vw);
+  height: 100vh;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.96));
+  border-left: 1px solid $border-strong;
+  box-shadow: -8px 0 32px rgba(58, 44, 33, 0.18);
+  transform: translateX(100%);
+  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.open {
+    transform: translateX(0);
+  }
+}
+
+.t1-drawer-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 22px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+
+  h2 {
+    flex: 1;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+}
+
+.t1-drawer-title-icon {
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.t1-drawer-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid $border-strong;
+  background: rgba(255,255,255,0.6);
+  color: $wood;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    background: $red;
+    color: #fff;
+    border-color: $red;
+  }
+}
+
+.t1-drawer-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 18px 22px;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 3px;
+  }
+}
+
+/* ============================================================
+   Performance Drawer — 右侧维度对比抽屉
+   ============================================================ */
+.t1-perf-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(58, 44, 33, 0.28);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.28s ease;
+  z-index: 90;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+.t1-perf-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(420px, 42vw);
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.96));
+  border-left: 1px solid $border-strong;
+  box-shadow: -8px 0 32px rgba(58, 44, 33, 0.18);
+  transform: translateX(100%);
+  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.open {
+    transform: translateX(0);
+  }
+}
+
+.t1-perf-drawer-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 22px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+
+  h2 {
+    flex: 1;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+}
+
+.t1-perf-drawer-title-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.t1-perf-drawer-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid $border-strong;
+  background: rgba(255,255,255,0.6);
+  color: $wood;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    background: $red;
+    color: #fff;
+    border-color: $red;
+  }
+}
+
+.t1-perf-drawer-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 3px;
+  }
+}
+
+.t1-perf-section {
+  background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(246,241,231,0.2));
+  border: 1px solid $border-soft;
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.t1-perf-section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-perf-section-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: $red;
+  flex-shrink: 0;
+}
+
+.t1-perf-hint {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: $text-soft;
+  line-height: 1.5;
+}
+
+.t1-dim-bar-area-drawer {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+/* ---- Guide label active state (维度对比抽屉) ---- */
+.t1-guide-label-active {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* ============================================================
+   Data Table
+   ============================================================ */
+.t1-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+
+  th {
+    text-align: left;
+    padding: 5px 8px;
+    color: $ochre;
+    font-weight: 600;
+    font-size: 11px;
+    border-bottom: 1px solid $border-strong;
+    background: linear-gradient(180deg, rgba(255,255,255,0.4), transparent);
+  }
+
+  td {
+    padding: 4px 8px;
+    color: $wood;
+    border-bottom: 1px solid $border-soft;
+  }
+
+  tbody tr:hover {
+    background: rgba(184, 149, 111, 0.06);
+  }
+}
+
+.t1-role-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 5px;
+  background: rgba(150, 84, 77, 0.1);
+  color: $red;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.t1-confidence {
+  font-weight: 700;
+  color: $celadon;
+  font-size: 12px;
+}
+
+/* ============================================================
+   Interactive Rule Inference Panel
+   ============================================================ */
+.t1-inference-interactive {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ---- Attribute selection panel ---- */
+.t1-attr-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 6px 0;
+  border-bottom: 1px solid $border-soft;
+}
+
+.t1-attr-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.t1-attr-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: $ochre;
+  white-space: nowrap;
+  min-width: 52px;
+  padding-top: 4px;
+  flex-shrink: 0;
+}
+
+.t1-attr-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  flex: 1;
+}
+
+.t1-attr-chips-traits {
+  max-height: 108px;
+  overflow-y: auto;
+  padding-right: 2px;
+
+  &::-webkit-scrollbar { width: 3px; }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+.t1-attr-chip {
+  padding: 3px 8px;
+  border-radius: 6px;
+  border: 1px solid $border;
+  background: rgba(255, 255, 255, 0.5);
+  color: $wood;
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  font-family: inherit;
+  white-space: nowrap;
+
+  &:hover {
+    border-color: $border-strong;
+    background: rgba(184, 149, 111, 0.12);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: scale(0.96);
+  }
+
+  &.active {
+    color: #fff;
+    background: $red;
+    border-color: $red;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(150, 84, 77, 0.3);
+  }
+}
+
+.t1-trait-chip {
+  font-size: 11px;
+  padding: 2px 7px;
+}
+
+.t1-attr-clear {
+  align-self: flex-end;
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: 1px solid $border-soft;
+  background: transparent;
+  color: $text-soft;
+  font-size: 10px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  font-family: inherit;
+
+  &:hover {
+    color: $red;
+    border-color: $red;
+    background: rgba(150, 84, 77, 0.06);
+  }
+}
+
+/* ---- Match results ---- */
+.t1-match-results {
+  display: flex;
+  flex-direction: column;
+}
+
+.t1-match-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.t1-match-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: $wood;
+}
+
+.t1-match-empty-hint {
+  font-size: 10px;
+  color: $text-soft;
+  font-style: italic;
+}
+
+/* ---- Confidence tooltip ---- */
+.t1-confidence-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  position: relative;
+}
+
+.t1-confidence-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  font-size: 10px;
+  color: $camel;
+  cursor: help;
+  transition: all 0.18s ease;
+  position: relative;
+
+  &:hover {
+    color: $red;
+    background: rgba(150, 84, 77, 0.08);
+  }
+}
+
+.t1-confidence-tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.98));
+  border: 1px solid $border-strong;
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 220px;
+  box-shadow: 0 8px 24px rgba(58, 44, 33, 0.18);
+  font-size: 11px;
+  color: $wood;
+  line-height: 1.55;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  transform: translateX(-50%) translateY(4px);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  strong {
+    color: $red;
+    font-size: 12px;
+  }
+
+  .t1-tooltip-divider {
+    height: 1px;
+    background: $border-soft;
+    margin: 2px 0;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: $border-strong;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-1px);
+    border: 5px solid transparent;
+    border-top-color: rgba(255,253,249,0.98);
+    z-index: 1;
+  }
+}
+
+.t1-confidence-info:hover .t1-confidence-tooltip,
+.t1-confidence-info:focus-within .t1-confidence-tooltip {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}
+
+/* ---- Condition highlighting ---- */
+.t1-highlight-match {
+  color: $red;
+  font-weight: 600;
+  background: rgba(150, 84, 77, 0.1);
+  border-radius: 3px;
+  padding: 1px 3px;
+  transition: all 0.18s ease;
+}
+
+.t1-highlight-dim {
+  color: $text-soft;
+  opacity: 0.55;
+  transition: opacity 0.18s ease;
+}
+
+.t1-row-matched {
+  background: rgba(150, 84, 77, 0.04);
+
+  &:hover {
+    background: rgba(150, 84, 77, 0.08) !important;
+  }
+}
+
+/* ============================================================
+   Stage Cards (Feature Model Panel)
+   ============================================================ */
+.t1-stage-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.t1-stage-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 14px;
+  padding: 12px;
+  box-shadow: 0 6px 14px $shadow;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 8px 20px $shadow;
+  }
+}
+
+.t1-stage-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.t1-stage-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  flex-shrink: 0;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-stage-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: $wood;
+  line-height: 1.3;
+}
+
+.t1-stage-subtitle {
+  font-size: 12px;
+  color: $text-soft;
+  margin-top: 2px;
+  font-style: italic;
+}
+
+.t1-stage-details {
+  margin: 0 0 8px 36px;
+  padding: 0;
+  list-style: none;
+
+  li {
+    font-size: 13px;
+    color: $wood;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 14px;
+
+    &::before {
+      content: "·";
+      position: absolute;
+      left: 0;
+      font-weight: 700;
+      color: $camel;
+    }
+  }
+}
+
+.t1-stage-evidence {
+  margin-left: 36px;
+  font-size: 12px;
+  color: $text-soft;
+  background: rgba(127, 150, 141, 0.08);
+  border-radius: 6px;
+  padding: 6px 10px;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.t1-evidence-icon {
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   Inference Panel
+   ============================================================ */
+.t1-inference-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.t1-section-intro {
+  background: rgba(127, 150, 141, 0.08);
+  border-radius: 10px;
+  padding: 14px;
+
+  strong {
+    display: block;
+    font-size: 15px;
+    color: $wood;
+    margin-bottom: 6px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 12px;
+    color: $text-soft;
+    line-height: 1.6;
+  }
+}
+
+.t1-panel-subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: $wood;
+  margin: 0 0 6px;
+  padding-left: 10px;
+  border-left: 3px solid $camel;
+}
+
+.t1-tech-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.t1-tech-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 10px;
+  border-radius: 10px;
+  border: 1px solid $border;
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
+  text-align: center;
+
+  strong {
+    font-size: 14px;
+    color: $wood;
+  }
+
+  p {
+    margin: 0;
+    font-size: 11px;
+    color: $text-soft;
+  }
+}
+
+.t1-tech-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  background: rgba(184, 149, 111, 0.2);
+  color: $ochre;
+
+  &.recommend {
+    background: rgba(150, 84, 77, 0.15);
+    color: $red;
+  }
+}
+
+/* ============================================================
+   Probability bars
+   ============================================================ */
+.t1-probability-example {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.t1-prob-role {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.t1-prob-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: $wood;
+}
+
+.t1-prob-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.t1-prob-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.t1-bar-label {
+  width: 40px;
+  font-size: 12px;
+  color: $wood;
+  text-align: right;
+  flex-shrink: 0;
+  font-weight: 600;
+}
+
+.t1-bar-fill {
+  height: 14px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, $red, $camel);
+  flex: 1;
+}
+
+.t1-bar-pct {
+  width: 36px;
+  font-size: 12px;
+  font-weight: 600;
+  color: $red;
+  flex-shrink: 0;
+}
+
+.t1-prob-note {
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: $text-soft;
+  font-style: italic;
+}
+
+/* ============================================================
+   Evolution insights
+   ============================================================ */
+.t1-evolution-insights {
+  margin-top: 12px;
+
+  h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: $wood;
+    margin: 0 0 8px;
+    padding-left: 10px;
+    border-left: 3px solid $camel;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  li {
+    font-size: 12px;
+    color: $wood;
+    line-height: 1.6;
+    padding: 8px 12px;
+    background: rgba(127, 150, 141, 0.06);
+    border-radius: 8px;
+    border-left: 3px solid $celadon;
+
+    strong {
+      color: $red;
+    }
+  }
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 1200px) {
+  .t1-main-grid {
+    grid-template-columns: minmax(250px, 22vw) minmax(340px, 1fr) minmax(260px, 26vw);
+  }
+
+  .t1-radar-area {
+    min-height: 380px;
+  }
+
+  .t1-center-row {
+    flex-direction: row;
+  }
+
+  .t1-center-right {
+    width: 180px;
+  }
+
+  .t1-radar-area {
+    min-height: 380px;
+  }
+
+  .t1-dim-bar-area {
+    max-height: 40%;
+  }
+
+  .t1-dim-btn {
+    padding: 4px 10px;
+    min-width: 38px;
+  }
+
+  .t1-dim-btn-label {
+    font-size: 16px;
+  }
+
+  .t1-perf-drawer {
+    width: min(380px, 44vw);
+  }
+
+  .t1-report-sidebar {
+    width: min(520px, 56vw);
+  }
+}
+
+@media (max-width: 1080px) {
+  .t1-main-grid {
+    grid-template-columns: 1fr;
+    overflow-y: auto;
+  }
+
+  .t1-screen {
+    height: auto;
+    overflow: visible;
+  }
+
+  .t1-side-panel {
+    overflow-y: visible;
+    max-height: none;
+  }
+
+  .t1-center-stage {
+    min-height: 520px;
+  }
+
+  .t1-center-row {
+    flex-direction: column;
+  }
+
+  .t1-center-right {
+    width: 100%;
+    flex-direction: row;
+    gap: 8px;
+    overflow-y: visible;
+  }
+
+  .t1-role-toggles {
+    flex: 1;
+  }
+
+  .t1-role-toggles-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+  }
+
+  .t1-dim-bar-area {
+    max-height: 35%;
+  }
+
+  .t1-dim-selectors {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .t1-perf-drawer {
+    width: min(360px, 48vw);
+  }
+}
+
+@media (max-width: 960px) {
+  .t1-topbar {
+    grid-template-columns: 1fr;
+  }
+
+  .t1-topbar-report-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .t1-drawer {
+    width: 100vw;
+  }
+
+  .t1-report-sidebar {
+    width: 100vw;
+  }
+
+  .t1-perf-drawer {
+    width: 100vw;
+  }
+
+  .t1-drawer-triggers {
+    flex-wrap: wrap;
+  }
+
+  .t1-tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .t1-guide-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   Design Process Report Sidebar
+   ============================================================ */
+.t1-report-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(58, 44, 33, 0.32);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.28s ease;
+  z-index: 80;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+.t1-report-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(620px, 52vw);
+  height: 100vh;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.96));
+  border-left: 1px solid $border-strong;
+  box-shadow: -8px 0 32px rgba(58, 44, 33, 0.18);
+  transform: translateX(100%);
+  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.open {
+    transform: translateX(0);
+  }
+}
+
+.t1-report-sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 22px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+
+  h2 {
+    flex: 1;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: $wood;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+}
+
+.t1-report-sidebar-header-icon {
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.t1-report-sidebar-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid $border-strong;
+  background: rgba(255,255,255,0.6);
+  color: $wood;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    background: $red;
+    color: #fff;
+    border-color: $red;
+  }
+}
+
+/* ---- Report Tab Navigation ---- */
+.t1-report-tabs {
+  display: flex;
+  gap: 2px;
+  padding: 10px 14px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+  overflow-x: auto;
+  background: rgba(246, 241, 231, 0.25);
+
+  &::-webkit-scrollbar {
+    height: 3px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+.t1-report-tab {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 13px;
+  border-radius: 8px;
+  border: 1.5px solid transparent;
+  background: transparent;
+  color: $text-soft;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  &:hover {
+    color: $wood;
+    background: rgba(184, 149, 111, 0.1);
+    border-color: $border-soft;
+  }
+
+  &.active {
+    color: $red;
+    background: rgba(150, 84, 77, 0.1);
+    border-color: rgba(150, 84, 77, 0.3);
+    box-shadow: 0 2px 6px rgba(150, 84, 77, 0.1);
+  }
+}
+
+.t1-report-tab-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.t1-report-tab-label {
+  line-height: 1;
+}
+
+/* ---- Report Sidebar Body ---- */
+.t1-report-sidebar-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 18px 22px;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 3px;
+  }
+}
+
+/* ============================================================
+   Feature Relation Panel — 特征-行当关系
+   ============================================================ */
+.t1-feature-relation {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.t1-sankey-compact {
+  background: rgba(255,255,255,0.45);
+  border: 1px solid rgba(184, 146, 106, 0.12);
+  border-radius: 10px;
+  padding: 8px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+
+  > div:first-child {
+    flex: 1;
+    min-height: 0;
+  }
+}
+
+.t1-sankey-wrapper {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), #fff;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 6px 14px $shadow;
+}
+
+.t1-table-scroll {
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 1px solid $border;
+  background: linear-gradient(180deg, rgba(255,255,255,0.58), rgba(246,241,231,0.4)), $paper;
+  box-shadow: 0 6px 14px $shadow;
+
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 2px;
+  }
+}
+
+.t1-feature-table {
+  min-width: 760px;
+  font-size: 12px;
+
+  th {
+    white-space: nowrap;
+    padding: 7px 10px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  td {
+    padding: 6px 10px;
+    vertical-align: middle;
+  }
+
+  .t1-rank {
+    text-align: center;
+    font-weight: 700;
+    color: $ochre;
+    width: 32px;
+  }
+
+  .t1-num {
+    text-align: right;
+    font-weight: 600;
+    color: $wood;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .t1-pct {
+    text-align: center;
+    font-weight: 600;
+    color: $red;
+    white-space: nowrap;
+  }
+
+  .t1-traits {
+    color: $celadon;
+    font-weight: 600;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .t1-chars {
+    color: $text-soft;
+    font-size: 11px;
+    line-height: 1.4;
+    max-width: 240px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .t1-feature-table {
+    min-width: 620px;
+  }
+  .t1-feature-table .t1-chars {
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .t1-feature-table {
+    min-width: 560px;
+  }
+}

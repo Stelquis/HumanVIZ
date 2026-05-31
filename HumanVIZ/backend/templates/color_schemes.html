@@ -1,0 +1,386 @@
+{% extends "base.html" %}
+
+{% block title %}配色方案 - HumanVIZ{% endblock %}
+
+{% block extra_css %}
+<style>
+    .palette-page {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    /* 页面标题区 */
+    .palette-header {
+        text-align: center;
+        padding: 2rem 1rem 1rem;
+    }
+
+    .palette-header .page-title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+        background: var(--gradient-primary);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .palette-header .page-desc {
+        color: var(--text-secondary);
+        font-size: 1rem;
+        line-height: 1.8;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    /* 卡片通用样式 - Level 1 实色表面 */
+    .palette-card {
+        background: var(--bg-card);
+        border: var(--card-border-strong);
+        border-radius: 16px;
+        padding: 1.5rem;
+        box-shadow: var(--card-shadow);
+    }
+
+    .card-title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: var(--text-primary);
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    /* 六主体色展示 */
+    .main-colors-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .color-swatch {
+        border-radius: 12px;
+        overflow: hidden;
+        border: var(--card-border);
+        box-shadow: var(--card-shadow);
+    }
+
+    .color-preview {
+        height: 80px;
+    }
+
+    .color-info {
+        padding: 0.875rem;
+        background: var(--surface-base);
+    }
+
+    .color-name {
+        font-weight: 600;
+        font-size: 0.9375rem;
+        color: var(--text-primary);
+        margin-bottom: 0.25rem;
+    }
+
+    .color-hex {
+        font-family: monospace;
+        font-size: 0.8125rem;
+        color: var(--text-secondary);
+    }
+
+    .color-role {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        margin-top: 0.375rem;
+    }
+
+    /* 衍生色系列 */
+    .variant-section {
+        margin-bottom: 1.5rem;
+    }
+
+    .variant-section:last-child {
+        margin-bottom: 0;
+    }
+
+    .variant-title {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: var(--text-secondary);
+        margin-bottom: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    .variant-row {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .variant-item {
+        flex: 1;
+        height: 48px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.6875rem;
+        font-family: monospace;
+        color: var(--text-primary);
+        border: var(--card-border);
+        box-shadow: var(--shadow-sm);
+    }
+
+    /* 功能色 */
+    .semantic-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+    .semantic-item {
+        text-align: center;
+    }
+
+    .semantic-preview {
+        height: 56px;
+        border-radius: 10px;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+        border: var(--card-border);
+        box-shadow: var(--card-shadow);
+    }
+
+    .semantic-name {
+        font-size: 0.8125rem;
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+
+    .semantic-var {
+        font-size: 0.6875rem;
+        font-family: monospace;
+        color: var(--text-secondary);
+        margin-top: 0.125rem;
+    }
+
+    /* 渐变展示 */
+    .gradient-row {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .gradient-item {
+        flex: 1;
+        height: 72px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--text-inverse);
+        border: var(--card-border);
+        box-shadow: var(--card-shadow);
+        text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+
+    /* 变量速查表 */
+    .var-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .var-table th,
+    .var-table td {
+        padding: 0.625rem 0.875rem;
+        text-align: left;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .var-table th {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        background: var(--table-head-bg);
+    }
+
+    .var-table td {
+        font-size: 0.8125rem;
+    }
+
+    .var-table code {
+        font-family: monospace;
+        background: var(--surface-base);
+        padding: 0.125rem 0.375rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        color: var(--primary);
+    }
+
+    .var-table tr:last-child td {
+        border-bottom: none;
+    }
+
+    /* 响应式 */
+    @media (max-width: 900px) {
+        .main-colors-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .semantic-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .gradient-row {
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .main-colors-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="palette-page">
+    <!-- 标题区 -->
+    <div class="palette-header">
+        <h1 class="page-title">燕京清晖</h1>
+        <p class="page-desc">
+            取燕京古都晨昏之色，素笺为纸、绢帛为底、琉璃点金、云水映青，石板承重、朱砂点睛。六色层叠如殿宇明暗，由浅入深，各司其职。
+        </p>
+    </div>
+
+    <!-- 六主体色 -->
+    <div class="palette-card">
+        <div class="card-title">🎨 六主体色</div>
+        <div class="main-colors-grid">
+            <div class="color-swatch">
+                <div class="color-preview" style="background: var(--theme-paper);"></div>
+                <div class="color-info">
+                    <div class="color-name">素笺白</div>
+                    <div class="color-hex">#F6F1E7</div>
+                    <div class="color-role">宣纸初展，万物落笔之处</div>
+                </div>
+            </div>
+            <div class="color-swatch">
+                <div class="color-preview" style="background: var(--theme-parchment);"></div>
+                <div class="color-info">
+                    <div class="color-name">绢帛米</div>
+                    <div class="color-hex">#E9DFC9</div>
+                    <div class="color-role">古绢托底，承载层层纹理</div>
+                </div>
+            </div>
+            <div class="color-swatch">
+                <div class="color-preview" style="background: var(--theme-gold);"></div>
+                <div class="color-info">
+                    <div class="color-name">琉璃金</div>
+                    <div class="color-hex">#B89B6D</div>
+                    <div class="color-role">暮色镀檐，殿顶流光一缕</div>
+                </div>
+            </div>
+            <div class="color-swatch">
+                <div class="color-preview" style="background: var(--theme-celadon);"></div>
+                <div class="color-info">
+                    <div class="color-name">云水青</div>
+                    <div class="color-hex">#7F968D</div>
+                    <div class="color-role">远山含黛，水面映天一色</div>
+                </div>
+            </div>
+            <div class="color-swatch">
+                <div class="color-preview" style="background: var(--theme-slate);"></div>
+                <div class="color-info">
+                    <div class="color-name">石板灰</div>
+                    <div class="color-hex">#5E6B76</div>
+                    <div class="color-role">青砖铺径，勾勒殿宇骨架</div>
+                </div>
+            </div>
+            <div class="color-swatch">
+                <div class="color-preview" style="background: var(--theme-red);"></div>
+                <div class="color-info">
+                    <div class="color-name">朱砂红</div>
+                    <div class="color-hex">#96544D</div>
+                    <div class="color-role">宫墙点朱，醒目亦庄亦雅</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 衍生色系统 -->
+    <div class="palette-card">
+        <div class="card-title">💧 衍生色系统</div>
+
+        <div class="variant-section">
+            <div class="variant-title">Paper 系列 — 浅色背景</div>
+            <div class="variant-row">
+                <div class="variant-item" style="background: var(--paper-lightest);">lightest</div>
+                <div class="variant-item" style="background: var(--paper-light);">light</div>
+                <div class="variant-item" style="background: var(--paper-mid);">mid</div>
+                <div class="variant-item" style="background: var(--paper-dark);">dark</div>
+            </div>
+        </div>
+
+        <div class="variant-section">
+            <div class="variant-title">Gold 系列 — 暖色强调</div>
+            <div class="variant-row">
+                <div class="variant-item" style="background: var(--gold-lightest); color: var(--text-primary);">lightest</div>
+                <div class="variant-item" style="background: var(--gold-light);">light</div>
+                <div class="variant-item" style="background: var(--gold-mid);">mid</div>
+                <div class="variant-item" style="background: var(--gold-dark);">dark</div>
+                <div class="variant-item" style="background: var(--gold-border); border-color: var(--gold-mid);">border</div>
+            </div>
+        </div>
+
+        <div class="variant-section">
+            <div class="variant-title">Celadon 系列 — 冷色层级</div>
+            <div class="variant-row">
+                <div class="variant-item" style="background: var(--celadon-lightest); color: var(--text-primary);">lightest</div>
+                <div class="variant-item" style="background: var(--celadon-light);">light</div>
+                <div class="variant-item" style="background: var(--celadon-mid);">mid</div>
+                <div class="variant-item" style="background: var(--celadon-dark);">dark</div>
+                <div class="variant-item" style="background: var(--celadon-border);">border</div>
+            </div>
+        </div>
+
+        <div class="variant-section">
+            <div class="variant-title">Red 系列 — 警示状态</div>
+            <div class="variant-row">
+                <div class="variant-item" style="background: var(--red-lightest); color: var(--text-primary);">lightest</div>
+                <div class="variant-item" style="background: var(--red-light);">light</div>
+                <div class="variant-item" style="background: var(--red-mid);">mid</div>
+                <div class="variant-item" style="background: var(--red-dark);">dark</div>
+                <div class="variant-item" style="background: var(--red-border);">border</div>
+            </div>
+        </div>
+
+        <div class="variant-section">
+            <div class="variant-title">Slate 系列 — 中性深色</div>
+            <div class="variant-row">
+                <div class="variant-item" style="background: var(--slate-light);">light</div>
+                <div class="variant-item" style="background: var(--slate-mid);">mid</div>
+                <div class="variant-item" style="background: var(--slate-dark);">dark</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 渐变 -->
+    <div class="palette-card">
+        <div class="card-title">🌈 渐变色</div>
+        <div class="gradient-row">
+            <div class="gradient-item" style="background: var(--gradient-primary);">燕京清晖 · 主渐变</div>
+            <div class="gradient-item" style="background: var(--gradient-warm);">暖色渐变</div>
+            <div class="gradient-item" style="background: var(--gradient-cool);">冷色渐变</div>
+        </div>
+    </div>
+</div>
+{% endblock %}

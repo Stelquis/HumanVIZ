@@ -1,0 +1,554 @@
+{% extends "base.html" %}
+
+{% block title %}LLM 测试 - HumanVIZ{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* 配置信息卡片 */
+    .config-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+    }
+    .config-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .config-label {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        margin-bottom: 0.25rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    .config-value {
+        font-weight: 600;
+        font-size: 1.125rem;
+        color: var(--text-primary);
+    }
+    .config-code {
+        background: var(--surface-base);
+        padding: 0.375rem 0.75rem;
+        border-radius: 6px;
+        font-family: monospace;
+        font-size: 0.875rem;
+        color: var(--primary);
+        border: var(--border-soft);
+        display: inline-block;
+        width: fit-content;
+    }
+
+    /* 对话容器 */
+    .chat-container {
+        background: var(--bg-container);
+        border-radius: 12px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        max-height: 300px;
+        overflow-y: auto;
+        border: var(--card-border);
+    }
+    .chat-empty {
+        text-align: center;
+        color: var(--text-muted);
+        padding: 2rem;
+    }
+
+    /* 消息气泡 */
+    .message-row {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    .message-row.user {
+        justify-content: flex-end;
+    }
+    .message-row.assistant {
+        justify-content: flex-start;
+    }
+    .message-bubble {
+        max-width: 85%;
+        border-radius: 12px;
+        padding: 0.75rem 1rem;
+        border: 1px solid;
+    }
+    .message-bubble.user {
+        background: var(--celadon-lightest);
+        border-color: var(--celadon-light);
+        color: var(--text-primary);
+    }
+    .message-bubble.assistant {
+        background: var(--bg-module-warm);
+        border-color: var(--gold-border);
+        color: var(--text-primary);
+    }
+    .message-label {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        margin-bottom: 0.5rem;
+    }
+    .message-content {
+        white-space: pre-wrap;
+        line-height: 1.6;
+    }
+
+    /* 思考状态 */
+    .thinking-status {
+        display: block;
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+        margin-bottom: 0.5rem;
+    }
+    .thinking-status span {
+        animation: pulse 1.5s infinite;
+    }
+
+    /* 结果区域 */
+    .result-section {
+        margin-top: 1.5rem;
+        display: none;
+    }
+    .result-section.visible {
+        display: block;
+    }
+    .result-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+        border-top: var(--border);
+    }
+    .result-title {
+        font-weight: 600;
+        color: var(--text-primary);
+    }
+    .result-time {
+        color: var(--text-secondary);
+        font-size: 0.875rem;
+    }
+    .result-content {
+        background: var(--surface-base);
+        padding: 1.25rem;
+        border-radius: 10px;
+        border: var(--card-border);
+        white-space: pre-wrap;
+        line-height: 1.8;
+    }
+    .result-content pre {
+        margin: 0;
+        background: transparent;
+        border: none;
+        padding: 0;
+    }
+
+    /* 代码高亮 */
+    .syntax-string { color: var(--syntax-string); }
+    .syntax-key { color: var(--syntax-key); }
+    .syntax-boolean { color: var(--syntax-boolean); }
+    .syntax-null { color: var(--syntax-null); }
+    .syntax-number { color: var(--syntax-number); }
+
+    /* ── Tab 切换 ── */
+    .tab-bar {
+        display: flex; gap: 0.375rem;
+        margin-left: auto;
+    }
+    .tab-btn {
+        padding: 0.375rem 0.875rem;
+        border: 1px solid var(--border-soft);
+        border-radius: 8px;
+        background: var(--surface-base);
+        color: var(--text-secondary);
+        font-size: 0.8125rem; font-weight: 500;
+        cursor: pointer; transition: all 0.18s;
+        font-family: inherit; white-space: nowrap;
+    }
+    .tab-btn:hover {
+        border-color: var(--primary);
+        color: var(--primary);
+    }
+    .tab-btn.active {
+        background: var(--primary);
+        color: #fff;
+        border-color: var(--primary);
+    }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; min-height: 380px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="page-header animate-fade-in">
+    <h1 class="page-title">🤖 LLM 测试台</h1>
+    <p class="page-subtitle">测试大语言模型功能和提示词效果</p>
+</div>
+
+<!-- LLM 配置信息 -->
+<div class="card animate-card" style="--delay: 0.08s;">
+    <div class="card-header">
+        <div class="card-title">⚙️ 当前配置</div>
+        {% if llm_info.status == 'available' %}
+        <span class="badge badge-success">● 服务正常</span>
+        {% else %}
+        <span class="badge badge-info">○ 未加载</span>
+        {% endif %}
+    </div>
+    <div class="card-body">
+        <div class="config-grid">
+            <div class="config-item">
+                <div class="config-label">提供商</div>
+                <div class="config-value">{{ llm_info.provider }}</div>
+            </div>
+            <div class="config-item">
+                <div class="config-label">模型</div>
+                <code class="config-code">{{ llm_info.model }}</code>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- LLM 功能测试（三合一） -->
+<div class="card animate-card" style="--delay: 0.14s;">
+    <div class="card-header">
+        <div class="card-title">🧪 LLM 功能测试</div>
+        <div class="tab-bar" id="llm-tabs">
+            <button class="tab-btn active" data-tab="chat">💬 简单对话</button>
+            <button class="tab-btn" data-tab="qa">❓ 问答测试</button>
+            <button class="tab-btn" data-tab="colors">🎨 颜色分配</button>
+        </div>
+    </div>
+    <div class="card-body">
+        <!-- Tab 1: 简单对话 -->
+        <div class="tab-panel active" id="tab-chat">
+            <span id="chat-status" class="thinking-status" style="display: none;">
+                <span>⏳ AI 思考中...</span>
+            </span>
+            <div id="chat-container" class="chat-container">
+                <div id="chat-messages">
+                    <div class="chat-empty">暂无对话记录，开始聊天吧</div>
+                </div>
+            </div>
+            <div style="display: flex; gap: 0.75rem;">
+                <input type="text" id="chat-input" class="form-control" placeholder="输入消息..." style="flex: 1;" onkeypress="if(event.key==='Enter')sendChat()">
+                <button id="chat-send-btn" onclick="sendChat()" class="btn btn-primary">
+                    <span>📤</span><span>发送</span>
+                </button>
+                <button id="chat-clear-btn" onclick="clearChat()" class="btn btn-secondary">
+                    <span>🗑️</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Tab 2: 问答测试 -->
+        <div class="tab-panel" id="tab-qa">
+            <div class="form-group">
+                <label class="form-label">提示词模板</label>
+                <select id="prompt-template" class="form-control" onchange="loadTemplate()">
+                    <option value="">-- 选择模板 --</option>
+                    <option value="qa">通用问答</option>
+                    <option value="summary">文本总结</option>
+                    <option value="extract">信息提取</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-label">上下文数据 (JSON 格式，可选)</label>
+                <textarea id="context-data" class="form-control" rows="4" placeholder='{"key": "value"}'></textarea>
+            </div>
+            <div class="form-group">
+                <label class="form-label">问题</label>
+                <textarea id="question" class="form-control" rows="3" placeholder="输入你的问题..."></textarea>
+            </div>
+            <button onclick="askQuestion()" class="btn btn-primary">
+                <span>🚀</span><span>发送请求</span>
+            </button>
+            <div id="qa-result" class="result-section">
+                <div class="result-header">
+                    <span class="result-title">📤 回答</span>
+                    <span id="qa-time" class="result-time"></span>
+                </div>
+                <div id="qa-answer" class="result-content"></div>
+            </div>
+        </div>
+
+        <!-- Tab 3: 颜色分配 -->
+        <div class="tab-panel" id="tab-colors">
+            <div class="form-group">
+                <label class="form-label">角色数据 (JSON 数组)</label>
+                <textarea id="color-data" class="form-control" rows="4">[{"name": "Alice"}, {"name": "Bob"}, {"name": "Charlie"}]</textarea>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <div class="form-group">
+                    <label class="form-label">属性描述</label>
+                    <input type="text" id="color-desc" class="form-control" value="gender" placeholder="如: gender, personality">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">调色板偏好 (可选)</label>
+                    <input type="text" id="palette-info" class="form-control" value="purples" placeholder="如: warm, cool, blues">
+                </div>
+            </div>
+            <button onclick="testColors()" class="btn btn-primary">
+                <span>🎨</span><span>生成颜色</span>
+            </button>
+            <div id="color-result" class="result-section">
+                <div class="result-header">
+                    <span class="result-title">🎨 分配结果</span>
+                    <span id="color-time" class="result-time"></span>
+                </div>
+                <div class="result-content">
+                    <pre id="color-output" style="margin: 0;"><code></code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// ========== Tab 切换 ==========
+document.getElementById('llm-tabs').addEventListener('click', function(e) {
+    const btn = e.target.closest('.tab-btn');
+    if (!btn) return;
+    const tab = btn.dataset.tab;
+    this.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('tab-' + tab).classList.add('active');
+});
+
+// ========== 简单对话功能 ==========
+function addChatMessage(role, content) {
+    const container = document.getElementById('chat-messages');
+    // 移除默认提示
+    if (container.querySelector('.chat-empty')) {
+        container.innerHTML = '';
+    }
+
+    const msgDiv = document.createElement('div');
+    msgDiv.className = `message-row ${role}`;
+
+    const label = role === 'user' ? '👤 你' : '🤖 AI';
+
+    msgDiv.innerHTML = `
+        <div class="message-bubble ${role}">
+            <div class="message-label">${label}</div>
+            <div class="message-content">${escapeHtml(content)}</div>
+        </div>
+    `;
+    container.appendChild(msgDiv);
+    container.scrollTop = container.scrollHeight;
+}
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+function clearChat() {
+    document.getElementById('chat-messages').innerHTML = `
+        <div class="chat-empty">
+            暂无对话记录，开始聊天吧
+        </div>
+    `;
+}
+
+async function sendChat() {
+    const input = document.getElementById('chat-input');
+    const message = input.value.trim();
+    const sendBtn = document.getElementById('chat-send-btn');
+    const clearBtn = document.getElementById('chat-clear-btn');
+    const status = document.getElementById('chat-status');
+
+    if (!message) return;
+
+    // 禁用输入和按钮，显示状态
+    input.disabled = true;
+    sendBtn.disabled = true;
+    clearBtn.disabled = true;
+    sendBtn.style.opacity = '0.6';
+    clearBtn.style.opacity = '0.6';
+    status.style.display = 'block';
+
+    addChatMessage('user', message);
+    input.value = '';
+
+    try {
+        const response = await fetch('/api/v1/llm/ask', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ question: message, data: null })
+        });
+
+        const result = await response.json();
+
+        if (result.code === 0) {
+            addChatMessage('assistant', result.data.answer);
+        } else {
+            addChatMessage('assistant', '错误: ' + result.message);
+        }
+    } catch (error) {
+        addChatMessage('assistant', '请求失败: ' + error.message);
+    } finally {
+        // 恢复输入和按钮
+        input.disabled = false;
+        sendBtn.disabled = false;
+        clearBtn.disabled = false;
+        sendBtn.style.opacity = '1';
+        clearBtn.style.opacity = '1';
+        status.style.display = 'none';
+        input.focus();
+    }
+}
+
+const templates = {
+    qa: {
+        context: '{"characters": [{"name": "Alice"}, {"name": "Bob"}]}',
+        question: '这些角色中谁是主角？'
+    },
+    summary: {
+        context: '{"text": "这是一段关于人工智能发展的历史..."}',
+        question: '总结这段文字的主要内容'
+    },
+    extract: {
+        context: '{"text": "张三，男，30岁，软件工程师。李四，女，25岁，设计师。"}',
+        question: '提取所有人的姓名和职业'
+    }
+};
+
+function loadTemplate() {
+    const template = document.getElementById('prompt-template').value;
+    if (template && templates[template]) {
+        document.getElementById('context-data').value = templates[template].context;
+        document.getElementById('question').value = templates[template].question;
+    }
+}
+
+async function askQuestion() {
+    const question = document.getElementById('question').value;
+    const contextData = document.getElementById('context-data').value;
+    const resultDiv = document.getElementById('qa-result');
+    const answerDiv = document.getElementById('qa-answer');
+    const timeDiv = document.getElementById('qa-time');
+
+    if (!question) {
+        alert('请输入问题');
+        return;
+    }
+
+    resultDiv.classList.add('visible');
+    answerDiv.innerHTML = '<span style="color: var(--text-secondary);">思考中...</span>';
+    timeDiv.textContent = '';
+
+    const startTime = Date.now();
+
+    try {
+        let data = null;
+        if (contextData) {
+            try {
+                data = JSON.parse(contextData);
+            } catch (e) {
+                data = contextData;
+            }
+        }
+
+        const response = await fetch('/api/v1/llm/ask', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ question, data })
+        });
+
+        const result = await response.json();
+        const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
+
+        if (result.code === 0) {
+            answerDiv.textContent = result.data.answer;
+            timeDiv.textContent = `⏱️ ${elapsed}s`;
+        } else {
+            answerDiv.innerHTML = '<span style="color: var(--error);">错误: ' + result.message + '</span>';
+            timeDiv.textContent = '';
+        }
+    } catch (error) {
+        answerDiv.innerHTML = '<span style="color: var(--error);">请求失败: ' + error.message + '</span>';
+        timeDiv.textContent = '';
+    }
+}
+
+async function testColors() {
+    const dataStr = document.getElementById('color-data').value;
+    const colorDesc = document.getElementById('color-desc').value;
+    const paletteInfo = document.getElementById('palette-info').value;
+    const resultDiv = document.getElementById('color-result');
+    const outputDiv = document.getElementById('color-output');
+    const timeDiv = document.getElementById('color-time');
+
+    let data;
+    try {
+        data = JSON.parse(dataStr);
+    } catch (e) {
+        alert('角色数据格式错误，请输入有效的 JSON 数组');
+        return;
+    }
+
+    if (!colorDesc) {
+        alert('请输入属性描述');
+        return;
+    }
+
+    resultDiv.classList.add('visible');
+    outputDiv.innerHTML = '<code style="color: var(--text-secondary);">处理中...</code>';
+    timeDiv.textContent = '';
+
+    const startTime = Date.now();
+
+    try {
+        const response = await fetch('/api/v1/llm/colors', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                data,
+                color_desc: colorDesc,
+                palette_info: paletteInfo || null,
+                story_type: 'character'
+            })
+        });
+
+        const result = await response.json();
+        const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
+
+        if (result.code === 0) {
+            outputDiv.innerHTML = '<code>' + syntaxHighlight(JSON.stringify(result.data, null, 2)) + '</code>';
+            timeDiv.textContent = `⏱️ ${elapsed}s`;
+        } else {
+            outputDiv.innerHTML = '<code style="color: var(--error);">错误: ' + result.message + '</code>';
+            timeDiv.textContent = '';
+        }
+    } catch (error) {
+        outputDiv.innerHTML = '<code style="color: var(--error);">请求失败: ' + error.message + '</code>';
+        timeDiv.textContent = '';
+    }
+}
+
+function syntaxHighlight(json) {
+    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+        let cls = 'color: var(--syntax-string);';
+        if (/^"/.test(match)) {
+            if (/:$/.test(match)) {
+                cls = 'color: var(--syntax-key);';
+            } else {
+                cls = 'color: var(--syntax-string);';
+            }
+        } else if (/true|false/.test(match)) {
+            cls = 'color: var(--syntax-boolean);';
+        } else if (/null/.test(match)) {
+            cls = 'color: var(--syntax-null);';
+        } else {
+            cls = 'color: var(--syntax-number);';
+        }
+        return '<span style="' + cls + '">' + match + '</span>';
+    });
+}
+</script>
+{% endblock %}

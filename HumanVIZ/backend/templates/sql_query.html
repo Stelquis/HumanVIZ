@@ -1,0 +1,241 @@
+{% extends "base.html" %}
+
+{% block title %}SQL 查询器 - HumanVIZ{% endblock %}
+
+{% block content %}
+<div class="page-header animate-fade-in">
+    <h1 class="page-title">🔍 SQL 查询器</h1>
+    <p class="page-subtitle">在线执行 SQL 查询，探索数据库</p>
+</div>
+
+<!-- 快捷查询 -->
+<div class="card animate-card" style="--delay: 0.08s;">
+    <div class="card-header">
+        <div class="card-title">⚡ 快捷查询</div>
+    </div>
+    <div class="card-body">
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <button class="btn-quick" onclick="setQuery('SELECT * FROM datasets LIMIT 10')">查看数据集</button>
+            <button class="btn-quick" onclick="setQuery('SELECT * FROM entities LIMIT 10')">查看实体</button>
+            <button class="btn-quick" onclick="setQuery('SELECT COUNT(*) as count FROM entities')">统计记录数</button>
+            <button class="btn-quick" onclick="setQuery('SELECT dynasty, COUNT(*) as count FROM datasets GROUP BY dynasty')">按朝代统计</button>
+            <button class="btn-quick" onclick="setQuery('SELECT name, sql FROM sqlite_master WHERE type=\\'table\\'')">查看表结构</button>
+        </div>
+    </div>
+</div>
+
+<!-- SQL 编辑器 -->
+<div class="card animate-card" style="--delay: 0.16s;">
+    <div class="card-header">
+        <div class="card-title">📝 SQL 编辑器</div>
+    </div>
+    <div class="card-body">
+        <textarea id="sqlInput" class="sql-editor" placeholder="输入 SQL 查询语句...&#10;&#10;示例：&#10;SELECT * FROM datasets WHERE category = 'waterway'&#10;SELECT * FROM entities WHERE dataset_id = 'xxx' LIMIT 20"></textarea>
+        <div style="margin-top: 1rem; display: flex; gap: 1rem;">
+            <button class="btn btn-primary" onclick="executeQuery()">▶ 执行查询</button>
+            <button class="btn btn-secondary" onclick="clearQuery()">清空</button>
+        </div>
+    </div>
+</div>
+
+<!-- 查询结果 -->
+<div class="card animate-card" style="--delay: 0.24s; display: none;" id="resultCard">
+    <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="card-title">📊 查询结果</div>
+        <div class="query-meta">
+            耗时: <span id="queryTime">0</span>ms | 返回: <span id="rowCount">0</span> 行
+        </div>
+    </div>
+    <div class="card-body" style="padding: 0; overflow-x: auto;">
+        <table class="result-table" id="resultTable">
+            <thead>
+                <tr id="resultHeader"></tr>
+            </thead>
+            <tbody id="resultBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- 错误提示 -->
+<div class="card animate-card" style="--delay: 0.24s; display: none; background: var(--error-bg); border-color: var(--error-border);" id="errorCard">
+    <div class="card-header">
+        <div class="card-title" style="color: var(--error);">❌ 查询错误</div>
+    </div>
+    <div class="card-body">
+        <pre id="errorMessage" style="color: var(--error); margin: 0; white-space: pre-wrap;"></pre>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* 快捷查询按钮 */
+    .btn-quick {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        background: var(--bg-hover);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s;
+        color: var(--text-primary);
+    }
+    .btn-quick:hover {
+        background: var(--border);
+        border-color: var(--primary);
+    }
+
+    /* SQL 编辑器 */
+    .sql-editor {
+        width: 100%;
+        min-height: 150px;
+        padding: 1rem;
+        border: var(--border);
+        border-radius: 10px;
+        font-family: 'JetBrains Mono', 'Fira Code', 'Monaco', 'Menlo', monospace;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        background: var(--surface-base);
+        color: var(--text-primary);
+        resize: vertical;
+        transition: all 0.3s ease;
+    }
+    .sql-editor:focus {
+        outline: none;
+        border-color: var(--primary);
+        box-shadow: var(--focus-ring);
+    }
+    .sql-editor::placeholder {
+        color: var(--text-muted);
+    }
+
+    /* 查询结果表格 */
+    .result-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.875rem;
+    }
+    .result-table th,
+    .result-table td {
+        padding: 0.75rem 1rem;
+        text-align: left;
+        border-bottom: var(--table-border);
+    }
+    .result-table th {
+        background: var(--table-head-bg);
+        font-weight: 600;
+        color: var(--text-secondary);
+        white-space: nowrap;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    .result-table tr:hover td {
+        background: var(--table-row-hover);
+    }
+    .result-table td {
+        max-width: 400px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    /* 查询元信息 */
+    .query-meta {
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+    }
+    .query-meta span {
+        color: var(--primary);
+        font-weight: 600;
+    }
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function setQuery(sql) {
+    document.getElementById('sqlInput').value = sql;
+}
+
+function clearQuery() {
+    document.getElementById('sqlInput').value = '';
+    document.getElementById('resultCard').style.display = 'none';
+    document.getElementById('errorCard').style.display = 'none';
+}
+
+async function executeQuery() {
+    const sql = document.getElementById('sqlInput').value.trim();
+    if (!sql) {
+        alert('请输入 SQL 语句');
+        return;
+    }
+
+    // 安全检查：只允许 SELECT 语句
+    if (!sql.toLowerCase().startsWith('select')) {
+        alert('只允许执行 SELECT 查询语句');
+        return;
+    }
+
+    const startTime = Date.now();
+    
+    try {
+        const response = await fetch('/api/v1/admin/query', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ sql })
+        });
+        
+        const result = await response.json();
+        const elapsed = Date.now() - startTime;
+        
+        if (result.code === 0 && result.data) {
+            showResults(result.data, elapsed);
+        } else {
+            showError(result.message || '查询失败');
+        }
+    } catch (error) {
+        showError('网络错误: ' + error.message);
+    }
+}
+
+function showResults(data, elapsed) {
+    document.getElementById('resultCard').style.display = 'block';
+    document.getElementById('errorCard').style.display = 'none';
+    document.getElementById('queryTime').textContent = elapsed;
+    document.getElementById('rowCount').textContent = data.length;
+    
+    // 生成表头
+    const headerRow = document.getElementById('resultHeader');
+    headerRow.innerHTML = '';
+    
+    if (data.length > 0) {
+        Object.keys(data[0]).forEach(key => {
+            headerRow.innerHTML += `<th>${key}</th>`;
+        });
+    }
+    
+    // 生成表格内容
+    const tbody = document.getElementById('resultBody');
+    tbody.innerHTML = '';
+    
+    data.forEach(row => {
+        let tr = '';
+        Object.values(row).forEach(val => {
+            let text = val === null ? 'NULL' : String(val);
+            if (text.length > 100) text = text.substring(0, 100) + '...';
+            tr += `<td>${text}</td>`;
+        });
+        tbody.innerHTML += `<tr>${tr}</tr>`;
+    });
+}
+
+function showError(message) {
+    document.getElementById('resultCard').style.display = 'none';
+    document.getElementById('errorCard').style.display = 'block';
+    document.getElementById('errorMessage').textContent = message;
+}
+</script>
+{% endblock %}

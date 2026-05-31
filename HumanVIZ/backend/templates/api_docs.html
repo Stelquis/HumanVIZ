@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}API 文档 - HumanVIZ{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* API 文档容器 - 统一卡片配色 */
+    .api-docs-container {
+        height: calc(100vh - 180px);
+        padding: 0;
+    }
+
+    .api-docs-iframe {
+        width: 100%;
+        height: 100%;
+        border: var(--card-border-strong);
+        border-radius: 16px;
+        background: var(--bg-card);
+        box-shadow: var(--card-shadow);
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="page-header animate-fade-in">
+    <h1 class="page-title">📚 API 文档</h1>
+    <p class="page-subtitle">查看 HumanVIZ RESTful API 接口文档</p>
+</div>
+
+<div class="api-docs-container animate-card" style="--delay: 0.08s;">
+    <iframe class="api-docs-iframe" src="/docs" title="API 文档"></iframe>
+</div>
+{% endblock %}

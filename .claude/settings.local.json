@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(python3 -c ':*)",
+      "Bash(python3)",
+      "Bash(file /workspace/HumanVIZ/data/dataset/01000000/*)",
+      "Bash(npm run:*)",
+      "Bash(npx vite:*)",
+      "Read(//tmp/**)",
+      "Read(//root/**)",
+      "Read(//home/**)",
+      "Bash(ls -la /workspace/*.py)",
+      "Bash(find / -maxdepth 5 -name \"*donut*\" -type f)",
+      "Bash(./node_modules/.bin/tsc --noEmit --pretty)",
+      "Bash(ls /workspace/HumanVIZ/tsconfig*)",
+      "Bash(ls /workspace/HumanVIZ/vite.config*)",
+      "Bash(sqlite3 /workspace/HumanVIZ/data/humanviz.db \".tables\")",
+      "Bash(python3 -c \"import sqlite3; conn=sqlite3.connect\\('/workspace/HumanVIZ/data/humanviz.db'\\); print\\('Tables:', conn.execute\\('SELECT name FROM sqlite_master WHERE type=\\\\\"table\\\\\"'\\).fetchall\\(\\)\\); conn.close\\(\\)\")",
+      "Bash(sqlite3 /workspace/HumanVIZ/data/humanviz.db \".schema plays_fts\")",
+      "Bash(sqlite3 /workspace/HumanVIZ/data/humanviz.db \".schema datasets\")",
+      "Bash(sqlite3 /workspace/HumanVIZ/data/humanviz.db \".schema entities\")",
+      "Bash(sqlite3 /workspace/HumanVIZ/data/humanviz.db \".schema field_defs\")",
+      "Bash(sqlite3 /workspace/HumanVIZ/data/humanviz.db \".schema relations\")",
+      "Bash(ls /workspace/HumanVIZ/src/data/*.json)",
+      "Bash(sqlite3 /workspace/HumanVIZ/data/humanviz.db \"SELECT COUNT\\(*\\) FROM entities WHERE type='opera_script'; SELECT COUNT\\(DISTINCT name\\) as unique_names FROM entities WHERE type='opera_script';\")",
+      "Bash(sqlite3 data/humanviz.db \"SELECT COUNT\\(*\\) FROM entities WHERE type='opera_script';\")",
+      "Bash(sqlite3 data/humanviz.db \"SELECT json_extract\\(attributes, '$.__source_collection'\\) as collection, COUNT\\(*\\) as cnt FROM entities WHERE type='opera_script' GROUP BY collection ORDER BY cnt DESC;\")",
+      "Bash(sqlite3 data/humanviz.db \"SELECT json_extract\\(attributes, '$.剧目类型'\\) as play_type, COUNT\\(*\\) as cnt FROM entities WHERE type='opera_script' AND json_extract\\(attributes, '$.剧目类型'\\) IS NOT NULL AND json_extract\\(attributes, '$.剧目类型'\\) != '' GROUP BY play_type ORDER BY cnt DESC LIMIT 30;\")",
+      "Bash(sqlite3 data/humanviz.db \"SELECT json_extract\\(attributes, '$.时代背景'\\) as era, COUNT\\(*\\) as cnt FROM entities WHERE type='opera_script' AND json_extract\\(attributes, '$.时代背景'\\) IS NOT NULL AND json_extract\\(attributes, '$.时代背景'\\) != '' GROUP BY era ORDER BY cnt DESC LIMIT 20;\")",
+      "Bash(python3 scripts/p4_opera_processor.py --samples)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('scripts',{}\\), indent=2\\)\\)\")",
+      "Bash(node -e \"const d = require\\('./src/data/opera-samples.json'\\); Object.keys\\(d\\).filter\\(k => !k.startsWith\\('$'\\)\\).forEach\\(k => console.log\\(k\\)\\)\")",
+      "Bash(/workspace/HumanVIZ/node_modules/.bin/vite build:*)",
+      "Bash(node ./node_modules/.bin/vite build)",
+      "Bash(/workspace/HumanVIZ/node_modules/.bin/tsc --noEmit)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/workspace/HumanVIZ/src/data/p3_frontend_data.json'\\)\\); print\\(type\\(d\\), list\\(d.keys\\(\\)\\) if isinstance\\(d, dict\\) else len\\(d\\)\\)\")"
+    ]
+  }
+}

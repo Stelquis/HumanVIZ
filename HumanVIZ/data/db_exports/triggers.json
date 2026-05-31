@@ -1,0 +1,14 @@
+[
+  {
+    "name": "entities_ai",
+    "sql": "CREATE TRIGGER entities_ai AFTER INSERT ON entities WHEN NEW.type = 'opera_script' BEGIN INSERT INTO plays_fts(rowid, name, plot, dialogue, roles_text) VALUES (NEW.id, NEW.name, json_extract(NEW.attributes, '$.情节概要'), NEW.content, json_extract(NEW.attributes, '$.主要角色_flat')); END"
+  },
+  {
+    "name": "entities_ad",
+    "sql": "CREATE TRIGGER entities_ad AFTER DELETE ON entities WHEN OLD.type = 'opera_script' BEGIN DELETE FROM plays_fts WHERE rowid = OLD.id; END"
+  },
+  {
+    "name": "entities_au",
+    "sql": "CREATE TRIGGER entities_au AFTER UPDATE ON entities WHEN NEW.type = 'opera_script' BEGIN DELETE FROM plays_fts WHERE rowid = OLD.id; INSERT INTO plays_fts(rowid, name, plot, dialogue, roles_text) VALUES (NEW.id, NEW.name, json_extract(NEW.attributes, '$.情节概要'), NEW.content, json_extract(NEW.attributes, '$.主要角色_flat')); END"
+  }
+]

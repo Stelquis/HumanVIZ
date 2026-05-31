@@ -1,0 +1,278 @@
+/* ═══════════════════════════════════════════
+   卷轴开场动画 — Splash Screen
+   "燕京清晖" 色系 · 挂轴展开效果
+   ═══════════════════════════════════════════ */
+
+/* ── 木质色 ── */
+$wood-dark: #4a2f18;
+$wood: #8b6914;
+$wood-mid: #b8934a;
+$wood-light: #d4b86a;
+$wood-highlight: #e8d49a;
+
+/* ── 画心色 ── */
+$paper: #f6f1e7;
+$paper-warm: #faf6ed;
+$ink: #3a2c21;
+$ink-soft: #6b5d4f;
+$gold: #b89b6d;
+$gold-light: #d4c09a;
+$red-seal: #b8443a;
+
+/* ═══════════ 遮罩层 ═══════════ */
+.splash-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* 半透明深色蒙版：让后方主界面可见但压低存在感 */
+  background: rgba(20, 14, 8, 0.78);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  transition: opacity 0.7s ease, backdrop-filter 0.7s ease;
+  -webkit-tap-highlight-color: transparent;
+
+  &.splash--exit {
+    opacity: 0;
+    pointer-events: none;
+    backdrop-filter: blur(0px);
+    transition: opacity 0.5s ease, backdrop-filter 0.5s ease;
+  }
+}
+
+/* ═══════════ 卷轴整体 ═══════════ */
+.splash-scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: drop-shadow(0 10px 40px rgba(0, 0, 0, 0.55));
+}
+
+/* ═══════════ 轴杆 ═══════════ */
+.scroll-rod {
+  position: relative;
+  width: 360px;
+  height: 20px;
+  z-index: 2;
+  flex-shrink: 0;
+
+  /* 杆身 — 仿木圆柱渐变 */
+  background: linear-gradient(
+    180deg,
+    #5a3a16 0%,
+    #8b6914 18%,
+    #c49a3c 35%,
+    #d4a84b 50%,
+    #b8892c 65%,
+    #7a5512 85%,
+    #4a2f18 100%
+  );
+  border-radius: 9px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* ── 杆头装饰 (轴头) ── */
+.scroll-rod-cap {
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 30px;
+  border-radius: 3px;
+  transform: translateY(-50%);
+  background: linear-gradient(
+    180deg,
+    #6b4a18,
+    #b8892c 28%,
+    #d4a84b 50%,
+    #a07828 72%,
+    #5a3a16
+  );
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+
+  &--l { left: -6px; }
+  &--r { right: -6px; }
+}
+
+/* ═══════════ 画心 (展开区) ═══════════ */
+.scroll-paper {
+  width: 340px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.85s cubic-bezier(0.26, 0.58, 0.34, 1);
+
+  &--open {
+    max-height: 440px;
+    transition: max-height 0.85s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+}
+
+/* ── 画心内层 (纸面 + 边框) ── */
+.scroll-paper-inner {
+  background: linear-gradient(
+    185deg,
+    rgba(255, 253, 249, 0.96) 0%,
+    rgba(250, 246, 237, 0.93) 50%,
+    rgba(246, 241, 231, 0.96) 100%
+  );
+  border: 3px double $gold-light;
+  border-radius: 2px;
+  padding: 28px 24px 24px;
+  margin: 4px 8px;
+  position: relative;
+
+  /* 内层细框 */
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border: 1px solid rgba($gold, 0.28);
+    pointer-events: none;
+  }
+}
+
+/* ── 脸谱底图 (Guan.png 水印) ── */
+.scroll-mask-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center 48%;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  pointer-events: none;
+  z-index: 0;
+
+  &--visible {
+    opacity: 0.22;
+  }
+}
+
+/* ── 脸谱 SVG 轮廓线 ── */
+.scroll-mask-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  pointer-events: none;
+  z-index: 0;
+
+  &--visible {
+    opacity: 1;
+  }
+}
+
+/* ── 画心上下的装饰纹 ── */
+.scroll-paper-deco-top,
+.scroll-paper-deco-bot {
+  height: 6px;
+  margin: 0 12px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba($gold, 0.35) 20%,
+    rgba($gold, 0.55) 50%,
+    rgba($gold, 0.35) 80%,
+    transparent 100%
+  );
+  position: relative;
+  z-index: 1;
+}
+
+.scroll-paper-deco-top { margin-bottom: 10px; }
+.scroll-paper-deco-bot { margin-top: 10px; }
+
+/* ═══════════ 卷轴内文字内容 ═══════════ */
+.scroll-body {
+  text-align: center;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+  position: relative;
+  z-index: 2;
+
+  &--visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scroll-title {
+  margin: 0;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  font-size: 52px;
+  font-weight: 700;
+  color: $ink;
+  letter-spacing: 0.14em;
+  line-height: 1.25;
+}
+
+.scroll-divider {
+  width: 56px;
+  height: 2px;
+  margin: 16px auto;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba($gold, 0.7) 30%,
+    rgba($gold, 0.9) 50%,
+    rgba($gold, 0.7) 70%,
+    transparent
+  );
+}
+
+.scroll-subtitle {
+  margin: 0;
+  font-family: "PT Serif", "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  color: $gold;
+  text-transform: uppercase;
+}
+
+.scroll-desc {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: $ink-soft;
+  letter-spacing: 0.12em;
+}
+
+/* ── 红色印章 ── */
+.scroll-seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-top: 18px;
+  border: 2px solid $red-seal;
+  border-radius: 3px;
+  color: $red-seal;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  font-size: 15px;
+  font-weight: 700;
+  transform: rotate(-6deg);
+  opacity: 0.82;
+}
+
+/* ═══════════ 跳过提示 ═══════════ */
+.splash-hint {
+  margin-top: 36px;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+
+  &--visible {
+    opacity: 1;
+  }
+}
