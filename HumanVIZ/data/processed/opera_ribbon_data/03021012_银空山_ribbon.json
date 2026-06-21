@@ -1,0 +1,572 @@
+{
+  "title": "银空山",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 7,
+  "num_locations": 3,
+  "source_file": "03021012_银空山.json",
+  "source_folder": "03000000",
+  "plot_summary": "唐王晏驾，王允篡位，欲杀薛平贵。薛平贵逃走，王允遣高嗣继追之。薛平贵放出代战公主所贻之金铃鸽为\n号，代战公主赶至救援，高嗣继投降，引薛平贵反攻长安。",
+  "performance_notes": "为全部《王宝钏》之第十二折。全部《王宝钏》共十三个剧目，除《武家坡》、《大登殿》两折，其余大部\n均不常见于舞台。有些单出戏经过历次舞台实践得到发展。经串连后，不免有词句重复、情节欠统一之处。\n本集为了存真，一律未予更动。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 52,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.469,
+      "importance": 0.981,
+      "locations": {
+        "凛凛坐将台": 3
+      },
+      "characters": {
+        "薛平贵": 1,
+        "四红龙套": 1,
+        "高嗣继": 1,
+        "江海": 1,
+        "王允": 1,
+        "魏虎": 1,
+        "代战公主": 1
+      },
+      "links": [
+        {
+          "source": "代战公主",
+          "target": "江海",
+          "value": 1
+        },
+        {
+          "source": "代战公主",
+          "target": "四红龙套",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "江海",
+          "value": 1
+        },
+        {
+          "source": "代战公主",
+          "target": "高嗣继",
+          "value": 1
+        },
+        {
+          "source": "王允",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "薛平贵",
+          "target": "魏虎",
+          "value": 1
+        },
+        {
+          "source": "王允",
+          "target": "魏虎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 104,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.551,
+      "importance": 1.0,
+      "locations": {
+        "凛凛坐将台": 3
+      },
+      "characters": {
+        "薛平贵": 1,
+        "高嗣继": 1,
+        "江海": 1,
+        "王允": 1,
+        "魏虎": 1,
+        "代战公主": 1
+      },
+      "links": [
+        {
+          "source": "代战公主",
+          "target": "江海",
+          "value": 1
+        },
+        {
+          "source": "代战公主",
+          "target": "高嗣继",
+          "value": 2
+        },
+        {
+          "source": "代战公主",
+          "target": "王允",
+          "value": 2
+        },
+        {
+          "source": "江海",
+          "target": "高嗣继",
+          "value": 1
+        },
+        {
+          "source": "江海",
+          "target": "王允",
+          "value": 1
+        },
+        {
+          "source": "王允",
+          "target": "高嗣继",
+          "value": 2
+        },
+        {
+          "source": "薛平贵",
+          "target": "高嗣继",
+          "value": 1
+        },
+        {
+          "source": "代战公主",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "王允",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "王允",
+          "target": "魏虎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 3,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.057,
+      "locations": {
+        "凛凛坐将台": 1
+      },
+      "characters": {
+        "高嗣继": 1,
+        "代战公主": 1
+      },
+      "links": [
+        {
+          "source": "代战公主",
+          "target": "高嗣继",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "凛凛坐将台",
+      "characters": [
+        {
+          "name": "代战公主",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "威风凛凛坐将台，杀气腾腾云雾开。兵强马壮将士勇，南朝不敢动兵灾。",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "江海",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四红龙套",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "噢！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.613,
+        "conflict": 0.667,
+        "sentiment": 0.398
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "凛凛坐将台",
+      "characters": [
+        {
+          "name": "高嗣继",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "头戴银盔明灿亮，身穿铠甲似秋霜。胯下一骑白龙马，上阵手持素银枪。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "代战公主",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.605,
+        "conflict": 1.0,
+        "sentiment": 0.167
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "凛凛坐将台",
+      "characters": [
+        {
+          "name": "薛平贵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "心中只把魏虎怨，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "王允",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "魏虎",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：3位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.398,
+        "conflict": 1.0,
+        "sentiment": -0.071
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "凛凛坐将台",
+      "characters": [
+        {
+          "name": "代战公主",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "大王一去无音讯，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "江海",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "鸽子回来啦！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "高嗣继",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "老爷名叫高嗣继，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "王允",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：4位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.686,
+        "conflict": 0.541,
+        "sentiment": 0.815
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "凛凛坐将台",
+      "characters": [
+        {
+          "name": "薛平贵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "金铃鸽儿撒放转，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "高嗣继",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "催马来在汾河岸，",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "代战公主",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来了代战女婵娟。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "王允",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：4位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.94,
+        "conflict": 0.357,
+        "sentiment": 0.264
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "凛凛坐将台",
+      "characters": [
+        {
+          "name": "王允",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "乌鸦不住当头叫，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "魏虎",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "在此保驾呀！",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：2位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.318,
+        "conflict": 0.465,
+        "sentiment": 0.51
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "凛凛坐将台",
+      "characters": [
+        {
+          "name": "高嗣继",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "代战公主",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第七场：2位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.548,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛平贵",
+      "short": "薛平",
+      "key": "薛平贵",
+      "quote": "薛平贵 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "代战公主",
+      "short": "代战",
+      "key": "代战公主",
+      "quote": "代战公主 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "高嗣继",
+      "short": "高嗣",
+      "key": "高嗣继",
+      "quote": "高嗣继 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "魏虎",
+      "short": "魏虎",
+      "key": "魏虎",
+      "quote": "魏虎 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "王允",
+      "short": "王允",
+      "key": "王允",
+      "quote": "王允 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四红龙套",
+      "short": "四红",
+      "key": "四红龙套",
+      "quote": "四红龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "江海",
+      "short": "江海",
+      "key": "江海",
+      "quote": "江海 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "凛凛坐将台",
+      "key": "凛凛坐将台",
+      "quote": "场景发生在凛凛坐将台"
+    },
+    {
+      "name": "界牌三关",
+      "key": "界牌三关",
+      "quote": "场景发生在界牌三关"
+    },
+    {
+      "name": "上高台",
+      "key": "上高台",
+      "quote": "场景发生在上高台"
+    }
+  ]
+}

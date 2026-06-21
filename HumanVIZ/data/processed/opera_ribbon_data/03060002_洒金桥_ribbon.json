@@ -1,0 +1,151 @@
+{
+  "title": "洒金桥",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "03060002_洒金桥.json",
+  "source_folder": "03000000",
+  "plot_summary": "赵匡胤杀御乐逃走，过洒金桥，遇异人苗顺。赵匡胤求卜算，苗顺悉言往事，并测未来十事。赵匡胤大悦，\n对苗顺言：若登大宝，必加封赏。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 11,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.208,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵匡胤": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 95,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "苗顺": 1,
+        "赵匡胤": 1
+      },
+      "links": [
+        {
+          "source": "苗顺",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "时不济来运不通，别却爹娘走关东。",
+          "rating": -0.333,
+          "role": "红生"
+        }
+      ],
+      "summary": "第一场：1位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.612,
+        "conflict": 1.0,
+        "sentiment": 0.227
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "苗顺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "在仙山我领了师傅之命，",
+          "rating": -0.429,
+          "role": "老生"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "日夜里如酒醉昏迷不醒！",
+          "rating": 0.5,
+          "role": "红生"
+        }
+      ],
+      "summary": "第二场：2位角色，95行",
+      "firstLine": 1,
+      "lastLine": 95,
+      "numLines": 95,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.769,
+        "sentiment": 0.331
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "苗顺",
+      "short": "苗顺",
+      "key": "苗顺",
+      "quote": "苗顺 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

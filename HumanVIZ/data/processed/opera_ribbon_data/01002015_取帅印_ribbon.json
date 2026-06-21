@@ -1,0 +1,591 @@
+{
+  "title": "取帅印",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "01002015_取帅印.json",
+  "source_folder": "01000000",
+  "plot_summary": "唐太宗命秦琼挂帅平北后，又欲征高丽。秦琼病，拟以尉迟恭代之。程咬金力言尉迟恭粗暴，不胜任，太宗\n不听。程咬金乃夜往秦府嘱秦琼举子秦怀玉自代。翌日，太宗率徐勣、尉迟恭等，至秦琼处探病，兼取帅印，\n秦琼遂荐秦怀玉。太宗嫌其资格太浅，不敷众望，难之，谓盖苏文英勇盖世，非尉迟将军挂帅不足慑服。\n秦琼不得已，以印交恭，然借端呵斥，有意为难。尉迟恭志在兵符，忍气吞声，唯唯而退。勋臣轧铄，太宗\n亦无如何也。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 115,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.848,
+      "locations": {
+        " 来此秦府": 1
+      },
+      "characters": {
+        "秦怀玉": 1,
+        "旗牌": 1,
+        "院子": 1,
+        "程咬金": 1,
+        "尉迟恭": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "秦琼",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "秦怀玉",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "程咬金",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "秦怀玉",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "秦怀玉",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "秦怀玉",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "秦怀玉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 37,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.273,
+      "locations": {
+        " 来此秦府": 1
+      },
+      "characters": {
+        "秦怀玉": 1,
+        "徐勣": 1,
+        "程咬金": 1,
+        "李世民": 1,
+        "尉迟恭": 1
+      },
+      "links": [
+        {
+          "source": "李世民",
+          "target": "秦怀玉",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "秦怀玉",
+          "value": 1
+        },
+        {
+          "source": "秦怀玉",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "秦怀玉",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "程咬金",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 255,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        " 来此秦府": 1
+      },
+      "characters": {
+        "秦怀玉": 1,
+        "徐勣": 1,
+        "程咬金": 1,
+        "李世民": 1,
+        "尉迟恭": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "李世民",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "秦怀玉",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "秦怀玉",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "秦怀玉",
+          "value": 1
+        },
+        {
+          "source": "秦怀玉",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "秦怀玉",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "程咬金",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": " 来此秦府",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "投唐保国扶江山，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "万岁金殿把旨传，",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来此秦府。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "院子",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "秦怀玉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "爹爹，程叔父到。",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：6位角色，115行",
+      "firstLine": 1,
+      "lastLine": 115,
+      "numLines": 115,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.332,
+        "sentiment": 0.29
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 来此秦府",
+      "characters": [
+        {
+          "name": "李世民",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "起驾。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "秦怀玉",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "十分沉重。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "万岁亲入病房，将他唤醒。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：5位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.676,
+        "conflict": 0.256,
+        "sentiment": 0.386
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": " 来此秦府",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "昨夜咬金来报信，",
+          "rating": 0.067,
+          "role": "老生"
+        },
+        {
+          "name": "李世民",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "孤王御驾来探病，",
+          "rating": 0.167,
+          "role": ""
+        },
+        {
+          "name": "秦怀玉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "爹爹，圣驾到。",
+          "rating": 0.5,
+          "role": "小生"
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "元帅，某家这几日有朝事在身，少来问候，今日随驾与元帅问安。",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "二哥你可曾听见：这几日他有朝事在身，少来问候，今日保驾前来，带来问问",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "你少开口。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：6位角色，255行",
+      "firstLine": 1,
+      "lastLine": 255,
+      "numLines": 255,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.39,
+        "sentiment": 0.2
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "秦琼",
+      "short": "秦琼",
+      "key": "秦琼",
+      "quote": "秦琼 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "程咬金",
+      "short": "程咬",
+      "key": "程咬金",
+      "quote": "程咬金 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "秦怀玉",
+      "short": "秦怀",
+      "key": "秦怀玉",
+      "quote": "秦怀玉 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "尉迟恭",
+      "short": "尉迟",
+      "key": "尉迟恭",
+      "quote": "尉迟恭 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "徐勣",
+      "short": "徐勣",
+      "key": "徐勣",
+      "quote": "徐勣 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李世民",
+      "short": "李世",
+      "key": "李世民",
+      "quote": "李世民 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 来此秦府",
+      "key": " 来此秦府",
+      "quote": "场景发生在 来此秦府"
+    }
+  ]
+}

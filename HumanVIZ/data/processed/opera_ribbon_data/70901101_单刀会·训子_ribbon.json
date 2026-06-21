@@ -1,0 +1,298 @@
+{
+  "title": "单刀会·训子",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70901101_单刀会·训子.json",
+  "source_folder": "70901000",
+  "plot_summary": "《训子》也叫《训平》，是较典型的红净唱工戏，为本戏《关大王独赴单刀会》第三折。写关羽赴鲁肃宴请\n之前，对义子关平的一番教诲。表述了汉室创业，刘、关、张结义等往事；并识破鲁肃宴请用意做下了周密\n安排。这一折为全剧的高潮《单刀会》作了铺垫。",
+  "performance_notes": "《关大王独赴单刀会》杂剧，元关汉卿撰，全四折（无楔子）。以三国故事敷演而成。通过鲁肃向刘备索还\n荆州，设计欲迫使荆州守将关羽归还等情节的描写，生动地塑造了关羽大义凛然，忠贞不屈的英雄形象。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 85,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "黄文": 1,
+        "关羽": 1,
+        "中军": 1,
+        "周仓": 1,
+        "关平": 1
+      },
+      "links": [
+        {
+          "source": "关平",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "关平",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "黄文",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "黄文",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "黄文",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "黄文",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 54,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.777,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "周仓": 1,
+        "关平": 1,
+        "关羽": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "周仓",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关平",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "身披铠甲逞英雄，小将原来有父风。却喜趋庭承亲训，须知子孝与臣忠。",
+          "rating": 1.0,
+          "role": "武小生"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "器宇昂昂志气舒，指天化日定规模。荆州久镇无人犯，认取须眉大丈夫。",
+          "rating": -0.333,
+          "role": "红净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "猛虎台前出入，貔貅帐内传宣。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周仓",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "黄文",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "下书人与爷叩头。",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第1场：5位角色，85行",
+      "firstLine": 1,
+      "lastLine": 85,
+      "numLines": 85,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.667,
+        "sentiment": 0.263
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "掩门。",
+          "rating": 0.333,
+          "role": "红净"
+        },
+        {
+          "name": "周仓",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "掩门。",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "关平",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "父王，那书信上写的什么言语，说与臣儿知道。",
+          "rating": 1.0,
+          "role": "武小生"
+        }
+      ],
+      "summary": "第2场：3位角色，54行",
+      "firstLine": 1,
+      "lastLine": 54,
+      "numLines": 54,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.583,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红净",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 红净",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "关平",
+      "short": "关平",
+      "key": "关平",
+      "quote": "关平 — 武小生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 武小生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周仓",
+      "short": "周仓",
+      "key": "周仓",
+      "quote": "周仓 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "黄文",
+      "short": "黄文",
+      "key": "黄文",
+      "quote": "黄文 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "title": "十二红",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01030010_十二红【头本】.json",
+  "source_folder": "01000000",
+  "plot_summary": "有一周屠，开设肉铺，因本钱缺少，周转不灵，向毕员外借银二十两，作推广营业之预备。奈生意绝少，连\n本带利，销磨尽净，将肉铺生财家伙，一概召盘。毕员外得此消息至周家索讨借款，遇周屠于途，邀入酒店\n叙饮。提及前欠，周屠则巧语花言，用以搪塞。数杯之后，装作吃醉模样，出离酒店。毕员外跟随于后，迤\n逦到家。避入内室，毕员外无如何，在门外蹀踱。周妻出问，毕员外竟然呆若木鸡，无词可对。盖周妻系小\n家碧玉，姿首颇佳，风致嫣然，实足动人怜爱。毕员外相见之下，遽尔留情，而对于讨债一事，已置之度外。\n转百般献媚，博其欢心，指东说西，两相问答。别后犹不能忘怀，翌日再往，适值周屠不在家中，毕员外\n更肆无忌惮，施以勾引手段，得与周妻通奸云。",
+  "performance_notes": "是剧由编排者臆造而出，其引人入胜处，专以插科打诨。为旦角与丑角之做工重头。须得有名艺员串演，方\n见精彩。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.138,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "周屠": 1,
+        "老板": 1
+      },
+      "links": [
+        {
+          "source": "周屠",
+          "target": "老板",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.162,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "毕朋": 1,
+        "老板": 1
+      },
+      "links": [
+        {
+          "source": "毕朋",
+          "target": "老板",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 181,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "周屠": 1,
+        "酒保": 1,
+        "周妻": 1,
+        "毕朋": 1
+      },
+      "links": [
+        {
+          "source": "周屠",
+          "target": "毕朋",
+          "value": 1
+        },
+        {
+          "source": "周屠",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "周妻",
+          "target": "周屠",
+          "value": 1
+        },
+        {
+          "source": "毕朋",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "周妻",
+          "target": "毕朋",
+          "value": 1
+        },
+        {
+          "source": "周妻",
+          "target": "酒保",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 276,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "毕朋": 1,
+        "周妻": 1
+      },
+      "links": [
+        {
+          "source": "周妻",
+          "target": "毕朋",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周屠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "自幼不读诗书，全凭钢刀宰屠。家业全然不顾，好酒喝上几壶。",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "老板",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "你的买卖怎么样了？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.321,
+        "conflict": 0.645,
+        "sentiment": 0.204
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "毕朋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "自幼生来好浪荡，",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "老板",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "做什么？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.524,
+        "conflict": 0.909,
+        "sentiment": 0.785
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周屠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "关了肉铺转回家，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "毕朋",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "见了大哥说根芽。",
+          "rating": 0.667,
+          "role": "丑"
+        },
+        {
+          "name": "酒保",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "买卖兴隆通四海，财源茂盛大发财。",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "周妻",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "你找谁的？嘿，你找谁？",
+          "rating": 0.333,
+          "role": "旦"
+        }
+      ],
+      "summary": "第三场：4位角色，181行",
+      "firstLine": 1,
+      "lastLine": 181,
+      "numLines": 181,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.92,
+        "conflict": 0.126,
+        "sentiment": 0.488
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "毕朋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "酒不醉人人自醉，",
+          "rating": 0.091,
+          "role": "丑"
+        },
+        {
+          "name": "周妻",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忽听门外有人声，",
+          "rating": 0.2,
+          "role": "旦"
+        }
+      ],
+      "summary": "第四场：2位角色，276行",
+      "firstLine": 1,
+      "lastLine": 276,
+      "numLines": 276,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.077,
+        "sentiment": 0.388
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "毕朋",
+      "short": "毕朋",
+      "key": "毕朋",
+      "quote": "毕朋 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "周妻",
+      "short": "周妻",
+      "key": "周妻",
+      "quote": "周妻 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "周屠",
+      "short": "周屠",
+      "key": "周屠",
+      "quote": "周屠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "酒保",
+      "short": "酒保",
+      "key": "酒保",
+      "quote": "酒保 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老板",
+      "short": "老板",
+      "key": "老板",
+      "quote": "老板 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

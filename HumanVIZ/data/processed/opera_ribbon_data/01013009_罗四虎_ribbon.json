@@ -1,0 +1,810 @@
+{
+  "title": "罗四虎",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 11,
+  "num_characters": 10,
+  "num_locations": 3,
+  "source_file": "01013009_罗四虎.json",
+  "source_folder": "01000000",
+  "plot_summary": "此剧，系在霸王庄拿捉黄隆基之后，黄隆基被正法，其仆役乔四之乔三，亦同时被杀。乔四以黄隆基与罗四\n虎系郎舅姻亲，遂往投之。颇蒙罗四虎嬖幸。适施公按临临清州，沿途百姓纷纷投告。施公遂扮作星卜之士，\n至独虎私访。不意为乔四识破，几被杀。赖是日系武举杨忠之妹，为州吏勒派与罗四虎为妾之吉期，罗四\n虎恐于花烛不利，故暂将施公吊在马棚，得以保全。黄天霸、朱光祖等均暗为寻访，当即救回。罗四虎亦就\n擒正法。",
+  "performance_notes": "此本武戏中之小剧，为花面硬角。昔年老何九曾演过，极为可观。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 63,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.264,
+      "importance": 1.0,
+      "locations": {
+        "临清独虎营": 1,
+        "已是独虎营": 2
+      },
+      "characters": {
+        "手下": 1,
+        "朱光祖": 1,
+        "罗四虎": 1,
+        "乔四": 1,
+        "玄空": 1,
+        "乔四亲家": 1
+      },
+      "links": [
+        {
+          "source": "乔四",
+          "target": "罗四虎",
+          "value": 1
+        },
+        {
+          "source": "乔四亲家",
+          "target": "罗四虎",
+          "value": 1
+        },
+        {
+          "source": "乔四",
+          "target": "乔四亲家",
+          "value": 1
+        },
+        {
+          "source": "手下",
+          "target": "玄空",
+          "value": 1
+        },
+        {
+          "source": "玄空",
+          "target": "罗四虎",
+          "value": 1
+        },
+        {
+          "source": "手下",
+          "target": "罗四虎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 75,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 1.015,
+      "importance": 1.0,
+      "locations": {
+        "我出了行台": 1,
+        "已是独虎营": 2
+      },
+      "characters": {
+        "施世纶": 1,
+        "罗四虎": 1,
+        "关泰": 1,
+        "乔四": 1,
+        "黄天霸": 1
+      },
+      "links": [
+        {
+          "source": "乔四",
+          "target": "施世纶",
+          "value": 2
+        },
+        {
+          "source": "施世纶",
+          "target": "罗四虎",
+          "value": 2
+        },
+        {
+          "source": "乔四",
+          "target": "罗四虎",
+          "value": 2
+        },
+        {
+          "source": "关泰",
+          "target": "黄天霸",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 18,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.6,
+      "importance": 0.511,
+      "locations": {
+        "已是独虎营": 3
+      },
+      "characters": {
+        "黄天霸": 1,
+        "施世纶": 1,
+        "朱光祖": 1,
+        "关泰": 1,
+        "乔四": 1
+      },
+      "links": [
+        {
+          "source": "关泰",
+          "target": "黄天霸",
+          "value": 2
+        },
+        {
+          "source": "乔四",
+          "target": "施世纶",
+          "value": 1
+        },
+        {
+          "source": "乔四",
+          "target": "关泰",
+          "value": 1
+        },
+        {
+          "source": "乔四",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "关泰",
+          "target": "施世纶",
+          "value": 1
+        },
+        {
+          "source": "施世纶",
+          "target": "黄天霸",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 20,
+      "summary": "第十场；第十一场",
+      "conflict": 0.62,
+      "importance": 0.568,
+      "locations": {
+        "已是独虎营": 2
+      },
+      "characters": {
+        "朱光祖": 1,
+        "杨忠妹": 1,
+        "罗四虎": 1,
+        "黄天霸": 1
+      },
+      "links": [
+        {
+          "source": "罗四虎",
+          "target": "黄天霸",
+          "value": 2
+        },
+        {
+          "source": "朱光祖",
+          "target": "罗四虎",
+          "value": 2
+        },
+        {
+          "source": "杨忠妹",
+          "target": "罗四虎",
+          "value": 1
+        },
+        {
+          "source": "朱光祖",
+          "target": "黄天霸",
+          "value": 2
+        },
+        {
+          "source": "杨忠妹",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "朱光祖",
+          "target": "杨忠妹",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "临清独虎营",
+      "characters": [
+        {
+          "name": "罗四虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "家财万贯逞富豪，府县官员结故交。二目圆睁天地小，",
+          "rating": 0.429,
+          "role": "净"
+        },
+        {
+          "name": "乔四",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "忙将州衙事，禀报四太爷知。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "乔四亲家",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "奉了师傅命，来此独虎营。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：3位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.533,
+        "conflict": 0.476,
+        "sentiment": 0.427
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "已是独虎营",
+      "characters": [
+        {
+          "name": "朱光祖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "离了河间地，来此是临清。",
+          "rating": 0.0,
+          "role": "武丑"
+        }
+      ],
+      "summary": "第二场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.125,
+        "conflict": 0.0,
+        "sentiment": 0.187
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "已是独虎营",
+      "characters": [
+        {
+          "name": "玄空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "带发修行，结交绿林。",
+          "rating": 0.5,
+          "role": "副净"
+        },
+        {
+          "name": "手下",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "四太爷到！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "罗四虎",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "岂敢！某家来得卤莽，望乞海涵。",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.494,
+        "conflict": 1.0,
+        "sentiment": 0.163
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "我出了行台",
+      "characters": [
+        {
+          "name": "施世纶",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "乔装打扮把贼访，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "乔四",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呔！我说你是个干什么的？在此东瞧西看！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "罗四虎",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：3位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.667,
+        "conflict": 0.465,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "已是独虎营",
+      "characters": [
+        {
+          "name": "黄天霸",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "请了。大人出衙私访，你我前去找寻便了。来此已是独虎营，不免进庄观看。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "关泰",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.328,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "已是独虎营",
+      "characters": [
+        {
+          "name": "乔四",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "四太爷回来啦？",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "罗四虎",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "唔噜噜噜噜……",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "施世纶",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "哦，来了。",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第六场：3位角色，48行",
+      "firstLine": 1,
+      "lastLine": 48,
+      "numLines": 48,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.667,
+        "conflict": 0.0,
+        "sentiment": 0.575
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "已是独虎营",
+      "characters": [
+        {
+          "name": "朱光祖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "来此已是独虎营，不免越墙而过。",
+          "rating": -1.0,
+          "role": "武丑"
+        }
+      ],
+      "summary": "第七场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.079,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "已是独虎营",
+      "characters": [
+        {
+          "name": "黄天霸",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来此已是庄院，你我越墙而过。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "关泰",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第八场：2位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.313,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "已是独虎营",
+      "characters": [
+        {
+          "name": "乔四",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "酒是高粱水，醉人先醉腿。嘴里说胡话，眼睛活见鬼。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "施世纶",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "关泰",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "黄天霸",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第九场：4位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.584,
+        "conflict": 1.0,
+        "sentiment": -0.43
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "已是独虎营",
+      "characters": [
+        {
+          "name": "罗四虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "唔噜噜噜噜……",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "黄天霸",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你老爷，四霸天“赛罗成”黄天霸！",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "朱光祖",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "老兄弟，还不动手嘛！",
+          "rating": 0.0,
+          "role": "武丑"
+        },
+        {
+          "name": "杨忠妹",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第十场：4位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.615,
+        "conflict": 0.0,
+        "sentiment": 0.26
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "已是独虎营",
+      "characters": [
+        {
+          "name": "罗四虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "原来是天霸前来拿我。众英雄走上！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "朱光祖",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武丑"
+        },
+        {
+          "name": "黄天霸",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第十一场：3位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.459,
+        "conflict": 1.0,
+        "sentiment": -0.36
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "罗四虎",
+      "short": "罗四",
+      "key": "罗四虎",
+      "quote": "罗四虎 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "施世纶",
+      "short": "施世",
+      "key": "施世纶",
+      "quote": "施世纶 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "黄天霸",
+      "short": "黄天",
+      "key": "黄天霸",
+      "quote": "黄天霸 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "朱光祖",
+      "short": "朱光",
+      "key": "朱光祖",
+      "quote": "朱光祖 — 武丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 武丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "关泰",
+      "short": "关泰",
+      "key": "关泰",
+      "quote": "关泰 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "玄空",
+      "short": "玄空",
+      "key": "玄空",
+      "quote": "玄空 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "乔四",
+      "short": "乔四",
+      "key": "乔四",
+      "quote": "乔四 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "乔四亲家",
+      "short": "乔四",
+      "key": "乔四亲家",
+      "quote": "乔四亲家 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "杨忠妹",
+      "short": "杨忠",
+      "key": "杨忠妹",
+      "quote": "杨忠妹 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "手下",
+      "short": "手下",
+      "key": "手下",
+      "quote": "手下 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "已是独虎营",
+      "key": "已是独虎营",
+      "quote": "场景发生在已是独虎营"
+    },
+    {
+      "name": "临清独虎营",
+      "key": "临清独虎营",
+      "quote": "场景发生在临清独虎营"
+    },
+    {
+      "name": "我出了行台",
+      "key": "我出了行台",
+      "quote": "场景发生在我出了行台"
+    }
+  ]
+}

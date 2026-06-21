@@ -1,0 +1,535 @@
+{
+  "title": "截江夺斗",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 8,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "05014008_截江夺斗.json",
+  "source_folder": "05000000",
+  "plot_summary": "孙权屡讨荆州不得，知刘备入川，乃用张昭之计，差心腹周善赴荆州，伪称母病，接孙夫人携阿斗归宁，欲\n以阿斗为质，换取荆州。孙夫人不察，登舟。赵云得知，驾舟追赶，跃上大船，夺回阿斗；张飞踵至，杀死\n周善，同保阿斗回荆州。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 47,
+      "summary": "第一场；第二场",
+      "conflict": 0.242,
+      "importance": 0.866,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "四宫女": 1,
+        "孙尚香": 1,
+        "太监": 1,
+        "周善": 1
+      },
+      "links": [
+        {
+          "source": "太监",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "周善",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "四宫女",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "周善",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "四宫女",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "周善",
+          "target": "四宫女",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 30,
+      "summary": "第三场；第四场",
+      "conflict": 1.2,
+      "importance": 0.553,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "报子": 1,
+        "赵云": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "报子",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "报子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 2,
+      "summary": "第五场；第六场",
+      "conflict": 0.6,
+      "importance": 0.037,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "孙尚香": 1,
+        "赵云": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 138,
+      "summary": "第七场；第八场",
+      "conflict": 0.022,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "孙尚香": 1,
+        "赵云": 1,
+        "周善": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "孙尚香",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "周善",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "孙尚香",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "周善",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "周善",
+          "target": "张飞",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周善",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "马来！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.121,
+        "conflict": 0.0,
+        "sentiment": 0.773
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙尚香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "金殿盘玉柱，彩凤绕画梁。",
+          "rating": 0.6,
+          "role": "旦"
+        },
+        {
+          "name": "太监",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "启娘娘：东吴周善求见。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "周善",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "参见娘娘。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四宫女",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "传周善。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.608,
+        "conflict": 0.0,
+        "sentiment": 0.531
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵云",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "大将生来盖世奇，长坂坡前抖雄威。单人独骑扶幼主，杀气冲霄向空飞。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "报子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "今有娘娘，私抱太子，回转东吴！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.458,
+        "conflict": 1.0,
+        "sentiment": -0.436
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "豹头环眼气轩昂，桃园结义世无双。当阳桥前一场战，吓退曹营百万郎！",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "报子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "禀三将军！今有娘娘私抱太子，回转江东，特来报知。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.466,
+        "conflict": 1.0,
+        "sentiment": 0.764
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙尚香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第五场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.504,
+        "conflict": 0.0,
+        "sentiment": 0.6
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵云",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第六场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.504,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.504,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙尚香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "赵云为何来？",
+          "rating": -0.714,
+          "role": "旦"
+        },
+        {
+          "name": "赵云",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "娘娘哪里去？",
+          "rating": -0.111,
+          "role": "武生"
+        },
+        {
+          "name": "周善",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "娘娘过江探母病，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "四弟莫慌，俺张飞来了吓。",
+          "rating": 0.5,
+          "role": "净"
+        }
+      ],
+      "summary": "第八场：4位角色，137行",
+      "firstLine": 1,
+      "lastLine": 137,
+      "numLines": 137,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.303,
+        "sentiment": 0.022
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵云",
+      "short": "赵云",
+      "key": "赵云",
+      "quote": "赵云 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "孙尚香",
+      "short": "孙尚",
+      "key": "孙尚香",
+      "quote": "孙尚香 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周善",
+      "short": "周善",
+      "key": "周善",
+      "quote": "周善 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四宫女",
+      "short": "四宫",
+      "key": "四宫女",
+      "quote": "四宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

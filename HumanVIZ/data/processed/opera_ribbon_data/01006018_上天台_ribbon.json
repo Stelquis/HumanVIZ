@@ -1,0 +1,346 @@
+{
+  "title": "上天台",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01006018_上天台.json",
+  "source_folder": "01000000",
+  "plot_summary": "姚期自草桥关召回，君臣甚相得，忽其子姚刚在外击死郭后之父，（一作阴丽华之父）郭后诉诸帝，帝盛怒\n之下，欲将其子治罪，令姚期带姚刚上殿。继念姚期系中兴功臣，且三子已战死其二，逐回意释免。适湖北\n有战事，逐令姚刚前去平寇，立功自赎。",
+  "performance_notes": "按《草桥关》之后本，即此事实，惟参阅此剧本，其加罪及赦免二层，均彼此不同，并无马武逼书赦诏等情。\n此剧不常见，是一是二，还以质诸演剧家与老戏曲家。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 19,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.503,
+      "locations": {
+        "王带子上殿": 1
+      },
+      "characters": {
+        "刘秀": 1,
+        "郭妃": 1
+      },
+      "links": [
+        {
+          "source": "刘秀",
+          "target": "郭妃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 67,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "王带子上殿": 1
+      },
+      "characters": {
+        "太监甲": 1,
+        "刘秀": 1,
+        "姚刚": 1,
+        "姚期": 1
+      },
+      "links": [
+        {
+          "source": "刘秀",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "姚刚",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "姚刚",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "姚期",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 60,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "王带子上殿": 1
+      },
+      "characters": {
+        "刘秀": 1,
+        "姚期": 1
+      },
+      "links": [
+        {
+          "source": "刘秀",
+          "target": "姚期",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.132,
+      "locations": {
+        "王带子上殿": 1
+      },
+      "characters": {
+        "姚期": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "王带子上殿",
+      "characters": [
+        {
+          "name": "刘秀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "摆驾。",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "郭妃",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "摆驾。",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第1场：2位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.713,
+        "conflict": 0.556,
+        "sentiment": 0.478
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "王带子上殿",
+      "characters": [
+        {
+          "name": "刘秀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "内侍！",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "太监甲",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "伴驾王带子上殿。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姚期",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "姚刚",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "爹爹！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：4位角色，67行",
+      "firstLine": 1,
+      "lastLine": 67,
+      "numLines": 67,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.294,
+        "sentiment": 0.151
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "王带子上殿",
+      "characters": [
+        {
+          "name": "姚期",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "姚刚，霸林，哎吓我的儿吓！",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "刘秀",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓，姚皇兄为何去而复返？",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：2位角色，60行",
+      "firstLine": 1,
+      "lastLine": 60,
+      "numLines": 60,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.465,
+        "sentiment": 0.322
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "王带子上殿",
+      "characters": [
+        {
+          "name": "姚期",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "万岁爷待老臣恩似山海，",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第4场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.53,
+        "conflict": 1.0,
+        "sentiment": -0.4
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘秀",
+      "short": "刘秀",
+      "key": "刘秀",
+      "quote": "刘秀 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "姚期",
+      "short": "姚期",
+      "key": "姚期",
+      "quote": "姚期 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "郭妃",
+      "short": "郭妃",
+      "key": "郭妃",
+      "quote": "郭妃 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "太监甲",
+      "short": "太监",
+      "key": "太监甲",
+      "quote": "太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "姚刚",
+      "short": "姚刚",
+      "key": "姚刚",
+      "quote": "姚刚 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "王带子上殿",
+      "key": "王带子上殿",
+      "quote": "场景发生在王带子上殿"
+    }
+  ]
+}

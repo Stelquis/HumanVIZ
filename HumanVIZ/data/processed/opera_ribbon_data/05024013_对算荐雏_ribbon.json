@@ -1,0 +1,434 @@
+{
+  "title": "对算荐雏",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 8,
+  "num_locations": 3,
+  "source_file": "05024013_对算荐雏.json",
+  "source_folder": "05000000",
+  "plot_summary": "刘备攻取西川前，请诸葛亮与庞统议事。二人占卦计算，俱算出庞统将在落凤坡前中乱箭而亡，诸葛亮不便\n明言，庞统虽明知性命不保，但为了国家大事，决意以死相报，因此毅然与刘备入川。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 112,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        " 打道长亭": 1
+      },
+      "characters": {
+        "太监": 1,
+        "刘备": 1,
+        "下手甲": 1,
+        "庞统": 1,
+        "诸葛亮": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "庞统",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "下手甲",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "庞统",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "下手甲",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "庞统",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "下手甲",
+          "target": "庞统",
+          "value": 1
+        },
+        {
+          "source": "下手甲",
+          "target": "诸葛亮",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 52,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.634,
+      "locations": {
+        " 打道长亭": 1
+      },
+      "characters": {
+        "赵云": 1,
+        "刘备": 1,
+        "四下手": 1,
+        "庞统": 1,
+        "诸葛亮": 1,
+        "关平": 1
+      },
+      "links": [
+        {
+          "source": "四下手",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "庞统",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "四下手",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "庞统",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "四下手",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "庞统",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "庞统",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "庞统",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": " 打道长亭",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "昨日长亭作荐时，只为西川日夜思。",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "太监",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "庞统",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "习就梅花数，",
+          "rating": 0.714,
+          "role": "老生"
+        },
+        {
+          "name": "下手甲",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：5位角色，112行",
+      "firstLine": 1,
+      "lastLine": 112,
+      "numLines": 112,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.493,
+        "sentiment": 0.353
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 打道长亭",
+      "characters": [
+        {
+          "name": "赵云",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "奉了师爷命，长亭去饯行。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四下手",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "君臣们手挽手出了都城，",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "刘备",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "接过了军师爷御酒一樽，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "庞统",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "接过了我师爷御酒一樽，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "关平",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "蒙师爷饯行酒我不敢饮，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：6位角色，52行",
+      "firstLine": 1,
+      "lastLine": 52,
+      "numLines": 52,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.985,
+        "conflict": 0.645,
+        "sentiment": 0.128
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "庞统",
+      "short": "庞统",
+      "key": "庞统",
+      "quote": "庞统 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵云",
+      "short": "赵云",
+      "key": "赵云",
+      "quote": "赵云 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "下手甲",
+      "short": "下手",
+      "key": "下手甲",
+      "quote": "下手甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "关平",
+      "short": "关平",
+      "key": "关平",
+      "quote": "关平 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 打道长亭",
+      "key": " 打道长亭",
+      "quote": "场景发生在 打道长亭"
+    },
+    {
+      "name": " 来此长亭",
+      "key": " 来此长亭",
+      "quote": "场景发生在 来此长亭"
+    },
+    {
+      "name": "手出了都城",
+      "key": "手出了都城",
+      "quote": "场景发生在手出了都城"
+    }
+  ]
+}

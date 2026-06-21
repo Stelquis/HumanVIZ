@@ -1,0 +1,946 @@
+{
+  "title": "玉堂春",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 14,
+  "num_locations": 2,
+  "source_file": "04004001_玉堂春.json",
+  "source_folder": "04000000",
+  "plot_summary": "洪洞县的解差崇公道提解女犯苏三（玉堂春）赴太原复审，一路上苏三诉说自己的悲惨遭遇。她是从小被父\n母卖给妓院的，后来又被鸨儿卖给山西富商沈燕林作妾。沈妻皮氏与赵监生私通，害死沈燕林，反诬告苏三\n谋死亲夫。县官受了皮氏的贿赂，竟把她问成死罪。她却没想到调她复审的八府巡按正是曾与她誓偕白首的\n情人王金龙。复审之日，王金龙在堂上感情激动不能处持，被陪审的藩、臬二司看破，以致当时不能终审。\n随后明了案情，平反冤狱；王金龙、苏三破镜重圆，结为姻眷。",
+  "performance_notes": "本剧包括《苏三起解》、《三堂会审》、《监会团圆》三出。本剧是根据王瑶卿、萧长华先生的本子，由本\n院（中国戏曲研究院）编辑处范钧宏、田淞整理的。在整理过程中，吸取了中国京剧团演员叶盛兰、杜近芳、\n叶盛长、萧盛萱，导演郑亦秋的意见；并经王瑶卿先生订正。\n整理本中的主要改动，有以下几点：一，旧本《苏三起解》中崇公道有一些庸俗的台词，萧长华先生近年演\n出已经修改，又略加整理。二，旧本《三堂会审》中有“请医”的情节。这一穿插似嫌累赘，且使全剧气势\n中断，故删去；但保留王金龙乍见苏三感情震动的表演。三，将审问皮氏、赵昂改为暗场处理，减去皮、赵\n两个角色。四，“洞房”一场为全剧结尾，旧本过于简略，并且有的地方不合情理。整理本中重新处理了这\n一场戏，在原来的基础上加以修改和加工。旧本中不够完整和费解的个别词句，并予润色。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 784,
+      "summary": "第一场；第二场；第一场",
+      "conflict": 0.189,
+      "importance": 1.0,
+      "locations": {
+        "初在关王庙": 3
+      },
+      "characters": {
+        "潘必正": 1,
+        "潘门子": 1,
+        "禁婆": 1,
+        "二门子": 1,
+        "崇公道": 1,
+        "禁卒": 1,
+        "狱官": 1,
+        "四衙役": 1,
+        "刘秉义": 1,
+        "刘门子": 1,
+        "王金龙": 1,
+        "苏三": 1,
+        "王门子": 1,
+        "路人": 1
+      },
+      "links": [
+        {
+          "source": "崇公道",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "崇公道",
+          "target": "苏三",
+          "value": 2
+        },
+        {
+          "source": "崇公道",
+          "target": "狱官",
+          "value": 1
+        },
+        {
+          "source": "崇公道",
+          "target": "王金龙",
+          "value": 2
+        },
+        {
+          "source": "禁卒",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "狱官",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "王金龙",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "狱官",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "王金龙",
+          "target": "苏三",
+          "value": 3
+        },
+        {
+          "source": "狱官",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "苏三",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "王门子",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "刘秉义",
+          "target": "苏三",
+          "value": 2
+        },
+        {
+          "source": "潘必正",
+          "target": "苏三",
+          "value": 2
+        },
+        {
+          "source": "四衙役",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "崇公道",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "崇公道",
+          "value": 1
+        },
+        {
+          "source": "崇公道",
+          "target": "王门子",
+          "value": 1
+        },
+        {
+          "source": "刘秉义",
+          "target": "崇公道",
+          "value": 1
+        },
+        {
+          "source": "崇公道",
+          "target": "潘必正",
+          "value": 1
+        },
+        {
+          "source": "四衙役",
+          "target": "崇公道",
+          "value": 1
+        },
+        {
+          "source": "王金龙",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "王门子",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "刘秉义",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "潘必正",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "四衙役",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "王金龙",
+          "target": "王门子",
+          "value": 1
+        },
+        {
+          "source": "刘秉义",
+          "target": "王金龙",
+          "value": 2
+        },
+        {
+          "source": "潘必正",
+          "target": "王金龙",
+          "value": 2
+        },
+        {
+          "source": "四衙役",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "王门子",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "刘秉义",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "潘必正",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "四衙役",
+          "value": 1
+        },
+        {
+          "source": "刘秉义",
+          "target": "王门子",
+          "value": 1
+        },
+        {
+          "source": "潘必正",
+          "target": "王门子",
+          "value": 1
+        },
+        {
+          "source": "四衙役",
+          "target": "王门子",
+          "value": 1
+        },
+        {
+          "source": "刘秉义",
+          "target": "潘必正",
+          "value": 2
+        },
+        {
+          "source": "刘秉义",
+          "target": "四衙役",
+          "value": 1
+        },
+        {
+          "source": "四衙役",
+          "target": "潘必正",
+          "value": 1
+        },
+        {
+          "source": "刘秉义",
+          "target": "刘门子",
+          "value": 1
+        },
+        {
+          "source": "刘秉义",
+          "target": "禁婆",
+          "value": 1
+        },
+        {
+          "source": "刘秉义",
+          "target": "潘门子",
+          "value": 1
+        },
+        {
+          "source": "刘门子",
+          "target": "禁婆",
+          "value": 1
+        },
+        {
+          "source": "刘门子",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "刘门子",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "刘门子",
+          "target": "潘门子",
+          "value": 1
+        },
+        {
+          "source": "刘门子",
+          "target": "潘必正",
+          "value": 1
+        },
+        {
+          "source": "王金龙",
+          "target": "禁婆",
+          "value": 1
+        },
+        {
+          "source": "禁婆",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "潘门子",
+          "target": "禁婆",
+          "value": 1
+        },
+        {
+          "source": "潘必正",
+          "target": "禁婆",
+          "value": 1
+        },
+        {
+          "source": "潘门子",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "潘门子",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "潘必正",
+          "target": "潘门子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 101,
+      "summary": "第二场；第三场",
+      "conflict": 0.319,
+      "importance": 0.228,
+      "locations": {
+        "初在关王庙": 2
+      },
+      "characters": {
+        "潘必正": 1,
+        "刘秉义": 1,
+        "王金龙": 1,
+        "苏三": 1,
+        "王门子": 1
+      },
+      "links": [
+        {
+          "source": "王金龙",
+          "target": "王门子",
+          "value": 1
+        },
+        {
+          "source": "潘必正",
+          "target": "王金龙",
+          "value": 2
+        },
+        {
+          "source": "刘秉义",
+          "target": "王金龙",
+          "value": 2
+        },
+        {
+          "source": "王金龙",
+          "target": "苏三",
+          "value": 2
+        },
+        {
+          "source": "潘必正",
+          "target": "王门子",
+          "value": 1
+        },
+        {
+          "source": "刘秉义",
+          "target": "王门子",
+          "value": 1
+        },
+        {
+          "source": "王门子",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "刘秉义",
+          "target": "潘必正",
+          "value": 2
+        },
+        {
+          "source": "潘必正",
+          "target": "苏三",
+          "value": 2
+        },
+        {
+          "source": "刘秉义",
+          "target": "苏三",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "初在关王庙",
+      "characters": [
+        {
+          "name": "崇公道",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": -0.2,
+          "role": "丑"
+        },
+        {
+          "name": "禁卒",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "坐监的吗？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "苏三",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "苦哇！",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "狱官",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "听点：长解一名崇公道。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "王金龙",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：5位角色，75行",
+      "firstLine": 1,
+      "lastLine": 75,
+      "numLines": 75,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.694,
+        "conflict": 0.355,
+        "sentiment": 0.147
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "初在关王庙",
+      "characters": [
+        {
+          "name": "苏三",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "喂呀……",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "崇公道",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "苏三，你跪在这儿，是祝告天地，还是哀求盘川哪？",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "路人",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "请啦。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王金龙",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "为访姣容，亲到洪洞。恩情一旦抛，何日得相逢？",
+          "rating": -0.25,
+          "role": "小生"
+        },
+        {
+          "name": "二门子",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "门上哪位听事？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王门子",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "刘秉义",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "大人。",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "潘必正",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "我来问你：玉堂春三字是何人与你起名？",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "四衙役",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "哦……",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：9位角色，575行",
+      "firstLine": 1,
+      "lastLine": 575,
+      "numLines": 575,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.095,
+        "sentiment": 0.059
+      }
+    },
+    {
+      "number": 3,
+      "name": "第一场",
+      "location": "初在关王庙",
+      "characters": [
+        {
+          "name": "刘秉义",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "唤禁婆。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘门子",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "禁婆。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "禁婆",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "叩见大人。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王金龙",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "乔装改扮谁能认，",
+          "rating": -0.2,
+          "role": "小生"
+        },
+        {
+          "name": "苏三",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "又听得禁妈妈一声呼唤，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "潘门子",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "潘必正",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：7位角色，134行",
+      "firstLine": 1,
+      "lastLine": 134,
+      "numLines": 134,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.927,
+        "conflict": 0.189,
+        "sentiment": 0.248
+      }
+    },
+    {
+      "number": 4,
+      "name": "第二场",
+      "location": "初在关王庙",
+      "characters": [
+        {
+          "name": "王金龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "那一日与三姐监中相见，",
+          "rating": 0.5,
+          "role": "小生"
+        },
+        {
+          "name": "王门子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "潘大人到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "潘必正",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "大人。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘秉义",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "刘大人到。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "苏三",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "如今灾难满，拨云见青天。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：5位角色，72行",
+      "firstLine": 1,
+      "lastLine": 72,
+      "numLines": 72,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.822,
+        "conflict": 0.392,
+        "sentiment": 0.601
+      }
+    },
+    {
+      "number": 5,
+      "name": "第三场",
+      "location": "初在关王庙",
+      "characters": [
+        {
+          "name": "苏三",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "啊三郎，你我在关王庙一别，不想也有今日。",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "王金龙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "是呀。哦，提起那关王庙之事，倒叫我好笑。",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "刘秉义",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "开门来，开门来！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "潘必正",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "刘大人他又来巡查来了！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：4位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.689,
+        "conflict": 0.984,
+        "sentiment": 0.282
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "苏三",
+      "short": "苏三",
+      "key": "苏三",
+      "quote": "苏三 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王金龙",
+      "short": "王金",
+      "key": "王金龙",
+      "quote": "王金龙 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "潘必正",
+      "short": "潘必",
+      "key": "潘必正",
+      "quote": "潘必正 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘秉义",
+      "short": "刘秉",
+      "key": "刘秉义",
+      "quote": "刘秉义 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "崇公道",
+      "short": "崇公",
+      "key": "崇公道",
+      "quote": "崇公道 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "潘门子",
+      "short": "潘门",
+      "key": "潘门子",
+      "quote": "潘门子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "禁婆",
+      "short": "禁婆",
+      "key": "禁婆",
+      "quote": "禁婆 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二门子",
+      "short": "二门",
+      "key": "二门子",
+      "quote": "二门子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "禁卒",
+      "short": "禁卒",
+      "key": "禁卒",
+      "quote": "禁卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "狱官",
+      "short": "狱官",
+      "key": "狱官",
+      "quote": "狱官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四衙役",
+      "short": "四衙",
+      "key": "四衙役",
+      "quote": "四衙役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘门子",
+      "short": "刘门",
+      "key": "刘门子",
+      "quote": "刘门子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王门子",
+      "short": "王门",
+      "key": "王门子",
+      "quote": "王门子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "路人",
+      "short": "路人",
+      "key": "路人",
+      "quote": "路人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "初在关王庙",
+      "key": "初在关王庙",
+      "quote": "场景发生在初在关王庙"
+    },
+    {
+      "name": "关王庙",
+      "key": "关王庙",
+      "quote": "场景发生在关王庙"
+    }
+  ]
+}

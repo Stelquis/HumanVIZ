@@ -1,0 +1,179 @@
+{
+  "title": "长生殿·哭像",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70902132_长生殿·哭像.json",
+  "source_folder": "70902000",
+  "plot_summary": "唐明皇避乱入蜀，传位太子，自称太上皇。因悼念杨贵妃，特敕成都府建立祠庙一座，用旃檀香木雕成妃子\n生像，命高力士迎进宫来，然后亲自送入庙供养。所以在习惯上，把此剧前半部分称为“迎像”，后半部分\n称为“哭像”，实际则是一出戏。",
+  "performance_notes": "此剧是大冠生的主要唱工戏，要独唱十三支曲子，必须通过感情充沛的唱、白，表现出人物的年龄、地位、\n心情和特定环境中强烈的哀伤气氛。关于这些唱、念和表演，俞振飞先生另有专文阐述，可供参考。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 163,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "高力士": 1,
+        "宫娥": 1,
+        "太监": 1,
+        "唐明皇": 1
+      },
+      "links": [
+        {
+          "source": "唐明皇",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "宫娥",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "宫娥",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "宫娥",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "唐明皇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "蜀山水碧蜀山青，圣主朝朝暮暮情。但恨佳人难再得，岂知倾国与倾城！",
+          "rating": -0.5,
+          "role": "冠生"
+        },
+        {
+          "name": "高力士",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "数点香泥入庙门，巫山云雨洛川城。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "宫娥",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "领旨。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "太监",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "段落1：4位角色，163行",
+      "firstLine": 1,
+      "lastLine": 163,
+      "numLines": 163,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.142,
+        "sentiment": -0.096
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "唐明皇",
+      "short": "唐明",
+      "key": "唐明皇",
+      "quote": "唐明皇 — 冠生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 冠生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "高力士",
+      "short": "高力",
+      "key": "高力士",
+      "quote": "高力士 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "宫娥",
+      "short": "宫娥",
+      "key": "宫娥",
+      "quote": "宫娥 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

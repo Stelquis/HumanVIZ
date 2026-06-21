@@ -1,0 +1,1600 @@
+{
+  "title": "莲花洞",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 7,
+  "num_scenes": 15,
+  "num_characters": 19,
+  "num_locations": 3,
+  "source_file": "03099003_莲花洞.json",
+  "source_folder": "03000000",
+  "plot_summary": "金角、银角，聚集群妖在莲花洞为患。闻东土唐僧西天取经，即命伶俐虫等往探。获悉，僧众已离宝象国来\n到平顶山。唐三藏等被妖摄走，孙悟空往救，亦被压在三山之下。孙悟空经四值功曹救出，竟套得宝瓶，打\n死小妖与玉仙老母等，并变成玉仙老母混入莲花洞。混山大仙来洞识破，又复厮斗。值太上老君赶来，收伏\n金、银童子，唐三藏师徒方得平安西行。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 31,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 1.2,
+      "importance": 0.542,
+      "locations": {
+        "回到凉亭": 3
+      },
+      "characters": {
+        "玉仙老母": 1,
+        "八云童": 1,
+        "四小妖": 1,
+        "二女妖": 1,
+        "四功曹": 1
+      },
+      "links": [
+        {
+          "source": "八云童",
+          "target": "四功曹",
+          "value": 1
+        },
+        {
+          "source": "二女妖",
+          "target": "玉仙老母",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 72,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.501,
+      "importance": 1.0,
+      "locations": {
+        "王同登高台": 1,
+        "回到凉亭": 2
+      },
+      "characters": {
+        "孙悟空": 1,
+        "伶俐虫": 1,
+        "猪八戒": 1,
+        "唐僧": 1,
+        "银角大王": 1,
+        "金角大王": 1
+      },
+      "links": [
+        {
+          "source": "金角大王",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪八戒",
+          "value": 2
+        },
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "猪八戒",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 56,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.618,
+      "importance": 0.98,
+      "locations": {
+        "回到凉亭": 3
+      },
+      "characters": {
+        "孙悟空": 1,
+        "伶俐虫": 1,
+        "唐僧": 1,
+        "猪八戒": 1,
+        "精细鬼": 1
+      },
+      "links": [
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "精细鬼",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "猪八戒",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 3,
+      "numLines": 141,
+      "summary": "第十场；第十一场；第十二场",
+      "conflict": 0.559,
+      "importance": 1.0,
+      "locations": {
+        " 绑回洞府": 1,
+        "回到凉亭": 2
+      },
+      "characters": {
+        "孙悟空": 1,
+        "唐僧": 1,
+        "土地": 1,
+        "伶俐虫": 1,
+        "玉仙老母": 1,
+        "倚海龙": 1,
+        "四小妖": 1,
+        "银角大王": 1,
+        "四功曹": 1,
+        "金角大王": 1,
+        "八小妖": 1,
+        "精细鬼": 1,
+        "道人": 1
+      },
+      "links": [
+        {
+          "source": "唐僧",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "四小妖",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "八小妖",
+          "target": "土地",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "八小妖",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "八小妖",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "四功曹",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "道人",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "精细鬼",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "玉仙老母",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "四功曹",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "道人",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "精细鬼",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "玉仙老母",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "四功曹",
+          "value": 1
+        },
+        {
+          "source": "四功曹",
+          "target": "道人",
+          "value": 1
+        },
+        {
+          "source": "四功曹",
+          "target": "精细鬼",
+          "value": 1
+        },
+        {
+          "source": "四功曹",
+          "target": "玉仙老母",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "四功曹",
+          "value": 1
+        },
+        {
+          "source": "四功曹",
+          "target": "四小妖",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "道人",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "精细鬼",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "玉仙老母",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "倚海龙",
+          "value": 1
+        },
+        {
+          "source": "伶俐虫",
+          "target": "四小妖",
+          "value": 1
+        },
+        {
+          "source": "精细鬼",
+          "target": "道人",
+          "value": 1
+        },
+        {
+          "source": "玉仙老母",
+          "target": "道人",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "道人",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "道人",
+          "value": 1
+        },
+        {
+          "source": "玉仙老母",
+          "target": "精细鬼",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "精细鬼",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "精细鬼",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "玉仙老母",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "玉仙老母",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "四小妖",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 3,
+      "numLines": 100,
+      "summary": "第十三场；第十四场；第十五场",
+      "conflict": 0.779,
+      "importance": 1.0,
+      "locations": {
+        "回到凉亭": 3
+      },
+      "characters": {
+        "孙悟空": 1,
+        "唐僧": 1,
+        "玉仙老母": 1,
+        "混山大仙": 1,
+        "四小妖": 1,
+        "银角大王": 1,
+        "倚海龙": 1,
+        "四功曹": 1,
+        "金角大王": 1,
+        "小妖甲": 1,
+        "太上老君": 1
+      },
+      "links": [
+        {
+          "source": "金角大王",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "小妖甲",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "玉仙老母",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "混山大仙",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "金角大王",
+          "value": 1
+        },
+        {
+          "source": "小妖甲",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "玉仙老母",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "银角大王",
+          "value": 2
+        },
+        {
+          "source": "混山大仙",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "银角大王",
+          "value": 2
+        },
+        {
+          "source": "小妖甲",
+          "target": "玉仙老母",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "小妖甲",
+          "value": 1
+        },
+        {
+          "source": "小妖甲",
+          "target": "混山大仙",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "小妖甲",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "小妖甲",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "玉仙老母",
+          "value": 1
+        },
+        {
+          "source": "混山大仙",
+          "target": "玉仙老母",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "玉仙老母",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "玉仙老母",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "混山大仙",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "四小妖",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "孙悟空",
+          "value": 2
+        },
+        {
+          "source": "倚海龙",
+          "target": "混山大仙",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "混山大仙",
+          "value": 1
+        },
+        {
+          "source": "倚海龙",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "太上老君",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "四功曹",
+          "target": "银角大王",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "太上老君",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "四小妖",
+          "value": 1
+        },
+        {
+          "source": "四功曹",
+          "target": "四小妖",
+          "value": 1
+        },
+        {
+          "source": "太上老君",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "太上老君",
+          "value": 1
+        },
+        {
+          "source": "四功曹",
+          "target": "太上老君",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "四功曹",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "四功曹",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    },
+    {
+      "chapter": "第7章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "四功曹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我乃三天门下四值功曹是也。奉了太上老君法谕，前往平顶山，搭救悟空。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "八云童",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.304,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "四小妖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：1位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.308,
+        "conflict": 1.0,
+        "sentiment": -0.427
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "玉仙老母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "修身学道把斗参，但愿得，万载成仙。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "二女妖",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.311,
+        "conflict": 0.833,
+        "sentiment": 0.773
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "王同登高台",
+      "characters": [
+        {
+          "name": "金角大王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "二目圆睁金角仙，气吞潮海法无边。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "银角大王",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "金面雄骁，狰狞异貌，掌旗号，平顶山高，凛凛双龙耀。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "伶俐虫",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "参见大王！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：3位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.318,
+        "conflict": 0.0,
+        "sentiment": 0.366
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "师父，要过此山，待我前去探路，然后同行；先命八戒，化下斋饭，与师父充",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "使不得。我要前去化斋，人家知道的我是个和尚，不知道的把我逮了去，再还",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "凝眸望，",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：3位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.0,
+        "sentiment": -0.135
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "看八戒果然睡在此地。哦呵有了，待我变一个啄木虫儿，将他吓醒便了。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "苦中苦，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：2位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.72,
+        "conflict": 0.526,
+        "sentiment": 0.167
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "自古石牛难转磨，常言木马怎耕田。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "兜团笠，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "落叶满空山，何处寻踪迹？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：3位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.729,
+        "conflict": 0.779,
+        "sentiment": 0.178
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "精细鬼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "手内图形画影，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "伶俐虫",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "一心灭佛除僧。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.307,
+        "conflict": 0.0,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "猪八戒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "想我老猪，真晦气！实指望撒个谎、偷个懒，谁知道猴儿都知道啦，一定要打",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "伶俐虫",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "这个正是画图上的猪八戒，想必唐僧就在后面，快去报与二位大王知道便了！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第九场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.306,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": " 绑回洞府",
+      "characters": [
+        {
+          "name": "唐僧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "指挥如意天花落，小坐凉亭春草深。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "银角大王",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "绑回洞府。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四小妖",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十场：3位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.307,
+        "conflict": 0.0,
+        "sentiment": 0.168
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "土地",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "大圣何事？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "我云端里细瞧，",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "银角大王",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "小妖们，开放洞门！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "八小妖",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "啊！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十一场：4位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.722,
+        "conflict": 0.357,
+        "sentiment": -0.182
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "金角大王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住，猴头果然厉害，不免遣动三山，将他压住便了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "哎呀不好！不想今日竟被妖怪压在三山之下。师父啊师父！弟子不能保你西行",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "四功曹",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "大圣醒来，大圣醒来！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "伶俐虫",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "走啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "道人",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "啊哈哈哈……",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "精细鬼",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "奉了大王命，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "玉仙老母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "走啊！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "倚海龙",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "我们是翠云山来的。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四小妖",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "一般无二。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十二场：9位角色，102行",
+      "firstLine": 1,
+      "lastLine": 102,
+      "numLines": 102,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.776,
+        "conflict": 0.488,
+        "sentiment": 0.377
+      }
+    },
+    {
+      "number": 13,
+      "name": "第十三场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "金角大王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "愧无别物将母敬，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "银角大王",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "宰杀唐僧奉慈亲。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "小妖甲",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "报！老奶奶到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "玉仙老母",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "罢了。坐下！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四小妖",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "混山大仙",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "姐姐几时来的？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "倚海龙",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "启大王：她不是老奶奶，他是孙悟空，假充老奶奶。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第十三场：8位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.735,
+        "conflict": 0.204,
+        "sentiment": -0.419
+      }
+    },
+    {
+      "number": 14,
+      "name": "第十四场",
+      "location": "回到凉亭",
+      "characters": [],
+      "summary": "第十四场：0位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.007,
+        "conflict": 0.0,
+        "sentiment": 0.36
+      }
+    },
+    {
+      "number": 15,
+      "name": "第十五场",
+      "location": "回到凉亭",
+      "characters": [
+        {
+          "name": "银角大王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哈哈哈……",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "四小妖",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "太上老君",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "想从来行路难！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "原来是老头儿，悟空稽首！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "众圣请上，受我师徒一拜！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四功曹",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "遵法谕！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十五场：6位角色，44行",
+      "firstLine": 1,
+      "lastLine": 44,
+      "numLines": 44,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.733,
+        "conflict": 0.267,
+        "sentiment": 0.283
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "玉仙老母",
+      "short": "玉仙",
+      "key": "玉仙老母",
+      "quote": "玉仙老母 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八云童",
+      "short": "八云",
+      "key": "八云童",
+      "quote": "八云童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四小妖",
+      "short": "四小",
+      "key": "四小妖",
+      "quote": "四小妖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "银角大王",
+      "short": "银角",
+      "key": "银角大王",
+      "quote": "银角大王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四功曹",
+      "short": "四功",
+      "key": "四功曹",
+      "quote": "四功曹 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "金角大王",
+      "short": "金角",
+      "key": "金角大王",
+      "quote": "金角大王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "混山大仙",
+      "short": "混山",
+      "key": "混山大仙",
+      "quote": "混山大仙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "精细鬼",
+      "short": "精细",
+      "key": "精细鬼",
+      "quote": "精细鬼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "猪八戒",
+      "short": "猪八",
+      "key": "猪八戒",
+      "quote": "猪八戒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "倚海龙",
+      "short": "倚海",
+      "key": "倚海龙",
+      "quote": "倚海龙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二女妖",
+      "short": "二女",
+      "key": "二女妖",
+      "quote": "二女妖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "道人",
+      "short": "道人",
+      "key": "道人",
+      "quote": "道人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八小妖",
+      "short": "八小",
+      "key": "八小妖",
+      "quote": "八小妖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "伶俐虫",
+      "short": "伶俐",
+      "key": "伶俐虫",
+      "quote": "伶俐虫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "唐僧",
+      "short": "唐僧",
+      "key": "唐僧",
+      "quote": "唐僧 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "土地",
+      "short": "土地",
+      "key": "土地",
+      "quote": "土地 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "太上老君",
+      "short": "太上",
+      "key": "太上老君",
+      "quote": "太上老君 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小妖甲",
+      "short": "小妖",
+      "key": "小妖甲",
+      "quote": "小妖甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "回到凉亭",
+      "key": "回到凉亭",
+      "quote": "场景发生在回到凉亭"
+    },
+    {
+      "name": "王同登高台",
+      "key": "王同登高台",
+      "quote": "场景发生在王同登高台"
+    },
+    {
+      "name": " 绑回洞府",
+      "key": " 绑回洞府",
+      "quote": "场景发生在 绑回洞府"
+    }
+  ]
+}

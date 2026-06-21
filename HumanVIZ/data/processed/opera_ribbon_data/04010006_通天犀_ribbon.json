@@ -1,0 +1,389 @@
+{
+  "title": "通天犀",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "04010006_通天犀.json",
+  "source_folder": "04000000",
+  "plot_summary": "十一郎在白水滩一时粗心，误助官兵打败了青面虎。谁料官府陷害，十一郎反而因此致祸；同时他的主人程\n老学也被问罪发配。程老学在起解途中，正好遇到许世英的妹妹许佩珠下山。许佩珠杀死解差，把程老学带\n到山寨。许世英在询问程老学的犯罪情由时，得知十一郎已被问成死罪，即将处决。许世英一闻此讯，义愤\n填胸，当即改扮下山，劫了法场，把十一郎救回山寨。",
+  "performance_notes": "《通天犀》出于昆曲，描写英雄青面虎许世英不记前仇搭救十一郎的故事。本剧是由中国京剧团演员景荣庆\n与本院（中国戏曲研究院）编辑处何异旭共同整理的。除字上略加修润外，并无其他更动。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 139,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "许佩珠": 1,
+        "四喽兵": 1,
+        "程老学": 1,
+        "小喽兵": 1,
+        "青面虎": 1
+      },
+      "links": [
+        {
+          "source": "小喽兵",
+          "target": "青面虎",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "小喽兵",
+          "value": 1
+        },
+        {
+          "source": "小喽兵",
+          "target": "许佩珠",
+          "value": 1
+        },
+        {
+          "source": "小喽兵",
+          "target": "程老学",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "青面虎",
+          "value": 1
+        },
+        {
+          "source": "许佩珠",
+          "target": "青面虎",
+          "value": 1
+        },
+        {
+          "source": "程老学",
+          "target": "青面虎",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "许佩珠",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "程老学",
+          "value": 1
+        },
+        {
+          "source": "程老学",
+          "target": "许佩珠",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 135,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.985,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "十一郎": 1,
+        "许佩珠": 1,
+        "酒保": 1,
+        "监斩官": 1,
+        "青面虎": 1
+      },
+      "links": [
+        {
+          "source": "酒保",
+          "target": "青面虎",
+          "value": 1
+        },
+        {
+          "source": "监斩官",
+          "target": "青面虎",
+          "value": 1
+        },
+        {
+          "source": "十一郎",
+          "target": "青面虎",
+          "value": 1
+        },
+        {
+          "source": "许佩珠",
+          "target": "青面虎",
+          "value": 1
+        },
+        {
+          "source": "监斩官",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "十一郎",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "许佩珠",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "十一郎",
+          "target": "监斩官",
+          "value": 1
+        },
+        {
+          "source": "监斩官",
+          "target": "许佩珠",
+          "value": 1
+        },
+        {
+          "source": "十一郎",
+          "target": "许佩珠",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "小喽兵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "二寨主回山。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "青面虎",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "占据山冈，自立为王，雄心壮……",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "四喽兵",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "许佩珠",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "哥哥！",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "程老学",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "爷爷容禀！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：5位角色，139行",
+      "firstLine": 1,
+      "lastLine": 139,
+      "numLines": 139,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.354,
+        "sentiment": -0.101
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "青面虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "英雄生来志量高，腰中常挂镔铁刀。大喝一声惊神鬼，今日下山救英豪。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "酒保",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了，来了。",
+          "rating": 0.2,
+          "role": ""
+        },
+        {
+          "name": "监斩官",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来，将十一郎绑上来。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "十一郎",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "天哪，天！",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "许佩珠",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：5位角色，135行",
+      "firstLine": 1,
+      "lastLine": 135,
+      "numLines": 135,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.996,
+        "conflict": 0.244,
+        "sentiment": 0.02
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "青面虎",
+      "short": "青面",
+      "key": "青面虎",
+      "quote": "青面虎 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "许佩珠",
+      "short": "许佩",
+      "key": "许佩珠",
+      "quote": "许佩珠 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "十一郎",
+      "short": "十一",
+      "key": "十一郎",
+      "quote": "十一郎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "酒保",
+      "short": "酒保",
+      "key": "酒保",
+      "quote": "酒保 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "监斩官",
+      "short": "监斩",
+      "key": "监斩官",
+      "quote": "监斩官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四喽兵",
+      "short": "四喽",
+      "key": "四喽兵",
+      "quote": "四喽兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "程老学",
+      "short": "程老",
+      "key": "程老学",
+      "quote": "程老学 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小喽兵",
+      "short": "小喽",
+      "key": "小喽兵",
+      "quote": "小喽兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

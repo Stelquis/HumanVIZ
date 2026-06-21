@@ -1,0 +1,256 @@
+{
+  "title": "输华山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "02008027_输华山.json",
+  "source_folder": "02000000",
+  "plot_summary": "陈抟在华山修炼，尚未成正果。预料宋太祖赵匡胤将在华山经过，因设下棋盘，想向赵匡胤讨一封赠。赵匡\n胤经过华山时，见有人弈棋，心亦技痒。但陈抟谓华山规章，棋不空下，必须赌些银两。赵匡胤不得已，将\n所带之盘费银三两下注，随即输却。又将衣服押作银两，亦被陈抟拿去。万不得已，因冒充华山主人，将华\n山押作银两，再下一盘。陈抟谓押卖华山，亦无不可，但须写下卖契，并添写中人作证。赵匡胤将一切写妥\n后，又行输却。欲与陈抟再下一盘，陈抟则谓业已疲倦，不与再下。赵匡胤急不能耐，谓本人系久走赌场，\n赢了即要，输了便打。陈抟不得已，将银两衣服，完全还赵匡胤。赵匡胤扬长而去。陈抟又追至三岔路口，\n请赵匡胤在卖契上画押。陈抟随将花押印在山崖石上。赵匡胤因疑陈抟系妖怪，用锤猛打，忽然不见。赵匡\n胤因谓莫非是一个神仙，陈抟在半空中答曰“谢主龙恩”而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 201,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "童子": 1,
+        "赵匡胤": 1,
+        "陈抟": 1
+      },
+      "links": [
+        {
+          "source": "童子",
+          "target": "陈抟",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "陈抟",
+          "value": 1
+        },
+        {
+          "source": "童子",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 22,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.287,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵匡胤": 1,
+        "陈抟": 1
+      },
+      "links": [
+        {
+          "source": "赵匡胤",
+          "target": "陈抟",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.091,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵匡胤": 1,
+        "陈抟": 1
+      },
+      "links": [
+        {
+          "source": "赵匡胤",
+          "target": "陈抟",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "陈抟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "修仙慕道，不恋红尘，道法高。",
+          "rating": 0.25,
+          "role": "外"
+        },
+        {
+          "name": "童子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "有豪杰催坐骑闯走关西，",
+          "rating": 0.429,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：3位角色，201行",
+      "firstLine": 1,
+      "lastLine": 201,
+      "numLines": 201,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.201,
+        "sentiment": 0.35
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "陈抟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "且住，他竟昂然去了，真主到此，未曾讨得封赠，还要赶上前去。",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "催马来在岔路口，",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第2场：2位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.757,
+        "conflict": 0.0,
+        "sentiment": 0.779
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊！",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "陈抟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第3场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.718,
+        "conflict": 0.0,
+        "sentiment": 0.84
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "陈抟",
+      "short": "陈抟",
+      "key": "陈抟",
+      "quote": "陈抟 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "童子",
+      "short": "童子",
+      "key": "童子",
+      "quote": "童子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

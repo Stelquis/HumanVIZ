@@ -1,0 +1,622 @@
+{
+  "title": "战北原",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "01001015_战北原.json",
+  "source_folder": "01000000",
+  "plot_summary": "三国，司马懿使郑文至蜀营诈降，假说司马懿用人不公：郑文艺出秦朗上，而司马懿反使秦朗为先锋，因此\n愤恨来降。言犹未毕，秦朗来挑战。诸葛亮使郑文出战，暗随其后。只一合，郑文即斩秦朗于马下。诸葛亮\n乃知其诈，回营时言司马懿营中有几个秦朗，郑文语塞。诸葛亮大怒，欲斩之。郑文以直告。诸葛亮命郑文\n修书诱司马懿劫寨。司马懿得书，审为郑文之亲笔，欣然欲往。其子司马昭精细，劝父勿出，先使秦朗往探\n虚实，果中计。魏兵大败，秦朗死于乱军之中。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 90,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.649,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "报子": 1,
+        "四红龙套": 1,
+        "张苞": 1,
+        "郑文": 1,
+        "诸葛亮": 1
+      },
+      "links": [
+        {
+          "source": "报子",
+          "target": "诸葛亮",
+          "value": 2
+        },
+        {
+          "source": "诸葛亮",
+          "target": "郑文",
+          "value": 3
+        },
+        {
+          "source": "报子",
+          "target": "郑文",
+          "value": 2
+        },
+        {
+          "source": "四红龙套",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "张苞",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "张苞",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "郑文",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "张苞",
+          "target": "郑文",
+          "value": 1
+        },
+        {
+          "source": "张苞",
+          "target": "报子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 19,
+      "summary": "第4场；第5场；第6场",
+      "conflict": 1.23,
+      "importance": 0.38,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "郑文": 1,
+        "诸葛亮": 1,
+        "秦朗": 1
+      },
+      "links": [
+        {
+          "source": "诸葛亮",
+          "target": "郑文",
+          "value": 1
+        },
+        {
+          "source": "秦朗",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "秦朗",
+          "target": "郑文",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 91,
+      "summary": "第7场；第8场；第9场",
+      "conflict": 0.441,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "郑文": 1,
+        "诸葛亮": 1,
+        "旗牌": 1,
+        "张苞": 1
+      },
+      "links": [
+        {
+          "source": "诸葛亮",
+          "target": "郑文",
+          "value": 2
+        },
+        {
+          "source": "旗牌",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "郑文",
+          "value": 1
+        },
+        {
+          "source": "张苞",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "张苞",
+          "target": "郑文",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "想当初在隆中排分八卦，",
+          "rating": 0.6,
+          "role": "老生"
+        },
+        {
+          "name": "报子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启禀丞相：司马营中来了一将，名唤郑文，前来投降。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郑文",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：3位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.745,
+        "conflict": 0.0,
+        "sentiment": 0.536
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "四红龙套",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "有。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张苞",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "郑文",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "报子",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "启禀丞相：司马懿营中又来一将，名叫秦朗，前来讨战。单要郑将军出马，特",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：5位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.892,
+        "conflict": 0.522,
+        "sentiment": 0.111
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "郑将军。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "郑文",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "丞相。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第3场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.733,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哈哈哈……",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第4场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.562,
+        "conflict": 0.0,
+        "sentiment": 0.84
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "看郑文与秦朗怎样杀法。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "郑文",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "胆大秦朗，赶来则甚？",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "秦朗",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "奉了都督将令，前来取尔的首级！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第5场：3位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.727,
+        "conflict": 1.0,
+        "sentiment": -0.383
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "啊！",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第6场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.568,
+        "conflict": 1.0,
+        "sentiment": -0.39
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "等郑文回营来仔细盘查。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "郑文",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "斩来秦朗首级献上。",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "参见丞相。有何差遣？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第7场：3位角色，75行",
+      "firstLine": 1,
+      "lastLine": 75,
+      "numLines": 75,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.548,
+        "sentiment": 0.399
+      }
+    },
+    {
+      "number": 8,
+      "name": "第8场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "来！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张苞",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郑文",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "丞相为何将末将绑了？",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第8场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.733,
+        "conflict": 0.8,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 9,
+      "name": "第9场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哈哈哈……",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第9场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.565,
+        "conflict": 0.0,
+        "sentiment": 0.84
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "郑文",
+      "short": "郑文",
+      "key": "郑文",
+      "quote": "郑文 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四红龙套",
+      "short": "四红",
+      "key": "四红龙套",
+      "quote": "四红龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张苞",
+      "short": "张苞",
+      "key": "张苞",
+      "quote": "张苞 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "秦朗",
+      "short": "秦朗",
+      "key": "秦朗",
+      "quote": "秦朗 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

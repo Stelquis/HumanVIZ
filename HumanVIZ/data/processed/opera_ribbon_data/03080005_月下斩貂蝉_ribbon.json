@@ -1,0 +1,318 @@
+{
+  "title": "月下斩貂蝉",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "03080005_月下斩貂蝉.json",
+  "source_folder": "03000000",
+  "plot_summary": "曹操欲以美色迷关羽，特遣貂蝉供驱使，关羽为全貂蝉美名，月下斩之。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.359,
+      "locations": {
+        "均落于相府": 1
+      },
+      "characters": {
+        "大马童": 1,
+        "四飞虎旗": 1,
+        "关羽": 1,
+        "貂蝉": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "大马童",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "四飞虎旗",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "貂蝉",
+          "value": 1
+        },
+        {
+          "source": "四飞虎旗",
+          "target": "大马童",
+          "value": 1
+        },
+        {
+          "source": "大马童",
+          "target": "貂蝉",
+          "value": 1
+        },
+        {
+          "source": "四飞虎旗",
+          "target": "貂蝉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.296,
+      "locations": {
+        "森森貌堂堂": 1
+      },
+      "characters": {
+        "大马童": 1,
+        "关羽": 1,
+        "貂蝉": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "大马童",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "貂蝉",
+          "value": 1
+        },
+        {
+          "source": "大马童",
+          "target": "貂蝉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 111,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "森森貌堂堂": 1
+      },
+      "characters": {
+        "关羽": 1,
+        "貂蝉": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "貂蝉",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "均落于相府",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "忠心赤胆，扶汉室，锦绣江山。",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "大马童",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四飞虎旗",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "貂蝉",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：4位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.772,
+        "conflict": 0.0,
+        "sentiment": 0.165
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "森森貌堂堂",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "呀！",
+          "rating": -1.0,
+          "role": "红生"
+        },
+        {
+          "name": "大马童",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "貂蝉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.759,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "森森貌堂堂",
+      "characters": [
+        {
+          "name": "貂蝉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "来了！",
+          "rating": 0.429,
+          "role": "旦"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "慢睁凤眼看端详。",
+          "rating": 0.538,
+          "role": "红生"
+        }
+      ],
+      "summary": "第3场：2位角色，111行",
+      "firstLine": 1,
+      "lastLine": 111,
+      "numLines": 111,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.426,
+        "sentiment": 0.536
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "貂蝉",
+      "short": "貂蝉",
+      "key": "貂蝉",
+      "quote": "貂蝉 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "大马童",
+      "short": "大马",
+      "key": "大马童",
+      "quote": "大马童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四飞虎旗",
+      "short": "四飞",
+      "key": "四飞虎旗",
+      "quote": "四飞虎旗 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "森森貌堂堂",
+      "key": "森森貌堂堂",
+      "quote": "场景发生在森森貌堂堂"
+    },
+    {
+      "name": "均落于相府",
+      "key": "均落于相府",
+      "quote": "场景发生在均落于相府"
+    }
+  ]
+}

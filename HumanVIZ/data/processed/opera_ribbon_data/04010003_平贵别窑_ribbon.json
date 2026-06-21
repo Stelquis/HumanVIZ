@@ -1,0 +1,198 @@
+{
+  "title": "平贵别窑",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 4,
+  "source_file": "04010003_平贵别窑.json",
+  "source_folder": "04000000",
+  "plot_summary": "薛平贵降伏了红鬃烈马，唐王封他为“后军都府”，王允却故意将他改为“马前先行”，并派他远征西凉。\n这一对新婚不久的夫妇，不得不忍痛地分别了。",
+  "performance_notes": "这个剧本是由中国京剧团演员李洪春、云燕铭与本院（中国戏曲研究院）编辑处吕瑞明共同整理的。因原本\n就很完整，整理时，仅对个别词句略加修正。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.227,
+      "locations": {
+        "高搭彩楼": 1
+      },
+      "characters": {
+        "王宝钏": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 156,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "为后军督府": 1
+      },
+      "characters": {
+        "中军": 1,
+        "薛平贵": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "王宝钏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "高搭彩楼",
+      "characters": [
+        {
+          "name": "王宝钏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "身居寒窑，终日里，愁锁眉梢。",
+          "rating": -0.25,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：1位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.618,
+        "conflict": 0.0,
+        "sentiment": 0.125
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "为后军督府",
+      "characters": [
+        {
+          "name": "薛平贵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "头戴金盔一点红，身披铠甲扣玲珑。自从降了红鬃马，唐王驾前立大功。",
+          "rating": -0.077,
+          "role": "武生"
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": 0.2,
+          "role": "旦"
+        },
+        {
+          "name": "中军",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "平贵听令！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，156行",
+      "firstLine": 1,
+      "lastLine": 156,
+      "numLines": 156,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.241,
+        "sentiment": 0.232
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛平贵",
+      "short": "薛平",
+      "key": "薛平贵",
+      "quote": "薛平贵 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "为后军督府",
+      "key": "为后军督府",
+      "quote": "场景发生在为后军督府"
+    },
+    {
+      "name": "高搭彩楼",
+      "key": "高搭彩楼",
+      "quote": "场景发生在高搭彩楼"
+    },
+    {
+      "name": "俺后军督府",
+      "key": "俺后军督府",
+      "quote": "场景发生在俺后军督府"
+    },
+    {
+      "name": "十字街",
+      "key": "十字街",
+      "quote": "场景发生在十字街"
+    }
+  ]
+}

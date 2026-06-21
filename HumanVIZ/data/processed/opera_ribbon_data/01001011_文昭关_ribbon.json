@@ -1,0 +1,582 @@
+{
+  "title": "文昭关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "01001011_文昭关.json",
+  "source_folder": "01000000",
+  "plot_summary": "春秋，伍员逃到昭关，因关前已画图缉拿，过关不去。躲在隐士东皋公家，一连七天，又急又愁，须发皆白。\n东皋公有友人皇甫讷，与伍子胥相貌，乃遮柬相召，嘱与伍员互易衣服。皇甫讷先至关，果被关吏拿住，\n大声剖白，关吏不信。正扰攘间，伍员已混出昭关。东皋公乃见关吏，说明被捕者并非伍员，的系至友皇甫\n讷，关吏释之。后伍员破楚归，齐金帛投东皋公家，但见荒烟蔓草，败瓦颓墙，东皋公已去矣。施恩不望报，\n东皋公亦人杰矣。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 187,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.679,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "皇甫讷": 1,
+        "伍员": 1,
+        "童儿": 1,
+        "东皋公": 1
+      },
+      "links": [
+        {
+          "source": "东皋公",
+          "target": "伍员",
+          "value": 2
+        },
+        {
+          "source": "东皋公",
+          "target": "童儿",
+          "value": 2
+        },
+        {
+          "source": "伍员",
+          "target": "童儿",
+          "value": 2
+        },
+        {
+          "source": "伍员",
+          "target": "皇甫讷",
+          "value": 1
+        },
+        {
+          "source": "东皋公",
+          "target": "皇甫讷",
+          "value": 1
+        },
+        {
+          "source": "皇甫讷",
+          "target": "童儿",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 95,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.6,
+      "importance": 0.88,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "童儿": 1,
+        "皇甫讷": 1,
+        "四青袍": 1,
+        "伍员": 1,
+        "米南适": 1,
+        "东皋公": 1
+      },
+      "links": [
+        {
+          "source": "皇甫讷",
+          "target": "童儿",
+          "value": 1
+        },
+        {
+          "source": "东皋公",
+          "target": "皇甫讷",
+          "value": 2
+        },
+        {
+          "source": "伍员",
+          "target": "皇甫讷",
+          "value": 2
+        },
+        {
+          "source": "东皋公",
+          "target": "童儿",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "童儿",
+          "value": 1
+        },
+        {
+          "source": "东皋公",
+          "target": "伍员",
+          "value": 2
+        },
+        {
+          "source": "四青袍",
+          "target": "米南适",
+          "value": 1
+        },
+        {
+          "source": "皇甫讷",
+          "target": "米南适",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "皇甫讷",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 42,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.389,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "皇甫讷": 1,
+        "米南适": 1,
+        "四青袍": 1,
+        "东皋公": 1
+      },
+      "links": [
+        {
+          "source": "皇甫讷",
+          "target": "米南适",
+          "value": 1
+        },
+        {
+          "source": "东皋公",
+          "target": "米南适",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "米南适",
+          "value": 1
+        },
+        {
+          "source": "东皋公",
+          "target": "皇甫讷",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "皇甫讷",
+          "value": 1
+        },
+        {
+          "source": "东皋公",
+          "target": "四青袍",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "东皋公",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "庄外青山绿水，黄花百草风吹。",
+          "rating": -0.333,
+          "role": "外"
+        },
+        {
+          "name": "伍员",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "马来！",
+          "rating": -0.6,
+          "role": "老生"
+        },
+        {
+          "name": "童儿",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "迎接家爷。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，75行",
+      "firstLine": 1,
+      "lastLine": 75,
+      "numLines": 75,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.769,
+        "conflict": 0.355,
+        "sentiment": 0.131
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "皇甫讷",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "隐居山林地，快乐诗琴棋。",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第二场：1位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.516,
+        "conflict": 0.0,
+        "sentiment": 0.8
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "伍员",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "过了一天又一天，",
+          "rating": -0.167,
+          "role": "老生"
+        },
+        {
+          "name": "东皋公",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "一夜漏声催晚箭，",
+          "rating": 0.6,
+          "role": "外"
+        },
+        {
+          "name": "童儿",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "遵命。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "皇甫讷",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第三场：4位角色，101行",
+      "firstLine": 1,
+      "lastLine": 101,
+      "numLines": 101,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.621,
+        "sentiment": 0.121
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "皇甫讷",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "皋公有帖将我请，",
+          "rating": -0.5,
+          "role": "末"
+        },
+        {
+          "name": "童儿",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有请家爷。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "东皋公",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "曲径通幽处，园林花木深。",
+          "rating": 0.429,
+          "role": "外"
+        },
+        {
+          "name": "伍员",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "父母冤仇恨，常怀一片心。",
+          "rating": 0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：4位角色，74行",
+      "firstLine": 1,
+      "lastLine": 74,
+      "numLines": 74,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.974,
+        "conflict": 0.278,
+        "sentiment": 0.293
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "米南适",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "坐守昭关，威镇名传。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哦。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "皇甫讷",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有人么？",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第五场：3位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.425,
+        "conflict": 0.465,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "伍员",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "且喜过了昭关，不免拜谢东皋公、皇甫讷，奔往吴国去吧！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "皇甫讷",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "东皋公",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第六场：3位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.636,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "米南适",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呔，胆大伍子胥！你乃反叛之臣，见了本帅，为何立而不跪？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "皇甫讷",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "住了！谁是伍子胥？俺乃庶民皇甫讷！",
+          "rating": 0.333,
+          "role": "末"
+        },
+        {
+          "name": "东皋公",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "有人么？",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：4位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.722,
+        "conflict": 0.179,
+        "sentiment": 0.167
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "伍员",
+      "short": "伍员",
+      "key": "伍员",
+      "quote": "伍员 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "东皋公",
+      "short": "东皋",
+      "key": "东皋公",
+      "quote": "东皋公 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "皇甫讷",
+      "short": "皇甫",
+      "key": "皇甫讷",
+      "quote": "皇甫讷 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "米南适",
+      "short": "米南",
+      "key": "米南适",
+      "quote": "米南适 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "童儿",
+      "short": "童儿",
+      "key": "童儿",
+      "quote": "童儿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

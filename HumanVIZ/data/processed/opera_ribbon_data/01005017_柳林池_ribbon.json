@@ -1,0 +1,110 @@
+{
+  "title": "柳林池",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "01005017_柳林池.json",
+  "source_folder": "01000000",
+  "plot_summary": "宋仁宗时，有士人陈世美，进京应试，获中状元。刘太后爱其才貌，赐宴金殿，欲以公主尚之。陈世美本有\n妻名秦香莲（或作金香莲），且已生有子女，至是心为势利所动，只图趋附，不顾糟糠，竟贸然蒙奏无妻，\n遂得宠选乘龙，幸厕驸马之列。惟家中妻子，久不得陈世美音耗，望夫目断，饔飱不给，又遭连年荒歉，秦\n香莲不得已，只得携子女伶仃晋京。一路探访，既抵京，陈世美非徒呵逐不认，且暗以五十金赐家将韩琪，\n命韩琪追往截杀于途。秦香莲行至柳林池镇集时，阴觉有暴徒尾其后，遂避匿于三官堂中，不意已为韩琪瞥\n见，撞门入，持刀而前，竟欲行凶，秦香莲携子女跪地哀求，并详述陈从前种种隐情。韩琪乃不忍加害，纵\n之使去，并以所受金遣之。继念无以反命，祸翻及身，左右寻思，进退为难。忽然一腔义烈之心，应念而起，\n遂慷慨自刎，以全秦香莲。秦香莲愈益感忿，随拾取其刀，急投开封府包公处控诉。后本即《铡美案》也。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 149,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "有司衙门": 1
+      },
+      "characters": {
+        "秦香莲": 1,
+        "韩琪": 1
+      },
+      "links": [
+        {
+          "source": "秦香莲",
+          "target": "韩琪",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "有司衙门",
+      "characters": [
+        {
+          "name": "秦香莲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我母子三人进了京，",
+          "rating": -0.091,
+          "role": "旦"
+        },
+        {
+          "name": "韩琪",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "民夫人慢走！",
+          "rating": -0.429,
+          "role": "老生"
+        }
+      ],
+      "summary": "段落1：2位角色，149行",
+      "firstLine": 1,
+      "lastLine": 149,
+      "numLines": 149,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.177,
+        "sentiment": 0.15
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "韩琪",
+      "short": "韩琪",
+      "key": "韩琪",
+      "quote": "韩琪 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "秦香莲",
+      "short": "秦香",
+      "key": "秦香莲",
+      "quote": "秦香莲 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "有司衙门",
+      "key": "有司衙门",
+      "quote": "场景发生在有司衙门"
+    }
+  ]
+}

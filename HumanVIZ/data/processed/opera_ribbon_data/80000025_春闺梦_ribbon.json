@@ -1,0 +1,240 @@
+{
+  "title": "春闺梦",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "80000025_春闺梦.json",
+  "source_folder": "80000000",
+  "plot_summary": "剧本假托汉末公孙瓒和刘虞互争权位，发动了内战，河北人民惨受征戎、流离的痛苦。壮士王恢新婚不满数\n月，被强征入伍，阵前中箭而死。妻子张氏，终日在家伫盼，不觉积思成梦。梦见王恢解甲归来，张氏又是\n欢忻，又是哀怨。倏忽间战鼓惊天，乱兵杂沓，尽都是一些血肉骷髅，吓得张氏蓦地惊醒，才知都是梦境。",
+  "performance_notes": "《春闺梦》是根据唐代诗人杜甫《新婚别》及陈陶“可怜无定河边骨，犹是春闺梦里人”的诗的意境编成的。\n程砚秋同志在1931年，目睹当时军阀混战，人民流离失所，编演这一个戏，反映了人民反内战、渴望\n和平的共同心理。在结构穿插上、表演艺术上，都有很多新的试验和创造。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 87,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "刚才打了一个": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "王恢": 1,
+        "张氏": 1
+      },
+      "links": [
+        {
+          "source": "张氏",
+          "target": "王恢",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "张氏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "王恢",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 16,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.384,
+      "locations": {
+        "刚才打了一个": 1
+      },
+      "characters": {
+        "张氏": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 22,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.528,
+      "locations": {
+        "刚才打了一个": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "张氏": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "张氏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "刚才打了一个",
+      "characters": [
+        {
+          "name": "张氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我正在这里想念于你，你就回来了。",
+          "rating": 0.111,
+          "role": "旦"
+        },
+        {
+          "name": "王恢",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我怕夫人惦念，特地回家看望于你！",
+          "rating": 0.25,
+          "role": "小生"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "丑旦"
+        }
+      ],
+      "summary": "第1场：3位角色，87行",
+      "firstLine": 1,
+      "lastLine": 87,
+      "numLines": 87,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.123,
+        "sentiment": 0.139
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "刚才打了一个",
+      "characters": [
+        {
+          "name": "张氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "一霎时顿觉得身躯寒冷，",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：1位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.615,
+        "conflict": 1.0,
+        "sentiment": -0.33
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "刚才打了一个",
+      "characters": [
+        {
+          "name": "丫鬟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "想不到刚才打了一个盹儿，做了一好梦，报与夫人知道。哟，睡着了——",
+          "rating": 0.667,
+          "role": "丑旦"
+        },
+        {
+          "name": "张氏",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哦，你家老爷回来了？",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：2位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.758,
+        "conflict": 0.37,
+        "sentiment": 0.569
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张氏",
+      "short": "张氏",
+      "key": "张氏",
+      "quote": "张氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王恢",
+      "short": "王恢",
+      "key": "王恢",
+      "quote": "王恢 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 丑旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 丑旦",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "刚才打了一个",
+      "key": "刚才打了一个",
+      "quote": "场景发生在刚才打了一个"
+    }
+  ]
+}

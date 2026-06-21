@@ -1,0 +1,325 @@
+{
+  "title": "告御状",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "03055004_告御状.json",
+  "source_folder": "03000000",
+  "plot_summary": "杨延昭回京，告潘洪十大罪状。宋太宗赐旨三道，命呼延必显至雁门关捉拿潘洪。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 122,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "雁门关提拿潘": 1
+      },
+      "characters": {
+        "赵德芳": 1,
+        "宋太宗": 1,
+        "杨延昭": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "大太监",
+          "target": "宋太宗",
+          "value": 1
+        },
+        {
+          "source": "宋太宗",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "宋太宗",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "赵德芳",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 30,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.584,
+      "locations": {
+        "雁门关提拿潘": 1
+      },
+      "characters": {
+        "赵德芳": 1,
+        "宋太宗": 1,
+        "呼延必显": 1
+      },
+      "links": [
+        {
+          "source": "宋太宗",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "呼延必显",
+          "target": "宋太宗",
+          "value": 1
+        },
+        {
+          "source": "呼延必显",
+          "target": "赵德芳",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.039,
+      "locations": {
+        "雁门关提拿潘": 1
+      },
+      "characters": {
+        "赵德芳": 1,
+        "宋太宗": 1
+      },
+      "links": [
+        {
+          "source": "宋太宗",
+          "target": "赵德芳",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "雁门关提拿潘",
+      "characters": [
+        {
+          "name": "宋太宗",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "龙楼凤阁九重霄，有道君王坐龙朝。",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "遵旨。展放龙门哪！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "赵德芳",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "感叹忠良事，奏与叔王知。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": 0.067,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：4位角色，122行",
+      "firstLine": 1,
+      "lastLine": 122,
+      "numLines": 122,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.673,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "雁门关提拿潘",
+      "characters": [
+        {
+          "name": "宋太宗",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "皇儿传旨：可有粗心胆大之臣，去到雁门关提拿潘洪进京问罪？",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "赵德芳",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "遵旨。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "呼延必显",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "呼必显愿往！",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：3位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.725,
+        "conflict": 0.488,
+        "sentiment": 0.766
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "雁门关提拿潘",
+      "characters": [
+        {
+          "name": "赵德芳",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "朝事已毕，请驾回宫！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "宋太宗",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：2位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.566,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨延昭",
+      "short": "杨延",
+      "key": "杨延昭",
+      "quote": "杨延昭 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "宋太宗",
+      "short": "宋太",
+      "key": "宋太宗",
+      "quote": "宋太宗 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵德芳",
+      "short": "赵德",
+      "key": "赵德芳",
+      "quote": "赵德芳 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "呼延必显",
+      "short": "呼延",
+      "key": "呼延必显",
+      "quote": "呼延必显 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "雁门关提拿潘",
+      "key": "雁门关提拿潘",
+      "quote": "场景发生在雁门关提拿潘"
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+{
+  "title": "喜封侯",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 10,
+  "num_locations": 2,
+  "source_file": "05021002_喜封侯.json",
+  "source_folder": "05000000",
+  "plot_summary": "韩信被杀，萧何谓蒯彻曾为韩信主谋，刘邦因使陆贾前往擒蒯彻。蒯彻佯疯，见刘邦，立而不跪，并责其信\n谗言，诛杀忠良。刘邦大怒，命左右设油鼎，欲杀蒯彻。蒯彻为韩信辩冤，刘邦无言可对，撤去油鼎，责萧\n何奏本荒唐，钦封蒯彻为侯。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.094,
+      "locations": {
+        "高挂五凤楼": 1
+      },
+      "characters": {
+        "蒯彻": 1,
+        "陆贾": 1
+      },
+      "links": [
+        {
+          "source": "蒯彻",
+          "target": "陆贾",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 130,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "九里山前登台": 1
+      },
+      "characters": {
+        "化子乙": 1,
+        "萧何": 1,
+        "陆贾": 1,
+        "化子甲": 1,
+        "蒯彻": 1
+      },
+      "links": [
+        {
+          "source": "化子乙",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "化子甲",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "蒯彻",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "化子乙",
+          "target": "化子甲",
+          "value": 1
+        },
+        {
+          "source": "化子乙",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "化子乙",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "化子甲",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "化子甲",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "陆贾",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 148,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "九里山前登台": 1
+      },
+      "characters": {
+        "樊哙": 1,
+        "陈平": 1,
+        "萧何": 1,
+        "四值殿": 1,
+        "陆贾": 1,
+        "刘邦": 1,
+        "蒯彻": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "刘邦",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "刘邦",
+          "target": "四值殿",
+          "value": 1
+        },
+        {
+          "source": "刘邦",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "刘邦",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "刘邦",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "刘邦",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "刘邦",
+          "target": "樊哙",
+          "value": 1
+        },
+        {
+          "source": "四值殿",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "蒯彻",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "陆贾",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "樊哙",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "四值殿",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "四值殿",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "四值殿",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "四值殿",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "四值殿",
+          "target": "樊哙",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "蒯彻",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "樊哙",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "樊哙",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "樊哙",
+          "value": 1
+        },
+        {
+          "source": "樊哙",
+          "target": "陈平",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "高挂五凤楼",
+      "characters": [
+        {
+          "name": "陆贾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "为国忠良不到头，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "蒯彻",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.367,
+        "conflict": 0.0,
+        "sentiment": 0.427
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "九里山前登台",
+      "characters": [
+        {
+          "name": "蒯彻",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哈哈哈……",
+          "rating": 0.714,
+          "role": "老生"
+        },
+        {
+          "name": "化子乙",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哎咳！",
+          "rating": 0.143,
+          "role": "丑"
+        },
+        {
+          "name": "化子甲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "伙计，今日天气晴和，你我行动行动，必有三分财气。",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "陆贾",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "将身儿且把那十字街过，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "萧何",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：5位角色，130行",
+      "firstLine": 1,
+      "lastLine": 130,
+      "numLines": 130,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.072,
+        "sentiment": 0.368
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "九里山前登台",
+      "characters": [
+        {
+          "name": "刘邦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "朕设朝龙耳听金钟三响，",
+          "rating": 0.385,
+          "role": "老生"
+        },
+        {
+          "name": "陆贾",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "拿住了蒯文通金殿来上，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四值殿",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蒯彻",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "忽听得金銮殿把旨来降，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "萧何",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "他就是反逆的文通。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "蒯先生走罢。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陈平",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "老丞相你不该把本奏上，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "樊哙",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "positive",
+          "quote": "从今后且莫要把本乱上，",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：8位角色，148行",
+      "firstLine": 1,
+      "lastLine": 148,
+      "numLines": 148,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.5,
+        "sentiment": 0.257
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "蒯彻",
+      "short": "蒯彻",
+      "key": "蒯彻",
+      "quote": "蒯彻 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘邦",
+      "short": "刘邦",
+      "key": "刘邦",
+      "quote": "刘邦 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "化子甲",
+      "short": "化子",
+      "key": "化子甲",
+      "quote": "化子甲 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "化子乙",
+      "short": "化子",
+      "key": "化子乙",
+      "quote": "化子乙 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "萧何",
+      "short": "萧何",
+      "key": "萧何",
+      "quote": "萧何 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "樊哙",
+      "short": "樊哙",
+      "key": "樊哙",
+      "quote": "樊哙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陈平",
+      "short": "陈平",
+      "key": "陈平",
+      "quote": "陈平 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四值殿",
+      "short": "四值",
+      "key": "四值殿",
+      "quote": "四值殿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陆贾",
+      "short": "陆贾",
+      "key": "陆贾",
+      "quote": "陆贾 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "九里山前登台",
+      "key": "九里山前登台",
+      "quote": "场景发生在九里山前登台"
+    },
+    {
+      "name": "高挂五凤楼",
+      "key": "高挂五凤楼",
+      "quote": "场景发生在高挂五凤楼"
+    }
+  ]
+}

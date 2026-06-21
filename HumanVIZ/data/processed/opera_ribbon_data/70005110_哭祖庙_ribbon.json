@@ -1,0 +1,562 @@
+{
+  "title": "哭祖庙",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 9,
+  "num_locations": 4,
+  "source_file": "70005110_哭祖庙.json",
+  "source_folder": "70005000",
+  "plot_summary": "三国末期，魏大将邓艾逼成都，北地王刘谌哭谏后主力战，不从，回府杀夫人、小王，哭祭祖庙，自刎而死。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 99,
+      "summary": "第一场；第二场",
+      "conflict": 0.554,
+      "importance": 1.0,
+      "locations": {
+        "从教场归府": 1,
+        "围着我都城": 1
+      },
+      "characters": {
+        "门官": 1,
+        "刘禅": 1,
+        "黄皓": 1,
+        "女巫": 1,
+        "刘谌": 1
+      },
+      "links": [
+        {
+          "source": "刘谌",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "门官",
+          "target": "黄皓",
+          "value": 1
+        },
+        {
+          "source": "刘谌",
+          "target": "黄皓",
+          "value": 2
+        },
+        {
+          "source": "刘禅",
+          "target": "黄皓",
+          "value": 1
+        },
+        {
+          "source": "刘禅",
+          "target": "女巫",
+          "value": 1
+        },
+        {
+          "source": "刘禅",
+          "target": "刘谌",
+          "value": 1
+        },
+        {
+          "source": "女巫",
+          "target": "黄皓",
+          "value": 1
+        },
+        {
+          "source": "刘谌",
+          "target": "女巫",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 57,
+      "summary": "第三场；第四场",
+      "conflict": 0.659,
+      "importance": 0.687,
+      "locations": {
+        "从教场归府": 2
+      },
+      "characters": {
+        "董敏": 1,
+        "崔夫人": 1,
+        "黄皓": 1,
+        "二小王": 1,
+        "刘谌": 1
+      },
+      "links": [
+        {
+          "source": "二小王",
+          "target": "董敏",
+          "value": 2
+        },
+        {
+          "source": "刘谌",
+          "target": "崔夫人",
+          "value": 1
+        },
+        {
+          "source": "刘谌",
+          "target": "董敏",
+          "value": 1
+        },
+        {
+          "source": "二小王",
+          "target": "刘谌",
+          "value": 1
+        },
+        {
+          "source": "刘谌",
+          "target": "黄皓",
+          "value": 1
+        },
+        {
+          "source": "崔夫人",
+          "target": "董敏",
+          "value": 1
+        },
+        {
+          "source": "二小王",
+          "target": "崔夫人",
+          "value": 1
+        },
+        {
+          "source": "崔夫人",
+          "target": "黄皓",
+          "value": 1
+        },
+        {
+          "source": "董敏",
+          "target": "黄皓",
+          "value": 1
+        },
+        {
+          "source": "二小王",
+          "target": "黄皓",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 93,
+      "summary": "第五场；第六场",
+      "conflict": 0.698,
+      "importance": 1.0,
+      "locations": {
+        "从教场归府": 1,
+        "进祖庙": 1
+      },
+      "characters": {
+        "刘备": 1,
+        "刘禅": 1,
+        "刘谌": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "刘谌",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "从教场归府",
+      "characters": [
+        {
+          "name": "门官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "启禀王爷：今有邓艾围困成都，吾主明日出城纳降。特来禀知。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "刘谌",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "回府。",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "黄皓",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.392,
+        "conflict": 0.952,
+        "sentiment": 0.5
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "围着我都城",
+      "characters": [
+        {
+          "name": "刘禅",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "邓艾贼子渡阴平，",
+          "rating": -0.111,
+          "role": "末"
+        },
+        {
+          "name": "黄皓",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "叩见万岁！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "女巫",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "吾乃西川土神是也。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "刘谌",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "父皇一味妖巫信，",
+          "rating": -0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，86行",
+      "firstLine": 1,
+      "lastLine": 86,
+      "numLines": 86,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.807,
+        "conflict": 0.755,
+        "sentiment": -0.054
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "从教场归府",
+      "characters": [
+        {
+          "name": "董敏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "自幼净身入宫院，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二小王",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.162,
+        "conflict": 1.0,
+        "sentiment": 0.824
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "从教场归府",
+      "characters": [
+        {
+          "name": "刘谌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "怒冲冲出离皇宫院，",
+          "rating": -0.273,
+          "role": "老生"
+        },
+        {
+          "name": "崔夫人",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "贼邓艾渡阴平十分危险，",
+          "rating": 0.5,
+          "role": "正旦"
+        },
+        {
+          "name": "董敏",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "哎呀！王爷呀！一言不发为何要杀那二位殿下？",
+          "rating": -0.5,
+          "role": ""
+        },
+        {
+          "name": "二小王",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "父皇要杀孩儿却也不难，容孩儿进宫，见我母亲一面，再杀不迟！",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "黄皓",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第四场：5位角色，50行",
+      "firstLine": 1,
+      "lastLine": 50,
+      "numLines": 50,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.606,
+        "sentiment": 0.165
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "从教场归府",
+      "characters": [
+        {
+          "name": "刘禅",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第五场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.466,
+        "conflict": 0.0,
+        "sentiment": 0.8
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "进祖庙",
+      "characters": [
+        {
+          "name": "刘谌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "进祖庙不由人心中悲悼，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘备",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "皇孙呐，汉室气数已尽，不能挽回，随我去吧！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：2位角色，92行",
+      "firstLine": 1,
+      "lastLine": 92,
+      "numLines": 92,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.62,
+        "conflict": 0.588,
+        "sentiment": 0.102
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘谌",
+      "short": "刘谌",
+      "key": "刘谌",
+      "quote": "刘谌 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘禅",
+      "short": "刘禅",
+      "key": "刘禅",
+      "quote": "刘禅 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "崔夫人",
+      "short": "崔夫",
+      "key": "崔夫人",
+      "quote": "崔夫人 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄皓",
+      "short": "黄皓",
+      "key": "黄皓",
+      "quote": "黄皓 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "二小王",
+      "short": "二小",
+      "key": "二小王",
+      "quote": "二小王 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "董敏",
+      "short": "董敏",
+      "key": "董敏",
+      "quote": "董敏 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门官",
+      "short": "门官",
+      "key": "门官",
+      "quote": "门官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "女巫",
+      "short": "女巫",
+      "key": "女巫",
+      "quote": "女巫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "从教场归府",
+      "key": "从教场归府",
+      "quote": "场景发生在从教场归府"
+    },
+    {
+      "name": "围着我都城",
+      "key": "围着我都城",
+      "quote": "场景发生在围着我都城"
+    },
+    {
+      "name": "白） 回府",
+      "key": "白） 回府",
+      "quote": "场景发生在白） 回府"
+    },
+    {
+      "name": "进祖庙",
+      "key": "进祖庙",
+      "quote": "场景发生在进祖庙"
+    }
+  ]
+}

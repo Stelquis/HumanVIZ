@@ -1,0 +1,579 @@
+{
+  "title": "虎牢关",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "05024002_虎牢关.json",
+  "source_folder": "05000000",
+  "plot_summary": "张飞与袁术打赌，表示一定要生擒吕布。刘备怕张飞有失，漏夜与关羽相商助战之策。次日，张飞、吕布交\n战，张飞果败。刘备、关羽遂与张飞结成三马连环，同战吕布。吕布不敌，被挑下紫金冠，败入虎牢关内。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 32,
+      "summary": "第一场；第二场",
+      "conflict": 0.595,
+      "importance": 0.539,
+      "locations": {
+        "手、四文堂": 2
+      },
+      "characters": {
+        "吕布": 1,
+        "刘备": 1,
+        "关羽": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "吕布",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "吕布",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 130,
+      "summary": "第三场；第四场",
+      "conflict": 0.224,
+      "importance": 1.0,
+      "locations": {
+        "手、四文堂": 2
+      },
+      "characters": {
+        "吕布": 1,
+        "刘备": 1,
+        "关羽": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "吕布",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 2
+        },
+        {
+          "source": "刘备",
+          "target": "吕布",
+          "value": 2
+        },
+        {
+          "source": "关羽",
+          "target": "吕布",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 16,
+      "summary": "第五场；第六场",
+      "conflict": 0.64,
+      "importance": 0.27,
+      "locations": {
+        "手、四文堂": 2
+      },
+      "characters": {
+        "刘备": 1,
+        "众人": 1,
+        "吕布": 1,
+        "李肃": 1,
+        "关羽": 1,
+        "公孙瓒": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "公孙瓒",
+          "target": "吕布",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "李肃",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "李肃",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "李肃",
+          "value": 1
+        },
+        {
+          "source": "吕布",
+          "target": "李肃",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "李肃",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "吕布",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "吕布",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "吕布",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "吕布",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "手、四文堂",
+      "characters": [
+        {
+          "name": "吕布",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "少小英雄镇虎牢，狐群鼠辈怎脱逃。咚咚画鼓催军进，指日奏凯转还朝。",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.522,
+        "conflict": 1.0,
+        "sentiment": -0.42
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "手、四文堂",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "掌灯！",
+          "rating": -0.5,
+          "role": "老生"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "听大哥在月下长吁短叹，",
+          "rating": 1.0,
+          "role": "红生"
+        },
+        {
+          "name": "吕布",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.66,
+        "conflict": 0.851,
+        "sentiment": 0.175
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "手、四文堂",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "人情势利古今同，几个男儿是英雄。安得快人如翼德，要为汉室尽精忠。",
+          "rating": 0.143,
+          "role": "净"
+        },
+        {
+          "name": "刘备",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "岭岩鼓角三更尽，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "夜宿貔貅百万兵。",
+          "rating": 1.0,
+          "role": "红生"
+        },
+        {
+          "name": "吕布",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "开关。",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：4位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.929,
+        "conflict": 0.8,
+        "sentiment": 0.253
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "手、四文堂",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "二弟。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大哥。",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "三弟还是四弟。",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "吕布",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "开关。",
+          "rating": -0.6,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：4位角色，96行",
+      "firstLine": 1,
+      "lastLine": 96,
+      "numLines": 96,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.288,
+        "sentiment": 0.029
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "手、四文堂",
+      "characters": [
+        {
+          "name": "公孙瓒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "俺公孙瓒。今有桃园大战吕布，唯恐有失，带领本部三千人马，前去助战。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "吕布",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第五场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.377,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "手、四文堂",
+      "characters": [
+        {
+          "name": "李肃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "俺李肃。奉太师之命，大战桃园，杀上前去。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "大哥二哥，吕布紫金冠被挑下来了。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "三弟之功。",
+          "rating": 1.0,
+          "role": "红生"
+        },
+        {
+          "name": "众人",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "且慢，败将不可追赶，犹恐埋伏，就此收兵。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "吕布",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "刘备",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第六场：6位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.781,
+        "conflict": 1.0,
+        "sentiment": 0.2
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "吕布",
+      "short": "吕布",
+      "key": "吕布",
+      "quote": "吕布 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李肃",
+      "short": "李肃",
+      "key": "李肃",
+      "quote": "李肃 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "公孙瓒",
+      "short": "公孙",
+      "key": "公孙瓒",
+      "quote": "公孙瓒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "手、四文堂",
+      "key": "手、四文堂",
+      "quote": "场景发生在手、四文堂"
+    }
+  ]
+}

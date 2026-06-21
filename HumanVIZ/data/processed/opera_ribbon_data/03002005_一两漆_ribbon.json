@@ -1,0 +1,179 @@
+{
+  "title": "一两漆",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "03002005_一两漆.json",
+  "source_folder": "03000000",
+  "plot_summary": "朱元璋流浪的时候，一日在油匠普胡子门前睡卧。普胡子很赏识他，并把女儿许他作妻子。举行婚礼时，普\n胡子无钱约请喜娘和傧相，他便去产婆鲍大嫂和阴阳生苟大哥帮忙，但两人都在言谈中表示要酬劳。婚礼后，\n却被普胡子一番巧辩，原许的一两七钱银子给了一两漆。结果弄得苟阴阳空手而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 219,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "一家门": 1
+      },
+      "characters": {
+        "鲍大嫂": 1,
+        "苟阴阳": 1,
+        "朱元璋": 1,
+        "普胡子": 1
+      },
+      "links": [
+        {
+          "source": "普胡子",
+          "target": "朱元璋",
+          "value": 1
+        },
+        {
+          "source": "朱元璋",
+          "target": "鲍大嫂",
+          "value": 1
+        },
+        {
+          "source": "朱元璋",
+          "target": "苟阴阳",
+          "value": 1
+        },
+        {
+          "source": "普胡子",
+          "target": "鲍大嫂",
+          "value": 1
+        },
+        {
+          "source": "普胡子",
+          "target": "苟阴阳",
+          "value": 1
+        },
+        {
+          "source": "苟阴阳",
+          "target": "鲍大嫂",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "一家门",
+      "characters": [
+        {
+          "name": "朱元璋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "投亲不遇转回程，",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "普胡子",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "人逢喜事精神爽，",
+          "rating": 0.2,
+          "role": "丑"
+        },
+        {
+          "name": "鲍大嫂",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "苟阴阳",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "嗳！",
+          "rating": 0.231,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：4位角色，219行",
+      "firstLine": 1,
+      "lastLine": 219,
+      "numLines": 219,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.116,
+        "sentiment": 0.277
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "普胡子",
+      "short": "普胡",
+      "key": "普胡子",
+      "quote": "普胡子 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "鲍大嫂",
+      "short": "鲍大",
+      "key": "鲍大嫂",
+      "quote": "鲍大嫂 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "苟阴阳",
+      "short": "苟阴",
+      "key": "苟阴阳",
+      "quote": "苟阴阳 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "朱元璋",
+      "short": "朱元",
+      "key": "朱元璋",
+      "quote": "朱元璋 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "一家门",
+      "key": "一家门",
+      "quote": "场景发生在一家门"
+    }
+  ]
+}

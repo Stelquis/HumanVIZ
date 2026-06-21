@@ -1,0 +1,261 @@
+{
+  "title": "平贵别窑",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 2,
+  "source_file": "03021005_平贵别窑.json",
+  "source_folder": "03000000",
+  "plot_summary": "薛平贵婚后，因降服红鬃烈马，受封为后军督府；王允参奏，降为先行，使隶于次婿魏虎麾下，且遣其远征\n西凉。薛平贵归家，忍痛与王宝钏分别。",
+  "performance_notes": "为全部《王宝钏》之第五折。全部《王宝钏》共十三个剧目，除《武家坡》、《大登殿》两折，其余大部均\n不常见于舞台。有些单出戏经过历次舞台实践得到发展。经串连后，不免有词句重复、情节欠统一之处。本\n集为了存真，一律未予更动。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 19,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.292,
+      "locations": {
+        "高搭彩楼": 1
+      },
+      "characters": {
+        "薛平贵": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.077,
+      "locations": {
+        "高搭彩楼": 1
+      },
+      "characters": {
+        "中军": 1,
+        "薛平贵": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "薛平贵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 171,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "俺后军督府": 1
+      },
+      "characters": {
+        "中军": 1,
+        "薛平贵": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "王宝钏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "高搭彩楼",
+      "characters": [
+        {
+          "name": "王宝钏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "闷坐寒窑，终日里，愁锁眉梢。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "薛平贵",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：2位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.758,
+        "conflict": 0.0,
+        "sentiment": 0.072
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "高搭彩楼",
+      "characters": [
+        {
+          "name": "中军",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "龙虎台前出入，貔貅帐内传宣。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛平贵",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.515,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "俺后军督府",
+      "characters": [
+        {
+          "name": "薛平贵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "头戴金盔风翅飘，身穿铠甲放光豪。红沙涧内降妖马，扶保唐王立功劳。",
+          "rating": -0.286,
+          "role": "小生"
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": -0.273,
+          "role": "旦"
+        },
+        {
+          "name": "中军",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "薛平贵听令！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，171行",
+      "firstLine": 1,
+      "lastLine": 171,
+      "numLines": 171,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.337,
+        "sentiment": 0.04
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛平贵",
+      "short": "薛平",
+      "key": "薛平贵",
+      "quote": "薛平贵 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "高搭彩楼",
+      "key": "高搭彩楼",
+      "quote": "场景发生在高搭彩楼"
+    },
+    {
+      "name": "俺后军督府",
+      "key": "俺后军督府",
+      "quote": "场景发生在俺后军督府"
+    }
+  ]
+}

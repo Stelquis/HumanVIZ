@@ -1,0 +1,401 @@
+{
+  "title": "目莲记",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 2,
+  "source_file": "02007033_目莲记【六本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "傅罗卜目莲僧一心向佛，所以不怕跋涉高山沙漠，冒险而行，前往西天拜佛求经；原想修成正果，好到地狱\n中去超度母亲。这时文殊菩萨变一美女来试验他，目莲绝不动心，宁可在荒野之中过夜；虽遇猛虎，也不惧\n怕。就此一点诚心，终得达到西天。后来修道已成，特地走入地狱中，探望其母。母子既然会见，悲喜交集，\n刘氏将她所受痛苦，哭诉一番，教目莲救拔她出地狱。但是那些看守鬼卒不放，目莲施行佛法，终将刘氏\n救出。刘氏经这一番痛苦，才诚心诚意，修行信佛，后来也成正果。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 25,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.258,
+      "locations": {
+        "同登莲台殿": 1
+      },
+      "characters": {
+        "文殊大士": 1,
+        "四云童": 1
+      },
+      "links": [
+        {
+          "source": "四云童",
+          "target": "文殊大士",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.124,
+      "locations": {
+        "同登莲台殿": 1
+      },
+      "characters": {
+        "目莲僧": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 23,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.238,
+      "locations": {
+        "同登莲台殿": 1
+      },
+      "characters": {
+        "文殊大士": 1,
+        "妇人": 1,
+        "四云童": 1
+      },
+      "links": [
+        {
+          "source": "妇人",
+          "target": "文殊大士",
+          "value": 1
+        },
+        {
+          "source": "四云童",
+          "target": "文殊大士",
+          "value": 1
+        },
+        {
+          "source": "四云童",
+          "target": "妇人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 327,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "同登莲台殿": 1
+      },
+      "characters": {
+        "四云童": 1,
+        "韦陀": 1,
+        "文殊大士": 1,
+        "目莲僧": 1,
+        "妇人": 1
+      },
+      "links": [
+        {
+          "source": "妇人",
+          "target": "目莲僧",
+          "value": 1
+        },
+        {
+          "source": "目莲僧",
+          "target": "韦陀",
+          "value": 1
+        },
+        {
+          "source": "文殊大士",
+          "target": "目莲僧",
+          "value": 1
+        },
+        {
+          "source": "四云童",
+          "target": "目莲僧",
+          "value": 1
+        },
+        {
+          "source": "妇人",
+          "target": "韦陀",
+          "value": 1
+        },
+        {
+          "source": "妇人",
+          "target": "文殊大士",
+          "value": 1
+        },
+        {
+          "source": "四云童",
+          "target": "妇人",
+          "value": 1
+        },
+        {
+          "source": "文殊大士",
+          "target": "韦陀",
+          "value": 1
+        },
+        {
+          "source": "四云童",
+          "target": "韦陀",
+          "value": 1
+        },
+        {
+          "source": "四云童",
+          "target": "文殊大士",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "同登莲台殿",
+      "characters": [
+        {
+          "name": "文殊大士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "佛法无边，祥光普现，莲花遍，四海云烟，同登莲台殿。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四云童",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.339,
+        "conflict": 0.488,
+        "sentiment": 0.218
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "同登莲台殿",
+      "characters": [
+        {
+          "name": "目莲僧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "阿弥陀佛！",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：1位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.569,
+        "conflict": 0.0,
+        "sentiment": 0.453
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "同登莲台殿",
+      "characters": [
+        {
+          "name": "文殊大士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "催动了瑞祥云用目观看，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "妇人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "变一个凡妇女站立山边。",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "四云童",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.536,
+        "conflict": 0.0,
+        "sentiment": 0.807
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "同登莲台殿",
+      "characters": [
+        {
+          "name": "目莲僧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "走吓！",
+          "rating": 0.4,
+          "role": "小生"
+        },
+        {
+          "name": "妇人",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "韦陀",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "无摩无摩大士尊。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "文殊大士",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "目莲，你且抬头观看，听吾神吩咐。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四云童",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "有。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：5位角色，327行",
+      "firstLine": 1,
+      "lastLine": 327,
+      "numLines": 327,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.237,
+        "sentiment": 0.226
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "目莲僧",
+      "short": "目莲",
+      "key": "目莲僧",
+      "quote": "目莲僧 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "妇人",
+      "short": "妇人",
+      "key": "妇人",
+      "quote": "妇人 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "四云童",
+      "short": "四云",
+      "key": "四云童",
+      "quote": "四云童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "韦陀",
+      "short": "韦陀",
+      "key": "韦陀",
+      "quote": "韦陀 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "文殊大士",
+      "short": "文殊",
+      "key": "文殊大士",
+      "quote": "文殊大士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "同登莲台殿",
+      "key": "同登莲台殿",
+      "quote": "场景发生在同登莲台殿"
+    },
+    {
+      "name": "大士上高台",
+      "key": "大士上高台",
+      "quote": "场景发生在大士上高台"
+    }
+  ]
+}

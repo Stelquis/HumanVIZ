@@ -1,0 +1,424 @@
+{
+  "title": "排王赞",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 7,
+  "num_locations": 3,
+  "source_file": "70005115_排王赞.json",
+  "source_folder": "70005000",
+  "plot_summary": "明末，李闯兵围京城，破在旦夕。崇祯帝击钟急召众臣，满朝文武只有李国桢、杜文亨二将应召。崇祯亲自\n去请国丈周奎，被门官以欢宴无暇为由，挡辞而回。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 139,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "日月照三台": 1
+      },
+      "characters": {
+        "崇祯": 1,
+        "王承恩": 1
+      },
+      "links": [
+        {
+          "source": "崇祯",
+          "target": "王承恩",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 58,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.63,
+      "locations": {
+        "日月照三台": 1
+      },
+      "characters": {
+        "崇祯": 1,
+        "周后": 1,
+        "王承恩": 1
+      },
+      "links": [
+        {
+          "source": "周后",
+          "target": "崇祯",
+          "value": 1
+        },
+        {
+          "source": "周后",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "崇祯",
+          "target": "王承恩",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 79,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.859,
+      "locations": {
+        "日月照三台": 1
+      },
+      "characters": {
+        "王承恩": 1,
+        "门官": 1,
+        "崇祯": 1,
+        "杜文亨": 1,
+        "防守官": 1,
+        "李国桢": 1
+      },
+      "links": [
+        {
+          "source": "崇祯",
+          "target": "防守官",
+          "value": 1
+        },
+        {
+          "source": "崇祯",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "崇祯",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "崇祯",
+          "target": "李国桢",
+          "value": 1
+        },
+        {
+          "source": "崇祯",
+          "target": "杜文亨",
+          "value": 1
+        },
+        {
+          "source": "王承恩",
+          "target": "防守官",
+          "value": 1
+        },
+        {
+          "source": "门官",
+          "target": "防守官",
+          "value": 1
+        },
+        {
+          "source": "李国桢",
+          "target": "防守官",
+          "value": 1
+        },
+        {
+          "source": "杜文亨",
+          "target": "防守官",
+          "value": 1
+        },
+        {
+          "source": "王承恩",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "李国桢",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "杜文亨",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "李国桢",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "杜文亨",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "李国桢",
+          "target": "杜文亨",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "日月照三台",
+      "characters": [
+        {
+          "name": "崇祯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "美女双双执扇开，明明日月照三台。五鼓三点登金殿，悠悠闪出帝王来。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "王承恩",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第一场：2位角色，139行",
+      "firstLine": 1,
+      "lastLine": 139,
+      "numLines": 139,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.8,
+        "conflict": 0.537,
+        "sentiment": 0.508
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "日月照三台",
+      "characters": [
+        {
+          "name": "周后",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "提起国事闷悠悠，",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "崇祯",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "寡人看罢《排王赞》，",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "王承恩",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "受国恩不乏栋梁臣，",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第二场：3位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.69,
+        "sentiment": 0.207
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "日月照三台",
+      "characters": [
+        {
+          "name": "崇祯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "出禁门谯楼咚咚振耳轮，",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "防守官",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "什么人！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王承恩",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "你等哑言！这是万岁！",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "门官",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "什么人这等敲门打户的！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "李国桢",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "奉旨尽忠守帝京，",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "杜文亨",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "提督军镇守九门，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：6位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.476,
+        "sentiment": 0.264
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "崇祯",
+      "short": "崇祯",
+      "key": "崇祯",
+      "quote": "崇祯 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王承恩",
+      "short": "王承",
+      "key": "王承恩",
+      "quote": "王承恩 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周后",
+      "short": "周后",
+      "key": "周后",
+      "quote": "周后 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "门官",
+      "short": "门官",
+      "key": "门官",
+      "quote": "门官 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "李国桢",
+      "short": "李国",
+      "key": "李国桢",
+      "quote": "李国桢 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杜文亨",
+      "short": "杜文",
+      "key": "杜文亨",
+      "quote": "杜文亨 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "防守官",
+      "short": "防守",
+      "key": "防守官",
+      "quote": "防守官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "日月照三台",
+      "key": "日月照三台",
+      "quote": "场景发生在日月照三台"
+    },
+    {
+      "name": "三点登金殿",
+      "key": "三点登金殿",
+      "quote": "场景发生在三点登金殿"
+    },
+    {
+      "name": "闯困了京城",
+      "key": "闯困了京城",
+      "quote": "场景发生在闯困了京城"
+    }
+  ]
+}

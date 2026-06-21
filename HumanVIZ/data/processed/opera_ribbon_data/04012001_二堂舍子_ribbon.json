@@ -1,0 +1,525 @@
+{
+  "title": "二堂舍子",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "04012001_二堂舍子.json",
+  "source_folder": "04000000",
+  "plot_summary": "相传罗州知州刘彦昌曾与华山三圣母结亲，生子沉香。三圣母被二郎神押在华山之下。刘彦昌在京都得中状\n元时，娶王桂英为妻，生子秋儿。沉香、秋儿弟兄同在学中读书，失手打死告老太师秦灿之子秦官保，回家\n后各以伤人自承。王桂英虽然更疼爱自己亲生的秋儿，但最后还是忍痛舍弃秋儿，放走沉香。沉香出走之后，\n终于劈山救母。",
+  "performance_notes": "《二堂舍子》是神话传说《宝莲灯》（《劈山救母》）故事里的一节。在京剧舞台上，多年来一直是作为一\n个独立剧目流行着。这个剧本是由北京戏曲实验学校贯大元、程玉菁、于玉蘅与本院（中国戏曲研究院）编\n辑处陶君起共同整理的。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 352,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.232,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "刘彦昌": 1,
+        "秋儿": 1,
+        "王桂英": 1,
+        "沉香": 1
+      },
+      "links": [
+        {
+          "source": "刘彦昌",
+          "target": "秋儿",
+          "value": 2
+        },
+        {
+          "source": "刘彦昌",
+          "target": "沉香",
+          "value": 2
+        },
+        {
+          "source": "刘彦昌",
+          "target": "王桂英",
+          "value": 3
+        },
+        {
+          "source": "沉香",
+          "target": "秋儿",
+          "value": 1
+        },
+        {
+          "source": "王桂英",
+          "target": "秋儿",
+          "value": 2
+        },
+        {
+          "source": "沉香",
+          "target": "王桂英",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 62,
+      "summary": "第4场；第5场；第6场",
+      "conflict": 0.666,
+      "importance": 0.43,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "沉香": 1,
+        "刘彦昌": 1,
+        "秋儿": 1,
+        "王桂英": 1
+      },
+      "links": [
+        {
+          "source": "刘彦昌",
+          "target": "王桂英",
+          "value": 3
+        },
+        {
+          "source": "沉香",
+          "target": "王桂英",
+          "value": 2
+        },
+        {
+          "source": "刘彦昌",
+          "target": "沉香",
+          "value": 2
+        },
+        {
+          "source": "刘彦昌",
+          "target": "秋儿",
+          "value": 1
+        },
+        {
+          "source": "沉香",
+          "target": "秋儿",
+          "value": 1
+        },
+        {
+          "source": "王桂英",
+          "target": "秋儿",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 19,
+      "summary": "第7场",
+      "conflict": 0.0,
+      "importance": 0.132,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "沉香": 1,
+        "刘彦昌": 1,
+        "王桂英": 1
+      },
+      "links": [
+        {
+          "source": "刘彦昌",
+          "target": "王桂英",
+          "value": 1
+        },
+        {
+          "source": "刘彦昌",
+          "target": "沉香",
+          "value": 1
+        },
+        {
+          "source": "沉香",
+          "target": "王桂英",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘彦昌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "身为罗州正印，与民判断冤情。⑴",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "秋儿",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "爹爹呀……",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "沉香",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "是孩儿打死的。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "王桂英",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "二姣儿在堂前一声请，⑵",
+          "rating": -0.6,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：4位角色，132行",
+      "firstLine": 1,
+      "lastLine": 132,
+      "numLines": 132,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.883,
+        "conflict": 0.216,
+        "sentiment": 0.018
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王桂英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呀！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "沉香",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "是孩儿打死的。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "刘彦昌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "啊夫人，你打的是哪一个？",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：3位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.728,
+        "conflict": 0.417,
+        "sentiment": 0.185
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王桂英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呀！",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "秋儿",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "是孩儿打死的。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "刘彦昌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊夫人，这就是你的不是了！",
+          "rating": -0.25,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：3位角色，200行",
+      "firstLine": 1,
+      "lastLine": 200,
+      "numLines": 200,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.977,
+        "conflict": 0.166,
+        "sentiment": -0.047
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王桂英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哪里的人马闹喧声？",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "刘彦昌",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "想必是秦府的家丁！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第4场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.71,
+        "conflict": 0.0,
+        "sentiment": 0.177
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王桂英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "老爷，沉香呢？",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "刘彦昌",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "逃走了。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "沉香",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "母亲有何吩咐？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第5场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.0,
+        "sentiment": -0.489
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘彦昌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "儿啊！记下了！",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "沉香",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "有何为证？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "王桂英",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "姣儿为何你不逃生？",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "秋儿",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "喂呀！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第6场：4位角色，43行",
+      "firstLine": 1,
+      "lastLine": 43,
+      "numLines": 43,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.76,
+        "conflict": 0.204,
+        "sentiment": -0.111
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘彦昌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "左难右难难坏了我，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "王桂英",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "后堂内来了我王桂英。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "沉香",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "亲什么？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第7场：3位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.726,
+        "conflict": 0.0,
+        "sentiment": 0.4
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘彦昌",
+      "short": "刘彦",
+      "key": "刘彦昌",
+      "quote": "刘彦昌 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王桂英",
+      "short": "王桂",
+      "key": "王桂英",
+      "quote": "王桂英 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "秋儿",
+      "short": "秋儿",
+      "key": "秋儿",
+      "quote": "秋儿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "沉香",
+      "short": "沉香",
+      "key": "沉香",
+      "quote": "沉香 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "title": "别宫祭江",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "80000012_别宫祭江.json",
+  "source_folder": "80000000",
+  "plot_summary": "三国，东吴孙权之妹孙尚香惊闻夫君刘备晏驾白帝城，欲赴西川奔丧吊祭。孙权则拟趁妹入川奔丧之际，以\n派兵护送为名暗袭西川。事为孙尚香识破，怨恨兄长多次将自己作为其成王霸业的诱饵。为免吴蜀两地生灵\n惨遭涂炭，乃进宫辞别母后，藉口前往江边祭奠。奠毕，投江自尽，以死来挫败孙权的诡计。",
+  "performance_notes": "《别皇宫》（一名《别宫》）和《祭江》（一名《祭长江》）是两个剧情相连而又可以单独演出的剧目。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 57,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.514,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙尚香": 1,
+        "孙权": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "孙尚香",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "孙权",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 165,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "吴国太": 1,
+        "吴国大": 1,
+        "孙权": 1,
+        "孙尚香": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "吴国太",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "吴国大",
+          "target": "吴国太",
+          "value": 1
+        },
+        {
+          "source": "吴国太",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "吴国太",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "吴国大",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "孙尚香",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "吴国大",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "吴国大",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "孙权",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙尚香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吴蜀两地，动刀兵，何日太平？",
+          "rating": 0.0,
+          "role": "正旦"
+        },
+        {
+          "name": "孙权",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "袖内机关安排定，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "奴婢参见郡主。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，57行",
+      "firstLine": 1,
+      "lastLine": 57,
+      "numLines": 57,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.798,
+        "conflict": 0.645,
+        "sentiment": 0.183
+      }
+    },
+    {
+      "number": 2,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "吴国太",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一日清闲一日安，",
+          "rating": -0.143,
+          "role": "老旦"
+        },
+        {
+          "name": "孙尚香",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "可叹皇叔把驾晏，",
+          "rating": 0.111,
+          "role": "正旦"
+        },
+        {
+          "name": "吴国大",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我儿休要将娘怨，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大太监",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "奴婢在。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "孙权",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：5位角色，165行",
+      "firstLine": 1,
+      "lastLine": 165,
+      "numLines": 165,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.258,
+        "sentiment": 0.168
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙尚香",
+      "short": "孙尚",
+      "key": "孙尚香",
+      "quote": "孙尚香 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "吴国太",
+      "short": "吴国",
+      "key": "吴国太",
+      "quote": "吴国太 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "孙权",
+      "short": "孙权",
+      "key": "孙权",
+      "quote": "孙权 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "吴国大",
+      "short": "吴国",
+      "key": "吴国大",
+      "quote": "吴国大 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

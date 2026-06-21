@@ -1,0 +1,261 @@
+{
+  "title": "红娘",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "90000004_红娘.json",
+  "source_folder": "90000000",
+  "plot_summary": "崔夫人悔约，令张珙与崔莺莺改为兄妹相称。张珙求计于红娘，红娘使赋诗写意。张珙跳墙夜见莺莺，崔莺\n莺责之。张珙忧愤致病，红娘忽引崔莺莺至，二人订情。",
+  "performance_notes": "此为传柬、佳期两场。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 98,
+      "summary": "传柬",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "路过河中府": 1
+      },
+      "characters": {
+        "张珙": 1,
+        "崔莺莺": 1,
+        "红娘": 1
+      },
+      "links": [
+        {
+          "source": "崔莺莺",
+          "target": "红娘",
+          "value": 1
+        },
+        {
+          "source": "崔莺莺",
+          "target": "张珙",
+          "value": 1
+        },
+        {
+          "source": "张珙",
+          "target": "红娘",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 38,
+      "summary": "佳期",
+      "conflict": 0.0,
+      "importance": 0.559,
+      "locations": {
+        "路过河中府": 1
+      },
+      "characters": {
+        "张珙": 1,
+        "崔莺莺": 1,
+        "红娘": 1,
+        "琴童": 1
+      },
+      "links": [
+        {
+          "source": "崔莺莺",
+          "target": "红娘",
+          "value": 1
+        },
+        {
+          "source": "崔莺莺",
+          "target": "张珙",
+          "value": 1
+        },
+        {
+          "source": "崔莺莺",
+          "target": "琴童",
+          "value": 1
+        },
+        {
+          "source": "张珙",
+          "target": "红娘",
+          "value": 1
+        },
+        {
+          "source": "琴童",
+          "target": "红娘",
+          "value": 1
+        },
+        {
+          "source": "张珙",
+          "target": "琴童",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "传柬",
+      "location": "路过河中府",
+      "characters": [
+        {
+          "name": "崔莺莺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "无端的月不圆好事难成，",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "红娘",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "为了抱不平，替人送书信。",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "张珙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来了！",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "传柬：3位角色，98行",
+      "firstLine": 1,
+      "lastLine": 98,
+      "numLines": 98,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.543,
+        "sentiment": 0.169
+      }
+    },
+    {
+      "number": 2,
+      "name": "佳期",
+      "location": "路过河中府",
+      "characters": [
+        {
+          "name": "崔莺莺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "那夜晚似不该绝人太甚，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "红娘",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "小姐别害羞，男大当婚女大当嫁，谁也免不了这回事的，待我叫他开门来。",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "张珙",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "啊呀，妙啊！",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "琴童",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "我的一成汗还没有出哪！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "佳期：4位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.951,
+        "conflict": 0.328,
+        "sentiment": 0.497
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "红娘",
+      "short": "红娘",
+      "key": "红娘",
+      "quote": "红娘 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "崔莺莺",
+      "short": "崔莺",
+      "key": "崔莺莺",
+      "quote": "崔莺莺 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张珙",
+      "short": "张珙",
+      "key": "张珙",
+      "quote": "张珙 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "琴童",
+      "short": "琴童",
+      "key": "琴童",
+      "quote": "琴童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "路过河中府",
+      "key": "路过河中府",
+      "quote": "场景发生在路过河中府"
+    },
+    {
+      "name": "这普救寺",
+      "key": "这普救寺",
+      "quote": "场景发生在这普救寺"
+    }
+  ]
+}

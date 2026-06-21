@@ -1,0 +1,219 @@
+{
+  "title": "喂药",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01022008_喂药.json",
+  "source_folder": "01000000",
+  "plot_summary": "高俊保与刘金定自双锁山成亲之后，少年夫妇，情致缠绵。二人均投宋营，虽在枪林弹雨之中，互相照应。\n高俊保被妖道余洪用法宝打伤，坠落马下。刘金定奋力救回，已觉神志昏迷，奄奄一息。随营医士，无药可\n施。刘金定本系仙家弟子，道术高深，即书符念咒，请药王降临，以治俊保之病。一服而愈。",
+  "performance_notes": "此剧系《火烧余洪》之前一出。为花旦、小丑之玩笑戏。前在北京，见刘赶三同孟如秋时常串演，以后罗百\n岁、杨小朵亦善于此剧。今几成广陵散矣。唯克秀山与吴彩霞，曾经演过。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 119,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "了十二重楼": 1
+      },
+      "characters": {
+        "高俊保": 1,
+        "刘金定": 1,
+        "药王": 1
+      },
+      "links": [
+        {
+          "source": "刘金定",
+          "target": "高俊保",
+          "value": 1
+        },
+        {
+          "source": "药王",
+          "target": "高俊保",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "药王",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 32,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.424,
+      "locations": {
+        "了十二重楼": 1
+      },
+      "characters": {
+        "高俊保": 1,
+        "刘金定": 1,
+        "药王": 1
+      },
+      "links": [
+        {
+          "source": "刘金定",
+          "target": "高俊保",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "药王",
+          "value": 1
+        },
+        {
+          "source": "药王",
+          "target": "高俊保",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "了十二重楼",
+      "characters": [
+        {
+          "name": "高俊保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "自从那日去出阵，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "后营中来了刘金定，",
+          "rating": -0.5,
+          "role": "贴旦"
+        },
+        {
+          "name": "药王",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "正在洞中要过瘾，",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第1场：3位角色，119行",
+      "firstLine": 1,
+      "lastLine": 119,
+      "numLines": 119,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.519,
+        "sentiment": 0.176
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "了十二重楼",
+      "characters": [
+        {
+          "name": "刘金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我这里将药碗拿在手，",
+          "rating": 1.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "高俊保",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "耳边厢又听得人把话讲，",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "药王",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：3位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.891,
+        "conflict": 0.645,
+        "sentiment": 0.533
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘金定",
+      "short": "刘金",
+      "key": "刘金定",
+      "quote": "刘金定 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "药王",
+      "short": "药王",
+      "key": "药王",
+      "quote": "药王 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "高俊保",
+      "short": "高俊",
+      "key": "高俊保",
+      "quote": "高俊保 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "了十二重楼",
+      "key": "了十二重楼",
+      "quote": "场景发生在了十二重楼"
+    }
+  ]
+}

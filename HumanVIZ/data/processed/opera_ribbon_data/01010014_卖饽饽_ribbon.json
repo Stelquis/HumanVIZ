@@ -1,0 +1,231 @@
+{
+  "title": "卖饽饽",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01010014_卖饽饽.json",
+  "source_folder": "01000000",
+  "plot_summary": "一差一犯，押解发配远行。其罪犯名魏虎，与《算粮登殿》中之魏虎同名，未能考其是一是二。行经中途歇\n息，途旁有一妇人设一小摊，售卖饽饽馒头，犯人正饥火中烧，遂将大嚼，继而因索钱钞，彼此调笑打诨，\n差役亦同与取乐，令妇人唱歌数折而散。",
+  "performance_notes": "《卖饽饽》为京剧中用吹腔之难剧，亦系打诨戏。初无情节可取。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 90,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.497,
+      "locations": {
+        "了虎头门": 1
+      },
+      "characters": {
+        "差役": 1,
+        "魏虎": 1,
+        "禁子": 1
+      },
+      "links": [
+        {
+          "source": "差役",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "差役",
+          "target": "魏虎",
+          "value": 1
+        },
+        {
+          "source": "禁子",
+          "target": "魏虎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 272,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "了虎头门": 1
+      },
+      "characters": {
+        "差役": 1,
+        "魏虎": 1,
+        "王氏": 1
+      },
+      "links": [
+        {
+          "source": "王氏",
+          "target": "魏虎",
+          "value": 1
+        },
+        {
+          "source": "差役",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "差役",
+          "target": "魏虎",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "了虎头门",
+      "characters": [
+        {
+          "name": "差役",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "手拿无情棍，单打犯罪人。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "禁子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "又来坐监的了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "魏虎",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "无缘无故坐监牢，但不知何日里才得脱逃。",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：3位角色，90行",
+      "firstLine": 1,
+      "lastLine": 90,
+      "numLines": 90,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.79,
+        "conflict": 0.264,
+        "sentiment": 0.163
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "了虎头门",
+      "characters": [
+        {
+          "name": "王氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "家无生和计，吃尽斗量金。",
+          "rating": 0.333,
+          "role": "花旦"
+        },
+        {
+          "name": "魏虎",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "急急走来莫消停，",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "差役",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "起来走，起来走。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：3位角色，272行",
+      "firstLine": 1,
+      "lastLine": 272,
+      "numLines": 272,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.056,
+        "sentiment": 0.158
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "差役",
+      "short": "差役",
+      "key": "差役",
+      "quote": "差役 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "魏虎",
+      "short": "魏虎",
+      "key": "魏虎",
+      "quote": "魏虎 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "王氏",
+      "short": "王氏",
+      "key": "王氏",
+      "quote": "王氏 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "禁子",
+      "short": "禁子",
+      "key": "禁子",
+      "quote": "禁子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "了虎头门",
+      "key": "了虎头门",
+      "quote": "场景发生在了虎头门"
+    }
+  ]
+}

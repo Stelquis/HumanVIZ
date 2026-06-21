@@ -1,0 +1,621 @@
+{
+  "title": "锁云囊",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "01010010_锁云囊.json",
+  "source_folder": "01000000",
+  "plot_summary": "按剧中事迹，乃一朱氏女，本名门闺秀，姿首幽娴，忽为强梁花光讹诈，欲强配成婚。母女二人，伶仃孤苦，\n无计可施。忽夜间一女盗自屋上跳入，说明来由，将彼母女救出，寄至伊兄家中安顿。己则代其遣嫁，交\n拜成婚，至夜间将花灌醉，设法逃出。卒能将朱氏母女保全他往，未被奸占，是亦旧时说部中，一段好关目\n也。",
+  "performance_notes": "《锁云囊》情节，系一义侠女盗，救困扶难之事。其女盗出场，大致与《新安驿》仿佛，惟事实不同。此剧\n四盏灯前每演唱。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 11,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.23,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "梅花娘": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 89,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "梁上君": 1,
+        "朱小姐": 1,
+        "朱院": 1,
+        "花院": 1,
+        "梅花娘": 1,
+        "朱母": 1
+      },
+      "links": [
+        {
+          "source": "朱小姐",
+          "target": "朱母",
+          "value": 1
+        },
+        {
+          "source": "朱小姐",
+          "target": "梅花娘",
+          "value": 1
+        },
+        {
+          "source": "朱小姐",
+          "target": "花院",
+          "value": 1
+        },
+        {
+          "source": "朱小姐",
+          "target": "朱院",
+          "value": 1
+        },
+        {
+          "source": "朱小姐",
+          "target": "梁上君",
+          "value": 1
+        },
+        {
+          "source": "朱母",
+          "target": "梅花娘",
+          "value": 1
+        },
+        {
+          "source": "朱母",
+          "target": "花院",
+          "value": 1
+        },
+        {
+          "source": "朱母",
+          "target": "朱院",
+          "value": 1
+        },
+        {
+          "source": "朱母",
+          "target": "梁上君",
+          "value": 1
+        },
+        {
+          "source": "梅花娘",
+          "target": "花院",
+          "value": 1
+        },
+        {
+          "source": "朱院",
+          "target": "梅花娘",
+          "value": 1
+        },
+        {
+          "source": "梁上君",
+          "target": "梅花娘",
+          "value": 1
+        },
+        {
+          "source": "朱院",
+          "target": "花院",
+          "value": 1
+        },
+        {
+          "source": "梁上君",
+          "target": "花院",
+          "value": 1
+        },
+        {
+          "source": "朱院",
+          "target": "梁上君",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 52,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "花院": 1,
+        "众人": 1,
+        "花光": 1,
+        "四下手": 1,
+        "梅花娘": 1
+      },
+      "links": [
+        {
+          "source": "花光",
+          "target": "花院",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "花光",
+          "value": 1
+        },
+        {
+          "source": "梅花娘",
+          "target": "花光",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "花光",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "花院",
+          "value": 1
+        },
+        {
+          "source": "梅花娘",
+          "target": "花院",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "花院",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "梅花娘",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "四下手",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "梅花娘",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 39,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 0.817,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "梁上君": 1,
+        "梅公子": 1,
+        "众人": 1,
+        "梅花娘": 1,
+        "朱母": 1
+      },
+      "links": [
+        {
+          "source": "梁上君",
+          "target": "梅花娘",
+          "value": 1
+        },
+        {
+          "source": "朱母",
+          "target": "梅花娘",
+          "value": 1
+        },
+        {
+          "source": "梅公子",
+          "target": "梅花娘",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "梅花娘",
+          "value": 1
+        },
+        {
+          "source": "朱母",
+          "target": "梁上君",
+          "value": 1
+        },
+        {
+          "source": "梁上君",
+          "target": "梅公子",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "梁上君",
+          "value": 1
+        },
+        {
+          "source": "朱母",
+          "target": "梅公子",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "朱母",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "梅公子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "梅花娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我本侠义女佳人，终朝每晚盗金银，乔妆打扮人难解，叫人惊怕魂落身。",
+          "rating": 1.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第一场：1位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.544,
+        "conflict": 1.0,
+        "sentiment": 0.863
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "朱小姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "闺阁窈窕国色倾，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "朱母",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "哭得老身珠泪淋，",
+          "rating": 0.333,
+          "role": "老旦"
+        },
+        {
+          "name": "梅花娘",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "咱不是鬼。",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "花院",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "朱院",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "我家小姐，有包裹一个，不许开看。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "梁上君",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "是谁吓？",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：6位角色，89行",
+      "firstLine": 1,
+      "lastLine": 89,
+      "numLines": 89,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.386,
+        "sentiment": 0.184
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "花光",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "两朵金花插两旁，今日打扮做新郎。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "花院",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "大爷，花轿到了，宝贝也来了。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "恭喜大爷！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "梅花娘",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "相公欲看此宝，须要取枝御香。",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "拿强盗！拿强盗！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，52行",
+      "firstLine": 1,
+      "lastLine": 52,
+      "numLines": 52,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.733,
+        "conflict": 0.323,
+        "sentiment": 0.78
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "梅花娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "开门来。",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "梁上君",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "谁吓？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "朱母",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "大娘回来了？",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "梅公子",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "姐姐何事？",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "众人",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "请。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：5位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.812,
+        "conflict": 0.408,
+        "sentiment": 0.521
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "梅花娘",
+      "short": "梅花",
+      "key": "梅花娘",
+      "quote": "梅花娘 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "朱母",
+      "short": "朱母",
+      "key": "朱母",
+      "quote": "朱母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "朱小姐",
+      "short": "朱小",
+      "key": "朱小姐",
+      "quote": "朱小姐 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "梅公子",
+      "short": "梅公",
+      "key": "梅公子",
+      "quote": "梅公子 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "梁上君",
+      "short": "梁上",
+      "key": "梁上君",
+      "quote": "梁上君 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "朱院",
+      "short": "朱院",
+      "key": "朱院",
+      "quote": "朱院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "花院",
+      "short": "花院",
+      "key": "花院",
+      "quote": "花院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "花光",
+      "short": "花光",
+      "key": "花光",
+      "quote": "花光 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

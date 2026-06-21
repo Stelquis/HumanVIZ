@@ -1,0 +1,956 @@
+{
+  "title": "流沙河",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 10,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "03099002_流沙河.json",
+  "source_folder": "03000000",
+  "plot_summary": "玉帝侍卫卷帘大将，因在蟠桃会上打破玻璃盏，谪降流沙河。曾奉南海观音法谕：日后唐僧往西天取经，应\n皈依佛法，以赎前愆。唐三藏率徒至流沙河，水宽难渡。卷帘大将与猪八戒、孙悟空屡斗不胜，潜匿水底，\n使唐三藏等无法渡河。孙悟空往见观音菩萨，差遣天将收服，并赐法名沙悟净，保护唐三藏西行。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 76,
+      "summary": "第一场；第二场",
+      "conflict": 0.806,
+      "importance": 1.0,
+      "locations": {
+        "急回水府": 2
+      },
+      "characters": {
+        "孙悟空": 1,
+        "唐僧": 1,
+        "猪八戒": 1,
+        "八水卒": 1,
+        "沙僧": 1
+      },
+      "links": [
+        {
+          "source": "八水卒",
+          "target": "沙僧",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "沙僧",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "沙僧",
+          "value": 1
+        },
+        {
+          "source": "沙僧",
+          "target": "猪八戒",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 44,
+      "summary": "第三场；第四场",
+      "conflict": 0.261,
+      "importance": 0.728,
+      "locations": {
+        "急回水府": 2
+      },
+      "characters": {
+        "孙悟空": 1,
+        "猪八戒": 1,
+        "八水卒": 1,
+        "沙僧": 1,
+        "小妖": 1
+      },
+      "links": [
+        {
+          "source": "孙悟空",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "沙僧",
+          "target": "猪八戒",
+          "value": 2
+        },
+        {
+          "source": "孙悟空",
+          "target": "沙僧",
+          "value": 1
+        },
+        {
+          "source": "小妖",
+          "target": "沙僧",
+          "value": 1
+        },
+        {
+          "source": "八水卒",
+          "target": "沙僧",
+          "value": 1
+        },
+        {
+          "source": "八水卒",
+          "target": "小妖",
+          "value": 1
+        },
+        {
+          "source": "小妖",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "八水卒",
+          "target": "猪八戒",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 15,
+      "summary": "第五场；第六场",
+      "conflict": 0.24,
+      "importance": 0.248,
+      "locations": {
+        "急回水府": 2
+      },
+      "characters": {
+        "孙悟空": 1,
+        "八水卒": 1,
+        "沙僧": 1,
+        "猪八戒": 1
+      },
+      "links": [
+        {
+          "source": "孙悟空",
+          "target": "沙僧",
+          "value": 1
+        },
+        {
+          "source": "八水卒",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪八戒",
+          "value": 2
+        },
+        {
+          "source": "八水卒",
+          "target": "沙僧",
+          "value": 1
+        },
+        {
+          "source": "沙僧",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "八水卒",
+          "target": "猪八戒",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 105,
+      "summary": "第七场；第八场",
+      "conflict": 0.05,
+      "importance": 1.0,
+      "locations": {
+        "急回水府": 2
+      },
+      "characters": {
+        "木吒": 1,
+        "孙悟空": 1,
+        "唐僧": 1,
+        "猪八戒": 1,
+        "灵官": 1,
+        "龙女": 1,
+        "观音菩萨": 1
+      },
+      "links": [
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 2
+        },
+        {
+          "source": "唐僧",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "观音菩萨",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "灵官",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "木吒",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "龙女",
+          "value": 1
+        },
+        {
+          "source": "灵官",
+          "target": "观音菩萨",
+          "value": 1
+        },
+        {
+          "source": "木吒",
+          "target": "观音菩萨",
+          "value": 1
+        },
+        {
+          "source": "观音菩萨",
+          "target": "龙女",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "观音菩萨",
+          "value": 1
+        },
+        {
+          "source": "木吒",
+          "target": "灵官",
+          "value": 1
+        },
+        {
+          "source": "灵官",
+          "target": "龙女",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "灵官",
+          "value": 1
+        },
+        {
+          "source": "木吒",
+          "target": "龙女",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "木吒",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "龙女",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 62,
+      "summary": "第九场；第十场",
+      "conflict": 0.188,
+      "importance": 1.0,
+      "locations": {
+        "急回水府": 2
+      },
+      "characters": {
+        "木吒": 1,
+        "孙悟空": 1,
+        "唐僧": 1,
+        "猪八戒": 1,
+        "沙僧": 1
+      },
+      "links": [
+        {
+          "source": "木吒",
+          "target": "沙僧",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "木吒",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "木吒",
+          "value": 1
+        },
+        {
+          "source": "木吒",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "沙僧",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "沙僧",
+          "value": 1
+        },
+        {
+          "source": "沙僧",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "猪八戒",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "急回水府",
+      "characters": [
+        {
+          "name": "八水卒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "沙僧",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "洋洋光侵，皓月当空，波浪涌，神鬼皆惊！四海俱尊敬。",
+          "rating": -0.333,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.406,
+        "conflict": 0.0,
+        "sentiment": -0.032
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "急回水府",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "只为皈依入佛门，行者道号石猿身；菩萨救我出孽境，愿保师父求真经。",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "果生枝上终须熟，子在胞中岂有珠。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "猴儿哥，你只管放心，此番到了流沙河，我老猪会水，就是拖，也把你们爷儿",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "沙僧",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "哈哈，哈哈，啊哈哈哈……",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：4位角色，62行",
+      "firstLine": 1,
+      "lastLine": 62,
+      "numLines": 62,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.946,
+        "conflict": 0.301,
+        "sentiment": 0.774
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "急回水府",
+      "characters": [
+        {
+          "name": "猪八戒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "嘿！我说猴儿哥，谁叫你来的？等我把他诓到高阜之处，你再来帮忙也不晚哪，",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "八戒，休要乱嚷。你再将他引出水来，俺在岸上接应于你就是。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "沙僧",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.535,
+        "conflict": 0.833,
+        "sentiment": -0.406
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "急回水府",
+      "characters": [
+        {
+          "name": "沙僧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "适才山坡去玩耍，",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "小妖",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "八水卒",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "呔！妖怪呀妖怪！你战我弟兄不过，就该将我师徒渡过河去，饶你性命。如若",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：4位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.564,
+        "conflict": 0.984,
+        "sentiment": -0.145
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "急回水府",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "且住！看八戒与那妖怪争斗，虽然不分胜负，终是不能成功。待俺纵起云头，",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "沙僧",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "众水卒，急回水府。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "八水卒",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：4位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.598,
+        "conflict": 1.0,
+        "sentiment": 0.52
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "急回水府",
+      "characters": [
+        {
+          "name": "猪八戒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哟！得！猴儿哥，你看见了没有，他又跳下水去啦！这可怎么好？",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "八戒，你看这妖怪被你我战怕，他不敢出来，你我师徒怎生过去？",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第六场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.378,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "急回水府",
+      "characters": [
+        {
+          "name": "唐僧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "人生颠沛终难免，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "适才与妖来交战，",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "猴儿哥！",
+          "rating": 0.5,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：3位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.635,
+        "conflict": 0.896,
+        "sentiment": 0.607
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "急回水府",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "弟子悟空参见菩萨！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "观音菩萨",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "佛法无边，法轮常转，金身现，世界大千，普度迷津岸。",
+          "rating": 0.6,
+          "role": ""
+        },
+        {
+          "name": "灵官",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "木吒",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "龙女",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "啊！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第八场：6位角色，69行",
+      "firstLine": 1,
+      "lastLine": 69,
+      "numLines": 69,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.841,
+        "conflict": 0.172,
+        "sentiment": 0.557
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "急回水府",
+      "characters": [],
+      "summary": "第九场：0位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.004,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "急回水府",
+      "characters": [
+        {
+          "name": "木吒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "悟净，你今被擒，还不皈依唐僧么？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "沙僧",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哎呀，原来是菩萨派遣来的天兵天将！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "奉命取经文，魔难不离身。",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十场：5位角色，61行",
+      "firstLine": 1,
+      "lastLine": 61,
+      "numLines": 61,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.942,
+        "conflict": 0.0,
+        "sentiment": -0.028
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "沙僧",
+      "short": "沙僧",
+      "key": "沙僧",
+      "quote": "沙僧 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "唐僧",
+      "short": "唐僧",
+      "key": "唐僧",
+      "quote": "唐僧 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "猪八戒",
+      "short": "猪八",
+      "key": "猪八戒",
+      "quote": "猪八戒 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "木吒",
+      "short": "木吒",
+      "key": "木吒",
+      "quote": "木吒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八水卒",
+      "short": "八水",
+      "key": "八水卒",
+      "quote": "八水卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "灵官",
+      "short": "灵官",
+      "key": "灵官",
+      "quote": "灵官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小妖",
+      "short": "小妖",
+      "key": "小妖",
+      "quote": "小妖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙女",
+      "short": "龙女",
+      "key": "龙女",
+      "quote": "龙女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "观音菩萨",
+      "short": "观音",
+      "key": "观音菩萨",
+      "quote": "观音菩萨 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "急回水府",
+      "key": "急回水府",
+      "quote": "场景发生在急回水府"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "title": "打花鼓",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01003016_打花鼓.json",
+  "source_folder": "01000000",
+  "plot_summary": "此剧为一狎邪公子某，途遇凤阳人夫妇，在街演唱花鼓。某见鼓婆略有姿色，遂与百般打诨，既复令至家中，\n某与同唱连相一曲，唱时随手调戏，丑态百出，盖纯乎俗语所谓打扯戏也。",
+  "performance_notes": "此剧本昆曲中之《花鼓》，纯以鲜花小调及诌白身势见长。惟昆剧中某名曹月娥，头幕上有某与女婢朝露，\n在花园调戏，为凤阳人上场锣鼓所惊散一节，京剧中均无。然公子而名月娥，又觉不伦不类，恐《缀白裘》\n中亦不免有误点也。常见夜来香、林步青、马飞珠合演此剧，林马诙谐百出，无一语不令人捧腹，夜伶媚态\n横生，尤足使人心醉。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 350,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "鼓郎": 1,
+        "鼓婆": 1,
+        "公子": 1
+      },
+      "links": [
+        {
+          "source": "鼓婆",
+          "target": "鼓郎",
+          "value": 1
+        },
+        {
+          "source": "公子",
+          "target": "鼓郎",
+          "value": 1
+        },
+        {
+          "source": "公子",
+          "target": "鼓婆",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 63,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.305,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "鼓郎": 1,
+        "鼓婆": 1,
+        "公子": 1
+      },
+      "links": [
+        {
+          "source": "公子",
+          "target": "鼓郎",
+          "value": 1
+        },
+        {
+          "source": "公子",
+          "target": "鼓婆",
+          "value": 1
+        },
+        {
+          "source": "鼓婆",
+          "target": "鼓郎",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "鼓郎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哈哈哈！",
+          "rating": 0.667,
+          "role": "丑"
+        },
+        {
+          "name": "鼓婆",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "身背着花鼓，手提着锣，",
+          "rating": 0.2,
+          "role": "旦"
+        },
+        {
+          "name": "公子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "今日闲暇无事，大街走走，前去玩耍玩耍。",
+          "rating": 0.143,
+          "role": "丑"
+        }
+      ],
+      "summary": "第1场：3位角色，350行",
+      "firstLine": 1,
+      "lastLine": 350,
+      "numLines": 350,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.074,
+        "sentiment": 0.32
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "公子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "苟你。",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "鼓郎",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "也苟你。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "鼓婆",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "怎么说，待我去要。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：3位角色，63行",
+      "firstLine": 1,
+      "lastLine": 63,
+      "numLines": 63,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.837,
+        "conflict": 0.126,
+        "sentiment": 0.21
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "鼓婆",
+      "short": "鼓婆",
+      "key": "鼓婆",
+      "quote": "鼓婆 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "鼓郎",
+      "short": "鼓郎",
+      "key": "鼓郎",
+      "quote": "鼓郎 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "公子",
+      "short": "公子",
+      "key": "公子",
+      "quote": "公子 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

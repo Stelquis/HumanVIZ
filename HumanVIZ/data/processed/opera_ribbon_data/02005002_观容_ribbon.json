@@ -1,0 +1,142 @@
+{
+  "title": "观容",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "02005002_观容.json",
+  "source_folder": "02000000",
+  "plot_summary": "晋时邓伯道之弟邓伯俭早亡，其妻思慕哀悼。特追思其生前形容，画相一幅，悬于堂上，藉供祭祀。并邀其\n兄嫂邓伯道夫妇，共同瞻仰哀悼，恳请邓伯道教养其子寿山（即邓方），以留后代根苗云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 132,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李氏": 1,
+        "邓伯道": 1,
+        "金氏": 1
+      },
+      "links": [
+        {
+          "source": "邓伯道",
+          "target": "金氏",
+          "value": 1
+        },
+        {
+          "source": "李氏",
+          "target": "金氏",
+          "value": 1
+        },
+        {
+          "source": "李氏",
+          "target": "邓伯道",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "金氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "寂寞香闺，为夫君，终朝泪垂。",
+          "rating": 0.111,
+          "role": "正旦"
+        },
+        {
+          "name": "邓伯道",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "弟媳妇，请我二人出来，有何话讲？",
+          "rating": -0.333,
+          "role": "外"
+        },
+        {
+          "name": "李氏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "奈何奈何为兄弟，",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "段落1：3位角色，132行",
+      "firstLine": 1,
+      "lastLine": 132,
+      "numLines": 132,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.092,
+        "sentiment": 0.063
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "金氏",
+      "short": "金氏",
+      "key": "金氏",
+      "quote": "金氏 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "邓伯道",
+      "short": "邓伯",
+      "key": "邓伯道",
+      "quote": "邓伯道 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李氏",
+      "short": "李氏",
+      "key": "李氏",
+      "quote": "李氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

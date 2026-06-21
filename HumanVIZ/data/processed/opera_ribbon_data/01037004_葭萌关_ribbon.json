@@ -1,0 +1,807 @@
+{
+  "title": "葭萌关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 8,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "01037004_葭萌关.json",
+  "source_folder": "01000000",
+  "plot_summary": "考三国时，刘备入蜀，以刘璋庸喑，听信左右，猜防刘备特甚。刘备乃举兵还向，西攻巴渝。刘璋恐甚，乞\n援于张鲁。张鲁命马超率一军东援，与张飞相遇于葭萌，撄城大战。两军旗鼓相当，彼此皆惊为劲敌。连战\n百余合。日暮复纵以夜。马超用铜锤捶击张飞，只从张飞耳边闪过（脚本称用飞抓亦与演义不同）。张飞用\n劲弩回射马超，亦被马超眼快接去，真所谓将遇良才，棋逢对手。交绥数日，终究未分胜负。不过刘备下令，\n明言让马超缓缓退军，似乎张飞稍居上面耳，此戏中则以张军大胜矣。",
+  "performance_notes": "《三国志演义》第六十五回，“马超大战葭萌关”一段，即此戏之出处。陈寿《三国志》正史，《先主传》\n中，所称“先主从璋求万兵，璋但许兵四千。先主大怒，乃勒兵回向，自葭萌还攻璋。”及《桓候传》中，\n所称“飞自渝上合州，定巴西德阳一路。”等语，即包括此葭萌关一役在内。惟史无张飞裸体战马超之事。\n即演义中，亦不过言张飞歇息片时，不用头盔，只裹包巾上马，又出搦战，及至晚间，打起灯球火把夜战云\n云。并无赤身洗马，盔甲为刘备取去等情。此脚本中所云，盖由编戏者之变化，而藉以鼓动人兴味也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 57,
+      "summary": "第一场；第二场",
+      "conflict": 1.181,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "报子": 1,
+        "四白龙套": 1,
+        "四黑龙套": 1,
+        "马超": 1,
+        "张飞": 1,
+        "马岱": 1
+      },
+      "links": [
+        {
+          "source": "马岱",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "四白龙套",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马岱",
+          "value": 2
+        },
+        {
+          "source": "四白龙套",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "四白龙套",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四白龙套",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四黑龙套",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "四黑龙套",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "四黑龙套",
+          "target": "马超",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 63,
+      "summary": "第三场；第四场",
+      "conflict": 0.064,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "刘备": 1,
+        "众人": 1,
+        "二太监": 1,
+        "四黑龙套": 1,
+        "马超": 1,
+        "张飞": 1,
+        "马岱": 1
+      },
+      "links": [
+        {
+          "source": "马岱",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "四黑龙套",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "四黑龙套",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "四黑龙套",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "四黑龙套",
+          "value": 1
+        },
+        {
+          "source": "二太监",
+          "target": "刘备",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 46,
+      "summary": "第五场；第六场",
+      "conflict": 1.261,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "四白龙套": 1,
+        "四黑龙套": 1,
+        "马超": 1,
+        "张飞": 1,
+        "二黑龙套": 1
+      },
+      "links": [
+        {
+          "source": "二黑龙套",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "四黑龙套",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "张飞",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "二黑龙套",
+          "target": "四黑龙套",
+          "value": 1
+        },
+        {
+          "source": "二黑龙套",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "四黑龙套",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "四白龙套",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "四白龙套",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "四白龙套",
+          "target": "四黑龙套",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 16,
+      "summary": "第七场；第八场",
+      "conflict": 0.427,
+      "importance": 0.352,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "四黑龙套": 1,
+        "马超": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "张飞",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "四黑龙套",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "四黑龙套",
+          "target": "马超",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "马岱",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "咳！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "马超",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "威武英豪，胸藏略韬，君恩报，四海名标，扫寇王图樵。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "四白龙套",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "报子",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "报。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：5位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.835,
+        "conflict": 0.202,
+        "sentiment": 0.764
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "身穿铁甲玲珑胄，双双环眼虎豹头。跨下一骑乌骓马，掌中丈八神鬼愁。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "四黑龙套",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马岱",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "呔。马前来的，可是张飞？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "马超",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.753,
+        "conflict": 1.0,
+        "sentiment": -0.417
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "马超",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "眼睹金角起，耳听好消息。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "马岱",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "参见兄长。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "军家胜败，古之常理，下面歇息。",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "众人",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四黑龙套",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "好枪法！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，56行",
+      "firstLine": 1,
+      "lastLine": 56,
+      "numLines": 56,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.885,
+        "conflict": 0.63,
+        "sentiment": 0.096
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "孤，刘备。不知三弟胜负。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二太监",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "三将军不在营中，有盔甲在此。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.323,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "明日与那马超交战便了。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "二黑龙套",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "马超讨战。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四黑龙套",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "盔甲不在营中。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马超",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "张飞果不食信。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：4位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.763,
+        "conflict": 0.851,
+        "sentiment": -0.424
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "马超",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "敢是惧战？",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "今日已晚，明日再战。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四白龙套",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吓。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四黑龙套",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "倒了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：4位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.789,
+        "conflict": 0.727,
+        "sentiment": 0.837
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "马超",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "且住。张飞来得厉害，我不免用飞抓伤他！",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "哪里走！",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.716,
+        "conflict": 0.0,
+        "sentiment": -0.38
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住。马超杀法厉害，待俺伤他一箭，吓他回去。",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "四黑龙套",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "马超逃走。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "马超",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第八场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.736,
+        "conflict": 0.909,
+        "sentiment": 0.047
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "马超",
+      "short": "马超",
+      "key": "马超",
+      "quote": "马超 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四白龙套",
+      "short": "四白",
+      "key": "四白龙套",
+      "quote": "四白龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二太监",
+      "short": "二太",
+      "key": "二太监",
+      "quote": "二太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四黑龙套",
+      "short": "四黑",
+      "key": "四黑龙套",
+      "quote": "四黑龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马岱",
+      "short": "马岱",
+      "key": "马岱",
+      "quote": "马岱 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二黑龙套",
+      "short": "二黑",
+      "key": "二黑龙套",
+      "quote": "二黑龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

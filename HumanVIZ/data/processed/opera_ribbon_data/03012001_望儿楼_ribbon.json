@@ -1,0 +1,241 @@
+{
+  "title": "望儿楼",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "03012001_望儿楼.json",
+  "source_folder": "03000000",
+  "plot_summary": "唐高祖李渊派次子李世民出征，多年未回。窦后思子，梦寐不安；特建望儿楼一座，不时登楼眺望。",
+  "performance_notes": "与《背楼》情节相连，故事比较简单，在表演艺术上着重唱工。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 44,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.871,
+      "locations": {
+        "五凤楼": 1
+      },
+      "characters": {
+        "窦太真": 1,
+        "李渊": 1
+      },
+      "links": [
+        {
+          "source": "李渊",
+          "target": "窦太真",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 57,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "窦太真上楼": 1
+      },
+      "characters": {
+        "窦太真": 1,
+        "李渊": 1,
+        "四宫娥": 1,
+        "内侍": 1
+      },
+      "links": [
+        {
+          "source": "内侍",
+          "target": "窦太真",
+          "value": 1
+        },
+        {
+          "source": "四宫娥",
+          "target": "窦太真",
+          "value": 1
+        },
+        {
+          "source": "李渊",
+          "target": "窦太真",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "四宫娥",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "四宫娥",
+          "target": "李渊",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "五凤楼",
+      "characters": [
+        {
+          "name": "窦太真",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "闷坐昭阳，思皇儿，泪洒胸膛。",
+          "rating": -0.333,
+          "role": "老旦"
+        },
+        {
+          "name": "李渊",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "思皇儿不由孤龙心裂碎，",
+          "rating": -0.5,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：2位角色，44行",
+      "firstLine": 1,
+      "lastLine": 44,
+      "numLines": 44,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.961,
+        "conflict": 1.0,
+        "sentiment": -0.047
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "窦太真上楼",
+      "characters": [
+        {
+          "name": "窦太真",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "深宫院打罢了初更时分，",
+          "rating": 0.143,
+          "role": "老旦"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "奴婢是穿宫太监，不是殿下回朝。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四宫娥",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李渊",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "楼台上哭坏了窦氏昭阳，",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，57行",
+      "firstLine": 1,
+      "lastLine": 57,
+      "numLines": 57,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.196,
+        "sentiment": 0.075
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "窦太真",
+      "short": "窦太",
+      "key": "窦太真",
+      "quote": "窦太真 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李渊",
+      "short": "李渊",
+      "key": "李渊",
+      "quote": "李渊 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四宫娥",
+      "short": "四宫",
+      "key": "四宫娥",
+      "quote": "四宫娥 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内侍",
+      "short": "内侍",
+      "key": "内侍",
+      "quote": "内侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "五凤楼",
+      "key": "五凤楼",
+      "quote": "场景发生在五凤楼"
+    },
+    {
+      "name": "窦太真上楼",
+      "key": "窦太真上楼",
+      "quote": "场景发生在窦太真上楼"
+    }
+  ]
+}

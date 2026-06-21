@@ -1,0 +1,449 @@
+{
+  "title": "打侄上坟",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "04040002_打侄上坟.json",
+  "source_folder": "04000000",
+  "plot_summary": "陈大官自幼父母双亡，依赖叔父陈伯愚抚养长大，因误入歧途，与叔父分家后，沦为乞丐。一年，干旱成灾，\n陈伯愚放粮赈济灾民，陈大官也来领粮，陈伯愚恨他不知上进，将他痛打。陈安人闻声赶来劝阻，并暗助\n银钱，命陈大官走去。陈大官痛悔之下，在清明节到坟地哭祭父母，时陈伯愚夫妇也来祭扫，见坟前有残余\n纸灰，方知陈大官还未忘亲，深受感动，遂将他带回家中，自此，陈大官痛改前非，发奋上进。",
+  "performance_notes": "这个剧本是中国京剧院一团演出本。\n张公道、朱参两个人物，传统的演法是由同一个演员先后装扮的。又六小孩在舞台上实际只上四人，其中二\n人各抱一小孩（即“喜神”），共为六个小孩。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 159,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.664,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "陈志": 1,
+        "陈伯愚": 1,
+        "张公道": 1,
+        "六小孩": 1
+      },
+      "links": [
+        {
+          "source": "六小孩",
+          "target": "张公道",
+          "value": 1
+        },
+        {
+          "source": "张公道",
+          "target": "陈志",
+          "value": 1
+        },
+        {
+          "source": "张公道",
+          "target": "陈伯愚",
+          "value": 1
+        },
+        {
+          "source": "六小孩",
+          "target": "陈志",
+          "value": 1
+        },
+        {
+          "source": "六小孩",
+          "target": "陈伯愚",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "陈志",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 268,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "陈大官": 1,
+        "陈志": 1,
+        "陈伯愚": 1,
+        "安人": 1
+      },
+      "links": [
+        {
+          "source": "陈大官",
+          "target": "陈志",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "陈大官",
+          "value": 1
+        },
+        {
+          "source": "安人",
+          "target": "陈大官",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "陈志",
+          "value": 1
+        },
+        {
+          "source": "安人",
+          "target": "陈志",
+          "value": 1
+        },
+        {
+          "source": "安人",
+          "target": "陈伯愚",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 291,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "陈大官": 1,
+        "陈伯愚": 1,
+        "陈志": 1,
+        "朱参": 1,
+        "安人": 1
+      },
+      "links": [
+        {
+          "source": "朱参",
+          "target": "陈大官",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "陈大官",
+          "value": 1
+        },
+        {
+          "source": "安人",
+          "target": "陈大官",
+          "value": 1
+        },
+        {
+          "source": "陈大官",
+          "target": "陈志",
+          "value": 1
+        },
+        {
+          "source": "朱参",
+          "target": "陈伯愚",
+          "value": 1
+        },
+        {
+          "source": "安人",
+          "target": "朱参",
+          "value": 1
+        },
+        {
+          "source": "朱参",
+          "target": "陈志",
+          "value": 1
+        },
+        {
+          "source": "安人",
+          "target": "陈伯愚",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "陈志",
+          "value": 1
+        },
+        {
+          "source": "安人",
+          "target": "陈志",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张公道",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "嗯哼！",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "六小孩",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陈志",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "堂前挂古画，还是旧家风。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "陈伯愚",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "嗯哼！",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：4位角色，159行",
+      "firstLine": 1,
+      "lastLine": 159,
+      "numLines": 159,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.673,
+        "conflict": 0.149,
+        "sentiment": 0.765
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "陈大官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "贫居闹市无人问，富在深山有远亲。",
+          "rating": -0.167,
+          "role": "小生"
+        },
+        {
+          "name": "陈志",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "是哪一位？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "陈伯愚",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": -0.143,
+          "role": "老生"
+        },
+        {
+          "name": "安人",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "只听前堂哭悲声，",
+          "rating": -0.143,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第二场：4位角色，268行",
+      "firstLine": 1,
+      "lastLine": 268,
+      "numLines": 268,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.94,
+        "conflict": 0.165,
+        "sentiment": 0.057
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "陈大官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "时不济来运不通，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "朱参",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我名叫朱参，与人看坟院。开开门来看——",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "陈伯愚",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "艳阳天气正清明，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "安人",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "家家户户上坟茔。",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "陈志",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "赏与你了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，291行",
+      "firstLine": 1,
+      "lastLine": 291,
+      "numLines": 291,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.168,
+        "sentiment": 0.164
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "陈伯愚",
+      "short": "陈伯",
+      "key": "陈伯愚",
+      "quote": "陈伯愚 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陈大官",
+      "short": "陈大",
+      "key": "陈大官",
+      "quote": "陈大官 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "安人",
+      "short": "安人",
+      "key": "安人",
+      "quote": "安人 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张公道",
+      "short": "张公",
+      "key": "张公道",
+      "quote": "张公道 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "朱参",
+      "short": "朱参",
+      "key": "朱参",
+      "quote": "朱参 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "六小孩",
+      "short": "六小",
+      "key": "六小孩",
+      "quote": "六小孩 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陈志",
+      "short": "陈志",
+      "key": "陈志",
+      "quote": "陈志 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

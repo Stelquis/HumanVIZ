@@ -1,0 +1,236 @@
+{
+  "title": "斩貂蝉",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01017008_斩貂蝉.json",
+  "source_folder": "01000000",
+  "plot_summary": "吕布白门楼丧命，家属星散。吕布妾貂蝉，为张飞所得，送与关羽处。关羽光明磊落，安肯蹈非礼之行为，\n纳一失节少妇。虽貂蝉有殊色，亦不足以动其心。且念貂蝉系司徒王允义女，曾用连环计，离间董卓、吕布，\n使彼父子自相残害，而董卓遂因此殄退。牺牲一身，匡扶社稷，貂蝉诚有大功于汉朝也。然关羽恐女子水\n性杨花，乱离之际，难保不为人所污，惟有一死可以保全其名誉。关羽因于夜间唤貂蝉入帐中，拔剑斩之。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 128,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "马童": 1,
+        "貂蝉": 1,
+        "关羽": 1,
+        "众人": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "貂蝉",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "貂蝉",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "貂蝉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.09,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "关羽": 1,
+        "貂蝉": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "貂蝉",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "雄心赤胆汉英豪，撩袍勒马破奸曹。",
+          "rating": 0.333,
+          "role": "红生"
+        },
+        {
+          "name": "马童",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "大王吩咐，唤貂蝉入帐。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "貂蝉",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.2,
+          "role": "小旦"
+        }
+      ],
+      "summary": "第1场：4位角色，128行",
+      "firstLine": 1,
+      "lastLine": 128,
+      "numLines": 128,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.443,
+        "sentiment": 0.236
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "满怀心腹事，",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "貂蝉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小旦"
+        }
+      ],
+      "summary": "第2场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.727,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "貂蝉",
+      "short": "貂蝉",
+      "key": "貂蝉",
+      "quote": "貂蝉 — 小旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马童",
+      "short": "马童",
+      "key": "马童",
+      "quote": "马童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

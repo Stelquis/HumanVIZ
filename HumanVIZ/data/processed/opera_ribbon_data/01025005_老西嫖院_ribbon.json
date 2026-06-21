@@ -1,0 +1,246 @@
+{
+  "title": "老西嫖院",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 3,
+  "source_file": "01025005_老西嫖院.json",
+  "source_folder": "01000000",
+  "plot_summary": "剧本事实，有山西太谷县人曹姓，人称为老西者，往河南洛阳贸易（凡山西人已离本省俱隐其名而曰老西为\n商业之习惯，到处皆然）。客居三年，家中父母妻子心中不免忆念。虽有友朋多方慰藉，总难消释。有人传\n说妓院中新来一倌人，颇驰美名。嫖客求一观面，须赠银三两。因其姓陈，咸称之为陈三两。曹老西正在无\n可遣兴，欲借此一扩眼界，乃至嫖院寻访。粉白黛绿者，麇集其前。不足以当一盼。商诸鸨母，指名陈三两。\n鸨母知其不谙嫖界门径，要挟再三，填满欲壑，始呼陈三两见客。盖陈三两本宦家女，堕烟花心实不愿，\n无奈为鸨母所压制，不得不出房应酬。衣褴褛而发蓬松，毫无一点装饰品，较之灶下婢犹觉肮脏。曹老西悔\n之不及。一转念间，既已破钞，不妨姑为容忍，领略个中滋味，相与传杯弄盏。席间陈三两以正言规劝，曹\n老西离绪愁怀，互相感触，迥思老亲倚闾，为游子最伤心之事，不禁悲声大放，涕泗滂沱。即唤鸨母来前，\n语以故。且谓既受陈三两这教训，自此以后，不涉平康之巷，不作狭斜之游，今则行矣。鸨母极意安慰，曹\n老西竟掉头不顾，讵知鸨母必欲与曹老西结欢喜缘，邀入己之卧室而留髡焉。按曹老西既然悔悟，必不肯再\n至鸨母处借宿。",
+  "performance_notes": "剧本末节如是云云，似乎不合于情理，然串演之时，以引人发为主义。情理二字，在所不计，姑妄言之，姑\n妄听之可也。\n是剧虽以插科打诨为事，中寓悬崖勒马之意味。亦足补救世道人心，允堪嘉尚。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.256,
+      "locations": {
+        "处有一青楼": 1
+      },
+      "characters": {
+        "曹老西": 1,
+        "陈三两": 1
+      },
+      "links": [
+        {
+          "source": "曹老西",
+          "target": "陈三两",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 116,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "这洛阳城": 1
+      },
+      "characters": {
+        "曹老西": 1,
+        "四妓女": 1,
+        "陈三两": 1,
+        "老鸨子": 1
+      },
+      "links": [
+        {
+          "source": "曹老西",
+          "target": "老鸨子",
+          "value": 1
+        },
+        {
+          "source": "四妓女",
+          "target": "老鸨子",
+          "value": 1
+        },
+        {
+          "source": "老鸨子",
+          "target": "陈三两",
+          "value": 1
+        },
+        {
+          "source": "四妓女",
+          "target": "曹老西",
+          "value": 1
+        },
+        {
+          "source": "曹老西",
+          "target": "陈三两",
+          "value": 1
+        },
+        {
+          "source": "四妓女",
+          "target": "陈三两",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "处有一青楼",
+      "characters": [
+        {
+          "name": "曹老西",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "曲曲弯弯路，重重叠叠山。雁飞不到处，断不了咱处人。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "陈三两",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：2位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.715,
+        "conflict": 0.952,
+        "sentiment": 0.38
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "这洛阳城",
+      "characters": [
+        {
+          "name": "老鸨子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "身在烟花柳巷，搜罗美貌婵娟。迎接王孙公子，一心只图银钱。",
+          "rating": -0.333,
+          "role": "彩旦"
+        },
+        {
+          "name": "曹老西",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "走哇！",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "四妓女",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "懂得逛窑子再来逛，什么陈三两，李四两，真是七担不够，八蛋肏得！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陈三两",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "奴家陈三两。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：4位角色，116行",
+      "firstLine": 1,
+      "lastLine": 116,
+      "numLines": 116,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.391,
+        "sentiment": -0.139
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "曹老西",
+      "short": "曹老",
+      "key": "曹老西",
+      "quote": "曹老西 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "老鸨子",
+      "short": "老鸨",
+      "key": "老鸨子",
+      "quote": "老鸨子 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "陈三两",
+      "short": "陈三",
+      "key": "陈三两",
+      "quote": "陈三两 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "四妓女",
+      "short": "四妓",
+      "key": "四妓女",
+      "quote": "四妓女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "这洛阳城",
+      "key": "这洛阳城",
+      "quote": "场景发生在这洛阳城"
+    },
+    {
+      "name": "处有一青楼",
+      "key": "处有一青楼",
+      "quote": "场景发生在处有一青楼"
+    },
+    {
+      "name": "烟花柳巷",
+      "key": "烟花柳巷",
+      "quote": "场景发生在烟花柳巷"
+    }
+  ]
+}

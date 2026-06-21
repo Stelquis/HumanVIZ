@@ -1,0 +1,660 @@
+{
+  "title": "三岔口",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 9,
+  "num_locations": 2,
+  "source_file": "02008048_三岔口.json",
+  "source_folder": "02000000",
+  "plot_summary": "焦赞在五凤楼闯祸，宋王大怒，发配沙漠海岛。杨延昭恐途中有错，特派任堂惠暗中保护。行至三岔口，住\n在刘立华所开之黑店中。任堂惠赶到，亦住在该店内。夜半刘立华来杀任堂惠。任堂惠已预知，二人在黑暗\n中互相摸捉。最后焦赞知晓，遂亦加入，始得将刘立华夫妇杀死云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 109,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.306,
+      "importance": 1.0,
+      "locations": {
+        "五凤楼": 2,
+        "了监门": 1
+      },
+      "characters": {
+        "任堂惠": 1,
+        "杨延昭": 1,
+        "焦赞": 1,
+        "四上手": 1,
+        "禁子": 1,
+        "中军": 1,
+        "解子": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "任堂惠",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "任堂惠",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "任堂惠",
+          "target": "焦赞",
+          "value": 2
+        },
+        {
+          "source": "四上手",
+          "target": "解子",
+          "value": 1
+        },
+        {
+          "source": "禁子",
+          "target": "解子",
+          "value": 1
+        },
+        {
+          "source": "焦赞",
+          "target": "解子",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "焦赞",
+          "target": "禁子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 97,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.722,
+      "importance": 1.0,
+      "locations": {
+        "五凤楼": 3
+      },
+      "characters": {
+        "任堂惠": 1,
+        "焦赞": 1,
+        "刘妻": 1,
+        "刘立华": 1,
+        "解子": 1
+      },
+      "links": [
+        {
+          "source": "刘妻",
+          "target": "刘立华",
+          "value": 1
+        },
+        {
+          "source": "刘立华",
+          "target": "焦赞",
+          "value": 2
+        },
+        {
+          "source": "刘立华",
+          "target": "解子",
+          "value": 1
+        },
+        {
+          "source": "刘妻",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "刘妻",
+          "target": "解子",
+          "value": 2
+        },
+        {
+          "source": "焦赞",
+          "target": "解子",
+          "value": 1
+        },
+        {
+          "source": "任堂惠",
+          "target": "刘立华",
+          "value": 1
+        },
+        {
+          "source": "任堂惠",
+          "target": "焦赞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.099,
+      "locations": {
+        "五凤楼": 1
+      },
+      "characters": {
+        "任堂惠": 1,
+        "焦赞": 1,
+        "刘立华": 1,
+        "刘妻": 1
+      },
+      "links": [
+        {
+          "source": "任堂惠",
+          "target": "刘立华",
+          "value": 1
+        },
+        {
+          "source": "刘立华",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "刘妻",
+          "target": "刘立华",
+          "value": 1
+        },
+        {
+          "source": "任堂惠",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "任堂惠",
+          "target": "刘妻",
+          "value": 1
+        },
+        {
+          "source": "刘妻",
+          "target": "焦赞",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "五凤楼",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "忠心秉正，保宋室，扫除奸侫。",
+          "rating": 0.429,
+          "role": ""
+        },
+        {
+          "name": "中军",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "任将军进帐。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "任堂惠",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：4位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.64,
+        "conflict": 0.513,
+        "sentiment": 0.467
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "了监门",
+      "characters": [
+        {
+          "name": "解子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "四上手",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走哇。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "禁子",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "敢是坐监的么？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "五凤楼前闯下祸，落得今天受折磨。",
+          "rating": 0.333,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：4位角色，86行",
+      "firstLine": 1,
+      "lastLine": 86,
+      "numLines": 86,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.673,
+        "conflict": 0.087,
+        "sentiment": 0.161
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "五凤楼",
+      "characters": [
+        {
+          "name": "任堂惠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "乔装改扮逞英豪，只为金兰旧故交。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.548,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "五凤楼",
+      "characters": [
+        {
+          "name": "刘立华",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "啊哈！",
+          "rating": -1.0,
+          "role": "武丑"
+        },
+        {
+          "name": "刘妻",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来了！",
+          "rating": 1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "趱行！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "解子",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "我就是这么样子去打店吗。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第四场：4位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.807,
+        "conflict": 0.154,
+        "sentiment": 0.282
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "五凤楼",
+      "characters": [
+        {
+          "name": "任堂惠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "走哇！",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "刘立华",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "爷，敢是住店吗？",
+          "rating": -1.0,
+          "role": "武丑"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哎呀！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：3位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.855,
+        "conflict": 0.43,
+        "sentiment": -0.431
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "五凤楼",
+      "characters": [
+        {
+          "name": "解子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哎，臭虫直咬了我一夜。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "刘妻",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第六场：2位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.141,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "五凤楼",
+      "characters": [
+        {
+          "name": "刘立华",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哎哟，哎哟。俩打一个，直打了一夜，好买卖好买卖，叫伙计们出来啊。",
+          "rating": 1.0,
+          "role": "武丑"
+        },
+        {
+          "name": "任堂惠",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "刘妻",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第七场：4位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.689,
+        "conflict": 1.0,
+        "sentiment": 0.453
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "任堂惠",
+      "short": "任堂",
+      "key": "任堂惠",
+      "quote": "任堂惠 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘立华",
+      "short": "刘立",
+      "key": "刘立华",
+      "quote": "刘立华 — 武丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 武丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "焦赞",
+      "short": "焦赞",
+      "key": "焦赞",
+      "quote": "焦赞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "刘妻",
+      "short": "刘妻",
+      "key": "刘妻",
+      "quote": "刘妻 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "解子",
+      "short": "解子",
+      "key": "解子",
+      "quote": "解子 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "杨延昭",
+      "short": "杨延",
+      "key": "杨延昭",
+      "quote": "杨延昭 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四上手",
+      "short": "四上",
+      "key": "四上手",
+      "quote": "四上手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "禁子",
+      "short": "禁子",
+      "key": "禁子",
+      "quote": "禁子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "五凤楼",
+      "key": "五凤楼",
+      "quote": "场景发生在五凤楼"
+    },
+    {
+      "name": "了监门",
+      "key": "了监门",
+      "quote": "场景发生在了监门"
+    }
+  ]
+}

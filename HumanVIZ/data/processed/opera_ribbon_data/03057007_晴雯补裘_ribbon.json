@@ -1,0 +1,357 @@
+{
+  "title": "晴雯补裘",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "03057007_晴雯补裘.json",
+  "source_folder": "03000000",
+  "plot_summary": "贾宝玉衣贾母所赠之“孔雀裘”赴宴，不慎被火星燎损，惧贾母责罪，归告晴雯，晴雯带病为之补缀，连夜\n而成。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 70,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.886,
+      "locations": {
+        "好似大罗殿": 1
+      },
+      "characters": {
+        "贾宝玉": 1,
+        "麝月": 1,
+        "回转身来": 1,
+        "晴雯": 1
+      },
+      "links": [
+        {
+          "source": "晴雯",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "晴雯",
+          "target": "麝月",
+          "value": 1
+        },
+        {
+          "source": "回转身来",
+          "target": "晴雯",
+          "value": 1
+        },
+        {
+          "source": "贾宝玉",
+          "target": "麝月",
+          "value": 1
+        },
+        {
+          "source": "回转身来",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "回转身来",
+          "target": "麝月",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 47,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.595,
+      "locations": {
+        "好似大罗殿": 1
+      },
+      "characters": {
+        "鸳鸯": 1,
+        "贾宝玉": 1,
+        "贾母": 1
+      },
+      "links": [
+        {
+          "source": "贾母",
+          "target": "鸳鸯",
+          "value": 1
+        },
+        {
+          "source": "贾宝玉",
+          "target": "贾母",
+          "value": 1
+        },
+        {
+          "source": "贾宝玉",
+          "target": "鸳鸯",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 120,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "好似大罗殿": 1
+      },
+      "characters": {
+        "贾宝玉": 1,
+        "麝月": 1,
+        "晴雯": 1
+      },
+      "links": [
+        {
+          "source": "晴雯",
+          "target": "麝月",
+          "value": 1
+        },
+        {
+          "source": "晴雯",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "贾宝玉",
+          "target": "麝月",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "好似大罗殿",
+      "characters": [
+        {
+          "name": "晴雯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "命薄如云，只赢得，青衫一领。",
+          "rating": -0.25,
+          "role": "旦"
+        },
+        {
+          "name": "贾宝玉",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "花姐姐回家去叫人眷念，",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "麝月",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "适才老太太吩咐，只因袭人姐姐回家去啦，特派你我二人小心伺候二爷。天时",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "回转身来",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "向后往，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，70行",
+      "firstLine": 1,
+      "lastLine": 70,
+      "numLines": 70,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.966,
+        "conflict": 0.606,
+        "sentiment": 0.141
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "好似大罗殿",
+      "characters": [
+        {
+          "name": "贾母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "白发婆婆享天年，",
+          "rating": 0.667,
+          "role": ""
+        },
+        {
+          "name": "鸳鸯",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "贾宝玉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "夜寒愁似絮，天曙同笼霜。",
+          "rating": -0.2,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.612,
+        "conflict": 0.6,
+        "sentiment": 0.526
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "好似大罗殿",
+      "characters": [
+        {
+          "name": "晴雯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "昨夜里西北风颠狂一阵，",
+          "rating": -0.091,
+          "role": "旦"
+        },
+        {
+          "name": "麝月",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "姐姐，你这样的泪眼愁眉，到底是什么病啊？",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "贾宝玉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "适才筵前太不慎，",
+          "rating": -0.2,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：3位角色，120行",
+      "firstLine": 1,
+      "lastLine": 120,
+      "numLines": 120,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.354,
+        "sentiment": 0.101
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "晴雯",
+      "short": "晴雯",
+      "key": "晴雯",
+      "quote": "晴雯 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "贾宝玉",
+      "short": "贾宝",
+      "key": "贾宝玉",
+      "quote": "贾宝玉 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "麝月",
+      "short": "麝月",
+      "key": "麝月",
+      "quote": "麝月 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "鸳鸯",
+      "short": "鸳鸯",
+      "key": "鸳鸯",
+      "quote": "鸳鸯 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "贾母",
+      "short": "贾母",
+      "key": "贾母",
+      "quote": "贾母 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "回转身来",
+      "short": "回转",
+      "key": "回转身来",
+      "quote": "回转身来 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "好似大罗殿",
+      "key": "好似大罗殿",
+      "quote": "场景发生在好似大罗殿"
+    }
+  ]
+}

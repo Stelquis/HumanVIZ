@@ -1,0 +1,323 @@
+{
+  "title": "三多九如",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02001002_三多九如.json",
+  "source_folder": "02000000",
+  "plot_summary": "多福星君、多禄星君及多寿星君，因下界福主寿筵之日，特邀九如大仙，前往庆祝，及至寿筵前，将仙桃献\n赠外，并同唱九如颂词。祝寿完毕，各归洞府。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 55,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "仙各归洞府": 1
+      },
+      "characters": {
+        "众云童": 1,
+        "多福星君": 1,
+        "多禄星君": 1,
+        "九如仙": 1,
+        "多寿星君": 1
+      },
+      "links": [
+        {
+          "source": "多禄星君",
+          "target": "多福星君",
+          "value": 1
+        },
+        {
+          "source": "多寿星君",
+          "target": "多福星君",
+          "value": 1
+        },
+        {
+          "source": "众云童",
+          "target": "多福星君",
+          "value": 1
+        },
+        {
+          "source": "九如仙",
+          "target": "多福星君",
+          "value": 1
+        },
+        {
+          "source": "多寿星君",
+          "target": "多禄星君",
+          "value": 1
+        },
+        {
+          "source": "众云童",
+          "target": "多禄星君",
+          "value": 1
+        },
+        {
+          "source": "九如仙",
+          "target": "多禄星君",
+          "value": 1
+        },
+        {
+          "source": "众云童",
+          "target": "多寿星君",
+          "value": 1
+        },
+        {
+          "source": "九如仙",
+          "target": "多寿星君",
+          "value": 1
+        },
+        {
+          "source": "九如仙",
+          "target": "众云童",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.472,
+      "locations": {
+        "仙各归洞府": 1
+      },
+      "characters": {
+        "多福星君": 1,
+        "九如仙": 1,
+        "多寿星君": 1,
+        "多禄星君": 1
+      },
+      "links": [
+        {
+          "source": "九如仙",
+          "target": "多寿星君",
+          "value": 1
+        },
+        {
+          "source": "多寿星君",
+          "target": "多福星君",
+          "value": 1
+        },
+        {
+          "source": "多寿星君",
+          "target": "多禄星君",
+          "value": 1
+        },
+        {
+          "source": "九如仙",
+          "target": "多福星君",
+          "value": 1
+        },
+        {
+          "source": "九如仙",
+          "target": "多禄星君",
+          "value": 1
+        },
+        {
+          "source": "多禄星君",
+          "target": "多福星君",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "仙各归洞府",
+      "characters": [
+        {
+          "name": "多福星君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我乃多福星君是也。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "多禄星君",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我乃多禄星君是也。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "多寿星君",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "多福多寿比嵩山，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "众云童",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "领法旨。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "九如仙",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "善门人福德双全。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：5位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.0,
+        "sentiment": 0.763
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "仙各归洞府",
+      "characters": [
+        {
+          "name": "多寿星君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "众位大仙各归洞府。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "九如仙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "瑞云中万福盘旋，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "多福星君",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "多禄星君",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：4位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.912,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "多福星君",
+      "short": "多福",
+      "key": "多福星君",
+      "quote": "多福星君 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "多禄星君",
+      "short": "多禄",
+      "key": "多禄星君",
+      "quote": "多禄星君 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "多寿星君",
+      "short": "多寿",
+      "key": "多寿星君",
+      "quote": "多寿星君 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "众云童",
+      "short": "众云",
+      "key": "众云童",
+      "quote": "众云童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "九如仙",
+      "short": "九如",
+      "key": "九如仙",
+      "quote": "九如仙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "仙各归洞府",
+      "key": "仙各归洞府",
+      "quote": "场景发生在仙各归洞府"
+    }
+  ]
+}

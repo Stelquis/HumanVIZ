@@ -1,0 +1,276 @@
+{
+  "title": "打刀",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01022009_打刀.json",
+  "source_folder": "01000000",
+  "plot_summary": "五代，赵匡胤逃至江南，手无兵器，乃嘱冶工吴衍能代铸钢刀。吴衍能因赵匡胤欠债未还，不欲代铸，乃唤\n妻出，替自己推托。吴妻不解意，反代应允，并助炼制。刀既成，赵匡胤以二人试刀。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 80,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "阎王殿": 1
+      },
+      "characters": {
+        "吴衍能": 1,
+        "吴妻": 1,
+        "赵匡胤": 1
+      },
+      "links": [
+        {
+          "source": "吴衍能",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "吴妻",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "吴妻",
+          "target": "吴衍能",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 65,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "阎王殿": 1
+      },
+      "characters": {
+        "吴衍能": 1,
+        "赵匡胤": 1,
+        "吴妻": 1
+      },
+      "links": [
+        {
+          "source": "吴妻",
+          "target": "吴衍能",
+          "value": 1
+        },
+        {
+          "source": "吴衍能",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "吴妻",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.119,
+      "locations": {
+        "阎王殿": 1
+      },
+      "characters": {
+        "吴衍能": 1,
+        "吴妻": 1
+      },
+      "links": [
+        {
+          "source": "吴妻",
+          "target": "吴衍能",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "阎王殿",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "踏破草鞋无觅处，得来全不费功夫。",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "吴衍能",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "为人不做亏心事，半夜敲门心不惊。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "吴妻",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吓哈！",
+          "rating": 0.0,
+          "role": "小旦"
+        }
+      ],
+      "summary": "第1场：3位角色，80行",
+      "firstLine": 1,
+      "lastLine": 80,
+      "numLines": 80,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.472,
+        "sentiment": 0.282
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "阎王殿",
+      "characters": [
+        {
+          "name": "吴衍能",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "这分生意，你既是应承了，说不着，咱们就动起手来！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "吴妻",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "夫妻们终日受贫困，",
+          "rating": 0.333,
+          "role": "小旦"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "刀可曾打好？",
+          "rating": -0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：3位角色，65行",
+      "firstLine": 1,
+      "lastLine": 65,
+      "numLines": 65,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.667,
+        "sentiment": 0.167
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "阎王殿",
+      "characters": [
+        {
+          "name": "吴衍能",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "走啦，好，好，把刀打好了，送给他，他倒把我们两口子杀啦！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "吴妻",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "你讲理不讲理呀？咱们叫他给杀死啦，你还在这里说什么话？",
+          "rating": -1.0,
+          "role": "小旦"
+        }
+      ],
+      "summary": "第3场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.636,
+        "conflict": 1.0,
+        "sentiment": -0.14
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "吴衍能",
+      "short": "吴衍",
+      "key": "吴衍能",
+      "quote": "吴衍能 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "吴妻",
+      "short": "吴妻",
+      "key": "吴妻",
+      "quote": "吴妻 — 小旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "阎王殿",
+      "key": "阎王殿",
+      "quote": "场景发生在阎王殿"
+    }
+  ]
+}

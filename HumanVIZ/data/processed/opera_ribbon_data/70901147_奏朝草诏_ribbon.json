@@ -1,0 +1,644 @@
+{
+  "title": "奏朝草诏",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 9,
+  "num_locations": 3,
+  "source_file": "70901147_奏朝草诏.json",
+  "source_folder": "70901000",
+  "plot_summary": "燕王朱棣篡位后，尽戮贤臣，残害忠良。为草写诏书，宣令方孝孺上殿。方孝孺秉忠义之节，拒不草诏。燕\n王大怒，命武士将其敲牙割舌。方孝孺痛斥昏王无道，直至遭鱼鳞细剐而死。",
+  "performance_notes": "据传《草诏》本戏为《千忠戮》，经查校，《千忠戮》实无此书。\n清李渔撰有《千忠戮》传奇。全剧以（明）燕王追杀建文帝（朱允炆）为背景，描写程济保护建文帝一路逃\n亡，直至出家为僧一段史实。剧中顺带有方孝孺殉节事。又清叶时章（雉斐）撰有《千钟禄》传奇二十五出，\n经查校亦无《奏朝》、《草诏》两出。\n又北京图书馆藏有手抄本《琉璃塔》昆曲四出，作者不详。写燕王朱棣谋反，攻陷京城，建文帝（朱允炆）\n跟随程济等人逃亡的故事。未见有《奏朝》、《草诏》二出。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 62,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.933,
+      "importance": 0.979,
+      "locations": {
+        " 宣他上殿": 2,
+        "谨身殿": 1
+      },
+      "characters": {
+        "朱棣": 1,
+        "太监": 1,
+        "陈瑛": 1,
+        "二太监": 1,
+        "黄子澄": 1,
+        "方孝孺": 1,
+        "齐泰": 1
+      },
+      "links": [
+        {
+          "source": "朱棣",
+          "target": "陈瑛",
+          "value": 1
+        },
+        {
+          "source": "陈瑛",
+          "target": "黄子澄",
+          "value": 1
+        },
+        {
+          "source": "方孝孺",
+          "target": "陈瑛",
+          "value": 1
+        },
+        {
+          "source": "陈瑛",
+          "target": "齐泰",
+          "value": 1
+        },
+        {
+          "source": "朱棣",
+          "target": "黄子澄",
+          "value": 1
+        },
+        {
+          "source": "方孝孺",
+          "target": "朱棣",
+          "value": 2
+        },
+        {
+          "source": "朱棣",
+          "target": "齐泰",
+          "value": 1
+        },
+        {
+          "source": "方孝孺",
+          "target": "黄子澄",
+          "value": 2
+        },
+        {
+          "source": "黄子澄",
+          "target": "齐泰",
+          "value": 2
+        },
+        {
+          "source": "方孝孺",
+          "target": "齐泰",
+          "value": 2
+        },
+        {
+          "source": "二太监",
+          "target": "朱棣",
+          "value": 1
+        },
+        {
+          "source": "二太监",
+          "target": "方孝孺",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "方孝孺",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "黄子澄",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "齐泰",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 124,
+      "summary": "第4场；第5场；第6场",
+      "conflict": 0.646,
+      "importance": 1.0,
+      "locations": {
+        " 宣他上殿": 3
+      },
+      "characters": {
+        "朱棣": 1,
+        "太监": 1,
+        "陈瑛": 1,
+        "校尉": 1,
+        "方孝孺": 1
+      },
+      "links": [
+        {
+          "source": "方孝孺",
+          "target": "陈瑛",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "方孝孺",
+          "value": 2
+        },
+        {
+          "source": "太监",
+          "target": "陈瑛",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "朱棣",
+          "value": 1
+        },
+        {
+          "source": "方孝孺",
+          "target": "朱棣",
+          "value": 1
+        },
+        {
+          "source": "朱棣",
+          "target": "校尉",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "校尉",
+          "value": 1
+        },
+        {
+          "source": "方孝孺",
+          "target": "校尉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 4,
+      "summary": "第7场",
+      "conflict": 0.0,
+      "importance": 0.063,
+      "locations": {
+        " 宣他上殿": 1
+      },
+      "characters": {
+        "众武士": 1,
+        "方孝孺": 1
+      },
+      "links": [
+        {
+          "source": "众武士",
+          "target": "方孝孺",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": " 宣他上殿",
+      "characters": [
+        {
+          "name": "陈瑛",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "只道终身葬九渊，忽然沧海变桑田。百年富贵从新起，一品高官我占先。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "朱棣",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "天挺龙标，身膺大宝，非轻渺，继统临朝，好修着，一纸郊天诏。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "黄子澄",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "方孝孺",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "齐泰",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：5位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.945,
+        "conflict": 0.345,
+        "sentiment": 0.127
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "谨身殿",
+      "characters": [
+        {
+          "name": "朱棣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "内臣。",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "二太监",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "方孝孺",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第2场：3位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.478,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": " 宣他上殿",
+      "characters": [
+        {
+          "name": "太监",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "方相国请快行一步。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "方孝孺",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "啊呀！圣上啊！",
+          "rating": -0.5,
+          "role": "外"
+        },
+        {
+          "name": "黄子澄",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "老相国请了。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "齐泰",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：4位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.586,
+        "conflict": 0.0,
+        "sentiment": -0.173
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": " 宣他上殿",
+      "characters": [
+        {
+          "name": "方孝孺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哈哈……好两个大忠臣也。",
+          "rating": 0.25,
+          "role": "外"
+        },
+        {
+          "name": "陈瑛",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "方老先生，请了！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "太监",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "方老先生快行几步。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第4场：3位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.715,
+        "conflict": 0.282,
+        "sentiment": 0.149
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": " 宣他上殿",
+      "characters": [
+        {
+          "name": "陈瑛",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊呀！这是哪里说起，平白由他一短好骂。笑骂由他笑骂，好官我自为之。",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第5场：1位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.476,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": " 宣他上殿",
+      "characters": [
+        {
+          "name": "朱棣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "金殿云烟浮罘扆，玉阶日月丽旌旗。",
+          "rating": -0.2,
+          "role": "末"
+        },
+        {
+          "name": "太监",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "启万岁：方孝孺宣到。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "方孝孺",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊呀，圣上啊！",
+          "rating": 0.111,
+          "role": "外"
+        },
+        {
+          "name": "校尉",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "写！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第6场：4位角色，88行",
+      "firstLine": 1,
+      "lastLine": 88,
+      "numLines": 88,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.807,
+        "conflict": 0.29,
+        "sentiment": 0.114
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": " 宣他上殿",
+      "characters": [
+        {
+          "name": "众武士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "方孝孺",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "血喷腥红难洗濯。",
+          "rating": -0.333,
+          "role": "外"
+        }
+      ],
+      "summary": "第7场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.352,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "方孝孺",
+      "short": "方孝",
+      "key": "方孝孺",
+      "quote": "方孝孺 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "朱棣",
+      "short": "朱棣",
+      "key": "朱棣",
+      "quote": "朱棣 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陈瑛",
+      "short": "陈瑛",
+      "key": "陈瑛",
+      "quote": "陈瑛 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "齐泰",
+      "short": "齐泰",
+      "key": "齐泰",
+      "quote": "齐泰 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "黄子澄",
+      "short": "黄子",
+      "key": "黄子澄",
+      "quote": "黄子澄 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二太监",
+      "short": "二太",
+      "key": "二太监",
+      "quote": "二太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "校尉",
+      "short": "校尉",
+      "key": "校尉",
+      "quote": "校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众武士",
+      "short": "众武",
+      "key": "众武士",
+      "quote": "众武士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 宣他上殿",
+      "key": " 宣他上殿",
+      "quote": "场景发生在 宣他上殿"
+    },
+    {
+      "name": "谨身殿",
+      "key": "谨身殿",
+      "quote": "场景发生在谨身殿"
+    },
+    {
+      "name": "方孝孺上殿",
+      "key": "方孝孺上殿",
+      "quote": "场景发生在方孝孺上殿"
+    }
+  ]
+}

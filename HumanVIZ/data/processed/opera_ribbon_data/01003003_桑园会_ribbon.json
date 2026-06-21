@@ -1,0 +1,337 @@
+{
+  "title": "桑园会",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01003003_桑园会.json",
+  "source_folder": "01000000",
+  "plot_summary": "考此剧即《列女传·秋胡妇》故事。传载鲁秋胡子，纳妻五日而宦于陈，后归，未至家，见路旁一美妇采桑，\n悦之，下车谓曰：力田不如逢年，采桑不如见郎，吾有金一蹄，愿馈夫人。妇不受而去。秋胡归，母呼其\n妇出，乃即采桑妇也。秋胡子惭，妇数秋胡之罪，而自投于河。按剧本与传载稍有出入，其相异之点有三：\n如一为宦陈，一则宦楚；一为秋胡但知悦路旁美妇人，一则疑为已妇，而故试探之；一为投河竞死，一则自\n缢获救。案陈，即今河南陈州，其地当时或已属楚，亦未可知，是二而一也。不知为妻与疑其为妻，相去本\n在毫发之间，而调戏则一也。是虽异而实同。惟考时传记载，均称秋胡女因此致死，而秋胡子，即以妇死之\n故，而为后世引为轻薄之戒。然则所讹者，惟女不死之问题耳。噫，晚近世风不古，一般庸夫俗妇之心理，\n皆以一死为凶，安知非编剧者，有鉴于此，而故予以不死，以劝励薄俗耶。",
+  "performance_notes": "此剧多流水快板，须生、青衫均重在唱工，而须生尤须唱得流转如意。飘飘然有逸致，方佳。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.185,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "秋胡": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 153,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "秋胡": 1,
+        "秋母": 1,
+        "罗氏": 1
+      },
+      "links": [
+        {
+          "source": "秋母",
+          "target": "罗氏",
+          "value": 1
+        },
+        {
+          "source": "秋胡",
+          "target": "罗氏",
+          "value": 1
+        },
+        {
+          "source": "秋母",
+          "target": "秋胡",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 97,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.997,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "秋胡": 1,
+        "秋母": 1,
+        "罗氏": 1
+      },
+      "links": [
+        {
+          "source": "秋母",
+          "target": "罗氏",
+          "value": 1
+        },
+        {
+          "source": "秋母",
+          "target": "秋胡",
+          "value": 1
+        },
+        {
+          "source": "秋胡",
+          "target": "罗氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 121,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "秋胡": 1,
+        "秋母": 1,
+        "罗氏": 1
+      },
+      "links": [
+        {
+          "source": "秋母",
+          "target": "罗氏",
+          "value": 1
+        },
+        {
+          "source": "秋胡",
+          "target": "罗氏",
+          "value": 1
+        },
+        {
+          "source": "秋母",
+          "target": "秋胡",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秋胡",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "归心似箭，辞王驾，转回家园。",
+          "rating": -0.143,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：1位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.542,
+        "conflict": 0.0,
+        "sentiment": 0.114
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "罗氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "愁锁眉梢，每日里，奉养年高。",
+          "rating": 0.429,
+          "role": "正旦"
+        },
+        {
+          "name": "秋母",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "作什么？",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "秋胡",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "秋胡打马奔家乡，",
+          "rating": 0.2,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：3位角色，153行",
+      "firstLine": 1,
+      "lastLine": 153,
+      "numLines": 153,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.234,
+        "sentiment": 0.32
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秋母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "乌鸦不住叫呱呱。",
+          "rating": 0.5,
+          "role": "老旦"
+        },
+        {
+          "name": "罗氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呀，",
+          "rating": 0.0,
+          "role": "正旦"
+        },
+        {
+          "name": "秋胡",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "马来！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：3位角色，97行",
+      "firstLine": 1,
+      "lastLine": 97,
+      "numLines": 97,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.924,
+        "conflict": 0.197,
+        "sentiment": 0.215
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "罗氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎呀，且住：指望儿夫回来，荣宗耀祖；谁知狂徒，反在桑园调戏于我，我若",
+          "rating": 0.2,
+          "role": "正旦"
+        },
+        {
+          "name": "秋母",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "媳妇醒来！",
+          "rating": 0.667,
+          "role": "老旦"
+        },
+        {
+          "name": "秋胡",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "救苦救难！阿弥陀佛！",
+          "rating": 0.429,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：3位角色，121行",
+      "firstLine": 1,
+      "lastLine": 121,
+      "numLines": 121,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.98,
+        "conflict": 0.088,
+        "sentiment": 0.318
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "秋胡",
+      "short": "秋胡",
+      "key": "秋胡",
+      "quote": "秋胡 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "罗氏",
+      "short": "罗氏",
+      "key": "罗氏",
+      "quote": "罗氏 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "秋母",
+      "short": "秋母",
+      "key": "秋母",
+      "quote": "秋母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

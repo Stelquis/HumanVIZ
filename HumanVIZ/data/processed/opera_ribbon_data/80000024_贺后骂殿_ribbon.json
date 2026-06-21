@@ -1,0 +1,359 @@
+{
+  "title": "贺后骂殿",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "80000024_贺后骂殿.json",
+  "source_folder": "80000000",
+  "plot_summary": "宋，赵光义继其兄赵匡胤帝位，贺后因夫赵匡胤死的不明，令长子赵德昭上殿质问。赵光义大怒，欲斩之，\n赵德昭撞死殿上。贺后携次子赵德芳上殿，历数赵光义之过，赵光义谢罪，赐贺后尚方剑，封入养老官，并\n封赵德芳为八贤王。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 87,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.349,
+      "importance": 1.0,
+      "locations": {
+        "应修造太庙": 3
+      },
+      "characters": {
+        "贺后": 1,
+        "赵德芳": 1,
+        "潘洪": 1,
+        "赵德昭": 1,
+        "赵光义": 1
+      },
+      "links": [
+        {
+          "source": "赵光义",
+          "target": "赵德昭",
+          "value": 1
+        },
+        {
+          "source": "潘洪",
+          "target": "赵德昭",
+          "value": 1
+        },
+        {
+          "source": "贺后",
+          "target": "赵德昭",
+          "value": 1
+        },
+        {
+          "source": "潘洪",
+          "target": "赵光义",
+          "value": 2
+        },
+        {
+          "source": "贺后",
+          "target": "赵光义",
+          "value": 2
+        },
+        {
+          "source": "潘洪",
+          "target": "贺后",
+          "value": 2
+        },
+        {
+          "source": "赵光义",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "贺后",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "潘洪",
+          "target": "赵德芳",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 9,
+      "summary": "第4场；第5场",
+      "conflict": 0.16,
+      "importance": 0.188,
+      "locations": {
+        "应修造太庙": 2
+      },
+      "characters": {
+        "潘洪": 1,
+        "赵光义": 1
+      },
+      "links": [
+        {
+          "source": "潘洪",
+          "target": "赵光义",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "应修造太庙",
+      "characters": [
+        {
+          "name": "贺后",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "老王不幸把命丧，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.55,
+        "conflict": 0.0,
+        "sentiment": 0.22
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "应修造太庙",
+      "characters": [
+        {
+          "name": "赵德昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "迈步且把金殿上，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "赵光义",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "大皇儿哭得甚惨伤，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "潘洪",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "万岁，江山只有争斗，哪有禅让之理？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "贺后",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "一见皇儿把命丧，",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：4位角色，49行",
+      "firstLine": 1,
+      "lastLine": 49,
+      "numLines": 49,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.253,
+        "sentiment": -0.124
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "应修造太庙",
+      "characters": [
+        {
+          "name": "赵光义",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "皇嫂！",
+          "rating": 0.111,
+          "role": "老生"
+        },
+        {
+          "name": "贺后",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "享荣华受富贵要它何用？",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "赵德芳",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "先王呀！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "潘洪",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "送国太。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第3场：4位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.0,
+        "sentiment": 0.225
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "应修造太庙",
+      "characters": [
+        {
+          "name": "赵光义",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "潘卿。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "潘洪",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "臣！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第4场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.613,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "应修造太庙",
+      "characters": [],
+      "summary": "第5场：0位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.05,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "贺后",
+      "short": "贺后",
+      "key": "贺后",
+      "quote": "贺后 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "赵光义",
+      "short": "赵光",
+      "key": "赵光义",
+      "quote": "赵光义 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "潘洪",
+      "short": "潘洪",
+      "key": "潘洪",
+      "quote": "潘洪 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "赵德芳",
+      "short": "赵德",
+      "key": "赵德芳",
+      "quote": "赵德芳 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵德昭",
+      "short": "赵德",
+      "key": "赵德昭",
+      "quote": "赵德昭 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "应修造太庙",
+      "key": "应修造太庙",
+      "quote": "场景发生在应修造太庙"
+    }
+  ]
+}

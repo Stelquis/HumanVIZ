@@ -1,0 +1,763 @@
+{
+  "title": "洛阳桥",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 16,
+  "num_locations": 3,
+  "source_file": "01011014_洛阳桥.json",
+  "source_folder": "01000000",
+  "plot_summary": "状元蔡襄，为母酬愿，舍金建造洛阳桥于海滨，桩不得入，乃想入非非，妄欲遣人下海，至龙宫投文。公役\n夏得海，因姓名与下得海谐音之故，误自应承，强被差遣，不得已乃拼命轰饮，醉卧海滩。不意竟然为海神\n引去，导至水晶宫，而见龙王，并承款待，卒于文书上批一醋字，盖指廿一日酉时可以破土见桩之意。夏得\n海醒后，喜极，即往复命。蔡襄即如其言，于廿一日动工，桩果得入土。以是，桥遂得落成。自此以后，则\n扮演三百六十行等杂戏，以为落成庆。",
+  "performance_notes": "前清同治初，宫中每喜观灯彩戏，盖其时孝钦爱戏之智识，尚甚幼稚，犹之寻常妇稚，只知看闹顽戏，而不\n知看做工戏也。此《洛阳桥》即灯戏中之一，相沿已久，当时坤班中即已盛演。其剧情纯系荒诞不经之举，\n徒博热闹耳。惟夏得海下海前一段唱做，仍一本昆派，尚有定程，余则均可随意增减，大略为其怪诞荒唐，\n诚不值识者一哂。海上各舞台茶园，每逢阴历新年，则必盛演此剧，其意盖本于元宵灯节，金吾不禁之旧例\n焉。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 38,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 1.16,
+      "importance": 0.341,
+      "locations": {
+        "大士上高台": 3
+      },
+      "characters": {
+        "游人丙": 1,
+        "蔡襄": 1,
+        "大士": 1,
+        "皂役": 1,
+        "游人甲": 1,
+        "龙女": 1,
+        "游人丁": 1,
+        "游人乙": 1
+      },
+      "links": [
+        {
+          "source": "大士",
+          "target": "龙女",
+          "value": 1
+        },
+        {
+          "source": "大士",
+          "target": "蔡襄",
+          "value": 1
+        },
+        {
+          "source": "蔡襄",
+          "target": "龙女",
+          "value": 1
+        },
+        {
+          "source": "皂役",
+          "target": "蔡襄",
+          "value": 1
+        },
+        {
+          "source": "游人乙",
+          "target": "游人甲",
+          "value": 1
+        },
+        {
+          "source": "游人丙",
+          "target": "游人甲",
+          "value": 1
+        },
+        {
+          "source": "游人丁",
+          "target": "游人甲",
+          "value": 1
+        },
+        {
+          "source": "游人丙",
+          "target": "游人乙",
+          "value": 1
+        },
+        {
+          "source": "游人丁",
+          "target": "游人乙",
+          "value": 1
+        },
+        {
+          "source": "游人丁",
+          "target": "游人丙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 287,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.617,
+      "importance": 1.0,
+      "locations": {
+        "大士上高台": 2,
+        "住我们洞府": 1
+      },
+      "characters": {
+        "吕洞宾": 1,
+        "蔡襄": 1,
+        "二海巡": 1,
+        "夏得海": 1,
+        "龙女": 1,
+        "店家": 1,
+        "水族": 1,
+        "龙王": 1,
+        "青袍甲": 1
+      },
+      "links": [
+        {
+          "source": "吕洞宾",
+          "target": "龙女",
+          "value": 1
+        },
+        {
+          "source": "蔡襄",
+          "target": "龙女",
+          "value": 1
+        },
+        {
+          "source": "吕洞宾",
+          "target": "蔡襄",
+          "value": 1
+        },
+        {
+          "source": "夏得海",
+          "target": "蔡襄",
+          "value": 1
+        },
+        {
+          "source": "蔡襄",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "蔡襄",
+          "value": 1
+        },
+        {
+          "source": "二海巡",
+          "target": "蔡襄",
+          "value": 1
+        },
+        {
+          "source": "蔡襄",
+          "target": "龙王",
+          "value": 1
+        },
+        {
+          "source": "夏得海",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "夏得海",
+          "target": "店家",
+          "value": 1
+        },
+        {
+          "source": "二海巡",
+          "target": "夏得海",
+          "value": 1
+        },
+        {
+          "source": "夏得海",
+          "target": "龙王",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "二海巡",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "青袍甲",
+          "target": "龙王",
+          "value": 1
+        },
+        {
+          "source": "二海巡",
+          "target": "店家",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "龙王",
+          "value": 1
+        },
+        {
+          "source": "二海巡",
+          "target": "龙王",
+          "value": 1
+        },
+        {
+          "source": "水族",
+          "target": "蔡襄",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.081,
+      "locations": {
+        "桥口看": 1
+      },
+      "characters": {
+        "众天将": 1,
+        "大士": 1
+      },
+      "links": [
+        {
+          "source": "众天将",
+          "target": "大士",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "大士上高台",
+      "characters": [
+        {
+          "name": "大士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "佛法天花，日展光华，是我家烧丹砂，九流归释家。",
+          "rating": 0.143,
+          "role": ""
+        },
+        {
+          "name": "龙女",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "菩萨。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "蔡襄",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：3位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.485,
+        "conflict": 0.0,
+        "sentiment": 0.286
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "大士上高台",
+      "characters": [
+        {
+          "name": "蔡襄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "萱恙复原，建长桥，酬谢心愿。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "皂役",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "禀老爷：祭礼人役俱已齐备。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.435,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "大士上高台",
+      "characters": [
+        {
+          "name": "游人甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "春城无出不飞花，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "游人乙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "寒食东风御柳斜。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "游人丙",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "日暮汉宫传蜡烛，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "游人丁",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "轻烟散入五侯家。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：4位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.316,
+        "conflict": 0.0,
+        "sentiment": -0.4
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "大士上高台",
+      "characters": [
+        {
+          "name": "龙女",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "离却了莲台下凡尘，",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "吕洞宾",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "站立云霄观分明，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "蔡襄",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：3位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.503,
+        "conflict": 1.0,
+        "sentiment": 0.143
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "大士上高台",
+      "characters": [
+        {
+          "name": "蔡襄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "奉老母严命，安桥梁，何日工竣。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "夏得海",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有，小的夏得海。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "青袍甲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "夏得海，来来来。你上哪里去？",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "店家",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "卖酒啊。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二海巡",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "海鬼海鬼，头上两个傀儡。头顶太行山，脚踏四海水。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "龙王",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "有请。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：6位角色，253行",
+      "firstLine": 1,
+      "lastLine": 253,
+      "numLines": 253,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.171,
+        "sentiment": 0.158
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "住我们洞府",
+      "characters": [
+        {
+          "name": "水族",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "报：今有海滩之上，建一洛阳桥长桥，挡住我们洞府，请令定夺。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蔡襄",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第六场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.422,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "桥口看",
+      "characters": [
+        {
+          "name": "大士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "天灵灵，地灵灵，众神将安在？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "众天将",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "菩萨有何法谕？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.224,
+        "conflict": 0.0,
+        "sentiment": 0.808
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "蔡襄",
+      "short": "蔡襄",
+      "key": "蔡襄",
+      "quote": "蔡襄 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "夏得海",
+      "short": "夏得",
+      "key": "夏得海",
+      "quote": "夏得海 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "青袍甲",
+      "short": "青袍",
+      "key": "青袍甲",
+      "quote": "青袍甲 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "游人丙",
+      "short": "游人",
+      "key": "游人丙",
+      "quote": "游人丙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "吕洞宾",
+      "short": "吕洞",
+      "key": "吕洞宾",
+      "quote": "吕洞宾 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大士",
+      "short": "大士",
+      "key": "大士",
+      "quote": "大士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二海巡",
+      "short": "二海",
+      "key": "二海巡",
+      "quote": "二海巡 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众天将",
+      "short": "众天",
+      "key": "众天将",
+      "quote": "众天将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "水族",
+      "short": "水族",
+      "key": "水族",
+      "quote": "水族 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "皂役",
+      "short": "皂役",
+      "key": "皂役",
+      "quote": "皂役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "游人甲",
+      "short": "游人",
+      "key": "游人甲",
+      "quote": "游人甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙女",
+      "short": "龙女",
+      "key": "龙女",
+      "quote": "龙女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "店家",
+      "short": "店家",
+      "key": "店家",
+      "quote": "店家 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "游人丁",
+      "short": "游人",
+      "key": "游人丁",
+      "quote": "游人丁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙王",
+      "short": "龙王",
+      "key": "龙王",
+      "quote": "龙王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "游人乙",
+      "short": "游人",
+      "key": "游人乙",
+      "quote": "游人乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "大士上高台",
+      "key": "大士上高台",
+      "quote": "场景发生在大士上高台"
+    },
+    {
+      "name": "桥口看",
+      "key": "桥口看",
+      "quote": "场景发生在桥口看"
+    },
+    {
+      "name": "住我们洞府",
+      "key": "住我们洞府",
+      "quote": "场景发生在住我们洞府"
+    }
+  ]
+}

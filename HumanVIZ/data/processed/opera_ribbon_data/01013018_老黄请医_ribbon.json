@@ -1,0 +1,236 @@
+{
+  "title": "老黄请医",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01013018_老黄请医.json",
+  "source_folder": "01000000",
+  "plot_summary": "昆剧《寻亲记》中有《请医》一出。系一客店主人名老王者，因其店中，有同来之男女二客。其男客忽然抱\n病不起。老王素知村中有医生名刘高手者，因即前往延请，为之诊治。全剧自请刘始，至诊毕送刘出为止，\n中间徒以插科打诨，形容三家村中之庸医为主，无甚曲折情节。",
+  "performance_notes": "此即以昆剧翻成京腔者，故其大概，与《寻亲记》中之《请医》同。两人科白问答，亦以昆剧为蓝本。惟\n“断去两太阳之箭头”，及“我是外科不是内科”等语，则系从苏滩中穿插而入。按诸昆曲中，此抱病之客，\n当即周瑞隆。此剧以李百岁为最擅名。其挖苦庸医之处，颇淋漓尽致。惜其京语不能改变，为一缺点。然在\n京津间，则固无此缺点矣。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 258,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "男客": 1,
+        "女客": 1,
+        "老黄": 1,
+        "刘高手": 1
+      },
+      "links": [
+        {
+          "source": "刘高手",
+          "target": "老黄",
+          "value": 1
+        },
+        {
+          "source": "女客",
+          "target": "老黄",
+          "value": 1
+        },
+        {
+          "source": "男客",
+          "target": "老黄",
+          "value": 1
+        },
+        {
+          "source": "刘高手",
+          "target": "女客",
+          "value": 1
+        },
+        {
+          "source": "刘高手",
+          "target": "男客",
+          "value": 1
+        },
+        {
+          "source": "女客",
+          "target": "男客",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.144,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "老黄": 1,
+        "刘高手": 1
+      },
+      "links": [
+        {
+          "source": "刘高手",
+          "target": "老黄",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "老黄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "高挂一盏灯，住的四方人。",
+          "rating": -0.429,
+          "role": "丑"
+        },
+        {
+          "name": "刘高手",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "哎！",
+          "rating": -0.5,
+          "role": "丑"
+        },
+        {
+          "name": "女客",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "有请。",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "男客",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：4位角色，258行",
+      "firstLine": 1,
+      "lastLine": 258,
+      "numLines": 258,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.062,
+        "sentiment": 0.038
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "老黄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "这儿有二十两银子送给先生的。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "刘高手",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我谢谢。我走啦。",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：2位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.636,
+        "conflict": 0.333,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘高手",
+      "short": "刘高",
+      "key": "刘高手",
+      "quote": "刘高手 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "老黄",
+      "short": "老黄",
+      "key": "老黄",
+      "quote": "老黄 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "女客",
+      "short": "女客",
+      "key": "女客",
+      "quote": "女客 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "男客",
+      "short": "男客",
+      "key": "男客",
+      "quote": "男客 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

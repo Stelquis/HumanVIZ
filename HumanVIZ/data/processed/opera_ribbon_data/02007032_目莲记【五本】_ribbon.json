@@ -1,0 +1,221 @@
+{
+  "title": "目莲记",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02007032_目莲记【五本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "刘青提死后，因在阳世，打僧骂道，恶贯满盈，每经一殿必有一阎罗拷打审问。《滑油山》一段，系在六殿\n审问羁押时之情形。六殿完后，移交七殿。七殿完后，移交八殿。本剧各节，即八殿平等王审问之情形也。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 114,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "鬼卒": 1,
+        "刘青提": 1,
+        "大鬼": 1,
+        "小鬼": 1,
+        "平等王": 1
+      },
+      "links": [
+        {
+          "source": "平等王",
+          "target": "鬼卒",
+          "value": 1
+        },
+        {
+          "source": "大鬼",
+          "target": "平等王",
+          "value": 1
+        },
+        {
+          "source": "小鬼",
+          "target": "平等王",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "平等王",
+          "value": 1
+        },
+        {
+          "source": "大鬼",
+          "target": "鬼卒",
+          "value": 1
+        },
+        {
+          "source": "小鬼",
+          "target": "鬼卒",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "鬼卒",
+          "value": 1
+        },
+        {
+          "source": "大鬼",
+          "target": "小鬼",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "大鬼",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "小鬼",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "平等王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "位呼宋帝，都坐曹宇，每爱释，冥法幽词，减撤严刑具。",
+          "rating": 0.333,
+          "role": "末"
+        },
+        {
+          "name": "鬼卒",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呕。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大鬼",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "走哇！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "小鬼",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "站住了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘青提",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "忽听得公差凶狠言，",
+          "rating": -0.75,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第1场：5位角色，114行",
+      "firstLine": 1,
+      "lastLine": 114,
+      "numLines": 114,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.296,
+        "sentiment": -0.248
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘青提",
+      "short": "刘青",
+      "key": "刘青提",
+      "quote": "刘青提 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "平等王",
+      "short": "平等",
+      "key": "平等王",
+      "quote": "平等王 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大鬼",
+      "short": "大鬼",
+      "key": "大鬼",
+      "quote": "大鬼 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "鬼卒",
+      "short": "鬼卒",
+      "key": "鬼卒",
+      "quote": "鬼卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小鬼",
+      "short": "小鬼",
+      "key": "小鬼",
+      "quote": "小鬼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

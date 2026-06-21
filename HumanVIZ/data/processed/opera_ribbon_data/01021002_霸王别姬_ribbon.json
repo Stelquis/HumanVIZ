@@ -1,0 +1,440 @@
+{
+  "title": "霸王别姬",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 7,
+  "num_locations": 3,
+  "source_file": "01021002_霸王别姬.json",
+  "source_folder": "01000000",
+  "plot_summary": "汉王刘邦与西楚霸王项羽互争天下。刘邦拜韩信为元帅，屯兵于九里山前，调度各路诸侯，十面埋伏。使李\n左车诈降于楚，诱项羽深入重地，围于垓下。张良又遍吹洞箫，命军卒学作楚歌，声韵凄凉。风送入楚营，\n而楚将楚兵闻之，皆动思乡之念。一夜之间，尽行解散；所未去者，止有八百余人，及周兰、恒楚二将。项\n羽无可如何，惟思冲出重围，以图再来。乃入帐中，与虞姬作别。虞姬即项羽之妻，历年战争，均在营中随\n侍。项羽逞举鼎拔山之勇，身经七十二战，战无不利，奈徒恃勇力，卒中韩信之计。势促时穷，不得不割舍\n此爱妻，以免拖带弱息之累。英雄气短，儿女情长。置酒与虞姬共饮，泣下数行，作歌以寄慨。虞姬亦歌而\n和之。黎明时，周兰、恒楚，催促动身。虞姬明知百万敌军，断非一弱女子所能出险，诳得项羽佩剑，立拼\n一死以断情丝。项羽幸无后顾之忧，逃至乌江口，亭长驾船相迎，项羽不肯渡江。盖自起义有八千子弟相从，\n至此无一生还，实无面目见江东父老。遂自刎焉，仍得与虞姬在地下结好合之缘也。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 92,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.471,
+      "importance": 1.0,
+      "locations": {
+        "命丧在彭城": 3
+      },
+      "characters": {
+        "虞姬": 1,
+        "太监": 1,
+        "四将": 1,
+        "军官": 1,
+        "项羽": 1
+      },
+      "links": [
+        {
+          "source": "虞姬",
+          "target": "项羽",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "项羽",
+          "value": 1
+        },
+        {
+          "source": "军官",
+          "target": "项羽",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "虞姬",
+          "value": 1
+        },
+        {
+          "source": "军官",
+          "target": "虞姬",
+          "value": 1
+        },
+        {
+          "source": "军官",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "项羽",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 87,
+      "summary": "第四场；第五场",
+      "conflict": 0.585,
+      "importance": 0.972,
+      "locations": {
+        "命丧在彭城": 1,
+        "千岁营": 1
+      },
+      "characters": {
+        "虞姬": 1,
+        "四将": 1,
+        "内侍": 1,
+        "渔夫": 1,
+        "项羽": 1
+      },
+      "links": [
+        {
+          "source": "虞姬",
+          "target": "项羽",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "虞姬",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "项羽",
+          "value": 1
+        },
+        {
+          "source": "渔夫",
+          "target": "项羽",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "项羽",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "渔夫",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "命丧在彭城",
+      "characters": [
+        {
+          "name": "项羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "为江山动干戈楚汉争胜，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "虞姬",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "大王何必悲叹？自古道：军家胜败，古之常理。想大王英雄盖世，武艺超群，",
+          "rating": -0.333,
+          "role": "小旦"
+        },
+        {
+          "name": "太监",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "军官",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "启大王：韩信带领十万之众将垓下团团围住了！",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第一场：4位角色，68行",
+      "firstLine": 1,
+      "lastLine": 68,
+      "numLines": 68,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.656,
+        "sentiment": 0.102
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "命丧在彭城",
+      "characters": [
+        {
+          "name": "四将",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "请了！吾等奉了韩元帅将令围困垓下，捉拿项羽，就此前往！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "项羽",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.377,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "命丧在彭城",
+      "characters": [
+        {
+          "name": "项羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "盖世英雄遭围困，",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "四将",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来在阵前把话论，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：2位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.484,
+        "conflict": 0.625,
+        "sentiment": -0.311
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "命丧在彭城",
+      "characters": [
+        {
+          "name": "虞姬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "晓妆梳洗乌云挽，",
+          "rating": 0.0,
+          "role": "小旦"
+        },
+        {
+          "name": "项羽",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "天意亡楚欲兴汉，",
+          "rating": -0.167,
+          "role": "净"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "启千岁：汉兵杀到营门来了！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：3位角色，66行",
+      "firstLine": 1,
+      "lastLine": 66,
+      "numLines": 66,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.992,
+        "sentiment": 0.151
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "千岁营",
+      "characters": [
+        {
+          "name": "项羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "弃甲曳兵出危险，",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "渔夫",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "那厢来的敢么是项王千岁？",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "四将",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "看项羽自刎，吾等将他首级割下献于韩元帅便了！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：3位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.499,
+        "conflict": 1.0,
+        "sentiment": -0.434
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "项羽",
+      "short": "项羽",
+      "key": "项羽",
+      "quote": "项羽 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "虞姬",
+      "short": "虞姬",
+      "key": "虞姬",
+      "quote": "虞姬 — 小旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "军官",
+      "short": "军官",
+      "key": "军官",
+      "quote": "军官 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "渔夫",
+      "short": "渔夫",
+      "key": "渔夫",
+      "quote": "渔夫 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四将",
+      "short": "四将",
+      "key": "四将",
+      "quote": "四将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内侍",
+      "short": "内侍",
+      "key": "内侍",
+      "quote": "内侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "命丧在彭城",
+      "key": "命丧在彭城",
+      "quote": "场景发生在命丧在彭城"
+    },
+    {
+      "name": "千岁营",
+      "key": "千岁营",
+      "quote": "场景发生在千岁营"
+    },
+    {
+      "name": "里逃出皇城",
+      "key": "里逃出皇城",
+      "quote": "场景发生在里逃出皇城"
+    }
+  ]
+}

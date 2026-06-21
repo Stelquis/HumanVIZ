@@ -1,0 +1,199 @@
+{
+  "title": "送花楼会",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01020011_送花楼会.json",
+  "source_folder": "01000000",
+  "plot_summary": "按旧小说《双珠凤》弹词，称襄阳霍天官之女霍定金才貌双全，号称才女。日者往文仙庵烧香还愿，在庵遗\n失珠凤一支。适被洛阳才子文必正所拾。文必正望见霍女姿容端丽，举止大方，先已万分渴慕。又被拾得珠\n凤。遂痴心以为天假良缘。因此霍氏小婢向前索凤时，文必正始则坚不肯还。继则定欲面见霍女，亲手交与。\n试问霍氏定金一青年闺秀，且系吏部府中小姐。当此庵观会场之中，岂肯觍然为此有关男女授受之举动，\n以犯嫌疑而玷门阀。遂不愿而返。然文必正则从此梦魂颠倒，坐卧不宁，于是想入非非。遂思得一卖身投靠\n之策，以图入府一见。遂有投倪私凤，先被倪阿凤占得头筹之卖靠一出。惟入府已久，讫不得尝，未能获见。\n至是霍老夫妇从韩府庆寿而回，带得韩氏园池中并蒂莲花一对。令霍兴（即文必正为霍氏奴之假名）送至\n内楼与小姐把玩。文必正得此使命，如膺宠赐，径自欣然恭送至内厅。先遇霍定金贴身婢秋华，说明来意。\n秋华以格于例不令上楼。文必正无奈，只得先将还凤情由及真姓名与秋华说破，并告知此来为求婚计，特再\n三央托。秋华婢子本可儿，亦怜才者。且知文氏本洛阳闻家，己身亦思染指其间，遂与转达霍定金。霍定金\n始闻之，大发娇怒。既而秋华怂恿，且劝以利害，于是俯首无词。亦只得悉从秋华旨。令其上楼私见。一见\n之后，自然惺惺惜惺惺，互相倾爱，虽不涉私，然已交换证物。穷终身自定矣。",
+  "performance_notes": "《送花楼会》为全本《双珠凤》之一出。在《卖身投靠》之后，与《投靠》一场同为全剧重要关子。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.217,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "文必正": 1,
+        "霍定金": 1
+      },
+      "links": [
+        {
+          "source": "文必正",
+          "target": "霍定金",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 164,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "秋华": 1,
+        "霍定金": 1,
+        "文必正": 1
+      },
+      "links": [
+        {
+          "source": "秋华",
+          "target": "霍定金",
+          "value": 1
+        },
+        {
+          "source": "文必正",
+          "target": "霍定金",
+          "value": 1
+        },
+        {
+          "source": "文必正",
+          "target": "秋华",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "文必正",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有意栽花花不活，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "霍定金",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：2位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.698,
+        "conflict": 1.0,
+        "sentiment": 0.347
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "霍定金",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "瑶琴弹罢身闷倦，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "秋华",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忽听小姐唤，急忙到跟前。",
+          "rating": 0.143,
+          "role": "贴旦"
+        },
+        {
+          "name": "文必正",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来在楼下抬头看，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，164行",
+      "firstLine": 1,
+      "lastLine": 164,
+      "numLines": 164,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.208,
+        "sentiment": 0.255
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "文必正",
+      "short": "文必",
+      "key": "文必正",
+      "quote": "文必正 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "霍定金",
+      "short": "霍定",
+      "key": "霍定金",
+      "quote": "霍定金 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "秋华",
+      "short": "秋华",
+      "key": "秋华",
+      "quote": "秋华 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

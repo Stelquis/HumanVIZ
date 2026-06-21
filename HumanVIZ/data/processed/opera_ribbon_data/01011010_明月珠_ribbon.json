@@ -1,0 +1,256 @@
+{
+  "title": "明月珠",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01011010_明月珠.json",
+  "source_folder": "01000000",
+  "plot_summary": "此剧系从昆剧《花园赠塔》剧翻演而出。本系《珍珠塔》弹词中事实，惟亦稍有不同处。全剧颇极简略，并\n无曲折。仅倩丫鬟彩屏，往请公子到园，当面赠以明珠一颗，并嘱努力试事，冀得高掇巍科而已。",
+  "performance_notes": "全剧以表情为主，按剧本尚无淫亵之处，洵得情之正者。惟演者至表情处，每易流入《遗翠花》、《花田错\n》等一种情形。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 39,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.959,
+      "locations": {
+        "了西厢月下": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "小姐": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "小姐",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 69,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "了西厢月下": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "小姐": 1,
+        "公子": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "小姐",
+          "value": 1
+        },
+        {
+          "source": "公子",
+          "target": "小姐",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "公子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.344,
+      "locations": {
+        "了西厢月下": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "公子": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "公子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "了西厢月下",
+      "characters": [
+        {
+          "name": "小姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "叫彩屏掌银灯西厢月下，",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "满天上雾沉沉云霄雾下，",
+          "rating": 0.2,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：2位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.888,
+        "conflict": 0.421,
+        "sentiment": 0.184
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "了西厢月下",
+      "characters": [
+        {
+          "name": "小姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "将身儿坐在了西厢月下，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "解元爷请吓。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "公子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "今夜晚夜明灯竹簾高挂，",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：3位角色，69行",
+      "firstLine": 1,
+      "lastLine": 69,
+      "numLines": 69,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.349,
+        "sentiment": 0.77
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "了西厢月下",
+      "characters": [
+        {
+          "name": "公子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "准备着三杯酒帽插宫花。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "解元爷你不要心慌意乱，",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.703,
+        "conflict": 0.0,
+        "sentiment": 0.182
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "小姐",
+      "short": "小姐",
+      "key": "小姐",
+      "quote": "小姐 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "公子",
+      "short": "公子",
+      "key": "公子",
+      "quote": "公子 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "了西厢月下",
+      "key": "了西厢月下",
+      "quote": "场景发生在了西厢月下"
+    }
+  ]
+}

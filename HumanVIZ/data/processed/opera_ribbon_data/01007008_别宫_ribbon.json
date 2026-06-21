@@ -1,0 +1,179 @@
+{
+  "title": "别宫",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01007008_别宫.json",
+  "source_folder": "01000000",
+  "plot_summary": "孙尚香自荆州回到东吴以后，听说刘备伐东吴失败，死于白帝城，痛不欲生。当即进宫辞别母后吴国太，到\n江边遥祭丈夫，祭后投江而死。",
+  "performance_notes": "《别宫祭江》本系一本两折，应连续演唱，其剧情方始完足。盖“别宫”者，原为“祭江”而别，因出场即\n去江边哭祭，于剧中关目，似少曲折，故先将《别宫》反衬，此编剧之本旨也。惟唱工冗长，前本西皮，后\n本转为二黄反调，演者颇嫌吃力。故近来每每仅演《祭江》，而不连《别宫》一段，亦积习使然。其剧情详\n《祭江》出中。此剧吴彩霞颇擅名，票友江梦花亦不弱。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 47,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.55,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙尚香": 1,
+        "宫女": 1
+      },
+      "links": [
+        {
+          "source": "孙尚香",
+          "target": "宫女",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 124,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙尚香": 1,
+        "吴国太": 1
+      },
+      "links": [
+        {
+          "source": "吴国太",
+          "target": "孙尚香",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙尚香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "身坐宫院，怎能消，终日愁闷。",
+          "rating": -0.143,
+          "role": "正旦"
+        },
+        {
+          "name": "宫女",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "参见公主。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.665,
+        "conflict": 0.267,
+        "sentiment": 0.009
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "吴国太",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一日偷闲一日安，",
+          "rating": 0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "孙尚香",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "宫娥女摆驾养老院，",
+          "rating": -0.231,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第二场：2位角色，124行",
+      "firstLine": 1,
+      "lastLine": 124,
+      "numLines": 124,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.43,
+        "sentiment": 0.182
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙尚香",
+      "short": "孙尚",
+      "key": "孙尚香",
+      "quote": "孙尚香 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "吴国太",
+      "short": "吴国",
+      "key": "吴国太",
+      "quote": "吴国太 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "宫女",
+      "short": "宫女",
+      "key": "宫女",
+      "quote": "宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

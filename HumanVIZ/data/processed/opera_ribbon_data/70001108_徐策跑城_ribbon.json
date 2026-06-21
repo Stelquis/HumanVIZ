@@ -1,0 +1,749 @@
+{
+  "title": "徐策跑城",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 9,
+  "num_locations": 2,
+  "source_file": "70001108_徐策跑城.json",
+  "source_folder": "70001000",
+  "plot_summary": "薛仁贵的后代被奸臣张泰等陷害，全家抄斩。同情薛家遭遇的徐策，用自己的孩儿代刑，换下了薛猛的孩儿\n薛蛟，将他抚养长大，叫他到韩山下书，约同他正在招兵买马的婶母纪鸾英发兵报仇。纪鸾英的丈夫薛刚原\n流亡在青龙会上聚集人马，欲图报仇，这时也到了韩山。大家见面以后，发兵进逼长安。徐策闻讯，喜极，\n不顾自己的衰老，亲上城楼观望。当允代为上殿奏本，要求皇帝杀张泰为薛家申冤；否则，就让大家杀入午\n门。见了薛家后代人物的英雄气概，老徐策竟高兴得连马也不骑，轿也不乘，急急忙忙地上朝奏本。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 10,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.131,
+      "locations": {
+        "院子同上城": 1
+      },
+      "characters": {
+        "薛刚": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 27,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.353,
+      "locations": {
+        "院子同上城": 1
+      },
+      "characters": {
+        "薛蛟": 1,
+        "薛葵": 1
+      },
+      "links": [
+        {
+          "source": "薛葵",
+          "target": "薛蛟",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 95,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "杀进京城": 1
+      },
+      "characters": {
+        "薛葵": 1,
+        "纪鸾英": 1,
+        "薛刚": 1,
+        "徐策": 1,
+        "韩龙": 1,
+        "韩虎": 1,
+        "薛蛟": 1
+      },
+      "links": [
+        {
+          "source": "纪鸾英",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "薛葵",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "薛刚",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "纪鸾英",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "韩虎",
+          "value": 1
+        },
+        {
+          "source": "薛蛟",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "薛葵",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "薛刚",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "薛蛟",
+          "target": "韩虎",
+          "value": 1
+        },
+        {
+          "source": "薛葵",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "薛刚",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "韩虎",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "薛刚",
+          "target": "薛葵",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛葵",
+          "value": 1
+        },
+        {
+          "source": "薛葵",
+          "target": "韩虎",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛刚",
+          "value": 1
+        },
+        {
+          "source": "薛刚",
+          "target": "韩虎",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "韩虎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 174,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "院子同上城": 1
+      },
+      "characters": {
+        "薛策": 1,
+        "薛葵": 1,
+        "纪鸾英": 1,
+        "院子": 1,
+        "薛刚": 1,
+        "徐策": 1,
+        "韩龙": 1,
+        "韩虎": 1,
+        "薛蛟": 1
+      },
+      "links": [
+        {
+          "source": "徐策",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛刚",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "纪鸾英",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛葵",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛策",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "韩虎",
+          "value": 1
+        },
+        {
+          "source": "薛蛟",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "薛刚",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "薛葵",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "薛策",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "院子",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "院子",
+          "target": "韩虎",
+          "value": 1
+        },
+        {
+          "source": "薛刚",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "薛葵",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "薛策",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "薛蛟",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "薛蛟",
+          "target": "韩虎",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "薛刚",
+          "value": 1
+        },
+        {
+          "source": "薛刚",
+          "target": "薛葵",
+          "value": 1
+        },
+        {
+          "source": "薛刚",
+          "target": "薛策",
+          "value": 1
+        },
+        {
+          "source": "薛刚",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "薛刚",
+          "target": "韩虎",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "薛葵",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "薛策",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "韩虎",
+          "value": 1
+        },
+        {
+          "source": "薛策",
+          "target": "薛葵",
+          "value": 1
+        },
+        {
+          "source": "薛葵",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "薛葵",
+          "target": "韩虎",
+          "value": 1
+        },
+        {
+          "source": "薛策",
+          "target": "韩龙",
+          "value": 1
+        },
+        {
+          "source": "薛策",
+          "target": "韩虎",
+          "value": 1
+        },
+        {
+          "source": "韩虎",
+          "target": "韩龙",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "院子同上城",
+      "characters": [
+        {
+          "name": "薛刚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "心中只把张泰恨，",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：1位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.516,
+        "conflict": 1.0,
+        "sentiment": -0.387
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "院子同上城",
+      "characters": [
+        {
+          "name": "薛葵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "山寨奉了母亲命，",
+          "rating": 1.0,
+          "role": "副净"
+        },
+        {
+          "name": "薛蛟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "马来。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：2位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.487,
+        "conflict": 0.0,
+        "sentiment": 0.788
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "杀进京城",
+      "characters": [
+        {
+          "name": "纪鸾英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "可恨奸贼太不仁，害我薛家一满门。韩山聚起人和马，要与薛家报冤恨。",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "薛蛟",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来此寨门。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "韩龙",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "你是做什么的？",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "薛葵",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "哎，母亲，你为何与他抱头痛哭？",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "薛刚",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "来此已是寨门。",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "徐策",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "韩虎",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第三场：7位角色，95行",
+      "firstLine": 1,
+      "lastLine": 95,
+      "numLines": 95,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.963,
+        "conflict": 0.34,
+        "sentiment": 0.15
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "院子同上城",
+      "characters": [
+        {
+          "name": "徐策",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "娇儿去搬兵，未见转回程。",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有事忙通报，无事不乱言。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "薛蛟",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "马不停蹄到柳林，",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "薛刚",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "忽听蛟儿一声请，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "纪鸾英",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "谢伯父。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "薛葵",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "薛策",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "那着为何？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "韩龙",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "韩虎",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第四场：9位角色，174行",
+      "firstLine": 1,
+      "lastLine": 174,
+      "numLines": 174,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.231,
+        "sentiment": 0.18
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐策",
+      "short": "徐策",
+      "key": "徐策",
+      "quote": "徐策 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛刚",
+      "short": "薛刚",
+      "key": "薛刚",
+      "quote": "薛刚 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "薛蛟",
+      "short": "薛蛟",
+      "key": "薛蛟",
+      "quote": "薛蛟 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛葵",
+      "short": "薛葵",
+      "key": "薛葵",
+      "quote": "薛葵 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "纪鸾英",
+      "short": "纪鸾",
+      "key": "纪鸾英",
+      "quote": "纪鸾英 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "韩龙",
+      "short": "韩龙",
+      "key": "韩龙",
+      "quote": "韩龙 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "韩虎",
+      "short": "韩虎",
+      "key": "韩虎",
+      "quote": "韩虎 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "薛策",
+      "short": "薛策",
+      "key": "薛策",
+      "quote": "薛策 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "院子同上城",
+      "key": "院子同上城",
+      "quote": "场景发生在院子同上城"
+    },
+    {
+      "name": "杀进京城",
+      "key": "杀进京城",
+      "quote": "场景发生在杀进京城"
+    }
+  ]
+}

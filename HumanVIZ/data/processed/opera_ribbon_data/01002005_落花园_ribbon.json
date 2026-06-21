@@ -1,0 +1,332 @@
+{
+  "title": "落花园",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01002005_落花园.json",
+  "source_folder": "01000000",
+  "plot_summary": "唐德宗时，卢杞为相，权倾朝野，惟以陷害忠良为事。时吐谷浑入寇，卢杞使陈杏元之父，拒之雁门关。因\n兵力单薄，大败。卢杞请唐德宗将其女杏元赐予番王求和，以赎丧师之罪。杏元已许字梅生，其父迫于君命，\n不得已允之。杏元痛哭就道，至落雁坡，投澜图尽。有神人化作旋风，吹至河南节度使邹伯符家园。适邹\n女云英游园见之，细询来历，杏元恐泻露机关，复遭不测，遂改名汪月英。邹女怜其漂泊无依，请母收为义\n女。邹母喜纳之。后卢杞事败，有名将浑瑊李晟等，大败吐谷浑，而杏元仍归梅生偕老焉。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 99,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 1.18,
+      "importance": 1.0,
+      "locations": {
+        "衣装上翠楼": 3
+      },
+      "characters": {
+        "陈杏元": 1,
+        "丫鬟": 1,
+        "邹母": 1,
+        "邹云英": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "邹云英",
+          "value": 2
+        },
+        {
+          "source": "邹云英",
+          "target": "陈杏元",
+          "value": 1
+        },
+        {
+          "source": "邹云英",
+          "target": "邹母",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "陈杏元",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "邹母",
+          "value": 1
+        },
+        {
+          "source": "邹母",
+          "target": "陈杏元",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 19,
+      "summary": "第4场；第5场",
+      "conflict": 0.209,
+      "importance": 0.322,
+      "locations": {
+        "衣装上翠楼": 2
+      },
+      "characters": {
+        "陈杏元": 1,
+        "邹云英": 1
+      },
+      "links": [
+        {
+          "source": "邹云英",
+          "target": "陈杏元",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "衣装上翠楼",
+      "characters": [
+        {
+          "name": "邹云英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "风吹铃儿响，荷花开满塘。",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.523,
+        "conflict": 0.0,
+        "sentiment": -0.4
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "衣装上翠楼",
+      "characters": [
+        {
+          "name": "邹云英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "奴家邹云英。爹爹邹伯符，现任河南八府巡按。母亲诰封夫人。是我未曾随父",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.453,
+        "conflict": 0.0,
+        "sentiment": 0.78
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "衣装上翠楼",
+      "characters": [
+        {
+          "name": "邹云英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "叫丫鬟看分明细对我说。",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启禀小姐：花园中有了妖怪了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陈杏元",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "苦吓！",
+          "rating": -0.333,
+          "role": "正旦"
+        },
+        {
+          "name": "邹母",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "我的儿请为娘有何根芽？",
+          "rating": 0.2,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第3场：4位角色，89行",
+      "firstLine": 1,
+      "lastLine": 89,
+      "numLines": 89,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.541,
+        "sentiment": 0.069
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "衣装上翠楼",
+      "characters": [
+        {
+          "name": "邹云英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "叫姐姐休得要珠泪嚎啕，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "陈杏元",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "蒙夫人与小姐恩高义好，",
+          "rating": 0.6,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第4场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.707,
+        "conflict": 0.0,
+        "sentiment": 0.631
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "衣装上翠楼",
+      "characters": [
+        {
+          "name": "陈杏元",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我的梅郎呀！",
+          "rating": 1.0,
+          "role": "正旦"
+        },
+        {
+          "name": "邹云英",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "姐姐来呀！",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第5场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.638,
+        "conflict": 1.0,
+        "sentiment": 0.84
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "陈杏元",
+      "short": "陈杏",
+      "key": "陈杏元",
+      "quote": "陈杏元 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "邹云英",
+      "short": "邹云",
+      "key": "邹云英",
+      "quote": "邹云英 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "邹母",
+      "short": "邹母",
+      "key": "邹母",
+      "quote": "邹母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "衣装上翠楼",
+      "key": "衣装上翠楼",
+      "quote": "场景发生在衣装上翠楼"
+    }
+  ]
+}

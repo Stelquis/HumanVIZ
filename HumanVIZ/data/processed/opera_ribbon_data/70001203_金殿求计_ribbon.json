@@ -1,0 +1,319 @@
+{
+  "title": "金殿求计",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70001203_金殿求计.json",
+  "source_folder": "70001000",
+  "plot_summary": "刘备取得西川以后，三国鼎足之势已成。孙权乘机命新任都督鲁肃设法索还荆州；在金殿上，东吴元老乔玄\n分析了当时天下大势，他认为这样必使孙、刘两家失和，予曹操以可乘之机。孙权不采纳乔玄的建议。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 207,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "鲁肃": 1,
+        "孙权": 1,
+        "乔玄": 1,
+        "小太监": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "大太监",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "小太监",
+          "value": 1
+        },
+        {
+          "source": "乔玄",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "小太监",
+          "value": 1
+        },
+        {
+          "source": "乔玄",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "小太监",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "乔玄",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "乔玄",
+          "target": "小太监",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.123,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "鲁肃": 1,
+        "乔玄": 1
+      },
+      "links": [
+        {
+          "source": "乔玄",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 4,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.055,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "鲁肃": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙权",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "中原大势三分鼎，霸主江东万代馨。",
+          "rating": 0.2,
+          "role": "净"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启奏千岁：鲁都督回朝。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "领旨！",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "小太监",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "启奏千岁：乔国老有本启奏。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "乔玄",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "领旨。",
+          "rating": 0.455,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：5位角色，207行",
+      "firstLine": 1,
+      "lastLine": 207,
+      "numLines": 207,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.334,
+        "sentiment": 0.224
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "乔玄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "他君臣不听良言告，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "你怕什么？",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.637,
+        "conflict": 0.0,
+        "sentiment": 0.22
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "鲁肃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "只说他上殿有高教，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.516,
+        "conflict": 0.0,
+        "sentiment": 0.24
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "乔玄",
+      "short": "乔玄",
+      "key": "乔玄",
+      "quote": "乔玄 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "鲁肃",
+      "short": "鲁肃",
+      "key": "鲁肃",
+      "quote": "鲁肃 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "孙权",
+      "short": "孙权",
+      "key": "孙权",
+      "quote": "孙权 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "小太监",
+      "short": "小太",
+      "key": "小太监",
+      "quote": "小太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

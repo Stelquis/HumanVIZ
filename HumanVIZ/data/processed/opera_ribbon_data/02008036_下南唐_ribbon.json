@@ -1,0 +1,633 @@
+{
+  "title": "下南唐",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 11,
+  "num_locations": 1,
+  "source_file": "02008036_下南唐.json",
+  "source_folder": "02000000",
+  "plot_summary": "高俊保保宋乾德皇帝，即宋太祖，下南唐游玩，被李颢王围困。适高俊保又得卸甲风寒病，不能应战。高俊\n保之妻刘金定，因高俊保外出，久无音信，正焚香祈祷时，香烟直起，神风忽起。刘金定乃算定高俊保得病。\n于是披甲上马，前往营救。及至南唐，卒将围兵击退，救出乾德皇帝，夫妇团圆云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 105,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.549,
+      "importance": 0.932,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "刘金定": 1,
+        "四手下": 1,
+        "刘母": 1,
+        "秦不及": 1,
+        "马童": 1,
+        "丫鬟": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "刘金定",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "马童",
+          "value": 3
+        },
+        {
+          "source": "丫鬟",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "刘母",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "刘母",
+          "target": "刘金定",
+          "value": 1
+        },
+        {
+          "source": "四手下",
+          "target": "秦不及",
+          "value": 1
+        },
+        {
+          "source": "四手下",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "四手下",
+          "value": 1
+        },
+        {
+          "source": "秦不及",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "秦不及",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 162,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.393,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "刘金定": 1,
+        "赵匡胤": 1,
+        "四御林军": 1,
+        "内侍": 1,
+        "马童": 1
+      },
+      "links": [
+        {
+          "source": "刘金定",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "赵匡胤",
+          "value": 2
+        },
+        {
+          "source": "刘金定",
+          "target": "四御林军",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "四御林军",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "四御林军",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "刘金定",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 71,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.63,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "二内侍": 1,
+        "高俊保": 1,
+        "刘金定": 1
+      },
+      "links": [
+        {
+          "source": "刘金定",
+          "target": "高俊保",
+          "value": 1
+        },
+        {
+          "source": "二内侍",
+          "target": "高俊保",
+          "value": 1
+        },
+        {
+          "source": "二内侍",
+          "target": "刘金定",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "将军一去杳无音，",
+          "rating": 0.2,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哦。",
+          "rating": 0.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "马童",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哦！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.4,
+        "conflict": 1.0,
+        "sentiment": 0.2
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "马童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "姑娘有请。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "刘金定离綉房披挂上阵，",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "刘母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我儿披挂何往？",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第二场：3位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.369,
+        "conflict": 0.0,
+        "sentiment": -0.349
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "四手下",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "喂喂，喂喂，嗯喂喂。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "秦不及",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大将来生盖世穷，",
+          "rating": -0.25,
+          "role": "丑"
+        },
+        {
+          "name": "马童",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "呔，姑娘！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "姓刘。",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第三场：4位角色，67行",
+      "firstLine": 1,
+      "lastLine": 67,
+      "numLines": 67,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.767,
+        "conflict": 0.629,
+        "sentiment": 0.104
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "想当初离龙巢千差万错，",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：1位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.525,
+        "conflict": 1.0,
+        "sentiment": -0.28
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "马童，前去问来。",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "马童",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "城楼下将官请了。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四御林军",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "吓吓。",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：4位角色，111行",
+      "firstLine": 1,
+      "lastLine": 111,
+      "numLines": 111,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.767,
+        "conflict": 0.265,
+        "sentiment": 0.113
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "女将醒来！",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "在阵前杀得我昏迷不醒，",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "万岁。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：3位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.614,
+        "conflict": 1.0,
+        "sentiment": -0.071
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "高俊保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "实指望下南唐与贼交战，",
+          "rating": -0.6,
+          "role": "小生"
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "迈步且把病房进，",
+          "rating": 0.2,
+          "role": "旦"
+        },
+        {
+          "name": "二内侍",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哦。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：3位角色，71行",
+      "firstLine": 1,
+      "lastLine": 71,
+      "numLines": 71,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.583,
+        "conflict": 0.82,
+        "sentiment": 0.172
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘金定",
+      "short": "刘金",
+      "key": "刘金定",
+      "quote": "刘金定 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "秦不及",
+      "short": "秦不",
+      "key": "秦不及",
+      "quote": "秦不及 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "高俊保",
+      "short": "高俊",
+      "key": "高俊保",
+      "quote": "高俊保 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘母",
+      "short": "刘母",
+      "key": "刘母",
+      "quote": "刘母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四手下",
+      "short": "四手",
+      "key": "四手下",
+      "quote": "四手下 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四御林军",
+      "short": "四御",
+      "key": "四御林军",
+      "quote": "四御林军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内侍",
+      "short": "内侍",
+      "key": "内侍",
+      "quote": "内侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马童",
+      "short": "马童",
+      "key": "马童",
+      "quote": "马童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二内侍",
+      "short": "二内",
+      "key": "二内侍",
+      "quote": "二内侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

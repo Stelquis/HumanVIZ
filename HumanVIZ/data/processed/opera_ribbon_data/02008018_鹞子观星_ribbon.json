@@ -1,0 +1,115 @@
+{
+  "title": "鹞子观星",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 2,
+  "num_locations": 2,
+  "source_file": "02008018_鹞子观星.json",
+  "source_folder": "02000000",
+  "plot_summary": "五代末东鲁王高行周，绰号高鹞子，镇守高平关。偶得一梦，有一红脸大汉，前来行刺。遂乘月明星朗，独\n登观星台，细观天象。见火龙星赶上白虎星，知己命当尽，赵氏必兴云。",
+  "performance_notes": "按此只是《观星》之一段，《挂印》与《高平关》二剧，不啻此剧之后段。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 85,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "观星台": 1
+      },
+      "characters": {
+        "高行周": 1,
+        "院子": 1
+      },
+      "links": [
+        {
+          "source": "院子",
+          "target": "高行周",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "观星台",
+      "characters": [
+        {
+          "name": "高行周",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "鹤发童颜，两鬓斑然。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "院子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "段落1：2位角色，85行",
+      "firstLine": 1,
+      "lastLine": 85,
+      "numLines": 85,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.194,
+        "sentiment": 0.683
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "高行周",
+      "short": "高行",
+      "key": "高行周",
+      "quote": "高行周 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "观星台",
+      "key": "观星台",
+      "quote": "场景发生在观星台"
+    },
+    {
+      "name": "掌灯观星台",
+      "key": "掌灯观星台",
+      "quote": "场景发生在掌灯观星台"
+    }
+  ]
+}

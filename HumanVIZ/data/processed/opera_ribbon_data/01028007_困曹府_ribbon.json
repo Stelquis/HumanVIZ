@@ -1,0 +1,404 @@
+{
+  "title": "困曹府",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01028007_困曹府.json",
+  "source_folder": "01000000",
+  "plot_summary": "赵匡胤（即宋朝太祖）少年时喜动而不喜静，家庭不能管束。自大闹御勾栏之后，背父母，离乡井，无一日\n宁居。小说家所谓“闯关东，走关西”者是也。然而捉拿之榜文到处悬挂，匡胤又生有肉瘤，易于辨认。住\n宿曹彬家，与曹彬闲步关前，欲借此脱身，几为关吏所缚，幸曹彬嫂张氏误认为丈夫归来，上前呼唤，方不\n致入于陷阱。张氏羞耻殊甚，回房自缢。将及夜半，其灵魂直至赵匡胤榻前，陈诉枉死情由。赵匡胤感念救\n命之恩，封为华山老母，世世飨人间福食。又梦中见华佗仙师，将肉瘤割净，且为之用药医治，绝无踪迹，\n更属欣喜无限。翌日，乃与曹彬定计，诳出关门焉。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 101,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.471,
+      "importance": 1.0,
+      "locations": {
+        "关前": 3
+      },
+      "characters": {
+        "赵匡胤": 1,
+        "院子": 1,
+        "张氏": 1,
+        "曹彬": 1,
+        "华佗": 1
+      },
+      "links": [
+        {
+          "source": "曹彬",
+          "target": "赵匡胤",
+          "value": 2
+        },
+        {
+          "source": "曹彬",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "张氏",
+          "target": "赵匡胤",
+          "value": 2
+        },
+        {
+          "source": "张氏",
+          "target": "曹彬",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "张氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 70,
+      "summary": "第4场；第5场",
+      "conflict": 0.112,
+      "importance": 0.819,
+      "locations": {
+        "关前": 2
+      },
+      "characters": {
+        "华佗": 1,
+        "曹彬": 1,
+        "赵匡胤": 1,
+        "张氏": 1
+      },
+      "links": [
+        {
+          "source": "曹彬",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "张氏",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "曹彬",
+          "value": 1
+        },
+        {
+          "source": "张氏",
+          "target": "曹彬",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "张氏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "关前",
+      "characters": [
+        {
+          "name": "曹彬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "打开玉笼飞彩凤，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "蹬断金锁走蛟龙。",
+          "rating": 1.0,
+          "role": "红生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.569,
+        "conflict": 0.0,
+        "sentiment": 0.792
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "关前",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "贤弟，时才在关前，被崔浩那厮，差人捉拿于我。若非嫂嫂张氏，叫我一声丈",
+          "rating": -0.429,
+          "role": "红生"
+        },
+        {
+          "name": "曹彬",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "此乃是仁兄洪福，有道是吉人自有天相也。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "张氏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "谯楼上打罢二更尽，",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：3位角色，48行",
+      "firstLine": 1,
+      "lastLine": 48,
+      "numLines": 48,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.58,
+        "sentiment": 0.329
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "关前",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "张氏生来太奇情，",
+          "rating": 1.0,
+          "role": "红生"
+        },
+        {
+          "name": "华佗",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在洞中奉了玉帝令，",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "张氏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "飘飘荡荡风一阵，",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：3位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.786,
+        "conflict": 0.0,
+        "sentiment": 0.8
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "关前",
+      "characters": [
+        {
+          "name": "曹彬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "时才间朦胧方睡醒，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第4场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.517,
+        "conflict": 0.0,
+        "sentiment": 0.248
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "关前",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "昨夜晚三更得一梦，",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "曹彬",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "时才家院报一信，",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "华佗",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "张氏",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第5场：4位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.825,
+        "sentiment": 0.136
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹彬",
+      "short": "曹彬",
+      "key": "曹彬",
+      "quote": "曹彬 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张氏",
+      "short": "张氏",
+      "key": "张氏",
+      "quote": "张氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "华佗",
+      "short": "华佗",
+      "key": "华佗",
+      "quote": "华佗 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "关前",
+      "key": "关前",
+      "quote": "场景发生在关前"
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "title": "画兰",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "13003008_画兰.json",
+  "source_folder": "13000000",
+  "plot_summary": "王伯谷访名妓马湘兰，观其画兰，题诗于画上。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 67,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "马湘兰": 1,
+        "众妓女": 1,
+        "王伯谷": 1,
+        "小环": 1
+      },
+      "links": [
+        {
+          "source": "小环",
+          "target": "王伯谷",
+          "value": 1
+        },
+        {
+          "source": "小环",
+          "target": "马湘兰",
+          "value": 1
+        },
+        {
+          "source": "众妓女",
+          "target": "小环",
+          "value": 1
+        },
+        {
+          "source": "王伯谷",
+          "target": "马湘兰",
+          "value": 1
+        },
+        {
+          "source": "众妓女",
+          "target": "王伯谷",
+          "value": 1
+        },
+        {
+          "source": "众妓女",
+          "target": "马湘兰",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 51,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "马湘兰": 1,
+        "王伯谷": 1,
+        "小环": 1
+      },
+      "links": [
+        {
+          "source": "王伯谷",
+          "target": "马湘兰",
+          "value": 1
+        },
+        {
+          "source": "小环",
+          "target": "王伯谷",
+          "value": 1
+        },
+        {
+          "source": "小环",
+          "target": "马湘兰",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 22,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.471,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "马湘兰": 1,
+        "王伯谷": 1
+      },
+      "links": [
+        {
+          "source": "王伯谷",
+          "target": "马湘兰",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "小环",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "王伯谷",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "甚风儿吹得我心摇扬，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "马湘兰",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来了！",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "众妓女",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "翰墨久名扬，",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：4位角色，67行",
+      "firstLine": 1,
+      "lastLine": 67,
+      "numLines": 67,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.444,
+        "sentiment": 0.543
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王伯谷",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我的酒多被她们闹醒了。",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "马湘兰",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "何不再饮几杯？",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "小环",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来了！",
+          "rating": -1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：3位角色，51行",
+      "firstLine": 1,
+      "lastLine": 51,
+      "numLines": 51,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.367,
+        "sentiment": 0.076
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "马湘兰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "相公请！",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "王伯谷",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "请！干！",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第3场：2位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.741,
+        "conflict": 0.37,
+        "sentiment": 0.363
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "马湘兰",
+      "short": "马湘",
+      "key": "马湘兰",
+      "quote": "马湘兰 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王伯谷",
+      "short": "王伯",
+      "key": "王伯谷",
+      "quote": "王伯谷 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "小环",
+      "short": "小环",
+      "key": "小环",
+      "quote": "小环 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "众妓女",
+      "short": "众妓",
+      "key": "众妓女",
+      "quote": "众妓女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "title": "取西川",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 8,
+  "num_locations": 2,
+  "source_file": "02004004_取西川.json",
+  "source_folder": "02000000",
+  "plot_summary": "张飞攻打西川，守将严颜，骁勇善战，不能取胜。最后用诸葛亮之计，先令另一人假装张飞，与严颜交战，\n然后自己抄袭后路，始得将严颜生擒。张飞亲为严颜解绑，并跪在地下，求严颜归降。严颜激于义气，遂归\n降汉营。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 127,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.425,
+      "importance": 1.0,
+      "locations": {
+        "探信未回营": 3
+      },
+      "characters": {
+        "兵卒": 1,
+        "八卒": 1,
+        "二老军": 1,
+        "张飞": 1,
+        "老军乙": 1,
+        "老军甲": 1,
+        "严颜": 1
+      },
+      "links": [
+        {
+          "source": "八卒",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "兵卒",
+          "value": 2
+        },
+        {
+          "source": "严颜",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "兵卒",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "严颜",
+          "target": "二老军",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "老军甲",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "老军乙",
+          "value": 1
+        },
+        {
+          "source": "二老军",
+          "target": "兵卒",
+          "value": 1
+        },
+        {
+          "source": "兵卒",
+          "target": "老军甲",
+          "value": 1
+        },
+        {
+          "source": "兵卒",
+          "target": "老军乙",
+          "value": 1
+        },
+        {
+          "source": "二老军",
+          "target": "老军甲",
+          "value": 1
+        },
+        {
+          "source": "二老军",
+          "target": "老军乙",
+          "value": 1
+        },
+        {
+          "source": "二老军",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "老军乙",
+          "target": "老军甲",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "老军甲",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "老军乙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 143,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.873,
+      "importance": 1.0,
+      "locations": {
+        "营盘自解自叹": 1,
+        "探信未回营": 2
+      },
+      "characters": {
+        "徐大汗": 1,
+        "兵卒": 1,
+        "二老军": 1,
+        "张飞": 1,
+        "严颜": 1
+      },
+      "links": [
+        {
+          "source": "二老军",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "兵卒",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "徐大汗",
+          "value": 2
+        },
+        {
+          "source": "严颜",
+          "target": "张飞",
+          "value": 3
+        },
+        {
+          "source": "二老军",
+          "target": "兵卒",
+          "value": 1
+        },
+        {
+          "source": "二老军",
+          "target": "徐大汗",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "二老军",
+          "value": 2
+        },
+        {
+          "source": "兵卒",
+          "target": "徐大汗",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "兵卒",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "徐大汗",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 66,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.589,
+      "locations": {
+        "探信未回营": 1
+      },
+      "characters": {
+        "严颜": 1,
+        "兵卒": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "兵卒",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "兵卒",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "探信未回营",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "铁甲玲珑背，青巾压豹头。胯下乌骓马，手提丈八矛。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "八卒",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.421,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "探信未回营",
+      "characters": [
+        {
+          "name": "严颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "白盔白甲素白旗，白旗招展似雪飞。胯下能行如白虎，要擒汉室猛张飞。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "兵卒",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "哈哈哈！",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：3位角色，78行",
+      "firstLine": 1,
+      "lastLine": 78,
+      "numLines": 78,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.776,
+        "conflict": 0.39,
+        "sentiment": 0.304
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "探信未回营",
+      "characters": [
+        {
+          "name": "严颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一箭射去叮当响，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "兵卒",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二老军",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来了。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "老军甲",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "老是老了，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "老军乙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "再也不能小了。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：6位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.676,
+        "conflict": 0.211,
+        "sentiment": -0.121
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "营盘自解自叹",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "张翼德在营盘自解自叹，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "二老军",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "阿弥陀佛。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "兵卒",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启千岁：有奸细。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐大汗",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "来了。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "严颜",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：5位角色，105行",
+      "firstLine": 1,
+      "lastLine": 105,
+      "numLines": 105,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.981,
+        "conflict": 0.243,
+        "sentiment": 0.47
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "探信未回营",
+      "characters": [
+        {
+          "name": "严颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "老军探信未回营，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "二老军",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "小人们叩头。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：3位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.615,
+        "conflict": 0.606,
+        "sentiment": 0.4
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "探信未回营",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "月影儿照不出路高低，",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "徐大汗",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "有。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "严颜",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来将通名。",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第六场：3位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.754,
+        "conflict": 0.889,
+        "sentiment": -0.403
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "探信未回营",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "三军的，严颜拿住了？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "兵卒",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "拿住了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "严颜",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "呔，张飞匹夫！使用诡计，算不得英雄好汉。",
+          "rating": 0.6,
+          "role": "老生"
+        }
+      ],
+      "summary": "第七场：3位角色，66行",
+      "firstLine": 1,
+      "lastLine": 66,
+      "numLines": 66,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.743,
+        "conflict": 0.704,
+        "sentiment": 0.282
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "严颜",
+      "short": "严颜",
+      "key": "严颜",
+      "quote": "严颜 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "徐大汗",
+      "short": "徐大",
+      "key": "徐大汗",
+      "quote": "徐大汗 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "兵卒",
+      "short": "兵卒",
+      "key": "兵卒",
+      "quote": "兵卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八卒",
+      "short": "八卒",
+      "key": "八卒",
+      "quote": "八卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二老军",
+      "short": "二老",
+      "key": "二老军",
+      "quote": "二老军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老军乙",
+      "short": "老军",
+      "key": "老军乙",
+      "quote": "老军乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老军甲",
+      "short": "老军",
+      "key": "老军甲",
+      "quote": "老军甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "探信未回营",
+      "key": "探信未回营",
+      "quote": "场景发生在探信未回营"
+    },
+    {
+      "name": "营盘自解自叹",
+      "key": "营盘自解自叹",
+      "quote": "场景发生在营盘自解自叹"
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "title": "凤鸣关",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 13,
+  "num_locations": 1,
+  "source_file": "03090004_凤鸣关.json",
+  "source_folder": "03000000",
+  "plot_summary": "诸葛亮领兵攻取凤鸣关。赵云请令，诸葛亮恐赵云年迈有失，不令出战，赵云坚决欲行，出兵后，果斩韩德\n父子五人落马。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 126,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.198,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "赵云": 1,
+        "二红龙套": 1,
+        "四红龙套": 1,
+        "四白龙套": 1,
+        "马岱": 1,
+        "诸葛亮": 1,
+        "魏延": 1,
+        "邓芝": 1
+      },
+      "links": [
+        {
+          "source": "诸葛亮",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "诸葛亮",
+          "value": 2
+        },
+        {
+          "source": "赵云",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "四白龙套",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "二红龙套",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "二红龙套",
+          "target": "四红龙套",
+          "value": 1
+        },
+        {
+          "source": "马岱",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "二红龙套",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "二红龙套",
+          "target": "魏延",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 42,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.204,
+      "importance": 0.774,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "赵云": 1,
+        "韩德": 1,
+        "韩琪": 1,
+        "邓芝": 1
+      },
+      "links": [
+        {
+          "source": "韩德",
+          "target": "韩琪",
+          "value": 1
+        },
+        {
+          "source": "邓芝",
+          "target": "韩德",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "韩德",
+          "value": 1
+        },
+        {
+          "source": "邓芝",
+          "target": "韩琪",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "韩琪",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "邓芝",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 49,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.333,
+      "importance": 0.903,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "报子": 1,
+        "赵云": 1,
+        "韩德": 1,
+        "韩琼": 1,
+        "四龙套": 1,
+        "诸葛亮": 1
+      },
+      "links": [
+        {
+          "source": "赵云",
+          "target": "韩琼",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "韩琼",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "韩德",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "韩德",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "韩德",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "赵云",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "天为阳来地为阴，九宫八卦腹内存。我今奉了幼主命，一战成功取凤鸣。",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "邓芝",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "在。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "赵云",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "且慢！",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "四红龙套",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，81行",
+      "firstLine": 1,
+      "lastLine": 81,
+      "numLines": 81,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.924,
+        "conflict": 0.261,
+        "sentiment": 0.26
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵云",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "三国纷纷刀兵动，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "四白龙套",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.539,
+        "conflict": 0.0,
+        "sentiment": 0.458
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "前导为何不行？",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "四红龙套",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来在沔阳界。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马岱",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "启丞相：来此沔阳地界。我兄马超坟墓在此，末将要讨祭。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "魏延",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "在！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二红龙套",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.586,
+        "conflict": 0.27,
+        "sentiment": 0.433
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "韩德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "某，韩德。赵云老儿兴兵前来，岂肯容他猖狂。",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "韩琪",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "邓芝",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "俺乃赵老将军麾下前部先锋，邓芝是也！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵云",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：4位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.547,
+        "conflict": 0.645,
+        "sentiment": -0.01
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵云",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "老夫兴兵谁不怕？",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "邓芝",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来在营门下战马，",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：2位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.55,
+        "conflict": 1.0,
+        "sentiment": 0.043
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵云",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "邓芝，你看我老也不老？",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "邓芝",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "将军不老！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.519,
+        "conflict": 1.0,
+        "sentiment": 0.194
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵云",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "杀了一个又一个，",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第七场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.561,
+        "conflict": 1.0,
+        "sentiment": -0.39
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "韩琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "二位兄长把命丧，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "赵云",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "老夫接箭不慌也不忙。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第八场：3位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.764,
+        "conflict": 0.588,
+        "sentiment": -0.083
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "报子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "报！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "韩德",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "啊，不好了！",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵云",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "二马连环疆场上，",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第九场：4位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.561,
+        "conflict": 0.465,
+        "sentiment": -0.057
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵云",
+      "short": "赵云",
+      "key": "赵云",
+      "quote": "赵云 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二红龙套",
+      "short": "二红",
+      "key": "二红龙套",
+      "quote": "二红龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "韩德",
+      "short": "韩德",
+      "key": "韩德",
+      "quote": "韩德 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四红龙套",
+      "short": "四红",
+      "key": "四红龙套",
+      "quote": "四红龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四白龙套",
+      "short": "四白",
+      "key": "四白龙套",
+      "quote": "四白龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "韩琪",
+      "short": "韩琪",
+      "key": "韩琪",
+      "quote": "韩琪 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "韩琼",
+      "short": "韩琼",
+      "key": "韩琼",
+      "quote": "韩琼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马岱",
+      "short": "马岱",
+      "key": "马岱",
+      "quote": "马岱 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "魏延",
+      "short": "魏延",
+      "key": "魏延",
+      "quote": "魏延 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "邓芝",
+      "short": "邓芝",
+      "key": "邓芝",
+      "quote": "邓芝 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

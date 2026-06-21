@@ -1,0 +1,471 @@
+{
+  "title": "大保国",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "14001009_大保国.json",
+  "source_folder": "14000000",
+  "plot_summary": "明穆宗驾崩，太子万历帝年幼，当由李后艳妃临朝听政。李后的父亲李良心怀叛逆，想用甘言诱惑李后，假\n说太子年幼不能临朝，女皇垂帘听政诸多不便，不如将江山暂时付他执掌，且候幼主长成，那时再行归还就\n是。李后竟听信了他的话，预备实行让位。满朝文武都不敢反对，只有兵部侍郎杨波和中山王裔孙徐延昭二\n人，识破李良的奸谋，入宫当面向李后进谏。二人虽然力争，李后仍是执迷不悟。徐延昭愤极，把太祖所赐\n的铜锤取出，向李良痛打。李后也没奈何他。如是各人，就是这样不欢而散。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 326,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.384,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "太监甲": 1,
+        "徐延昭": 1,
+        "李后": 1,
+        "众臣": 1,
+        "徐彦昭": 1,
+        "杨波": 1,
+        "李良": 1
+      },
+      "links": [
+        {
+          "source": "太监甲",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "李后",
+          "target": "李良",
+          "value": 3
+        },
+        {
+          "source": "众臣",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "李后",
+          "target": "杨波",
+          "value": 2
+        },
+        {
+          "source": "徐延昭",
+          "target": "李后",
+          "value": 2
+        },
+        {
+          "source": "太监甲",
+          "target": "李良",
+          "value": 1
+        },
+        {
+          "source": "众臣",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "徐延昭",
+          "value": 1
+        },
+        {
+          "source": "众臣",
+          "target": "李良",
+          "value": 1
+        },
+        {
+          "source": "李良",
+          "target": "杨波",
+          "value": 2
+        },
+        {
+          "source": "徐延昭",
+          "target": "李良",
+          "value": 2
+        },
+        {
+          "source": "众臣",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "众臣",
+          "target": "徐延昭",
+          "value": 1
+        },
+        {
+          "source": "徐延昭",
+          "target": "杨波",
+          "value": 2
+        },
+        {
+          "source": "徐延昭",
+          "target": "徐彦昭",
+          "value": 1
+        },
+        {
+          "source": "徐彦昭",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "徐彦昭",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "徐彦昭",
+          "target": "李良",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 6,
+      "summary": "第4场；第5场",
+      "conflict": 0.56,
+      "importance": 0.036,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "杨波": 1,
+        "李良": 1
+      },
+      "links": [
+        {
+          "source": "李良",
+          "target": "杨波",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李后",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "珠帘高卷，金钩高挂，黄罗伞罩定哀家。",
+          "rating": 0.6,
+          "role": "正旦"
+        },
+        {
+          "name": "太监甲",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "领旨。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "李良",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "李良有本启奏。",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "众臣",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "太师到此何事？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "杨波",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "且慢！",
+          "rating": 0.556,
+          "role": "老生"
+        },
+        {
+          "name": "徐延昭",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "且慢！",
+          "rating": 0.333,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：6位角色，276行",
+      "firstLine": 1,
+      "lastLine": 276,
+      "numLines": 276,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.2,
+        "sentiment": 0.306
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "功劳簿哪有国太令尊？",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "李后",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "江山本是先皇挣，",
+          "rating": -1.0,
+          "role": "正旦"
+        },
+        {
+          "name": "杨波",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "千岁，自盘古以来，哪有臣打君的道理？",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "徐彦昭",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "咳！你我忠心报国，落得奸党二字。你我暂退朝房，看哪个敢坐江山，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "李良",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第2场：5位角色，44行",
+      "firstLine": 1,
+      "lastLine": 44,
+      "numLines": 44,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.859,
+        "conflict": 0.0,
+        "sentiment": 0.634
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李良",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "两个大大的奸臣！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "李后",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "太师进位。",
+          "rating": -1.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第3场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.372,
+        "conflict": 1.0,
+        "sentiment": 0.25
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李良",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "喜呵呵来笑哈哈，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "杨波",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第4场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.364,
+        "conflict": 1.0,
+        "sentiment": 0.56
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第5场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.007,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐延昭",
+      "short": "徐延",
+      "key": "徐延昭",
+      "quote": "徐延昭 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨波",
+      "short": "杨波",
+      "key": "杨波",
+      "quote": "杨波 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李后",
+      "short": "李后",
+      "key": "李后",
+      "quote": "李后 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李良",
+      "short": "李良",
+      "key": "李良",
+      "quote": "李良 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "太监甲",
+      "short": "太监",
+      "key": "太监甲",
+      "quote": "太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众臣",
+      "short": "众臣",
+      "key": "众臣",
+      "quote": "众臣 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "徐彦昭",
+      "short": "徐彦",
+      "key": "徐彦昭",
+      "quote": "徐彦昭 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

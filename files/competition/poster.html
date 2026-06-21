@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>梨园万象——京剧剧本多维可视分析系统</title>
+<style>
+/* ================================================================
+   梨园万象 · 作品代表性图片  —  ChinaVis 2026 赛道 1-I
+   架构信息有机融入，非独立模块
+   设计：学术海报体系，六色梨园配色
+   ================================================================ */
+
+:root {
+  --paper:     #F6F1E7;
+  --silk:      #E9DFC9;
+  --gold:      #B89B6D;
+  --water:     #7F968D;
+  --slate:     #5E6B76;
+  --vermilion: #96544D;
+  --text:      #3C3732;
+  --text-soft: #6E6860;
+  --shadow:    0 2px 12px rgba(94,107,118,0.09);
+  --font-song: "Noto Serif SC", "Songti SC", "STSong", serif;
+  --font-sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; -webkit-font-smoothing: antialiased; background: var(--silk); overflow-x: auto; }
+body { background: var(--paper); color: var(--text); font-family: var(--font-sans); min-width: 1640px; }
+.poster { width: 1640px; margin: 0 auto; background: var(--paper); }
+
+/* ── Typography ── */
+.poster-title { font-family: var(--font-song); font-size: 36px; font-weight: 700; letter-spacing: 0.05em; text-align: center; }
+.poster-title .hl { color: var(--vermilion); }
+.phase-head { display: flex; align-items: center; gap: 10px; padding: 0 0 8px; border-bottom: 1px solid rgba(184,155,109,0.25); margin-bottom: 14px; }
+.phase-icon { font-size: 24px; line-height: 1; flex-shrink: 0; }
+.phase-label { font-family: var(--font-song); font-size: 20px; font-weight: 700; color: var(--gold); letter-spacing: 0.04em; }
+.phase-tag { font-size: 14px; color: var(--water); background: rgba(127,150,141,0.08); padding: 2px 8px; border-radius: 3px; margin-left: auto; }
+.cap { font-size: 14px; color: var(--text-soft); text-align: center; }
+.fig-num { font-size: 13px; color: var(--water); font-weight: 600; letter-spacing: 0.03em; }
+
+/* ── Method badge ── */
+.method-badge {
+  display: inline-block;
+  font-size: 11px; font-weight: 500;
+  color: var(--slate);
+  background: rgba(94,107,118,0.07);
+  padding: 1px 6px; border-radius: 3px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+/* ── Ornament ── */
+.ornament { display: flex; align-items: center; gap: 14px; justify-content: center; }
+.orn-line { width: 56px; height: 1px; background: #B89B6D; opacity: 0.45; flex-shrink: 0; }
+
+/* ── Image card ── */
+.img-card { background: #fff; border: 1px solid rgba(0,0,0,0.06); border-radius: 6px; padding: 7px; box-shadow: var(--shadow); font-size: 0; }
+.img-card img { width: 100%; height: auto; display: block; border-radius: 3px; }
+
+/* ── Sections ── */
+.sec { padding: 24px 48px; }
+
+/* ── Divider ── */
+.phase-divider { height: 1px; margin: 0 48px; background-color: rgba(184,155,109,0.18); }
+
+/* ── Pipeline (thin ribbon style) ── */
+.pipe-ribbon {
+  display: flex; align-items: center; justify-content: center; gap: 0;
+  padding: 8px 0; margin-bottom: 14px;
+  background: linear-gradient(90deg, rgba(233,223,201,0) 0%, rgba(233,223,201,0.5) 20%, rgba(233,223,201,0.5) 80%, rgba(233,223,201,0) 100%);
+  border-radius: 4px;
+}
+.pipe-node { font-size: 13px; color: var(--slate); padding: 4px 12px; }
+.pipe-node b { color: var(--gold); font-weight: 600; font-size: 12px; }
+.pipe-sep { font-size: 14px; color: var(--gold); padding: 0 5px; }
+
+/* ── Grids ── */
+.grid3-prop { display: grid; grid-template-columns: 44.2fr 35.8fr 20fr; gap: 18px; }
+
+/* ═══════════════════════ PHASE 1 ═══════════════════════ */
+.phase1 {
+  padding: 40px 48px 24px;
+  background-color: #F3EDDF;
+  background-image: radial-gradient(ellipse 900px 340px at 50% 45%, rgba(184,155,109,0.07) 0%, rgba(246,241,231,0) 70%);
+}
+.p1-sub { display: grid; grid-template-columns: 48.8fr 51.2fr; gap: 20px; width: 94%; margin: 0 auto; }
+</style>
+</head>
+<body>
+
+<button id="screenshot-btn" data-html2canvas-ignore="true"
+  style="position:fixed; top:16px; right:16px; z-index:9999; padding:10px 20px; font-size:14px; font-weight:600;
+    background:#96544D; color:#fff; border:none; border-radius:8px; cursor:pointer; box-shadow:0 2px 12px rgba(0,0,0,0.2);
+    font-family:'PingFang SC','Microsoft YaHei',sans-serif; letter-spacing:0.03em;"
+  onclick="capturePoster()">📷 一键长截图</button>
+<div id="capture-status" data-html2canvas-ignore="true"
+  style="position:fixed; top:60px; right:16px; z-index:9999; font-size:12px; color:#5E6B76; display:none;
+    background:#F6F1E7; padding:6px 14px; border-radius:6px; box-shadow:0 1px 6px rgba(0,0,0,0.1);"></div>
+
+<div class="poster">
+
+<!-- ═══════════════════════ PHASE 1: 星图总览 ═══════════════════════ -->
+<section class="phase1">
+
+  <div class="ornament" style="margin-bottom:8px;"><span class="orn-line"></span><span class="orn-line"></span></div>
+  <h1 class="poster-title"><span class="hl">梨园万象</span>——京剧剧本多维可视分析系统</h1>
+  <div class="p1-sub" style="margin-top:20px;">
+    <div>
+      <div class="img-card"><img src="Image/liyuan-overview.png" alt="系统界面"></div>
+      <div class="cap" style="margin-top:4px;"><span class="fig-num">梨园万象</span> ∞字形粒子长河，1,473 部剧本按六类来源铺展行当格局</div>
+    </div>
+    <div>
+      <div class="img-card"><img src="Image/liyuan-universe.png" alt="梨园星图"></div>
+      <div class="cap" style="margin-top:4px;"><span class="fig-num">梨园星图</span> 1,473 部剧本按多维特征分布于星空，支持原型筛选与单剧详情</div>
+    </div>
+  </div>
+
+</section>
+
+<div class="phase-divider"></div>
+
+<!-- ═══════════════════════ PHASE 2: 分析观测 ═══════════════════════ -->
+<section class="sec">
+
+  <!-- Subtle data flow ribbon -->
+  <div class="pipe-ribbon">
+    <span class="pipe-node" style="font-size:14px;"><b>原始数据</b> 38源·1473剧</span>
+    <span class="pipe-sep">→</span>
+    <span class="pipe-node" style="font-size:15px;"><b>结构提取</b> 角色·关系·主题·叙事·指纹</span>
+    <span class="pipe-sep">→</span>
+    <span class="pipe-node" style="font-size:16px;"><b>统计建模</b> scipy·sklearn</span>
+    <span class="pipe-sep">→</span>
+    <span class="pipe-node" style="font-size:17px;"><b>可视化</b> React+D3+ECharts+Three.js</span>
+  </div>
+
+  <div class="phase-head">
+    <span class="phase-icon">🔭</span>
+    <span class="phase-label">五维测度</span>
+    <span class="phase-tag">宏观观测 · 1,473 剧本整体规律</span>
+  </div>
+
+  <div style="display:grid; grid-template-columns:44.6fr 55.4fr; gap:18px; margin-bottom:18px;">
+    <div>
+      <div class="img-card"><img src="Image/q1-2-overview-collage.png" alt="行当分布"></div>
+      <div class="cap" style="margin-top:4px;"><span class="fig-num">角色行当</span> 行当旭日图呈现生旦净丑层级占比，桑基图展示性别、身份、性格到行当的流向</div>
+    </div>
+    <div>
+      <div class="img-card"><img src="Image/q2-2-fingerprint-collage.png" alt="类型指纹"></div>
+      <div class="cap" style="margin-top:4px;"><span class="fig-num">关系网络</span> 七类剧目的结构标签流向图与多指标偏差热力图 <span class="method-badge">8项指标</span></div>
+    </div>
+  </div>
+
+  <div style="display:grid; grid-template-columns:60.2fr 39.8fr; gap:18px;">
+    <div>
+      <div class="img-card"><img src="Image/q3-2-theme-structure-collage.png" alt="主题覆盖"></div>
+      <div class="cap" style="margin-top:4px;"><span class="fig-num">主题结构</span> 剧目类型分布柱状图、类型×主题气泡矩阵 <span class="method-badge">NPMI共现</span> <span class="method-badge">UPGMA聚类</span></div>
+    </div>
+    <div>
+      <div class="img-card"><img src="Image/q4-1-single-rhythm-main.png" alt="叙事节奏"></div>
+      <div class="cap" style="margin-top:4px;"><span class="fig-num">叙事节奏</span> 冲突弧线、情感曲线与角色密度三条曲线叠加的四阶段叙事图谱 <span class="method-badge">冲突弧线</span> <span class="method-badge">情感曲线</span></div>
+    </div>
+  </div>
+
+</section>
+
+<div class="phase-divider"></div>
+
+<!-- ═══════════════════════ PHASE 3: 星辰聚焦 ═══════════════════════ -->
+<section class="sec">
+
+  <div class="phase-head">
+    <span class="phase-icon">⭐</span>
+    <span class="phase-label">星辰聚焦</span>
+    <span class="phase-tag">单剧观测 · 个案验证</span>
+  </div>
+
+  <div class="grid3-prop">
+    <div>
+      <div class="img-card"><img src="Image/q1-2-role-case-guanyu.png" alt="关羽行当"></div>
+      <div class="cap" style="margin-top:4px;"><span class="fig-num">关羽</span> 与诸葛亮、曹操的多维特征雷达图对比 <span class="method-badge">z-score</span> <span class="method-badge">Wilson CI</span></div>
+    </div>
+    <div>
+      <div class="img-card"><img src="Image/q2-3-play-case-zoumaicheng-collage.png" alt="走麦城"></div>
+      <div class="cap" style="margin-top:4px;"><span class="fig-num">《走麦城》</span> 56 角色、223 条边的角色关系网络与影响力圈层图</div>
+    </div>
+    <div>
+      <div class="img-card"><img src="Image/q3-4-play-case-guowuguan.png" alt="过五关"></div>
+      <div class="cap" style="margin-top:4px;"><span class="fig-num">《过五关》</span> 多维主题雷达图 <span class="method-badge">加权关键词</span></div>
+    </div>
+  </div>
+
+</section>
+
+<div class="phase-divider"></div>
+
+<!-- ═══════════════════════ PHASE 4: 规律收敛 ═══════════════════════ -->
+<section class="sec">
+
+  <div class="phase-head">
+    <span class="phase-icon">💫</span>
+    <span class="phase-label">规律收敛</span>
+    <span class="phase-tag">因果关联 · 结构原型</span>
+  </div>
+
+  <div style="display:grid; grid-template-columns:33fr 34.2fr 32.8fr; gap:18px;">
+    <div style="text-align:center;">
+      <div style="font-size:14px; font-weight:600; color:#B89B6D; margin-bottom:5px;">关系 → 主题 <span class="method-badge">点二列相关</span></div>
+      <div class="img-card"><img src="Image/q5-2-rel-theme-causal-chart.png" alt="关系→主题"></div>
+      <div class="cap" style="margin-top:4px;">网络拓扑指标与主题维度的点二列相关系数热力图</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:14px; font-weight:600; color:#B89B6D; margin-bottom:5px;">主题 → 叙事 <span class="method-badge">χ²检验</span></div>
+      <div class="img-card"><img src="Image/q5-3-theme-narr-causal-chart.png" alt="主题→叙事"></div>
+      <div class="cap" style="margin-top:4px;">主题簇与叙事类型的正残差分布图</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:14px; font-weight:600; color:#B89B6D; margin-bottom:5px;">叙事 → 关系 <span class="method-badge">Kruskal-Wallis</span></div>
+      <div class="img-card"><img src="Image/q5-4-narr-rel-causal-chart.png" alt="叙事→关系"></div>
+      <div class="cap" style="margin-top:4px;">各叙事类型的网络拓扑指标分组柱图</div>
+    </div>
+  </div>
+
+</section>
+
+</div><!-- /.poster -->
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<script>
+async function capturePoster(){const e=document.getElementById("screenshot-btn"),t=document.getElementById("capture-status");e.disabled=!0,t.style.display="block";try{const a=document.querySelector(".poster");t.textContent="加载图片...",e.textContent="⏳ 加载中...";const o=a.querySelectorAll("img");await Promise.all(Array.from(o).map(e=>{if(e.complete&&e.naturalWidth>0)return;return new Promise(t=>{const a=setTimeout(t,15000);e.addEventListener("load",()=>{clearTimeout(a),t()},{once:!0}),e.addEventListener("error",()=>{clearTimeout(a),t()},{once:!0})})})),await new Promise(e=>setTimeout(e,300)),t.textContent="渲染中...",e.textContent="⏳ 渲染中...";const n=await html2canvas(a,{scale:4,backgroundColor:"#F6F1E7",logging:!1,allowTaint:!1}),r=document.createElement("canvas");r.width=n.width,r.height=n.height;const i=r.getContext("2d");i.fillStyle="#F6F1E7",i.fillRect(0,0,r.width,r.height),i.drawImage(n,0,0);const s=await new Promise(e=>r.toBlob(e,"image/jpeg",.98)),c=URL.createObjectURL(s),d=document.createElement("a");d.href=c,d.download="ChinaVIS-1-I.jpg",document.body.appendChild(d),d.click(),document.body.removeChild(d),URL.revokeObjectURL(c);const l=(s.size/1024/1024).toFixed(1);t.textContent="✅ "+r.width+"×"+r.height+"px · "+l+"MB"}catch(a){t.textContent="❌ "+a.message,console.error(a)}finally{e.disabled=!1,e.textContent="📷 一键长截图",setTimeout(()=>{t.style.display="none"},6e3)}}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,563 @@
+{
+  "title": "硃砂痣",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "01001009_硃砂痣.json",
+  "source_folder": "01000000",
+  "plot_summary": "双州太守韩廷凤，因无子嗣，另娶江氏。新娘过门，啼泣甚哀，韩廷凤问起情由，始知江氏因夫贫病交加，\n不得已卖身救夫。韩廷凤怜之，赠银送其返家，夫妻又得团聚。江氏夫妇得知太守求子心切，为了报答，卖\n了一个孩童送给太守。韩廷凤问起孩童父母情况，并验得孩子左脚上有一颗硃砂痣，才认出就是十三年前，\n因金兵作乱，走失的儿子韩遇运。父子又得重逢。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 107,
+      "summary": "第一场；第二场",
+      "conflict": 0.063,
+      "importance": 0.807,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "吴惠泉": 1,
+        "韩廷凤": 1,
+        "媒婆": 1,
+        "家院": 1,
+        "丫鬟": 1,
+        "江氏": 1
+      },
+      "links": [
+        {
+          "source": "媒婆",
+          "target": "韩廷凤",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "韩廷凤",
+          "value": 1
+        },
+        {
+          "source": "江氏",
+          "target": "韩廷凤",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "韩廷凤",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "媒婆",
+          "value": 1
+        },
+        {
+          "source": "媒婆",
+          "target": "江氏",
+          "value": 1
+        },
+        {
+          "source": "媒婆",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "江氏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "江氏",
+          "value": 2
+        },
+        {
+          "source": "吴惠泉",
+          "target": "江氏",
+          "value": 1
+        },
+        {
+          "source": "吴惠泉",
+          "target": "家院",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 91,
+      "summary": "第三场；第四场",
+      "conflict": 0.212,
+      "importance": 0.686,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "韩遇运": 1,
+        "韩廷凤": 1,
+        "金氏": 1,
+        "吴惠泉": 1,
+        "江氏": 1
+      },
+      "links": [
+        {
+          "source": "吴惠泉",
+          "target": "韩廷凤",
+          "value": 1
+        },
+        {
+          "source": "江氏",
+          "target": "韩廷凤",
+          "value": 1
+        },
+        {
+          "source": "吴惠泉",
+          "target": "江氏",
+          "value": 1
+        },
+        {
+          "source": "金氏",
+          "target": "韩遇运",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 200,
+      "summary": "第五场；第六场",
+      "conflict": 0.298,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "韩遇运": 1,
+        "金氏": 1,
+        "韩廷凤": 1,
+        "吴惠泉": 1
+      },
+      "links": [
+        {
+          "source": "吴惠泉",
+          "target": "金氏",
+          "value": 1
+        },
+        {
+          "source": "吴惠泉",
+          "target": "韩遇运",
+          "value": 2
+        },
+        {
+          "source": "金氏",
+          "target": "韩遇运",
+          "value": 1
+        },
+        {
+          "source": "吴惠泉",
+          "target": "韩廷凤",
+          "value": 1
+        },
+        {
+          "source": "韩廷凤",
+          "target": "韩遇运",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "韩廷凤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哈哈哈……",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "媒婆",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "新人过门厅，媒钱自然增。",
+          "rating": 0.0,
+          "role": "丑旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "江氏",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "不是。",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "家院",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "老爷何事？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：5位角色，67行",
+      "firstLine": 1,
+      "lastLine": 67,
+      "numLines": 67,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.817,
+        "conflict": 0.301,
+        "sentiment": 0.214
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "吴惠泉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "孤单单病奄奄坐卧病床，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "江氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "黑夜里蒙送我重归故道，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "家院",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "是。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.598,
+        "conflict": 0.211,
+        "sentiment": 0.277
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "韩廷凤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "劝世人一个个须要学好，",
+          "rating": 0.143,
+          "role": "外"
+        },
+        {
+          "name": "吴惠泉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我和你到他家双膝跪倒，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "江氏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我夫妻特地来叩谢恩劳。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第三场：3位角色，52行",
+      "firstLine": 1,
+      "lastLine": 52,
+      "numLines": 52,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.785,
+        "conflict": 0.18,
+        "sentiment": 0.393
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "金氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "只说养儿得济，谁知到老养儿。",
+          "rating": 0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "韩遇运",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "天子重英豪，文章教尔曹。万般皆下品，惟有读书高。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：2位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.276,
+        "conflict": 0.0,
+        "sentiment": 0.181
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "吴惠泉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "行一程又一程往回家奔，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "金氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走吓！",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "韩遇运",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "母亲请上，容孩儿一拜。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第五场：3位角色，57行",
+      "firstLine": 1,
+      "lastLine": 57,
+      "numLines": 57,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.541,
+        "conflict": 0.167,
+        "sentiment": 0.026
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "韩廷凤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "叹光阴去不归无限烦闷，",
+          "rating": 0.143,
+          "role": "外"
+        },
+        {
+          "name": "吴惠泉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "一路上看青山绿水长流，",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "韩遇运",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "是。",
+          "rating": 0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第六场：3位角色，143行",
+      "firstLine": 1,
+      "lastLine": 143,
+      "numLines": 143,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.121,
+        "sentiment": 0.324
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "韩廷凤",
+      "short": "韩廷",
+      "key": "韩廷凤",
+      "quote": "韩廷凤 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "吴惠泉",
+      "short": "吴惠",
+      "key": "吴惠泉",
+      "quote": "吴惠泉 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "江氏",
+      "short": "江氏",
+      "key": "江氏",
+      "quote": "江氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "金氏",
+      "short": "金氏",
+      "key": "金氏",
+      "quote": "金氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "媒婆",
+      "short": "媒婆",
+      "key": "媒婆",
+      "quote": "媒婆 — 丑旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 丑旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "韩遇运",
+      "short": "韩遇",
+      "key": "韩遇运",
+      "quote": "韩遇运 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

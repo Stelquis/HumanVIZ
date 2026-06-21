@@ -1,0 +1,236 @@
+{
+  "title": "定计化缘",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "03048006_定计化缘.json",
+  "source_folder": "03000000",
+  "plot_summary": "傅罗卜为母还愿，沿途施舍。骗子张年有与友段一仁设谋定计，骗走银两。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 131,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.749,
+      "locations": {
+        "修桥盖庙": 1
+      },
+      "characters": {
+        "段一仁": 1,
+        "张年有": 1
+      },
+      "links": [
+        {
+          "source": "张年有",
+          "target": "段一仁",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 219,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "修桥盖庙": 1
+      },
+      "characters": {
+        "段一仁": 1,
+        "伊立": 1,
+        "傅罗卜": 1,
+        "张年有": 1
+      },
+      "links": [
+        {
+          "source": "伊立",
+          "target": "傅罗卜",
+          "value": 1
+        },
+        {
+          "source": "傅罗卜",
+          "target": "张年有",
+          "value": 1
+        },
+        {
+          "source": "傅罗卜",
+          "target": "段一仁",
+          "value": 1
+        },
+        {
+          "source": "伊立",
+          "target": "张年有",
+          "value": 1
+        },
+        {
+          "source": "伊立",
+          "target": "段一仁",
+          "value": 1
+        },
+        {
+          "source": "张年有",
+          "target": "段一仁",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "修桥盖庙",
+      "characters": [
+        {
+          "name": "张年有",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.091,
+          "role": "丑"
+        },
+        {
+          "name": "段一仁",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.143,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：2位角色，131行",
+      "firstLine": 1,
+      "lastLine": 131,
+      "numLines": 131,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.121,
+        "sentiment": 0.264
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "修桥盖庙",
+      "characters": [
+        {
+          "name": "傅罗卜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "伊立带路！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "伊立",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "喳！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张年有",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "我说兄弟，跟着我来，别发毛咕，我怎么着，你怎么着。唉，兄弟哪？兄弟！",
+          "rating": 0.714,
+          "role": "丑"
+        },
+        {
+          "name": "段一仁",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "唉！",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：4位角色，219行",
+      "firstLine": 1,
+      "lastLine": 219,
+      "numLines": 219,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.103,
+        "sentiment": 0.461
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "段一仁",
+      "short": "段一",
+      "key": "段一仁",
+      "quote": "段一仁 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "张年有",
+      "short": "张年",
+      "key": "张年有",
+      "quote": "张年有 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "伊立",
+      "short": "伊立",
+      "key": "伊立",
+      "quote": "伊立 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "傅罗卜",
+      "short": "傅罗",
+      "key": "傅罗卜",
+      "quote": "傅罗卜 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "修桥盖庙",
+      "key": "修桥盖庙",
+      "quote": "场景发生在修桥盖庙"
+    }
+  ]
+}

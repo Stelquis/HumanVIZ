@@ -1,0 +1,325 @@
+{
+  "title": "奇双会·写状",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70902138_奇双会·写状.json",
+  "source_folder": "70902000",
+  "plot_summary": "李桂枝俟赵宠回衙，诉说情由，恳求援救。赵宠因案系前任所定，已奉京详，无权更改，乃为李桂枝代写辩\n状，教导李桂枝待明日按院来时，混入鸣冤。",
+  "performance_notes": "此剧又名《贩马记》，是“吹腔”戏，长期以来，昆、京班中都有这一剧目。俞振飞先生经常演出，已难计\n数，与梅兰芳、程砚秋两位合演次数尤多。\n在《写状》中，必须体现新婚夫妇忧患与同的感情，倘若以玩笑逗趣的态度出之，便落下乘。\n剧中唱词，用韵杂乱，因流行已久，姑仍从俗，未予修订。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 11,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.129,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四青袍": 1,
+        "赵宠": 1
+      },
+      "links": [
+        {
+          "source": "四青袍",
+          "target": "赵宠",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 172,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵宠": 1,
+        "李桂枝": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "赵宠",
+          "value": 1
+        },
+        {
+          "source": "李桂枝",
+          "target": "赵宠",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "李桂枝",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 138,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵宠": 1,
+        "李桂枝": 1
+      },
+      "links": [
+        {
+          "source": "李桂枝",
+          "target": "赵宠",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 19,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.224,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵宠": 1,
+        "李桂枝": 1
+      },
+      "links": [
+        {
+          "source": "李桂枝",
+          "target": "赵宠",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵宠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "保障一方，最安宁。且喜新授，褒城县令。",
+          "rating": 1.0,
+          "role": "冠生"
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.519,
+        "conflict": 0.0,
+        "sentiment": 0.8
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵宠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "来！",
+          "rating": -0.333,
+          "role": "冠生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李桂枝",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "父受含冤事，何日得报明？",
+          "rating": -0.333,
+          "role": "五旦"
+        }
+      ],
+      "summary": "第2场：3位角色，172行",
+      "firstLine": 1,
+      "lastLine": 172,
+      "numLines": 172,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.143,
+        "sentiment": 0.024
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵宠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "吓夫人，令尊招详在此，夫人请看。",
+          "rating": -0.429,
+          "role": "冠生"
+        },
+        {
+          "name": "李桂枝",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "劳烦相公，念与我听。",
+          "rating": -0.5,
+          "role": "五旦"
+        }
+      ],
+      "summary": "第3场：2位角色，138行",
+      "firstLine": 1,
+      "lastLine": 138,
+      "numLines": 138,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.944,
+        "conflict": 0.274,
+        "sentiment": -0.104
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵宠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "吓夫人，我倒想起一椿心事来了。",
+          "rating": 1.0,
+          "role": "冠生"
+        },
+        {
+          "name": "李桂枝",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "想起什么心事？",
+          "rating": 1.0,
+          "role": "五旦"
+        }
+      ],
+      "summary": "第4场：2位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.734,
+        "conflict": 0.435,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李桂枝",
+      "short": "李桂",
+      "key": "李桂枝",
+      "quote": "李桂枝 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵宠",
+      "short": "赵宠",
+      "key": "赵宠",
+      "quote": "赵宠 — 冠生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 冠生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "title": "新安驿",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01004015_新安驿.json",
+  "source_folder": "01000000",
+  "plot_summary": "考从前本无此剧，自前清光绪初，十三旦登台逞奇，自行编演，方始出现。相传剧中情节原本脱胎于《文武\n香球》，然事实人名圴与小说不尽符合，盖拉杂编凑，原不过一时遗兴之作耳。今略按说部所载：张桂英既\n与龙官宝订约为婚，放龙官宝下山后，久不得龙官宝之音耗。张桂英殊惦念不忘，遂乔扮男子下山访寻。路\n过新安驿，下宿客寓中。孰料寓主人为母女二人，素赖其女乔装男盗，而以杀人越货为生者。是日老媪见张\n桂英装重金多，遂如法先以蒙汗酒醉倒，然后令其女持刀入房行劫。不意女强盗见张桂英面如敷粉，醉若海\n棠，私念普天下恐无如是之美男子，是得未曾有，非天假之缘而何。遂解去男装，露出庐山真面目。用清水\n喷张桂英使醒，其母即与细述女意，欲以终身相委。张桂英姑含糊允之，彼此又略较武艺，女盗见张桂英无\n一不精，益形满意。不料合卺后，女为代解罗襦，竟露出一双金莲窄窄，女大惊，急询情由，张桂英详告来\n历，始知一对雄飞者，皆系雌伏也。",
+  "performance_notes": "此剧离奇变幻，本无寓意，惟忽而笄，忽而弁，忽而浓须撩鬓，忽而搔首弄姿，为足增观者兴趣耳。沪上以\n七盏灯为独步。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.085,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李氏": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 193,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵美容": 1,
+        "李氏": 1,
+        "罗雁": 1,
+        "周凤英": 1
+      },
+      "links": [
+        {
+          "source": "罗雁",
+          "target": "赵美容",
+          "value": 1
+        },
+        {
+          "source": "李氏",
+          "target": "赵美容",
+          "value": 1
+        },
+        {
+          "source": "周凤英",
+          "target": "赵美容",
+          "value": 1
+        },
+        {
+          "source": "李氏",
+          "target": "罗雁",
+          "value": 1
+        },
+        {
+          "source": "周凤英",
+          "target": "罗雁",
+          "value": 1
+        },
+        {
+          "source": "周凤英",
+          "target": "李氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 81,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.862,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李氏": 1,
+        "罗雁": 1,
+        "周凤英": 1,
+        "赵美容": 1
+      },
+      "links": [
+        {
+          "source": "李氏",
+          "target": "罗雁",
+          "value": 1
+        },
+        {
+          "source": "周凤英",
+          "target": "李氏",
+          "value": 1
+        },
+        {
+          "source": "李氏",
+          "target": "赵美容",
+          "value": 1
+        },
+        {
+          "source": "周凤英",
+          "target": "罗雁",
+          "value": 1
+        },
+        {
+          "source": "罗雁",
+          "target": "赵美容",
+          "value": 1
+        },
+        {
+          "source": "周凤英",
+          "target": "赵美容",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "开店打伙，终日受奔波。有人住着我的店，不死三更见阎罗。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.509,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵美容",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "赵美容出门来泪流满面，",
+          "rating": -0.25,
+          "role": "旦"
+        },
+        {
+          "name": "罗雁",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "小、小姐等着。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "李氏",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "孟尝君子店，千里客来投。",
+          "rating": 0.273,
+          "role": "丑"
+        },
+        {
+          "name": "周凤英",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "在后店我听娘言讲一遍，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：4位角色，193行",
+      "firstLine": 1,
+      "lastLine": 193,
+      "numLines": 193,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.254,
+        "sentiment": 0.133
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "今日乃是我儿大喜之事，不免去请阴阳，选个好时辰吓。来此已是。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "罗雁",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我罗雁保定小姐来到店房，那妈妈将女儿与我为婚，时才拜了天地，入了洞房。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "周凤英",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "忽听得樵楼上起了更点，",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "赵美容",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "妈妈叫什么？",
+          "rating": -0.333,
+          "role": "旦"
+        }
+      ],
+      "summary": "第三场：4位角色，81行",
+      "firstLine": 1,
+      "lastLine": 81,
+      "numLines": 81,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.37,
+        "sentiment": 0.272
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "周凤英",
+      "short": "周凤",
+      "key": "周凤英",
+      "quote": "周凤英 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李氏",
+      "short": "李氏",
+      "key": "李氏",
+      "quote": "李氏 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "罗雁",
+      "short": "罗雁",
+      "key": "罗雁",
+      "quote": "罗雁 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "赵美容",
+      "short": "赵美",
+      "key": "赵美容",
+      "quote": "赵美容 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

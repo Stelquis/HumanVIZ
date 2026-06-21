@@ -1,0 +1,335 @@
+{
+  "title": "金光阵",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "01040006_金光阵.json",
+  "source_folder": "01000000",
+  "plot_summary": "薛丁山、樊梨花双挂元帅征西，义子薛应龙战死于金光阵。薛丁山从仙山回营，得知此事，心疑樊梨花之有\n意逼令薛应龙往破此阵。几有“汝虽不杀伯仁，伯仁实由汝而死”之恨，因此夫妻之间大相反目。后樊梨花\n对天明誓，薛丁山始信。夫妻大破金光阵，为子报仇。",
+  "performance_notes": "此剧下半本全演薛丁山与樊梨花，夫妇二人抢白争辩之情节，故彼此皆哭一声，唱一句，善演此剧之生、旦\n演此，且哭且说之情形，其做工亦颇有可观焉。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 21,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.404,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "秦汉": 1,
+        "窦一虎": 1,
+        "薛应龙": 1,
+        "乌礼黑": 1
+      },
+      "links": [
+        {
+          "source": "秦汉",
+          "target": "薛应龙",
+          "value": 1
+        },
+        {
+          "source": "窦一虎",
+          "target": "薛应龙",
+          "value": 1
+        },
+        {
+          "source": "乌礼黑",
+          "target": "薛应龙",
+          "value": 1
+        },
+        {
+          "source": "秦汉",
+          "target": "窦一虎",
+          "value": 1
+        },
+        {
+          "source": "乌礼黑",
+          "target": "秦汉",
+          "value": 1
+        },
+        {
+          "source": "乌礼黑",
+          "target": "窦一虎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 83,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "窦一虎": 1,
+        "薛应龙": 1,
+        "薛丁山": 1,
+        "秦汉": 1,
+        "樊梨花": 1
+      },
+      "links": [
+        {
+          "source": "樊梨花",
+          "target": "秦汉",
+          "value": 1
+        },
+        {
+          "source": "樊梨花",
+          "target": "窦一虎",
+          "value": 1
+        },
+        {
+          "source": "樊梨花",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "樊梨花",
+          "target": "薛应龙",
+          "value": 1
+        },
+        {
+          "source": "秦汉",
+          "target": "窦一虎",
+          "value": 1
+        },
+        {
+          "source": "秦汉",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "秦汉",
+          "target": "薛应龙",
+          "value": 1
+        },
+        {
+          "source": "窦一虎",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "窦一虎",
+          "target": "薛应龙",
+          "value": 1
+        },
+        {
+          "source": "薛丁山",
+          "target": "薛应龙",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "薛应龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "万事皆由命，半点不由人。",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "秦汉",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "小本官往哪里去？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "窦一虎",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "元帅有令，叫你不要出兵。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "乌礼黑",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "打着了！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.673,
+        "conflict": 0.417,
+        "sentiment": 0.073
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "樊梨花",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "眼跳心惊，未知吉凶。",
+          "rating": -0.429,
+          "role": "正旦"
+        },
+        {
+          "name": "秦汉",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "启元帅：大事不好了！",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "窦一虎",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "小本官芦花河阵中身亡！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "薛丁山",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "在深山领了师父命，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "薛应龙",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：5位角色，83行",
+      "firstLine": 1,
+      "lastLine": 83,
+      "numLines": 83,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.12,
+        "sentiment": -0.246
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "樊梨花",
+      "short": "樊梨",
+      "key": "樊梨花",
+      "quote": "樊梨花 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "薛丁山",
+      "short": "薛丁",
+      "key": "薛丁山",
+      "quote": "薛丁山 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛应龙",
+      "short": "薛应",
+      "key": "薛应龙",
+      "quote": "薛应龙 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "秦汉",
+      "short": "秦汉",
+      "key": "秦汉",
+      "quote": "秦汉 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "窦一虎",
+      "short": "窦一",
+      "key": "窦一虎",
+      "quote": "窦一虎 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "乌礼黑",
+      "short": "乌礼",
+      "key": "乌礼黑",
+      "quote": "乌礼黑 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "title": "单刀会·刀会",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "70903102_单刀会·刀会.json",
+  "source_folder": "70903000",
+  "plot_summary": "刘备向孙权借驻荆州，历久未还。鲁肃设宴，邀请守将关羽。关羽仅带周仓一人，持单刀赴会。鲁肃在筵前，\n索取荆州。关羽斥责鲁肃不应埋设伏兵，反而将鲁肃执住，鲁肃只得作罢。关羽遂鼓帆而去。",
+  "performance_notes": "《单刀会》是元代伟大剧作家关汉卿的名著。全剧曲词写得雄壮豪迈，慷慨激昂。至今已有五百多年的历史，\n但传唱不衰，并为其他剧种所移植改编。在北方昆曲舞台上是优秀传统剧目之一。此剧很受观众喜爱和赞\n赏。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.178,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "鲁肃": 1,
+        "关羽": 1,
+        "四将": 1
+      },
+      "links": [
+        {
+          "source": "四将",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "四将",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 115,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "旗牌甲": 1,
+        "鲁肃": 1,
+        "关羽": 1,
+        "周仓": 1,
+        "二旗牌": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "旗牌甲",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "旗牌甲",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "旗牌甲",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "旗牌甲",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 124,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四文堂": 1,
+        "鲁肃": 1,
+        "周仓": 1,
+        "关羽": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "四文堂",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "四文堂",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "四文堂",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 19,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.281,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "鲁肃": 1,
+        "周仓": 1,
+        "关羽": 1
+      },
+      "links": [
+        {
+          "source": "周仓",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "鲁肃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "三国鼎立，保东吴，社稷安康。",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "四将",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "都督。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.607,
+        "conflict": 0.8,
+        "sentiment": 0.771
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周仓",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哩！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "浪涛滚滚渡江东，独赴单刀孰与同。片帆瞬息西风力，鲁肃今日认关公。",
+          "rating": -0.5,
+          "role": "净"
+        },
+        {
+          "name": "旗牌甲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有请都督。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "水军当大任，为国秉忠诚。",
+          "rating": -0.333,
+          "role": "末"
+        },
+        {
+          "name": "二旗牌",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "请上酒。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：5位角色，115行",
+      "firstLine": 1,
+      "lastLine": 115,
+      "numLines": 115,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.149,
+        "sentiment": -0.076
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "大夫！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "君侯！",
+          "rating": 0.077,
+          "role": "末"
+        },
+        {
+          "name": "周仓",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "住口！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "四文堂",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：4位角色，124行",
+      "firstLine": 1,
+      "lastLine": 124,
+      "numLines": 124,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.418,
+        "sentiment": 0.161
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周仓",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "请大夫过船谢宴。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "匆匆拜上君侯，说我再也不敢过船去了。",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "好好送某到船上和你慢慢别。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第4场：3位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.763,
+        "conflict": 0.465,
+        "sentiment": 0.364
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "周仓",
+      "short": "周仓",
+      "key": "周仓",
+      "quote": "周仓 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "鲁肃",
+      "short": "鲁肃",
+      "key": "鲁肃",
+      "quote": "鲁肃 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四将",
+      "short": "四将",
+      "key": "四将",
+      "quote": "四将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌甲",
+      "short": "旗牌",
+      "key": "旗牌甲",
+      "quote": "旗牌甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四文堂",
+      "short": "四文",
+      "key": "四文堂",
+      "quote": "四文堂 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二旗牌",
+      "short": "二旗",
+      "key": "二旗牌",
+      "quote": "二旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

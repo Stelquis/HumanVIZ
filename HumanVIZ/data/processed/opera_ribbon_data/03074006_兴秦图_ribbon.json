@@ -1,0 +1,620 @@
+{
+  "title": "兴秦图",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 10,
+  "num_locations": 5,
+  "source_file": "03074006_兴秦图.json",
+  "source_folder": "03000000",
+  "plot_summary": "战国时，秦商鞅带兵侵魏，兵至吴城，守将龙贾上表告急。魏君差公子卬御敌。商鞅以计破之。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 11,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.193,
+      "locations": {
+        "失去三城": 1
+      },
+      "characters": {
+        "商鞅": 1,
+        "四上手": 1,
+        "公子卬": 1
+      },
+      "links": [
+        {
+          "source": "公子卬",
+          "target": "四上手",
+          "value": 1
+        },
+        {
+          "source": "公子卬",
+          "target": "商鞅",
+          "value": 1
+        },
+        {
+          "source": "商鞅",
+          "target": "四上手",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 98,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "镇守吴城": 1
+      },
+      "characters": {
+        "商鞅": 1,
+        "任鄙": 1,
+        "报子": 1,
+        "乌获": 1,
+        "旗牌": 1,
+        "少宫": 1,
+        "龙套甲": 1
+      },
+      "links": [
+        {
+          "source": "商鞅",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "商鞅",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "商鞅",
+          "target": "少宫",
+          "value": 1
+        },
+        {
+          "source": "任鄙",
+          "target": "商鞅",
+          "value": 1
+        },
+        {
+          "source": "乌获",
+          "target": "商鞅",
+          "value": 1
+        },
+        {
+          "source": "商鞅",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "少宫",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "任鄙",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "乌获",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "少宫",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "任鄙",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "乌获",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "任鄙",
+          "target": "少宫",
+          "value": 1
+        },
+        {
+          "source": "乌获",
+          "target": "少宫",
+          "value": 1
+        },
+        {
+          "source": "少宫",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "乌获",
+          "target": "任鄙",
+          "value": 1
+        },
+        {
+          "source": "任鄙",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "乌获",
+          "target": "旗牌",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 62,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "镇守吴城": 1
+      },
+      "characters": {
+        "报子": 1,
+        "商鞅": 1,
+        "旗牌": 1,
+        "龙贾": 1,
+        "四上手": 1,
+        "公子卬": 1
+      },
+      "links": [
+        {
+          "source": "报子",
+          "target": "龙贾",
+          "value": 1
+        },
+        {
+          "source": "公子卬",
+          "target": "龙贾",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "龙贾",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "龙贾",
+          "value": 1
+        },
+        {
+          "source": "商鞅",
+          "target": "龙贾",
+          "value": 1
+        },
+        {
+          "source": "公子卬",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "商鞅",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "公子卬",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "公子卬",
+          "target": "四上手",
+          "value": 1
+        },
+        {
+          "source": "公子卬",
+          "target": "商鞅",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "商鞅",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "商鞅",
+          "target": "四上手",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "失去三城",
+      "characters": [
+        {
+          "name": "公子卬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "射熊秉政万民歌，文韬武略保山河。山川社稷人争勇，周主无能起争夺！",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "四上手",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "商鞅",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.719,
+        "conflict": 1.0,
+        "sentiment": 0.373
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "镇守吴城",
+      "characters": [
+        {
+          "name": "商鞅",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "执掌权衡受君恩，压诸侯秦霸为尊。",
+          "rating": 0.286,
+          "role": "老生"
+        },
+        {
+          "name": "报子",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "龙套甲",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "众将进帐！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "少宫",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "每日铠甲不离身，",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "任鄙",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "任鄙威名谁不闻？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "乌获",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "力分虎豹英雄胆，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：7位角色，98行",
+      "firstLine": 1,
+      "lastLine": 98,
+      "numLines": 98,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.872,
+        "conflict": 0.328,
+        "sentiment": 0.356
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "镇守吴城",
+      "characters": [
+        {
+          "name": "龙贾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "四下烟尘起，保主秉忠心。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "报子",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "公子卬",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "将军受尽风霜之苦，虽失三城，非将军之过。今秦兵压境而来，闻者丧胆，有",
+          "rating": 0.385,
+          "role": ""
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "走马传书信，要见主谋人。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四上手",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "传下书人。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "商鞅",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：6位角色，62行",
+      "firstLine": 1,
+      "lastLine": 62,
+      "numLines": 62,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.809,
+        "conflict": 0.48,
+        "sentiment": 0.392
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "商鞅",
+      "short": "商鞅",
+      "key": "商鞅",
+      "quote": "商鞅 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "任鄙",
+      "short": "任鄙",
+      "key": "任鄙",
+      "quote": "任鄙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "乌获",
+      "short": "乌获",
+      "key": "乌获",
+      "quote": "乌获 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙贾",
+      "short": "龙贾",
+      "key": "龙贾",
+      "quote": "龙贾 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四上手",
+      "short": "四上",
+      "key": "四上手",
+      "quote": "四上手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "少宫",
+      "short": "少宫",
+      "key": "少宫",
+      "quote": "少宫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "公子卬",
+      "short": "公子",
+      "key": "公子卬",
+      "quote": "公子卬 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙套甲",
+      "short": "龙套",
+      "key": "龙套甲",
+      "quote": "龙套甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "镇守吴城",
+      "key": "镇守吴城",
+      "quote": "场景发生在镇守吴城"
+    },
+    {
+      "name": "者失去三城",
+      "key": "者失去三城",
+      "quote": "场景发生在者失去三城"
+    },
+    {
+      "name": "命镇守吴城",
+      "key": "命镇守吴城",
+      "quote": "场景发生在命镇守吴城"
+    },
+    {
+      "name": "失去三城",
+      "key": "失去三城",
+      "quote": "场景发生在失去三城"
+    },
+    {
+      "name": "国河西三城",
+      "key": "国河西三城",
+      "quote": "场景发生在国河西三城"
+    }
+  ]
+}

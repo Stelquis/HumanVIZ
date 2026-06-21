@@ -1,0 +1,500 @@
+{
+  "title": "审李七",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "01005015_审李七.json",
+  "source_folder": "01000000",
+  "plot_summary": "著名剧盗李七，因与秀才王良为猥妓争风，积有嫌怨。后以抢劫皇纲银案破，被逮入狱。会盗魁在逃未获，\n州官叠次用刑，逼令李七供出姓名及避匿地方。李七遂有意陷害，诬攀王良在内。既捕王良至，州官以王良\n呼冤不认，且亦疑其不类，遂令王良扮作衙役，任李七当面认择，以试虚实。孰意李七与王良虽于妓院中灯\n下一面，记忆不清。然卒被李七用诡词激骂，暗察神情，当堂指出。王良知不能隐，只得挺身出，与之辩质。\n讵知李七又伪称当时分赃，尚余白绫一匹，为王良取去用作裹腿，不信请当堂脱验，以证其实。及令王良\n脱靴出视，果以白绫裹腿。王良至此，虽百口莫辩其冤。州官不加细察，以为已成信谳，遂用刑勒供而退。\n实则李七闹院时，王良曾飞腿踢李七，因靴宽褪落坠地，故为李七窥见其白绫裹腿，而今日遂借以作赃证也。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 164,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.225,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "差头": 1,
+        "众人": 1,
+        "禁卒": 1,
+        "青袍": 1,
+        "王良": 1,
+        "李永成": 1,
+        "李七": 1
+      },
+      "links": [
+        {
+          "source": "差头",
+          "target": "李永成",
+          "value": 1
+        },
+        {
+          "source": "李永成",
+          "target": "王良",
+          "value": 3
+        },
+        {
+          "source": "李七",
+          "target": "李永成",
+          "value": 3
+        },
+        {
+          "source": "差头",
+          "target": "王良",
+          "value": 1
+        },
+        {
+          "source": "差头",
+          "target": "李七",
+          "value": 1
+        },
+        {
+          "source": "李七",
+          "target": "王良",
+          "value": 3
+        },
+        {
+          "source": "李永成",
+          "target": "青袍",
+          "value": 1
+        },
+        {
+          "source": "李永成",
+          "target": "禁卒",
+          "value": 2
+        },
+        {
+          "source": "禁卒",
+          "target": "青袍",
+          "value": 1
+        },
+        {
+          "source": "李七",
+          "target": "青袍",
+          "value": 1
+        },
+        {
+          "source": "王良",
+          "target": "青袍",
+          "value": 1
+        },
+        {
+          "source": "李七",
+          "target": "禁卒",
+          "value": 2
+        },
+        {
+          "source": "王良",
+          "target": "禁卒",
+          "value": 2
+        },
+        {
+          "source": "众人",
+          "target": "李七",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "李永成",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "王良",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "禁卒",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 21,
+      "summary": "第4场；第5场",
+      "conflict": 0.0,
+      "importance": 0.227,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "众人": 1,
+        "王良": 1,
+        "李永成": 1
+      },
+      "links": [
+        {
+          "source": "李永成",
+          "target": "王良",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "李永成",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "王良",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李永成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "身受皇恩，与黎民，判断冤深。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "差头",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "启禀太爷，王良带到。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "王良",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "闭门家中坐，祸从天上来。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "李七",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：4位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.843,
+        "conflict": 0.377,
+        "sentiment": 0.465
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李永成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "来，传禁卒。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "青袍",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "传禁卒！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "禁卒",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "参见太爷！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "李七",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "王良",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：5位角色，61行",
+      "firstLine": 1,
+      "lastLine": 61,
+      "numLines": 61,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.211,
+        "sentiment": 0.524
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李七",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "太爷堂上有鬼神！",
+          "rating": 0.2,
+          "role": "净"
+        },
+        {
+          "name": "李永成",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "住了！既知本州堂上有鬼神，不该攀扯好人在内。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "王良",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "强盗我哪里与你结过拜来？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "众人",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "无有鬼家庄。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "禁卒",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "走走走！",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第3场：5位角色，81行",
+      "firstLine": 1,
+      "lastLine": 81,
+      "numLines": 81,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.221,
+        "sentiment": 0.299
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李永成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "王良你还不招认么？",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "王良",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "冤枉难招！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "众人",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有招无招？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第4场：3位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.615,
+        "conflict": 0.465,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李永成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住！想此事攀扯在内，也未可知。且自由他！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第5场：1位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.488,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李七",
+      "short": "李七",
+      "key": "李七",
+      "quote": "李七 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "王良",
+      "short": "王良",
+      "key": "王良",
+      "quote": "王良 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李永成",
+      "short": "李永",
+      "key": "李永成",
+      "quote": "李永成 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "禁卒",
+      "short": "禁卒",
+      "key": "禁卒",
+      "quote": "禁卒 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "差头",
+      "short": "差头",
+      "key": "差头",
+      "quote": "差头 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "青袍",
+      "short": "青袍",
+      "key": "青袍",
+      "quote": "青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

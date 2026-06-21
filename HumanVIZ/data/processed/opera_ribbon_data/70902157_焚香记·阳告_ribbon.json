@@ -1,0 +1,221 @@
+{
+  "title": "焚香记·阳告",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70902157_焚香记·阳告.json",
+  "source_folder": "70902000",
+  "plot_summary": "敫桂英得王魁休书，又被鸨母逼令改嫁，无奈至海神庙，哭诉王魁负盟，持罗带自缢。",
+  "performance_notes": "正旦唱功戏。上海昆剧团重排，增加水袖舞蹈，更具可看性。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 134,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "未曾归殿": 1
+      },
+      "characters": {
+        "判官": 1,
+        "海神": 1,
+        "鬼判": 1,
+        "小鬼": 1,
+        "敫桂英": 1
+      },
+      "links": [
+        {
+          "source": "海神",
+          "target": "鬼判",
+          "value": 1
+        },
+        {
+          "source": "敫桂英",
+          "target": "海神",
+          "value": 1
+        },
+        {
+          "source": "判官",
+          "target": "海神",
+          "value": 1
+        },
+        {
+          "source": "小鬼",
+          "target": "海神",
+          "value": 1
+        },
+        {
+          "source": "敫桂英",
+          "target": "鬼判",
+          "value": 1
+        },
+        {
+          "source": "判官",
+          "target": "鬼判",
+          "value": 1
+        },
+        {
+          "source": "小鬼",
+          "target": "鬼判",
+          "value": 1
+        },
+        {
+          "source": "判官",
+          "target": "敫桂英",
+          "value": 1
+        },
+        {
+          "source": "小鬼",
+          "target": "敫桂英",
+          "value": 1
+        },
+        {
+          "source": "判官",
+          "target": "小鬼",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "未曾归殿",
+      "characters": [
+        {
+          "name": "海神",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "湛湛青天不可欺，未曾举意吾先知。善恶到头终有报，只争来早与来迟。",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "鬼判",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "敫桂英",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "苦吓！",
+          "rating": -0.5,
+          "role": "正旦"
+        },
+        {
+          "name": "判官",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "小鬼",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "段落1：5位角色，134行",
+      "firstLine": 1,
+      "lastLine": 134,
+      "numLines": 134,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.524,
+        "sentiment": 0.034
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "敫桂英",
+      "short": "敫桂",
+      "key": "敫桂英",
+      "quote": "敫桂英 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "海神",
+      "short": "海神",
+      "key": "海神",
+      "quote": "海神 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "判官",
+      "short": "判官",
+      "key": "判官",
+      "quote": "判官 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "小鬼",
+      "short": "小鬼",
+      "key": "小鬼",
+      "quote": "小鬼 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "鬼判",
+      "short": "鬼判",
+      "key": "鬼判",
+      "quote": "鬼判 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "未曾归殿",
+      "key": "未曾归殿",
+      "quote": "场景发生在未曾归殿"
+    }
+  ]
+}

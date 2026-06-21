@@ -1,0 +1,434 @@
+{
+  "title": "骂曹饯行",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "02003021_骂曹饯行.json",
+  "source_folder": "02000000",
+  "plot_summary": "祢衡击鼓骂曹操后，曹操乃用借刀杀人之计，将祢衡荐往刘表处。临行之时，并令张辽备酒长亭，荀彧、荀\n攸、郭嘉及程昱等，分别敬酒，借机侮辱。祢衡亦不肯示弱，一一反骂后，扬鞭而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.28,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张辽": 1,
+        "曹操": 1,
+        "祢衡": 1,
+        "众人": 1
+      },
+      "links": [
+        {
+          "source": "曹操",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "张辽",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 123,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "程昱": 1,
+        "荀彧": 1,
+        "众人": 1,
+        "祢衡": 1,
+        "曹操": 1,
+        "荀攸": 1,
+        "郭嘉": 1
+      },
+      "links": [
+        {
+          "source": "荀彧",
+          "target": "荀攸",
+          "value": 1
+        },
+        {
+          "source": "程昱",
+          "target": "荀彧",
+          "value": 1
+        },
+        {
+          "source": "荀彧",
+          "target": "郭嘉",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "荀彧",
+          "value": 1
+        },
+        {
+          "source": "祢衡",
+          "target": "荀彧",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "荀彧",
+          "value": 1
+        },
+        {
+          "source": "程昱",
+          "target": "荀攸",
+          "value": 1
+        },
+        {
+          "source": "荀攸",
+          "target": "郭嘉",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "荀攸",
+          "value": 1
+        },
+        {
+          "source": "祢衡",
+          "target": "荀攸",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "荀攸",
+          "value": 1
+        },
+        {
+          "source": "程昱",
+          "target": "郭嘉",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "祢衡",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "郭嘉",
+          "value": 1
+        },
+        {
+          "source": "祢衡",
+          "target": "郭嘉",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "郭嘉",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "祢衡",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "祢衡",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "丞相宽限岂宁坐，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "祢衡说话真可恶，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "众人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "丞相，祢衡放肆，反命荆州为吏何故？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张辽",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "遵命。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.601,
+        "conflict": 1.0,
+        "sentiment": 0.312
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "荀彧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "下官荀彧。",
+          "rating": 0.333,
+          "role": "末"
+        },
+        {
+          "name": "荀攸",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "下官荀攸。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "程昱",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "下官程昱。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郭嘉",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "下官郭嘉。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "请了。",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "祢衡",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "祢衡马上自嗟叹，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：7位角色，123行",
+      "firstLine": 1,
+      "lastLine": 123,
+      "numLines": 123,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.842,
+        "sentiment": 0.419
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "祢衡",
+      "short": "祢衡",
+      "key": "祢衡",
+      "quote": "祢衡 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "荀彧",
+      "short": "荀彧",
+      "key": "荀彧",
+      "quote": "荀彧 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "荀攸",
+      "short": "荀攸",
+      "key": "荀攸",
+      "quote": "荀攸 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹操",
+      "short": "曹操",
+      "key": "曹操",
+      "quote": "曹操 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "张辽",
+      "short": "张辽",
+      "key": "张辽",
+      "quote": "张辽 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "程昱",
+      "short": "程昱",
+      "key": "程昱",
+      "quote": "程昱 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "郭嘉",
+      "short": "郭嘉",
+      "key": "郭嘉",
+      "quote": "郭嘉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

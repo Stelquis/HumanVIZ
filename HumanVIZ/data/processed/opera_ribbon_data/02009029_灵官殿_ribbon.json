@@ -1,0 +1,268 @@
+{
+  "title": "灵官殿",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "02009029_灵官殿.json",
+  "source_folder": "02000000",
+  "plot_summary": "刘唐闻蔡京生日，各地均送生辰纲，藉表庆祝，其中珠宝均系民脂民膏。刘唐思供蔡京挥霍，不如供自己吃\n喝。欲截生辰纲，又念滋事体大，非他一人所能。因想及晁盖仗义疏财，想与他合作。走到中途，口渴腹饥，\n至酒馆中，喝的酩酊大醉，后至灵官殿神案上睡卧，被朱仝、雷横捆绑，随一同至晁盖处。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 145,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "里个倾颓庙": 1
+      },
+      "characters": {
+        "酒保": 1,
+        "刘唐": 1
+      },
+      "links": [
+        {
+          "source": "刘唐",
+          "target": "酒保",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 13,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.175,
+      "locations": {
+        "里个倾颓庙": 1
+      },
+      "characters": {
+        "朱仝": 1,
+        "雷横": 1
+      },
+      "links": [
+        {
+          "source": "朱仝",
+          "target": "雷横",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 65,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.874,
+      "locations": {
+        "里个倾颓庙": 1
+      },
+      "characters": {
+        "朱仝": 1,
+        "刘唐": 1,
+        "雷横": 1
+      },
+      "links": [
+        {
+          "source": "刘唐",
+          "target": "朱仝",
+          "value": 1
+        },
+        {
+          "source": "刘唐",
+          "target": "雷横",
+          "value": 1
+        },
+        {
+          "source": "朱仝",
+          "target": "雷横",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "里个倾颓庙",
+      "characters": [
+        {
+          "name": "刘唐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "走吓。",
+          "rating": -0.429,
+          "role": "净"
+        },
+        {
+          "name": "酒保",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来哉，来哉。",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：2位角色，145行",
+      "firstLine": 1,
+      "lastLine": 145,
+      "numLines": 145,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.185,
+        "sentiment": 0.095
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "里个倾颓庙",
+      "characters": [
+        {
+          "name": "雷横",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "走吓！",
+          "rating": -1.0,
+          "role": "末"
+        },
+        {
+          "name": "朱仝",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "漏水沉沉静，",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第二场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.42,
+        "conflict": 0.625,
+        "sentiment": -0.424
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "里个倾颓庙",
+      "characters": [
+        {
+          "name": "刘唐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "好酒！",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "朱仝",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "行人赶行人，",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "雷横",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "一程又一程。",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第三场：3位角色，65行",
+      "firstLine": 1,
+      "lastLine": 65,
+      "numLines": 65,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.278,
+        "sentiment": -0.038
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘唐",
+      "short": "刘唐",
+      "key": "刘唐",
+      "quote": "刘唐 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "酒保",
+      "short": "酒保",
+      "key": "酒保",
+      "quote": "酒保 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "朱仝",
+      "short": "朱仝",
+      "key": "朱仝",
+      "quote": "朱仝 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "雷横",
+      "short": "雷横",
+      "key": "雷横",
+      "quote": "雷横 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "里个倾颓庙",
+      "key": "里个倾颓庙",
+      "quote": "场景发生在里个倾颓庙"
+    }
+  ]
+}

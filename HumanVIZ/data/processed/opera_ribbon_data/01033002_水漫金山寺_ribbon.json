@@ -1,0 +1,594 @@
+{
+  "title": "水漫金山寺",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "01033002_水漫金山寺.json",
+  "source_folder": "01000000",
+  "plot_summary": "是剧由《白蛇传》排出，纯用吹腔，颇得昆曲之胎息，京津已风行一时。其中事实，系法海禅师奉佛旨收妖，\n寻至镇江，访得许仙为白氏蛇妖所纠缠，原原本本，尽行明瞭。在白氏之立意，未尝不光明正大：但愿报\n许氏前世救命之恩，为之生一贵子，手创门楣，事毕即行回山隐避。在法海之立意：并非与白氏有仇，必欲\n制其生命，第恐人妖不能比并，设或理无可喻，层层造孽，许氏善报，因之剥削净尽，法海不免有纵容之罪，\n佛旨难以缴销。有此原因，安能坐视。白氏既以报恩为重，平日间厚待许仙，可以质神明，可以对天地，\n蠢物秃驴，敢干涉我夫妻耶！于是狠闻之决心，遂止遏不住。噫，两方面之罪案，亦从此而鉴定矣。其故何\n哉？盖水漫金山一役，仅仅属数小时之久，而生灵之伤害，盖不止百数千数矣。不然，法海佛力无边，白氏\n有文曲星怀孕作为护身符，法海固无可如何也。今则罪犯天条，上帝虽有好生之德，亦不能为白氏曲恕矣。\n合钵之惨剧，宜乎即日发现也。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.073,
+      "locations": {
+        "先进讲堂": 1
+      },
+      "characters": {
+        "监寺": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 33,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.399,
+      "locations": {
+        "先进讲堂": 1
+      },
+      "characters": {
+        "法海": 1,
+        "船家": 1,
+        "监寺": 1,
+        "许仙": 1
+      },
+      "links": [
+        {
+          "source": "船家",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "监寺",
+          "target": "船家",
+          "value": 1
+        },
+        {
+          "source": "法海",
+          "target": "船家",
+          "value": 1
+        },
+        {
+          "source": "监寺",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "法海",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "法海",
+          "target": "监寺",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 209,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "先进讲堂": 1
+      },
+      "characters": {
+        "法海": 1,
+        "白素贞": 1,
+        "众人": 1,
+        "蚌形": 1,
+        "许仙": 1,
+        "小青": 1,
+        "韦陀": 1,
+        "监寺": 1,
+        "众护法神": 1
+      },
+      "links": [
+        {
+          "source": "小青",
+          "target": "白素贞",
+          "value": 1
+        },
+        {
+          "source": "小青",
+          "target": "监寺",
+          "value": 1
+        },
+        {
+          "source": "小青",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "小青",
+          "target": "法海",
+          "value": 1
+        },
+        {
+          "source": "众护法神",
+          "target": "小青",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "小青",
+          "value": 1
+        },
+        {
+          "source": "小青",
+          "target": "蚌形",
+          "value": 1
+        },
+        {
+          "source": "小青",
+          "target": "韦陀",
+          "value": 1
+        },
+        {
+          "source": "白素贞",
+          "target": "监寺",
+          "value": 1
+        },
+        {
+          "source": "白素贞",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "法海",
+          "target": "白素贞",
+          "value": 1
+        },
+        {
+          "source": "众护法神",
+          "target": "白素贞",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "白素贞",
+          "value": 1
+        },
+        {
+          "source": "白素贞",
+          "target": "蚌形",
+          "value": 1
+        },
+        {
+          "source": "白素贞",
+          "target": "韦陀",
+          "value": 1
+        },
+        {
+          "source": "监寺",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "法海",
+          "target": "监寺",
+          "value": 1
+        },
+        {
+          "source": "众护法神",
+          "target": "监寺",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "监寺",
+          "value": 1
+        },
+        {
+          "source": "监寺",
+          "target": "蚌形",
+          "value": 1
+        },
+        {
+          "source": "监寺",
+          "target": "韦陀",
+          "value": 1
+        },
+        {
+          "source": "法海",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "众护法神",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "蚌形",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "许仙",
+          "target": "韦陀",
+          "value": 1
+        },
+        {
+          "source": "众护法神",
+          "target": "法海",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "法海",
+          "value": 1
+        },
+        {
+          "source": "法海",
+          "target": "蚌形",
+          "value": 1
+        },
+        {
+          "source": "法海",
+          "target": "韦陀",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "众护法神",
+          "value": 1
+        },
+        {
+          "source": "众护法神",
+          "target": "蚌形",
+          "value": 1
+        },
+        {
+          "source": "众护法神",
+          "target": "韦陀",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "蚌形",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "韦陀",
+          "value": 1
+        },
+        {
+          "source": "蚌形",
+          "target": "韦陀",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "先进讲堂",
+      "characters": [
+        {
+          "name": "监寺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "济度慈悲大，云游岁月深。衷怀无别事，一片谈禅心。",
+          "rating": -1.0,
+          "role": "副"
+        }
+      ],
+      "summary": "第一场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.096,
+        "conflict": 1.0,
+        "sentiment": -0.413
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "先进讲堂",
+      "characters": [
+        {
+          "name": "船家",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来哉。到哪里去的？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "许仙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "为蛇妖特地前来到，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "监寺",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "禅明一片月，缘觉数钟声。",
+          "rating": 0.0,
+          "role": "副"
+        },
+        {
+          "name": "法海",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第二场：4位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.706,
+        "conflict": 0.606,
+        "sentiment": 0.168
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "先进讲堂",
+      "characters": [
+        {
+          "name": "小青",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "娘娘，官人不过到金山拈香，少不得回来，为何如此放心不下？",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "白素贞",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忽地机关已分晓，",
+          "rating": 0.25,
+          "role": "旦"
+        },
+        {
+          "name": "监寺",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "何人拉山门，外头猪华百叫。",
+          "rating": 1.0,
+          "role": "副"
+        },
+        {
+          "name": "许仙",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "这便怎么处？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "法海",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "忽听语声嘈，",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "众护法神",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "来也！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "启禅师：妖魔逃去了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蚌形",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "韦陀",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "negative",
+          "quote": "有。",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：9位角色，209行",
+      "firstLine": 1,
+      "lastLine": 209,
+      "numLines": 209,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.24,
+        "sentiment": 0.238
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "白素贞",
+      "short": "白素",
+      "key": "白素贞",
+      "quote": "白素贞 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "许仙",
+      "short": "许仙",
+      "key": "许仙",
+      "quote": "许仙 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "法海",
+      "short": "法海",
+      "key": "法海",
+      "quote": "法海 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "监寺",
+      "short": "监寺",
+      "key": "监寺",
+      "quote": "监寺 — 副",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 副",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "船家",
+      "short": "船家",
+      "key": "船家",
+      "quote": "船家 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "蚌形",
+      "short": "蚌形",
+      "key": "蚌形",
+      "quote": "蚌形 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小青",
+      "short": "小青",
+      "key": "小青",
+      "quote": "小青 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "韦陀",
+      "short": "韦陀",
+      "key": "韦陀",
+      "quote": "韦陀 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众护法神",
+      "short": "众护",
+      "key": "众护法神",
+      "quote": "众护法神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "先进讲堂",
+      "key": "先进讲堂",
+      "quote": "场景发生在先进讲堂"
+    }
+  ]
+}

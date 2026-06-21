@@ -1,0 +1,463 @@
+{
+  "title": "断太后",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "01003008_断太后.json",
+  "source_folder": "01000000",
+  "plot_summary": "宋，包拯陈州放粮，回经赵州桥，忽起狂风，将轿顶吹去。知地方有含冤莫白事情，即驻天齐庙，出示榜告。\n有李后因狸猫换子事，被刘妃陷害，逼入冷宫，后流落赵州桥。目已盲，栖宿寒窑，茕茕孑立，饥寒交迫。\n日往街头，沿门求乞。闻包拯出示放告，遂往天齐庙，苦诉冤情。包拯恐其诈，不敢遽信。李后目虽不明，\n尚能指摸头骨，而辨包拯之真伪。包拯暗以己之衣冠，使地保穿戴，令其摩抚猜测。李后方着手，即斥其\n伪。包拯乃默不作声，近前试之。李后略按一回，即大呼包拯。包拯大惊。盖当包拯及第时，内宫曾赐一帽，\n系李之亲裁，而此时尚得忆其头颅之若何也。包拯询当年冤屈情由，有何证据。李后即出黄绢与之。包拯\n见上有寇准题句，隐寓冤情，知系真确，乃请其升座而朝叩之。同回京中，奏明仁宗，迎入宫内以奉养焉。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.276,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "马汉": 1,
+        "包拯": 1,
+        "王朝": 1
+      },
+      "links": [
+        {
+          "source": "包拯",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "王朝",
+          "target": "马汉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.138,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "地方": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 22,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.433,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "包拯": 1,
+        "李后": 1,
+        "众人": 1
+      },
+      "links": [
+        {
+          "source": "众人",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "包拯",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 160,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "马汉": 1,
+        "包拯": 1,
+        "李后": 1,
+        "众人": 1,
+        "地方": 1,
+        "王朝": 1
+      },
+      "links": [
+        {
+          "source": "包拯",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "地方",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "李后",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "王朝",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "地方",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "地方",
+          "value": 1
+        },
+        {
+          "source": "地方",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "地方",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "李后",
+          "target": "马汉",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一片丹心，保宋主，锦绣龙庭。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "马汉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王朝",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "俱已齐备。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.495,
+        "conflict": 0.714,
+        "sentiment": 0.766
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "地方",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哽哼！",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.531,
+        "conflict": 0.0,
+        "sentiment": 0.173
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李后",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "苦吓！",
+          "rating": 0.333,
+          "role": "老旦"
+        },
+        {
+          "name": "众人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "包大人陈州放粮而回，打此经过。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "包拯",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：3位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.664,
+        "conflict": 0.0,
+        "sentiment": 0.119
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王朝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "启爷：狂风刮去轿顶！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "包拯",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "驻轿！",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "地方",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "地方叩见大人！",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "众人",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "没有冤枉。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李后",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "破瓦寒窑，有一瞎婆，有二十载的含冤！",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "马汉",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "包大人下位来了，上前来摸！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：6位角色，160行",
+      "firstLine": 1,
+      "lastLine": 160,
+      "numLines": 160,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.182,
+        "sentiment": 0.112
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李后",
+      "short": "李后",
+      "key": "李后",
+      "quote": "李后 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "包拯",
+      "short": "包拯",
+      "key": "包拯",
+      "quote": "包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "地方",
+      "short": "地方",
+      "key": "地方",
+      "quote": "地方 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "马汉",
+      "short": "马汉",
+      "key": "马汉",
+      "quote": "马汉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王朝",
+      "short": "王朝",
+      "key": "王朝",
+      "quote": "王朝 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

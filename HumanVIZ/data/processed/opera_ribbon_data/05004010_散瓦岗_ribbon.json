@@ -1,0 +1,392 @@
+{
+  "title": "散瓦岗",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "05004010_散瓦岗.json",
+  "source_folder": "05000000",
+  "plot_summary": "李密无道，瓦岗众将均怀去志。秦琼、徐勣、罗成、程咬金同下山林，离去投唐。李密差王伯党赶至，拟追\n回。四人告知回乡奉母，不再回山，乃各分手，王伯党自回瓦岗。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 23,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.343,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "徐勣": 1,
+        "秦琼": 1,
+        "程咬金": 1
+      },
+      "links": [
+        {
+          "source": "徐勣",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "程咬金",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.119,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王伯党": 1,
+        "四上手": 1
+      },
+      "links": [
+        {
+          "source": "四上手",
+          "target": "王伯党",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 170,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王伯党": 1,
+        "罗成": 1,
+        "徐勣": 1,
+        "程咬金": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "秦琼",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "王伯党",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "王伯党",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "程咬金",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "王伯党",
+          "value": 1
+        },
+        {
+          "source": "王伯党",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "家住历城在东庄，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "全凭八卦定阴阳。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "罗成",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "习就长枪谁能敌，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "魏王不义散瓦岗！",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：4位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.678,
+        "conflict": 0.0,
+        "sentiment": 0.775
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王伯党",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "威镇山岗，豪杰英雄保魏王。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "四上手",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.38,
+        "conflict": 0.0,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "那旁人马喧嚷，这便怎处？",
+          "rating": 0.667,
+          "role": "老生"
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "想是魏王追兵到来，你我弟兄挡他一阵。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "王伯党",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "呀，原来众家兄弟，有礼了。大家下马相见。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "贤弟。",
+          "rating": -0.25,
+          "role": "老生"
+        },
+        {
+          "name": "罗成",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "手挽手儿尊兄长，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：5位角色，170行",
+      "firstLine": 1,
+      "lastLine": 170,
+      "numLines": 170,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.154,
+        "sentiment": 0.327
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王伯党",
+      "short": "王伯",
+      "key": "王伯党",
+      "quote": "王伯党 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "秦琼",
+      "short": "秦琼",
+      "key": "秦琼",
+      "quote": "秦琼 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "徐勣",
+      "short": "徐勣",
+      "key": "徐勣",
+      "quote": "徐勣 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "罗成",
+      "short": "罗成",
+      "key": "罗成",
+      "quote": "罗成 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "程咬金",
+      "short": "程咬",
+      "key": "程咬金",
+      "quote": "程咬金 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "四上手",
+      "short": "四上",
+      "key": "四上手",
+      "quote": "四上手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

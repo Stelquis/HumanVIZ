@@ -1,0 +1,609 @@
+{
+  "title": "连环套",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 11,
+  "num_locations": 1,
+  "source_file": "01032003_连环套【四本】.json",
+  "source_folder": "01000000",
+  "plot_summary": "",
+  "performance_notes": "前段为头、二本，即《围猎盗马》等场，系在本考第六册，载《盗御马》一段前之。第六册中之《盗御马》，\n即《探山》也，此紧接《探山》，为四本《连环套》，乃朱光祖盗钩、黄天霸与窦尔敦比武之两幕，至此\n全剧乃有结穴，始成完璧。此本精粹，名虽以比武著，实则在于盗钩，盖会面之后，只赖朱光祖从旁数语，\n窦尔敦遂佩服，与黄天霸和好。故以脚本中关节论，及以剧场中所显之好身手论，其有要均在朱光祖连夜偷\n入连环套，下药插刀、盗出虎头双钩等之一幕。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 74,
+      "summary": "第一场；第二场",
+      "conflict": 0.086,
+      "importance": 0.945,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "何路通": 1,
+        "喽啰甲": 1,
+        "朱光祖": 1,
+        "窦尔敦": 1,
+        "关泰": 1,
+        "黄天霸": 1
+      },
+      "links": [
+        {
+          "source": "关泰",
+          "target": "朱光祖",
+          "value": 1
+        },
+        {
+          "source": "何路通",
+          "target": "关泰",
+          "value": 1
+        },
+        {
+          "source": "关泰",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "关泰",
+          "target": "窦尔敦",
+          "value": 1
+        },
+        {
+          "source": "何路通",
+          "target": "朱光祖",
+          "value": 1
+        },
+        {
+          "source": "朱光祖",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "朱光祖",
+          "target": "窦尔敦",
+          "value": 1
+        },
+        {
+          "source": "何路通",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "何路通",
+          "target": "窦尔敦",
+          "value": 1
+        },
+        {
+          "source": "窦尔敦",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "喽啰甲",
+          "target": "黄天霸",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 37,
+      "summary": "第三场；第四场",
+      "conflict": 0.0,
+      "importance": 0.472,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "朱光祖": 1,
+        "更夫": 1,
+        "二喽啰": 1,
+        "厨子": 1
+      },
+      "links": [
+        {
+          "source": "二喽啰",
+          "target": "朱光祖",
+          "value": 1
+        },
+        {
+          "source": "厨子",
+          "target": "更夫",
+          "value": 1
+        },
+        {
+          "source": "更夫",
+          "target": "朱光祖",
+          "value": 1
+        },
+        {
+          "source": "厨子",
+          "target": "朱光祖",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 124,
+      "summary": "第五场；第六场",
+      "conflict": 0.002,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "纪全": 1,
+        "朱光祖": 1,
+        "四头目": 1,
+        "窦尔敦": 1,
+        "黄天霸": 1
+      },
+      "links": [
+        {
+          "source": "朱光祖",
+          "target": "窦尔敦",
+          "value": 2
+        },
+        {
+          "source": "四头目",
+          "target": "窦尔敦",
+          "value": 1
+        },
+        {
+          "source": "四头目",
+          "target": "朱光祖",
+          "value": 1
+        },
+        {
+          "source": "纪全",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "朱光祖",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "窦尔敦",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "朱光祖",
+          "target": "纪全",
+          "value": 1
+        },
+        {
+          "source": "窦尔敦",
+          "target": "纪全",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关泰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "众位仁兄，黄爷一人前去探山，这般时候，还不见到来，却是为何？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "朱光祖",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "想黄老兄弟一人前去探山，身无寸铁，十分危险，我等何不迎上前去？",
+          "rating": 0.2,
+          "role": "武丑"
+        },
+        {
+          "name": "何路通",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "言之有理，大家一同迎上前去。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "黄天霸",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "走吓！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "窦尔敦",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 0.333,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：5位角色，70行",
+      "firstLine": 1,
+      "lastLine": 70,
+      "numLines": 70,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.968,
+        "conflict": 0.719,
+        "sentiment": 0.246
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "喽啰甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "伙计，将才寨主吩咐啦，今天黄天霸前来探山，他山下必有余党，叫咱们千万",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黄天霸",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第二场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.415,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "朱光祖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "俺，朱光祖，时才间盗了黄贤弟的腰牌，不免去到连环套走走。",
+          "rating": 1.0,
+          "role": "武丑"
+        },
+        {
+          "name": "二喽啰",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：2位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.488,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "更夫",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "拿奸细！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "厨子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "是我。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "朱光祖",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "嗳呀妙吓，我身边所带八宝勾魂夺魄散许久未用，不料用在今日，真真是巧的",
+          "rating": 0.0,
+          "role": "武丑"
+        }
+      ],
+      "summary": "第四场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.487,
+        "conflict": 0.714,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "窦尔敦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "天霸生来好大胆，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "朱光祖",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "窦尔敦！",
+          "rating": -0.6,
+          "role": "武丑"
+        },
+        {
+          "name": "四头目",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "寨主何事？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：3位角色，51行",
+      "firstLine": 1,
+      "lastLine": 51,
+      "numLines": 51,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.762,
+        "conflict": 0.46,
+        "sentiment": 0.059
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "黄天霸",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "朱仁兄哪里去了，因何不见？",
+          "rating": 0.6,
+          "role": "武生"
+        },
+        {
+          "name": "纪全",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我等不知。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "朱光祖",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "喝，好大的气头子。我说咱们有话坐下说，好不好？",
+          "rating": -0.333,
+          "role": "武丑"
+        },
+        {
+          "name": "窦尔敦",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "今日你我是怎样比试？",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：4位角色，73行",
+      "firstLine": 1,
+      "lastLine": 73,
+      "numLines": 73,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.98,
+        "conflict": 0.261,
+        "sentiment": 0.061
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "朱光祖",
+      "short": "朱光",
+      "key": "朱光祖",
+      "quote": "朱光祖 — 武丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 武丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "窦尔敦",
+      "short": "窦尔",
+      "key": "窦尔敦",
+      "quote": "窦尔敦 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "黄天霸",
+      "short": "黄天",
+      "key": "黄天霸",
+      "quote": "黄天霸 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "何路通",
+      "short": "何路",
+      "key": "何路通",
+      "quote": "何路通 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "纪全",
+      "short": "纪全",
+      "key": "纪全",
+      "quote": "纪全 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "喽啰甲",
+      "short": "喽啰",
+      "key": "喽啰甲",
+      "quote": "喽啰甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四头目",
+      "short": "四头",
+      "key": "四头目",
+      "quote": "四头目 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "更夫",
+      "short": "更夫",
+      "key": "更夫",
+      "quote": "更夫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "关泰",
+      "short": "关泰",
+      "key": "关泰",
+      "quote": "关泰 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "厨子",
+      "short": "厨子",
+      "key": "厨子",
+      "quote": "厨子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二喽啰",
+      "short": "二喽",
+      "key": "二喽啰",
+      "quote": "二喽啰 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

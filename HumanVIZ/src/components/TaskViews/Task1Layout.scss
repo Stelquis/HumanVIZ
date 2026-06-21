@@ -1,8 +1,10 @@
 // ============================================================
 //  Task 1 — 戏曲角色行当推断与演化分析 · 可视化面板
-//  Colour scheme: "燕京清晖", consistent with main theme
-//  Layout: 三栏悬浮式 (参考数据总览侧边栏格式)
+//  Colour scheme: "燕京清晖" 主题色系
+//  Layout: 三栏悬浮式  (左侧推断面板 + 中央表演模式 + 右侧 Sankey 面板)
 // ============================================================
+
+@use './report-sidebar-common' as *;
 
 $paper: var(--theme-paper);
 $parchment: var(--theme-parchment);
@@ -18,6 +20,7 @@ $border: var(--theme-border);
 $border-strong: var(--theme-border-strong);
 $border-soft: var(--theme-border-soft);
 $shadow: var(--theme-shadow-color);
+$shadow-float: var(--theme-shadow-float);
 $glow: var(--theme-glow);
 $text-soft: var(--theme-text-soft);
 
@@ -27,107 +30,1703 @@ $text-soft: var(--theme-text-soft);
 .t1-screen {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
+  // 替换 fix: let the grid layout determine width
+  width: 100%;
   height: 100%;
-  overflow: hidden;
-  padding: 10px 14px 14px;
-  color: $ink;
-  background: linear-gradient(180deg,
-    rgba(255, 253, 249, 0.55) 0%,
-    rgba(246, 241, 231, 0.38) 100%);
+  padding: 12px;
+  box-sizing: border-box;
+  & > .t1-machine {
+    flex: 1;
+    min-height: 0;
+  }
 }
 
 /* ============================================================
-   Topbar
+   Topbar — 卡片式标题栏 (仿 Task3 t3-topbar 构图)
    ============================================================ */
 .t1-topbar {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 14px;
-  padding: 10px 16px;
-  border-radius: 16px;
-  min-height: 0;
-  flex-shrink: 0;
-  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
-  border: 1px solid $border;
-  box-shadow: 0 8px 18px $shadow;
+  display: grid; grid-template-columns: 1fr auto; gap: 14px;
+  padding: 10px 16px; border-radius: 12px; min-height: 0; flex-shrink: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.35)), $paper;
+  border: 1px solid $border; box-shadow: 0 4px 16px $shadow;
 }
 
-.t1-kicker {
-  font-size: 13px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: $ochre;
-  font-weight: 600;
-}
+.t1-brand-icon { font-size: 1em; vertical-align: middle; }
 
 .t1-topbar-title-group {
   h1 {
-    margin: 2px 0 0;
-    font-size: clamp(1.15rem, 1.5vw, 1.45rem);
-    font-family: "PT Serif", "Noto Serif SC", serif;
-    font-style: normal;
-    line-height: 1.25;
-    color: $wood;
+    margin: 2px 0 0; font-size: clamp(1.15rem, 1.5vw, 1.45rem);
+    font-family: "PT Serif", "Noto Serif SC", serif; line-height: 1.25; color: $wood;
   }
-
-  p {
-    color: $text-soft;
-    line-height: 1.5;
-    font-size: 12px;
-    margin: 3px 0 0;
-  }
+  .t1-topbar-desc { display: block; font-size: 10px; color: $text-soft; line-height: 1.5; margin: 2px 0 0; }
 }
 
-.t1-topbar-report-btn {
-  display: inline-flex;
-  align-items: center;
-  align-self: center;
+/* ── 设计流程报告按钮 (卡片内右侧, 仿 Task3) ── */
+// ── Report trigger button (shared) ──
+@include report-trigger-btn(t1);
+
+/* ============================================================
+   Main Layout Grid — 三列等高网格 (旧版，兼容保留)
+   ============================================================ */
+.t1-machine {
+  display: grid;
+  grid-template-columns: 1.8fr 2.5fr 2.2fr;
   gap: 8px;
-  padding: 10px 20px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, rgba(212,197,176,0.55), rgba(184,149,111,0.12));
-  border: 1.5px solid $border-soft;
-  font-size: 14px;
-  font-weight: 600;
-  color: $wood;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-family: "Noto Serif SC", "PT Serif", "STSong", "SimSun", serif;
-  white-space: nowrap;
+  min-height: 0;
+  overflow: hidden;
+  padding: 0 8px 8px;
 
-  &:hover {
-    border-color: $camel;
-    background: linear-gradient(135deg, rgba(212,197,176,0.7), rgba(184,149,111,0.2));
-    box-shadow: 0 3px 12px $shadow;
-    transform: translateY(-1px);
+  > .t1-left-panel,
+  > main,
+  > .t1-right-panel {
+    min-height: 0;
+    overflow-y: auto;
   }
 
-  &:active {
-    transform: scale(0.97);
+  > main {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 0;
   }
-}
-
-.t1-report-btn-icon {
-  font-size: 18px;
-  flex-shrink: 0;
 }
 
 /* ============================================================
-   Main grid — 三栏布局 (参考 Overview 侧边栏格式)
+   Tab 导航栏 — 统一行
+   ============================================================ */
+.t1-tabbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  padding: 8px;
+}
+
+.t1-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px;
+  border: 1px solid $border;
+  background: rgba(255,255,255,0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  color: $wood;
+  transition: all 0.18s ease;
+  font-family: "Noto Sans SC", "PT Serif", serif;
+
+  &:hover {
+    background: rgba(255,255,255,0.6);
+    border-color: $border-strong;
+  }
+
+  &.active {
+    background: $camel;
+    color: #fff;
+    border-color: $camel;
+    box-shadow: 0 2px 8px rgba(184,155,109,0.4);
+  }
+}
+
+.t1-tab-spacer {
+  flex: 1;
+}
+
+.t1-report-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 12px;
+  border: 1px solid $border-soft;
+  background: rgba(255,255,255,0.15);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 500;
+  color: $text-soft;
+  transition: all 0.18s ease;
+
+  &:hover {
+    background: rgba(255,255,255,0.5);
+    color: $wood;
+    border-color: $border;
+  }
+}
+
+/* ── View Tabs — 主视图切换导航 (仿 Task3 主题结构栏风格) ── */
+.t1-view-tabs {
+  display: flex; gap: 2px; flex-shrink: 0;
+  padding: 4px 8px 0;
+  border-bottom: 1px solid $border-soft;
+  background: linear-gradient(180deg, rgba(250,248,245,.6), transparent);
+}
+.t1-view-tab {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 7px 16px 9px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 10px 10px 0 0;
+  background: transparent;
+  font-size: 11px; font-weight: 500; color: $text-soft; cursor: pointer;
+  transition: all .18s ease; font-family: inherit;
+  margin-bottom: -1px; // overlap the parent border-bottom
+
+  &:hover {
+    color: $wood;
+    background: rgba(184,149,111,.06);
+  }
+
+  &.active {
+    color: $wood;
+    font-weight: 700;
+    border-bottom-color: $wood;
+    background: linear-gradient(180deg, rgba(255,255,255,.5), rgba(255,253,249,.25));
+  }
+}
+.t1-view-icon { font-size: 14px; flex-shrink: 0; }
+
+/* ============================================================
+   Main Grid — 主内容区 (仿 Task3 t3-main-grid 构图)
    ============================================================ */
 .t1-main-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── 角色体系三卡片网格 (Tab 1: 角色体系与演化) ── */
+.t1-role-system-cards {
   display: grid;
-  grid-template-columns: minmax(270px, 21vw) minmax(380px, 1fr) minmax(280px, 24vw);
+  grid-template-columns: 2.5fr 3fr 3fr;
   gap: 10px;
   flex: 1;
   min-height: 0;
   overflow: hidden;
 }
 
+.t1-role-system-card--detail {
+  overflow-y: auto;
+}
+
+.t1-role-system-card--sunburst {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── D3 旭日图悬浮提示栏 ── */
+.t1-sunburst-tooltip {
+  position: absolute;
+  z-index: 20;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.22s ease, transform 0.22s ease;
+  padding: 10px 14px;
+  background: rgba(255, 253, 249, 0.96);
+  border: 1px solid rgba(184, 149, 111, 0.55);
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(139, 115, 85, 0.14), 0 1px 3px rgba(0, 0, 0, 0.06);
+  font-family: "Noto Sans SC", sans-serif;
+  line-height: 1.5;
+  white-space: nowrap;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .tt-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3a2c21;
+    font-family: "Noto Serif SC", "SimSun", serif;
+  }
+
+  .tt-detail {
+    font-size: 12px;
+    color: #5C4A32;
+    margin-top: 2px;
+  }
+
+  .tt-pct {
+    font-size: 11px;
+    color: #A09080;
+    margin-top: 1px;
+    font-style: italic;
+  }
+
+  .tt-face-img {
+    margin-top: 8px;
+    text-align: center;
+
+    img {
+      width: 176px;
+      height: 176px;
+      border-radius: 8px;
+      object-fit: cover;
+      border: 2px solid rgba(184, 149, 111, 0.4);
+      display: block;
+    }
+  }
+}
+
+.t1-role-system-card--sankey {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── 角色体系卡片内 body ── */
+.t1-role-system-card-body {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── Sankey 合并包裹 ── */
+.t1-sankey-merged-wrapper {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── Sankey 紧凑面板 (特征→行当流向图) ── */
+.t1-sankey-compact {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
+.t1-sankey-chart {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+.t1-sankey-note {
+  flex-shrink: 0;
+  margin: 6px 0 0;
+  font-size: 11px;
+  color: $text-soft;
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.t1-sunburst-note {
+  flex-shrink: 0;
+  margin: 2px 0 4px;
+  font-size: 11px;
+  color: $text-soft;
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+/* ── 底部注释条 ── */
+.t1-center-note {
+  font-size: 11px;
+  color: $text-soft;
+  text-align: center;
+  padding: 6px 14px;
+  background: rgba(255,253,249,0.45);
+  border-radius: 8px;
+  border: 1px solid $border-soft;
+  line-height: 1.5;
+  flex-shrink: 0;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.t1-center-note--wide {
+  font-size: 11px;
+  padding: 8px 18px;
+  background: rgba(255,253,249,0.6);
+  border-color: $border;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   Period Interactive Buttons & Popover (below evolution chart)
+   ══════════════════════════════════════════════════════════════ */
+
+/* ── Section container (sibling of .t1-main-vis-inner) ── */
+.t1-period-section {
+  position: relative;
+  flex-shrink: 0;
+  padding: 6px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ── Button row ── */
+.t1-period-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+
+.t1-period-btn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 14px;
+  border: 1px solid $border-soft;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.55);
+  color: $wood;
+  font-family: "Noto Sans SC", sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 72px;
+  outline: none;
+
+  &:hover {
+    border-color: $camel;
+    background: rgba(184, 155, 109, 0.12);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(184, 155, 109, 0.08);
+  }
+
+  &:focus-visible {
+    box-shadow: 0 0 0 2px rgba(184, 155, 109, 0.3);
+  }
+
+  &.active {
+    background: rgba(184, 155, 109, 0.18);
+    border-color: $camel;
+    color: $ink;
+    box-shadow: 0 2px 8px rgba(184, 155, 109, 0.18);
+    font-weight: 600;
+  }
+}
+
+.t1-period-btn-label {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+.t1-period-btn-year {
+  font-size: 9px;
+  color: $text-soft;
+  font-weight: 400;
+  line-height: 1.2;
+
+  .t1-period-btn.active & {
+    color: rgba(58, 44, 33, 0.6);
+  }
+}
+
+/* ── Popover ── */
+.t1-period-popover {
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 60;
+  width: min(420px, 88vw);
+  max-height: 380px;
+  overflow-y: auto;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 253, 249, 0.985),
+    rgba(246, 241, 231, 0.97)
+  );
+  backdrop-filter: blur(8px);
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow:
+    0 8px 32px rgba(58, 44, 33, 0.14),
+    0 2px 6px rgba(184, 155, 109, 0.08);
+  padding: 14px 18px;
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: 11px;
+  line-height: 1.65;
+  color: $wood;
+  animation: t1PeriodPopoverIn 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* subtle scrollbar */
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(184, 155, 109, 0.35);
+    border-radius: 2px;
+  }
+}
+
+@keyframes t1PeriodPopoverIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* ── Popover close button ── */
+.t1-period-popover-close {
+  position: absolute;
+  top: 9px;
+  right: 11px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $border-soft;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  color: $text-soft;
+  font-size: 10px;
+  cursor: pointer;
+  line-height: 1;
+  transition: all 0.15s ease;
+
+  &:hover {
+    border-color: $red;
+    color: $red;
+    background: rgba(150, 84, 77, 0.06);
+  }
+}
+
+/* ── Popover header ── */
+.t1-period-popover-header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 2px;
+  padding-right: 24px; /* avoid close button overlap */
+}
+
+.t1-period-popover-era {
+  font-size: 16px;
+  font-weight: 700;
+  color: $ink;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-period-popover-year {
+  font-size: 11px;
+  color: $text-soft;
+  font-weight: 400;
+}
+
+/* ── Subtitle ── */
+.t1-period-popover-subtitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: $camel;
+  margin-bottom: 6px;
+}
+
+/* ── Meta badge ── */
+.t1-period-popover-meta {
+  margin-bottom: 8px;
+}
+
+.t1-period-popover-meta-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid $border-soft;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+  color: $wood;
+}
+
+/* ── Description ── */
+.t1-period-popover-desc {
+  margin: 0 0 12px;
+  font-size: 11px;
+  line-height: 1.75;
+  color: $wood;
+}
+
+/* ── Representative plays ── */
+.t1-period-popover-plays {
+  border-top: 1px solid $border-soft;
+  padding-top: 8px;
+}
+
+.t1-period-popover-plays-title {
+  font-size: 10px;
+  font-weight: 700;
+  color: $camel;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.t1-period-popover-play-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.t1-period-popover-play-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.45);
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: rgba(184, 155, 109, 0.08);
+  }
+}
+
+.t1-period-popover-play-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: $ink;
+}
+
+.t1-period-popover-play-rolecnt {
+  font-size: 9px;
+  color: $text-soft;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── 展开/放大按钮 ── */
+.t1-expand-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px; height: 28px;
+  border-radius: 8px;
+  border: 1px solid $border-soft;
+  background: rgba(255,255,255,.45);
+  cursor: pointer;
+  color: $text-soft;
+  margin-left: auto;
+  flex-shrink: 0;
+  transition: all .18s ease;
+
+  &:hover {
+    border-color: $camel;
+    color: $camel;
+    background: rgba(184,155,109,.1);
+  }
+}
+
+.t1-expand-icon { font-size: 15px; line-height: 1; }
+
+/* ── 演化辅助分析概览 — 触发按钮 (置于主图header右上角) ── */
+.t1-evo-overview-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: 1px solid $border-soft;
+  background: rgba(255,255,255,.45);
+  font-size: 11px;
+  font-weight: 600;
+  color: $text-soft;
+  cursor: pointer;
+  transition: all .18s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+
+  &:hover, &.active {
+    background: rgba(184,149,111,.12);
+    border-color: $camel;
+    color: $ink;
+  }
+}
+.t1-evo-overview-btn-icon { font-size: 13px; line-height: 1; }
+
+/* ── Sankey 面板内 header 特殊样式 ── */
+.t1-role-system-card-header--in-sankey {
+  flex-shrink: 0;
+}
+
 /* ============================================================
-   Side Panels — 左右悬浮面板
+   Left Panel — 角色体系 + 演化缩略图
    ============================================================ */
+.t1-left-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.t1-side-block {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px $shadow;
+  padding: 14px;
+  flex-shrink: 0;
+
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 4px 20px $shadow;
+  }
+
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,0.06);
+    pointer-events: none;
+    z-index: 0;
+  }
+  > * { position: relative; z-index: 1; }
+}
+
+.t1-side-block-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid $border-soft;
+  cursor: pointer;
+  user-select: none;
+  transition: margin-bottom 0.2s ease;
+
+  h3 { margin: 0; font-size: 14px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+
+  &.is-open { margin-bottom: 8px; }
+  &.is-closed { margin-bottom: 0; border-bottom: none; }
+}
+
+.t1-side-block-icon {
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* ── 侧边栏背景遮罩折叠指示图标 ── */
+.t1-side-block-chevron {
+  display: inline-block;
+  font-size: 8px;
+  color: $text-soft;
+  margin-left: auto;
+  transition: transform 0.25s ease;
+  transform: rotate(0deg);
+  flex-shrink: 0;
+  line-height: 1;
+  &.is-open { transform: rotate(180deg); }
+}
+
+/* ── 侧边栏内容区 (max-height 折叠动画) ── */
+.t1-side-block-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+  opacity: 0;
+  &.is-open {
+    max-height: 4000px;
+    opacity: 1;
+  }
+}
+
+/* ── 侧边栏内容区空状态占位 ── */
+.t1-side-block-content {
+  padding: 24px 16px;
+  text-align: center;
+  color: $text-soft;
+  font-size: 13px;
+  line-height: 1.6;
+
+  .t1-side-block-content-icon {
+    font-size: 28px;
+    margin-bottom: 8px;
+    display: block;
+  }
+}
+
+/* ── 数据详情面板内部样式 ── */
+.t1-evo-detail-panel {
+  padding: 6px 2px;
+}
+
+.t1-evo-detail-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.t1-evo-detail-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+
+.t1-evo-detail-title {
+  flex: 1;
+}
+
+.t1-evo-detail-era {
+  font-size: 15px;
+  font-weight: 700;
+  color: $ink;
+  line-height: 1.3;
+}
+
+.t1-evo-detail-cat {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.t1-evo-detail-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: $text-soft;
+  font-size: 16px;
+  padding: 0 4px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: color 0.15s ease;
+
+  &:hover { color: $red; }
+}
+
+/* ── 主要内容：一句话概括 ── */
+.t1-evo-summary {
+  background: linear-gradient(135deg, rgba(184,155,109,0.08), rgba(246,241,231,0.4));
+  border-radius: 8px;
+  padding: 10px 12px;
+  border-left: 4px solid $camel;
+  margin-bottom: 12px;
+}
+
+.t1-evo-summary-text {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: $ink;
+  line-height: 1.7;
+}
+
+/* ── 指标小字罗列 ── */
+.t1-evo-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  padding: 8px 10px;
+  background: rgba(246,241,231,0.35);
+  border-radius: 6px;
+}
+
+.t1-evo-metric-item {
+  font-size: 11px;
+  color: $text-soft;
+  line-height: 1.6;
+  white-space: nowrap;
+
+  strong { color: $wood; font-weight: 600; }
+}
+
+/* ── 侧边栏内的角色体系卡片 (旭日图) ── */
+.t1-sunburst-card {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.t1-sunburst-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  padding: 6px 10px;
+  flex-shrink: 0;
+}
+
+.t1-sunburst-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: $wood;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.t1-sunburst-legend-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.t1-sunburst-chart-area {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  position: relative;
+  padding: 4px;
+
+  svg { width: 100%; height: 100%; display: block; }
+}
+
+/* ── 演化缩略图 (tab2 快速预览) ── */
+.t1-evolution-thumb {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  .t1-evo-thumb-chart { width: 100%; height: 100px; }
+
+  .t1-evo-thumb-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+  }
+
+  .t1-evo-thumb-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    color: $text-soft;
+  }
+
+  .t1-evo-thumb-legend-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+  }
+}
+
+/* ============================================================
+   Main Area — 中央主区 (角色系统 + 表演分析)
+   ============================================================ */
+.t1-center-stage {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── 角色系统三栏 (详细面板 + 旭日图 + Sankey) ── */
+.t1-role-system-grid {
+  display: grid;
+  grid-template-columns: 2fr 5fr 3fr;
+  gap: 10px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── 角色细节面板 (左侧) ── */
+.t1-role-detail-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow-y: auto;
+  padding: 2px;
+}
+
+.t1-role-detail-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.4), rgba(246,241,231,0.2)), $paper;
+  border: 1px solid $border-soft;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+
+  &:hover { border-color: $border-strong; }
+}
+
+.t1-role-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.t1-role-detail-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.t1-role-detail-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-role-detail-cat {
+  font-size: 11px;
+  color: $text-soft;
+  padding: 1px 8px;
+  border-radius: 10px;
+}
+
+.t1-role-detail-desc {
+  font-size: 11px;
+  color: $wood;
+  margin: 4px 0;
+  line-height: 1.5;
+}
+
+.t1-role-detail-traits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.t1-role-detail-trait {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: $border-soft;
+  color: $wood;
+}
+
+/* ── 角色系统卡片 (中央旭日图) ── */
+.t1-role-system-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px $shadow;
+  padding: 14px;
+  flex-shrink: 0;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 4px 20px $shadow;
+  }
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,0.06);
+    pointer-events: none;
+    z-index: 0;
+  }
+  > * { position: relative; z-index: 1; }
+}
+
+.t1-role-system-card-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid $border-soft;
+  h3 { margin: 0; font-size: 14px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+}
+
+.t1-role-system-card-icon { font-size: 16px; }
+
+/* ============================================================
+   Inline Role Detail Panel — 左侧行当细分详解
+   引用旭日图 SUNBURST_DATA 的人次数据，排版紧凑且可扫描
+   ============================================================ */
+
+.t1-inline-role-details {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 2px 0;
+  overflow-y: auto;
+  height: 100%;
+  font-family: "Noto Sans SC", sans-serif;
+
+  /* 滚动条微调 */
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb { background: rgba(184,155,109,.25); border-radius: 4px; }
+}
+
+/* ── 类别分组: 左侧彩色竖线 ── */
+.t1-role-cat-group {
+  border-left: 3px solid;
+  padding-left: 12px;
+  padding-bottom: 4px;
+
+  &.is-closed { padding-bottom: 0; }
+}
+
+/* ── 类别标题行: 圆点 + 行当名 + 人次 + 占比 (clickable toggle) ── */
+.t1-role-cat-header {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  user-select: none;
+  padding: 4px 4px 4px 2px;
+  border-radius: 6px;
+  margin-left: -2px;
+  transition: background 0.2s ease;
+
+  &:hover { background: rgba(184,155,109,0.08); }
+}
+
+.t1-role-cat-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.t1-role-cat-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: $ink;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  letter-spacing: .02em;
+}
+
+.t1-role-cat-total {
+  font-size: 12px;
+  font-weight: 600;
+  color: $wood;
+  margin-left: auto;
+}
+
+.t1-role-cat-pct {
+  font-size: 12px;
+  font-weight: 700;
+  min-width: 42px;
+  text-align: right;
+}
+
+/* ── 折叠展开图标 ── */
+.t1-role-cat-chevron {
+  display: inline-block;
+  font-size: 8px;
+  color: $text-soft;
+  margin-left: 4px;
+  transition: transform 0.25s ease;
+  transform: rotate(0deg);
+  flex-shrink: 0;
+  line-height: 1;
+
+  &.is-open { transform: rotate(180deg); }
+}
+
+/* ── 类别描述 ── */
+.t1-role-cat-desc {
+  display: block;
+  font-size: 11px;
+  color: $text-soft;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  padding-left: 2px;
+}
+
+/* ── 可折叠内容区 (max-height 动画) ── */
+.t1-role-cat-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+  opacity: 0;
+
+  &.is-open {
+    max-height: 800px;
+    opacity: 1;
+  }
+}
+
+/* ── 子类卡片: 名称行 + 迷你占比条 + 描述 + 特征标签 ── */
+.t1-role-sub-card {
+  padding: 6px 8px 7px;
+  margin-bottom: 6px;
+  background: rgba(255,253,249,.45);
+  border-radius: 6px;
+  border: 1px solid transparent;
+  transition: border-color .15s ease, background .15s ease;
+
+  &:hover {
+    border-color: $border-soft;
+    background: rgba(255,253,249,.75);
+  }
+
+  &:last-child { margin-bottom: 0; }
+}
+
+.t1-role-sub-head {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  margin-bottom: 3px;
+}
+
+.t1-role-sub-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  opacity: .85;
+}
+
+.t1-role-sub-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+  letter-spacing: .01em;
+}
+
+.t1-role-sub-count {
+  font-size: 11px;
+  font-weight: 500;
+  color: $text-soft;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.t1-role-sub-pct {
+  font-size: 11px;
+  font-weight: 600;
+  color: $text-soft;
+  min-width: 34px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* ── 迷你占比条 ── */
+.t1-role-sub-bar-track {
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(94,107,118,.08);
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.t1-role-sub-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width .4s ease;
+  opacity: .7;
+}
+
+/* ── 子类描述 ── */
+.t1-role-sub-desc {
+  display: block;
+  font-size: 11px;
+  line-height: 1.5;
+  color: $text-soft;
+  margin-bottom: 4px;
+  padding-left: 1px;
+}
+
+/* ── 特征标签行 ── */
+.t1-role-sub-traits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.t1-role-trait-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 1px 7px;
+  border-radius: 10px;
+  background: rgba(184,155,109,.1);
+  color: $camel;
+  white-space: nowrap;
+  line-height: 1.6;
+}
+
+/* ============================================================
+   End Inline Role Detail Panel
+   ============================================================ */
+
+/* ── Sankey 面板 (右侧) ── */
+.t1-sankey-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.t1-formula-box {
+  font-size: 12px;
+  padding: 10px;
+  background: rgba(184,155,109,0.06);
+  border-radius: 8px;
+  border: 1px solid $border-soft;
+  line-height: 1.6;
+  color: $wood;
+
+  strong { color: $ink; }
+  .t1-formula { font-family: "Noto Sans SC", sans-serif; font-weight: 600; color: $camel; }
+}
+
+.t1-chi-square-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 600;
+  background: rgba(150,84,77,0.1);
+  color: $red;
+  white-space: nowrap;
+}
+
+/* ── 演化洞察卡片 (右侧) — 旧叙事格式 (保留兼容) ── */
+.t1-evo-narrative-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.35), rgba(246,241,231,0.15));
+  border: 1px solid $border-soft;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 8px;
+
+  .t1-evo-narrative-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 8px;
+    &:first-child { margin-top: 0; }
+  }
+
+  .t1-evo-section-tag {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 4px;
+    align-self: flex-start;
+  }
+
+  .t1-evo-section-text {
+    font-size: 12px;
+    line-height: 1.6;
+    color: $wood;
+  }
+}
+
+/* ── 演化洞察重构版 — 仿表演模式分析「关键发现」+「维度判别能力分析」卡片构图 ── */
+.t1-evo-insights-restructured {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.t1-evo-findings-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* 四大行当判别卡片网格 — 2×2 */
+.t1-evo-cat-grid {
+  gap: 8px;
+}
+
+/* 文化解释脚注 (置于卡片底部, 与上方内容以细线分隔) */
+.t1-evo-cultural-footnote {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  padding-top: 6px;
+  margin-top: 2px;
+  border-top: 1px solid $border-soft;
+  font-size: 10px;
+  line-height: 1.5;
+  color: $text-soft;
+  font-style: italic;
+}
+
+.t1-evo-cultural-icon {
+  font-size: 11px;
+  line-height: 1.5;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+/* 发现卡片内嵌统计行 — 上边距微调 */
+.t1-evo-insight-stats {
+  margin-top: 6px;
+}
+
+/* ============================================================
+   Evolution Tab — 行当演化趋势 (tab2)
+   构图参考 Task3: 研究问题引言 + 主图卡片 + 辅助图表网格 + 右侧洞察面板
+   ============================================================ */
+
+/* ── 主图卡片 (仿 Task3 t3-main-vis 构图) ── */
+.t1-main-vis {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(246,241,231,.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px $shadow;
+  overflow: visible;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,.06);
+    pointer-events: none;
+    z-index: 0;
+  }
+  > * { position: relative; z-index: 1; }
+}
+
+/* ── 主图内容内层包裹 (overflow: hidden 隔离, 让弹窗不被裁剪) ── */
+.t1-main-vis-inner {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.t1-chart-wrap {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── 图表标题栏 ── */
+.t1-center-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  padding: 12px 14px 8px;
+  border-bottom: 1px solid $border-soft;
+
+  h2 { margin: 0; font-size: 14px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+}
+
+.t1-center-icon { font-size: 16px; flex-shrink: 0; }
+
+/* ── 演化趋势标题栏徽章 ── */
+.t1-evo-header-facts {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+
+.t1-evo-header-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 12px;
+  border: 1.5px solid;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+  background: rgba(255,255,255,.45);
+
+  &--chi {
+    font-weight: 600;
+    opacity: .85;
+    color: $slate;
+    border-color: $slate;
+  }
+}
+
+/* ── 图表主体区域 ── */
+.t1-center-body {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  padding: 4px 8px 8px;
+}
+
+/* ── 演化趋势折线图容器 — ECharts 需要显式高度才能渲染 ── */
+.t1-evo-full-chart {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+
+/* ── 辅助图表网格 (2×2) ── */
+.t1-evo-chart-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+/* ── 辅助图表卡片头 ── */
+.t1-evo-aux-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid $border-soft;
+  font-size: 12px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-evo-aux-icon { font-size: 14px; line-height: 1; }
+
+.t1-evo-aux-chart-body {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+/* ── 统计显著性摘要卡片 ── */
+.t1-evo-summary-card {
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(246,241,231,.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px $shadow;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  transition: border-color .2s ease, box-shadow .2s ease;
+
+  &:hover { border-color: $border-strong; box-shadow: 0 4px 20px $shadow; }
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,.06);
+    pointer-events: none;
+    z-index: 0;
+  }
+  > * { position: relative; z-index: 1; }
+}
+
+.t1-evo-summary-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.t1-evo-summary-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.t1-evo-summary-label {
+  color: $text-soft;
+  font-weight: 500;
+  flex-shrink: 0;
+  min-width: 80px;
+}
+
+.t1-evo-summary-value {
+  color: $wood;
+  font-weight: 700;
+}
+
+/* ── 演化概览卡片 (统一 2×2 辅助图表) ── */
+.t1-evo-overview {
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(246,241,231,.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px $shadow;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  transition: border-color .2s ease, box-shadow .2s ease;
+  cursor: pointer;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,.06);
+    pointer-events: none;
+    z-index: 0;
+  }
+  &:hover {
+    border-color: $border-strong;
+    box-shadow: 0 6px 24px $shadow;
+  }
+  > * { position: relative; z-index: 1; }
+}
+
+.t1-evo-overview-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid $border-soft;
+  flex-shrink: 0;
+
+  h3 { margin: 0; font-size: 14px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+}
+
+.t1-evo-overview-icon { font-size: 15px; flex-shrink: 0; }
+
+.t1-evo-overview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  flex: 1;
+}
+
+.t1-evo-overview-cell {
+  background: rgba(255,255,255,.35);
+  border: 1px solid $border-soft;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: background .15s ease;
+
+  &:hover {
+    background: rgba(255,255,255,.6);
+  }
+}
+
+.t1-evo-overview-cell-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  color: $text-soft;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-evo-overview-cell-icon { font-size: 12px; }
+
+.t1-evo-overview-cell-body {
+  font-size: 11px;
+  line-height: 1.5;
+  color: $wood;
+}
+
+.t1-evo-overview-cell-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: $ink;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.t1-evo-overview-cell-sub {
+  font-size: 10px;
+  color: $text-soft;
+  line-height: 1.5;
+  margin-top: 1px;
+}
+
+.t1-evo-overview-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid $border-soft;
+  font-size: 11px;
+  font-weight: 600;
+  color: $wood;
+  opacity: .7;
+  transition: opacity .15s ease;
+
+  .t1-evo-overview:hover & {
+    opacity: 1;
+  }
+}
+
+.t1-evo-overview-expand-icon {
+  font-size: 13px;
+  transition: transform .15s ease;
+
+  .t1-evo-overview:hover & {
+    transform: translateX(2px);
+  }
+}
+
+/* ── 演化辅助分析概览 — 浮动弹窗 ── */
+.t1-evo-overview-popup {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 400px;
+  max-height: calc(100% - 16px);
+  z-index: 20;
+  background: $paper;
+  border: 1px solid $border-strong;
+  border-radius: 12px;
+  box-shadow: $shadow-float;
+  overflow: hidden;
+  animation: t1-popup-in 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+
+  .t1-evo-overview {
+    border: none;
+    box-shadow: none;
+    background: none;
+    border-radius: 0;
+    cursor: default;
+
+    &:hover {
+      border-color: transparent;
+      box-shadow: none;
+    }
+  }
+}
+@keyframes t1-popup-in {
+  from { opacity: 0; transform: translateY(-12px) scale(0.95); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ── 弹出时半透明遮罩 ── */
+.t1-evo-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 15;
+  background: transparent;
+}
+
+/* ── 右侧洞察面板 (仿 Task3 t3-side-panel 构图) ── */
 .t1-side-panel {
   display: flex;
   flex-direction: column;
@@ -136,36 +1735,794 @@ $text-soft: var(--theme-text-soft);
   overflow-y: auto;
   padding-right: 2px;
 
-  &::-webkit-scrollbar {
-    width: 4px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 2px;
-  }
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb { background: $camel; border-radius: 2px; }
 }
 
-.t1-side-block {
-  background: linear-gradient(180deg, rgba(255,255,255,0.58), rgba(246,241,231,0.4)), $paper;
-  border: 1px solid $border;
-  border-radius: 14px;
-  padding: 12px 14px;
-  box-shadow: 0 6px 16px $shadow;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+/* ── 旧版布局 (保留兼容) ── */
 
+/* ── 新演化页布局容器 ── */
+.t1-evo-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── 双栏主内容: 左(主图+辅助图表) | 右(洞察面板) ── */
+.t1-evo-content {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr;
+  gap: 10px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.t1-evo-main-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+  min-width: 0;
+  overflow-y: auto;
+}
+
+/* ── 演化辅助图表卡片 (热力图/熵/JSD) ── */
+.t1-evo-heatmap,
+.t1-evo-entropy-chart,
+.t1-evo-jsd-heatmap {
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(246,241,231,.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px $shadow;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: border-color .2s ease, box-shadow .2s ease;
+
+  &:hover { border-color: $border-strong; box-shadow: 0 4px 20px $shadow; }
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,.06);
+    pointer-events: none;
+    z-index: 0;
+  }
+  > * { position: relative; z-index: 1; }
+}
+.t1-evolution-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.t1-evolution-inner {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 8px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.t1-evolution-main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.t1-evolution-chart-box {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px $shadow;
+  padding: 14px;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
   &:hover {
     border-color: $border-strong;
-    box-shadow: 0 8px 20px $shadow;
+    box-shadow: 0 4px 20px $shadow;
   }
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,0.06);
+    pointer-events: none;
+    z-index: 0;
+  }
+  > * { position: relative; z-index: 1; }
 }
 
-.t1-side-block-header {
+.t1-evolution-chart-header {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding-bottom: 6px;
+  flex-shrink: 0;
+  padding-bottom: 8px;
   margin-bottom: 8px;
-  border-bottom: 1px solid $border;
+  border-bottom: 1px solid $border-soft;
+
+  h3 { margin: 0; font-size: 14px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+  .t1-evolution-chart-icon { font-size: 16px; }
+}
+
+.t1-evolution-chart-body {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+/* ── 演化图表徽章 ── */
+.t1-evo-trend-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 4px;
+
+  &.up { background: rgba(150,84,77,0.15); color: $red; }
+  &.down { background: rgba(94,107,118,0.12); color: $slate; }
+  &.stable { background: rgba(127,150,141,0.12); color: $celadon; }
+}
+
+/* ── 演化缩略图行 (底部) ── */
+.t1-evolution-thumbnails {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.t1-evolution-thumb-box {
+  flex: 1;
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px $shadow;
+  padding: 10px;
+  transition: border-color 0.2s ease;
+  &:hover { border-color: $border-strong; }
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  h4 { margin: 0 0 6px; font-size: 11px; font-weight: 600; color: $wood; }
+}
+
+.t1-evolution-thumb-chart { flex: 1; min-height: 0; width: 100%; }
+
+
+/* ============================================================
+   Performance Tab — 表演模式分析 (tab3)
+   ============================================================ */
+
+.t1-perf-wrapper {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── 双栏容器 — 40/60 等高 ── */
+.t1-perf-two-col {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 14px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── 左栏 — 角色芯片 + 扇形雷达主图, 16px 内边距 ── */
+.t1-perf-left {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px $shadow;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+
+  /* Opera-pattern subtle inner border */
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: 10px;
+    border: 1px solid rgba(184,149,111,0.08);
+    pointer-events: none;
+    z-index: 0;
+  }
+  > * {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+}
+
+/* ── 右栏 — 纵向阅读路径 (关键发现 → 维度卡 → 知识发现 → 对比 → 证据) ── */
+.t1-perf-right {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 0;
+  min-width: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 2px;
+}
+
+/* ── 底部说明栏 — 置于右侧栏目下方 ── */
+.t1-perf-bottombar {
+  font-size: 11px;
+  color: $text-soft;
+  text-align: left;
+  padding: 8px 12px;
+  background: rgba(255,253,249,0.5);
+  border-radius: 8px;
+  border: 1px solid $border-soft;
+  line-height: 1.5;
+  flex-shrink: 0;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+
+/* ============================================================
+   New radar search components — 角色搜索 + 雷达图 + 评述卡片
+   ============================================================ */
+
+/* ── Character Search — base ── */
+.t1-char-search {
+  .mantine-Autocomplete-root { width: 100%; }
+}
+
+/* ── Search prompt: initial state before a character is selected ── */
+/* ── Prompt sub-elements (inside .t1-char-search-card) ── */
+.t1-char-search-prompt-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+  opacity: .7;
+  line-height: 1;
+}
+
+.t1-char-search-prompt-input {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ── Unified card: selected state (single-row layout) ── */
+.t1-char-search-card {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+  padding: 8px 12px;
+  min-height: 52px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, rgba(255,255,255,.65), rgba(246,241,231,.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px $shadow;
+}
+
+/* ── Main character segment (inline) ── */
+.t1-char-search-main {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 10px 4px 0;
+  border-left: 3px solid; /* color via inline style */
+  padding-left: 10px;
+  flex-shrink: 0;
+}
+
+.t1-char-search-main-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 2px rgba(184,155,109,.1);
+}
+
+.t1-char-search-main-name {
+  font-weight: 700;
+  font-size: 15px;
+  color: $ink;
+  font-family: "Noto Serif SC", "PT Serif", serif;
+  white-space: nowrap;
+}
+
+.t1-char-search-main-cat {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 3px;
+  border: 1px solid;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.t1-char-search-main-conf {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+
+  &--expert {
+    background: rgba(184,155,109,.14);
+    color: #9b7d4a;
+    border: 1px solid rgba(184,155,109,.3);
+  }
+  &--inferred {
+    background: rgba(94,107,118,.07);
+    color: $slate;
+    border: 1px solid rgba(94,107,118,.18);
+  }
+}
+
+.t1-char-search-main-clear {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background: none;
+  cursor: pointer;
+  color: $text-soft;
+  transition: all .18s ease;
+  margin-left: 2px;
+
+  &:hover {
+    color: #c44;
+    background: rgba(200,68,68,.08);
+    border-color: rgba(200,68,68,.2);
+  }
+}
+
+/* ── Vertical divider between main and compare ── */
+.t1-char-search-divider {
+  display: block;
+  width: 1px;
+  height: 28px;
+  background: rgba(184,155,109,.18);
+  flex-shrink: 0;
+  margin: 0 8px;
+}
+
+/* ── Comparison segment (inline) ── */
+.t1-char-search-compare {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
+}
+
+.t1-char-search-compare-label {
+  font-size: 14px;
+  color: $text-soft;
+  flex-shrink: 0;
+  opacity: .6;
+}
+
+.t1-char-search-compare-empty {
+  font-size: 10px;
+  color: $text-soft;
+  opacity: .5;
+}
+
+/* ── Feedback toast (floating popover, no layout shift) ── */
+.t1-char-search--combined {
+  position: relative; /* anchor for the floating toast */
+}
+
+.t1-char-search-feedback {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  color: $wood;
+  background: linear-gradient(135deg, rgba(255,253,249,.96), rgba(246,241,231,.92));
+  border: 1px solid $border-strong;
+  padding: 5px 12px;
+  border-radius: 8px;
+  white-space: nowrap;
+  box-shadow: 0 4px 18px rgba(0,0,0,.1);
+  z-index: 10;
+  pointer-events: none;
+  animation: t1-feedback-in .22s cubic-bezier(.22,1,.36,1) both;
+}
+
+@keyframes t1-feedback-in {
+  from { opacity: 0; transform: translateY(-6px) scale(.95); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.t1-char-search-compare-add {
+  width: 110px;
+  flex-shrink: 0;
+  opacity: .7;
+  transition: opacity .18s ease;
+  &:hover, &:focus-within { opacity: 1; }
+}
+
+/* ── Comparison Chips ── */
+.t1-comparison-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px 4px 7px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: $ink;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--chip-color, #{$slate}) 8%, #fff), color-mix(in srgb, var(--chip-color, #{$slate}) 14%, $paper));
+  border: 1px solid color-mix(in srgb, var(--chip-color, #{$slate}) 28%, transparent);
+  white-space: nowrap;
+  transition: box-shadow .15s ease;
+
+  &:hover {
+    box-shadow: 0 1px 4px rgba(0,0,0,.06);
+  }
+}
+
+.t1-comparison-chip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.t1-comparison-chip-name {
+  font-family: "Noto Serif SC", "PT Serif", serif;
+  font-size: 12px;
+}
+
+.t1-comparison-chip-remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: $text-soft;
+  padding: 0;
+  margin-left: 1px;
+  transition: all .15s ease;
+
+  &:hover {
+    color: #c44;
+    background: rgba(200,68,68,.1);
+  }
+}
+
+/* ── Confidence Badge (also used by CommentaryCards) ── */
+.t1-confidence-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.t1-confidence-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  line-height: 1.5;
+
+  &--expert {
+    background: rgba(184,155,109,0.15);
+    color: #9b7d4a;
+    border: 1px solid rgba(184,155,109,0.35);
+  }
+  &--inferred {
+    background: rgba(94,107,118,0.08);
+    color: $slate;
+    border: 1px solid rgba(94,107,118,0.2);
+  }
+}
+
+/* ── Commentary Section ── */
+.t1-commentary-section {
+  /* margin-top removed — section now lives inside t1-pf-section-collapse */
+}
+
+.t1-commentary-char-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid $border-soft;
+  flex-wrap: wrap;
+}
+
+.t1-commentary-char-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: $ink;
+  font-family: 'Noto Serif SC', serif;
+}
+
+.t1-commentary-char-cat {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 3px;
+  background: rgba(94,107,118,0.08);
+  color: $slate;
+}
+
+.t1-commentary-char-source {
+  font-size: 10px;
+  color: $slate;
+  margin-left: auto;
+}
+
+.t1-commentary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Single Commentary Card ── */
+.t1-commentary-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.45), rgba(246,241,231,0.28)), $paper;
+  border: 1px solid $border-soft;
+  border-left: 3px solid var(--card-accent, #{$slate});
+  border-radius: 8px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.t1-commentary-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.t1-commentary-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.t1-commentary-label {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Noto Serif SC', serif;
+}
+
+.t1-commentary-level {
+  margin-left: auto;
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  padding: 1px 7px;
+  border-radius: 4px;
+  line-height: 1.6;
+}
+
+.t1-commentary-stats {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.t1-commentary-score {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
+.t1-commentary-score-val {
+  font-size: 22px;
+  font-weight: 800;
+  color: $ink;
+  font-family: 'PT Serif', 'Noto Serif SC', serif;
+  line-height: 1;
+}
+
+.t1-commentary-score-unit {
+  font-size: 11px;
+  color: $slate;
+}
+
+.t1-commentary-devs {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-size: 11px;
+}
+
+.t1-commentary-dev {
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.t1-commentary-dev--pos {
+  color: #6b8a5e;
+}
+
+.t1-commentary-dev--neg {
+  color: #96544d;
+}
+
+.t1-commentary-pctl {
+  font-size: 10px;
+  color: $slate;
+}
+
+/* ── Deviation Bar ── */
+.t1-commentary-bar {
+  margin: 2px 0;
+}
+
+.t1-commentary-bar-track {
+  position: relative;
+  height: 5px;
+  background: rgba(94,107,118,0.08);
+  border-radius: 3px;
+  overflow: visible;
+}
+
+.t1-commentary-bar-mean {
+  position: absolute;
+  top: -2px;
+  width: 2px;
+  height: 9px;
+  background: $slate;
+  border-radius: 1px;
+  transform: translateX(-1px);
+}
+
+.t1-commentary-bar-marker {
+  position: absolute;
+  top: -3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transform: translateX(-4px);
+  border: 1.5px solid #fff;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.t1-commentary-bar-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  color: $slate;
+  margin-top: 3px;
+}
+
+.t1-commentary-bar-mean-label {
+  color: $slate;
+  font-weight: 600;
+}
+
+/* ── Body Text ── */
+.t1-commentary-body {
+  font-size: 11px;
+  line-height: 1.55;
+  color: #5a4a3a;
+  margin: 0;
+}
+
+/* ── Empty State ── */
+.t1-commentary-empty {
+  text-align: center;
+  padding: 24px 16px;
+  color: $slate;
+
+  .t1-commentary-empty-icon {
+    font-size: 28px;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #605040;
+  }
+}
+
+.t1-commentary-empty-hint {
+  margin-top: 6px !important;
+  font-size: 11px !important;
+  color: $slate !important;
+  font-weight: 400 !important;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   t1-pf-* — 增强表演模式分析面板样式 (知识发现型卡片)
+   ============================================================ */
+
+/* ── Section 容器 (学术海报风: 适量留白, 弱化边框) ── */
+.t1-pf-section {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px $shadow;
+  padding: 14px;
+  flex-shrink: 0;
+
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,0.06);
+    pointer-events: none;
+    z-index: 0;
+  }
+  > * { position: relative; z-index: 1; }
+}
+
+.t1-pf-section-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid $border-soft;
+  cursor: pointer;
+  user-select: none;
+  transition: margin-bottom 0.2s ease;
 
   h3 {
     margin: 0;
@@ -174,298 +2531,1436 @@ $text-soft: var(--theme-text-soft);
     color: $wood;
     font-family: "PT Serif", "Noto Serif SC", serif;
   }
-}
 
-.t1-side-block-icon {
-  font-size: 16px;
-  flex-shrink: 0;
-}
-
-.t1-side-block-note {
-  font-size: 11px;
-  color: $text-soft;
-  margin-top: 6px;
-  padding-top: 5px;
-  border-top: 1px solid $border-soft;
-  font-style: italic;
-  line-height: 1.5;
-}
-
-/* Right panel — fill height to match center stage */
-.t1-right-panel {
-  overflow: hidden !important;
-
-  .t1-side-block {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    min-height: 0;
-  }
-
-  .t1-side-block-header {
-    flex-shrink: 0;
-  }
-
-  .t1-side-block-note {
-    flex-shrink: 0;
+  &.is-closed {
+    margin-bottom: 0;
+    border-bottom: none;
   }
 }
 
-/* ============================================================
-   Expand button & RoleTree thumbnail
-   ============================================================ */
-.t1-expand-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  margin-left: auto;
-  border-radius: 6px;
-  border: 1.5px solid $border-strong;
-  background: rgba(255, 255, 255, 0.5);
-  color: $wood;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  flex-shrink: 0;
-  padding: 0;
-
-  &:hover {
-    background: rgba(184, 149, 111, 0.15);
-    border-color: $camel;
-    transform: scale(1.08);
-  }
-
-  &:active {
-    transform: scale(0.96);
-  }
-}
-
-.t1-expand-icon {
-  font-size: 14px;
+.t1-pf-section-icon {
+  font-size: 15px;
   line-height: 1;
 }
 
-.t1-role-tree-thumb {
-  width: 100%;
-  height: 220px;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: box-shadow 0.25s ease, transform 0.25s ease;
-  position: relative;
+/* ── pf-section 折叠展开指示图标 ── */
+.t1-pf-section-chevron {
+  display: inline-block;
+  font-size: 8px;
+  color: $text-soft;
+  margin-left: auto;
+  transition: transform 0.25s ease;
+  transform: rotate(0deg);
+  flex-shrink: 0;
+  line-height: 1;
+  &.is-open { transform: rotate(180deg); }
+}
 
-  &:hover {
-    box-shadow: 0 0 0 2px $red, 0 6px 18px $shadow;
-    transform: scale(1.02);
-  }
-
-  &::after {
-    content: "🔍 点击查看大图";
-    position: absolute;
-    bottom: 6px;
-    right: 8px;
-    font-size: 10px;
-    color: $text-soft;
-    background: rgba(255, 255, 255, 0.75);
-    padding: 2px 8px;
-    border-radius: 6px;
-    border: 1px solid $border-soft;
-    opacity: 0;
-    transition: opacity 0.25s ease;
-    pointer-events: none;
-    z-index: 2;
-  }
-
-  &:hover::after {
+/* ── pf-section 可折叠内容区 (max-height 动画) ── */
+.t1-pf-section-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+  opacity: 0;
+  &.is-open {
+    max-height: 6000px;
     opacity: 1;
   }
 }
 
-/* ============================================================
-   Center Stage — 角色表演模式分析主区
-   ============================================================ */
-.t1-center-stage {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.65), rgba(246,241,231,0.45)), $paper;
-  border: 1px solid $border-strong;
-  border-radius: 16px;
-  padding: 14px 18px;
-  box-shadow: 0 8px 24px $shadow;
-  min-height: 0;
-  overflow: hidden;
+.t1-pf-section-subtitle {
+  font-size: 11px;
+  color: $text-soft;
+  margin: -4px 0 8px;
+  line-height: 1.5;
 }
 
-.t1-center-header {
+/* ── 角色芯片 (横向紧凑切换) ── */
+.t1-pf-role-chips {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid $border;
-  flex-shrink: 0;
   flex-wrap: wrap;
-
-  h2 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: 700;
-    color: $wood;
-    font-family: "PT Serif", "Noto Serif SC", serif;
-    flex: 1;
-  }
-}
-
-.t1-center-header-actions {
-  display: flex;
   gap: 6px;
   flex-shrink: 0;
+  padding: 2px 0;
 }
 
-.t1-center-icon {
-  font-size: 20px;
-  flex-shrink: 0;
-}
-
-/* ---- Chart mode toggle button ---- */
-.t1-chart-mode-toggle {
+.t1-pf-role-chip {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  padding: 5px 12px;
-  border-radius: 8px;
-  border: 1.5px solid $border-strong;
-  background: linear-gradient(180deg, rgba(255,255,255,0.65), rgba(246,241,231,0.3));
+  padding: 3px 10px;
+  border-radius: 16px;
+  border: 1.5px solid $border-soft;
+  background: rgba(255,255,255,0.4);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
   color: $wood;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-size: 12px;
-  font-weight: 600;
-  white-space: nowrap;
-  flex-shrink: 0;
+  transition: all 0.18s ease;
+  font-family: "Noto Sans SC", sans-serif;
+  line-height: 1.4;
 
   &:hover {
-    background: linear-gradient(180deg, rgba(184,149,111,0.15), rgba(184,149,111,0.08));
-    border-color: $camel;
-    transform: translateY(-1px);
-    box-shadow: 0 3px 10px $shadow;
-  }
-
-  &:active {
-    transform: translateY(0);
-  }
-}
-
-.t1-chart-mode-icon {
-  font-size: 14px;
-  line-height: 1;
-}
-
-.t1-chart-mode-label {
-  line-height: 1;
-}
-
-.t1-center-badge {
-  display: inline-block;
-  padding: 3px 12px;
-  border-radius: 14px;
-  font-size: 12px;
-  font-weight: 600;
-  color: $red;
-  background: rgba(150, 84, 77, 0.1);
-  border: 1px solid rgba(150, 84, 77, 0.2);
-  letter-spacing: 0.06em;
-}
-
-/* ---- Dimension selector buttons ---- */
-.t1-dim-selectors {
-  display: flex;
-  gap: 4px;
-  flex-shrink: 0;
-}
-
-.t1-dim-btn {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1px;
-  padding: 5px 12px;
-  border-radius: 10px;
-  border: 2px solid $border-soft;
-  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35));
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-family: inherit;
-  min-width: 44px;
-
-  &:hover {
-    border-color: color-mix(in srgb, var(--theme-gold) 40%, transparent);
-    transform: translateY(-1px);
-    box-shadow: 0 3px 10px $shadow;
-  }
-
-  &:active {
-    transform: scale(0.96);
+    border-color: $border-strong;
+    background: rgba(255,255,255,0.7);
   }
 
   &.active {
+    border-color: var(--chip-color);
+    background: color-mix(in srgb, var(--chip-color) 12%, white 88%);
+  }
+
+  &.selected {
     border-width: 2px;
-    box-shadow: 0 0 0 1px rgba(150, 84, 77, 0.15), 0 4px 12px $shadow;
-    transform: translateY(-1px);
+    box-shadow: 0 0 0 1px var(--chip-color);
   }
 }
 
-.t1-dim-btn-label {
-  font-size: 18px;
-  font-weight: 700;
-  color: $wood;
-  line-height: 1;
-}
-
-.t1-dim-btn-full {
-  font-size: 10px;
-  color: $text-soft;
-  line-height: 1;
-}
-
-/* ---- Dimension bar comparison panel ---- */
-.t1-dim-bar-area {
+.t1-pf-role-chip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
   flex-shrink: 0;
-  max-height: 45%;
-  overflow-y: auto;
-  background: linear-gradient(180deg, rgba(255,255,255,0.45), rgba(246,241,231,0.18));
-  border-radius: 12px;
-  border: 1px solid $border;
-  padding: 8px 12px;
-  animation: t1-bar-slide-in 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-
-  &::-webkit-scrollbar { width: 4px; }
-  &::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 2px;
-  }
 }
 
-@keyframes t1-bar-slide-in {
-  from { opacity: 0; max-height: 0; transform: translateY(-8px); }
-  to   { opacity: 1; max-height: 45%; transform: translateY(0); }
-}
-
-.t1-dim-bar-panel {
+/* ── 关键发现卡片 ── */
+.t1-pf-findings-stack {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 
-.t1-dim-bar-header {
+.t1-pf-finding-card {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.5);
+  border: 1px solid $border-soft;
+  border-left: 3px solid $camel;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+
+  &:hover {
+    border-color: $border;
+    box-shadow: 0 2px 8px $shadow;
+  }
+}
+
+.t1-pf-finding-header {
   display: flex;
   align-items: center;
   gap: 6px;
   margin-bottom: 4px;
 }
 
+.t1-pf-finding-icon {
+  font-size: 15px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.t1-pf-finding-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-pf-finding-body {
+  font-size: 11px;
+  color: $wood;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── 维度判别卡片 (2×2 网格) ── */
+.t1-pf-dim-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.t1-pf-dim-card {
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.5);
+  border: 1px solid $border-soft;
+  border-left: 3px solid $camel;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+
+  &:hover {
+    border-color: $border;
+    box-shadow: 0 2px 8px $shadow;
+  }
+}
+
+.t1-pf-dim-card-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.t1-pf-dim-rank {
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  padding: 1px 6px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.t1-pf-dim-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: $ink;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-pf-dim-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.t1-pf-dim-desc {
+  font-size: 10px;
+  line-height: 1.6;
+  color: $wood;
+  margin: 0;
+}
+
+.t1-pf-dim-diff {
+  font-size: 10px;
+  line-height: 1.5;
+  color: $text-soft;
+  padding: 4px 6px;
+  background: rgba(94,107,118,0.05);
+  border-radius: 6px;
+}
+
+.t1-pf-dim-diff-label {
+  font-weight: 600;
+  color: $wood;
+}
+
+.t1-pf-dim-diff-text {
+  color: $text-soft;
+}
+
+.t1-pf-dim-stats-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.t1-pf-dim-stat {
+  flex: 1;
+  min-width: 50px;
+  text-align: center;
+  padding: 3px 4px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 6px;
+}
+
+.t1-pf-dim-stat-val {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.t1-pf-dim-stat-lbl {
+  display: block;
+  font-size: 9px;
+  color: $text-soft;
+  line-height: 1.2;
+}
+
+/* ── 贡献率条形图 ── */
+.t1-pf-contrib-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.t1-pf-contrib-label {
+  font-size: 9px;
+  color: $text-soft;
+  flex-shrink: 0;
+  width: 48px;
+}
+
+.t1-pf-contrib-track {
+  flex: 1;
+  height: 5px;
+  background: rgba(94,107,118,0.08);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.t1-pf-contrib-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+
+.t1-pf-contrib-pct {
+  font-size: 9px;
+  font-weight: 700;
+  color: $text-soft;
+  flex-shrink: 0;
+  width: 32px;
+  text-align: right;
+}
+
+/* ── 典型代表角色 ── */
+.t1-pf-dim-chars {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 2px;
+  border-top: 1px solid $border-soft;
+}
+
+.t1-pf-dim-chars-label {
+  font-size: 9px;
+  color: $text-soft;
+  flex-shrink: 0;
+}
+
+.t1-pf-dim-chips {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.t1-pf-char-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  color: $wood;
+  padding: 1px 6px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--chip-color) 10%, white 90%);
+  border: 1px solid $border-soft;
+}
+
+.t1-pf-char-chip-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.t1-pf-char-chip-val {
+  font-size: 9px;
+  color: $text-soft;
+  font-weight: 400;
+}
+
+/* ── 知识发现规则卡片 ── */
+.t1-pf-rules-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.t1-pf-rule-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.4);
+  border: 1px solid $border-soft;
+  transition: border-color 0.18s ease;
+
+  &:hover { border-color: $border; }
+}
+
+.t1-pf-rule-number {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: $camel;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.t1-pf-rule-body {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.t1-pf-rule-condition {
+  font-size: 11px;
+  color: $wood;
+  line-height: 1.4;
+}
+
+.t1-pf-rule-arrow {
+  font-size: 13px;
+  color: $camel;
+  line-height: 1;
+}
+
+.t1-pf-rule-conclusion {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: $camel;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.t1-pf-rule-meta {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.t1-pf-rule-confidence {
+  height: 4px;
+  border-radius: 2px;
+  background: $camel;
+  flex: 1;
+  max-width: 120px;
+}
+
+.t1-pf-rule-source {
+  font-size: 10px;
+  color: $text-soft;
+}
+
+/* ── 角色对比分析 ── */
+.t1-pf-clear-btn {
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid $border-soft;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  font-size: 10px;
+  color: $text-soft;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.18s ease;
+
+  &:hover {
+    border-color: $red;
+    color: $red;
+    background: rgba(150,84,77,0.08);
+  }
+}
+
+.t1-pf-selected-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  color: $wood;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  background: rgba(184,155,109,0.06);
+  border-radius: 8px;
+
+  strong { font-size: 13px; }
+}
+
+.t1-pf-selected-roletype {
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  padding: 1px 8px;
+  border-radius: 10px;
+}
+
+.t1-pf-compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.t1-pf-compare-col-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: $wood;
+  margin: 0 0 6px;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-pf-compare-col-icon {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.t1-pf-compare-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.35);
+  border: 1px solid $border-soft;
+  border-left: 3px solid $border-soft;
+  transition: border-color 0.18s ease;
+  min-height: 32px;
+
+  &:hover { border-color: $border; }
+}
+
+.t1-pf-compare-rank {
+  font-size: 10px;
+  font-weight: 700;
+  color: $text-soft;
+  width: 14px;
+  flex-shrink: 0;
+}
+
+.t1-pf-compare-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.t1-pf-compare-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: $wood;
+  flex-shrink: 0;
+}
+
+.t1-pf-compare-sim {
+  font-size: 11px;
+  font-weight: 700;
+  color: $camel;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.t1-pf-compare-deltas {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.t1-pf-compare-delta {
+  font-size: 9px;
+  padding: 1px 4px;
+  border-radius: 4px;
+  background: rgba(94,107,118,0.06);
+
+  &.pos { color: $red; }
+  &.neg { color: $celadon; }
+}
+
+/* ── 统计证据区域 ── */
+.t1-pf-stats-block {
+  margin-bottom: 10px;
+}
+
+.t1-pf-stats-block-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: $wood;
+  margin: 0 0 6px;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+/* 核心区分维度卡片 */
+.t1-pf-core-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.t1-pf-core-card {
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.4);
+  border: 1px solid $border-soft;
+  border-left: 3px solid $camel;
+}
+
+.t1-pf-core-stat {
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  line-height: 1.3;
+}
+
+.t1-pf-core-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: $wood;
+  display: block;
+}
+
+.t1-pf-core-reason {
+  font-size: 10px;
+  color: $text-soft;
+  margin: 2px 0 0;
+  line-height: 1.5;
+}
+
+/* 统计表格 */
+.t1-pf-stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+
+  th {
+    text-align: left;
+    padding: 4px 6px;
+    font-weight: 600;
+    color: $text-soft;
+    border-bottom: 1px solid $border-soft;
+    font-size: 10px;
+  }
+
+  td {
+    padding: 4px 6px;
+    color: $wood;
+    border-bottom: 1px solid $border-soft;
+  }
+
+  tr:last-child td { border-bottom: none; }
+}
+
+.t1-pf-stats-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.t1-pf-sig-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: rgba(94,107,118,0.08);
+  color: $text-soft;
+
+  &[data-sig="*"] { background: rgba(150,84,77,0.1); color: $red; }
+  &[data-sig="**"] { background: rgba(150,84,77,0.15); color: $red; }
+  &[data-sig="***"] { background: rgba(150,84,77,0.2); color: $red; font-weight: 800; }
+}
+
+/* 角色聚类 */
+.t1-pf-cluster-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.t1-pf-cluster-card {
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.4);
+  border: 1px solid $border-soft;
+}
+
+.t1-pf-cluster-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.t1-pf-cluster-num {
+  font-size: 9px;
+  font-weight: 700;
+  color: $text-soft;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: rgba(94,107,118,0.08);
+}
+
+.t1-pf-cluster-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-pf-cluster-members {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-bottom: 2px;
+}
+
+.t1-pf-cluster-member {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: rgba(184,155,109,0.1);
+  color: $wood;
+  font-weight: 600;
+}
+
+.t1-pf-cluster-desc {
+  font-size: 10px;
+  color: $text-soft;
+  margin: 2px 0 0;
+  line-height: 1.4;
+}
+
+/* 行当推断依据 */
+.t1-pf-inference-card {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(184,155,109,0.06);
+  border: 1px solid $border-soft;
+}
+
+.t1-pf-inference-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.t1-pf-inference-char {
+  font-size: 14px;
+  font-weight: 700;
+  color: $ink;
+}
+
+.t1-pf-inference-arrow {
+  font-size: 16px;
+  color: $camel;
+}
+
+.t1-pf-inference-role {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 12px;
+  background: $camel;
+  color: #fff;
+}
+
+.t1-pf-inference-note {
+  font-size: 11px;
+  color: $text-soft;
+  margin: 0 0 8px;
+  line-height: 1.5;
+
+  strong { color: $wood; }
+}
+
+.t1-pf-inference-dims {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.t1-pf-inference-dim {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.t1-pf-inference-dim-name {
+  font-size: 11px;
+  font-weight: 700;
+  width: 20px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.t1-pf-inference-dim-bar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+}
+
+.t1-pf-inference-dim-track {
+  flex: 1;
+  height: 6px;
+  background: rgba(94,107,118,0.08);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.t1-pf-inference-dim-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+  min-width: 2px;
+
+  &.above { opacity: 0.9; }
+  &.below { opacity: 0.5; }
+}
+
+.t1-pf-inference-dim-diff {
+  font-size: 10px;
+  font-weight: 600;
+  color: $text-soft;
+  min-width: 28px;
+  text-align: right;
+
+  &.major { color: $wood; font-weight: 700; }
+}
+
+.t1-pf-inference-dim-tag {
+  font-size: 9px;
+  padding: 1px 5px;
+  border-radius: 6px;
+  background: rgba(150,84,77,0.1);
+  color: $red;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* 描述统计详情折叠区 */
+.t1-pf-stats-details {
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid $border-soft;
+  overflow: hidden;
+}
+
+.t1-pf-stats-summary {
+  font-size: 11px;
+  font-weight: 600;
+  color: $text-soft;
+  padding: 6px 10px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.3);
+  transition: color 0.18s ease;
+
+  &:hover { color: $wood; }
+
+  &::marker { color: $camel; }
+}
+
+.t1-pf-stats-details[open] .t1-pf-stats-summary {
+  border-bottom: 1px solid $border-soft;
+}
+
+.t1-pf-stats-details .t1-pf-stats-table {
+  margin: 0;
+}
+
+.t1-pf-stats-footnote {
+  font-size: 10px;
+  color: $text-soft;
+  margin: 4px 0 0;
+  padding: 0 6px;
+  line-height: 1.4;
+}
+
+/* ── 星标评级 ── */
+.t1-pf-stars {
+  display: inline-flex;
+  gap: 1px;
+  flex-shrink: 0;
+}
+
+.t1-pf-star {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.t1-pf-star--filled { color: $camel; }
+.t1-pf-star--empty { color: $border-soft; }
+
+
+/* ============================================================
+   右面板 — Sankey 特征-行当关联
+   ============================================================ */
+.t1-right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ============================================================
+   设计报告侧边栏 (shared mixins)
+   ============================================================ */
+@include report-backdrop(t1);
+@include report-sidebar(t1);
+@include report-sidebar-header(t1);
+@include report-tabs(t1);
+@include report-sidebar-body(t1);
+@include report-content(t1);
+@include report-subtitle(t1);
+@include report-data-table(t1);
+@include report-responsive(t1);
+
+.t1-guide-insight {
+  h4 { font-size: 13px; font-weight: 700; color: $ink; margin: 14px 0 4px; }
+  p { font-size: 12px; line-height: 1.7; color: $wood; }
+}
+
+/* ============================================================
+   演化模态窗 (全屏侧边栏)
+   ============================================================ */
+.t1-evo-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.25);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  &.visible { opacity: 1; pointer-events: auto; }
+}
+
+.t1-evo-modal {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: 70vw;
+  max-width: 960px;
+  background: $paper;
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -8px 0 40px $shadow;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  &.open { transform: translateX(0); }
+}
+
+.t1-evo-modal-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 18px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+  h2 { margin: 0; font-size: 16px; font-weight: 700; color: $ink; }
+  .t1-evo-modal-close {
+    margin-left: auto;
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    border: 1px solid $border-soft;
+    background: rgba(255,255,255,0.5);
+    cursor: pointer;
+    font-size: 14px;
+    color: $text-soft;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.18s ease;
+    &:hover { border-color: $red; color: $red; }
+  }
+}
+
+.t1-evo-modal-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 8px;
+  min-height: 0;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.t1-evo-modal-chart {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 0;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,0.06);
+    pointer-events: none;
+  }
+}
+
+.t1-evo-modal-chart-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid $border-soft;
+  h3 { margin: 0; font-size: 14px; font-weight: 700; color: $wood; }
+}
+
+.t1-evo-modal-chart-body {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+.t1-evo-modal-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto;
+  padding: 2px;
+}
+
+.t1-evo-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 14px;
+  flex-shrink: 0;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,0.06);
+    pointer-events: none;
+  }
+  > * { position: relative; }
+}
+
+.t1-evo-card-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: $wood;
+  margin-bottom: 8px;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+/* ============================================================
+   演化详情弹窗 (右侧滑出)
+   ============================================================ */
+.t1-evo-detail-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(30,24,18,0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  &.visible { opacity: 1; pointer-events: auto; }
+}
+
+.t1-evo-detail-sidebar {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: 70vw;
+  max-width: 960px;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(246,241,231,.35)), $paper;
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -8px 0 40px $shadow;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  &.open { transform: translateX(0); }
+}
+
+.t1-evo-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 18px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+
+  h2 { margin: 0; font-size: 16px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+}
+
+.t1-evo-detail-header-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.t1-evo-detail-close {
+  margin-left: auto;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  border: 1px solid $border-soft;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  font-size: 14px;
+  color: $text-soft;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.18s ease;
+  &:hover { border-color: $red; color: $red; }
+}
+
+.t1-evo-detail-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb { background: $camel; border-radius: 2px; }
+  &::-webkit-scrollbar-track { background: transparent; }
+}
+
+.t1-evo-detail-chart-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.t1-evo-detail-chart {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 220px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,0.06);
+    pointer-events: none;
+  }
+  > * { position: relative; }
+}
+
+.t1-evo-detail-chart-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid $border-soft;
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t1-evo-detail-chart-body {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+
+  &--stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    padding: 0 8px;
+  }
+}
+
+/* 详情弹窗底部摘要说明 */
+.t1-evo-detail-summary {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  flex-shrink: 0;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,0.06);
+    pointer-events: none;
+  }
+  > * { position: relative; }
+}
+
+.t1-evo-detail-summary-header {
+  font-size: 12px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  padding-bottom: 6px;
+  border-bottom: 1px solid $border-soft;
+}
+
+.t1-evo-detail-summary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 16px;
+  font-size: 11px;
+}
+
+.t1-evo-detail-summary-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.t1-evo-detail-summary-label {
+  color: $text-soft;
+  font-weight: 500;
+}
+
+.t1-evo-detail-summary-value {
+  font-weight: 700;
+  color: $wood;
+}
+
+/* ============================================================
+   演化趋势大图弹窗 — 全尺寸侧边栏 (右侧滑出)
+   包含: 主折线图 + 3 张辅助洞察图表 (热力图/熵/JSD)
+   ============================================================ */
+.t1-evo-sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(30,24,18,0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  &.visible { opacity: 1; pointer-events: auto; }
+}
+
+.t1-evo-sidebar {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: 75vw;
+  max-width: 1020px;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(246,241,231,.35)), $paper;
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -8px 0 40px $shadow;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  &.open { transform: translateX(0); }
+}
+
+.t1-evo-sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 18px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+
+  h2 { margin: 0; font-size: 16px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+}
+
+.t1-evo-sidebar-header-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.t1-evo-sidebar-close {
+  margin-left: auto;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  border: 1px solid $border-soft;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  font-size: 14px;
+  color: $text-soft;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.18s ease;
+  flex-shrink: 0;
+  &:hover { border-color: $red; color: $red; }
+}
+
+.t1-evo-sidebar-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb { background: $camel; border-radius: 2px; }
+  &::-webkit-scrollbar-track { background: transparent; }
+}
+
+.t1-evo-sidebar-chart {
+  flex: 0 0 48%;
+  min-height: 280px;
+  width: 100%;
+}
+
+.t1-evo-sidebar-aux-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  min-height: 0;
+}
+
+.t1-evo-sidebar-aux {
+  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(246,241,231,0.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 12px;
+  min-height: 200px;
+  overflow: hidden;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 11px;
+    border: 1px solid rgba(184,149,111,0.06);
+    pointer-events: none;
+    z-index: 0;
+  }
+  > * { position: relative; z-index: 1; }
+}
+
+/* ============================================================
+   表演分析抽屉 — 维度对比 (右侧滑出)
+   ============================================================ */
+.t1-perf-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.1);
+  z-index: 99;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  &.visible { opacity: 1; pointer-events: auto; }
+}
+
+.t1-perf-drawer {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: 380px;
+  max-width: 90vw;
+  background: $paper;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -6px 0 30px $shadow;
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  &.open { transform: translateX(0); }
+}
+
+.t1-perf-drawer-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 16px;
+  border-bottom: 1px solid $border;
+  flex-shrink: 0;
+  h2 { margin: 0; font-size: 15px; font-weight: 700; color: $ink; }
+}
+
+.t1-perf-drawer-title-icon { font-size: 16px; }
+
+.t1-perf-drawer-close {
+  margin-left: auto;
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  border: 1px solid $border-soft;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  font-size: 12px;
+  color: $text-soft;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.18s ease;
+  &:hover { border-color: $red; color: $red; }
+}
+
+.t1-perf-drawer-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 14px;
+}
+
+.t1-perf-section {
+  margin-top: 12px;
+  &:first-child { margin-top: 0; }
+}
+
+.t1-perf-section-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+  margin: 0 0 8px;
+}
+
+.t1-perf-section-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: $camel;
+  flex-shrink: 0;
+}
+
+.t1-dim-bar-panel {
+  width: 100%;
+}
+
+.t1-dim-bar-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
 .t1-dim-bar-dot {
-  width: 10px;
-  height: 10px;
+  width: 10px; height: 10px;
   border-radius: 50%;
   flex-shrink: 0;
 }
@@ -476,1855 +3971,433 @@ $text-soft: var(--theme-text-soft);
   color: $wood;
 }
 
-.t1-center-body {
+.t1-guide-grid {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  flex: 1;
-  min-height: 0;
-  overflow: hidden;
+  gap: 6px;
+  margin-bottom: 8px;
 }
 
-.t1-center-row {
-  display: flex;
-  gap: 10px;
-  flex: 1;
-  min-height: 0;
-  align-items: stretch;
-}
-
-.t1-radar-area {
-  flex: 1;
-  min-width: 0;
+.t1-guide-item {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: linear-gradient(180deg, rgba(255,255,255,0.4), rgba(246,241,231,0.2));
-  border-radius: 12px;
-  border: 1px solid $border-soft;
-  padding: 8px;
-  transition: flex 0.25s ease;
-  position: relative;
-
-  /* 背景装饰图 — 角色表演模式示意图 */
-  &::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url("/role-performance-bg.png");
-    background-size: auto 90%;
-    background-repeat: no-repeat;
-    background-position: 100% center;
-    opacity: 0.3;
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  &.has-bar {
-    flex: 0.7;
-  }
-}
-
-/* ---- Center right panel: role toggles + compact guide ---- */
-.t1-center-right {
-  width: 170px;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
   gap: 8px;
-  overflow-y: auto;
-
-  &::-webkit-scrollbar {
-    width: 4px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 2px;
-  }
-}
-
-.t1-center-note {
   font-size: 12px;
-  color: $text-soft;
-  padding-top: 6px;
-  border-top: 1px solid $border-soft;
-  font-style: italic;
-  flex-shrink: 0;
-}
-
-/* ============================================================
-   Guide Popup Trigger Buttons (in center header)
-   ============================================================ */
-.t1-guide-popup-trigger {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  padding: 5px 10px;
-  border-radius: 8px;
-  border: 1.5px solid $border-strong;
-  background: linear-gradient(180deg, rgba(255,255,255,0.65), rgba(246,241,231,0.3));
   color: $wood;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-size: 12px;
-  font-weight: 600;
-  white-space: nowrap;
-
-  &:hover {
-    background: linear-gradient(180deg, rgba(184,149,111,0.15), rgba(184,149,111,0.08));
-    border-color: $camel;
-    transform: translateY(-1px);
-    box-shadow: 0 3px 10px $shadow;
-  }
-
-  &:active {
-    transform: translateY(0);
-  }
 }
 
-.t1-guide-popup-trigger-icon {
-  font-size: 14px;
-  line-height: 1;
+.t1-guide-label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1px 8px;
+  border-radius: 6px;
+  background: rgba(94,107,118,0.08);
+  color: $wood;
+  flex-shrink: 0;
+  min-width: 24px;
+  text-align: center;
 }
 
-.t1-guide-popup-trigger-label {
-  line-height: 1;
+.t1-guide-label-active {
+  background: $camel;
+  color: #fff;
 }
 
-/* ============================================================
-   Role Toggle Switches
-   ============================================================ */
+.t1-perf-hint {
+  font-size: 11px;
+  color: $text-soft;
+  line-height: 1.5;
+  margin: 8px 0 0;
+}
+
+/* ── 旧维度信息面板 (保留但不显示，避免影响) ── */
+.t1-perf-dim-guide {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.t1-perf-dim-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  font-size: 11px;
+  line-height: 1.4;
+  p { margin: 0; color: $text-soft; }
+  strong { color: $wood; }
+}
+
+.t1-perf-dim-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+/* ── 旧角色切换 (保留但不显示，避免影响) ── */
 .t1-role-toggles {
-  background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(246,241,231,0.2));
-  border: 1px solid $border;
-  border-radius: 10px;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .t1-role-toggles-title {
   display: flex;
   align-items: center;
-  gap: 5px;
-  margin: 0 0 8px;
+  gap: 6px;
   font-size: 13px;
   font-weight: 700;
   color: $wood;
-  font-family: "PT Serif", "Noto Serif SC", serif;
+  margin: 0;
 }
 
-.t1-role-toggles-title-icon {
-  font-size: 14px;
-}
+.t1-role-toggles-title-icon { font-size: 15px; }
 
 .t1-role-toggles-list {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
 }
 
 .t1-role-toggle-btn {
   display: flex;
   align-items: center;
-  gap: 8px;
-  width: 100%;
-  padding: 7px 10px;
+  gap: 6px;
+  padding: 6px 8px;
+  border: 1px solid $border-soft;
+  background: rgba(255,255,255,0.4);
   border-radius: 8px;
-  border: 2px solid $border-soft;
-  background: rgba(255, 255, 255, 0.5);
   cursor: pointer;
-  transition: all 0.22s ease;
-  font-family: inherit;
-  position: relative;
-  overflow: hidden;
+  font-size: 12px;
+  font-weight: 600;
+  color: $wood;
+  font-family: "Noto Sans SC", sans-serif;
+  transition: all 0.18s ease;
 
   &:hover {
-    background: rgba(184, 149, 111, 0.1);
-    border-color: $camel;
-    transform: translateX(2px);
-  }
-
-  &:active {
-    transform: scale(0.97);
+    background: rgba(255,255,255,0.7);
+    border-color: $border;
   }
 
   &.active {
-    background: rgba(255, 255, 255, 0.8);
     border-color: $border-strong;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    background: rgba(255,255,255,0.6);
   }
 }
 
 .t1-role-toggle-dot {
-  width: 12px;
-  height: 12px;
+  width: 10px; height: 10px;
   border-radius: 50%;
   flex-shrink: 0;
-  transition: all 0.3s ease;
 }
 
-.t1-role-toggle-name {
-  flex: 1;
-  font-size: 13px;
-  font-weight: 600;
-  color: $wood;
-  text-align: left;
-  line-height: 1;
-}
+.t1-role-toggle-name { flex: 1; text-align: left; }
 
 .t1-role-toggle-state {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
-  padding: 2px 7px;
-  border-radius: 5px;
-  letter-spacing: 0.04em;
-  transition: all 0.25s ease;
+  padding: 1px 6px;
+  border-radius: 6px;
 
-  &.on {
-    color: #fff;
-    background: $celadon;
-  }
-
-  &.off {
-    color: $text-soft;
-    background: rgba(0, 0, 0, 0.06);
-  }
+  &.on { background: rgba(184,155,109,0.15); color: $camel; }
+  &.off { background: rgba(94,107,118,0.08); color: $text-soft; }
 }
 
-/* ============================================================
-   Compact Guide (right panel below toggles)
-   ============================================================ */
-.t1-guide-compact {
-  background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(246,241,231,0.2));
-  border: 1px solid $border;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.t1-guide-compact-title {
-  margin: 0 0 6px;
-  font-size: 13px;
-  font-weight: 700;
-  color: $wood;
-  font-family: "PT Serif", "Noto Serif SC", serif;
-}
-
-.t1-guide-compact-intro {
-  margin: 8px 0 0;
-  font-size: 11px;
-  color: $text-soft;
-  line-height: 1.5;
-  padding-top: 7px;
-  border-top: 1px solid $border-soft;
-
-  strong {
-    color: $wood;
-  }
-}
-
-/* ============================================================
-   Guide Modal
-   ============================================================ */
-.t1-guide-modal-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(58, 44, 33, 0.35);
-  backdrop-filter: blur(4px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  animation: t1-fade-in 0.2s ease;
-}
-
-@keyframes t1-fade-in {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-.t1-guide-modal {
-  width: min(480px, 90vw);
-  max-height: 80vh;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.96));
-  border: 1px solid $border-strong;
-  border-radius: 16px;
-  box-shadow: 0 16px 48px rgba(58, 44, 33, 0.22);
-  animation: t1-modal-slide-up 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-
-  &.t1-guide-modal--wide {
-    width: min(720px, 92vw);
-    max-height: 85vh;
-  }
-}
-
-@keyframes t1-modal-slide-up {
-  from { opacity: 0; transform: translateY(24px) scale(0.97); }
-  to   { opacity: 1; transform: translateY(0) scale(1); }
-}
-
-.t1-guide-modal-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 16px 20px;
-  border-bottom: 1px solid $border;
-  flex-shrink: 0;
-
-  h3 {
-    flex: 1;
-    margin: 0;
-    font-size: 18px;
-    font-weight: 700;
-    color: $wood;
-    font-family: "PT Serif", "Noto Serif SC", serif;
-  }
-}
-
-.t1-guide-modal-icon {
-  font-size: 20px;
-  flex-shrink: 0;
-}
-
-.t1-guide-modal-close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  border: 1px solid $border;
-  background: rgba(255, 255, 255, 0.6);
-  color: $wood;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  flex-shrink: 0;
-
-  &:hover {
-    background: $red;
-    color: #fff;
-    border-color: $red;
-  }
-}
-
-.t1-guide-modal-body {
+/* ── 旧维度信息面板 (模块内适配) ── */
+.t1-perf-module--dims .t1-perf-dim-guide {
   flex: 1;
   min-height: 0;
+  justify-content: space-evenly;
+}
+
+
+/* ── 旧统计面板 (保留兼容) ── */
+.t1-stats-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   overflow-y: auto;
-  padding: 18px 20px;
-
-  &::-webkit-scrollbar {
-    width: 5px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 3px;
-  }
+  flex: 1;
 }
 
-/* ── Design Report Modal Content ── */
-.t1-report-content {
-  p {
-    margin: 0 0 14px;
-    font-size: 14px;
-    line-height: 1.85;
-    color: $ink;
-    text-align: justify;
-    text-indent: 2em;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
+.t1-stats-section {
+  // 保留嵌套结构 — 容器占位
+  display: block;
 }
 
-.t1-report-subtitle {
-  font-size: 15px !important;
-  font-weight: 700 !important;
-  color: $wood !important;
-  text-align: center !important;
-  text-indent: 0 !important;
-  padding-bottom: 14px;
-  margin-bottom: 16px !important;
-  border-bottom: 1px solid $border-soft;
+.t1-stats-section-title {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: $wood;
+  margin-bottom: 6px;
   font-family: "PT Serif", "Noto Serif SC", serif;
 }
 
-.t1-guide-grid {
+.t1-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px 12px;
+  font-size: 11px;
+}
+
+.t1-stats-label { color: $text-soft; font-weight: 500; }
+.t1-stats-value { color: $wood; font-weight: 600; text-align: right; }
+
+.t1-stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+
+  th {
+    text-align: left;
+    padding: 4px 6px;
+    font-weight: 600;
+    color: $text-soft;
+    border-bottom: 1px solid $border-soft;
+    font-size: 10px;
+  }
+
+  td {
+    padding: 3px 6px;
+    color: $wood;
+    border-bottom: 1px solid $border-soft;
+  }
+}
+
+.t1-stats-dim-dot {
+  display: inline-block;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.t1-stats-finding {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin-bottom: 6px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: $wood;
+
+  &:last-child { margin-bottom: 0; }
+}
+
+.t1-stats-finding-marker {
+  width: 4px;
+  min-height: 18px;
+  border-radius: 2px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.t1-stats-method-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6px;
 }
 
-.t1-guide-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 7px;
-  font-size: 12px;
-  color: $wood;
-  line-height: 1.5;
-}
-
-.t1-guide-label {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  font-size: 12px;
-  font-weight: 700;
-  flex-shrink: 0;
-  color: #fff;
-}
-
-.t1-label-sing { background: var(--theme-red); }
-.t1-label-speak { background: var(--theme-gold); }
-.t1-label-act { background: var(--theme-celadon); }
-.t1-label-fight { background: var(--theme-slate); }
-
-.t1-guide-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-
-  li {
-    font-size: 11px;
-    color: $wood;
-    line-height: 1.4;
-    padding-left: 14px;
-    position: relative;
-
-    &::before {
-      content: "◆";
-      position: absolute;
-      left: 0;
-      font-size: 6px;
-      color: $camel;
-      top: 4px;
-    }
-
-    strong {
-      color: $red;
-    }
-  }
-}
-
-.t1-guide-insight {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-
-  h4 {
-    font-size: 13px;
-    font-weight: 700;
-    color: $red;
-    padding: 6px 0 0;
-    margin: 10px 0 4px;
-    letter-spacing: 0.03em;
-
-    &:first-child {
-      margin-top: 0;
-    }
-  }
-
-  p {
-    font-size: 12px;
-    background: rgba(127, 150, 141, 0.08);
-    border-radius: 8px;
-    padding: 10px 12px;
-    border-left: 3px solid $celadon;
-    line-height: 1.55;
-    margin: 0;
-  }
-}
-
-/* ============================================================
-   Method list (右侧面板 — 推断方法概述)
-   ============================================================ */
-.t1-method-list {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.t1-method-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 6px;
-  padding: 5px 8px;
-  border-radius: 8px;
-  border: 1px solid $border-soft;
-  background: linear-gradient(180deg, rgba(255,255,255,0.45), rgba(246,241,231,0.18));
-  transition: border-color 0.2s ease;
-
-  &:hover {
-    border-color: $border-strong;
-  }
-}
-
-.t1-method-num {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  font-size: 11px;
-  font-weight: 700;
-  color: #fff;
-  background: $celadon;
-  flex-shrink: 0;
-}
-
-.t1-method-title {
-  font-size: 12px;
-  font-weight: 700;
-  color: $wood;
-  margin-bottom: 1px;
-}
-
-.t1-method-desc {
-  font-size: 10px;
-  color: $text-soft;
-  line-height: 1.3;
-}
-
-/* ============================================================
-   Feedback button (topbar)
-   ============================================================ */
-.t1-feedback-btn {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
-  border-radius: 10px;
-  border: 1px solid var(--theme-border);
-  background: linear-gradient(135deg, rgba(150, 84, 77, 0.08), rgba(184, 149, 111, 0.12));
-  color: var(--theme-wood);
-  cursor: pointer;
-  transition: all 0.22s ease;
-  flex-shrink: 0;
-
-  &:hover {
-    background: linear-gradient(135deg, rgba(150, 84, 77, 0.15), rgba(184, 149, 111, 0.2));
-    border-color: var(--theme-border-strong);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px var(--theme-shadow-color);
-  }
-
-  &:active {
-    transform: translateY(0);
-  }
-}
-
-.t1-feedback-btn-icon {
-  font-size: 16px;
-  line-height: 1;
-}
-
-.t1-feedback-btn-label {
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-}
-
-/* ============================================================
-   Drawer trigger buttons
-   ============================================================ */
-.t1-drawer-triggers {
-  display: flex;
-  gap: 8px;
-  flex-shrink: 0;
-}
-
-.t1-drawer-trigger-btn {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  padding: 9px 14px;
-  font-size: 13px;
-  font-weight: 600;
-  color: $wood;
-  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
-  border: 1.5px solid $border-strong;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-family: "Noto Sans SC", sans-serif;
-  white-space: nowrap;
-  box-shadow: 0 4px 10px $shadow;
-
-  &:hover {
-    border-color: $camel;
-    box-shadow: 0 6px 14px $shadow;
-    transform: translateY(-1px);
-  }
-
-  &.active {
-    border-color: $red;
-    box-shadow: 0 0 0 1px rgba(150, 84, 77, 0.3), 0 6px 14px $shadow;
-  }
-}
-
-.t1-trigger-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-
-.t1-trigger-icon {
-  font-size: 14px;
-  flex-shrink: 0;
-}
-
-.t1-trigger-label {
-  line-height: 1;
-}
-
-/* ============================================================
-   Drawer panel (slides from right)
-   ============================================================ */
-.t1-drawer-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(58, 44, 33, 0.32);
-  backdrop-filter: blur(4px);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.28s ease;
-  z-index: 80;
-
-  &.visible {
-    opacity: 1;
-    pointer-events: auto;
-  }
-}
-
-.t1-drawer {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: min(540px, 46vw);
-  height: 100vh;
-  z-index: 90;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.96));
-  border-left: 1px solid $border-strong;
-  box-shadow: -8px 0 32px rgba(58, 44, 33, 0.18);
-  transform: translateX(100%);
-  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
-
-  &.open {
-    transform: translateX(0);
-  }
-}
-
-.t1-drawer-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 18px 22px;
-  border-bottom: 1px solid $border;
-  flex-shrink: 0;
-
-  h2 {
-    flex: 1;
-    margin: 0;
-    font-size: 20px;
-    font-weight: 700;
-    color: $wood;
-    font-family: "PT Serif", "Noto Serif SC", serif;
-  }
-}
-
-.t1-drawer-title-icon {
-  font-size: 22px;
-  flex-shrink: 0;
-}
-
-.t1-drawer-close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  border: 1.5px solid $border-strong;
-  background: rgba(255,255,255,0.6);
-  color: $wood;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  flex-shrink: 0;
-
-  &:hover {
-    background: $red;
-    color: #fff;
-    border-color: $red;
-  }
-}
-
-.t1-drawer-body {
-  flex: 1;
-  min-height: 0;
-  overflow-y: auto;
-  padding: 18px 22px;
-
-  &::-webkit-scrollbar {
-    width: 5px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 3px;
-  }
-}
-
-/* ============================================================
-   Performance Drawer — 右侧维度对比抽屉
-   ============================================================ */
-.t1-perf-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(58, 44, 33, 0.28);
-  backdrop-filter: blur(4px);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.28s ease;
-  z-index: 90;
-
-  &.visible {
-    opacity: 1;
-    pointer-events: auto;
-  }
-}
-
-.t1-perf-drawer {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: min(420px, 42vw);
-  height: 100vh;
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.96));
-  border-left: 1px solid $border-strong;
-  box-shadow: -8px 0 32px rgba(58, 44, 33, 0.18);
-  transform: translateX(100%);
-  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
-
-  &.open {
-    transform: translateX(0);
-  }
-}
-
-.t1-perf-drawer-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 18px 22px;
-  border-bottom: 1px solid $border;
-  flex-shrink: 0;
-
-  h2 {
-    flex: 1;
-    margin: 0;
-    font-size: 18px;
-    font-weight: 700;
-    color: $wood;
-    font-family: "PT Serif", "Noto Serif SC", serif;
-  }
-}
-
-.t1-perf-drawer-title-icon {
-  font-size: 20px;
-  flex-shrink: 0;
-}
-
-.t1-perf-drawer-close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  border: 1.5px solid $border-strong;
-  background: rgba(255,255,255,0.6);
-  color: $wood;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  flex-shrink: 0;
-
-  &:hover {
-    background: $red;
-    color: #fff;
-    border-color: $red;
-  }
-}
-
-.t1-perf-drawer-body {
-  flex: 1;
-  min-height: 0;
-  overflow-y: auto;
-  padding: 16px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-
-  &::-webkit-scrollbar {
-    width: 5px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 3px;
-  }
-}
-
-.t1-perf-section {
-  background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(246,241,231,0.2));
-  border: 1px solid $border-soft;
-  border-radius: 12px;
-  padding: 14px 16px;
-}
-
-.t1-perf-section-title {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 0 0 10px;
-  font-size: 14px;
-  font-weight: 700;
-  color: $wood;
-  font-family: "PT Serif", "Noto Serif SC", serif;
-}
-
-.t1-perf-section-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: $red;
-  flex-shrink: 0;
-}
-
-.t1-perf-hint {
-  margin: 8px 0 0;
-  font-size: 12px;
-  color: $text-soft;
-  line-height: 1.5;
-}
-
-.t1-dim-bar-area-drawer {
-  flex: 1;
-  min-height: 0;
-  overflow-y: auto;
-
-  &::-webkit-scrollbar {
-    width: 4px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 2px;
-  }
-}
-
-/* ---- Guide label active state (维度对比抽屉) ---- */
-.t1-guide-label-active {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-}
-
-/* ============================================================
-   Data Table
-   ============================================================ */
-.t1-data-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 12px;
-
-  th {
-    text-align: left;
-    padding: 5px 8px;
-    color: $ochre;
-    font-weight: 600;
-    font-size: 11px;
-    border-bottom: 1px solid $border-strong;
-    background: linear-gradient(180deg, rgba(255,255,255,0.4), transparent);
-  }
-
-  td {
-    padding: 4px 8px;
-    color: $wood;
-    border-bottom: 1px solid $border-soft;
-  }
-
-  tbody tr:hover {
-    background: rgba(184, 149, 111, 0.06);
-  }
-}
-
-.t1-role-tag {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 5px;
-  background: rgba(150, 84, 77, 0.1);
-  color: $red;
-  font-weight: 600;
-  font-size: 12px;
-}
-
-.t1-confidence {
-  font-weight: 700;
-  color: $celadon;
-  font-size: 12px;
-}
-
-/* ============================================================
-   Interactive Rule Inference Panel
-   ============================================================ */
-.t1-inference-interactive {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-/* ---- Attribute selection panel ---- */
-.t1-attr-panel {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  padding: 6px 0;
-  border-bottom: 1px solid $border-soft;
-}
-
-.t1-attr-section {
-  display: flex;
-  align-items: flex-start;
-  gap: 6px;
-}
-
-.t1-attr-label {
-  font-size: 11px;
-  font-weight: 600;
-  color: $ochre;
-  white-space: nowrap;
-  min-width: 52px;
-  padding-top: 4px;
-  flex-shrink: 0;
-}
-
-.t1-attr-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  flex: 1;
-}
-
-.t1-attr-chips-traits {
-  max-height: 108px;
-  overflow-y: auto;
-  padding-right: 2px;
-
-  &::-webkit-scrollbar { width: 3px; }
-  &::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 2px;
-  }
-}
-
-.t1-attr-chip {
-  padding: 3px 8px;
+.t1-stats-method-card {
+  padding: 6px 8px;
+  border-left: 3px solid $border-soft;
+  background: rgba(255,255,255,0.3);
   border-radius: 6px;
-  border: 1px solid $border;
-  background: rgba(255, 255, 255, 0.5);
-  color: $wood;
+}
+
+.t1-stats-method-title {
   font-size: 11px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.18s ease;
-  font-family: inherit;
-  white-space: nowrap;
-
-  &:hover {
-    border-color: $border-strong;
-    background: rgba(184, 149, 111, 0.12);
-    transform: translateY(-1px);
-  }
-
-  &:active {
-    transform: scale(0.96);
-  }
-
-  &.active {
-    color: #fff;
-    background: $red;
-    border-color: $red;
-    font-weight: 600;
-    box-shadow: 0 2px 6px rgba(150, 84, 77, 0.3);
-  }
-}
-
-.t1-trait-chip {
-  font-size: 11px;
-  padding: 2px 7px;
-}
-
-.t1-attr-clear {
-  align-self: flex-end;
-  padding: 3px 10px;
-  border-radius: 5px;
-  border: 1px solid $border-soft;
-  background: transparent;
-  color: $text-soft;
-  font-size: 10px;
-  cursor: pointer;
-  transition: all 0.18s ease;
-  font-family: inherit;
-
-  &:hover {
-    color: $red;
-    border-color: $red;
-    background: rgba(150, 84, 77, 0.06);
-  }
-}
-
-/* ---- Match results ---- */
-.t1-match-results {
-  display: flex;
-  flex-direction: column;
-}
-
-.t1-match-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 4px;
-}
-
-.t1-match-label {
-  font-size: 11px;
-  font-weight: 600;
-  color: $wood;
-}
-
-.t1-match-empty-hint {
-  font-size: 10px;
-  color: $text-soft;
-  font-style: italic;
-}
-
-/* ---- Confidence tooltip ---- */
-.t1-confidence-cell {
-  display: inline-flex;
-  align-items: center;
-  gap: 3px;
-  position: relative;
-}
-
-.t1-confidence-info {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  font-size: 10px;
-  color: $camel;
-  cursor: help;
-  transition: all 0.18s ease;
-  position: relative;
-
-  &:hover {
-    color: $red;
-    background: rgba(150, 84, 77, 0.08);
-  }
-}
-
-.t1-confidence-tooltip {
-  position: absolute;
-  bottom: calc(100% + 8px);
-  left: 50%;
-  transform: translateX(-50%);
-  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.98));
-  border: 1px solid $border-strong;
-  border-radius: 8px;
-  padding: 8px 12px;
-  width: 220px;
-  box-shadow: 0 8px 24px rgba(58, 44, 33, 0.18);
-  font-size: 11px;
-  color: $wood;
-  line-height: 1.55;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.18s ease, transform 0.18s ease;
-  transform: translateX(-50%) translateY(4px);
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-
-  strong {
-    color: $red;
-    font-size: 12px;
-  }
-
-  .t1-tooltip-divider {
-    height: 1px;
-    background: $border-soft;
-    margin: 2px 0;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 6px solid transparent;
-    border-top-color: $border-strong;
-  }
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-1px);
-    border: 5px solid transparent;
-    border-top-color: rgba(255,253,249,0.98);
-    z-index: 1;
-  }
-}
-
-.t1-confidence-info:hover .t1-confidence-tooltip,
-.t1-confidence-info:focus-within .t1-confidence-tooltip {
-  opacity: 1;
-  transform: translateX(-50%) translateY(0);
-  pointer-events: auto;
-}
-
-/* ---- Condition highlighting ---- */
-.t1-highlight-match {
-  color: $red;
-  font-weight: 600;
-  background: rgba(150, 84, 77, 0.1);
-  border-radius: 3px;
-  padding: 1px 3px;
-  transition: all 0.18s ease;
-}
-
-.t1-highlight-dim {
-  color: $text-soft;
-  opacity: 0.55;
-  transition: opacity 0.18s ease;
-}
-
-.t1-row-matched {
-  background: rgba(150, 84, 77, 0.04);
-
-  &:hover {
-    background: rgba(150, 84, 77, 0.08) !important;
-  }
-}
-
-/* ============================================================
-   Stage Cards (Feature Model Panel)
-   ============================================================ */
-.t1-stage-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.t1-stage-card {
-  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
-  border: 1px solid $border;
-  border-radius: 14px;
-  padding: 12px;
-  box-shadow: 0 6px 14px $shadow;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-
-  &:hover {
-    border-color: $border-strong;
-    box-shadow: 0 8px 20px $shadow;
-  }
-}
-
-.t1-stage-card-header {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin-bottom: 8px;
-}
-
-.t1-stage-number {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  flex-shrink: 0;
-  font-family: "PT Serif", "Noto Serif SC", serif;
-}
-
-.t1-stage-title {
-  font-size: 14px;
   font-weight: 700;
   color: $wood;
-  line-height: 1.3;
-}
+  margin-bottom: 2px;
 
-.t1-stage-subtitle {
-  font-size: 12px;
-  color: $text-soft;
-  margin-top: 2px;
-  font-style: italic;
-}
-
-.t1-stage-details {
-  margin: 0 0 8px 36px;
-  padding: 0;
-  list-style: none;
-
-  li {
-    font-size: 13px;
-    color: $wood;
-    line-height: 1.6;
-    position: relative;
-    padding-left: 14px;
-
-    &::before {
-      content: "·";
-      position: absolute;
-      left: 0;
-      font-weight: 700;
-      color: $camel;
-    }
+  .t1-evo-trend-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px; height: 18px;
+    border-radius: 50%;
+    font-size: 10px;
+    margin-left: 4px;
+    &.up { background: rgba(150,84,77,0.12); color: $red; }
+    &.down { background: rgba(94,107,118,0.1); color: $slate; }
+    &.stable { background: rgba(127,150,141,0.1); color: $celadon; }
   }
 }
 
-.t1-stage-evidence {
-  margin-left: 36px;
-  font-size: 12px;
+.t1-stats-method-detail {
+  font-size: 10px;
   color: $text-soft;
-  background: rgba(127, 150, 141, 0.08);
-  border-radius: 6px;
-  padding: 6px 10px;
   line-height: 1.5;
-  display: flex;
-  align-items: flex-start;
-  gap: 6px;
 }
 
-.t1-evidence-icon {
-  flex-shrink: 0;
-}
-
-/* ============================================================
-   Inference Panel
-   ============================================================ */
-.t1-inference-panel {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.t1-section-intro {
-  background: rgba(127, 150, 141, 0.08);
-  border-radius: 10px;
-  padding: 14px;
-
-  strong {
-    display: block;
-    font-size: 15px;
-    color: $wood;
-    margin-bottom: 6px;
-  }
-
-  p {
-    margin: 0;
-    font-size: 12px;
-    color: $text-soft;
-    line-height: 1.6;
-  }
-}
-
-.t1-panel-subtitle {
-  font-size: 14px;
-  font-weight: 700;
+.t1-stats-warning {
+  font-size: 11px;
   color: $wood;
-  margin: 0 0 6px;
-  padding-left: 10px;
-  border-left: 3px solid $camel;
+  line-height: 1.5;
+  background: rgba(184,155,109,0.06);
+  border-radius: 6px;
+  padding: 6px 8px;
 }
 
-.t1-tech-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.t1-tech-card {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding: 12px 10px;
-  border-radius: 10px;
-  border: 1px solid $border;
-  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
-  text-align: center;
-
-  strong {
-    font-size: 14px;
-    color: $wood;
-  }
-
-  p {
-    margin: 0;
-    font-size: 11px;
-    color: $text-soft;
-  }
-}
-
-.t1-tech-badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 10px;
-  font-weight: 600;
-  background: rgba(184, 149, 111, 0.2);
-  color: $ochre;
-
-  &.recommend {
-    background: rgba(150, 84, 77, 0.15);
-    color: $red;
-  }
-}
-
-/* ============================================================
-   Probability bars
-   ============================================================ */
-.t1-probability-example {
-  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), $paper;
-  border: 1px solid $border;
-  border-radius: 12px;
-  padding: 14px;
-}
-
-.t1-prob-role {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.t1-prob-name {
-  font-size: 14px;
-  font-weight: 700;
-  color: $wood;
-}
-
-.t1-prob-bars {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.t1-prob-bar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.t1-bar-label {
-  width: 40px;
-  font-size: 12px;
-  color: $wood;
-  text-align: right;
-  flex-shrink: 0;
-  font-weight: 600;
-}
-
-.t1-bar-fill {
-  height: 14px;
-  border-radius: 4px;
-  background: linear-gradient(90deg, $red, $camel);
-  flex: 1;
-}
-
-.t1-bar-pct {
-  width: 36px;
-  font-size: 12px;
-  font-weight: 600;
-  color: $red;
-  flex-shrink: 0;
-}
-
-.t1-prob-note {
-  margin: 10px 0 0;
-  font-size: 12px;
-  color: $text-soft;
-  font-style: italic;
-}
-
-/* ============================================================
-   Evolution insights
-   ============================================================ */
+/* ── 半透明底栏 (演化面板使用) ── */
 .t1-evolution-insights {
-  margin-top: 12px;
-
-  h3 {
-    font-size: 14px;
-    font-weight: 700;
-    color: $wood;
-    margin: 0 0 8px;
-    padding-left: 10px;
-    border-left: 3px solid $camel;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-
-  li {
-    font-size: 12px;
-    color: $wood;
-    line-height: 1.6;
-    padding: 8px 12px;
-    background: rgba(127, 150, 141, 0.06);
-    border-radius: 8px;
-    border-left: 3px solid $celadon;
-
-    strong {
-      color: $red;
-    }
-  }
+  font-size: 11px;
+  line-height: 1.6;
+  color: $wood;
 }
 
+
+
 /* ============================================================
-   Responsive
+   Responsive — Performance 双栏布局
    ============================================================ */
 @media (max-width: 1200px) {
-  .t1-main-grid {
-    grid-template-columns: minmax(250px, 22vw) minmax(340px, 1fr) minmax(260px, 26vw);
+  .t1-perf-left {
+    padding: 16px;
   }
 
-  .t1-radar-area {
-    min-height: 380px;
-  }
-
-  .t1-center-row {
-    flex-direction: row;
-  }
-
-  .t1-center-right {
-    width: 180px;
-  }
-
-  .t1-radar-area {
-    min-height: 380px;
-  }
-
-  .t1-dim-bar-area {
-    max-height: 40%;
-  }
-
-  .t1-dim-btn {
-    padding: 4px 10px;
-    min-width: 38px;
-  }
-
-  .t1-dim-btn-label {
-    font-size: 16px;
-  }
-
-  .t1-perf-drawer {
-    width: min(380px, 44vw);
-  }
-
-  .t1-report-sidebar {
-    width: min(520px, 56vw);
-  }
-}
-
-@media (max-width: 1080px) {
-  .t1-main-grid {
-    grid-template-columns: 1fr;
-    overflow-y: auto;
-  }
-
-  .t1-screen {
-    height: auto;
-    overflow: visible;
-  }
-
-  .t1-side-panel {
-    overflow-y: visible;
-    max-height: none;
-  }
-
-  .t1-center-stage {
-    min-height: 520px;
-  }
-
-  .t1-center-row {
-    flex-direction: column;
-  }
-
-  .t1-center-right {
-    width: 100%;
-    flex-direction: row;
-    gap: 8px;
-    overflow-y: visible;
-  }
-
-  .t1-role-toggles {
-    flex: 1;
-  }
-
-  .t1-role-toggles-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4px;
-  }
-
-  .t1-dim-bar-area {
-    max-height: 35%;
-  }
-
-  .t1-dim-selectors {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .t1-perf-drawer {
-    width: min(360px, 48vw);
+  .t1-perf-module {
+    padding: 12px;
   }
 }
 
 @media (max-width: 960px) {
-  .t1-topbar {
+  .t1-perf-two-col {
+    grid-template-columns: 1fr;
+    overflow-y: auto;
+  }
+
+  .t1-perf-right {
+    flex-direction: column;
+  }
+
+  .t1-perf-left {
+    min-height: 320px;
+  }
+
+  .t1-perf-module--roles { flex: auto; min-height: 200px; }
+  .t1-perf-module--dims  { flex: auto; }
+  .t1-perf-module--stats { flex: auto; min-height: 280px; }
+
+  .t1-perf-bottombar {
+    height: auto;
+    min-height: 32px;
+    padding: 6px 12px;
+  }
+
+  /* Responsive for new panels */
+  .t1-pf-dim-cards-grid {
     grid-template-columns: 1fr;
   }
 
+  .t1-pf-core-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .t1-pf-cluster-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .t1-pf-compare-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .t1-perf-wrapper {
+    gap: 6px;
+  }
+
+  .t1-perf-two-col {
+    gap: 6px;
+  }
+
+  .t1-perf-left {
+    padding: 12px;
+    min-height: 260px;
+  }
+
+  .t1-perf-right {
+    gap: 6px;
+  }
+
+  .t1-perf-module {
+    padding: 10px;
+  }
+
+  .t1-perf-module-header {
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+
+    h3 { font-size: 13px; }
+  }
+
+  .t1-perf-bottombar {
+    height: auto;
+    min-height: 32px;
+    padding: 6px 12px;
+  }
+}
+
+/* ============================================================
+   响应式 — 新布局结构
+   ============================================================ */
+@media (max-width: 1200px) {
+  .t1-role-system-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .t1-role-system-card--sankey {
+    grid-column: 1 / -1;
+  }
+  .t1-evo-content {
+    grid-template-columns: 1.8fr 1fr;
+  }
+}
+
+@media (max-width: 960px) {
+  .t1-role-system-cards {
+    grid-template-columns: 1fr;
+  }
+  .t1-evo-content {
+    grid-template-columns: 1fr;
+  }
+  .t1-side-panel {
+    max-height: 360px;
+  }
+  .t1-evo-chart-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .t1-topbar {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
   .t1-topbar-report-btn {
+    justify-self: start;
     padding: 8px 16px;
     font-size: 13px;
   }
-
-  .t1-drawer {
-    width: 100vw;
-  }
-
-  .t1-report-sidebar {
-    width: 100vw;
-  }
-
-  .t1-perf-drawer {
-    width: 100vw;
-  }
-
-  .t1-drawer-triggers {
-    flex-wrap: wrap;
-  }
-
-  .t1-tech-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .t1-guide-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* ============================================================
-   Design Process Report Sidebar
+   Global — 共用响应式 (旧版兼容)
    ============================================================ */
-.t1-report-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(58, 44, 33, 0.32);
-  backdrop-filter: blur(4px);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.28s ease;
-  z-index: 80;
-
-  &.visible {
-    opacity: 1;
-    pointer-events: auto;
-  }
-}
-
-.t1-report-sidebar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: min(620px, 52vw);
-  height: 100vh;
-  z-index: 90;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.96));
-  border-left: 1px solid $border-strong;
-  box-shadow: -8px 0 32px rgba(58, 44, 33, 0.18);
-  transform: translateX(100%);
-  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
-
-  &.open {
-    transform: translateX(0);
-  }
-}
-
-.t1-report-sidebar-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 18px 22px;
-  border-bottom: 1px solid $border;
-  flex-shrink: 0;
-
-  h2 {
-    flex: 1;
-    margin: 0;
-    font-size: 20px;
-    font-weight: 700;
-    color: $wood;
-    font-family: "PT Serif", "Noto Serif SC", serif;
-  }
-}
-
-.t1-report-sidebar-header-icon {
-  font-size: 22px;
-  flex-shrink: 0;
-}
-
-.t1-report-sidebar-close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  border: 1.5px solid $border-strong;
-  background: rgba(255,255,255,0.6);
-  color: $wood;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  flex-shrink: 0;
-
-  &:hover {
-    background: $red;
-    color: #fff;
-    border-color: $red;
-  }
-}
-
-/* ---- Report Tab Navigation ---- */
-.t1-report-tabs {
-  display: flex;
-  gap: 2px;
-  padding: 10px 14px;
-  border-bottom: 1px solid $border;
-  flex-shrink: 0;
-  overflow-x: auto;
-  background: rgba(246, 241, 231, 0.25);
-
-  &::-webkit-scrollbar {
-    height: 3px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 2px;
-  }
-}
-
-.t1-report-tab {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 7px 13px;
-  border-radius: 8px;
-  border: 1.5px solid transparent;
-  background: transparent;
-  color: $text-soft;
-  font-size: 12px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-family: inherit;
-  white-space: nowrap;
-  flex-shrink: 0;
-
-  &:hover {
-    color: $wood;
-    background: rgba(184, 149, 111, 0.1);
-    border-color: $border-soft;
-  }
-
-  &.active {
-    color: $red;
-    background: rgba(150, 84, 77, 0.1);
-    border-color: rgba(150, 84, 77, 0.3);
-    box-shadow: 0 2px 6px rgba(150, 84, 77, 0.1);
-  }
-}
-
-.t1-report-tab-icon {
-  font-size: 14px;
-  line-height: 1;
-}
-
-.t1-report-tab-label {
-  line-height: 1;
-}
-
-/* ---- Report Sidebar Body ---- */
-.t1-report-sidebar-body {
-  flex: 1;
-  min-height: 0;
-  overflow-y: auto;
-  padding: 18px 22px;
-
-  &::-webkit-scrollbar {
-    width: 5px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 3px;
-  }
-}
-
-/* ============================================================
-   Feature Relation Panel — 特征-行当关系
-   ============================================================ */
-.t1-feature-relation {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.t1-sankey-compact {
-  background: rgba(255,255,255,0.45);
-  border: 1px solid rgba(184, 146, 106, 0.12);
-  border-radius: 10px;
-  padding: 8px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  min-height: 0;
-
-  > div:first-child {
-    flex: 1;
-    min-height: 0;
-  }
-}
-
-.t1-sankey-wrapper {
-  background: linear-gradient(180deg, rgba(255,255,255,0.55), rgba(255,255,255,0.35)), #fff;
-  border: 1px solid $border;
-  border-radius: 12px;
-  padding: 12px;
-  box-shadow: 0 6px 14px $shadow;
-}
-
-.t1-table-scroll {
-  overflow-x: auto;
-  border-radius: 10px;
-  border: 1px solid $border;
-  background: linear-gradient(180deg, rgba(255,255,255,0.58), rgba(246,241,231,0.4)), $paper;
-  box-shadow: 0 6px 14px $shadow;
-
-  &::-webkit-scrollbar {
-    height: 4px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: $border;
-    border-radius: 2px;
-  }
-}
-
-.t1-feature-table {
-  min-width: 760px;
-  font-size: 12px;
-
-  th {
-    white-space: nowrap;
-    padding: 7px 10px;
-    font-size: 11px;
-    font-weight: 700;
-  }
-
-  td {
-    padding: 6px 10px;
-    vertical-align: middle;
-  }
-
-  .t1-rank {
-    text-align: center;
-    font-weight: 700;
-    color: $ochre;
-    width: 32px;
-  }
-
-  .t1-num {
-    text-align: right;
-    font-weight: 600;
-    color: $wood;
-    font-variant-numeric: tabular-nums;
-    white-space: nowrap;
-  }
-
-  .t1-pct {
-    text-align: center;
-    font-weight: 600;
-    color: $red;
-    white-space: nowrap;
-  }
-
-  .t1-traits {
-    color: $celadon;
-    font-weight: 600;
-    font-size: 11px;
-    white-space: nowrap;
-  }
-
-  .t1-chars {
-    color: $text-soft;
-    font-size: 11px;
-    line-height: 1.4;
-    max-width: 240px;
-  }
-}
-
 @media (max-width: 1200px) {
-  .t1-feature-table {
-    min-width: 620px;
+  .t1-machine {
+    grid-template-columns: 1.8fr 2.5fr;
+    grid-template-rows: auto;
   }
-  .t1-feature-table .t1-chars {
-    max-width: 160px;
-  }
+  .t1-right-panel { display: none; }
 }
 
-@media (max-width: 1080px) {
-  .t1-feature-table {
-    min-width: 560px;
+@media (max-width: 768px) {
+  .t1-machine {
+    grid-template-columns: 1fr;
   }
+  .t1-left-panel { display: none; }
 }

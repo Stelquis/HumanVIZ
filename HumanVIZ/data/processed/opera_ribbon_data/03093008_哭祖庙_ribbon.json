@@ -1,0 +1,558 @@
+{
+  "title": "哭祖庙",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 9,
+  "num_locations": 7,
+  "source_file": "03093008_哭祖庙.json",
+  "source_folder": "03000000",
+  "plot_summary": "邓艾暗渡阴平后，直逼成都。刘禅欲迎降，刘禅子刘谌苦谏不听。刘谌痛国破家亡，遂杀妻及三子哭告于太\n庙，亦自刎死。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 98,
+      "summary": "第一场；第二场",
+      "conflict": 0.532,
+      "importance": 1.0,
+      "locations": {
+        "明日就要开城": 1,
+        "围困都城": 1
+      },
+      "characters": {
+        "门官": 1,
+        "刘禅": 1,
+        "黄皓": 1,
+        "女巫": 1,
+        "刘谌": 1
+      },
+      "links": [
+        {
+          "source": "刘谌",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "门官",
+          "target": "黄皓",
+          "value": 1
+        },
+        {
+          "source": "刘谌",
+          "target": "黄皓",
+          "value": 2
+        },
+        {
+          "source": "刘禅",
+          "target": "黄皓",
+          "value": 1
+        },
+        {
+          "source": "刘禅",
+          "target": "女巫",
+          "value": 1
+        },
+        {
+          "source": "刘禅",
+          "target": "刘谌",
+          "value": 1
+        },
+        {
+          "source": "女巫",
+          "target": "黄皓",
+          "value": 1
+        },
+        {
+          "source": "刘谌",
+          "target": "女巫",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 62,
+      "summary": "第三场；第四场",
+      "conflict": 0.652,
+      "importance": 0.772,
+      "locations": {
+        "明日就要开城": 2
+      },
+      "characters": {
+        "崔夫人": 1,
+        "董敏": 1,
+        "刘谌": 1,
+        "二王子": 1
+      },
+      "links": [
+        {
+          "source": "刘谌",
+          "target": "崔夫人",
+          "value": 1
+        },
+        {
+          "source": "刘谌",
+          "target": "董敏",
+          "value": 1
+        },
+        {
+          "source": "二王子",
+          "target": "刘谌",
+          "value": 1
+        },
+        {
+          "source": "崔夫人",
+          "target": "董敏",
+          "value": 1
+        },
+        {
+          "source": "二王子",
+          "target": "崔夫人",
+          "value": 1
+        },
+        {
+          "source": "二王子",
+          "target": "董敏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 81,
+      "summary": "第五场；第六场",
+      "conflict": 0.723,
+      "importance": 1.0,
+      "locations": {
+        "龙套同进城": 1,
+        "入祖庙": 1
+      },
+      "characters": {
+        "刘谌": 1,
+        "邓艾": 1,
+        "黄皓": 1,
+        "刘禅": 1
+      },
+      "links": [
+        {
+          "source": "邓艾",
+          "target": "黄皓",
+          "value": 1
+        },
+        {
+          "source": "刘禅",
+          "target": "邓艾",
+          "value": 1
+        },
+        {
+          "source": "刘禅",
+          "target": "黄皓",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "明日就要开城",
+      "characters": [
+        {
+          "name": "门官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "启禀千岁：今有邓艾，围困都城，圣上明日就要开城投降，特来报知。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘谌",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "知道了！",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "黄皓",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.428,
+        "conflict": 0.87,
+        "sentiment": 0.5
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "围困都城",
+      "characters": [
+        {
+          "name": "刘禅",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "暗渡阴平困都城，",
+          "rating": -0.25,
+          "role": "老生"
+        },
+        {
+          "name": "黄皓",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "叩见万岁！神师请到，宫门候旨。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "女巫",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我乃西川土神是也！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘谌",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "父听女巫胡言论，",
+          "rating": -0.5,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，84行",
+      "firstLine": 1,
+      "lastLine": 84,
+      "numLines": 84,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.629,
+        "sentiment": -0.032
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "明日就要开城",
+      "characters": [
+        {
+          "name": "董敏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "自幼净身入宫院，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.11,
+        "conflict": 1.0,
+        "sentiment": 0.867
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "明日就要开城",
+      "characters": [
+        {
+          "name": "刘谌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "怒冲冲离了皇宫院，",
+          "rating": -0.111,
+          "role": "老生"
+        },
+        {
+          "name": "崔夫人",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "恨贼人困成都十分危险，",
+          "rating": 0.0,
+          "role": "正旦"
+        },
+        {
+          "name": "董敏",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "哎呀王爷呀！为何一语不发，要杀二位殿下？",
+          "rating": -0.5,
+          "role": ""
+        },
+        {
+          "name": "二王子",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "父王要杀孩儿，容我们见母一面哪！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.841,
+        "conflict": 0.561,
+        "sentiment": 0.215
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "龙套同进城",
+      "characters": [
+        {
+          "name": "邓艾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哈哈，哈哈，啊哈哈哈……",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黄皓",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "刘禅",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：3位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.373,
+        "conflict": 0.0,
+        "sentiment": 0.8
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "入祖庙",
+      "characters": [
+        {
+          "name": "刘谌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "进祖庙不由人伤心凄惨，",
+          "rating": -0.429,
+          "role": "老生"
+        }
+      ],
+      "summary": "第六场：1位角色，78行",
+      "firstLine": 1,
+      "lastLine": 78,
+      "numLines": 78,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.775,
+        "conflict": 0.667,
+        "sentiment": 0.077
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘谌",
+      "short": "刘谌",
+      "key": "刘谌",
+      "quote": "刘谌 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘禅",
+      "short": "刘禅",
+      "key": "刘禅",
+      "quote": "刘禅 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "崔夫人",
+      "short": "崔夫",
+      "key": "崔夫人",
+      "quote": "崔夫人 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄皓",
+      "short": "黄皓",
+      "key": "黄皓",
+      "quote": "黄皓 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "董敏",
+      "short": "董敏",
+      "key": "董敏",
+      "quote": "董敏 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门官",
+      "short": "门官",
+      "key": "门官",
+      "quote": "门官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二王子",
+      "short": "二王",
+      "key": "二王子",
+      "quote": "二王子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "女巫",
+      "short": "女巫",
+      "key": "女巫",
+      "quote": "女巫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "邓艾",
+      "short": "邓艾",
+      "key": "邓艾",
+      "quote": "邓艾 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "明日就要开城",
+      "key": "明日就要开城",
+      "quote": "场景发生在明日就要开城"
+    },
+    {
+      "name": "入祖庙",
+      "key": "入祖庙",
+      "quote": "场景发生在入祖庙"
+    },
+    {
+      "name": "从校场回府",
+      "key": "从校场回府",
+      "quote": "场景发生在从校场回府"
+    },
+    {
+      "name": "围困都城",
+      "key": "围困都城",
+      "quote": "场景发生在围困都城"
+    },
+    {
+      "name": "龙套同进城",
+      "key": "龙套同进城",
+      "quote": "场景发生在龙套同进城"
+    },
+    {
+      "name": "皓同随进城",
+      "key": "皓同随进城",
+      "quote": "场景发生在皓同随进城"
+    },
+    {
+      "name": "阴平困都城",
+      "key": "阴平困都城",
+      "quote": "场景发生在阴平困都城"
+    }
+  ]
+}

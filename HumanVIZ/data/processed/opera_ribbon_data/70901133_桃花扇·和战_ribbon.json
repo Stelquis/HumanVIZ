@@ -1,0 +1,457 @@
+{
+  "title": "桃花扇·和战",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70901133_桃花扇·和战.json",
+  "source_folder": "70901000",
+  "plot_summary": "靖安侯黄德功、东平侯刘泽清和广昌侯刘良佐，三镇诸侯，联合起来，与兴平侯高杰展开争斗厮杀。",
+  "performance_notes": "《和战》即《桃花扇》之第十九出。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.537,
+      "locations": {
+        "辕门了": 1
+      },
+      "characters": {
+        "刘泽清": 1,
+        "黄德功": 1,
+        "高杰": 1,
+        "刘良佐": 1
+      },
+      "links": [
+        {
+          "source": "刘泽清",
+          "target": "黄德功",
+          "value": 1
+        },
+        {
+          "source": "刘良佐",
+          "target": "黄德功",
+          "value": 1
+        },
+        {
+          "source": "高杰",
+          "target": "黄德功",
+          "value": 1
+        },
+        {
+          "source": "刘泽清",
+          "target": "刘良佐",
+          "value": 1
+        },
+        {
+          "source": "刘泽清",
+          "target": "高杰",
+          "value": 1
+        },
+        {
+          "source": "刘良佐",
+          "target": "高杰",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 28,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "辕门了": 1
+      },
+      "characters": {
+        "侯方域": 1,
+        "刘良佐": 1,
+        "高杰": 1,
+        "刘泽清": 1,
+        "黄德功": 1
+      },
+      "links": [
+        {
+          "source": "刘良佐",
+          "target": "高杰",
+          "value": 1
+        },
+        {
+          "source": "高杰",
+          "target": "黄德功",
+          "value": 1
+        },
+        {
+          "source": "刘泽清",
+          "target": "高杰",
+          "value": 1
+        },
+        {
+          "source": "侯方域",
+          "target": "高杰",
+          "value": 1
+        },
+        {
+          "source": "刘良佐",
+          "target": "黄德功",
+          "value": 1
+        },
+        {
+          "source": "刘泽清",
+          "target": "刘良佐",
+          "value": 1
+        },
+        {
+          "source": "侯方域",
+          "target": "刘良佐",
+          "value": 1
+        },
+        {
+          "source": "刘泽清",
+          "target": "黄德功",
+          "value": 1
+        },
+        {
+          "source": "侯方域",
+          "target": "黄德功",
+          "value": 1
+        },
+        {
+          "source": "侯方域",
+          "target": "刘泽清",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.716,
+      "locations": {
+        "辕门了": 1
+      },
+      "characters": {
+        "高杰": 1,
+        "侯方域": 1
+      },
+      "links": [
+        {
+          "source": "侯方域",
+          "target": "高杰",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "辕门了": 1
+      },
+      "characters": {
+        "刘泽清": 1,
+        "高杰": 1,
+        "侯方域": 1
+      },
+      "links": [
+        {
+          "source": "侯方域",
+          "target": "刘泽清",
+          "value": 1
+        },
+        {
+          "source": "刘泽清",
+          "target": "高杰",
+          "value": 1
+        },
+        {
+          "source": "侯方域",
+          "target": "高杰",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "辕门了",
+      "characters": [
+        {
+          "name": "黄德功",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "俺庐、和、镇守史，靖安侯黄德功。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "刘泽清",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "俺淮、徐、镇守史，东平侯刘泽清。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "刘良佐",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "俺凤、泗、镇守史，广昌侯刘良佐。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "高杰",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第1场：4位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.708,
+        "conflict": 1.0,
+        "sentiment": 0.52
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "辕门了",
+      "characters": [
+        {
+          "name": "高杰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "俺乃扬州镇守史兴平侯高杰是也。闻得三镇前来征讨。",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "刘良佐",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "呔！高杰，快快出来争个谁大谁小。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "黄德功",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "高杰，我黄闯子的本领你是晓得的，快快磕头，饶你不死。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "刘泽清",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "呔！高杰，你休要逞强，来，来，来！我与你横战也可，竖战也可，你可晓得",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "侯方域",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "阁部大元帅有令，四镇作反，皆督师之过。请先到帅府杀了元帅，再到南京抢",
+          "rating": -1.0,
+          "role": "冠生"
+        }
+      ],
+      "summary": "第2场：5位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "辕门了",
+      "characters": [
+        {
+          "name": "侯方域",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "已到辕门了。两位将军在外等候，待俺传进去。",
+          "rating": 0.0,
+          "role": "冠生"
+        },
+        {
+          "name": "高杰",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "俺高杰，乃元帅标下先锋。元帅不加护庇，倒叫与三镇服礼，可不羞死人也。",
+          "rating": -1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第3场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.589,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "辕门了",
+      "characters": [
+        {
+          "name": "刘泽清",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊呀呀！高杰竟要过江了。想江南有他的党羽，不日要领来与俺厮闹。俺也早",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "侯方域",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "不料局势如此，教俺怎生收救。",
+          "rating": -1.0,
+          "role": "冠生"
+        },
+        {
+          "name": "高杰",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第4场：3位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.747,
+        "conflict": 0.0,
+        "sentiment": 0.367
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "侯方域",
+      "short": "侯方",
+      "key": "侯方域",
+      "quote": "侯方域 — 冠生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 冠生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄德功",
+      "short": "黄德",
+      "key": "黄德功",
+      "quote": "黄德功 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "刘泽清",
+      "short": "刘泽",
+      "key": "刘泽清",
+      "quote": "刘泽清 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "刘良佐",
+      "short": "刘良",
+      "key": "刘良佐",
+      "quote": "刘良佐 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "高杰",
+      "short": "高杰",
+      "key": "高杰",
+      "quote": "高杰 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "辕门了",
+      "key": "辕门了",
+      "quote": "场景发生在辕门了"
+    }
+  ]
+}

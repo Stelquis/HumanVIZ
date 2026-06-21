@@ -1,0 +1,183 @@
+{
+  "title": "黛玉伤春",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "03057002_黛玉伤春.json",
+  "source_folder": "03000000",
+  "plot_summary": "贾宝玉偷看《会真记》遭林黛玉责斥后，大病月余未出“怡红院”。一日往视林黛玉。时春光暗移，花期渐\n逾，林黛玉感时伤春，乃抚琴题诗，借发幽情。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 16,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.244,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "贾宝玉": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 115,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "贾宝玉": 1,
+        "林黛玉": 1,
+        "紫鹃": 1
+      },
+      "links": [
+        {
+          "source": "林黛玉",
+          "target": "紫鹃",
+          "value": 1
+        },
+        {
+          "source": "林黛玉",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "紫鹃",
+          "target": "贾宝玉",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "贾宝玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "九十春光，半消磨，病榻愁肠。",
+          "rating": -0.6,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.623,
+        "conflict": 0.0,
+        "sentiment": -0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "林黛玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "春去魂消，葬花归，梦冷珠帘。",
+          "rating": 0.067,
+          "role": "旦"
+        },
+        {
+          "name": "紫鹃",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "姑娘琴音缭乱，必然又有什么心事。待我来将她打断。",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "贾宝玉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "风竹萧萧，悄无人语。想是林妹妹春困未醒，待我偷看片时，免得扰她清梦。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，115行",
+      "firstLine": 1,
+      "lastLine": 115,
+      "numLines": 115,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.274,
+        "sentiment": 0.045
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "林黛玉",
+      "short": "林黛",
+      "key": "林黛玉",
+      "quote": "林黛玉 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "贾宝玉",
+      "short": "贾宝",
+      "key": "贾宝玉",
+      "quote": "贾宝玉 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "紫鹃",
+      "short": "紫鹃",
+      "key": "紫鹃",
+      "quote": "紫鹃 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

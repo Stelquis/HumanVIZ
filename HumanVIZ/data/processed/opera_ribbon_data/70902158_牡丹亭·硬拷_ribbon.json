@@ -1,0 +1,376 @@
+{
+  "title": "牡丹亭·硬拷",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "70902158_牡丹亭·硬拷.json",
+  "source_folder": "70902000",
+  "plot_summary": "柳梦梅至淮阴拜见岳父杜宝，反被当作掘坟贼，解回临安拷问。幸朝廷科试发榜，又以新科状元身份为试官\n苗舜宾救出。",
+  "performance_notes": "全剧用南北合套，刻画柳梦梅、杜宝两人不同心理。北曲〖折桂令〗、〖雁儿得胜〗多见于武戏，此处由巾\n生柳梦梅演唱，曲调细嫩多姿，别具一格，传为名曲。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 27,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.405,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "众人": 1,
+        "狱卒": 1,
+        "柳梦梅": 1,
+        "杜宝": 1
+      },
+      "links": [
+        {
+          "source": "众人",
+          "target": "杜宝",
+          "value": 1
+        },
+        {
+          "source": "杜宝",
+          "target": "狱卒",
+          "value": 1
+        },
+        {
+          "source": "杜宝",
+          "target": "柳梦梅",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "狱卒",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "柳梦梅",
+          "value": 1
+        },
+        {
+          "source": "柳梦梅",
+          "target": "狱卒",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 169,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "苗舜宾": 1,
+        "众人": 1,
+        "军校": 1,
+        "柳梦梅": 1,
+        "杜宝": 1
+      },
+      "links": [
+        {
+          "source": "杜宝",
+          "target": "柳梦梅",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "柳梦梅",
+          "value": 1
+        },
+        {
+          "source": "军校",
+          "target": "柳梦梅",
+          "value": 1
+        },
+        {
+          "source": "柳梦梅",
+          "target": "苗舜宾",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "杜宝",
+          "value": 1
+        },
+        {
+          "source": "军校",
+          "target": "杜宝",
+          "value": 1
+        },
+        {
+          "source": "杜宝",
+          "target": "苗舜宾",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "军校",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "苗舜宾",
+          "value": 1
+        },
+        {
+          "source": "军校",
+          "target": "苗舜宾",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 4,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.06,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "杜宝": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杜宝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "秋来力尽破重围，入掌银壶护紫微。回头却叹浮生事，长向东风有是非。",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "众人",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "玉带蟒袍红，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "狱卒",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "柳梦梅走动！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "柳梦梅",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "则这怯书生剑气吐长虹，",
+          "rating": 0.0,
+          "role": "巾生"
+        }
+      ],
+      "summary": "第1场：4位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.729,
+        "conflict": 0.667,
+        "sentiment": 0.763
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "柳梦梅",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "吓！岳丈！",
+          "rating": 0.6,
+          "role": "巾生"
+        },
+        {
+          "name": "杜宝",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哆！谁是你岳丈？",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "众人",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启爷：包裹内单被一条，小画一轴。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "军校",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "走吓！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "苗舜宾",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "踏破草鞋无觅处，得来全不费工夫。",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第2场：5位角色，169行",
+      "firstLine": 1,
+      "lastLine": 169,
+      "numLines": 169,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.163,
+        "sentiment": 0.332
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杜宝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "奇怪吓奇怪！",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第3场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.499,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "柳梦梅",
+      "short": "柳梦",
+      "key": "柳梦梅",
+      "quote": "柳梦梅 — 巾生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 巾生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杜宝",
+      "short": "杜宝",
+      "key": "杜宝",
+      "quote": "杜宝 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "苗舜宾",
+      "short": "苗舜",
+      "key": "苗舜宾",
+      "quote": "苗舜宾 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "狱卒",
+      "short": "狱卒",
+      "key": "狱卒",
+      "quote": "狱卒 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "军校",
+      "short": "军校",
+      "key": "军校",
+      "quote": "军校 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

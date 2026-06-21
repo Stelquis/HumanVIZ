@@ -1,0 +1,183 @@
+{
+  "title": "白傅遣姬",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01032008_白傅遣姬.json",
+  "source_folder": "01000000",
+  "plot_summary": "先是香山（即白乐天）有两美姬，曰樊素，曰小蛮，颇得眷宠。樊素善歌，小蛮善舞，故有“樱桃樊素口，\n杨柳小蛮腰”之誉。樊素先在曲中时，本以善唱杨枝词得名，因此外间又唤她作杨枝。香山既罢官，即欲遣\n二姬，任自择人。小蛮已如命，樊素依恋不忍去。至是，香山以年老患风痺，念樊素尚在芳年，何忍笯鸾囚\n凤，误彼青春。至贻一树梨花压海棠之诮，因再婉辞调令去。又将昔年裴令公所赠名马一匹，名曰骆马，亦\n拟变卖。讵樊素既嘤嘤啜泣，愿终身不变节。而骆马亦长嘶悲鸣，状若不忍背离其故主者。香山见之，不觉\n恻然，遂令骆马、杨枝仍并留之。",
+  "performance_notes": "唐朝白乐天，与元微之齐名，生平多风流韵事。如浔阳江头送客遇妓，听了他一曲琵琶及一席情话，竟至掉\n泪掉个不住，把一件青袍渍得笼通湿，从此便传为千古美谈。现在《遣姬》一剧，也是他晚年对于妇女解放\n上的一桩轶事。\n本名《罢相遣姬》，大错以乐天未尝入相，故改为“白傅”云。\n此段故事，从前只有传本。近人从传奇脱胎，改编皮黄脚本，于是始有此戏。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 27,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.344,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "樊素": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 130,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "院子": 1,
+        "白居易": 1,
+        "樊素": 1
+      },
+      "links": [
+        {
+          "source": "白居易",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "樊素",
+          "target": "白居易",
+          "value": 1
+        },
+        {
+          "source": "樊素",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "樊素",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "学唱杨枝，习丝竹，喜咏歌词。",
+          "rating": 0.25,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "第一场：1位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.653,
+        "conflict": 1.0,
+        "sentiment": 0.329
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "白居易",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "叹人生在世间如霜如电，",
+          "rating": 0.333,
+          "role": "外"
+        },
+        {
+          "name": "院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "请老爷用茶。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "樊素",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.111,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "第二场：3位角色，130行",
+      "firstLine": 1,
+      "lastLine": 130,
+      "numLines": 130,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.245,
+        "sentiment": 0.326
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "白居易",
+      "short": "白居",
+      "key": "白居易",
+      "quote": "白居易 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "樊素",
+      "short": "樊素",
+      "key": "樊素",
+      "quote": "樊素 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

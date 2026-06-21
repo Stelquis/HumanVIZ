@@ -1,0 +1,820 @@
+{
+  "title": "雁门关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 11,
+  "num_locations": 5,
+  "source_file": "01009011_雁门关.json",
+  "source_folder": "01000000",
+  "plot_summary": "北宋《杨家将说传》（即《金枪传》）载：潘洪专权卖国，在朝倚仗国丈之尊，专与忠良作对。杨继业父子\n八人，为当时柱石良将。潘洪因杨七郎在擂台与其子潘豹比武，将潘豹打死，于是结下深仇。阴嗾贺朝进朋\n比为奸，多方设计陷害。暗与萧邦通款，密召萧番寇边南犯。己在金殿甘言哄帝，乞得招讨之职，故意辟荐\n杨氏父子为先锋，直隶己麾下，盖即暗执陷害杨氏父子之权于掌中也。既出师，故令杨继业父子，以寡师出\n敌众寇。任其受困两狼，卒至粮尽援绝而殁。杨氏一门，除六郎、延德外，死者死，亡者亡，丧害殆尽，皆\n潘一人之力也！后为六郎晋京，在真宗前哭告御状，真宗大怒，乃命呼必显，赍旨往雁门关拿解来京。此剧\n即呼必显先用计借阅兵事，赚得帅印在手，并遣去其爪牙贺某，然后开旨擒潘洪，霎时打入囚车。盖取迅雷\n不及掩耳之法，以出其不意，非如是则恐其拔扈不测，事正有所难料也。",
+  "performance_notes": "此剧小生于赚印点卯、开旨擒潘等时，神色须敏捷变化，忽柔忽刚，不可失诸呆板，方为合作。后本即《调\n寇审潘》之《清官册》也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 31,
+      "summary": "第一场；第二场",
+      "conflict": 0.237,
+      "importance": 0.279,
+      "locations": {
+        "雁门关": 1,
+        "下百日擂台": 1
+      },
+      "characters": {
+        "潘洪": 1,
+        "中军": 1,
+        "呼延必显": 1
+      },
+      "links": [
+        {
+          "source": "呼延必显",
+          "target": "潘洪",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "潘洪",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 60,
+      "summary": "第三场；第四场",
+      "conflict": 0.203,
+      "importance": 0.541,
+      "locations": {
+        "下百日擂台": 2
+      },
+      "characters": {
+        "潘洪": 1,
+        "中军": 1,
+        "旗牌": 1,
+        "呼延必显": 1
+      },
+      "links": [
+        {
+          "source": "呼延必显",
+          "target": "潘洪",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "呼延必显",
+          "value": 1
+        },
+        {
+          "source": "呼延必显",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "潘洪",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "潘洪",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "旗牌",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 242,
+      "summary": "第五场；第六场",
+      "conflict": 0.067,
+      "importance": 1.0,
+      "locations": {
+        "下百日擂台": 2
+      },
+      "characters": {
+        "旗牌": 1,
+        "四红龙套": 1,
+        "周虎": 1,
+        "众人": 1,
+        "潘洪": 1,
+        "呼延必显": 1,
+        "黄龙": 1,
+        "四下手": 1,
+        "安定邦": 1,
+        "黄信": 1,
+        "中军": 1
+      },
+      "links": [
+        {
+          "source": "旗牌",
+          "target": "黄龙",
+          "value": 2
+        },
+        {
+          "source": "四下手",
+          "target": "黄龙",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "潘洪",
+          "value": 1
+        },
+        {
+          "source": "周虎",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "安定邦",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "黄信",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "呼延必显",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "周虎",
+          "target": "潘洪",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "潘洪",
+          "value": 1
+        },
+        {
+          "source": "安定邦",
+          "target": "潘洪",
+          "value": 1
+        },
+        {
+          "source": "潘洪",
+          "target": "黄信",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "潘洪",
+          "value": 1
+        },
+        {
+          "source": "潘洪",
+          "target": "黄龙",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "潘洪",
+          "value": 1
+        },
+        {
+          "source": "呼延必显",
+          "target": "潘洪",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "周虎",
+          "value": 1
+        },
+        {
+          "source": "周虎",
+          "target": "安定邦",
+          "value": 1
+        },
+        {
+          "source": "周虎",
+          "target": "黄信",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "周虎",
+          "value": 1
+        },
+        {
+          "source": "周虎",
+          "target": "黄龙",
+          "value": 1
+        },
+        {
+          "source": "周虎",
+          "target": "四红龙套",
+          "value": 1
+        },
+        {
+          "source": "周虎",
+          "target": "呼延必显",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "安定邦",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "黄信",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "众人",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "黄龙",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "四红龙套",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "呼延必显",
+          "value": 1
+        },
+        {
+          "source": "安定邦",
+          "target": "黄信",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "安定邦",
+          "value": 1
+        },
+        {
+          "source": "安定邦",
+          "target": "黄龙",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "安定邦",
+          "value": 1
+        },
+        {
+          "source": "呼延必显",
+          "target": "安定邦",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "黄信",
+          "value": 1
+        },
+        {
+          "source": "黄信",
+          "target": "黄龙",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "黄信",
+          "value": 1
+        },
+        {
+          "source": "呼延必显",
+          "target": "黄信",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "黄龙",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "四红龙套",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "呼延必显",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "黄龙",
+          "value": 1
+        },
+        {
+          "source": "呼延必显",
+          "target": "黄龙",
+          "value": 1
+        },
+        {
+          "source": "呼延必显",
+          "target": "四红龙套",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "雁门关",
+      "characters": [
+        {
+          "name": "呼延必显",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "金殿领圣命，捉拿叛逆臣。",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "潘洪",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.709,
+        "conflict": 0.0,
+        "sentiment": -0.427
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "下百日擂台",
+      "characters": [
+        {
+          "name": "潘洪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "奉王命威镇边关，那胡儿胆战心寒。",
+          "rating": -0.6,
+          "role": "净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "龙虎台前出入，貔貅帐内传唤。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.547,
+        "conflict": 1.0,
+        "sentiment": -0.19
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "下百日擂台",
+      "characters": [
+        {
+          "name": "呼延必显",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.552,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "下百日擂台",
+      "characters": [
+        {
+          "name": "呼延必显",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "太师请上，待小官大礼参拜。",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "潘洪",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你一路而来，多受风霜之苦，不拜也罢。",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "下面听者，太师有令：命贺朝敬带领四十名长枪手，护送宝剑进京。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "忽听传白牌，急忙到帐来。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，59行",
+      "firstLine": 1,
+      "lastLine": 59,
+      "numLines": 59,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.806,
+        "conflict": 0.27,
+        "sentiment": 0.363
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "下百日擂台",
+      "characters": [
+        {
+          "name": "黄龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "提调我等有何军情？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "辕门听点。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四下手",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "乃是骡马。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.322,
+        "conflict": 0.909,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "下百日擂台",
+      "characters": [
+        {
+          "name": "旗牌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "众将辕门伺候。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "潘洪",
+          "importance": 0.9,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "传他等进帐。",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "周虎",
+          "importance": 0.8,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "参见太师。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "中军",
+          "importance": 0.7,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "鼓棚，起鼓听点。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "安定邦",
+          "importance": 0.6,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黄信",
+          "importance": 0.5,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "有！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.4,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "未到。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "黄龙",
+          "importance": 0.3,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "马失前蹄，回营换马去了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四红龙套",
+          "importance": 0.2,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "斩首已毕。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "呼延必显",
+          "importance": 0.1,
+          "importance_rank": 10,
+          "emotion": "neutral",
+          "quote": "啊？正在后帐饮宴，忽听前帐斩斩杀杀，但不知斩的哪路兵丁。待我进帐。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第六场：10位角色，230行",
+      "firstLine": 1,
+      "lastLine": 230,
+      "numLines": 230,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.214,
+        "sentiment": 0.227
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "呼延必显",
+      "short": "呼延",
+      "key": "呼延必显",
+      "quote": "呼延必显 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "潘洪",
+      "short": "潘洪",
+      "key": "潘洪",
+      "quote": "潘洪 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周虎",
+      "short": "周虎",
+      "key": "周虎",
+      "quote": "周虎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四红龙套",
+      "short": "四红",
+      "key": "四红龙套",
+      "quote": "四红龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄龙",
+      "short": "黄龙",
+      "key": "黄龙",
+      "quote": "黄龙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "安定邦",
+      "short": "安定",
+      "key": "安定邦",
+      "quote": "安定邦 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄信",
+      "short": "黄信",
+      "key": "黄信",
+      "quote": "黄信 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "下百日擂台",
+      "key": "下百日擂台",
+      "quote": "场景发生在下百日擂台"
+    },
+    {
+      "name": "得擂台",
+      "key": "得擂台",
+      "quote": "场景发生在得擂台"
+    },
+    {
+      "name": "天齐庙",
+      "key": "天齐庙",
+      "quote": "场景发生在天齐庙"
+    },
+    {
+      "name": "上得擂台",
+      "key": "上得擂台",
+      "quote": "场景发生在上得擂台"
+    },
+    {
+      "name": "雁门关",
+      "key": "雁门关",
+      "quote": "场景发生在雁门关"
+    }
+  ]
+}

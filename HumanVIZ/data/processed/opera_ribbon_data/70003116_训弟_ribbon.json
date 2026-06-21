@@ -1,0 +1,481 @@
+{
+  "title": "训弟",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 8,
+  "num_locations": 4,
+  "source_file": "70003116_训弟.json",
+  "source_folder": "70003000",
+  "plot_summary": "关羽斩了蔡阳，张飞羞愧难当，亲迎关羽入城，深夜前往请罪。关羽义责张飞，并历述为了保嫂寻兄，饱受\n千辛万苦。刘备也来为张飞求情，弟兄三人和好如初。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 32,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.453,
+      "locations": {
+        "三弟出城": 1
+      },
+      "characters": {
+        "二旗牌": 1,
+        "刘备": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "张飞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 64,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.906,
+      "locations": {
+        "三弟出城": 1
+      },
+      "characters": {
+        "关羽": 1,
+        "马童": 1,
+        "张飞": 1,
+        "龙套": 1,
+        "旗牌乙": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "旗牌乙",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "旗牌乙",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "旗牌乙",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "旗牌乙",
+          "value": 1
+        },
+        {
+          "source": "马童",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "龙套",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 116,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "三弟出城": 1
+      },
+      "characters": {
+        "旗牌": 1,
+        "刘备": 1,
+        "关羽": 1,
+        "马童": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马童",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "三弟出城",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "天意困英雄，何日里，得会风云。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "老张作事太鲁莽，不该城外刺云长。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "二旗牌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "遵命！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.673,
+        "conflict": 0.533,
+        "sentiment": 0.167
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "三弟出城",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "唉！",
+          "rating": -1.0,
+          "role": "红生"
+        },
+        {
+          "name": "旗牌乙",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哪位听事？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马童",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "甚么人？",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "龙套",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "蔡阳人马，无处投奔，故而在此喧哗。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "古城县令，带令人役，迎接二爷进城！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：5位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.292,
+        "sentiment": -0.033
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "三弟出城",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "弟兄重相见，枯木又逢春。",
+          "rating": -0.143,
+          "role": "老生"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "二爷到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "大哥！",
+          "rating": 0.333,
+          "role": "红生"
+        },
+        {
+          "name": "马童",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "与大爷叩头。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "大哥！这个人情讲得怎么样了？",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：5位角色，116行",
+      "firstLine": 1,
+      "lastLine": 116,
+      "numLines": 116,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.618,
+        "sentiment": 0.197
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "马童",
+      "short": "马童",
+      "key": "马童",
+      "quote": "马童 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙套",
+      "short": "龙套",
+      "key": "龙套",
+      "quote": "龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二旗牌",
+      "short": "二旗",
+      "key": "二旗牌",
+      "quote": "二旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌乙",
+      "short": "旗牌",
+      "key": "旗牌乙",
+      "quote": "旗牌乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "三弟出城",
+      "key": "三弟出城",
+      "quote": "场景发生在三弟出城"
+    },
+    {
+      "name": "重圆到古城",
+      "key": "重圆到古城",
+      "quote": "场景发生在重圆到古城"
+    },
+    {
+      "name": "占了古城",
+      "key": "占了古城",
+      "quote": "场景发生在占了古城"
+    },
+    {
+      "name": "日来在古城",
+      "key": "日来在古城",
+      "quote": "场景发生在日来在古城"
+    }
+  ]
+}

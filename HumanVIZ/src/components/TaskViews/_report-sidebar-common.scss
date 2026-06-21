@@ -1,0 +1,408 @@
+// ============================================================
+//  Shared Report Sidebar Mixins — "燕京清晖" theme
+//  Used by Task1–4 for consistent "设计流程报告" sidebars.
+//  Include in each task SCSS: @use './report-sidebar-common' as *;
+// ============================================================
+
+// ── Topbar Trigger Button ──
+// The button in the topbar that opens the report sidebar.
+// Structure: .{prefix}-topbar-report-btn > icon + text(label+sub) + arrow
+
+@mixin report-trigger-btn($prefix) {
+  .#{$prefix}-topbar-report-btn {
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba(212,197,176,.55), rgba(184,149,111,.12));
+    border: 1.5px solid var(--theme-border-soft);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--theme-wood);
+    cursor: pointer;
+    transition: all .25s ease;
+    font-family: "PT Serif", "Noto Serif SC", serif;
+    white-space: nowrap;
+
+    &:hover {
+      border-color: var(--theme-gold);
+      background: linear-gradient(135deg, rgba(212,197,176,.72), rgba(184,149,111,.22));
+      box-shadow: 0 3px 14px rgba(94,107,118,0.16), 0 0 0 4px rgba(184,155,109,.08);
+      transform: translateY(-1.5px);
+
+      .#{$prefix}-report-btn-arrow {
+        transform: translateX(3px);
+        opacity: 1;
+      }
+      .#{$prefix}-report-btn-sub {
+        color: var(--theme-bamboo);
+      }
+    }
+
+    &:active {
+      transform: scale(.97);
+    }
+  }
+
+  .#{$prefix}-report-btn-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+
+  .#{$prefix}-report-btn-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+  }
+
+  .#{$prefix}-report-btn-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--theme-wood);
+    line-height: 1.2;
+  }
+
+  .#{$prefix}-report-btn-sub {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--theme-text-soft);
+    line-height: 1.2;
+    transition: color .25s ease;
+    letter-spacing: .03em;
+  }
+
+  .#{$prefix}-report-btn-arrow {
+    font-size: 16px;
+    color: var(--theme-gold);
+    opacity: .5;
+    transition: transform .25s ease, opacity .25s ease;
+  }
+}
+
+// ── Backdrop ──
+
+@mixin report-backdrop($prefix) {
+  .#{$prefix}-report-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(58,44,33,.32);
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .28s ease;
+    z-index: 80;
+
+    &.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  }
+}
+
+// ── Sidebar Container ──
+
+@mixin report-sidebar($prefix) {
+  .#{$prefix}-report-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: min(620px, 52vw);
+    height: 100vh;
+    z-index: 90;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(255,253,249,.98), rgba(246,241,231,.96));
+    border-left: 1px solid var(--theme-border-strong);
+    box-shadow: -8px 0 32px rgba(58,44,33,.18);
+    transform: translateX(100%);
+    transition: transform .32s cubic-bezier(.4,0,.2,1);
+
+    &.open {
+      transform: translateX(0);
+    }
+  }
+}
+
+// ── Header ──
+
+@mixin report-sidebar-header($prefix) {
+  .#{$prefix}-report-sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 22px;
+    border-bottom: 1px solid var(--theme-border);
+    flex-shrink: 0;
+
+    h2 {
+      flex: 1;
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--theme-wood);
+      font-family: "PT Serif", "Noto Serif SC", serif;
+    }
+  }
+
+  .#{$prefix}-report-sidebar-header-icon {
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+
+  .#{$prefix}-report-sidebar-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1.5px solid var(--theme-border-strong);
+    background: rgba(255,255,255,.6);
+    color: var(--theme-wood);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .2s ease;
+    flex-shrink: 0;
+
+    &:hover {
+      background: var(--theme-red);
+      color: #fff;
+      border-color: var(--theme-red);
+    }
+  }
+}
+
+// ── Tab Navigation ──
+
+@mixin report-tabs($prefix) {
+  .#{$prefix}-report-tabs {
+    display: flex;
+    gap: 2px;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--theme-border);
+    flex-shrink: 0;
+    overflow-x: auto;
+    background: rgba(246,241,231,.25);
+
+    &::-webkit-scrollbar {
+      height: 3px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: var(--theme-border);
+      border-radius: 2px;
+    }
+  }
+
+  .#{$prefix}-report-tab {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 13px;
+    border-radius: 8px;
+    border: 1.5px solid transparent;
+    background: transparent;
+    color: var(--theme-text-soft);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s ease;
+    font-family: inherit;
+    white-space: nowrap;
+    flex-shrink: 0;
+
+    &:hover {
+      color: var(--theme-wood);
+      background: rgba(184,149,111,.1);
+      border-color: var(--theme-border-soft);
+    }
+
+    &.active {
+      color: var(--theme-red);
+      background: rgba(150,84,77,.1);
+      border-color: rgba(150,84,77,.3);
+      box-shadow: 0 2px 6px rgba(150,84,77,.1);
+    }
+  }
+
+  .#{$prefix}-report-tab-icon {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .#{$prefix}-report-tab-label {
+    line-height: 1;
+  }
+}
+
+// ── Body / Scrollable Content Area ──
+
+@mixin report-sidebar-body($prefix) {
+  .#{$prefix}-report-sidebar-body {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 18px 22px;
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: var(--theme-border);
+      border-radius: 3px;
+    }
+  }
+}
+
+// ── Report Content Typography ──
+
+@mixin report-content($prefix) {
+  .#{$prefix}-report-content {
+    h3 {
+      margin: 20px 0 8px;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--theme-wood);
+      font-family: "PT Serif", "Noto Serif SC", serif;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--theme-border-soft);
+      &:first-of-type { margin-top: 0; }
+    }
+
+    h4 {
+      margin: 14px 0 4px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--theme-wood);
+      font-family: "PT Serif", "Noto Serif SC", serif;
+    }
+
+    p {
+      margin: 0 0 14px;
+      font-size: 14px;
+      line-height: 1.85;
+      color: var(--theme-ink);
+      text-align: justify;
+      text-indent: 2em;
+      &:last-child { margin-bottom: 0; }
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 4px 0 12px;
+    }
+
+    li {
+      font-size: 13px;
+      line-height: 1.7;
+      color: var(--theme-wood);
+      margin-bottom: 3px;
+    }
+
+    strong {
+      color: var(--theme-wood);
+    }
+
+    code {
+      font-size: 11px;
+      background: rgba(94,107,118,.08);
+      padding: 1px 5px;
+      border-radius: 3px;
+      color: var(--theme-wood);
+    }
+  }
+}
+
+// ── Subtitle ──
+
+@mixin report-subtitle($prefix) {
+  .#{$prefix}-report-subtitle {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--theme-wood);
+    text-align: center;
+    text-indent: 0;
+    padding-bottom: 14px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--theme-border-soft);
+    font-family: "PT Serif", "Noto Serif SC", serif;
+  }
+}
+
+// ── Data Table (shared across all reports) ──
+
+@mixin report-data-table($prefix) {
+  .#{$prefix}-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+    margin-bottom: 12px;
+
+    th, td {
+      text-align: left;
+      padding: 5px 8px;
+      border: 1px solid var(--theme-border-soft);
+    }
+
+    th {
+      background: rgba(94,107,118,.06);
+      font-weight: 600;
+      color: var(--theme-wood);
+    }
+
+    td {
+      color: var(--theme-wood);
+    }
+  }
+}
+
+// ── Report Section ──
+
+@mixin report-section($prefix) {
+  .#{$prefix}-report-section {
+    margin-bottom: 20px;
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--theme-wood);
+      font-family: "PT Serif", "Noto Serif SC", serif;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--theme-border-soft);
+    }
+  }
+}
+
+// ── Responsive Overrides ──
+
+@mixin report-responsive($prefix) {
+  @media (max-width: 800px) {
+    .#{$prefix}-report-sidebar {
+      width: 100vw;
+    }
+    .#{$prefix}-topbar-report-btn {
+      padding: 8px 16px;
+      font-size: 13px;
+    }
+  }
+}
+
+// ── Mega-mixin: include all report sidebar styles at once ──
+
+@mixin report-sidebar-all($prefix) {
+  @include report-trigger-btn($prefix);
+  @include report-backdrop($prefix);
+  @include report-sidebar($prefix);
+  @include report-sidebar-header($prefix);
+  @include report-tabs($prefix);
+  @include report-sidebar-body($prefix);
+  @include report-content($prefix);
+  @include report-subtitle($prefix);
+  @include report-data-table($prefix);
+  @include report-section($prefix);
+  @include report-responsive($prefix);
+}

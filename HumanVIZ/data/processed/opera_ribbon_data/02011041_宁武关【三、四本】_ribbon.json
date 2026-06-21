@@ -1,0 +1,390 @@
+{
+  "title": "宁武关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "02011041_宁武关【三、四本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "总兵周遇吉，虽擒诛李闯义子李洪基，卒因寡不敌众，难当闯贼攻势，代州乃陷，不得已退守宁武关。周母\n及妻若子均在关内，周遇吉返关之日，适逢母寿，周遇吉介寿称觞，自度孤城无援，旦夕必破，面带忧容。\n拟遣将护母外避，己则与守土共存亡。周母深明大义，不欲偷生，遂举火自焚，以绝其子内顾之忧，全其捐\n躯成仁之志。而其妻子奴仆家将，亦均自尽殉国。周遇吉终亦浴血奋战，被箭自刎而亡。一门忠烈，千秋足\n式矣。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 13,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.722,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李自成": 1,
+        "周遇吉": 1,
+        "一支虎": 1
+      },
+      "links": [
+        {
+          "source": "一支虎",
+          "target": "李自成",
+          "value": 1
+        },
+        {
+          "source": "周遇吉",
+          "target": "李自成",
+          "value": 1
+        },
+        {
+          "source": "一支虎",
+          "target": "周遇吉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 10,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.556,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "周遇吉": 1,
+        "一支虎": 1
+      },
+      "links": [
+        {
+          "source": "一支虎",
+          "target": "周遇吉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.389,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李自成": 1,
+        "周遇吉": 1,
+        "一支虎": 1
+      },
+      "links": [
+        {
+          "source": "周遇吉",
+          "target": "李自成",
+          "value": 1
+        },
+        {
+          "source": "一支虎",
+          "target": "李自成",
+          "value": 1
+        },
+        {
+          "source": "一支虎",
+          "target": "周遇吉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 42,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "周遇吉": 1,
+        "众闯将": 1,
+        "一支虎": 1,
+        "李自成": 1
+      },
+      "links": [
+        {
+          "source": "一支虎",
+          "target": "周遇吉",
+          "value": 1
+        },
+        {
+          "source": "众闯将",
+          "target": "周遇吉",
+          "value": 1
+        },
+        {
+          "source": "周遇吉",
+          "target": "李自成",
+          "value": 1
+        },
+        {
+          "source": "一支虎",
+          "target": "众闯将",
+          "value": 1
+        },
+        {
+          "source": "一支虎",
+          "target": "李自成",
+          "value": 1
+        },
+        {
+          "source": "众闯将",
+          "target": "李自成",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李自成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "孤，李自成。",
+          "rating": -0.25,
+          "role": "净"
+        },
+        {
+          "name": "一支虎",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "周遇吉虽然英勇，到底寡不敌众。兄王带领弓箭手，埋伏前面山谷之中，待小",
+          "rating": 1.0,
+          "role": "副净"
+        },
+        {
+          "name": "周遇吉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -0.6,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.562,
+        "conflict": 0.741,
+        "sentiment": 0.033
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "一支虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "周遇吉，敢与俺斗几百回合么？",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "周遇吉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "战场黯黯阵云黄，",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.577,
+        "conflict": 1.0,
+        "sentiment": -0.14
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李自成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "众将放箭！",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "周遇吉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "一支虎",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第三场：3位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.466,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周遇吉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "杀败了啊杀败了！不想我误入罗网身被重伤，虽然杀出重围，今番性命休矣！",
+          "rating": -0.25,
+          "role": "老生"
+        },
+        {
+          "name": "一支虎",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "周遇吉，还能战么？",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "众闯将",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "你还不降顺么！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "李自成",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "可惜周遇吉，恁般英勇，自刎而亡，深为可怜。若是明朝将官个个如此，孤家",
+          "rating": -0.5,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：4位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.605,
+        "conflict": 1.0,
+        "sentiment": 0.096
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "周遇吉",
+      "short": "周遇",
+      "key": "周遇吉",
+      "quote": "周遇吉 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李自成",
+      "short": "李自",
+      "key": "李自成",
+      "quote": "李自成 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "一支虎",
+      "short": "一支",
+      "key": "一支虎",
+      "quote": "一支虎 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "众闯将",
+      "short": "众闯",
+      "key": "众闯将",
+      "quote": "众闯将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

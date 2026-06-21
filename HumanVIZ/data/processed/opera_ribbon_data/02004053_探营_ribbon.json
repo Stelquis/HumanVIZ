@@ -1,0 +1,110 @@
+{
+  "title": "探营",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "02004053_探营.json",
+  "source_folder": "02000000",
+  "plot_summary": "姜维自孔明死后，统帅大军，仍继续孔明遗志，恢复中原。本剧系在《铁龙山》之前，夜间窥探晋军营垒情\n形。历述蜀从先帝创业，至诸葛亮逝世之盛衰强弱情形，谋国情状，极悲壮慷慨之至。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 122,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "马岱": 1,
+        "姜维": 1
+      },
+      "links": [
+        {
+          "source": "姜维",
+          "target": "马岱",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "姜维",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "量小非君子，无毒不丈夫。",
+          "rating": 0.294,
+          "role": "武生"
+        },
+        {
+          "name": "马岱",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "有。",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "段落1：2位角色，122行",
+      "firstLine": 1,
+      "lastLine": 122,
+      "numLines": 122,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.359,
+        "sentiment": 0.321
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "姜维",
+      "short": "姜维",
+      "key": "姜维",
+      "quote": "姜维 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "马岱",
+      "short": "马岱",
+      "key": "马岱",
+      "quote": "马岱 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

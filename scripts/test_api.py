@@ -18,9 +18,9 @@ import sys
 
 # ===================================================================
 # API 配置
-API_KEY="ab4b658d80fda2ac5a6b30bd4fe74de9.YOWE1nAL6kFN8Ivc"
-MODEL="glm-4.7"
-BASE_URL="https://open.bigmodel.cn/api/paas/v4"
+API_KEY=""
+MODEL="deepseek-chat"
+BASE_URL="https://api.deepseek.com/v1"
 # ===================================================================
 
 HEADERS = {
@@ -132,7 +132,7 @@ def test_specific_models():
     print("=" * 60)
 
     models = [
-        "Pro/zai-org/GLM-5.1",
+        "deepseek-chat",
         "deepseek-ai/DeepSeek-V4-Flash",
         "Pro/moonshotai/Kimi-K2.6",
         "Pro/MiniMaxAI/MiniMax-M2.5",

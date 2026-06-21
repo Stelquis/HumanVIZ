@@ -1,0 +1,320 @@
+{
+  "title": "五凤楼",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "02006049_五凤楼【六本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "武三思监斩，太乙山宝青老祖及黎山老母，将薛蛟及樊梨花救去。",
+  "performance_notes": "按此剧与《法场换子》故事完全相同，但人名等均异，故一并印存。因《法场换子》可与《双狮图》及《徐\n策跑城》等剧连串上演也。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 73,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四刀斧手": 1,
+        "薛丁山": 1,
+        "二刽子手": 1,
+        "薛猛": 1,
+        "武三思": 1,
+        "樊梨花": 1,
+        "黎山老母": 1
+      },
+      "links": [
+        {
+          "source": "四刀斧手",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "四刀斧手",
+          "target": "樊梨花",
+          "value": 1
+        },
+        {
+          "source": "四刀斧手",
+          "target": "武三思",
+          "value": 1
+        },
+        {
+          "source": "二刽子手",
+          "target": "四刀斧手",
+          "value": 1
+        },
+        {
+          "source": "四刀斧手",
+          "target": "黎山老母",
+          "value": 1
+        },
+        {
+          "source": "四刀斧手",
+          "target": "薛猛",
+          "value": 1
+        },
+        {
+          "source": "樊梨花",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "武三思",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "二刽子手",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "薛丁山",
+          "target": "黎山老母",
+          "value": 1
+        },
+        {
+          "source": "薛丁山",
+          "target": "薛猛",
+          "value": 1
+        },
+        {
+          "source": "樊梨花",
+          "target": "武三思",
+          "value": 1
+        },
+        {
+          "source": "二刽子手",
+          "target": "樊梨花",
+          "value": 1
+        },
+        {
+          "source": "樊梨花",
+          "target": "黎山老母",
+          "value": 1
+        },
+        {
+          "source": "樊梨花",
+          "target": "薛猛",
+          "value": 1
+        },
+        {
+          "source": "二刽子手",
+          "target": "武三思",
+          "value": 1
+        },
+        {
+          "source": "武三思",
+          "target": "黎山老母",
+          "value": 1
+        },
+        {
+          "source": "武三思",
+          "target": "薛猛",
+          "value": 1
+        },
+        {
+          "source": "二刽子手",
+          "target": "黎山老母",
+          "value": 1
+        },
+        {
+          "source": "二刽子手",
+          "target": "薛猛",
+          "value": 1
+        },
+        {
+          "source": "薛猛",
+          "target": "黎山老母",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "四刀斧手",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "闪开了！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "薛丁山",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "这其间才息我凌云壮志，",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "樊梨花",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "薛门中生薛刚祸根又起，",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "武三思",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "奉王旨监斩的罪臣叛逆，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "二刽子手",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊，请王爷升天。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黎山老母",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "梨花快上云端。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛猛",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "哎呀，夫人啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：7位角色，73行",
+      "firstLine": 1,
+      "lastLine": 73,
+      "numLines": 73,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.576,
+        "sentiment": 0.247
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛丁山",
+      "short": "薛丁",
+      "key": "薛丁山",
+      "quote": "薛丁山 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "樊梨花",
+      "short": "樊梨",
+      "key": "樊梨花",
+      "quote": "樊梨花 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "武三思",
+      "short": "武三",
+      "key": "武三思",
+      "quote": "武三思 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "四刀斧手",
+      "short": "四刀",
+      "key": "四刀斧手",
+      "quote": "四刀斧手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二刽子手",
+      "short": "二刽",
+      "key": "二刽子手",
+      "quote": "二刽子手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "薛猛",
+      "short": "薛猛",
+      "key": "薛猛",
+      "quote": "薛猛 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黎山老母",
+      "short": "黎山",
+      "key": "黎山老母",
+      "quote": "黎山老母 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

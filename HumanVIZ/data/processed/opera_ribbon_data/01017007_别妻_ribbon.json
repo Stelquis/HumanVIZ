@@ -1,0 +1,240 @@
+{
+  "title": "别妻",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01017007_别妻.json",
+  "source_folder": "01000000",
+  "plot_summary": "花大汉一莽男子，以当兵为业，娶妻王氏，向来夫妇和睦，所得口粮，即为赡养之费。一日，主将奉命出师，\n传令拔寨齐起，翌日即行，花大汉亦在从征之数。回家与王氏话别，王氏预备酒食以饯之，尽一夜之长，\n情话喁喁，竟有难舍难分之势。一转瞬而东方已白，殊恨天公之不做美。王氏之情，诚长矣；花大汉之气，\n诚短矣。花大汉见王氏年轻貌美，深恐离家后，为浪蝶游蜂所恣采，故于临行时，叮嘱再三，休惹旁人笑话。\n奈王氏言虽在耳，却嫌深闺寂寞，已思别抱琵琶，妇女之水性杨花，于此可见。呜呼！情长者，别有用情，\n气短者，无所出气。枥老谓妇女之情，气之阶也，实祸之媒也，人盍慎旃，明知此言拂逆舆情，固执己见。\n必有嗤之以鼻者，然而枥老不计也。",
+  "performance_notes": "目中有妓女，而心中无妓女者，道学之中有其人。目中有妻子，而心中无妻子者，世界之上无其人。何以故？\n妓女，玩好也；妻子，伦常也，不可相提而并论。古今来儿女情长，英雄气短，其事实，其情节，见于简\n编者，已难以屈指计。此情长气短二句，实为有经济有学问有见识者所论定。盖天赋之性质如是，不然似邻\n于矫激，或者大圣大贤，能造寡欲养心之绝诣，庶几出此藩篱。然当今之世，孰为圣，孰为贤，实未之见闻，\n亦无怪乎剧本中之花大汉也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 126,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "花大汉": 1,
+        "老二": 1,
+        "王氏": 1
+      },
+      "links": [
+        {
+          "source": "王氏",
+          "target": "花大汉",
+          "value": 1
+        },
+        {
+          "source": "老二",
+          "target": "花大汉",
+          "value": 1
+        },
+        {
+          "source": "王氏",
+          "target": "老二",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.17,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "老二": 1,
+        "王氏": 1
+      },
+      "links": [
+        {
+          "source": "王氏",
+          "target": "老二",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.149,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王氏": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "花大汉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "咳。",
+          "rating": -0.111,
+          "role": "丑"
+        },
+        {
+          "name": "王氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "怕到黄昏，怕到黄昏，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "老二",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "旁人笑，旁人笑，大老爷已放了起身炮。我好笑。",
+          "rating": 1.0,
+          "role": "付"
+        }
+      ],
+      "summary": "第1场：3位角色，126行",
+      "firstLine": 1,
+      "lastLine": 126,
+      "numLines": 126,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.316,
+        "sentiment": 0.064
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "老二",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我说这个嫂子。",
+          "rating": 0.0,
+          "role": "付"
+        },
+        {
+          "name": "王氏",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "叔叔为何去了又转来？",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.651,
+        "conflict": 0.833,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "冤家你去了，",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.545,
+        "conflict": 0.0,
+        "sentiment": -0.36
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王氏",
+      "short": "王氏",
+      "key": "王氏",
+      "quote": "王氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "花大汉",
+      "short": "花大",
+      "key": "花大汉",
+      "quote": "花大汉 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "老二",
+      "short": "老二",
+      "key": "老二",
+      "quote": "老二 — 付",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 付",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

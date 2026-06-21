@@ -1,0 +1,739 @@
+{
+  "title": "功臣泪",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 12,
+  "num_locations": 1,
+  "source_file": "03091001_功臣泪.json",
+  "source_folder": "03000000",
+  "plot_summary": "越王勾践灭吴后，范蠡引退，并致书文种，劝其亦辞官他去。文种不听，并劝勾践封赏灭吴功臣，被勾践当\n殿指责。文种托病不朝。勾践探文种之病，以剑遗府内，意令其自裁，文种遂自刎死。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 135,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.401,
+      "importance": 0.982,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "勾践": 1,
+        "院子": 1,
+        "计倪": 1,
+        "诸稽郢": 1,
+        "差人": 1,
+        "文种": 1,
+        "曳庸": 1
+      },
+      "links": [
+        {
+          "source": "差人",
+          "target": "文种",
+          "value": 1
+        },
+        {
+          "source": "文种",
+          "target": "院子",
+          "value": 2
+        },
+        {
+          "source": "差人",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "文种",
+          "target": "计倪",
+          "value": 2
+        },
+        {
+          "source": "文种",
+          "target": "诸稽郢",
+          "value": 2
+        },
+        {
+          "source": "文种",
+          "target": "曳庸",
+          "value": 2
+        },
+        {
+          "source": "勾践",
+          "target": "文种",
+          "value": 1
+        },
+        {
+          "source": "计倪",
+          "target": "诸稽郢",
+          "value": 2
+        },
+        {
+          "source": "曳庸",
+          "target": "计倪",
+          "value": 2
+        },
+        {
+          "source": "勾践",
+          "target": "计倪",
+          "value": 1
+        },
+        {
+          "source": "曳庸",
+          "target": "诸稽郢",
+          "value": 2
+        },
+        {
+          "source": "勾践",
+          "target": "诸稽郢",
+          "value": 1
+        },
+        {
+          "source": "勾践",
+          "target": "曳庸",
+          "value": 1
+        },
+        {
+          "source": "曳庸",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "诸稽郢",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "计倪",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 140,
+      "summary": "第四场；第五场",
+      "conflict": 0.12,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "勾践": 1,
+        "庞须弥": 1,
+        "王妃": 1,
+        "院子": 1,
+        "大太": 1,
+        "勾践哼": 1,
+        "文种": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "勾践",
+          "target": "王妃",
+          "value": 1
+        },
+        {
+          "source": "勾践",
+          "target": "大太",
+          "value": 1
+        },
+        {
+          "source": "勾践",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "勾践",
+          "target": "院子",
+          "value": 2
+        },
+        {
+          "source": "勾践",
+          "target": "勾践哼",
+          "value": 1
+        },
+        {
+          "source": "勾践",
+          "target": "庞须弥",
+          "value": 1
+        },
+        {
+          "source": "勾践",
+          "target": "文种",
+          "value": 2
+        },
+        {
+          "source": "大太",
+          "target": "王妃",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "王妃",
+          "value": 1
+        },
+        {
+          "source": "王妃",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "勾践哼",
+          "target": "王妃",
+          "value": 1
+        },
+        {
+          "source": "庞须弥",
+          "target": "王妃",
+          "value": 1
+        },
+        {
+          "source": "文种",
+          "target": "王妃",
+          "value": 1
+        },
+        {
+          "source": "大太",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "大太",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "勾践哼",
+          "target": "大太",
+          "value": 1
+        },
+        {
+          "source": "大太",
+          "target": "庞须弥",
+          "value": 1
+        },
+        {
+          "source": "大太",
+          "target": "文种",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "勾践哼",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "庞须弥",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "文种",
+          "value": 1
+        },
+        {
+          "source": "勾践哼",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "庞须弥",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "文种",
+          "target": "院子",
+          "value": 2
+        },
+        {
+          "source": "勾践哼",
+          "target": "庞须弥",
+          "value": 1
+        },
+        {
+          "source": "勾践哼",
+          "target": "文种",
+          "value": 1
+        },
+        {
+          "source": "庞须弥",
+          "target": "文种",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "文种",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "相国怀去志，教人费愁思。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "差人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "门上哪位在？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "院子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，48行",
+      "firstLine": 1,
+      "lastLine": 48,
+      "numLines": 48,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.605,
+        "conflict": 0.682,
+        "sentiment": 0.371
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "文种",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "脱去戎装换锦袍，",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "计倪",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "心机费尽枉徒劳。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "诸稽郢",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "二十年前大仇报，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曳庸",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "汗马功劳一旦抛。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "勾践",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "独霸东方，展雄威，拓土开疆。",
+          "rating": -0.167,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：5位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.803,
+        "conflict": 0.412,
+        "sentiment": 0.085
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "文种",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "回府来不由我心中纳闷，",
+          "rating": 0.667,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "众位大人到！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曳庸",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "岂敢！上大夫，适才金殿以上，观大王面带骄横，欺侮群臣，把这灭吴的功劳，",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "诸稽郢",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "依末将之见，到了明天，众大臣一齐上殿，请大王查明功劳大小，即刻行赏如",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "计倪",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "众位大人！既然大王妒忌群臣，不如挂冠封印，各自四散去吧！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.587,
+        "conflict": 0.471,
+        "sentiment": 0.486
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "勾践",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "二十年来仇恨消，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "王妃",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "民安国泰在今朝。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大太",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "监启奏大王：大将计倪、曳庸等，连同许多文武大臣，疯魔的疯魔，离朝的离",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "大太监",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "院子",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "文大夫身得重病，不能进宫。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "勾践哼",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "哼！他也病了！宣掌殿官庞须弥进宫！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "庞须弥",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "忽听得大王宣召，进宫去细问分晓。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "文种",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：8位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.787,
+        "conflict": 0.674,
+        "sentiment": -0.034
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "文种",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "两国不和起斗争，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "禀爷：大王驾到！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "勾践",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "半礼何妨，坐了叙话。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：3位角色，100行",
+      "firstLine": 1,
+      "lastLine": 100,
+      "numLines": 100,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.918,
+        "conflict": 0.745,
+        "sentiment": 0.086
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "文种",
+      "short": "文种",
+      "key": "文种",
+      "quote": "文种 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "勾践",
+      "short": "勾践",
+      "key": "勾践",
+      "quote": "勾践 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "庞须弥",
+      "short": "庞须",
+      "key": "庞须弥",
+      "quote": "庞须弥 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王妃",
+      "short": "王妃",
+      "key": "王妃",
+      "quote": "王妃 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太",
+      "short": "大太",
+      "key": "大太",
+      "quote": "大太 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "计倪",
+      "short": "计倪",
+      "key": "计倪",
+      "quote": "计倪 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "诸稽郢",
+      "short": "诸稽",
+      "key": "诸稽郢",
+      "quote": "诸稽郢 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "勾践哼",
+      "short": "勾践",
+      "key": "勾践哼",
+      "quote": "勾践哼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "差人",
+      "short": "差人",
+      "key": "差人",
+      "quote": "差人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "曳庸",
+      "short": "曳庸",
+      "key": "曳庸",
+      "quote": "曳庸 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

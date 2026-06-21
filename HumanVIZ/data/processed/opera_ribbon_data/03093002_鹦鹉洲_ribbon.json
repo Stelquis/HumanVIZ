@@ -1,0 +1,578 @@
+{
+  "title": "鹦鹉洲",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 9,
+  "num_locations": 1,
+  "source_file": "03093002_鹦鹉洲.json",
+  "source_folder": "03000000",
+  "plot_summary": "祢衡击鼓骂曹操后，曹操欲杀之，又恐负害贤之名，因命祢衡去荆州投刘表，实欲借刘表之手杀之。刘表亦\n恐负害贤之名，将祢衡荐与部将黄祖。祢衡在席前对黄祖加以讥讽，黄祖怒杀之，葬于鹦鹉洲。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 25,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.341,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "刘表": 1,
+        "祢衡": 1
+      },
+      "links": [
+        {
+          "source": "刘表",
+          "target": "祢衡",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 79,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "祢衡": 1,
+        "黄祖": 1,
+        "刘表": 1,
+        "蔡夫人": 1,
+        "中军": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "刘表",
+          "value": 1
+        },
+        {
+          "source": "刘表",
+          "target": "蔡夫人",
+          "value": 1
+        },
+        {
+          "source": "刘表",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "刘表",
+          "target": "黄祖",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "蔡夫人",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "黄祖",
+          "value": 1
+        },
+        {
+          "source": "祢衡",
+          "target": "蔡夫人",
+          "value": 1
+        },
+        {
+          "source": "蔡夫人",
+          "target": "黄祖",
+          "value": 1
+        },
+        {
+          "source": "祢衡",
+          "target": "黄祖",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 116,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "报子": 1,
+        "祢衡": 1,
+        "黄祖": 1,
+        "黄射": 1,
+        "刘表": 1,
+        "四下手": 1,
+        "中军": 1,
+        "二下手": 1
+      },
+      "links": [
+        {
+          "source": "报子",
+          "target": "黄祖",
+          "value": 1
+        },
+        {
+          "source": "祢衡",
+          "target": "黄祖",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "黄祖",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "黄祖",
+          "value": 1
+        },
+        {
+          "source": "黄射",
+          "target": "黄祖",
+          "value": 1
+        },
+        {
+          "source": "二下手",
+          "target": "黄祖",
+          "value": 1
+        },
+        {
+          "source": "刘表",
+          "target": "黄祖",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "黄射",
+          "value": 1
+        },
+        {
+          "source": "二下手",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "刘表",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "祢衡",
+          "target": "黄射",
+          "value": 1
+        },
+        {
+          "source": "二下手",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "刘表",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "四下手",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "黄射",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "二下手",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "刘表",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "黄射",
+          "value": 1
+        },
+        {
+          "source": "二下手",
+          "target": "四下手",
+          "value": 1
+        },
+        {
+          "source": "刘表",
+          "target": "四下手",
+          "value": 1
+        },
+        {
+          "source": "二下手",
+          "target": "黄射",
+          "value": 1
+        },
+        {
+          "source": "刘表",
+          "target": "黄射",
+          "value": 1
+        },
+        {
+          "source": "二下手",
+          "target": "刘表",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "祢衡",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "身不逢尧舜主明珠投暗，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘表",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：2位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.686,
+        "conflict": 1.0,
+        "sentiment": 0.141
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘表",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "荆襄八郡地，文武一身尊！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "中军",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蔡夫人",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "忽听主公唤，移步到堂前。",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "祢衡",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "黄祖",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：5位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.516,
+        "sentiment": 0.036
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "黄祖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "威震东江，统貔貅，谁人敢当！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "报子",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "祢衡",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "黄将军！",
+          "rating": 0.714,
+          "role": "老生"
+        },
+        {
+          "name": "中军",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四下手",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黄射",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "听说要斩祢先生，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "二下手",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "献头！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘表",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：8位角色，116行",
+      "firstLine": 1,
+      "lastLine": 116,
+      "numLines": 116,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.365,
+        "sentiment": 0.444
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "祢衡",
+      "short": "祢衡",
+      "key": "祢衡",
+      "quote": "祢衡 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘表",
+      "short": "刘表",
+      "key": "刘表",
+      "quote": "刘表 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "黄祖",
+      "short": "黄祖",
+      "key": "黄祖",
+      "quote": "黄祖 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "蔡夫人",
+      "short": "蔡夫",
+      "key": "蔡夫人",
+      "quote": "蔡夫人 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄射",
+      "short": "黄射",
+      "key": "黄射",
+      "quote": "黄射 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二下手",
+      "short": "二下",
+      "key": "二下手",
+      "quote": "二下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "title": "查关",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "03013002_查关.json",
+  "source_folder": "03000000",
+  "plot_summary": "汉元帝太子刘唐建出征战败，回朝求援。行至尤家关，天晚闭城，不能通过，遂在关前歇睡。守关尤都督之\n女尤春风携从人查关，见刘唐建人品非凡，乃窃取刘唐建之枪马，唤入盘查。刘唐建隐语瞒哄，被尤春风识\n破，两相爱悦，约订终身。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.085,
+      "locations": {
+        "奉旨出朝堂": 1
+      },
+      "characters": {
+        "刘唐建": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 31,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.292,
+      "locations": {
+        "奉旨出朝堂": 1
+      },
+      "characters": {
+        "丑丫头": 1,
+        "尤春风": 1,
+        "苏利燕": 1
+      },
+      "links": [
+        {
+          "source": "丑丫头",
+          "target": "尤春风",
+          "value": 1
+        },
+        {
+          "source": "尤春风",
+          "target": "苏利燕",
+          "value": 1
+        },
+        {
+          "source": "丑丫头",
+          "target": "苏利燕",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 279,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "沉沉到阳台": 1
+      },
+      "characters": {
+        "尤春风": 1,
+        "刘唐建": 1,
+        "苏利燕": 1
+      },
+      "links": [
+        {
+          "source": "刘唐建",
+          "target": "尤春风",
+          "value": 1
+        },
+        {
+          "source": "刘唐建",
+          "target": "苏利燕",
+          "value": 1
+        },
+        {
+          "source": "尤春风",
+          "target": "苏利燕",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "奉旨出朝堂",
+      "characters": [
+        {
+          "name": "刘唐建",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "休赶，休赶！",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.525,
+        "conflict": 1.0,
+        "sentiment": -0.387
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "奉旨出朝堂",
+      "characters": [
+        {
+          "name": "尤春风",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "头打三股辫，两耳坠金环。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "丑丫头",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "苏利燕",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "上河流水淅漓漓漓漓！下河流水哗啦啦啦啦！二人盖着个破被窝。动也不敢动，",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：3位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.654,
+        "conflict": 0.27,
+        "sentiment": 0.79
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "沉沉到阳台",
+      "characters": [
+        {
+          "name": "刘唐建",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "扬鞭催马往前进，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "尤春风",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "急急走来急急行。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "苏利燕",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "苏利燕上前回禀一声。",
+          "rating": -0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第三场：3位角色，279行",
+      "firstLine": 1,
+      "lastLine": 279,
+      "numLines": 279,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.089,
+        "sentiment": -0.082
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "尤春风",
+      "short": "尤春",
+      "key": "尤春风",
+      "quote": "尤春风 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "苏利燕",
+      "short": "苏利",
+      "key": "苏利燕",
+      "quote": "苏利燕 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "刘唐建",
+      "short": "刘唐",
+      "key": "刘唐建",
+      "quote": "刘唐建 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "丑丫头",
+      "short": "丑丫",
+      "key": "丑丫头",
+      "quote": "丑丫头 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "奉旨出朝堂",
+      "key": "奉旨出朝堂",
+      "quote": "场景发生在奉旨出朝堂"
+    },
+    {
+      "name": "沉沉到阳台",
+      "key": "沉沉到阳台",
+      "quote": "场景发生在沉沉到阳台"
+    }
+  ]
+}

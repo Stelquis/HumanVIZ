@@ -1,0 +1,359 @@
+{
+  "title": "游园惊梦",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "04026001_游园惊梦.json",
+  "source_folder": "04000000",
+  "plot_summary": "被爹娘姣养在深闺里的杜丽娘，背着父母和老师，与侍女春香同到南安府的后花园去春游。满园春色，都付\n于断井颓垣，使这位知书守礼的官家小姐顿起伤春之感。杜丽娘游倦归房，朦胧睡去，与一个手持柳枝、口\n称到处寻她的少年书生柳梦梅在园中相会。后花园的花神们并出来保护他们。两人分别后，适杜母来临，见\n女儿昼寝神思困倦；把她叫醒，并嘱咐她：“后花园冷静，以后少去闲行。”",
+  "performance_notes": "《游园惊梦》是明朝伟大的戏剧作家汤显祖的名著《牡丹亭》中的一出。剧情紧接着《春香闹学》（见《京\n剧丛刊》第五集）。\n按《牡丹亭》故事，杜丽娘以后终因相思成病而死，葬在后花园梅树之下。柳梦梅拾得杜丽娘的自绘像，亦\n对画中人一往情深，杜丽娘的魂灵竟来和他相会。最后，杜丽娘起死回生；这一对痴情的少年男女终于成为\n夫妇。\n整理本是根据梅兰芳先生的最近演出本，由许源来先生与本院（中国戏曲研究院）许姬传、何异旭协助梅先\n生整理的。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 153,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.331,
+      "importance": 1.0,
+      "locations": {
+        "无奈高堂": 3
+      },
+      "characters": {
+        "大花神": 1,
+        "众花神": 1,
+        "柳梦梅": 1,
+        "杜丽娘": 1,
+        "春香": 1
+      },
+      "links": [
+        {
+          "source": "春香",
+          "target": "杜丽娘",
+          "value": 1
+        },
+        {
+          "source": "杜丽娘",
+          "target": "柳梦梅",
+          "value": 1
+        },
+        {
+          "source": "众花神",
+          "target": "大花神",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 46,
+      "summary": "第4场；第5场",
+      "conflict": 0.116,
+      "importance": 0.462,
+      "locations": {
+        "无奈高堂": 2
+      },
+      "characters": {
+        "杜母": 1,
+        "杜丽娘": 1,
+        "春香": 1,
+        "柳梦梅": 1
+      },
+      "links": [
+        {
+          "source": "杜丽娘",
+          "target": "柳梦梅",
+          "value": 1
+        },
+        {
+          "source": "杜丽娘",
+          "target": "杜母",
+          "value": 1
+        },
+        {
+          "source": "杜母",
+          "target": "柳梦梅",
+          "value": 1
+        },
+        {
+          "source": "春香",
+          "target": "杜丽娘",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "无奈高堂",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "梦回莺啭，乱煞年光遍，",
+          "rating": 1.0,
+          "role": "正旦"
+        },
+        {
+          "name": "春香",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "炷尽沉烟，抛残绣线，",
+          "rating": 0.667,
+          "role": "帖旦"
+        }
+      ],
+      "summary": "第1场：2位角色，82行",
+      "firstLine": 1,
+      "lastLine": 82,
+      "numLines": 82,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.82,
+        "conflict": 0.209,
+        "sentiment": 0.597
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "无奈高堂",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "默地游春转，小试宜春面。春啊春，得和你两留连，春去如何遣！",
+          "rating": 0.333,
+          "role": "正旦"
+        },
+        {
+          "name": "柳梦梅",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "姐姐！小生哪一处不寻到，却在这里！恰好在花园内，折得垂柳半枝；姐姐你",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：2位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.754,
+        "conflict": 0.8,
+        "sentiment": 0.565
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "无奈高堂",
+      "characters": [
+        {
+          "name": "大花神",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "催花御史惜花天，",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "众花神",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "娇红嫩白，竞向东风次第开，",
+          "rating": 0.5,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：2位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.42,
+        "conflict": 0.0,
+        "sentiment": 0.266
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "无奈高堂",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "这一霎天留人便，草藉花眠。",
+          "rating": 0.0,
+          "role": "正旦"
+        },
+        {
+          "name": "柳梦梅",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "见了你紧相偎，慢厮连。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "杜母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "夫婿坐黄堂，娇娃立绣窗。怪她裙衩上，花鸟绣双双。",
+          "rating": 1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第4场：3位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.695,
+        "conflict": 0.526,
+        "sentiment": 0.289
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "无奈高堂",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "娘啊，你教孩儿看书，不知哪一种书，才消得我的闷怀哟！",
+          "rating": 0.0,
+          "role": "正旦"
+        },
+        {
+          "name": "春香",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "晚妆销粉印，春润费香篝。",
+          "rating": 0.0,
+          "role": "帖旦"
+        }
+      ],
+      "summary": "第5场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.618,
+        "conflict": 0.952,
+        "sentiment": 0.173
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杜丽娘",
+      "short": "杜丽",
+      "key": "杜丽娘",
+      "quote": "杜丽娘 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "春香",
+      "short": "春香",
+      "key": "春香",
+      "quote": "春香 — 帖旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 帖旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "柳梦梅",
+      "short": "柳梦",
+      "key": "柳梦梅",
+      "quote": "柳梦梅 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杜母",
+      "short": "杜母",
+      "key": "杜母",
+      "quote": "杜母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "大花神",
+      "short": "大花",
+      "key": "大花神",
+      "quote": "大花神 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众花神",
+      "short": "众花",
+      "key": "众花神",
+      "quote": "众花神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "无奈高堂",
+      "key": "无奈高堂",
+      "quote": "场景发生在无奈高堂"
+    }
+  ]
+}

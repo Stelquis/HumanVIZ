@@ -1,0 +1,332 @@
+{
+  "title": "小显",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 7,
+  "num_locations": 3,
+  "source_file": "03041006_小显.json",
+  "source_folder": "03000000",
+  "plot_summary": "罗成死后，李世民等往祭之。罗成显魂诉苦，并托后事。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 24,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.552,
+      "locations": {
+        "罗成上高台": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "四鬼卒": 1,
+        "四鬼子": 1
+      },
+      "links": [
+        {
+          "source": "四鬼卒",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "四鬼子",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "四鬼卒",
+          "target": "四鬼子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 63,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "（场设灵堂": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "程咬金": 1,
+        "李世民": 1,
+        "四龙套": 1,
+        "罗妻": 1
+      },
+      "links": [
+        {
+          "source": "四龙套",
+          "target": "罗妻",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "罗妻",
+          "value": 1
+        },
+        {
+          "source": "程咬金",
+          "target": "罗妻",
+          "value": 1
+        },
+        {
+          "source": "罗妻",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "程咬金",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "罗成上高台",
+      "characters": [
+        {
+          "name": "罗成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "豪气冲霄，英风飘渺，魂魄绕，胆战心摇，何日将仇报！",
+          "rating": -0.167,
+          "role": "小生"
+        },
+        {
+          "name": "四鬼卒",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四鬼子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "啊！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.783,
+        "conflict": 0.952,
+        "sentiment": 0.089
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "（场设灵堂",
+      "characters": [
+        {
+          "name": "罗妻",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "儿夫含冤死，母子茹悲辛。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "二主驾到！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李世民",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "王兄为国身亡，礼当如此。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "罗成",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "天下荒荒无真主，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：5位角色，63行",
+      "firstLine": 1,
+      "lastLine": 63,
+      "numLines": 63,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.917,
+        "conflict": 0.583,
+        "sentiment": -0.028
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "罗成",
+      "short": "罗成",
+      "key": "罗成",
+      "quote": "罗成 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李世民",
+      "short": "李世",
+      "key": "李世民",
+      "quote": "李世民 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四鬼子",
+      "short": "四鬼",
+      "key": "四鬼子",
+      "quote": "四鬼子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "程咬金",
+      "short": "程咬",
+      "key": "程咬金",
+      "quote": "程咬金 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四鬼卒",
+      "short": "四鬼",
+      "key": "四鬼卒",
+      "quote": "四鬼卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "罗妻",
+      "short": "罗妻",
+      "key": "罗妻",
+      "quote": "罗妻 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "罗成上高台",
+      "key": "罗成上高台",
+      "quote": "场景发生在罗成上高台"
+    },
+    {
+      "name": "（场设灵堂",
+      "key": "（场设灵堂",
+      "quote": "场景发生在（场设灵堂"
+    },
+    {
+      "name": "打扫灵堂",
+      "key": "打扫灵堂",
+      "quote": "场景发生在打扫灵堂"
+    }
+  ]
+}

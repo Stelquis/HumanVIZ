@@ -1,0 +1,382 @@
+{
+  "title": "高平关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 4,
+  "source_file": "01012003_高平关.json",
+  "source_folder": "01000000",
+  "plot_summary": "五代末高行周，镇守高平关，兼有怀德、怀良二子，勇武异常，随同守护，远近颇畏惮之。后周柴荣，屡攻\n不能克。柴荣之军师苗训，知赵匡胤父与高行周有亲谊，请柴荣下其家属于狱，逼令赵匡胤往取高行周之头，\n以赎百口。高行周素善观天文，是日夜观星象，见己星为客星所掩，知赵氏必兴。明日忽报赵匡胤至，高\n行周大惊，知必有异，令众将迎之入。赵匡胤哭诉来由，高行周闻之，略无难色，但问赵匡胤何以报德，赵\n匡胤立书笔证，许厚封其子怀德、怀良官，高行周嫌报施太轻，怒掷赵匡胤所书证据于地，谓：高与赵本世\n戚，必以汝妹为吾媳，聘吾女为汝妻方可，否则惟坐视而已。赵匡胤不得已，俱允之。高行周乃公服自刎，\n赵匡胤遂割取其头，归报柴荣，于是高平乃为后周有。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 127,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "了白虎大堂": 1
+      },
+      "characters": {
+        "高怀德": 1,
+        "四将": 1,
+        "高行周": 1,
+        "龙套": 1,
+        "高怀良": 1
+      },
+      "links": [
+        {
+          "source": "四将",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "高行周",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "高怀良",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "高怀德",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "高行周",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "高怀良",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "高怀良",
+          "target": "高行周",
+          "value": 1
+        },
+        {
+          "source": "高怀德",
+          "target": "高行周",
+          "value": 1
+        },
+        {
+          "source": "高怀德",
+          "target": "高怀良",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 38,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.308,
+      "locations": {
+        "怀良同上城": 1
+      },
+      "characters": {
+        "高怀德": 1,
+        "高怀良": 1,
+        "赵匡胤": 1
+      },
+      "links": [
+        {
+          "source": "赵匡胤",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "高怀德",
+          "target": "高怀良",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "高怀良",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 205,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "白虎大堂": 1
+      },
+      "characters": {
+        "高行周": 1,
+        "赵匡胤": 1
+      },
+      "links": [
+        {
+          "source": "赵匡胤",
+          "target": "高行周",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "了白虎大堂",
+      "characters": [
+        {
+          "name": "龙套",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "众将进帐。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四将",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "高行周",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "奉命镇守，扫灭全寇，名九州，官封王侯，爵禄皇恩厚。",
+          "rating": 0.4,
+          "role": "净"
+        },
+        {
+          "name": "高怀良",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "高怀德",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "正是怀德。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：5位角色，127行",
+      "firstLine": 1,
+      "lastLine": 127,
+      "numLines": 127,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.321,
+        "sentiment": 0.403
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "怀良同上城",
+      "characters": [
+        {
+          "name": "高怀德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "怀德拜了高平印，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "不分昼夜离淮庆，",
+          "rating": -1.0,
+          "role": "红生"
+        },
+        {
+          "name": "高怀良",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "且慢。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.615,
+        "conflict": 0.339,
+        "sentiment": 0.063
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "白虎大堂",
+      "characters": [
+        {
+          "name": "高行周",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "昨晚一梦大不祥，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "过了头关到二关，",
+          "rating": 0.333,
+          "role": "红生"
+        }
+      ],
+      "summary": "第三场：2位角色，205行",
+      "firstLine": 1,
+      "lastLine": 205,
+      "numLines": 205,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.321,
+        "sentiment": 0.393
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "高行周",
+      "short": "高行",
+      "key": "高行周",
+      "quote": "高行周 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "高怀德",
+      "short": "高怀",
+      "key": "高怀德",
+      "quote": "高怀德 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "高怀良",
+      "short": "高怀",
+      "key": "高怀良",
+      "quote": "高怀良 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四将",
+      "short": "四将",
+      "key": "四将",
+      "quote": "四将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙套",
+      "short": "龙套",
+      "key": "龙套",
+      "quote": "龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "了白虎大堂",
+      "key": "了白虎大堂",
+      "quote": "场景发生在了白虎大堂"
+    },
+    {
+      "name": "白虎大堂",
+      "key": "白虎大堂",
+      "quote": "场景发生在白虎大堂"
+    },
+    {
+      "name": "在白虎大堂",
+      "key": "在白虎大堂",
+      "quote": "场景发生在在白虎大堂"
+    },
+    {
+      "name": "怀良同上城",
+      "key": "怀良同上城",
+      "quote": "场景发生在怀良同上城"
+    }
+  ]
+}

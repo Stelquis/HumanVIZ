@@ -1,0 +1,366 @@
+{
+  "title": "观音院",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "02006026_观音院.json",
+  "source_folder": "02000000",
+  "plot_summary": "唐僧自离长安，往西天取经，见天色已晚，乃令孙悟空交流，借宿观音禅院。住持了然，想见唐僧所带宝贝，\n唐僧乃将锦襕袈裟令他看观。了然认为系稀世珍宝，前所未见，求借看一夜，以便仔细观赏。唐僧慨然应\n允。但了然信心无足，见锦襕袈裟遂起不良之意，邀集众徒，商讨永久保有之法，遂决定将袈裟放于韦陀龛\n内，待三更时分，将唐僧等所在之房点火，将唐僧烧死，即可永久保有袈裟。但谈话之时，被孙悟空听见，\n乃将火神召来，用火罩将唐僧等所住房屋罩住。唐僧等遂均得安睡无恙。",
+  "performance_notes": "按此剧第从《西游记》第十六回“观音院僧谋宝贝”一节编来，与原书尚无大出入。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.347,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙悟空": 1,
+        "唐僧": 1
+      },
+      "links": [
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.143,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "了然": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 123,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙悟空": 1,
+        "唐僧": 1,
+        "众僧人": 1,
+        "众神": 1,
+        "了然": 1,
+        "火神": 1
+      },
+      "links": [
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "了然",
+          "target": "唐僧",
+          "value": 1
+        },
+        {
+          "source": "众僧人",
+          "target": "唐僧",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "火神",
+          "value": 1
+        },
+        {
+          "source": "众神",
+          "target": "唐僧",
+          "value": 1
+        },
+        {
+          "source": "了然",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "众僧人",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "火神",
+          "value": 1
+        },
+        {
+          "source": "众神",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "了然",
+          "target": "众僧人",
+          "value": 1
+        },
+        {
+          "source": "了然",
+          "target": "火神",
+          "value": 1
+        },
+        {
+          "source": "了然",
+          "target": "众神",
+          "value": 1
+        },
+        {
+          "source": "众僧人",
+          "target": "火神",
+          "value": 1
+        },
+        {
+          "source": "众僧人",
+          "target": "众神",
+          "value": 1
+        },
+        {
+          "source": "众神",
+          "target": "火神",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "有。",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "奉明君九重恩诏，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.569,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "了然",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "绝顶茅庵老此生，寒云枯木伴经行。世人哪得知幽径，遥闻青峰礼磬声。",
+          "rating": 0.5,
+          "role": "外"
+        }
+      ],
+      "summary": "第二场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.579,
+        "conflict": 0.0,
+        "sentiment": 0.48
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "唐僧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "巍石参通乌道，空山竟有僧家。禅林定在深处，涧水流来落花。",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "有。",
+          "rating": -0.333,
+          "role": "武生"
+        },
+        {
+          "name": "了然",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来了。",
+          "rating": -0.5,
+          "role": "外"
+        },
+        {
+          "name": "众僧人",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "来咧，来咧。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "火神",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "三眼狰狞相轩昂，金鞭举处鬼神寒。火轮展破红莲地，勅命南方火德权。",
+          "rating": 0.2,
+          "role": ""
+        },
+        {
+          "name": "众神",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "领法旨！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：6位角色，123行",
+      "firstLine": 1,
+      "lastLine": 123,
+      "numLines": 123,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.336,
+        "sentiment": 0.12
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "了然",
+      "short": "了然",
+      "key": "了然",
+      "quote": "了然 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "唐僧",
+      "short": "唐僧",
+      "key": "唐僧",
+      "quote": "唐僧 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众僧人",
+      "short": "众僧",
+      "key": "众僧人",
+      "quote": "众僧人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众神",
+      "short": "众神",
+      "key": "众神",
+      "quote": "众神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "火神",
+      "short": "火神",
+      "key": "火神",
+      "quote": "火神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "title": "叹皇陵",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "01006006_叹皇陵.json",
+  "source_folder": "01000000",
+  "plot_summary": "徐延昭、杨波为李良篡位、李后昏惑不悟，在殿与彼等争执之后，退回朝房，无计可展。徐延昭至深夜，乃\n独至先帝灵前，哭祷乞灵，思以孤忠一片，诉之冥冥，以冀仗先帝式凭之灵，佑令李后回悟。虽稍涉迷信，\n然大臣忧国之深，实为不可及。徐延昭正伏地痛诉时，忽闻有人马声自远而至，不觉大惊。盖恐李良已知之，\n而乘间来劫己也。及近，见系杨波，惊始稍定。及询情由，始知杨波亦为保护皇灵之故，率同子侄众将等\n偕来。徐延昭乃大喜，遂向诸将抚慰奖励，以忠贞相勉。诸人闻言，无不感激涕下。",
+  "performance_notes": "此一场在《大保国》之后、《二进宫》之前，仍以生、净对唱见工，然净尤较生为重。净角之唱工，当别具\n一种悲苍凄婉之声调，方为相称。不能仍以叱咤风云、喑哑山岳为能事也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 22,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.557,
+      "locations": {
+        "心谋篡龙楼": 1
+      },
+      "characters": {
+        "徐延昭": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 57,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "心谋篡龙楼": 1
+      },
+      "characters": {
+        "徐延昭": 1,
+        "杨波": 1,
+        "赵飞": 1,
+        "四将": 1
+      },
+      "links": [
+        {
+          "source": "徐延昭",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "杨波",
+          "target": "赵飞",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "徐延昭",
+          "value": 1
+        },
+        {
+          "source": "徐延昭",
+          "target": "赵飞",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "赵飞",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "心谋篡龙楼",
+      "characters": [
+        {
+          "name": "徐延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "掌灯！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：1位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.751,
+        "conflict": 0.0,
+        "sentiment": 0.234
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "心谋篡龙楼",
+      "characters": [
+        {
+          "name": "杨波",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "众家儿郎忙随定，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "徐延昭",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哽！胆大杨波，带领众家孩儿，敢是夺取皇陵？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四将",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵飞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "千岁，还有我呢？",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：4位角色，57行",
+      "firstLine": 1,
+      "lastLine": 57,
+      "numLines": 57,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.0,
+        "sentiment": 0.309
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐延昭",
+      "short": "徐延",
+      "key": "徐延昭",
+      "quote": "徐延昭 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨波",
+      "short": "杨波",
+      "key": "杨波",
+      "quote": "杨波 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵飞",
+      "short": "赵飞",
+      "key": "赵飞",
+      "quote": "赵飞 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "四将",
+      "short": "四将",
+      "key": "四将",
+      "quote": "四将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "心谋篡龙楼",
+      "key": "心谋篡龙楼",
+      "quote": "场景发生在心谋篡龙楼"
+    },
+    {
+      "name": "张推让龙楼",
+      "key": "张推让龙楼",
+      "quote": "场景发生在张推让龙楼"
+    }
+  ]
+}

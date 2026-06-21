@@ -1,0 +1,494 @@
+{
+  "title": "洗耳记",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 8,
+  "num_locations": 2,
+  "source_file": "70005102_洗耳记.json",
+  "source_folder": "70005000",
+  "plot_summary": "唐尧因子不贤，欲传位于布衣许由。许由讽帝位如同囚牢，愤然而去；以帝浊言污耳，去小溪涤洗耳垢。恰\n友人巢父饮牛下流，闻知此事，怒斥许由浊水污牛，顿足牵牛而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 158,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.219,
+      "importance": 1.0,
+      "locations": {
+        "圣上登殿": 1,
+        "从后门": 2
+      },
+      "characters": {
+        "乙岳": 1,
+        "丁岳": 1,
+        "尧帝": 1,
+        "甲岳": 1,
+        "卫士": 1,
+        "许由": 1,
+        "丙岳": 1
+      },
+      "links": [
+        {
+          "source": "乙岳",
+          "target": "甲岳",
+          "value": 1
+        },
+        {
+          "source": "丙岳",
+          "target": "甲岳",
+          "value": 1
+        },
+        {
+          "source": "丁岳",
+          "target": "甲岳",
+          "value": 1
+        },
+        {
+          "source": "尧帝",
+          "target": "甲岳",
+          "value": 1
+        },
+        {
+          "source": "甲岳",
+          "target": "许由",
+          "value": 1
+        },
+        {
+          "source": "丙岳",
+          "target": "乙岳",
+          "value": 1
+        },
+        {
+          "source": "丁岳",
+          "target": "乙岳",
+          "value": 1
+        },
+        {
+          "source": "乙岳",
+          "target": "尧帝",
+          "value": 1
+        },
+        {
+          "source": "乙岳",
+          "target": "许由",
+          "value": 1
+        },
+        {
+          "source": "丁岳",
+          "target": "丙岳",
+          "value": 1
+        },
+        {
+          "source": "丙岳",
+          "target": "尧帝",
+          "value": 1
+        },
+        {
+          "source": "丙岳",
+          "target": "许由",
+          "value": 1
+        },
+        {
+          "source": "丁岳",
+          "target": "尧帝",
+          "value": 2
+        },
+        {
+          "source": "丁岳",
+          "target": "许由",
+          "value": 2
+        },
+        {
+          "source": "尧帝",
+          "target": "许由",
+          "value": 3
+        },
+        {
+          "source": "卫士",
+          "target": "许由",
+          "value": 1
+        },
+        {
+          "source": "卫士",
+          "target": "尧帝",
+          "value": 1
+        },
+        {
+          "source": "丁岳",
+          "target": "卫士",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 50,
+      "summary": "第四场；第五场",
+      "conflict": 0.245,
+      "importance": 0.481,
+      "locations": {
+        "从后门": 2
+      },
+      "characters": {
+        "许由": 1,
+        "巢父": 1
+      },
+      "links": [
+        {
+          "source": "巢父",
+          "target": "许由",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "圣上登殿",
+      "characters": [
+        {
+          "name": "甲岳",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "比户皆可封，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "乙岳",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "尤存太古风；",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "丙岳",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "唐尧称盛世，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "丁岳",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "化育九州同。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "尧帝",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "传贤不传子，官天下，大公无私。",
+          "rating": 0.385,
+          "role": "老生"
+        },
+        {
+          "name": "许由",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第一场：6位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.844,
+        "conflict": 0.808,
+        "sentiment": 0.445
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "从后门",
+      "characters": [
+        {
+          "name": "许由",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "笑世人口圣贤心同贼盗，",
+          "rating": 0.5,
+          "role": "末"
+        },
+        {
+          "name": "尧帝",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "离都城访箕山眼前到了，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "丁岳",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "那许由品行孤高，从不交结富贵之人，或闻车马声喧，从后门逃走，也未可知！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "卫士",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有后门如今大开。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.74,
+        "conflict": 0.968,
+        "sentiment": 0.229
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "从后门",
+      "characters": [
+        {
+          "name": "许由",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "借羽毛任翱翔出笼飞鸟，",
+          "rating": 0.077,
+          "role": "末"
+        },
+        {
+          "name": "尧帝",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请先生且留步有事相邀。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：2位角色，54行",
+      "firstLine": 1,
+      "lastLine": 54,
+      "numLines": 54,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.834,
+        "conflict": 0.263,
+        "sentiment": 0.226
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "从后门",
+      "characters": [
+        {
+          "name": "巢父",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "心比寒梅澈骨清，",
+          "rating": -0.333,
+          "role": "外"
+        },
+        {
+          "name": "许由",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第四场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.652,
+        "conflict": 1.0,
+        "sentiment": 0.024
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "从后门",
+      "characters": [
+        {
+          "name": "许由",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "匆匆掩耳向前走，",
+          "rating": 0.333,
+          "role": "末"
+        },
+        {
+          "name": "巢父",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "你因何洗耳说原由。",
+          "rating": -0.333,
+          "role": "外"
+        }
+      ],
+      "summary": "第五场：2位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.764,
+        "conflict": 1.0,
+        "sentiment": 0.269
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "许由",
+      "short": "许由",
+      "key": "许由",
+      "quote": "许由 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "尧帝",
+      "short": "尧帝",
+      "key": "尧帝",
+      "quote": "尧帝 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "巢父",
+      "short": "巢父",
+      "key": "巢父",
+      "quote": "巢父 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "乙岳",
+      "short": "乙岳",
+      "key": "乙岳",
+      "quote": "乙岳 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丁岳",
+      "short": "丁岳",
+      "key": "丁岳",
+      "quote": "丁岳 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "甲岳",
+      "short": "甲岳",
+      "key": "甲岳",
+      "quote": "甲岳 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "卫士",
+      "short": "卫士",
+      "key": "卫士",
+      "quote": "卫士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丙岳",
+      "short": "丙岳",
+      "key": "丙岳",
+      "quote": "丙岳 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "从后门",
+      "key": "从后门",
+      "quote": "场景发生在从后门"
+    },
+    {
+      "name": "圣上登殿",
+      "key": "圣上登殿",
+      "quote": "场景发生在圣上登殿"
+    }
+  ]
+}

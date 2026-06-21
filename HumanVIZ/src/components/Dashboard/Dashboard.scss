@@ -2,6 +2,7 @@
   display: flex;
   height: 100%;
   overflow: hidden;
+  transition: background 0.6s ease;
 }
 
 .dashboard-main {
@@ -11,6 +12,7 @@
   min-width: 0;
   overflow-y: auto;
   overflow-x: hidden;
+  transition: background 0.6s ease, color 0.6s ease;
 }
 
 .data-overview-inline {

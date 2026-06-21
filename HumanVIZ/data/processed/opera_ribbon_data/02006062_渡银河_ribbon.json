@@ -1,0 +1,236 @@
+{
+  "title": "渡银河",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "02006062_渡银河.json",
+  "source_folder": "02000000",
+  "plot_summary": "七月七日，天上牛郎、织女相会。适见下界唐明皇与杨贵妃，正设香案，向牛郎、织女乞巧。并鉴于牛、女\n之年年相会，两人密誓盟约，在天愿为比翼鸟，在地愿为连理枝，请牛、女作证云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 31,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.639,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "牛郎": 1,
+        "织女": 1
+      },
+      "links": [
+        {
+          "source": "牛郎",
+          "target": "织女",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 66,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "牛郎": 1,
+        "李隆基": 1,
+        "织女": 1,
+        "杨玉环": 1
+      },
+      "links": [
+        {
+          "source": "李隆基",
+          "target": "杨玉环",
+          "value": 1
+        },
+        {
+          "source": "杨玉环",
+          "target": "织女",
+          "value": 1
+        },
+        {
+          "source": "杨玉环",
+          "target": "牛郎",
+          "value": 1
+        },
+        {
+          "source": "李隆基",
+          "target": "织女",
+          "value": 1
+        },
+        {
+          "source": "李隆基",
+          "target": "牛郎",
+          "value": 1
+        },
+        {
+          "source": "牛郎",
+          "target": "织女",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "织女",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "云护玉梭儿，巧织机丝，",
+          "rating": -0.5,
+          "role": ""
+        },
+        {
+          "name": "牛郎",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "只觉得银汉秋生别样姿。",
+          "rating": 0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.492,
+        "conflict": 0.714,
+        "sentiment": 0.164
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨玉环",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "宫廷金炉篆霭，烛光掩映，",
+          "rating": -0.286,
+          "role": "旦"
+        },
+        {
+          "name": "李隆基",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "好一片皓月当天。",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "织女",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "只是他二人劫难将至，免不得生离死别，若果后来不能背今盟，决当为之管合。",
+          "rating": -0.5,
+          "role": ""
+        },
+        {
+          "name": "牛郎",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "只见他盟誓密，此拜祷孜孜，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，66行",
+      "firstLine": 1,
+      "lastLine": 66,
+      "numLines": 66,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.292,
+        "sentiment": 0.159
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨玉环",
+      "short": "杨玉",
+      "key": "杨玉环",
+      "quote": "杨玉环 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李隆基",
+      "short": "李隆",
+      "key": "李隆基",
+      "quote": "李隆基 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "牛郎",
+      "short": "牛郎",
+      "key": "牛郎",
+      "quote": "牛郎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "织女",
+      "short": "织女",
+      "key": "织女",
+      "quote": "织女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

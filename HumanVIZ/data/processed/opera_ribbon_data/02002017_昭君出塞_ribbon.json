@@ -1,0 +1,392 @@
+{
+  "title": "昭君出塞",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "02002017_昭君出塞.json",
+  "source_folder": "02000000",
+  "plot_summary": "汉元帝时，匈奴时常犯边，抵御无人，乃用和番之策，将宫女嫁与单于。王昭君以绝世之姿，因不肯贿赂画\n工毛延寿，致所画王昭君之像，极为丑陋。临行时，元帝召见，始大惊讶，然已挽回乏术矣。",
+  "performance_notes": "剧中情节，全系描写昭君出塞时情形，凄凉悲愤，感慨俱深。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 166,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.322,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "兵卒": 1,
+        "二小番": 1,
+        "王龙": 1,
+        "马夫": 1,
+        "王昭君": 1
+      },
+      "links": [
+        {
+          "source": "兵卒",
+          "target": "王龙",
+          "value": 1
+        },
+        {
+          "source": "王昭君",
+          "target": "王龙",
+          "value": 2
+        },
+        {
+          "source": "兵卒",
+          "target": "王昭君",
+          "value": 1
+        },
+        {
+          "source": "王龙",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "王昭君",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "二小番",
+          "target": "王龙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 39,
+      "summary": "第4场；第5场",
+      "conflict": 0.051,
+      "importance": 0.38,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "小番甲": 1,
+        "王昭君": 1,
+        "王龙": 1,
+        "马夫": 1
+      },
+      "links": [
+        {
+          "source": "小番甲",
+          "target": "王龙",
+          "value": 1
+        },
+        {
+          "source": "王昭君",
+          "target": "王龙",
+          "value": 1
+        },
+        {
+          "source": "王龙",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "王昭君",
+          "target": "马夫",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "蟒衣三爪，玉带垂腰。一生富贵乐滔滔。谁似我，一品当朝，一品当朝。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "兵卒",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "倒了韵了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王昭君",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "别离泪涟，",
+          "rating": -0.5,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：3位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.848,
+        "conflict": 0.294,
+        "sentiment": 0.004
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "马夫哪里，哪里？咳，马夫哪里？",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "马夫",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "奔腾千里荡尘埃，荡尘埃，渡水扒山紫雾开。拽断丝缰溜玉辔，火龙飞下九天",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "王昭君",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "昭君扶玉鞍，上马啼红血。今日汉宫人，明朝胡地妾。",
+          "rating": 0.2,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：3位角色，94行",
+      "firstLine": 1,
+      "lastLine": 94,
+      "numLines": 94,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.23,
+        "sentiment": 0.326
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "二小番",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "压捕。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "王龙",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "臊达子臊达子，",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第3场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.435,
+        "conflict": 1.0,
+        "sentiment": 0.24
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "小番甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一个蒙古。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王龙",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "不懂的。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第4场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.435,
+        "conflict": 0.0,
+        "sentiment": 0.194
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "臊达子已去。",
+          "rating": -0.5,
+          "role": "丑"
+        },
+        {
+          "name": "王昭君",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "御弟。我有五怨难舍。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "马夫",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第5场：3位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.836,
+        "conflict": 0.0,
+        "sentiment": 0.143
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王昭君",
+      "short": "王昭",
+      "key": "王昭君",
+      "quote": "王昭君 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王龙",
+      "short": "王龙",
+      "key": "王龙",
+      "quote": "王龙 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "马夫",
+      "short": "马夫",
+      "key": "马夫",
+      "quote": "马夫 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "小番甲",
+      "short": "小番",
+      "key": "小番甲",
+      "quote": "小番甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "兵卒",
+      "short": "兵卒",
+      "key": "兵卒",
+      "quote": "兵卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二小番",
+      "short": "二小",
+      "key": "二小番",
+      "quote": "二小番 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

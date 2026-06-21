@@ -1,0 +1,366 @@
+{
+  "title": "三击掌",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "04010002_三击掌.json",
+  "source_folder": "04000000",
+  "plot_summary": "王宝钏与薛平贵的婚姻遭到王允的坚决反对。王宝钏指责父亲嫌贫爱富，不守信义。最后，她毅然地脱下\n“日月龙凤袄”、“山河地理裙”，同父亲三击掌，离开相府，到寒窑和薛平贵结婚。",
+  "performance_notes": "这个剧本是根据王瑶卿先生的演出本，由北京戏曲实验学校于玉蘅、常少亭与本院（中国戏曲研究院）编辑\n处田淞、吕瑞明共同整理的。因原本就很完整，整理时，仅对个别词句略加修正。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 174,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "位列三台": 1
+      },
+      "characters": {
+        "众丫鬟": 1,
+        "二家院": 1,
+        "王允": 1,
+        "家院甲": 1,
+        "家院乙": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "二家院",
+          "target": "王允",
+          "value": 1
+        },
+        {
+          "source": "王允",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "家院甲",
+          "target": "王允",
+          "value": 1
+        },
+        {
+          "source": "家院乙",
+          "target": "王允",
+          "value": 1
+        },
+        {
+          "source": "众丫鬟",
+          "target": "王允",
+          "value": 1
+        },
+        {
+          "source": "二家院",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "二家院",
+          "target": "家院甲",
+          "value": 1
+        },
+        {
+          "source": "二家院",
+          "target": "家院乙",
+          "value": 1
+        },
+        {
+          "source": "二家院",
+          "target": "众丫鬟",
+          "value": 1
+        },
+        {
+          "source": "家院甲",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "家院乙",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "众丫鬟",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "家院乙",
+          "target": "家院甲",
+          "value": 1
+        },
+        {
+          "source": "众丫鬟",
+          "target": "家院甲",
+          "value": 1
+        },
+        {
+          "source": "众丫鬟",
+          "target": "家院乙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 4,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.066,
+      "locations": {
+        "位列三台": 1
+      },
+      "characters": {
+        "王宝钏": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.082,
+      "locations": {
+        "位列三台": 1
+      },
+      "characters": {
+        "家院甲": 1,
+        "王允": 1
+      },
+      "links": [
+        {
+          "source": "家院甲",
+          "target": "王允",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "位列三台",
+      "characters": [
+        {
+          "name": "王允",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "调和鼎鼐，位列三台。",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "二家院",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "正宫赐绒线，抛球配良缘。",
+          "rating": 0.1,
+          "role": "旦"
+        },
+        {
+          "name": "家院甲",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "啊相爷，保重身体要紧，不要与三姑娘致气了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家院乙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊相爷，不要与三姑娘致气了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众丫鬟",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "三姑娘！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：6位角色，174行",
+      "firstLine": 1,
+      "lastLine": 174,
+      "numLines": 174,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.267,
+        "sentiment": 0.189
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "位列三台",
+      "characters": [
+        {
+          "name": "王宝钏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "此一去不回相府的门。",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.563,
+        "conflict": 0.0,
+        "sentiment": -0.5
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "位列三台",
+      "characters": [
+        {
+          "name": "家院甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "三姑娘往寒窑去了。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "王允",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "不要赶她！",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.516,
+        "conflict": 0.0,
+        "sentiment": -0.39
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王允",
+      "short": "王允",
+      "key": "王允",
+      "quote": "王允 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "众丫鬟",
+      "short": "众丫",
+      "key": "众丫鬟",
+      "quote": "众丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二家院",
+      "short": "二家",
+      "key": "二家院",
+      "quote": "二家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院甲",
+      "short": "家院",
+      "key": "家院甲",
+      "quote": "家院甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院乙",
+      "short": "家院",
+      "key": "家院乙",
+      "quote": "家院乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "位列三台",
+      "key": "位列三台",
+      "quote": "场景发生在位列三台"
+    }
+  ]
+}

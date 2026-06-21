@@ -1,0 +1,199 @@
+{
+  "title": "黛玉葬花",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01013019_黛玉葬花.json",
+  "source_folder": "01000000",
+  "plot_summary": "林黛玉夜访贾宝玉，丫鬟恶语相对，拒不开门。林黛玉疑是贾宝玉故意不见，很懊恼。次日，见园中落花无\n主，乃荷锄葬花，并赋《葬花词》，以遣秋思。贾宝玉适至，表明心迹，二人又言归于好。",
+  "performance_notes": "林黛玉葬花，为《石头记》中大观园十二影事之一，即第二十七回“埋香冢黛玉泣残红”之一段，固已尽人\n皆知，亦无待大错赘述。至编入戏剧，则曾闻樊樊山，已先为兰芳梅郎编排之。梅郎于京师已曾串演，其扮\n演此戏之摄影，曾见诸本馆所出之游戏杂志中，洵歌场韵事也，惟其脚本则吾未之见。然传闻梅郎于此剧，\n练成之后，亦不常演。《红楼梦》剧之难编难演，即斯可想见矣。此脚本系予倩所编，复经冥飞尘因为之润\n词，其唱白句语，悉从原书中剪裁而出，风雅细腻，洵于剧本中得来未曾有。惟程度过高尚，戏情过曲深冷\n淡，恐终非今日戏世界中，其一般普通听戏之眼光者，所欢迎也欤。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 49,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.69,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "紫娟": 1,
+        "林黛玉": 1
+      },
+      "links": [
+        {
+          "source": "林黛玉",
+          "target": "紫娟",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 93,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "贾宝玉": 1,
+        "林黛玉": 1,
+        "紫娟": 1
+      },
+      "links": [
+        {
+          "source": "林黛玉",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "紫娟",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "林黛玉",
+          "target": "紫娟",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "林黛玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "春去无痕，莽天涯，怎不销魂？",
+          "rating": 0.2,
+          "role": "旦"
+        },
+        {
+          "name": "紫娟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "姑娘的痴病又发了，必定又是宝二爷得罪了他。",
+          "rating": -0.2,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，49行",
+      "firstLine": 1,
+      "lastLine": 49,
+      "numLines": 49,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.707,
+        "conflict": 0.909,
+        "sentiment": 0.142
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "贾宝玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "昨夜晚怨东风无端蹂躏，",
+          "rating": -0.429,
+          "role": "小生"
+        },
+        {
+          "name": "林黛玉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "呵吓……",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "紫娟",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "他们又是怎么样了？待我诳她回去。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，93行",
+      "firstLine": 1,
+      "lastLine": 93,
+      "numLines": 93,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.485,
+        "sentiment": -0.083
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "林黛玉",
+      "short": "林黛",
+      "key": "林黛玉",
+      "quote": "林黛玉 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "贾宝玉",
+      "short": "贾宝",
+      "key": "贾宝玉",
+      "quote": "贾宝玉 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "紫娟",
+      "short": "紫娟",
+      "key": "紫娟",
+      "quote": "紫娟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

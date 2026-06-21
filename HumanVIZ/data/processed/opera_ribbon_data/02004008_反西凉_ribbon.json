@@ -1,0 +1,1357 @@
+{
+  "title": "反西凉",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 8,
+  "num_scenes": 16,
+  "num_characters": 15,
+  "num_locations": 1,
+  "source_file": "02004008_反西凉.json",
+  "source_folder": "02000000",
+  "plot_summary": "马腾镇守西凉，奉命调京。行至中途，被曹操派人杀死。长子马超闻言后，即发兵为父报仇。曹营大将徐晃、\n曹洪，相继败北。最后曹操换袍割须，始得逃脱。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 28,
+      "summary": "第一场；第二场",
+      "conflict": 0.038,
+      "importance": 0.833,
+      "locations": {
+        "扶保朝堂": 2
+      },
+      "characters": {
+        "马岱": 1,
+        "夏侯惇": 1,
+        "马腾": 1
+      },
+      "links": [
+        {
+          "source": "马岱",
+          "target": "马腾",
+          "value": 1
+        },
+        {
+          "source": "夏侯惇",
+          "target": "马腾",
+          "value": 1
+        },
+        {
+          "source": "夏侯惇",
+          "target": "马岱",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 6,
+      "summary": "第三场；第四场",
+      "conflict": 0.0,
+      "importance": 0.178,
+      "locations": {
+        "扶保朝堂": 2
+      },
+      "characters": {
+        "马岱": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 56,
+      "summary": "第五场；第六场",
+      "conflict": 0.477,
+      "importance": 1.0,
+      "locations": {
+        "扶保朝堂": 2
+      },
+      "characters": {
+        "马岱": 1,
+        "马超": 1,
+        "庞德": 1
+      },
+      "links": [
+        {
+          "source": "马岱",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "庞德",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "庞德",
+          "target": "马岱",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 50,
+      "summary": "第七场；第八场",
+      "conflict": 0.35,
+      "importance": 1.0,
+      "locations": {
+        "扶保朝堂": 2
+      },
+      "characters": {
+        "报子": 1,
+        "曹洪": 1,
+        "四红龙套": 1,
+        "徐晃": 1,
+        "四上手": 1,
+        "马超": 1,
+        "庞德": 1
+      },
+      "links": [
+        {
+          "source": "四上手",
+          "target": "庞德",
+          "value": 1
+        },
+        {
+          "source": "徐晃",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "曹洪",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "徐晃",
+          "value": 1
+        },
+        {
+          "source": "徐晃",
+          "target": "曹洪",
+          "value": 1
+        },
+        {
+          "source": "徐晃",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "曹洪",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "曹洪",
+          "target": "马超",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 32,
+      "summary": "第九场；第十场",
+      "conflict": 0.39,
+      "importance": 0.952,
+      "locations": {
+        "扶保朝堂": 2
+      },
+      "characters": {
+        "曹洪": 1,
+        "马超": 1,
+        "曹操": 1,
+        "庞德": 1,
+        "龙套甲": 1
+      },
+      "links": [
+        {
+          "source": "庞德",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "马超",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "曹洪",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "庞德",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "庞德",
+          "target": "曹洪",
+          "value": 1
+        },
+        {
+          "source": "庞德",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "曹洪",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "曹洪",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 2,
+      "numLines": 66,
+      "summary": "第十一场；第十二场",
+      "conflict": 0.382,
+      "importance": 1.0,
+      "locations": {
+        "扶保朝堂": 2
+      },
+      "characters": {
+        "曹洪": 1,
+        "许褚": 1,
+        "四红龙套": 1,
+        "徐晃": 1,
+        "曹操": 1,
+        "马超": 1,
+        "红龙套甲": 1
+      },
+      "links": [
+        {
+          "source": "曹操",
+          "target": "许褚",
+          "value": 1
+        },
+        {
+          "source": "徐晃",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "曹洪",
+          "value": 2
+        },
+        {
+          "source": "曹操",
+          "target": "红龙套甲",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "徐晃",
+          "target": "许褚",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "许褚",
+          "value": 1
+        },
+        {
+          "source": "曹洪",
+          "target": "许褚",
+          "value": 1
+        },
+        {
+          "source": "红龙套甲",
+          "target": "许褚",
+          "value": 1
+        },
+        {
+          "source": "许褚",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "徐晃",
+          "value": 1
+        },
+        {
+          "source": "徐晃",
+          "target": "曹洪",
+          "value": 1
+        },
+        {
+          "source": "徐晃",
+          "target": "红龙套甲",
+          "value": 1
+        },
+        {
+          "source": "徐晃",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "曹洪",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "红龙套甲",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "曹洪",
+          "target": "红龙套甲",
+          "value": 1
+        },
+        {
+          "source": "曹洪",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "红龙套甲",
+          "target": "马超",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第7章",
+      "numScenes": 2,
+      "numLines": 16,
+      "summary": "第十三场；第十四场",
+      "conflict": 0.048,
+      "importance": 0.476,
+      "locations": {
+        "扶保朝堂": 2
+      },
+      "characters": {
+        "曹洪": 1,
+        "许褚": 1,
+        "马超": 1,
+        "曹操": 1
+      },
+      "links": [
+        {
+          "source": "曹操",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "许褚",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "曹操",
+          "target": "许褚",
+          "value": 2
+        },
+        {
+          "source": "曹洪",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "曹洪",
+          "value": 1
+        },
+        {
+          "source": "曹洪",
+          "target": "许褚",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第8章",
+      "numScenes": 2,
+      "numLines": 15,
+      "summary": "第十五场；第十六场",
+      "conflict": 0.673,
+      "importance": 0.446,
+      "locations": {
+        "扶保朝堂": 2
+      },
+      "characters": {
+        "许褚": 1,
+        "曹洪": 1,
+        "四白龙套": 1,
+        "马超": 1,
+        "曹操": 1
+      },
+      "links": [
+        {
+          "source": "曹洪",
+          "target": "许褚",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "许褚",
+          "value": 1
+        },
+        {
+          "source": "许褚",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "曹洪",
+          "value": 1
+        },
+        {
+          "source": "曹洪",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "四白龙套",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "四白龙套",
+          "target": "曹操",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "马腾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "镇守西凉，秉忠心，扶保朝堂。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马岱",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "夏侯惇",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "圣旨下。",
+          "rating": -1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：3位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.331,
+        "conflict": 0.0,
+        "sentiment": -0.038
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "扶保朝堂",
+      "characters": [],
+      "summary": "第二场：0位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.006,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "扶保朝堂",
+      "characters": [],
+      "summary": "第三场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.011,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "马岱",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "且住，我父子行至中途，不想曹贼暗地差人前来，将我父杀死，不免回至西凉，",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.082,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "马超",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "幼习兵机，论韬略，盖世无敌。",
+          "rating": 0.5,
+          "role": "武生"
+        },
+        {
+          "name": "马岱",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "参见兄长。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：2位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.493,
+        "conflict": 0.29,
+        "sentiment": 0.284
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "庞德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "大将生来胆气豪，腰横秋水雁翎刀。只为点兵把仇报，烈烈轰轰闹汉朝。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马超",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "我父把命丧，令人痛心肠。",
+          "rating": -0.6,
+          "role": "武生"
+        },
+        {
+          "name": "马岱",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：3位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.453,
+        "conflict": 0.385,
+        "sentiment": -0.193
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "庞德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "唗，看刀！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "四上手",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "那贼落马。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.159,
+        "conflict": 1.0,
+        "sentiment": -0.38
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "报子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "报！马超倒反西凉。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "徐晃",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "杀气冲霄，儿郎虎豹，军威好，地动山摇，要把狼烟扫。",
+          "rating": -0.5,
+          "role": ""
+        },
+        {
+          "name": "四红龙套",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "免战高悬。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曹洪",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "呵哈。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "马超",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第八场：5位角色，43行",
+      "firstLine": 1,
+      "lastLine": 43,
+      "numLines": 43,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.673,
+        "conflict": 0.43,
+        "sentiment": -0.03
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "曹洪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第九场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.066,
+        "conflict": 1.0,
+        "sentiment": -0.2
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "马超",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "豪杰兴兵谁敢挡，",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "庞德",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "参见元帅。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "龙套甲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "呔，出去。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曹洪",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "大将曹洪。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十场：5位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.74,
+        "conflict": 0.548,
+        "sentiment": 0.19
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "智量如天高，",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "许褚",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "徐晃",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "哪里人马？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "四红龙套",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "魏王人马。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曹洪",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "哪里人马？",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "红龙套甲",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "呔，出去，走吓。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马超",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "negative",
+          "quote": "呔，曹贼，我父身犯何罪，为何斩首石门，曹贼看枪！",
+          "rating": -1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第十一场：7位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.438,
+        "sentiment": -0.182
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哎呀呀呀。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "马超",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "穿红袍的是曹操。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "曹洪",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十二场：3位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.491,
+        "conflict": 1.0,
+        "sentiment": 0.2
+      }
+    },
+    {
+      "number": 13,
+      "name": "第十三场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "马超",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "长胡须的是曹操。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哎呀呀呀。看三军们各各言道，长胡须的是曹操，这这便怎么处呢？呵呵有了，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "许褚",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十三场：3位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.619,
+        "conflict": 1.0,
+        "sentiment": -0.392
+      }
+    },
+    {
+      "number": 14,
+      "name": "第十四场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "马超",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "割了胡须的是曹操。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "放你妈的臭屁！哎呀呀呀，三军各各言道，割了胡须的是曹操，这又便怎么处",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "曹洪",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "许褚",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十四场：4位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.69,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 15,
+      "name": "第十五场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "许褚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "咳。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "曹洪",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "咳吓哈哈哈。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哎哟哎哟。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "马超",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第十五场：4位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第8章",
+      "ratings": {
+        "importance": 0.679,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 16,
+      "name": "第十六场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "马超",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "众将官，曹操那贼往哪里去了？",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "四白龙套",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "渡过江去。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曹操",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十六场：3位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第8章",
+      "ratings": {
+        "importance": 0.491,
+        "conflict": 0.0,
+        "sentiment": -0.513
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "马超",
+      "short": "马超",
+      "key": "马超",
+      "quote": "马超 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹操",
+      "short": "曹操",
+      "key": "曹操",
+      "quote": "曹操 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "许褚",
+      "short": "许褚",
+      "key": "许褚",
+      "quote": "许褚 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "曹洪",
+      "short": "曹洪",
+      "key": "曹洪",
+      "quote": "曹洪 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "夏侯惇",
+      "short": "夏侯",
+      "key": "夏侯惇",
+      "quote": "夏侯惇 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四红龙套",
+      "short": "四红",
+      "key": "四红龙套",
+      "quote": "四红龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四白龙套",
+      "short": "四白",
+      "key": "四白龙套",
+      "quote": "四白龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "徐晃",
+      "short": "徐晃",
+      "key": "徐晃",
+      "quote": "徐晃 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四上手",
+      "short": "四上",
+      "key": "四上手",
+      "quote": "四上手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马腾",
+      "short": "马腾",
+      "key": "马腾",
+      "quote": "马腾 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马岱",
+      "short": "马岱",
+      "key": "马岱",
+      "quote": "马岱 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "红龙套甲",
+      "short": "红龙",
+      "key": "红龙套甲",
+      "quote": "红龙套甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "庞德",
+      "short": "庞德",
+      "key": "庞德",
+      "quote": "庞德 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙套甲",
+      "short": "龙套",
+      "key": "龙套甲",
+      "quote": "龙套甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "扶保朝堂",
+      "key": "扶保朝堂",
+      "quote": "场景发生在扶保朝堂"
+    }
+  ]
+}

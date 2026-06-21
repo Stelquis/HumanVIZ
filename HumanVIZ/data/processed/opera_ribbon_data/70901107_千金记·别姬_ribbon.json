@@ -1,0 +1,333 @@
+{
+  "title": "千金记·别姬",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70901107_千金记·别姬.json",
+  "source_folder": "70901000",
+  "plot_summary": "韩信统领汉军十万人马，把楚王项羽围于垓下，项羽爱妾虞姬，知大势已去，乞项羽赐死以报，项羽痛不忍\n舍。悲泣之间，汉兵已潮涌而至，杀声震天，虞姬终于自刎而死。",
+  "performance_notes": "《别姬》为《千金记》第三十七出。\n《千金记》明沈采撰。以韩信和他的妻子为主要线索，写楚汉相争故事。包括漂母进食、胯下受辱、鸿门宴、\n追韩信、登坛拜将、灭项羽、封齐王等情节，共五十出。有关项羽各出，刻画了项羽勇而无谋、刚愎自用\n的性格。“追信”一出袭用了元杂剧《萧何月下追韩信》第三折的曲词。“追信”、“别姬”、“埋伏”各\n出，昆曲演出较多。韩信被封为齐王，衣锦还乡，亲奉千金给漂母，以谢昔日赠饭之恩，故此剧以《千金记》\n命名。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 33,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.866,
+      "importance": 0.653,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "虞姬": 1,
+        "韩信": 1,
+        "项羽": 1
+      },
+      "links": [
+        {
+          "source": "虞姬",
+          "target": "项羽",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 68,
+      "summary": "第4场；第5场",
+      "conflict": 0.094,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "虞姬": 1,
+        "钟离昧": 1,
+        "韩信": 1,
+        "项羽": 1
+      },
+      "links": [
+        {
+          "source": "钟离昧",
+          "target": "项羽",
+          "value": 2
+        },
+        {
+          "source": "虞姬",
+          "target": "项羽",
+          "value": 2
+        },
+        {
+          "source": "韩信",
+          "target": "项羽",
+          "value": 1
+        },
+        {
+          "source": "虞姬",
+          "target": "钟离昧",
+          "value": 2
+        },
+        {
+          "source": "钟离昧",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "虞姬",
+          "target": "韩信",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "虞姬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一身曾沐君恩宠，暖帐亲承奉。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "项羽",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哇呀……",
+          "rating": -0.2,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：2位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.835,
+        "conflict": 1.0,
+        "sentiment": 0.266
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "项羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "论英雄，盖世无敌，",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第2场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.534,
+        "conflict": 0.0,
+        "sentiment": -0.6
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "众将官！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.523,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "项羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我腰间仗剑吐虹霓，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "钟离昧",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "垓下重围，",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "虞姬",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "如今呢？",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "韩信",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第4场：4位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.667,
+        "sentiment": 0.066
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "钟离昧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "大王，虞娘娘自刎了！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "项羽",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "怎、怎、怎么说？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "虞姬",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第5场：3位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "项羽",
+      "short": "项羽",
+      "key": "项羽",
+      "quote": "项羽 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "虞姬",
+      "short": "虞姬",
+      "key": "虞姬",
+      "quote": "虞姬 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "韩信",
+      "short": "韩信",
+      "key": "韩信",
+      "quote": "韩信 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "钟离昧",
+      "short": "钟离",
+      "key": "钟离昧",
+      "quote": "钟离昧 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

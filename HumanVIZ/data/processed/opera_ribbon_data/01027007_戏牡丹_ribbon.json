@@ -1,0 +1,213 @@
+{
+  "title": "戏牡丹",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 2,
+  "num_locations": 2,
+  "source_file": "01027007_戏牡丹.json",
+  "source_folder": "01000000",
+  "plot_summary": "吕祖师纯阳，名列上八洞仙籍，遨游乎蓬莱弱水之间，倘佯乎宇宙大荒之内，云雾冥蒙，倏来倏往，神仙胜\n迹，无处不留。一日至崂山，遇一少艾白牡丹，系修道而未成者。男女大欲，大抵皆然，神仙亦不外乎人情，\n于是一见倾心，遂作巫峡风流之会。后人妄参未议，谓纯阳此举，即是采阴补阳，为神仙修炼秘诀。然专\n事采补，决非真神仙。若真神仙，应辟采补之谬说。枥老敢下一断语曰：《戏牡丹》一剧，纯阳游戏三味之\n趣，神仙逸趣也。",
+  "performance_notes": "游戏三昧之趣，神仙逸趣也。夫惟神仙，能得真趣，自多乐趣，一举一动，无往而不成趣，趣矣哉，臻于趣\n敬，感以趣情，成其趣事，合乎趣史，而复编为趣剧，串演于舞台之上，其趣味隽永，有不可名言者矣。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 3,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.055,
+      "locations": {
+        "下场门": 1
+      },
+      "characters": {
+        "吕洞宾": 1,
+        "牡丹": 1
+      },
+      "links": [
+        {
+          "source": "吕洞宾",
+          "target": "牡丹",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 35,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.64,
+      "locations": {
+        "下场门": 1
+      },
+      "characters": {
+        "牡丹": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 126,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "下场门": 1
+      },
+      "characters": {
+        "吕洞宾": 1,
+        "牡丹": 1
+      },
+      "links": [
+        {
+          "source": "吕洞宾",
+          "target": "牡丹",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "下场门",
+      "characters": [
+        {
+          "name": "吕洞宾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "牡丹",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：2位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.711,
+        "conflict": 0.0,
+        "sentiment": 0.32
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "下场门",
+      "characters": [
+        {
+          "name": "牡丹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "晨看泉水淹蝼蚁，夜护纱灯救飞娥。",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：1位角色，35行",
+      "firstLine": 1,
+      "lastLine": 35,
+      "numLines": 35,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.678,
+        "conflict": 0.455,
+        "sentiment": 0.787
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "下场门",
+      "characters": [
+        {
+          "name": "吕洞宾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "离却了蓬莱岛驾云前进，",
+          "rating": 0.636,
+          "role": "生"
+        },
+        {
+          "name": "牡丹",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "还礼。请问道家，是哪位神仙？",
+          "rating": 0.25,
+          "role": "旦"
+        }
+      ],
+      "summary": "第三场：2位角色，126行",
+      "firstLine": 1,
+      "lastLine": 126,
+      "numLines": 126,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.336,
+        "sentiment": 0.401
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "吕洞宾",
+      "short": "吕洞",
+      "key": "吕洞宾",
+      "quote": "吕洞宾 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "牡丹",
+      "short": "牡丹",
+      "key": "牡丹",
+      "quote": "牡丹 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "下场门",
+      "key": "下场门",
+      "quote": "场景发生在下场门"
+    },
+    {
+      "name": "上场门",
+      "key": "上场门",
+      "quote": "场景发生在上场门"
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "title": "大闹蛇盘山鹰愁涧",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 9,
+  "num_locations": 1,
+  "source_file": "05025002_大闹蛇盘山鹰愁涧.json",
+  "source_folder": "05000000",
+  "plot_summary": "孙悟空打死拦路毛贼，为唐僧所责备，一气而至龙宫，经龙王相劝，始回心转意。唐僧见孙悟空复返，将观\n音所送金箍，为之戴上。自此，孙悟空不敢任性。一日，师徒两人行至鹰愁涧。涧内玉龙因吞噬唐僧之坐骑，\n为孙悟空战败，化为马，同往西天取经。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 399,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.281,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "孙悟空": 1,
+        "水卒甲": 1,
+        "唐僧": 1,
+        "众水卒": 1,
+        "观音": 1,
+        "四水卒": 1,
+        "东海龙王": 1,
+        "玉龙太子": 1
+      },
+      "links": [
+        {
+          "source": "东海龙王",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "东海龙王",
+          "target": "四水卒",
+          "value": 1
+        },
+        {
+          "source": "东海龙王",
+          "target": "水卒甲",
+          "value": 1
+        },
+        {
+          "source": "四水卒",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "水卒甲",
+          "value": 1
+        },
+        {
+          "source": "四水卒",
+          "target": "水卒甲",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "众水卒",
+          "target": "玉龙太子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 242,
+      "summary": "第四场；第五场",
+      "conflict": 0.152,
+      "importance": 0.755,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "孙悟空": 1,
+        "唐僧": 1,
+        "众水卒": 1,
+        "山神": 1,
+        "玉龙太子": 1
+      },
+      "links": [
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "山神",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "玉龙太子",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "山神",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "玉龙太子",
+          "value": 2
+        },
+        {
+          "source": "山神",
+          "target": "玉龙太子",
+          "value": 1
+        },
+        {
+          "source": "众水卒",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "众水卒",
+          "target": "玉龙太子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "东海龙王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "闷坐宫中心惆怅，",
+          "rating": 0.714,
+          "role": ""
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "孙大圣到。",
+          "rating": 0.091,
+          "role": "武生"
+        },
+        {
+          "name": "四水卒",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启龙君，孙大圣到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "水卒甲",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "香茶到。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，107行",
+      "firstLine": 1,
+      "lastLine": 107,
+      "numLines": 107,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.584,
+        "conflict": 0.357,
+        "sentiment": 0.359
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "唐僧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "悟空，你、你、你回来呵！",
+          "rating": -0.294,
+          "role": "老生"
+        },
+        {
+          "name": "观音",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有我神在空中仔细观看，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "多蒙龙君来指点，",
+          "rating": -0.143,
+          "role": "武生"
+        }
+      ],
+      "summary": "第二场：3位角色，256行",
+      "firstLine": 1,
+      "lastLine": 256,
+      "numLines": 256,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.219,
+        "sentiment": 0.102
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "玉龙太子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "生长海藏，麟界为王；性顽抗，自逞豪强，要把水府掌。",
+          "rating": -0.2,
+          "role": "武生"
+        },
+        {
+          "name": "众水卒",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：2位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.451,
+        "conflict": 0.0,
+        "sentiment": 0.078
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "唐僧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "耳听得金鸡连声唱，",
+          "rating": 0.429,
+          "role": "老生"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "何事？",
+          "rating": -0.333,
+          "role": "武生"
+        },
+        {
+          "name": "山神",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "大圣在上，小神参拜。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "玉龙太子",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第四场：4位角色，156行",
+      "firstLine": 1,
+      "lastLine": 156,
+      "numLines": 156,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.919,
+        "conflict": 0.227,
+        "sentiment": 0.076
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "遵奉师命把马找，",
+          "rating": -0.333,
+          "role": "武生"
+        },
+        {
+          "name": "玉龙太子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "嘚，水卒们。",
+          "rating": -0.5,
+          "role": "武生"
+        },
+        {
+          "name": "众水卒",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "喳！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：3位角色，86行",
+      "firstLine": 1,
+      "lastLine": 86,
+      "numLines": 86,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.687,
+        "conflict": 0.426,
+        "sentiment": -0.076
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "唐僧",
+      "short": "唐僧",
+      "key": "唐僧",
+      "quote": "唐僧 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "玉龙太子",
+      "short": "玉龙",
+      "key": "玉龙太子",
+      "quote": "玉龙太子 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "水卒甲",
+      "short": "水卒",
+      "key": "水卒甲",
+      "quote": "水卒甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众水卒",
+      "short": "众水",
+      "key": "众水卒",
+      "quote": "众水卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "观音",
+      "short": "观音",
+      "key": "观音",
+      "quote": "观音 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四水卒",
+      "short": "四水",
+      "key": "四水卒",
+      "quote": "四水卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "东海龙王",
+      "short": "东海",
+      "key": "东海龙王",
+      "quote": "东海龙王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "山神",
+      "short": "山神",
+      "key": "山神",
+      "quote": "山神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

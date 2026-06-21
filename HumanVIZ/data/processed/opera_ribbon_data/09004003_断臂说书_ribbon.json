@@ -1,0 +1,726 @@
+{
+  "title": "断臂说书",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 12,
+  "num_locations": 3,
+  "source_file": "09004003_断臂说书.json",
+  "source_folder": "09000000",
+  "plot_summary": "宋营参谋王佐心忧战事，知陆文龙乃原潞安州节度使陆登之子，十六年前，金兀术攻城，城破陆登自刎身亡，\n陆文龙为金兀术收养。王佐向岳飞献计，欲诈降金营，说陆文龙归宋。岳飞持重不纳其计。王佐终夜筹思；\n在古书中受到启迪，毅然用“苦肉计”自断左臂，潜投金营。金兀术深信不疑，将他收留，并取名“苦人\n儿”。王佐在营中先与陆文龙乳娘薛氏取得联系，道明来意，又借说书之机，打动陆文龙，而乳娘也从旁助\n之。当陆文龙自知身世后，明白了国仇家恨，助宋军战败金兀术，重返故国。",
+  "performance_notes": "《断臂说书》是《八大锤》中的一折。前面的《车轮大战》是一出重头武戏。主要以武打形式表现了由于岳\n飞坚持抵抗金兵的侵犯，使金兀术不能得逞，被拒于朱仙镇。金兀术调义子陆文龙与宋将激战，岳云等众将\n官虽与陆文龙轮番大战，但均未取胜。《断臂说书》紧接前折。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 222,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.518,
+      "importance": 0.555,
+      "locations": {
+        "左台口": 2,
+        "前台口": 1
+      },
+      "characters": {
+        "报子": 1,
+        "陆文龙": 1,
+        "岳飞": 1,
+        "汤怀": 1,
+        "四宋军": 1,
+        "王佐": 1,
+        "二旗牌": 1
+      },
+      "links": [
+        {
+          "source": "报子",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "王佐",
+          "target": "陆文龙",
+          "value": 2
+        },
+        {
+          "source": "四宋军",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "四宋军",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "四宋军",
+          "target": "岳飞",
+          "value": 2
+        },
+        {
+          "source": "四宋军",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "四宋军",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "四宋军",
+          "target": "汤怀",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 578,
+      "summary": "第四场；第五场",
+      "conflict": 0.105,
+      "importance": 1.0,
+      "locations": {
+        "前台口": 2
+      },
+      "characters": {
+        "陆文龙": 1,
+        "岳飞": 1,
+        "小番": 1,
+        "二小番": 1,
+        "四金兵": 1,
+        "王佐": 1,
+        "金兀术": 1,
+        "乳娘": 1
+      },
+      "links": [
+        {
+          "source": "金兀术",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "小番",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "王佐",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "二小番",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "四金兵",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "小番",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "王佐",
+          "target": "陆文龙",
+          "value": 2
+        },
+        {
+          "source": "岳飞",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "二小番",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "四金兵",
+          "target": "陆文龙",
+          "value": 2
+        },
+        {
+          "source": "小番",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "小番",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "二小番",
+          "target": "小番",
+          "value": 1
+        },
+        {
+          "source": "四金兵",
+          "target": "小番",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "二小番",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "四金兵",
+          "target": "王佐",
+          "value": 2
+        },
+        {
+          "source": "二小番",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "四金兵",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "二小番",
+          "target": "四金兵",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "四金兵",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "陆文龙",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "左台口",
+      "characters": [
+        {
+          "name": "王佐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "若为天下奇男子，须立人间未有功。",
+          "rating": 1.0,
+          "role": "老生，俊扮，戴纱帽、黑三，内衬青褶子、外穿蓝帔，黑彩裤，厚底；第二场摘纱帽，戴甩发，脱帔；"
+        },
+        {
+          "name": "报子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报——",
+          "rating": 0.0,
+          "role": "丑，丑扮，戴毡帽，穿青布箭衣、坎肩，系大带，黑彩裤，薄底"
+        },
+        {
+          "name": "岳飞",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "再探。",
+          "rating": 0.333,
+          "role": "武生，俊扮，戴荷叶盔、黑三，白靠，黑彩裤，厚底"
+        },
+        {
+          "name": "陆文龙",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "武生或武小生，俊扮，戴紫金冠、挂穗子、插翎子、戴狐尾，穿白龙箭衣，红团花彩裤，厚底，在"
+        },
+        {
+          "name": "四宋军",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "杂，俊扮，戴板儿巾，白龙套衣，红彩裤，薄底"
+        }
+      ],
+      "summary": "第一场：5位角色，46行",
+      "firstLine": 1,
+      "lastLine": 46,
+      "numLines": 46,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.726,
+        "conflict": 0.714,
+        "sentiment": 0.56
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "前台口",
+      "characters": [
+        {
+          "name": "王佐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "听谯楼打初更玉兔东上，",
+          "rating": 0.143,
+          "role": "老生，俊扮，戴纱帽、黑三，内衬青褶子、外穿蓝帔，黑彩裤，厚底；第二场摘纱帽，戴甩发，脱帔；"
+        },
+        {
+          "name": "二旗牌",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "王将军醒来！",
+          "rating": 0.0,
+          "role": "生，俊扮，戴旗牌巾，箭衣、马挂、大带，黑彩裤，厚底（其中一人戴黑三）"
+        },
+        {
+          "name": "陆文龙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生或武小生，俊扮，戴紫金冠、挂穗子、插翎子、戴狐尾，穿白龙箭衣，红团花彩裤，厚底，在"
+        }
+      ],
+      "summary": "第二场：3位角色，156行",
+      "firstLine": 1,
+      "lastLine": 156,
+      "numLines": 156,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.648,
+        "conflict": 0.275,
+        "sentiment": 0.285
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "左台口",
+      "characters": [
+        {
+          "name": "二旗牌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有请元帅。",
+          "rating": 0.0,
+          "role": "生，俊扮，戴旗牌巾，箭衣、马挂、大带，黑彩裤，厚底（其中一人戴黑三）"
+        },
+        {
+          "name": "岳飞",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "筹思无良计，闷坐在大营。",
+          "rating": 1.0,
+          "role": "武生，俊扮，戴荷叶盔、黑三，白靠，黑彩裤，厚底"
+        },
+        {
+          "name": "汤怀",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "参见元帅。",
+          "rating": 0.0,
+          "role": "老生，俊扮，戴大额子或金踏蹬、黑三，杂色靠，红彩裤，厚底"
+        },
+        {
+          "name": "四宋军",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "杂，俊扮，戴板儿巾，白龙套衣，红彩裤，薄底"
+        }
+      ],
+      "summary": "第三场：4位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.325,
+        "conflict": 0.0,
+        "sentiment": 0.803
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "前台口",
+      "characters": [
+        {
+          "name": "金兀术",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "金兵攻宋室，",
+          "rating": -0.429,
+          "role": "净，勾破三块瓦，戴双龙达帽、朝珠耳环，红龙箭衣、黄龙马挂，红彩裤，厚底"
+        },
+        {
+          "name": "陆文龙",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "一战见奇功。",
+          "rating": 0.5,
+          "role": "武生或武小生，俊扮，戴紫金冠、挂穗子、插翎子、戴狐尾，穿白龙箭衣，红团花彩裤，厚底，在"
+        },
+        {
+          "name": "小番",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启禀狼主——",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王佐",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "叩见狼主。",
+          "rating": -0.714,
+          "role": "老生，俊扮，戴纱帽、黑三，内衬青褶子、外穿蓝帔，黑彩裤，厚底；第二场摘纱帽，戴甩发，脱帔；"
+        },
+        {
+          "name": "岳飞",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -0.333,
+          "role": "武生，俊扮，戴荷叶盔、黑三，白靠，黑彩裤，厚底"
+        },
+        {
+          "name": "二小番",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "杂，揉脸，戴达帽，箭衣、马挂，黑彩裤，薄底"
+        },
+        {
+          "name": "四金兵",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "杂，揉脸，戴达帽，打衣、打裤，薄底"
+        }
+      ],
+      "summary": "第四场：7位角色，78行",
+      "firstLine": 1,
+      "lastLine": 78,
+      "numLines": 78,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.891,
+        "conflict": 0.5,
+        "sentiment": -0.01
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "前台口",
+      "characters": [
+        {
+          "name": "乳娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "叹老爷——",
+          "rating": -0.2,
+          "role": "老旦，黪网，包紫色或蓝色绸条，穿紫帔，腰包，福字履"
+        },
+        {
+          "name": "王佐",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走哇！",
+          "rating": 0.043,
+          "role": "老生，俊扮，戴纱帽、黑三，内衬青褶子、外穿蓝帔，黑彩裤，厚底；第二场摘纱帽，戴甩发，脱帔；"
+        },
+        {
+          "name": "四金兵",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哦……",
+          "rating": 0.0,
+          "role": "杂，揉脸，戴达帽，打衣、打裤，薄底"
+        },
+        {
+          "name": "陆文龙",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "罢了。",
+          "rating": 0.0,
+          "role": "武生或武小生，俊扮，戴紫金冠、挂穗子、插翎子、戴狐尾，穿白龙箭衣，红团花彩裤，厚底，在"
+        }
+      ],
+      "summary": "第五场：4位角色，500行",
+      "firstLine": 1,
+      "lastLine": 500,
+      "numLines": 500,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.676,
+        "conflict": 0.153,
+        "sentiment": 0.095
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王佐",
+      "short": "王佐",
+      "key": "王佐",
+      "quote": "王佐 — 老生，俊扮，戴纱帽、黑三，内衬青褶子、外穿蓝帔，黑彩裤，厚底；第二场摘纱帽，戴甩发，脱帔；",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老生，俊扮，戴纱帽、黑三，内衬青褶子、外穿蓝帔，黑彩裤，厚底；第二场摘纱帽，戴甩发，脱帔；",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "岳飞",
+      "short": "岳飞",
+      "key": "岳飞",
+      "quote": "岳飞 — 武生，俊扮，戴荷叶盔、黑三，白靠，黑彩裤，厚底",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 武生，俊扮，戴荷叶盔、黑三，白靠，黑彩裤，厚底",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陆文龙",
+      "short": "陆文",
+      "key": "陆文龙",
+      "quote": "陆文龙 — 武生或武小生，俊扮，戴紫金冠、挂穗子、插翎子、戴狐尾，穿白龙箭衣，红团花彩裤，厚底，在",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 武生或武小生，俊扮，戴紫金冠、挂穗子、插翎子、戴狐尾，穿白龙箭衣，红团花彩裤，厚底，在",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "乳娘",
+      "short": "乳娘",
+      "key": "乳娘",
+      "quote": "乳娘 — 老旦，黪网，包紫色或蓝色绸条，穿紫帔，腰包，福字履",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老旦，黪网，包紫色或蓝色绸条，穿紫帔，腰包，福字履",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 丑，丑扮，戴毡帽，穿青布箭衣、坎肩，系大带，黑彩裤，薄底",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 丑，丑扮，戴毡帽，穿青布箭衣、坎肩，系大带，黑彩裤，薄底",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "汤怀",
+      "short": "汤怀",
+      "key": "汤怀",
+      "quote": "汤怀 — 老生，俊扮，戴大额子或金踏蹬、黑三，杂色靠，红彩裤，厚底",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老生，俊扮，戴大额子或金踏蹬、黑三，杂色靠，红彩裤，厚底",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二旗牌",
+      "short": "二旗",
+      "key": "二旗牌",
+      "quote": "二旗牌 — 生，俊扮，戴旗牌巾，箭衣、马挂、大带，黑彩裤，厚底（其中一人戴黑三）",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 生，俊扮，戴旗牌巾，箭衣、马挂、大带，黑彩裤，厚底（其中一人戴黑三）",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "金兀术",
+      "short": "金兀",
+      "key": "金兀术",
+      "quote": "金兀术 — 净，勾破三块瓦，戴双龙达帽、朝珠耳环，红龙箭衣、黄龙马挂，红彩裤，厚底",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 净，勾破三块瓦，戴双龙达帽、朝珠耳环，红龙箭衣、黄龙马挂，红彩裤，厚底",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四宋军",
+      "short": "四宋",
+      "key": "四宋军",
+      "quote": "四宋军 — 杂，俊扮，戴板儿巾，白龙套衣，红彩裤，薄底",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 杂，俊扮，戴板儿巾，白龙套衣，红彩裤，薄底",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四金兵",
+      "short": "四金",
+      "key": "四金兵",
+      "quote": "四金兵 — 杂，揉脸，戴达帽，打衣、打裤，薄底",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 杂，揉脸，戴达帽，打衣、打裤，薄底",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二小番",
+      "short": "二小",
+      "key": "二小番",
+      "quote": "二小番 — 杂，揉脸，戴达帽，箭衣、马挂，黑彩裤，薄底",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 杂，揉脸，戴达帽，箭衣、马挂，黑彩裤，薄底",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小番",
+      "short": "小番",
+      "key": "小番",
+      "quote": "小番 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "左台口",
+      "key": "左台口",
+      "quote": "场景发生在左台口"
+    },
+    {
+      "name": "九龙口双手抖",
+      "key": "九龙口双手抖",
+      "quote": "场景发生在九龙口双手抖"
+    },
+    {
+      "name": "前台口",
+      "key": "前台口",
+      "quote": "场景发生在前台口"
+    }
+  ]
+}

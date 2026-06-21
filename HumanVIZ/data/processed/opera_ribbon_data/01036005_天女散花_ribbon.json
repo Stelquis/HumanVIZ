@@ -1,0 +1,1000 @@
+{
+  "title": "天女散花",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 14,
+  "num_locations": 7,
+  "source_file": "01036005_天女散花.json",
+  "source_folder": "01000000",
+  "plot_summary": "全剧从跳罗汉（昆班中旧名堆罗汉）始，继以如来佛率领罗汉金刚、揭伽蓝、普贤文殊、诸菩萨长老，登坐\n莲花宝座，讲经说法为引。既而如来放开慧眼，遥知维摩居士，在毘耶离大城中，现身有病，因命文殊师利，\n率领诸菩萨诸大弟子，往维摩诘处问病，并谈妙法。文殊等既去，如来又命令伽蓝传法旨，往命天女到维\n摩室中散花，以验结习。天女者，乃奉上帝玉旨，管领众香国，专司群芳者也。每逢诸天菩萨，谈经说法之\n时，前往散花，以验菩萨弟子等色相上之结习，是为天女之专职。至是，既奉佛旨，遂率领花奴，前往毘耶\n离城散花，全剧至此而已。惟中间插入维摩四弟子一番问答，借以形容酒肉和尚心事，颇足发笑，然亦即表\n出诸菩萨中结习未除之影子。即此可见名手所编之剧本，举觅有文法，异于寻常也。",
+  "performance_notes": "《天女散花》，向无此戏，乃近数年来，北京诸名士，与《嫦娥奔月》等古装新剧，同为梅伶而作者也。剧\n旨以劝世点化，醒人魔道为主。剧情则刺取《维摩传》中，维摩大弟子衣袖着花，仍落色相，结习未除等一\n节参禅语为蓝本。中间本空洞无物，亦并无他情节，专以古装翩舞，及唱片中词句雅隽见长。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 69,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.366,
+      "importance": 0.902,
+      "locations": {
+        "毘耶离大城": 3
+      },
+      "characters": {
+        "花奴": 1,
+        "如来": 1,
+        "伽篮": 1,
+        "文殊师利": 1,
+        "天女": 1
+      },
+      "links": [
+        {
+          "source": "如来",
+          "target": "文殊师利",
+          "value": 1
+        },
+        {
+          "source": "伽篮",
+          "target": "文殊师利",
+          "value": 1
+        },
+        {
+          "source": "天女",
+          "target": "文殊师利",
+          "value": 1
+        },
+        {
+          "source": "伽篮",
+          "target": "如来",
+          "value": 1
+        },
+        {
+          "source": "天女",
+          "target": "如来",
+          "value": 1
+        },
+        {
+          "source": "伽篮",
+          "target": "天女",
+          "value": 2
+        },
+        {
+          "source": "天女",
+          "target": "花奴",
+          "value": 1
+        },
+        {
+          "source": "伽篮",
+          "target": "花奴",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 43,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.6,
+      "importance": 0.562,
+      "locations": {
+        "毘耶离大城": 2,
+        "毘耶大城": 1
+      },
+      "characters": {
+        "花奴": 1,
+        "伽篮": 1,
+        "天女": 1
+      },
+      "links": [
+        {
+          "source": "伽篮",
+          "target": "天女",
+          "value": 1
+        },
+        {
+          "source": "天女",
+          "target": "花奴",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 194,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.693,
+      "importance": 1.0,
+      "locations": {
+        "毘耶离大城": 1,
+        "已毕回佛殿": 1,
+        "拾收拾佛堂": 1
+      },
+      "characters": {
+        "沙弥丙": 1,
+        "三沙弥": 1,
+        "花奴": 1,
+        "沙弥乙": 1,
+        "如来": 1,
+        "沙弥甲": 1,
+        "伽蓝": 1,
+        "七菩萨": 1,
+        "四沙弥": 1,
+        "维摩诘": 1,
+        "沙弥丁": 1,
+        "文殊师利": 1,
+        "天女": 1
+      },
+      "links": [
+        {
+          "source": "沙弥乙",
+          "target": "沙弥甲",
+          "value": 1
+        },
+        {
+          "source": "沙弥丙",
+          "target": "沙弥甲",
+          "value": 1
+        },
+        {
+          "source": "沙弥丁",
+          "target": "沙弥甲",
+          "value": 2
+        },
+        {
+          "source": "三沙弥",
+          "target": "沙弥甲",
+          "value": 2
+        },
+        {
+          "source": "沙弥丙",
+          "target": "沙弥乙",
+          "value": 1
+        },
+        {
+          "source": "沙弥丁",
+          "target": "沙弥乙",
+          "value": 1
+        },
+        {
+          "source": "三沙弥",
+          "target": "沙弥乙",
+          "value": 1
+        },
+        {
+          "source": "沙弥丁",
+          "target": "沙弥丙",
+          "value": 1
+        },
+        {
+          "source": "三沙弥",
+          "target": "沙弥丙",
+          "value": 1
+        },
+        {
+          "source": "三沙弥",
+          "target": "沙弥丁",
+          "value": 2
+        },
+        {
+          "source": "伽蓝",
+          "target": "如来",
+          "value": 1
+        },
+        {
+          "source": "天女",
+          "target": "如来",
+          "value": 1
+        },
+        {
+          "source": "伽蓝",
+          "target": "天女",
+          "value": 1
+        },
+        {
+          "source": "沙弥甲",
+          "target": "维摩诘",
+          "value": 1
+        },
+        {
+          "source": "四沙弥",
+          "target": "沙弥甲",
+          "value": 1
+        },
+        {
+          "source": "文殊师利",
+          "target": "沙弥甲",
+          "value": 1
+        },
+        {
+          "source": "七菩萨",
+          "target": "沙弥甲",
+          "value": 1
+        },
+        {
+          "source": "沙弥甲",
+          "target": "花奴",
+          "value": 1
+        },
+        {
+          "source": "天女",
+          "target": "沙弥甲",
+          "value": 1
+        },
+        {
+          "source": "三沙弥",
+          "target": "维摩诘",
+          "value": 1
+        },
+        {
+          "source": "三沙弥",
+          "target": "四沙弥",
+          "value": 1
+        },
+        {
+          "source": "三沙弥",
+          "target": "文殊师利",
+          "value": 1
+        },
+        {
+          "source": "七菩萨",
+          "target": "三沙弥",
+          "value": 1
+        },
+        {
+          "source": "三沙弥",
+          "target": "花奴",
+          "value": 1
+        },
+        {
+          "source": "三沙弥",
+          "target": "天女",
+          "value": 1
+        },
+        {
+          "source": "沙弥丁",
+          "target": "维摩诘",
+          "value": 1
+        },
+        {
+          "source": "四沙弥",
+          "target": "沙弥丁",
+          "value": 1
+        },
+        {
+          "source": "文殊师利",
+          "target": "沙弥丁",
+          "value": 1
+        },
+        {
+          "source": "七菩萨",
+          "target": "沙弥丁",
+          "value": 1
+        },
+        {
+          "source": "沙弥丁",
+          "target": "花奴",
+          "value": 1
+        },
+        {
+          "source": "天女",
+          "target": "沙弥丁",
+          "value": 1
+        },
+        {
+          "source": "四沙弥",
+          "target": "维摩诘",
+          "value": 1
+        },
+        {
+          "source": "文殊师利",
+          "target": "维摩诘",
+          "value": 1
+        },
+        {
+          "source": "七菩萨",
+          "target": "维摩诘",
+          "value": 1
+        },
+        {
+          "source": "维摩诘",
+          "target": "花奴",
+          "value": 1
+        },
+        {
+          "source": "天女",
+          "target": "维摩诘",
+          "value": 1
+        },
+        {
+          "source": "四沙弥",
+          "target": "文殊师利",
+          "value": 1
+        },
+        {
+          "source": "七菩萨",
+          "target": "四沙弥",
+          "value": 1
+        },
+        {
+          "source": "四沙弥",
+          "target": "花奴",
+          "value": 1
+        },
+        {
+          "source": "四沙弥",
+          "target": "天女",
+          "value": 1
+        },
+        {
+          "source": "七菩萨",
+          "target": "文殊师利",
+          "value": 1
+        },
+        {
+          "source": "文殊师利",
+          "target": "花奴",
+          "value": 1
+        },
+        {
+          "source": "天女",
+          "target": "文殊师利",
+          "value": 1
+        },
+        {
+          "source": "七菩萨",
+          "target": "花奴",
+          "value": 1
+        },
+        {
+          "source": "七菩萨",
+          "target": "天女",
+          "value": 1
+        },
+        {
+          "source": "天女",
+          "target": "花奴",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "毘耶离大城",
+      "characters": [],
+      "summary": "第一场：0位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.001,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "毘耶离大城",
+      "characters": [
+        {
+          "name": "文殊师利",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "世尊。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "如来",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "慧日高悬，俺只是打坐普陀崖，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "伽篮",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我佛有何法旨？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "天女",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第二场：4位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.728,
+        "conflict": 0.364,
+        "sentiment": 0.366
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "毘耶离大城",
+      "characters": [
+        {
+          "name": "天女",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "悟妙道好一似春梦乍醒，",
+          "rating": 0.333,
+          "role": "正旦"
+        },
+        {
+          "name": "伽篮",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "奉了如来旨，移步到天宫。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "花奴",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.738,
+        "conflict": 0.25,
+        "sentiment": 0.301
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "毘耶离大城",
+      "characters": [
+        {
+          "name": "伽篮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "散花法旨传宣罢，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "天女",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第四场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.706,
+        "conflict": 0.0,
+        "sentiment": 0.227
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "毘耶大城",
+      "characters": [
+        {
+          "name": "天女",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "祥云冉冉波罗天，",
+          "rating": 0.5,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第五场：1位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.727,
+        "conflict": 0.526,
+        "sentiment": 0.372
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "毘耶离大城",
+      "characters": [
+        {
+          "name": "花奴",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "走呀！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "天女",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第六场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.709,
+        "conflict": 0.0,
+        "sentiment": 0.827
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "毘耶离大城",
+      "characters": [
+        {
+          "name": "沙弥甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "出家人笑呵呵，",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "沙弥乙",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "清晨起念弥陀。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "沙弥丙",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "到晚来最难过，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "沙弥丁",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "吃得饱睡不着。",
+          "rating": -0.2,
+          "role": ""
+        },
+        {
+          "name": "三沙弥",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：5位角色，86行",
+      "firstLine": 1,
+      "lastLine": 86,
+      "numLines": 86,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.384,
+        "conflict": 0.326,
+        "sentiment": 0.117
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "已毕回佛殿",
+      "characters": [
+        {
+          "name": "如来",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "将身坐在莲花台上，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "伽蓝",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "传旨已毕回佛殿，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "天女",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第八场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.711,
+        "conflict": 0.909,
+        "sentiment": 0.81
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "拾收拾佛堂",
+      "characters": [
+        {
+          "name": "沙弥甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "众位师弟请了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "三沙弥",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "沙弥丁",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "你看房门开了，长老来也。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "维摩诘",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "茫茫大千，烦恼苦缠牵。",
+          "rating": -0.143,
+          "role": ""
+        },
+        {
+          "name": "四沙弥",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "参见长者。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "文殊师利",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "我佛发宏慈，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "七菩萨",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "问疾净名居。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "花奴",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "天女",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "花出世间谁点化，",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第九场：9位角色，97行",
+      "firstLine": 1,
+      "lastLine": 97,
+      "numLines": 97,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.795,
+        "conflict": 0.479,
+        "sentiment": 0.173
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "天女",
+      "short": "天女",
+      "key": "天女",
+      "quote": "天女 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "沙弥丙",
+      "short": "沙弥",
+      "key": "沙弥丙",
+      "quote": "沙弥丙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "三沙弥",
+      "short": "三沙",
+      "key": "三沙弥",
+      "quote": "三沙弥 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "花奴",
+      "short": "花奴",
+      "key": "花奴",
+      "quote": "花奴 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "沙弥乙",
+      "short": "沙弥",
+      "key": "沙弥乙",
+      "quote": "沙弥乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "如来",
+      "short": "如来",
+      "key": "如来",
+      "quote": "如来 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "沙弥甲",
+      "short": "沙弥",
+      "key": "沙弥甲",
+      "quote": "沙弥甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "伽篮",
+      "short": "伽篮",
+      "key": "伽篮",
+      "quote": "伽篮 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "伽蓝",
+      "short": "伽蓝",
+      "key": "伽蓝",
+      "quote": "伽蓝 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "七菩萨",
+      "short": "七菩",
+      "key": "七菩萨",
+      "quote": "七菩萨 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四沙弥",
+      "short": "四沙",
+      "key": "四沙弥",
+      "quote": "四沙弥 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "维摩诘",
+      "short": "维摩",
+      "key": "维摩诘",
+      "quote": "维摩诘 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "沙弥丁",
+      "short": "沙弥",
+      "key": "沙弥丁",
+      "quote": "沙弥丁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "文殊师利",
+      "short": "文殊",
+      "key": "文殊师利",
+      "quote": "文殊师利 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "毘耶离大城",
+      "key": "毘耶离大城",
+      "quote": "场景发生在毘耶离大城"
+    },
+    {
+      "name": "已毕回佛殿",
+      "key": "已毕回佛殿",
+      "quote": "场景发生在已毕回佛殿"
+    },
+    {
+      "name": "拾收拾佛堂",
+      "key": "拾收拾佛堂",
+      "quote": "场景发生在拾收拾佛堂"
+    },
+    {
+      "name": "毘耶大城",
+      "key": "毘耶大城",
+      "quote": "场景发生在毘耶大城"
+    },
+    {
+      "name": "莲花台",
+      "key": "莲花台",
+      "quote": "场景发生在莲花台"
+    },
+    {
+      "name": "这毘耶离城",
+      "key": "这毘耶离城",
+      "quote": "场景发生在这毘耶离城"
+    },
+    {
+      "name": "到毘耶大城",
+      "key": "到毘耶大城",
+      "quote": "场景发生在到毘耶大城"
+    }
+  ]
+}

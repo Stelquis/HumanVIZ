@@ -1,0 +1,340 @@
+{
+  "title": "妙善出家",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 2,
+  "source_file": "01016018_妙善出家.json",
+  "source_folder": "01000000",
+  "plot_summary": "此剧证明观世音菩萨得道之难，可见人有恒心，百折不挠，乃能修成正果。溯观世音菩萨，姓妙名善，妙庄\n王第三公主。自幼即好佛典，戒绝荤腥，为修真养性之举。妙庄王劝之不从，怒甚，锁禁宫院内。西天教主\n如来佛，运大神通，施大法力，救至香山白衣庵出家。妙庄王又偏听朝臣男女混杂之言，命火其庵。如来护\n以般若舍利之光，公主得以安然无恙，而屋宇及僧众，均成灰烬矣。嗣后妙庄王思女成病，宣召医官调制，\n奏称须用三公主手眼为药引，方能着手回春，否则病必不起。因促相臣林彪，至香山向公主求取。公主孝思\n不匮，不顾肢体之摧残，慨然与之，惟叮嘱病愈后，须妙庄王亲至佛前还愿，以博父女一见缘。而公主从此\n功行圆满，忽生千手千眼，后世信仰者，遂称为千手千眼白衣观世音菩萨云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 15,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.352,
+      "locations": {
+        "一品在朝堂": 1
+      },
+      "characters": {
+        "妙庄王": 1,
+        "林彪": 1
+      },
+      "links": [
+        {
+          "source": "妙庄王",
+          "target": "林彪",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 40,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.938,
+      "locations": {
+        "忙跪香山寺": 1
+      },
+      "characters": {
+        "妙善": 1,
+        "林彪": 1
+      },
+      "links": [
+        {
+          "source": "妙善",
+          "target": "林彪",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 73,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "忙跪香山寺": 1
+      },
+      "characters": {
+        "太监": 1,
+        "妙庄王": 1,
+        "林彪": 1,
+        "王后": 1,
+        "妙善": 1
+      },
+      "links": [
+        {
+          "source": "妙庄王",
+          "target": "林彪",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "妙庄王",
+          "value": 1
+        },
+        {
+          "source": "妙庄王",
+          "target": "王后",
+          "value": 1
+        },
+        {
+          "source": "妙善",
+          "target": "妙庄王",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "林彪",
+          "value": 1
+        },
+        {
+          "source": "林彪",
+          "target": "王后",
+          "value": 1
+        },
+        {
+          "source": "妙善",
+          "target": "林彪",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "王后",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "妙善",
+          "value": 1
+        },
+        {
+          "source": "妙善",
+          "target": "王后",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "一品在朝堂",
+      "characters": [
+        {
+          "name": "林彪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "官居一品在朝堂，赤心耿耿报君王。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "妙庄王",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.691,
+        "conflict": 0.0,
+        "sentiment": 0.79
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "忙跪香山寺",
+      "characters": [
+        {
+          "name": "妙善",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一朝天子身有恙，",
+          "rating": 0.5,
+          "role": "正旦"
+        },
+        {
+          "name": "林彪",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "圣上金殿把旨传，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.635,
+        "sentiment": 0.498
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "忙跪香山寺",
+      "characters": [
+        {
+          "name": "妙庄王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "患病在金銮，去取手连眼。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "林彪",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走哇！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "太监",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王后",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "这一个手执浑元伞，",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "妙善",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "妙善女站云头一声高叫，",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第三场：5位角色，73行",
+      "firstLine": 1,
+      "lastLine": 73,
+      "numLines": 73,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.169,
+        "sentiment": 0.204
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "妙善",
+      "short": "妙善",
+      "key": "妙善",
+      "quote": "妙善 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "妙庄王",
+      "short": "妙庄",
+      "key": "妙庄王",
+      "quote": "妙庄王 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "林彪",
+      "short": "林彪",
+      "key": "林彪",
+      "quote": "林彪 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王后",
+      "short": "王后",
+      "key": "王后",
+      "quote": "王后 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "忙跪香山寺",
+      "key": "忙跪香山寺",
+      "quote": "场景发生在忙跪香山寺"
+    },
+    {
+      "name": "一品在朝堂",
+      "key": "一品在朝堂",
+      "quote": "场景发生在一品在朝堂"
+    }
+  ]
+}

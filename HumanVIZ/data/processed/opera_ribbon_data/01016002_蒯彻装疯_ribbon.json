@@ -1,0 +1,605 @@
+{
+  "title": "蒯彻装疯",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 10,
+  "num_locations": 4,
+  "source_file": "01016002_蒯彻装疯.json",
+  "source_folder": "01000000",
+  "plot_summary": "汉韩信为破楚大元帅，以功封三齐王。其时，天下大权皆归于韩信。齐人蒯彻，极有机变。在韩信帐下逆料\n汉高疑忌太甚，必不能保全功臣，劝信叛汉，韩信不从，蒯彻遂佯狂于市。及九里山一战，楚灭而天下一统，\n韩信即降封为淮阴侯，又被吕后诱斩之，夷其三族。韩信临死有言，悔不用蒯彻之计，为貌女子所诈。帝\n即命陆贾取蒯彻前来问罪。陆贾奉命往齐，果见蒯彻或哭或歌，语言颠倒，乃智诱与语，始恢复其故态。遂\n送至洛阳见帝。帝欲烹之，置油鼎于殿上，蒯彻侃侃直陈，既不推诿，又不瑟缩；帝为之动容，因赦其罪。\n蒯彻乞韩信首级，葬于淮阴。予以官，不受；闲散以终其身。",
+  "performance_notes": "是剧为名伶汪笑侬生平所最擅长者。每逢串演时，舞台中座位，几有无隙可乘之势。可见笑侬之唱功做作，\n自有出人头地处也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 4,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.056,
+      "locations": {
+        "王扶保朝堂": 1
+      },
+      "characters": {
+        "蒯彻": 1,
+        "陆贾": 1
+      },
+      "links": [
+        {
+          "source": "蒯彻",
+          "target": "陆贾",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 114,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "万岁台": 1
+      },
+      "characters": {
+        "乞丐乙": 1,
+        "萧何": 1,
+        "陆贾": 1,
+        "乞丐甲": 1,
+        "蒯彻": 1
+      },
+      "links": [
+        {
+          "source": "乞丐乙",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "乞丐甲",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "蒯彻",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "乞丐乙",
+          "target": "乞丐甲",
+          "value": 1
+        },
+        {
+          "source": "乞丐乙",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "乞丐乙",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "乞丐甲",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "乞丐甲",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "陆贾",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 97,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "王扶保朝堂": 1
+      },
+      "characters": {
+        "众人": 1,
+        "樊哙": 1,
+        "陈平": 1,
+        "萧何": 1,
+        "陆贾": 1,
+        "刘邦": 1,
+        "蒯彻": 1,
+        "内监": 1
+      },
+      "links": [
+        {
+          "source": "刘邦",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "刘邦",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "刘邦",
+          "value": 1
+        },
+        {
+          "source": "刘邦",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "刘邦",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "刘邦",
+          "target": "樊哙",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "刘邦",
+          "value": 1
+        },
+        {
+          "source": "蒯彻",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "陆贾",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "樊哙",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "陆贾",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "蒯彻",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "樊哙",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "蒯彻",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "樊哙",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "内监",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "樊哙",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "樊哙",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "樊哙",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "王扶保朝堂",
+      "characters": [
+        {
+          "name": "陆贾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "俺，陆贾。奉了大王之命，捉拿蒯彻。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "蒯彻",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.517,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "万岁台",
+      "characters": [
+        {
+          "name": "蒯彻",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "实指望忠心来报国，",
+          "rating": 0.429,
+          "role": "老生"
+        },
+        {
+          "name": "乞丐乙",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "闲话少说，今天没有事，咱们去看看那一个疯子，还在那里不在？",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "乞丐甲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "吃得饱，睡得着，世人都没有叫化高。要得多，吃个饱；讨得少，将就了。叫",
+          "rating": 0.6,
+          "role": "丑"
+        },
+        {
+          "name": "陆贾",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "这人果在此地，待我下马唤他一声。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "萧何",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第二场：5位角色，114行",
+      "firstLine": 1,
+      "lastLine": 114,
+      "numLines": 114,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.329,
+        "sentiment": 0.342
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "王扶保朝堂",
+      "characters": [
+        {
+          "name": "刘邦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "有孤王上金殿金钟三响，",
+          "rating": 0.333,
+          "role": "生"
+        },
+        {
+          "name": "陆贾",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "盖世忠良无下场，撩袍端带见君王。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "蒯彻",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "韩元帅本是忠良将，",
+          "rating": -0.091,
+          "role": "老生"
+        },
+        {
+          "name": "内监",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "蒯先生，走吧！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "萧何",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "望万岁开皇恩不把罪降，",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "陈平",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "老丞相不该把本来上，",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "樊哙",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "萧丞相切莫要把本乱上，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "众人",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "谢万岁！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：8位角色，97行",
+      "firstLine": 1,
+      "lastLine": 97,
+      "numLines": 97,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.833,
+        "conflict": 0.442,
+        "sentiment": 0.104
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "蒯彻",
+      "short": "蒯彻",
+      "key": "蒯彻",
+      "quote": "蒯彻 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "乞丐甲",
+      "short": "乞丐",
+      "key": "乞丐甲",
+      "quote": "乞丐甲 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "乞丐乙",
+      "short": "乞丐",
+      "key": "乞丐乙",
+      "quote": "乞丐乙 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "刘邦",
+      "short": "刘邦",
+      "key": "刘邦",
+      "quote": "刘邦 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陆贾",
+      "short": "陆贾",
+      "key": "陆贾",
+      "quote": "陆贾 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "萧何",
+      "short": "萧何",
+      "key": "萧何",
+      "quote": "萧何 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "樊哙",
+      "short": "樊哙",
+      "key": "樊哙",
+      "quote": "樊哙 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "内监",
+      "short": "内监",
+      "key": "内监",
+      "quote": "内监 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陈平",
+      "short": "陈平",
+      "key": "陈平",
+      "quote": "陈平 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "王扶保朝堂",
+      "key": "王扶保朝堂",
+      "quote": "场景发生在王扶保朝堂"
+    },
+    {
+      "name": "万岁台",
+      "key": "万岁台",
+      "quote": "场景发生在万岁台"
+    },
+    {
+      "name": "金銮殿",
+      "key": "金銮殿",
+      "quote": "场景发生在金銮殿"
+    },
+    {
+      "name": "朝中登台",
+      "key": "朝中登台",
+      "quote": "场景发生在朝中登台"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "title": "双观星",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01012016_双观星.json",
+  "source_folder": "01000000",
+  "plot_summary": "考残唐传说中，载晋王李克用，为唐昭宗为朱温篡弑，会集各路王子，发兵征讨。梁将王彦章，除十三太保\n李存孝外，天下无有能敌者。时李存孝已殁数年，故唐营中众王子太保及诸名将，竟无一对手，俱为王彦章\n杀伤，晋王亦气死军中。相持数年，唐兵已势穷力竭，卒至李友金处乞师，得史建唐领兵入援，方告成功。\n此剧事实，系史建唐于布阵之前一夕，私与先锋高行周，夜往山顶同观天象。见西北将星坠地，知王彦章亡\n在旦夕，乃归布阵，卒擒王彦章。",
+  "performance_notes": "《双观星》一剧，乃五代残唐中，史建唐剿灭梁将铁枪王彦章时事。在史建唐布设五方五龙阵于狗家疃，五\n龙逼死王彦章之前。脚本中沿误袭谬，自来均以为石敬塘事，故有人亦称为《石敬塘观星》。实则石敬塘三\n字，系与史建唐三字声音相近之误。\n剧中初无甚情节，惟二幼童同看同唱而已。全剧纯系唱工。所谓二童者，史建唐与高行周二人，时皆只十三\n四龄之小将耳，说传中亦可按也。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 77,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "高行周": 1,
+        "二家将": 1,
+        "石敬塘": 1
+      },
+      "links": [
+        {
+          "source": "石敬塘",
+          "target": "高行周",
+          "value": 1
+        },
+        {
+          "source": "二家将",
+          "target": "高行周",
+          "value": 1
+        },
+        {
+          "source": "二家将",
+          "target": "石敬塘",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "高行周",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "志气昂昂贯斗牛，",
+          "rating": 0.0,
+          "role": "童"
+        },
+        {
+          "name": "石敬塘",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "狭路相逢难回避，",
+          "rating": 0.0,
+          "role": "童"
+        },
+        {
+          "name": "二家将",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "段落1：3位角色，77行",
+      "firstLine": 1,
+      "lastLine": 77,
+      "numLines": 77,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.367,
+        "sentiment": 0.402
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "石敬塘",
+      "short": "石敬",
+      "key": "石敬塘",
+      "quote": "石敬塘 — 童",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 童",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "高行周",
+      "short": "高行",
+      "key": "高行周",
+      "quote": "高行周 — 童",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 童",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二家将",
+      "short": "二家",
+      "key": "二家将",
+      "quote": "二家将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

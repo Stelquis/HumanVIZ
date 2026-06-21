@@ -1,0 +1,851 @@
+{
+  "title": "池水驿",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 13,
+  "num_locations": 6,
+  "source_file": "01034004_池水驿.json",
+  "source_folder": "01000000",
+  "plot_summary": "自殷碧莲与其父殷照磨（官名）欲出潼关避婚，在少华山遇盗后，殷碧莲被抢，秋香失散，老主仆二人，求\n死不能，只得狼狈回家。其婿张润和已来上门抢过，见殷父女均不在，遂向殷夫人餂得确实，知已避赴潼关\n外。渠亦假惺惺，谓潼关道上多山寇，不能放心，即命张福立往探问云。惟殷照磨主仆则既归，而秋香失散\n以后，独身伶丁，颇尝辛苦，幸至池水驿，得遇店主人收留为女，暂作栖身，缓缓访问。一日，忽有少男女\n一对，前来池水驿下寓，秋香一见岂知即是殷碧莲，然不知彼同来之少年是谁。既而二人难分难离，少年则\n急急欲行，殷碧莲则恋恋不舍，再四唤回。盖此少年系搭救殷碧莲之人，故殷碧莲已属意于彼，而彼少年却\n义气干云，绝无些微暧昧心也。此末一段始为《池水驿》正文，即是班中所常演者。",
+  "performance_notes": "《池水驿》一戏，近来班中，往往单演殷碧莲、秋香主婢在池水驿相会一段。此本系全出，与上出《少华山\n》紧接。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 52,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 1.0,
+      "importance": 0.505,
+      "locations": {
+        "家逃出潼关": 1,
+        "当我家祠堂": 2
+      },
+      "characters": {
+        "丑院子": 1,
+        "院子": 1,
+        "四青袍": 1,
+        "秋香": 1,
+        "张润和": 1,
+        "殷照磨": 1,
+        "四家丁": 1
+      },
+      "links": [
+        {
+          "source": "殷照磨",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "殷照磨",
+          "value": 1
+        },
+        {
+          "source": "张润和",
+          "target": "殷照磨",
+          "value": 2
+        },
+        {
+          "source": "四青袍",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "张润和",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "张润和",
+          "value": 1
+        },
+        {
+          "source": "丑院子",
+          "target": "张润和",
+          "value": 1
+        },
+        {
+          "source": "丑院子",
+          "target": "四家丁",
+          "value": 1
+        },
+        {
+          "source": "丑院子",
+          "target": "殷照磨",
+          "value": 1
+        },
+        {
+          "source": "四家丁",
+          "target": "张润和",
+          "value": 1
+        },
+        {
+          "source": "四家丁",
+          "target": "殷照磨",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 164,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.594,
+      "importance": 1.0,
+      "locations": {
+        "殷家门": 1,
+        "自家门": 1,
+        "这本街": 1
+      },
+      "characters": {
+        "丑院子": 1,
+        "殷夫人": 1,
+        "老院子": 1,
+        "秋香": 1,
+        "张润和": 1,
+        "店家": 1,
+        "差人": 1,
+        "殷照磨": 1,
+        "四家丁": 1
+      },
+      "links": [
+        {
+          "source": "丑院子",
+          "target": "张润和",
+          "value": 1
+        },
+        {
+          "source": "丑院子",
+          "target": "老院子",
+          "value": 1
+        },
+        {
+          "source": "丑院子",
+          "target": "殷夫人",
+          "value": 1
+        },
+        {
+          "source": "丑院子",
+          "target": "四家丁",
+          "value": 1
+        },
+        {
+          "source": "张润和",
+          "target": "老院子",
+          "value": 1
+        },
+        {
+          "source": "张润和",
+          "target": "殷夫人",
+          "value": 1
+        },
+        {
+          "source": "四家丁",
+          "target": "张润和",
+          "value": 1
+        },
+        {
+          "source": "殷夫人",
+          "target": "老院子",
+          "value": 2
+        },
+        {
+          "source": "四家丁",
+          "target": "老院子",
+          "value": 1
+        },
+        {
+          "source": "四家丁",
+          "target": "殷夫人",
+          "value": 1
+        },
+        {
+          "source": "殷照磨",
+          "target": "老院子",
+          "value": 1
+        },
+        {
+          "source": "殷夫人",
+          "target": "殷照磨",
+          "value": 1
+        },
+        {
+          "source": "差人",
+          "target": "殷照磨",
+          "value": 1
+        },
+        {
+          "source": "差人",
+          "target": "老院子",
+          "value": 1
+        },
+        {
+          "source": "差人",
+          "target": "殷夫人",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "秋香",
+          "value": 1
+        },
+        {
+          "source": "殷照磨",
+          "target": "秋香",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "殷照磨",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 196,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.317,
+      "importance": 1.0,
+      "locations": {
+        "当我家祠堂": 3
+      },
+      "characters": {
+        "殷碧莲": 1,
+        "丑院子": 1,
+        "秋香": 1,
+        "店家": 1,
+        "倪厚": 1
+      },
+      "links": [
+        {
+          "source": "店家",
+          "target": "秋香",
+          "value": 1
+        },
+        {
+          "source": "倪厚",
+          "target": "殷碧莲",
+          "value": 1
+        },
+        {
+          "source": "倪厚",
+          "target": "秋香",
+          "value": 1
+        },
+        {
+          "source": "殷碧莲",
+          "target": "秋香",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "家逃出潼关",
+      "characters": [
+        {
+          "name": "殷照磨",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哎呀，且住！是我父女在家逃出潼关，路过少华山，又被此山大王，将我女儿",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓家爷，不必如此。先回到府去，再作道理。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我等不知去向。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张润和",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：4位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.432,
+        "conflict": 1.0,
+        "sentiment": -0.436
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "当我家祠堂",
+      "characters": [
+        {
+          "name": "丑院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "打听殷家事，禀报公子知。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张润和",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "自幼生来浪荡，懒读诗书文章，喜的是游山走马，爱的是烟花柳卷，观的是美",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "四家丁",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "参见公子。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "殷照磨",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.486,
+        "conflict": 0.303,
+        "sentiment": 0.564
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "当我家祠堂",
+      "characters": [
+        {
+          "name": "秋香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎呀且慢！是我跟随我家小姐，逃出门来。行在山口，下来许多山贼，将我们",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.078,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "殷家门",
+      "characters": [
+        {
+          "name": "丑院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "公子，来到殷家门首。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张润和",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "上前叫门。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "老院子",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "什么人叫门？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "殷夫人",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "四家丁",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "无有小姐。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：5位角色，60行",
+      "firstLine": 1,
+      "lastLine": 60,
+      "numLines": 60,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.518,
+        "conflict": 0.265,
+        "sentiment": 0.361
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "自家门",
+      "characters": [
+        {
+          "name": "殷照磨",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "出了虎口地，来到自家门。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "老院子",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "又是哪个叫门？待我看来。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "殷夫人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "差人",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "见家爷。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：4位角色，67行",
+      "firstLine": 1,
+      "lastLine": 67,
+      "numLines": 67,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.617,
+        "conflict": 0.405,
+        "sentiment": 0.176
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "这本街",
+      "characters": [
+        {
+          "name": "秋香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哎呀且住！是我来到此地，投奔哪里？看那边有一老头，待我上前问来。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "店家",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "一关一缩不成店，一开一掀不见面，他在头里走，我在后面赶，二人见了面，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "殷照磨",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第六场：3位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.448,
+        "conflict": 0.244,
+        "sentiment": 0.77
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "当我家祠堂",
+      "characters": [
+        {
+          "name": "丑院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我张福。奉了我家公子之命，带领家丁，打听殷小姐的下落。我想这一路之上，",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.078,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "当我家祠堂",
+      "characters": [
+        {
+          "name": "店家",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "人得喜事精神爽，",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "秋香",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来了！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：2位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.189,
+        "conflict": 1.0,
+        "sentiment": 0.567
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "当我家祠堂",
+      "characters": [
+        {
+          "name": "倪厚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "出了虎口地，再等豺狼围。",
+          "rating": 0.4,
+          "role": "小生"
+        },
+        {
+          "name": "殷碧莲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "走吓！",
+          "rating": 0.429,
+          "role": "花旦"
+        },
+        {
+          "name": "秋香",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "开的君子店，等候奴主人。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第九场：3位角色，172行",
+      "firstLine": 1,
+      "lastLine": 172,
+      "numLines": 172,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.747,
+        "conflict": 0.267,
+        "sentiment": 0.443
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "殷碧莲",
+      "short": "殷碧",
+      "key": "殷碧莲",
+      "quote": "殷碧莲 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "倪厚",
+      "short": "倪厚",
+      "key": "倪厚",
+      "quote": "倪厚 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "殷照磨",
+      "short": "殷照",
+      "key": "殷照磨",
+      "quote": "殷照磨 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张润和",
+      "short": "张润",
+      "key": "张润和",
+      "quote": "张润和 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "殷夫人",
+      "short": "殷夫",
+      "key": "殷夫人",
+      "quote": "殷夫人 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "丑院子",
+      "short": "丑院",
+      "key": "丑院子",
+      "quote": "丑院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老院子",
+      "short": "老院",
+      "key": "老院子",
+      "quote": "老院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "秋香",
+      "short": "秋香",
+      "key": "秋香",
+      "quote": "秋香 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "店家",
+      "short": "店家",
+      "key": "店家",
+      "quote": "店家 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "差人",
+      "short": "差人",
+      "key": "差人",
+      "quote": "差人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四家丁",
+      "short": "四家",
+      "key": "四家丁",
+      "quote": "四家丁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "当我家祠堂",
+      "key": "当我家祠堂",
+      "quote": "场景发生在当我家祠堂"
+    },
+    {
+      "name": "殷家门",
+      "key": "殷家门",
+      "quote": "场景发生在殷家门"
+    },
+    {
+      "name": "自家门",
+      "key": "自家门",
+      "quote": "场景发生在自家门"
+    },
+    {
+      "name": "这本街",
+      "key": "这本街",
+      "quote": "场景发生在这本街"
+    },
+    {
+      "name": "家逃出潼关",
+      "key": "家逃出潼关",
+      "quote": "场景发生在家逃出潼关"
+    },
+    {
+      "name": "前叫门",
+      "key": "前叫门",
+      "quote": "场景发生在前叫门"
+    }
+  ]
+}

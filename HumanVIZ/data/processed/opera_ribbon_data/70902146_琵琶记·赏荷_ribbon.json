@@ -1,0 +1,272 @@
+{
+  "title": "琵琶记·赏荷",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70902146_琵琶记·赏荷.json",
+  "source_folder": "70902000",
+  "plot_summary": "蔡邕在牛府招亲，离家经年，思念家中父母与妻子，但又不敢透露消息。牛氏请他弹一曲《风入松》，他却\n误弹了《思归引》，牛氏排宴，他只得强忍悲愁，与之同饮。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 37,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.624,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "琴童": 1,
+        "蔡邕": 1,
+        "鹤童": 1
+      },
+      "links": [
+        {
+          "source": "蔡邕",
+          "target": "鹤童",
+          "value": 1
+        },
+        {
+          "source": "琴童",
+          "target": "蔡邕",
+          "value": 1
+        },
+        {
+          "source": "琴童",
+          "target": "鹤童",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 139,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "蔡邕": 1,
+        "惜春": 1,
+        "牛氏": 1
+      },
+      "links": [
+        {
+          "source": "牛氏",
+          "target": "蔡邕",
+          "value": 1
+        },
+        {
+          "source": "惜春",
+          "target": "牛氏",
+          "value": 1
+        },
+        {
+          "source": "惜春",
+          "target": "蔡邕",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.034,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "蔡邕",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "闲庭——",
+          "rating": -1.0,
+          "role": "冠生"
+        },
+        {
+          "name": "鹤童",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啥个？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "琴童",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "兄弟你烧香，我打扇。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：3位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.625,
+        "conflict": 0.0,
+        "sentiment": -0.287
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "牛氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "嫩绿池塘，梅雨歇，熏风乍转。",
+          "rating": -0.429,
+          "role": "六旦"
+        },
+        {
+          "name": "蔡邕",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "夫人请坐。",
+          "rating": -0.2,
+          "role": "冠生"
+        },
+        {
+          "name": "惜春",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "楼台倒影入池塘，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：3位角色，139行",
+      "firstLine": 1,
+      "lastLine": 139,
+      "numLines": 139,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.435,
+        "sentiment": 0.045
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第3场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.007,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "蔡邕",
+      "short": "蔡邕",
+      "key": "蔡邕",
+      "quote": "蔡邕 — 冠生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 冠生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "牛氏",
+      "short": "牛氏",
+      "key": "牛氏",
+      "quote": "牛氏 — 六旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 六旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "惜春",
+      "short": "惜春",
+      "key": "惜春",
+      "quote": "惜春 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "鹤童",
+      "short": "鹤童",
+      "key": "鹤童",
+      "quote": "鹤童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "琴童",
+      "short": "琴童",
+      "key": "琴童",
+      "quote": "琴童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

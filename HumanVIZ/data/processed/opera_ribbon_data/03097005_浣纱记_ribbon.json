@@ -1,0 +1,179 @@
+{
+  "title": "浣纱记",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "03097005_浣纱记.json",
+  "source_folder": "03000000",
+  "plot_summary": "伍员逃出昭关，为大江所阻，幸遇渔丈人渡之过江。过江后，嘱渔丈人勿泄。渔丈人为消伍员疑而投江。伍\n员渡江后，途中饥饿。适遇浣纱女子，向之乞食。浣纱女以食济伍员。行时，嘱浣纱女勿泄。浣纱女为明己\n志，亦投江死。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 69,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.798,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "伍员": 1,
+        "渔丈人": 1
+      },
+      "links": [
+        {
+          "source": "伍员",
+          "target": "渔丈人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 104,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "浣纱女": 1,
+        "伍员": 1
+      },
+      "links": [
+        {
+          "source": "伍员",
+          "target": "浣纱女",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "伍员",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哎呀且住！前有长江，后有追兵，无舟可渡，如何是好！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "渔丈人",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "打鱼哟！",
+          "rating": -0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：2位角色，69行",
+      "firstLine": 1,
+      "lastLine": 69,
+      "numLines": 69,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.654,
+        "sentiment": 0.011
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "伍员",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "豪杰打马奔吴国，",
+          "rating": -0.667,
+          "role": "老生"
+        },
+        {
+          "name": "浣纱女",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "光阴一去快如梭，",
+          "rating": 0.143,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：2位角色，104行",
+      "firstLine": 1,
+      "lastLine": 104,
+      "numLines": 104,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.5,
+        "sentiment": 0.165
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "伍员",
+      "short": "伍员",
+      "key": "伍员",
+      "quote": "伍员 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "渔丈人",
+      "short": "渔丈",
+      "key": "渔丈人",
+      "quote": "渔丈人 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "浣纱女",
+      "short": "浣纱",
+      "key": "浣纱女",
+      "quote": "浣纱女 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

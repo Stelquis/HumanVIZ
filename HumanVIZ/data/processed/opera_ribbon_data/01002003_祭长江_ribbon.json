@@ -1,0 +1,151 @@
+{
+  "title": "祭长江",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "01002003_祭长江.json",
+  "source_folder": "01000000",
+  "plot_summary": "赵云截江夺斗后，孙夫人独居江东。后关羽、张飞遇害，刘先主兴师大伐东吴，被陆逊用火攻之计，连营七\n百余里尽付一炬，先主仅以身免，赖赵云救往白帝城暂避。孙夫人在吴闻信，误谓先主已死，不胜悲痛，乃\n请于国太，欲往江边祭奠，以尽夫妇之谊，国太允之。夫人至江边，易白衣冠望西号哭，竟投江而死。后人\n相传孙夫人投江后，上帝嘉其贞洁，封为枭姬。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 51,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙尚香": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 10,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.328,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙尚香": 1,
+        "龙王": 1
+      },
+      "links": [
+        {
+          "source": "孙尚香",
+          "target": "龙王",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙尚香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "摆驾。",
+          "rating": -0.273,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第一场：1位角色，51行",
+      "firstLine": 1,
+      "lastLine": 51,
+      "numLines": 51,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.951,
+        "conflict": 0.571,
+        "sentiment": -0.024
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "龙王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "玉旨下，跪。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "孙尚香",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第二场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.749,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙尚香",
+      "short": "孙尚",
+      "key": "孙尚香",
+      "quote": "孙尚香 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙王",
+      "short": "龙王",
+      "key": "龙王",
+      "quote": "龙王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

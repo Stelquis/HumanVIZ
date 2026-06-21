@@ -1,0 +1,361 @@
+{
+  "title": "盗魂铃",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "01015009_盗魂铃.json",
+  "source_folder": "01000000",
+  "plot_summary": "唐三藏师徒四人往西天取经。大徒悟空，即孙行者；二徒悟能，即猪八戒；三徒悟净，即沙和尚。一路之上，\n所遇邪魔难以屈指计。孙行者擒妖捉怪之功，诚所谓独一无二，猪八戒与沙和尚，虽稍有能力，不过做一\n帮手而已。妖怪迷人之计，层出不穷，不得不随处留神。行经一山，三藏命八戒探路，见山岗上茅屋数间，\n有年轻女子坐在门前嬉戏。八戒生性好色，遂与之插科打诨，借口中枯渴为名，乞取茶水。不料女子即妖怪\n之化身，坦然邀入内室。蓄有宝铃一个，举手摇动，可以摄人之魂，安放在桌上，光芒四射。八戒见之，始\n悟为妖怪之物，而已进妖怪之门，乘其不备，将铃盗出。女子拼力追赶，八戒几为所困。幸孙行者寻踪而至，\n上前救护。",
+  "performance_notes": "是剧情节，无甚精彩，沪上各舞台每逢排演，座为之满。推原其故，本应武丑串八戒，而易以鼎鼎大名之文\n武须生，其魔力之入人深，有不期然而然者矣。谭鑫培在中年时最为拿手之剧。盖于角斗时须高叠方桌四五\n只，由上反跌而下，艺员中之能力薄弱者，不敢轻为尝试。近来杨四立、王又宸所演亦颇可观，其唱做功夫，\n并皆佳妙。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 103,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 1.063,
+      "importance": 1.0,
+      "locations": {
+        "跟头上高台": 3
+      },
+      "characters": {
+        "孙悟空": 1,
+        "妖怪": 1,
+        "金铃大仙": 1,
+        "猪八戒": 1
+      },
+      "links": [
+        {
+          "source": "猪八戒",
+          "target": "金铃大仙",
+          "value": 1
+        },
+        {
+          "source": "妖怪",
+          "target": "猪八戒",
+          "value": 3
+        },
+        {
+          "source": "妖怪",
+          "target": "金铃大仙",
+          "value": 1
+        },
+        {
+          "source": "妖怪",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪八戒",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 20,
+      "summary": "第四场；第五场",
+      "conflict": 0.686,
+      "importance": 0.325,
+      "locations": {
+        "跟头上高台": 2
+      },
+      "characters": {
+        "孙悟空": 1,
+        "妖怪": 1,
+        "猪八戒": 1
+      },
+      "links": [
+        {
+          "source": "妖怪",
+          "target": "猪八戒",
+          "value": 2
+        },
+        {
+          "source": "妖怪",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪八戒",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "跟头上高台",
+      "characters": [
+        {
+          "name": "猪八戒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "走吓！",
+          "rating": 0.25,
+          "role": "老生"
+        },
+        {
+          "name": "金铃大仙",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你是个做什么的？",
+          "rating": 1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "妖怪",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：3位角色，85行",
+      "firstLine": 1,
+      "lastLine": 85,
+      "numLines": 85,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.146,
+        "sentiment": 0.244
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "跟头上高台",
+      "characters": [
+        {
+          "name": "妖怪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呔！你是何人？擅敢盗俺的宝贝。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你休得胡言，宝铃取你。",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.628,
+        "conflict": 1.0,
+        "sentiment": 0.768
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "跟头上高台",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "辞别师傅下山林，",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "妖怪",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：3位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.589,
+        "conflict": 1.0,
+        "sentiment": -0.295
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "跟头上高台",
+      "characters": [
+        {
+          "name": "猪八戒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "看我猴儿哥，带了许多猴儿崽子，杀得十分热闹。我不免也下上几个小猪，同",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "妖怪",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.696,
+        "conflict": 0.741,
+        "sentiment": -0.406
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "跟头上高台",
+      "characters": [
+        {
+          "name": "妖怪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来，摆阵擒他。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：3位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.54,
+        "conflict": 0.0,
+        "sentiment": 0.28
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "猪八戒",
+      "short": "猪八",
+      "key": "猪八戒",
+      "quote": "猪八戒 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "金铃大仙",
+      "short": "金铃",
+      "key": "金铃大仙",
+      "quote": "金铃大仙 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "妖怪",
+      "short": "妖怪",
+      "key": "妖怪",
+      "quote": "妖怪 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "跟头上高台",
+      "key": "跟头上高台",
+      "quote": "场景发生在跟头上高台"
+    },
+    {
+      "name": "八戒上高台",
+      "key": "八戒上高台",
+      "quote": "场景发生在八戒上高台"
+    }
+  ]
+}

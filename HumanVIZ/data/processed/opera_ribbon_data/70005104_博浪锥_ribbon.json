@@ -1,0 +1,503 @@
+{
+  "title": "博浪锥",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 7,
+  "num_locations": 3,
+  "source_file": "70005104_博浪锥.json",
+  "source_folder": "70005000",
+  "plot_summary": "秦时，张良蓄谋反秦，遣友苍海公刺杀秦始皇未遂，海公慷慨就义。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 131,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.154,
+      "importance": 1.0,
+      "locations": {
+        "还要造长城": 1,
+        "死上断头台": 2
+      },
+      "characters": {
+        "秦始皇": 1,
+        "张良": 1,
+        "太监": 1,
+        "众人": 1,
+        "苍海公": 1
+      },
+      "links": [
+        {
+          "source": "众人",
+          "target": "张良",
+          "value": 1
+        },
+        {
+          "source": "张良",
+          "target": "苍海公",
+          "value": 1
+        },
+        {
+          "source": "张良",
+          "target": "秦始皇",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "苍海公",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "秦始皇",
+          "value": 2
+        },
+        {
+          "source": "秦始皇",
+          "target": "苍海公",
+          "value": 2
+        },
+        {
+          "source": "众人",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "秦始皇",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 37,
+      "summary": "第四场；第五场",
+      "conflict": 0.125,
+      "importance": 0.44,
+      "locations": {
+        "死上断头台": 2
+      },
+      "characters": {
+        "秦始皇": 1,
+        "张良": 1,
+        "众人": 1,
+        "御林军": 1,
+        "二御林军": 1,
+        "苍海公": 1
+      },
+      "links": [
+        {
+          "source": "二御林军",
+          "target": "秦始皇",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "秦始皇",
+          "value": 1
+        },
+        {
+          "source": "秦始皇",
+          "target": "苍海公",
+          "value": 1
+        },
+        {
+          "source": "御林军",
+          "target": "秦始皇",
+          "value": 1
+        },
+        {
+          "source": "二御林军",
+          "target": "众人",
+          "value": 1
+        },
+        {
+          "source": "二御林军",
+          "target": "苍海公",
+          "value": 1
+        },
+        {
+          "source": "二御林军",
+          "target": "御林军",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "苍海公",
+          "value": 2
+        },
+        {
+          "source": "众人",
+          "target": "御林军",
+          "value": 1
+        },
+        {
+          "source": "御林军",
+          "target": "苍海公",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "张良",
+          "value": 1
+        },
+        {
+          "source": "张良",
+          "target": "苍海公",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "还要造长城",
+      "characters": [
+        {
+          "name": "张良",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "堂堂好男子，最好沙场死。死只一回勿浪死，不报国仇誓不止！",
+          "rating": 0.231,
+          "role": "武生"
+        },
+        {
+          "name": "众人",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "秦皇帝来到，还不早躲么！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "苍海公",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "眼中黑白要分明，天谴魔君杀不平。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "秦始皇",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：4位角色，106行",
+      "firstLine": 1,
+      "lastLine": 106,
+      "numLines": 106,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.571,
+        "sentiment": 0.207
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "死上断头台",
+      "characters": [
+        {
+          "name": "众人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "咦咦咦咦！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "秦始皇",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "竹帛烟消，兵气销。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "太监",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.54,
+        "conflict": 0.556,
+        "sentiment": 0.207
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "死上断头台",
+      "characters": [
+        {
+          "name": "苍海公",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "准备窝弓擒猛虎，安排香饵钓鳌鱼。",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "秦始皇",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.627,
+        "conflict": 1.0,
+        "sentiment": 0.053
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "死上断头台",
+      "characters": [
+        {
+          "name": "秦始皇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "若非巧计安排定，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "二御林军",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启奏万岁：刺客拿着了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "喳！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "苍海公",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "悲哉秦人真虎狼，",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "御林军",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "启奏万岁：刺客拿着了！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：5位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.706,
+        "conflict": 0.741,
+        "sentiment": 0.035
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "死上断头台",
+      "characters": [
+        {
+          "name": "张良",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "闻得苍海公已死，暴君命人各处搜杀主使之人，这、这、这、这便如何是好？",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "众人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "起驾。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "苍海公",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -0.333,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.626,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张良",
+      "short": "张良",
+      "key": "张良",
+      "quote": "张良 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "苍海公",
+      "short": "苍海",
+      "key": "苍海公",
+      "quote": "苍海公 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "秦始皇",
+      "short": "秦始",
+      "key": "秦始皇",
+      "quote": "秦始皇 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "御林军",
+      "short": "御林",
+      "key": "御林军",
+      "quote": "御林军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二御林军",
+      "short": "二御",
+      "key": "二御林军",
+      "quote": "二御林军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "死上断头台",
+      "key": "死上断头台",
+      "quote": "场景发生在死上断头台"
+    },
+    {
+      "name": "还要造长城",
+      "key": "还要造长城",
+      "quote": "场景发生在还要造长城"
+    },
+    {
+      "name": "断头台",
+      "key": "断头台",
+      "quote": "场景发生在断头台"
+    }
+  ]
+}

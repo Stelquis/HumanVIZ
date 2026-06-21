@@ -1,0 +1,305 @@
+{
+  "title": "钟子期听琴",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "03074004_钟子期听琴.json",
+  "source_folder": "03000000",
+  "plot_summary": "战国时，晋大夫俞伯牙使楚，回朝复旨，行船至马鞍山，忽遇大风，停舟岸边，操琴自娱。适钟子期进山砍\n柴，闻声窃听。二人相见，互谈琴律，两相爱慕，遂结为异姓兄弟。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 258,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "钟子期": 1,
+        "四水手": 1,
+        "俞伯牙": 1,
+        "琴童": 1
+      },
+      "links": [
+        {
+          "source": "俞伯牙",
+          "target": "琴童",
+          "value": 1
+        },
+        {
+          "source": "俞伯牙",
+          "target": "四水手",
+          "value": 1
+        },
+        {
+          "source": "俞伯牙",
+          "target": "钟子期",
+          "value": 1
+        },
+        {
+          "source": "四水手",
+          "target": "琴童",
+          "value": 1
+        },
+        {
+          "source": "琴童",
+          "target": "钟子期",
+          "value": 1
+        },
+        {
+          "source": "四水手",
+          "target": "钟子期",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 62,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.388,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "钟子期": 1,
+        "钟元圃": 1,
+        "俞伯牙": 1,
+        "钟婆": 1
+      },
+      "links": [
+        {
+          "source": "钟元圃",
+          "target": "钟婆",
+          "value": 1
+        },
+        {
+          "source": "钟元圃",
+          "target": "钟子期",
+          "value": 1
+        },
+        {
+          "source": "俞伯牙",
+          "target": "钟元圃",
+          "value": 1
+        },
+        {
+          "source": "钟婆",
+          "target": "钟子期",
+          "value": 1
+        },
+        {
+          "source": "俞伯牙",
+          "target": "钟婆",
+          "value": 1
+        },
+        {
+          "source": "俞伯牙",
+          "target": "钟子期",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "俞伯牙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "只为寻胜观奇景，不顾登山涉水难。",
+          "rating": -0.077,
+          "role": "生"
+        },
+        {
+          "name": "琴童",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四水手",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "开舟！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "钟子期",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "走啊！",
+          "rating": 0.053,
+          "role": "生"
+        }
+      ],
+      "summary": "第一场：4位角色，258行",
+      "firstLine": 1,
+      "lastLine": 258,
+      "numLines": 258,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.235,
+        "sentiment": 0.218
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "钟元圃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "昨夜晚未安眠夫妻同坐，",
+          "rating": -0.2,
+          "role": ""
+        },
+        {
+          "name": "钟婆",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我的儿不见回却是为何？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "钟子期",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "好一个俞伯牙仁义待我，",
+          "rating": 0.333,
+          "role": "生"
+        },
+        {
+          "name": "俞伯牙",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第二场：4位角色，62行",
+      "firstLine": 1,
+      "lastLine": 62,
+      "numLines": 62,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.816,
+        "conflict": 0.735,
+        "sentiment": 0.2
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "钟子期",
+      "short": "钟子",
+      "key": "钟子期",
+      "quote": "钟子期 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "俞伯牙",
+      "short": "俞伯",
+      "key": "俞伯牙",
+      "quote": "俞伯牙 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "钟元圃",
+      "short": "钟元",
+      "key": "钟元圃",
+      "quote": "钟元圃 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四水手",
+      "short": "四水",
+      "key": "四水手",
+      "quote": "四水手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "钟婆",
+      "short": "钟婆",
+      "key": "钟婆",
+      "quote": "钟婆 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "琴童",
+      "short": "琴童",
+      "key": "琴童",
+      "quote": "琴童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

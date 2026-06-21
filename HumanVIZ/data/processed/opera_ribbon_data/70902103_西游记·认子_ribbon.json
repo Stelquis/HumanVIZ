@@ -1,0 +1,151 @@
+{
+  "title": "西游记·认子",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "70902103_西游记·认子.json",
+  "source_folder": "70902000",
+  "plot_summary": "唐洪州太守陈光蕊，携眷赴任，被贼人刘洪所害；其妻殷氏，身怀有孕，又被霸占。殷氏生下一子，被迫裹\n了金钗血书，投入江中。此子被金山和尚救起，剃度在佛门中，即著名高僧玄奘。",
+  "performance_notes": "《认子》写玄奘寻母，殷氏认子的过程，为正旦主戏。所用曲牌是昆曲中仅存的〖北商调集贤宾〗套，旋律\n不同一般，值得重视（《长生殿•酒楼》与此同套，但系变调）。\n此剧旧题《慈悲愿》，误，实是元杨暹《西游记》杂剧之一折，语言文字确系元人风格。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 155,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "玄奘": 1,
+        "殷氏": 1
+      },
+      "links": [
+        {
+          "source": "殷氏",
+          "target": "玄奘",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.025,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "殷氏": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "殷氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "世人似我几多愁，忆念儿夫化石头。心如快鹞拖着线，身似浮鱼吞了钩。",
+          "rating": -0.111,
+          "role": "正旦"
+        },
+        {
+          "name": "玄奘",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "迢迢路途休嫌远，但能早见慈亲面。",
+          "rating": 0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第1场：2位角色，155行",
+      "firstLine": 1,
+      "lastLine": 155,
+      "numLines": 155,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.203,
+        "sentiment": 0.161
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "殷氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "眼睁睁看得他有家难奔，",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第2场：1位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.558,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "殷氏",
+      "short": "殷氏",
+      "key": "殷氏",
+      "quote": "殷氏 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "玄奘",
+      "short": "玄奘",
+      "key": "玄奘",
+      "quote": "玄奘 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

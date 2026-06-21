@@ -1,0 +1,236 @@
+{
+  "title": "孝感天",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01005009_孝感天.json",
+  "source_folder": "01000000",
+  "plot_summary": "武姜自幽居城颍，终日悲啼，哀怜少子甚切。共叔段夫妻死后，以己之怙恶不悛，及母之溺爱，皆寤生阴谋\n故纵所致。故冤魂不散，于夜半托梦武姜，聊一相见，以慰老母舔犊之情，并恺切劝解，谓不久当与寤生有\n重聚之望。",
+  "performance_notes": "此剧即演春秋时郑庄公杀弟共叔段，并迁其母武姜于城颍之后，立誓不及黄泉母子不见之故事。\n全剧俱系反二黄，演时一种幽怨愁惨之声，颇令人酸鼻不忍闻。近时善此剧者颇少。\n剧名《孝感天》，殊不可解。或谓剧中共叔段鬼魂，为相沿之误，实则系演郑庄公掘地见母一节，而稍变动\n其情节者。故托于魂梦相见云，此说似稍近似。\n寤生，郑庄公名也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.324,
+      "locations": {
+        "颍燕城": 1
+      },
+      "characters": {
+        "魏氏": 1,
+        "共叔段": 1
+      },
+      "links": [
+        {
+          "source": "共叔段",
+          "target": "魏氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 62,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "颍燕城": 1
+      },
+      "characters": {
+        "魏氏": 1,
+        "武姜": 1,
+        "共叔段": 1,
+        "二宫女": 1
+      },
+      "links": [
+        {
+          "source": "共叔段",
+          "target": "武姜",
+          "value": 1
+        },
+        {
+          "source": "武姜",
+          "target": "魏氏",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "武姜",
+          "value": 1
+        },
+        {
+          "source": "共叔段",
+          "target": "魏氏",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "共叔段",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "魏氏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "颍燕城",
+      "characters": [
+        {
+          "name": "共叔段",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "丹心天地惨，黄泉路途远。",
+          "rating": -0.5,
+          "role": "小生"
+        },
+        {
+          "name": "魏氏",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "溺爱反遭害，恩情一线牵。",
+          "rating": 1.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第一场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.746,
+        "conflict": 0.741,
+        "sentiment": -0.12
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "颍燕城",
+      "characters": [
+        {
+          "name": "武姜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "离别宫闱，空使我，老眼含泪。",
+          "rating": -0.25,
+          "role": "老旦"
+        },
+        {
+          "name": "共叔段",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "风飘飘冷飕飕黄昏惨淡，",
+          "rating": -0.5,
+          "role": "小生"
+        },
+        {
+          "name": "魏氏",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "此时间也难说分诉情由，",
+          "rating": -1.0,
+          "role": "正旦"
+        },
+        {
+          "name": "二宫女",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "国母醒来！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，62行",
+      "firstLine": 1,
+      "lastLine": 62,
+      "numLines": 62,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.381,
+        "sentiment": 0.018
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "武姜",
+      "short": "武姜",
+      "key": "武姜",
+      "quote": "武姜 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "共叔段",
+      "short": "共叔",
+      "key": "共叔段",
+      "quote": "共叔段 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "魏氏",
+      "short": "魏氏",
+      "key": "魏氏",
+      "quote": "魏氏 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二宫女",
+      "short": "二宫",
+      "key": "二宫女",
+      "quote": "二宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "颍燕城",
+      "key": "颍燕城",
+      "quote": "场景发生在颍燕城"
+    }
+  ]
+}

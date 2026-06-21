@@ -1,0 +1,825 @@
+{
+  "title": "一箭仇",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 8,
+  "num_characters": 11,
+  "num_locations": 2,
+  "source_file": "04024004_一箭仇.json",
+  "source_folder": "04000000",
+  "plot_summary": "梁山领袖晁盖被曾头市教师史文恭射死，卢俊义、林冲等率领梁山人马报仇，卢俊义、林冲二人与史文恭同\n师，先劝史文恭归顺，史文恭不允，遂相争斗。当日胜负不分，约次日再战。夜间史文恭率众偷袭梁山营寨，\n梁山已有准备，史文恭大败，逃至江边，梁山阮氏弟兄早驾小船等候，史文恭登舟求渡，乃被擒获。",
+  "performance_notes": "取材于《水浒》故事，但剧中情节与《水浒传》所写不尽相同。\n本剧是盖叫天先生的演出本，由中国戏曲研究院编辑处田淞、华东戏曲研究院编审室陈西汀协助盖先生整理\n的。整理时，仅作了个别词句的修改。舞台指示中的“开打”部分，是根据盖先生近年演出的路子纪录下来\n的。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 19,
+      "summary": "第一场；第二场",
+      "conflict": 0.292,
+      "importance": 0.367,
+      "locations": {
+        "火焚忠义堂": 1,
+        "同回营": 1
+      },
+      "characters": {
+        "卢俊义": 1,
+        "曾大虎": 1,
+        "燕青": 1,
+        "史文恭": 1
+      },
+      "links": [
+        {
+          "source": "卢俊义",
+          "target": "燕青",
+          "value": 2
+        },
+        {
+          "source": "卢俊义",
+          "target": "史文恭",
+          "value": 1
+        },
+        {
+          "source": "史文恭",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "卢俊义",
+          "target": "曾大虎",
+          "value": 1
+        },
+        {
+          "source": "曾大虎",
+          "target": "燕青",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 87,
+      "summary": "第三场；第四场",
+      "conflict": 0.293,
+      "importance": 1.0,
+      "locations": {
+        "同回营": 2
+      },
+      "characters": {
+        "卢俊义": 1,
+        "众庄丁": 1,
+        "史文恭": 1,
+        "林冲": 1,
+        "燕青": 1,
+        "众梁山兵": 1,
+        "曾大虎": 1
+      },
+      "links": [
+        {
+          "source": "史文恭",
+          "target": "曾大虎",
+          "value": 1
+        },
+        {
+          "source": "卢俊义",
+          "target": "史文恭",
+          "value": 1
+        },
+        {
+          "source": "史文恭",
+          "target": "林冲",
+          "value": 1
+        },
+        {
+          "source": "史文恭",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "众庄丁",
+          "target": "史文恭",
+          "value": 1
+        },
+        {
+          "source": "众梁山兵",
+          "target": "史文恭",
+          "value": 1
+        },
+        {
+          "source": "卢俊义",
+          "target": "曾大虎",
+          "value": 1
+        },
+        {
+          "source": "曾大虎",
+          "target": "林冲",
+          "value": 1
+        },
+        {
+          "source": "曾大虎",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "众庄丁",
+          "target": "曾大虎",
+          "value": 1
+        },
+        {
+          "source": "众梁山兵",
+          "target": "曾大虎",
+          "value": 1
+        },
+        {
+          "source": "卢俊义",
+          "target": "林冲",
+          "value": 1
+        },
+        {
+          "source": "卢俊义",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "众庄丁",
+          "target": "卢俊义",
+          "value": 1
+        },
+        {
+          "source": "众梁山兵",
+          "target": "卢俊义",
+          "value": 1
+        },
+        {
+          "source": "林冲",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "众庄丁",
+          "target": "林冲",
+          "value": 1
+        },
+        {
+          "source": "众梁山兵",
+          "target": "林冲",
+          "value": 1
+        },
+        {
+          "source": "众庄丁",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "众梁山兵",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "众庄丁",
+          "target": "众梁山兵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 55,
+      "summary": "第五场；第六场",
+      "conflict": 0.13,
+      "importance": 1.0,
+      "locations": {
+        "同回营": 2
+      },
+      "characters": {
+        "卢俊义": 1,
+        "曾氏四虎": 1,
+        "史文恭": 1,
+        "燕青": 1,
+        "李逵": 1
+      },
+      "links": [
+        {
+          "source": "卢俊义",
+          "target": "史文恭",
+          "value": 2
+        },
+        {
+          "source": "史文恭",
+          "target": "曾氏四虎",
+          "value": 1
+        },
+        {
+          "source": "卢俊义",
+          "target": "曾氏四虎",
+          "value": 1
+        },
+        {
+          "source": "卢俊义",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "李逵",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "史文恭",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "卢俊义",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "史文恭",
+          "target": "李逵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 46,
+      "summary": "第七场；第八场",
+      "conflict": 0.6,
+      "importance": 0.889,
+      "locations": {
+        "同回营": 2
+      },
+      "characters": {
+        "卢俊义": 1,
+        "阮小五": 1,
+        "阮小二": 1,
+        "史文恭": 1
+      },
+      "links": [
+        {
+          "source": "阮小二",
+          "target": "阮小五",
+          "value": 2
+        },
+        {
+          "source": "史文恭",
+          "target": "阮小二",
+          "value": 2
+        },
+        {
+          "source": "史文恭",
+          "target": "阮小五",
+          "value": 2
+        },
+        {
+          "source": "卢俊义",
+          "target": "阮小五",
+          "value": 1
+        },
+        {
+          "source": "卢俊义",
+          "target": "史文恭",
+          "value": 1
+        },
+        {
+          "source": "卢俊义",
+          "target": "阮小二",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "火焚忠义堂",
+      "characters": [
+        {
+          "name": "卢俊义",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "水泊梁山义气广，替天行道美名扬。一箭之仇若不报，旗倒火焚忠义堂。",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "燕青",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "史文恭",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第一场：3位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.714,
+        "conflict": 1.0,
+        "sentiment": 0.468
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "同回营",
+      "characters": [
+        {
+          "name": "曾大虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "俺，大虎。奉了师爷之命，把守庄门，就此前往。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "卢俊义",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "上前叫庄！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "燕青",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "呔，开庄！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.313,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "同回营",
+      "characters": [
+        {
+          "name": "史文恭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "爱习拳棒，论英雄，四海名扬。",
+          "rating": 0.143,
+          "role": "武生"
+        },
+        {
+          "name": "曾大虎",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "梁山拜庄事，报与师爷知。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "卢俊义",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊，师弟！",
+          "rating": 0.2,
+          "role": ""
+        },
+        {
+          "name": "林冲",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "师兄！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "燕青",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "嘿！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众庄丁",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "你们是匹夫！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众梁山兵",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "你们是匹夫！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：7位角色，85行",
+      "firstLine": 1,
+      "lastLine": 85,
+      "numLines": 85,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.823,
+        "conflict": 0.44,
+        "sentiment": 0.293
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "同回营",
+      "characters": [],
+      "summary": "第四场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.003,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "同回营",
+      "characters": [
+        {
+          "name": "史文恭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "卢俊义，敢莫怯战？",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "卢俊义",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "天色已晚，你我明日再战。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "曾氏四虎",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "好枪法！好枪法！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：3位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.741,
+        "conflict": 1.0,
+        "sentiment": 0.064
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "同回营",
+      "characters": [
+        {
+          "name": "燕青",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "好枪法！好枪法！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "卢俊义",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我与他同堂学艺，怎么不知他的枪法。此人诡计多端，今夜晚必须提防他偷营",
+          "rating": -0.2,
+          "role": ""
+        },
+        {
+          "name": "李逵",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "大哥您喝茶吧。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "史文恭",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -0.5,
+          "role": "武生"
+        }
+      ],
+      "summary": "第六场：4位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.739,
+        "conflict": 1.0,
+        "sentiment": 0.194
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "同回营",
+      "characters": [
+        {
+          "name": "阮小二",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我，阮小二。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "阮小五",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "阮小五。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "史文恭",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第七场：3位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.707,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "同回营",
+      "characters": [
+        {
+          "name": "阮小五",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "打鱼哟！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "史文恭",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "呔！船家！",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "阮小二",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "打鱼船不渡人。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "卢俊义",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "绑回山寨！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：4位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.759,
+        "conflict": 0.238,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "史文恭",
+      "short": "史文",
+      "key": "史文恭",
+      "quote": "史文恭 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "卢俊义",
+      "short": "卢俊",
+      "key": "卢俊义",
+      "quote": "卢俊义 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众庄丁",
+      "short": "众庄",
+      "key": "众庄丁",
+      "quote": "众庄丁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "曾氏四虎",
+      "short": "曾氏",
+      "key": "曾氏四虎",
+      "quote": "曾氏四虎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "林冲",
+      "short": "林冲",
+      "key": "林冲",
+      "quote": "林冲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "燕青",
+      "short": "燕青",
+      "key": "燕青",
+      "quote": "燕青 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李逵",
+      "short": "李逵",
+      "key": "李逵",
+      "quote": "李逵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "阮小五",
+      "short": "阮小",
+      "key": "阮小五",
+      "quote": "阮小五 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "阮小二",
+      "short": "阮小",
+      "key": "阮小二",
+      "quote": "阮小二 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众梁山兵",
+      "short": "众梁",
+      "key": "众梁山兵",
+      "quote": "众梁山兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "曾大虎",
+      "short": "曾大",
+      "key": "曾大虎",
+      "quote": "曾大虎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "同回营",
+      "key": "同回营",
+      "quote": "场景发生在同回营"
+    },
+    {
+      "name": "火焚忠义堂",
+      "key": "火焚忠义堂",
+      "quote": "场景发生在火焚忠义堂"
+    }
+  ]
+}

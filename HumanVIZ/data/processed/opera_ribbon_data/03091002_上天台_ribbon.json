@@ -1,0 +1,735 @@
+{
+  "title": "上天台",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "03091002_上天台.json",
+  "source_folder": "03000000",
+  "plot_summary": "东汉刘秀时，姚期之子姚刚打死太师郭荣。姚期绑子上殿。刘秀念姚家父子颇具功勋，只将姚刚发配。姚期\n欲辞官，亦经慰留。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 39,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.81,
+      "importance": 0.39,
+      "locations": {
+        "鸣锣过府": 3
+      },
+      "characters": {
+        "院子": 1,
+        "郭荣": 1,
+        "四青袍": 1,
+        "家院": 1,
+        "姚刚": 1
+      },
+      "links": [
+        {
+          "source": "姚刚",
+          "target": "家院",
+          "value": 2
+        },
+        {
+          "source": "姚刚",
+          "target": "郭荣",
+          "value": 3
+        },
+        {
+          "source": "家院",
+          "target": "郭荣",
+          "value": 2
+        },
+        {
+          "source": "郭荣",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "姚刚",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "郭荣",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 73,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.532,
+      "importance": 0.73,
+      "locations": {
+        "鸣锣过府": 3
+      },
+      "characters": {
+        "姚期": 1,
+        "郭荣当": 1,
+        "郭荣": 1,
+        "郭妃": 1,
+        "家院": 1,
+        "姚刚": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "姚刚",
+          "target": "郭荣",
+          "value": 2
+        },
+        {
+          "source": "郭荣",
+          "target": "郭荣当",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "郭荣当",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "郭荣当",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "郭妃",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "郭妃",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "姚刚",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "姚期",
+          "target": "郭荣",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 188,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "鸣锣过府": 1
+      },
+      "characters": {
+        "大太监": 1,
+        "刘秀": 1,
+        "郭荣": 1,
+        "郭妃": 1,
+        "姚刚": 1,
+        "姚期": 1
+      },
+      "links": [
+        {
+          "source": "刘秀",
+          "target": "郭妃",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "姚刚",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "郭妃",
+          "value": 1
+        },
+        {
+          "source": "姚期",
+          "target": "郭妃",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "郭妃",
+          "value": 1
+        },
+        {
+          "source": "郭妃",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "姚刚",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "姚期",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "郭荣",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "鸣锣过府",
+      "characters": [
+        {
+          "name": "姚刚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "金殿喜气扬，父子保朝纲。",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "家院",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郭荣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.402,
+        "conflict": 1.0,
+        "sentiment": 0.473
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "鸣锣过府",
+      "characters": [
+        {
+          "name": "院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有事忙通报，无事不乱传。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郭荣",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "嗯哼！",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "姚刚",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.41,
+        "conflict": 0.0,
+        "sentiment": 0.79
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "鸣锣过府",
+      "characters": [
+        {
+          "name": "姚刚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "金瓜钺斧朝天镫，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "家院",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来此郭太师府门，府前有三尺禁地，文官下轿，武将离鞍。请爷绕道而行！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郭荣",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：4位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.493,
+        "conflict": 0.667,
+        "sentiment": -0.02
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "鸣锣过府",
+      "characters": [
+        {
+          "name": "郭荣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "家院带路出府门，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "姚刚",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "坐立雕鞍来观定，",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "郭荣当",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "朝老太师！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "杀死了！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.597,
+        "conflict": 0.43,
+        "sentiment": -0.009
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "鸣锣过府",
+      "characters": [
+        {
+          "name": "郭妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "闷坐西宫院，每日伴驾眠。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "大太监",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启娘娘：大事不好了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姚刚",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.406,
+        "conflict": 0.0,
+        "sentiment": -0.24
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "鸣锣过府",
+      "characters": [
+        {
+          "name": "姚期",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "父子功劳重，满门受皇恩。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "姚刚",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走哇！",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "郭荣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：3位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.572,
+        "conflict": 1.0,
+        "sentiment": 0.292
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "鸣锣过府",
+      "characters": [
+        {
+          "name": "刘秀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "摆驾！",
+          "rating": 0.364,
+          "role": "老生"
+        },
+        {
+          "name": "郭妃",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "喂呀……",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大太监",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姚期",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "遵旨！",
+          "rating": 0.273,
+          "role": "净"
+        },
+        {
+          "name": "姚刚",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "爹爹呀！",
+          "rating": 0.2,
+          "role": "净"
+        },
+        {
+          "name": "郭荣",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：6位角色，188行",
+      "firstLine": 1,
+      "lastLine": 188,
+      "numLines": 188,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.368,
+        "sentiment": 0.345
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘秀",
+      "short": "刘秀",
+      "key": "刘秀",
+      "quote": "刘秀 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "姚期",
+      "short": "姚期",
+      "key": "姚期",
+      "quote": "姚期 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "姚刚",
+      "short": "姚刚",
+      "key": "姚刚",
+      "quote": "姚刚 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "郭荣",
+      "short": "郭荣",
+      "key": "郭荣",
+      "quote": "郭荣 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "郭荣当",
+      "short": "郭荣",
+      "key": "郭荣当",
+      "quote": "郭荣当 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "郭妃",
+      "short": "郭妃",
+      "key": "郭妃",
+      "quote": "郭妃 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "鸣锣过府",
+      "key": "鸣锣过府",
+      "quote": "场景发生在鸣锣过府"
+    }
+  ]
+}

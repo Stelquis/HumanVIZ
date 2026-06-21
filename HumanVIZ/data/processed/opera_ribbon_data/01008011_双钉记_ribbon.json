@@ -1,0 +1,394 @@
+{
+  "title": "双钉记",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "01008011_双钉记.json",
+  "source_folder": "01000000",
+  "plot_summary": "按本剧曲本所称，系一成衣匠胡某之妻，名白金莲，素与绸缎商贾有礼有染。胡某所设成衣铺又生意寥寥，\n家计甚艰窘，因之白金莲时常吵闹，常言欲与离异。既而欺胡某暗弱无能为，遂久蓄意欲谋毙胡某，以图与\n贾有礼作长久计。日者乘胡某工作醉归，适贾有礼在，遂迫贾有礼助同谋胡某，贾有礼初不允，白金莲则以\n讹罪嫁祸要挟之。贾有礼无奈，卒被胁助成其恶。白金莲计甚阴狡难测，盖以铁钉从脑后发髻钉入而致其命\n也。本剧即演到此谋毙为止。",
+  "performance_notes": "惟按是剧，应重在后本平反冤狱一段，方与“双钉”二字之剧名相称，且于剧情亦圆满无憾。若谓仅此而已\n足焉，则未免使人徒震其名。正曲者其以为何如？前见路三宝演此出，其一种凶悍之态，形容颇能尽致。此\n剧后本折狱一事，人均谓为阎罗包老之事，而或说则以为是元代姚忠肃公故事，兹不赘言，俟后本当为详考。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 48,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.536,
+      "locations": {
+        "他家门": 1
+      },
+      "characters": {
+        "胡能手": 1,
+        "白金莲": 1,
+        "院子": 1,
+        "债主": 1
+      },
+      "links": [
+        {
+          "source": "债主",
+          "target": "白金莲",
+          "value": 1
+        },
+        {
+          "source": "白金莲",
+          "target": "胡能手",
+          "value": 1
+        },
+        {
+          "source": "白金莲",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "债主",
+          "target": "胡能手",
+          "value": 1
+        },
+        {
+          "source": "债主",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "胡能手",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 131,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "他家门": 1
+      },
+      "characters": {
+        "白金莲": 1,
+        "贾有礼": 1,
+        "四乡邻": 1,
+        "乡邻甲": 1,
+        "胡能手": 1,
+        "阴阳先生": 1
+      },
+      "links": [
+        {
+          "source": "白金莲",
+          "target": "贾有礼",
+          "value": 1
+        },
+        {
+          "source": "胡能手",
+          "target": "贾有礼",
+          "value": 1
+        },
+        {
+          "source": "四乡邻",
+          "target": "贾有礼",
+          "value": 1
+        },
+        {
+          "source": "乡邻甲",
+          "target": "贾有礼",
+          "value": 1
+        },
+        {
+          "source": "贾有礼",
+          "target": "阴阳先生",
+          "value": 1
+        },
+        {
+          "source": "白金莲",
+          "target": "胡能手",
+          "value": 1
+        },
+        {
+          "source": "四乡邻",
+          "target": "白金莲",
+          "value": 1
+        },
+        {
+          "source": "乡邻甲",
+          "target": "白金莲",
+          "value": 1
+        },
+        {
+          "source": "白金莲",
+          "target": "阴阳先生",
+          "value": 1
+        },
+        {
+          "source": "四乡邻",
+          "target": "胡能手",
+          "value": 1
+        },
+        {
+          "source": "乡邻甲",
+          "target": "胡能手",
+          "value": 1
+        },
+        {
+          "source": "胡能手",
+          "target": "阴阳先生",
+          "value": 1
+        },
+        {
+          "source": "乡邻甲",
+          "target": "四乡邻",
+          "value": 1
+        },
+        {
+          "source": "四乡邻",
+          "target": "阴阳先生",
+          "value": 1
+        },
+        {
+          "source": "乡邻甲",
+          "target": "阴阳先生",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "他家门",
+      "characters": [
+        {
+          "name": "白金莲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "生来命运蹇，终日受煎熬。",
+          "rating": -1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "债主",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "开门！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "胡能手",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "家住安徽石碑街，讨个老婆会卖乖。前门开的裁缝铺，后门又把窑子开。这个",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "院子",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "开门！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，48行",
+      "firstLine": 1,
+      "lastLine": 48,
+      "numLines": 48,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.36,
+        "sentiment": 0.047
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "他家门",
+      "characters": [
+        {
+          "name": "贾有礼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "酒不醉人人自醉，",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "白金莲",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忽听门外有人声，",
+          "rating": -0.2,
+          "role": "花旦"
+        },
+        {
+          "name": "胡能手",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "放开大步往前进，",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "四乡邻",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "大嫂子为什么啼哭？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "乡邻甲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "待我去。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "阴阳先生",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "不在家。",
+          "rating": 0.2,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：6位角色，131行",
+      "firstLine": 1,
+      "lastLine": 131,
+      "numLines": 131,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.125,
+        "sentiment": 0.223
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "白金莲",
+      "short": "白金",
+      "key": "白金莲",
+      "quote": "白金莲 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "胡能手",
+      "short": "胡能",
+      "key": "胡能手",
+      "quote": "胡能手 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "贾有礼",
+      "short": "贾有",
+      "key": "贾有礼",
+      "quote": "贾有礼 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "债主",
+      "short": "债主",
+      "key": "债主",
+      "quote": "债主 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四乡邻",
+      "short": "四乡",
+      "key": "四乡邻",
+      "quote": "四乡邻 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "乡邻甲",
+      "short": "乡邻",
+      "key": "乡邻甲",
+      "quote": "乡邻甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "阴阳先生",
+      "short": "阴阳",
+      "key": "阴阳先生",
+      "quote": "阴阳先生 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "他家门",
+      "key": "他家门",
+      "quote": "场景发生在他家门"
+    }
+  ]
+}

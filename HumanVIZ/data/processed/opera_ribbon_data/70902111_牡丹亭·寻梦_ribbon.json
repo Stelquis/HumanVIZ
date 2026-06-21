@@ -1,0 +1,208 @@
+{
+  "title": "牡丹亭·寻梦",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "70902111_牡丹亭·寻梦.json",
+  "source_folder": "70902000",
+  "plot_summary": "杜丽娘游园惊梦以后，留恋梦境，难以释怀。因此重到园中，按照景色，寻觅梦痕。她越是追忆，越是伤感，\n后来就得了病症，以致身亡。",
+  "performance_notes": "此剧曲调宛转，情思缠绵，身段动作也十分细腻优美，是闺门旦的重要剧目，也是不可多得的优秀传统折子\n戏之一。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 24,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.545,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "杜丽娘": 1,
+        "春香": 1
+      },
+      "links": [
+        {
+          "source": "春香",
+          "target": "杜丽娘",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 106,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "杜丽娘": 1,
+        "春香": 1
+      },
+      "links": [
+        {
+          "source": "春香",
+          "target": "杜丽娘",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.045,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "杜丽娘": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "春香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "方才午膳已过，不知小姐哪里去了，不免寻她则个。",
+          "rating": 0.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "杜丽娘",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "最撩人春色是今年，",
+          "rating": 1.0,
+          "role": "五旦"
+        }
+      ],
+      "summary": "第1场：2位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.809,
+        "conflict": 0.0,
+        "sentiment": 0.767
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "春香已去，咱好寻梦也。",
+          "rating": 0.0,
+          "role": "五旦"
+        },
+        {
+          "name": "春香",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "佳人拾翠春亭远，侍女添香午院清。",
+          "rating": 0.0,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "第2场：2位角色，106行",
+      "firstLine": 1,
+      "lastLine": 106,
+      "numLines": 106,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.145,
+        "sentiment": 0.209
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "咱杜丽娘啊！",
+          "rating": -1.0,
+          "role": "五旦"
+        }
+      ],
+      "summary": "第3场：1位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.559,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杜丽娘",
+      "short": "杜丽",
+      "key": "杜丽娘",
+      "quote": "杜丽娘 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "春香",
+      "short": "春香",
+      "key": "春香",
+      "quote": "春香 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

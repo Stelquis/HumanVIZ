@@ -1,0 +1,256 @@
+{
+  "title": "别宫祭江",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "94000001_别宫祭江.json",
+  "source_folder": "94000000",
+  "plot_summary": "孙尚香自荆州回到东吴以后，听说刘备伐东吴失败，死于白帝城，痛不欲生。当即进宫辞别母后吴国太，到\n江边遥祭丈夫，祭后投江而死。",
+  "performance_notes": "《别皇宫》（一名《别宫》）和《祭江》（一名《祭长江》）是两个剧情相连而又可以单独演出的剧目。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 38,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.402,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙尚香": 1,
+        "孙权": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "大太监",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "孙尚香",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "孙权",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 151,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙尚香": 1,
+        "孙权": 1,
+        "大太监": 1,
+        "吴国太": 1
+      },
+      "links": [
+        {
+          "source": "吴国太",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "吴国太",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "吴国太",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "孙尚香",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "孙权",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙尚香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "恹恹守损，怎能消，终日愁闷。",
+          "rating": 0.2,
+          "role": "正旦"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "启郡主：大事不好啦。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "孙权",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：3位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.748,
+        "conflict": 0.909,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "吴国太",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一日清闲一日安，",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "孙尚香",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "叹夫君白帝城把驾晏，",
+          "rating": 0.111,
+          "role": "正旦"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "启禀郡主：来到江边。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "孙权",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：4位角色，151行",
+      "firstLine": 1,
+      "lastLine": 151,
+      "numLines": 151,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.155,
+        "sentiment": 0.206
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙尚香",
+      "short": "孙尚",
+      "key": "孙尚香",
+      "quote": "孙尚香 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "吴国太",
+      "short": "吴国",
+      "key": "吴国太",
+      "quote": "吴国太 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "孙权",
+      "short": "孙权",
+      "key": "孙权",
+      "quote": "孙权 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

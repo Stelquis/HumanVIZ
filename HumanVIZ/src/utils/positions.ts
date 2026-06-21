@@ -1,5 +1,5 @@
 import { bezierCommand, svgPath } from "./curve";
-import { normalizeMarkerSize } from "./helpers";
+import { normalizeMarkerSize } from "./normalize";
 
 import {
   location_height,
@@ -11,8 +11,8 @@ import {
   plot_width,
   scene_width,
   location_buffer,
-} from "./consts";
-import { CharacterScene, Scene, SceneCharacter, CharacterData } from "./data";
+} from "./constants";
+import { CharacterScene, Scene, SceneCharacter, CharacterData } from "./sceneData";
 
 /* INTERFACES */
 export interface Position {
@@ -329,6 +329,33 @@ const characterPos = (
     });
   });
 
+  // 场景冲突驱动的位置（叙事结构可视化用）
+  // 高冲突场景 → 丝带升至高位；低冲突场景 → 丝带降至低位，形成"高低起伏"
+  const sceneConflictPos = characterScenes.map((character) => {
+    return character.scenes.map((scene) => {
+      const cur_scene = scene_data[scene];
+      const scene_conflict = cur_scene.ratings?.conflict ?? 0.5;
+      const charsInScene = cur_scene.characters;
+      // 按 sortedCharacters 顺序排列同场角色
+      const sortedChars = [...charsInScene].sort(
+        (a, b) =>
+          sortedCharacters.findIndex((char) => char.character === a.name) -
+          sortedCharacters.findIndex((char) => char.character === b.name)
+      );
+      const charIndex = sortedChars.findIndex(
+        (c) => c.name === character.character
+      );
+      // conflict 1.0 → 丝带升到最高 (Y最小)；conflict 0.0 → 丝带降到最低 (Y最大)
+      const baseY =
+        location_offset * 0.5 +
+        new_max_y * 0.85 * (1 - scene_conflict);
+      return {
+        x: initialScenePos[scene].x - 0.5 * character_height,
+        y: baseY + character_offset * charIndex,
+      };
+    });
+  });
+
   const customPosDict = {} as any;
   customYAxisOptions.forEach((axis: string) => {
     // console.log("axis", axis);
@@ -367,6 +394,7 @@ const characterPos = (
     charPos: charPos,
     promPos: promPos,
     emotionPos: emotionPos,
+    sceneConflictPos: sceneConflictPos,
     charListPos: charListPos,
     charStackPos: charStackPos,
     numCharPos: numCharPos,
@@ -903,6 +931,8 @@ export const getAllPositions = (
       ? characterInfo.promPos
       : yAxis === "sentiment"
       ? characterInfo.emotionPos
+      : yAxis === "sceneConflict"
+      ? characterInfo.sceneConflictPos
       : yAxis === "character"
       ? characterInfo.charListPos
       : yAxis === "# characters"

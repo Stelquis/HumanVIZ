@@ -1,0 +1,151 @@
+{
+  "title": "纺棉花",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "01007016_纺棉花.json",
+  "source_folder": "01000000",
+  "plot_summary": "剧情大致，为一青年小家妇，因夫出贸易，三载未归。一日，在家纺棉花，觉一缕春意，勾人情思，颇有按\n耐不住之势。因遂以度曲遣情，时适其夫作客归来，在门外伺听，且掷金入，以试其心，妇遂为所动，乃开\n门招掷金者，不意即其夫张三也。于是夫妇遂半真半假，打趣一场而毕。",
+  "performance_notes": "此剧为丑、旦调情戏之别一派，专于隔墙度曲中取神情，纯以唱小曲见长，如《四季相思》、《九连环》、\n《十八摸》、《大沽调》等，均可临时随意演奏。近来更有插入时事弹簧者，不必尽与剧本符合也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 164,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张三": 1,
+        "王氏": 1
+      },
+      "links": [
+        {
+          "source": "张三",
+          "target": "王氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 1,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.012,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张三": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "嗯哼。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "张三",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "一日离家一日深，",
+          "rating": -0.143,
+          "role": "丑"
+        }
+      ],
+      "summary": "第1场：2位角色，164行",
+      "firstLine": 1,
+      "lastLine": 164,
+      "numLines": 164,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.162,
+        "sentiment": -0.019
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张三",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.554,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王氏",
+      "short": "王氏",
+      "key": "王氏",
+      "quote": "王氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张三",
+      "short": "张三",
+      "key": "张三",
+      "quote": "张三 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

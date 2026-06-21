@@ -1,0 +1,325 @@
+{
+  "title": "闺房戏",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01031004_闺房戏.json",
+  "source_folder": "01000000",
+  "plot_summary": "依剧本所述，谓赵松雪有季常之惧，眷一妓女李姬。在家日少，外出时多，缱绻绸缪，卿卿我我。漏泄于管\n夫人，深恐夺其爱情，大含醋意，盘诘再三。赵松雪坚不承认，管夫人中心疑惑，与丫鬟定一计策，伪设宴\n席，大飨女友，招李姬侑酒。赵松雪入卧房，使之回避改入书斋，则云李姬醉卧，又不令前。赵松雪闻李姬\n在此，欣喜欲狂，强入之，暗无灯火，摸索至床上，撼之不醒。粉气脂香，顿触鼻观，心摇摇如悬旌，急为\n松其衣扣，缓其裙带，挨入被窝中，双宿双飞之乐，难以言宣。然被窝中人，始终无声息。及至春风过度，\n而呖呖莺声入耳矣，赵松雪细审之，非妓女李姬，系家室管夫人也。恍然悟为李代桃僵，顷间所饱餐者，仍\n是家常便饭而已，不禁哑然失笑。",
+  "performance_notes": "赵松雪文辞书画，渲染古今，诚有元一代大儒也。其妻管夫人，亦工诗善写兰竹。赵松雪游山玩水，辄与之\n俱，诗酒追随，夫妻唱和，极风流儒雅之致。闺房之乐，有甚于画眉者。\n此系鼎鼎大名梅兰芳拿手之剧也。去冬枥老在北京，会见过两次。近今各戏园，亦时常串演，洵为嘉剧。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 78,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵子昂": 1,
+        "二丫鬟": 1,
+        "丫鬟甲": 1,
+        "管道昇": 1
+      },
+      "links": [
+        {
+          "source": "管道昇",
+          "target": "赵子昂",
+          "value": 1
+        },
+        {
+          "source": "二丫鬟",
+          "target": "管道昇",
+          "value": 1
+        },
+        {
+          "source": "丫鬟甲",
+          "target": "管道昇",
+          "value": 1
+        },
+        {
+          "source": "二丫鬟",
+          "target": "赵子昂",
+          "value": 1
+        },
+        {
+          "source": "丫鬟甲",
+          "target": "赵子昂",
+          "value": 1
+        },
+        {
+          "source": "丫鬟甲",
+          "target": "二丫鬟",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 75,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张妈": 1,
+        "赵子昂": 1
+      },
+      "links": [
+        {
+          "source": "张妈",
+          "target": "赵子昂",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 65,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.894,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵子昂": 1,
+        "丫鬟甲": 1,
+        "管道昇": 1
+      },
+      "links": [
+        {
+          "source": "管道昇",
+          "target": "赵子昂",
+          "value": 1
+        },
+        {
+          "source": "丫鬟甲",
+          "target": "管道昇",
+          "value": 1
+        },
+        {
+          "source": "丫鬟甲",
+          "target": "赵子昂",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "管道昇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "惜花春起早，爱月夜眠迟。自幼读书文，吟诗学古人。",
+          "rating": 0.6,
+          "role": "花旦"
+        },
+        {
+          "name": "赵子昂",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "好一个美佳人艳如桃李，",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "二丫鬟",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "老爷回来啦。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "丫鬟甲",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "启夫人：看老爷那个样子，一定是迷上了那个妓女啦。夫人要知底理根情，倒",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，78行",
+      "firstLine": 1,
+      "lastLine": 78,
+      "numLines": 78,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.368,
+        "sentiment": 0.624
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张妈",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吓哈！",
+          "rating": 0.143,
+          "role": "彩旦"
+        },
+        {
+          "name": "赵子昂",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "迈步且把前厅进，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：2位角色，75行",
+      "firstLine": 1,
+      "lastLine": 75,
+      "numLines": 75,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.755,
+        "sentiment": 0.278
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "管道昇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "去高髻整云鬟改变模样，",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "赵子昂",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "谯楼上打罢了二更鼓响，",
+          "rating": 0.6,
+          "role": "小生"
+        },
+        {
+          "name": "丫鬟甲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "饭倒是早吃完啦。吴太太，沈太太，也全都回去啦。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，65行",
+      "firstLine": 1,
+      "lastLine": 65,
+      "numLines": 65,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.835,
+        "conflict": 0.448,
+        "sentiment": 0.48
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "管道昇",
+      "short": "管道",
+      "key": "管道昇",
+      "quote": "管道昇 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "赵子昂",
+      "short": "赵子",
+      "key": "赵子昂",
+      "quote": "赵子昂 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张妈",
+      "short": "张妈",
+      "key": "张妈",
+      "quote": "张妈 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "二丫鬟",
+      "short": "二丫",
+      "key": "二丫鬟",
+      "quote": "二丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟甲",
+      "short": "丫鬟",
+      "key": "丫鬟甲",
+      "quote": "丫鬟甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "title": "刺虎",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "02011047_刺虎.json",
+  "source_folder": "02000000",
+  "plot_summary": "闯贼既已进宫，各处搜寻。有一个宫女叫费贞娥，穿了公主的衣服，假装公主。身藏利刃，让贼兵捉去，想\n乘机刺死李自成。哪知闯贼命不该绝，将费宫娥赐给大将李固，当夜成亲。即进洞房，费贞娥假意殷勤，用\n酒将李固灌醉，将他刺死，她自己也自杀了。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 28,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.357,
+      "locations": {
+        "才放我回营": 1
+      },
+      "characters": {
+        "费贞娥": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 129,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "才放我回营": 1
+      },
+      "characters": {
+        "李固": 1,
+        "费贞娥": 1,
+        "四小军": 1,
+        "二宫女": 1
+      },
+      "links": [
+        {
+          "source": "四小军",
+          "target": "李固",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "李固",
+          "value": 1
+        },
+        {
+          "source": "李固",
+          "target": "费贞娥",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "四小军",
+          "value": 1
+        },
+        {
+          "source": "四小军",
+          "target": "费贞娥",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "费贞娥",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "才放我回营",
+      "characters": [
+        {
+          "name": "费贞娥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "蕰君仇，含国恨，切切地，",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：1位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.657,
+        "conflict": 1.0,
+        "sentiment": 0.206
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "才放我回营",
+      "characters": [
+        {
+          "name": "李固",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "拓地开疆胆气豪，从龙附凤佐皇朝。龙潜且作赵匡义，有日天心属我曹。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "四小军",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "二大王回营。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二宫女",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "二大王回营，公主娘娘有请。",
+          "rating": 0.714,
+          "role": ""
+        },
+        {
+          "name": "费贞娥",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "将军万福！",
+          "rating": 0.385,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：4位角色，129行",
+      "firstLine": 1,
+      "lastLine": 129,
+      "numLines": 129,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.353,
+        "sentiment": 0.464
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "费贞娥",
+      "short": "费贞",
+      "key": "费贞娥",
+      "quote": "费贞娥 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李固",
+      "short": "李固",
+      "key": "李固",
+      "quote": "李固 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "二宫女",
+      "short": "二宫",
+      "key": "二宫女",
+      "quote": "二宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四小军",
+      "short": "四小",
+      "key": "四小军",
+      "quote": "四小军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "才放我回营",
+      "key": "才放我回营",
+      "quote": "场景发生在才放我回营"
+    },
+    {
+      "name": "二大王回营",
+      "key": "二大王回营",
+      "quote": "场景发生在二大王回营"
+    }
+  ]
+}

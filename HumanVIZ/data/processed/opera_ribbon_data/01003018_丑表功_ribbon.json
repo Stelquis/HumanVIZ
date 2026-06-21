@@ -1,0 +1,219 @@
+{
+  "title": "丑表功",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01003018_丑表功.json",
+  "source_folder": "01000000",
+  "plot_summary": "某窑子老鸨，名万人迷。因所雇鳖腿名保儿者，做事懒惰，特地唤出吩咐。不料保儿不服，反自谓有十大汗\n马功劳。因此争论打架。幸得作荐保儿之教书先生到来解劝，既而万人迷与保儿算清前帐，找给大钱二百文，\n将保儿辞歇。",
+  "performance_notes": "此剧毫无情节，全是插科胡闹，俗语所谓打绷戏也。度其用意，大约隐寓老鸨乌龟，拆姘头之笑话丑态耳。\n此剧李百岁最称拿手，前颇轰动一时。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 173,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "顶先生": 1,
+        "万人迷": 1,
+        "保儿": 1
+      },
+      "links": [
+        {
+          "source": "万人迷",
+          "target": "保儿",
+          "value": 1
+        },
+        {
+          "source": "万人迷",
+          "target": "顶先生",
+          "value": 1
+        },
+        {
+          "source": "保儿",
+          "target": "顶先生",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.056,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "万人迷": 1,
+        "保儿": 1,
+        "顶先生": 1
+      },
+      "links": [
+        {
+          "source": "万人迷",
+          "target": "顶先生",
+          "value": 1
+        },
+        {
+          "source": "保儿",
+          "target": "顶先生",
+          "value": 1
+        },
+        {
+          "source": "万人迷",
+          "target": "保儿",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "万人迷",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哽唬。",
+          "rating": 0.333,
+          "role": "花旦"
+        },
+        {
+          "name": "保儿",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.143,
+          "role": "丑"
+        },
+        {
+          "name": "顶先生",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "什么事，什么事？不要打，不要打！看我了，看我看我！",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：3位角色，173行",
+      "firstLine": 1,
+      "lastLine": 173,
+      "numLines": 173,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.098,
+        "sentiment": 0.164
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "顶先生",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "嫂子，我要走呢。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "万人迷",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "先生，保儿走了，我这里没有人。早早晚晚，你来帮帮忙，捞捞毛。",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "保儿",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：3位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.725,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "保儿",
+      "short": "保儿",
+      "key": "保儿",
+      "quote": "保儿 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "万人迷",
+      "short": "万人",
+      "key": "万人迷",
+      "quote": "万人迷 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "顶先生",
+      "short": "顶先",
+      "key": "顶先生",
+      "quote": "顶先生 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

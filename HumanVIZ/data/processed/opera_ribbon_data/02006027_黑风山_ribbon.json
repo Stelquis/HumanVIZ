@@ -1,0 +1,284 @@
+{
+  "title": "黑风山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02006027_黑风山.json",
+  "source_folder": "02000000",
+  "plot_summary": "黑风山黑风洞内黑熊大王，闻知唐僧有宝袈裟并了然欲烧死唐僧等事，乃乘火势将袈裟摄去。唐僧醒后，见\n了然虽烧死，而袈裟又失。乃责孙悟空不应向人夸耀，至有此失。孙悟空乃向唐僧保证取回。",
+  "performance_notes": "此剧即《西游记》第十六回“黑风山怪窃袈裟”故事，与原书完全相同。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.204,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "熊精": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.583,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "熊精": 1,
+        "了然": 1,
+        "众僧": 1
+      },
+      "links": [
+        {
+          "source": "了然",
+          "target": "众僧",
+          "value": 1
+        },
+        {
+          "source": "众僧",
+          "target": "熊精",
+          "value": 1
+        },
+        {
+          "source": "了然",
+          "target": "熊精",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 76,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙悟空": 1,
+        "唐僧": 1,
+        "众僧": 1
+      },
+      "links": [
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "众僧",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "众僧",
+          "target": "唐僧",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "熊精",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "黑风山下惯藏妖，相貌狰狞胆气豪。一片雄心收未得，且施小计恣贪饕。",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.591,
+        "conflict": 1.0,
+        "sentiment": 0.387
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "众僧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "放火去咧。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "了然",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "啊，放火也是嚷得的？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "熊精",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：3位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.617,
+        "conflict": 0.488,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "善有善报，恶有恶报。若还不报，时辰未到。",
+          "rating": 0.5,
+          "role": "武生"
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "安心睡，梦正酣。",
+          "rating": -0.6,
+          "role": ""
+        },
+        {
+          "name": "众僧",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "暗地损人伦，放火烧自身。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，76行",
+      "firstLine": 1,
+      "lastLine": 76,
+      "numLines": 76,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.8,
+        "conflict": 0.51,
+        "sentiment": 0.018
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "熊精",
+      "short": "熊精",
+      "key": "熊精",
+      "quote": "熊精 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "唐僧",
+      "short": "唐僧",
+      "key": "唐僧",
+      "quote": "唐僧 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众僧",
+      "short": "众僧",
+      "key": "众僧",
+      "quote": "众僧 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "了然",
+      "short": "了然",
+      "key": "了然",
+      "quote": "了然 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

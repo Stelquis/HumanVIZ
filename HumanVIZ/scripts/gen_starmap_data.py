@@ -10,30 +10,31 @@ from collections import defaultdict
 
 DATA_DIR = "/workspace/HumanVIZ/data"
 SRC_DIR = "/workspace/HumanVIZ/src/data"
-OUT = "/workspace/HumanVIZ/src/data/starmap_data.json"
+# Must match frontend import path: src/data/starmap-data.json
+OUT = "/workspace/HumanVIZ/src/data/starmap-data.json"
 
 print("Loading data sources...")
 
 # 1. Networks (characters per script)
-with open(f"{DATA_DIR}/p2_networks.json") as f:
+with open(f"{DATA_DIR}/processed/p2_networks.json") as f:
     raw = json.load(f)
     networks = raw["networks"]
 
 # 2. Metrics
-with open(f"{DATA_DIR}/p2_metrics.json") as f:
+with open(f"{DATA_DIR}/processed/p2_metrics.json") as f:
     raw = json.load(f)
     metrics_list = raw["metrics"]
     metrics_map = {m["entity_id"]: m for m in metrics_list}
 
 # 3. Themes
-with open(f"{DATA_DIR}/p3_themes.json") as f:
+with open(f"{DATA_DIR}/processed/p3_themes.json") as f:
     themes_data = json.load(f)
     theme_taxonomy = themes_data["theme_taxonomy"]
     theme_scripts = themes_data["scripts"]
     theme_map = {s["entity_id"]: s for s in theme_scripts}
 
 # 4. Structural fingerprints
-with open(f"{DATA_DIR}/structural_fingerprints.json") as f:
+with open(f"{DATA_DIR}/processed/structural_fingerprints.json") as f:
     raw = json.load(f)
     features_list = raw["features"]
     features_map = {}
@@ -43,7 +44,7 @@ with open(f"{DATA_DIR}/structural_fingerprints.json") as f:
         features_map[eid] = feat
 
 # 5. Character role map
-with open(f"{SRC_DIR}/char_role_map.json") as f:
+with open(f"{SRC_DIR}/char-role-map.json") as f:
     char_role_map = json.load(f)
 
 print(f"Loaded: {len(networks)} networks, {len(metrics_list)} metrics, "
@@ -64,30 +65,110 @@ ROLE_COLORS = {
 THEME_COLORS = {name: info["color"] for name, info in theme_taxonomy.items()}
 THEME_ORDER = list(theme_taxonomy.keys())
 
-NARR_CLUSTERS = ["渐进式", "突变式", "双线交织", "回环式"]
+NARR_CLUSTERS = [
+    "史诗铺陈式",    # Epic Panoramic — 场次众多，时间空间跨度宏大
+    "多幕群像式",    # Multi-Act Ensemble — 角色众多，多视角群像叙事
+    "悬念突转式",    # Suspense-Reversal — 场景不均，高潮集中释放
+    "三叠反复式",    # Triadic Repetition — 三/六/九场倍数结构
+    "情感波浪式",    # Emotional Wave — 情感标记密集，内心驱动
+    "回环照应式",    # Circular Echo — 唱腔主导，首尾呼应
+    "双线交织式",    # Dual-Thread Interwoven — 对话推动双线并行
+    "线性渐进式",    # Linear Progressive — 因果链逐场推进
+]
 NARR_COLORS = {
-    "渐进式": "#b8926a", "突变式": "#96544d", "双线交织": "#5e6b76", "回环式": "#7f968d",
+    "线性渐进式": "#b8926a",   # gold/amber — 稳步行进
+    "悬念突转式": "#c44d4d",   # crimson red — 戏剧张力
+    "双线交织式": "#5e6b76",   # slate blue-gray — 双线交错
+    "回环照应式": "#7f968d",   # sage/teal — 首尾呼应
+    "情感波浪式": "#c77d8b",   # pink/rose — 情感温度
+    "史诗铺陈式": "#6b5b4f",   # deep brown — 历史厚重
+    "三叠反复式": "#c4a56e",   # olive gold — 结构韵律
+    "多幕群像式": "#8a7a8e",   # muted lavender — 复杂多元
 }
 
-# ── Classify narrative type from structural features ──
+# ── Classify narrative type from structural features (8-type system) ──
 def classify_narrative(feat):
-    if not feat:
-        return "渐进式"
-    sc = feat.get("scene_count", 5)
-    fc = feat.get("fighting_ratio", 0)
-    cv = feat.get("scene_lines_cv", 1)
-    sing = feat.get("singing_ratio", 0.2)
+    """
+    基于多维结构特征将剧本归入8种叙事结构类型之一。
 
-    if sc <= 3:
-        return "突变式"
-    elif fc > 0.08:
-        return "双线交织"
-    elif cv > 1.8:
-        return "突变式"
-    elif sing > 0.35 and sc <= 6:
-        return "回环式"
-    else:
-        return "渐进式"
+    特征来源: extract_structural_features.py 输出的 structural_fingerprints.json
+    各字段: scene_count, singing_ratio, reciting_ratio, speaking_ratio,
+            acting_ratio, fighting_ratio, scene_lines_cv, first_last_ratio,
+            max_scene_pos, line_change_rate, character_count, avg_chars_per_scene,
+            top3_concentration, emotion_density, conflict_density, ban_variety,
+            xipi_ratio, erhuang_ratio, total_lines, source_category
+    """
+    if not feat:
+        return "线性渐进式"
+
+    # ── Extract all features with safe defaults ──
+    sc = feat.get("scene_count", 0)
+    cv = feat.get("scene_lines_cv", 0)
+    sing = feat.get("singing_ratio", 0)
+    recit = feat.get("reciting_ratio", 0)
+    emot = feat.get("emotion_density", 0)
+    cc = feat.get("character_count", 0)
+    top3 = feat.get("top3_concentration", 0.5)
+    bv = feat.get("ban_variety", 0)
+    mp = feat.get("max_scene_pos", 0.5)
+    lc = feat.get("line_change_rate", 0)
+    fl = feat.get("first_last_ratio", 0)
+    tl = feat.get("total_lines", 0)
+
+    # ── Edge case: scripts without detectable scene markers (sc <= 1) ──
+    if sc <= 1:
+        if cc >= 10:
+            return "多幕群像式"     # Many characters, no structured scenes
+        if sing > 0.12:
+            return "回环照应式"     # Singing-focused lyric drama
+        return "线性渐进式"         # Default for unstructured short scripts
+
+    # ── Type 1: 史诗铺陈式 (Epic Panoramic) ──
+    # High scene count (>15) or many scenes + long total lines
+    if sc > 15:
+        return "史诗铺陈式"
+    if sc > 10 and tl > 600:
+        return "史诗铺陈式"
+
+    # ── Type 2: 多幕群像式 (Multi-Act Ensemble) ──
+    # Large cast with distributed dialogue focus (low top-3 concentration)
+    if cc >= 12 and top3 <= 0.55:
+        return "多幕群像式"
+    if cc >= 8 and top3 <= 0.40:
+        return "多幕群像式"
+
+    # ── Type 3: 悬念突转式 (Suspense-Reversal) ──
+    # High scene length CV (uneven scenes) + late peak OR extremely high CV
+    if cv > 0.75 and (mp > 0.6 or fl > 2.0) and sc >= 3:
+        return "悬念突转式"
+    if cv > 1.2 and sc >= 4:
+        return "悬念突转式"
+
+    # ── Type 4: 三叠反复式 (Triadic Repetition) ──
+    # Scene count is a multiple of 3 (3,6,9,12) with low scene-to-scene change rate
+    if sc in (3, 6, 9, 12) and lc < 0.4:
+        return "三叠反复式"
+
+    # ── Type 5: 情感波浪式 (Emotional Wave) ──
+    # High emotional marker density, reinforced by singing ratio
+    if emot > 0.02 and sing > 0.08:
+        return "情感波浪式"
+    if emot > 0.03:
+        return "情感波浪式"
+
+    # ── Type 6: 回环照应式 (Circular Echo) ──
+    # Singing-heavy with musical variety (ban variety >= 2)
+    if sing > 0.15 and bv >= 2 and sc >= 3:
+        return "回环照应式"
+
+    # ── Type 7: 双线交织式 (Dual-Thread Interwoven) ──
+    # High reciting/dialogue ratio with multi-character interaction
+    if recit > 0.05 and cc > 6 and sc >= 3:
+        return "双线交织式"
+
+    # ── Type 8: 线性渐进式 (Linear Progressive) ──
+    # Catch-all: steady scene-by-scene progression without strong pattern signals
+    return "线性渐进式"
 
 # ── Build script nodes ──
 print("Building script nodes...")
@@ -259,7 +340,7 @@ for (a, b), info in theme_link_acc.items():
         theme_links_raw.append({
             "source": a,
             "target": b,
-            "sharedThemes": list(info["sharedThemes"]),
+            "sharedThemes": sorted(info["sharedThemes"]),
             "count": info["count"],
         })
 
@@ -267,7 +348,7 @@ for (a, b), info in theme_link_acc.items():
 from collections import Counter
 src_count = Counter()
 theme_links = []
-for link in sorted(theme_links_raw, key=lambda x: -x["count"]):
+for link in sorted(theme_links_raw, key=lambda x: (-x["count"], x["source"], x["target"])):
     s = link["source"]
     if src_count[s] < 5:
         theme_links.append(link)
@@ -334,6 +415,39 @@ for nt in NARR_CLUSTERS:
         "color": NARR_COLORS[nt],
         "count": count,
     }
+
+# ── Compute brightness (influence score) for each script ──
+print("Computing brightness scores...")
+N = len(script_nodes)
+_char_counts   = [s["charCount"] for s in script_nodes]
+_densities     = [s["density"] for s in script_nodes]
+_centrals      = [s["centralization"] for s in script_nodes]
+_clusterings   = [s["clustering"] for s in script_nodes]
+_theme_counts  = [len(s["themePresent"]) for s in script_nodes]
+_edge_counts   = [s.get("totalEdges", 0) for s in script_nodes]
+
+def _minmax(vals):
+    mn, mx = min(vals), max(vals)
+    rng = mx - mn or 1
+    return [(v - mn) / rng for v in vals]
+
+_n_char  = _minmax(_char_counts)
+_n_dens  = _minmax(_densities)
+_n_cent  = _minmax(_centrals)
+_n_clust = _minmax(_clusterings)
+_n_theme = _minmax(_theme_counts)
+_n_edge  = _minmax(_edge_counts)
+
+for i, s in enumerate(script_nodes):
+    raw = (
+        0.30 * _n_dens[i] +
+        0.25 * _n_cent[i] +
+        0.15 * _n_char[i] +
+        0.10 * _n_edge[i] +
+        0.10 * _n_theme[i] +
+        0.10 * _n_clust[i]
+    )
+    s["brightness"] = round(max(0.12, min(1.0, raw)), 4)
 
 # ── Serialize ──
 print("Serializing output...")

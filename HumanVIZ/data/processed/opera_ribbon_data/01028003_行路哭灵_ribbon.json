@@ -1,0 +1,412 @@
+{
+  "title": "行路哭灵",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "01028003_行路哭灵.json",
+  "source_folder": "01000000",
+  "plot_summary": "张媪次子张义，奉母命至祥符县署中，被恶嫂王氏所害。张媪自次子动身之后，倚闾而望。经久无音信，不\n免朝暮相思，忽又梦见次子七孔流血，惊疑不巳。不惮跋涉之劳，沿途求乞，奔赴祥符，访查次子下落。及\n与长子张仁晤面之后，细细盘问，始知次子果然身死，愤激悲痛，达于极点。乃住宿於灵柩之旁，冀有所感\n遇。而次子鬼魂竟来托梦，将恶嫂如何设谋，如何致死，所受惨痛情形，一一诉于母前，并谓含冤于地下，\n心实不甘，若焚牒于城隍神，自得灵爽之报应。明日早起，张媪在长子前托辞还愿，索取香烛费，往庙中呈\n诉云。",
+  "performance_notes": "是剧为老旦唱工重头，即本考第二册所载《钓金龟》之后本。京沪名伶，如龚云甫、王又宸等亦皆串演，颇\n受观剧者之欢迎。坤角中惟苗鑫如出色当行。余外诸艺员虽有可取，总不及三人之唱做兼优，允称完璧。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 22,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.244,
+      "locations": {
+        "祥符县正堂": 1
+      },
+      "characters": {
+        "张仁": 1,
+        "张义": 1,
+        "康氏": 1
+      },
+      "links": [
+        {
+          "source": "康氏",
+          "target": "张仁",
+          "value": 1
+        },
+        {
+          "source": "康氏",
+          "target": "张义",
+          "value": 1
+        },
+        {
+          "source": "张义",
+          "target": "张仁",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 28,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.31,
+      "locations": {
+        "祥符县正堂": 1
+      },
+      "characters": {
+        "张仁": 1,
+        "张义": 1,
+        "路人": 1,
+        "康氏": 1
+      },
+      "links": [
+        {
+          "source": "康氏",
+          "target": "张义",
+          "value": 1
+        },
+        {
+          "source": "张义",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "张义",
+          "target": "张仁",
+          "value": 1
+        },
+        {
+          "source": "康氏",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "康氏",
+          "target": "张仁",
+          "value": 1
+        },
+        {
+          "source": "张仁",
+          "target": "路人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 221,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "祥符县正堂": 1
+      },
+      "characters": {
+        "张仁": 1,
+        "张义": 1,
+        "康氏": 1,
+        "家院": 1,
+        "丫鬟": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "张仁",
+          "value": 1
+        },
+        {
+          "source": "康氏",
+          "target": "张仁",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "张仁",
+          "value": 1
+        },
+        {
+          "source": "张义",
+          "target": "张仁",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "康氏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "张义",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "康氏",
+          "value": 1
+        },
+        {
+          "source": "康氏",
+          "target": "张义",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "张义",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "祥符县正堂",
+      "characters": [
+        {
+          "name": "康氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "光阴催人似箭，满头蓬鬓如霜。",
+          "rating": 0.333,
+          "role": "老旦"
+        },
+        {
+          "name": "张仁",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张义",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：3位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.773,
+        "conflict": 1.0,
+        "sentiment": 0.134
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "祥符县正堂",
+      "characters": [
+        {
+          "name": "张义",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "可恨王氏太不良，七寸钢钉把命伤。有心要见亲娘面，怎奈阴阳不相当。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "康氏",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "东方白曙河光亮，",
+          "rating": 0.6,
+          "role": "老旦"
+        },
+        {
+          "name": "路人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "做什么？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张仁",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.793,
+        "conflict": 1.0,
+        "sentiment": 0.202
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "祥符县正堂",
+      "characters": [
+        {
+          "name": "张仁",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "得受朝庭钦选，礼仪忠孝当先。",
+          "rating": 0.286,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "有。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "康氏",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "奔走蹊跷路，不觉到祥符。一路问来，此间便是祥符。",
+          "rating": 0.5,
+          "role": "老旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张义",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "荡影无踪，元阳已散，日化泥来晚化风。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第三场：5位角色，221行",
+      "firstLine": 1,
+      "lastLine": 221,
+      "numLines": 221,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.133,
+        "sentiment": 0.197
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "康氏",
+      "short": "康氏",
+      "key": "康氏",
+      "quote": "康氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张义",
+      "short": "张义",
+      "key": "张义",
+      "quote": "张义 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "张仁",
+      "short": "张仁",
+      "key": "张仁",
+      "quote": "张仁 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "路人",
+      "short": "路人",
+      "key": "路人",
+      "quote": "路人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "祥符县正堂",
+      "key": "祥符县正堂",
+      "quote": "场景发生在祥符县正堂"
+    }
+  ]
+}

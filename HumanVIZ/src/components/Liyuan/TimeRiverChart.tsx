@@ -23,8 +23,9 @@ const TimeRiverChart: React.FC = () => {
   const svgRef = useRef<SVGSVGElement | null>(null);
   const sizeRef = useRef({ w: 600, h: 480 });
   const [tooltip, setTooltip] = useState<TooltipData | null>(null);
-  const { setHoveredEra } = useEraStore();
+  const { hoveredRole, hoveredEra, setHoveredEra } = useEraStore();
 
+  /* ── ResizeObserver → 重绘 ── */
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
@@ -54,32 +55,25 @@ const TimeRiverChart: React.FC = () => {
     const n = data.length;
     const cx = w / 2;
     const cy = h / 2;
-    const outerR = Math.min(w, h) / 2 - 30;
+    const outerR = Math.min(w, h) / 2 * 0.92;
     const innerR = outerR * 0.32;
     const maxBandW = outerR - innerR;
-    const eraAngle = (2 * Math.PI) / n;
+
+    /* 扇区角度 ∝ 剧本数量 */
+    const totalScripts = data.reduce((sum, d) => sum + d.count, 0);
+    const eraStartAngles: number[] = [];
+    let cumA = 0;
+    for (let i = 0; i < n; i++) {
+      eraStartAngles.push(cumA);
+      cumA += (data[i].count / totalScripts) * 2 * Math.PI;
+    }
+    const eraEndAngles = [...eraStartAngles.slice(1), 2 * Math.PI];
 
     const g = svg.append("g").attr("transform", `translate(${cx},${cy})`);
 
-    /* ───── 每时期外圈厚度 = 行当集中度驱动 ───── */
-    const stdDevs = data.map((era) => {
-      const v = ROLE_KEYS.map((k) => (era as any)[k] as number);
-      const mean = v.reduce((a, b) => a + b, 0) / v.length;
-      const variance =
-        v.reduce((sum, p) => sum + (p - mean) ** 2, 0) / v.length;
-      return Math.sqrt(variance);
-    });
-    const minStd = Math.min(...stdDevs);
-    const maxStd = Math.max(...stdDevs);
-
-    const eraOuter = data.map(
-      (_, i) =>
-        innerR +
-        (0.58 + ((stdDevs[i] - minStd) / (maxStd - minStd)) * 0.42) * maxBandW
-    );
-
-    const roleRadii = (era: EraEvolutionPoint, eraR: number) => {
-      const band = eraR - innerR;
+    /* ── 行当层半径（统一 outerR，层厚由行当占比驱动） ── */
+    const roleRadii = (era: EraEvolutionPoint) => {
+      const band = outerR - innerR;
       const r: number[] = [];
       let acc = 0;
       for (const k of ROLE_KEYS) {
@@ -89,28 +83,22 @@ const TimeRiverChart: React.FC = () => {
       return r;
     };
 
-    /* ───── 底层淡色标准圆环（无起伏参考基线） ───── */
     const bgArc = (sa: number, ea: number) =>
       d3.arc()({ innerRadius: innerR, outerRadius: outerR, startAngle: sa, endAngle: ea })!;
 
-    data.forEach((_d, i) => {
-      const sa = i * eraAngle + 0.003;
-      const ea = (i + 1) * eraAngle - 0.003;
-      g.append("path")
-        .attr("d", bgArc(sa, ea))
-        .attr("fill", "rgba(200,190,170,0.12)")
-        .attr("stroke", "rgba(200,190,170,0.2)")
-        .attr("stroke-width", 0.4)
-        .attr("class", `tr-bg tr-bg-era-${i}`);
-    });
+    /* 连续背景圆环 */
+    g.append("path")
+      .attr("d", bgArc(0, 2 * Math.PI))
+      .attr("fill", "rgba(200,190,170,0.10)")
+      .attr("stroke", "none")
+      .attr("class", "tr-bg-continuous");
 
-    /* ───── 逐时期弧形块 ───── */
-    const gap = 0.015;
+    /* ── 逐扇区弧形块（gap=0，层间描边弱化） ── */
     for (let i = 0; i < n; i++) {
       const era = data[i];
-      const cum = roleRadii(era, eraOuter[i]);
-      const sa = i * eraAngle + gap;
-      const ea = (i + 1) * eraAngle - gap;
+      const cum = roleRadii(era);
+      const sa = eraStartAngles[i];
+      const ea = eraEndAngles[i];
 
       ROLE_KEYS.forEach((key, roleIdx) => {
         const ir = roleIdx === 0 ? innerR : cum[roleIdx - 1];
@@ -123,55 +111,51 @@ const TimeRiverChart: React.FC = () => {
           .attr("class", `tr-seg tr-era-${i} tr-role-${roleIdx}`)
           .attr("fill", ROLE_COLORS[key])
           .attr("opacity", 0.88)
-          .attr("stroke", "rgba(255,255,255,0.55)")
-          .attr("stroke-width", 0.8);
+          .attr("stroke", "rgba(255,255,255,0.25)")
+          .attr("stroke-width", 0.3);
       });
     }
 
-    /* ───── 关公脸谱（内圆裁剪） ───── */
-    const defs = svg.append("defs");
-    defs
-      .append("clipPath")
-      .attr("id", "guan-clip")
-      .append("circle")
-      .attr("r", innerR);
-
-    g.append("image")
-      .attr("href", "/Guan.png")
-      .attr("x", -innerR)
-      .attr("y", -innerR)
-      .attr("width", innerR * 2)
-      .attr("height", innerR * 2)
-      .attr("clip-path", "url(#guan-clip)")
-      .attr("preserveAspectRatio", "xMidYMid slice");
-
+    /* ── 内圆边框 ── */
     g.append("circle")
       .attr("r", innerR)
       .attr("fill", "none")
       .attr("stroke", "var(--theme-border-soft)")
       .attr("stroke-width", 1.6);
 
-    /* ───── 外圈装饰边框 ───── */
+    /* ── 关公脸谱（clipPath 裁剪填满内圆） ── */
+    const defs = svg.append("defs");
+    defs
+      .append("clipPath")
+      .attr("id", "guan-clip")
+      .append("circle")
+      .attr("r", innerR);
+    g.append("image")
+      .attr("href", "/guan-mask.png")
+      .attr("x", -innerR)
+      .attr("y", -innerR)
+      .attr("width", innerR * 2)
+      .attr("height", innerR * 2)
+      .attr("clip-path", "url(#guan-clip)")
+      .attr("preserveAspectRatio", "xMidYMid slice")
+      .attr("class", "tr-guan-mask");
+
+    /* ── 外圈连续边框 ── */
     g.append("circle")
       .attr("r", outerR)
       .attr("fill", "none")
       .attr("stroke", "var(--theme-border-soft)")
-      .attr("stroke-width", 0.6)
-      .attr("stroke-dasharray", "2,6");
+      .attr("stroke-width", 0.6);
 
-    /* ───── 外圈流动关键词路径 ───── */
+    /* ── 外圈流动关键词 ── */
     const flowPathId = "time-river-flow-path";
-    defs.append("circle")
-      .attr("id", flowPathId)
-      .attr("r", outerR + 15);
+    defs.append("circle").attr("id", flowPathId).attr("r", outerR + 15);
 
-    // 收集所有年代的主题关键词
     const allThemes = data.flatMap((d) =>
       d.themes.split(",").map((t) => t.trim())
     ).filter(Boolean);
     const themeString = allThemes.join("  ·  ");
 
-    // 流动文字
     const flowText = g
       .append("text")
       .style("fill", "var(--theme-text-soft)")
@@ -184,7 +168,6 @@ const TimeRiverChart: React.FC = () => {
       .attr("startOffset", "0%")
       .text(themeString + "   " + themeString);
 
-    // 流动动画
     let flowOffset = 0;
     const animateFlow = () => {
       flowOffset = (flowOffset + 0.015) % 50;
@@ -193,38 +176,46 @@ const TimeRiverChart: React.FC = () => {
     };
     requestAnimationFrame(animateFlow);
 
-    /* ───── 时期分隔装饰圆点 ───── */
-    data.forEach((_, i) => {
-      const angle = i * eraAngle;
+    /* ── 时期分隔装饰圆点 ── */
+    eraStartAngles.forEach((angle) => {
       const x = toX(outerR + 3, angle);
       const y = toY(outerR + 3, angle);
-
       g.append("circle")
-        .attr("cx", x)
-        .attr("cy", y)
+        .attr("cx", x).attr("cy", y)
         .attr("r", 3)
         .attr("fill", "var(--theme-gold)")
-        .attr("opacity", 0.5)
-        .attr("stroke", "rgba(255,255,255,0.8)")
-        .attr("stroke-width", 1);
+        .attr("opacity", 0.8)
+        .attr("stroke", "rgba(255,255,255,0.9)")
+        .attr("stroke-width", 1.2);
     });
 
-    /* ───── 时期标签（环内） ───── */
+    /* ── 时期分隔径向虚线 ── */
+    eraStartAngles.forEach((angle) => {
+      const ix = toX(innerR, angle);
+      const iy = toY(innerR, angle);
+      const ox = toX(outerR, angle);
+      const oy = toY(outerR, angle);
+      g.append("line")
+        .attr("x1", ix).attr("y1", iy)
+        .attr("x2", ox).attr("y2", oy)
+        .attr("stroke", "rgba(255,253,249,0.6)")
+        .attr("stroke-width", 1.2)
+        .attr("stroke-dasharray", "3,3")
+        .attr("opacity", 0.7);
+    });
+
+    /* ── 时期标签（扇区中位角） ── */
     const labelR = innerR + maxBandW * 0.82;
     data.forEach((d, i) => {
-      const midA = (i + 0.5) * eraAngle;
+      const midA = (eraStartAngles[i] + eraEndAngles[i]) / 2;
       const x = toX(labelR, midA);
       const y = toY(labelR, midA);
-      // 在下半圈翻转文字
       const bottom = midA > Math.PI * 0.45 && midA < Math.PI * 1.55;
       const rot = (midA * 180) / Math.PI + (bottom ? 180 : 0);
 
-      // 半透明背景标签
       g.append("rect")
-        .attr("x", x - 22)
-        .attr("y", y - 8)
-        .attr("width", 44)
-        .attr("height", 16)
+        .attr("x", x - 22).attr("y", y - 8)
+        .attr("width", 44).attr("height", 16)
         .attr("rx", 6)
         .attr("fill", "rgba(255,253,249,0.72)")
         .attr("stroke", "var(--theme-border-soft)")
@@ -232,8 +223,7 @@ const TimeRiverChart: React.FC = () => {
         .attr("transform", `rotate(${rot},${x},${y})`);
 
       g.append("text")
-        .attr("x", x)
-        .attr("y", y)
+        .attr("x", x).attr("y", y)
         .attr("text-anchor", "middle")
         .attr("dominant-baseline", "middle")
         .attr("fill", "var(--theme-wood)")
@@ -244,7 +234,7 @@ const TimeRiverChart: React.FC = () => {
         .text(d.era);
     });
 
-    /* ───── 悬浮热区 + 高亮 ───── */
+    /* ── 悬浮热区 + 高亮 ── */
     const makeArc = (ir: number, or_: number, sa: number, ea: number) =>
       d3.arc()({ innerRadius: ir, outerRadius: or_, startAngle: sa, endAngle: ea })!;
 
@@ -258,8 +248,8 @@ const TimeRiverChart: React.FC = () => {
       .style("display", "none");
 
     data.forEach((d, i) => {
-      const startA = i * eraAngle;
-      const endA = (i + 1) * eraAngle;
+      const startA = eraStartAngles[i];
+      const endA = eraEndAngles[i];
 
       g.append("path")
         .attr("d", makeArc(innerR, outerR, startA, endA))
@@ -269,11 +259,8 @@ const TimeRiverChart: React.FC = () => {
           highlight
             .attr("d", makeArc(innerR, outerR, startA, endA))
             .style("display", null);
-          g.selectAll(".tr-seg").attr("opacity", 0.28);
+          g.selectAll(".tr-seg").attr("opacity", 0.20);
           g.selectAll(`.tr-era-${i}`).attr("opacity", 1);
-          g.selectAll(".tr-bg-era-0,.tr-bg-era-1,.tr-bg-era-2,.tr-bg-era-3,.tr-bg-era-4,.tr-bg-era-5,.tr-bg-era-6,.tr-bg-era-7,.tr-bg-era-8")
-            .attr("opacity", 0.4);
-          g.selectAll(`.tr-bg-era-${i}`).attr("opacity", 1);
           const rect = containerRef.current!.getBoundingClientRect();
           setTooltip({
             era: d,
@@ -293,29 +280,73 @@ const TimeRiverChart: React.FC = () => {
         .on("mouseleave", () => {
           highlight.style("display", "none");
           g.selectAll(".tr-seg").attr("opacity", 0.88);
-          g.selectAll(".tr-bg").attr("opacity", null);
           setTooltip(null);
           setHoveredEra(null);
         });
     });
-
   }, [setTooltip, setHoveredEra]);
 
+  /* ── 绘制入口 ── */
+  useEffect(() => { draw(); }, [draw]);
+
+  /* ── 联动：右侧 RoleTreeRing hover 行当 → 左侧对应色块高亮 ── */
   useEffect(() => {
-    draw();
-  }, [draw]);
+    const svg = d3.select(svgRef.current);
+    if (!svg || hoveredRole === null) {
+      svg.selectAll(".tr-seg").attr("opacity", 0.88);
+      return;
+    }
+    const roleIdx = ROLE_KEYS.indexOf(hoveredRole);
+    if (roleIdx < 0) return;
+    svg.selectAll(".tr-seg").attr("opacity", 0.18);
+    svg.selectAll(`.tr-role-${roleIdx}`).attr("opacity", 1);
+  }, [hoveredRole]);
+
+  /* ── 当前 hover 的年代数据 ── */
+  const activeEra = hoveredEra !== null ? ROLE_EVOLUTION_DATA[hoveredEra] : null;
 
   return (
-    <div ref={containerRef} className="time-river-container">
+    <div ref={containerRef} className="time-river-container" data-era-active={activeEra ? "true" : "false"}>
       <svg ref={svgRef} className="time-river-svg" />
 
+      {/* ── 中心动态面板 ── */}
+      <div className="tr-center-panel">
+        {activeEra ? (
+          <>
+            <div className="tr-center-era">{activeEra.era}</div>
+            <div className="tr-center-count">{activeEra.count} 部剧本</div>
+            <div className="tr-center-years">{activeEra.yearStart} – {activeEra.yearEnd}</div>
+            <div className="tr-center-bars">
+              {ROLE_KEYS.map((k) => {
+                const pct = (activeEra as any)[k] as number;
+                return (
+                  <div key={k} className="tr-center-bar-row">
+                    <span className="tr-center-bar-label">{k}</span>
+                    <span className="tr-center-bar-track">
+                      <span
+                        className="tr-center-bar-fill"
+                        style={{
+                          width: `${pct}%`,
+                          background: ROLE_COLORS[k],
+                        }}
+                      />
+                    </span>
+                    <span className="tr-center-bar-val">{pct}%</span>
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        ) : (
+          <span className="tr-center-hint">悬停扇区查看详情</span>
+        )}
+      </div>
+
+      {/* ── 悬浮 tooltip ── */}
       {tooltip && (
         <div
           className="tr-tooltip"
-          style={{
-            left: tooltip.x + 12,
-            top: tooltip.y + 10,
-          }}
+          style={{ left: tooltip.x + 12, top: tooltip.y + 10 }}
         >
           <div className="tr-tooltip-era">{tooltip.era.era}</div>
           <div className="tr-tooltip-year">

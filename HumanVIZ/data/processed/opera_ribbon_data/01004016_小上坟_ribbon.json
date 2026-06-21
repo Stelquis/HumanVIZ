@@ -1,0 +1,272 @@
+{
+  "title": "小上坟",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 3,
+  "source_file": "01004016_小上坟.json",
+  "source_folder": "01000000",
+  "plot_summary": "刘禄敬入都应试获售，听鼓京华，欲归不得。历久始得县缺。其妻萧素贞在家，以刘禄敬久客不归，杳无音\n信，疑已物故。而家况萧条，亲朋绝迹，不得已以针黹制度日，誓守柏舟。刘禄敬莅任时，念及糟糠，顺道\n一省庐墓。时值清明，见道旁一素妆女子，携麦饭纸钱，在荒冢累累间，痛哭祭扫。审之貌似己妻，大疑。\n乃遣散仆从，趋问姓氏，果己妻也。不禁涕泪纵横，上前相认。萧素贞见其老态龙钟，不敢深信。刘禄敬乃\n缕述家中琐事，言之凿凿，不差毫厘。萧素贞疑团始释，相抱大哭，各诉离衷，悲喜交集，即携手登舆赴任\n而去。",
+  "performance_notes": "此剧情节尚佳，与《桑园会》悲欢离合之情相等，毫无淫荡可鄙之处。不解梨园中编剧者，何以不用须生、\n青衫，而以小丑、花旦演之，遂致积习相沿，人人目为淫戏也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.078,
+      "locations": {
+        " 打道回府": 1
+      },
+      "characters": {
+        "刘禄敬": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 172,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "抱土筑坟台": 1
+      },
+      "characters": {
+        "青袍": 1,
+        "二青袍": 1,
+        "刘禄敬": 1,
+        "萧素贞": 1,
+        "青袍甲": 1
+      },
+      "links": [
+        {
+          "source": "刘禄敬",
+          "target": "萧素贞",
+          "value": 1
+        },
+        {
+          "source": "萧素贞",
+          "target": "青袍",
+          "value": 1
+        },
+        {
+          "source": "萧素贞",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "二青袍",
+          "target": "萧素贞",
+          "value": 1
+        },
+        {
+          "source": "刘禄敬",
+          "target": "青袍",
+          "value": 1
+        },
+        {
+          "source": "刘禄敬",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "二青袍",
+          "target": "刘禄敬",
+          "value": 1
+        },
+        {
+          "source": "青袍",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "二青袍",
+          "target": "青袍",
+          "value": 1
+        },
+        {
+          "source": "二青袍",
+          "target": "青袍甲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": " 打道回府",
+      "characters": [
+        {
+          "name": "刘禄敬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "受得苦中苦，方为人上人。",
+          "rating": -1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.535,
+        "conflict": 0.0,
+        "sentiment": -0.427
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "抱土筑坟台",
+      "characters": [
+        {
+          "name": "萧素贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "苦吓！",
+          "rating": -0.111,
+          "role": "花旦"
+        },
+        {
+          "name": "刘禄敬",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "青袍",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "呵！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "青袍甲",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "禀老爷的话：刘家坟上，有一妇人，在此啼哭。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "二青袍",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "呵！",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：5位角色，172行",
+      "firstLine": 1,
+      "lastLine": 172,
+      "numLines": 172,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.198,
+        "sentiment": 0.121
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘禄敬",
+      "short": "刘禄",
+      "key": "刘禄敬",
+      "quote": "刘禄敬 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "萧素贞",
+      "short": "萧素",
+      "key": "萧素贞",
+      "quote": "萧素贞 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "二青袍",
+      "short": "二青",
+      "key": "二青袍",
+      "quote": "二青袍 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "青袍",
+      "short": "青袍",
+      "key": "青袍",
+      "quote": "青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "青袍甲",
+      "short": "青袍",
+      "key": "青袍甲",
+      "quote": "青袍甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 打道回府",
+      "key": " 打道回府",
+      "quote": "场景发生在 打道回府"
+    },
+    {
+      "name": "抱土筑坟台",
+      "key": "抱土筑坟台",
+      "quote": "场景发生在抱土筑坟台"
+    },
+    {
+      "name": "了两扇门",
+      "key": "了两扇门",
+      "quote": "场景发生在了两扇门"
+    }
+  ]
+}

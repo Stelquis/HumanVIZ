@@ -1,0 +1,241 @@
+{
+  "title": "花魔寨",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "02006035_花魔寨.json",
+  "source_folder": "02000000",
+  "plot_summary": "唐僧被黄袍郎使用妖法，变成猛虎后，猪悟能无计可施，正想重回高老庄，不再作和尚。忽遇一人，言系驮\n经之白马，曾变作歌女，营救唐僧，被妖怪看破，被砍一剑而逃。猪悟能听后，谓白马如此义气，岂可不如\n白马。遂决定至花果山邀请孙悟空，营救师父。但至花果山后，守门猿猴，不敢通报。最后乘孙悟空练兵之\n时，混入队中，始得与孙悟空见面。猪悟能请孙悟空重回，营救唐僧。孙悟空初不允从，最后经猪悟能婉劝，\n始随猪悟能，一同往救唐僧云。",
+  "performance_notes": "按此剧即《西游记》第三十一回“猪八戒义激猴王”之一段故事。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 32,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.302,
+      "locations": {
+        "设高台": 1
+      },
+      "characters": {
+        "猪悟能": 1,
+        "通臂猿": 1
+      },
+      "links": [
+        {
+          "source": "猪悟能",
+          "target": "通臂猿",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 180,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "设高台": 1
+      },
+      "characters": {
+        "众小猴": 1,
+        "孙悟空": 1,
+        "猪悟能": 1,
+        "通臂猿": 1
+      },
+      "links": [
+        {
+          "source": "孙悟空",
+          "target": "通臂猿",
+          "value": 1
+        },
+        {
+          "source": "众小猴",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "众小猴",
+          "target": "通臂猿",
+          "value": 1
+        },
+        {
+          "source": "猪悟能",
+          "target": "通臂猿",
+          "value": 1
+        },
+        {
+          "source": "众小猴",
+          "target": "猪悟能",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "设高台",
+      "characters": [
+        {
+          "name": "通臂猿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "人说仙家日月迟，仙家日月快似驹。遥遥千万人间事，只换山中一局棋。",
+          "rating": 0.6,
+          "role": ""
+        },
+        {
+          "name": "猪悟能",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "时辰两三个，行过几千程。",
+          "rating": 0.5,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：2位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.591,
+        "conflict": 1.0,
+        "sentiment": 0.529
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "设高台",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "花果山重把旧基开，",
+          "rating": 0.467,
+          "role": "武生"
+        },
+        {
+          "name": "通臂猿",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "各整器械，操练一回。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众小猴",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "不知哪里混来的野和尚。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "猪悟能",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "不是野人是家人。",
+          "rating": 0.2,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：4位角色，180行",
+      "firstLine": 1,
+      "lastLine": 180,
+      "numLines": 180,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.3,
+        "sentiment": 0.311
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "猪悟能",
+      "short": "猪悟",
+      "key": "猪悟能",
+      "quote": "猪悟能 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "众小猴",
+      "short": "众小",
+      "key": "众小猴",
+      "quote": "众小猴 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "通臂猿",
+      "short": "通臂",
+      "key": "通臂猿",
+      "quote": "通臂猿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "设高台",
+      "key": "设高台",
+      "quote": "场景发生在设高台"
+    },
+    {
+      "name": "见演武升台",
+      "key": "见演武升台",
+      "quote": "场景发生在见演武升台"
+    }
+  ]
+}

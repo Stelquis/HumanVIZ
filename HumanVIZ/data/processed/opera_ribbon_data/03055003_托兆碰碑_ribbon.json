@@ -1,0 +1,583 @@
+{
+  "title": "托兆碰碑",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "03055003_托兆碰碑.json",
+  "source_folder": "03000000",
+  "plot_summary": "杨继业被困两狼山，命杨七郎突围搬兵。潘洪为报子仇，用酒将杨七郎灌醉，乱箭射死。杨七郎鬼魂与杨继\n业托兆。杨继业复命杨六郎回朝求救。援兵不至，人马冻饿，杨继业碰死李陵碑前。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 96,
+      "summary": "第一场；第二场",
+      "conflict": 0.181,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "四鬼卒": 1,
+        "杨继业": 1,
+        "杨延昭": 1,
+        "杨延嗣": 1
+      },
+      "links": [
+        {
+          "source": "四鬼卒",
+          "target": "杨延嗣",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "杨延嗣",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "杨延嗣",
+          "target": "杨延昭",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 22,
+      "summary": "第三场；第四场",
+      "conflict": 1.182,
+      "importance": 0.317,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "韩延寿": 1,
+        "四番兵": 1,
+        "杨延昭": 1,
+        "杨延嗣": 1
+      },
+      "links": [
+        {
+          "source": "四番兵",
+          "target": "韩延寿",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "韩延寿",
+          "value": 1
+        },
+        {
+          "source": "杨延嗣",
+          "target": "韩延寿",
+          "value": 1
+        },
+        {
+          "source": "四番兵",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "四番兵",
+          "target": "杨延嗣",
+          "value": 1
+        },
+        {
+          "source": "杨延嗣",
+          "target": "杨延昭",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 90,
+      "summary": "第五场；第六场",
+      "conflict": 0.277,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "杨继业": 1,
+        "杨延昭": 1,
+        "苏武": 1,
+        "老丈": 1,
+        "四老军": 1,
+        "韩延寿": 1,
+        "探子": 1
+      },
+      "links": [
+        {
+          "source": "四老军",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "四老军",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "四老军",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨继业",
+          "target": "苏武",
+          "value": 1
+        },
+        {
+          "source": "老丈",
+          "target": "苏武",
+          "value": 1
+        },
+        {
+          "source": "苏武",
+          "target": "韩延寿",
+          "value": 1
+        },
+        {
+          "source": "杨继业",
+          "target": "老丈",
+          "value": 1
+        },
+        {
+          "source": "杨继业",
+          "target": "韩延寿",
+          "value": 1
+        },
+        {
+          "source": "老丈",
+          "target": "韩延寿",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨延嗣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "在生前拳打潘豹，赴阴曹恶气难消！",
+          "rating": -0.143,
+          "role": "净"
+        },
+        {
+          "name": "四鬼卒",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "唔！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.493,
+        "conflict": 0.571,
+        "sentiment": 0.043
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨继业",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "金乌坠玉兔升黄昏时候，",
+          "rating": 0.111,
+          "role": "老生"
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "听谯楼打罢了二更时分，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "杨延嗣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "听谯楼打罢了三更时分，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：3位角色，72行",
+      "firstLine": 1,
+      "lastLine": 72,
+      "numLines": 72,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.88,
+        "conflict": 0.172,
+        "sentiment": 0.224
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "韩延寿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "俺，韩延寿。奉了太后之命，把守虎口交牙峪。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "四番兵",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来将通名！",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "杨延嗣",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：4位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.636,
+        "conflict": 0.0,
+        "sentiment": -0.422
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "休赶哪休赶！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.489,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨继业",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "叹杨家秉忠心大宋扶保，",
+          "rating": -0.077,
+          "role": "老生"
+        },
+        {
+          "name": "四老军",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "饿呀！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "探子",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "报！战马被石虎咬倒。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：4位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.807,
+        "conflict": 0.909,
+        "sentiment": 0.208
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "苏武",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "吾乃汉世苏武是也。今当令公归位之期，不免在此点化于他。待我点化一座庙",
+          "rating": -0.6,
+          "role": "老生"
+        },
+        {
+          "name": "杨继业",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "当年路过五台山，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "老丈",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "请了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "韩延寿",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "呜呼呀！原来是老令公碰死李陵碑下。",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：4位角色，43行",
+      "firstLine": 1,
+      "lastLine": 43,
+      "numLines": 43,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.673,
+        "conflict": 0.238,
+        "sentiment": -0.069
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨继业",
+      "short": "杨继",
+      "key": "杨继业",
+      "quote": "杨继业 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨延嗣",
+      "short": "杨延",
+      "key": "杨延嗣",
+      "quote": "杨延嗣 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨延昭",
+      "short": "杨延",
+      "key": "杨延昭",
+      "quote": "杨延昭 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "韩延寿",
+      "short": "韩延",
+      "key": "韩延寿",
+      "quote": "韩延寿 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "苏武",
+      "short": "苏武",
+      "key": "苏武",
+      "quote": "苏武 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "老丈",
+      "short": "老丈",
+      "key": "老丈",
+      "quote": "老丈 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四老军",
+      "short": "四老",
+      "key": "四老军",
+      "quote": "四老军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四番兵",
+      "short": "四番",
+      "key": "四番兵",
+      "quote": "四番兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四鬼卒",
+      "short": "四鬼",
+      "key": "四鬼卒",
+      "quote": "四鬼卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

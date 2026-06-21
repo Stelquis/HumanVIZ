@@ -1,0 +1,370 @@
+{
+  "title": "双摇会",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "01005013_双摇会.json",
+  "source_folder": "01000000",
+  "plot_summary": "此剧形容妻妾争风丑态，演时诙谐杂出，颇足另人捧腹。某士人家有一妻一妾，出外时妾每为妻所欺。一日\n某作客归，先入妾房卧宿，不意为妻所知，蹑至房外窃听。妾正在彼所说被大娘打骂苦情，妻遂大骂，打门\n冲进。从此二人吵闹不休，某亦无法止住，惊动另局到来排解，同她们并半均分，妻、妾各住半月。二人虽\n听从邻居之言，惟仍争夺上半月。邻居又想出双摇会之法，点色大者得上半，小者得下半。遂如法而行，卒\n为二娘所得。",
+  "performance_notes": "此剧虽以滑稽出之，然一片婆心，颇欲针砭末俗，使要妾者知系自讨烦恼。惜乎观剧者不采其精意，而徒视\n为逢场取乐之具也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 147,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.52,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "小妾": 1,
+        "李相公": 1,
+        "王氏": 1,
+        "书童": 1
+      },
+      "links": [
+        {
+          "source": "小妾",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "李相公",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "小妾",
+          "target": "李相公",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "小妾",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "李相公",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 418,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "老街坊": 1,
+        "王氏": 1,
+        "书童": 1,
+        "小妾": 1,
+        "李相公": 1,
+        "小街坊": 1
+      },
+      "links": [
+        {
+          "source": "李相公",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "小妾",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "小街坊",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "王氏",
+          "target": "老街坊",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "小妾",
+          "target": "李相公",
+          "value": 1
+        },
+        {
+          "source": "小街坊",
+          "target": "李相公",
+          "value": 1
+        },
+        {
+          "source": "李相公",
+          "target": "老街坊",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "李相公",
+          "value": 1
+        },
+        {
+          "source": "小妾",
+          "target": "小街坊",
+          "value": 1
+        },
+        {
+          "source": "小妾",
+          "target": "老街坊",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "小妾",
+          "value": 1
+        },
+        {
+          "source": "小街坊",
+          "target": "老街坊",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "小街坊",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "老街坊",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哽哼！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "小妾",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忽听大娘唤，迈步到跟前。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "李相公",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "书童带路往前行，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "书童",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "到了，相公。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：4位角色，147行",
+      "firstLine": 1,
+      "lastLine": 147,
+      "numLines": 147,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.175,
+        "sentiment": 0.184
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "耳边厢听得有人声，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "李相公",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊，二娘。自从卑人出门之后，大娘待你如何？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "小妾",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "自从相公出门之后，大娘在家终日打，每日骂，叫我们好难受。",
+          "rating": 0.2,
+          "role": "旦"
+        },
+        {
+          "name": "小街坊",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "请吓！",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "老街坊",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "忽听得街坊上闹吵声，",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "书童",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：6位角色，418行",
+      "firstLine": 1,
+      "lastLine": 418,
+      "numLines": 418,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.077,
+        "sentiment": 0.231
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王氏",
+      "short": "王氏",
+      "key": "王氏",
+      "quote": "王氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "小妾",
+      "short": "小妾",
+      "key": "小妾",
+      "quote": "小妾 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李相公",
+      "short": "李相",
+      "key": "李相公",
+      "quote": "李相公 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "老街坊",
+      "short": "老街",
+      "key": "老街坊",
+      "quote": "老街坊 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "小街坊",
+      "short": "小街",
+      "key": "小街坊",
+      "quote": "小街坊 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "书童",
+      "short": "书童",
+      "key": "书童",
+      "quote": "书童 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

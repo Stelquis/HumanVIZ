@@ -1,0 +1,110 @@
+{
+  "title": "孟母断机",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "03034001_孟母断机.json",
+  "source_folder": "03000000",
+  "plot_summary": "孟母教子，三迁其居。一日，孟轲受同学惑言，谓不读书也能立身。孟母再三劝导，孟轲依然不肯读书。孟\n母无奈，遂断机头。孟轲从此悔悟，奋志攻书，终成大器。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 83,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孟轲": 1,
+        "孟母": 1
+      },
+      "links": [
+        {
+          "source": "孟母",
+          "target": "孟轲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孟母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "古圣王修课程心思用尽，",
+          "rating": 0.778,
+          "role": "老旦"
+        },
+        {
+          "name": "孟轲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "走哇！",
+          "rating": 0.667,
+          "role": ""
+        }
+      ],
+      "summary": "段落1：2位角色，83行",
+      "firstLine": 1,
+      "lastLine": 83,
+      "numLines": 83,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.392,
+        "sentiment": 0.44
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孟母",
+      "short": "孟母",
+      "key": "孟母",
+      "quote": "孟母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "孟轲",
+      "short": "孟轲",
+      "key": "孟轲",
+      "quote": "孟轲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

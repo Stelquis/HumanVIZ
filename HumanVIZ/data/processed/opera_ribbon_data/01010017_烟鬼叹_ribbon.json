@@ -1,0 +1,199 @@
+{
+  "title": "烟鬼叹",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01010017_烟鬼叹.json",
+  "source_folder": "01000000",
+  "plot_summary": "魏不饱染鸦片烟疾，死后去见好友胡松亭，接其往生。",
+  "performance_notes": "《烟鬼叹》一剧之命意，本乎醒世要旨，颇有针砭社会之功。当清同、光以前，初无是剧，至光绪之季，上\n海始有演唱者，或谓亦系夏月珊所编，其时《黑籍冤魂》新剧尚未产生。编者冀藉此戏以收功于社会，惟其\n节目太简略，思想太陈腐，剧本太杂凑而且鄙俚，盖专从套袭旧剧之形式，以编排而成，其精微主旨俱不过\n托诸唱句中，初无具体的表情上之显示，故观者不能十分感动。然其用意之善，诚不可没，且其唱工亦颇重，\n阅者幸勿以其脚本中之不同可笑而忽之，要知现在一般社会中，所群奉为有功世俗之《黑籍冤魂》新戏者\n实此《烟鬼叹》一剧之再世化身也。至于脚本中最可哂最大谬不当之处，莫如以烟鬼而变为烟神，烟神之口\n吻如魏不饱所称“迎他同入仙班”等语，以及使用鬼卒驾起羊角风之类是。设烟鬼落魄夭丧后，果能如此自\n由，反得有长随鬼卒，听其差遣使用，则直与做官无异，人亦何所苦而不愿作烟鬼哉，吾大错先将蹑屐以从\n之矣。至于道白唱句中间，又复插入一种南风、屁精之口语，更觉不伦不类，盖如此则反将一段庄重劝诫之\n真正主义埋没干净，而转变为一篇无意识之科诨谰语矣。虽然是实拉杂编凑，不善用滑稽之病，阅者终须体\n谅之。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 16,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.229,
+      "locations": {
+        "这后门": 1
+      },
+      "characters": {
+        "魏不饱": 1,
+        "胡松亭": 1
+      },
+      "links": [
+        {
+          "source": "胡松亭",
+          "target": "魏不饱",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 124,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "这后门": 1
+      },
+      "characters": {
+        "魏不饱": 1,
+        "胡松亭": 1,
+        "丑院子": 1
+      },
+      "links": [
+        {
+          "source": "胡松亭",
+          "target": "魏不饱",
+          "value": 1
+        },
+        {
+          "source": "丑院子",
+          "target": "胡松亭",
+          "value": 1
+        },
+        {
+          "source": "丑院子",
+          "target": "魏不饱",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "这后门",
+      "characters": [
+        {
+          "name": "魏不饱",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "生前作土包，死后也糟糕。",
+          "rating": 0.2,
+          "role": "丑"
+        },
+        {
+          "name": "胡松亭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.703,
+        "conflict": 0.952,
+        "sentiment": 0.293
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "这后门",
+      "characters": [
+        {
+          "name": "胡松亭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "搀扶了！",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "魏不饱",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "驾起了羊角风团团乱转，",
+          "rating": -0.429,
+          "role": "丑"
+        },
+        {
+          "name": "丑院子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：3位角色，124行",
+      "firstLine": 1,
+      "lastLine": 124,
+      "numLines": 124,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.387,
+        "sentiment": 0.177
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "胡松亭",
+      "short": "胡松",
+      "key": "胡松亭",
+      "quote": "胡松亭 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "魏不饱",
+      "short": "魏不",
+      "key": "魏不饱",
+      "quote": "魏不饱 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "丑院子",
+      "short": "丑院",
+      "key": "丑院子",
+      "quote": "丑院子 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "这后门",
+      "key": "这后门",
+      "quote": "场景发生在这后门"
+    }
+  ]
+}

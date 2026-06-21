@@ -1,0 +1,315 @@
+{
+  "title": "法场明冤",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "02006037_法场明冤.json",
+  "source_folder": "02000000",
+  "plot_summary": "柏宪大将军将唐僧、沙悟净押入法场，正要行刑，适孙悟空同猪悟能赶至。乃将唐僧、沙悟净救出，并令百\n花羞与花香洁与其父及其丈夫相见。柏宪至此，始知其东床黄袍郎，真为妖怪云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.198,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "地方": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 21,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.594,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙悟空": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 78,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙悟空": 1,
+        "猪悟能": 1,
+        "唐僧": 1,
+        "百花羞": 1,
+        "柏宪": 1
+      },
+      "links": [
+        {
+          "source": "孙悟空",
+          "target": "柏宪",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "柏宪",
+          "value": 1
+        },
+        {
+          "source": "柏宪",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "柏宪",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "猪悟能",
+          "target": "百花羞",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "地方",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "惧法朝朝乐，欺公日日忧。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.32,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "旧行为重抛扬，",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第二场：1位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.759,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "柏宪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "刽子手，就此开刀。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "俺，休得要问俺短和长，",
+          "rating": 0.2,
+          "role": "武生"
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "徒弟，不是你来，我险些丧了命了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "猪悟能",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "住了。请开眼。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "百花羞",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "这是哪里了？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，78行",
+      "firstLine": 1,
+      "lastLine": 78,
+      "numLines": 78,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.921,
+        "conflict": 0.373,
+        "sentiment": 0.154
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "猪悟能",
+      "short": "猪悟",
+      "key": "猪悟能",
+      "quote": "猪悟能 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "唐僧",
+      "short": "唐僧",
+      "key": "唐僧",
+      "quote": "唐僧 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "地方",
+      "short": "地方",
+      "key": "地方",
+      "quote": "地方 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "百花羞",
+      "short": "百花",
+      "key": "百花羞",
+      "quote": "百花羞 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "柏宪",
+      "short": "柏宪",
+      "key": "柏宪",
+      "quote": "柏宪 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

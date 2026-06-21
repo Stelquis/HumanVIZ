@@ -1,0 +1,399 @@
+{
+  "title": "五雷阵",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02001049_五雷阵【三本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "此剧系出列国，秦始皇遣王翦并吞六国之时，从妖道毛蕡助王翦攻齐起，其大概为孙膑侄为毛蕡所败，孙膑\n亲自出阵杀退毛蕡，不意被毛蕡败回作法，设下五雷阵，将孙膑魂摄入，将殛死之。幸孙膑道数高，真元不\n动，卒破毛蕡阵，用鬼谷师所遗太极图击死毛蕡云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 94,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.333,
+      "importance": 1.0,
+      "locations": {
+        "营中心惊战": 3
+      },
+      "characters": {
+        "孙膑": 1,
+        "毛蕡": 1,
+        "孙燕": 1,
+        "王翦": 1
+      },
+      "links": [
+        {
+          "source": "孙燕",
+          "target": "孙膑",
+          "value": 1
+        },
+        {
+          "source": "孙膑",
+          "target": "毛蕡",
+          "value": 3
+        },
+        {
+          "source": "孙膑",
+          "target": "王翦",
+          "value": 2
+        },
+        {
+          "source": "孙燕",
+          "target": "毛蕡",
+          "value": 1
+        },
+        {
+          "source": "孙燕",
+          "target": "王翦",
+          "value": 1
+        },
+        {
+          "source": "毛蕡",
+          "target": "王翦",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 56,
+      "summary": "第四场；第五场",
+      "conflict": 0.247,
+      "importance": 0.747,
+      "locations": {
+        "营中心惊战": 2
+      },
+      "characters": {
+        "王翦": 1,
+        "孙燕": 1,
+        "毛蕡": 1,
+        "孙膑": 1,
+        "毛遂": 1
+      },
+      "links": [
+        {
+          "source": "孙燕",
+          "target": "孙膑",
+          "value": 1
+        },
+        {
+          "source": "孙膑",
+          "target": "毛蕡",
+          "value": 1
+        },
+        {
+          "source": "孙膑",
+          "target": "王翦",
+          "value": 1
+        },
+        {
+          "source": "孙燕",
+          "target": "毛蕡",
+          "value": 1
+        },
+        {
+          "source": "孙燕",
+          "target": "王翦",
+          "value": 1
+        },
+        {
+          "source": "毛蕡",
+          "target": "王翦",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "营中心惊战",
+      "characters": [
+        {
+          "name": "孙膑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "自幼儿悟参禅云梦修炼，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "孙燕",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "适才一阵金光现，",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "毛蕡",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "然！",
+          "rating": -0.5,
+          "role": "净"
+        },
+        {
+          "name": "王翦",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -0.333,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：4位角色，68行",
+      "firstLine": 1,
+      "lastLine": 68,
+      "numLines": 68,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.735,
+        "sentiment": -0.047
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "营中心惊战",
+      "characters": [
+        {
+          "name": "毛蕡",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "且住，瘸夫杀法厉害，他若追来，混元铜锤伤他！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "孙膑",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哪里走！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.606,
+        "conflict": 1.0,
+        "sentiment": -0.38
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "营中心惊战",
+      "characters": [
+        {
+          "name": "王翦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "辕门战鼓响，儿郎报端详。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "毛蕡",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "唔……",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "孙膑",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：3位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.644,
+        "conflict": 1.0,
+        "sentiment": -0.122
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "营中心惊战",
+      "characters": [
+        {
+          "name": "毛遂",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "俺，毛遂。今有三哥有难，不免前去搭救，就此阵中走走。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.099,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "营中心惊战",
+      "characters": [
+        {
+          "name": "孙膑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "正在营中心惊战，",
+          "rating": -0.429,
+          "role": "老生"
+        },
+        {
+          "name": "孙燕",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "待侄儿看来。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "毛蕡",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "王翦",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：4位角色，53行",
+      "firstLine": 1,
+      "lastLine": 53,
+      "numLines": 53,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.46,
+        "sentiment": -0.087
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙膑",
+      "short": "孙膑",
+      "key": "孙膑",
+      "quote": "孙膑 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "孙燕",
+      "short": "孙燕",
+      "key": "孙燕",
+      "quote": "孙燕 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "毛蕡",
+      "short": "毛蕡",
+      "key": "毛蕡",
+      "quote": "毛蕡 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "王翦",
+      "short": "王翦",
+      "key": "王翦",
+      "quote": "王翦 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "毛遂",
+      "short": "毛遂",
+      "key": "毛遂",
+      "quote": "毛遂 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "营中心惊战",
+      "key": "营中心惊战",
+      "quote": "场景发生在营中心惊战"
+    }
+  ]
+}

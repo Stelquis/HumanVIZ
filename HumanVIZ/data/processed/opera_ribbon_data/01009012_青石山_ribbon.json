@@ -1,0 +1,964 @@
+{
+  "title": "青石山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 6,
+  "num_scenes": 12,
+  "num_characters": 13,
+  "num_locations": 3,
+  "source_file": "01009012_青石山.json",
+  "source_folder": "01000000",
+  "plot_summary": "此种神怪杂剧，大都十九子虚，无从考索，即或偶有所本，而纯乎述信之谭，且属在孔子四不语之例。则亦\n何庸搜神志怪，以重世人疑心生暗鬼之愚。至其大概，即从昆剧《请师斩妖》出翻成，略谓青石山有风魔洞，\n洞中有千年之九尾妖狐，化身为美妇人，在周家作法施妖，蛊媚其少年主人名德龙者，致此主人终日捉空\n喃喃，似病疯癇一般。其家习闻道十能捉妖怪，遂延请王法师到家蘸禳，讵如绝无效验，反致愈益猖獗。卒\n赖吕纯阳至，为之召请天将，召得关公及周仓等（昆剧中系二郎神杨戬），方用神兵降伏擒斩而毕，盖仍以\n迷信收场也。",
+  "performance_notes": "寻常仅演《请师斩妖》一段。此曲本则系全木，世人苟善能观戏者，则于此剧当可得二大领悟。一则对于外\n遇之美妇人，苟淫媚而惑己者，皆当视等九尾狐一例；一则凡迎神求仙禳灾祈福之举，可知皆王法师类也，\n非徒无效，反足召祸。人均能作如是观，则是剧虽神怪不经，而既得大错之说破，则当亦不为无益矣乎。此\n大错之所以不欲考而终不得不略言其大概也。杨小楼于《青石山》，颇有名，试参观本考第七册之真影可。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 14,
+      "summary": "第一场；第二场",
+      "conflict": 0.773,
+      "importance": 0.178,
+      "locations": {
+        "仙姬上高台": 2
+      },
+      "characters": {
+        "九尾仙姬": 1,
+        "周从纶": 1,
+        "四女妖": 1
+      },
+      "links": [
+        {
+          "source": "九尾仙姬",
+          "target": "四女妖",
+          "value": 1
+        },
+        {
+          "source": "九尾仙姬",
+          "target": "周从纶",
+          "value": 1
+        },
+        {
+          "source": "周从纶",
+          "target": "四女妖",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 97,
+      "summary": "第三场；第四场",
+      "conflict": 0.287,
+      "importance": 1.0,
+      "locations": {
+        "仙姬上高台": 2
+      },
+      "characters": {
+        "九尾仙姬": 1,
+        "周从纶": 1,
+        "二院子": 1,
+        "四青袍": 1,
+        "四女妖": 1
+      },
+      "links": [
+        {
+          "source": "二院子",
+          "target": "周从纶",
+          "value": 1
+        },
+        {
+          "source": "九尾仙姬",
+          "target": "四女妖",
+          "value": 1
+        },
+        {
+          "source": "周从纶",
+          "target": "四女妖",
+          "value": 1
+        },
+        {
+          "source": "四女妖",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "九尾仙姬",
+          "target": "周从纶",
+          "value": 1
+        },
+        {
+          "source": "九尾仙姬",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "周从纶",
+          "target": "四青袍",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 76,
+      "summary": "第五场；第六场",
+      "conflict": 0.248,
+      "importance": 0.966,
+      "locations": {
+        "仙姬上高台": 2
+      },
+      "characters": {
+        "吕洞宾": 1,
+        "九尾仙姬": 1,
+        "周从纶": 1,
+        "书童": 1
+      },
+      "links": [
+        {
+          "source": "九尾仙姬",
+          "target": "周从纶",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "周从纶",
+          "value": 1
+        },
+        {
+          "source": "九尾仙姬",
+          "target": "书童",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 201,
+      "summary": "第七场；第八场",
+      "conflict": 0.542,
+      "importance": 1.0,
+      "locations": {
+        "仙姬上高台": 2
+      },
+      "characters": {
+        "院子": 1,
+        "王法师": 1,
+        "书童": 1
+      },
+      "links": [
+        {
+          "source": "王法师",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 47,
+      "summary": "第九场；第十场",
+      "conflict": 0.264,
+      "importance": 0.597,
+      "locations": {
+        "仙姬上高台": 2
+      },
+      "characters": {
+        "吕洞宾": 1,
+        "院子": 1,
+        "王法师": 1,
+        "功曹": 1,
+        "周仓": 1
+      },
+      "links": [
+        {
+          "source": "吕洞宾",
+          "target": "王法师",
+          "value": 1
+        },
+        {
+          "source": "吕洞宾",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "功曹",
+          "target": "吕洞宾",
+          "value": 1
+        },
+        {
+          "source": "王法师",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "功曹",
+          "target": "王法师",
+          "value": 1
+        },
+        {
+          "source": "功曹",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "功曹",
+          "target": "周仓",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 2,
+      "numLines": 37,
+      "summary": "第十一场；第十二场",
+      "conflict": 0.292,
+      "importance": 0.47,
+      "locations": {
+        "场斜门": 1,
+        "仙姬上高台": 1
+      },
+      "characters": {
+        "九尾仙姬": 1,
+        "吕洞宾": 1,
+        "关羽": 1,
+        "周仓": 1,
+        "关平": 1,
+        "四女妖": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "吕洞宾",
+          "value": 2
+        },
+        {
+          "source": "关平",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 2
+        },
+        {
+          "source": "关平",
+          "target": "吕洞宾",
+          "value": 1
+        },
+        {
+          "source": "吕洞宾",
+          "target": "周仓",
+          "value": 2
+        },
+        {
+          "source": "关平",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "九尾仙姬",
+          "target": "四女妖",
+          "value": 1
+        },
+        {
+          "source": "九尾仙姬",
+          "target": "吕洞宾",
+          "value": 1
+        },
+        {
+          "source": "九尾仙姬",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "九尾仙姬",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "吕洞宾",
+          "target": "四女妖",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "四女妖",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "四女妖",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "仙姬上高台",
+      "characters": [],
+      "summary": "第一场：0位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.005,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "仙姬上高台",
+      "characters": [
+        {
+          "name": "九尾仙姬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "天上雾层层，地下雨纷纷。任他风波起，各自显神灵。",
+          "rating": 1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "四女妖",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "领仙旨。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周从纶",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.312,
+        "conflict": 0.0,
+        "sentiment": 0.773
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "仙姬上高台",
+      "characters": [
+        {
+          "name": "周从纶",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "苦读寒窗，何日里，才把名扬？",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "二院子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：2位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.197,
+        "conflict": 0.851,
+        "sentiment": -0.026
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "仙姬上高台",
+      "characters": [
+        {
+          "name": "四女妖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来此周家坟茔。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "九尾仙姬",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "众小妖回避。",
+          "rating": 0.333,
+          "role": "武旦"
+        },
+        {
+          "name": "周从纶",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "马来！",
+          "rating": 0.5,
+          "role": "小生"
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "相公，天色巳晚，回去罢。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，73行",
+      "firstLine": 1,
+      "lastLine": 73,
+      "numLines": 73,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.583,
+        "conflict": 0.746,
+        "sentiment": 0.261
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "仙姬上高台",
+      "characters": [
+        {
+          "name": "吕洞宾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "适才间离却了蓬莱仙境，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：1位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.504,
+        "conflict": 1.0,
+        "sentiment": 0.54
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "仙姬上高台",
+      "characters": [
+        {
+          "name": "周从纶",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "在坟前见佳人心神不定，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "九尾仙姬",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "奴这里施法力府门来进，",
+          "rating": 1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "书童",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "奉了安人命，烹茶到书房。",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第六场：3位角色，63行",
+      "firstLine": 1,
+      "lastLine": 63,
+      "numLines": 63,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.546,
+        "conflict": 0.735,
+        "sentiment": 0.788
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "仙姬上高台",
+      "characters": [
+        {
+          "name": "书童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哎，想必我相公，得了疯病了。不免去到上房，报与安人知道。",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第七场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.053,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "仙姬上高台",
+      "characters": [
+        {
+          "name": "院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "奉了安人命，忙步不留停。",
+          "rating": 0.111,
+          "role": ""
+        },
+        {
+          "name": "王法师",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "不在家。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第八场：2位角色，198行",
+      "firstLine": 1,
+      "lastLine": 198,
+      "numLines": 198,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.575,
+        "conflict": 0.186,
+        "sentiment": 0.218
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "仙姬上高台",
+      "characters": [
+        {
+          "name": "吕洞宾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "自离了青石山妖魔作耗，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "王法师",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "奔荒郊请师父不觉已到，",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "院子",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吓，是哪个？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "功曹",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有何法谕？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第九场：4位角色，44行",
+      "firstLine": 1,
+      "lastLine": 44,
+      "numLines": 44,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.64,
+        "conflict": 0.213,
+        "sentiment": 0.496
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "仙姬上高台",
+      "characters": [
+        {
+          "name": "功曹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "来此南天门。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "周仓",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十场：2位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.09,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "场斜门",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "想当年辅汉室忠心扶保，",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "吕洞宾",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓，祖师请了。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "关平",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "周仓，看刀！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "周仓",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十一场：4位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.395,
+        "conflict": 0.0,
+        "sentiment": 0.486
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "仙姬上高台",
+      "characters": [
+        {
+          "name": "九尾仙姬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎呀，今有吕仙邀同老祖，带领天兵天将，前来洗洞。",
+          "rating": 0.0,
+          "role": "武旦"
+        },
+        {
+          "name": "四女妖",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有何法谕？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "吕洞宾",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "周仓接剑。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "周仓",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "妖狐被擒！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "驾起祥云，回复上帝去者！",
+          "rating": 1.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第十二场：5位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.53,
+        "conflict": 0.0,
+        "sentiment": 0.194
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "九尾仙姬",
+      "short": "九尾",
+      "key": "九尾仙姬",
+      "quote": "九尾仙姬 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王法师",
+      "short": "王法",
+      "key": "王法师",
+      "quote": "王法师 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "吕洞宾",
+      "short": "吕洞",
+      "key": "吕洞宾",
+      "quote": "吕洞宾 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周仓",
+      "short": "周仓",
+      "key": "周仓",
+      "quote": "周仓 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "关平",
+      "short": "关平",
+      "key": "关平",
+      "quote": "关平 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周从纶",
+      "short": "周从",
+      "key": "周从纶",
+      "quote": "周从纶 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "书童",
+      "short": "书童",
+      "key": "书童",
+      "quote": "书童 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二院子",
+      "short": "二院",
+      "key": "二院子",
+      "quote": "二院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "功曹",
+      "short": "功曹",
+      "key": "功曹",
+      "quote": "功曹 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四女妖",
+      "short": "四女",
+      "key": "四女妖",
+      "quote": "四女妖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "仙姬上高台",
+      "key": "仙姬上高台",
+      "quote": "场景发生在仙姬上高台"
+    },
+    {
+      "name": "场斜门",
+      "key": "场斜门",
+      "quote": "场景发生在场斜门"
+    },
+    {
+      "name": "遮同上高台",
+      "key": "遮同上高台",
+      "quote": "场景发生在遮同上高台"
+    }
+  ]
+}

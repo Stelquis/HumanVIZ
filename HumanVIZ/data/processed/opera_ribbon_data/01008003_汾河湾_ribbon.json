@@ -1,0 +1,317 @@
+{
+  "title": "汾河湾",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01008003_汾河湾.json",
+  "source_folder": "01000000",
+  "plot_summary": "旧说部称唐薛仁贵从军征高丽，在外十数载，以积功洊升，官至平辽王。事平，衣锦归。将抵家，至汾河湾，\n见一儿童弯弓射雁，雁悉应弦落，矢无虚发。薛仁贵甚忌其技之神，而加乎己之上也。因乘其不备，抽矢\n殪之。及抵家门，复效《桑园会》中秋胡子、《武家坡》中滑头同宗弟兄薛平贵等之故事，伪作己友，并出\n金以戏言挑妻。其妻柳氏，适亦如秋胡妇及王宝钏之贞节，颇怒其无礼。薛仁贵乃知妻之无他，乃始直告己\n名，并历述投军时困苦状况，不爽毫厘，柳金花乃放之入。既而柳金花入厨治餐，薛仁贵见床下有童鞋一双，\n大滋疑窦，几至误杀柳金花。怒诘之再，始知己出门后，柳金花即生一子，取名丁山，今已头角峥嵘，英\n武奕奕矣。回忆当年束发从军时，柳金花固怀孕在身也。继问儿何在，柳金花告以往汾河湾射雁去未归。薛\n仁贵闻语愕然，再诘丁山服何服、冠何冠，柳金花一一语之。薛仁贵乃大惊悔，懊丧万状，方知向所射殪者\n即儿也。踌躇有顷，不得已以直告。柳金花闻语，悲痛欲死，伤感不已。相传薛丁山为王禅老祖渡去，授以\n武艺。及异日平西，父子始相遇云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 10,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.11,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {},
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 33,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.364,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛丁山": 1,
+        "柳金花": 1,
+        "薛仁贵": 1
+      },
+      "links": [
+        {
+          "source": "柳金花",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "柳金花",
+          "target": "薛仁贵",
+          "value": 1
+        },
+        {
+          "source": "薛丁山",
+          "target": "薛仁贵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 58,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.639,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛丁山": 1,
+        "王禅老祖": 1,
+        "薛仁贵": 1
+      },
+      "links": [
+        {
+          "source": "王禅老祖",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "王禅老祖",
+          "target": "薛仁贵",
+          "value": 1
+        },
+        {
+          "source": "薛丁山",
+          "target": "薛仁贵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 262,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "柳金花": 1,
+        "薛仁贵": 1
+      },
+      "links": [
+        {
+          "source": "柳金花",
+          "target": "薛仁贵",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第一场：0位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.025,
+        "conflict": 1.0,
+        "sentiment": 0.08
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "柳金花",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "夫往长安，十八载，未见回还。",
+          "rating": 0.143,
+          "role": "正旦"
+        },
+        {
+          "name": "薛丁山",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吾父投军赴长安，叮咛取名唤丁山。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "薛仁贵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：3位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.782,
+        "conflict": 0.0,
+        "sentiment": 0.286
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王禅老祖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "命虎儿带路往前趱，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛丁山",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "走吓！",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "薛仁贵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "马来！",
+          "rating": 0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：3位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.71,
+        "conflict": 0.588,
+        "sentiment": 0.284
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "柳金花",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吾儿去打雁，未见转回还。",
+          "rating": -0.111,
+          "role": "正旦"
+        },
+        {
+          "name": "薛仁贵",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "适才间射死小英男，",
+          "rating": -0.158,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：2位角色，262行",
+      "firstLine": 1,
+      "lastLine": 262,
+      "numLines": 262,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.2,
+        "sentiment": 0.149
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛仁贵",
+      "short": "薛仁",
+      "key": "薛仁贵",
+      "quote": "薛仁贵 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "柳金花",
+      "short": "柳金",
+      "key": "柳金花",
+      "quote": "柳金花 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "薛丁山",
+      "short": "薛丁",
+      "key": "薛丁山",
+      "quote": "薛丁山 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王禅老祖",
+      "short": "王禅",
+      "key": "王禅老祖",
+      "quote": "王禅老祖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

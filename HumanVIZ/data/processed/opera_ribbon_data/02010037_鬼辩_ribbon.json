@@ -1,0 +1,288 @@
+{
+  "title": "鬼辩",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "02010037_鬼辩.json",
+  "source_folder": "02000000",
+  "plot_summary": "贾似道杀死李慧娘，囚禁裴生后，李慧娘之鬼魂将裴生放走。贾似道认为系其他婢女放走，遂令将所有婢女\n吊起各鞭打一百。李慧娘鬼魂认为冤枉其他婢女，于心不安，遂挺身而出见贾似道，说明原委而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 13,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.348,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "贾似道": 1,
+        "二院子": 1
+      },
+      "links": [
+        {
+          "source": "二院子",
+          "target": "贾似道",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 91,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "贾似道": 1,
+        "李慧娘": 1,
+        "众人": 1
+      },
+      "links": [
+        {
+          "source": "众人",
+          "target": "贾似道",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "李慧娘",
+          "value": 1
+        },
+        {
+          "source": "李慧娘",
+          "target": "贾似道",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.214,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "贾似道": 1,
+        "李慧娘": 1,
+        "二院子": 1
+      },
+      "links": [
+        {
+          "source": "二院子",
+          "target": "贾似道",
+          "value": 1
+        },
+        {
+          "source": "李慧娘",
+          "target": "贾似道",
+          "value": 1
+        },
+        {
+          "source": "二院子",
+          "target": "李慧娘",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "贾似道",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "烂醉归来明月下，看万条银烛笼纱。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "二院子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启爷：三鼓了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.57,
+        "conflict": 0.0,
+        "sentiment": 0.771
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "众人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎哟！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "贾似道",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我把你这贱婢，一向躲在哪里，今日才来见我？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "李慧娘",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "忽听得中堂人语喧，",
+          "rating": -0.429,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：3位角色，91行",
+      "firstLine": 1,
+      "lastLine": 91,
+      "numLines": 91,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.992,
+        "sentiment": -0.04
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "贾似道",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "院子快来！",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "二院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "老爷怎么样了？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李慧娘",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：3位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.743,
+        "conflict": 1.0,
+        "sentiment": -0.033
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李慧娘",
+      "short": "李慧",
+      "key": "李慧娘",
+      "quote": "李慧娘 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "贾似道",
+      "short": "贾似",
+      "key": "贾似道",
+      "quote": "贾似道 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二院子",
+      "short": "二院",
+      "key": "二院子",
+      "quote": "二院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "title": "观阵",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "02005026_观阵.json",
+  "source_folder": "02000000",
+  "plot_summary": "秦琼被押在登州城内，程咬金、徐勣、罗成等群往搭救。适与秦琼相遇，但均佯作不识，暗递信息。后罗周\n又领秦琼观八卦连环阵、绝命桥等。",
+  "performance_notes": "此剧为《三家店》以后，《打登州》以前之情形。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 39,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "徐勣": 1,
+        "程咬金": 1,
+        "尤俊达": 1,
+        "罗周": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "秦琼",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "罗周",
+          "value": 1
+        },
+        {
+          "source": "尤俊达",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "程咬金",
+          "target": "罗周",
+          "value": 1
+        },
+        {
+          "source": "尤俊达",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "尤俊达",
+          "target": "罗周",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "罗周",
+          "value": 1
+        },
+        {
+          "source": "尤俊达",
+          "target": "徐勣",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 23,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.657,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "罗周": 1,
+        "徐勣": 1,
+        "秦琼": 1,
+        "程咬金": 1
+      },
+      "links": [
+        {
+          "source": "秦琼",
+          "target": "罗周",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "罗周",
+          "value": 1
+        },
+        {
+          "source": "程咬金",
+          "target": "罗周",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "程咬金",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 29,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.829,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "罗周": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "秦琼",
+          "target": "罗周",
+          "value": 1
+        },
+        {
+          "source": "罗周",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 49,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "罗周": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "秦琼",
+          "target": "罗周",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "登州城困住了秦叔宝，",
+          "rating": 0.143,
+          "role": "生"
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "打打打！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "罗周",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哪是主拿哪是客？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "尤俊达",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "我是主他是客。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第1场：5位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.656,
+        "sentiment": 0.26
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "罗周",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "二哥，方才过去那是什么人？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "贤弟不认识？稳坐雕鞍听愚兄道来！",
+          "rating": 1.0,
+          "role": "生"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "南京收了南京去，北京收了北京游。南北二京全不收，条河两岸度春秋。",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第2场：4位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.886,
+        "conflict": 0.385,
+        "sentiment": 0.775
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "罗周",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "二哥方才过去那是什么人？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "贤弟不认识？",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "罗成",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "卖马吓卖马！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：3位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.747,
+        "conflict": 0.0,
+        "sentiment": 0.061
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一言未尽罗成到，",
+          "rating": 0.25,
+          "role": "生"
+        },
+        {
+          "name": "罗周",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "金锁八卦连环斗底大阵。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第4场：2位角色，49行",
+      "firstLine": 1,
+      "lastLine": 49,
+      "numLines": 49,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.82,
+        "conflict": 0.667,
+        "sentiment": 0.387
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "秦琼",
+      "short": "秦琼",
+      "key": "秦琼",
+      "quote": "秦琼 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "罗周",
+      "short": "罗周",
+      "key": "罗周",
+      "quote": "罗周 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "程咬金",
+      "short": "程咬",
+      "key": "程咬金",
+      "quote": "程咬金 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "尤俊达",
+      "short": "尤俊",
+      "key": "尤俊达",
+      "quote": "尤俊达 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "徐勣",
+      "short": "徐勣",
+      "key": "徐勣",
+      "quote": "徐勣 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "罗成",
+      "short": "罗成",
+      "key": "罗成",
+      "quote": "罗成 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

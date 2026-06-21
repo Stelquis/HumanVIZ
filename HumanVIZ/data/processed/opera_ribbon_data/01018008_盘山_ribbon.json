@@ -1,0 +1,299 @@
+{
+  "title": "盘山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 3,
+  "source_file": "01018008_盘山.json",
+  "source_folder": "01000000",
+  "plot_summary": "唐郭得福之父，在朝为显官，收一义子曰张意。寿诞之期，命张意整理庙堂，招待众客。因办事草率，以家\n法处治之。张意怀恨在心，诬郭氏反背朝廷。遂写数十纸匿名揭帖，榜示通衙。适为仇家瞥见，奏闻朝廷，\n立拿郭氏全家，斩于市曹。郭得福暨两弟在郊外打猎，闻警潜逃，无处栖息，遂落草为盗，占据太行山，自\n称为王。有少妇入山，徘徊歧路，踯躅不前，为喽啰所获。解至郭得福前，盘诘家世，系自己结发之妻姜氏\n美容也，盖姜美容于抄拿时乘间逸出，欲往投亲，在此经过。两人遂于无意中会合，破镜重圆，悲喜交集。\n郭得福用易容术遮过本来面目，所以姜美容无从识别。取玉带为证，始承认为夫妻焉。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.416,
+      "locations": {
+        "永平城": 1
+      },
+      "characters": {
+        "喽啰": 1,
+        "郭得福": 1
+      },
+      "links": [
+        {
+          "source": "喽啰",
+          "target": "郭得福",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 22,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.509,
+      "locations": {
+        "永平城": 1
+      },
+      "characters": {
+        "姜美容": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.208,
+      "locations": {
+        "永平城": 1
+      },
+      "characters": {
+        "报子": 1,
+        "郭得福": 1
+      },
+      "links": [
+        {
+          "source": "报子",
+          "target": "郭得福",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 124,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "永平城": 1
+      },
+      "characters": {
+        "姜美容": 1,
+        "郭得福": 1
+      },
+      "links": [
+        {
+          "source": "姜美容",
+          "target": "郭得福",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "永平城",
+      "characters": [
+        {
+          "name": "郭得福",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "腰带宝刀度春秋，改名换姓不出头。有朝擒住贼张意，好与郭门报冤仇。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "喽啰",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "三天未有搜山。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.562,
+        "conflict": 1.0,
+        "sentiment": 0.167
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "永平城",
+      "characters": [
+        {
+          "name": "姜美容",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "出永平来离永平，",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：1位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.626,
+        "conflict": 0.769,
+        "sentiment": 0.067
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "永平城",
+      "characters": [
+        {
+          "name": "报子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "报！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "郭得福",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "报何事？",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.531,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "永平城",
+      "characters": [
+        {
+          "name": "郭得福",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "今日下山无得财，获住乡民女裙衩。吩咐喽兵松了绑，将民女与我带上来！",
+          "rating": 0.111,
+          "role": "净"
+        },
+        {
+          "name": "姜美容",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "与大王叩头。",
+          "rating": 0.091,
+          "role": "旦"
+        }
+      ],
+      "summary": "第四场：2位角色，124行",
+      "firstLine": 1,
+      "lastLine": 124,
+      "numLines": 124,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.439,
+        "sentiment": 0.154
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "姜美容",
+      "short": "姜美",
+      "key": "姜美容",
+      "quote": "姜美容 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "郭得福",
+      "short": "郭得",
+      "key": "郭得福",
+      "quote": "郭得福 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "喽啰",
+      "short": "喽啰",
+      "key": "喽啰",
+      "quote": "喽啰 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "永平城",
+      "key": "永平城",
+      "quote": "场景发生在永平城"
+    },
+    {
+      "name": "来到永平城",
+      "key": "来到永平城",
+      "quote": "场景发生在来到永平城"
+    },
+    {
+      "name": "山西太原府",
+      "key": "山西太原府",
+      "quote": "场景发生在山西太原府"
+    }
+  ]
+}

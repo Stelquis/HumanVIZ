@@ -1,0 +1,2407 @@
+{
+  "title": "路遥知马力",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 9,
+  "num_scenes": 27,
+  "num_characters": 26,
+  "num_locations": 4,
+  "source_file": "02009020_路遥知马力.json",
+  "source_folder": "02000000",
+  "plot_summary": "宋朝有个马力，因奉母亲命令，到京中访亲，在路中遇盗，被强盗推入江中。这时路遥家中失火，家财烧得\n一无所存，特地到亲戚张不德家中借钱。张不德本一势利小人，绝不答应。路遥无法，只得仍回家去，走到\n江边，听见江中有呼救之声，就将马力救起，又看见马力体貌魁梧，知道他必不是终久穷困之人，于是和他\n结拜弟兄。后来路遥卖去庄田，得银二百两，送给马力，叫他到京中图谋出身。这时番邦乌雅叉带兵攻打边\n地，杨宗保不能抵敌，高挂免战牌，派骑牌进京请派救兵。朝中包公有一堂差，名叫马汉，乃是马力叔父。\n这时马力已经寻到叔父家中，马汉见朝中正要出兵，就把马力荐给包公。包公一见，很为赏识，随即写了一\n封信，给马力带去投见杨宗保。杨宗保命他出战，只一阵就将乌雅叉捉住，解到京中。皇上大为欢喜，立刻\n封马力为镇国王。马力是发达了，但是路遥家中连遭三次火烧，更加穷困，闻知马力已经发达，于是赶到京\n中来，求他帮助。马力一见他来，很是厚待，备酒接风，酒未吃完，包公刚刚有事，来教马力去商量。哪知\n路遥误会，以为马力薄待他，就忿忿的走了。等到马力回家，知道路遥已经走了，料定他还是回家，就叫人\n随身保护。走了两个月，才到家中，到了家中一看，房屋完全重新砌好，而且非常的美丽高大，路遥很是奇\n怪，问其所以，才知道都是马力代他砌的，路遥才知马力不是小人，感谢万分。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 43,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.785,
+      "importance": 0.368,
+      "locations": {
+        "雅叉上高台": 3
+      },
+      "characters": {
+        "旗牌": 1,
+        "杨宗保": 1,
+        "乌雅叉": 1,
+        "张兴": 1,
+        "路遥": 1,
+        "张不德": 1
+      },
+      "links": [
+        {
+          "source": "乌雅叉",
+          "target": "杨宗保",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "杨宗保",
+          "value": 1
+        },
+        {
+          "source": "乌雅叉",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "张兴",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "张兴",
+          "target": "路遥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 87,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.465,
+      "importance": 0.745,
+      "locations": {
+        "雅叉上高台": 3
+      },
+      "characters": {
+        "张氏": 1,
+        "路福": 1,
+        "路遥": 1,
+        "张不德": 1,
+        "路虎": 1
+      },
+      "links": [
+        {
+          "source": "路福",
+          "target": "路遥",
+          "value": 2
+        },
+        {
+          "source": "路虎",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "路福",
+          "target": "路虎",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "路福",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "路虎",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "张氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 46,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.617,
+      "importance": 0.394,
+      "locations": {
+        "雅叉上高台": 3
+      },
+      "characters": {
+        "路福": 1,
+        "路虎": 1,
+        "路龙": 1,
+        "路遥": 1,
+        "马母": 1,
+        "马力": 1,
+        "江旺": 1
+      },
+      "links": [
+        {
+          "source": "马力",
+          "target": "马母",
+          "value": 1
+        },
+        {
+          "source": "路福",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "路遥",
+          "target": "路龙",
+          "value": 1
+        },
+        {
+          "source": "路虎",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "路福",
+          "target": "路龙",
+          "value": 1
+        },
+        {
+          "source": "路福",
+          "target": "路虎",
+          "value": 1
+        },
+        {
+          "source": "路虎",
+          "target": "路龙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 3,
+      "numLines": 101,
+      "summary": "第十场；第十一场；第十二场",
+      "conflict": 0.493,
+      "importance": 0.865,
+      "locations": {
+        "雅叉上高台": 3
+      },
+      "characters": {
+        "路由": 1,
+        "马力": 1,
+        "路福": 1,
+        "张兴": 1,
+        "路遥": 1,
+        "张不德": 1,
+        "江旺": 1
+      },
+      "links": [
+        {
+          "source": "江旺",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "路福",
+          "target": "路遥",
+          "value": 2
+        },
+        {
+          "source": "张不德",
+          "target": "张兴",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "路福",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "路由",
+          "value": 1
+        },
+        {
+          "source": "张兴",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "张兴",
+          "target": "路福",
+          "value": 1
+        },
+        {
+          "source": "张兴",
+          "target": "路由",
+          "value": 1
+        },
+        {
+          "source": "路由",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "路由",
+          "target": "路福",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 3,
+      "numLines": 248,
+      "summary": "第十三场；第十四场；第十五场",
+      "conflict": 0.277,
+      "importance": 1.0,
+      "locations": {
+        "雅叉上高台": 2,
+        "这就是相府": 1
+      },
+      "characters": {
+        "马汉": 1,
+        "包拯": 1,
+        "真武大帝": 1,
+        "众百姓": 1,
+        "旗牌": 1,
+        "四龙套": 1,
+        "路福": 1,
+        "家院": 1,
+        "路遥": 1,
+        "马力": 1
+      },
+      "links": [
+        {
+          "source": "路福",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "路遥",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "路福",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "真武大帝",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "马力",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "旗牌",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 3,
+      "numLines": 57,
+      "summary": "第十六场；第十七场；第十八场",
+      "conflict": 0.799,
+      "importance": 0.488,
+      "locations": {
+        "雅叉上高台": 3
+      },
+      "characters": {
+        "旗牌": 1,
+        "杨宗保": 1,
+        "路福": 1,
+        "乌雅叉": 1,
+        "路遥": 1,
+        "马力": 1
+      },
+      "links": [
+        {
+          "source": "路福",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "路遥",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "路福",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "杨宗保",
+          "value": 1
+        },
+        {
+          "source": "杨宗保",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "乌雅叉",
+          "target": "马力",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第7章",
+      "numScenes": 3,
+      "numLines": 81,
+      "summary": "第十九场；第二十场；第二十二场",
+      "conflict": 0.49,
+      "importance": 0.694,
+      "locations": {
+        "雅叉上高台": 2,
+        "店房门": 1
+      },
+      "characters": {
+        "包拯": 1,
+        "杨宗保": 1,
+        "路遥": 1,
+        "乌雅叉": 1,
+        "店家": 1,
+        "中军": 1,
+        "四宋将": 1,
+        "马力": 1
+      },
+      "links": [
+        {
+          "source": "四宋将",
+          "target": "杨宗保",
+          "value": 1
+        },
+        {
+          "source": "杨宗保",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "乌雅叉",
+          "target": "杨宗保",
+          "value": 1
+        },
+        {
+          "source": "四宋将",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "乌雅叉",
+          "target": "四宋将",
+          "value": 1
+        },
+        {
+          "source": "乌雅叉",
+          "target": "马力",
+          "value": 2
+        },
+        {
+          "source": "中军",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "乌雅叉",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "乌雅叉",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "路遥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第8章",
+      "numScenes": 3,
+      "numLines": 148,
+      "summary": "第二十二场；第二十三场；第二十四场",
+      "conflict": 0.803,
+      "importance": 1.0,
+      "locations": {
+        "雅叉上高台": 3
+      },
+      "characters": {
+        "日久": 1,
+        "包拯": 1,
+        "旗牌": 1,
+        "乌雅叉": 1,
+        "四龙套": 1,
+        "路遥": 1,
+        "马力": 1
+      },
+      "links": [
+        {
+          "source": "旗牌",
+          "target": "路遥",
+          "value": 2
+        },
+        {
+          "source": "旗牌",
+          "target": "马力",
+          "value": 2
+        },
+        {
+          "source": "路遥",
+          "target": "马力",
+          "value": 2
+        },
+        {
+          "source": "包拯",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "乌雅叉",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "乌雅叉",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "乌雅叉",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "日久",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "日久",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "日久",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第9章",
+      "numScenes": 3,
+      "numLines": 240,
+      "summary": "第二十五场；第二十六场；第二十七场",
+      "conflict": 0.601,
+      "importance": 1.0,
+      "locations": {
+        "气出了他府": 1,
+        "雅叉上高台": 2
+      },
+      "characters": {
+        "日久": 1,
+        "路寿": 1,
+        "路福": 1,
+        "四青袍": 1,
+        "张不德": 1,
+        "四龙套": 1,
+        "路遥": 1,
+        "马力": 1,
+        "路虎": 1
+      },
+      "links": [
+        {
+          "source": "日久",
+          "target": "路遥",
+          "value": 3
+        },
+        {
+          "source": "路遥",
+          "target": "马力",
+          "value": 2
+        },
+        {
+          "source": "日久",
+          "target": "马力",
+          "value": 2
+        },
+        {
+          "source": "路寿",
+          "target": "路福",
+          "value": 1
+        },
+        {
+          "source": "路福",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "路福",
+          "value": 1
+        },
+        {
+          "source": "路福",
+          "target": "路虎",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "路福",
+          "value": 1
+        },
+        {
+          "source": "路福",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "路福",
+          "value": 1
+        },
+        {
+          "source": "日久",
+          "target": "路福",
+          "value": 1
+        },
+        {
+          "source": "路寿",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "路寿",
+          "value": 1
+        },
+        {
+          "source": "路寿",
+          "target": "路虎",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "路寿",
+          "value": 1
+        },
+        {
+          "source": "路寿",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "路寿",
+          "value": 1
+        },
+        {
+          "source": "日久",
+          "target": "路寿",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "路虎",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "路遥",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "路虎",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "张不德",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "日久",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "路虎",
+          "value": 1
+        },
+        {
+          "source": "路虎",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "路虎",
+          "value": 1
+        },
+        {
+          "source": "日久",
+          "target": "路虎",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "张不德",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "日久",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "马力",
+          "value": 1
+        },
+        {
+          "source": "张不德",
+          "target": "日久",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "乌雅叉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "俺，乌雅叉。今黄道吉日，正好兴兵灭宋室天下。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.103,
+        "conflict": 1.0,
+        "sentiment": 0.46
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "杨宗保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "一口元帅印，令箭调三军。打倒花世界，保主锦乾坤。",
+          "rating": -0.5,
+          "role": ""
+        },
+        {
+          "name": "乌雅叉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "然！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "遵命。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.32,
+        "conflict": 1.0,
+        "sentiment": -0.015
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "张不德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "家有千顷地，专门拍马屁。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张兴",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "路遥",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：3位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.447,
+        "conflict": 0.0,
+        "sentiment": 0.77
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "路遥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "意学陶朱，有庄田，自然安宁。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "路福",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "路虎",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来了！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张不德",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "吓，员外。",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.488,
+        "conflict": 0.263,
+        "sentiment": 0.335
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "张氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "将身且坐客堂上，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张不德",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "人逢喜气精神爽，",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.211,
+        "conflict": 0.8,
+        "sentiment": 0.8
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "路遥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哼！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "路福",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "员外，大事不好啦。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.409,
+        "conflict": 0.0,
+        "sentiment": 0.767
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "马力",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "英雄志量，读诗书，武艺高强。",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "马母",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "桑榆暮景，愿我儿，早日成名。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：2位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.421,
+        "conflict": 0.417,
+        "sentiment": 0.548
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "江旺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "自幼生来胆真大，每日劫抢作生涯。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.104,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "路遥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "可叹家门遭不幸，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "路福",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "员外，不好啦，不好啦！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "路龙",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "兄弟，家门不幸，遭了二把天火，烧的干干净净，这便如何是好？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "路虎",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "兄长，今遇大比之年，还是进京赶考，若能得中回来，亦好改换门庭。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第九场：4位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.447,
+        "conflict": 1.0,
+        "sentiment": 0.797
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "马力",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哎呀且住，看天色不早，前面又有一大江，这便如何是好？",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "江旺",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "打鱼啦！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十场：2位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.417,
+        "conflict": 0.417,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "路遥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "富贵花间露，荣华草上霜。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "路福",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "员外不必着急，何不到张员外那里，借些银子，也好度日。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十一场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.412,
+        "conflict": 0.69,
+        "sentiment": 0.782
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "张不德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "只为女儿婚姻事，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张兴",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "员外，大事不好啦！",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "路遥",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "急急走来急急行，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "路福",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "到了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "路由",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "我如今度日如年，我来与亲翁借几个钱，也好度日。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十二场：5位角色，67行",
+      "firstLine": 1,
+      "lastLine": 67,
+      "numLines": 67,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.491,
+        "conflict": 0.233,
+        "sentiment": 0.289
+      }
+    },
+    {
+      "number": 13,
+      "name": "第十三场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "路遥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "可恨贼子心肠狠，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "路福",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "不错，是个人。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "马力",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "耳边厢又听得有人呼唤，",
+          "rating": 0.333,
+          "role": "净"
+        }
+      ],
+      "summary": "第十三场：3位角色，160行",
+      "firstLine": 1,
+      "lastLine": 160,
+      "numLines": 160,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.704,
+        "conflict": 0.101,
+        "sentiment": 0.51
+      }
+    },
+    {
+      "number": 14,
+      "name": "第十四场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "真武大帝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "吾乃真武大帝是也。今有马力从此经过，将神枪教授于他，日后好与国家出力",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "马力",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "急急走来急急行，",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十四场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.411,
+        "conflict": 0.909,
+        "sentiment": 0.787
+      }
+    },
+    {
+      "number": 15,
+      "name": "第十五场",
+      "location": "这就是相府",
+      "characters": [
+        {
+          "name": "马力",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "青山绿水观不尽，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "众百姓",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "请了！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马汉",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "相爷下朝。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "包拯",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "罢了。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十五场：7位角色，75行",
+      "firstLine": 1,
+      "lastLine": 75,
+      "numLines": 75,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.498,
+        "conflict": 0.22,
+        "sentiment": 0.763
+      }
+    },
+    {
+      "number": 16,
+      "name": "第十六场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "路遥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "姣儿一去无音信，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "路福",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "员外，大事不好啦！",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "马力",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十六场：3位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.596,
+        "conflict": 0.27,
+        "sentiment": 0.375
+      }
+    },
+    {
+      "number": 17,
+      "name": "第十七场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "杨宗保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "可恨贼子太野性，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "禀元帅：包相爷差人前来，要见元帅。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马力",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "元帅！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十七场：3位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.446,
+        "conflict": 0.588,
+        "sentiment": -0.424
+      }
+    },
+    {
+      "number": 18,
+      "name": "第十八场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "乌雅叉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "呔，不怕死的前来受死！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "马力",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "乌雅叉休得猖狂，俺来也！",
+          "rating": -0.333,
+          "role": "净"
+        }
+      ],
+      "summary": "第十八场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.407,
+        "conflict": 1.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 19,
+      "name": "第十九场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "杨宗保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "将身且坐宝帐上，",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "四宋将",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "马将军到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马力",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有坐。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "乌雅叉",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "岂来跪你！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十九场：4位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.45,
+        "conflict": 1.0,
+        "sentiment": 0.373
+      }
+    },
+    {
+      "number": 20,
+      "name": "第二十场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "可恨贼子太猖狂，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "中军",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "马力到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马力",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "参见相爷。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "乌雅叉",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "随便尔等！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二十场：4位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.451,
+        "conflict": 0.87,
+        "sentiment": -0.028
+      }
+    },
+    {
+      "number": 21,
+      "name": "第二十二场",
+      "location": "店房门",
+      "characters": [
+        {
+          "name": "路遥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "晓行夜宿往前进，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "店家",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "孟尝君子店，千里客来投。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二十二场：2位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.435,
+        "conflict": 0.494,
+        "sentiment": -0.117
+      }
+    },
+    {
+      "number": 22,
+      "name": "第二十二场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "旗牌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "奉了王爷命，看守在府门。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "路遥",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "离了西京到东京，",
+          "rating": -0.143,
+          "role": "老生"
+        },
+        {
+          "name": "马力",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "何事？",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二十二场：3位角色，84行",
+      "firstLine": 1,
+      "lastLine": 84,
+      "numLines": 84,
+      "chapter": "第8章",
+      "ratings": {
+        "importance": 0.639,
+        "conflict": 0.099,
+        "sentiment": -0.032
+      }
+    },
+    {
+      "number": 23,
+      "name": "第二十三场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "将身且坐大堂上，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报：马王爷到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马力",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "相爷，有何见论？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "乌雅叉",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "好，待某修下降表。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二十三场：4位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第8章",
+      "ratings": {
+        "importance": 0.451,
+        "conflict": 0.851,
+        "sentiment": 0.771
+      }
+    },
+    {
+      "number": 24,
+      "name": "第二十四场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "马力",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "啊，兄长，小弟回来了。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "路遥",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我晓得你回来了！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "遵命。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "日久",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "参见王爷，有何差遣？",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二十四场：4位角色，43行",
+      "firstLine": 1,
+      "lastLine": 43,
+      "numLines": 43,
+      "chapter": "第8章",
+      "ratings": {
+        "importance": 0.737,
+        "conflict": 0.408,
+        "sentiment": 0.46
+      }
+    },
+    {
+      "number": 25,
+      "name": "第二十五场",
+      "location": "气出了他府",
+      "characters": [
+        {
+          "name": "路遥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎呀，把你老主人丢下来了。哈哈，你渡过马王爷，连你的脾气都大的很哪。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "日久",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "咳，老头起来，起来。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "马力",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二十五场：3位角色，108行",
+      "firstLine": 1,
+      "lastLine": 108,
+      "numLines": 108,
+      "chapter": "第9章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.15,
+        "sentiment": 0.164
+      }
+    },
+    {
+      "number": 26,
+      "name": "第二十六场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "路遥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "离却三里桃花堡，又到五里杏花舟。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "日久",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "老人家，我们下来休息。",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二十六场：2位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第9章",
+      "ratings": {
+        "importance": 0.635,
+        "conflict": 0.556,
+        "sentiment": 0.361
+      }
+    },
+    {
+      "number": 27,
+      "name": "第二十七场",
+      "location": "雅叉上高台",
+      "characters": [
+        {
+          "name": "路福",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "员外去投亲，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "路寿",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "数月未回程。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "路遥",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "啊，怎么此处造了偌大的房屋了，难道人将我地基卖了不成么？",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "二位少老爷得中回府。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "路虎",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "叩见爹爹！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "圣旨下。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马力",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "圣旨下，路遥跪。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "张不德",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "positive",
+          "quote": "从前做事错，如今后悔迟。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "日久",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "叩见王爷。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二十七场：9位角色，91行",
+      "firstLine": 1,
+      "lastLine": 91,
+      "numLines": 91,
+      "chapter": "第9章",
+      "ratings": {
+        "importance": 0.778,
+        "conflict": 0.189,
+        "sentiment": 0.765
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "路遥",
+      "short": "路遥",
+      "key": "路遥",
+      "quote": "路遥 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "马力",
+      "short": "马力",
+      "key": "马力",
+      "quote": "马力 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "日久",
+      "short": "日久",
+      "key": "日久",
+      "quote": "日久 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "路由",
+      "short": "路由",
+      "key": "路由",
+      "quote": "路由 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "包拯",
+      "short": "包拯",
+      "key": "包拯",
+      "quote": "包拯 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "真武大帝",
+      "short": "真武",
+      "key": "真武大帝",
+      "quote": "真武大帝 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "乌雅叉",
+      "short": "乌雅",
+      "key": "乌雅叉",
+      "quote": "乌雅叉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四宋将",
+      "short": "四宋",
+      "key": "四宋将",
+      "quote": "四宋将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "路龙",
+      "short": "路龙",
+      "key": "路龙",
+      "quote": "路龙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张不德",
+      "short": "张不",
+      "key": "张不德",
+      "quote": "张不德 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杨宗保",
+      "short": "杨宗",
+      "key": "杨宗保",
+      "quote": "杨宗保 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张氏",
+      "short": "张氏",
+      "key": "张氏",
+      "quote": "张氏 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "店家",
+      "short": "店家",
+      "key": "店家",
+      "quote": "店家 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张兴",
+      "short": "张兴",
+      "key": "张兴",
+      "quote": "张兴 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马汉",
+      "short": "马汉",
+      "key": "马汉",
+      "quote": "马汉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "路寿",
+      "short": "路寿",
+      "key": "路寿",
+      "quote": "路寿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "路福",
+      "short": "路福",
+      "key": "路福",
+      "quote": "路福 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "江旺",
+      "short": "江旺",
+      "key": "江旺",
+      "quote": "江旺 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马母",
+      "short": "马母",
+      "key": "马母",
+      "quote": "马母 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众百姓",
+      "short": "众百",
+      "key": "众百姓",
+      "quote": "众百姓 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "路虎",
+      "short": "路虎",
+      "key": "路虎",
+      "quote": "路虎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "雅叉上高台",
+      "key": "雅叉上高台",
+      "quote": "场景发生在雅叉上高台"
+    },
+    {
+      "name": "气出了他府",
+      "key": "气出了他府",
+      "quote": "场景发生在气出了他府"
+    },
+    {
+      "name": "店房门",
+      "key": "店房门",
+      "quote": "场景发生在店房门"
+    },
+    {
+      "name": "这就是相府",
+      "key": "这就是相府",
+      "quote": "场景发生在这就是相府"
+    }
+  ]
+}

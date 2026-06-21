@@ -1,0 +1,3167 @@
+{
+  "title": "武松",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 9,
+  "num_scenes": 30,
+  "num_characters": 53,
+  "num_locations": 12,
+  "source_file": "04023001_武松.json",
+  "source_folder": "04000000",
+  "plot_summary": "武松回家探望他哥哥武大，途中喝醉了酒，经过景阳岗时，在醉中赤手空拳打死拦路伤人的猛虎，从此名闻\n远近。豪绅西门庆唆使潘金莲用药酒毒死丈夫武大。武松到官衙告状，县官受了西门庆贿赂，反打了他四十\n板。武松怒愤填膺，决心寻西门庆复仇。在“狮子楼”酒馆里，将西门庆杀死，然后杀了潘金莲。因而被判\n发配孟州。绿林英雄张青、孙二娘夫妇，在“十字坡”开设一所店房。武松在发配途中宿在这里。因与孙二\n娘言语不合，黑夜之间厮打起来。孙二娘不敌，喊来张青帮助；张青问出武松名姓，遂订交。武松到了孟州，\n孟州管营施忠的儿子施恩慕武松英勇，与他结拜为兄弟。施恩有一座酒馆“快活林”，被绰号“蒋门神”\n的恶霸蒋忠占去，武松替他赶走了蒋忠，夺回“快活林”。蒋忠勾结张都监诬害武松，武松又被发配恩州。\n蒋忠暗派四十名徒弟，买通解差，要在“飞云浦”杀害武松。武松觉察，将他们全都杀死；并改扮差人模样，\n连夜混进孟州城。在“鸳鸯楼”上杀死蒋忠、张都监，缒城逃走。武松在逃亡途中，又遇见张青夫妇，他\n们替武松改扮成行者模样，荐往“二龙山”去聚义。武松行至“蜈蚣岭”，遇着为非作恶的蜈蚣道人黄飞天\n强抢民女张凤琴；不禁大怒，将黄飞天杀死，救出了张凤琴。",
+  "performance_notes": "武松是我国民间传说中的古代英雄人物。这里选取了有关他的故事的《打虎》、《狮子楼》、《十字坡》、\n《快活林》、《鸳鸯楼》、《蜈蚣岭》六个剧目。这六个剧目是根据盖叫天先生的演出本，由中国戏曲研究\n院编辑处田淞、华东戏曲研究院编审室陈西汀共同协助盖先生整理的。整理时，仅对个别词句略加修订。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 4,
+      "numLines": 39,
+      "summary": "第一场；第二场；第三场；第四场",
+      "conflict": 0.669,
+      "importance": 0.213,
+      "locations": {
+        "离却柴府": 4
+      },
+      "characters": {
+        "猎户甲": 1,
+        "武松": 1,
+        "三猎户": 1,
+        "四猎户": 1
+      },
+      "links": [
+        {
+          "source": "三猎户",
+          "target": "猎户甲",
+          "value": 1
+        },
+        {
+          "source": "四猎户",
+          "target": "武松",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 4,
+      "numLines": 432,
+      "summary": "第一场；第二场；第三场；第四场",
+      "conflict": 0.552,
+      "importance": 1.0,
+      "locations": {
+        "自家门": 1,
+        "离却柴府": 2,
+        "带路狮子楼": 1
+      },
+      "characters": {
+        "武松": 1,
+        "潘金莲": 1,
+        "张大公": 1,
+        "土兵": 1,
+        "酒保": 1,
+        "郓母": 1,
+        "西门庆": 1,
+        "何九叔": 1,
+        "楞儿": 1,
+        "衙役": 1,
+        "县令": 1,
+        "郓哥": 1,
+        "王婆": 1
+      },
+      "links": [
+        {
+          "source": "武松",
+          "target": "潘金莲",
+          "value": 2
+        },
+        {
+          "source": "土兵",
+          "target": "武松",
+          "value": 3
+        },
+        {
+          "source": "土兵",
+          "target": "潘金莲",
+          "value": 2
+        },
+        {
+          "source": "武松",
+          "target": "王婆",
+          "value": 1
+        },
+        {
+          "source": "何九叔",
+          "target": "王婆",
+          "value": 1
+        },
+        {
+          "source": "张大公",
+          "target": "王婆",
+          "value": 1
+        },
+        {
+          "source": "王婆",
+          "target": "郓哥",
+          "value": 1
+        },
+        {
+          "source": "王婆",
+          "target": "郓母",
+          "value": 1
+        },
+        {
+          "source": "潘金莲",
+          "target": "王婆",
+          "value": 1
+        },
+        {
+          "source": "土兵",
+          "target": "王婆",
+          "value": 1
+        },
+        {
+          "source": "何九叔",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "张大公",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "郓哥",
+          "value": 2
+        },
+        {
+          "source": "武松",
+          "target": "郓母",
+          "value": 1
+        },
+        {
+          "source": "何九叔",
+          "target": "张大公",
+          "value": 1
+        },
+        {
+          "source": "何九叔",
+          "target": "郓哥",
+          "value": 1
+        },
+        {
+          "source": "何九叔",
+          "target": "郓母",
+          "value": 1
+        },
+        {
+          "source": "何九叔",
+          "target": "潘金莲",
+          "value": 1
+        },
+        {
+          "source": "何九叔",
+          "target": "土兵",
+          "value": 1
+        },
+        {
+          "source": "张大公",
+          "target": "郓哥",
+          "value": 1
+        },
+        {
+          "source": "张大公",
+          "target": "郓母",
+          "value": 1
+        },
+        {
+          "source": "张大公",
+          "target": "潘金莲",
+          "value": 1
+        },
+        {
+          "source": "土兵",
+          "target": "张大公",
+          "value": 1
+        },
+        {
+          "source": "郓哥",
+          "target": "郓母",
+          "value": 1
+        },
+        {
+          "source": "潘金莲",
+          "target": "郓哥",
+          "value": 1
+        },
+        {
+          "source": "土兵",
+          "target": "郓哥",
+          "value": 1
+        },
+        {
+          "source": "潘金莲",
+          "target": "郓母",
+          "value": 1
+        },
+        {
+          "source": "土兵",
+          "target": "郓母",
+          "value": 1
+        },
+        {
+          "source": "楞儿",
+          "target": "西门庆",
+          "value": 1
+        },
+        {
+          "source": "西门庆",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "县令",
+          "target": "西门庆",
+          "value": 1
+        },
+        {
+          "source": "衙役",
+          "target": "西门庆",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "西门庆",
+          "value": 1
+        },
+        {
+          "source": "土兵",
+          "target": "西门庆",
+          "value": 1
+        },
+        {
+          "source": "楞儿",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "县令",
+          "target": "楞儿",
+          "value": 1
+        },
+        {
+          "source": "楞儿",
+          "target": "衙役",
+          "value": 1
+        },
+        {
+          "source": "楞儿",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "土兵",
+          "target": "楞儿",
+          "value": 1
+        },
+        {
+          "source": "县令",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "衙役",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "土兵",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "县令",
+          "target": "衙役",
+          "value": 1
+        },
+        {
+          "source": "县令",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "县令",
+          "target": "土兵",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "衙役",
+          "value": 1
+        },
+        {
+          "source": "土兵",
+          "target": "衙役",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 4,
+      "numLines": 325,
+      "summary": "第一场；第二场；第三场；第四场",
+      "conflict": 0.537,
+      "importance": 1.0,
+      "locations": {
+        "离却柴府": 4
+      },
+      "characters": {
+        "武松": 1,
+        "孙二娘": 1,
+        "大解子": 1,
+        "犯人": 1,
+        "小解子": 1,
+        "张青": 1,
+        "禁子": 1
+      },
+      "links": [
+        {
+          "source": "大解子",
+          "target": "小解子",
+          "value": 2
+        },
+        {
+          "source": "小解子",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "小解子",
+          "target": "武松",
+          "value": 2
+        },
+        {
+          "source": "小解子",
+          "target": "犯人",
+          "value": 1
+        },
+        {
+          "source": "大解子",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "大解子",
+          "target": "武松",
+          "value": 2
+        },
+        {
+          "source": "大解子",
+          "target": "犯人",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "犯人",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "犯人",
+          "value": 1
+        },
+        {
+          "source": "孙二娘",
+          "target": "武松",
+          "value": 3
+        },
+        {
+          "source": "大解子",
+          "target": "孙二娘",
+          "value": 1
+        },
+        {
+          "source": "孙二娘",
+          "target": "小解子",
+          "value": 1
+        },
+        {
+          "source": "孙二娘",
+          "target": "张青",
+          "value": 1
+        },
+        {
+          "source": "张青",
+          "target": "武松",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 4,
+      "numLines": 275,
+      "summary": "第一场；第二场；第三场；第四场",
+      "conflict": 0.591,
+      "importance": 1.0,
+      "locations": {
+        "都监张大人门": 1,
+        "离却柴府": 3
+      },
+      "characters": {
+        "武松": 1,
+        "施恩": 1,
+        "店东乙": 1,
+        "蒋忠": 1,
+        "施忠": 1,
+        "四徒弟": 1,
+        "店东甲": 1,
+        "刘槐": 1,
+        "四店伙": 1,
+        "小解子": 1
+      },
+      "links": [
+        {
+          "source": "四徒弟",
+          "target": "蒋忠",
+          "value": 1
+        },
+        {
+          "source": "刘槐",
+          "target": "施恩",
+          "value": 1
+        },
+        {
+          "source": "施恩",
+          "target": "蒋忠",
+          "value": 1
+        },
+        {
+          "source": "刘槐",
+          "target": "蒋忠",
+          "value": 1
+        },
+        {
+          "source": "小解子",
+          "target": "施忠",
+          "value": 1
+        },
+        {
+          "source": "施忠",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "施忠",
+          "target": "施恩",
+          "value": 1
+        },
+        {
+          "source": "小解子",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "小解子",
+          "target": "施恩",
+          "value": 1
+        },
+        {
+          "source": "施恩",
+          "target": "武松",
+          "value": 2
+        },
+        {
+          "source": "四店伙",
+          "target": "店东甲",
+          "value": 1
+        },
+        {
+          "source": "店东甲",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "店东甲",
+          "target": "施恩",
+          "value": 1
+        },
+        {
+          "source": "店东乙",
+          "target": "店东甲",
+          "value": 1
+        },
+        {
+          "source": "四店伙",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "四店伙",
+          "target": "施恩",
+          "value": 1
+        },
+        {
+          "source": "四店伙",
+          "target": "店东乙",
+          "value": 1
+        },
+        {
+          "source": "店东乙",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "店东乙",
+          "target": "施恩",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 4,
+      "numLines": 299,
+      "summary": "第五场；第六场；第一场；第二场",
+      "conflict": 0.582,
+      "importance": 1.0,
+      "locations": {
+        "离却柴府": 3,
+        "军士同上城": 1
+      },
+      "characters": {
+        "武松": 1,
+        "施恩": 1,
+        "蒋大娘": 1,
+        "蒋忠": 1,
+        "二解差": 1,
+        "刘槐": 1,
+        "解差甲": 1,
+        "军士甲": 1,
+        "军士乙": 1,
+        "解差乙": 1,
+        "众蒋徒": 1
+      },
+      "links": [
+        {
+          "source": "刘槐",
+          "target": "蒋大娘",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "蒋大娘",
+          "value": 1
+        },
+        {
+          "source": "施恩",
+          "target": "蒋大娘",
+          "value": 1
+        },
+        {
+          "source": "刘槐",
+          "target": "武松",
+          "value": 2
+        },
+        {
+          "source": "刘槐",
+          "target": "施恩",
+          "value": 2
+        },
+        {
+          "source": "施恩",
+          "target": "武松",
+          "value": 2
+        },
+        {
+          "source": "刘槐",
+          "target": "蒋忠",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "蒋忠",
+          "value": 1
+        },
+        {
+          "source": "施恩",
+          "target": "蒋忠",
+          "value": 1
+        },
+        {
+          "source": "二解差",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "众蒋徒",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "解差乙",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "解差甲",
+          "value": 1
+        },
+        {
+          "source": "二解差",
+          "target": "众蒋徒",
+          "value": 1
+        },
+        {
+          "source": "二解差",
+          "target": "解差乙",
+          "value": 1
+        },
+        {
+          "source": "二解差",
+          "target": "解差甲",
+          "value": 1
+        },
+        {
+          "source": "众蒋徒",
+          "target": "解差乙",
+          "value": 1
+        },
+        {
+          "source": "众蒋徒",
+          "target": "解差甲",
+          "value": 1
+        },
+        {
+          "source": "解差乙",
+          "target": "解差甲",
+          "value": 1
+        },
+        {
+          "source": "军士甲",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "军士乙",
+          "target": "军士甲",
+          "value": 1
+        },
+        {
+          "source": "军士乙",
+          "target": "武松",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 4,
+      "numLines": 90,
+      "summary": "第三场；第一场；第二场；第三场",
+      "conflict": 0.763,
+      "importance": 0.492,
+      "locations": {
+        "众人同上楼": 1,
+        "飞天上高台": 1,
+        "离却柴府": 1,
+        "不住庵观寺": 1
+      },
+      "characters": {
+        "武松": 1,
+        "张凤琴": 1,
+        "张豪": 1,
+        "送救人": 1,
+        "黄飞虎": 1,
+        "黄飞信": 1,
+        "张义": 1,
+        "黄飞天": 1,
+        "送酒人": 1,
+        "李二秃头": 1,
+        "众小道士": 1,
+        "黄飞龙": 1
+      },
+      "links": [
+        {
+          "source": "张豪",
+          "target": "送救人",
+          "value": 1
+        },
+        {
+          "source": "张豪",
+          "target": "送酒人",
+          "value": 1
+        },
+        {
+          "source": "张豪",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "送救人",
+          "target": "送酒人",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "送救人",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "送酒人",
+          "value": 1
+        },
+        {
+          "source": "李二秃头",
+          "target": "黄飞天",
+          "value": 1
+        },
+        {
+          "source": "黄飞信",
+          "target": "黄飞天",
+          "value": 1
+        },
+        {
+          "source": "黄飞天",
+          "target": "黄飞虎",
+          "value": 1
+        },
+        {
+          "source": "黄飞天",
+          "target": "黄飞龙",
+          "value": 1
+        },
+        {
+          "source": "众小道士",
+          "target": "黄飞天",
+          "value": 1
+        },
+        {
+          "source": "李二秃头",
+          "target": "黄飞信",
+          "value": 1
+        },
+        {
+          "source": "李二秃头",
+          "target": "黄飞虎",
+          "value": 1
+        },
+        {
+          "source": "李二秃头",
+          "target": "黄飞龙",
+          "value": 1
+        },
+        {
+          "source": "众小道士",
+          "target": "李二秃头",
+          "value": 1
+        },
+        {
+          "source": "黄飞信",
+          "target": "黄飞虎",
+          "value": 1
+        },
+        {
+          "source": "黄飞信",
+          "target": "黄飞龙",
+          "value": 1
+        },
+        {
+          "source": "众小道士",
+          "target": "黄飞信",
+          "value": 1
+        },
+        {
+          "source": "黄飞虎",
+          "target": "黄飞龙",
+          "value": 1
+        },
+        {
+          "source": "众小道士",
+          "target": "黄飞虎",
+          "value": 1
+        },
+        {
+          "source": "众小道士",
+          "target": "黄飞龙",
+          "value": 1
+        },
+        {
+          "source": "张义",
+          "target": "张凤琴",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第7章",
+      "numScenes": 4,
+      "numLines": 149,
+      "summary": "第四场；第五场；第六场；第七场",
+      "conflict": 0.899,
+      "importance": 0.815,
+      "locations": {
+        "离却柴府": 4
+      },
+      "characters": {
+        "丑道士": 1,
+        "武松": 1,
+        "张凤琴": 1,
+        "张义": 1,
+        "乡老甲": 1,
+        "黄飞天": 1,
+        "众乡人": 1,
+        "李二秃头": 1,
+        "乡老乙": 1,
+        "众小道士": 1
+      },
+      "links": [
+        {
+          "source": "张凤琴",
+          "target": "黄飞天",
+          "value": 2
+        },
+        {
+          "source": "张凤琴",
+          "target": "李二秃头",
+          "value": 1
+        },
+        {
+          "source": "张义",
+          "target": "张凤琴",
+          "value": 1
+        },
+        {
+          "source": "李二秃头",
+          "target": "黄飞天",
+          "value": 1
+        },
+        {
+          "source": "张义",
+          "target": "黄飞天",
+          "value": 1
+        },
+        {
+          "source": "张义",
+          "target": "李二秃头",
+          "value": 1
+        },
+        {
+          "source": "张义",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "乡老甲",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "乡老乙",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "众乡人",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "乡老甲",
+          "target": "张义",
+          "value": 1
+        },
+        {
+          "source": "乡老乙",
+          "target": "张义",
+          "value": 1
+        },
+        {
+          "source": "众乡人",
+          "target": "张义",
+          "value": 1
+        },
+        {
+          "source": "乡老乙",
+          "target": "乡老甲",
+          "value": 1
+        },
+        {
+          "source": "乡老甲",
+          "target": "众乡人",
+          "value": 1
+        },
+        {
+          "source": "乡老乙",
+          "target": "众乡人",
+          "value": 1
+        },
+        {
+          "source": "众小道士",
+          "target": "黄飞天",
+          "value": 1
+        },
+        {
+          "source": "众小道士",
+          "target": "张凤琴",
+          "value": 1
+        },
+        {
+          "source": "丑道士",
+          "target": "众小道士",
+          "value": 1
+        },
+        {
+          "source": "众小道士",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "丑道士",
+          "target": "黄飞天",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "黄飞天",
+          "value": 1
+        },
+        {
+          "source": "丑道士",
+          "target": "张凤琴",
+          "value": 1
+        },
+        {
+          "source": "张凤琴",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "丑道士",
+          "target": "武松",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第8章",
+      "numScenes": 2,
+      "numLines": 36,
+      "summary": "第八场；第九场",
+      "conflict": 0.032,
+      "importance": 0.197,
+      "locations": {
+        "离却柴府": 2
+      },
+      "characters": {
+        "张凤琴": 1,
+        "武松": 1,
+        "众乡老": 1,
+        "张义": 1,
+        "黄飞天": 1,
+        "众小道士": 1
+      },
+      "links": [
+        {
+          "source": "众小道士",
+          "target": "黄飞天",
+          "value": 1
+        },
+        {
+          "source": "张凤琴",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "张义",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "众乡老",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "张义",
+          "target": "张凤琴",
+          "value": 1
+        },
+        {
+          "source": "众乡老",
+          "target": "张凤琴",
+          "value": 1
+        },
+        {
+          "source": "众乡老",
+          "target": "张义",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第9章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "猎户甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "众位请了。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "三猎户",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.301,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "嘿！",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第二场：1位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.702,
+        "conflict": 1.0,
+        "sentiment": 0.006
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "离却柴府",
+      "characters": [],
+      "summary": "第三场：0位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.0,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "手拿着棍一条，",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "四猎户",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "何人将虎打死？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：2位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.704,
+        "conflict": 0.571,
+        "sentiment": 0.229
+      }
+    },
+    {
+      "number": 5,
+      "name": "第一场",
+      "location": "自家门",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "土兵，带路！",
+          "rating": -0.167,
+          "role": "武生"
+        },
+        {
+          "name": "潘金莲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": -0.111,
+          "role": ""
+        },
+        {
+          "name": "土兵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来此已是。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，88行",
+      "firstLine": 1,
+      "lastLine": 88,
+      "numLines": 88,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.716,
+        "conflict": 0.306,
+        "sentiment": -0.038
+      }
+    },
+    {
+      "number": 6,
+      "name": "第二场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "王婆",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "老身王婆。与西门大官人定下一计，用砒霜将武大毒死。闻听武二回得家来。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "嗨！",
+          "rating": -0.111,
+          "role": "武生"
+        },
+        {
+          "name": "何九叔",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来了。",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "张大公",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "郓哥",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "啊哈！",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "郓母",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "做甚么？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "潘金莲",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "negative",
+          "quote": "喂呀……",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "土兵",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "酒过三巡。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：8位角色，221行",
+      "firstLine": 1,
+      "lastLine": 221,
+      "numLines": 221,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.74,
+        "conflict": 0.206,
+        "sentiment": 0.071
+      }
+    },
+    {
+      "number": 7,
+      "name": "第三场",
+      "location": "带路狮子楼",
+      "characters": [
+        {
+          "name": "西门庆",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊咳！",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "楞儿",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "狮子楼。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "酒保",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "县令",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "胆大武松，上得堂来，胡言乱语。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "衙役",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "一十！二十！三十！四十！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "土兵！西门庆，花银钱，买通上下衙门；我上得堂去，不问青红皂白，责打我",
+          "rating": -0.6,
+          "role": "武生"
+        },
+        {
+          "name": "土兵",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "二爷，那西门庆难道说还胜似那景阳岗猛虎不成！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：7位角色，116行",
+      "firstLine": 1,
+      "lastLine": 116,
+      "numLines": 116,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.721,
+        "conflict": 0.154,
+        "sentiment": 0.112
+      }
+    },
+    {
+      "number": 8,
+      "name": "第四场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "衙前走走！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "郓哥",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "王婆子，走罢！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.701,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 9,
+      "name": "第一场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "小解子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "手拿无情棍，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大解子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "单打犯罪人。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "禁子",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "谁呀？",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "恨苍天累次里困英雄，",
+          "rating": -0.333,
+          "role": "武生"
+        },
+        {
+          "name": "犯人",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "二爷！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：5位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.712,
+        "conflict": 0.519,
+        "sentiment": 0.017
+      }
+    },
+    {
+      "number": 10,
+      "name": "第二场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "孙二娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "走哇！",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "大解子",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是啦，我打店去。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "小解子",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "别忙，这儿你来过吗？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，224行",
+      "firstLine": 1,
+      "lastLine": 224,
+      "numLines": 224,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.741,
+        "conflict": 0.232,
+        "sentiment": 0.047
+      }
+    },
+    {
+      "number": 11,
+      "name": "第三场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "孙二娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "喵儿……",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "猫儿辟鼠，随它去吧。",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第三场：2位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.703,
+        "conflict": 0.0,
+        "sentiment": -0.36
+      }
+    },
+    {
+      "number": 12,
+      "name": "第四场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "孙二娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "张青哪里？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张青",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "何事惊慌？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "在下武松。",
+          "rating": -1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第四场：3位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.703,
+        "conflict": 0.0,
+        "sentiment": 0.177
+      }
+    },
+    {
+      "number": 13,
+      "name": "第一场",
+      "location": "都监张大人门",
+      "characters": [
+        {
+          "name": "蒋忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "武艺高强，心粗胆壮，凭拳棒，独霸一方，孟州俺为上。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "四徒弟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.302,
+        "conflict": 0.0,
+        "sentiment": 0.4
+      }
+    },
+    {
+      "number": 14,
+      "name": "第二场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "施恩",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "爱习拳棒，结英雄，远近名扬。",
+          "rating": 0.667,
+          "role": ""
+        },
+        {
+          "name": "刘槐",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "是。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "蒋忠",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "走哇！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.307,
+        "conflict": 0.0,
+        "sentiment": 0.606
+      }
+    },
+    {
+      "number": 15,
+      "name": "第三场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "施忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "监管配军，按律施行。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "小解子",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "武松到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "参见太爷。",
+          "rating": -0.4,
+          "role": "武生"
+        },
+        {
+          "name": "施恩",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "施恩向前有话云。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：4位角色，116行",
+      "firstLine": 1,
+      "lastLine": 116,
+      "numLines": 116,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.721,
+        "conflict": 0.307,
+        "sentiment": 0.015
+      }
+    },
+    {
+      "number": 16,
+      "name": "第四场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "店东甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "伙计们，贩来好酒，抬回店中去卖呀。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四店伙",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走哇。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "贤弟请哪！",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "施恩",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "啊，兄长，这不是快活林。",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "店东乙",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "哎，这不是施公子吗？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：5位角色，107行",
+      "firstLine": 1,
+      "lastLine": 107,
+      "numLines": 107,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.72,
+        "conflict": 0.172,
+        "sentiment": 0.24
+      }
+    },
+    {
+      "number": 17,
+      "name": "第五场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "蒋大娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我在后店安排定，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "刘槐",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "贤弟，请哪！",
+          "rating": 0.5,
+          "role": "武生"
+        },
+        {
+          "name": "施恩",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "这就是快活林。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：4位角色，145行",
+      "firstLine": 1,
+      "lastLine": 145,
+      "numLines": 145,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.726,
+        "conflict": 0.116,
+        "sentiment": 0.279
+      }
+    },
+    {
+      "number": 18,
+      "name": "第六场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "刘槐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "大爷，大事不好了！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "蒋忠",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "何事惊慌？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "住口！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "施恩",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "这是我的老伙计。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：4位角色，46行",
+      "firstLine": 1,
+      "lastLine": 46,
+      "numLines": 46,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.708,
+        "conflict": 0.0,
+        "sentiment": 0.309
+      }
+    },
+    {
+      "number": 19,
+      "name": "第一场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "英雄累次遭危困，",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "二解差",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "干甚么的？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "众蒋徒",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "卖艺的。你是干甚么的？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "解差乙",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "为你这个差事，我们还得现念书去！我们不认识字，要瞧你自个儿去瞧罢。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "解差甲",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "蒋忠。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：5位角色，81行",
+      "firstLine": 1,
+      "lastLine": 81,
+      "numLines": 81,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.715,
+        "conflict": 0.215,
+        "sentiment": 0.178
+      }
+    },
+    {
+      "number": 20,
+      "name": "第二场",
+      "location": "军士同上城",
+      "characters": [
+        {
+          "name": "军士甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "奉了太爷之命，把守城门，就此前往。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "嘚，开城！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "军士乙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "快给他开城罢。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.705,
+        "conflict": 0.328,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 21,
+      "name": "第三场",
+      "location": "众人同上楼",
+      "characters": [
+        {
+          "name": "张豪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "躬身施礼楼上请，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "送救人",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "送酒咧！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "送酒人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "哎，没风怎么把帽子刮掉了？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "“武松发配到恩州，我与蒋忠结冤仇；张豪俱是我杀死，武松血溅鸳鸯楼。”",
+          "rating": -0.333,
+          "role": "武生"
+        }
+      ],
+      "summary": "第三场：4位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.703,
+        "conflict": 1.0,
+        "sentiment": 0.004
+      }
+    },
+    {
+      "number": 22,
+      "name": "第一场",
+      "location": "飞天上高台",
+      "characters": [
+        {
+          "name": "黄飞天",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "带发出家，一方称霸；心胆大，常把人杀，闻名谁不怕！",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "李二秃头",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "俺——",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "黄飞信",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "黄飞信。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黄飞虎",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "黄飞虎。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黄飞龙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "黄飞龙。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众小道士",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "哎咳！",
+          "rating": 0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：6位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.309,
+        "conflict": 0.44,
+        "sentiment": 0.533
+      }
+    },
+    {
+      "number": 23,
+      "name": "第二场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "张凤琴",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "爹娘下世早，终日泪号啕。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张义",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来了。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.303,
+        "conflict": 0.0,
+        "sentiment": 0.767
+      }
+    },
+    {
+      "number": 24,
+      "name": "第三场",
+      "location": "不住庵观寺",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "改扮乔装本貌掩，行者头陀总一般。一路不住庵观寺，一心要奔二龙山。",
+          "rating": -0.333,
+          "role": "武生"
+        }
+      ],
+      "summary": "第三场：1位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.702,
+        "conflict": 1.0,
+        "sentiment": 0.06
+      }
+    },
+    {
+      "number": 25,
+      "name": "第四场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "张凤琴",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "风吹尘滚车轮响，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黄飞天",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "长得倒也不错，上前提亲。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "李二秃头",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "这一老头儿，你身后何人？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张义",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "乃是我家小姐，问她作甚？",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.304,
+        "conflict": 0.833,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 26,
+      "name": "第五场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "趁月下，月下奔荒郊，",
+          "rating": -0.333,
+          "role": "武生"
+        },
+        {
+          "name": "张义",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "等着！",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "乡老甲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "忽听黄犬吠，何人叩柴扉？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "乡老乙",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "忽听人喧嚷，出门看端详。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "众乡人",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：5位角色，97行",
+      "firstLine": 1,
+      "lastLine": 97,
+      "numLines": 97,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.718,
+        "conflict": 0.2,
+        "sentiment": -0.139
+      }
+    },
+    {
+      "number": 27,
+      "name": "第六场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "众小道士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "师父回来了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黄飞天",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "与我拜堂成亲。",
+          "rating": -0.6,
+          "role": ""
+        },
+        {
+          "name": "张凤琴",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "喂呀……",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "丑道士",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第六场：5位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.704,
+        "conflict": 0.755,
+        "sentiment": -0.035
+      }
+    },
+    {
+      "number": 28,
+      "name": "第七场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "张义",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "心中只把贼子恨！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.301,
+        "conflict": 0.0,
+        "sentiment": 0.29
+      }
+    },
+    {
+      "number": 29,
+      "name": "第八场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "黄飞天",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "山上有了奸细，徒儿们哪里！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众小道士",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第8章",
+      "ratings": {
+        "importance": 0.302,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 30,
+      "name": "第九场",
+      "location": "离却柴府",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "且住！强人已死，待我寻找小姐。",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "张凤琴",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "那是我的管家，我是被强人抢上山来的。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张义",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "这是恩公。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "众乡老",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "哦，好汉子！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第九场：4位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第8章",
+      "ratings": {
+        "importance": 0.705,
+        "conflict": 0.769,
+        "sentiment": 0.192
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "武松",
+      "short": "武松",
+      "key": "武松",
+      "quote": "武松 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "潘金莲",
+      "short": "潘金",
+      "key": "潘金莲",
+      "quote": "潘金莲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "施恩",
+      "short": "施恩",
+      "key": "施恩",
+      "quote": "施恩 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "孙二娘",
+      "short": "孙二",
+      "key": "孙二娘",
+      "quote": "孙二娘 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张豪",
+      "short": "张豪",
+      "key": "张豪",
+      "quote": "张豪 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "送救人",
+      "short": "送救",
+      "key": "送救人",
+      "quote": "送救人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "土兵",
+      "short": "土兵",
+      "key": "土兵",
+      "quote": "土兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "施忠",
+      "short": "施忠",
+      "key": "施忠",
+      "quote": "施忠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四徒弟",
+      "short": "四徒",
+      "key": "四徒弟",
+      "quote": "四徒弟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "何九叔",
+      "short": "何九",
+      "key": "何九叔",
+      "quote": "何九叔 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "军士乙",
+      "short": "军士",
+      "key": "军士乙",
+      "quote": "军士乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小解子",
+      "short": "小解",
+      "key": "小解子",
+      "quote": "小解子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄飞龙",
+      "short": "黄飞",
+      "key": "黄飞龙",
+      "quote": "黄飞龙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "郓母",
+      "short": "郓母",
+      "key": "郓母",
+      "quote": "郓母 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "县令",
+      "short": "县令",
+      "key": "县令",
+      "quote": "县令 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丑道士",
+      "short": "丑道",
+      "key": "丑道士",
+      "quote": "丑道士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张凤琴",
+      "short": "张凤",
+      "key": "张凤琴",
+      "quote": "张凤琴 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张义",
+      "short": "张义",
+      "key": "张义",
+      "quote": "张义 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "蒋大娘",
+      "short": "蒋大",
+      "key": "蒋大娘",
+      "quote": "蒋大娘 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄飞信",
+      "short": "黄飞",
+      "key": "黄飞信",
+      "quote": "黄飞信 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "酒保",
+      "short": "酒保",
+      "key": "酒保",
+      "quote": "酒保 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二解差",
+      "short": "二解",
+      "key": "二解差",
+      "quote": "二解差 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四店伙",
+      "short": "四店",
+      "key": "四店伙",
+      "quote": "四店伙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "解差甲",
+      "short": "解差",
+      "key": "解差甲",
+      "quote": "解差甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "楞儿",
+      "short": "楞儿",
+      "key": "楞儿",
+      "quote": "楞儿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "衙役",
+      "short": "衙役",
+      "key": "衙役",
+      "quote": "衙役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "猎户甲",
+      "short": "猎户",
+      "key": "猎户甲",
+      "quote": "猎户甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众乡人",
+      "short": "众乡",
+      "key": "众乡人",
+      "quote": "众乡人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众小道士",
+      "short": "众小",
+      "key": "众小道士",
+      "quote": "众小道士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众蒋徒",
+      "short": "众蒋",
+      "key": "众蒋徒",
+      "quote": "众蒋徒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "郓哥",
+      "short": "郓哥",
+      "key": "郓哥",
+      "quote": "郓哥 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王婆",
+      "short": "王婆",
+      "key": "王婆",
+      "quote": "王婆 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众乡老",
+      "short": "众乡",
+      "key": "众乡老",
+      "quote": "众乡老 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄飞虎",
+      "short": "黄飞",
+      "key": "黄飞虎",
+      "quote": "黄飞虎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张大公",
+      "short": "张大",
+      "key": "张大公",
+      "quote": "张大公 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大解子",
+      "short": "大解",
+      "key": "大解子",
+      "quote": "大解子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘槐",
+      "short": "刘槐",
+      "key": "刘槐",
+      "quote": "刘槐 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄飞天",
+      "short": "黄飞",
+      "key": "黄飞天",
+      "quote": "黄飞天 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四猎户",
+      "short": "四猎",
+      "key": "四猎户",
+      "quote": "四猎户 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "店东乙",
+      "short": "店东",
+      "key": "店东乙",
+      "quote": "店东乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "三猎户",
+      "short": "三猎",
+      "key": "三猎户",
+      "quote": "三猎户 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "乡老甲",
+      "short": "乡老",
+      "key": "乡老甲",
+      "quote": "乡老甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "犯人",
+      "short": "犯人",
+      "key": "犯人",
+      "quote": "犯人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "蒋忠",
+      "short": "蒋忠",
+      "key": "蒋忠",
+      "quote": "蒋忠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "店东甲",
+      "short": "店东",
+      "key": "店东甲",
+      "quote": "店东甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "西门庆",
+      "short": "西门",
+      "key": "西门庆",
+      "quote": "西门庆 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "军士甲",
+      "short": "军士",
+      "key": "军士甲",
+      "quote": "军士甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "送酒人",
+      "short": "送酒",
+      "key": "送酒人",
+      "quote": "送酒人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李二秃头",
+      "short": "李二",
+      "key": "李二秃头",
+      "quote": "李二秃头 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "禁子",
+      "short": "禁子",
+      "key": "禁子",
+      "quote": "禁子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "乡老乙",
+      "short": "乡老",
+      "key": "乡老乙",
+      "quote": "乡老乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "解差乙",
+      "short": "解差",
+      "key": "解差乙",
+      "quote": "解差乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张青",
+      "short": "张青",
+      "key": "张青",
+      "quote": "张青 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "离却柴府",
+      "key": "离却柴府",
+      "quote": "场景发生在离却柴府"
+    },
+    {
+      "name": "带路狮子楼",
+      "key": "带路狮子楼",
+      "quote": "场景发生在带路狮子楼"
+    },
+    {
+      "name": "众人同上楼",
+      "key": "众人同上楼",
+      "quote": "场景发生在众人同上楼"
+    },
+    {
+      "name": "飞天上高台",
+      "key": "飞天上高台",
+      "quote": "场景发生在飞天上高台"
+    },
+    {
+      "name": "不住庵观寺",
+      "key": "不住庵观寺",
+      "quote": "场景发生在不住庵观寺"
+    },
+    {
+      "name": "） 狮子楼",
+      "key": "） 狮子楼",
+      "quote": "场景发生在） 狮子楼"
+    },
+    {
+      "name": "自家门",
+      "key": "自家门",
+      "quote": "场景发生在自家门"
+    },
+    {
+      "name": "下西门",
+      "key": "下西门",
+      "quote": "场景发生在下西门"
+    },
+    {
+      "name": "都监张大人门",
+      "key": "都监张大人门",
+      "quote": "场景发生在都监张大人门"
+    },
+    {
+      "name": "血溅鸳鸯楼",
+      "key": "血溅鸳鸯楼",
+      "quote": "场景发生在血溅鸳鸯楼"
+    },
+    {
+      "name": "军士同上城",
+      "key": "军士同上城",
+      "quote": "场景发生在军士同上城"
+    },
+    {
+      "name": "正要下楼",
+      "key": "正要下楼",
+      "quote": "场景发生在正要下楼"
+    }
+  ]
+}

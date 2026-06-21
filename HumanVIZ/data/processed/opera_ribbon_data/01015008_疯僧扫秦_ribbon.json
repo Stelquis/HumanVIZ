@@ -1,0 +1,365 @@
+{
+  "title": "疯僧扫秦",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01015008_疯僧扫秦.json",
+  "source_folder": "01000000",
+  "plot_summary": "宋奸相秦桧，害死岳武穆之后，在万花楼上，被忠魂缠绕。因许愿，至灵隐寺，虔修斋醺，为忏悔之地。秦\n桧与妻王氏亲身拈香，见寺壁上提诗一首，第一句即夫妻于东窗下，定诬武穆之计，写在炉灰内者，非常秘\n密，忽然泄露与此，甚为诧异。追问住持，云系疯僧所写。唤至面前，则一蓬头垢面，浑身污秽之和尚，左\n手执一扫帚，右手执一吹火筒。问答间，语语含有针锋，刺入奸相夫妇之心肺，不禁毛骨悚然。秦桧命从人\n催下庭介，用乱棒以制起死命。王氏空为旁观者讥评，劝秦桧暂时释放。回府后，再命家将何立来寺锁拿，\n而疯僧放内只留柬贴一个，人已不知去向矣，盖疯僧者，地藏菩萨之化身也。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.239,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "青袍": 1,
+        "住持": 1,
+        "秦桧": 1
+      },
+      "links": [
+        {
+          "source": "住持",
+          "target": "秦桧",
+          "value": 1
+        },
+        {
+          "source": "住持",
+          "target": "青袍",
+          "value": 1
+        },
+        {
+          "source": "秦桧",
+          "target": "青袍",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 71,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "疯僧": 1,
+        "住持": 1,
+        "秦桧": 1
+      },
+      "links": [
+        {
+          "source": "住持",
+          "target": "秦桧",
+          "value": 1
+        },
+        {
+          "source": "疯僧",
+          "target": "秦桧",
+          "value": 1
+        },
+        {
+          "source": "住持",
+          "target": "疯僧",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 192,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "疯僧": 1,
+        "住持": 1,
+        "秦桧": 1
+      },
+      "links": [
+        {
+          "source": "疯僧",
+          "target": "秦桧",
+          "value": 1
+        },
+        {
+          "source": "住持",
+          "target": "秦桧",
+          "value": 1
+        },
+        {
+          "source": "住持",
+          "target": "疯僧",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 4,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.056,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "疯僧": 1,
+        "秦桧": 1
+      },
+      "links": [
+        {
+          "source": "疯僧",
+          "target": "秦桧",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "住持",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "扫地恐伤蝼蚁命，爱惜飞蛾纱罩灯。",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "秦桧",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "三公之位，自小登科占大魁，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "青袍",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "喝！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.621,
+        "conflict": 0.556,
+        "sentiment": 0.364
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦桧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哎呀佛爷啊！愿岳家父子早登仙界！",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "住持",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "请相爷各处随喜随喜。",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "疯僧",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "谁唤我？",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：3位角色，71行",
+      "firstLine": 1,
+      "lastLine": 71,
+      "numLines": 71,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.339,
+        "sentiment": 0.011
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦桧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "呸！我道怎么样一个疯僧，原来是个腌臜和尚。",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "疯僧",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我道怎样一个丞相，原来是个奸臣秦桧。",
+          "rating": 0.143,
+          "role": "丑"
+        },
+        {
+          "name": "住持",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "吓！",
+          "rating": 1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第3场：3位角色，192行",
+      "firstLine": 1,
+      "lastLine": 192,
+      "numLines": 192,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.257,
+        "sentiment": 0.281
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦桧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎呀！被这疯僧一番言语，说的毛骨悚然，回去与夫人商议便了。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "疯僧",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第4场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.613,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "疯僧",
+      "short": "疯僧",
+      "key": "疯僧",
+      "quote": "疯僧 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "秦桧",
+      "short": "秦桧",
+      "key": "秦桧",
+      "quote": "秦桧 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "住持",
+      "short": "住持",
+      "key": "住持",
+      "quote": "住持 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "青袍",
+      "short": "青袍",
+      "key": "青袍",
+      "quote": "青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

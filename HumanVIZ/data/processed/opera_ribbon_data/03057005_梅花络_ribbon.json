@@ -1,0 +1,325 @@
+{
+  "title": "梅花络",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "03057005_梅花络.json",
+  "source_folder": "03000000",
+  "plot_summary": "贾宝玉卧病，思食莲叶羹，王夫人令白玉钏、黄莺儿往送。贾宝玉知黄莺儿手巧，烦结梅花络。薛宝钗适至，\n言以不如结络以盛玉，贾宝玉称妙不已。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 50,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.485,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "黄莺儿": 1,
+        "白玉钏": 1
+      },
+      "links": [
+        {
+          "source": "白玉钏",
+          "target": "黄莺儿",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 156,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "黄莺儿": 1,
+        "白玉钏": 1,
+        "袭人": 1,
+        "二婆子": 1,
+        "贾宝玉": 1,
+        "薛宝钗": 1
+      },
+      "links": [
+        {
+          "source": "贾宝玉",
+          "target": "黄莺儿",
+          "value": 1
+        },
+        {
+          "source": "白玉钏",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "袭人",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "二婆子",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "薛宝钗",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "白玉钏",
+          "target": "黄莺儿",
+          "value": 1
+        },
+        {
+          "source": "袭人",
+          "target": "黄莺儿",
+          "value": 1
+        },
+        {
+          "source": "二婆子",
+          "target": "黄莺儿",
+          "value": 1
+        },
+        {
+          "source": "薛宝钗",
+          "target": "黄莺儿",
+          "value": 1
+        },
+        {
+          "source": "白玉钏",
+          "target": "袭人",
+          "value": 1
+        },
+        {
+          "source": "二婆子",
+          "target": "白玉钏",
+          "value": 1
+        },
+        {
+          "source": "白玉钏",
+          "target": "薛宝钗",
+          "value": 1
+        },
+        {
+          "source": "二婆子",
+          "target": "袭人",
+          "value": 1
+        },
+        {
+          "source": "薛宝钗",
+          "target": "袭人",
+          "value": 1
+        },
+        {
+          "source": "二婆子",
+          "target": "薛宝钗",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "白玉钏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "奉命送莲羹，",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "黄莺儿",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "一同到怡红。",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：2位角色，50行",
+      "firstLine": 1,
+      "lastLine": 50,
+      "numLines": 50,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.82,
+        "conflict": 0.561,
+        "sentiment": -0.091
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "贾宝玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎呀！",
+          "rating": -0.143,
+          "role": "小生"
+        },
+        {
+          "name": "黄莺儿",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "走哇！",
+          "rating": 0.429,
+          "role": "旦"
+        },
+        {
+          "name": "白玉钏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "捧莲碗移玉趾微荡画裙。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "袭人",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "妹妹随我来！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "二婆子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "给宝二爷请安！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛宝钗",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "走哇！",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：6位角色，156行",
+      "firstLine": 1,
+      "lastLine": 156,
+      "numLines": 156,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.214,
+        "sentiment": 0.125
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "贾宝玉",
+      "short": "贾宝",
+      "key": "贾宝玉",
+      "quote": "贾宝玉 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "黄莺儿",
+      "short": "黄莺",
+      "key": "黄莺儿",
+      "quote": "黄莺儿 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "白玉钏",
+      "short": "白玉",
+      "key": "白玉钏",
+      "quote": "白玉钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "袭人",
+      "short": "袭人",
+      "key": "袭人",
+      "quote": "袭人 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "薛宝钗",
+      "short": "薛宝",
+      "key": "薛宝钗",
+      "quote": "薛宝钗 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "二婆子",
+      "short": "二婆",
+      "key": "二婆子",
+      "quote": "二婆子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

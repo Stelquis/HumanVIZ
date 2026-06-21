@@ -1,0 +1,283 @@
+{
+  "title": "游武庙",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 4,
+  "source_file": "05011001_游武庙.json",
+  "source_folder": "05000000",
+  "plot_summary": "明太祖登基后，偕刘基同游武庙，见殿内外列有从祀之历代名将，朱元璋用己之喜怒，加以品评，升赵云、\n王伯党，而黜伍员、韩信、张良。刘基知朱元璋猜忌，恐己受祸，乃辞朝归田。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 26,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.219,
+      "locations": {
+        "天子坐龙楼": 1
+      },
+      "characters": {
+        "刘基": 1,
+        "洪武帝": 1,
+        "众人": 1
+      },
+      "links": [
+        {
+          "source": "刘基",
+          "target": "洪武帝",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "刘基",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "洪武帝",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 211,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        " 来此武庙": 1
+      },
+      "characters": {
+        "老道": 1,
+        "洪武帝": 1,
+        "四大铠": 1,
+        "刘基": 1
+      },
+      "links": [
+        {
+          "source": "四大铠",
+          "target": "老道",
+          "value": 1
+        },
+        {
+          "source": "洪武帝",
+          "target": "老道",
+          "value": 1
+        },
+        {
+          "source": "刘基",
+          "target": "老道",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "洪武帝",
+          "value": 1
+        },
+        {
+          "source": "刘基",
+          "target": "四大铠",
+          "value": 1
+        },
+        {
+          "source": "刘基",
+          "target": "洪武帝",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "天子坐龙楼",
+      "characters": [
+        {
+          "name": "刘基",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "执掌朝纲，伴君王，位列三台。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "洪武帝",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "海晏河清，齐奏升平。",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "众人",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.766,
+        "conflict": 0.323,
+        "sentiment": 0.364
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 来此武庙",
+      "characters": [
+        {
+          "name": "老道",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "扫地恐丧蝼蚁命，爱惜飞蛾罩纱灯。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四大铠",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来此武庙。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "洪武帝",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "驻辇。",
+          "rating": 0.294,
+          "role": "老生"
+        },
+        {
+          "name": "刘基",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "金梁玉柱瓦琉璃，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，211行",
+      "firstLine": 1,
+      "lastLine": 211,
+      "numLines": 211,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.192,
+        "sentiment": 0.452
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘基",
+      "short": "刘基",
+      "key": "刘基",
+      "quote": "刘基 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "洪武帝",
+      "short": "洪武",
+      "key": "洪武帝",
+      "quote": "洪武帝 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老道",
+      "short": "老道",
+      "key": "老道",
+      "quote": "老道 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四大铠",
+      "short": "四大",
+      "key": "四大铠",
+      "quote": "四大铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "天子坐龙楼",
+      "key": "天子坐龙楼",
+      "quote": "场景发生在天子坐龙楼"
+    },
+    {
+      "name": "位列三台",
+      "key": "位列三台",
+      "quote": "场景发生在位列三台"
+    },
+    {
+      "name": " 来此武庙",
+      "key": " 来此武庙",
+      "quote": "场景发生在 来此武庙"
+    },
+    {
+      "name": "圣驾登殿",
+      "key": "圣驾登殿",
+      "quote": "场景发生在圣驾登殿"
+    }
+  ]
+}

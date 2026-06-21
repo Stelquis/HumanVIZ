@@ -1,0 +1,216 @@
+{
+  "title": "长亭会",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "01009013_长亭会.json",
+  "source_folder": "01000000",
+  "plot_summary": "伍员方从樊城战退武城黑，挂袍江边以疑追者，而倍道向东南而来。正仓皇奔走时，忽邀见前途有大队楚兵\n至，心甚惊疑。既而探悉系故人申包胥归国，方始安然，私计申包胥乃自幼好友，谅必不翻脸加害，遂出会\n叙，直告冤情。并数述平王不道之罪，他日誓必借师以图报复。申包胥闻言，则力劝不可，谓“君父无酬，\n万无报复之理”。伍员坚执不允。申包胥亦谓然深怜其志之苦。至临别，申包胥与伍员约曰：“他日子能覆\n楚，吾必复楚。各尽其力，各行其志可也。”语时词气激昂，忠诚形于色，遂纵之去。伍员亦深威其德。",
+  "performance_notes": "此剧即接《战樊城》之后。后为伍员与申包胥相遇中途，彼此各言其志之一段事实，故又名《伍申会》。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 11,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.333,
+      "locations": {
+        "旨意出朝堂": 1
+      },
+      "characters": {
+        "中军": 1,
+        "申包胥": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "申包胥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 55,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "喜逃出樊城": 1
+      },
+      "characters": {
+        "伍员": 1,
+        "申包胥": 1,
+        "八龙套": 1
+      },
+      "links": [
+        {
+          "source": "伍员",
+          "target": "申包胥",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "八龙套",
+          "value": 1
+        },
+        {
+          "source": "八龙套",
+          "target": "申包胥",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "旨意出朝堂",
+      "characters": [
+        {
+          "name": "申包胥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "奉王旨意出朝堂，各国催贡转帝邦。扶保吾主良为上，保定平王锦家邦。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "俱已齐备。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.6,
+        "conflict": 0.909,
+        "sentiment": 0.767
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "喜逃出樊城",
+      "characters": [
+        {
+          "name": "伍员",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "俺，伍员。幸喜逃出樊城，去到吴国借兵雪恨。你看前面来了一哨人马，旗帜",
+          "rating": -0.429,
+          "role": "老生"
+        },
+        {
+          "name": "申包胥",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "前道为何不行？",
+          "rating": -0.6,
+          "role": "净"
+        },
+        {
+          "name": "八龙套",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "伍爷挡道。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.789,
+        "sentiment": 0.08
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "伍员",
+      "short": "伍员",
+      "key": "伍员",
+      "quote": "伍员 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "申包胥",
+      "short": "申包",
+      "key": "申包胥",
+      "quote": "申包胥 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八龙套",
+      "short": "八龙",
+      "key": "八龙套",
+      "quote": "八龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "喜逃出樊城",
+      "key": "喜逃出樊城",
+      "quote": "场景发生在喜逃出樊城"
+    },
+    {
+      "name": "旨意出朝堂",
+      "key": "旨意出朝堂",
+      "quote": "场景发生在旨意出朝堂"
+    }
+  ]
+}

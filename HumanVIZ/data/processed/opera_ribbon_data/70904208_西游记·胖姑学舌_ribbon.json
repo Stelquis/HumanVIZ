@@ -1,0 +1,233 @@
+{
+  "title": "西游记·胖姑学舌",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 2,
+  "source_file": "70904208_西游记·胖姑学舌.json",
+  "source_folder": "70904000",
+  "plot_summary": "唐玄奘从长安出发，前往西天取经。胖姑、王留姐弟两个前去观看送行的盛会，回家来给爷爷胡老头描述看\n到的情形。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 117,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "十里长亭": 1
+      },
+      "characters": {
+        "胖姑": 1,
+        "王留": 1,
+        "胡老头": 1
+      },
+      "links": [
+        {
+          "source": "王留",
+          "target": "胡老头",
+          "value": 1
+        },
+        {
+          "source": "胖姑",
+          "target": "胡老头",
+          "value": 1
+        },
+        {
+          "source": "王留",
+          "target": "胖姑",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.189,
+      "locations": {
+        "十里长亭": 1
+      },
+      "characters": {
+        "王留": 1,
+        "胡老头": 1
+      },
+      "links": [
+        {
+          "source": "王留",
+          "target": "胡老头",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.047,
+      "locations": {
+        "十里长亭": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "十里长亭",
+      "characters": [
+        {
+          "name": "胡老头",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "县令怜我缺断粮，吏胥不敢下村庄。年年麻麦收成足，半炷名香答上苍。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "王留",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "胖姑儿走哇。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "胖姑",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "王留儿走哇。",
+          "rating": 1.0,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "第1场：3位角色，117行",
+      "firstLine": 1,
+      "lastLine": 117,
+      "numLines": 117,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.976,
+        "conflict": 0.088,
+        "sentiment": 0.589
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "十里长亭",
+      "characters": [
+        {
+          "name": "胡老头",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "嘟，嘟，嘟。你瞧，又给打哭啦。王留儿不要哭啦，叫我么，你答应，他还不",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "王留",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "爷爷背着。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.319,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "十里长亭",
+      "characters": [],
+      "summary": "第3场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.005,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "胖姑",
+      "short": "胖姑",
+      "key": "胖姑",
+      "quote": "胖姑 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王留",
+      "short": "王留",
+      "key": "王留",
+      "quote": "王留 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "胡老头",
+      "short": "胡老",
+      "key": "胡老头",
+      "quote": "胡老头 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "十里长亭",
+      "key": "十里长亭",
+      "quote": "场景发生在十里长亭"
+    },
+    {
+      "name": "到十里长亭",
+      "key": "到十里长亭",
+      "quote": "场景发生在到十里长亭"
+    }
+  ]
+}

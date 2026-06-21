@@ -1,0 +1,1088 @@
+{
+  "title": "杀四门",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 6,
+  "num_scenes": 13,
+  "num_characters": 13,
+  "num_locations": 7,
+  "source_file": "03084006_杀四门.json",
+  "source_folder": "03000000",
+  "plot_summary": "南唐李惠王用余洪为帅，困赵匡胤于寿州。赵匡胤命韩岐搬来高俊宝。高俊宝马踏余营，得胜归来，偶得卸\n甲疯；其妻刘金定力杀四门，大败余兵。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 82,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.59,
+      "importance": 1.0,
+      "locations": {
+        "定位坐龙楼": 2,
+        "南唐父王台": 1
+      },
+      "characters": {
+        "刘金定": 1,
+        "赵匡胤": 1,
+        "刘母": 1,
+        "四太监": 1,
+        "丫鬟": 1,
+        "女马童": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "大太监",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "刘金定",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "女马童",
+          "value": 1
+        },
+        {
+          "source": "刘母",
+          "target": "女马童",
+          "value": 1
+        },
+        {
+          "source": "刘母",
+          "target": "刘金定",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 29,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.76,
+      "importance": 0.674,
+      "locations": {
+        "定位坐龙楼": 3
+      },
+      "characters": {
+        "四上手": 1,
+        "刘金定": 1,
+        "搬不倒": 1
+      },
+      "links": [
+        {
+          "source": "四上手",
+          "target": "搬不倒",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "搬不倒",
+          "value": 2
+        },
+        {
+          "source": "刘金定",
+          "target": "四上手",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 42,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.16,
+      "importance": 0.977,
+      "locations": {
+        "（场设城": 2,
+        "寿州设下了空城": 1
+      },
+      "characters": {
+        "刘金定": 1,
+        "赵匡胤": 1,
+        "雷显": 1,
+        "四女兵": 1,
+        "女马童": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "刘金定",
+          "target": "女马童",
+          "value": 2
+        },
+        {
+          "source": "大太监",
+          "target": "女马童",
+          "value": 2
+        },
+        {
+          "source": "四女兵",
+          "target": "女马童",
+          "value": 2
+        },
+        {
+          "source": "刘金定",
+          "target": "大太监",
+          "value": 2
+        },
+        {
+          "source": "刘金定",
+          "target": "四女兵",
+          "value": 2
+        },
+        {
+          "source": "四女兵",
+          "target": "大太监",
+          "value": 2
+        },
+        {
+          "source": "刘金定",
+          "target": "雷显",
+          "value": 1
+        },
+        {
+          "source": "女马童",
+          "target": "雷显",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "雷显",
+          "value": 1
+        },
+        {
+          "source": "四女兵",
+          "target": "雷显",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 3,
+      "numLines": 60,
+      "summary": "第十场；第十一场；第十二场",
+      "conflict": 0.533,
+      "importance": 1.0,
+      "locations": {
+        "阵前打一仗番营": 1,
+        "（场设城": 2
+      },
+      "characters": {
+        "刘金定": 1,
+        "赵匡胤": 1,
+        "四女兵": 1,
+        "林文豹": 1,
+        "女马童": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "刘金定",
+          "target": "林文豹",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "女马童",
+          "value": 2
+        },
+        {
+          "source": "刘金定",
+          "target": "大太监",
+          "value": 2
+        },
+        {
+          "source": "刘金定",
+          "target": "四女兵",
+          "value": 1
+        },
+        {
+          "source": "女马童",
+          "target": "林文豹",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "林文豹",
+          "value": 1
+        },
+        {
+          "source": "四女兵",
+          "target": "林文豹",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "女马童",
+          "value": 2
+        },
+        {
+          "source": "四女兵",
+          "target": "女马童",
+          "value": 1
+        },
+        {
+          "source": "四女兵",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "女马童",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 1,
+      "numLines": 45,
+      "summary": "第十三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "定位坐龙楼": 1
+      },
+      "characters": {
+        "太监甲": 1,
+        "刘金定": 1,
+        "赵匡胤": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "大太监",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "太监甲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "定位坐龙楼",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "孤无洪福，遭围困，难保江山！",
+          "rating": -0.429,
+          "role": "净"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四太监",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.53,
+        "conflict": 1.0,
+        "sentiment": -0.09
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "南唐父王台",
+      "characters": [
+        {
+          "name": "刘金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "儿夫南唐去报效，昼夜里，思念心焦。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.567,
+        "conflict": 0.0,
+        "sentiment": 0.5
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "定位坐龙楼",
+      "characters": [
+        {
+          "name": "女马童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "请姑娘上马！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "伺候了！",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "刘母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "儿呀！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.593,
+        "conflict": 0.26,
+        "sentiment": 0.198
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "定位坐龙楼",
+      "characters": [
+        {
+          "name": "刘金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "不分昼夜急速进，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第四场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.566,
+        "conflict": 0.0,
+        "sentiment": 0.32
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "定位坐龙楼",
+      "characters": [
+        {
+          "name": "搬不倒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "大将军八面威风，小将军四面威风。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "四上手",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "呔，来将通名受死！",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第五场：3位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.537,
+        "conflict": 0.571,
+        "sentiment": 0.065
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "定位坐龙楼",
+      "characters": [
+        {
+          "name": "搬不倒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "杀败了哇，杀败了！我不免拜谢圣上爵禄之恩，寻个自尽了吧！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "杀！杀！杀！",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第六场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.514,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "（场设城",
+      "characters": [
+        {
+          "name": "女马童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "启姑娘：来在城下。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "前去叫喊！",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "万岁往南门去啦！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四女兵",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：4位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.53,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "寿州设下了空城",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "想当年离龙朝千差万错！",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第八场：1位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.58,
+        "conflict": 1.0,
+        "sentiment": -0.28
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "（场设城",
+      "characters": [
+        {
+          "name": "刘金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "呔，来将通名受死！",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "雷显",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大将雷显！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "女马童",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "万岁可在城内？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大太监",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "万岁往西门去啦！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四女兵",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第九场：5位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.537,
+        "conflict": 1.0,
+        "sentiment": -0.413
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "阵前打一仗番营",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "命韩岐搬救兵免灾避祸，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.569,
+        "conflict": 0.0,
+        "sentiment": 0.12
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "（场设城",
+      "characters": [
+        {
+          "name": "刘金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "呔，来将通名受死！",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "林文豹",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大将林文豹！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "女马童",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "万岁可在城内？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大太监",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "万岁往北门去啦！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四女兵",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十一场：5位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.54,
+        "conflict": 1.0,
+        "sentiment": -0.413
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "（场设城",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "孤好比孔圣贤蔡城遇祸，",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "女马童",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "启姑娘：来在城下！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "前去叫城！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "开城啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十二场：4位角色，35行",
+      "firstLine": 1,
+      "lastLine": 35,
+      "numLines": 35,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.781,
+        "conflict": 0.282,
+        "sentiment": 0.044
+      }
+    },
+    {
+      "number": 13,
+      "name": "第十三场",
+      "location": "定位坐龙楼",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一见女将坐埃尘，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "将她唤醒！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "太监甲",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "女将醒来！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "这一阵杀得我昏迷不醒！",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第十三场：4位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.805,
+        "conflict": 0.426,
+        "sentiment": 0.353
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘金定",
+      "short": "刘金",
+      "key": "刘金定",
+      "quote": "刘金定 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "太监甲",
+      "short": "太监",
+      "key": "太监甲",
+      "quote": "太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "雷显",
+      "short": "雷显",
+      "key": "雷显",
+      "quote": "雷显 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四女兵",
+      "short": "四女",
+      "key": "四女兵",
+      "quote": "四女兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘母",
+      "short": "刘母",
+      "key": "刘母",
+      "quote": "刘母 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "林文豹",
+      "short": "林文",
+      "key": "林文豹",
+      "quote": "林文豹 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四上手",
+      "short": "四上",
+      "key": "四上手",
+      "quote": "四上手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "搬不倒",
+      "short": "搬不",
+      "key": "搬不倒",
+      "quote": "搬不倒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四太监",
+      "short": "四太",
+      "key": "四太监",
+      "quote": "四太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "女马童",
+      "short": "女马",
+      "key": "女马童",
+      "quote": "女马童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "定位坐龙楼",
+      "key": "定位坐龙楼",
+      "quote": "场景发生在定位坐龙楼"
+    },
+    {
+      "name": "南唐父王台",
+      "key": "南唐父王台",
+      "quote": "场景发生在南唐父王台"
+    },
+    {
+      "name": "寿州设下了空城",
+      "key": "寿州设下了空城",
+      "quote": "场景发生在寿州设下了空城"
+    },
+    {
+      "name": "马杀上朝阁",
+      "key": "马杀上朝阁",
+      "quote": "场景发生在马杀上朝阁"
+    },
+    {
+      "name": "（场设城",
+      "key": "（场设城",
+      "quote": "场景发生在（场设城"
+    },
+    {
+      "name": "赵匡胤上城",
+      "key": "赵匡胤上城",
+      "quote": "场景发生在赵匡胤上城"
+    },
+    {
+      "name": "阵前打一仗番营",
+      "key": "阵前打一仗番营",
+      "quote": "场景发生在阵前打一仗番营"
+    }
+  ]
+}

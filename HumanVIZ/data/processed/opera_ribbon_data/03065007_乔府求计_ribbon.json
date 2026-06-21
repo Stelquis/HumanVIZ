@@ -1,0 +1,248 @@
+{
+  "title": "乔府求计",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "03065007_乔府求计.json",
+  "source_folder": "03000000",
+  "plot_summary": "鲁肃因刘备借荆州久索不还，至乔玄府中求计。乔玄为解析天下大势，指出孙、刘不宜轻起战端。鲁肃不纳\n其言，辞去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.117,
+      "locations": {
+        "免去往乔府": 1
+      },
+      "characters": {
+        "鲁肃": 1,
+        "四文堂": 1
+      },
+      "links": [
+        {
+          "source": "四文堂",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 321,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "免去往乔府": 1
+      },
+      "characters": {
+        "中军": 1,
+        "鲁肃": 1,
+        "院子": 1,
+        "乔玄": 1
+      },
+      "links": [
+        {
+          "source": "乔玄",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "乔玄",
+          "value": 1
+        },
+        {
+          "source": "乔玄",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "院子",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "免去往乔府",
+      "characters": [
+        {
+          "name": "鲁肃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "只为荆州忧闷，终日不展愁眉。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "四文堂",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.535,
+        "conflict": 0.714,
+        "sentiment": 0.192
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "免去往乔府",
+      "characters": [
+        {
+          "name": "乔玄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "前三皇后五帝历代有道，",
+          "rating": 0.391,
+          "role": "老生"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吾主爷坐东吴治国有道，",
+          "rating": -0.167,
+          "role": "老生"
+        },
+        {
+          "name": "中军",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来此乔相府。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "院子",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，321行",
+      "firstLine": 1,
+      "lastLine": 321,
+      "numLines": 321,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.284,
+        "sentiment": 0.289
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "乔玄",
+      "short": "乔玄",
+      "key": "乔玄",
+      "quote": "乔玄 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "鲁肃",
+      "short": "鲁肃",
+      "key": "鲁肃",
+      "quote": "鲁肃 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四文堂",
+      "short": "四文",
+      "key": "四文堂",
+      "quote": "四文堂 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "免去往乔府",
+      "key": "免去往乔府",
+      "quote": "场景发生在免去往乔府"
+    }
+  ]
+}

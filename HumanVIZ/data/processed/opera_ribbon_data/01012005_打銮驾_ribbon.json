@@ -1,0 +1,422 @@
+{
+  "title": "打銮驾",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 3,
+  "source_file": "01012005_打銮驾.json",
+  "source_folder": "01000000",
+  "plot_summary": "剧称宋仁宗嘉佑帝因陈州旱荒三载，发国币赈济。先命外戚马龙前往，讵马龙自恃系西宫宠妃马氏之兄，估\n世作弊，克扣皇粮。至万余石之巨。旋被灾民叩阍告发，帝怒甚。即招马龙回，另旨特简包拯为放赈钦使。\n并令包拯查办前任私扣币粮事。包拯初辞不拜命，继而为十家朝官，交章竭力保荐，咸谓此事非包拯不办。\n包拯力辞不得已，乃始奉诏就任。讵意马妃闻讯，知包拯素铁面无私。若令成行，则包拯必彻底查清，兄之\n前程，将必倾覆。即与己亦殊有密切关系，恐从此或失宠，亦难逆料。因即多方设计，私有意中伤之。当包\n拯将出京之前夕，马妃知包拯必经御街前行，乃向皇后处诳借銮驾半副，僭乘而出，专侯包公至某处，则己\n即伪为皇后，令銮仪抄迎其前，已当包拯去路。包拯遥见卤簿，即返道回避。如是者三数次，盖欲迫使包拯\n必从禁中御街行也。迨包拯至御街，则銮驾又蓦地突出其前。包拯至此已不及避，乃只得下舆跪迎道旁，并\n叩头谢闯銮驾不敬罪。马妃方故意盘诘。冀得索瘢寻寡，以入包拯罪。不意忽为包拯从役识破，告包拯知，\n谓系马妃假扮。包拯乃大怒，即麾令向前，将銮驾打退，且追逐入禁。马妃见势不佳，遂一不做二不休，只\n索控词。回宫哭诉诳帝。包拯心中虽担忧，然事已至此，骑虎难下。只得假装疯魔随往面帝而已。",
+  "performance_notes": "此剧颇有趣味，惜近不多见。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 33,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.71,
+      "locations": {
+        "家保官上殿": 1
+      },
+      "characters": {
+        "马汉": 1,
+        "包拯": 1
+      },
+      "links": [
+        {
+          "source": "包拯",
+          "target": "马汉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 130,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "正宫国母台": 1
+      },
+      "characters": {
+        "马汉": 1,
+        "包拯": 1,
+        "宫女": 1,
+        "王朝": 1,
+        "马妃": 1
+      },
+      "links": [
+        {
+          "source": "宫女",
+          "target": "马妃",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "马妃",
+          "value": 1
+        },
+        {
+          "source": "马妃",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "王朝",
+          "target": "马妃",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "宫女",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "王朝",
+          "target": "马汉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.129,
+      "locations": {
+        "摆驾上金殿": 1
+      },
+      "characters": {
+        "马妃": 1,
+        "包拯": 1
+      },
+      "links": [
+        {
+          "source": "包拯",
+          "target": "马妃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 0.366,
+      "locations": {
+        "正宫国母台": 1
+      },
+      "characters": {
+        "王朝": 1,
+        "包拯": 1,
+        "马妃": 1
+      },
+      "links": [
+        {
+          "source": "包拯",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "马妃",
+          "value": 1
+        },
+        {
+          "source": "王朝",
+          "target": "马妃",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "家保官上殿",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一片丹心，保宋主，锦绣龙庭。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "马汉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "具已齐备。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.606,
+        "conflict": 0.426,
+        "sentiment": 0.536
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "正宫国母台",
+      "characters": [
+        {
+          "name": "马妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "金龙盘玉柱，彩凤绕画梁。",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "宫女",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "銮仪走上！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "包拯",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "适才离了文华殿，",
+          "rating": 0.25,
+          "role": "净"
+        },
+        {
+          "name": "马汉",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "銮驾挡道！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王朝",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "銮驾挡道！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：5位角色，130行",
+      "firstLine": 1,
+      "lastLine": 130,
+      "numLines": 130,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.273,
+        "sentiment": 0.29
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "摆驾上金殿",
+      "characters": [
+        {
+          "name": "马妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住，实指望来在御街，与黑贼作对，谁知又被黑贼看破，将銮驾打碎，这便",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "包拯",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.719,
+        "conflict": 1.0,
+        "sentiment": 0.227
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "正宫国母台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "骂声贱妃哪里行，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "王朝",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启禀相爷：马妃上殿奏本去了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马妃",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第四场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.755,
+        "conflict": 0.606,
+        "sentiment": 0.422
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "包拯",
+      "short": "包拯",
+      "key": "包拯",
+      "quote": "包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "马妃",
+      "short": "马妃",
+      "key": "马妃",
+      "quote": "马妃 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "马汉",
+      "short": "马汉",
+      "key": "马汉",
+      "quote": "马汉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "宫女",
+      "short": "宫女",
+      "key": "宫女",
+      "quote": "宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王朝",
+      "short": "王朝",
+      "key": "王朝",
+      "quote": "王朝 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "正宫国母台",
+      "key": "正宫国母台",
+      "quote": "场景发生在正宫国母台"
+    },
+    {
+      "name": "摆驾上金殿",
+      "key": "摆驾上金殿",
+      "quote": "场景发生在摆驾上金殿"
+    },
+    {
+      "name": "家保官上殿",
+      "key": "家保官上殿",
+      "quote": "场景发生在家保官上殿"
+    }
+  ]
+}

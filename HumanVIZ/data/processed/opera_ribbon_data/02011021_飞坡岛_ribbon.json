@@ -1,0 +1,985 @@
+{
+  "title": "飞坡岛",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 16,
+  "num_locations": 3,
+  "source_file": "02011021_飞坡岛.json",
+  "source_folder": "02000000",
+  "plot_summary": "济小塘、缴承光、苗庆三人，自大闹严嵩府后，互相失散，缴承光、苗庆二人乃商议往终南山吕祖师处，一\n来拜见祖师，二来寻找济小塘。适吕祖师亦派柳仙寻找济小塘。济小塘、柳仙相遇后，正拟回终南山，忽见\n鲇鱼妖精将往飞坡岛神庙进香之男童施福禄裹去，作为金蛟大王生日之寿礼。济小塘乃用掌心雷将妖精击走，\n救出施福禄，并与缴承光、苗庆二人相会。鲇鱼妖精逃回后，金蛟大王闻讯大怒，乃会同群妖追赶济小塘，\n并为其义妹报仇，演成一场大战云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 70,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.552,
+      "importance": 1.0,
+      "locations": {
+        "请坐金沙殿": 2,
+        "齐化门": 1
+      },
+      "characters": {
+        "苗庆": 1,
+        "鲇鱼姥姥": 1,
+        "缴承光": 1,
+        "青云仙姑": 1,
+        "家院": 1,
+        "浮云仙姑": 1,
+        "秦氏": 1,
+        "赤云仙姑": 1,
+        "济小塘": 1
+      },
+      "links": [
+        {
+          "source": "赤云仙姑",
+          "target": "青云仙姑",
+          "value": 1
+        },
+        {
+          "source": "浮云仙姑",
+          "target": "赤云仙姑",
+          "value": 1
+        },
+        {
+          "source": "赤云仙姑",
+          "target": "鲇鱼姥姥",
+          "value": 1
+        },
+        {
+          "source": "浮云仙姑",
+          "target": "青云仙姑",
+          "value": 1
+        },
+        {
+          "source": "青云仙姑",
+          "target": "鲇鱼姥姥",
+          "value": 1
+        },
+        {
+          "source": "浮云仙姑",
+          "target": "鲇鱼姥姥",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "秦氏",
+          "value": 1
+        },
+        {
+          "source": "缴承光",
+          "target": "苗庆",
+          "value": 1
+        },
+        {
+          "source": "济小塘",
+          "target": "缴承光",
+          "value": 1
+        },
+        {
+          "source": "济小塘",
+          "target": "苗庆",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 90,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.47,
+      "importance": 1.0,
+      "locations": {
+        "请坐金沙殿": 3
+      },
+      "characters": {
+        "报子": 1,
+        "鲇鱼姥姥": 1,
+        "二水怪": 1,
+        "金蛟大王": 1,
+        "三太子": 1,
+        "柳仙": 1,
+        "福禄": 1,
+        "家院": 1,
+        "济小塘": 1
+      },
+      "links": [
+        {
+          "source": "三太子",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "三太子",
+          "target": "金蛟大王",
+          "value": 1
+        },
+        {
+          "source": "三太子",
+          "target": "鲇鱼姥姥",
+          "value": 1
+        },
+        {
+          "source": "三太子",
+          "target": "二水怪",
+          "value": 1
+        },
+        {
+          "source": "三太子",
+          "target": "济小塘",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "金蛟大王",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "鲇鱼姥姥",
+          "value": 1
+        },
+        {
+          "source": "二水怪",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "济小塘",
+          "value": 1
+        },
+        {
+          "source": "金蛟大王",
+          "target": "鲇鱼姥姥",
+          "value": 1
+        },
+        {
+          "source": "二水怪",
+          "target": "金蛟大王",
+          "value": 1
+        },
+        {
+          "source": "济小塘",
+          "target": "金蛟大王",
+          "value": 1
+        },
+        {
+          "source": "二水怪",
+          "target": "鲇鱼姥姥",
+          "value": 1
+        },
+        {
+          "source": "济小塘",
+          "target": "鲇鱼姥姥",
+          "value": 1
+        },
+        {
+          "source": "二水怪",
+          "target": "济小塘",
+          "value": 1
+        },
+        {
+          "source": "柳仙",
+          "target": "济小塘",
+          "value": 2
+        },
+        {
+          "source": "家院",
+          "target": "福禄",
+          "value": 1
+        },
+        {
+          "source": "济小塘",
+          "target": "福禄",
+          "value": 1
+        },
+        {
+          "source": "柳仙",
+          "target": "福禄",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "济小塘",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "柳仙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 62,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.398,
+      "importance": 1.0,
+      "locations": {
+        "请坐金沙殿": 3
+      },
+      "characters": {
+        "苗庆": 1,
+        "鲇鱼姥姥": 1,
+        "缴承光": 1,
+        "金蛟大王": 1,
+        "柳仙": 1,
+        "家院": 1,
+        "济小塘": 1,
+        "五鬼": 1
+      },
+      "links": [
+        {
+          "source": "缴承光",
+          "target": "苗庆",
+          "value": 1
+        },
+        {
+          "source": "济小塘",
+          "target": "缴承光",
+          "value": 1
+        },
+        {
+          "source": "柳仙",
+          "target": "缴承光",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "缴承光",
+          "value": 1
+        },
+        {
+          "source": "济小塘",
+          "target": "苗庆",
+          "value": 1
+        },
+        {
+          "source": "柳仙",
+          "target": "苗庆",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "苗庆",
+          "value": 1
+        },
+        {
+          "source": "柳仙",
+          "target": "济小塘",
+          "value": 2
+        },
+        {
+          "source": "家院",
+          "target": "济小塘",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "柳仙",
+          "value": 1
+        },
+        {
+          "source": "金蛟大王",
+          "target": "鲇鱼姥姥",
+          "value": 1
+        },
+        {
+          "source": "济小塘",
+          "target": "金蛟大王",
+          "value": 1
+        },
+        {
+          "source": "济小塘",
+          "target": "鲇鱼姥姥",
+          "value": 1
+        },
+        {
+          "source": "五鬼",
+          "target": "柳仙",
+          "value": 1
+        },
+        {
+          "source": "五鬼",
+          "target": "济小塘",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "请坐金沙殿",
+      "characters": [
+        {
+          "name": "赤云仙姑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "波浪之中勇当先，汪洋一片度流年。变化神仙山河转，食用生灵代血餐。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "青云仙姑",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "青云仙姑是也。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "浮云仙姑",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "浮云仙姑是也。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "鲇鱼姥姥",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "鲇鱼姥姥是也。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.331,
+        "conflict": 0.0,
+        "sentiment": 0.764
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "请坐金沙殿",
+      "characters": [
+        {
+          "name": "秦氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "独守深闺，可叹丈夫去不回。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来了。",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.341,
+        "conflict": 0.833,
+        "sentiment": 0.212
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "齐化门",
+      "characters": [
+        {
+          "name": "缴承光",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "弟兄中途来失散，",
+          "rating": 0.6,
+          "role": ""
+        },
+        {
+          "name": "苗庆",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "心急不到终南山。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "济小塘",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第三场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.723,
+        "conflict": 0.526,
+        "sentiment": 0.647
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "请坐金沙殿",
+      "characters": [
+        {
+          "name": "三太子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "移星换斗束修炼，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "报子",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "众仙姑到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "金蛟大王",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "波浪滔滔，水势雄骁，金光照，海底消遥，万里俱游到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "鲇鱼姥姥",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "谢大王。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "二水怪",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "且慢。闻得江湖上有一野道济小塘，向在山场游巡，若遇此人如何是好？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "济小塘",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第四场：6位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.761,
+        "conflict": 1.0,
+        "sentiment": 0.33
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "请坐金沙殿",
+      "characters": [
+        {
+          "name": "济小塘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "参禅拜斗奉师严，",
+          "rating": 0.5,
+          "role": "生"
+        },
+        {
+          "name": "柳仙",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "拜求师尊论参禅。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：2位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.742,
+        "conflict": 0.0,
+        "sentiment": 0.527
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "请坐金沙殿",
+      "characters": [
+        {
+          "name": "福禄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "山路难行道路险，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓，你这妖人，把我家小东人，抢到哪里去了，快快还我小东人便罢，如若不",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "济小塘",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "老人家不要如此，追赶你家小主人要紧。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "柳仙",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "走吓。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：4位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.719,
+        "conflict": 0.0,
+        "sentiment": 0.8
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "请坐金沙殿",
+      "characters": [
+        {
+          "name": "缴承光",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "弟兄双双把路赶，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "苗庆",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "阴云四起遮闭天。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "济小塘",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "妖魔好生大胆，看吾掌心雷伤你。",
+          "rating": 0.5,
+          "role": "生"
+        },
+        {
+          "name": "柳仙",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "二位义士。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "道爷活命之恩，请问尊姓大名？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：5位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.746,
+        "conflict": 0.263,
+        "sentiment": 0.396
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "请坐金沙殿",
+      "characters": [
+        {
+          "name": "金蛟大王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "深滩安排生寿宴，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "鲇鱼姥姥",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "大王。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "济小塘",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第八场：3位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.72,
+        "conflict": 1.0,
+        "sentiment": 0.543
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "请坐金沙殿",
+      "characters": [
+        {
+          "name": "柳仙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "妖魔后面赶来，如何是好？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "济小塘",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "不妨。唤五鬼前来擒他便了。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "五鬼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "参见法师，有何法旨？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第九场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.718,
+        "conflict": 0.8,
+        "sentiment": 0.794
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "济小塘",
+      "short": "济小",
+      "key": "济小塘",
+      "quote": "济小塘 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "苗庆",
+      "short": "苗庆",
+      "key": "苗庆",
+      "quote": "苗庆 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "鲇鱼姥姥",
+      "short": "鲇鱼",
+      "key": "鲇鱼姥姥",
+      "quote": "鲇鱼姥姥 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "缴承光",
+      "short": "缴承",
+      "key": "缴承光",
+      "quote": "缴承光 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二水怪",
+      "short": "二水",
+      "key": "二水怪",
+      "quote": "二水怪 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "青云仙姑",
+      "short": "青云",
+      "key": "青云仙姑",
+      "quote": "青云仙姑 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "金蛟大王",
+      "short": "金蛟",
+      "key": "金蛟大王",
+      "quote": "金蛟大王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "三太子",
+      "short": "三太",
+      "key": "三太子",
+      "quote": "三太子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "柳仙",
+      "short": "柳仙",
+      "key": "柳仙",
+      "quote": "柳仙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "浮云仙姑",
+      "short": "浮云",
+      "key": "浮云仙姑",
+      "quote": "浮云仙姑 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "秦氏",
+      "short": "秦氏",
+      "key": "秦氏",
+      "quote": "秦氏 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "福禄",
+      "short": "福禄",
+      "key": "福禄",
+      "quote": "福禄 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赤云仙姑",
+      "short": "赤云",
+      "key": "赤云仙姑",
+      "quote": "赤云仙姑 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "五鬼",
+      "short": "五鬼",
+      "key": "五鬼",
+      "quote": "五鬼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "请坐金沙殿",
+      "key": "请坐金沙殿",
+      "quote": "场景发生在请坐金沙殿"
+    },
+    {
+      "name": "齐化门",
+      "key": "齐化门",
+      "quote": "场景发生在齐化门"
+    },
+    {
+      "name": "大闹严嵩府",
+      "key": "大闹严嵩府",
+      "quote": "场景发生在大闹严嵩府"
+    }
+  ]
+}

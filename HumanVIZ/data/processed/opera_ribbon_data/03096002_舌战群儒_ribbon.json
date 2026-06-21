@@ -1,0 +1,629 @@
+{
+  "title": "舌战群儒",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 11,
+  "num_locations": 2,
+  "source_file": "03096002_舌战群儒.json",
+  "source_folder": "03000000",
+  "plot_summary": "曹操得荆、襄后，乘势下江东，攻孙权。东吴文官主降，武将主战，孙权不能决。鲁肃到江夏请来诸葛亮。\n诸葛亮以说词驳倒张昭等文官，并列举敌我形势，劝孙权抗曹。孙权意决，乃联合刘备，共拒曹兵。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 33,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.48,
+      "locations": {
+        "阊阖开宫殿": 1
+      },
+      "characters": {
+        "鲁肃": 1,
+        "周瑜": 1,
+        "孙权": 1
+      },
+      "links": [
+        {
+          "source": "孙权",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 10,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.145,
+      "locations": {
+        "阊阖开宫殿": 1
+      },
+      "characters": {
+        "四龙套": 1,
+        "周瑜": 1
+      },
+      "links": [
+        {
+          "source": "周瑜",
+          "target": "四龙套",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 153,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "阊阖开宫殿": 1
+      },
+      "characters": {
+        "严畯": 1,
+        "陆绩": 1,
+        "张昭": 1,
+        "薛综": 1,
+        "鲁肃": 1,
+        "虞翻": 1,
+        "步骘": 1,
+        "诸葛亮": 1
+      },
+      "links": [
+        {
+          "source": "薛综",
+          "target": "虞翻",
+          "value": 1
+        },
+        {
+          "source": "严畯",
+          "target": "虞翻",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "虞翻",
+          "value": 1
+        },
+        {
+          "source": "步骘",
+          "target": "虞翻",
+          "value": 1
+        },
+        {
+          "source": "虞翻",
+          "target": "陆绩",
+          "value": 1
+        },
+        {
+          "source": "虞翻",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "虞翻",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "严畯",
+          "target": "薛综",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "薛综",
+          "value": 1
+        },
+        {
+          "source": "步骘",
+          "target": "薛综",
+          "value": 1
+        },
+        {
+          "source": "薛综",
+          "target": "陆绩",
+          "value": 1
+        },
+        {
+          "source": "薛综",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "薛综",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "严畯",
+          "target": "张昭",
+          "value": 1
+        },
+        {
+          "source": "严畯",
+          "target": "步骘",
+          "value": 1
+        },
+        {
+          "source": "严畯",
+          "target": "陆绩",
+          "value": 1
+        },
+        {
+          "source": "严畯",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "严畯",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "步骘",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "陆绩",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "步骘",
+          "target": "陆绩",
+          "value": 1
+        },
+        {
+          "source": "步骘",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "步骘",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "陆绩",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "陆绩",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 79,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "且坐银安殿": 1
+      },
+      "characters": {
+        "鲁肃": 1,
+        "诸葛亮": 1,
+        "孙权": 1
+      },
+      "links": [
+        {
+          "source": "孙权",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "阊阖开宫殿",
+      "characters": [
+        {
+          "name": "孙权",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "南面称孤，镇江东，霸业鸿图。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "江夏请卧龙，同来见主公。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "周瑜",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：3位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.636,
+        "conflict": 1.0,
+        "sentiment": -0.434
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "阊阖开宫殿",
+      "characters": [
+        {
+          "name": "四龙套",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周瑜",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "幼习兵机，智谋无敌；逞雄威，制胜出奇，名震东吴地。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.194,
+        "conflict": 0.0,
+        "sentiment": 0.773
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "阊阖开宫殿",
+      "characters": [
+        {
+          "name": "虞翻",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "衣冠济济珮玱玱，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "薛综",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "朝臣待漏五更忙。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "严畯",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "九天阊阖开宫殿，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张昭",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "张昭。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "步骘",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "步骘。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陆绩",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "陆绩。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "诸葛先生到。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "啊，众位大夫请了！",
+          "rating": 0.067,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：8位角色，153行",
+      "firstLine": 1,
+      "lastLine": 153,
+      "numLines": 153,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.556,
+        "sentiment": 0.269
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "且坐银安殿",
+      "characters": [
+        {
+          "name": "孙权",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "曹操带兵下江东，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "孔明先生到。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "吴侯！",
+          "rating": 0.5,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：3位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.485,
+        "sentiment": 0.448
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "孙权",
+      "short": "孙权",
+      "key": "孙权",
+      "quote": "孙权 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "鲁肃",
+      "short": "鲁肃",
+      "key": "鲁肃",
+      "quote": "鲁肃 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周瑜",
+      "short": "周瑜",
+      "key": "周瑜",
+      "quote": "周瑜 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "严畯",
+      "short": "严畯",
+      "key": "严畯",
+      "quote": "严畯 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陆绩",
+      "short": "陆绩",
+      "key": "陆绩",
+      "quote": "陆绩 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张昭",
+      "short": "张昭",
+      "key": "张昭",
+      "quote": "张昭 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "薛综",
+      "short": "薛综",
+      "key": "薛综",
+      "quote": "薛综 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "虞翻",
+      "short": "虞翻",
+      "key": "虞翻",
+      "quote": "虞翻 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "步骘",
+      "short": "步骘",
+      "key": "步骘",
+      "quote": "步骘 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "阊阖开宫殿",
+      "key": "阊阖开宫殿",
+      "quote": "场景发生在阊阖开宫殿"
+    },
+    {
+      "name": "且坐银安殿",
+      "key": "且坐银安殿",
+      "quote": "场景发生在且坐银安殿"
+    }
+  ]
+}

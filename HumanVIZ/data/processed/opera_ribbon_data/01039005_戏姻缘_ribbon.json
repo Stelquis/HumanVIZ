@@ -1,0 +1,412 @@
+{
+  "title": "戏姻缘",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 4,
+  "source_file": "01039005_戏姻缘.json",
+  "source_folder": "01000000",
+  "plot_summary": "",
+  "performance_notes": "此《戏姻缘》一出，系取旧剧中种种男扮女装、巧配姻缘之意义（《乱点鸳鸯》、《梵王宫》、《王老虎抢\n亲》等戏是），而改换面目，插入别种戏情中，以融合而成者，虽落乔装之旧套，却无乱点之弊病。全剧始\n末，其初由于感恩图报，继因戏言，卒至成为实事。所有旧剧中不正当之情节，此本皆脱尽窠臼，别开生面，\n毫无流弊，足见编剧者之品格道德。盖此本系陕西西安易俗社社长临潼孙仁玉孝廉所编之秦腔脚本。而于\n陕西曾屡串演者，惟剧情托为上海之事实，其形容处每多扦格，此则借材异地之同并也。兹特附载之，以见\n陕省新剧之状况。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 42,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.54,
+      "locations": {
+        "（老板上楼": 1
+      },
+      "characters": {
+        "惠湘莲": 1,
+        "堂兄": 1,
+        "玉莲花": 1
+      },
+      "links": [
+        {
+          "source": "惠湘莲",
+          "target": "玉莲花",
+          "value": 1
+        },
+        {
+          "source": "堂兄",
+          "target": "玉莲花",
+          "value": 1
+        },
+        {
+          "source": "堂兄",
+          "target": "惠湘莲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.232,
+      "locations": {
+        "着急处": 1
+      },
+      "characters": {
+        "惠湘莲": 1,
+        "堂兄": 1,
+        "玉莲花": 1
+      },
+      "links": [
+        {
+          "source": "堂兄",
+          "target": "玉莲花",
+          "value": 1
+        },
+        {
+          "source": "堂兄",
+          "target": "惠湘莲",
+          "value": 1
+        },
+        {
+          "source": "惠湘莲",
+          "target": "玉莲花",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 31,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.399,
+      "locations": {
+        "他去上公堂": 1
+      },
+      "characters": {
+        "惠湘莲": 1,
+        "堂兄": 1,
+        "警察": 1
+      },
+      "links": [
+        {
+          "source": "惠湘莲",
+          "target": "警察",
+          "value": 1
+        },
+        {
+          "source": "堂兄",
+          "target": "惠湘莲",
+          "value": 1
+        },
+        {
+          "source": "堂兄",
+          "target": "警察",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 220,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "（老板上楼": 1
+      },
+      "characters": {
+        "惠湘莲": 1,
+        "老板": 1,
+        "玉莲花": 1
+      },
+      "links": [
+        {
+          "source": "惠湘莲",
+          "target": "老板",
+          "value": 1
+        },
+        {
+          "source": "惠湘莲",
+          "target": "玉莲花",
+          "value": 1
+        },
+        {
+          "source": "玉莲花",
+          "target": "老板",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "（老板上楼",
+      "characters": [
+        {
+          "name": "玉莲花",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "自幼儿在乡间无人仰望，",
+          "rating": 0.5,
+          "role": "旦"
+        },
+        {
+          "name": "惠湘莲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "实不料那贼人前来寻我，",
+          "rating": 1.0,
+          "role": "小旦"
+        },
+        {
+          "name": "堂兄",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我看你钻到天上去呀！",
+          "rating": 0.0,
+          "role": "小丑"
+        }
+      ],
+      "summary": "第1场：3位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.787,
+        "conflict": 0.759,
+        "sentiment": 0.546
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "着急处",
+      "characters": [
+        {
+          "name": "堂兄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "事到着急处，就有出奇处。我使了窑子的银子，寻不见我那妹子，却有这个丫",
+          "rating": 0.333,
+          "role": "小丑"
+        },
+        {
+          "name": "玉莲花",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "都去了世了！",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "惠湘莲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "吓死我了！",
+          "rating": -1.0,
+          "role": "小旦"
+        }
+      ],
+      "summary": "第2场：3位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.694,
+        "conflict": 1.0,
+        "sentiment": 0.212
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "他去上公堂",
+      "characters": [
+        {
+          "name": "惠湘莲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "好不吓杀我也！好不羞杀我也！",
+          "rating": 0.556,
+          "role": "小旦"
+        },
+        {
+          "name": "警察",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "好奴才！干下这样事情！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "堂兄",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "上海出女光棍哩！保不住她把我妹子藏了，却说我妹子扑了江了！",
+          "rating": 0.0,
+          "role": "小丑"
+        }
+      ],
+      "summary": "第3场：3位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.611,
+        "conflict": 1.0,
+        "sentiment": 0.39
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "（老板上楼",
+      "characters": [
+        {
+          "name": "惠湘莲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "原来就是那强梁。",
+          "rating": 0.167,
+          "role": "小旦"
+        },
+        {
+          "name": "老板",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "人到哪里去了？",
+          "rating": 0.333,
+          "role": "老丑"
+        },
+        {
+          "name": "玉莲花",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "顾不得到戏园子去告假，",
+          "rating": 0.25,
+          "role": "旦"
+        }
+      ],
+      "summary": "第4场：3位角色，220行",
+      "firstLine": 1,
+      "lastLine": 220,
+      "numLines": 220,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.264,
+        "sentiment": 0.183
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "玉莲花",
+      "short": "玉莲",
+      "key": "玉莲花",
+      "quote": "玉莲花 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "惠湘莲",
+      "short": "惠湘",
+      "key": "惠湘莲",
+      "quote": "惠湘莲 — 小旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "堂兄",
+      "short": "堂兄",
+      "key": "堂兄",
+      "quote": "堂兄 — 小丑",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小丑",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老板",
+      "short": "老板",
+      "key": "老板",
+      "quote": "老板 — 老丑",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老丑",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "警察",
+      "short": "警察",
+      "key": "警察",
+      "quote": "警察 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "（老板上楼",
+      "key": "（老板上楼",
+      "quote": "场景发生在（老板上楼"
+    },
+    {
+      "name": "他去上公堂",
+      "key": "他去上公堂",
+      "quote": "场景发生在他去上公堂"
+    },
+    {
+      "name": "（老板下楼",
+      "key": "（老板下楼",
+      "quote": "场景发生在（老板下楼"
+    },
+    {
+      "name": "着急处",
+      "key": "着急处",
+      "quote": "场景发生在着急处"
+    }
+  ]
+}

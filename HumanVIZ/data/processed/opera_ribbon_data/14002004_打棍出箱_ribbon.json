@@ -1,0 +1,726 @@
+{
+  "title": "打棍出箱",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 11,
+  "num_locations": 3,
+  "source_file": "14002004_打棍出箱.json",
+  "source_folder": "14000000",
+  "plot_summary": "范仲禹带着妻子上京应考，考完了想去探望一个亲戚。不料走到半路遇着强人，把妻儿冲散了。范仲禹急得\n满山去找，寻了半个多月，仍是音信全无，神经不免有些疯疯癫癫起来。这一天玉皇特差该处土地变作一个\n樵夫模样来点化与他，告诉他说，他的儿子被一个猎户救了去，暂不妨事。倒是他的妻子被一个告老太师葛\n登云抢了去，要他赶紧去寻，并且领他到了葛府门口。范仲禹就闯了进去，要和太师拼命。倒被太师一派花\n言巧语，将他蒙住了。又请他吃酒，留他住宿，有意将他灌醉，预备暗害他。幸喜范仲禹命不该死，玉皇又\n命煞神来保护他，倒把太师差来行刺的葛虎杀死了。太师见行刺不成，就命家人一顿乱棍将范仲禹打死，用\n木箱装了扛到荒野地方抛下。这时候有两个报子，因范仲禹已中了状元，特来和他报喜信。不想寻了许多天\n没有寻到人，盘缠倒已用尽，想冒险做一回打劫的勾当。行到此地恰好遇着众家人扛了一口大箱子走来，以\n为是什么金银财宝，就动手抢劫，把家人吓跑了。报子正要用手去探箱内的东西，不想范仲禹在箱中受了震\n动活了转来。后来二人问起情由，才晓得这人就是遍寻不得的状元，这才大喜不置。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 259,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.133,
+      "importance": 1.0,
+      "locations": {
+        "黑漆门楼": 3
+      },
+      "characters": {
+        "煞神": 1,
+        "土地": 1,
+        "院子": 1,
+        "四随侍": 1,
+        "樵夫": 1,
+        "范仲禹": 1,
+        "葛虎": 1,
+        "葛登云": 1
+      },
+      "links": [
+        {
+          "source": "土地",
+          "target": "樵夫",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "范仲禹",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "葛登云",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "范仲禹",
+          "value": 2
+        },
+        {
+          "source": "樵夫",
+          "target": "葛登云",
+          "value": 2
+        },
+        {
+          "source": "范仲禹",
+          "target": "葛登云",
+          "value": 2
+        },
+        {
+          "source": "范仲禹",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "范仲禹",
+          "value": 1
+        },
+        {
+          "source": "范仲禹",
+          "target": "葛虎",
+          "value": 1
+        },
+        {
+          "source": "葛登云",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "葛虎",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "葛登云",
+          "value": 1
+        },
+        {
+          "source": "葛登云",
+          "target": "葛虎",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "葛虎",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "樵夫",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "葛虎",
+          "value": 1
+        },
+        {
+          "source": "煞神",
+          "target": "范仲禹",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 155,
+      "summary": "第四场；第五场",
+      "conflict": 0.317,
+      "importance": 0.749,
+      "locations": {
+        "了老太师的府门": 1,
+        "黑漆门楼": 1
+      },
+      "characters": {
+        "煞神": 1,
+        "院子": 1,
+        "四随侍": 1,
+        "报子甲": 1,
+        "报子乙": 1,
+        "范仲禹": 1,
+        "二报子": 1,
+        "葛虎": 1,
+        "葛登云": 1
+      },
+      "links": [
+        {
+          "source": "范仲禹",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "葛虎",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "葛登云",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "煞神",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "范仲禹",
+          "target": "葛虎",
+          "value": 1
+        },
+        {
+          "source": "范仲禹",
+          "target": "葛登云",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "范仲禹",
+          "value": 2
+        },
+        {
+          "source": "煞神",
+          "target": "范仲禹",
+          "value": 1
+        },
+        {
+          "source": "葛登云",
+          "target": "葛虎",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "葛虎",
+          "value": 1
+        },
+        {
+          "source": "煞神",
+          "target": "葛虎",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "葛登云",
+          "value": 1
+        },
+        {
+          "source": "煞神",
+          "target": "葛登云",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "煞神",
+          "value": 1
+        },
+        {
+          "source": "报子乙",
+          "target": "报子甲",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "报子甲",
+          "value": 1
+        },
+        {
+          "source": "报子甲",
+          "target": "范仲禹",
+          "value": 1
+        },
+        {
+          "source": "二报子",
+          "target": "报子甲",
+          "value": 1
+        },
+        {
+          "source": "四随侍",
+          "target": "报子乙",
+          "value": 1
+        },
+        {
+          "source": "报子乙",
+          "target": "范仲禹",
+          "value": 1
+        },
+        {
+          "source": "二报子",
+          "target": "报子乙",
+          "value": 1
+        },
+        {
+          "source": "二报子",
+          "target": "四随侍",
+          "value": 1
+        },
+        {
+          "source": "二报子",
+          "target": "范仲禹",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "黑漆门楼",
+      "characters": [
+        {
+          "name": "土地",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "天上白云本无根，又被清风引出来。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "樵夫",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "缺少扁担，待我用拐杖变来。一变二变，扁担出现。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "范仲禹",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "走啊！",
+          "rating": 0.333,
+          "role": "正生"
+        },
+        {
+          "name": "葛登云",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：4位角色，140行",
+      "firstLine": 1,
+      "lastLine": 140,
+      "numLines": 140,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.871,
+        "conflict": 0.189,
+        "sentiment": 0.313
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "黑漆门楼",
+      "characters": [
+        {
+          "name": "范仲禹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "走啊。",
+          "rating": 0.143,
+          "role": "正生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哽哼！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "葛登云",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "身为当朝首相，喜爱美貌娇娘。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "四随侍",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "开头门进府。开二门。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "葛虎",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "堂上一呼，阶下百诺。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "樵夫",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：6位角色，115行",
+      "firstLine": 1,
+      "lastLine": 115,
+      "numLines": 115,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.957,
+        "conflict": 0.366,
+        "sentiment": 0.278
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "黑漆门楼",
+      "characters": [
+        {
+          "name": "煞神",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "口似血盆眼似铃，南天门下我为尊。奉了玉旨牒文本，下凡搭救文曲星。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "范仲禹",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "正生"
+        }
+      ],
+      "summary": "第三场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.306,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "了老太师的府门",
+      "characters": [
+        {
+          "name": "院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "搀上来。",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "范仲禹",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "嗷！老太师，卑人的酒是够了，不……能奉陪了。",
+          "rating": -0.6,
+          "role": "正生"
+        },
+        {
+          "name": "葛虎",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "范仲禹，范仲禹，阎王叫你三更死，岂肯留你到五更。看刀！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "葛登云",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "何事？",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "四随侍",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "启相爷：将疯汉打死了。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "煞神",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：6位角色，54行",
+      "firstLine": 1,
+      "lastLine": 54,
+      "numLines": 54,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.798,
+        "conflict": 0.412,
+        "sentiment": -0.14
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "黑漆门楼",
+      "characters": [
+        {
+          "name": "报子甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "中状元扬名天下，",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "报子乙",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "琼林宴找也找不着他。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "四随侍",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "嗨呵，抬箱。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "范仲禹",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "嗳。",
+          "rating": -0.333,
+          "role": "正生"
+        },
+        {
+          "name": "二报子",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "不好。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：5位角色，101行",
+      "firstLine": 1,
+      "lastLine": 101,
+      "numLines": 101,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.648,
+        "conflict": 0.247,
+        "sentiment": 0.177
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "范仲禹",
+      "short": "范仲",
+      "key": "范仲禹",
+      "quote": "范仲禹 — 正生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "樵夫",
+      "short": "樵夫",
+      "key": "樵夫",
+      "quote": "樵夫 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "葛登云",
+      "short": "葛登",
+      "key": "葛登云",
+      "quote": "葛登云 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "煞神",
+      "short": "煞神",
+      "key": "煞神",
+      "quote": "煞神 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "葛虎",
+      "short": "葛虎",
+      "key": "葛虎",
+      "quote": "葛虎 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "报子甲",
+      "short": "报子",
+      "key": "报子甲",
+      "quote": "报子甲 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "报子乙",
+      "short": "报子",
+      "key": "报子乙",
+      "quote": "报子乙 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "土地",
+      "short": "土地",
+      "key": "土地",
+      "quote": "土地 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四随侍",
+      "short": "四随",
+      "key": "四随侍",
+      "quote": "四随侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二报子",
+      "short": "二报",
+      "key": "二报子",
+      "quote": "二报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "黑漆门楼",
+      "key": "黑漆门楼",
+      "quote": "场景发生在黑漆门楼"
+    },
+    {
+      "name": "了老太师的府门",
+      "key": "了老太师的府门",
+      "quote": "场景发生在了老太师的府门"
+    },
+    {
+      "name": "贼的府门",
+      "key": "贼的府门",
+      "quote": "场景发生在贼的府门"
+    }
+  ]
+}

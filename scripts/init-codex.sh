@@ -15,7 +15,7 @@ set -e
 # ===================================================================
 
 # 填入你的 API Key: sk-xxx
-MY_API_KEY="sk-YOUR_API_KEY_HERE"           
+MY_API_KEY=""           
 # 中转站地址：
 # - https://api.aifamily.vip/v1
 # - https://laoni.laonics.top/v1

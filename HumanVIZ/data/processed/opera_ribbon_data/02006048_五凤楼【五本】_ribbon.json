@@ -1,0 +1,308 @@
+{
+  "title": "五凤楼",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "02006048_五凤楼【五本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "卢陵王被贬出京，群臣恭送。武三思奉旨监斩薛氏满门。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 55,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李显": 1,
+        "韦后": 1,
+        "李敬犹": 1
+      },
+      "links": [
+        {
+          "source": "李敬犹",
+          "target": "李显",
+          "value": 1
+        },
+        {
+          "source": "李敬犹",
+          "target": "韦后",
+          "value": 1
+        },
+        {
+          "source": "李显",
+          "target": "韦后",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.386,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "武三思": 1,
+        "八刽子手": 1,
+        "武承嗣": 1
+      },
+      "links": [
+        {
+          "source": "八刽子手",
+          "target": "武三思",
+          "value": 1
+        },
+        {
+          "source": "武三思",
+          "target": "武承嗣",
+          "value": 1
+        },
+        {
+          "source": "八刽子手",
+          "target": "武承嗣",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.257,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "窦青老祖": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李敬犹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "请吓！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "李显",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "眼含珠泪离宫禁，",
+          "rating": 0.333,
+          "role": "生"
+        },
+        {
+          "name": "韦后",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "主为天子作公卿。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：3位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.435,
+        "sentiment": 0.211
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "武三思",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "威权势力沐君恩，统辖军马第一臣。剪除逆叛消君恨，立斩薛氏灭满门。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "八刽子手",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "武承嗣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "某，武承嗣。奉太后懿旨，往两辽府掘一深坑，埋葬薛氏尸首。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.377,
+        "conflict": 0.0,
+        "sentiment": -0.43
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "窦青老祖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "吾乃太乙山窦青老祖是也。法眼观见江淮侯李敬犹，舍子替换薛蛟。但李孝思",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.201,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李显",
+      "short": "李显",
+      "key": "李显",
+      "quote": "李显 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "韦后",
+      "short": "韦后",
+      "key": "韦后",
+      "quote": "韦后 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "窦青老祖",
+      "short": "窦青",
+      "key": "窦青老祖",
+      "quote": "窦青老祖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八刽子手",
+      "short": "八刽",
+      "key": "八刽子手",
+      "quote": "八刽子手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "武承嗣",
+      "short": "武承",
+      "key": "武承嗣",
+      "quote": "武承嗣 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "武三思",
+      "short": "武三",
+      "key": "武三思",
+      "quote": "武三思 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李敬犹",
+      "short": "李敬",
+      "key": "李敬犹",
+      "quote": "李敬犹 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

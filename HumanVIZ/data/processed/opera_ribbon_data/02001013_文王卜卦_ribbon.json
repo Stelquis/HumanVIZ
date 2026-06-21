@@ -1,0 +1,243 @@
+{
+  "title": "文王卜卦",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02001013_文王卜卦.json",
+  "source_folder": "02000000",
+  "plot_summary": "文王姬昌，被纣王囚入牢狱后，一夜忽梦其子伯邑考站立床前，言被妲己所害。醒后用八卦占卜，得知其子，\n确已身亡。深恨其子不听前嘱，遽而进京，致遭此祸。纣王将伯邑考斩首后，并用其肉作为馒头，令姬昌\n食用，否则立斩不赦。文王明知馒头系伯邑考之肉所做，父子情深，不能下咽，但不食则有性命之虞，不得\n已勉强食用，遂借机逃回西岐云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.184,
+      "locations": {
+        "床前": 1
+      },
+      "characters": {
+        "伯邑考": 1,
+        "姬昌": 1,
+        "梦神": 1
+      },
+      "links": [
+        {
+          "source": "伯邑考",
+          "target": "梦神",
+          "value": 1
+        },
+        {
+          "source": "姬昌",
+          "target": "梦神",
+          "value": 1
+        },
+        {
+          "source": "伯邑考",
+          "target": "姬昌",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 69,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "床前": 1
+      },
+      "characters": {
+        "狱官": 1,
+        "姬昌": 1,
+        "天使": 1
+      },
+      "links": [
+        {
+          "source": "姬昌",
+          "target": "狱官",
+          "value": 1
+        },
+        {
+          "source": "天使",
+          "target": "姬昌",
+          "value": 1
+        },
+        {
+          "source": "天使",
+          "target": "狱官",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "床前",
+      "characters": [
+        {
+          "name": "梦神",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "天有不测风云，人有旦夕祸福。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "伯邑考",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "老爹爹！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姬昌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：3位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.555,
+        "conflict": 0.0,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "床前",
+      "characters": [
+        {
+          "name": "姬昌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呀，适才睡梦之间，但见吾儿伯邑考，浑身是血，站在床前，言道他被妲己所",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "狱官",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "旨意下。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "天使",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "旨意下，跪。姬昌听读。",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：3位角色，69行",
+      "firstLine": 1,
+      "lastLine": 69,
+      "numLines": 69,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.6,
+        "sentiment": 0.01
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "姬昌",
+      "short": "姬昌",
+      "key": "姬昌",
+      "quote": "姬昌 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "天使",
+      "short": "天使",
+      "key": "天使",
+      "quote": "天使 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "伯邑考",
+      "short": "伯邑",
+      "key": "伯邑考",
+      "quote": "伯邑考 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "狱官",
+      "short": "狱官",
+      "key": "狱官",
+      "quote": "狱官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "梦神",
+      "short": "梦神",
+      "key": "梦神",
+      "quote": "梦神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "床前",
+      "key": "床前",
+      "quote": "场景发生在床前"
+    }
+  ]
+}

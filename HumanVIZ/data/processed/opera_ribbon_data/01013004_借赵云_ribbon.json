@@ -1,0 +1,778 @@
+{
+  "title": "借赵云",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "01013004_借赵云.json",
+  "source_folder": "01000000",
+  "plot_summary": "据戏中情节，为曹操攻夺徐州，徐州陶谦乞援于刘备，刘备既欲往救，然又自知寡不敌众，因向公孙瓒处借\n兵，并求借赵云一用。盖刘备于磐河之役，一见子龙，久已倾倒赏识，故此次竟指名往借。公孙瓒乃允令同\n往，并拨与马步三千。刘备既归，张飞见之不服，屡屡出言轻慢，幸刘备一再道歉，劝赵云勿介介于心。适\n曹操令典韦索战，张飞大败，赵云不忍坐视，乃出与典韦对阵，一战即将典韦杀败，张飞始自知不及，自后\n遂佩服赵云不置云。",
+  "performance_notes": "《借赵云》系出《三国演义》第十一回，“刘皇叔北海救孔融”一役之中。然考演义中，则不过略一提及借\n赵之事，并无张飞不服，及战败典韦等事实，此盖编剧者因拾得好题目，然本题实无文章可做，故借用他处\n文章，以为题目点缀耳，不能谓其拉杂抄袭也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 83,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.854,
+      "importance": 1.0,
+      "locations": {
+        "攻打徐州城": 3
+      },
+      "characters": {
+        "赵云": 1,
+        "刘备": 1,
+        "探子": 1,
+        "公孙瓒": 1,
+        "典韦": 1,
+        "中军": 1
+      },
+      "links": [
+        {
+          "source": "公孙瓒",
+          "target": "刘备",
+          "value": 3
+        },
+        {
+          "source": "公孙瓒",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "公孙瓒",
+          "value": 1
+        },
+        {
+          "source": "公孙瓒",
+          "target": "赵云",
+          "value": 2
+        },
+        {
+          "source": "公孙瓒",
+          "target": "典韦",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "典韦",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "赵云",
+          "value": 2
+        },
+        {
+          "source": "典韦",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "典韦",
+          "value": 1
+        },
+        {
+          "source": "典韦",
+          "target": "赵云",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 30,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.035,
+      "importance": 0.876,
+      "locations": {
+        "攻打徐州城": 3
+      },
+      "characters": {
+        "赵云": 1,
+        "刘备": 1,
+        "张飞": 1,
+        "典韦": 1,
+        "中军": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "赵云",
+          "value": 2
+        },
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "中军",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "赵云",
+          "value": 2
+        },
+        {
+          "source": "典韦",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "典韦",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "典韦",
+          "target": "赵云",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 24,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.752,
+      "importance": 0.701,
+      "locations": {
+        "攻打徐州城": 3
+      },
+      "characters": {
+        "赵云": 1,
+        "刘备": 1,
+        "探子": 1,
+        "张飞": 1,
+        "典韦": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "赵云",
+          "value": 2
+        },
+        {
+          "source": "典韦",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "典韦",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "赵云",
+          "value": 2
+        },
+        {
+          "source": "典韦",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "典韦",
+          "target": "赵云",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "攻打徐州城",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "千军容易得，一将最难求。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "公孙瓒",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第一场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.386,
+        "conflict": 0.0,
+        "sentiment": 0.78
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "攻打徐州城",
+      "characters": [
+        {
+          "name": "公孙瓒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "辕门战鼓响，儿郎报端详。",
+          "rating": -0.333,
+          "role": "末"
+        },
+        {
+          "name": "探子",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报，刘使君到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘备",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "备来的鲁莽，仁兄海涵。",
+          "rating": -0.5,
+          "role": "老生"
+        },
+        {
+          "name": "中军",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵云",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "得令。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "典韦",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：6位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.635,
+        "sentiment": -0.074
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "攻打徐州城",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "久闻大名，如雷贯耳，今日一见，果然名不虚传。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "赵云",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "赵云有何德能，敢劳使君称赞。",
+          "rating": 0.2,
+          "role": "武生"
+        },
+        {
+          "name": "公孙瓒",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第三场：3位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.747,
+        "conflict": 0.935,
+        "sentiment": 0.545
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "攻打徐州城",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "大哥去借兵，未见转回程。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "刘使君到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵云",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吓，三将军。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "刘备",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：4位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.782,
+        "conflict": 0.0,
+        "sentiment": -0.405
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "攻打徐州城",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "大哥此番前去，但不知兵借了多少，这将有几员？",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "刘备",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "此番借得兵马三千，大将一员。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "赵云",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "典韦",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：4位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.782,
+        "conflict": 0.69,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "攻打徐州城",
+      "characters": [
+        {
+          "name": "典韦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "奉了丞相令，攻打徐州城。",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.104,
+        "conflict": 1.0,
+        "sentiment": -0.42
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "攻打徐州城",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "辕门旌旗起，儿郎报端的。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "探子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "典韦讨战。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "再探。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "赵云",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "且住，看刘备之弟张飞，藐视于我，不免人马转回北邳。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "典韦",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：5位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.831,
+        "conflict": 0.833,
+        "sentiment": 0.167
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "攻打徐州城",
+      "characters": [
+        {
+          "name": "典韦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "张飞，昨日饶尔不死，今日又来作甚？",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "吃你三老子一鞭。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "赵云",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第八场：3位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.534,
+        "conflict": 1.0,
+        "sentiment": 0.008
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "攻打徐州城",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "后堂排宴，与将军庆功。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "赵云",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第九场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.564,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵云",
+      "short": "赵云",
+      "key": "赵云",
+      "quote": "赵云 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "公孙瓒",
+      "short": "公孙",
+      "key": "公孙瓒",
+      "quote": "公孙瓒 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "典韦",
+      "short": "典韦",
+      "key": "典韦",
+      "quote": "典韦 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "攻打徐州城",
+      "key": "攻打徐州城",
+      "quote": "场景发生在攻打徐州城"
+    }
+  ]
+}

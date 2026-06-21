@@ -1,0 +1,236 @@
+{
+  "title": "孟母三迁",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "03020001_孟母三迁.json",
+  "source_folder": "03000000",
+  "plot_summary": "战国时，名贤孟轲幼年丧父，孟母仉氏教育有方。孟轲十岁时，邻近屠户，孟轲亦效杀牛宰羊为戏。孟母恐\n共相习成性，故迁至荒村居住。孟轲日见乱冢荒丘，顿思亡父，终日悲感，孟母恐其颓然废志或抑郁成疾，\n又复择善邻而居。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 63,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "临街小巷": 1
+      },
+      "characters": {
+        "仉氏": 1,
+        "孟轲": 1
+      },
+      "links": [
+        {
+          "source": "仉氏",
+          "target": "孟轲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 50,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "临街小巷": 1
+      },
+      "characters": {
+        "孟轲": 1,
+        "常守文": 1
+      },
+      "links": [
+        {
+          "source": "孟轲",
+          "target": "常守文",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 34,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.694,
+      "locations": {
+        "临街小巷": 1
+      },
+      "characters": {
+        "仉氏": 1,
+        "孟轲": 1
+      },
+      "links": [
+        {
+          "source": "仉氏",
+          "target": "孟轲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "临街小巷",
+      "characters": [
+        {
+          "name": "仉氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "玉洁冰清，抚孤儿，昼夜辛勤。",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "孟轲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来了！",
+          "rating": -0.333,
+          "role": "娃娃生"
+        }
+      ],
+      "summary": "第一场：2位角色，63行",
+      "firstLine": 1,
+      "lastLine": 63,
+      "numLines": 63,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.957,
+        "conflict": 0.962,
+        "sentiment": 0.045
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "临街小巷",
+      "characters": [
+        {
+          "name": "常守文",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": -0.2,
+          "role": ""
+        },
+        {
+          "name": "孟轲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "走哇！",
+          "rating": -0.455,
+          "role": "娃娃生"
+        }
+      ],
+      "summary": "第二场：2位角色，50行",
+      "firstLine": 1,
+      "lastLine": 50,
+      "numLines": 50,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.704,
+        "conflict": 0.227,
+        "sentiment": 0.01
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "临街小巷",
+      "characters": [
+        {
+          "name": "仉氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "荒郊外渺茫茫山明水秀，",
+          "rating": -0.667,
+          "role": "老旦"
+        },
+        {
+          "name": "孟轲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "母亲所说言语，孩儿领会。岂不知这村居野处，悦性怡情；怎奈一见荒丘垒垒，",
+          "rating": -0.333,
+          "role": "娃娃生"
+        }
+      ],
+      "summary": "第三场：2位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.839,
+        "conflict": 0.69,
+        "sentiment": -0.208
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "仉氏",
+      "short": "仉氏",
+      "key": "仉氏",
+      "quote": "仉氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "孟轲",
+      "short": "孟轲",
+      "key": "孟轲",
+      "quote": "孟轲 — 娃娃生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 娃娃生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "常守文",
+      "short": "常守",
+      "key": "常守文",
+      "quote": "常守文 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "临街小巷",
+      "key": "临街小巷",
+      "quote": "场景发生在临街小巷"
+    }
+  ]
+}

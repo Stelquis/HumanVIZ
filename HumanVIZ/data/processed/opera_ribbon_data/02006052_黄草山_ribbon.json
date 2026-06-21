@@ -1,0 +1,459 @@
+{
+  "title": "黄草山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "02006052_黄草山.json",
+  "source_folder": "02000000",
+  "plot_summary": "薛刚被薛义押入囚车，解往长安，欲讨封赏。行至黄草山，占据山寨之吴奇、马赞将薛义拿获。解救薛刚上\n山，结为兄弟，并将薛义杀死。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 15,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.265,
+      "locations": {
+        "拜将即登台": 1
+      },
+      "characters": {
+        "四将官": 1,
+        "薛刚": 1,
+        "薛义": 1
+      },
+      "links": [
+        {
+          "source": "四将官",
+          "target": "薛义",
+          "value": 1
+        },
+        {
+          "source": "四将官",
+          "target": "薛刚",
+          "value": 1
+        },
+        {
+          "source": "薛义",
+          "target": "薛刚",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 34,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.6,
+      "locations": {
+        "拜将即登台": 1
+      },
+      "characters": {
+        "报子": 1,
+        "马赞": 1,
+        "吴奇": 1,
+        "四马甲": 1
+      },
+      "links": [
+        {
+          "source": "吴奇",
+          "target": "马赞",
+          "value": 1
+        },
+        {
+          "source": "吴奇",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "吴奇",
+          "target": "四马甲",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "马赞",
+          "value": 1
+        },
+        {
+          "source": "四马甲",
+          "target": "马赞",
+          "value": 1
+        },
+        {
+          "source": "四马甲",
+          "target": "报子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 121,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "拜将即登台": 1
+      },
+      "characters": {
+        "马赞": 1,
+        "四将官": 1,
+        "吴奇": 1,
+        "薛义": 1,
+        "薛刚": 1,
+        "四马甲": 1
+      },
+      "links": [
+        {
+          "source": "四将官",
+          "target": "薛义",
+          "value": 1
+        },
+        {
+          "source": "薛义",
+          "target": "马赞",
+          "value": 1
+        },
+        {
+          "source": "吴奇",
+          "target": "薛义",
+          "value": 1
+        },
+        {
+          "source": "四马甲",
+          "target": "薛义",
+          "value": 1
+        },
+        {
+          "source": "薛义",
+          "target": "薛刚",
+          "value": 1
+        },
+        {
+          "source": "四将官",
+          "target": "马赞",
+          "value": 1
+        },
+        {
+          "source": "吴奇",
+          "target": "四将官",
+          "value": 1
+        },
+        {
+          "source": "四将官",
+          "target": "四马甲",
+          "value": 1
+        },
+        {
+          "source": "四将官",
+          "target": "薛刚",
+          "value": 1
+        },
+        {
+          "source": "吴奇",
+          "target": "马赞",
+          "value": 1
+        },
+        {
+          "source": "四马甲",
+          "target": "马赞",
+          "value": 1
+        },
+        {
+          "source": "薛刚",
+          "target": "马赞",
+          "value": 1
+        },
+        {
+          "source": "吴奇",
+          "target": "四马甲",
+          "value": 1
+        },
+        {
+          "source": "吴奇",
+          "target": "薛刚",
+          "value": 1
+        },
+        {
+          "source": "四马甲",
+          "target": "薛刚",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "拜将即登台",
+      "characters": [
+        {
+          "name": "四将官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "众位将军请了。你我奉大老爷将令，押送叛逆薛刚，去到长安，你我去至辕门",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛义",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "人有善念，天必佑之。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "薛刚",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：3位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.726,
+        "conflict": 0.0,
+        "sentiment": 0.527
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "拜将即登台",
+      "characters": [
+        {
+          "name": "吴奇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "赤发冲冠声如雷，豹头环眼放光辉。",
+          "rating": 0.143,
+          "role": ""
+        },
+        {
+          "name": "马赞",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "拔山举鼎无人敌，万马军中任所为。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "报子",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "报！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四马甲",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来此三岔路口。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.36,
+        "conflict": 0.27,
+        "sentiment": 0.316
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "拜将即登台",
+      "characters": [
+        {
+          "name": "薛义",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哪里人马呐喊？",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "四将官",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "强人挡道。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马赞",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "呔，来的官兵，留下三千黄金，以作买路钱，放你过去。",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "吴奇",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "众喽啰，先将这贼押回山寨。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四马甲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "啊！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "薛刚",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "哎呀，多谢二位英雄搭救。",
+          "rating": 0.333,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：6位角色，121行",
+      "firstLine": 1,
+      "lastLine": 121,
+      "numLines": 121,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.914,
+        "conflict": 0.486,
+        "sentiment": 0.353
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛刚",
+      "short": "薛刚",
+      "key": "薛刚",
+      "quote": "薛刚 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马赞",
+      "short": "马赞",
+      "key": "马赞",
+      "quote": "马赞 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四将官",
+      "short": "四将",
+      "key": "四将官",
+      "quote": "四将官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "吴奇",
+      "short": "吴奇",
+      "key": "吴奇",
+      "quote": "吴奇 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "薛义",
+      "short": "薛义",
+      "key": "薛义",
+      "quote": "薛义 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四马甲",
+      "short": "四马",
+      "key": "四马甲",
+      "quote": "四马甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "拜将即登台",
+      "key": "拜将即登台",
+      "quote": "场景发生在拜将即登台"
+    }
+  ]
+}

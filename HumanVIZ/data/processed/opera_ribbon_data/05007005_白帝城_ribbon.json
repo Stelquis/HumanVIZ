@@ -1,0 +1,508 @@
+{
+  "title": "白帝城",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "05007005_白帝城.json",
+  "source_folder": "05000000",
+  "plot_summary": "刘备兵败，奔白帝城，羞愤得病，自知不起，遣使至成都请丞相诸葛亮来，听受遗命；刘备托孤而死。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.171,
+      "locations": {
+        "兵败白帝城": 1
+      },
+      "characters": {
+        "诸葛亮": 1,
+        "李严": 1
+      },
+      "links": [
+        {
+          "source": "李严",
+          "target": "诸葛亮",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 128,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "兵败白帝城": 1
+      },
+      "characters": {
+        "赵云": 1,
+        "马谡": 1,
+        "关兴": 1,
+        "刘备": 1,
+        "张苞": 1,
+        "费祎": 1,
+        "诸葛亮": 1,
+        "马良": 1,
+        "邓芝": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张苞",
+          "value": 1
+        },
+        {
+          "source": "关兴",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "马良",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "费祎",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "张苞",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "关兴",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "马良",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "费祎",
+          "value": 1
+        },
+        {
+          "source": "张苞",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "关兴",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "马良",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "费祎",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "关兴",
+          "target": "张苞",
+          "value": 1
+        },
+        {
+          "source": "张苞",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "张苞",
+          "target": "马良",
+          "value": 1
+        },
+        {
+          "source": "张苞",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "张苞",
+          "target": "费祎",
+          "value": 1
+        },
+        {
+          "source": "关兴",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "关兴",
+          "target": "马良",
+          "value": 1
+        },
+        {
+          "source": "关兴",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "关兴",
+          "target": "费祎",
+          "value": 1
+        },
+        {
+          "source": "邓芝",
+          "target": "马良",
+          "value": 1
+        },
+        {
+          "source": "邓芝",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "费祎",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "马良",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "费祎",
+          "target": "马良",
+          "value": 1
+        },
+        {
+          "source": "费祎",
+          "target": "马谡",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "兵败白帝城",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "我主爷坐山河未享安静，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "李严",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "启先生：主公兵败白帝城！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.551,
+        "conflict": 0.0,
+        "sentiment": -0.013
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "兵败白帝城",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "搀扶。",
+          "rating": 0.286,
+          "role": "老生"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "主公兵败白帝城，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "赵云",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "万岁！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张苞",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "遵命。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关兴",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "得令。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "邓芝",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马良",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马谡",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "哦——",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "费祎",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "呵……",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：9位角色，128行",
+      "firstLine": 1,
+      "lastLine": 128,
+      "numLines": 128,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.178,
+        "sentiment": 0.246
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵云",
+      "short": "赵云",
+      "key": "赵云",
+      "quote": "赵云 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马谡",
+      "short": "马谡",
+      "key": "马谡",
+      "quote": "马谡 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "关兴",
+      "short": "关兴",
+      "key": "关兴",
+      "quote": "关兴 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张苞",
+      "short": "张苞",
+      "key": "张苞",
+      "quote": "张苞 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李严",
+      "short": "李严",
+      "key": "李严",
+      "quote": "李严 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "费祎",
+      "short": "费祎",
+      "key": "费祎",
+      "quote": "费祎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马良",
+      "short": "马良",
+      "key": "马良",
+      "quote": "马良 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "邓芝",
+      "short": "邓芝",
+      "key": "邓芝",
+      "quote": "邓芝 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "兵败白帝城",
+      "key": "兵败白帝城",
+      "quote": "场景发生在兵败白帝城"
+    }
+  ]
+}

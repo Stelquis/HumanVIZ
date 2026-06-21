@@ -1,0 +1,290 @@
+{
+  "title": "五雷阵",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "02001047_五雷阵【头本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "此剧系出列国，秦始皇遣王翦并吞六国之时，从妖道毛蕡助王翦攻齐起，其大概为孙膑侄为毛蕡所败，孙膑\n亲自出阵杀退毛蕡，不意被毛蕡败回作法，设下五雷阵，将孙膑魂摄入，将殛死之。幸孙膑道数高，真元不\n动，卒破毛蕡阵，用鬼谷师所遗太极图击死毛蕡云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.354,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王翦": 1,
+        "四卒子": 1
+      },
+      "links": [
+        {
+          "source": "四卒子",
+          "target": "王翦",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 65,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "海潮": 1,
+        "明月": 1,
+        "王翦": 1,
+        "清风": 1,
+        "毛蕡": 1
+      },
+      "links": [
+        {
+          "source": "明月",
+          "target": "海潮",
+          "value": 1
+        },
+        {
+          "source": "毛蕡",
+          "target": "海潮",
+          "value": 1
+        },
+        {
+          "source": "海潮",
+          "target": "王翦",
+          "value": 1
+        },
+        {
+          "source": "海潮",
+          "target": "清风",
+          "value": 1
+        },
+        {
+          "source": "明月",
+          "target": "毛蕡",
+          "value": 1
+        },
+        {
+          "source": "明月",
+          "target": "王翦",
+          "value": 1
+        },
+        {
+          "source": "明月",
+          "target": "清风",
+          "value": 1
+        },
+        {
+          "source": "毛蕡",
+          "target": "王翦",
+          "value": 1
+        },
+        {
+          "source": "毛蕡",
+          "target": "清风",
+          "value": 1
+        },
+        {
+          "source": "清风",
+          "target": "王翦",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王翦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "可恼啊，可恼。本帅王翦。奉了师父之命，下山扶助秦始皇，兵吞六国。一路",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "四卒子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.586,
+        "conflict": 1.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "海潮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "养性参禅，修成大罗神仙。",
+          "rating": -0.25,
+          "role": "外"
+        },
+        {
+          "name": "明月",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "伺候师父。",
+          "rating": 0.0,
+          "role": "童"
+        },
+        {
+          "name": "毛蕡",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "弃凡学道在深山，八卦炉中看仙丹。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "王翦",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "清风",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "童"
+        }
+      ],
+      "summary": "第二场：5位角色，65行",
+      "firstLine": 1,
+      "lastLine": 65,
+      "numLines": 65,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.877,
+        "sentiment": 0.119
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "海潮",
+      "short": "海潮",
+      "key": "海潮",
+      "quote": "海潮 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "毛蕡",
+      "short": "毛蕡",
+      "key": "毛蕡",
+      "quote": "毛蕡 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "王翦",
+      "short": "王翦",
+      "key": "王翦",
+      "quote": "王翦 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "清风",
+      "short": "清风",
+      "key": "清风",
+      "quote": "清风 — 童",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 童",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "明月",
+      "short": "明月",
+      "key": "明月",
+      "quote": "明月 — 童",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 童",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四卒子",
+      "short": "四卒",
+      "key": "四卒子",
+      "quote": "四卒子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

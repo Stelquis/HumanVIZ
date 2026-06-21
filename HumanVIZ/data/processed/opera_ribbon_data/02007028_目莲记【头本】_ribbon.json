@@ -1,0 +1,236 @@
+{
+  "title": "目莲记",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "02007028_目莲记【头本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "罗卜姓傅，目莲乃其出家后之名。其母刘青提，因吃斋念佛反丧其夫，乃听其兄之言，开荤破戒，以娱晚年。\n但因罗卜，遵从其父遗嘱，信佛甚笃。不但不肯破戒，反劝其母依旧信佛。刘青提不得已，佯称济贫念佛，\n费用浩繁，恐日后无以为继。乃命仆人益利，帮同罗卜出外经商。罗卜虽恪于母命，不得不束装就道，但\n心中则极为忧戚。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 178,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "往外经营": 1
+      },
+      "characters": {
+        "罗卜": 1,
+        "刘青提": 1,
+        "金奴": 1,
+        "益利": 1
+      },
+      "links": [
+        {
+          "source": "刘青提",
+          "target": "金奴",
+          "value": 1
+        },
+        {
+          "source": "罗卜",
+          "target": "金奴",
+          "value": 1
+        },
+        {
+          "source": "益利",
+          "target": "金奴",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "罗卜",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "益利",
+          "value": 1
+        },
+        {
+          "source": "益利",
+          "target": "罗卜",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 85,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.646,
+      "locations": {
+        "往外经营": 1
+      },
+      "characters": {
+        "罗卜": 1,
+        "益利": 1
+      },
+      "links": [
+        {
+          "source": "益利",
+          "target": "罗卜",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "往外经营",
+      "characters": [
+        {
+          "name": "金奴",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "有。",
+          "rating": 1.0,
+          "role": "小旦"
+        },
+        {
+          "name": "刘青提",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "痛念儿夫。",
+          "rating": -0.231,
+          "role": "老旦"
+        },
+        {
+          "name": "罗卜",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "灵椿一梦赴南柯。",
+          "rating": -0.5,
+          "role": "生"
+        },
+        {
+          "name": "益利",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "佛殿烧香犹未毕，高堂有唤又忙来。",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第一场：4位角色，178行",
+      "firstLine": 1,
+      "lastLine": 178,
+      "numLines": 178,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.345,
+        "sentiment": 0.024
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "往外经营",
+      "characters": [
+        {
+          "name": "益利",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "竹清风渐爽，荷放露生香。",
+          "rating": 0.143,
+          "role": "末"
+        },
+        {
+          "name": "罗卜",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "野店鸡鸣天方晓。",
+          "rating": -0.25,
+          "role": "生"
+        }
+      ],
+      "summary": "第二场：2位角色，85行",
+      "firstLine": 1,
+      "lastLine": 85,
+      "numLines": 85,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.174,
+        "sentiment": 0.038
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "罗卜",
+      "short": "罗卜",
+      "key": "罗卜",
+      "quote": "罗卜 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘青提",
+      "short": "刘青",
+      "key": "刘青提",
+      "quote": "刘青提 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "益利",
+      "short": "益利",
+      "key": "益利",
+      "quote": "益利 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "金奴",
+      "short": "金奴",
+      "key": "金奴",
+      "quote": "金奴 — 小旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小旦",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "往外经营",
+      "key": "往外经营",
+      "quote": "场景发生在往外经营"
+    }
+  ]
+}

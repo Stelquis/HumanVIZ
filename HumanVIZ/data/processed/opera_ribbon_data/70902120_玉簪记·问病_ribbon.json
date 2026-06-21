@@ -1,0 +1,335 @@
+{
+  "title": "玉簪记·问病",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70902120_玉簪记·问病.json",
+  "source_folder": "70902000",
+  "plot_summary": "潘必正自与陈妙常操琴挑逗以后，还不能明白对方真实态度，因此抑郁成病，难以排遣。适姑母前来问病，\n陈妙常随同探望，言词之间，暗通衷曲。于是潘必正豁然而愈，引出后面偷诗订盟的情节。",
+  "performance_notes": "此剧篇幅不大，很少身段动作，但〖山坡羊〗曲调，曼妙可听。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.232,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "陈妙常": 1,
+        "姑母": 1
+      },
+      "links": [
+        {
+          "source": "姑母",
+          "target": "陈妙常",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 113,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "潘必正": 1,
+        "进安": 1,
+        "陈妙常": 1,
+        "相公": 1,
+        "姑母": 1
+      },
+      "links": [
+        {
+          "source": "潘必正",
+          "target": "进安",
+          "value": 1
+        },
+        {
+          "source": "姑母",
+          "target": "进安",
+          "value": 1
+        },
+        {
+          "source": "进安",
+          "target": "陈妙常",
+          "value": 1
+        },
+        {
+          "source": "相公",
+          "target": "进安",
+          "value": 1
+        },
+        {
+          "source": "姑母",
+          "target": "潘必正",
+          "value": 1
+        },
+        {
+          "source": "潘必正",
+          "target": "陈妙常",
+          "value": 1
+        },
+        {
+          "source": "潘必正",
+          "target": "相公",
+          "value": 1
+        },
+        {
+          "source": "姑母",
+          "target": "陈妙常",
+          "value": 1
+        },
+        {
+          "source": "姑母",
+          "target": "相公",
+          "value": 1
+        },
+        {
+          "source": "相公",
+          "target": "陈妙常",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 30,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.581,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "潘必正": 1,
+        "进安": 1
+      },
+      "links": [
+        {
+          "source": "潘必正",
+          "target": "进安",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "姑母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "病中孤馆自嗟呀，",
+          "rating": -1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "陈妙常",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "闲庭开遍紫薇花，",
+          "rating": 0.0,
+          "role": "五旦"
+        }
+      ],
+      "summary": "第1场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.643,
+        "conflict": 0.0,
+        "sentiment": -0.427
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "进安",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "海上有方医杂症，人间无药治相思。",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "潘必正",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "怎么？",
+          "rating": -0.455,
+          "role": "巾生"
+        },
+        {
+          "name": "姑母",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "转过荷香径，又来丹桂阴。",
+          "rating": -0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "陈妙常",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "忽闻长叹语，使我更关心。",
+          "rating": -0.333,
+          "role": "五旦"
+        },
+        {
+          "name": "相公",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "好仔勒谢还来得及个。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：5位角色，113行",
+      "firstLine": 1,
+      "lastLine": 113,
+      "numLines": 113,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.267,
+        "sentiment": -0.107
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "进安",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哈哈，好笑我俚相公，直梗病重，听见说陈姑来哉，看俚直立个立起来，说道",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "潘必正",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓，吓……正欲朦胧睡去，什么大惊小怪？",
+          "rating": 0.0,
+          "role": "巾生"
+        }
+      ],
+      "summary": "第3场：2位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.582,
+        "conflict": 0.25,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "潘必正",
+      "short": "潘必",
+      "key": "潘必正",
+      "quote": "潘必正 — 巾生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 巾生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陈妙常",
+      "short": "陈妙",
+      "key": "陈妙常",
+      "quote": "陈妙常 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "姑母",
+      "short": "姑母",
+      "key": "姑母",
+      "quote": "姑母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "进安",
+      "short": "进安",
+      "key": "进安",
+      "quote": "进安 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "相公",
+      "short": "相公",
+      "key": "相公",
+      "quote": "相公 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

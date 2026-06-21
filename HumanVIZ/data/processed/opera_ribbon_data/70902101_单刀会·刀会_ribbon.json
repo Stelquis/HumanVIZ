@@ -1,0 +1,290 @@
+{
+  "title": "单刀会·刀会",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "70902101_单刀会·刀会.json",
+  "source_folder": "70902000",
+  "plot_summary": "故事写刘备向孙权借驻荆州，历久未还。鲁肃设宴，邀请荆州守将关羽。关羽仅带周仓一人，持单刀赴会。\n鲁肃在筵前，索取荆州。关羽斥责鲁肃不应埋设伏兵，反而将鲁肃执住，鲁肃只得作罢。关羽遂鼓帆而去。",
+  "performance_notes": "此乃元代伟大剧作家关汉卿名作，应题《单刀会》杂剧，俗署《三国志》，误。曲词雄壮豪迈，气势、意境，\n俱臻上乘，数百年来，传唱不衰，并为其他剧种所移植改编，长期在舞台上演出。\n昆剧传统以正净饰演关羽，要求气度肃穆，唱念浑厚沉着，《新水令》、《驻马听》二曲，更要苍凉悲壮，\n慷慨激昂。后面演述辞曹归汉，过关斩将的过程时，手舞足蹈，身段动作，尤须雍容大方，切忌过分夸张，\n失诸过野。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 16,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.105,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "鲁肃": 1,
+        "二旗牌": 1
+      },
+      "links": [
+        {
+          "source": "二旗牌",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 290,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "旗牌": 1,
+        "鲁肃": 1,
+        "关羽": 1,
+        "哨手": 1,
+        "周仓": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "哨手",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "哨手",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "哨手",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "哨手",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "鲁肃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "虎帐夜叹兵，坐守威名振。",
+          "rating": -1.0,
+          "role": "末"
+        },
+        {
+          "name": "二旗牌",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.447,
+        "conflict": 0.0,
+        "sentiment": -0.429
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周仓",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "志气凌云贯九霄，周仓随驾显英豪。父王今赴单刀会，全仗青龙偃月刀。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "波涛滚滚渡江东，独赴单刀孰与同？片帆瞬息西风力，鲁肃今日认关公。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "哨手",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吓。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "吓，君侯！",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "上酒，请周将军用饭。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：5位角色，290行",
+      "firstLine": 1,
+      "lastLine": 290,
+      "numLines": 290,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.235,
+        "sentiment": 0.183
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "周仓",
+      "short": "周仓",
+      "key": "周仓",
+      "quote": "周仓 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "鲁肃",
+      "short": "鲁肃",
+      "key": "鲁肃",
+      "quote": "鲁肃 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "哨手",
+      "short": "哨手",
+      "key": "哨手",
+      "quote": "哨手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二旗牌",
+      "short": "二旗",
+      "key": "二旗牌",
+      "quote": "二旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

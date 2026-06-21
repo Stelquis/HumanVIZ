@@ -1,0 +1,516 @@
+{
+  "title": "装疯",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "02001046_装疯.json",
+  "source_folder": "02000000",
+  "plot_summary": "孙膑被庞涓陷害，刖足毁容后，庞涓仍想得到孙膑所知之三部天书，故假意殷勤，留孙膑在其家中，由园丁\n服侍，一面养病，一面抄写天书。园丁知庞涓之用心，天书抄完，即将孙膑杀死。又念孙膑系忠良之士，不\n忍其落此下场。暗中示意孙膑，应谋良策，孙膑遂装疯逃脱云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 98,
+      "summary": "第1场；第2场",
+      "conflict": 0.059,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "二将官": 1,
+        "园丁官": 1,
+        "园丁": 1,
+        "孙膑": 1,
+        "二将": 1,
+        "庞涓": 1
+      },
+      "links": [
+        {
+          "source": "园丁",
+          "target": "孙膑",
+          "value": 2
+        },
+        {
+          "source": "孙膑",
+          "target": "庞涓",
+          "value": 1
+        },
+        {
+          "source": "二将官",
+          "target": "孙膑",
+          "value": 1
+        },
+        {
+          "source": "二将",
+          "target": "孙膑",
+          "value": 1
+        },
+        {
+          "source": "园丁官",
+          "target": "孙膑",
+          "value": 1
+        },
+        {
+          "source": "二将官",
+          "target": "庞涓",
+          "value": 1
+        },
+        {
+          "source": "园丁",
+          "target": "庞涓",
+          "value": 1
+        },
+        {
+          "source": "二将",
+          "target": "庞涓",
+          "value": 1
+        },
+        {
+          "source": "园丁官",
+          "target": "庞涓",
+          "value": 1
+        },
+        {
+          "source": "二将官",
+          "target": "园丁",
+          "value": 1
+        },
+        {
+          "source": "二将",
+          "target": "二将官",
+          "value": 1
+        },
+        {
+          "source": "二将官",
+          "target": "园丁官",
+          "value": 1
+        },
+        {
+          "source": "二将",
+          "target": "园丁",
+          "value": 1
+        },
+        {
+          "source": "园丁",
+          "target": "园丁官",
+          "value": 1
+        },
+        {
+          "source": "二将",
+          "target": "园丁官",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 108,
+      "summary": "第3场；第4场",
+      "conflict": 0.205,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "园丁": 1,
+        "孙膑": 1
+      },
+      "links": [
+        {
+          "source": "园丁",
+          "target": "孙膑",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 68,
+      "summary": "第5场；第6场",
+      "conflict": 0.491,
+      "importance": 0.745,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "园丁": 1,
+        "孙膑": 1,
+        "庞涓": 1
+      },
+      "links": [
+        {
+          "source": "园丁",
+          "target": "庞涓",
+          "value": 2
+        },
+        {
+          "source": "园丁",
+          "target": "孙膑",
+          "value": 2
+        },
+        {
+          "source": "孙膑",
+          "target": "庞涓",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "园丁",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "有福之人人服侍，无福之人服侍人。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "孙膑",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "浑难料，险遭诛戮，将微躯保，只是毁伤遗体，形容枯槁。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.646,
+        "conflict": 0.0,
+        "sentiment": 0.173
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙膑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "不免抄写一番。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "庞涓",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "恨小非君子，无毒不丈夫。",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "二将官",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "园丁，园丁。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "园丁",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有有。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "二将",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "园丁。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "园丁官",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "有。园丁伺候老爷。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：6位角色，84行",
+      "firstLine": 1,
+      "lastLine": 84,
+      "numLines": 84,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.976,
+        "conflict": 0.515,
+        "sentiment": 0.114
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "园丁",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "是。谢老爷抬举。园丁送老爷、爷、爷，呀呀呀啐！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "孙膑",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "哈，狗才你为何又哭又笑？",
+          "rating": -0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：2位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.722,
+        "conflict": 0.87,
+        "sentiment": 0.081
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙膑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "方才细听园丁之言，莫非庞兄他有害我之意？哎呀，我那师父哇！哈哈，当初",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "园丁",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来了，园丁伺候孙老爷。",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第4场：2位角色，71行",
+      "firstLine": 1,
+      "lastLine": 71,
+      "numLines": 71,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.833,
+        "conflict": 0.411,
+        "sentiment": 0.286
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "园丁",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "天有不测风云，人有旦夕祸福。孙老爷方才抄写天书，一霎时就疯了。这个事",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "庞涓",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "园丁，你为何这等大惊小怪？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "孙膑",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来了。",
+          "rating": 0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第5场：3位角色，61行",
+      "firstLine": 1,
+      "lastLine": 61,
+      "numLines": 61,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.619,
+        "sentiment": 0.074
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "庞涓",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "园丁，你孙老爷这病是真是假？",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "园丁",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "病自然是真的，哪儿有假的呢？",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "孙膑",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第6场：3位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.723,
+        "conflict": 1.0,
+        "sentiment": -0.417
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙膑",
+      "short": "孙膑",
+      "key": "孙膑",
+      "quote": "孙膑 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "园丁",
+      "short": "园丁",
+      "key": "园丁",
+      "quote": "园丁 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "庞涓",
+      "short": "庞涓",
+      "key": "庞涓",
+      "quote": "庞涓 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "二将官",
+      "short": "二将",
+      "key": "二将官",
+      "quote": "二将官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "园丁官",
+      "short": "园丁",
+      "key": "园丁官",
+      "quote": "园丁官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二将",
+      "short": "二将",
+      "key": "二将",
+      "quote": "二将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

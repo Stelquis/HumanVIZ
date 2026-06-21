@@ -1,0 +1,110 @@
+{
+  "title": "望儿楼",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "01018004_望儿楼.json",
+  "source_folder": "01000000",
+  "plot_summary": "剧本情节为唐高祖后窦氏，因次子李世民带兵在外，东剿西征，不获常依膝下，母子隔别，荏苒数年。后终\n日悬想，欲其回来团聚。至深夜独上高楼，推窗遥望以图一面。自悲自叹，涕泪沾襟，尽入于思子之情魔焉。\n呜呼！慈母爱子之心，无所不用其极。锦衣玉食之家，犹且如此，而况茅檐蔀屋中者乎。凡为人子者当体\n会亲心，不使有倚门倚闾之叹，庶几常得天伦之乐事也。观于此剧，而游子悽惶之泪，不禁夺眶而出焉，有\n益于世道人心，实非浅鲜。",
+  "performance_notes": "此系老旦单身重头之剧，纯以唱工为主。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 92,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "窦太真": 1,
+        "李渊": 1
+      },
+      "links": [
+        {
+          "source": "李渊",
+          "target": "窦太真",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "窦太真",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "闷坐宫闱，想娇儿，好不伤悲。",
+          "rating": -0.125,
+          "role": "老旦"
+        },
+        {
+          "name": "李渊",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "适才间在朝中来标本，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "段落1：2位角色，92行",
+      "firstLine": 1,
+      "lastLine": 92,
+      "numLines": 92,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.833,
+        "sentiment": 0.136
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "窦太真",
+      "short": "窦太",
+      "key": "窦太真",
+      "quote": "窦太真 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李渊",
+      "short": "李渊",
+      "key": "李渊",
+      "quote": "李渊 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "title": "浣纱记",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01005002_浣纱记.json",
+  "source_folder": "01000000",
+  "plot_summary": "战国时楚将伍员，被费无极谗害，既讹出昭关，楚兵仍四处搜捕。伍员逃至江边，见无渡船，惟隔岸有一渔\n艇，急呼渔父哀求渡江。渔丈人心知为伍子胥，怜其英雄落魄，穷窘无所归，因慨然渡之。既至中流，伍子\n胥脱腰间龙泉酬之，渔丈人不受，且谓曰：楚王有令，谁能得伍子胥者受上赏，夫国之上赏，予且不贪，况\n区区三尺剑乎？伍员闻言愈感激无地，抵岸叹谢而去。无何复回，谓渔丈人曰：如追兵至，幸丈人万勿直告。\n渔丈人以伍子胥见疑，恐反贾祸，因投江死以自明其志。伍员急阻之已不及，惟有怅望江波，挥数行泪而\n去。既达吴境，穷途落拓益甚。行至溧水之阳，腹甚饥，见濑畔一浣纱女，只得腆颜向之乞食。女饭之，既\n见伍员堂堂气概，不类寒乞相，因询其何以落魄至斯。伍员以直告，感愧之下，不觉絮絮。女以十年不字之\n身，从未尝私与男子交谈，一念及瓜李之嫌，一若污其贞操，虽尽西江水不足濯者，无以自明，遂亦投水死。\n伍员见之，仍惟有太息呼荷荷而已。",
+  "performance_notes": "是剧摇板颇多，须唱得悲怆动人，牢骚感慨，方为合作。而后段一节二六板，尤宜慷慨激昂，有一唱三叹之\n致。盖此剧描摹英雄失意状态，于悲困之中，须不失英伟气度，故极难工。而寻常伶官，演之每不易见好也。\n惟孙处最称拿手，此外真小桂芬，从前亦颇擅名一时。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 52,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.788,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "渔父": 1,
+        "伍员": 1
+      },
+      "links": [
+        {
+          "source": "伍员",
+          "target": "渔父",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 80,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "浣纱女": 1,
+        "伍员": 1
+      },
+      "links": [
+        {
+          "source": "伍员",
+          "target": "浣纱女",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "伍员",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "且住。行至此间，前面一带长江，后有追兵到此，这便如何是好。呜呼呀！看",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "渔父",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "打鱼吓。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：2位角色，52行",
+      "firstLine": 1,
+      "lastLine": 52,
+      "numLines": 52,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.826,
+        "sentiment": 0.299
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "浣纱女",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "光阴似箭日月梭，",
+          "rating": 0.667,
+          "role": "正旦"
+        },
+        {
+          "name": "伍员",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "豪杰打马奔吴国，",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，80行",
+      "firstLine": 1,
+      "lastLine": 80,
+      "numLines": 80,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.63,
+        "sentiment": 0.233
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "伍员",
+      "short": "伍员",
+      "key": "伍员",
+      "quote": "伍员 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "渔父",
+      "short": "渔父",
+      "key": "渔父",
+      "quote": "渔父 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "浣纱女",
+      "short": "浣纱",
+      "key": "浣纱女",
+      "quote": "浣纱女 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

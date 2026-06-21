@@ -1,0 +1,325 @@
+{
+  "title": "困曹府",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "90000021_困曹府.json",
+  "source_folder": "90000000",
+  "plot_summary": "赵匡胤奉郭威之命，往燕京刺杀刘王化，为崔龙所擒。曹彬之嫂张氏救之，赵匡胤乃得释。曹彬邀赵匡胤回\n家，赵匡胤夜间与之私语，讥张氏，张氏闻之羞愤自缢。是夜，赵匡胤梦中见华陀前来为其割瘤，治愈后向\n赵匡胤讨封。赵匡胤封之为神。张氏鬼魂亦来讨封，赵匡胤复封之为华山茶花圣母。醒来，见曹彬因嫂亡大\n哭。乃告以梦中之事，曹彬感戴不已。次日，赵匡胤乃假扮曹彬之兄逃走。",
+  "performance_notes": "此为贯大元藏本，系尹培玺钞本，经吴小如先生订正。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 76,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "华佗": 1,
+        "曹彬": 1,
+        "赵匡胤": 1,
+        "张氏": 1
+      },
+      "links": [
+        {
+          "source": "曹彬",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "张氏",
+          "target": "曹彬",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "曹彬",
+          "value": 1
+        },
+        {
+          "source": "张氏",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "张氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.174,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "曹小姐": 1,
+        "曹彬": 1
+      },
+      "links": [
+        {
+          "source": "曹小姐",
+          "target": "曹彬",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 70,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "华佗": 1,
+        "曹彬": 1,
+        "赵匡胤": 1
+      },
+      "links": [
+        {
+          "source": "曹彬",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "曹彬",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "曹彬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "兄长请。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "贤弟请。",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "张氏",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "轻移莲步到书房，",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "华佗",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "闷坐松林下，修道数百年。三国行医术，自称华佗仙。",
+          "rating": -1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第1场：4位角色，76行",
+      "firstLine": 1,
+      "lastLine": 76,
+      "numLines": 76,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.255,
+        "sentiment": 0.114
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "曹小姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "走哇。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曹彬",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "贤妹何事？",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.42,
+        "conflict": 0.0,
+        "sentiment": 0.103
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "曹彬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "兄长醒来。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "茶花圣母归了位，",
+          "rating": -0.143,
+          "role": "红生"
+        },
+        {
+          "name": "华佗",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第3场：3位角色，70行",
+      "firstLine": 1,
+      "lastLine": 70,
+      "numLines": 70,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.336,
+        "sentiment": 0.028
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹彬",
+      "short": "曹彬",
+      "key": "曹彬",
+      "quote": "曹彬 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张氏",
+      "short": "张氏",
+      "key": "张氏",
+      "quote": "张氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "华佗",
+      "short": "华佗",
+      "key": "华佗",
+      "quote": "华佗 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "曹小姐",
+      "short": "曹小",
+      "key": "曹小姐",
+      "quote": "曹小姐 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -26,7 +26,7 @@ $text-soft: var(--theme-text-soft);
    ============================================================ */
 .t3-screen {
   display: flex; flex-direction: column; gap: 8px;
-  height: 100%; overflow: hidden; padding: 8px 10px 10px;
+  height: 100%; overflow: hidden; padding: 12px;
   color: $ink;
   background: linear-gradient(180deg, rgba(255,253,249,.55), rgba(246,241,231,.38));
 }
@@ -36,79 +36,174 @@ $text-soft: var(--theme-text-soft);
    ============================================================ */
 .t3-topbar {
   display: grid; grid-template-columns: 1fr auto; gap: 14px;
-  padding: 10px 16px; border-radius: 16px; flex-shrink: 0;
+  padding: 10px 16px; border-radius: 12px; min-height: 0; flex-shrink: 0;
   background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.35)), $paper;
-  border: 1px solid $border; box-shadow: 0 8px 18px $shadow;
+  border: 1px solid $border; box-shadow: 0 4px 16px $shadow;
 }
 
-.t3-kicker {
-  font-size: 13px; letter-spacing: .08em; text-transform: uppercase;
-  color: $ochre; font-weight: 600;
-}
+.t3-brand-icon { font-size: 1em; vertical-align: middle; }
 
 .t3-topbar-title-group {
   h1 {
     margin: 2px 0 0; font-size: clamp(1.15rem, 1.5vw, 1.45rem);
     font-family: "PT Serif", "Noto Serif SC", serif; line-height: 1.25; color: $wood;
   }
-  p { color: $text-soft; line-height: 1.5; font-size: 12px; margin: 3px 0 0; max-width: 720px; }
-}
-
-.t3-topbar-report-trigger {
-  display: flex; align-items: center; flex-shrink: 0; justify-content: flex-end;
+  .t3-topbar-desc { display: block; font-size: 10px; color: $text-soft; line-height: 1.5; margin: 2px 0 0; }
 }
 
 .t3-topbar-report-btn {
-  display: inline-flex; align-items: center; align-self: center; gap: 8px;
-  padding: 10px 20px; border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 14px;
   background: linear-gradient(135deg, rgba(212,197,176,.55), rgba(184,149,111,.12));
   border: 1.5px solid $border-soft;
-  font-size: 14px; font-weight: 600; color: $wood; cursor: pointer;
-  transition: all .2s ease;
-  font-family: "Noto Serif SC", "PT Serif", "STSong", "SimSun", serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: $wood;
+  cursor: pointer;
+  transition: all .25s ease;
+  font-family: "PT Serif", "Noto Serif SC", serif;
   white-space: nowrap;
-  &:hover { border-color: $camel; background: linear-gradient(135deg, rgba(212,197,176,.7), rgba(184,149,111,.2)); box-shadow: 0 3px 12px $shadow; transform: translateY(-1px); }
+
+  &:hover {
+    border-color: $camel;
+    background: linear-gradient(135deg, rgba(212,197,176,.72), rgba(184,149,111,.22));
+    box-shadow: 0 3px 14px $shadow, 0 0 0 4px rgba(184,155,109,.08);
+    transform: translateY(-1.5px);
+
+    .t3-report-btn-arrow {
+      transform: translateX(3px);
+      opacity: 1;
+    }
+    .t3-report-btn-sub {
+      color: $ochre;
+    }
+  }
+
   &:active { transform: scale(.97); }
 }
 
-.t3-report-btn-icon { font-size: 18px; flex-shrink: 0; }
+.t3-report-btn-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.t3-report-btn-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.t3-report-btn-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: $wood;
+  line-height: 1.2;
+}
+
+.t3-report-btn-sub {
+  font-size: 10px;
+  font-weight: 400;
+  color: $text-soft;
+  line-height: 1.2;
+  transition: color .25s ease;
+  letter-spacing: .03em;
+}
+
+.t3-report-btn-arrow {
+  font-size: 16px;
+  color: $camel;
+  opacity: .5;
+  transition: transform .25s ease, opacity .25s ease;
+}
 
 /* ============================================================
    Main grid
    ============================================================ */
 .t3-main-grid {
-  display: grid; grid-template-columns: minmax(250px, 19vw) minmax(0, 1fr) minmax(250px, 19vw);
+  display: grid;
+  grid-template-columns: minmax(170px, 13vw) minmax(0, 1fr) minmax(290px, 30vw);
   gap: 8px; flex: 1; min-height: 0; overflow: hidden;
+}
+
+/* 气泡矩阵模式：右侧面板更宽以容纳雷达 */
+.t3-main-grid.expand-right {
+  grid-template-columns: minmax(155px, 10vw) minmax(0, 1fr) minmax(330px, 36vw);
+}
+
+/* 和弦/组合分布/气泡矩阵模式：无左栏，主视图 2/3 + 右侧 1/3 */
+.t3-main-grid.no-left {
+  grid-template-columns: 2fr 1fr;
+}
+
+/* 和弦视图全屏模式：隐藏右侧面板，主视图占满全部宽度 */
+.t3-main-grid.no-left.chord-full {
+  grid-template-columns: 1fr;
+}
+
+/* 共现热力图模式：左热力图45%，右面板55% */
+.t3-main-grid.no-left.heatmap-split {
+  grid-template-columns: 45% 55%;
+}
+
+/* 热力图模式右侧面板：无滚动条，全高 */
+.t3-side-panel-heatmap {
+  overflow: hidden !important;
+  padding-right: 0 !important;
 }
 
 /* ============================================================
    Side Panels
    ============================================================ */
 .t3-side-panel {
-  display: flex; flex-direction: column; gap: 7px; min-height: 0;
-  overflow-y: auto; padding-right: 2px;
-  &::-webkit-scrollbar { width: 3px; }
-  &::-webkit-scrollbar-thumb { background: $border; border-radius: 2px; }
+  display: flex; flex-direction: column; gap: 8px; min-height: 0;
+  overflow-y: auto; padding-right: 4px;
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb { background: $camel; border-radius: 2px; }
+}
+
+/* 左栏横排模式 (和弦/组合分布视图) */
+.t3-left-hpair {
+  flex-direction: row; gap: 8px;
+}
+
+.t3-left-half {
+  flex: 1; min-width: 0; overflow-y: auto;
 }
 
 .t3-side-block {
-  background: linear-gradient(180deg, rgba(255,255,255,.58), rgba(246,241,231,.4)), $paper;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(246,241,231,.35)), $paper;
   border: 1px solid $border; border-radius: 12px;
-  padding: 10px 12px; box-shadow: 0 4px 12px $shadow;
+  padding: 10px 14px; box-shadow: 0 4px 16px $shadow;
   transition: border-color .2s ease, box-shadow .2s ease;
-  &:hover { border-color: $border-strong; box-shadow: 0 6px 16px $shadow; }
+  &:hover { border-color: $border-strong; box-shadow: 0 4px 20px $shadow; }
+}
+
+/* ── 图表侧栏块（弹性高度，供雷达图和组合图平分右侧面板）── */
+.t3-side-chart-block {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow: visible;
 }
 
 .t3-side-block-header {
   display: flex; align-items: center; gap: 5px;
   padding-bottom: 5px; margin-bottom: 6px; border-bottom: 1px solid $border;
-  h3 { margin: 0; font-size: 13px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
-  .t3-side-block-icon { font-size: 14px; flex-shrink: 0; }
+  h3 { margin: 0; font-size: 14px; font-weight: 700; color: $wood; font-family: "PT Serif", "Noto Serif SC", serif; }
+  .t3-side-block-icon { font-size: 15px; flex-shrink: 0; }
 }
 
 .t3-side-block-note {
-  font-size: 10px; color: $text-soft; margin-top: 5px; padding-top: 4px;
-  border-top: 1px solid $border-soft; font-style: italic; line-height: 1.4;
+  font-size: 11px; color: $wood; margin-top: 5px; padding-top: 5px;
+  border-top: 1px solid $border-strong; line-height: 1.4;
+  font-weight: 500; background: rgba(184,149,111,.06); padding: 6px 8px; border-radius: 6px;
 }
 
 /* ============================================================
@@ -169,11 +264,11 @@ $text-soft: var(--theme-text-soft);
    Diversity rows (enhanced)
    ============================================================ */
 .t3-diversity-row {
-  display: flex; align-items: center; gap: 6px;
-  padding: 3px 8px; border-left: 3px solid; border-radius: 0 5px 5px 0;
+  display: flex; align-items: center; gap: 4px;
+  padding: 4px 6px; border-left: 3px solid; border-radius: 0 5px 5px 0;
   margin-bottom: 2px; transition: background .15s;
-  .t3-div-type { font-size: 10px; font-weight: 600; color: $wood; min-width: 60px; }
-  .t3-div-bar-wrap { flex: 1; height: 5px; background: rgba(0,0,0,.05); border-radius: 2px; overflow: hidden; }
+  .t3-div-type { font-size: 11px; font-weight: 600; color: $wood; min-width: 56px; }
+  .t3-div-bar-wrap { flex: 1; height: 7px; background: rgba(0,0,0,.05); border-radius: 2px; overflow: hidden; }
   .t3-div-bar { display: block; height: 100%; border-radius: 2px; transition: width .4s ease; }
   .t3-div-stat { font-size: 10px; color: $text-soft; white-space: nowrap; }
 }
@@ -203,21 +298,50 @@ $text-soft: var(--theme-text-soft);
    PMI rows
    ============================================================ */
 .t3-pmi-row {
-  display: flex; align-items: center; gap: 5px; padding: 3px 0;
-  font-size: 10px; font-weight: 500;
+  display: flex; align-items: center; gap: 5px; padding: 5px 0;
+  font-size: 12px; font-weight: 500;
   .t3-pmi-connector { color: $text-soft; font-size: 12px; }
-  .t3-pmi-val { margin-left: auto; font-size: 9px; color: $text-soft; text-align: right; }
-  .t3-pmi-npmi { display: block; font-size: 8px; color: $ochre; }
+  .t3-pmi-val { margin-left: auto; font-size: 11px; color: $text-soft; white-space: nowrap; display: flex; gap: 4px; align-items: baseline; }
+  .t3-pmi-npmi { font-size: 10px; color: $ochre; }
+}
+
+/* ============================================================
+   Horizontal Pair Layout (NPMI + Similarity side by side)
+   ============================================================ */
+.t3-bottom-block {
+  margin-top: auto;
+}
+
+.t3-hpair {
+  display: flex; gap: 16px;
+}
+
+.t3-hpair-col {
+  flex: 1; min-width: 0;
+  &:first-child { padding-right: 4px; }
+  &:last-child { padding-left: 6px; }
+}
+
+.t3-hpair-subtitle {
+  font-size: 13px; font-weight: 700; color: $wood;
+  border-bottom: 1px solid $border-soft; padding-bottom: 4px; margin-bottom: 6px;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.t3-hpair-note {
+  font-size: 10px; color: $wood; margin-top: 8px;
+  border-top: 1px solid $border-strong; line-height: 1.4;
+  font-weight: 500; background: rgba(184,149,111,.06); padding: 5px 8px; border-radius: 6px;
 }
 
 /* ============================================================
    Genre similarity rows
    ============================================================ */
 .t3-genre-sim-row {
-  display: flex; align-items: center; gap: 5px; padding: 2px 0;
-  font-size: 10px;
-  .t3-genre-sim-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
-  .t3-genre-sim-label { font-weight: 600; color: $wood; min-width: 50px; }
+  display: flex; align-items: center; gap: 5px; padding: 5px 0;
+  font-size: 12px;
+  .t3-genre-sim-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .t3-genre-sim-label { font-weight: 600; color: $wood; min-width: 48px; }
   .t3-genre-sim-arrow { color: $text-soft; }
   .t3-genre-sim-target { color: $text-soft; b { color: $wood; } }
 }
@@ -225,32 +349,174 @@ $text-soft: var(--theme-text-soft);
 /* ============================================================
    Center
    ============================================================ */
-.t3-center { display: flex; flex-direction: column; gap: 6px; min-height: 0; overflow: hidden; }
+.t3-center { display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
 
-.t3-view-switcher {
-  display: flex; gap: 4px; flex-shrink: 0;
-  .t3-view-btn {
-    display: inline-flex; align-items: center; gap: 4px;
-    padding: 5px 12px; border-radius: 9px;
-    background: linear-gradient(135deg, rgba(255,255,255,.55), rgba(250,247,242,.35));
-    border: 1.5px solid $border-soft;
-    font-size: 11px; font-weight: 500; color: $wood; cursor: pointer;
-    transition: all .18s ease; font-family: inherit;
-    &:hover { border-color: $border-strong; box-shadow: 0 2px 6px $shadow; transform: translateY(-1px); }
-    &.active { background: linear-gradient(135deg, rgba(94,58,46,.10), rgba(94,58,46,.05)); border-color: $wood; font-weight: 700; box-shadow: 0 3px 10px $shadow; }
+/* ── View Tabs — 附着在图表卡片顶部 ── */
+.t3-view-tabs {
+  display: flex; gap: 2px; flex-shrink: 0;
+  padding: 4px 6px 0;
+  border-bottom: 1px solid $border-soft;
+  background: linear-gradient(180deg, rgba(250,248,245,.6), transparent);
+}
+.t3-view-tab {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 7px 16px 9px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 10px 10px 0 0;
+  background: transparent;
+  font-size: 11px; font-weight: 500; color: $text-soft; cursor: pointer;
+  transition: all .18s ease; font-family: inherit;
+  margin-bottom: -1px; // overlap the parent border-bottom
+
+  &:hover {
+    color: $wood;
+    background: rgba(184,149,111,.06);
+  }
+
+  &.active {
+    color: $wood;
+    font-weight: 700;
+    border-bottom-color: $wood;
+    background: linear-gradient(180deg, rgba(255,255,255,.5), rgba(255,253,249,.25));
   }
 }
+.t3-view-icon { font-size: 14px; flex-shrink: 0; }
 
-.t3-view-icon { font-size: 13px; }
+/* ── Chart wrap — flex fill remaining space ── */
+.t3-chart-wrap {
+  flex: 1; min-height: 0;
+}
+
+/* ── Bubble Matrix: 学术论文风格 (Nature / IEEE / Tableau) ── */
+.t3-bubble-academic {
+  background:
+    linear-gradient(180deg, rgba(250,248,245,.92), rgba(246,243,238,.85)),
+    #faf8f5 !important;
+  /* 细灰色网格 — 辅助阅读 */
+  background-image:
+    linear-gradient(180deg, rgba(250,248,245,.92), rgba(246,243,238,.85)),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 39px,
+      rgba(180,172,158,.12) 39px,
+      rgba(180,172,158,.12) 40px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 59px,
+      rgba(180,172,158,.10) 59px,
+      rgba(180,172,158,.10) 60px
+    ) !important;
+  border: 1px solid rgba(180,170,155,.3) !important;
+}
 
 .t3-main-vis {
-  flex: 1; min-height: 0;
-  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(246,241,231,.3)), $paper;
+  flex: 1; min-height: 0; display: flex; flex-direction: column;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(246,241,231,.35)), $paper;
   border: 1px solid $border; border-radius: 12px;
-  box-shadow: 0 4px 14px $shadow; overflow: hidden; position: relative;
+  box-shadow: 0 4px 16px $shadow; overflow: hidden; position: relative;
 }
 
 .t3-chart-box { width: 100%; height: 100%; }
+
+/* ── Merged Chord View: 50/50 side-by-side ── */
+.t3-chord-merged {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 12px;
+  padding: 8px;
+}
+
+/* ── 视图框：带边框+标题的图表容器 ── */
+.t3-chord-half {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 1.5px solid rgba(180, 160, 140, 0.35);
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255, 253, 249, 0.45), rgba(246, 241, 231, 0.22));
+  box-shadow: 0 2px 10px rgba(140, 120, 90, 0.06);
+  overflow: hidden;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    border-color: rgba(180, 150, 120, 0.55);
+    box-shadow: 0 4px 16px rgba(140, 120, 90, 0.12);
+  }
+}
+
+.t3-chord-subtitle {
+  font-size: 12px;
+  font-weight: 700;
+  color: $wood;
+  text-align: center;
+  padding: 6px 14px;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  flex-shrink: 0;
+  position: relative;
+
+  /* 标题下方装饰线 */
+  &::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 1px;
+    margin: 4px auto 0;
+    background: linear-gradient(90deg, transparent, $border-strong, transparent);
+  }
+}
+
+.t3-chord-half .t3-chart-box {
+  flex: 1;
+  min-height: 0;
+  padding: 4px 8px 8px;
+}
+
+/* ── 选中气泡详情条 ── */
+.t3-selection-bar {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 14px; flex-shrink: 0;
+  background: linear-gradient(135deg, rgba(255,253,249,.92), rgba(246,241,231,.85));
+  border-top: 1px solid $border-soft;
+  border-radius: 0 0 12px 12px;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  font-size: 12px; color: $wood;
+  transition: all .25s ease;
+}
+
+.t3-selection-dot {
+  width: 12px; height: 12px;
+  border-radius: 50%; flex-shrink: 0;
+  border: 2px solid rgba(255,255,255,.7);
+  box-shadow: 0 1px 4px rgba(0,0,0,.15);
+}
+
+.t3-selection-label {
+  flex: 1; min-width: 0;
+  b { color: $ink; font-weight: 700; }
+}
+
+.t3-selection-val {
+  white-space: nowrap; font-size: 11px;
+  b { color: $ochre; font-weight: 700; font-size: 13px; }
+}
+
+.t3-selection-clear {
+  display: flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; border-radius: 50%;
+  border: 1.5px solid $border-strong;
+  background: rgba(255,255,255,.5);
+  color: $wood; font-size: 11px; cursor: pointer;
+  transition: all .15s ease; flex-shrink: 0; padding: 0; line-height: 1;
+  &:hover { background: $red; color: #fff; border-color: $red; }
+}
 
 /* ============================================================
    Design Process Report Sidebar
@@ -436,6 +702,490 @@ $text-soft: var(--theme-text-soft);
   padding-bottom: 14px; margin-bottom: 16px !important;
   border-bottom: 1px solid $border-soft;
   font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+/* ============================================================
+   Mini Radar (right panel auxiliary)
+   ============================================================ */
+.t3-mini-radar-box {
+  width: 100%;
+  flex: 1;
+  min-height: 200px;
+}
+
+.t3-mini-radar-genre {
+  font-size: 11px; font-weight: 700; margin-left: auto;
+}
+
+/* ── 右侧面板组合分布图（替换 NPMI/相似度板块）── */
+.t3-right-combo-box {
+  width: 100%;
+  flex: 1;
+  min-height: 200px;
+}
+
+/* ============================================================
+   Heatmap Compare Panel (共现热力图右侧面板)
+   ============================================================ */
+.heatmap-compare-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(253,250,244,0.92), rgba(248,244,236,0.85));
+  padding: 6px 8px 10px 8px;
+  border-radius: 12px;
+}
+
+/* ── Top: Search + Mode Toggle ── */
+.hcp-top {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 6px 8px 4px;
+}
+
+.hcp-search-card {
+  background: rgba(255,255,255,0.65);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(220, 210, 195, 0.35);
+  border-radius: 10px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: box-shadow 0.2s;
+  &:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.06); }
+}
+
+.hcp-search-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  .mantine-Autocomplete-root { flex: 1; }
+}
+
+.hcp-search-row .mantine-Autocomplete-input {
+  background: rgba(255,252,248,0.7) !important;
+  border: 1px solid rgba(200,185,165,0.25) !important;
+  border-radius: 8px !important;
+  font-size: 13px !important;
+  color: #3a2c21 !important;
+  transition: all 0.2s;
+  &:focus { border-color: #b89b6d !important; box-shadow: 0 0 0 3px rgba(184,155,109,0.15) !important; }
+}
+
+.hcp-search-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+  opacity: .6;
+}
+
+/* ── Selected play chip ── */
+.hcp-selected-chip {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex: 1;
+  min-width: 0;
+}
+
+.hcp-selected-name {
+  font-weight: 700;
+  font-size: 14px;
+  color: $ink;
+  font-family: "Noto Serif SC", "PT Serif", serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hcp-selected-meta {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: rgba(184,155,109,.12);
+  color: $wood;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.hcp-selected-clear {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background: none;
+  cursor: pointer;
+  color: $text-soft;
+  font-size: 12px;
+  transition: all .15s ease;
+  margin-left: auto;
+
+  &:hover {
+    color: #c44;
+    background: rgba(200,68,68,.08);
+    border-color: rgba(200,68,68,.2);
+  }
+}
+
+.hcp-suggest-dropdown {
+  background: #fffefb;
+  border: 1.5px solid $border-soft;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px $shadow;
+  max-height: 160px;
+  overflow-y: auto;
+}
+
+.hcp-suggest-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background .12s;
+  border-bottom: 1px solid rgba(0,0,0,.04);
+  &:last-child { border-bottom: none; }
+  &:hover { background: rgba(184,149,111,.12); }
+  .hcp-suggest-name { font-weight: 500; color: $ink; }
+  .hcp-suggest-genre {
+    font-size: 11px;
+    color: $text-soft;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+}
+
+.hcp-mode-tabs {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.hcp-mode-btn {
+  border-radius: 20px;
+  padding: 4px 16px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid rgba(200,185,165,0.3);
+  background: transparent;
+  color: #7a6a5a;
+  transition: all 0.25s;
+  font-family: inherit;
+  cursor: pointer;
+  &:hover { border-color: #b89b6d; color: #5a3a2a; }
+  &.active {
+    background: #f0e8dc;
+    border-color: #b89b6d;
+    color: #4a2a1a;
+    font-weight: 700;
+    box-shadow: 0 1px 4px rgba(184,155,109,0.2);
+  }
+}
+
+.hcp-clear-btn {
+  border-radius: 20px;
+  border: 1px solid rgba(180,120,90,0.25);
+  background: rgba(200,80,60,0.05);
+  color: #b06050;
+  font-size: 11px;
+  padding: 3px 12px;
+  transition: all 0.2s;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-left: auto;
+  &:hover { background: rgba(200,80,60,0.15); border-color: #b06050; }
+}
+
+/* ── Middle: Radar Chart (高度占比增大) ── */
+.hcp-middle {
+  flex: 4;
+  min-height: 0;
+  padding: 0 2px;
+}
+
+.hcp-radar-card {
+  height: 100%;
+  position: relative;
+  padding: 4px;
+  background: rgba(255,252,248,0.3);
+  border: none;
+  box-shadow: inset 0 0 0 1px rgba(220,210,195,0.2);
+  border-radius: 12px;
+  overflow: visible !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hcp-radar-chart {
+  width: 100%;
+  height: 100%;
+}
+
+.hcp-radar-card > div {
+  height: 100% !important;
+  width: 100% !important;
+  overflow: visible;
+}
+
+.hcp-radar-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: $text-soft;
+  background: rgba(255,253,249,.85);
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  letter-spacing: .03em;
+  border-radius: 8px;
+}
+
+/* ── Bottom: Info Cards / Comparison (高度占比减小) ── */
+.hcp-bottom {
+  flex: 2;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 4px 10px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hcp-bottom-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  margin-bottom: 2px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid $border-soft;
+}
+
+/* Unified card stack */
+.hcp-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.hcp-card {
+  padding: 7px 9px;
+  border-radius: 8px;
+
+  &--bordered {
+    background: rgba(255,252,248,0.7);
+    border: 1px solid rgba(220,210,195,0.3);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+    border-radius: 10px;
+    padding: 10px 12px;
+    margin-bottom: 6px;
+  }
+}
+
+.hcp-card-title {
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: #4a3a2a;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.hcp-card p {
+  margin: 0;
+  font-size: 11px;
+  color: $ink;
+  line-height: 1.55;
+}
+
+/* Hot topics: bar-based */
+.hcp-hot-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 0;
+  .hcp-hot-rank { font-size: 11px; font-weight: 700; color: #b89b6d; min-width: 18px; }
+  .hcp-hot-name { font-size: 12px; font-weight: 600; color: $wood; min-width: 36px; }
+  .hcp-hot-bar-wrap { flex: 1; height: 6px; background: rgba(0,0,0,.04); border-radius: 3px; overflow: hidden; }
+  .hcp-hot-bar { height: 100%; border-radius: 3px; background: linear-gradient(90deg, $camel, $ochre); transition: width .4s ease; }
+  .hcp-hot-score { font-size: 11px; color: $text-soft; font-weight: 600; min-width: 28px; text-align: right; }
+}
+
+/* Role distribution bars */
+.hcp-role-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hcp-role-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  .hcp-role-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: $wood;
+    min-width: 20px;
+    text-align: center;
+  }
+  .hcp-role-bar-wrap {
+    flex: 1;
+    height: 8px;
+    background: rgba(0,0,0,0.04);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .hcp-role-bar {
+    height: 100%;
+    border-radius: 4px;
+    transition: width .3s ease;
+  }
+  .hcp-role-count {
+    font-size: 11px;
+    color: $text-soft;
+    min-width: 24px;
+    text-align: right;
+  }
+}
+
+/* Narrative bars */
+.hcp-narrative-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.hcp-narrative-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  .hcp-narr-label {
+    font-size: 12px;
+    color: $ink;
+    min-width: 56px;
+  }
+  .hcp-narr-bar-wrap {
+    flex: 1;
+    height: 12px;
+    background: rgba(0,0,0,.04);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .hcp-narr-bar {
+    height: 100%;
+    border-radius: 4px;
+    transition: width .4s ease;
+  }
+  .hcp-narr-val {
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 32px;
+    text-align: right;
+  }
+}
+
+/* Compare mode: structured comparison cards */
+.hcp-compare-card {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+
+  .hcp-compare-card-icon {
+    font-size: 16px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+}
+
+.hcp-compare-card-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hcp-compare-card-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: $wood;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+}
+
+.hcp-compare-card-main {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.hcp-compare-card-winner {
+  font-size: 14px;
+  font-weight: 800;
+  color: $ink;
+  font-family: "Noto Serif SC", "PT Serif", serif;
+}
+
+.hcp-compare-card-vs {
+  font-size: 10px;
+  color: $text-soft;
+  font-weight: 500;
+}
+
+.hcp-compare-card-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hcp-compare-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hcp-compare-bar-name {
+  font-size: 10px;
+  color: $text-soft;
+  min-width: 36px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hcp-compare-bar-track {
+  flex: 1;
+  height: 7px;
+  background: rgba(0,0,0,.04);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.hcp-compare-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width .4s ease;
+}
+
+.hcp-compare-bar-val {
+  font-size: 11px;
+  min-width: 28px;
+  text-align: right;
 }
 
 /* ============================================================

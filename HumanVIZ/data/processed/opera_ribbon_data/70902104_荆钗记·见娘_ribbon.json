@@ -1,0 +1,390 @@
+{
+  "title": "荆钗记·见娘",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70902104_荆钗记·见娘.json",
+  "source_folder": "70902000",
+  "plot_summary": "王十朋考中状元，拒绝万俟相府的招赘，得罪了权相，因此由初任饶州佥判改调潮阳，已写信回家报喜，等\n候母妻到京，即便赴任。岂知家书被人套写，改为休书，妻子钱玉莲拒绝改嫁，被逼投江（遇救不死，但家\n中未知）。《见娘》一出，写王母到京，王十朋不见妻子同来，因而生疑，及见王母袖中落出孝头绳，更加\n追询，王母不得不叙说经过；王十朋闻讯昏倒，痛悼妻子之亡。",
+  "performance_notes": "此剧唱做并重，哀惋动人，为“冠生”重头戏“书、见、惊”（《书馆》、《见娘》、《惊变》）之一，俞\n振飞演出次数很多。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.18,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "长班": 1,
+        "王十朋": 1
+      },
+      "links": [
+        {
+          "source": "王十朋",
+          "target": "长班",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 68,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.875,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "长班": 1,
+        "王十朋": 1,
+        "王母": 1,
+        "李成": 1
+      },
+      "links": [
+        {
+          "source": "李成",
+          "target": "王母",
+          "value": 1
+        },
+        {
+          "source": "李成",
+          "target": "长班",
+          "value": 1
+        },
+        {
+          "source": "李成",
+          "target": "王十朋",
+          "value": 1
+        },
+        {
+          "source": "王母",
+          "target": "长班",
+          "value": 1
+        },
+        {
+          "source": "王十朋",
+          "target": "王母",
+          "value": 1
+        },
+        {
+          "source": "王十朋",
+          "target": "长班",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 208,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王十朋": 1,
+        "王母": 1,
+        "李成": 1
+      },
+      "links": [
+        {
+          "source": "王十朋",
+          "target": "王母",
+          "value": 1
+        },
+        {
+          "source": "李成",
+          "target": "王十朋",
+          "value": 1
+        },
+        {
+          "source": "李成",
+          "target": "王母",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 21,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.27,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王十朋": 1,
+        "王母": 1,
+        "李成": 1
+      },
+      "links": [
+        {
+          "source": "李成",
+          "target": "王十朋",
+          "value": 1
+        },
+        {
+          "source": "李成",
+          "target": "王母",
+          "value": 1
+        },
+        {
+          "source": "王十朋",
+          "target": "王母",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王十朋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一幅鸾笺飞报喜，垂白母想已知之。日渐过期，人何不至？心下转添萦系。",
+          "rating": 1.0,
+          "role": "冠生"
+        },
+        {
+          "name": "长班",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.441,
+        "conflict": 0.0,
+        "sentiment": 0.771
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "老安人走吓！",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "王母",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "远别生离辞故里，经历尽万种孤凄。",
+          "rating": -0.333,
+          "role": "老旦"
+        },
+        {
+          "name": "长班",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "什么人？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "王十朋",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "怎么说？",
+          "rating": 1.0,
+          "role": "冠生"
+        }
+      ],
+      "summary": "第2场：4位角色，68行",
+      "firstLine": 1,
+      "lastLine": 68,
+      "numLines": 68,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.897,
+        "conflict": 0.216,
+        "sentiment": 0.282
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王十朋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "母亲请上，待孩儿拜见。",
+          "rating": 0.2,
+          "role": "冠生"
+        },
+        {
+          "name": "王母",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "罢了。",
+          "rating": -0.6,
+          "role": "老旦"
+        },
+        {
+          "name": "李成",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "状元老爷。",
+          "rating": 0.5,
+          "role": "末"
+        }
+      ],
+      "summary": "第3场：3位角色，208行",
+      "firstLine": 1,
+      "lastLine": 208,
+      "numLines": 208,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.16,
+        "sentiment": 0.126
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "状元老爷，老奴告回。",
+          "rating": -0.333,
+          "role": "末"
+        },
+        {
+          "name": "王十朋",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "吓？你怎么就要回去了？",
+          "rating": 0.333,
+          "role": "冠生"
+        },
+        {
+          "name": "王母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "十朋！",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第4场：3位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.761,
+        "conflict": 0.328,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王十朋",
+      "short": "王十",
+      "key": "王十朋",
+      "quote": "王十朋 — 冠生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 冠生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王母",
+      "short": "王母",
+      "key": "王母",
+      "quote": "王母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李成",
+      "short": "李成",
+      "key": "李成",
+      "quote": "李成 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "长班",
+      "short": "长班",
+      "key": "长班",
+      "quote": "长班 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

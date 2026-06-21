@@ -1,0 +1,268 @@
+{
+  "title": "紫荆树",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01015010_紫荆树.json",
+  "source_folder": "01000000",
+  "plot_summary": "田三妻李氏三春，主张分家之说，两兄不依。日夜吵闹，且迁怒于灶神，斥其不加佑护，将偶像肆行打骂。\n田三素性懦弱，惟妻言是听。两兄出于无奈，姑为之顺从其意，检点财产什物，一一配搭匀净，三股公分，\n始不闻有河东狮吼云。",
+  "performance_notes": "相传有田大、田二、田三，兄弟三人，各执一业，均已娶有妻室，同居合爨，从无间言。惟田三之妻，系小\n家女，识见卑陋，日夜在丈夫前撺掇，以为家中财产，均由大伯们掌管，用一说十，用十说百，有谁对证，\n暗中私蓄不少，早早分析，庶不吃亏。田三惑于妻言，对两兄说明分析之理由，央亲戚屡屡催促。两兄将所\n有家业，均派三股，庭前大紫荆树，议定砍倒公分。次日视之，枝叶全枯，毫无生气。兄弟因之感悟，相抱\n痛哭，不忍再行分析。田三欲逐出其妻，妻遂怀惭自缢。此说部《今古奇观》第一回楔子中所载紫荆树之大\n略也。剧本将此情节，改头换面。\n剧中描摹妇女之性情，泼悍之状态，惟妙惟肖。的是写生能手，词句间粗俗鄙俚，即其出色当行处。以名角\n配演之，自足令观剧者掩口葫芦。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 39,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.574,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "灶君": 1,
+        "李三春": 1,
+        "田大": 1
+      },
+      "links": [
+        {
+          "source": "李三春",
+          "target": "田大",
+          "value": 1
+        },
+        {
+          "source": "李三春",
+          "target": "灶君",
+          "value": 1
+        },
+        {
+          "source": "灶君",
+          "target": "田大",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 97,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "田大妻": 1,
+        "田二": 1,
+        "李三春": 1,
+        "田大": 1
+      },
+      "links": [
+        {
+          "source": "田大",
+          "target": "田大妻",
+          "value": 1
+        },
+        {
+          "source": "李三春",
+          "target": "田大",
+          "value": 1
+        },
+        {
+          "source": "田二",
+          "target": "田大",
+          "value": 1
+        },
+        {
+          "source": "李三春",
+          "target": "田大妻",
+          "value": 1
+        },
+        {
+          "source": "田二",
+          "target": "田大妻",
+          "value": 1
+        },
+        {
+          "source": "李三春",
+          "target": "田二",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李三春",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "田大",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "迈步且把后院进，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "灶君",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "李氏三春太不良，终朝每日打灶王。明日上殿奏一本，叫她师傅屁股眼下长大",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.556,
+        "sentiment": 0.385
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "田大",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "读书求功名，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "田大妻",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "拜佛念经文。",
+          "rating": 0.0,
+          "role": "青衣"
+        },
+        {
+          "name": "李三春",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "田二",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "吓哈！",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：4位角色，97行",
+      "firstLine": 1,
+      "lastLine": 97,
+      "numLines": 97,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.435,
+        "sentiment": 0.371
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李三春",
+      "short": "李三",
+      "key": "李三春",
+      "quote": "李三春 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "田大",
+      "short": "田大",
+      "key": "田大",
+      "quote": "田大 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "田二",
+      "short": "田二",
+      "key": "田二",
+      "quote": "田二 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "田大妻",
+      "short": "田大",
+      "key": "田大妻",
+      "quote": "田大妻 — 青衣",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 青衣",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "灶君",
+      "short": "灶君",
+      "key": "灶君",
+      "quote": "灶君 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "title": "艳云亭·痴诉",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70902172_艳云亭·痴诉.json",
+  "source_folder": "70902000",
+  "plot_summary": "枢密萧凤韶被奸臣王钦若参奏，调征西夏。其女萧惜芬遭迫害，入选制仪司，为虞侯毕泓救出出后，假装疯\n癫，寻到盲卜人诸葛暗，以求庇护。",
+  "performance_notes": "正旦、丑主戏。正旦唱〖斗鹌鹑〗北曲一套，曲调悠扬动听，于载歌载舞中表演痴儿情状，独具持色。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 27,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.908,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "诸葛暗": 1,
+        "老官": 1,
+        "萧惜芬": 1,
+        "小厮乙": 1,
+        "小厮甲": 1
+      },
+      "links": [
+        {
+          "source": "老官",
+          "target": "诸葛暗",
+          "value": 1
+        },
+        {
+          "source": "老官",
+          "target": "萧惜芬",
+          "value": 1
+        },
+        {
+          "source": "小厮甲",
+          "target": "老官",
+          "value": 1
+        },
+        {
+          "source": "小厮乙",
+          "target": "老官",
+          "value": 1
+        },
+        {
+          "source": "萧惜芬",
+          "target": "诸葛暗",
+          "value": 1
+        },
+        {
+          "source": "小厮甲",
+          "target": "诸葛暗",
+          "value": 1
+        },
+        {
+          "source": "小厮乙",
+          "target": "诸葛暗",
+          "value": 1
+        },
+        {
+          "source": "小厮甲",
+          "target": "萧惜芬",
+          "value": 1
+        },
+        {
+          "source": "小厮乙",
+          "target": "萧惜芬",
+          "value": 1
+        },
+        {
+          "source": "小厮乙",
+          "target": "小厮甲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 82,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "萧惜芬": 1,
+        "老官": 1,
+        "诸葛暗": 1
+      },
+      "links": [
+        {
+          "source": "萧惜芬",
+          "target": "诸葛暗",
+          "value": 1
+        },
+        {
+          "source": "老官",
+          "target": "诸葛暗",
+          "value": 1
+        },
+        {
+          "source": "老官",
+          "target": "萧惜芬",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.269,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "萧惜芬": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.067,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "老官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "先生！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "诸葛暗",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "昏昏度年，",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "萧惜芬",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "做什么？",
+          "rating": 0.0,
+          "role": "正旦"
+        },
+        {
+          "name": "小厮甲",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "小厮乙",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第1场：5位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.972,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛暗",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "㕶笃个星贼种！爹多娘少个格？",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "萧惜芬",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你们再来玩耍㖸！",
+          "rating": 1.0,
+          "role": "正旦"
+        },
+        {
+          "name": "老官",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "先生！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：3位角色，82行",
+      "firstLine": 1,
+      "lastLine": 82,
+      "numLines": 82,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.211,
+        "sentiment": 0.313
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "萧惜芬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呀！先生竟自去了！前日记得毕泓放我之时叫我去寻诸葛先生，可解我的大难，",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第3场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.556,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第4场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.02,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "萧惜芬",
+      "short": "萧惜",
+      "key": "萧惜芬",
+      "quote": "萧惜芬 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "诸葛暗",
+      "short": "诸葛",
+      "key": "诸葛暗",
+      "quote": "诸葛暗 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "小厮甲",
+      "short": "小厮",
+      "key": "小厮甲",
+      "quote": "小厮甲 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "小厮乙",
+      "short": "小厮",
+      "key": "小厮乙",
+      "quote": "小厮乙 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "老官",
+      "short": "老官",
+      "key": "老官",
+      "quote": "老官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

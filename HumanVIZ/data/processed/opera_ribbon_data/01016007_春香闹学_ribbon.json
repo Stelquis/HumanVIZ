@@ -1,0 +1,313 @@
+{
+  "title": "春香闹学",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01016007_春香闹学.json",
+  "source_folder": "01000000",
+  "plot_summary": "杜姓，宦家也。请一西席，系村中老学究，陈其姓，最良其名，为女公子教授。小婢春香，亦在学堂伴读。\n陈先生坐拥皋比，非常严厉，未尝稍假以辞色。而春香桀黠性成，不知读书为何事，及至书房，一味玩笑嬉\n戏，于先生前肆无忌惮。先生示以夏楚，反被春香夺而掷于地。先生无如之何，几欲辞馆他适。杜女即将春\n香痛责一番，且代为缓颊，命春香跪求饶恕，先生始不与之计较云。",
+  "performance_notes": "按此剧由昆腔翻入京调，系贴旦唱做重头。曾见沪上著名青衫梅兰芳演过，唱工做工，无瑕可击，诚所谓尽\n善尽美。且梅伶之风流旖旎，又出色当行，宜乎卖座为之一空，而拍手叫好之声浪，时时喧阗于耳鼓也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 135,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "杜丽娘": 1,
+        "陈最良": 1,
+        "春香": 1
+      },
+      "links": [
+        {
+          "source": "春香",
+          "target": "陈最良",
+          "value": 1
+        },
+        {
+          "source": "春香",
+          "target": "杜丽娘",
+          "value": 1
+        },
+        {
+          "source": "杜丽娘",
+          "target": "陈最良",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 87,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "杜丽娘": 1,
+        "陈最良": 1,
+        "春香": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "杜丽娘",
+          "target": "陈最良",
+          "value": 1
+        },
+        {
+          "source": "春香",
+          "target": "杜丽娘",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "杜丽娘",
+          "value": 1
+        },
+        {
+          "source": "春香",
+          "target": "陈最良",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "陈最良",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "春香",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 23,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.282,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "杜丽娘": 1,
+        "春香": 1
+      },
+      "links": [
+        {
+          "source": "春香",
+          "target": "杜丽娘",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "春香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "小春香，一种在人奴上，",
+          "rating": 1.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "陈最良",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "吟余改抹前春句，饭后寻思午晌茶。蚁上案头沿砚水，蜂穿窗眼咂瓶花。",
+          "rating": 0.714,
+          "role": "末"
+        },
+        {
+          "name": "杜丽娘",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "素妆才罢，散步书堂下，",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：3位角色，135行",
+      "firstLine": 1,
+      "lastLine": 135,
+      "numLines": 135,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.349,
+        "sentiment": 0.652
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "请问师母，今年多少尊年了？",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "陈最良",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "目下平头六十。",
+          "rating": -0.333,
+          "role": "末"
+        },
+        {
+          "name": "春香",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "阿呀，我只管在此读书，不知那边还有一座大花园，桃红柳绿。阿呀，阿呀，",
+          "rating": 0.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "家院",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "老爷请先生讲话。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：4位角色，87行",
+      "firstLine": 1,
+      "lastLine": 87,
+      "numLines": 87,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.367,
+        "sentiment": 0.076
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "春香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啐，老白毛，老厌物，不知趣的老村牛。",
+          "rating": 0.333,
+          "role": "贴旦"
+        },
+        {
+          "name": "杜丽娘",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "春香，为何背后骂先生。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：2位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.684,
+        "conflict": 0.615,
+        "sentiment": 0.168
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "春香",
+      "short": "春香",
+      "key": "春香",
+      "quote": "春香 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杜丽娘",
+      "short": "杜丽",
+      "key": "杜丽娘",
+      "quote": "杜丽娘 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "陈最良",
+      "short": "陈最",
+      "key": "陈最良",
+      "quote": "陈最良 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,950 @@
+{
+  "title": "红桃山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 11,
+  "num_characters": 14,
+  "num_locations": 1,
+  "source_file": "02009040_红桃山.json",
+  "source_folder": "02000000",
+  "plot_summary": "郑玉娥占守红桃山，自立为尊。林冲奉宋江命，前往夺取，被郑玉娥打败。及关胜运粮前来，迎战郑玉娥，\n亦未能得胜。最后宋江又派花荣助阵，林冲、关胜、花荣三人一齐上阵，始得将郑玉娥生擒，押回梁山。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 24,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 1.208,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "四青旗": 1,
+        "四下手": 1,
+        "余龙": 1,
+        "林冲": 1
+      },
+      "links": [
+        {
+          "source": "四下手",
+          "target": "林冲",
+          "value": 1
+        },
+        {
+          "source": "余龙",
+          "target": "四青旗",
+          "value": 1
+        },
+        {
+          "source": "余龙",
+          "target": "林冲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 24,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 1.192,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "探子": 1,
+        "林冲": 1,
+        "郑玉娥": 1,
+        "关胜": 1,
+        "四下手": 1,
+        "四红旗": 1
+      },
+      "links": [
+        {
+          "source": "探子",
+          "target": "郑玉娥",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "林冲",
+          "value": 1
+        },
+        {
+          "source": "林冲",
+          "target": "郑玉娥",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "郑玉娥",
+          "value": 1
+        },
+        {
+          "source": "关胜",
+          "target": "四红旗",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 30,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.388,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "报子": 1,
+        "火星": 1,
+        "四火旗": 1,
+        "林冲": 1,
+        "四喽兵": 1,
+        "郑玉娥": 1,
+        "关胜": 1,
+        "花荣": 1
+      },
+      "links": [
+        {
+          "source": "报子",
+          "target": "林冲",
+          "value": 1
+        },
+        {
+          "source": "关胜",
+          "target": "林冲",
+          "value": 2
+        },
+        {
+          "source": "关胜",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四火旗",
+          "target": "火星",
+          "value": 1
+        },
+        {
+          "source": "关胜",
+          "target": "火星",
+          "value": 1
+        },
+        {
+          "source": "火星",
+          "target": "郑玉娥",
+          "value": 1
+        },
+        {
+          "source": "关胜",
+          "target": "四火旗",
+          "value": 1
+        },
+        {
+          "source": "四火旗",
+          "target": "郑玉娥",
+          "value": 1
+        },
+        {
+          "source": "关胜",
+          "target": "郑玉娥",
+          "value": 2
+        },
+        {
+          "source": "四喽兵",
+          "target": "花荣",
+          "value": 1
+        },
+        {
+          "source": "林冲",
+          "target": "花荣",
+          "value": 1
+        },
+        {
+          "source": "关胜",
+          "target": "花荣",
+          "value": 1
+        },
+        {
+          "source": "花荣",
+          "target": "郑玉娥",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "林冲",
+          "value": 1
+        },
+        {
+          "source": "关胜",
+          "target": "四喽兵",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "郑玉娥",
+          "value": 1
+        },
+        {
+          "source": "林冲",
+          "target": "郑玉娥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 28,
+      "summary": "第十场；第十一场",
+      "conflict": 0.044,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "众兵卒": 1,
+        "林冲": 1,
+        "郑玉娥": 1,
+        "关胜": 1,
+        "花荣": 1
+      },
+      "links": [
+        {
+          "source": "关胜",
+          "target": "林冲",
+          "value": 2
+        },
+        {
+          "source": "林冲",
+          "target": "花荣",
+          "value": 2
+        },
+        {
+          "source": "关胜",
+          "target": "花荣",
+          "value": 2
+        },
+        {
+          "source": "众兵卒",
+          "target": "花荣",
+          "value": 1
+        },
+        {
+          "source": "众兵卒",
+          "target": "林冲",
+          "value": 1
+        },
+        {
+          "source": "众兵卒",
+          "target": "关胜",
+          "value": 1
+        },
+        {
+          "source": "众兵卒",
+          "target": "郑玉娥",
+          "value": 1
+        },
+        {
+          "source": "花荣",
+          "target": "郑玉娥",
+          "value": 1
+        },
+        {
+          "source": "林冲",
+          "target": "郑玉娥",
+          "value": 1
+        },
+        {
+          "source": "关胜",
+          "target": "郑玉娥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "四下手",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哦。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "林冲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "镇守山岗，剪恶除强，奉将令，消灭奸党，要把狼烟扫荡。",
+          "rating": 1.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第一场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.476,
+        "conflict": 0.0,
+        "sentiment": 0.768
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "余龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "久占红桃山，奉令掌兵权。绿林重义气，威名镇山川。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四青旗",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.259,
+        "conflict": 1.0,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "余龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来将何名。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "林冲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "豹子头林冲。尔是何人？",
+          "rating": -1.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第三场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.468,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "郑玉娥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "女将英雄，镇守山峰，金刀动，神鬼皆惊，谁敢樱五锋。",
+          "rating": -1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "探子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报启大王：先锋阵前丧命。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.502,
+        "conflict": 1.0,
+        "sentiment": -0.432
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "林冲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "众好汉，这丫头杀法厉害，收兵。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哦。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郑玉娥",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第五场：3位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.609,
+        "conflict": 1.0,
+        "sentiment": -0.04
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关胜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "俺，大刀关胜，奉了大哥将令，押解粮草，前往红桃山听用。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "四红旗",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哦。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.459,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "林冲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "眼盼救兵，坐卧不宁。",
+          "rating": 0.5,
+          "role": "生"
+        },
+        {
+          "name": "报子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "关将军到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关胜",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "好说，大哥为何免战高悬？",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.677,
+        "conflict": 1.0,
+        "sentiment": 0.548
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "火星",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "某，火德星君是也。今有关胜，在红桃山中有难，不免前去搭救。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四火旗",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哦。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关胜",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "郑玉娥",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第八场：4位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.618,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "花荣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "云雾飘飘绿水茫，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四喽兵",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "林冲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "关胜",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "郑玉娥",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 0.333,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第九场：5位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.793,
+        "conflict": 1.0,
+        "sentiment": 0.5
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "林冲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "眼观旌旗起，耳听好消息。",
+          "rating": 1.0,
+          "role": "生"
+        },
+        {
+          "name": "关胜",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大败而回。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "花荣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "花将军到。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.711,
+        "conflict": 1.0,
+        "sentiment": 0.364
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "众兵卒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "贼寇被擒。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "花荣",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "众好汉。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "林冲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "关胜",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "郑玉娥",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第十一场：5位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.793,
+        "conflict": 0.952,
+        "sentiment": 0.32
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "郑玉娥",
+      "short": "郑玉",
+      "key": "郑玉娥",
+      "quote": "郑玉娥 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "林冲",
+      "short": "林冲",
+      "key": "林冲",
+      "quote": "林冲 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "关胜",
+      "short": "关胜",
+      "key": "关胜",
+      "quote": "关胜 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众兵卒",
+      "short": "众兵",
+      "key": "众兵卒",
+      "quote": "众兵卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "火星",
+      "short": "火星",
+      "key": "火星",
+      "quote": "火星 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四火旗",
+      "short": "四火",
+      "key": "四火旗",
+      "quote": "四火旗 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青旗",
+      "short": "四青",
+      "key": "四青旗",
+      "quote": "四青旗 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四喽兵",
+      "short": "四喽",
+      "key": "四喽兵",
+      "quote": "四喽兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "花荣",
+      "short": "花荣",
+      "key": "花荣",
+      "quote": "花荣 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "余龙",
+      "short": "余龙",
+      "key": "余龙",
+      "quote": "余龙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四红旗",
+      "short": "四红",
+      "key": "四红旗",
+      "quote": "四红旗 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

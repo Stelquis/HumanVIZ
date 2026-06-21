@@ -1,0 +1,443 @@
+{
+  "title": "遇皇后",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "03053003_遇皇后.json",
+  "source_folder": "03000000",
+  "plot_summary": "包拯往陈州放粮，路过天齐庙，有盲丐妇吿状，备言当年刘妃、郭槐以狸猫换太子事。包拯始知盲妇为李后，\n遂允回朝辩冤。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.226,
+      "locations": {
+        "） 天齐庙": 1
+      },
+      "characters": {
+        "马汉": 1,
+        "包拯": 1
+      },
+      "links": [
+        {
+          "source": "包拯",
+          "target": "马汉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.132,
+      "locations": {
+        "） 天齐庙": 1
+      },
+      "characters": {
+        "地方": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 34,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.642,
+      "locations": {
+        "） 天齐庙": 1
+      },
+      "characters": {
+        "包拯": 1,
+        "李后": 1,
+        "众百姓": 1
+      },
+      "links": [
+        {
+          "source": "众百姓",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "包拯",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 159,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "） 天齐庙": 1
+      },
+      "characters": {
+        "马汉": 1,
+        "包拯": 1,
+        "李后": 1,
+        "地方": 1,
+        "王朝": 1,
+        "众百姓": 1
+      },
+      "links": [
+        {
+          "source": "包拯",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "地方",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "李后",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "王朝",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "地方",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "地方",
+          "value": 1
+        },
+        {
+          "source": "地方",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "地方",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "李后",
+          "target": "马汉",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "） 天齐庙",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一片丹心，保宋主，锦綉龙廷。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "马汉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.451,
+        "conflict": 0.0,
+        "sentiment": 0.768
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "） 天齐庙",
+      "characters": [
+        {
+          "name": "地方",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.53,
+        "conflict": 0.0,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "） 天齐庙",
+      "characters": [
+        {
+          "name": "李后",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "苦哇！",
+          "rating": -0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "众百姓",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "包拯",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：3位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.711,
+        "conflict": 0.784,
+        "sentiment": 0.044
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "） 天齐庙",
+      "characters": [
+        {
+          "name": "王朝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "狂风大起！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "包拯",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "住轿！",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "地方",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "参见老大人！",
+          "rating": -0.2,
+          "role": "丑"
+        },
+        {
+          "name": "众百姓",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "我们不冤。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李后",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "且慢！",
+          "rating": 0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "马汉",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：6位角色，159行",
+      "firstLine": 1,
+      "lastLine": 159,
+      "numLines": 159,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.187,
+        "sentiment": 0.193
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "包拯",
+      "short": "包拯",
+      "key": "包拯",
+      "quote": "包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "李后",
+      "short": "李后",
+      "key": "李后",
+      "quote": "李后 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "地方",
+      "short": "地方",
+      "key": "地方",
+      "quote": "地方 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "马汉",
+      "short": "马汉",
+      "key": "马汉",
+      "quote": "马汉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王朝",
+      "short": "王朝",
+      "key": "王朝",
+      "quote": "王朝 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众百姓",
+      "short": "众百",
+      "key": "众百姓",
+      "quote": "众百姓 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "） 天齐庙",
+      "key": "） 天齐庙",
+      "quote": "场景发生在） 天齐庙"
+    }
+  ]
+}

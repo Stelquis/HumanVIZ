@@ -1,0 +1,1333 @@
+{
+  "title": "双投唐",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 7,
+  "num_scenes": 14,
+  "num_characters": 11,
+  "num_locations": 7,
+  "source_file": "01004010_双投唐.json",
+  "source_folder": "01000000",
+  "plot_summary": "隋末群雄并起，纷纷割据，人才济济，初以瓦岗寨为最盛。李密主之，既而人心离叛，群雄多去密投唐。瓦\n岗渐失败，李密势日孤。所未去者王伯党一人而已。王伯党见李密兵微将寡，数为唐困，知大势已去，负隅\n无益，因劝李密降唐。李密恐唐不纳，反见辱，因先使王伯党往探李世民意。李渊父子至，悉李密有降意，\n甚喜，许以王爵，并赐公主为李密妻。王伯党复李密后，遂同投大唐。路遇李世民打围，拾得李世民射死之\n雁，借此进见。李世民引二人回见其父，厚待李密，俱如前约。在唐之待李密，固云厚矣，而李密终以为寄\n人篱下，不若独树一帜。悔念一萌，叛心顿起，酒后与公主商酌起事，公主不从，旋手刃之。王伯党闻悉大\n惊，深怪李密作事孟浪，遂劝速逃，己愿护之同行。李密遂夤夜出城，离城不远，而李世民已率追兵至矣。\n二人至断密涧，恐被擒受辱，遂自刎而死。王伯党可谓忠于李密矣，惜其择主未当，而不得善终也。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 106,
+      "summary": "第一场；第二场",
+      "conflict": 0.463,
+      "importance": 1.0,
+      "locations": {
+        "贾家楼": 2
+      },
+      "characters": {
+        "王伯党": 1,
+        "李密": 1
+      },
+      "links": [
+        {
+          "source": "李密",
+          "target": "王伯党",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 26,
+      "summary": "第三场；第四场",
+      "conflict": 0.524,
+      "importance": 0.318,
+      "locations": {
+        "银弓山": 2
+      },
+      "characters": {
+        "内侍": 1,
+        "李密": 1,
+        "李世民": 1
+      },
+      "links": [
+        {
+          "source": "内侍",
+          "target": "李世民",
+          "value": 2
+        },
+        {
+          "source": "李世民",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "李密",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 109,
+      "summary": "第五场；第六场",
+      "conflict": 0.262,
+      "importance": 1.0,
+      "locations": {
+        "贾家楼": 2
+      },
+      "characters": {
+        "王伯党": 1,
+        "李密": 1,
+        "内侍": 1,
+        "李世民": 1
+      },
+      "links": [
+        {
+          "source": "李密",
+          "target": "王伯党",
+          "value": 2
+        },
+        {
+          "source": "李世民",
+          "target": "王伯党",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "王伯党",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "李密",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 194,
+      "summary": "第七场；第八场",
+      "conflict": 0.306,
+      "importance": 1.0,
+      "locations": {
+        "嘹亮来深台": 1,
+        "贾家楼": 1
+      },
+      "characters": {
+        "王伯党": 1,
+        "太监": 1,
+        "内侍": 1,
+        "李密": 1,
+        "河阳公主": 1,
+        "李世民": 1,
+        "宫女": 1,
+        "李渊": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "太监",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "李渊",
+          "target": "王伯党",
+          "value": 1
+        },
+        {
+          "source": "李密",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "李渊",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "王伯党",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "王伯党",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "王伯党",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "李密",
+          "target": "王伯党",
+          "value": 2
+        },
+        {
+          "source": "河阳公主",
+          "target": "王伯党",
+          "value": 2
+        },
+        {
+          "source": "李密",
+          "target": "河阳公主",
+          "value": 2
+        },
+        {
+          "source": "大太监",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "宫女",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "王伯党",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "王伯党",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 85,
+      "summary": "第九场；第十场",
+      "conflict": 0.172,
+      "importance": 1.0,
+      "locations": {
+        "请驾上殿": 1,
+        "喜诈出皇城": 1
+      },
+      "characters": {
+        "王伯党": 1,
+        "太监": 1,
+        "李密": 1,
+        "河阳公主": 1,
+        "李世民": 1,
+        "殷开山": 1,
+        "大监": 1,
+        "李渊": 1
+      },
+      "links": [
+        {
+          "source": "大监",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "殷开山",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "大监",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "大监",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "大监",
+          "target": "殷开山",
+          "value": 1
+        },
+        {
+          "source": "大监",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "大监",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "殷开山",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "李渊",
+          "target": "殷开山",
+          "value": 1
+        },
+        {
+          "source": "李密",
+          "target": "李渊",
+          "value": 2
+        },
+        {
+          "source": "李渊",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "李密",
+          "target": "殷开山",
+          "value": 1
+        },
+        {
+          "source": "殷开山",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "李密",
+          "target": "河阳公主",
+          "value": 1
+        },
+        {
+          "source": "李密",
+          "target": "王伯党",
+          "value": 1
+        },
+        {
+          "source": "李渊",
+          "target": "王伯党",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 2,
+      "numLines": 28,
+      "summary": "第十一场；第十二场",
+      "conflict": 0.52,
+      "importance": 0.343,
+      "locations": {
+        "贾家楼": 2
+      },
+      "characters": {
+        "王伯党": 1,
+        "李密": 1,
+        "李世民": 1
+      },
+      "links": [
+        {
+          "source": "李密",
+          "target": "王伯党",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "王伯党",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第7章",
+      "numScenes": 2,
+      "numLines": 24,
+      "summary": "第十三场；第十四场",
+      "conflict": 0.128,
+      "importance": 0.294,
+      "locations": {
+        "贾家楼": 2
+      },
+      "characters": {
+        "王伯党": 1,
+        "李密": 1,
+        "李世民": 1,
+        "殷开山": 1
+      },
+      "links": [
+        {
+          "source": "李密",
+          "target": "王伯党",
+          "value": 2
+        },
+        {
+          "source": "李世民",
+          "target": "李密",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "王伯党",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "殷开山",
+          "value": 1
+        },
+        {
+          "source": "李密",
+          "target": "殷开山",
+          "value": 1
+        },
+        {
+          "source": "殷开山",
+          "target": "王伯党",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "贾家楼",
+      "characters": [
+        {
+          "name": "王伯党",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "习就百步箭穿杨，一片忠心保瓦岗。",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.476,
+        "conflict": 0.0,
+        "sentiment": 0.77
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "贾家楼",
+      "characters": [
+        {
+          "name": "李密",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "瓦岗寨上杀气飘，",
+          "rating": 0.091,
+          "role": "净"
+        },
+        {
+          "name": "王伯党",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来在瓦岗下虎豹，",
+          "rating": -0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，100行",
+      "firstLine": 1,
+      "lastLine": 100,
+      "numLines": 100,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.782,
+        "conflict": 0.24,
+        "sentiment": 0.307
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "银弓山",
+      "characters": [
+        {
+          "name": "李世民",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "少小英雄胆气豪，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "俱已齐备。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李密",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：3位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.486,
+        "conflict": 1.0,
+        "sentiment": 0.34
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "银弓山",
+      "characters": [
+        {
+          "name": "李世民",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "将人马扎在银弓山，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启千岁：带箭而逃。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.349,
+        "conflict": 0.0,
+        "sentiment": 0.864
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "贾家楼",
+      "characters": [
+        {
+          "name": "李密",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "马来。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "王伯党",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "偶遇黄雀在道边。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：2位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.591,
+        "conflict": 0.0,
+        "sentiment": 0.221
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "贾家楼",
+      "characters": [
+        {
+          "name": "李世民",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "此雁中了雕翎箭，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "王伯党",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "王勇挡道。",
+          "rating": 0.6,
+          "role": "老生"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "王勇挡道。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李密",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "心中恍惚不安宁。",
+          "rating": 0.6,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：4位角色，82行",
+      "firstLine": 1,
+      "lastLine": 82,
+      "numLines": 82,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.855,
+        "conflict": 0.468,
+        "sentiment": 0.483
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "嘹亮来深台",
+      "characters": [
+        {
+          "name": "李渊",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "河清海晏，五谷丰登。",
+          "rating": 0.6,
+          "role": "外"
+        },
+        {
+          "name": "太监",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "内侍",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "秦王回朝。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李世民",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "领旨。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "王伯党",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "李密",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "低头入朝门，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "河阳公主",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第七场：7位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.852,
+        "conflict": 0.42,
+        "sentiment": 0.646
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "贾家楼",
+      "characters": [
+        {
+          "name": "河阳公主",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "雨露似天才，夫荣妻贵堪偕。",
+          "rating": 0.6,
+          "role": "旦"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "驸马回宫。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "宫女",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "驸马回宫。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李密",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有坐。",
+          "rating": 0.2,
+          "role": "净"
+        },
+        {
+          "name": "王伯党",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "蟒袍玉带我不爱，",
+          "rating": 0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第八场：5位角色，136行",
+      "firstLine": 1,
+      "lastLine": 136,
+      "numLines": 136,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.386,
+        "sentiment": 0.34
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "请驾上殿",
+      "characters": [
+        {
+          "name": "李世民",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "眼观旌旗起，耳听好消息。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "大监",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "太监",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "启奏千岁：今有李密，将河阳公主杀死，逃出皇城。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "李渊",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "皇儿上殿有何本奏？",
+          "rating": -1.0,
+          "role": "外"
+        },
+        {
+          "name": "殷开山",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "俱已齐备。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李密",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "河阳公主",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第九场：7位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.619,
+        "conflict": 0.909,
+        "sentiment": 0.163
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "喜诈出皇城",
+      "characters": [
+        {
+          "name": "李密",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "将身逃出天罗网，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "王伯党",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "翻身跳出是非墙。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "李渊",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第十场：3位角色，65行",
+      "firstLine": 1,
+      "lastLine": 65,
+      "numLines": 65,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.617,
+        "conflict": 0.504,
+        "sentiment": 0.335
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "贾家楼",
+      "characters": [
+        {
+          "name": "李世民",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十一场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.463,
+        "conflict": 0.0,
+        "sentiment": 0.6
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "贾家楼",
+      "characters": [
+        {
+          "name": "李密",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "耳旁又听人马响，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "王伯党",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "休要慌来休要忙，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "李世民",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "将军为何不别而行？",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十二场：3位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.651,
+        "conflict": 1.0,
+        "sentiment": 0.08
+      }
+    },
+    {
+      "number": 13,
+      "name": "第十三场",
+      "location": "贾家楼",
+      "characters": [
+        {
+          "name": "李密",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "马、段、殷、刘四员将，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "王伯党",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了王勇救大王。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第十三场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.538,
+        "conflict": 0.0,
+        "sentiment": 0.288
+      }
+    },
+    {
+      "number": 14,
+      "name": "第十四场",
+      "location": "贾家楼",
+      "characters": [
+        {
+          "name": "李世民",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "乱箭侍候。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "李密",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "你我杀了半日，不知来到什么所在？",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "王伯党",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "下马看来。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "殷开山",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "李密、王伯党射死。",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十四场：4位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.685,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李密",
+      "short": "李密",
+      "key": "李密",
+      "quote": "李密 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "王伯党",
+      "short": "王伯",
+      "key": "王伯党",
+      "quote": "王伯党 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李世民",
+      "short": "李世",
+      "key": "李世民",
+      "quote": "李世民 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李渊",
+      "short": "李渊",
+      "key": "李渊",
+      "quote": "李渊 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "河阳公主",
+      "short": "河阳",
+      "key": "河阳公主",
+      "quote": "河阳公主 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内侍",
+      "short": "内侍",
+      "key": "内侍",
+      "quote": "内侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "宫女",
+      "short": "宫女",
+      "key": "宫女",
+      "quote": "宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大监",
+      "short": "大监",
+      "key": "大监",
+      "quote": "大监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "殷开山",
+      "short": "殷开",
+      "key": "殷开山",
+      "quote": "殷开山 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "贾家楼",
+      "key": "贾家楼",
+      "quote": "场景发生在贾家楼"
+    },
+    {
+      "name": "请驾上殿",
+      "key": "请驾上殿",
+      "quote": "场景发生在请驾上殿"
+    },
+    {
+      "name": "喜诈出皇城",
+      "key": "喜诈出皇城",
+      "quote": "场景发生在喜诈出皇城"
+    },
+    {
+      "name": "逃出皇城",
+      "key": "逃出皇城",
+      "quote": "场景发生在逃出皇城"
+    },
+    {
+      "name": "银弓山",
+      "key": "银弓山",
+      "quote": "场景发生在银弓山"
+    },
+    {
+      "name": "父王台",
+      "key": "父王台",
+      "quote": "场景发生在父王台"
+    },
+    {
+      "name": "嘹亮来深台",
+      "key": "嘹亮来深台",
+      "quote": "场景发生在嘹亮来深台"
+    }
+  ]
+}

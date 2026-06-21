@@ -1,0 +1,317 @@
+{
+  "title": "疯僧扫秦",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "03108007_疯僧扫秦.json",
+  "source_folder": "03000000",
+  "plot_summary": "秦桧设计害死岳飞后，日夜惊悸不安，乃至灵隐寺斋醮，以为忏悔。寺内疯僧，与之谈话时，疯僧指桑骂槐，\n尽揭其隐，且以笤帚扫之。秦桧狼狈出寺而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.218,
+      "locations": {
+        "同进殿": 1
+      },
+      "characters": {
+        "僧人": 1,
+        "秦桧": 1,
+        "四小僧": 1
+      },
+      "links": [
+        {
+          "source": "僧人",
+          "target": "秦桧",
+          "value": 1
+        },
+        {
+          "source": "僧人",
+          "target": "四小僧",
+          "value": 1
+        },
+        {
+          "source": "四小僧",
+          "target": "秦桧",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 306,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "同进殿": 1
+      },
+      "characters": {
+        "僧人": 1,
+        "疯僧": 1,
+        "秦桧": 1
+      },
+      "links": [
+        {
+          "source": "僧人",
+          "target": "秦桧",
+          "value": 1
+        },
+        {
+          "source": "疯僧",
+          "target": "秦桧",
+          "value": 1
+        },
+        {
+          "source": "僧人",
+          "target": "疯僧",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.06,
+      "locations": {
+        "同进殿": 1
+      },
+      "characters": {
+        "疯僧": 1,
+        "秦桧": 1
+      },
+      "links": [
+        {
+          "source": "疯僧",
+          "target": "秦桧",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.024,
+      "locations": {
+        "同进殿": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "同进殿",
+      "characters": [
+        {
+          "name": "僧人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "扫地恐伤蝼蚁命，爱惜飞蛾纱罩灯。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "秦桧",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "三公之位，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "四小僧",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哦！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：3位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.533,
+        "conflict": 0.541,
+        "sentiment": 0.364
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "同进殿",
+      "characters": [
+        {
+          "name": "秦桧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎呀佛爷呀！愿岳家父子早登仙界！",
+          "rating": 0.143,
+          "role": "净"
+        },
+        {
+          "name": "僧人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "请相爷各处随喜！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "疯僧",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "谁唤我？",
+          "rating": 0.2,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：3位角色，306行",
+      "firstLine": 1,
+      "lastLine": 306,
+      "numLines": 306,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.174,
+        "sentiment": 0.122
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "同进殿",
+      "characters": [
+        {
+          "name": "秦桧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊呀！倒被这疯僧一番言语，说得毛骨悚然，回去与夫人商议拿他便了！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "疯僧",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第3场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.709,
+        "conflict": 0.0,
+        "sentiment": 0.173
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "同进殿",
+      "characters": [],
+      "summary": "第4场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.004,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "疯僧",
+      "short": "疯僧",
+      "key": "疯僧",
+      "quote": "疯僧 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "秦桧",
+      "short": "秦桧",
+      "key": "秦桧",
+      "quote": "秦桧 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "僧人",
+      "short": "僧人",
+      "key": "僧人",
+      "quote": "僧人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四小僧",
+      "short": "四小",
+      "key": "四小僧",
+      "quote": "四小僧 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "同进殿",
+      "key": "同进殿",
+      "quote": "场景发生在同进殿"
+    }
+  ]
+}

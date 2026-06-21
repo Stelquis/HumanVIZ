@@ -1,0 +1,308 @@
+{
+  "title": "阴阳河",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01003015_阴阳河.json",
+  "source_folder": "01000000",
+  "plot_summary": "山西代州商人张茂深，将往四川经商。与妻李桂莲，饮赏中秋。醉后即在月下交欢，以是秽犯月宫。未几张\n茂深出门，李桂莲即得暴疾，失魂三月，盖为鬼府所勾摄也。张茂深抵四川，一日信步至阴阳界口，见妻在\n河边担水甚苦，大疑。回店间问诸逆旅主人，主人告以此妇名李桂莲，已嫁鬼役，即居河畔。张茂深念知果\n妻，哀痛欲绝，因再往寻之。叩门入，夫妻相遇，悲愕万状。正抱持痛哭，忽鬼役归，见之大怒。李桂莲讳\n之为兄，并以他语给之，鬼役始释然，并置酒款待。席间，鬼役言有公事将往代州，张茂深乃托道之归。",
+  "performance_notes": "此剧尚有第二本《还阳》一剧，为花旦之跌扑戏，惜今无演之者。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 71,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.959,
+      "locations": {
+        "店房门": 1
+      },
+      "characters": {
+        "张茂深": 1,
+        "李桂莲": 1,
+        "店家": 1
+      },
+      "links": [
+        {
+          "source": "店家",
+          "target": "张茂深",
+          "value": 1
+        },
+        {
+          "source": "张茂深",
+          "target": "李桂莲",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "李桂莲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 72,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.973,
+      "locations": {
+        "店房门": 1
+      },
+      "characters": {
+        "张茂深": 1,
+        "李桂莲": 1,
+        "店家": 1
+      },
+      "links": [
+        {
+          "source": "店家",
+          "target": "张茂深",
+          "value": 1
+        },
+        {
+          "source": "张茂深",
+          "target": "李桂莲",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "李桂莲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 79,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "店房门": 1
+      },
+      "characters": {
+        "倪木": 1,
+        "张茂深": 1,
+        "李桂莲": 1
+      },
+      "links": [
+        {
+          "source": "张茂深",
+          "target": "李桂莲",
+          "value": 1
+        },
+        {
+          "source": "倪木",
+          "target": "张茂深",
+          "value": 1
+        },
+        {
+          "source": "倪木",
+          "target": "李桂莲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "店房门",
+      "characters": [
+        {
+          "name": "张茂深",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一日离家一日深，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "店家",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "孟尝君子店，千里客来投。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "李桂莲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "屈死鬼在阴曹泪流满面，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：3位角色，71行",
+      "firstLine": 1,
+      "lastLine": 71,
+      "numLines": 71,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.988,
+        "conflict": 0.405,
+        "sentiment": 0.035
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "店房门",
+      "characters": [
+        {
+          "name": "张茂深",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "果然我妻李桂莲。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "店家",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "想必张客人回来了。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "李桂莲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "适才来在大街前，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：3位角色，72行",
+      "firstLine": 1,
+      "lastLine": 72,
+      "numLines": 72,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.992,
+        "conflict": 0.25,
+        "sentiment": 0.775
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "店房门",
+      "characters": [
+        {
+          "name": "张茂深",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "倪木做事太莽撞，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "李桂莲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "耳边厢又听得乱石响，",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "倪木",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "开门开门！",
+          "rating": 0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.221,
+        "sentiment": -0.158
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张茂深",
+      "short": "张茂",
+      "key": "张茂深",
+      "quote": "张茂深 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李桂莲",
+      "short": "李桂",
+      "key": "李桂莲",
+      "quote": "李桂莲 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "店家",
+      "short": "店家",
+      "key": "店家",
+      "quote": "店家 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "倪木",
+      "short": "倪木",
+      "key": "倪木",
+      "quote": "倪木 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "店房门",
+      "key": "店房门",
+      "quote": "场景发生在店房门"
+    }
+  ]
+}

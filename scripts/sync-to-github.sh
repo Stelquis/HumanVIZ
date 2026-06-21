@@ -1,10 +1,13 @@
 # ===================================================================
 # GitHub 同步脚本
 # ===================================================================
-# 功能: 将 CNB main 分支内容同步到 GitHub（自动处理 API Key 敏感信息）
+# 功能: 将 CNB main 分支内容同步到 GitHub
+#
+# 前置条件: GitHub CLI (gh) 已安装并登录
+#   gh auth login
 #
 # 工作流程:
-#   替换 API Key 为占位符 → 全量替换文件 → push → 恢复 Key
+#   检查/安装 gh CLI → 检查登录 → 初始化仓库 → 快照同步 → push → 切回 main
 #
 # 一键运行:
 #   bash /workspace/scripts/sync-to-github.sh
@@ -16,61 +19,116 @@ set -e
 # 配置区
 # -------------------------------------------------------------------
 
-# 真实 API Key（只在本地使用，不会推送到 GitHub）
-REAL_CLAUDE_KEY="sk-1142eb72d7d0418d8d311c39abe31de1"
-REAL_CODEX_KEY="sk-VQFRDgf7eWb8GC0VHdN6TSvXCfqdGHwHoqxjgWsbofrEbayz"
-
-# GitHub 占位符 Key（推送到远程的版本）
-PLACEHOLDER="sk-YOUR_API_KEY_HERE"
-
-# 需要屏蔽 Key 的文件
-CLAUDE_FILE="scripts/init-claude.sh"
-CODEX_FILE="scripts/init-codex.sh"
+GITHUB_REPO="Stelquis/HumanVIZ"
+GITHUB_REMOTE="github"
+SYNC_BRANCH="github-main"
 
 echo "=== 同步到 GitHub ==="
 
 # -------------------------------------------------------------------
-# 1. 替换 API Key 为占位符
+# 0. 检查并安装 GitHub CLI
 # -------------------------------------------------------------------
-echo "🔒 替换 API Key 为占位符..."
-sed -i "s|${REAL_CLAUDE_KEY}|${PLACEHOLDER}|g" "$CLAUDE_FILE"
-sed -i "s|${REAL_CODEX_KEY}|${PLACEHOLDER}|g" "$CODEX_FILE"
+if ! command -v gh &>/dev/null; then
+    echo "🔧 未检测到 GitHub CLI，正在安装..."
+    # 使用官方脚本安装（Debian/Ubuntu）
+    (type -p wget >/dev/null || apt-get install -y wget) && \
+        mkdir -p -m 755 /etc/apt/keyrings && \
+        wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | \
+            tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null && \
+        echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | \
+            tee /etc/apt/sources.list.d/github-cli.list > /dev/null && \
+        apt-get update && \
+        apt-get install -y gh && \
+        rm -rf /var/lib/apt/lists/*
+    echo "✅ gh CLI 安装完成"
+fi
+
+# 检查是否已登录 GitHub，未登录则引导登录
+echo "🔍 检查 GitHub 登录状态..."
+if ! gh auth status &>/dev/null; then
+    echo "🔐 未登录 GitHub，正在启动交互式登录..."
+    echo "   请按提示选择: GitHub.com → HTTPS → Login with a web browser"
+    gh auth login --hostname github.com --git-protocol https --web
+    echo "✅ 登录成功"
+fi
+echo "✅ 已登录 GitHub: $(gh auth status 2>&1 | head -1)"
 
 # -------------------------------------------------------------------
-# 2. 确保在 main 分支，提交占位符版本
+# 1. 初始化 GitHub remote，配置 gh 为 git 凭证助手
 # -------------------------------------------------------------------
-git checkout main
-git add "$CLAUDE_FILE" "$CODEX_FILE"
-git commit -m "chore: mask API keys for GitHub sync" --no-verify || true
+# 禁止 git 弹窗索要密码（防止 hang），失败即报错
+export GIT_TERMINAL_PROMPT=0
 
-# -------------------------------------------------------------------
-# 3. 切到 github-main，全量替换文件
-# -------------------------------------------------------------------
-echo "🔀 同步文件到 github-main..."
-git checkout github-main
-git checkout main -- .
-git add -A
+# 确保 git 使用 gh CLI 的登录凭证
+gh auth setup-git -h github.com
 
-# 有变更才提交，否则跳过
-if git diff --cached --quiet; then
-    echo "⏭️  没有新变更，跳过提交"
+# 设置 GitHub remote
+if ! git remote get-url "$GITHUB_REMOTE" &>/dev/null; then
+    echo "🔧 配置 GitHub remote..."
+
+    # 确保 GitHub 仓库存在（不存在则创建，公开仓库）
+    gh repo view "$GITHUB_REPO" &>/dev/null || \
+        gh repo create "$GITHUB_REPO" --public --source=. --remote="$GITHUB_REMOTE"
+
+    # 如果 remote 仍不存在，手动添加
+    if ! git remote get-url "$GITHUB_REMOTE" &>/dev/null; then
+        git remote add "$GITHUB_REMOTE" "https://github.com/${GITHUB_REPO}.git"
+    fi
+
+    echo "✅ GitHub remote 已配置"
 else
-    git commit -m "sync: $(date '+%Y-%m-%d %H:%M')"
+    echo "✅ GitHub remote 已存在"
 fi
 
 # -------------------------------------------------------------------
-# 4. 推送到 GitHub
+# 2. 检测 GitHub 仓库状态（用 ls-remote 比 fetch 更轻量，不会 hang）
 # -------------------------------------------------------------------
-echo "📤 推送到 GitHub..."
-git push github github-main:main --force
+# 如果 ls-remote 失败（仓库为空），返回空字符串
+GITHUB_HEAD=$(git ls-remote "$GITHUB_REMOTE" HEAD 2>/dev/null | awk '{print $1}')
+
+# 删除旧的 github-main（如果存在），重新创建
+git branch -D "$SYNC_BRANCH" 2>/dev/null || true
+
+if [ -n "$GITHUB_HEAD" ]; then
+    # GitHub 上已有历史：只拉 commit+tree 元数据（不含 blob 文件），做树级对比
+    echo "🔧 GitHub 已有历史，拉取元数据..."
+    git fetch --depth=1 --filter=blob:none "$GITHUB_REMOTE" main
+
+    # 直接对比两棵树的 hash，无需下载任何文件内容
+    CNB_TREE=$(git rev-parse main^{tree})
+    GITHUB_TREE=$(git rev-parse "${GITHUB_REMOTE}/main^{tree}")
+    if [ "$CNB_TREE" = "$GITHUB_TREE" ]; then
+        echo "⏭️  没有新变更（树 hash 一致），跳过推送"
+        exit 0
+    fi
+
+    # 基于 main 创建分支，再将父提交设为 github/main
+    # 效果：提交树 = CNB 内容，parent = github/main（纯增量）
+    git checkout -b "$SYNC_BRANCH" main
+    git reset --soft "${GITHUB_REMOTE}/main"
+    git commit -m "$(date '+%Y-%m-%d %H:%M')"
+else
+    # GitHub 是空仓库：创建孤儿分支，全量提交
+    echo "🔧 GitHub 为空仓库，创建孤儿分支全量提交..."
+    git checkout --orphan "$SYNC_BRANCH"
+    git rm -rf --quiet . 2>/dev/null || true
+    git commit --allow-empty -m "root"
+    git checkout main -- .
+    git add -A
+    git commit -m "$(date '+%Y-%m-%d %H:%M')"
+fi
 
 # -------------------------------------------------------------------
-# 5. 切回 main，撤销临时 commit 并恢复 API Key
+# 3. 推送到 GitHub
 # -------------------------------------------------------------------
-echo "🔓 恢复 API Key..."
+echo "📤 推送到 GitHub..."
+git push "$GITHUB_REMOTE" "${SYNC_BRANCH}:main"
+
+# -------------------------------------------------------------------
+# 4. 切回 main
+# -------------------------------------------------------------------
 git checkout main
-git reset --hard HEAD~1
 
 echo "✅ 同步完成！"
 echo "   origin (cnb.cool): 不受影响"
-echo "   github: https://github.com/Stelquis/HumanVIZ"
+echo "   github: https://github.com/${GITHUB_REPO}"

@@ -1,0 +1,402 @@
+{
+  "title": "马房释放",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "03091008_马房释放.json",
+  "source_folder": "03000000",
+  "plot_summary": "陈文古欲买好友奎文吉家藏宝物“瑞霓罗帐”；奎文吉不肯。陈文古设计陷奎文吉入狱，并将奎子奎顺禁于\n马房内，命老仆陈荣刺杀之。陈荣不忍，放奎顺逃走，已则自刎死。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 44,
+      "summary": "第1场；第2场",
+      "conflict": 0.299,
+      "importance": 0.763,
+      "locations": {
+        "送往公堂": 2
+      },
+      "characters": {
+        "陈荣": 1,
+        "奎顺": 1,
+        "陈文古": 1
+      },
+      "links": [
+        {
+          "source": "奎顺",
+          "target": "陈文古",
+          "value": 2
+        },
+        {
+          "source": "陈文古",
+          "target": "陈荣",
+          "value": 2
+        },
+        {
+          "source": "奎顺",
+          "target": "陈荣",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 80,
+      "summary": "第3场；第4场",
+      "conflict": 0.126,
+      "importance": 1.0,
+      "locations": {
+        "送往公堂": 2
+      },
+      "characters": {
+        "奎顺": 1,
+        "陈荣": 1,
+        "陈碧桃": 1
+      },
+      "links": [
+        {
+          "source": "陈碧桃",
+          "target": "陈荣",
+          "value": 1
+        },
+        {
+          "source": "奎顺",
+          "target": "陈荣",
+          "value": 2
+        },
+        {
+          "source": "奎顺",
+          "target": "陈碧桃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 49,
+      "summary": "第5场；第6场",
+      "conflict": 0.647,
+      "importance": 0.85,
+      "locations": {
+        "送往公堂": 2
+      },
+      "characters": {
+        "奎顺": 1,
+        "陈荣": 1
+      },
+      "links": [
+        {
+          "source": "奎顺",
+          "target": "陈荣",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "送往公堂",
+      "characters": [
+        {
+          "name": "陈文古",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "斩草不除根，萌芽依旧生。斩草要去根，萌芽永不生。",
+          "rating": 0.143,
+          "role": ""
+        },
+        {
+          "name": "奎顺",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "陈荣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：3位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.735,
+        "conflict": 1.0,
+        "sentiment": 0.259
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "送往公堂",
+      "characters": [
+        {
+          "name": "陈文古",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "岂不是没有后患了么！就是这个主意。",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "陈荣",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "老迈年高，叹光阴，何时得了！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "奎顺",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：3位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.818,
+        "conflict": 0.723,
+        "sentiment": -0.04
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "送往公堂",
+      "characters": [
+        {
+          "name": "陈荣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "陈文古，好贼子啊！",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "陈碧桃",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "屏风后面听言讲，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "奎顺",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第3场：3位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.818,
+        "conflict": 1.0,
+        "sentiment": 0.305
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "送往公堂",
+      "characters": [
+        {
+          "name": "陈荣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "小姐，哎呀，小姐呀！",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "奎顺",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "泪似湘江水，滚滚不住流。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第4场：2位角色，46行",
+      "firstLine": 1,
+      "lastLine": 46,
+      "numLines": 46,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.86,
+        "conflict": 0.606,
+        "sentiment": 0.431
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "送往公堂",
+      "characters": [
+        {
+          "name": "陈荣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "走的好！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "奎顺",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "走不得！文古贼子，重重禁门，叫我往哪里逃走！",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第5场：2位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.814,
+        "conflict": 0.513,
+        "sentiment": 0.774
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "送往公堂",
+      "characters": [
+        {
+          "name": "陈荣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "这一下脱了身，走得好！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "奎顺",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走不得，走不得！我走了不大要紧，陈文古向他要人，他把什么人交还？走不",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第6场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.755,
+        "conflict": 1.0,
+        "sentiment": 0.127
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "陈荣",
+      "short": "陈荣",
+      "key": "陈荣",
+      "quote": "陈荣 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "奎顺",
+      "short": "奎顺",
+      "key": "奎顺",
+      "quote": "奎顺 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陈文古",
+      "short": "陈文",
+      "key": "陈文古",
+      "quote": "陈文古 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陈碧桃",
+      "short": "陈碧",
+      "key": "陈碧桃",
+      "quote": "陈碧桃 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "送往公堂",
+      "key": "送往公堂",
+      "quote": "场景发生在送往公堂"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "title": "挡亮",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "01014015_挡亮.json",
+  "source_folder": "01000000",
+  "plot_summary": "军师刘伯温得悉康茂才与陈友谅，少年同学，并有结拜之谊，所遣紧要地点不肯委派前去。康茂才坚欲请令，\n愿将头颅赌赛。刘伯温遂责立军令状。使之带兵伏土台。陈友谅败至此间，康茂才出而拦截。陈友谅哀辞\n求情，动以前情，康茂才因此不忍擒拿，纵之逃逸。康茂才回营向军师请罪，朱元璋嘉其义，释之。",
+  "performance_notes": "考《英烈传》，陈友谅自立为汉王，起兵三十万直取采石矶，欲与吴王张士诚会合共取金陵。朱元璋定先发\n制人之计，以为陈友谅若败，张士诚必然丧胆。朱元璋麾下大将康茂才与陈友谅旧交，命其诈降。康茂才遣\n子康玉下书，诱陈友谅至江东桥，用埋伏计败之。陈友谅坠在术中，几乎全军覆没，逃至江边，得破船渡脱。\n此陈氏与朱氏第一次用兵大略情形也。至鄱阳湖一战，而陈氏灭矣。中间并无有唐邑用兵之事。枥老旧见\n梨园中，扮演康茂才赌头讨令，释放陈友谅一剧，剧名《江东桥》，即将第一次用兵事实，变本加厉，仿效\n《三国志》关公华容道义释曹操而踵成之。盖编排戏剧，万不能与旧本一一吻合，惟以任意点缀，令观剧者\n动目为长。此剧定名《挡亮》，又名《战土台》，沪上各舞台，近时未曾演过，罕有经目，寻绎剧本前后情\n节，当即是《江东桥》之原剧。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 95,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "我主九龙台": 1
+      },
+      "characters": {
+        "小校": 1,
+        "陈友杰": 1,
+        "陈友谅": 1,
+        "康茂才": 1
+      },
+      "links": [
+        {
+          "source": "康茂才",
+          "target": "陈友谅",
+          "value": 1
+        },
+        {
+          "source": "康茂才",
+          "target": "陈友杰",
+          "value": 1
+        },
+        {
+          "source": "小校",
+          "target": "康茂才",
+          "value": 1
+        },
+        {
+          "source": "陈友杰",
+          "target": "陈友谅",
+          "value": 1
+        },
+        {
+          "source": "小校",
+          "target": "陈友谅",
+          "value": 1
+        },
+        {
+          "source": "小校",
+          "target": "陈友杰",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 13,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.241,
+      "locations": {
+        "我主九龙台": 1
+      },
+      "characters": {
+        "小校": 1,
+        "陈友谅": 1,
+        "康茂才": 1
+      },
+      "links": [
+        {
+          "source": "小校",
+          "target": "康茂才",
+          "value": 1
+        },
+        {
+          "source": "小校",
+          "target": "陈友谅",
+          "value": 1
+        },
+        {
+          "source": "康茂才",
+          "target": "陈友谅",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "我主九龙台",
+      "characters": [
+        {
+          "name": "康茂才",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "某与军师打赌赛，",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "陈友谅",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "损兵折将把兵回，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "陈友杰",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "待我向前看过。",
+          "rating": 1.0,
+          "role": "副净"
+        },
+        {
+          "name": "小校",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "启爷：陈友谅到！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：4位角色，95行",
+      "firstLine": 1,
+      "lastLine": 95,
+      "numLines": 95,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.312,
+        "sentiment": 0.205
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "我主九龙台",
+      "characters": [
+        {
+          "name": "小校",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "启爷：陈友谅逃走！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "康茂才",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "回营交令！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "陈友谅",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第2场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.675,
+        "conflict": 1.0,
+        "sentiment": 0.85
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "康茂才",
+      "short": "康茂",
+      "key": "康茂才",
+      "quote": "康茂才 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陈友谅",
+      "short": "陈友",
+      "key": "陈友谅",
+      "quote": "陈友谅 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "陈友杰",
+      "short": "陈友",
+      "key": "陈友杰",
+      "quote": "陈友杰 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "小校",
+      "short": "小校",
+      "key": "小校",
+      "quote": "小校 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "我主九龙台",
+      "key": "我主九龙台",
+      "quote": "场景发生在我主九龙台"
+    },
+    {
+      "name": "威站立土台",
+      "key": "威站立土台",
+      "quote": "场景发生在威站立土台"
+    }
+  ]
+}

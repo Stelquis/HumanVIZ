@@ -5,7 +5,7 @@
 import React, { useEffect, useRef, useCallback, useState } from "react";
 import * as d3 from "d3";
 import type { StarMapData, ScriptNode } from "./types";
-import starmapData from "../../data/starmap_data.json";
+import starmapData from "../../data/starmap-data.json";
 import "./StarMapCanvas.scss";
 
 const data = starmapData as unknown as StarMapData;
@@ -13,10 +13,10 @@ const PI = Math.PI;
 const TAU = PI * 2;
 const PR = Math.max(window.devicePixelRatio || 1, 2);
 
-const COLOR_BG = "#f7f7f7";
-const COLOR_CENTER = "#a682e8";
-const COLOR_CHAR = "#ea9df5";
-const COLOR_LINK = "#e8e8e8";
+const COLOR_BG = "#f6f1e7"; // --theme-paper
+const COLOR_CENTER = "#8b6cc4"; // deeper purple for light bg contrast
+const COLOR_CHAR = "#c97dd8"; // deeper pink for light bg contrast
+const COLOR_LINK = "#d4c9b8"; // warm beige — visible on light bg
 const COLOR_TEXT = "#4d4950";
 const COLOR_TEXT_SOFT = "#8b7355";
 
@@ -28,7 +28,8 @@ const THEME_COLORS: Record<string, string> = {
 };
 
 const NARR_COLORS: Record<string, string> = {
-  渐进式: "#b8926a", 突变式: "#96544d", 双线交织: "#5e6b76", 回环式: "#7f968d",
+  线性渐进式: "#b8926a", 悬念突转式: "#c44d4d", 双线交织式: "#5e6b76", 回环照应式: "#7f968d",
+  情感波浪式: "#c77d8b", 史诗铺陈式: "#6b5b4f", 三叠反复式: "#c4a56e", 多幕群像式: "#8a7a8e",
 };
 
 const scaleLinkWidth = d3.scalePow().exponent(0.75).domain([1, 50]).range([0.5, 4]).clamp(true);
@@ -157,10 +158,12 @@ const StarMapCanvas: React.FC<Props> = ({ onScriptSelect }) => {
   const drawRef = useRef<(() => void) | null>(null);
   const filterRef = useRef<Set<string>>(new Set());
   const charRef = useRef<string | null>(null);
+  const legendRef = useRef<HTMLDivElement>(null);
 
-  const [zoom, setZoom] = useState(1);
+  const [, setZoom] = useState(1);
   const [selectedDetail, setSelectedDetail] = useState<ScriptNode | null>(null);
   const [selectedChar, setSelectedChar] = useState<string | null>(null);
+  const [legendOpen, setLegendOpen] = useState(false);
 
   // ── Filter state ──
   const [filterMode, setFilterMode] = useState<FilterMode>("genre");
@@ -443,6 +446,16 @@ const StarMapCanvas: React.FC<Props> = ({ onScriptSelect }) => {
     try { drawRef.current?.(); } catch (_) {}
   }, [activeFilters, selectedChar, filterMode]);
 
+  // close legend popover on outside click
+  useEffect(() => {
+    if (!legendOpen) return;
+    const onDown = (e: MouseEvent) => {
+      if (legendRef.current && !legendRef.current.contains(e.target as Node)) setLegendOpen(false);
+    };
+    document.addEventListener("mousedown", onDown);
+    return () => document.removeEventListener("mousedown", onDown);
+  }, [legendOpen]);
+
   // ── Hover ──
   const drawHover = useCallback((node: SimNode | null) => {
     const mc = mainRef.current, hc = hovRef.current;
@@ -701,24 +714,21 @@ const StarMapCanvas: React.FC<Props> = ({ onScriptSelect }) => {
 
   return (
     <div className="starmap-container" ref={boxRef}>
-      {/* ── Top card: tabs + chips + zoom ── */}
+      {/* ── Top card: tabs + chips 竖排 ── */}
       <div className="starmap-top-card">
-        {/* Top row: tabs + zoom */}
-        <div className="starmap-top-row">
-          <div className="starmap-tabs">
-            {(["genre", "theme", "narr"] as FilterMode[]).map(m => (
-              <button key={m}
-                className={`starmap-tab ${filterMode === m ? "active" : ""}`}
-                onClick={() => { setFilterMode(m); setActiveFilters(new Set()); }}>
-                {m === "genre" ? "🎭 剧种" : m === "theme" ? "📜 主题" : "🎬 叙事"}
-              </button>
-            ))}
-          </div>
-          <span className="starmap-zoom-badge">{Math.round(zoom * 100)}%</span>
+        {/* Tabs — 竖排 */}
+        <div className="starmap-tabs">
+          {(["genre", "theme", "narr"] as FilterMode[]).map(m => (
+            <button key={m}
+              className={`starmap-tab ${filterMode === m ? "active" : ""}`}
+              onClick={() => { setFilterMode(m); setActiveFilters(new Set()); }}>
+              {m === "genre" ? "🎭 剧种" : m === "theme" ? "📜 主题" : "🎬 叙事"}
+            </button>
+          ))}
         </div>
-        {/* Dashed divider */}
+        {/* Divider */}
         <div className="starmap-divider" />
-        {/* Bottom row: filter chips */}
+        {/* Chips — 竖排 */}
         <div className="starmap-chips-row">
           {filterOptions.map(opt => {
             const color = filterColors[opt] || "#999";
@@ -749,6 +759,41 @@ const StarMapCanvas: React.FC<Props> = ({ onScriptSelect }) => {
           <button className="starmap-char-clear" onClick={() => setSelectedChar(null)}>✕</button>
         </div>
       )}
+
+      {/* Bottom legend — minimal button + popover */}
+      <div className="starmap-bottom-bar" ref={legendRef}>
+        {legendOpen && (
+          <div className="starmap-legend-popover">
+            <span className="starmap-legend-label">
+              {filterMode === "genre" ? "剧种" : filterMode === "theme" ? "主题" : "叙事"}
+            </span>
+            <div className="starmap-legend-list">
+              {filterOptions.map(opt => {
+                const color = filterColors[opt] || "#999";
+                const count = filterMode === "genre"
+                  ? data.genreGroups[opt]?.count ?? 0
+                  : filterMode === "theme"
+                  ? data.themeStats[opt]?.count ?? 0
+                  : data.narrStats[opt]?.count ?? 0;
+                return (
+                  <span key={opt} className="starmap-legend-chip">
+                    <span className="starmap-legend-dot" style={{ background: color }} />
+                    <span className="starmap-legend-name">{opt}</span>
+                    <span className="starmap-legend-cnt">{count}</span>
+                  </span>
+                );
+              })}
+            </div>
+          </div>
+        )}
+        <button
+          className="starmap-legend-btn"
+          onClick={() => setLegendOpen(v => !v)}
+          aria-label="图例"
+        >
+          {filterMode === "genre" ? "剧种" : filterMode === "theme" ? "主题" : "叙事"}
+        </button>
+      </div>
 
       <canvas ref={mainRef} className="starmap-canvas starmap-canvas-main" />
       <canvas ref={hovRef} className="starmap-canvas starmap-canvas-hover"

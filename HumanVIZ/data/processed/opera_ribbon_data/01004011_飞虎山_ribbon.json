@@ -1,0 +1,519 @@
+{
+  "title": "飞虎山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 9,
+  "num_locations": 1,
+  "source_file": "01004011_飞虎山.json",
+  "source_folder": "01000000",
+  "plot_summary": "裨官说部中：相传南唐，晋王义子，十三太保李存孝，系铁石星下凡，原名安敬思。自幼寄养邓员外家，为\n牧羊飞虎山中。一日，晋王李克用夜梦猛虎入帐，晓令左右详解，咸称主得虎将。李克用遂率领群臣，在荒\n郊大开围场，亲往围猎。途遇神樵引至飞虎岗中，得遇安敬思，时安敬思方十二龄。李克用令试演诸般武艺，\n无不精熟。且又力能扛鼎，言语爽朗，毫无小儿畏怯之态。李克用见之大喜，知非凡器。遂收为第十三太\n保。赐名李存孝。",
+  "performance_notes": "惟剧情与裨官所载已稍有出入，故较诸正史则更远。吾国旧戏，大都如此，李存孝大约即李存勖之误耳。\n此剧尤为朱素云之拿手杰作。神化自然，唱做兼工，迥生反响。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.264,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "安敬思": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.103,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李克用": 1,
+        "四将": 1
+      },
+      "links": [
+        {
+          "source": "四将",
+          "target": "李克用",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 34,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.498,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四龙套": 1,
+        "李克用": 1,
+        "土地": 1
+      },
+      "links": [
+        {
+          "source": "土地",
+          "target": "李克用",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "土地",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "李克用",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 214,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李嗣源": 1,
+        "康君利": 1,
+        "李存信": 1,
+        "安敬思": 1,
+        "李克用": 1,
+        "四龙套": 1,
+        "周德威": 1
+      },
+      "links": [
+        {
+          "source": "安敬思",
+          "target": "李克用",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "安敬思",
+          "value": 1
+        },
+        {
+          "source": "安敬思",
+          "target": "李嗣源",
+          "value": 1
+        },
+        {
+          "source": "周德威",
+          "target": "安敬思",
+          "value": 1
+        },
+        {
+          "source": "安敬思",
+          "target": "康君利",
+          "value": 1
+        },
+        {
+          "source": "安敬思",
+          "target": "李存信",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "李克用",
+          "value": 1
+        },
+        {
+          "source": "李克用",
+          "target": "李嗣源",
+          "value": 1
+        },
+        {
+          "source": "周德威",
+          "target": "李克用",
+          "value": 1
+        },
+        {
+          "source": "康君利",
+          "target": "李克用",
+          "value": 1
+        },
+        {
+          "source": "李克用",
+          "target": "李存信",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "李嗣源",
+          "value": 1
+        },
+        {
+          "source": "周德威",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "康君利",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "李存信",
+          "value": 1
+        },
+        {
+          "source": "周德威",
+          "target": "李嗣源",
+          "value": 1
+        },
+        {
+          "source": "康君利",
+          "target": "李嗣源",
+          "value": 1
+        },
+        {
+          "source": "李嗣源",
+          "target": "李存信",
+          "value": 1
+        },
+        {
+          "source": "周德威",
+          "target": "康君利",
+          "value": 1
+        },
+        {
+          "source": "周德威",
+          "target": "李存信",
+          "value": 1
+        },
+        {
+          "source": "康君利",
+          "target": "李存信",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "安敬思",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "思亲伤心泪，愁锁两道眉。",
+          "rating": -0.2,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.569,
+        "conflict": 0.0,
+        "sentiment": 0.072
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李克用",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "山上插宝剑，斩断清水泉。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四将",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "参见父王。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.346,
+        "conflict": 1.0,
+        "sentiment": 0.168
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "土地",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "领了玉帝命，搭救铁石星。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李克用",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "前道为何不行？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "樵夫挡道。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.508,
+        "conflict": 0.779,
+        "sentiment": 0.378
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "安敬思",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "高峰叠翠人来往，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "李克用",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "昨晚猛虎卧宝帐，",
+          "rating": -0.091,
+          "role": "净"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "樵夫不见。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "李嗣源",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "父王一旁把话讲，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "周德威",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "启父王：天差良将，自有良马。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "康君利",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "我倒认识。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "李存信",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "父王山岗把令传，",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：7位角色，214行",
+      "firstLine": 1,
+      "lastLine": 214,
+      "numLines": 214,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.202,
+        "sentiment": 0.284
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "安敬思",
+      "short": "安敬",
+      "key": "安敬思",
+      "quote": "安敬思 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李克用",
+      "short": "李克",
+      "key": "李克用",
+      "quote": "李克用 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "周德威",
+      "short": "周德",
+      "key": "周德威",
+      "quote": "周德威 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李嗣源",
+      "short": "李嗣",
+      "key": "李嗣源",
+      "quote": "李嗣源 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李存信",
+      "short": "李存",
+      "key": "李存信",
+      "quote": "李存信 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "康君利",
+      "short": "康君",
+      "key": "康君利",
+      "quote": "康君利 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "土地",
+      "short": "土地",
+      "key": "土地",
+      "quote": "土地 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四将",
+      "short": "四将",
+      "key": "四将",
+      "quote": "四将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

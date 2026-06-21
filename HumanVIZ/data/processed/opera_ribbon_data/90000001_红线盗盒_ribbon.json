@@ -1,0 +1,262 @@
+{
+  "title": "红线盗盒",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "90000001_红线盗盒.json",
+  "source_folder": "90000000",
+  "plot_summary": "魏博节度使田承嗣欲吞并潞州节度使薛嵩之地，薛嵩甚为忧虑。薛嵩侍儿红线有剑术，自告奋勇往田承嗣处\n探听，给予警告。值田承嗣睡卧，红线欲行刺，后改盗田承嗣金盒而返。田承嗣遣兵追之，又为红线所败。\n红线献盒于薛嵩，薛嵩乃修函附盒还与田承嗣。田承嗣大惊，知薛嵩部有强将，非敌手，乃与薛嵩修好。",
+  "performance_notes": "见唐杨巨源《红线传》，明梁伯龙《红线女》杂剧及《双红记》传奇。梅兰芳编演。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 23,
+      "summary": "行路",
+      "conflict": 0.0,
+      "importance": 0.451,
+      "locations": {
+        "投身薛府": 1
+      },
+      "characters": {
+        "红线": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 79,
+      "summary": "舞剑",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "投身薛府": 1
+      },
+      "characters": {
+        "薛嵩": 1,
+        "旗牌": 1,
+        "红线": 1,
+        "田承嗣": 1,
+        "中军": 1
+      },
+      "links": [
+        {
+          "source": "旗牌",
+          "target": "薛嵩",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "薛嵩",
+          "value": 1
+        },
+        {
+          "source": "田承嗣",
+          "target": "薛嵩",
+          "value": 1
+        },
+        {
+          "source": "红线",
+          "target": "薛嵩",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "田承嗣",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "红线",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "田承嗣",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "红线",
+          "value": 1
+        },
+        {
+          "source": "田承嗣",
+          "target": "红线",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "行路",
+      "location": "投身薛府",
+      "characters": [
+        {
+          "name": "红线",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "三尺青锋吐翠烟，等闲粉黛总无缘。一心自有匡时策，却笑须眉不敢前。",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "行路：1位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.768,
+        "conflict": 1.0,
+        "sentiment": 0.236
+      }
+    },
+    {
+      "number": 2,
+      "name": "舞剑",
+      "location": "投身薛府",
+      "characters": [
+        {
+          "name": "薛嵩",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "驰书魏博，观看他，动静如何？",
+          "rating": 0.2,
+          "role": ""
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "敌营蒙恩赐，须报主人知。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "中军",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启禀主帅：魏博田大人来拜。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "田承嗣",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "亲翁！",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "红线",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "舞剑：5位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.932,
+        "conflict": 0.435,
+        "sentiment": 0.368
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "红线",
+      "short": "红线",
+      "key": "红线",
+      "quote": "红线 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "薛嵩",
+      "short": "薛嵩",
+      "key": "薛嵩",
+      "quote": "薛嵩 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "田承嗣",
+      "short": "田承",
+      "key": "田承嗣",
+      "quote": "田承嗣 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "投身薛府",
+      "key": "投身薛府",
+      "quote": "场景发生在投身薛府"
+    }
+  ]
+}

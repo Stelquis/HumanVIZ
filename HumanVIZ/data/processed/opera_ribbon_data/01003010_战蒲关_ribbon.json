@@ -1,0 +1,407 @@
+{
+  "title": "战蒲关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01003010_战蒲关.json",
+  "source_folder": "01000000",
+  "plot_summary": "汉王霸守蒲关，连战不利，为贼将胡英所困，粮尽援绝，城内人民相食。王霸恐军中变乱，拟杀其爱妾徐艳\n贞，以人肉犒劳军民。乃自带剑掩入后院。不意徐艳贞正在园中焚香祷祝，愿大兵早到，退贼救主，以全城\n中百姓。王霸闻之，不忍下手而出。未几，忽报部下兵丁，因乏食将哗变。王霸筹思无计，焦急万分。不得\n已乃解佩剑付仆刘忠，令向二主母借饷。刘忠携剑入。徐艳贞见之，惊诘其故。刘忠已涕不可抑，惟云老爷\n要向二主母借粮。徐艳贞猛然省悟，遂夺剑自刎。刘忠亦随之死。王霸乃将二尸烹煮犒军，于是军心愈益感\n奋，忍饿死守，卒得援师解围。",
+  "performance_notes": "此戏去刘忠者为重头，须得极有做工之须生演之方佳。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 66,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "刘忠": 1,
+        "众百姓": 1,
+        "徐艳贞": 1,
+        "王霸": 1
+      },
+      "links": [
+        {
+          "source": "众百姓",
+          "target": "王霸",
+          "value": 1
+        },
+        {
+          "source": "刘忠",
+          "target": "王霸",
+          "value": 1
+        },
+        {
+          "source": "徐艳贞",
+          "target": "王霸",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "刘忠",
+          "value": 1
+        },
+        {
+          "source": "众百姓",
+          "target": "徐艳贞",
+          "value": 1
+        },
+        {
+          "source": "刘忠",
+          "target": "徐艳贞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.331,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "徐艳贞": 1,
+        "王霸": 1
+      },
+      "links": [
+        {
+          "source": "徐艳贞",
+          "target": "王霸",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 60,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.992,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "刘忠": 1,
+        "王霸": 1
+      },
+      "links": [
+        {
+          "source": "刘忠",
+          "target": "王霸",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 96,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "旗牌": 1,
+        "刘忠": 1,
+        "徐艳贞": 1,
+        "王霸": 1
+      },
+      "links": [
+        {
+          "source": "刘忠",
+          "target": "徐艳贞",
+          "value": 1
+        },
+        {
+          "source": "徐艳贞",
+          "target": "王霸",
+          "value": 1
+        },
+        {
+          "source": "徐艳贞",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "刘忠",
+          "target": "王霸",
+          "value": 1
+        },
+        {
+          "source": "刘忠",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "王霸",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王霸",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "恨奸贼暗地里将长安来献，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "众百姓",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "苦吓！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "刘忠",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "呼庚唤癸天地惨，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "徐艳贞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：4位角色，66行",
+      "firstLine": 1,
+      "lastLine": 66,
+      "numLines": 66,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.945,
+        "conflict": 0.8,
+        "sentiment": 0.153
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐艳贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "看皎皎一轮月正当天，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "王霸",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.674,
+        "conflict": 1.0,
+        "sentiment": 0.791
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王霸",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "听她声声存心愿，",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "刘忠",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "军民白日要变迁！",
+          "rating": 0.2,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：2位角色，60行",
+      "firstLine": 1,
+      "lastLine": 60,
+      "numLines": 60,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.823,
+        "conflict": 0.902,
+        "sentiment": 0.216
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐艳贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "满腹中多忧思难以就枕，",
+          "rating": -0.6,
+          "role": "旦"
+        },
+        {
+          "name": "刘忠",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在前厅奉了老爷命，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "王霸",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "刘忠！",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "何人将二主母与刘忠杀死？",
+          "rating": -0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，96行",
+      "firstLine": 1,
+      "lastLine": 96,
+      "numLines": 96,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.27,
+        "sentiment": 0.13
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘忠",
+      "short": "刘忠",
+      "key": "刘忠",
+      "quote": "刘忠 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王霸",
+      "short": "王霸",
+      "key": "王霸",
+      "quote": "王霸 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "徐艳贞",
+      "short": "徐艳",
+      "key": "徐艳贞",
+      "quote": "徐艳贞 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众百姓",
+      "short": "众百",
+      "key": "众百姓",
+      "quote": "众百姓 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

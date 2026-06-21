@@ -1,0 +1,345 @@
+{
+  "title": "徐母训子",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "05004004_徐母训子.json",
+  "source_folder": "05000000",
+  "plot_summary": "程昱赚得徐母小柬，仿其笔迹写假信，使人投往新野。徐庶得信，即辞别刘备来许昌。及与母相见，始知中\n计。徐母责其不辨真伪，弃明投暗，不聪不明，不忠不孝，乃自缢而死。徐庶见状，大为悲痛。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 36,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.364,
+      "locations": {
+        " 身居华堂": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "徐庶": 1,
+        "徐母": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "徐母",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "徐母",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "徐庶",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 162,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        " 身居华堂": 1
+      },
+      "characters": {
+        "徐庶": 1,
+        "旗牌": 1,
+        "院子": 1,
+        "徐母": 1,
+        "家院": 1,
+        "丫鬟": 1
+      },
+      "links": [
+        {
+          "source": "徐庶",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "徐母",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "徐母",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "徐母",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "徐母",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "徐母",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "家院",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": " 身居华堂",
+      "characters": [
+        {
+          "name": "徐母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "身居华堂，终日里，泪珠成行。",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐庶",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：3位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.809,
+        "conflict": 0.426,
+        "sentiment": 0.171
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 身居华堂",
+      "characters": [
+        {
+          "name": "徐庶",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "闻听得老萱堂囚禁许昌，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来此已是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "徐母",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.222,
+          "role": "老旦"
+        },
+        {
+          "name": "家院",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "大相公进门他走开。",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "大相公，大事不好！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：6位角色，162行",
+      "firstLine": 1,
+      "lastLine": 162,
+      "numLines": 162,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.347,
+        "sentiment": 0.164
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐母",
+      "short": "徐母",
+      "key": "徐母",
+      "quote": "徐母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "徐庶",
+      "short": "徐庶",
+      "key": "徐庶",
+      "quote": "徐庶 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 身居华堂",
+      "key": " 身居华堂",
+      "quote": "场景发生在 身居华堂"
+    }
+  ]
+}

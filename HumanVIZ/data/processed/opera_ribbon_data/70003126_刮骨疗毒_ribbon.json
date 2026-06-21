@@ -1,0 +1,485 @@
+{
+  "title": "刮骨疗毒",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 9,
+  "num_locations": 3,
+  "source_file": "70003126_刮骨疗毒.json",
+  "source_folder": "70003000",
+  "plot_summary": "关羽攻克襄阳，继取樊城。曹仁放冷箭射中关羽右臂，箭镞有毒，致使右臂青肿，无法出战。名医华佗慕关\n羽神威，自往医治。关羽与马良弈棋，坦然伸臂，华佗乃刮骨疗毒。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 24,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.701,
+      "locations": {
+        "镇守在樊城": 1
+      },
+      "characters": {
+        "报子": 1,
+        "关羽": 1,
+        "吕常": 1,
+        "曹仁": 1
+      },
+      "links": [
+        {
+          "source": "吕常",
+          "target": "曹仁",
+          "value": 1
+        },
+        {
+          "source": "吕常",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "吕常",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "曹仁",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "曹仁",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "报子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.526,
+      "locations": {
+        "镇守在樊城": 1
+      },
+      "characters": {
+        "众将": 1,
+        "马良": 1,
+        "关羽": 1
+      },
+      "links": [
+        {
+          "source": "众将",
+          "target": "马良",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "马良",
+          "value": 1
+        },
+        {
+          "source": "众将",
+          "target": "关羽",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 16,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.467,
+      "locations": {
+        "镇守在樊城": 1
+      },
+      "characters": {
+        "华佗": 1,
+        "小童": 1
+      },
+      "links": [
+        {
+          "source": "华佗",
+          "target": "小童",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 79,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "镇守在樊城": 1
+      },
+      "characters": {
+        "马良": 1,
+        "周仓": 1,
+        "华佗": 1,
+        "关羽": 1
+      },
+      "links": [
+        {
+          "source": "华佗",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "马良",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "华佗",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "马良",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "马良",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "镇守在樊城",
+      "characters": [
+        {
+          "name": "吕常",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "奉了魏王命，镇守在樊城。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "曹仁",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "杀败了哇，杀败了！",
+          "rating": -0.2,
+          "role": ""
+        },
+        {
+          "name": "报子",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "关羽讨战。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "来将通名。",
+          "rating": 0.333,
+          "role": "红生"
+        }
+      ],
+      "summary": "第一场：4位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.605,
+        "conflict": 1.0,
+        "sentiment": 0.079
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "镇守在樊城",
+      "characters": [
+        {
+          "name": "马良",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "君侯去出征，未见转回程。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众将",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "君侯醒来！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "唔！",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第二场：3位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.579,
+        "conflict": 1.0,
+        "sentiment": 0.284
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "镇守在樊城",
+      "characters": [
+        {
+          "name": "小童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "华佗",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "清水池边红日悬，",
+          "rating": 0.333,
+          "role": "生"
+        }
+      ],
+      "summary": "第三场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.57,
+        "conflict": 0.0,
+        "sentiment": 0.47
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "镇守在樊城",
+      "characters": [
+        {
+          "name": "周仓",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "悬挂招医榜，满营昼夜忙。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "华佗",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "带路！",
+          "rating": -1.0,
+          "role": "生"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "惟恐军心乱，忍痛下围棋。",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "马良",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "华佗乃世外高人，前在东吴曾医周泰箭伤，君侯快快传见。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.321,
+        "sentiment": 0.071
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "华佗",
+      "short": "华佗",
+      "key": "华佗",
+      "quote": "华佗 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周仓",
+      "short": "周仓",
+      "key": "周仓",
+      "quote": "周仓 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "曹仁",
+      "short": "曹仁",
+      "key": "曹仁",
+      "quote": "曹仁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小童",
+      "short": "小童",
+      "key": "小童",
+      "quote": "小童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众将",
+      "short": "众将",
+      "key": "众将",
+      "quote": "众将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马良",
+      "short": "马良",
+      "key": "马良",
+      "quote": "马良 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "吕常",
+      "short": "吕常",
+      "key": "吕常",
+      "quote": "吕常 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "镇守在樊城",
+      "key": "镇守在樊城",
+      "quote": "场景发生在镇守在樊城"
+    },
+    {
+      "name": " 末将出城",
+      "key": " 末将出城",
+      "quote": "场景发生在 末将出城"
+    },
+    {
+      "name": "军伏在城楼",
+      "key": "军伏在城楼",
+      "quote": "场景发生在军伏在城楼"
+    }
+  ]
+}

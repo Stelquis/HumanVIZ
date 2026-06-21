@@ -1,0 +1,845 @@
+{
+  "title": "击鼓骂曹",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 12,
+  "num_locations": 2,
+  "source_file": "08005002_击鼓骂曹.json",
+  "source_folder": "08000000",
+  "plot_summary": "曹操官居汉相，威震朝野，权倾八方，挟天子以令诸侯，网罗天下文武英贤。学者祢衡怀才不遇，在孔融门\n下作客。孔大夫不忍其才华埋没，把他推荐给曹操。祢衡进府后，与曹操相见。曹操以为祢衡跪拜，欲用手\n去搀，不料祢衡大模大样，只行常礼。曹操心中不悦，语带简慢。祢衡生性高傲，不甘示弱，反唇相讥。次\n日元旦，曹操大宴群臣，命祢衡充当鼓吏，藉以辱之。文武官员来曹府致贺，酒席筵前，祢衡赤膊立于廊下，\n以鼓声代言，激越铿锵，抒发郁愤，讥骂曹操。曹操学富五车，自然通晓音律。离席至廊下细听，强忍怒\n火，暗动杀机。但又怕落个害贤之名，于是劝说祢衡往荆州顺说刘表，以达到借刀杀人的目的。经群臣劝解，\n祢衡忍气吞声允去荆州。曹操又假施仁义，命帐下谋士到长亭相送。刘表也不肯当此恶名，让祢衡去见黄\n祖。祢衡在酒席筵前，讥讽黄祖，终于被黄祖所杀，死在鹦鹉洲。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.12,
+      "locations": {
+        "才进得相府": 1
+      },
+      "characters": {
+        "曹操": 1,
+        "祢衡": 1,
+        "孔融": 1
+      },
+      "links": [
+        {
+          "source": "曹操",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "曹操",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 167,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "九龙口抖袖": 1
+      },
+      "characters": {
+        "四红龙套": 1,
+        "祢衡": 1,
+        "张辽": 1,
+        "曹操": 1,
+        "孔融": 1
+      },
+      "links": [
+        {
+          "source": "张辽",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "张辽",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "张辽",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "孔融",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "祢衡",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 27,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.19,
+      "locations": {
+        "才进得相府": 1
+      },
+      "characters": {
+        "祢衡": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 357,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "才进得相府": 1
+      },
+      "characters": {
+        "朝官乙": 1,
+        "张辽": 1,
+        "朝官甲": 1,
+        "祢衡": 1,
+        "朝官丁": 1,
+        "三朝官": 1,
+        "四朝官": 1,
+        "曹操": 1,
+        "朝官丙": 1,
+        "二旗牌": 1,
+        "孔融": 1
+      },
+      "links": [
+        {
+          "source": "朝官乙",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "朝官丙",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "朝官丁",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "朝官甲",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "朝官丙",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "朝官丁",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "朝官乙",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "朝官丁",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "朝官丙",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "朝官丁",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "四朝官",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "张辽",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "二旗牌",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "孔融",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "张辽",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "四朝官",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "孔融",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "张辽",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "张辽",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "孔融",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "祢衡",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "才进得相府",
+      "characters": [
+        {
+          "name": "祢衡",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "天宽地阔，论机谋，智广才多。",
+          "rating": 1.0,
+          "role": "老生，水纱、网子、高方巾、黑三髯、白护领、青素褶子、青侉衣、青彩裤、腰包、大带、青厚底靴、"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净，勾水白脸，水纱、网子、相貂、黑满髯、胖袄、白护领、红蟒、玉带、红彩裤、青厚底靴"
+        },
+        {
+          "name": "孔融",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生，水纱、网子、忠纱帽、黑三髯、薄胖袄、白护领、红官衣、玉带、红彩裤、青厚底靴"
+        }
+      ],
+      "summary": "第一场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.446,
+        "conflict": 0.714,
+        "sentiment": 0.84
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "九龙口抖袖",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "汉室纷纷刀兵扰，",
+          "rating": 0.714,
+          "role": "净，勾水白脸，水纱、网子、相貂、黑满髯、胖袄、白护领、红蟒、玉带、红彩裤、青厚底靴"
+        },
+        {
+          "name": "张辽",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "一封书信忙修好，",
+          "rating": 1.0,
+          "role": "老生，水纱、网子、银荷叶盔、黑三髯、薄胖袄、白护领、白开氅、大带、红彩裤、青厚底靴、宝剑"
+        },
+        {
+          "name": "孔融",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "祢衡先生我请到，",
+          "rating": -1.0,
+          "role": "老生，水纱、网子、忠纱帽、黑三髯、薄胖袄、白护领、红官衣、玉带、红彩裤、青厚底靴"
+        },
+        {
+          "name": "四红龙套",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "噢……",
+          "rating": 0.0,
+          "role": "流行，红大板巾、红龙箭衣、红彩裤、青薄底靴"
+        },
+        {
+          "name": "祢衡",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "相府门前杀气高，",
+          "rating": 0.75,
+          "role": "老生，水纱、网子、高方巾、黑三髯、白护领、青素褶子、青侉衣、青彩裤、腰包、大带、青厚底靴、"
+        }
+      ],
+      "summary": "第二场：5位角色，167行",
+      "firstLine": 1,
+      "lastLine": 167,
+      "numLines": 167,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.301,
+        "sentiment": 0.552
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "才进得相府",
+      "characters": [
+        {
+          "name": "祢衡",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "适才与贼一席话，",
+          "rating": -1.0,
+          "role": "老生，水纱、网子、高方巾、黑三髯、白护领、青素褶子、青侉衣、青彩裤、腰包、大带、青厚底靴、"
+        }
+      ],
+      "summary": "第三场：1位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.573,
+        "conflict": 0.0,
+        "sentiment": -0.367
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "才进得相府",
+      "characters": [
+        {
+          "name": "朝官甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "日观三千策，",
+          "rating": 0.0,
+          "role": "老生，水纱、网子、忠纱帽、黑三髯、白护领、红蟒、玉带、红彩裤、青厚底靴"
+        },
+        {
+          "name": "朝官乙",
+          "importance": 0.9090909090909091,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "夜吟七篇诗。",
+          "rating": 0.0,
+          "role": "小生，水纱、网子、忠纱帽、白护领、白蟒、玉带、红彩裤、青厚底靴"
+        },
+        {
+          "name": "朝官丙",
+          "importance": 0.8181818181818182,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "要知今古事，",
+          "rating": 0.0,
+          "role": "净，勾白三块瓦脸，水纱、网子、奸纱帽、黑满髯、白护领、黑蟒、玉带、红彩裤、青厚底靴"
+        },
+        {
+          "name": "朝官丁",
+          "importance": 0.7272727272727273,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "须读五车书。",
+          "rating": 0.0,
+          "role": "丑，勾小腰子脸，水纱、网子、圆翅纱帽、八字吊搭髯、白护领、绿蟒、玉带、红彩裤、朝方靴"
+        },
+        {
+          "name": "三朝官",
+          "importance": 0.6363636363636364,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "请了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四朝官",
+          "importance": 0.5454545454545454,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "五凤楼前朝金阙，相府门前拜元戎。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张辽",
+          "importance": 0.45454545454545453,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "嗯哼！",
+          "rating": 1.0,
+          "role": "老生，水纱、网子、银荷叶盔、黑三髯、薄胖袄、白护领、白开氅、大带、红彩裤、青厚底靴、宝剑"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.36363636363636365,
+          "importance_rank": 8,
+          "emotion": "positive",
+          "quote": "嗯哼！",
+          "rating": 0.333,
+          "role": "净，勾水白脸，水纱、网子、相貂、黑满髯、胖袄、白护领、红蟒、玉带、红彩裤、青厚底靴"
+        },
+        {
+          "name": "二旗牌",
+          "importance": 0.2727272727272727,
+          "importance_rank": 9,
+          "emotion": "positive",
+          "quote": "有。",
+          "rating": 1.0,
+          "role": "杂，黑大板巾、黑马褂、紫素箭衣、大带、红彩裤、青厚底靴"
+        },
+        {
+          "name": "祢衡",
+          "importance": 0.18181818181818182,
+          "importance_rank": 10,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.294,
+          "role": "老生，水纱、网子、高方巾、黑三髯、白护领、青素褶子、青侉衣、青彩裤、腰包、大带、青厚底靴、"
+        },
+        {
+          "name": "孔融",
+          "importance": 0.09090909090909091,
+          "importance_rank": 11,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生，水纱、网子、忠纱帽、黑三髯、薄胖袄、白护领、红官衣、玉带、红彩裤、青厚底靴"
+        }
+      ],
+      "summary": "第四场：11位角色，357行",
+      "firstLine": 1,
+      "lastLine": 357,
+      "numLines": 357,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.116,
+        "sentiment": 0.413
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "祢衡",
+      "short": "祢衡",
+      "key": "祢衡",
+      "quote": "祢衡 — 老生，水纱、网子、高方巾、黑三髯、白护领、青素褶子、青侉衣、青彩裤、腰包、大带、青厚底靴、",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老生，水纱、网子、高方巾、黑三髯、白护领、青素褶子、青侉衣、青彩裤、腰包、大带、青厚底靴、",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "曹操",
+      "short": "曹操",
+      "key": "曹操",
+      "quote": "曹操 — 净，勾水白脸，水纱、网子、相貂、黑满髯、胖袄、白护领、红蟒、玉带、红彩裤、青厚底靴",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 净，勾水白脸，水纱、网子、相貂、黑满髯、胖袄、白护领、红蟒、玉带、红彩裤、青厚底靴",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张辽",
+      "short": "张辽",
+      "key": "张辽",
+      "quote": "张辽 — 老生，水纱、网子、银荷叶盔、黑三髯、薄胖袄、白护领、白开氅、大带、红彩裤、青厚底靴、宝剑",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老生，水纱、网子、银荷叶盔、黑三髯、薄胖袄、白护领、白开氅、大带、红彩裤、青厚底靴、宝剑",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "孔融",
+      "short": "孔融",
+      "key": "孔融",
+      "quote": "孔融 — 老生，水纱、网子、忠纱帽、黑三髯、薄胖袄、白护领、红官衣、玉带、红彩裤、青厚底靴",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老生，水纱、网子、忠纱帽、黑三髯、薄胖袄、白护领、红官衣、玉带、红彩裤、青厚底靴",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "朝官甲",
+      "short": "朝官",
+      "key": "朝官甲",
+      "quote": "朝官甲 — 老生，水纱、网子、忠纱帽、黑三髯、白护领、红蟒、玉带、红彩裤、青厚底靴",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老生，水纱、网子、忠纱帽、黑三髯、白护领、红蟒、玉带、红彩裤、青厚底靴",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "朝官乙",
+      "short": "朝官",
+      "key": "朝官乙",
+      "quote": "朝官乙 — 小生，水纱、网子、忠纱帽、白护领、白蟒、玉带、红彩裤、青厚底靴",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小生，水纱、网子、忠纱帽、白护领、白蟒、玉带、红彩裤、青厚底靴",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "朝官丙",
+      "short": "朝官",
+      "key": "朝官丙",
+      "quote": "朝官丙 — 净，勾白三块瓦脸，水纱、网子、奸纱帽、黑满髯、白护领、黑蟒、玉带、红彩裤、青厚底靴",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 净，勾白三块瓦脸，水纱、网子、奸纱帽、黑满髯、白护领、黑蟒、玉带、红彩裤、青厚底靴",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "朝官丁",
+      "short": "朝官",
+      "key": "朝官丁",
+      "quote": "朝官丁 — 丑，勾小腰子脸，水纱、网子、圆翅纱帽、八字吊搭髯、白护领、绿蟒、玉带、红彩裤、朝方靴",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 丑，勾小腰子脸，水纱、网子、圆翅纱帽、八字吊搭髯、白护领、绿蟒、玉带、红彩裤、朝方靴",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二旗牌",
+      "short": "二旗",
+      "key": "二旗牌",
+      "quote": "二旗牌 — 杂，黑大板巾、黑马褂、紫素箭衣、大带、红彩裤、青厚底靴",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 杂，黑大板巾、黑马褂、紫素箭衣、大带、红彩裤、青厚底靴",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四红龙套",
+      "short": "四红",
+      "key": "四红龙套",
+      "quote": "四红龙套 — 流行，红大板巾、红龙箭衣、红彩裤、青薄底靴",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 流行，红大板巾、红龙箭衣、红彩裤、青薄底靴",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "三朝官",
+      "short": "三朝",
+      "key": "三朝官",
+      "quote": "三朝官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四朝官",
+      "short": "四朝",
+      "key": "四朝官",
+      "quote": "四朝官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "才进得相府",
+      "key": "才进得相府",
+      "quote": "场景发生在才进得相府"
+    },
+    {
+      "name": "九龙口抖袖",
+      "key": "九龙口抖袖",
+      "quote": "场景发生在九龙口抖袖"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "title": "骂门",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02006059_骂门.json",
+  "source_folder": "02000000",
+  "plot_summary": "李白与贺知章同游金马门，遇杨贵妃义儿安禄山，招摇过门，李白乃佯醉加以痛骂，安禄山避道而行。",
+  "performance_notes": "剧情与《金马门》大同小异，因篇幅不大，词句不同，故并存。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 11,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.137,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "安禄山": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 150,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "书童乙": 1,
+        "贺知章": 1,
+        "书童甲": 1,
+        "安禄山": 1,
+        "李白": 1
+      },
+      "links": [
+        {
+          "source": "李白",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "安禄山",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "书童甲",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "安禄山",
+          "target": "李白",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "李白",
+          "value": 1
+        },
+        {
+          "source": "书童甲",
+          "target": "李白",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "安禄山",
+          "value": 1
+        },
+        {
+          "source": "书童甲",
+          "target": "安禄山",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "书童甲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "安禄山",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "花色盈盈千般好，",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.562,
+        "conflict": 1.0,
+        "sentiment": 0.867
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "贺知章",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "携手相扶漫遣怀，",
+          "rating": 0.667,
+          "role": "末"
+        },
+        {
+          "name": "李白",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "圣上有道众群僚，",
+          "rating": 0.556,
+          "role": "老生"
+        },
+        {
+          "name": "安禄山",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "可恼吓可恼。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "书童乙",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "来了，老爷有何吩咐？",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "书童甲",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "哦伙计，老爷教我们叫骂节度使，你我如何敢骂呢？",
+          "rating": 1.0,
+          "role": "付"
+        }
+      ],
+      "summary": "第二场：5位角色，150行",
+      "firstLine": 1,
+      "lastLine": 150,
+      "numLines": 150,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.397,
+        "sentiment": 0.378
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李白",
+      "short": "李白",
+      "key": "李白",
+      "quote": "李白 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "安禄山",
+      "short": "安禄",
+      "key": "安禄山",
+      "quote": "安禄山 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "贺知章",
+      "short": "贺知",
+      "key": "贺知章",
+      "quote": "贺知章 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "书童甲",
+      "short": "书童",
+      "key": "书童甲",
+      "quote": "书童甲 — 付",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 付",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "书童乙",
+      "short": "书童",
+      "key": "书童乙",
+      "quote": "书童乙 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

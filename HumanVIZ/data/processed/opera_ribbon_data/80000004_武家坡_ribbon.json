@@ -1,0 +1,488 @@
+{
+  "title": "武家坡",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "80000004_武家坡.json",
+  "source_folder": "80000000",
+  "plot_summary": "薛平贵归家，遇王宝钏于武家坡前，夫妻相别十八年，王宝钏已不识薛平贵。薛平贵假问路以试其心，王宝\n钏逃回窑，薛平贵赶至，直告己名及别后经历，夫妻相认。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 250,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛平贵": 1,
+        "武家坡": 1,
+        "王宝钏": 1,
+        "大嫂": 1,
+        "薛宝钏": 1
+      },
+      "links": [
+        {
+          "source": "大嫂",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "武家坡",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "薛宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "大嫂",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "大嫂",
+          "target": "武家坡",
+          "value": 1
+        },
+        {
+          "source": "大嫂",
+          "target": "薛宝钏",
+          "value": 1
+        },
+        {
+          "source": "武家坡",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "薛宝钏",
+          "value": 1
+        },
+        {
+          "source": "武家坡",
+          "target": "薛宝钏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 157,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.771,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛平贵": 1,
+        "连去带来": 1,
+        "她的为人": 1,
+        "王宝钏": 1,
+        "君王跟前": 1,
+        "开开窑门": 1,
+        "说不明来": 1
+      },
+      "links": [
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "说不明来",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "连去带来",
+          "value": 1
+        },
+        {
+          "source": "开开窑门",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "君王跟前",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "她的为人",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "薛平贵",
+          "target": "说不明来",
+          "value": 1
+        },
+        {
+          "source": "薛平贵",
+          "target": "连去带来",
+          "value": 1
+        },
+        {
+          "source": "开开窑门",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "君王跟前",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "她的为人",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "说不明来",
+          "target": "连去带来",
+          "value": 1
+        },
+        {
+          "source": "开开窑门",
+          "target": "说不明来",
+          "value": 1
+        },
+        {
+          "source": "君王跟前",
+          "target": "说不明来",
+          "value": 1
+        },
+        {
+          "source": "她的为人",
+          "target": "说不明来",
+          "value": 1
+        },
+        {
+          "source": "开开窑门",
+          "target": "连去带来",
+          "value": 1
+        },
+        {
+          "source": "君王跟前",
+          "target": "连去带来",
+          "value": 1
+        },
+        {
+          "source": "她的为人",
+          "target": "连去带来",
+          "value": 1
+        },
+        {
+          "source": "君王跟前",
+          "target": "开开窑门",
+          "value": 1
+        },
+        {
+          "source": "她的为人",
+          "target": "开开窑门",
+          "value": 1
+        },
+        {
+          "source": "君王跟前",
+          "target": "她的为人",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "薛平贵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一马离了西凉界，",
+          "rating": -0.294,
+          "role": "老生"
+        },
+        {
+          "name": "大嫂",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "请了。军爷失迷路途？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "做什么？",
+          "rating": 0.125,
+          "role": "旦"
+        },
+        {
+          "name": "武家坡",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "站得我不耐烦。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "薛宝钏",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "夫债呢？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：5位角色，250行",
+      "firstLine": 1,
+      "lastLine": 250,
+      "numLines": 250,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.21,
+        "sentiment": 0.14
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王宝钏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "前面走的王宝钏，",
+          "rating": -0.091,
+          "role": "旦"
+        },
+        {
+          "name": "薛平贵",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "后面跟随薛平男。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "说不明来",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "也枉然！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "连去带来",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "十八年。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "开开窑门",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "重相见，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "君王跟前",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "讨封号！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "她的为人",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "甚是贤。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：7位角色，157行",
+      "firstLine": 1,
+      "lastLine": 157,
+      "numLines": 157,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.931,
+        "conflict": 0.117,
+        "sentiment": 0.085
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛平贵",
+      "short": "薛平",
+      "key": "薛平贵",
+      "quote": "薛平贵 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "武家坡",
+      "short": "武家",
+      "key": "武家坡",
+      "quote": "武家坡 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "连去带来",
+      "short": "连去",
+      "key": "连去带来",
+      "quote": "连去带来 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "她的为人",
+      "short": "她的",
+      "key": "她的为人",
+      "quote": "她的为人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "说不明来",
+      "short": "说不",
+      "key": "说不明来",
+      "quote": "说不明来 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "君王跟前",
+      "short": "君王",
+      "key": "君王跟前",
+      "quote": "君王跟前 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大嫂",
+      "short": "大嫂",
+      "key": "大嫂",
+      "quote": "大嫂 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "开开窑门",
+      "short": "开开",
+      "key": "开开窑门",
+      "quote": "开开窑门 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "薛宝钏",
+      "short": "薛宝",
+      "key": "薛宝钏",
+      "quote": "薛宝钏 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

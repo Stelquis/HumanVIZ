@@ -1,0 +1,412 @@
+{
+  "title": "高平关",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 3,
+  "source_file": "03013007_高平关.json",
+  "source_folder": "03000000",
+  "plot_summary": "五代时，高行周据守高平关。时赵匡胤在郭彦威部下，欲杀高行周以邀功。赵匡胤到关后，高行周察知其意，\n并预料赵匡胤必成大业，乃将印信交付其子高怀德执掌，并托赵匡胤得志后，优遇高怀德弟兄。赵匡胤许\n以己妹配高怀德，高行周乃自刎。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 132,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "了白虎大堂": 1
+      },
+      "characters": {
+        "高怀德": 1,
+        "赵匡胤": 1,
+        "四将": 1,
+        "高行周": 1,
+        "中军": 1,
+        "高怀亮": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "高行周",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "四将",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "高怀亮",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "高行周",
+          "value": 1
+        },
+        {
+          "source": "高怀亮",
+          "target": "高行周",
+          "value": 1
+        },
+        {
+          "source": "高怀德",
+          "target": "高行周",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "高行周",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "高怀亮",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "高怀亮",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "高怀亮",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "高怀德",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 36,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.283,
+      "locations": {
+        "了白虎大堂": 1
+      },
+      "characters": {
+        "高怀德": 1,
+        "赵匡胤": 1,
+        "高怀亮": 1
+      },
+      "links": [
+        {
+          "source": "高怀亮",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "高怀亮",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 213,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "白虎堂": 1
+      },
+      "characters": {
+        "高行周": 1,
+        "赵匡胤": 1
+      },
+      "links": [
+        {
+          "source": "赵匡胤",
+          "target": "高行周",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "了白虎大堂",
+      "characters": [
+        {
+          "name": "中军",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "高行周",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "坐镇高平，统率三军，旌旗整，保主乾坤，令出山摇震。",
+          "rating": 0.556,
+          "role": "净"
+        },
+        {
+          "name": "四将",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "高怀亮",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "来也！",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "高怀德",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "儿是怀德。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第一场：6位角色，132行",
+      "firstLine": 1,
+      "lastLine": 132,
+      "numLines": 132,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.474,
+        "sentiment": 0.358
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "了白虎大堂",
+      "characters": [
+        {
+          "name": "高怀德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "关内奉了爹爹命，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "高怀亮",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来到关前看分明。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "戴月披星离怀庆，",
+          "rating": -1.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第二场：3位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.605,
+        "conflict": 0.308,
+        "sentiment": 0.187
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "白虎堂",
+      "characters": [
+        {
+          "name": "高行周",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "昨夜晚一梦大不祥，",
+          "rating": 0.25,
+          "role": "净"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "豪杰打马上高关，",
+          "rating": 0.286,
+          "role": "红生"
+        }
+      ],
+      "summary": "第三场：2位角色，213行",
+      "firstLine": 1,
+      "lastLine": 213,
+      "numLines": 213,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.242,
+        "sentiment": 0.289
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "高行周",
+      "short": "高行",
+      "key": "高行周",
+      "quote": "高行周 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "高怀德",
+      "short": "高怀",
+      "key": "高怀德",
+      "quote": "高怀德 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "高怀亮",
+      "short": "高怀",
+      "key": "高怀亮",
+      "quote": "高怀亮 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四将",
+      "short": "四将",
+      "key": "四将",
+      "quote": "四将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "了白虎大堂",
+      "key": "了白虎大堂",
+      "quote": "场景发生在了白虎大堂"
+    },
+    {
+      "name": "白虎堂",
+      "key": "白虎堂",
+      "quote": "场景发生在白虎堂"
+    },
+    {
+      "name": "凛凛坐虎堂",
+      "key": "凛凛坐虎堂",
+      "quote": "场景发生在凛凛坐虎堂"
+    }
+  ]
+}

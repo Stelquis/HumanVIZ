@@ -1,0 +1,167 @@
+{
+  "title": "罗成叫关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "01007006_罗成叫关.json",
+  "source_folder": "01000000",
+  "plot_summary": "唐初高丽入寇，李渊命三子元吉帅师往征，以罗成为先行前锋。罗成兵次铭关，出军颇利，屡败苏定方。奈\n元吉以罗成为世民得力骁将，非已之爪牙，方甚忌嫉，故遂有意陷害，逼处死地，谓若不斩得苏烈首级，即\n系通寇，令左右琐闭关门，不许放罗成进。罗成义子罗春暗上城楼探视，适罗成单骑力战归，不得进，抵城\n叫关。罗春遂诉述元吉命令，罗成知元吉有意倾陷，情愿以一死殉国，即命罗春将纱灯坠下，破指裂袍，席\n地草成一血疏，嘱罗春驰归奏闻朝廷，已遂重复上马，拼死入番营索战，乃中苏烈计，被乱箭射死淤河中，\n殊堪浩叹。",
+  "performance_notes": "此剧本属于昆剧中之《淤泥河》，全本系《番衅》、《败虏》、《屈辱》、《计陷》、《血疏》、《乱箭》、\n《哭夫》、《显灵》等八折。此《叫关》，即《血疏》也。德珺如、朱素云二人，于此剧堪称一时瑜亮。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 87,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "且上城楼": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "罗春": 1
+      },
+      "links": [
+        {
+          "source": "罗成",
+          "target": "罗春",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.149,
+      "locations": {
+        "且上城楼": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "罗春": 1
+      },
+      "links": [
+        {
+          "source": "罗成",
+          "target": "罗春",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "且上城楼",
+      "characters": [
+        {
+          "name": "罗春",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "俺，罗春，继父罗成。只因河北反了刘黑塔，李天寿挂帅夺取铭关，二奸王谋",
+          "rating": -0.2,
+          "role": "小生"
+        },
+        {
+          "name": "罗成",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "黑夜里闷坏了罗士信，",
+          "rating": 0.25,
+          "role": "小生"
+        }
+      ],
+      "summary": "第1场：2位角色，87行",
+      "firstLine": 1,
+      "lastLine": 87,
+      "numLines": 87,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.448,
+        "sentiment": 0.259
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "且上城楼",
+      "characters": [
+        {
+          "name": "罗成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "城楼去了罗春子，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "罗春",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.745,
+        "conflict": 0.0,
+        "sentiment": 0.84
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "罗成",
+      "short": "罗成",
+      "key": "罗成",
+      "quote": "罗成 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "罗春",
+      "short": "罗春",
+      "key": "罗春",
+      "quote": "罗春 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "且上城楼",
+      "key": "且上城楼",
+      "quote": "场景发生在且上城楼"
+    }
+  ]
+}

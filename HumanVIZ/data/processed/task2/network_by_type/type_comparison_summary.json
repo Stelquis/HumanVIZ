@@ -1,0 +1,753 @@
+{
+  "meta": {
+    "step": "5.7",
+    "generated_at": "2026-06-06T16:57:04.189018",
+    "description": "剧目类型网络结构特征对比 — 汇总 Step 5.2~5.6",
+    "play_count": 1473,
+    "sources": {
+      "Step 5.2": "basic_stats.json",
+      "Step 5.3": "relation_type_distribution.json",
+      "Step 5.4": "core_role_hangdang_distribution.json + role_type_completion_audit.json",
+      "Step 5.5A": "centralization_metrics.json",
+      "Step 5.5B": "network_structure_labels.json + network_structure_by_type.json",
+      "Step 5.6": "connectivity_stats.json + connectivity_by_type.json"
+    },
+    "scope_notes": {
+      "scale": "基于 full_graph: 所有角色节点 + 所有关系边（含中立/同场）",
+      "density": "基于 full_graph",
+      "relations": "all_relations: 包含 中立/同场 等所有关系边；semantic_relations: 排除 macro_type=中立 及 micro_type=同场/其他中立/萍水相逢",
+      "core_roles": "核心角色 = 度中心性最高的角色。行当来源: original(原始JSON主要角色) → cross_play(跨剧本同名映射) → llm(DeepSeek-V4推断)",
+      "centralization": "基于 full_graph。Freeman公式, n<=2 时使用简化计算",
+      "structure": "Rule-based 标签判定，严格阈值。单核心倾向/双核心倾向 为辅助标记，主标签不包含它们",
+      "connectivity": "full_graph + semantic_graph 双口径连通性分析。阵营分裂检测: 0 cases",
+      "confidence": "sample: n>=200→high, n>=50→medium, n<50→low; role_type: completion>=60%→high, >=40%→medium; structure: n>=100→high, n>=30→medium"
+    },
+    "small_sample_threshold": 30
+  },
+  "历史戏": {
+    "sample": {
+      "play_count": 776,
+      "small_sample_warning": false,
+      "pct_of_corpus": 52.7
+    },
+    "scale": {
+      "avg_character_count": 17.6,
+      "median_character_count": 14.0,
+      "avg_relation_count": 55.74,
+      "median_relation_count": 30.0,
+      "play_count": 776
+    },
+    "density": {
+      "avg_density": 0.3855,
+      "median_density": 0.3333,
+      "avg_clustering": 0.654
+    },
+    "relations": {
+      "total_edges": 43254,
+      "semantic_edges": 13811,
+      "semantic_edge_ratio": 0.319,
+      "all_relations_top": [
+        "中立",
+        "同盟",
+        "从属",
+        "敌对",
+        "亲属"
+      ],
+      "semantic_relations_top": [
+        "同盟",
+        "从属",
+        "敌对",
+        "亲属",
+        "情感"
+      ],
+      "mean_semantic_enrichment": 0.319
+    },
+    "core_roles": {
+      "dominant_role_types": [
+        "生",
+        "净"
+      ],
+      "role_type_completion_rate": 30.2,
+      "single_protagonist_ratio": 0.023
+    },
+    "centralization": {
+      "avg_degree_centralization": 0.3369,
+      "median_degree_centralization": 0.3446,
+      "avg_top1_top2_gap": 0.066,
+      "median_top1_top2_gap": 0.0,
+      "avg_top3_centrality_share": 0.4395,
+      "median_top3_centrality_share": 0.3845,
+      "avg_max_to_mean_ratio": 2.1367,
+      "median_max_to_mean_ratio": 2.0,
+      "avg_edge_concentration_top1": 0.3301,
+      "avg_edge_concentration_top3": 0.676
+    },
+    "structure": {
+      "dominant_labels": [
+        "分散型"
+      ],
+      "top_label": "分散型",
+      "label_distribution": {
+        "分散型": 536,
+        "双核心型": 70,
+        "多核心群像型": 59,
+        "单核心型": 49,
+        "弱关系碎片型": 39,
+        "双核心对抗型": 23
+      },
+      "label_pct": {
+        "分散型": 69.1,
+        "双核心型": 9.0,
+        "多核心群像型": 7.6,
+        "单核心型": 6.3,
+        "弱关系碎片型": 5.0,
+        "双核心对抗型": 3.0
+      },
+      "secondary_flag_counts": {
+        "双核心倾向": 86,
+        "单核心倾向": 34
+      }
+    },
+    "connectivity": {
+      "avg_connected_components": 5.1018,
+      "avg_largest_component_ratio": 0.76,
+      "avg_isolated_node_ratio": 0.2253,
+      "avg_fragmentation_index": 0.3226,
+      "semantic_avg_largest_component_ratio": 0.5924,
+      "semantic_edge_retention": 0.5904,
+      "avg_component_increase": 4.1508,
+      "camp_split_rate": 0.0
+    },
+    "confidence": {
+      "sample_confidence": "high",
+      "role_type_confidence": "low",
+      "structure_confidence": "high",
+      "connectivity_confidence": "high",
+      "overall_confidence": "high",
+      "notes": [
+        "行当覆盖率仅 30%，核心角色行当分析置信度受限"
+      ]
+    }
+  },
+  "家庭戏": {
+    "sample": {
+      "play_count": 223,
+      "small_sample_warning": false,
+      "pct_of_corpus": 15.1
+    },
+    "scale": {
+      "avg_character_count": 9.86,
+      "median_character_count": 7.0,
+      "avg_relation_count": 26.63,
+      "median_relation_count": 10.0,
+      "play_count": 223
+    },
+    "density": {
+      "avg_density": 0.5575,
+      "median_density": 0.5,
+      "avg_clustering": 0.6497
+    },
+    "relations": {
+      "total_edges": 5938,
+      "semantic_edges": 2037,
+      "semantic_edge_ratio": 0.343,
+      "all_relations_top": [
+        "中立",
+        "亲属",
+        "从属",
+        "同盟",
+        "敌对"
+      ],
+      "semantic_relations_top": [
+        "亲属",
+        "从属",
+        "同盟",
+        "敌对",
+        "情感"
+      ],
+      "mean_semantic_enrichment": 0.343
+    },
+    "core_roles": {
+      "dominant_role_types": [
+        "生",
+        "旦"
+      ],
+      "role_type_completion_rate": 48.7,
+      "single_protagonist_ratio": 0.013
+    },
+    "centralization": {
+      "avg_degree_centralization": 0.2558,
+      "median_degree_centralization": 0.2778,
+      "avg_top1_top2_gap": 0.0314,
+      "median_top1_top2_gap": 0.0,
+      "avg_top3_centrality_share": 0.6323,
+      "median_top3_centrality_share": 0.6,
+      "avg_max_to_mean_ratio": 1.6289,
+      "median_max_to_mean_ratio": 1.4749,
+      "avg_edge_concentration_top1": 0.4805,
+      "avg_edge_concentration_top3": 0.8226
+    },
+    "structure": {
+      "dominant_labels": [
+        "分散型"
+      ],
+      "top_label": "分散型",
+      "label_distribution": {
+        "分散型": 151,
+        "弱关系碎片型": 32,
+        "多核心群像型": 16,
+        "双核心型": 15,
+        "单核心型": 6,
+        "双核心对抗型": 3
+      },
+      "label_pct": {
+        "分散型": 67.7,
+        "弱关系碎片型": 14.3,
+        "多核心群像型": 7.2,
+        "双核心型": 6.7,
+        "单核心型": 2.7,
+        "双核心对抗型": 1.3
+      },
+      "secondary_flag_counts": {
+        "双核心倾向": 10,
+        "单核心倾向": 6
+      }
+    },
+    "connectivity": {
+      "avg_connected_components": 3.1211,
+      "avg_largest_component_ratio": 0.8081,
+      "avg_isolated_node_ratio": 0.1971,
+      "avg_fragmentation_index": 0.2938,
+      "semantic_avg_largest_component_ratio": 0.656,
+      "semantic_edge_retention": 0.63,
+      "avg_component_increase": 2.0897,
+      "camp_split_rate": 0.0
+    },
+    "confidence": {
+      "sample_confidence": "high",
+      "role_type_confidence": "medium",
+      "structure_confidence": "high",
+      "connectivity_confidence": "high",
+      "overall_confidence": "high",
+      "notes": [
+        "行当覆盖率仅 49%，核心角色行当分析置信度受限"
+      ]
+    }
+  },
+  "公案戏": {
+    "sample": {
+      "play_count": 100,
+      "small_sample_warning": false,
+      "pct_of_corpus": 6.8
+    },
+    "scale": {
+      "avg_character_count": 18.2,
+      "median_character_count": 12.0,
+      "avg_relation_count": 72.01,
+      "median_relation_count": 36.0,
+      "play_count": 100
+    },
+    "density": {
+      "avg_density": 0.4561,
+      "median_density": 0.4129,
+      "avg_clustering": 0.6895
+    },
+    "relations": {
+      "total_edges": 7201,
+      "semantic_edges": 1469,
+      "semantic_edge_ratio": 0.204,
+      "all_relations_top": [
+        "中立",
+        "从属",
+        "同盟",
+        "敌对",
+        "亲属"
+      ],
+      "semantic_relations_top": [
+        "从属",
+        "同盟",
+        "敌对",
+        "亲属",
+        "情感"
+      ],
+      "mean_semantic_enrichment": 0.204
+    },
+    "core_roles": {
+      "dominant_role_types": [
+        "生",
+        "旦"
+      ],
+      "role_type_completion_rate": 40.1,
+      "single_protagonist_ratio": 0.01
+    },
+    "centralization": {
+      "avg_degree_centralization": 0.3152,
+      "median_degree_centralization": 0.3477,
+      "avg_top1_top2_gap": 0.0533,
+      "median_top1_top2_gap": 0.0,
+      "avg_top3_centrality_share": 0.4226,
+      "median_top3_centrality_share": 0.375,
+      "avg_max_to_mean_ratio": 1.957,
+      "median_max_to_mean_ratio": 1.7573,
+      "avg_edge_concentration_top1": 0.3149,
+      "avg_edge_concentration_top3": 0.6617
+    },
+    "structure": {
+      "dominant_labels": [
+        "分散型"
+      ],
+      "top_label": "分散型",
+      "label_distribution": {
+        "分散型": 70,
+        "多核心群像型": 13,
+        "双核心型": 7,
+        "弱关系碎片型": 4,
+        "单核心型": 3,
+        "双核心对抗型": 3
+      },
+      "label_pct": {
+        "分散型": 70.0,
+        "多核心群像型": 13.0,
+        "双核心型": 7.0,
+        "弱关系碎片型": 4.0,
+        "单核心型": 3.0,
+        "双核心对抗型": 3.0
+      },
+      "secondary_flag_counts": {
+        "双核心倾向": 5,
+        "单核心倾向": 3
+      }
+    },
+    "connectivity": {
+      "avg_connected_components": 5.04,
+      "avg_largest_component_ratio": 0.7865,
+      "avg_isolated_node_ratio": 0.2006,
+      "avg_fragmentation_index": 0.2975,
+      "semantic_avg_largest_component_ratio": 0.5817,
+      "semantic_edge_retention": 0.5045,
+      "avg_component_increase": 5.57,
+      "camp_split_rate": 0.0
+    },
+    "confidence": {
+      "sample_confidence": "medium",
+      "role_type_confidence": "medium",
+      "structure_confidence": "high",
+      "connectivity_confidence": "high",
+      "overall_confidence": "medium",
+      "notes": [
+        "行当覆盖率仅 40%，核心角色行当分析置信度受限"
+      ]
+    }
+  },
+  "爱情戏": {
+    "sample": {
+      "play_count": 116,
+      "small_sample_warning": false,
+      "pct_of_corpus": 7.9
+    },
+    "scale": {
+      "avg_character_count": 9.3,
+      "median_character_count": 6.0,
+      "avg_relation_count": 27.38,
+      "median_relation_count": 9.0,
+      "play_count": 116
+    },
+    "density": {
+      "avg_density": 0.6152,
+      "median_density": 0.6036,
+      "avg_clustering": 0.6464
+    },
+    "relations": {
+      "total_edges": 3176,
+      "semantic_edges": 1006,
+      "semantic_edge_ratio": 0.317,
+      "all_relations_top": [
+        "中立",
+        "从属",
+        "同盟",
+        "亲属",
+        "敌对"
+      ],
+      "semantic_relations_top": [
+        "从属",
+        "同盟",
+        "亲属",
+        "敌对",
+        "情感"
+      ],
+      "mean_semantic_enrichment": 0.317
+    },
+    "core_roles": {
+      "dominant_role_types": [
+        "旦",
+        "生"
+      ],
+      "role_type_completion_rate": 49.3,
+      "single_protagonist_ratio": 0.035
+    },
+    "centralization": {
+      "avg_degree_centralization": 0.2261,
+      "median_degree_centralization": 0.25,
+      "avg_top1_top2_gap": 0.0305,
+      "median_top1_top2_gap": 0.0,
+      "avg_top3_centrality_share": 0.615,
+      "median_top3_centrality_share": 0.6,
+      "avg_max_to_mean_ratio": 1.4955,
+      "median_max_to_mean_ratio": 1.25,
+      "avg_edge_concentration_top1": 0.4746,
+      "avg_edge_concentration_top3": 0.8049
+    },
+    "structure": {
+      "dominant_labels": [
+        "分散型",
+        "弱关系碎片型"
+      ],
+      "top_label": "分散型",
+      "label_distribution": {
+        "分散型": 71,
+        "弱关系碎片型": 23,
+        "多核心群像型": 10,
+        "双核心型": 10,
+        "单核心型": 2
+      },
+      "label_pct": {
+        "分散型": 61.2,
+        "弱关系碎片型": 19.8,
+        "多核心群像型": 8.6,
+        "双核心型": 8.6,
+        "单核心型": 1.7
+      },
+      "secondary_flag_counts": {
+        "双核心倾向": 7,
+        "单核心倾向": 3
+      }
+    },
+    "connectivity": {
+      "avg_connected_components": 2.569,
+      "avg_largest_component_ratio": 0.8619,
+      "avg_isolated_node_ratio": 0.1728,
+      "avg_fragmentation_index": 0.2648,
+      "semantic_avg_largest_component_ratio": 0.6999,
+      "semantic_edge_retention": 0.5778,
+      "avg_component_increase": 2.1034,
+      "camp_split_rate": 0.0
+    },
+    "confidence": {
+      "sample_confidence": "medium",
+      "role_type_confidence": "medium",
+      "structure_confidence": "high",
+      "connectivity_confidence": "high",
+      "overall_confidence": "medium",
+      "notes": [
+        "行当覆盖率仅 49%，核心角色行当分析置信度受限"
+      ]
+    }
+  },
+  "侠义戏": {
+    "sample": {
+      "play_count": 126,
+      "small_sample_warning": false,
+      "pct_of_corpus": 8.6
+    },
+    "scale": {
+      "avg_character_count": 18.15,
+      "median_character_count": 14.5,
+      "avg_relation_count": 65.41,
+      "median_relation_count": 35.5,
+      "play_count": 126
+    },
+    "density": {
+      "avg_density": 0.4134,
+      "median_density": 0.3476,
+      "avg_clustering": 0.6899
+    },
+    "relations": {
+      "total_edges": 8242,
+      "semantic_edges": 1999,
+      "semantic_edge_ratio": 0.243,
+      "all_relations_top": [
+        "中立",
+        "同盟",
+        "从属",
+        "敌对",
+        "亲属"
+      ],
+      "semantic_relations_top": [
+        "同盟",
+        "从属",
+        "敌对",
+        "亲属",
+        "情感"
+      ],
+      "mean_semantic_enrichment": 0.242
+    },
+    "core_roles": {
+      "dominant_role_types": [
+        "生",
+        "净"
+      ],
+      "role_type_completion_rate": 42.8,
+      "single_protagonist_ratio": 0.024
+    },
+    "centralization": {
+      "avg_degree_centralization": 0.3443,
+      "median_degree_centralization": 0.3529,
+      "avg_top1_top2_gap": 0.0752,
+      "median_top1_top2_gap": 0.0,
+      "avg_top3_centrality_share": 0.41,
+      "median_top3_centrality_share": 0.3579,
+      "avg_max_to_mean_ratio": 2.0407,
+      "median_max_to_mean_ratio": 1.8678,
+      "avg_edge_concentration_top1": 0.3052,
+      "avg_edge_concentration_top3": 0.6479
+    },
+    "structure": {
+      "dominant_labels": [
+        "分散型"
+      ],
+      "top_label": "分散型",
+      "label_distribution": {
+        "分散型": 84,
+        "多核心群像型": 13,
+        "单核心型": 13,
+        "双核心型": 11,
+        "弱关系碎片型": 4,
+        "双核心对抗型": 1
+      },
+      "label_pct": {
+        "分散型": 66.7,
+        "多核心群像型": 10.3,
+        "单核心型": 10.3,
+        "双核心型": 8.7,
+        "弱关系碎片型": 3.2,
+        "双核心对抗型": 0.8
+      },
+      "secondary_flag_counts": {
+        "双核心倾向": 12,
+        "单核心倾向": 6
+      }
+    },
+    "connectivity": {
+      "avg_connected_components": 3.9683,
+      "avg_largest_component_ratio": 0.8249,
+      "avg_isolated_node_ratio": 0.1681,
+      "avg_fragmentation_index": 0.2609,
+      "semantic_avg_largest_component_ratio": 0.5394,
+      "semantic_edge_retention": 0.4382,
+      "avg_component_increase": 6.5476,
+      "camp_split_rate": 0.0
+    },
+    "confidence": {
+      "sample_confidence": "medium",
+      "role_type_confidence": "medium",
+      "structure_confidence": "high",
+      "connectivity_confidence": "high",
+      "overall_confidence": "medium",
+      "notes": [
+        "行当覆盖率仅 43%，核心角色行当分析置信度受限"
+      ]
+    }
+  },
+  "神话戏": {
+    "sample": {
+      "play_count": 115,
+      "small_sample_warning": false,
+      "pct_of_corpus": 7.8
+    },
+    "scale": {
+      "avg_character_count": 11.98,
+      "median_character_count": 10.0,
+      "avg_relation_count": 37.33,
+      "median_relation_count": 21.0,
+      "play_count": 115
+    },
+    "density": {
+      "avg_density": 0.5818,
+      "median_density": 0.5275,
+      "avg_clustering": 0.7539
+    },
+    "relations": {
+      "total_edges": 4293,
+      "semantic_edges": 1755,
+      "semantic_edge_ratio": 0.409,
+      "all_relations_top": [
+        "中立",
+        "同盟",
+        "从属",
+        "敌对",
+        "亲属"
+      ],
+      "semantic_relations_top": [
+        "同盟",
+        "从属",
+        "敌对",
+        "亲属",
+        "情感"
+      ],
+      "mean_semantic_enrichment": 0.409
+    },
+    "core_roles": {
+      "dominant_role_types": [
+        "生",
+        "净"
+      ],
+      "role_type_completion_rate": 37.4,
+      "single_protagonist_ratio": 0.017
+    },
+    "centralization": {
+      "avg_degree_centralization": 0.2788,
+      "median_degree_centralization": 0.3,
+      "avg_top1_top2_gap": 0.0707,
+      "median_top1_top2_gap": 0.0,
+      "avg_top3_centrality_share": 0.51,
+      "median_top3_centrality_share": 0.4286,
+      "avg_max_to_mean_ratio": 1.6699,
+      "median_max_to_mean_ratio": 1.5,
+      "avg_edge_concentration_top1": 0.3851,
+      "avg_edge_concentration_top3": 0.7296
+    },
+    "structure": {
+      "dominant_labels": [
+        "分散型"
+      ],
+      "top_label": "分散型",
+      "label_distribution": {
+        "分散型": 85,
+        "双核心型": 10,
+        "单核心型": 7,
+        "弱关系碎片型": 6,
+        "多核心群像型": 5,
+        "双核心对抗型": 2
+      },
+      "label_pct": {
+        "分散型": 73.9,
+        "双核心型": 8.7,
+        "单核心型": 6.1,
+        "弱关系碎片型": 5.2,
+        "多核心群像型": 4.3,
+        "双核心对抗型": 1.7
+      },
+      "secondary_flag_counts": {
+        "双核心倾向": 11,
+        "单核心倾向": 10
+      }
+    },
+    "connectivity": {
+      "avg_connected_components": 2.6087,
+      "avg_largest_component_ratio": 0.8629,
+      "avg_isolated_node_ratio": 0.1063,
+      "avg_fragmentation_index": 0.1981,
+      "semantic_avg_largest_component_ratio": 0.6807,
+      "semantic_edge_retention": 0.6162,
+      "avg_component_increase": 2.6522,
+      "camp_split_rate": 0.0
+    },
+    "confidence": {
+      "sample_confidence": "medium",
+      "role_type_confidence": "low",
+      "structure_confidence": "high",
+      "connectivity_confidence": "high",
+      "overall_confidence": "medium",
+      "notes": [
+        "行当覆盖率仅 37%，核心角色行当分析置信度受限"
+      ]
+    }
+  },
+  "技法展示戏": {
+    "sample": {
+      "play_count": 17,
+      "small_sample_warning": true,
+      "pct_of_corpus": 1.2
+    },
+    "scale": {
+      "avg_character_count": 4.53,
+      "median_character_count": 3.0,
+      "avg_relation_count": 9.0,
+      "median_relation_count": 3.0,
+      "play_count": 17
+    },
+    "density": {
+      "avg_density": 0.7745,
+      "median_density": 1.0,
+      "avg_clustering": 0.6412
+    },
+    "relations": {
+      "total_edges": 153,
+      "semantic_edges": 71,
+      "semantic_edge_ratio": 0.464,
+      "all_relations_top": [
+        "中立",
+        "亲属",
+        "从属",
+        "同盟",
+        "敌对"
+      ],
+      "semantic_relations_top": [
+        "亲属",
+        "从属",
+        "同盟",
+        "敌对",
+        "情感"
+      ],
+      "mean_semantic_enrichment": 0.464
+    },
+    "core_roles": {
+      "dominant_role_types": [
+        "丑",
+        "旦"
+      ],
+      "role_type_completion_rate": 63.6,
+      "single_protagonist_ratio": 0.059
+    },
+    "centralization": {
+      "avg_degree_centralization": 0.1328,
+      "median_degree_centralization": 0.0,
+      "avg_top1_top2_gap": 0.0,
+      "median_top1_top2_gap": 0.0,
+      "avg_top3_centrality_share": 0.8562,
+      "median_top3_centrality_share": 1.0,
+      "avg_max_to_mean_ratio": 1.1633,
+      "median_max_to_mean_ratio": 1.0,
+      "avg_edge_concentration_top1": 0.6599,
+      "avg_edge_concentration_top3": 0.9406
+    },
+    "structure": {
+      "dominant_labels": [
+        "分散型",
+        "弱关系碎片型"
+      ],
+      "top_label": "分散型",
+      "label_distribution": {
+        "分散型": 10,
+        "弱关系碎片型": 5,
+        "双核心型": 2
+      },
+      "label_pct": {
+        "分散型": 58.8,
+        "弱关系碎片型": 29.4,
+        "双核心型": 11.8
+      },
+      "secondary_flag_counts": {}
+    },
+    "connectivity": {
+      "avg_connected_components": 1.4118,
+      "avg_largest_component_ratio": 0.9392,
+      "avg_isolated_node_ratio": 0.1196,
+      "avg_fragmentation_index": 0.2323,
+      "semantic_avg_largest_component_ratio": 0.8235,
+      "semantic_edge_retention": 0.7447,
+      "avg_component_increase": 0.7647,
+      "camp_split_rate": 0.0
+    },
+    "confidence": {
+      "sample_confidence": "low",
+      "role_type_confidence": "high",
+      "structure_confidence": "low",
+      "connectivity_confidence": "medium",
+      "overall_confidence": "low",
+      "notes": [
+        "样本量 17 < 30，统计指标仅供参考"
+      ]
+    }
+  }
+}

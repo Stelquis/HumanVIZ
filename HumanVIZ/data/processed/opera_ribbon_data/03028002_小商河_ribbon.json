@@ -1,0 +1,806 @@
+{
+  "title": "小商河",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 12,
+  "num_locations": 1,
+  "source_file": "03028002_小商河.json",
+  "source_folder": "03000000",
+  "plot_summary": "岳飞破“五方阵”后，兀术举兵南侵。岳飞战将杨再兴奉命大战于小商河，连斩四番将。兀术不敌，埋兵小\n商河桥头，杨再兴被乱箭射死。岳云挺战，兀术败退朱仙镇。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 70,
+      "summary": "第一场；第二场",
+      "conflict": 0.799,
+      "importance": 0.955,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "岳飞": 1,
+        "杨再兴": 1,
+        "兀术": 1,
+        "岳云": 1,
+        "牛皋": 1,
+        "雪里花北": 1
+      },
+      "links": [
+        {
+          "source": "兀术",
+          "target": "雪里花北",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "杨再兴",
+          "value": 1
+        },
+        {
+          "source": "岳云",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "牛皋",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "岳云",
+          "target": "杨再兴",
+          "value": 1
+        },
+        {
+          "source": "杨再兴",
+          "target": "牛皋",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "杨再兴",
+          "value": 1
+        },
+        {
+          "source": "岳云",
+          "target": "牛皋",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "岳云",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "牛皋",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 52,
+      "summary": "第三场；第四场",
+      "conflict": 0.367,
+      "importance": 0.709,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "报子": 1,
+        "岳飞": 1,
+        "杨再兴": 1,
+        "兀术": 1,
+        "雪里花南": 1
+      },
+      "links": [
+        {
+          "source": "杨再兴",
+          "target": "雪里花南",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "杨再兴",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "杨再兴",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "杨再兴",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 98,
+      "summary": "第五场；第六场",
+      "conflict": 0.206,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "报子": 1,
+        "岳飞": 1,
+        "杨再兴": 1,
+        "众人": 1,
+        "四文堂": 1,
+        "狄雷": 1,
+        "兀术": 1,
+        "岳云": 1,
+        "四下手": 1,
+        "牛皋": 1
+      },
+      "links": [
+        {
+          "source": "兀术",
+          "target": "杨再兴",
+          "value": 2
+        },
+        {
+          "source": "四下手",
+          "target": "杨再兴",
+          "value": 1
+        },
+        {
+          "source": "四文堂",
+          "target": "杨再兴",
+          "value": 1
+        },
+        {
+          "source": "岳云",
+          "target": "杨再兴",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "四下手",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "四文堂",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "岳云",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "四文堂",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "岳云",
+          "value": 1
+        },
+        {
+          "source": "四文堂",
+          "target": "岳云",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "牛皋",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "狄雷",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "杨再兴",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "牛皋",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "狄雷",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "杨再兴",
+          "value": 1
+        },
+        {
+          "source": "牛皋",
+          "target": "狄雷",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "牛皋",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "牛皋",
+          "value": 1
+        },
+        {
+          "source": "杨再兴",
+          "target": "牛皋",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "狄雷",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "狄雷",
+          "value": 1
+        },
+        {
+          "source": "杨再兴",
+          "target": "狄雷",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "兀术",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "杨再兴",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "兀术",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "巴图鲁！催军！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "雪里花北",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.478,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "岳飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "收服了杨再兴精明干练，",
+          "rating": 0.75,
+          "role": "老生"
+        },
+        {
+          "name": "杨再兴",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "率军卒洞庭湖一场鏖战，",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "岳云",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "攻破了五方阵奇功一件，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "牛皋",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "进帐中见元帅细说根源。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "兀术",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：5位角色，51行",
+      "firstLine": 1,
+      "lastLine": 51,
+      "numLines": 51,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.909,
+        "conflict": 0.784,
+        "sentiment": 0.359
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "雪里花南",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呔！马前来将，慢催坐骑，雪里花南在此！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨再兴",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "番奴狂妄，逞凶顽，番奴狂妄，",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第三场：2位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.527,
+        "conflict": 0.816,
+        "sentiment": 0.247
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "报子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "四位平章落马！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "兀术",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "统雄师虎跃龙扬，",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "杨再兴",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "阵前来者，敢是兀术？",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "岳飞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：4位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.786,
+        "conflict": 0.889,
+        "sentiment": -0.12
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨再兴",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "怒冲冲抖丝缰，",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "兀术",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "杨再兴俊逸豪强，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四文堂",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "兀术兵退朱仙镇！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "岳云",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "众将官，将朱仙镇团团围住！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：5位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.73,
+        "conflict": 0.678,
+        "sentiment": 0.04
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "岳飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "这几日身不爽胸怀闷恹，",
+          "rating": 0.273,
+          "role": "老生"
+        },
+        {
+          "name": "报子",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "报：杨将军在小商河桥身中乱箭，失机落马！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "牛皋",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "牛皋、岳云救杨将军回营！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "狄雷",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "在！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "兀术",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "杨再兴",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第六场：7位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.937,
+        "conflict": 0.435,
+        "sentiment": 0.246
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨再兴",
+      "short": "杨再",
+      "key": "杨再兴",
+      "quote": "杨再兴 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "兀术",
+      "short": "兀术",
+      "key": "兀术",
+      "quote": "兀术 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "岳飞",
+      "short": "岳飞",
+      "key": "岳飞",
+      "quote": "岳飞 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四文堂",
+      "short": "四文",
+      "key": "四文堂",
+      "quote": "四文堂 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "狄雷",
+      "short": "狄雷",
+      "key": "狄雷",
+      "quote": "狄雷 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "岳云",
+      "short": "岳云",
+      "key": "岳云",
+      "quote": "岳云 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "牛皋",
+      "short": "牛皋",
+      "key": "牛皋",
+      "quote": "牛皋 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "雪里花北",
+      "short": "雪里",
+      "key": "雪里花北",
+      "quote": "雪里花北 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "雪里花南",
+      "short": "雪里",
+      "key": "雪里花南",
+      "quote": "雪里花南 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

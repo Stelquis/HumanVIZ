@@ -1,0 +1,427 @@
+{
+  "title": "捉放曹",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70006102_捉放曹.json",
+  "source_folder": "70006000",
+  "plot_summary": "曹操谋刺董卓未成逃走，董卓下信捕拿，曹操逃至中牟县为关吏所获。县令陈宫敬曹操忠直，私行释放，弃\n官同逃，路遇曹操父执吕伯奢加以款待，曹操心疑，杀死吕伯奢及其全家。陈宫怨曹操不仁，乘夜弃曹操而\n去。",
+  "performance_notes": "这个剧本是在钱培荣手抄余派戏词（不含配角唱念）的基础上，由李炳莘对照孟小冬说戏录音进行校核，并\n请范石人对配角的唱念进行修订，最终订稿。自《行路》起，标记为“第五场”。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 150,
+      "summary": "行路",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "陈宫": 1,
+        "吕伯奢": 1,
+        "曹操": 1,
+        "院子": 1
+      },
+      "links": [
+        {
+          "source": "吕伯奢",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "吕伯奢",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "吕伯奢",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "陈宫",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 43,
+      "summary": "第六场",
+      "conflict": 0.0,
+      "importance": 0.461,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "陈宫": 1,
+        "曹操": 1
+      },
+      "links": [
+        {
+          "source": "曹操",
+          "target": "陈宫",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 35,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.375,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "陈宫": 1,
+        "吕伯奢": 1,
+        "曹操": 1
+      },
+      "links": [
+        {
+          "source": "吕伯奢",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "吕伯奢",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "陈宫",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 145,
+      "summary": "第八场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "陈宫": 1,
+        "吕伯奢": 1,
+        "曹操": 1,
+        "店家": 1
+      },
+      "links": [
+        {
+          "source": "曹操",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "吕伯奢",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "吕伯奢",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "吕伯奢",
+          "target": "店家",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "行路",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "吕伯奢",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "嗯哼！",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "马来！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "陈宫",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "路上行人马蹄忙。",
+          "rating": 0.25,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "迎接家爷。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "行路：4位角色，150行",
+      "firstLine": 1,
+      "lastLine": 150,
+      "numLines": 150,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.293,
+        "sentiment": 0.354
+      }
+    },
+    {
+      "number": 2,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "自作自受自遭殃，",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "陈宫",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓得我三魂七魄忙。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第六场：2位角色，43行",
+      "firstLine": 1,
+      "lastLine": 43,
+      "numLines": 43,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.688,
+        "conflict": 0.381,
+        "sentiment": 0.006
+      }
+    },
+    {
+      "number": 3,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "吕伯奢",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "老汉亲自沽佳酿，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "遇见了！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "陈宫",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "如何？",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第七场：3位角色，35行",
+      "firstLine": 1,
+      "lastLine": 35,
+      "numLines": 35,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.738,
+        "conflict": 1.0,
+        "sentiment": 0.122
+      }
+    },
+    {
+      "number": 4,
+      "name": "第八场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "勒住丝缰停住马，",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "陈宫",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "他人不走事又差。",
+          "rating": -0.111,
+          "role": "老生"
+        },
+        {
+          "name": "吕伯奢",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "店家",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第八场：4位角色，145行",
+      "firstLine": 1,
+      "lastLine": 145,
+      "numLines": 145,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.369,
+        "sentiment": 0.236
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "陈宫",
+      "short": "陈宫",
+      "key": "陈宫",
+      "quote": "陈宫 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹操",
+      "short": "曹操",
+      "key": "曹操",
+      "quote": "曹操 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "吕伯奢",
+      "short": "吕伯",
+      "key": "吕伯奢",
+      "quote": "吕伯奢 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "店家",
+      "short": "店家",
+      "key": "店家",
+      "quote": "店家 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

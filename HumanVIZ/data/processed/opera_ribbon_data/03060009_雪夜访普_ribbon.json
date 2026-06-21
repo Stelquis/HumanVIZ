@@ -1,0 +1,533 @@
+{
+  "title": "雪夜访普",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 9,
+  "num_locations": 2,
+  "source_file": "03060009_雪夜访普.json",
+  "source_folder": "03000000",
+  "plot_summary": "赵匡胤初登基，四方不靖，雪夜至赵普家。赵普方读《论语》，君臣围炉共话天下大势，继遣曹彬等将士分\n下江南、西川、两广、吴越。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 189,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.444,
+      "importance": 1.0,
+      "locations": {
+        "去到相府": 2,
+        "府前用目望": 1
+      },
+      "characters": {
+        "赵夫人": 1,
+        "赵匡胤": 1,
+        "石守信": 1,
+        "二太监": 1,
+        "张千": 1,
+        "潘仁美": 1,
+        "曹彬": 1,
+        "王全宾": 1,
+        "赵普": 1
+      },
+      "links": [
+        {
+          "source": "二太监",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "张千",
+          "target": "赵匡胤",
+          "value": 2
+        },
+        {
+          "source": "赵匡胤",
+          "target": "赵普",
+          "value": 2
+        },
+        {
+          "source": "赵匡胤",
+          "target": "赵夫人",
+          "value": 1
+        },
+        {
+          "source": "张千",
+          "target": "赵普",
+          "value": 2
+        },
+        {
+          "source": "张千",
+          "target": "赵夫人",
+          "value": 1
+        },
+        {
+          "source": "赵夫人",
+          "target": "赵普",
+          "value": 1
+        },
+        {
+          "source": "潘仁美",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "曹彬",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "石守信",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "王全宾",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "潘仁美",
+          "target": "赵普",
+          "value": 1
+        },
+        {
+          "source": "曹彬",
+          "target": "赵普",
+          "value": 1
+        },
+        {
+          "source": "石守信",
+          "target": "赵普",
+          "value": 1
+        },
+        {
+          "source": "王全宾",
+          "target": "赵普",
+          "value": 1
+        },
+        {
+          "source": "张千",
+          "target": "潘仁美",
+          "value": 1
+        },
+        {
+          "source": "张千",
+          "target": "曹彬",
+          "value": 1
+        },
+        {
+          "source": "张千",
+          "target": "石守信",
+          "value": 1
+        },
+        {
+          "source": "张千",
+          "target": "王全宾",
+          "value": 1
+        },
+        {
+          "source": "曹彬",
+          "target": "潘仁美",
+          "value": 1
+        },
+        {
+          "source": "潘仁美",
+          "target": "石守信",
+          "value": 1
+        },
+        {
+          "source": "潘仁美",
+          "target": "王全宾",
+          "value": 1
+        },
+        {
+          "source": "曹彬",
+          "target": "石守信",
+          "value": 1
+        },
+        {
+          "source": "曹彬",
+          "target": "王全宾",
+          "value": 1
+        },
+        {
+          "source": "王全宾",
+          "target": "石守信",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 13,
+      "summary": "第4场；第5场",
+      "conflict": 0.78,
+      "importance": 0.129,
+      "locations": {
+        "去到相府": 2
+      },
+      "characters": {
+        "潘仁美": 1,
+        "赵普": 1
+      },
+      "links": [
+        {
+          "source": "潘仁美",
+          "target": "赵普",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "去到相府",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "几处干戈不得宁，寡人日夜费辛勤。不避御路寒风冷，私离宫殿访贤臣。",
+          "rating": -0.333,
+          "role": "红生"
+        },
+        {
+          "name": "二太监",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来此相府。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.721,
+        "conflict": 0.833,
+        "sentiment": -0.007
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "府前用目望",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "站在府前用目望，",
+          "rating": 0.4,
+          "role": "红生"
+        },
+        {
+          "name": "张千",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呔！何人敲动双环？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵普",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "何人击錪？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵夫人",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "臣妾见驾，吾皇万岁！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：4位角色，98行",
+      "firstLine": 1,
+      "lastLine": 98,
+      "numLines": 98,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.846,
+        "conflict": 0.183,
+        "sentiment": 0.437
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "去到相府",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "赐坐！",
+          "rating": 0.143,
+          "role": "红生"
+        },
+        {
+          "name": "赵普",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "谢坐。万岁，这等大雪纷飞，驾临臣门，有何国事议论？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张千",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是。他们都在曹彬家中，待我唤来。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "潘仁美",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曹彬",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "忽听阃外将军令，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "石守信",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "耳闻朝中天子宣。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王全宾",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "赤胆忠心来保国，",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：7位角色，77行",
+      "firstLine": 1,
+      "lastLine": 77,
+      "numLines": 77,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.814,
+        "conflict": 0.296,
+        "sentiment": 0.342
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "去到相府",
+      "characters": [
+        {
+          "name": "赵普",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "列位将军，此去须要齐心，不负老夫所望！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "潘仁美",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "丞相提拔！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第4场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.316,
+        "conflict": 1.0,
+        "sentiment": 0.78
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "去到相府",
+      "characters": [],
+      "summary": "第5场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.003,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵夫人",
+      "short": "赵夫",
+      "key": "赵夫人",
+      "quote": "赵夫人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "石守信",
+      "short": "石守",
+      "key": "石守信",
+      "quote": "石守信 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二太监",
+      "short": "二太",
+      "key": "二太监",
+      "quote": "二太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张千",
+      "short": "张千",
+      "key": "张千",
+      "quote": "张千 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "潘仁美",
+      "short": "潘仁",
+      "key": "潘仁美",
+      "quote": "潘仁美 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "曹彬",
+      "short": "曹彬",
+      "key": "曹彬",
+      "quote": "曹彬 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王全宾",
+      "short": "王全",
+      "key": "王全宾",
+      "quote": "王全宾 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵普",
+      "short": "赵普",
+      "key": "赵普",
+      "quote": "赵普 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "去到相府",
+      "key": "去到相府",
+      "quote": "场景发生在去到相府"
+    },
+    {
+      "name": "府前用目望",
+      "key": "府前用目望",
+      "quote": "场景发生在府前用目望"
+    }
+  ]
+}

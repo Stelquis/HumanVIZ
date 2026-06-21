@@ -1,0 +1,246 @@
+{
+  "title": "升平宝筏·激猴",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 3,
+  "source_file": "70901136_升平宝筏·激猴.json",
+  "source_folder": "70901000",
+  "plot_summary": "孙悟空重回花果山后，猪八戒和沙僧保护唐三藏继续往西天取经，路经碗子山波月洞，遇黄袍妖，三人被难。\n力战不过，猪八戒逃出，直奔花果山，以诓言激怒孙悟空，并引孙悟空赶到碗子山波月洞，搭救师父唐三\n藏。",
+  "performance_notes": "《激猴》亦称《请猴》，即《升平宝筏》第九十八出。原题：“美猴王激怒下山”。\n《升平宝筏》清张照撰。全十本，共二百四十出。据《西游记》唐三藏西天取经故事改编而成。为清宫承应\n传奇巨制之一。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 36,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.291,
+      "locations": {
+        "一座九亭台": 1
+      },
+      "characters": {
+        "猪八戒": 1,
+        "通臂猿": 1
+      },
+      "links": [
+        {
+          "source": "猪八戒",
+          "target": "通臂猿",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 211,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "一座九亭台": 1
+      },
+      "characters": {
+        "猪八戒": 1,
+        "孙悟空": 1,
+        "众猴": 1,
+        "通臂猿": 1
+      },
+      "links": [
+        {
+          "source": "孙悟空",
+          "target": "通臂猿",
+          "value": 1
+        },
+        {
+          "source": "众猴",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪八戒",
+          "value": 1
+        },
+        {
+          "source": "众猴",
+          "target": "通臂猿",
+          "value": 1
+        },
+        {
+          "source": "猪八戒",
+          "target": "通臂猿",
+          "value": 1
+        },
+        {
+          "source": "众猴",
+          "target": "猪八戒",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "一座九亭台",
+      "characters": [
+        {
+          "name": "通臂猿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "人说仙家日月迟，仙家日月快如斯。遥遥百岁人间事，只换山中一局棋。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "时辰三两个，肚里有点饿。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：2位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.587,
+        "conflict": 0.225,
+        "sentiment": 0.464
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "一座九亭台",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "花果山，重建旧基开。",
+          "rating": 0.556,
+          "role": "武生"
+        },
+        {
+          "name": "通臂猿",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众猴",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "擒住奸细！",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "猪八戒",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "什么叫军纪呀？什么叫阵法呀！得啦，我看你们是吃饱了耍猴儿玩呢！",
+          "rating": 0.167,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：4位角色，211行",
+      "firstLine": 1,
+      "lastLine": 211,
+      "numLines": 211,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.249,
+        "sentiment": 0.272
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "猪八戒",
+      "short": "猪八",
+      "key": "猪八戒",
+      "quote": "猪八戒 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "众猴",
+      "short": "众猴",
+      "key": "众猴",
+      "quote": "众猴 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "通臂猿",
+      "short": "通臂",
+      "key": "通臂猿",
+      "quote": "通臂猿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "一座九亭台",
+      "key": "一座九亭台",
+      "quote": "场景发生在一座九亭台"
+    },
+    {
+      "name": "演武升台",
+      "key": "演武升台",
+      "quote": "场景发生在演武升台"
+    },
+    {
+      "name": "悟空上高台",
+      "key": "悟空上高台",
+      "quote": "场景发生在悟空上高台"
+    }
+  ]
+}

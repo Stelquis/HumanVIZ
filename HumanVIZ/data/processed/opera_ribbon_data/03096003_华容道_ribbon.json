@@ -1,0 +1,326 @@
+{
+  "title": "华容道",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "03096003_华容道.json",
+  "source_folder": "03000000",
+  "plot_summary": "赤壁之战，曹操惨败。诸葛亮命关羽预伏于华容小道，擒拿曹操。曹操遇关羽，以旧情动之；关羽不忍，放\n曹操逃走。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 31,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.738,
+      "locations": {
+        "马上长吁短叹": 1
+      },
+      "characters": {
+        "周仓": 1,
+        "曹操": 1,
+        "关羽": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "曹操",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 126,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "马上长吁短叹": 1
+      },
+      "characters": {
+        "许褚": 1,
+        "曹操": 1,
+        "周仓": 1,
+        "关羽": 1
+      },
+      "links": [
+        {
+          "source": "曹操",
+          "target": "许褚",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "许褚",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "许褚",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.214,
+      "locations": {
+        "马上长吁短叹": 1
+      },
+      "characters": {
+        "关羽": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.048,
+      "locations": {
+        "马上长吁短叹": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "马上长吁短叹",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "正气冲霄汉，文光射斗牛。",
+          "rating": -0.111,
+          "role": "红生"
+        },
+        {
+          "name": "周仓",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曹操",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：3位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.811,
+        "conflict": 0.377,
+        "sentiment": 0.168
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "马上长吁短叹",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "曹孟德在马上长吁短叹，",
+          "rating": -0.143,
+          "role": "净"
+        },
+        {
+          "name": "许褚",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "丞相发笑为哪般？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周仓",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "曹操到！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "耳旁厢又听得人嘶马闹，",
+          "rating": 0.167,
+          "role": "红生"
+        }
+      ],
+      "summary": "第2场：4位角色，126行",
+      "firstLine": 1,
+      "lastLine": 126,
+      "numLines": 126,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.357,
+        "sentiment": 0.261
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "马上长吁短叹",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "悔当初错许他云阳答报，",
+          "rating": 1.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第3场：1位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.582,
+        "conflict": 1.0,
+        "sentiment": 0.9
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "马上长吁短叹",
+      "characters": [],
+      "summary": "第4场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.007,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹操",
+      "short": "曹操",
+      "key": "曹操",
+      "quote": "曹操 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "许褚",
+      "short": "许褚",
+      "key": "许褚",
+      "quote": "许褚 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周仓",
+      "short": "周仓",
+      "key": "周仓",
+      "quote": "周仓 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "马上长吁短叹",
+      "key": "马上长吁短叹",
+      "quote": "场景发生在马上长吁短叹"
+    }
+  ]
+}

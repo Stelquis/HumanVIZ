@@ -1,0 +1,443 @@
+{
+  "title": "捉放曹",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 7,
+  "num_locations": 2,
+  "source_file": "02003003_捉放曹【头本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "汉献帝时，董卓专权，谋篡汉室。廷臣侧目，不敢撄其锋，徒作楚囚对泣。曹操请王允，假以七星宝刀，刺\n死董卓，以安汉室，王允慨许之。曹操怀刀入府，董卓方酣睡，正欲拔刀，而董卓已醒。急问曹操来此何为。\n曹操托言购宝刀，献于丞相，董卓受之不疑。既述其事于婿李儒，李儒谓曹操明系谋刺不成，托言献刀。\n董卓怒，下令捕曹操。行文各处，图形严索。曹操逃至河南中牟县，为关吏所获。解至县令陈宫处，曹操见\n陈宫，以言激之，劝其解组归里，号召豪杰，同举义师，匡扶汉室。陈宫从之，遂弃城同走。路遇吕伯奢，\n曹操之父执也，坚留二人，过从其家，自出沽酒，曹操甚不安。忽闻内室磨刀霍霍，曹操疑将杀己，仗剑入\n室，尽杀吕伯奢家属。陈宫止之不及，及至厨下，遇一豕被缚于地，方知适所闻磨刀声实为此也。陈宫乃深\n责曹操做事孟浪，误杀多人。曹操谓事已如此，宜速避祸。仓皇走出，适遇吕伯奢沽酒归，曹操又杀之。陈\n宫大不然，谓丈夫做事，一误岂容再误。曹操谓丈夫做事，宁我负人，毋人负我。陈宫知不可劝，叹息而已。\n夜与曹操同宿客邸，心中悔恨，决计弃曹操去。临行留书，责曹操不义，迨曹操醒见书，而陈宫去已远矣。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.244,
+      "locations": {
+        "夜逃出皇城": 1
+      },
+      "characters": {
+        "曹操": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 34,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.593,
+      "locations": {
+        "夜逃出皇城": 1
+      },
+      "characters": {
+        "陈宫": 1,
+        "王升": 1,
+        "曹操": 1
+      },
+      "links": [
+        {
+          "source": "曹操",
+          "target": "王升",
+          "value": 1
+        },
+        {
+          "source": "王升",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "陈宫",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 124,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "字公台": 1
+      },
+      "characters": {
+        "捕头副": 1,
+        "捕头": 1,
+        "四衙役": 1,
+        "陈宫": 1,
+        "曹操": 1,
+        "王升": 1,
+        "门子": 1
+      },
+      "links": [
+        {
+          "source": "捕头",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "捕头副",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "四衙役",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "门子",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "王升",
+          "target": "陈宫",
+          "value": 1
+        },
+        {
+          "source": "捕头",
+          "target": "捕头副",
+          "value": 1
+        },
+        {
+          "source": "捕头",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "四衙役",
+          "target": "捕头",
+          "value": 1
+        },
+        {
+          "source": "捕头",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "捕头",
+          "target": "王升",
+          "value": 1
+        },
+        {
+          "source": "捕头副",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "四衙役",
+          "target": "捕头副",
+          "value": 1
+        },
+        {
+          "source": "捕头副",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "捕头副",
+          "target": "王升",
+          "value": 1
+        },
+        {
+          "source": "四衙役",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "王升",
+          "value": 1
+        },
+        {
+          "source": "四衙役",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "四衙役",
+          "target": "王升",
+          "value": 1
+        },
+        {
+          "source": "王升",
+          "target": "门子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "夜逃出皇城",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "实指望除贼定朝歌，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：1位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.573,
+        "conflict": 1.0,
+        "sentiment": -0.333
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "夜逃出皇城",
+      "characters": [
+        {
+          "name": "王升",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "领了一句话，千金不敢移。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "远望这中牟县城池一座，",
+          "rating": 0.143,
+          "role": "净"
+        },
+        {
+          "name": "陈宫",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：3位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.862,
+        "conflict": 0.274,
+        "sentiment": 0.27
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "字公台",
+      "characters": [
+        {
+          "name": "陈宫",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "身受皇恩，与黎民，判断冤情。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "捕头",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "捉拿曹操事，报与太爷知。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "捕头副",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哦！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曹操",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "跳龙潭出虎穴逃灾避祸，",
+          "rating": -0.714,
+          "role": "净"
+        },
+        {
+          "name": "四衙役",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "哦！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "门子",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王升",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第三场：7位角色，124行",
+      "firstLine": 1,
+      "lastLine": 124,
+      "numLines": 124,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.426,
+        "sentiment": 0.267
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "陈宫",
+      "short": "陈宫",
+      "key": "陈宫",
+      "quote": "陈宫 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹操",
+      "short": "曹操",
+      "key": "曹操",
+      "quote": "曹操 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "王升",
+      "short": "王升",
+      "key": "王升",
+      "quote": "王升 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "捕头",
+      "short": "捕头",
+      "key": "捕头",
+      "quote": "捕头 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "捕头副",
+      "short": "捕头",
+      "key": "捕头副",
+      "quote": "捕头副 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四衙役",
+      "short": "四衙",
+      "key": "四衙役",
+      "quote": "四衙役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门子",
+      "short": "门子",
+      "key": "门子",
+      "quote": "门子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "夜逃出皇城",
+      "key": "夜逃出皇城",
+      "quote": "场景发生在夜逃出皇城"
+    },
+    {
+      "name": "字公台",
+      "key": "字公台",
+      "quote": "场景发生在字公台"
+    }
+  ]
+}

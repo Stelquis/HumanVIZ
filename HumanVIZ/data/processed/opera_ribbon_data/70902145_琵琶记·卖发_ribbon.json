@@ -1,0 +1,180 @@
+{
+  "title": "琵琶记·卖发",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "70902145_琵琶记·卖发.json",
+  "source_folder": "70902000",
+  "plot_summary": "陈留郡遭受饥荒，蔡公、蔡婆双双亡故。赵五娘剪下头发，沿街叫卖，以敛葬资。邻居张广才见怜，助以钱\n米。",
+  "performance_notes": "经方家骥整理，依原曲牌重新填词，增加长街卖发时的说白，加强了舞台表演。辛清华重谱。为全本《琵琶\n记》中的一场。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 68,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "首停放中堂": 1
+      },
+      "characters": {
+        "赵五娘": 1,
+        "张广才": 1
+      },
+      "links": [
+        {
+          "source": "张广才",
+          "target": "赵五娘",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.308,
+      "locations": {
+        "首停放中堂": 1
+      },
+      "characters": {
+        "张广才": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.077,
+      "locations": {
+        "首停放中堂": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "首停放中堂",
+      "characters": [
+        {
+          "name": "赵五娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "卖头发！",
+          "rating": 0.0,
+          "role": "正旦"
+        },
+        {
+          "name": "张广才",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "慈悲胜念千声佛，造恶空烧万柱香。",
+          "rating": -0.2,
+          "role": "末"
+        }
+      ],
+      "summary": "第1场：2位角色，68行",
+      "firstLine": 1,
+      "lastLine": 68,
+      "numLines": 68,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.492,
+        "sentiment": -0.11
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "首停放中堂",
+      "characters": [
+        {
+          "name": "张广才",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "慢些走啊！",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第2场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.612,
+        "conflict": 0.0,
+        "sentiment": 0.46
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "首停放中堂",
+      "characters": [],
+      "summary": "第3场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.015,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵五娘",
+      "short": "赵五",
+      "key": "赵五娘",
+      "quote": "赵五娘 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张广才",
+      "short": "张广",
+      "key": "张广才",
+      "quote": "张广才 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "首停放中堂",
+      "key": "首停放中堂",
+      "quote": "场景发生在首停放中堂"
+    }
+  ]
+}

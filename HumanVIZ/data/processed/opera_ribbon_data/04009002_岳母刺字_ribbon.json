@@ -1,0 +1,183 @@
+{
+  "title": "岳母刺字",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "04009002_岳母刺字.json",
+  "source_folder": "04000000",
+  "plot_summary": "原在前线抗金的岳飞，当宗泽元帅死后，不满意朝廷派来接任的杜充，乃私自回家。结果岳母将他训斥一顿，\n要他回营继续杀敌，并在岳飞背上刺了“精忠报国”四字，以坚定岳飞的心志。岳飞后来终于成了我国历\n史上著名的民族英雄。",
+  "performance_notes": "《岳母刺字》是一个流传很广的民间故事。岳飞的母亲是我国古代著名的一位英雄母亲。\n京剧中，这个戏的原本有好几种，情节并不一样，但均不流行，内容都很粗糙。这次整理的本子，基本上是",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.122,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "岳飞": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 216,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李氏": 1,
+        "岳飞": 1,
+        "岳母": 1
+      },
+      "links": [
+        {
+          "source": "岳母",
+          "target": "李氏",
+          "value": 1
+        },
+        {
+          "source": "岳母",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "李氏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "岳飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "咳！",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：1位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.555,
+        "conflict": 0.0,
+        "sentiment": 0.286
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "岳母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "两鬓苍然，愿得见，光复江山。",
+          "rating": 0.143,
+          "role": "老旦"
+        },
+        {
+          "name": "李氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我夫君为国家勤劳效命，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "岳飞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "马来！",
+          "rating": 0.158,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：3位角色，216行",
+      "firstLine": 1,
+      "lastLine": 216,
+      "numLines": 216,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.327,
+        "sentiment": 0.231
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "岳母",
+      "short": "岳母",
+      "key": "岳母",
+      "quote": "岳母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "岳飞",
+      "short": "岳飞",
+      "key": "岳飞",
+      "quote": "岳飞 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李氏",
+      "short": "李氏",
+      "key": "李氏",
+      "quote": "李氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

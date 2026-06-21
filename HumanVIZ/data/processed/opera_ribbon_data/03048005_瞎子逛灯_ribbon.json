@@ -1,0 +1,278 @@
+{
+  "title": "瞎子逛灯",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "03048005_瞎子逛灯.json",
+  "source_folder": "03000000",
+  "plot_summary": "小梁王大放花灯，跛和尚约白瞎子逛灯。一路之上，白瞎子备受跛和尚捉弄。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 177,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "白瞎子": 1,
+        "跛和尚": 1
+      },
+      "links": [
+        {
+          "source": "白瞎子",
+          "target": "跛和尚",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 85,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.649,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "白瞎子": 1,
+        "妇人乙": 1,
+        "跛和尚": 1,
+        "妇人甲": 1,
+        "起这儿": 1
+      },
+      "links": [
+        {
+          "source": "妇人乙",
+          "target": "妇人甲",
+          "value": 1
+        },
+        {
+          "source": "妇人甲",
+          "target": "跛和尚",
+          "value": 1
+        },
+        {
+          "source": "妇人甲",
+          "target": "白瞎子",
+          "value": 1
+        },
+        {
+          "source": "妇人甲",
+          "target": "起这儿",
+          "value": 1
+        },
+        {
+          "source": "妇人乙",
+          "target": "跛和尚",
+          "value": 1
+        },
+        {
+          "source": "妇人乙",
+          "target": "白瞎子",
+          "value": 1
+        },
+        {
+          "source": "妇人乙",
+          "target": "起这儿",
+          "value": 1
+        },
+        {
+          "source": "白瞎子",
+          "target": "跛和尚",
+          "value": 1
+        },
+        {
+          "source": "起这儿",
+          "target": "跛和尚",
+          "value": 1
+        },
+        {
+          "source": "白瞎子",
+          "target": "起这儿",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "跛和尚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "和尚生来命儿硬，我妈养我往庙里送。三天念不会一句经，一天摔破了七个磬。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "白瞎子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "闷坐在草堂上自思自想，",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：2位角色，177行",
+      "firstLine": 1,
+      "lastLine": 177,
+      "numLines": 177,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.087,
+        "sentiment": 0.221
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "妇人甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "姐姐请啦。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "妇人乙",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请啦！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "跛和尚",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "亲家，你跟着我走吧。",
+          "rating": -0.5,
+          "role": "丑"
+        },
+        {
+          "name": "白瞎子",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "亲家，我要解手。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "起这儿",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "画道儿为河，谁也别理谁，谁也不认识谁！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：5位角色，85行",
+      "firstLine": 1,
+      "lastLine": 85,
+      "numLines": 85,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.895,
+        "conflict": 0.095,
+        "sentiment": -0.137
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "跛和尚",
+      "short": "跛和",
+      "key": "跛和尚",
+      "quote": "跛和尚 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "白瞎子",
+      "short": "白瞎",
+      "key": "白瞎子",
+      "quote": "白瞎子 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "妇人乙",
+      "short": "妇人",
+      "key": "妇人乙",
+      "quote": "妇人乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "妇人甲",
+      "short": "妇人",
+      "key": "妇人甲",
+      "quote": "妇人甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "起这儿",
+      "short": "起这",
+      "key": "起这儿",
+      "quote": "起这儿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

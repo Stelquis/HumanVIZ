@@ -1,0 +1,183 @@
+{
+  "title": "坐楼杀惜",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "10002046_坐楼杀惜.json",
+  "source_folder": "10000000",
+  "plot_summary": "宋江为郓城县书吏，昵土娼阎惜姣，为营乌龙院以居其母女，给衣食。宋江有徒张文远，性佻健，喜冶游，\n常乘间入院，与阎惜姣言笑取乐。阎惜姣亦爱张文远年少风流，遂与之通。久之，乐张文远而厌宋江。人言\n啧啧，宋江有所闻，责阎惜姣忘恩负心。阎惜姣不服，反唇相讥，宋江大受奚落。宋江在郓城，常勾结梁山\n大盗晁盖等，私相往还。一日，晁盖遣刘唐至宋江处下书赠金，宋江藏书金于招文袋。夜宿乌龙院，黎明即\n匆匆出门。至中途，忽悟招文袋遗失在院，大惊，急回院搜索不得，意必为阎惜姣所匿。问之，阎惜姣直认\n不讳。宋江哀恳再三，许尽与其金，而求将书掷还。阎惜姣掉头不允，逼宋江亲立笔据，许与张文远来往，\n不准宋江再来院。宋江不得已允之。立据后，阎惜姣谓盗书当呈县令，论宋江当堂领取。宋江急甚，苦求不\n已，而阎惜姣置若罔闻。宋江怒不可遏，遂拔刀刺死阎惜姣，取书而去。阎婆见女为宋江所杀，即控宋江于\n县。县令稔知宋江为人诚实宽厚，欲偏袒之。无奈张文远伤其所欢横罹惨酷，欲为之伸雪，坚执宋江罪，并\n嘱阎婆上控，以胁县令。县令乃科宋江以误杀罪，流至江州。后张文远为阎惜姣活捉去，亦不得善终云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.06,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "宋江": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 258,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "阎惜姣": 1,
+        "阎婆": 1,
+        "宋江": 1
+      },
+      "links": [
+        {
+          "source": "宋江",
+          "target": "阎婆",
+          "value": 1
+        },
+        {
+          "source": "阎婆",
+          "target": "阎惜姣",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "阎惜姣",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "宋江",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "出门只见红日下，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.527,
+        "conflict": 0.0,
+        "sentiment": 0.24
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "阎婆",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "良言一句三冬暖，恶语伤人六月寒。",
+          "rating": -0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "宋江",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "哦，我道是谁，原来是妈儿娘。少陪了，少陪了，改日再见！",
+          "rating": -0.429,
+          "role": "老生"
+        },
+        {
+          "name": "阎惜姣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "什么事？",
+          "rating": 0.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第二场：3位角色，258行",
+      "firstLine": 1,
+      "lastLine": 258,
+      "numLines": 258,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.166,
+        "sentiment": -0.104
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "宋江",
+      "short": "宋江",
+      "key": "宋江",
+      "quote": "宋江 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "阎惜姣",
+      "short": "阎惜",
+      "key": "阎惜姣",
+      "quote": "阎惜姣 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "阎婆",
+      "short": "阎婆",
+      "key": "阎婆",
+      "quote": "阎婆 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

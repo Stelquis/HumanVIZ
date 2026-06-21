@@ -1,0 +1,183 @@
+{
+  "title": "雪杯圆",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01014008_雪杯圆.json",
+  "source_folder": "01000000",
+  "plot_summary": "莫怀古幸得义仆莫成代死，销声匿迹，避居河北。妻傅氏在家，无从知代死之事，以为莫怀古真死，将莫成\n尸首，营葬在蓟州西门外柳林内，茹苦含辛，家居度日。莫成子莫文禄，亦依在身畔。正值清明佳节，携带\n莫文禄，至柳林扫墓。当时严氏失势，冰山溶解；总兵戚继光写书通知，莫怀古遂作归乡计。行经柳林，见\n墓碑大书“太常寺正卿莫公怀古之墓”，有老妇在墓前哭祭；仔细一认，确系发妻傅氏。遽上前招呼，傅氏\n大惊，诧为遇鬼；莫怀古从头至尾，细细告之，始转悲为喜。而莫文禄在旁窃听，痛其父死于非命，抢地呼\n天，悲不自胜，几欲与莫怀古为难。夫妻二人再三劝慰，抚为养子，藉以报答成恩。",
+  "performance_notes": "剧本出于《一捧雪》、《审头刺汤》之后。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.31,
+      "locations": {
+        "蓟州西门": 1
+      },
+      "characters": {
+        "莫怀古": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 98,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "蓟州西门": 1
+      },
+      "characters": {
+        "傅氏": 1,
+        "莫文禄": 1,
+        "莫怀古": 1
+      },
+      "links": [
+        {
+          "source": "傅氏",
+          "target": "莫文禄",
+          "value": 1
+        },
+        {
+          "source": "傅氏",
+          "target": "莫怀古",
+          "value": 1
+        },
+        {
+          "source": "莫怀古",
+          "target": "莫文禄",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "蓟州西门",
+      "characters": [
+        {
+          "name": "莫怀古",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "恼恨奸贼理不该，",
+          "rating": -0.333,
+          "role": "生"
+        }
+      ],
+      "summary": "第一场：1位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.64,
+        "conflict": 0.0,
+        "sentiment": 0.217
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "蓟州西门",
+      "characters": [
+        {
+          "name": "傅氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "身居店房，远离家乡。",
+          "rating": -0.273,
+          "role": "老旦"
+        },
+        {
+          "name": "莫文禄",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忽听一声唤，急忙到跟前。",
+          "rating": 0.0,
+          "role": "娃娃生"
+        },
+        {
+          "name": "莫怀古",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "催马加鞭到柳林，",
+          "rating": 0.5,
+          "role": "生"
+        }
+      ],
+      "summary": "第二场：3位角色，98行",
+      "firstLine": 1,
+      "lastLine": 98,
+      "numLines": 98,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.379,
+        "sentiment": 0.109
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "莫怀古",
+      "short": "莫怀",
+      "key": "莫怀古",
+      "quote": "莫怀古 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "傅氏",
+      "short": "傅氏",
+      "key": "傅氏",
+      "quote": "傅氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "莫文禄",
+      "short": "莫文",
+      "key": "莫文禄",
+      "quote": "莫文禄 — 娃娃生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 娃娃生",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "蓟州西门",
+      "key": "蓟州西门",
+      "quote": "场景发生在蓟州西门"
+    }
+  ]
+}

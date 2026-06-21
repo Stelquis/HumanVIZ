@@ -1,0 +1,310 @@
+{
+  "title": "大回朝",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "03016001_大回朝.json",
+  "source_folder": "03000000",
+  "plot_summary": "殷末，纣王暴虐无道，宠幸妲己。奸臣费仲、尤浑助纣为虐，造摘星楼与炮烙柱、虿盆等酷刑，供纣王与妲\n己残害臣民取乐。当时比干丞相、姜后及众百姓，惨遭杀戮。适太师闻仲征北得胜还朝，闻知此事，怒打费\n仲、尤浑，并责问纣王，纣王逃入内宫以避之。",
+  "performance_notes": "故事见《封神演义》。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.231,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "中军": 1,
+        "八龙套": 1,
+        "闻仲": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "闻仲",
+          "value": 1
+        },
+        {
+          "source": "八龙套",
+          "target": "闻仲",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "八龙套",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 130,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "八龙套": 1,
+        "尤浑": 1,
+        "闻仲": 1,
+        "费仲": 1,
+        "纣王": 1
+      },
+      "links": [
+        {
+          "source": "尤浑",
+          "target": "费仲",
+          "value": 1
+        },
+        {
+          "source": "纣王",
+          "target": "费仲",
+          "value": 1
+        },
+        {
+          "source": "费仲",
+          "target": "闻仲",
+          "value": 1
+        },
+        {
+          "source": "八龙套",
+          "target": "费仲",
+          "value": 1
+        },
+        {
+          "source": "尤浑",
+          "target": "纣王",
+          "value": 1
+        },
+        {
+          "source": "尤浑",
+          "target": "闻仲",
+          "value": 1
+        },
+        {
+          "source": "八龙套",
+          "target": "尤浑",
+          "value": 1
+        },
+        {
+          "source": "纣王",
+          "target": "闻仲",
+          "value": 1
+        },
+        {
+          "source": "八龙套",
+          "target": "纣王",
+          "value": 1
+        },
+        {
+          "source": "八龙套",
+          "target": "闻仲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "闻仲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "锦战袍玉带围腰，征北海得胜还朝。",
+          "rating": 0.6,
+          "role": "净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "有。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "八龙套",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.735,
+        "conflict": 1.0,
+        "sentiment": 0.524
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "费仲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "待漏五更寒，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "尤浑",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "陪王上金銮。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "纣王",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "文武双全，恃祖业，朝歌承欢。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "闻仲",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "众将官！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "八龙套",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：5位角色，130行",
+      "firstLine": 1,
+      "lastLine": 130,
+      "numLines": 130,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.965,
+        "conflict": 0.356,
+        "sentiment": 0.111
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "闻仲",
+      "short": "闻仲",
+      "key": "闻仲",
+      "quote": "闻仲 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八龙套",
+      "short": "八龙",
+      "key": "八龙套",
+      "quote": "八龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "尤浑",
+      "short": "尤浑",
+      "key": "尤浑",
+      "quote": "尤浑 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "费仲",
+      "short": "费仲",
+      "key": "费仲",
+      "quote": "费仲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "纣王",
+      "short": "纣王",
+      "key": "纣王",
+      "quote": "纣王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

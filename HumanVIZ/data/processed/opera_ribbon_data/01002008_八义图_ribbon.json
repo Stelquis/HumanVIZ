@@ -1,0 +1,474 @@
+{
+  "title": "八义图",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 6,
+  "num_locations": 2,
+  "source_file": "01002008_八义图.json",
+  "source_folder": "01000000",
+  "plot_summary": "春秋时，晋国有佞臣屠岸贾，景公宠之。屠岸贾与赵氏不睦，诬赵盾以弑君之罪，将赵氏抄斩。赵朔之妻，\n公之庶妹也，怀孕走入宫中，得免。后生赵武，托门客程婴、公孙杵臼，设法保护。屠岸贾为斩草除根计，\n严索孤儿。程婴适生子，公孙杵臼请将婴儿伪作孤儿，应屠岸贾索。程婴许之。公孙杵臼乃抱程婴子藏于首\n阳山边，嘱程婴出首。屠岸贾带校尉搜山，果得公孙杵臼及孤儿，立将孤儿掷死，又命程婴举鞭击公孙杵臼，\n以试虚实，以程婴与公孙杵臼，同为赵氏家客也。程婴忍泪痛击公孙杵臼，屠岸贾乃信，杀公孙杵臼。后\n景公崩，成公立，赵武为上卿，将屠岸贾剐戮。以报昔日之仇。赵武既成立，程婴乃自杀以报公孙杵臼。赵\n武感二客义侠，立位宗庙，配享祖先，所以报也。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 42,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.491,
+      "locations": {
+        "赵家为门": 1
+      },
+      "characters": {
+        "程婴": 1,
+        "公孙杵臼": 1
+      },
+      "links": [
+        {
+          "source": "公孙杵臼",
+          "target": "程婴",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 114,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "击鼓人上堂": 1
+      },
+      "characters": {
+        "程婴": 1,
+        "公孙杵臼": 1,
+        "程妻": 1
+      },
+      "links": [
+        {
+          "source": "程妻",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "程妻",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "程婴",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 110,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "击鼓人上堂": 1
+      },
+      "characters": {
+        "程婴": 1,
+        "公孙杵臼": 1,
+        "四龙套": 1,
+        "屠岸贾": 1,
+        "二龙套": 1
+      },
+      "links": [
+        {
+          "source": "四龙套",
+          "target": "屠岸贾",
+          "value": 1
+        },
+        {
+          "source": "屠岸贾",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "二龙套",
+          "target": "屠岸贾",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "屠岸贾",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "二龙套",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "二龙套",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "二龙套",
+          "target": "公孙杵臼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 76,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 0.889,
+      "locations": {
+        "击鼓人上堂": 1
+      },
+      "characters": {
+        "程婴": 1,
+        "屠岸贾": 1,
+        "公孙杵臼": 1,
+        "四龙套": 1
+      },
+      "links": [
+        {
+          "source": "公孙杵臼",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "屠岸贾",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "屠岸贾",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "屠岸贾",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "赵家为门",
+      "characters": [
+        {
+          "name": "公孙杵臼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "赵屠结怨恨，恨奸贼，何日罢休。",
+          "rating": -0.333,
+          "role": "外"
+        },
+        {
+          "name": "程婴",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "走吓！",
+          "rating": -0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：2位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.697,
+        "conflict": 0.86,
+        "sentiment": 0.031
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "击鼓人上堂",
+      "characters": [
+        {
+          "name": "程妻",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "仗义救孤身，妻随夫志行。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "程婴",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大事安排定，劝妻舍亲生。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "公孙杵臼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "又与程婴把计定，",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第二场：3位角色，114行",
+      "firstLine": 1,
+      "lastLine": 114,
+      "numLines": 114,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.085,
+        "sentiment": 0.296
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "击鼓人上堂",
+      "characters": [
+        {
+          "name": "屠岸贾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "斩草不除根，萌芽依旧生。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有人击鼓。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "程婴",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来了。",
+          "rating": -0.6,
+          "role": "老生"
+        },
+        {
+          "name": "二龙套",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "遵命！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "公孙杵臼",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "参见大人。",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第三场：5位角色，110行",
+      "firstLine": 1,
+      "lastLine": 110,
+      "numLines": 110,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.339,
+        "sentiment": 0.072
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "击鼓人上堂",
+      "characters": [
+        {
+          "name": "公孙杵臼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一片好心反成恨，",
+          "rating": 0.25,
+          "role": "外"
+        },
+        {
+          "name": "程婴",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "手捧祭礼法场进，",
+          "rating": 0.091,
+          "role": "老生"
+        },
+        {
+          "name": "屠岸贾",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "可曾祭过？",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "斩首已毕。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，76行",
+      "firstLine": 1,
+      "lastLine": 76,
+      "numLines": 76,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.967,
+        "conflict": 0.556,
+        "sentiment": 0.213
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "程婴",
+      "short": "程婴",
+      "key": "程婴",
+      "quote": "程婴 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "屠岸贾",
+      "short": "屠岸",
+      "key": "屠岸贾",
+      "quote": "屠岸贾 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "公孙杵臼",
+      "short": "公孙",
+      "key": "公孙杵臼",
+      "quote": "公孙杵臼 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "程妻",
+      "short": "程妻",
+      "key": "程妻",
+      "quote": "程妻 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二龙套",
+      "short": "二龙",
+      "key": "二龙套",
+      "quote": "二龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "击鼓人上堂",
+      "key": "击鼓人上堂",
+      "quote": "场景发生在击鼓人上堂"
+    },
+    {
+      "name": "赵家为门",
+      "key": "赵家为门",
+      "quote": "场景发生在赵家为门"
+    }
+  ]
+}

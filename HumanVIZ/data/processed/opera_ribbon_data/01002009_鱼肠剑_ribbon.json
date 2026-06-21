@@ -1,0 +1,596 @@
+{
+  "title": "鱼肠剑",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 10,
+  "num_locations": 3,
+  "source_file": "01002009_鱼肠剑.json",
+  "source_folder": "01000000",
+  "plot_summary": "伍子胥逃出昭关，遇鱼丈人求渡江（剧名《芦中人》），遇濑女乞饮食（剧名《浣纱女》），且嘱勿告追兵，\n二人皆投江，以死明之。至吴国，吹萧行乞，见专诸，勇而孝，纳为兄弟。一日之市，适说吴公子阖庐出\n游，伍员随身隘巷，以箫声动之。公子闻箫声，知非常人，呼出与语。见其状魁梧奇伟，深相爱悦，载至府\n中，委以重任。并命专诸之刺王僚，卒破吴国，霸中原，皆伍子胥之力也。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 25,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.331,
+      "locations": {
+        "单枪弃楚营": 1
+      },
+      "characters": {
+        "伍员": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 106,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "单枪弃楚营": 1
+      },
+      "characters": {
+        "老丈": 1,
+        "专诸妻": 1,
+        "专诸": 1,
+        "伍员": 1,
+        "牛二": 1
+      },
+      "links": [
+        {
+          "source": "专诸",
+          "target": "牛二",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "专诸妻",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "伍员",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "老丈",
+          "value": 1
+        },
+        {
+          "source": "专诸妻",
+          "target": "牛二",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "牛二",
+          "value": 1
+        },
+        {
+          "source": "牛二",
+          "target": "老丈",
+          "value": 1
+        },
+        {
+          "source": "专诸妻",
+          "target": "伍员",
+          "value": 1
+        },
+        {
+          "source": "专诸妻",
+          "target": "老丈",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "老丈",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 16,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.212,
+      "locations": {
+        " 龙楼凤阁": 1
+      },
+      "characters": {
+        "姬光": 1,
+        "太监甲": 1
+      },
+      "links": [
+        {
+          "source": "太监甲",
+          "target": "姬光",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 155,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "闲住苏城": 1
+      },
+      "characters": {
+        "太监甲": 1,
+        "被离": 1,
+        "姬光": 1,
+        "专诸": 1,
+        "伍员": 1,
+        "刘展雄": 1,
+        "孙武": 1
+      },
+      "links": [
+        {
+          "source": "伍员",
+          "target": "姬光",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "被离",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "刘展雄",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "伍员",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "孙武",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "姬光",
+          "value": 1
+        },
+        {
+          "source": "姬光",
+          "target": "被离",
+          "value": 1
+        },
+        {
+          "source": "刘展雄",
+          "target": "姬光",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "姬光",
+          "value": 1
+        },
+        {
+          "source": "姬光",
+          "target": "孙武",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "被离",
+          "value": 1
+        },
+        {
+          "source": "刘展雄",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "孙武",
+          "value": 1
+        },
+        {
+          "source": "刘展雄",
+          "target": "被离",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "被离",
+          "value": 1
+        },
+        {
+          "source": "孙武",
+          "target": "被离",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "刘展雄",
+          "value": 1
+        },
+        {
+          "source": "刘展雄",
+          "target": "孙武",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "孙武",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "单枪弃楚营",
+      "characters": [
+        {
+          "name": "伍员",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "马来。",
+          "rating": -0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：1位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.617,
+        "conflict": 1.0,
+        "sentiment": 0.28
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "单枪弃楚营",
+      "characters": [
+        {
+          "name": "专诸",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "爱习拳棒，论英雄，盖世无双。",
+          "rating": 0.067,
+          "role": "净"
+        },
+        {
+          "name": "牛二",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "哽嚏。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "专诸妻",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吓，母亲唤你。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "伍员",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "呀。老丈请转。",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "老丈",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：5位角色，106行",
+      "firstLine": 1,
+      "lastLine": 106,
+      "numLines": 106,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.781,
+        "conflict": 0.325,
+        "sentiment": 0.224
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": " 龙楼凤阁",
+      "characters": [
+        {
+          "name": "姬光",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "龙楼凤阁，怎能够，江山归我。",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "太监甲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "御林军走上。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.397,
+        "conflict": 0.0,
+        "sentiment": -0.013
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "闲住苏城",
+      "characters": [
+        {
+          "name": "伍员",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "行过东来又转西，",
+          "rating": 0.059,
+          "role": "老生"
+        },
+        {
+          "name": "姬光",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "孤王打马出宫闱，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "太监甲",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "被离",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "慢步且把宝帐进，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘展雄",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "吓，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "专诸",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "有劳仁兄把我提。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "孙武",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "待我看来。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：7位角色，155行",
+      "firstLine": 1,
+      "lastLine": 155,
+      "numLines": 155,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.295,
+        "sentiment": 0.246
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "伍员",
+      "short": "伍员",
+      "key": "伍员",
+      "quote": "伍员 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "专诸",
+      "short": "专诸",
+      "key": "专诸",
+      "quote": "专诸 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "姬光",
+      "short": "姬光",
+      "key": "姬光",
+      "quote": "姬光 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "孙武",
+      "short": "孙武",
+      "key": "孙武",
+      "quote": "孙武 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "被离",
+      "short": "被离",
+      "key": "被离",
+      "quote": "被离 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘展雄",
+      "short": "刘展",
+      "key": "刘展雄",
+      "quote": "刘展雄 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "专诸妻",
+      "short": "专诸",
+      "key": "专诸妻",
+      "quote": "专诸妻 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "太监甲",
+      "short": "太监",
+      "key": "太监甲",
+      "quote": "太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老丈",
+      "short": "老丈",
+      "key": "老丈",
+      "quote": "老丈 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "牛二",
+      "short": "牛二",
+      "key": "牛二",
+      "quote": "牛二 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "单枪弃楚营",
+      "key": "单枪弃楚营",
+      "quote": "场景发生在单枪弃楚营"
+    },
+    {
+      "name": " 龙楼凤阁",
+      "key": " 龙楼凤阁",
+      "quote": "场景发生在 龙楼凤阁"
+    },
+    {
+      "name": "闲住苏城",
+      "key": "闲住苏城",
+      "quote": "场景发生在闲住苏城"
+    }
+  ]
+}

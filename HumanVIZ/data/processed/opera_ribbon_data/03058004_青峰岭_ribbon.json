@@ -1,0 +1,699 @@
+{
+  "title": "青峰岭",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "03058004_青峰岭.json",
+  "source_folder": "03000000",
+  "plot_summary": "刘飞虎、江老鼠霸占青峰岭，田虎之妻徐凤英力败刘飞虎、江老鼠，占其山。蔡京命旗牌李虎押解粮饷往太\n原，路过岭前，为徐凤英所擒，夺去粮饷。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 73,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.52,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "报子": 1,
+        "刘飞虎": 1,
+        "江老鼠": 1,
+        "徐凤英": 1,
+        "四女兵": 1,
+        "四喽兵": 1
+      },
+      "links": [
+        {
+          "source": "四女兵",
+          "target": "徐凤英",
+          "value": 1
+        },
+        {
+          "source": "刘飞虎",
+          "target": "江老鼠",
+          "value": 2
+        },
+        {
+          "source": "报子",
+          "target": "江老鼠",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "江老鼠",
+          "value": 1
+        },
+        {
+          "source": "徐凤英",
+          "target": "江老鼠",
+          "value": 2
+        },
+        {
+          "source": "刘飞虎",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "刘飞虎",
+          "target": "四喽兵",
+          "value": 1
+        },
+        {
+          "source": "刘飞虎",
+          "target": "徐凤英",
+          "value": 2
+        },
+        {
+          "source": "四喽兵",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "徐凤英",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "徐凤英",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 74,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.01,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "江老鼠": 1,
+        "刘飞虎": 1,
+        "徐凤英": 1,
+        "四女兵": 1,
+        "四上手": 1,
+        "李虎": 1
+      },
+      "links": [
+        {
+          "source": "刘飞虎",
+          "target": "江老鼠",
+          "value": 2
+        },
+        {
+          "source": "刘飞虎",
+          "target": "徐凤英",
+          "value": 2
+        },
+        {
+          "source": "徐凤英",
+          "target": "江老鼠",
+          "value": 2
+        },
+        {
+          "source": "四女兵",
+          "target": "江老鼠",
+          "value": 1
+        },
+        {
+          "source": "四女兵",
+          "target": "徐凤英",
+          "value": 1
+        },
+        {
+          "source": "刘飞虎",
+          "target": "四女兵",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "李虎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 33,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.606,
+      "importance": 0.733,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "报子": 1,
+        "四女兵": 1,
+        "李虎": 1,
+        "徐凤英": 1
+      },
+      "links": [
+        {
+          "source": "徐凤英",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四女兵",
+          "target": "徐凤英",
+          "value": 2
+        },
+        {
+          "source": "四女兵",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "徐凤英",
+          "target": "李虎",
+          "value": 1
+        },
+        {
+          "source": "四女兵",
+          "target": "李虎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐凤英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "头戴金盔凤翅飘，身披铠甲络丝绦。腰挎三尺龙泉剑，要学男儿女英豪。",
+          "rating": -1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "四女兵",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.713,
+        "conflict": 1.0,
+        "sentiment": -0.432
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "江老鼠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我又一个霸占青峰，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘飞虎",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "霸占青峰，",
+          "rating": -0.2,
+          "role": ""
+        },
+        {
+          "name": "报子",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "报！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四喽兵",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐凤英",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "呔！二贼通名受死！",
+          "rating": -1.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第二场：5位角色，59行",
+      "firstLine": 1,
+      "lastLine": 59,
+      "numLines": 59,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.798,
+        "conflict": 0.395,
+        "sentiment": 0.081
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘飞虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎呀贤弟呀！徐凤英杀法厉害，如何是好？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "江老鼠",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我倒有个主意：你蹲下我骑着你。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐凤英",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "哪里走！",
+          "rating": -1.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第三场：3位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.71,
+        "conflict": 1.0,
+        "sentiment": 0.088
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘飞虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "得啦！你把水都闹浑啦。我瞧出来啦，她要咱们的青峰岭，你有主意没有？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "江老鼠",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我是一点主意也没有。这可怎么好哇？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐凤英",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哪里走！",
+          "rating": 0.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第四场：3位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.745,
+        "conflict": 0.563,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "江老鼠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "咱们见见新寨主。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐凤英",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "你二人有何本领？",
+          "rating": 0.0,
+          "role": "武旦"
+        },
+        {
+          "name": "刘飞虎",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我们哥俩，一点能力也没有。我就会放屁。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四女兵",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：4位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.765,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "车夫们，趱行者！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四上手",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.313,
+        "conflict": 0.0,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐凤英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "霸占青峰岭，耳听报好音。",
+          "rating": 1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "报子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四女兵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.718,
+        "conflict": 0.0,
+        "sentiment": 0.766
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐凤英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呔！留下车辆，放你过去！",
+          "rating": 0.0,
+          "role": "武旦"
+        },
+        {
+          "name": "李虎",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "要俺车辆却也不难，通尔的名来！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四女兵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.723,
+        "conflict": 0.667,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐凤英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第九场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.713,
+        "conflict": 0.0,
+        "sentiment": 0.4
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐凤英",
+      "short": "徐凤",
+      "key": "徐凤英",
+      "quote": "徐凤英 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘飞虎",
+      "short": "刘飞",
+      "key": "刘飞虎",
+      "quote": "刘飞虎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "江老鼠",
+      "short": "江老",
+      "key": "江老鼠",
+      "quote": "江老鼠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四女兵",
+      "short": "四女",
+      "key": "四女兵",
+      "quote": "四女兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四喽兵",
+      "short": "四喽",
+      "key": "四喽兵",
+      "quote": "四喽兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四上手",
+      "short": "四上",
+      "key": "四上手",
+      "quote": "四上手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李虎",
+      "short": "李虎",
+      "key": "李虎",
+      "quote": "李虎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

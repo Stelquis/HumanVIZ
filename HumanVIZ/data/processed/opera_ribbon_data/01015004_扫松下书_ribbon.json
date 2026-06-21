@@ -1,0 +1,110 @@
+{
+  "title": "扫松下书",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "01015004_扫松下书.json",
+  "source_folder": "01000000",
+  "plot_summary": "考高东嘉《琵琶记》传奇，蔡伯喈与赵五娘结婚，只有二月，迫于父母之命，进京应试。适值牛相府选婿，\n逐入赘焉。家中老亲幼妻，居贱食贫，无如叠遭荒歉，度日艰难。赵五娘克遵妇道，孝敬翁姑，无微不至。\n虽典尽衣服钗环而无怨。堂上则奉以粱肉，己则厌以糟糠。及翁姑先后病殁，家无长物，不值一钱，售去一\n缕青丝，为饰终之典。昆班中有《剪发卖发》之剧，即指此也。蔡伯喈在京，已状元及第，荣华富贵，萃于\n一身，于是思念父母，遣家丁李旺回乡接取家属。李旺不识蔡姓住址，途遇一老者，策杖扫坟，上前探问。\n盖老者即蔡姓比邻张太公，名广才，素来怜恤赵五娘，仁至义尽者。赵五娘自安葬翁姑后，易女道士装束，\n携琵琶求乞到京，为寻夫记，将翁姑之坟，托张太公照管。故张太公在此打扫，与李旺在坟前聚谈。张太公\n历述蔡伯喈进京，蔡老夫妇如何思子，赵五娘如何受苦。李旺历述伯喈在京，相府如何招亲，官职如何贵显，\n两人互相感慨唏嘘。张太公嘱李旺回京复命，沿途留心赵五娘之踪迹焉。",
+  "performance_notes": "此剧情节，即《琵琶记·张公遇使》一段，剧本中曲调，皆胎息于此。近时昆腔，渐渐淘汰，几成广陵绝响。\n而于京腔中演之，亦觉耳目一新，所以为观剧者之欢迎也。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 207,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李旺": 1,
+        "张广才": 1
+      },
+      "links": [
+        {
+          "source": "张广才",
+          "target": "李旺",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张广才",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "青山今古何时了，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "李旺",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "趱路吓！",
+          "rating": 0.091,
+          "role": "丑"
+        }
+      ],
+      "summary": "段落1：2位角色，207行",
+      "firstLine": 1,
+      "lastLine": 207,
+      "numLines": 207,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.233,
+        "sentiment": 0.13
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张广才",
+      "short": "张广",
+      "key": "张广才",
+      "quote": "张广才 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李旺",
+      "short": "李旺",
+      "key": "李旺",
+      "quote": "李旺 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

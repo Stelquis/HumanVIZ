@@ -1,0 +1,974 @@
+{
+  "title": "过巴州",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 11,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "03033004_过巴州.json",
+  "source_folder": "03000000",
+  "plot_summary": "刘备统兵入川，诸葛亮命张飞取巴州。张飞与巴州守将严颜率兵大战，相持不下。严颜遂遣卒假扮乡民，混\n进张飞营，虚告入川路径。事为张飞所发觉，将计就计，反令士兵假扮张飞，以赚严颜。结果，严颜果被擒，\n破口大骂。张飞亲手解缚，并与下跪。严颜感于心，乃降，且作入川向导。",
+  "performance_notes": "故事源出《三国演义》。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 38,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.488,
+      "importance": 0.578,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "四龙套": 1,
+        "张飞": 1,
+        "四下手": 1,
+        "严颜": 1
+      },
+      "links": [
+        {
+          "source": "严颜",
+          "target": "四龙套",
+          "value": 2
+        },
+        {
+          "source": "严颜",
+          "target": "张飞",
+          "value": 3
+        },
+        {
+          "source": "四龙套",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "四下手",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "四下手",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "四龙套",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 50,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.424,
+      "importance": 0.76,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "严颜": 1,
+        "老军乙": 1,
+        "老军甲": 1,
+        "四下手": 1,
+        "张飞": 1,
+        "四龙套": 1
+      },
+      "links": [
+        {
+          "source": "严颜",
+          "target": "张飞",
+          "value": 3
+        },
+        {
+          "source": "四下手",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "四下手",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "老军甲",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "老军乙",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "老军甲",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "老军乙",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "老军乙",
+          "target": "老军甲",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "老军甲",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "老军乙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 164,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 1.185,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "报子": 1,
+        "严颜": 1,
+        "老军乙": 1,
+        "徐大汉": 1,
+        "四下手": 1,
+        "张飞": 1,
+        "四龙套": 1
+      },
+      "links": [
+        {
+          "source": "四下手",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "老军乙",
+          "value": 2
+        },
+        {
+          "source": "张飞",
+          "target": "徐大汉",
+          "value": 2
+        },
+        {
+          "source": "严颜",
+          "target": "张飞",
+          "value": 3
+        },
+        {
+          "source": "四下手",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "老军乙",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "徐大汉",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "四下手",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "老军乙",
+          "value": 1
+        },
+        {
+          "source": "徐大汉",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "徐大汉",
+          "target": "老军乙",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "老军乙",
+          "value": 2
+        },
+        {
+          "source": "严颜",
+          "target": "徐大汉",
+          "value": 2
+        },
+        {
+          "source": "严颜",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "老军乙",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "张飞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 77,
+      "summary": "第十场；第十一场",
+      "conflict": 0.517,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "徐大汉": 1,
+        "四下手": 1,
+        "张飞": 1,
+        "严颜": 1
+      },
+      "links": [
+        {
+          "source": "严颜",
+          "target": "徐大汉",
+          "value": 2
+        },
+        {
+          "source": "严颜",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "严颜",
+          "target": "四下手",
+          "value": 2
+        },
+        {
+          "source": "张飞",
+          "target": "徐大汉",
+          "value": 2
+        },
+        {
+          "source": "四下手",
+          "target": "徐大汉",
+          "value": 2
+        },
+        {
+          "source": "四下手",
+          "target": "张飞",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "严颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "辕门外战鼓声催，众儿郎虎豹雄威。奉军令巴州镇守，令鹰鹞插翅难飞。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：3位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.589,
+        "conflict": 1.0,
+        "sentiment": 0.168
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "豹头环眼须似钢，当阳桥前美名扬。大吼一声桥梁断，吓退曹营百万郎。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "严颜",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "然！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.641,
+        "conflict": 0.755,
+        "sentiment": 0.093
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "且住！严颜老儿来得厉害，再若来时，回马鞭伤他！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "严颜",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：2位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.608,
+        "conflict": 0.0,
+        "sentiment": -0.32
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "严颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "适才阵前打一仗，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.619,
+        "conflict": 0.0,
+        "sentiment": 0.24
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住！严颜老儿暗放冷箭，不是某马走如飞，险遭不测。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "严颜",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：3位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.58,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "严颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "适才高坡把箭放，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "老军甲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "老军无别干，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "老军乙",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "埋锅又造饭。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：5位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.671,
+        "conflict": 0.779,
+        "sentiment": -0.184
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "张翼德在营中自思自叹，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "唔！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "报子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "拿住奸细。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "老军乙",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "参见千岁！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "徐大汉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "严颜",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第七场：6位角色，131行",
+      "firstLine": 1,
+      "lastLine": 131,
+      "numLines": 131,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.256,
+        "sentiment": 0.769
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "严颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "老军哨探无音信，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "老军乙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "参见总爷！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第八场：4位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.619,
+        "conflict": 0.571,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "徐大汉为何不走？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "徐大汉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "前面打闪要下雨。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "严颜",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来将通名？",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第九场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.738,
+        "conflict": 0.625,
+        "sentiment": -0.416
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "严颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "且住！来一个是张飞，来两个也是张飞！难道说我怕张飞不成？来一个擒它一",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "徐大汉",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "汉将张飞！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "汉将张飞！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十场：4位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.738,
+        "conflict": 0.0,
+        "sentiment": 0.787
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "将严颜绑进帐来！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "严颜",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哼！",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我们擒的。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐大汉",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十一场：4位角色，63行",
+      "firstLine": 1,
+      "lastLine": 63,
+      "numLines": 63,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.872,
+        "conflict": 0.567,
+        "sentiment": 0.27
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "严颜",
+      "short": "严颜",
+      "key": "严颜",
+      "quote": "严颜 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "徐大汉",
+      "short": "徐大",
+      "key": "徐大汉",
+      "quote": "徐大汉 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老军乙",
+      "short": "老军",
+      "key": "老军乙",
+      "quote": "老军乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老军甲",
+      "short": "老军",
+      "key": "老军甲",
+      "quote": "老军甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

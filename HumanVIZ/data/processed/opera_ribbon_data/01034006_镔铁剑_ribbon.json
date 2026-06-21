@@ -1,0 +1,477 @@
+{
+  "title": "镔铁剑",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01034006_镔铁剑.json",
+  "source_folder": "01000000",
+  "plot_summary": "考剧本，仅表明一男扮为女之文武小生，为一丑角之公子强行霸抢，居然亦以花轿抬入之，方欲拜堂成亲，\n忽奉母命，至东庄外家探病。因将此新人，寄入花旦妹子房中。新人故作娇痴，其妹遂效乱点鸳鸯故事，代\n兄与之拜天地，送入洞房，乔作夫妇成婚。迨至入帐，彼假新人始露真相，且身藏镔铁剑，系为报仇来者。\n其妹被胁，且亦心爱其人，遂与重拜天地，为真夫妻。天将明，其兄归，敲久，入，遂为文武生所杀。二人\n乃作计遁去。",
+  "performance_notes": "秦腔多大同小异之戏，又多没头没脑，始终不报名之弊。演至终场，只知为一小生一旦角，及其他某角某角\n而已，如此剧亦然。至其戏情，又似《王老虎抢亲》，又似《乱点鸳鸯》，惟结局不同，中间又有与《梵王\n宫》相似处，此余所以谓其多大同小异也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.104,
+      "locations": {
+        "花轿亮堂堂": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "丑公子": 1,
+        "公子": 1
+      },
+      "links": [
+        {
+          "source": "丑公子",
+          "target": "丫鬟",
+          "value": 1
+        },
+        {
+          "source": "丑公子",
+          "target": "公子",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "公子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 58,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "花轿亮堂堂": 1
+      },
+      "characters": {
+        "妹妹": 1,
+        "院子": 1,
+        "丫鬟": 1,
+        "丑公子": 1,
+        "公子": 1
+      },
+      "links": [
+        {
+          "source": "丑公子",
+          "target": "丫鬟",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "妹妹",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "公子",
+          "value": 1
+        },
+        {
+          "source": "丑公子",
+          "target": "妹妹",
+          "value": 1
+        },
+        {
+          "source": "丑公子",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丑公子",
+          "target": "公子",
+          "value": 1
+        },
+        {
+          "source": "妹妹",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "公子",
+          "target": "妹妹",
+          "value": 1
+        },
+        {
+          "source": "公子",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.208,
+      "locations": {
+        "花轿亮堂堂": 1
+      },
+      "characters": {
+        "妹妹": 1,
+        "丫鬟": 1,
+        "公子": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "妹妹",
+          "value": 1
+        },
+        {
+          "source": "公子",
+          "target": "妹妹",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "公子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 155,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "花轿亮堂堂": 1
+      },
+      "characters": {
+        "妹妹": 1,
+        "院子": 1,
+        "丑公子": 1,
+        "公子": 1
+      },
+      "links": [
+        {
+          "source": "公子",
+          "target": "妹妹",
+          "value": 1
+        },
+        {
+          "source": "丑公子",
+          "target": "妹妹",
+          "value": 1
+        },
+        {
+          "source": "妹妹",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丑公子",
+          "target": "公子",
+          "value": 1
+        },
+        {
+          "source": "公子",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丑公子",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "花轿亮堂堂",
+      "characters": [
+        {
+          "name": "丑公子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "花轿亮堂堂，打扮作新郎。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "禀大爷：花轿到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "公子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "花轿亮堂堂，打扮作新郎。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第1场：3位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.39,
+        "conflict": 0.0,
+        "sentiment": 0.77
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "花轿亮堂堂",
+      "characters": [
+        {
+          "name": "丫鬟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "禀大爷：大事不好了。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "丑公子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "妹妹",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "上房绣鸳鸯，金钗别凤凰。",
+          "rating": -1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "院子",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "晓得。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "公子",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 0.5,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：5位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.168,
+        "sentiment": 0.302
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "花轿亮堂堂",
+      "characters": [
+        {
+          "name": "妹妹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一见哥哥出门庭，",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "禀姑娘：花轿到。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "公子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第3场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.554,
+        "conflict": 0.0,
+        "sentiment": 0.783
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "花轿亮堂堂",
+      "characters": [
+        {
+          "name": "妹妹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "丫鬟去了，待我先将秀阁门上了，再与新嫂嫂叙谈叙谈。",
+          "rating": -0.2,
+          "role": "花旦"
+        },
+        {
+          "name": "公子",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我好。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "丑公子",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "探病一心早回转，",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "院子",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "不好，杀人了！",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第4场：4位角色，155行",
+      "firstLine": 1,
+      "lastLine": 155,
+      "numLines": 155,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.216,
+        "sentiment": 0.067
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "妹妹",
+      "short": "妹妹",
+      "key": "妹妹",
+      "quote": "妹妹 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "公子",
+      "short": "公子",
+      "key": "公子",
+      "quote": "公子 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "丑公子",
+      "short": "丑公",
+      "key": "丑公子",
+      "quote": "丑公子 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "花轿亮堂堂",
+      "key": "花轿亮堂堂",
+      "quote": "场景发生在花轿亮堂堂"
+    }
+  ]
+}

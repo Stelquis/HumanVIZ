@@ -1,0 +1,236 @@
+{
+  "title": "拷红",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01020012_拷红.json",
+  "source_folder": "01000000",
+  "plot_summary": "老夫人得悉崔莺莺每夜往园中烧夜香，近日又神思困懒，知必有异，因即拷问红娘。红娘始而狡猾，继则渐\n渐供出真情。老夫人闻言，则始而怒，继而不得不从红娘之言，将张生、莺莺一齐唤至，当面许婚，以了结\n此段公案，如是云云而已。",
+  "performance_notes": "《拷红》一剧，本为《西厢记》中一大关键，亦一大结束。盖君瑞与双文，既经拆此烂污，而老夫人方面，\n碍于相国门阀，既未便出乖露丑，告官指奸，又不能任其苟且，不加谴责，然又用何种言语，何种脸面，可\n以去谴责他们。故必得此《拷红》一出，以为玲珑剔透面面俱到之过渡。故此剧中红娘之一言一动，嬉笑怒\n骂，皆有分量。观此剧者，当注意红娘之白口。惟白中袭用“大车无輗，小车无軏，其何以行之哉”等成句，\n竟是背书，可笑之至，我愿此后当酌改。此为贴旦角色上最难演之戏，其表情处之不易，当与唱《红楼梦》\n戏，有同一至高之程度。此戏虽极简单，然实可称为全本《西厢记》之告终处。盖《拷红》以后，皆余波\n而已。吾愿近之旦角，当细细将此戏之做工白口，倍加研究，冀成为一出有价值之戏。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 117,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        " 凄凉萧寺": 1
+      },
+      "characters": {
+        "张珙": 1,
+        "崔莺莺": 1,
+        "红娘": 1,
+        "崔母": 1
+      },
+      "links": [
+        {
+          "source": "崔母",
+          "target": "红娘",
+          "value": 1
+        },
+        {
+          "source": "崔母",
+          "target": "张珙",
+          "value": 1
+        },
+        {
+          "source": "崔母",
+          "target": "崔莺莺",
+          "value": 1
+        },
+        {
+          "source": "张珙",
+          "target": "红娘",
+          "value": 1
+        },
+        {
+          "source": "崔莺莺",
+          "target": "红娘",
+          "value": 1
+        },
+        {
+          "source": "崔莺莺",
+          "target": "张珙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.034,
+      "locations": {
+        " 凄凉萧寺": 1
+      },
+      "characters": {
+        "红娘": 1,
+        "崔母": 1
+      },
+      "links": [
+        {
+          "source": "崔母",
+          "target": "红娘",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": " 凄凉萧寺",
+      "characters": [
+        {
+          "name": "崔母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "凄凉萧寺，空迤逦，故园不堪回首。",
+          "rating": -0.6,
+          "role": "老旦"
+        },
+        {
+          "name": "红娘",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓，来了。",
+          "rating": 0.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "张珙",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来了，红娘姐。为何如此？",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "崔莺莺",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "红娘怎么说？",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：4位角色，117行",
+      "firstLine": 1,
+      "lastLine": 117,
+      "numLines": 117,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.421,
+        "sentiment": 0.023
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": " 凄凉萧寺",
+      "characters": [
+        {
+          "name": "红娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "吓老夫人，此事若不是我红娘调处，断难结此良缘。",
+          "rating": 1.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "崔母",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第2场：2位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.57,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "红娘",
+      "short": "红娘",
+      "key": "红娘",
+      "quote": "红娘 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "崔母",
+      "short": "崔母",
+      "key": "崔母",
+      "quote": "崔母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张珙",
+      "short": "张珙",
+      "key": "张珙",
+      "quote": "张珙 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "崔莺莺",
+      "short": "崔莺",
+      "key": "崔莺莺",
+      "quote": "崔莺莺 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 凄凉萧寺",
+      "key": " 凄凉萧寺",
+      "quote": "场景发生在 凄凉萧寺"
+    }
+  ]
+}

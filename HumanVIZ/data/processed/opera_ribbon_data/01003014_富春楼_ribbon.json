@@ -1,0 +1,151 @@
+{
+  "title": "富春楼",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "01003014_富春楼.json",
+  "source_folder": "01000000",
+  "plot_summary": "郓城妓女陈三两，本宦家女，真名周翠屏。自小父母双亡，为人鬻入烟花，颇驰美名。客有名陈魁者，年少\n诚笃，与陈三两有齿臂盟。陈三两本有心人，非甘堕落者，平日故多积攒。一日，陈魁为人所辱，诉之陈三\n两，陈三两乘机劝其勿恋烟花，早出经商自立。陈魁患无钱，陈三两遂出所积金，贷以三百两，相约获利后，\n重来为女脱籍，并与缝一搭膊，俾得束诸腰间而去。",
+  "performance_notes": "此剧情致缠绵，须做得柔情绰约，不即不离，而无淫荡之态，方合陈三两身价。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 127,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "周翠屏": 1,
+        "陈魁": 1
+      },
+      "links": [
+        {
+          "source": "周翠屏",
+          "target": "陈魁",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 4,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.061,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "周翠屏": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周翠屏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "清晨起来倚梳妆，蝴蝶儿乱扑纱窗。",
+          "rating": 0.111,
+          "role": "旦"
+        },
+        {
+          "name": "陈魁",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "走吓！",
+          "rating": 0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第1场：2位角色，127行",
+      "firstLine": 1,
+      "lastLine": 127,
+      "numLines": 127,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.218,
+        "sentiment": 0.269
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周翠屏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一见兄弟下楼门，",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.568,
+        "conflict": 1.0,
+        "sentiment": 0.82
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "周翠屏",
+      "short": "周翠",
+      "key": "周翠屏",
+      "quote": "周翠屏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "陈魁",
+      "short": "陈魁",
+      "key": "陈魁",
+      "quote": "陈魁 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

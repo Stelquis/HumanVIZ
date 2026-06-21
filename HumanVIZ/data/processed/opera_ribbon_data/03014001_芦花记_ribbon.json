@@ -1,0 +1,345 @@
+{
+  "title": "芦花记",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "03014001_芦花记.json",
+  "source_folder": "03000000",
+  "plot_summary": "春秋时，贤士闵损，幼年丧母，父续娶，继母连生二子。其继母偏爱亲生而疏闵损。一日，闵损随父赴宴，\n在席前露寒栗状。及归，父责其故意造作出丑人前，以鞭笞之。不意衣破芦花飞出。其父乃悟系继母偏心，\n以芦花为絮，自难御寒。以故怒遣继母，并欲出之。闵损苦苦哀告其父，以“母在一子寒，母去三子单”语\n劝阻乃罢。其时继母甚愧悔，遂改过善视闵损。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 29,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.216,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "英哥": 1,
+        "闵损": 1,
+        "闵父": 1
+      },
+      "links": [
+        {
+          "source": "闵损",
+          "target": "闵父",
+          "value": 1
+        },
+        {
+          "source": "英哥",
+          "target": "闵父",
+          "value": 1
+        },
+        {
+          "source": "英哥",
+          "target": "闵损",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 240,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "外婆": 1,
+        "英哥": 1,
+        "闵母": 1,
+        "外公": 1,
+        "闵损": 1,
+        "闵父": 1
+      },
+      "links": [
+        {
+          "source": "闵损",
+          "target": "闵父",
+          "value": 1
+        },
+        {
+          "source": "外公",
+          "target": "闵父",
+          "value": 1
+        },
+        {
+          "source": "外婆",
+          "target": "闵父",
+          "value": 1
+        },
+        {
+          "source": "英哥",
+          "target": "闵父",
+          "value": 1
+        },
+        {
+          "source": "闵母",
+          "target": "闵父",
+          "value": 1
+        },
+        {
+          "source": "外公",
+          "target": "闵损",
+          "value": 1
+        },
+        {
+          "source": "外婆",
+          "target": "闵损",
+          "value": 1
+        },
+        {
+          "source": "英哥",
+          "target": "闵损",
+          "value": 1
+        },
+        {
+          "source": "闵损",
+          "target": "闵母",
+          "value": 1
+        },
+        {
+          "source": "外公",
+          "target": "外婆",
+          "value": 1
+        },
+        {
+          "source": "外公",
+          "target": "英哥",
+          "value": 1
+        },
+        {
+          "source": "外公",
+          "target": "闵母",
+          "value": 1
+        },
+        {
+          "source": "外婆",
+          "target": "英哥",
+          "value": 1
+        },
+        {
+          "source": "外婆",
+          "target": "闵母",
+          "value": 1
+        },
+        {
+          "source": "英哥",
+          "target": "闵母",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "闵父",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "数九隆冬腊月天，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "闵损",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "哎呀，爹爹呀！孩儿身上衣服不能遮寒，故而如此。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "英哥",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：3位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.565,
+        "conflict": 1.0,
+        "sentiment": 0.015
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "闵父",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "闵损！",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "闵损",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "爹爹！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "外公",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "忽听来请俺，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "外婆",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "来到他家园。",
+          "rating": -0.5,
+          "role": ""
+        },
+        {
+          "name": "英哥",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "在。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "闵母",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "忽听堂上唤一声，",
+          "rating": -0.2,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：6位角色，240行",
+      "firstLine": 1,
+      "lastLine": 240,
+      "numLines": 240,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.211,
+        "sentiment": 0.064
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "闵父",
+      "short": "闵父",
+      "key": "闵父",
+      "quote": "闵父 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "闵母",
+      "short": "闵母",
+      "key": "闵母",
+      "quote": "闵母 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "外婆",
+      "short": "外婆",
+      "key": "外婆",
+      "quote": "外婆 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "英哥",
+      "short": "英哥",
+      "key": "英哥",
+      "quote": "英哥 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "外公",
+      "short": "外公",
+      "key": "外公",
+      "quote": "外公 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "闵损",
+      "short": "闵损",
+      "key": "闵损",
+      "quote": "闵损 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

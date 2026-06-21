@@ -1,0 +1,832 @@
+{
+  "title": "安天会·偷桃",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 12,
+  "num_locations": 1,
+  "source_file": "13004003_安天会·偷桃.json",
+  "source_folder": "13000000",
+  "plot_summary": "玉帝因孙悟空神通广大，拟以天上官爵加以羁縻，封为“齐天大圣”，使管桃园，孙悟空乃将园中仙桃尽情\n受用。金母设蟠桃宴，未邀孙悟空，孙悟空乃偷蟠桃、盗御酒，又入兜率宫盗食老君金丹，径回花果山。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 101,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.029,
+      "importance": 1.0,
+      "locations": {
+        "三层楼": 3
+      },
+      "characters": {
+        "孙悟空": 1,
+        "仙女甲": 1,
+        "童儿甲": 1,
+        "土地": 1,
+        "三仙女": 1,
+        "金母": 1,
+        "二童儿": 1,
+        "童儿乙": 1
+      },
+      "links": [
+        {
+          "source": "土地",
+          "target": "孙悟空",
+          "value": 2
+        },
+        {
+          "source": "三仙女",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "仙女甲",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "三仙女",
+          "target": "仙女甲",
+          "value": 1
+        },
+        {
+          "source": "三仙女",
+          "target": "土地",
+          "value": 1
+        },
+        {
+          "source": "三仙女",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "仙女甲",
+          "target": "土地",
+          "value": 1
+        },
+        {
+          "source": "仙女甲",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "二童儿",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "童儿乙",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "童儿甲",
+          "value": 1
+        },
+        {
+          "source": "二童儿",
+          "target": "童儿乙",
+          "value": 1
+        },
+        {
+          "source": "二童儿",
+          "target": "童儿甲",
+          "value": 1
+        },
+        {
+          "source": "童儿乙",
+          "target": "童儿甲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 81,
+      "summary": "第4场；第5场；第6场",
+      "conflict": 0.4,
+      "importance": 1.0,
+      "locations": {
+        "三层楼": 3
+      },
+      "characters": {
+        "孙悟空": 1,
+        "仙女甲": 1,
+        "土地": 1,
+        "仙童": 1,
+        "金母": 1,
+        "老君": 1
+      },
+      "links": [
+        {
+          "source": "土地",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "仙女甲",
+          "target": "孙悟空",
+          "value": 2
+        },
+        {
+          "source": "孙悟空",
+          "target": "金母",
+          "value": 3
+        },
+        {
+          "source": "仙女甲",
+          "target": "土地",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "仙女甲",
+          "target": "金母",
+          "value": 2
+        },
+        {
+          "source": "仙童",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "老君",
+          "value": 1
+        },
+        {
+          "source": "仙童",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "仙女甲",
+          "target": "仙童",
+          "value": 1
+        },
+        {
+          "source": "仙童",
+          "target": "老君",
+          "value": 1
+        },
+        {
+          "source": "老君",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "仙女甲",
+          "target": "老君",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 49,
+      "summary": "第7场；第8场；第9场",
+      "conflict": 0.2,
+      "importance": 0.848,
+      "locations": {
+        "三层楼": 3
+      },
+      "characters": {
+        "孙悟空": 1,
+        "天丁": 1,
+        "金母": 1,
+        "老君": 1,
+        "巨灵神": 1
+      },
+      "links": [
+        {
+          "source": "老君",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "天丁",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "天丁",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "天丁",
+          "target": "巨灵神",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "三层楼",
+      "characters": [
+        {
+          "name": "土地",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "灿灿华光满洞天，琼楼宝殿启华筵。蟠桃结果三千载，共宴长生亿万年。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "仙名永注长生箓，不堕轮回万古传。",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第1场：2位角色，44行",
+      "firstLine": 1,
+      "lastLine": 44,
+      "numLines": 44,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.76,
+        "conflict": 0.192,
+        "sentiment": 0.763
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "三层楼",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哎呀妙啊！好个知趣的玉帝老儿，明知俺老孙好吃果儿，故命俺看守此园。看",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "三仙女",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "仙女甲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "人世自煎熬，才见童颜便衰老，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "土地",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "原来是列位仙姑，到此何事？",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "金母",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第2场：5位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.638,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "三层楼",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "可恼啊可恼！想俺老孙也是一尊活佛，蟠桃会上就没有俺。也罢！待俺闯入瑶",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "二童儿",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "看桃花，守桃花，看守桃花度岁华，仙缘谁似咱。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "童儿乙",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "师兄。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "童儿甲",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "师弟。我们奉命看守瑶池，不免将仙酒仙肴摆设起来。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：4位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.487,
+        "conflict": 1.0,
+        "sentiment": 0.789
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "三层楼",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "看他们去了，待俺进入。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "土地",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "土地怎敢，方才大圣在此打睡呵。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "仙女甲",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "今日有蹊跷，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "金母",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第4场：4位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.82,
+        "conflict": 1.0,
+        "sentiment": 0.36
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "三层楼",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "好酒！",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "仙童",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "报启金母：瑶池宴上美酒佳肴俱被孙大圣偷吃了。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "金母",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "齐集群仙聚三岛，",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "仙女甲",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "禀金母：园中仙桃被猴头吃尽了。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "老君",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第5场：5位角色，43行",
+      "firstLine": 1,
+      "lastLine": 43,
+      "numLines": 43,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.811,
+        "sentiment": 0.52
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "三层楼",
+      "characters": [
+        {
+          "name": "金母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊呀，了不得！蟠桃仙果，美酒筵席，俱被猴头偷吃，将何款待众仙，不免奏",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "堪笑那众仙家把瑶池到，",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第6场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.629,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": "三层楼",
+      "characters": [
+        {
+          "name": "老君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "不好了啊！",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "金母",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "恨猴头把瑶池闹，将人欺藐。",
+          "rating": -1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第7场：2位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.481,
+        "conflict": 1.0,
+        "sentiment": -0.04
+      }
+    },
+    {
+      "number": 8,
+      "name": "第8场",
+      "location": "三层楼",
+      "characters": [
+        {
+          "name": "天丁",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呔！何人擅闯天门！",
+          "rating": 0.0,
+          "role": "付"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "非非非，非是俺行浅薄，",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "金母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第8场：3位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.655,
+        "conflict": 0.4,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 9,
+      "name": "第9场",
+      "location": "三层楼",
+      "characters": [
+        {
+          "name": "巨灵神",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哪里走！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "天丁",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "方才过去了。",
+          "rating": 0.0,
+          "role": "付"
+        }
+      ],
+      "summary": "第9场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.177,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "土地",
+      "short": "土地",
+      "key": "土地",
+      "quote": "土地 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "金母",
+      "short": "金母",
+      "key": "金母",
+      "quote": "金母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "老君",
+      "short": "老君",
+      "key": "老君",
+      "quote": "老君 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "仙女甲",
+      "short": "仙女",
+      "key": "仙女甲",
+      "quote": "仙女甲 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "仙童",
+      "short": "仙童",
+      "key": "仙童",
+      "quote": "仙童 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "天丁",
+      "short": "天丁",
+      "key": "天丁",
+      "quote": "天丁 — 付",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 付",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "童儿甲",
+      "short": "童儿",
+      "key": "童儿甲",
+      "quote": "童儿甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "三仙女",
+      "short": "三仙",
+      "key": "三仙女",
+      "quote": "三仙女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二童儿",
+      "short": "二童",
+      "key": "二童儿",
+      "quote": "二童儿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "巨灵神",
+      "short": "巨灵",
+      "key": "巨灵神",
+      "quote": "巨灵神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "童儿乙",
+      "short": "童儿",
+      "key": "童儿乙",
+      "quote": "童儿乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "三层楼",
+      "key": "三层楼",
+      "quote": "场景发生在三层楼"
+    }
+  ]
+}

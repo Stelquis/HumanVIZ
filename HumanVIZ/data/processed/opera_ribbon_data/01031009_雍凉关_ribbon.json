@@ -1,0 +1,859 @@
+{
+  "title": "雍凉关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 10,
+  "num_characters": 8,
+  "num_locations": 3,
+  "source_file": "01031009_雍凉关.json",
+  "source_folder": "01000000",
+  "plot_summary": "蜀汉诸葛武侯，自平蛮之后，养精蓄锐，预备伐魏，以兴复汉室为己任。探知魏主曹睿，用司马懿执掌兵权，\n镇守雍、凉等处。武侯以魏邦诸人，俱无足虑，惟司马懿极有智略，殊费踌躇。参军马谡，请用反间计，\n使其君臣猜忌。武侯深然之，遣人暗至魏郡，散布流言，云司马懿拥众据险，判反朝廷。且假造司马懿檄文，\n榜示通衢。近臣揭奏，果然启魏主之疑。贾诩为之设谋，驾幸安邑，以观动静。司马懿茫然不知，大陈兵\n权，迎接魏主。魏主明告以故，司马懿惊慌无措，急为申辩，魏主疑终不释。贾诩等请杀之，魏主以顾命之\n重，臣保其首领，将司马懿兵权削夺，废而不用。武侯因计之得行，业已无所虑忌，欣慰殊甚。于是表奏蜀\n帝，名正言顺，出师讨贼矣。噫！天之不欲复兴汉室也。此时曹睿若杀司马懿，何至使武侯六出祁山，功业\n不就，鞠躬尽瘁，死而复已哉！",
+  "performance_notes": "是剧前见名伶孙菊仙，在上海屡次唱渍，颇为社会所欢迎。近今北京富连成班，谭鑫培之孙谭富英，亦属拿\n手。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 61,
+      "summary": "第一场；第二场",
+      "conflict": 0.337,
+      "importance": 1.0,
+      "locations": {
+        "兵转回朝堂": 1,
+        " 凤阁龙楼": 1
+      },
+      "characters": {
+        "马谡": 1,
+        "司马师": 1,
+        "司马懿": 1,
+        "曹睿": 1,
+        "司马昭": 1,
+        "诸葛亮": 1
+      },
+      "links": [
+        {
+          "source": "诸葛亮",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "曹睿",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "诸葛亮",
+          "value": 2
+        },
+        {
+          "source": "曹睿",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "曹睿",
+          "value": 1
+        },
+        {
+          "source": "司马师",
+          "target": "司马懿",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "司马昭",
+          "value": 1
+        },
+        {
+          "source": "司马师",
+          "target": "司马昭",
+          "value": 1
+        },
+        {
+          "source": "司马师",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "司马昭",
+          "target": "诸葛亮",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 34,
+      "summary": "第三场；第四场",
+      "conflict": 0.135,
+      "importance": 0.872,
+      "locations": {
+        " 凤阁龙楼": 1,
+        "心霸占朝堂": 1
+      },
+      "characters": {
+        "诸葛亮": 1,
+        "马谡": 1,
+        "曹睿": 1
+      },
+      "links": [
+        {
+          "source": "诸葛亮",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "曹睿",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "曹睿",
+          "target": "马谡",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 41,
+      "summary": "第五场；第六场",
+      "conflict": 0.676,
+      "importance": 1.0,
+      "locations": {
+        " 凤阁龙楼": 2
+      },
+      "characters": {
+        "内侍": 1,
+        "贾诩": 1,
+        "曹睿": 1,
+        "司马懿": 1
+      },
+      "links": [
+        {
+          "source": "司马懿",
+          "target": "贾诩",
+          "value": 2
+        },
+        {
+          "source": "内侍",
+          "target": "曹睿",
+          "value": 1
+        },
+        {
+          "source": "曹睿",
+          "target": "贾诩",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "曹睿",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "贾诩",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "司马懿",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 33,
+      "summary": "第七场；第八场",
+      "conflict": 0.713,
+      "importance": 0.846,
+      "locations": {
+        " 凤阁龙楼": 2
+      },
+      "characters": {
+        "贾诩": 1,
+        "曹睿": 1,
+        "司马师": 1,
+        "司马懿": 1
+      },
+      "links": [
+        {
+          "source": "司马师",
+          "target": "司马懿",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "曹睿",
+          "value": 1
+        },
+        {
+          "source": "曹睿",
+          "target": "贾诩",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "贾诩",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 26,
+      "summary": "第九场；第十场",
+      "conflict": 0.03,
+      "importance": 0.667,
+      "locations": {
+        " 凤阁龙楼": 2
+      },
+      "characters": {
+        "马谡": 1,
+        "司马师": 1,
+        "司马懿": 1,
+        "曹睿": 1,
+        "司马昭": 1,
+        "诸葛亮": 1
+      },
+      "links": [
+        {
+          "source": "司马懿",
+          "target": "曹睿",
+          "value": 2
+        },
+        {
+          "source": "司马师",
+          "target": "曹睿",
+          "value": 1
+        },
+        {
+          "source": "司马昭",
+          "target": "曹睿",
+          "value": 1
+        },
+        {
+          "source": "司马师",
+          "target": "司马懿",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "司马昭",
+          "value": 1
+        },
+        {
+          "source": "司马师",
+          "target": "司马昭",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "曹睿",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "曹睿",
+          "target": "马谡",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "马谡",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "兵转回朝堂",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "叹先皇白帝城龙归天上，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "马谡",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "探听中原事，报与丞相知。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "曹睿",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "司马懿",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：4位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.871,
+        "conflict": 1.0,
+        "sentiment": 0.038
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "司马懿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "虎跃龙骧，统貔貅，督镇雍凉。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "司马师",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "黄公三略安天下，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "司马昭",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吕望六韬定太平。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.643,
+        "conflict": 1.0,
+        "sentiment": 0.375
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "马谡",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "帐中奉了丞相令，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.529,
+        "conflict": 0.0,
+        "sentiment": 0.24
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "心霸占朝堂",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "谯楼上打罢了三更鼓响，",
+          "rating": 0.25,
+          "role": "老生"
+        },
+        {
+          "name": "马谡",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "曹睿",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：3位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.675,
+        "conflict": 0.0,
+        "sentiment": 0.375
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "贾诩",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "适才探马报一声，",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "司马懿",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.372,
+        "conflict": 0.0,
+        "sentiment": 0.84
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "曹睿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "凤阁龙楼，万古千秋。",
+          "rating": 0.143,
+          "role": "小生"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "贾诩",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "司马懿",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：4位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.605,
+        "conflict": 0.571,
+        "sentiment": 0.164
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "司马懿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "辕门旌旗起，耳听好消息。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "司马师",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "忙将朝中事，启禀父帅知。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.436,
+        "conflict": 0.0,
+        "sentiment": 0.773
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "曹睿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "龙驹凤辇出帝京，",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "司马懿",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "贾诩",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第八场：3位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.467,
+        "conflict": 1.0,
+        "sentiment": 0.06
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "曹睿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "胆大司马懿！你身受先皇帝厚意，不知报效，擅敢造反。本当将你斩首问罪，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "司马懿",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "咳！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "司马师",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "司马昭",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第九场：4位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.38,
+        "conflict": 0.0,
+        "sentiment": 0.24
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "司马督兵守雍凉，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "马谡",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "司马削职还乡井，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "曹睿",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "司马懿",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十场：4位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.776,
+        "conflict": 0.667,
+        "sentiment": 0.21
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "司马懿",
+      "short": "司马",
+      "key": "司马懿",
+      "quote": "司马懿 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "马谡",
+      "short": "马谡",
+      "key": "马谡",
+      "quote": "马谡 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "曹睿",
+      "short": "曹睿",
+      "key": "曹睿",
+      "quote": "曹睿 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "司马师",
+      "short": "司马",
+      "key": "司马师",
+      "quote": "司马师 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "司马昭",
+      "short": "司马",
+      "key": "司马昭",
+      "quote": "司马昭 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "贾诩",
+      "short": "贾诩",
+      "key": "贾诩",
+      "quote": "贾诩 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内侍",
+      "short": "内侍",
+      "key": "内侍",
+      "quote": "内侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 凤阁龙楼",
+      "key": " 凤阁龙楼",
+      "quote": "场景发生在 凤阁龙楼"
+    },
+    {
+      "name": "心霸占朝堂",
+      "key": "心霸占朝堂",
+      "quote": "场景发生在心霸占朝堂"
+    },
+    {
+      "name": "兵转回朝堂",
+      "key": "兵转回朝堂",
+      "quote": "场景发生在兵转回朝堂"
+    }
+  ]
+}

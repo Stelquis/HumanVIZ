@@ -1,0 +1,268 @@
+{
+  "title": "女起解",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70201201_女起解.json",
+  "source_folder": "70201000",
+  "plot_summary": "王金龙在妓院钱财用尽，被鸨儿轰出，苏三私赠银两使回南京。王金龙走后，鸨儿把苏三骗卖给山西商人沈\n燕林作妾。沈妻与人私通，毒死沈燕林，反诬告苏三。县官受贿，判苏三死罪。解差崇公道提解苏三自洪洞\n去太原复审。途中苏诉说自身的遭遇，崇公道加以劝慰，并认苏三为义女。",
+  "performance_notes": "此剧由梅兰芳伯父梅雨田亲自传授。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 109,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.781,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "崇公道": 1,
+        "禁卒": 1,
+        "苏三": 1,
+        "狱官": 1
+      },
+      "links": [
+        {
+          "source": "崇公道",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "崇公道",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "崇公道",
+          "target": "狱官",
+          "value": 1
+        },
+        {
+          "source": "禁卒",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "狱官",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "狱官",
+          "target": "苏三",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 170,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "崇公道": 1,
+        "苏三": 1,
+        "掌柜": 1
+      },
+      "links": [
+        {
+          "source": "崇公道",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "掌柜",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "崇公道",
+          "target": "掌柜",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "崇公道",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊哈。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "禁卒",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "嗳，坐监的吗？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "苏三",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "苦哇，喂呀……",
+          "rating": 0.6,
+          "role": "旦"
+        },
+        {
+          "name": "狱官",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "干什么的？",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，109行",
+      "firstLine": 1,
+      "lastLine": 109,
+      "numLines": 109,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.934,
+        "conflict": 0.287,
+        "sentiment": 0.524
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "苏三",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "喂……呀……",
+          "rating": -0.286,
+          "role": "旦"
+        },
+        {
+          "name": "崇公道",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "唉，苏三哪，走着走着，你不走啦；跪在这个地方，是祝告天地呀？还是哀求",
+          "rating": -0.091,
+          "role": "丑"
+        },
+        {
+          "name": "掌柜",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "做什么？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，170行",
+      "firstLine": 1,
+      "lastLine": 170,
+      "numLines": 170,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.301,
+        "sentiment": 0.125
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "苏三",
+      "short": "苏三",
+      "key": "苏三",
+      "quote": "苏三 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "崇公道",
+      "short": "崇公",
+      "key": "崇公道",
+      "quote": "崇公道 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "掌柜",
+      "short": "掌柜",
+      "key": "掌柜",
+      "quote": "掌柜 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "禁卒",
+      "short": "禁卒",
+      "key": "禁卒",
+      "quote": "禁卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "狱官",
+      "short": "狱官",
+      "key": "狱官",
+      "quote": "狱官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

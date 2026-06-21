@@ -1,0 +1,418 @@
+{
+  "title": "金马门",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "01024003_金马门.json",
+  "source_folder": "01000000",
+  "plot_summary": "唐，翰林学士李白，自醉草吓蛮书后，名重京都，朝中大小官僚无论识与不识，咸尊而敬之，日于长安市上\n沽饮美酒，既醉即眠宿酒家，不拘形迹。有时召入禁中，赋诗陪宴。唐明皇见其醉态模糊，命贵妃作羹，御\n手亲调，赐以醒酒。又撤御座前金莲烛送归宅院，宠眷之深无以加焉。李白狂放不羁，举凡王宫贵戚俱不足\n以当一盻。非李白之倚势作威，盖其才高气傲所使然也。惟与贺知章最称莫逆，同游金马门，适有范阳节度\n使安禄山欲入大内，在此经过，驹从煊赫，迎面而来。安禄山为贵妃干儿，且私通于贵妃，势焰熏天。李白\n素恨安禄山，命身旁两书童历数其恶，当场诮骂，毫无顾忌。安禄山心虽怀恨，不敢与之计较，遂避道他往。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 26,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.47,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "二书童": 1,
+        "李白": 1
+      },
+      "links": [
+        {
+          "source": "二书童",
+          "target": "李白",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.163,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "安禄山": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 131,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "书童乙": 1,
+        "四校尉": 1,
+        "二书童": 1,
+        "贺知章": 1,
+        "书童甲": 1,
+        "安禄山": 1,
+        "李白": 1
+      },
+      "links": [
+        {
+          "source": "李白",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "安禄山",
+          "target": "李白",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "李白",
+          "value": 1
+        },
+        {
+          "source": "书童甲",
+          "target": "李白",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "李白",
+          "value": 1
+        },
+        {
+          "source": "二书童",
+          "target": "李白",
+          "value": 1
+        },
+        {
+          "source": "安禄山",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "书童甲",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "二书童",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "安禄山",
+          "value": 1
+        },
+        {
+          "source": "书童甲",
+          "target": "安禄山",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "安禄山",
+          "value": 1
+        },
+        {
+          "source": "二书童",
+          "target": "安禄山",
+          "value": 1
+        },
+        {
+          "source": "书童甲",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "二书童",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "书童甲",
+          "value": 1
+        },
+        {
+          "source": "书童甲",
+          "target": "二书童",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "二书童",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李白",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "满腹文章才高八斗，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "二书童",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.555,
+        "conflict": 0.0,
+        "sentiment": 0.455
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "安禄山",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "位列朝臣，龙恩宠，出入宫廷。",
+          "rating": 0.667,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：1位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.541,
+        "conflict": 1.0,
+        "sentiment": 0.58
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李白",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "李白饮酒沧海量，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "贺知章",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "适才修本出朝房，",
+          "rating": 0.778,
+          "role": "末"
+        },
+        {
+          "name": "安禄山",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "绒缰玉辔八宝鞍，",
+          "rating": 0.5,
+          "role": "小生"
+        },
+        {
+          "name": "四校尉",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "此乃是新翰林学士李白并贺知章。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "书童甲",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "安禄山，你不要自大！自大乃是一个“臭”字！你真是臭而不可闻也！",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "书童乙",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "安禄山，你听了：",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "二书童",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "启爷，安禄山回去了！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：7位角色，131行",
+      "firstLine": 1,
+      "lastLine": 131,
+      "numLines": 131,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.221,
+        "sentiment": 0.398
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李白",
+      "short": "李白",
+      "key": "李白",
+      "quote": "李白 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "贺知章",
+      "short": "贺知",
+      "key": "贺知章",
+      "quote": "贺知章 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "安禄山",
+      "short": "安禄",
+      "key": "安禄山",
+      "quote": "安禄山 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "书童甲",
+      "short": "书童",
+      "key": "书童甲",
+      "quote": "书童甲 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "书童乙",
+      "short": "书童",
+      "key": "书童乙",
+      "quote": "书童乙 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "四校尉",
+      "short": "四校",
+      "key": "四校尉",
+      "quote": "四校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二书童",
+      "short": "二书",
+      "key": "二书童",
+      "quote": "二书童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

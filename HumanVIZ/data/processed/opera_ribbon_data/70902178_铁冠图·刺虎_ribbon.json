@@ -1,0 +1,317 @@
+{
+  "title": "铁冠图·刺虎",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "70902178_铁冠图·刺虎.json",
+  "source_folder": "70902000",
+  "plot_summary": "宫女费贞娥，欲为君报仇，假冒公主，伺机行刺李自成。不想李自成将她赐予一只虎李过成亲。洞房之夜，\n费贞娥假献殷勤，将李过灌醉刺死，然后自刎。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 35,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.737,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "费贞娥": 1,
+        "李过": 1
+      },
+      "links": [
+        {
+          "source": "李过",
+          "target": "费贞娥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 70,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "费贞娥": 1,
+        "李过": 1,
+        "宫女乙": 1
+      },
+      "links": [
+        {
+          "source": "宫女乙",
+          "target": "李过",
+          "value": 1
+        },
+        {
+          "source": "宫女乙",
+          "target": "费贞娥",
+          "value": 1
+        },
+        {
+          "source": "李过",
+          "target": "费贞娥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 81,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "费贞娥": 1,
+        "李过": 1,
+        "宫女乙": 1
+      },
+      "links": [
+        {
+          "source": "李过",
+          "target": "费贞娥",
+          "value": 1
+        },
+        {
+          "source": "宫女乙",
+          "target": "费贞娥",
+          "value": 1
+        },
+        {
+          "source": "宫女乙",
+          "target": "李过",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 4,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.084,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "宫女乙": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "费贞娥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "蕴君仇，含国恨；",
+          "rating": 0.2,
+          "role": "四旦"
+        },
+        {
+          "name": "李过",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "拓地开疆胆气豪，从龙附凰佐皇朝。龙潜且作赵匡义，有日天心属我曹。",
+          "rating": 1.0,
+          "role": "大面"
+        }
+      ],
+      "summary": "第1场：2位角色，35行",
+      "firstLine": 1,
+      "lastLine": 35,
+      "numLines": 35,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.811,
+        "conflict": 1.0,
+        "sentiment": 0.08
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "宫女乙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "二大王回来了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李过",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "公主在哪里？",
+          "rating": 1.0,
+          "role": "大面"
+        },
+        {
+          "name": "费贞娥",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "吓，将军。",
+          "rating": 0.333,
+          "role": "四旦"
+        }
+      ],
+      "summary": "第2场：3位角色，70行",
+      "firstLine": 1,
+      "lastLine": 70,
+      "numLines": 70,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.921,
+        "conflict": 0.127,
+        "sentiment": 0.493
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "费贞娥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "将军今夜为何还穿此铠甲？",
+          "rating": 0.333,
+          "role": "四旦"
+        },
+        {
+          "name": "李过",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "不瞒公主说，一向在皇兄帐中护卫，提防奸细，日夜不能卸甲。",
+          "rating": 0.0,
+          "role": "大面"
+        },
+        {
+          "name": "宫女乙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "房中为何喧嚷？我们进去看来。吓，这是二大王，为何杀死在地？想是她刺死",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：3位角色，81行",
+      "firstLine": 1,
+      "lastLine": 81,
+      "numLines": 81,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.956,
+        "conflict": 0.592,
+        "sentiment": 0.36
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "宫女乙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呀，她竟自刎了，我们将尸首抬过一旁，报与大大王知道。正是：",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第4场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.163,
+        "conflict": 0.0,
+        "sentiment": 0.173
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "费贞娥",
+      "short": "费贞",
+      "key": "费贞娥",
+      "quote": "费贞娥 — 四旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 四旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李过",
+      "short": "李过",
+      "key": "李过",
+      "quote": "李过 — 大面",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 大面",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "宫女乙",
+      "short": "宫女",
+      "key": "宫女乙",
+      "quote": "宫女乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

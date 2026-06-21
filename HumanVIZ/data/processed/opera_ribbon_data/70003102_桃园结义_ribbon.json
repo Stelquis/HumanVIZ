@@ -1,0 +1,673 @@
+{
+  "title": "桃园结义",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 11,
+  "num_locations": 1,
+  "source_file": "70003102_桃园结义.json",
+  "source_folder": "70003000",
+  "plot_summary": "关羽翦除恶霸后，逃到范阳涿州，在三好酒楼与刘备、张飞相遇，三人志趣相投，在桃园结拜。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.132,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张飞": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.231,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "方雄": 1,
+        "张世平": 1,
+        "众人": 1,
+        "苏双": 1,
+        "吕常": 1
+      },
+      "links": [
+        {
+          "source": "方雄",
+          "target": "苏双",
+          "value": 1
+        },
+        {
+          "source": "张世平",
+          "target": "方雄",
+          "value": 1
+        },
+        {
+          "source": "吕常",
+          "target": "方雄",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "方雄",
+          "value": 1
+        },
+        {
+          "source": "张世平",
+          "target": "苏双",
+          "value": 1
+        },
+        {
+          "source": "吕常",
+          "target": "苏双",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "苏双",
+          "value": 1
+        },
+        {
+          "source": "吕常",
+          "target": "张世平",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "张世平",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "吕常",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 168,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "刘备": 1,
+        "酒保": 1,
+        "关羽": 1,
+        "百姓甲": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "百姓甲",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "百姓甲",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "百姓甲",
+          "value": 1
+        },
+        {
+          "source": "百姓甲",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "酒保",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 52,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 0.86,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "方雄": 1,
+        "刘备": 1,
+        "张世平": 1,
+        "院子": 1,
+        "关羽": 1,
+        "张飞": 1,
+        "苏双": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "方雄",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "苏双",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "张世平",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "方雄",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "苏双",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张世平",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "方雄",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "苏双",
+          "value": 1
+        },
+        {
+          "source": "张世平",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "方雄",
+          "target": "苏双",
+          "value": 1
+        },
+        {
+          "source": "张世平",
+          "target": "方雄",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "方雄",
+          "value": 1
+        },
+        {
+          "source": "张世平",
+          "target": "苏双",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "苏双",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张世平",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "臂力过人，性鲁莽，惯打不平。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.515,
+        "conflict": 0.0,
+        "sentiment": 0.82
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "方雄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "俺——",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "苏双",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "苏双。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张世平",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "张世平。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "吕常",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "吕常。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "大哥言之有理。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：5位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.369,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "头戴方巾乌角，鹑衣百结褴破。足踏草鞋跟踢拖，堪叹英雄落魄。",
+          "rating": 0.429,
+          "role": "生"
+        },
+        {
+          "name": "百姓甲",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "列位请了。朝廷出了告条，招募军兵。我们前去看上一看。请。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "闲人闪开，车来了。",
+          "rating": 0.2,
+          "role": "红生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "走哇！",
+          "rating": 0.636,
+          "role": "净"
+        },
+        {
+          "name": "酒保",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "肆外高挂三尺布，飘来飘去招主顾。",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第三场：5位角色，168行",
+      "firstLine": 1,
+      "lastLine": 168,
+      "numLines": 168,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.159,
+        "sentiment": 0.312
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "有请三位老爷。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "刘备",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "祝告：皇天后土、过往神灵，弟子刘备、关羽、张飞虽为异姓，今结金兰之好",
+          "rating": -0.2,
+          "role": "生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "大哥请上，受小弟一拜。",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "方雄",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "不敢，三位义士。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "苏双",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "闻听人言，三位义士，武艺精通，何不与国家出力报效？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张世平",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "我愿赠良马五十匹，折铁两千斤。但不知三位使何兵器？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "冷艳锯。",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第四场：7位角色，52行",
+      "firstLine": 1,
+      "lastLine": 52,
+      "numLines": 52,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.958,
+        "conflict": 0.208,
+        "sentiment": 0.35
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "酒保",
+      "short": "酒保",
+      "key": "酒保",
+      "quote": "酒保 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "方雄",
+      "short": "方雄",
+      "key": "方雄",
+      "quote": "方雄 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张世平",
+      "short": "张世",
+      "key": "张世平",
+      "quote": "张世平 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "百姓甲",
+      "short": "百姓",
+      "key": "百姓甲",
+      "quote": "百姓甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "苏双",
+      "short": "苏双",
+      "key": "苏双",
+      "quote": "苏双 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "吕常",
+      "short": "吕常",
+      "key": "吕常",
+      "quote": "吕常 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

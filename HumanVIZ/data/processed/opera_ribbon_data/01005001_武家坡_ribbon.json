@@ -1,0 +1,199 @@
+{
+  "title": "武家坡",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01005001_武家坡.json",
+  "source_folder": "01000000",
+  "plot_summary": "俗传薛平贵既投身戎行，辗转西征，屡立奇功，番民慑服。西凉国王既封以王爵，复赐尚某公主为妻，以固\n其心。继念干戈已靖，身膺殊荣。薛平贵虽至人臣极地，然遥忆结发糟糠，或仍守破窑，曾为得一享天伦之\n乐。回望家山，不觉归心似箭。遂辞别公主，衣锦还乡。但在外十余年，更经风霜，已是须发苍苍，非复当\n年张绪矣。既抵武家坡，与王宝钏会面，复伪称薛平贵之友，故意调戏，以试王宝钏节操。王宝钏词气严正，\n见彼语涉亵狎，顿时怒形于色，戟指痛骂，愤愤而回。此段情节，与《桑园会》仿佛相同。谁知王宝钏方\n欲掩门，薛平贵已随入窑中，乃详告真名，备述别后十八年之状况。王宝钏又细审言语状态，知确系薛平贵，\n心乃大慰，始纳之。",
+  "performance_notes": "其后本即《算粮登殿》也。此剧须生、青衫，均须唱做兼功，方能功力悉敌。此次王凤卿、梅兰芳合演是剧，\n一则雍容华贵，一则幽丽贞静，无论唱功之出人头地，矫矫不群，即其举止神情，已足令观者倾倒矣。古\n人云“二难并”，吾于斯二人亦云。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 233,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "大嫂": 1,
+        "薛平贵": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "大嫂",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "大嫂",
+          "target": "王宝钏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 149,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.78,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛平贵": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "薛平贵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "披星戴月奔长安，",
+          "rating": -0.176,
+          "role": "老生"
+        },
+        {
+          "name": "大嫂",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "请了。军爷敢是失迷路途？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "做什么？",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：3位角色，233行",
+      "firstLine": 1,
+      "lastLine": 233,
+      "numLines": 233,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.188,
+        "sentiment": 0.145
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王宝钏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "前面走的王三姐，",
+          "rating": -0.143,
+          "role": "旦"
+        },
+        {
+          "name": "薛平贵",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "后面跟随薛平贵。",
+          "rating": -0.111,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，149行",
+      "firstLine": 1,
+      "lastLine": 149,
+      "numLines": 149,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.934,
+        "conflict": 0.19,
+        "sentiment": 0.124
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛平贵",
+      "short": "薛平",
+      "key": "薛平贵",
+      "quote": "薛平贵 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "大嫂",
+      "short": "大嫂",
+      "key": "大嫂",
+      "quote": "大嫂 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

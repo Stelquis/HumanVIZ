@@ -1,0 +1,261 @@
+{
+  "title": "宋江闹院",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "01001020_宋江闹院.json",
+  "source_folder": "01000000",
+  "plot_summary": "宋江为郓城县书吏，昵土娼阎惜姣，为营乌龙院以居其母女，给衣食。宋江有徒张文远，性佻健，喜冶游，\n常乘间入院，与阎惜姣言笑取乐。阎惜姣亦爱张文远年少风流，遂与之通。久之，乐张文远而厌宋江。人言\n啧啧，宋江有所闻，责阎惜姣忘恩负心。阎惜姣不服，反唇相讥，宋江大受奚落。宋江在郓城，常勾结梁山\n大盗晁盖等，私相往还。一日，晁盖遣刘唐至宋江处下书赠金，宋江藏书金于招文袋。夜宿乌龙院，黎明即\n匆匆出门。至中途，忽悟招文袋遗失在院，大惊，急回院搜索不得，意必为阎惜姣所匿。问之，阎惜姣直认\n不讳。宋江哀恳再三，许尽与其金，而求将书掷还。阎惜姣掉头不允，逼宋江亲立笔据，许与张文远来往，\n不准宋江再来院。宋江不得已允之。立据后，阎惜姣谓盗书当呈县令，论宋江当堂领取。宋江急甚，苦求不\n已，而阎惜姣置若罔闻。宋江怒不可遏，遂拔刀刺死阎惜姣，取书而去。阎婆见女为宋江所杀，即控宋江于\n县。县令稔知宋江为人诚实宽厚，欲偏袒之。无奈张文远伤其所欢横罹惨酷，欲为之伸雪，坚执宋江罪，并\n嘱阎婆上控，以胁县令。县令乃科宋江以误杀罪，流至江州。后张文远为阎惜姣活捉去，亦不得善终云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 56,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.287,
+      "locations": {
+        "这郓城": 1
+      },
+      "characters": {
+        "阎惜姣": 1,
+        "张文远": 1,
+        "宋江": 1
+      },
+      "links": [
+        {
+          "source": "张文远",
+          "target": "阎惜姣",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "张文远",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "阎惜姣",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 334,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "这郓城": 1
+      },
+      "characters": {
+        "阎惜姣": 1,
+        "宋江": 1,
+        "张文远": 1,
+        "众人": 1
+      },
+      "links": [
+        {
+          "source": "众人",
+          "target": "宋江",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "阎惜姣",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "张文远",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "阎惜姣",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "张文远",
+          "value": 1
+        },
+        {
+          "source": "张文远",
+          "target": "阎惜姣",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "这郓城",
+      "characters": [
+        {
+          "name": "张文远",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "惜的的，爱的的，私通阎婆惜。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "阎惜姣",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来了。",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "宋江",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：3位角色，56行",
+      "firstLine": 1,
+      "lastLine": 56,
+      "numLines": 56,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.829,
+        "conflict": 0.417,
+        "sentiment": 0.782
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "这郓城",
+      "characters": [
+        {
+          "name": "众人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "退堂呢！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "宋江",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "列位少陪了。",
+          "rating": -0.231,
+          "role": "老生"
+        },
+        {
+          "name": "阎惜姣",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": -0.25,
+          "role": "花旦"
+        },
+        {
+          "name": "张文远",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "哎，大姐什么事？",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：4位角色，334行",
+      "firstLine": 1,
+      "lastLine": 334,
+      "numLines": 334,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.121,
+        "sentiment": 0.083
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "宋江",
+      "short": "宋江",
+      "key": "宋江",
+      "quote": "宋江 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "阎惜姣",
+      "short": "阎惜",
+      "key": "阎惜姣",
+      "quote": "阎惜姣 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张文远",
+      "short": "张文",
+      "key": "张文远",
+      "quote": "张文远 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "这郓城",
+      "key": "这郓城",
+      "quote": "场景发生在这郓城"
+    },
+    {
+      "name": "在大街",
+      "key": "在大街",
+      "quote": "场景发生在在大街"
+    }
+  ]
+}

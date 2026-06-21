@@ -1,0 +1,355 @@
+{
+  "title": "珍珠衫",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01038004_珍珠衫.json",
+  "source_folder": "01000000",
+  "plot_summary": "商人蒋兴哥娶妻周兰英，蒋兴哥外出久不归，陈商谋占周兰英，买通薛婆，计诱周兰英失身。",
+  "performance_notes": "蒋兴哥妻子王三巧《珍珠衫》一戏，其用意系形容王婆蚁媒之可恶。凡今社会中人不可不引以为鉴，而深恶\n痛绝之也。盖陈大郎之见色思淫，其干法犹有可，而薛妈妈之设计陷害王三巧，则真百死不足以蔽辜也。若\n无薛妈妈，则陈大郎虽色胆如天，只能妄想，胡敢冒昧。全在薛妈妈借中秋赏月为名，用酒灌醉，方足行其\n淫凶极恶之实在也。然后本报应昭彰，薛妈妈与陈大郎，卒置之极刑。为恶者亦何所益，而必干如是十恶不\n赦之事耶。世之为青年妇女者，其视此辈恶婆，当绝之如蛇蝎也可。此剧大概，为少年暮色贪欢肉欲之事，\n观者须当引为大戒也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 11,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.105,
+      "locations": {
+        "广东城": 1
+      },
+      "characters": {
+        "陈商": 1,
+        "薛妈妈": 1
+      },
+      "links": [
+        {
+          "source": "薛妈妈",
+          "target": "陈商",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 148,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "广东城": 1
+      },
+      "characters": {
+        "薛妈妈": 1,
+        "陈商": 1,
+        "周兰英": 1
+      },
+      "links": [
+        {
+          "source": "周兰英",
+          "target": "陈商",
+          "value": 1
+        },
+        {
+          "source": "周兰英",
+          "target": "薛妈妈",
+          "value": 1
+        },
+        {
+          "source": "薛妈妈",
+          "target": "陈商",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 154,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "广东城": 1
+      },
+      "characters": {
+        "院子": 1,
+        "陈商": 1,
+        "周兰英": 1,
+        "丫鬟": 1,
+        "薛妈妈": 1
+      },
+      "links": [
+        {
+          "source": "周兰英",
+          "target": "薛妈妈",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "周兰英",
+          "value": 1
+        },
+        {
+          "source": "周兰英",
+          "target": "陈商",
+          "value": 1
+        },
+        {
+          "source": "周兰英",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "薛妈妈",
+          "value": 1
+        },
+        {
+          "source": "薛妈妈",
+          "target": "陈商",
+          "value": 1
+        },
+        {
+          "source": "薛妈妈",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "陈商",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "陈商",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "广东城",
+      "characters": [
+        {
+          "name": "陈商",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "花发春心动，彩蝶飞舞惹思情。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "薛妈妈",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第一场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.632,
+        "conflict": 0.0,
+        "sentiment": 0.52
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "广东城",
+      "characters": [
+        {
+          "name": "周兰英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "叫丫鬟带路把楼上，",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "陈商",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "走过了许多的大街小巷，",
+          "rating": 0.667,
+          "role": "小生"
+        },
+        {
+          "name": "薛妈妈",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "孟尝君子店，千里客来投。",
+          "rating": 0.2,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第二场：3位角色，148行",
+      "firstLine": 1,
+      "lastLine": 148,
+      "numLines": 148,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.307,
+        "sentiment": 0.309
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "广东城",
+      "characters": [
+        {
+          "name": "周兰英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "自未一件事，长挂一片心。",
+          "rating": 0.6,
+          "role": "花旦"
+        },
+        {
+          "name": "薛妈妈",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "行一步来到了她家门首，",
+          "rating": 0.429,
+          "role": "彩旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "妈妈到此何事？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陈商",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "吓妈妈，办好了无有？",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "来此已是。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，154行",
+      "firstLine": 1,
+      "lastLine": 154,
+      "numLines": 154,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.308,
+        "sentiment": 0.297
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "周兰英",
+      "short": "周兰",
+      "key": "周兰英",
+      "quote": "周兰英 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "陈商",
+      "short": "陈商",
+      "key": "陈商",
+      "quote": "陈商 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛妈妈",
+      "short": "薛妈",
+      "key": "薛妈妈",
+      "quote": "薛妈妈 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "广东城",
+      "key": "广东城",
+      "quote": "场景发生在广东城"
+    }
+  ]
+}

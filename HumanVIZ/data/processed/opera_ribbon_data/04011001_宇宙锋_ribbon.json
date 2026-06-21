@@ -1,0 +1,417 @@
+{
+  "title": "宇宙锋",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 7,
+  "num_locations": 2,
+  "source_file": "04011001_宇宙锋.json",
+  "source_folder": "04000000",
+  "plot_summary": "“宇宙锋”是秦二世胡亥赐给大臣匡洪的一把宝剑。匡洪之子匡扶娶了权臣赵高的女儿。其后，赵高因匡家\n并不趋附他的权势，怀恨在心，设计命人盗取宇宙锋行刺胡亥、并嫁祸于匡洪；匡氏因此全家系狱。只有匡\n扶在赵女的帮助下得以逃亡。此后，赵女回到父家居住。某日，胡亥夜访赵府，窥见赵女貌美，欲纳为妃，\n命赵高次日送女入宫。赵女矢志不从，在哑丫鬟指点下，碎衣毁容，假作疯癫。次日，到了金殿，嬉笑怒骂，\n临难不惧，胡亥见状，以为真疯，赵女遂得幸免。",
+  "performance_notes": "这个剧目目前在舞台最流行的是装疯一折，故又名《金殿装疯》。整理本经梅芳先生仔细订正。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 135,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "请小姐出堂": 1
+      },
+      "characters": {
+        "门官": 1,
+        "赵女": 1,
+        "哑丫鬟": 1,
+        "秦二世": 1,
+        "赵高": 1
+      },
+      "links": [
+        {
+          "source": "赵高",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "赵女",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "秦二世",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "哑丫鬟",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "赵女",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "秦二世",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "哑丫鬟",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "秦二世",
+          "target": "赵女",
+          "value": 1
+        },
+        {
+          "source": "哑丫鬟",
+          "target": "赵女",
+          "value": 1
+        },
+        {
+          "source": "哑丫鬟",
+          "target": "秦二世",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 77,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.726,
+      "locations": {
+        " 凤阁龙楼": 1
+      },
+      "characters": {
+        "四朝臣": 1,
+        "赵女": 1,
+        "哑丫鬟": 1,
+        "秦二世": 1,
+        "赵高": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "四朝臣",
+          "target": "秦二世",
+          "value": 1
+        },
+        {
+          "source": "秦二世",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "秦二世",
+          "value": 1
+        },
+        {
+          "source": "秦二世",
+          "target": "赵女",
+          "value": 1
+        },
+        {
+          "source": "哑丫鬟",
+          "target": "秦二世",
+          "value": 1
+        },
+        {
+          "source": "四朝臣",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "四朝臣",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "四朝臣",
+          "target": "赵女",
+          "value": 1
+        },
+        {
+          "source": "哑丫鬟",
+          "target": "四朝臣",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "赵女",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "哑丫鬟",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "赵女",
+          "value": 1
+        },
+        {
+          "source": "哑丫鬟",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "哑丫鬟",
+          "target": "赵女",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "请小姐出堂",
+      "characters": [
+        {
+          "name": "赵高",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "月影照纱窗，梅花映粉墙。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "门官",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵女",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "杜鹃枝头泣，血泪暗悲啼。",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "秦二世",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "摆驾！",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "哑丫鬟",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：5位角色，135行",
+      "firstLine": 1,
+      "lastLine": 135,
+      "numLines": 135,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.188,
+        "sentiment": 0.335
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "秦二世",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "凤阁龙楼，万古千秋。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "四朝臣",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "臣等见驾，吾皇万岁！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵高",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "臣赵高见驾，吾皇万岁！",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "御林军走上哪！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵女",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "低着头下了这龙车凤辇，",
+          "rating": 0.429,
+          "role": "旦"
+        },
+        {
+          "name": "哑丫鬟",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：6位角色，77行",
+      "firstLine": 1,
+      "lastLine": 77,
+      "numLines": 77,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.444,
+        "sentiment": 0.294
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵女",
+      "short": "赵女",
+      "key": "赵女",
+      "quote": "赵女 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "赵高",
+      "short": "赵高",
+      "key": "赵高",
+      "quote": "赵高 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "秦二世",
+      "short": "秦二",
+      "key": "秦二世",
+      "quote": "秦二世 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "哑丫鬟",
+      "short": "哑丫",
+      "key": "哑丫鬟",
+      "quote": "哑丫鬟 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "四朝臣",
+      "short": "四朝",
+      "key": "四朝臣",
+      "quote": "四朝臣 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门官",
+      "short": "门官",
+      "key": "门官",
+      "quote": "门官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 凤阁龙楼",
+      "key": " 凤阁龙楼",
+      "quote": "场景发生在 凤阁龙楼"
+    },
+    {
+      "name": "请小姐出堂",
+      "key": "请小姐出堂",
+      "quote": "场景发生在请小姐出堂"
+    }
+  ]
+}

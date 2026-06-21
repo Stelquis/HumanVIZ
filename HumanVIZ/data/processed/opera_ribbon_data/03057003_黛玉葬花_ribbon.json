@@ -1,0 +1,396 @@
+{
+  "title": "黛玉葬花",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "03057003_黛玉葬花.json",
+  "source_folder": "03000000",
+  "plot_summary": "薛宝钗夜访贾宝玉，林黛玉旋至，扣环，丫鬟拒之。林黛玉疑贾宝玉薄己，次日荷锄至园中，见落花，愈伤\n身世，乃赋诗葬花。贾宝玉至，表明心迹，言归于好。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 80,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "荣国贾府": 1
+      },
+      "characters": {
+        "紫鹃": 1,
+        "晴雯": 1,
+        "林黛玉": 1,
+        "贾宝玉": 1,
+        "薛宝钗": 1
+      },
+      "links": [
+        {
+          "source": "晴雯",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "薛宝钗",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "林黛玉",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "紫鹃",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "晴雯",
+          "target": "薛宝钗",
+          "value": 1
+        },
+        {
+          "source": "晴雯",
+          "target": "林黛玉",
+          "value": 1
+        },
+        {
+          "source": "晴雯",
+          "target": "紫鹃",
+          "value": 1
+        },
+        {
+          "source": "林黛玉",
+          "target": "薛宝钗",
+          "value": 1
+        },
+        {
+          "source": "紫鹃",
+          "target": "薛宝钗",
+          "value": 1
+        },
+        {
+          "source": "林黛玉",
+          "target": "紫鹃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 45,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.826,
+      "locations": {
+        "荣国贾府": 1
+      },
+      "characters": {
+        "林黛玉": 1,
+        "紫鹃": 1
+      },
+      "links": [
+        {
+          "source": "林黛玉",
+          "target": "紫鹃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 16,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.294,
+      "locations": {
+        "荣国贾府": 1
+      },
+      "characters": {
+        "贾宝玉": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 77,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "荣国贾府": 1
+      },
+      "characters": {
+        "贾宝玉": 1,
+        "林黛玉": 1,
+        "紫鹃": 1
+      },
+      "links": [
+        {
+          "source": "林黛玉",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "林黛玉",
+          "target": "紫鹃",
+          "value": 1
+        },
+        {
+          "source": "紫鹃",
+          "target": "贾宝玉",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "荣国贾府",
+      "characters": [
+        {
+          "name": "贾宝玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "无可奈何花落去，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "晴雯",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "是谁呀？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛宝钗",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "走啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "林黛玉",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "走啊！",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "紫鹃",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "姑娘，晚上风大，露气又重，一个人在这儿伤心，刚吃完了药，倘若是再着了",
+          "rating": -0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：5位角色，80行",
+      "firstLine": 1,
+      "lastLine": 80,
+      "numLines": 80,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.92,
+        "conflict": 0.485,
+        "sentiment": 0.173
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "荣国贾府",
+      "characters": [
+        {
+          "name": "林黛玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "春去无痕，莽天涯，怎不消魂？",
+          "rating": 0.5,
+          "role": "旦"
+        },
+        {
+          "name": "紫鹃",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我们姑娘又在这儿哭哪。",
+          "rating": 0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.624,
+        "conflict": 0.698,
+        "sentiment": 0.333
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "荣国贾府",
+      "characters": [
+        {
+          "name": "贾宝玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "昨夜晚怨东风无端蹂躏，",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：1位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.594,
+        "conflict": 0.0,
+        "sentiment": -0.185
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "荣国贾府",
+      "characters": [
+        {
+          "name": "林黛玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "走啊！",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "贾宝玉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "妹妹不要走。说完一句话，大家撩开手，好是不好？",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "紫鹃",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊，宝二爷也在这哪？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：3位角色，77行",
+      "firstLine": 1,
+      "lastLine": 77,
+      "numLines": 77,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.912,
+        "conflict": 0.267,
+        "sentiment": -0.057
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "林黛玉",
+      "short": "林黛",
+      "key": "林黛玉",
+      "quote": "林黛玉 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "贾宝玉",
+      "short": "贾宝",
+      "key": "贾宝玉",
+      "quote": "贾宝玉 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "紫鹃",
+      "short": "紫鹃",
+      "key": "紫鹃",
+      "quote": "紫鹃 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "晴雯",
+      "short": "晴雯",
+      "key": "晴雯",
+      "quote": "晴雯 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "薛宝钗",
+      "short": "薛宝",
+      "key": "薛宝钗",
+      "quote": "薛宝钗 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "荣国贾府",
+      "key": "荣国贾府",
+      "quote": "场景发生在荣国贾府"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "title": "吴汉杀妻",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 4,
+  "source_file": "01029007_吴汉杀妻.json",
+  "source_folder": "01000000",
+  "plot_summary": "吴汉亦云台将数之一，辅佐刘秀（即东汉光武皇帝），奋力疆场，成中兴事业，所谓名垂千古，赠史册之光\n者也。父本汉臣，为王莽所杀。而王莽爱吴汉青年英俊，嫁以南宁公主，授潼关总镇，作为心腹股肱之寄。\n当时干戈四起，王莽掘得碣文，有刘秀姓名，目为妖人，以缉之。吴汉在关前稽查出入，将刘秀获住，希告\n其母。母心不忘汉室，知是汉室之裔，不准加害，命吴汉纵之，且为吴汉述及父死之惨史，谓与王莽有不共\n戴天之仇。若北面而事之，何以慰先灵于地下，此关既非汉室所有，一切军民事，不必再理。南宁公主，只\n可作怨耦观，取其头颅来。吴汉遵奉母命，不得不实行。惟念妻虽莽女，素称贤淑，猝然杀死，心实有所不\n忍。既重大义，不能再顾私情也，遂提剑入内，窥探公主举动。公主方在经堂礼佛，口中喃喃不已。吴汉上\n前相见，一一告知，公主亦不愿再居人世，夺剑自刎。吴汉割头以献，母见而大哭，即饬成殓安葬。一转瞬\n间，母亦背人缢死。盖吴母之本心，欲吴汉一意归汉，若公主在室，势必为王莽所牵制，反有内顾之忧。明\n知吴汉甚孝，决不违背三者之要求，所以熟思审处，出此绝后计也。贤矣哉吴母，杀身成仁，其斯之谓與。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 58,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.757,
+      "locations": {
+        "同下关回府": 1
+      },
+      "characters": {
+        "吴母": 1,
+        "吴汉": 1,
+        "刘秀": 1
+      },
+      "links": [
+        {
+          "source": "吴母",
+          "target": "吴汉",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "吴母",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "吴汉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 119,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "免打扫经堂": 1
+      },
+      "characters": {
+        "吴汉": 1,
+        "王兰英": 1,
+        "刘秀": 1
+      },
+      "links": [
+        {
+          "source": "吴汉",
+          "target": "王兰英",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "王兰英",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "吴汉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 53,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.691,
+      "locations": {
+        "吾儿到经堂": 1
+      },
+      "characters": {
+        "吴母": 1,
+        "吴汉": 1
+      },
+      "links": [
+        {
+          "source": "吴母",
+          "target": "吴汉",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "同下关回府",
+      "characters": [
+        {
+          "name": "吴母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "吾儿去上关，未见转回转。",
+          "rating": 0.4,
+          "role": "老旦"
+        },
+        {
+          "name": "吴汉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "众将官，将妖人刘秀绑好，一同下关回府。",
+          "rating": 0.25,
+          "role": "老生"
+        },
+        {
+          "name": "刘秀",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：3位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.488,
+        "sentiment": 0.4
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "免打扫经堂",
+      "characters": [
+        {
+          "name": "王兰英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "远望青山绿水，近看柳碧桃红。",
+          "rating": -0.167,
+          "role": "旦"
+        },
+        {
+          "name": "吴汉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "前堂母亲把话说，",
+          "rating": 0.077,
+          "role": "老生"
+        },
+        {
+          "name": "刘秀",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，119行",
+      "firstLine": 1,
+      "lastLine": 119,
+      "numLines": 119,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.273,
+        "sentiment": 0.166
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "吾儿到经堂",
+      "characters": [
+        {
+          "name": "吴母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "吾儿到经堂，不见转回房。",
+          "rating": 0.5,
+          "role": "老旦"
+        },
+        {
+          "name": "吴汉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "公主，你在此等候片刻，待本宫与你通报母亲。",
+          "rating": -0.2,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：2位角色，53行",
+      "firstLine": 1,
+      "lastLine": 53,
+      "numLines": 53,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.827,
+        "conflict": 0.357,
+        "sentiment": 0.278
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "吴汉",
+      "short": "吴汉",
+      "key": "吴汉",
+      "quote": "吴汉 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王兰英",
+      "short": "王兰",
+      "key": "王兰英",
+      "quote": "王兰英 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "吴母",
+      "short": "吴母",
+      "key": "吴母",
+      "quote": "吴母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "刘秀",
+      "short": "刘秀",
+      "key": "刘秀",
+      "quote": "刘秀 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "免打扫经堂",
+      "key": "免打扫经堂",
+      "quote": "场景发生在免打扫经堂"
+    },
+    {
+      "name": "同下关回府",
+      "key": "同下关回府",
+      "quote": "场景发生在同下关回府"
+    },
+    {
+      "name": "吾儿到经堂",
+      "key": "吾儿到经堂",
+      "quote": "场景发生在吾儿到经堂"
+    },
+    {
+      "name": "这府门",
+      "key": "这府门",
+      "quote": "场景发生在这府门"
+    }
+  ]
+}

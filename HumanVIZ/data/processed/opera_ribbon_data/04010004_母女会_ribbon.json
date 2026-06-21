@@ -1,0 +1,303 @@
+{
+  "title": "母女会",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 2,
+  "source_file": "04010004_母女会.json",
+  "source_folder": "04000000",
+  "plot_summary": "自从薛平贵出征以后，王宝钏苦守寒窑。王允以各种方法，甚至说薛平贵战死在西凉，逼女儿改嫁。坚贞不\n屈的王宝钏，对薛平贵的爱情并没有丝毫改变，但因生活很贫困，加之思念薛平贵，终于生了病。她母亲前\n来探望，见王宝钏的憔悴形容以及寒窑里的穷苦光景，劝她一同回家，再享受从前丞相女儿的豪华生活。尽\n管王宝钏很爱她的母亲，并没有因此接受母亲的劝告；她把母亲诓出门去，将窑门紧闭，坚决不回相府。",
+  "performance_notes": "这个剧本是根据王瑶卿先生的演出本，由北京戏曲实验学校于玉蘅，中国京剧团演员李金泉与本院（中国戏\n曲研究院）编辑处田淞、吕瑞明共同整理的。因原本就很完整，整理时，仅对个别词句略加修正。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 38,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.394,
+      "locations": {
+        "身居在相府": 1
+      },
+      "characters": {
+        "陈氏": 1,
+        "丫鬟": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "陈氏",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "陈氏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "家院",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 155,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "身居在相府": 1
+      },
+      "characters": {
+        "前门赶走": 1,
+        "陈氏": 1,
+        "家院": 1,
+        "王宝钏": 1,
+        "丫鬟": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "陈氏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "前门赶走",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "陈氏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "前门赶走",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "陈氏",
+          "value": 1
+        },
+        {
+          "source": "前门赶走",
+          "target": "陈氏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "前门赶走",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "身居在相府",
+      "characters": [
+        {
+          "name": "陈氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "两鬓如霜，承诰命，身宿华堂。",
+          "rating": -0.143,
+          "role": "老旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "有事来通报，无事不乱言。",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：3位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.618,
+        "conflict": 0.513,
+        "sentiment": -0.111
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "身居在相府",
+      "characters": [
+        {
+          "name": "家院",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来了。",
+          "rating": -0.538,
+          "role": "旦"
+        },
+        {
+          "name": "陈氏",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "（母亲）（宝钏）！（亲娘）（姣儿）！（喂呀母亲哪）（儿啊）！",
+          "rating": -0.273,
+          "role": "老旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "参见三姑娘。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "前门赶走",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "薛平贵，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：5位角色，155行",
+      "firstLine": 1,
+      "lastLine": 155,
+      "numLines": 155,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.417,
+        "sentiment": -0.14
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "陈氏",
+      "short": "陈氏",
+      "key": "陈氏",
+      "quote": "陈氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "前门赶走",
+      "short": "前门",
+      "key": "前门赶走",
+      "quote": "前门赶走 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "身居在相府",
+      "key": "身居在相府",
+      "quote": "场景发生在身居在相府"
+    },
+    {
+      "name": "身宿华堂",
+      "key": "身宿华堂",
+      "quote": "场景发生在身宿华堂"
+    }
+  ]
+}

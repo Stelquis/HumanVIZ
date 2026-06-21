@@ -1,0 +1,256 @@
+{
+  "title": "左慈骂曹",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "05014005_左慈骂曹.json",
+  "source_folder": "05000000",
+  "plot_summary": "华歆奉曹操命至温州采办黄柑，途遇一道人，将车轮推动，黄柑即时中空无心。华歆乃带道人见曹操。道人\n立而不跪，不认有盗柑情事。剖柑相验，则黄柑俱复有心。道人出言讽曹操，谓其残害忠良，心肠狠毒，欺\n君叛逆，遗臭万年。曹操怒而责之。道人数骂曹操历年战败狼狈之状。曹操愈怒，责之愈毒。道人死而复苏，\n又数其杀死吕伯奢全家，带剑入宫，绞死董妃各项罪状。曹操问其姓名，答称乃是四川左慈，得异人传授\n三卷天书。曹操欲学天书。左慈劝将朝政付与刘备执掌。曹操疑为刘备所使。左慈请画龙取肝下酒，曹操许\n之。画成，左慈骑龙而去。曹操命华歆领人追赶，不料满城皆左慈化身，曹操传令尽杀之。左慈竟扬长而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 199,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "左慈": 1,
+        "曹操": 1,
+        "华歆": 1,
+        "四手下": 1
+      },
+      "links": [
+        {
+          "source": "华歆",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "左慈",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "四手下",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "华歆",
+          "target": "左慈",
+          "value": 1
+        },
+        {
+          "source": "华歆",
+          "target": "四手下",
+          "value": 1
+        },
+        {
+          "source": "四手下",
+          "target": "左慈",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.068,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "左慈": 1,
+        "华歆": 1,
+        "曹操": 1
+      },
+      "links": [
+        {
+          "source": "华歆",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "华歆",
+          "target": "左慈",
+          "value": 1
+        },
+        {
+          "source": "左慈",
+          "target": "曹操",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "四海名扬，各路诸侯拱手降。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "华歆",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "采办黄柑事，报与魏王知。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "左慈",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "迈步上公廷，打动奸佞臣。",
+          "rating": 0.158,
+          "role": "老生"
+        },
+        {
+          "name": "四手下",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "吓！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：4位角色，199行",
+      "firstLine": 1,
+      "lastLine": 199,
+      "numLines": 199,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.412,
+        "sentiment": 0.235
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "华歆",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "启禀丞相：这道人跨龙走了！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "前去追赶！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "左慈",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：3位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.731,
+        "conflict": 1.0,
+        "sentiment": -0.433
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "左慈",
+      "short": "左慈",
+      "key": "左慈",
+      "quote": "左慈 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹操",
+      "short": "曹操",
+      "key": "曹操",
+      "quote": "曹操 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "华歆",
+      "short": "华歆",
+      "key": "华歆",
+      "quote": "华歆 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "四手下",
+      "short": "四手",
+      "key": "四手下",
+      "quote": "四手下 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

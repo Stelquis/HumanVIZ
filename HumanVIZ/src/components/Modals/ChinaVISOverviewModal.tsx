@@ -1,32 +1,24 @@
-import { Modal } from "@mantine/core";
 import { dashStore } from "../../stores/dashStore";
 import DataOverviewContent from "./DataOverviewContent";
 import "./ChinaVISOverviewModal.scss";
 
 function ChinaVISOverviewModal() {
   const { overviewModalOpened, setOverviewModalOpened } = dashStore();
-
   const closeModal = () => setOverviewModalOpened(false);
 
+  if (!overviewModalOpened) return null;
+
   return (
-    <Modal
-      opened={overviewModalOpened}
-      onClose={closeModal}
-      transitionProps={{
-        transition: "pop",
-        duration: 280,
-        timingFunction: "cubic-bezier(0.22, 1, 0.36, 1)",
-      }}
-      centered
-      size="auto"
-      styles={{
-        content: { padding: '0 24px 24px', maxWidth: 1160, minWidth: 400 },
-        header: { paddingBottom: 16 }
-      }}
-      id="chinavis-overview-modal"
-    >
-      <DataOverviewContent showProjectSidebar={true} />
-    </Modal>
+    <div className="about-overlay" onClick={closeModal}>
+      <div className="about-modal-card" onClick={(e) => e.stopPropagation()}>
+        <button className="about-modal-close" onClick={closeModal} aria-label="关闭">
+          ✕
+        </button>
+        <div className="about-modal-body">
+          <DataOverviewContent showProjectSidebar={true} />
+        </div>
+      </div>
+    </div>
   );
 }
 

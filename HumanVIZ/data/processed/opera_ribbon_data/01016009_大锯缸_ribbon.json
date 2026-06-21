@@ -1,0 +1,427 @@
+{
+  "title": "大锯缸",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "01016009_大锯缸.json",
+  "source_folder": "01000000",
+  "plot_summary": "有王家庄王大娘者，当是旱魃之化身，神通极广，藏有黄磁缸一只，能大能小，能隐能显，用以抵挡雷劫，\n称为宝贝。即取死人之噎食管，磨炼而成，已为巨灵神撞破。白衣观世音菩萨，欲援生灵于涂炭，以达大慈\n大悲救苦救难之目的，遣土地神变作补锅匠，为之修理，故意失手，击成粉碎。而菩萨遂施展佛法，召集天\n神天将以除之。",
+  "performance_notes": "人死不腐，谓之僵尸，亦能走动，顾有魄无魂，性灵汨没，无知识之可言，每于深夜赶逐行人。所以村落之\n间，出现一僵尸，人皆视为畏途。然僵尸伹循直径，不知曲折，若陡然相遇，尽可转弯抹角以趋避之，其为\n害犹小。惟感受日月之精华，久而久之，僵尸即成旱魃。有此恶怪，天从此大旱不雨。年岁荒歉，荼毒一方\n人民。并且变化莫测，或幻形为女子以吸人精髓，其为害甚大。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 147,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "观音": 1,
+        "王大娘": 1,
+        "土地": 1
+      },
+      "links": [
+        {
+          "source": "土地",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "王大娘",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "王大娘",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 26,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.588,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "白象": 1,
+        "青狮": 1,
+        "土地": 1,
+        "王大娘": 1,
+        "大鹏": 1,
+        "观音": 1
+      },
+      "links": [
+        {
+          "source": "土地",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "大鹏",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "青狮",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "白象",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "王大娘",
+          "value": 1
+        },
+        {
+          "source": "大鹏",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "观音",
+          "target": "青狮",
+          "value": 1
+        },
+        {
+          "source": "白象",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "王大娘",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "大鹏",
+          "target": "青狮",
+          "value": 1
+        },
+        {
+          "source": "大鹏",
+          "target": "白象",
+          "value": 1
+        },
+        {
+          "source": "大鹏",
+          "target": "王大娘",
+          "value": 1
+        },
+        {
+          "source": "白象",
+          "target": "青狮",
+          "value": 1
+        },
+        {
+          "source": "王大娘",
+          "target": "青狮",
+          "value": 1
+        },
+        {
+          "source": "王大娘",
+          "target": "白象",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 1,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.023,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王大娘": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 3,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 0.068,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王大娘": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "观音",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "吾乃，白衣观世音是也。只因此地，有旱魃为虐，扰害黎民，不免遣土地前去，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "土地",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我本一小仙，保佑地方安。忽听菩萨唤，急忙到跟前。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "王大娘",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "王大娘正在房中坐，",
+          "rating": 0.333,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第一场：3位角色，147行",
+      "firstLine": 1,
+      "lastLine": 147,
+      "numLines": 147,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.747,
+        "conflict": 0.222,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "土地",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "启菩萨：妖魔宝贝，已被小仙打碎，但是她十分厉害，小仙道法不高，难以收",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "观音",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "归位去罢。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大鹏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吾乃大鹏金翅大仙是也。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "青狮",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "青狮大仙是也。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "白象",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "白象大仙是也。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "王大娘",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第二场：6位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.92,
+        "conflict": 0.37,
+        "sentiment": 0.174
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王大娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第三场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.468,
+        "conflict": 0.0,
+        "sentiment": 0.4
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王大娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第四场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.485,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王大娘",
+      "short": "王大",
+      "key": "王大娘",
+      "quote": "王大娘 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "土地",
+      "short": "土地",
+      "key": "土地",
+      "quote": "土地 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "大鹏",
+      "short": "大鹏",
+      "key": "大鹏",
+      "quote": "大鹏 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "青狮",
+      "short": "青狮",
+      "key": "青狮",
+      "quote": "青狮 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "白象",
+      "short": "白象",
+      "key": "白象",
+      "quote": "白象 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "观音",
+      "short": "观音",
+      "key": "观音",
+      "quote": "观音 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

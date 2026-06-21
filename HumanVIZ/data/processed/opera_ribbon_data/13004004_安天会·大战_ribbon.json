@@ -1,0 +1,893 @@
+{
+  "title": "安天会·大战",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 7,
+  "num_scenes": 15,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "13004004_安天会·大战.json",
+  "source_folder": "13000000",
+  "plot_summary": "孙悟空搅乱蟠桃会，玉帝怒，遣李天王率十万神兵往擒孙悟空，孙悟空被擒。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 79,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.116,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "哪吒": 1,
+        "温天君": 1,
+        "马天君": 1,
+        "赵天君": 1,
+        "老君": 1,
+        "李天王": 1
+      },
+      "links": [
+        {
+          "source": "哪吒",
+          "target": "李天王",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "马天君",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "老君",
+          "value": 1
+        },
+        {
+          "source": "李天王",
+          "target": "马天君",
+          "value": 1
+        },
+        {
+          "source": "李天王",
+          "target": "老君",
+          "value": 1
+        },
+        {
+          "source": "老君",
+          "target": "马天君",
+          "value": 1
+        },
+        {
+          "source": "李天王",
+          "target": "赵天君",
+          "value": 1
+        },
+        {
+          "source": "李天王",
+          "target": "温天君",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 12,
+      "summary": "第4场；第5场；第6场",
+      "conflict": 0.6,
+      "importance": 0.368,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "二郎神": 1,
+        "李天王": 1,
+        "巨灵神": 1,
+        "刘天君": 1
+      },
+      "links": [
+        {
+          "source": "刘天君",
+          "target": "李天王",
+          "value": 1
+        },
+        {
+          "source": "巨灵神",
+          "target": "李天王",
+          "value": 1
+        },
+        {
+          "source": "二郎神",
+          "target": "李天王",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 20,
+      "summary": "第7场；第8场；第9场",
+      "conflict": 0.76,
+      "importance": 0.614,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "李天王": 1,
+        "哪吒": 1
+      },
+      "links": [
+        {
+          "source": "哪吒",
+          "target": "李天王",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 3,
+      "numLines": 21,
+      "summary": "第10场；第11场；第12场",
+      "conflict": 1.2,
+      "importance": 0.645,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "李天王": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 3,
+      "numLines": 96,
+      "summary": "第13场；第14场；第15场",
+      "conflict": 0.711,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "孙悟空": 1,
+        "哪吒": 1,
+        "二郎神": 1,
+        "老君": 1,
+        "李天王": 1
+      },
+      "links": [
+        {
+          "source": "二郎神",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "孙悟空",
+          "value": 2
+        },
+        {
+          "source": "孙悟空",
+          "target": "李天王",
+          "value": 2
+        },
+        {
+          "source": "二郎神",
+          "target": "哪吒",
+          "value": 1
+        },
+        {
+          "source": "二郎神",
+          "target": "李天王",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "李天王",
+          "value": 2
+        },
+        {
+          "source": "哪吒",
+          "target": "老君",
+          "value": 1
+        },
+        {
+          "source": "李天王",
+          "target": "老君",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "老君",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    },
+    {
+      "chapter": "第7章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "哪吒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "众将参见！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李天王",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "十万熊罴，星辰齐集，尊天帝，剿灭渠魁，扫尽如斯辈。",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "马天君",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "老君",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第1场：4位角色，71行",
+      "firstLine": 1,
+      "lastLine": 71,
+      "numLines": 71,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.847,
+        "conflict": 0.426,
+        "sentiment": 0.044
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "赵天君。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "赵天君",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.416,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "温天君。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "温天君",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.416,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "刘天君。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "刘天君",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第4场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.416,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "巨灵神。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "巨灵神",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第5场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.416,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "二郎神。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "二郎神",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第6场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.416,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哪吒。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "哪吒",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第7场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.436,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 8,
+      "name": "第8场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "好一场厮杀也！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第8场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.528,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 9,
+      "name": "第9场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "俺与他一会价辨个高低，",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第9场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.516,
+        "conflict": 0.0,
+        "sentiment": -0.6
+      }
+    },
+    {
+      "number": 10,
+      "name": "第10场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "只见那木怪山魈也那挂铁衣，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第10场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.524,
+        "conflict": 1.0,
+        "sentiment": 0.2
+      }
+    },
+    {
+      "number": 11,
+      "name": "第11场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "小妖们遍山岭，",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第11场：1位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.536,
+        "conflict": 0.0,
+        "sentiment": 0.6
+      }
+    },
+    {
+      "number": 12,
+      "name": "第12场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "满山头云雾起，",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第12场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.524,
+        "conflict": 1.0,
+        "sentiment": -0.6
+      }
+    },
+    {
+      "number": 13,
+      "name": "第13场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "这妖猴法力果惊奇，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第13场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.516,
+        "conflict": 0.0,
+        "sentiment": 0.6
+      }
+    },
+    {
+      "number": 14,
+      "name": "第14场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "呔！杀了半日，不曾问得姓名，通名再战。",
+          "rating": -0.333,
+          "role": "武生"
+        },
+        {
+          "name": "二郎神",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "听者：",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "哪吒",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "妖猴被擒！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李天王",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "俺只见六丁六甲显神威，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第14场：4位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.678,
+        "sentiment": -0.111
+      }
+    },
+    {
+      "number": 15,
+      "name": "第15场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "哪吒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "猴头啊，猴头！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李天王",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "众天将，玉帝有旨！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "老君",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "天王何来？",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第15场：4位角色，54行",
+      "firstLine": 1,
+      "lastLine": 54,
+      "numLines": 54,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.913,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李天王",
+      "short": "李天",
+      "key": "李天王",
+      "quote": "李天王 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "老君",
+      "short": "老君",
+      "key": "老君",
+      "quote": "老君 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "哪吒",
+      "short": "哪吒",
+      "key": "哪吒",
+      "quote": "哪吒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "温天君",
+      "short": "温天",
+      "key": "温天君",
+      "quote": "温天君 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马天君",
+      "short": "马天",
+      "key": "马天君",
+      "quote": "马天君 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘天君",
+      "short": "刘天",
+      "key": "刘天君",
+      "quote": "刘天君 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵天君",
+      "short": "赵天",
+      "key": "赵天君",
+      "quote": "赵天君 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二郎神",
+      "short": "二郎",
+      "key": "二郎神",
+      "quote": "二郎神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "巨灵神",
+      "short": "巨灵",
+      "key": "巨灵神",
+      "quote": "巨灵神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,912 @@
+{
+  "title": "千秋岭",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 8,
+  "num_characters": 9,
+  "num_locations": 2,
+  "source_file": "02006002_千秋岭.json",
+  "source_folder": "02000000",
+  "plot_summary": "李世民率领徐勣、秦琼、尉迟恭攻打王世充。时罗成仍在王世充处为将，出面应战。徐勣原知罗成威武，尉\n迟恭等均非是其对手，但尉迟恭过于骄傲，思挫其傲气。乃奏明李世民，令尉迟恭出马。尉迟恭苦战不胜，\n而又无面目回营。徐勣看明情形，乃鸣金收兵。独自前往说劝罗成投降唐营。罗成投降后，李世民称为御弟\n赐座，尉迟不服，惹起秦琼、程咬金公愤。尉迟见志不得逞，又思离唐造反。李世民乃阻拦说和，大家欢宴\n而罢。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 34,
+      "summary": "第一场；第二场",
+      "conflict": 0.323,
+      "importance": 0.287,
+      "locations": {
+        "贼人来骂营": 2
+      },
+      "characters": {
+        "罗成": 1,
+        "探子": 1,
+        "徐勣": 1,
+        "李世民": 1,
+        "尉迟恭": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "尉迟恭",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 81,
+      "summary": "第三场；第四场",
+      "conflict": 0.269,
+      "importance": 0.684,
+      "locations": {
+        "贼人来骂营": 1,
+        "贼进得唐营": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "探子": 1,
+        "徐勣": 1,
+        "李世民": 1,
+        "四蓝龙套": 1,
+        "马三保": 1,
+        "尉迟恭": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "四蓝龙套",
+          "target": "马三保",
+          "value": 1
+        },
+        {
+          "source": "罗成",
+          "target": "马三保",
+          "value": 1
+        },
+        {
+          "source": "四蓝龙套",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 106,
+      "summary": "第五场；第六场",
+      "conflict": 0.087,
+      "importance": 0.895,
+      "locations": {
+        "贼人来骂营": 2
+      },
+      "characters": {
+        "罗成": 1,
+        "徐勣": 1,
+        "尉迟恭": 1,
+        "李世民": 1
+      },
+      "links": [
+        {
+          "source": "尉迟恭",
+          "target": "罗成",
+          "value": 2
+        },
+        {
+          "source": "徐勣",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 253,
+      "summary": "第七场；第八场",
+      "conflict": 0.225,
+      "importance": 1.0,
+      "locations": {
+        "贼人来骂营": 2
+      },
+      "characters": {
+        "罗成": 1,
+        "徐勣": 1,
+        "李世民": 1,
+        "程咬金": 1,
+        "尉迟恭": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "尉迟恭",
+          "target": "罗成",
+          "value": 2
+        },
+        {
+          "source": "徐勣",
+          "target": "罗成",
+          "value": 2
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐勣",
+          "value": 2
+        },
+        {
+          "source": "尉迟恭",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "程咬金",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "贼人来骂营",
+      "characters": [
+        {
+          "name": "罗成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "头戴银盔明灿亮，身穿铠甲似秋霜。跨下战马无人挡，掌中银枪世无双。",
+          "rating": 0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.488,
+        "conflict": 1.0,
+        "sentiment": 0.37
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "贼人来骂营",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "披抡锏盖世无双，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "水磨鞭保定唐王。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "且听探马一报。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "探子",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "报。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "李世民",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "将众英豪，杀气冲霄，军威浩，地动山摇，要把世充扫。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "罗成",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：6位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.773,
+        "conflict": 1.0,
+        "sentiment": 0.047
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "贼人来骂营",
+      "characters": [
+        {
+          "name": "马三保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "俺，马三保。奉了二主将令，顺说罗成降唐。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四蓝龙套",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "吓。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "罗成",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "马三保，前番饶尔不死，你又来则甚？",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：3位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.384,
+        "conflict": 0.0,
+        "sentiment": -0.01
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "贼进得唐营",
+      "characters": [
+        {
+          "name": "探子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "报。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "再探。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "李世民",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吓，先生，马三保败阵，命何将出马？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "吓！",
+          "rating": 0.2,
+          "role": "净"
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "哪里去？",
+          "rating": 0.429,
+          "role": ""
+        },
+        {
+          "name": "罗成",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：6位角色，71行",
+      "firstLine": 1,
+      "lastLine": 71,
+      "numLines": 71,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.88,
+        "conflict": 0.278,
+        "sentiment": 0.259
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "贼人来骂营",
+      "characters": [
+        {
+          "name": "尉迟恭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "跨下一匹乌骓马，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "罗成",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "正在后帐习兵文，",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第五场：2位角色，51行",
+      "firstLine": 1,
+      "lastLine": 51,
+      "numLines": 51,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.679,
+        "conflict": 0.4,
+        "sentiment": 0.342
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "贼人来骂营",
+      "characters": [
+        {
+          "name": "李世民",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "为江山跑坏了白龙马，",
+          "rating": 0.667,
+          "role": "小生"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "为社稷累坏保驾臣。",
+          "rating": 0.667,
+          "role": "老生"
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "越杀越勇罗士信，",
+          "rating": -0.6,
+          "role": "净"
+        },
+        {
+          "name": "罗成",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "看枪！",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第六场：4位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.839,
+        "conflict": 0.748,
+        "sentiment": 0.429
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "贼人来骂营",
+      "characters": [
+        {
+          "name": "罗成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "呔，黑贼，你敢是怯战？",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "娃娃，非是某家怯战，我国元帅鸣金收兵，你我明日再战。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "贤弟等候了！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第七场：3位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.744,
+        "conflict": 0.952,
+        "sentiment": 0.455
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "贼人来骂营",
+      "characters": [
+        {
+          "name": "尉迟恭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "走吓！",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "咳，老黑，你耀武扬威的，敢是胜了吗？",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "李世民",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "一见尉迟败了阵，",
+          "rating": -0.2,
+          "role": "小生"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "哎呀，主公吓！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "罗成",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "来在唐营下能行，",
+          "rating": 0.2,
+          "role": "小生"
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "吓，表弟！",
+          "rating": 0.714,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：6位角色，206行",
+      "firstLine": 1,
+      "lastLine": 206,
+      "numLines": 206,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.134,
+        "sentiment": 0.23
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "罗成",
+      "short": "罗成",
+      "key": "罗成",
+      "quote": "罗成 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "尉迟恭",
+      "short": "尉迟",
+      "key": "尉迟恭",
+      "quote": "尉迟恭 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "徐勣",
+      "short": "徐勣",
+      "key": "徐勣",
+      "quote": "徐勣 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李世民",
+      "short": "李世",
+      "key": "李世民",
+      "quote": "李世民 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "程咬金",
+      "short": "程咬",
+      "key": "程咬金",
+      "quote": "程咬金 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四蓝龙套",
+      "short": "四蓝",
+      "key": "四蓝龙套",
+      "quote": "四蓝龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马三保",
+      "short": "马三",
+      "key": "马三保",
+      "quote": "马三保 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "秦琼",
+      "short": "秦琼",
+      "key": "秦琼",
+      "quote": "秦琼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "贼人来骂营",
+      "key": "贼人来骂营",
+      "quote": "场景发生在贼人来骂营"
+    },
+    {
+      "name": "贼进得唐营",
+      "key": "贼进得唐营",
+      "quote": "场景发生在贼进得唐营"
+    }
+  ]
+}

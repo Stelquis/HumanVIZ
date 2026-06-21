@@ -1,0 +1,533 @@
+{
+  "meta": {
+    "step": "5.6",
+    "generated_at": "2026-06-06T16:51:05.218262",
+    "description": "阵营分裂检测结果与语义碎片化分析",
+    "detection_rules": {
+      "primary": "semantic_graph: components>=3 & LCR<0.7 & cross-comp adversarial edges concentrated between 2 components",
+      "secondary": "semantic_graph: components>=4 & LCR<0.5 & any cross-comp adversarial"
+    },
+    "key_finding": {
+      "camp_split_cases": 0,
+      "cross_component_adversarial_edges": 0,
+      "explanation": "在全部1,473部剧本的semantic_graph中，敌对关系边(敌对/阵营对立/政敌/仇人)始终与同盟/从属/亲属等其他语义关系共存于同一连通分量内。这意味着：传统戏曲中的敌对角色共享社会关系网络（同属一个朝廷、军队、家族），不存在由语义关系定义的独立对立阵营。阵营对立在戏曲中表现为同群体内部的冲突，而非群体间的对抗。"
+    }
+  },
+  "summary": {
+    "total_cases": 0,
+    "by_type": {},
+    "semantic_fragmented_count": 689,
+    "semantic_fragmented_by_type": {
+      "侠义戏": 68,
+      "公案戏": 52,
+      "历史戏": 415,
+      "家庭戏": 84,
+      "技法展示戏": 3,
+      "爱情戏": 35,
+      "神话戏": 32
+    }
+  },
+  "cases": [],
+  "semantic_fragmented_samples": [
+    {
+      "entity_id": 7231,
+      "title": "琵琶行",
+      "play_type": "历史戏",
+      "full_cc": 38,
+      "sem_cc": 92,
+      "sem_lcr": 0.098039,
+      "fragmentation_index": 0.458282,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6824,
+      "title": "双挂印",
+      "play_type": "历史戏",
+      "full_cc": 30,
+      "sem_cc": 64,
+      "sem_lcr": 0.148649,
+      "fragmentation_index": 0.497838,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6208,
+      "title": "天宝图",
+      "play_type": "公案戏",
+      "full_cc": 18,
+      "sem_cc": 63,
+      "sem_lcr": 0.09589,
+      "fragmentation_index": 0.343037,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7091,
+      "title": "文天祥",
+      "play_type": "历史戏",
+      "full_cc": 19,
+      "sem_cc": 63,
+      "sem_lcr": 0.2,
+      "fragmentation_index": 0.33648,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6714,
+      "title": "铁丘坟",
+      "play_type": "历史戏",
+      "full_cc": 28,
+      "sem_cc": 59,
+      "sem_lcr": 0.126761,
+      "fragmentation_index": 0.495901,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6886,
+      "title": "窃兵符",
+      "play_type": "历史戏",
+      "full_cc": 18,
+      "sem_cc": 58,
+      "sem_lcr": 0.081081,
+      "fragmentation_index": 0.340315,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6894,
+      "title": "玉麟图",
+      "play_type": "侠义戏",
+      "full_cc": 14,
+      "sem_cc": 58,
+      "sem_lcr": 0.105263,
+      "fragmentation_index": 0.28797,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7230,
+      "title": "江汉渔歌",
+      "play_type": "历史戏",
+      "full_cc": 22,
+      "sem_cc": 58,
+      "sem_lcr": 0.210526,
+      "fragmentation_index": 0.382656,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6299,
+      "title": "狸猫换太子",
+      "play_type": "公案戏",
+      "full_cc": 12,
+      "sem_cc": 54,
+      "sem_lcr": 0.214286,
+      "fragmentation_index": 0.274643,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6197,
+      "title": "天宝图",
+      "play_type": "侠义戏",
+      "full_cc": 13,
+      "sem_cc": 50,
+      "sem_lcr": 0.169492,
+      "fragmentation_index": 0.31558,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6789,
+      "title": "介子推",
+      "play_type": "历史戏",
+      "full_cc": 10,
+      "sem_cc": 49,
+      "sem_lcr": 0.172414,
+      "fragmentation_index": 0.27,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7020,
+      "title": "香莲帕",
+      "play_type": "历史戏",
+      "full_cc": 10,
+      "sem_cc": 49,
+      "sem_lcr": 0.180328,
+      "fragmentation_index": 0.266148,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7240,
+      "title": "大闹天宫",
+      "play_type": "神话戏",
+      "full_cc": 5,
+      "sem_cc": 45,
+      "sem_lcr": 0.172414,
+      "fragmentation_index": 0.182931,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6822,
+      "title": "独占花魁",
+      "play_type": "爱情戏",
+      "full_cc": 13,
+      "sem_cc": 44,
+      "sem_lcr": 0.241379,
+      "fragmentation_index": 0.353316,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6578,
+      "title": "乾坤福寿镜",
+      "play_type": "家庭戏",
+      "full_cc": 14,
+      "sem_cc": 43,
+      "sem_lcr": 0.207547,
+      "fragmentation_index": 0.356873,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6761,
+      "title": "风流双枪将",
+      "play_type": "历史戏",
+      "full_cc": 7,
+      "sem_cc": 43,
+      "sem_lcr": 0.218182,
+      "fragmentation_index": 0.225844,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6875,
+      "title": "走麦城（一名：麦城升天）",
+      "play_type": "历史戏",
+      "full_cc": 9,
+      "sem_cc": 43,
+      "sem_lcr": 0.196429,
+      "fragmentation_index": 0.259226,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6227,
+      "title": "宏碧缘",
+      "play_type": "侠义戏",
+      "full_cc": 6,
+      "sem_cc": 42,
+      "sem_lcr": 0.125,
+      "fragmentation_index": 0.205357,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6705,
+      "title": "好鹤失政",
+      "play_type": "历史戏",
+      "full_cc": 15,
+      "sem_cc": 41,
+      "sem_lcr": 0.215686,
+      "fragmentation_index": 0.380196,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6760,
+      "title": "持轮战",
+      "play_type": "历史戏",
+      "full_cc": 23,
+      "sem_cc": 41,
+      "sem_lcr": 0.18,
+      "fragmentation_index": 0.522478,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6724,
+      "title": "打銮驾",
+      "play_type": "公案戏",
+      "full_cc": 16,
+      "sem_cc": 40,
+      "sem_lcr": 0.390625,
+      "fragmentation_index": 0.345313,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6672,
+      "title": "秋生造律",
+      "play_type": "历史戏",
+      "full_cc": 13,
+      "sem_cc": 39,
+      "sem_lcr": 0.203704,
+      "fragmentation_index": 0.354701,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6786,
+      "title": "小鳌山",
+      "play_type": "历史戏",
+      "full_cc": 18,
+      "sem_cc": 39,
+      "sem_lcr": 0.321429,
+      "fragmentation_index": 0.404166,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7017,
+      "title": "五彩舆",
+      "play_type": "公案戏",
+      "full_cc": 12,
+      "sem_cc": 39,
+      "sem_lcr": 0.173913,
+      "fragmentation_index": 0.346195,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6291,
+      "title": "狸猫换太子",
+      "play_type": "公案戏",
+      "full_cc": 13,
+      "sem_cc": 38,
+      "sem_lcr": 0.298246,
+      "fragmentation_index": 0.324291,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6648,
+      "title": "雁门关",
+      "play_type": "历史戏",
+      "full_cc": 6,
+      "sem_cc": 38,
+      "sem_lcr": 0.24,
+      "fragmentation_index": 0.215,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7097,
+      "title": "明末遗恨",
+      "play_type": "历史戏",
+      "full_cc": 7,
+      "sem_cc": 38,
+      "sem_lcr": 0.288462,
+      "fragmentation_index": 0.231456,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6218,
+      "title": "宏碧缘",
+      "play_type": "侠义戏",
+      "full_cc": 9,
+      "sem_cc": 37,
+      "sem_lcr": 0.183673,
+      "fragmentation_index": 0.277211,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6228,
+      "title": "宏碧缘",
+      "play_type": "侠义戏",
+      "full_cc": 3,
+      "sem_cc": 37,
+      "sem_lcr": 0.28,
+      "fragmentation_index": 0.139,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6712,
+      "title": "闹花灯",
+      "play_type": "历史戏",
+      "full_cc": 12,
+      "sem_cc": 37,
+      "sem_lcr": 0.345455,
+      "fragmentation_index": 0.312046,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6788,
+      "title": "春秋笔",
+      "play_type": "历史戏",
+      "full_cc": 14,
+      "sem_cc": 37,
+      "sem_lcr": 0.28,
+      "fragmentation_index": 0.365286,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6263,
+      "title": "九阳钟",
+      "play_type": "历史戏",
+      "full_cc": 12,
+      "sem_cc": 36,
+      "sem_lcr": 0.2,
+      "fragmentation_index": 0.3295,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6942,
+      "title": "武松",
+      "play_type": "侠义戏",
+      "full_cc": 8,
+      "sem_cc": 36,
+      "sem_lcr": 0.339623,
+      "fragmentation_index": 0.248231,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7361,
+      "title": "海瑞上疏",
+      "play_type": "历史戏",
+      "full_cc": 4,
+      "sem_cc": 36,
+      "sem_lcr": 0.186047,
+      "fragmentation_index": 0.177616,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6219,
+      "title": "宏碧缘",
+      "play_type": "侠义戏",
+      "full_cc": 5,
+      "sem_cc": 35,
+      "sem_lcr": 0.313725,
+      "fragmentation_index": 0.177255,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6555,
+      "title": "合欢图（一名：应天球）",
+      "play_type": "历史戏",
+      "full_cc": 15,
+      "sem_cc": 35,
+      "sem_lcr": 0.234043,
+      "fragmentation_index": 0.39851,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6805,
+      "title": "孟尝君",
+      "play_type": "历史戏",
+      "full_cc": 9,
+      "sem_cc": 35,
+      "sem_lcr": 0.23913,
+      "fragmentation_index": 0.286594,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6634,
+      "title": "潞安州",
+      "play_type": "历史戏",
+      "full_cc": 10,
+      "sem_cc": 34,
+      "sem_lcr": 0.277778,
+      "fragmentation_index": 0.281296,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6683,
+      "title": "投笔封侯",
+      "play_type": "历史戏",
+      "full_cc": 19,
+      "sem_cc": 33,
+      "sem_lcr": 0.384615,
+      "fragmentation_index": 0.441144,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6713,
+      "title": "九焰山",
+      "play_type": "历史戏",
+      "full_cc": 15,
+      "sem_cc": 33,
+      "sem_lcr": 0.3125,
+      "fragmentation_index": 0.393125,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7104,
+      "title": "四进士",
+      "play_type": "公案戏",
+      "full_cc": 19,
+      "sem_cc": 33,
+      "sem_lcr": 0.319149,
+      "fragmentation_index": 0.474636,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7105,
+      "title": "胭脂宝褶",
+      "play_type": "公案戏",
+      "full_cc": 21,
+      "sem_cc": 33,
+      "sem_lcr": 0.282609,
+      "fragmentation_index": 0.517857,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6328,
+      "title": "贩马记（一名：褒城狱）",
+      "play_type": "家庭戏",
+      "full_cc": 9,
+      "sem_cc": 32,
+      "sem_lcr": 0.27907,
+      "fragmentation_index": 0.297287,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6375,
+      "title": "汉忠烈",
+      "play_type": "公案戏",
+      "full_cc": 15,
+      "sem_cc": 32,
+      "sem_lcr": 0.195652,
+      "fragmentation_index": 0.40413,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7023,
+      "title": "龙凤帕",
+      "play_type": "历史戏",
+      "full_cc": 15,
+      "sem_cc": 32,
+      "sem_lcr": 0.291667,
+      "fragmentation_index": 0.393125,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7084,
+      "title": "虎符救赵",
+      "play_type": "历史戏",
+      "full_cc": 12,
+      "sem_cc": 32,
+      "sem_lcr": 0.282609,
+      "fragmentation_index": 0.346195,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7209,
+      "title": "渔夫恨",
+      "play_type": "侠义戏",
+      "full_cc": 5,
+      "sem_cc": 32,
+      "sem_lcr": 0.261905,
+      "fragmentation_index": 0.206905,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 7237,
+      "title": "满江红",
+      "play_type": "历史戏",
+      "full_cc": 16,
+      "sem_cc": 32,
+      "sem_lcr": 0.38,
+      "fragmentation_index": 0.400625,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6063,
+      "title": "莲花湖",
+      "play_type": "侠义戏",
+      "full_cc": 4,
+      "sem_cc": 31,
+      "sem_lcr": 0.138889,
+      "fragmentation_index": 0.190278,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    },
+    {
+      "entity_id": 6144,
+      "title": "风波亭（一名：精忠传）",
+      "play_type": "历史戏",
+      "full_cc": 8,
+      "sem_cc": 31,
+      "sem_lcr": 0.326531,
+      "fragmentation_index": 0.248214,
+      "gap_interpretation": "语义关系显著碎片化 — 大量节点仅通过同场共现关联，无明确语义关系"
+    }
+  ]
+}

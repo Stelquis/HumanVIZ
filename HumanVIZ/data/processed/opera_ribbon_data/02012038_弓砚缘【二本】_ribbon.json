@@ -1,0 +1,330 @@
+{
+  "title": "弓砚缘",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02012038_弓砚缘【二本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "淮阳县知县安学海，因不肯行贿，致被总漕借口黄河决口，罚款六千两，否则立即拿问。安学海乃令家人华\n忠送信其子安骥，变卖在京财产。华忠行至中途，遇其妹丈褚一官，始知其妹已死，褚一官又赘入邓九公家\n为婿。褚一官并借与路费，继续赶路。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 91,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "昼夜奔京城": 1
+      },
+      "characters": {
+        "佟夫人": 1,
+        "丫鬟": 1,
+        "安学海": 1,
+        "华忠": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "安学海",
+          "value": 1
+        },
+        {
+          "source": "佟夫人",
+          "target": "安学海",
+          "value": 1
+        },
+        {
+          "source": "华忠",
+          "target": "安学海",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "佟夫人",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "华忠",
+          "value": 1
+        },
+        {
+          "source": "佟夫人",
+          "target": "华忠",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.176,
+      "locations": {
+        "昼夜奔京城": 1
+      },
+      "characters": {
+        "华忠": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.147,
+      "locations": {
+        "昼夜奔京城": 1
+      },
+      "characters": {
+        "褚一官": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 34,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "昼夜奔京城": 1
+      },
+      "characters": {
+        "华忠": 1,
+        "褚一官": 1
+      },
+      "links": [
+        {
+          "source": "华忠",
+          "target": "褚一官",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "昼夜奔京城",
+      "characters": [
+        {
+          "name": "安学海",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "身受皇恩，为县令，秉正忠心。",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "夫人出堂。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "佟夫人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "夫受皇家禄，妻沾雨露恩。",
+          "rating": 0.2,
+          "role": "旦"
+        },
+        {
+          "name": "华忠",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "走哇！",
+          "rating": -0.2,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：4位角色，91行",
+      "firstLine": 1,
+      "lastLine": 91,
+      "numLines": 91,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.462,
+        "sentiment": -0.006
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "昼夜奔京城",
+      "characters": [
+        {
+          "name": "华忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "迈开大步往前行，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.54,
+        "conflict": 0.0,
+        "sentiment": 0.92
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "昼夜奔京城",
+      "characters": [
+        {
+          "name": "褚一官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "奉了岳父命，四路谢宾朋。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.133,
+        "conflict": 0.0,
+        "sentiment": 0.787
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "昼夜奔京城",
+      "characters": [
+        {
+          "name": "华忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "早行晚宿奔途程，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "褚一官",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "原来是舅兄。久违了。",
+          "rating": -0.5,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：2位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.625,
+        "conflict": 0.779,
+        "sentiment": 0.148
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "安学海",
+      "short": "安学",
+      "key": "安学海",
+      "quote": "安学海 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "华忠",
+      "short": "华忠",
+      "key": "华忠",
+      "quote": "华忠 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "佟夫人",
+      "short": "佟夫",
+      "key": "佟夫人",
+      "quote": "佟夫人 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "褚一官",
+      "short": "褚一",
+      "key": "褚一官",
+      "quote": "褚一官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "昼夜奔京城",
+      "key": "昼夜奔京城",
+      "quote": "场景发生在昼夜奔京城"
+    }
+  ]
+}

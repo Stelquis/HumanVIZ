@@ -1,0 +1,221 @@
+{
+  "title": "义侠记·打虎",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70901105_义侠记·打虎.json",
+  "source_folder": "70901000",
+  "plot_summary": "武松酒醉后，在景阳岗上只身打死猛虎。本折刻画了武松勇敢顽强的英雄性格。",
+  "performance_notes": "《打虎》原名《除凶》，即《义侠记》第四折。《义侠记》明沈璟撰，共三十六折。取材于《水浒传》好汉\n武松的故事，以武松“义”而“侠”得名。全剧从景阳岗打虎开始至梁山招安结束，并添有武松之妻崔氏同\n母亲寻访武松，路遇孙二娘等情节。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 215,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "武松": 1,
+        "酒保": 1,
+        "众猎户": 1,
+        "四猎户": 1,
+        "猎户": 1
+      },
+      "links": [
+        {
+          "source": "四猎户",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "四猎户",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "众猎户",
+          "target": "四猎户",
+          "value": 1
+        },
+        {
+          "source": "四猎户",
+          "target": "猎户",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "众猎户",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "猎户",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "众猎户",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "猎户",
+          "value": 1
+        },
+        {
+          "source": "众猎户",
+          "target": "猎户",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "四猎户",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "大家要抖擞精神，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "酒保",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "隔壁三家醉，开坛十里香。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "武松",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "道旁车马日缤纷，行路悠悠何足云。未知肝胆向谁是，今人却忆平原君。",
+          "rating": -0.143,
+          "role": "武生"
+        },
+        {
+          "name": "众猎户",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "猎户",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "大家要抖擞精神，",
+          "rating": 0.5,
+          "role": ""
+        }
+      ],
+      "summary": "段落1：5位角色，215行",
+      "firstLine": 1,
+      "lastLine": 215,
+      "numLines": 215,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.211,
+        "sentiment": 0.167
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "武松",
+      "short": "武松",
+      "key": "武松",
+      "quote": "武松 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "酒保",
+      "short": "酒保",
+      "key": "酒保",
+      "quote": "酒保 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "众猎户",
+      "short": "众猎",
+      "key": "众猎户",
+      "quote": "众猎户 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四猎户",
+      "short": "四猎",
+      "key": "四猎户",
+      "quote": "四猎户 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "猎户",
+      "short": "猎户",
+      "key": "猎户",
+      "quote": "猎户 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

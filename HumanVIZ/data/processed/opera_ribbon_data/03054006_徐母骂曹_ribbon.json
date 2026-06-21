@@ -1,0 +1,505 @@
+{
+  "title": "徐母骂曹",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 8,
+  "num_locations": 2,
+  "source_file": "03054006_徐母骂曹.json",
+  "source_folder": "03000000",
+  "plot_summary": "曹仁败归许昌，曹操知徐庶之谋，乃用程昱计，诓来徐母，并令修书招徐庶。徐母大怒，痛骂之，且以砚击\n曹操。曹操怒欲斩，经程昱劝免，囚居别室。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 82,
+      "summary": "第二场；第三场；第四场",
+      "conflict": 0.313,
+      "importance": 0.444,
+      "locations": {
+        " 闷坐草堂": 3
+      },
+      "characters": {
+        "曹用": 1,
+        "邻人": 1,
+        "徐母": 1,
+        "四文堂": 1
+      },
+      "links": [
+        {
+          "source": "四文堂",
+          "target": "曹用",
+          "value": 2
+        },
+        {
+          "source": "徐母",
+          "target": "曹用",
+          "value": 2
+        },
+        {
+          "source": "四文堂",
+          "target": "徐母",
+          "value": 2
+        },
+        {
+          "source": "曹用",
+          "target": "邻人",
+          "value": 1
+        },
+        {
+          "source": "徐母",
+          "target": "邻人",
+          "value": 1
+        },
+        {
+          "source": "四文堂",
+          "target": "邻人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 287,
+      "summary": "第五场；第六场",
+      "conflict": 0.095,
+      "importance": 1.0,
+      "locations": {
+        "太太赴京堂": 1,
+        " 闷坐草堂": 1
+      },
+      "characters": {
+        "曹用": 1,
+        "程昱": 1,
+        "曹仁": 1,
+        "四武士": 1,
+        "徐母": 1,
+        "曹操": 1
+      },
+      "links": [
+        {
+          "source": "徐母",
+          "target": "曹用",
+          "value": 2
+        },
+        {
+          "source": "曹操",
+          "target": "曹用",
+          "value": 1
+        },
+        {
+          "source": "曹仁",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "徐母",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "四武士",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "曹仁",
+          "target": "曹用",
+          "value": 1
+        },
+        {
+          "source": "四武士",
+          "target": "曹用",
+          "value": 1
+        },
+        {
+          "source": "曹用",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "徐母",
+          "target": "曹仁",
+          "value": 1
+        },
+        {
+          "source": "四武士",
+          "target": "曹仁",
+          "value": 1
+        },
+        {
+          "source": "曹仁",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "四武士",
+          "target": "徐母",
+          "value": 1
+        },
+        {
+          "source": "徐母",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "四武士",
+          "target": "程昱",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第二场",
+      "location": " 闷坐草堂",
+      "characters": [
+        {
+          "name": "曹用",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "俺，曹用。奉了丞相之命，去往颍州诓请徐母。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四文堂",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第二场：3位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.446,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第三场",
+      "location": " 闷坐草堂",
+      "characters": [
+        {
+          "name": "徐母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "闷坐草堂，自凄凉，好不惨伤！",
+          "rating": -0.455,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第三场：1位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.534,
+        "conflict": 1.0,
+        "sentiment": -0.063
+      }
+    },
+    {
+      "number": 3,
+      "name": "第四场",
+      "location": " 闷坐草堂",
+      "characters": [
+        {
+          "name": "曹用",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "丞相差我颍州往，",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "邻人",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐母",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "门外有人把话讲，",
+          "rating": 0.333,
+          "role": "老旦"
+        },
+        {
+          "name": "四文堂",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "参见徐老太太！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，63行",
+      "firstLine": 1,
+      "lastLine": 63,
+      "numLines": 63,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.587,
+        "conflict": 0.263,
+        "sentiment": 0.25
+      }
+    },
+    {
+      "number": 4,
+      "name": "第五场",
+      "location": "太太赴京堂",
+      "characters": [
+        {
+          "name": "曹用",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "门前备下车一辆，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐母",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来了！",
+          "rating": 1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第五场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.434,
+        "conflict": 0.0,
+        "sentiment": 0.226
+      }
+    },
+    {
+      "number": 5,
+      "name": "第六场",
+      "location": " 闷坐草堂",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "汉业衰微天地荡，",
+          "rating": 0.467,
+          "role": "净"
+        },
+        {
+          "name": "曹用",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "相府门外住车辆，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曹仁",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "得令！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "徐母",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "来在府门下车辆，",
+          "rating": 0.412,
+          "role": "老旦"
+        },
+        {
+          "name": "四武士",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "程昱",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "刀下留人！",
+          "rating": 0.25,
+          "role": "老生"
+        }
+      ],
+      "summary": "第六场：6位角色，273行",
+      "firstLine": 1,
+      "lastLine": 273,
+      "numLines": 273,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.235,
+        "sentiment": 0.321
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐母",
+      "short": "徐母",
+      "key": "徐母",
+      "quote": "徐母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "曹操",
+      "short": "曹操",
+      "key": "曹操",
+      "quote": "曹操 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "程昱",
+      "short": "程昱",
+      "key": "程昱",
+      "quote": "程昱 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹用",
+      "short": "曹用",
+      "key": "曹用",
+      "quote": "曹用 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "曹仁",
+      "short": "曹仁",
+      "key": "曹仁",
+      "quote": "曹仁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四武士",
+      "short": "四武",
+      "key": "四武士",
+      "quote": "四武士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四文堂",
+      "short": "四文",
+      "key": "四文堂",
+      "quote": "四文堂 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "邻人",
+      "short": "邻人",
+      "key": "邻人",
+      "quote": "邻人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 闷坐草堂",
+      "key": " 闷坐草堂",
+      "quote": "场景发生在 闷坐草堂"
+    },
+    {
+      "name": "太太赴京堂",
+      "key": "太太赴京堂",
+      "quote": "场景发生在太太赴京堂"
+    }
+  ]
+}

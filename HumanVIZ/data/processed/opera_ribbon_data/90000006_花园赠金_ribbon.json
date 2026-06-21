@@ -1,0 +1,142 @@
+{
+  "title": "花园赠金",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "90000006_花园赠金.json",
+  "source_folder": "90000000",
+  "plot_summary": "王允三女王宝钏游园时见门外有一乞丐，由怜而问，知是薛平贵，并嘉许他的才智。以银和米相赠，约于二\n月二在彩楼前等候。",
+  "performance_notes": "后即《彩楼配》，亦可连演。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 120,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "膝下慰高堂": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "薛平贵": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "薛平贵",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第二场",
+      "location": "膝下慰高堂",
+      "characters": [
+        {
+          "name": "王宝钏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "燕语莺啼，惊醒了，春梦迷离！",
+          "rating": 0.2,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "是啦！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "薛平贵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "肚中饥饿身寒冷，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，120行",
+      "firstLine": 1,
+      "lastLine": 120,
+      "numLines": 120,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.233,
+        "sentiment": 0.297
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "薛平贵",
+      "short": "薛平",
+      "key": "薛平贵",
+      "quote": "薛平贵 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "膝下慰高堂",
+      "key": "膝下慰高堂",
+      "quote": "场景发生在膝下慰高堂"
+    }
+  ]
+}

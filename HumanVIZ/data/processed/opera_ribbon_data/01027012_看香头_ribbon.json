@@ -1,0 +1,297 @@
+{
+  "title": "看香头",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01027012_看香头.json",
+  "source_folder": "01000000",
+  "plot_summary": "剧本所述，扬州有倪员外者，产业丰富。只生一子，方在志学之年，珍爱殊甚。忽然得病，嘱家人请一老巫\n严媪到家，行看香头之法，以代医生之诊治。家人奉命前去，立邀严媪同行，路途之间，彼此谈说家常以慰\n寂寞，而严媪非常乖觉，早将倪子之年岁情性及起病之时日病后之状况，尽悉无遗。至严家行使其术，随口\n说出，无不吻合。倪老夫妇，惊为天仙降临，竭诚供奉，具依严媪吩咐，一一给予焉。",
+  "performance_notes": "古人神道设杀，盖为行政上之附属品，维系人心者也。后世奸佞百出，还变本加厉，藉鬼神以吓人氏，并藉\n鬼神以欺诈人民，又藉鬼神以要挟人民，种种伎俩，不一而足。江南风俗，迷信较他省为尤甚。师婆师娘，\n随处可招致，类皆杰黠妇女，练习此业，恃为衣食之源流。其骗财之法，专门探听来人口气，迷信者愚夫愚\n妇，恒居多数，未有不入其彀中。且生财之道又能因人而施，富家则多取，贫家则少取，总以借重于鬼神，\n使人乐输，毫无硬敲竹杠之嫌，法诚善矣。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 10,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.165,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "严氏": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.297,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "倪安人": 1,
+        "跟役": 1,
+        "倪员外": 1
+      },
+      "links": [
+        {
+          "source": "倪员外",
+          "target": "倪安人",
+          "value": 1
+        },
+        {
+          "source": "倪员外",
+          "target": "跟役",
+          "value": 1
+        },
+        {
+          "source": "倪安人",
+          "target": "跟役",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 154,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "倪安人": 1,
+        "倪员外": 1,
+        "跟役": 1,
+        "严氏": 1
+      },
+      "links": [
+        {
+          "source": "严氏",
+          "target": "跟役",
+          "value": 1
+        },
+        {
+          "source": "严氏",
+          "target": "倪员外",
+          "value": 1
+        },
+        {
+          "source": "严氏",
+          "target": "倪安人",
+          "value": 1
+        },
+        {
+          "source": "倪员外",
+          "target": "跟役",
+          "value": 1
+        },
+        {
+          "source": "倪安人",
+          "target": "跟役",
+          "value": 1
+        },
+        {
+          "source": "倪员外",
+          "target": "倪安人",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "严氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "一生为名利，终日走奔波。",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：1位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.549,
+        "conflict": 1.0,
+        "sentiment": -0.4
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "倪员外",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "家财万贯称富豪，",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "倪安人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "夫妻终日乐逍遥。",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "跟役",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启奏老爷、太太：我们这扬州城内，有一位妇人。你顶着神仙，为人看香头治",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.656,
+        "conflict": 0.909,
+        "sentiment": 0.767
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "严氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "穿过大街走小巷，",
+          "rating": 0.167,
+          "role": "旦"
+        },
+        {
+          "name": "跟役",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "严神仙来了？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "倪员外",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "叫家人请师婆不见回转，",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "倪安人",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "好叫我老夫妻挂在心间。",
+          "rating": 1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第三场：4位角色，154行",
+      "firstLine": 1,
+      "lastLine": 154,
+      "numLines": 154,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.155,
+        "sentiment": 0.342
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "严氏",
+      "short": "严氏",
+      "key": "严氏",
+      "quote": "严氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "倪员外",
+      "short": "倪员",
+      "key": "倪员外",
+      "quote": "倪员外 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "倪安人",
+      "short": "倪安",
+      "key": "倪安人",
+      "quote": "倪安人 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "跟役",
+      "short": "跟役",
+      "key": "跟役",
+      "quote": "跟役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

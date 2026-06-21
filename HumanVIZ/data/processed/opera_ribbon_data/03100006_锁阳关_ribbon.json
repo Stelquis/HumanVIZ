@@ -1,0 +1,841 @@
+{
+  "title": "锁阳关",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 8,
+  "num_characters": 14,
+  "num_locations": 2,
+  "source_file": "03100006_锁阳关.json",
+  "source_folder": "03000000",
+  "plot_summary": "薛仁贵保驾西征，被困锁阳关。其子薛丁山，前于汾河湾射雁时，被父误伤，为王敖老祖救去，学得全身武\n艺，今已长成，又值父难，遂奉师命下山揭榜，挂帅征西。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 67,
+      "summary": "第一场；第二场",
+      "conflict": 0.3,
+      "importance": 0.937,
+      "locations": {
+        "被困锁阳城": 1,
+        "诈出番营": 1
+      },
+      "characters": {
+        "薛丁山": 1,
+        "王敖": 1,
+        "童儿甲": 1,
+        "程咬金": 1
+      },
+      "links": [
+        {
+          "source": "王敖",
+          "target": "童儿甲",
+          "value": 1
+        },
+        {
+          "source": "王敖",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "童儿甲",
+          "target": "薛丁山",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 111,
+      "summary": "第三场；第四场",
+      "conflict": 0.294,
+      "importance": 1.0,
+      "locations": {
+        "诈出番营": 2
+      },
+      "characters": {
+        "薛金莲": 1,
+        "薛丁山": 1,
+        "薛青": 1,
+        "柳迎春": 1
+      },
+      "links": [
+        {
+          "source": "柳迎春",
+          "target": "薛金莲",
+          "value": 1
+        },
+        {
+          "source": "柳迎春",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "柳迎春",
+          "target": "薛青",
+          "value": 1
+        },
+        {
+          "source": "薛丁山",
+          "target": "薛金莲",
+          "value": 1
+        },
+        {
+          "source": "薛金莲",
+          "target": "薛青",
+          "value": 1
+        },
+        {
+          "source": "薛丁山",
+          "target": "薛青",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 33,
+      "summary": "第五场；第六场",
+      "conflict": 0.21,
+      "importance": 0.462,
+      "locations": {
+        "诈出番营": 2
+      },
+      "characters": {
+        "薛金莲": 1,
+        "薛青": 1,
+        "程咬金": 1,
+        "薛丁山": 1,
+        "柳迎春": 1,
+        "李治": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "大太监",
+          "target": "李治",
+          "value": 1
+        },
+        {
+          "source": "李治",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "薛丁山",
+          "target": "薛青",
+          "value": 1
+        },
+        {
+          "source": "薛丁山",
+          "target": "薛金莲",
+          "value": 1
+        },
+        {
+          "source": "柳迎春",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "薛金莲",
+          "target": "薛青",
+          "value": 1
+        },
+        {
+          "source": "柳迎春",
+          "target": "薛青",
+          "value": 1
+        },
+        {
+          "source": "柳迎春",
+          "target": "薛金莲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 75,
+      "summary": "第七场；第八场",
+      "conflict": 0.307,
+      "importance": 1.0,
+      "locations": {
+        "诈出番营": 2
+      },
+      "characters": {
+        "中军": 1,
+        "程咬金": 1,
+        "薛丁山": 1,
+        "罗通": 1,
+        "四上手": 1,
+        "四龙套": 1,
+        "李治": 1,
+        "尉迟青山": 1
+      },
+      "links": [
+        {
+          "source": "程咬金",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "李治",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "薛丁山",
+          "value": 2
+        },
+        {
+          "source": "四龙套",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "李治",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "李治",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "李治",
+          "value": 1
+        },
+        {
+          "source": "罗通",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "尉迟青山",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "尉迟青山",
+          "target": "罗通",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "罗通",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "罗通",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "尉迟青山",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "尉迟青山",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "四上手",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "被困锁阳城",
+      "characters": [
+        {
+          "name": "王敖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "祥云缭绕，瑞气千条。",
+          "rating": 0.778,
+          "role": ""
+        },
+        {
+          "name": "童儿甲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛丁山",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来也！",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：3位角色，49行",
+      "firstLine": 1,
+      "lastLine": 49,
+      "numLines": 49,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.564,
+        "conflict": 0.206,
+        "sentiment": 0.551
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "诈出番营",
+      "characters": [
+        {
+          "name": "程咬金",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "马来！",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：1位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.551,
+        "conflict": 0.0,
+        "sentiment": 0.251
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "诈出番营",
+      "characters": [
+        {
+          "name": "薛丁山",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "辞恩师下山林阳关路奔，",
+          "rating": 0.2,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：1位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.538,
+        "conflict": 0.0,
+        "sentiment": 0.379
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "诈出番营",
+      "characters": [
+        {
+          "name": "柳迎春",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "王爷领兵去西征，好叫我、悬挂在心。",
+          "rating": -0.077,
+          "role": "老旦"
+        },
+        {
+          "name": "薛金莲",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我爹爹征西番无有音信，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "薛丁山",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "辞别师傅回原郡，",
+          "rating": -0.25,
+          "role": "小生"
+        },
+        {
+          "name": "薛青",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，96行",
+      "firstLine": 1,
+      "lastLine": 96,
+      "numLines": 96,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.51,
+        "sentiment": 0.085
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "诈出番营",
+      "characters": [
+        {
+          "name": "李治",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "父王御驾往西番，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "大太监",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "何人击点？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "鲁国公有本启奏。",
+          "rating": 0.2,
+          "role": "丑"
+        }
+      ],
+      "summary": "第五场：3位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.48,
+        "conflict": 1.0,
+        "sentiment": 0.37
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "诈出番营",
+      "characters": [
+        {
+          "name": "薛丁山",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "薛青，府中之事，勤慎照管，救驾回京，另加赏赐。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "薛青",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛金莲",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "柳迎春",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第六场：4位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.583,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "诈出番营",
+      "characters": [
+        {
+          "name": "程咬金",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "宝童小儿真可恼，",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "薛丁山",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "师尊命我将山下，",
+          "rating": 0.5,
+          "role": "小生"
+        },
+        {
+          "name": "中军",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "呔！什么人揭榜？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李治",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "有何本奏？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：5位角色，54行",
+      "firstLine": 1,
+      "lastLine": 54,
+      "numLines": 54,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.793,
+        "conflict": 0.702,
+        "sentiment": 0.472
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "诈出番营",
+      "characters": [
+        {
+          "name": "薛丁山",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "辕门揭榜领雄兵，西番救驾建奇功！战鼓如雷天地动，旌旗招展日不明。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "罗通",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "尉迟青山",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "在！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "中军",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "在！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四上手",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：5位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.521,
+        "conflict": 0.417,
+        "sentiment": 0.779
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛丁山",
+      "short": "薛丁",
+      "key": "薛丁山",
+      "quote": "薛丁山 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "柳迎春",
+      "short": "柳迎",
+      "key": "柳迎春",
+      "quote": "柳迎春 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "程咬金",
+      "short": "程咬",
+      "key": "程咬金",
+      "quote": "程咬金 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "薛金莲",
+      "short": "薛金",
+      "key": "薛金莲",
+      "quote": "薛金莲 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王敖",
+      "short": "王敖",
+      "key": "王敖",
+      "quote": "王敖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "童儿甲",
+      "short": "童儿",
+      "key": "童儿甲",
+      "quote": "童儿甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "薛青",
+      "short": "薛青",
+      "key": "薛青",
+      "quote": "薛青 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "罗通",
+      "short": "罗通",
+      "key": "罗通",
+      "quote": "罗通 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四上手",
+      "short": "四上",
+      "key": "四上手",
+      "quote": "四上手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李治",
+      "short": "李治",
+      "key": "李治",
+      "quote": "李治 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "尉迟青山",
+      "short": "尉迟",
+      "key": "尉迟青山",
+      "quote": "尉迟青山 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "诈出番营",
+      "key": "诈出番营",
+      "quote": "场景发生在诈出番营"
+    },
+    {
+      "name": "被困锁阳城",
+      "key": "被困锁阳城",
+      "quote": "场景发生在被困锁阳城"
+    }
+  ]
+}

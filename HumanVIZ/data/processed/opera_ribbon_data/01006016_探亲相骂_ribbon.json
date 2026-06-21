@@ -1,0 +1,367 @@
+{
+  "title": "探亲相骂",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 3,
+  "source_file": "01006016_探亲相骂.json",
+  "source_folder": "01000000",
+  "plot_summary": "乡下亲家母胡妈妈背着口袋、骑了牲口到城中女婿家探望女儿野花。野花见了娘亲，便诉说一番苦处。等到\n和城里亲家母李奶奶见面以后，一村一俏，处处显出相形见绌的情形。谈吐当中，胡妈妈时被李奶奶奚落。\n后来又谈到野花傻蠢的地方，李奶奶苛求责备，胡妈妈却处处庇护。于是争执相骂，结果弄得不欢而散。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.171,
+      "locations": {
+        "他的门": 1
+      },
+      "characters": {
+        "野花": 1,
+        "胡妈妈": 1,
+        "胡老头儿": 1
+      },
+      "links": [
+        {
+          "source": "胡妈妈",
+          "target": "野花",
+          "value": 1
+        },
+        {
+          "source": "胡妈妈",
+          "target": "胡老头儿",
+          "value": 1
+        },
+        {
+          "source": "胡老头儿",
+          "target": "野花",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 37,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.352,
+      "locations": {
+        "他的门": 1
+      },
+      "characters": {
+        "邻居": 1,
+        "胡妈妈": 1,
+        "胡老头儿": 1
+      },
+      "links": [
+        {
+          "source": "胡妈妈",
+          "target": "胡老头儿",
+          "value": 1
+        },
+        {
+          "source": "胡老头儿",
+          "target": "邻居",
+          "value": 1
+        },
+        {
+          "source": "胡妈妈",
+          "target": "邻居",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 260,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "女儿门": 1
+      },
+      "characters": {
+        "李奶奶": 1,
+        "野花": 1,
+        "胡妈妈": 1,
+        "李相公": 1
+      },
+      "links": [
+        {
+          "source": "胡妈妈",
+          "target": "野花",
+          "value": 1
+        },
+        {
+          "source": "李奶奶",
+          "target": "胡妈妈",
+          "value": 1
+        },
+        {
+          "source": "李相公",
+          "target": "胡妈妈",
+          "value": 1
+        },
+        {
+          "source": "李奶奶",
+          "target": "野花",
+          "value": 1
+        },
+        {
+          "source": "李相公",
+          "target": "野花",
+          "value": 1
+        },
+        {
+          "source": "李奶奶",
+          "target": "李相公",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "他的门",
+      "characters": [
+        {
+          "name": "胡妈妈",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "农夫日夜忙，幸逢今岁得安康。",
+          "rating": 1.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "野花",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "胡老头儿",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第一场：3位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.532,
+        "conflict": 0.714,
+        "sentiment": 0.47
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "他的门",
+      "characters": [
+        {
+          "name": "胡老头儿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "老头儿今年七十也么春，",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "胡妈妈",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "上城中去探望女儿。",
+          "rating": 1.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "邻居",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "胡大妈，你打扮齐整，上哪里去？",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.623,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "女儿门",
+      "characters": [
+        {
+          "name": "胡妈妈",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一进了城来把眼也么望，",
+          "rating": 0.091,
+          "role": "彩旦"
+        },
+        {
+          "name": "野花",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来啦。是谁呀？",
+          "rating": 0.25,
+          "role": "旦"
+        },
+        {
+          "name": "李奶奶",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "众姐妹，告辞了。",
+          "rating": -0.333,
+          "role": "小旦"
+        },
+        {
+          "name": "李相公",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "家中多活计，日用斗量金。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：4位角色，260行",
+      "firstLine": 1,
+      "lastLine": 260,
+      "numLines": 260,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.807,
+        "conflict": 0.173,
+        "sentiment": 0.158
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "胡妈妈",
+      "short": "胡妈",
+      "key": "胡妈妈",
+      "quote": "胡妈妈 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李奶奶",
+      "short": "李奶",
+      "key": "李奶奶",
+      "quote": "李奶奶 — 小旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "胡老头儿",
+      "short": "胡老",
+      "key": "胡老头儿",
+      "quote": "胡老头儿 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "野花",
+      "short": "野花",
+      "key": "野花",
+      "quote": "野花 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李相公",
+      "short": "李相",
+      "key": "李相公",
+      "quote": "李相公 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "邻居",
+      "short": "邻居",
+      "key": "邻居",
+      "quote": "邻居 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "他的门",
+      "key": "他的门",
+      "quote": "场景发生在他的门"
+    },
+    {
+      "name": "女儿门",
+      "key": "女儿门",
+      "quote": "场景发生在女儿门"
+    },
+    {
+      "name": " 指望进城",
+      "key": " 指望进城",
+      "quote": "场景发生在 指望进城"
+    }
+  ]
+}

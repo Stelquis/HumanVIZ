@@ -1,0 +1,734 @@
+{
+  "title": "泗水关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 8,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "02008023_泗水关.json",
+  "source_folder": "02000000",
+  "plot_summary": "火山王杨滚，与东鲁王高行周，为结义兄弟。高行周将其子高怀德，托于杨滚。杨滚爱如己出，排行第四。\n将杨家秘法杨家枪传将于他。但因与杨滚之子杨继康、杨继铠、杨继业不睦，故杨滚又令高怀德，仍回高平，\n认姓归宗。行至中途，遇崔应龙回朝。交战之时，高怀德用杨家枪法，将崔应龙打败。崔应龙回朝之后，\n向刘主禀告，杨滚将杨家枪法，传与高怀德，有意谋反。刘主大怒，下令将杨滚斩首。经众大臣保奏，刘主\n乃令杨滚往拿高怀德。高怀德闻讯，亲自向杨滚认罪。杨滚乃令其子等追赶高怀德，每人让他一阵，以便回\n朝交旨。长子杨继康、次子杨继铠，虽均遵命。三子杨继业，却真与高怀德交战，反被高怀德刺伤。杨滚大\n怒，亲自出马。高怀德哭诉真情，杨滚逐谅解。乃令高怀德与他交战，高怀德不肯。谓父子无交战之理，杨\n滚乃令高怀德用枪强刺杨滚之胸膛。杨滚乃告高怀德，此乃杨家落地梅花点钢枪祕法，要牢牢记住，逃走去\n罢。最后赵匡胤亲来应战，亦被杨滚打败。正拟杀伤，忽然乌云遮日。杨滚知赵匡胤将来必为天子，遂下马\n归顺云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 29,
+      "summary": "第一场；第二场",
+      "conflict": 0.862,
+      "importance": 0.425,
+      "locations": {
+        "下场门": 2
+      },
+      "characters": {
+        "杨继业": 1,
+        "高怀亮": 1,
+        "杨滚": 1
+      },
+      "links": [
+        {
+          "source": "杨滚",
+          "target": "杨继业",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 68,
+      "summary": "第三场；第四场",
+      "conflict": 0.158,
+      "importance": 0.996,
+      "locations": {
+        "下场门": 2
+      },
+      "characters": {
+        "杨继业": 1,
+        "四白大铠": 1,
+        "杨继康": 1,
+        "杨继铠": 1,
+        "杨滚": 1,
+        "高怀亮": 1
+      },
+      "links": [
+        {
+          "source": "杨滚",
+          "target": "高怀亮",
+          "value": 1
+        },
+        {
+          "source": "四白大铠",
+          "target": "杨滚",
+          "value": 1
+        },
+        {
+          "source": "杨滚",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "四白大铠",
+          "target": "高怀亮",
+          "value": 1
+        },
+        {
+          "source": "杨继业",
+          "target": "高怀亮",
+          "value": 2
+        },
+        {
+          "source": "四白大铠",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "杨继康",
+          "target": "高怀亮",
+          "value": 1
+        },
+        {
+          "source": "杨继铠",
+          "target": "高怀亮",
+          "value": 1
+        },
+        {
+          "source": "杨继康",
+          "target": "杨继铠",
+          "value": 1
+        },
+        {
+          "source": "杨继业",
+          "target": "杨继康",
+          "value": 1
+        },
+        {
+          "source": "杨继业",
+          "target": "杨继铠",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 80,
+      "summary": "第五场；第六场",
+      "conflict": 0.716,
+      "importance": 1.0,
+      "locations": {
+        "下场门": 2
+      },
+      "characters": {
+        "报子": 1,
+        "高怀德": 1,
+        "杨继业": 1,
+        "赵匡胤": 1,
+        "杨滚": 1,
+        "高怀亮": 1
+      },
+      "links": [
+        {
+          "source": "杨滚",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "杨滚",
+          "target": "高怀亮",
+          "value": 2
+        },
+        {
+          "source": "杨继业",
+          "target": "高怀亮",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "杨滚",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "高怀亮",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "杨滚",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "高怀亮",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "杨滚",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "高怀亮",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 96,
+      "summary": "第七场；第八场",
+      "conflict": 0.232,
+      "importance": 1.0,
+      "locations": {
+        "下场门": 2
+      },
+      "characters": {
+        "石守能": 1,
+        "赵匡胤": 1,
+        "高怀德": 1,
+        "杨滚": 1
+      },
+      "links": [
+        {
+          "source": "杨滚",
+          "target": "石守能",
+          "value": 1
+        },
+        {
+          "source": "杨滚",
+          "target": "高怀德",
+          "value": 2
+        },
+        {
+          "source": "石守能",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "杨滚",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "高怀德",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "下场门",
+      "characters": [
+        {
+          "name": "杨继业",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "杨滚",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "盖世豪强，威风飘荡，英名望，韬略无双，气吞山河壮。",
+          "rating": 0.429,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：2位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.451,
+        "conflict": 1.0,
+        "sentiment": 0.422
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "下场门",
+      "characters": [
+        {
+          "name": "高怀亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "俺杨怀亮。奉了爹爹之命，去往高平，认姓归宗。行至中途，偶遇崔子建应龙，",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.501,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "下场门",
+      "characters": [
+        {
+          "name": "杨滚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "老夫兴大兵，四路扫烟尘。",
+          "rating": -0.143,
+          "role": "净"
+        },
+        {
+          "name": "高怀亮",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "参见爹爹！",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "四白大铠",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "三位少爷进帐。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "杨继业",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "辕角升平，想是干戈宁静。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：4位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.822,
+        "conflict": 0.331,
+        "sentiment": 0.036
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "下场门",
+      "characters": [
+        {
+          "name": "高怀亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "大哥，敢是让小弟一阵？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "杨继康",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "奉了爹爹之命，让你一阵。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨继铠",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "奉了爹爹之命，让你一阵。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "杨继业",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "奉了爹爹之命，前来与你交战。",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：4位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.477,
+        "conflict": 0.909,
+        "sentiment": 0.194
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "下场门",
+      "characters": [
+        {
+          "name": "杨滚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "眼观旌旗起，耳听好消息。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "杨继业",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哎呀，爹爹！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "高怀亮",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "爹爹！",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第五场：3位角色，52行",
+      "firstLine": 1,
+      "lastLine": 52,
+      "numLines": 52,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.72,
+        "conflict": 0.571,
+        "sentiment": 0.08
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "下场门",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "龙争虎斗，",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "高怀德",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "干戈何日罢休？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨滚",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "儿吓，这一枪儿可认得？",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "高怀亮",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "孩儿不认识。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "报子",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "报！武王七侯讨战。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：5位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.823,
+        "conflict": 0.984,
+        "sentiment": 0.796
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "下场门",
+      "characters": [
+        {
+          "name": "杨滚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "尔是何人？",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "石守能",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "俺乃石守能。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "高怀德",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "正是怀德。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：3位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.442,
+        "conflict": 0.0,
+        "sentiment": 0.386
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "下场门",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "孤王闷坐黄罗帐，",
+          "rating": -0.6,
+          "role": "红生"
+        },
+        {
+          "name": "杨滚",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "武王七侯打败仗，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "高怀德",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "老将军归降了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：3位角色，77行",
+      "firstLine": 1,
+      "lastLine": 77,
+      "numLines": 77,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.323,
+        "sentiment": 0.154
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨滚",
+      "short": "杨滚",
+      "key": "杨滚",
+      "quote": "杨滚 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "高怀亮",
+      "short": "高怀",
+      "key": "高怀亮",
+      "quote": "高怀亮 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨继业",
+      "short": "杨继",
+      "key": "杨继业",
+      "quote": "杨继业 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "高怀德",
+      "short": "高怀",
+      "key": "高怀德",
+      "quote": "高怀德 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "石守能",
+      "short": "石守",
+      "key": "石守能",
+      "quote": "石守能 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四白大铠",
+      "short": "四白",
+      "key": "四白大铠",
+      "quote": "四白大铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杨继康",
+      "short": "杨继",
+      "key": "杨继康",
+      "quote": "杨继康 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杨继铠",
+      "short": "杨继",
+      "key": "杨继铠",
+      "quote": "杨继铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "下场门",
+      "key": "下场门",
+      "quote": "场景发生在下场门"
+    }
+  ]
+}

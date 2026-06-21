@@ -1,0 +1,382 @@
+{
+  "title": "刺王僚",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 7,
+  "num_locations": 2,
+  "source_file": "01007013_刺王僚.json",
+  "source_folder": "01000000",
+  "plot_summary": "吴公子姬光既得伍员，甚相得。商议除姬僚之策。伍员遂转荐专诸可用。姬光即以千金为聘，专诸许以身报。\n后既炼成药剑名匕首，遂设宴款请姬僚，将匕首藏在鱼腹中，令专诸献馔。姬僚素知姬光有不臣心，故虽\n赴宴，防护甚周。内穿膛鳞甲以御凶器，并率禁军数百名，先行搜查一过，然后入宴。进馔之人复须赤身搜\n检。设备至此，亦云密矣。孰意杀人者不在兵、不在两厢、不在献馔人身畔，而竟在鱼腹。卒刺死姬僚，而\n专诸亦以身殉。噫天下事亦险矣，其胜防哉！",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.173,
+      "locations": {
+        "秦小府": 1
+      },
+      "characters": {
+        "姬僚": 1,
+        "四将": 1
+      },
+      "links": [
+        {
+          "source": "四将",
+          "target": "姬僚",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 95,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "秦小府": 1
+      },
+      "characters": {
+        "姬僚": 1,
+        "报子": 1,
+        "柳展熊": 1,
+        "四校尉": 1,
+        "四将": 1,
+        "姬光": 1,
+        "专诸": 1
+      },
+      "links": [
+        {
+          "source": "姬光",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "姬僚",
+          "target": "姬光",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "姬光",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "姬光",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "姬光",
+          "value": 1
+        },
+        {
+          "source": "姬光",
+          "target": "柳展熊",
+          "value": 1
+        },
+        {
+          "source": "姬僚",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "柳展熊",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "姬僚",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "姬僚",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "姬僚",
+          "value": 1
+        },
+        {
+          "source": "姬僚",
+          "target": "柳展熊",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "四将",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "柳展熊",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "专诸",
+          "target": "柳展熊",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "柳展熊",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "秦小府",
+      "characters": [
+        {
+          "name": "姬僚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "大地山河，图霸业，一统吴国。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "四将",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "齐备多时。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.478,
+        "conflict": 1.0,
+        "sentiment": -0.43
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "秦小府",
+      "characters": [
+        {
+          "name": "姬光",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "计就月中擒玉兔，安排香饵钓海鳖。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "报子",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大殿下到！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姬僚",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "御弟！",
+          "rating": -0.6,
+          "role": "净"
+        },
+        {
+          "name": "四将",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "没有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "专诸",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "来也！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "四校尉",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "呔！作什么的？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "柳展熊",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "哈哈哈！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：7位角色，95行",
+      "firstLine": 1,
+      "lastLine": 95,
+      "numLines": 95,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.552,
+        "sentiment": 0.104
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "姬僚",
+      "short": "姬僚",
+      "key": "姬僚",
+      "quote": "姬僚 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "姬光",
+      "short": "姬光",
+      "key": "姬光",
+      "quote": "姬光 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "专诸",
+      "short": "专诸",
+      "key": "专诸",
+      "quote": "专诸 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "柳展熊",
+      "short": "柳展",
+      "key": "柳展熊",
+      "quote": "柳展熊 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四校尉",
+      "short": "四校",
+      "key": "四校尉",
+      "quote": "四校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四将",
+      "short": "四将",
+      "key": "四将",
+      "quote": "四将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "秦小府",
+      "key": "秦小府",
+      "quote": "场景发生在秦小府"
+    },
+    {
+      "name": "摆驾秦小府",
+      "key": "摆驾秦小府",
+      "quote": "场景发生在摆驾秦小府"
+    }
+  ]
+}

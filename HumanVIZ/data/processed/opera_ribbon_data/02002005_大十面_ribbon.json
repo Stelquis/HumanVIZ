@@ -1,0 +1,741 @@
+{
+  "title": "大十面",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 6,
+  "num_scenes": 13,
+  "num_characters": 6,
+  "num_locations": 2,
+  "source_file": "02002005_大十面.json",
+  "source_folder": "02000000",
+  "plot_summary": "本剧系韩信在九里山，调兵遣将，摆十面埋伏大阵，捉拿项羽。项羽陷入重围，虽经魏豹掩护，相偕逃走，\n终至垓下自刎身亡。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 31,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.901,
+      "importance": 1.0,
+      "locations": {
+        "韩信上高台": 1,
+        "列着帅府": 2
+      },
+      "characters": {
+        "曹参": 1,
+        "众人": 1,
+        "韩信": 1,
+        "项羽": 1,
+        "众将": 1
+      },
+      "links": [
+        {
+          "source": "曹参",
+          "target": "韩信",
+          "value": 2
+        },
+        {
+          "source": "众将",
+          "target": "曹参",
+          "value": 1
+        },
+        {
+          "source": "曹参",
+          "target": "项羽",
+          "value": 2
+        },
+        {
+          "source": "众将",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "韩信",
+          "target": "项羽",
+          "value": 2
+        },
+        {
+          "source": "众将",
+          "target": "项羽",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "曹参",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "项羽",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 6,
+      "summary": "第4场；第5场；第6场",
+      "conflict": 0.0,
+      "importance": 0.371,
+      "locations": {
+        "列着帅府": 3
+      },
+      "characters": {
+        "韩信": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 20,
+      "summary": "第7场；第8场；第9场",
+      "conflict": 0.16,
+      "importance": 1.0,
+      "locations": {
+        "列着帅府": 3
+      },
+      "characters": {
+        "韩信": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 3,
+      "numLines": 34,
+      "summary": "第10场；第11场；第12场",
+      "conflict": 0.836,
+      "importance": 1.0,
+      "locations": {
+        "列着帅府": 3
+      },
+      "characters": {
+        "魏豹": 1,
+        "韩信": 1,
+        "项羽": 1
+      },
+      "links": [
+        {
+          "source": "韩信",
+          "target": "项羽",
+          "value": 2
+        },
+        {
+          "source": "项羽",
+          "target": "魏豹",
+          "value": 1
+        },
+        {
+          "source": "韩信",
+          "target": "魏豹",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第13场",
+      "conflict": 0.0,
+      "importance": 0.371,
+      "locations": {
+        "列着帅府": 1
+      },
+      "characters": {
+        "众将": 1,
+        "项羽": 1,
+        "韩信": 1,
+        "魏豹": 1
+      },
+      "links": [
+        {
+          "source": "众将",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "众将",
+          "target": "魏豹",
+          "value": 1
+        },
+        {
+          "source": "众将",
+          "target": "项羽",
+          "value": 1
+        },
+        {
+          "source": "韩信",
+          "target": "魏豹",
+          "value": 1
+        },
+        {
+          "source": "韩信",
+          "target": "项羽",
+          "value": 1
+        },
+        {
+          "source": "项羽",
+          "target": "魏豹",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "韩信上高台",
+      "characters": [
+        {
+          "name": "曹参",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "曹参打躬。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "韩信",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "天澹云孤，怨云愁雾，施威武，镇征夫，取胜如神助。",
+          "rating": -0.5,
+          "role": "老生"
+        },
+        {
+          "name": "众将",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吓！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "项羽",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：4位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.706,
+        "conflict": 0.0,
+        "sentiment": -0.135
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "众人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "众将打躬。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "韩信",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "全按着九天之术，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "曹参",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "项羽",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第2场：4位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.697,
+        "conflict": 0.645,
+        "sentiment": 0.766
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "第三阵艮为山，深伏隘口，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：1位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.519,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "第五阵巽为风，烟尘浩荡，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第4场：1位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.519,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "第七阵坤为地，要移花接木，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第5场：1位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.519,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "第九阵安营下寨，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第6场：1位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.519,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "上接着九天纷纷之数，",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第7场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.556,
+        "conflict": 0.0,
+        "sentiment": 0.6
+      }
+    },
+    {
+      "number": 8,
+      "name": "第8场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "好一场鏖战也！",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第8场：1位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.584,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 9,
+      "name": "第9场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "又听得动一派萧韵品奏曲，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第9场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.546,
+        "conflict": 0.0,
+        "sentiment": 0.6
+      }
+    },
+    {
+      "number": 10,
+      "name": "第10场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一个逞着雄图，九里山摆着阵图。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "项羽",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第10场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.73,
+        "conflict": 0.0,
+        "sentiment": 0.4
+      }
+    },
+    {
+      "number": 11,
+      "name": "第11场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "中军帐里梦回初，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第11场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.537,
+        "conflict": 0.0,
+        "sentiment": 0.2
+      }
+    },
+    {
+      "number": 12,
+      "name": "第12场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "项羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "杀了半天，并无问个名儿。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "魏豹",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "魏豹大将军，何须通姓名？闻俺须下马，饶恕你残生！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "韩信",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "正撞着九江王英布，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第12场：3位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.848,
+        "conflict": 1.0,
+        "sentiment": -0.436
+      }
+    },
+    {
+      "number": 13,
+      "name": "第13场",
+      "location": "列着帅府",
+      "characters": [
+        {
+          "name": "众将",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "项羽逃生！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "韩信",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "何人放走？",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "魏豹",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "项羽",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第13场：4位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.756,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "韩信",
+      "short": "韩信",
+      "key": "韩信",
+      "quote": "韩信 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "项羽",
+      "short": "项羽",
+      "key": "项羽",
+      "quote": "项羽 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "魏豹",
+      "short": "魏豹",
+      "key": "魏豹",
+      "quote": "魏豹 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "曹参",
+      "short": "曹参",
+      "key": "曹参",
+      "quote": "曹参 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众将",
+      "short": "众将",
+      "key": "众将",
+      "quote": "众将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "列着帅府",
+      "key": "列着帅府",
+      "quote": "场景发生在列着帅府"
+    },
+    {
+      "name": "韩信上高台",
+      "key": "韩信上高台",
+      "quote": "场景发生在韩信上高台"
+    }
+  ]
+}

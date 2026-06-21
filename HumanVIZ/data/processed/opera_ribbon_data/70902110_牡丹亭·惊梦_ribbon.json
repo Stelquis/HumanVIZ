@@ -1,0 +1,303 @@
+{
+  "title": "牡丹亭·惊梦",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70902110_牡丹亭·惊梦.json",
+  "source_folder": "70902000",
+  "plot_summary": "杜丽娘游园归来假寐，梦中见一秀才，两情缱绻，醒后回想梦境，犹萦思不已。",
+  "performance_notes": "《牡丹亭》传奇是明代大戏剧家汤显祖的名著，寓有个性解放的启蒙思想，影响极大，为世界文坛所推崇。\n《游园、惊梦》两折富有浪漫主义色彩，文词、曲调、舞蹈三者完美地结合在一起，成为昆曲代表作之一，\n至今仍是舞台上经常演出的剧目。俞振飞与梅兰芳先生合作次数最多，并于1960年摄制了电影。\n剧中“堆花”一段，原本用〖画眉序〗曲牌也有用〖大红袍〗的，实是“咏花”。原有花神、梦神上场，今\n已大都不用，故删。有些欠妥的曲文和有些旋律，俞振飞与梅兰芳演出时作了修改，附在末尾，以供参考。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 98,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.368,
+      "importance": 1.0,
+      "locations": {
+        "无奈高堂": 3
+      },
+      "characters": {
+        "杜母": 1,
+        "杜丽娘": 1,
+        "柳梦梅": 1
+      },
+      "links": [
+        {
+          "source": "杜丽娘",
+          "target": "柳梦梅",
+          "value": 2
+        },
+        {
+          "source": "杜丽娘",
+          "target": "杜母",
+          "value": 1
+        },
+        {
+          "source": "杜母",
+          "target": "柳梦梅",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 42,
+      "summary": "第4场；第5场",
+      "conflict": 0.408,
+      "importance": 0.6,
+      "locations": {
+        "无奈高堂": 2
+      },
+      "characters": {
+        "杜丽娘": 1,
+        "春香": 1,
+        "柳梦梅": 1
+      },
+      "links": [
+        {
+          "source": "春香",
+          "target": "杜丽娘",
+          "value": 1
+        },
+        {
+          "source": "杜丽娘",
+          "target": "柳梦梅",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "无奈高堂",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "蓦地游春转，小试宜春面。",
+          "rating": 0.333,
+          "role": "五旦"
+        },
+        {
+          "name": "柳梦梅",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "吓姐姐！小生哪一处不寻到，却在这里。恰好在花园内，折得垂柳半枝。姐姐，",
+          "rating": 1.0,
+          "role": "巾生"
+        }
+      ],
+      "summary": "第1场：2位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.702,
+        "sentiment": 0.568
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "无奈高堂",
+      "characters": [],
+      "summary": "第2场：0位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.214,
+        "conflict": 0.0,
+        "sentiment": 0.2
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "无奈高堂",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "秀才！",
+          "rating": 0.0,
+          "role": "五旦"
+        },
+        {
+          "name": "柳梦梅",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "这一霎天留人便，",
+          "rating": 0.0,
+          "role": "巾生"
+        },
+        {
+          "name": "杜母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "夫婿坐黄堂，娇娃立绣窗。怪她裙衩上，花鸟绣双双。",
+          "rating": 1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第3场：3位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.494,
+        "sentiment": 0.288
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "无奈高堂",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "娘吓！你教孩儿看书，不知哪一种书才消得我闷怀吓！",
+          "rating": 0.0,
+          "role": "五旦"
+        },
+        {
+          "name": "春香",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "花深留翠钿，茶熟带红妆。",
+          "rating": 1.0,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "第4场：2位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.713,
+        "conflict": 0.667,
+        "sentiment": 0.768
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "无奈高堂",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "是哪处曾相见？",
+          "rating": 1.0,
+          "role": "五旦"
+        },
+        {
+          "name": "柳梦梅",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "转过这芍药栏前，",
+          "rating": 1.0,
+          "role": "巾生"
+        }
+      ],
+      "summary": "第5场：2位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.747,
+        "conflict": 0.0,
+        "sentiment": 0.36
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杜丽娘",
+      "short": "杜丽",
+      "key": "杜丽娘",
+      "quote": "杜丽娘 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "柳梦梅",
+      "short": "柳梦",
+      "key": "柳梦梅",
+      "quote": "柳梦梅 — 巾生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 巾生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "春香",
+      "short": "春香",
+      "key": "春香",
+      "quote": "春香 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杜母",
+      "short": "杜母",
+      "key": "杜母",
+      "quote": "杜母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "无奈高堂",
+      "key": "无奈高堂",
+      "quote": "场景发生在无奈高堂"
+    }
+  ]
+}

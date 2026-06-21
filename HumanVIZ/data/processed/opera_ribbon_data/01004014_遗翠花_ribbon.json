@@ -1,0 +1,358 @@
+{
+  "title": "遗翠花",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01004014_遗翠花.json",
+  "source_folder": "01000000",
+  "plot_summary": "是剧初无出处可考。其全剧情节大抵从昆剧《西厢记》中《寄书酬柬》等出脱胎而来。系一家主婢二人共赏\n识一书生。其主命婢翠香寄柬与书生。讵意翠香之爱书生，更甚于主且甚慧黠。私念有所挟持，不妨先自染\n指。遂往与书生通情，然后为之传递回书，并贻翠花一枚，以为纪念。至晚，翠香复往引书生入内楼，与主\n会晤。正欲真个销魂时，忽老夫人至，顿破幽欢。书生躲避不及，只得面见请罪。老夫人亦无如之何，遂以\n其女许书生，惟须成名后始得结婚。因命翠香赠以白金二锭，令其赴考。翠香故益其半，以表其爱。老夫人\n欲责打翠香。翠香反嗤夫人母教不严，自贻玷辱。盖其狡黠之情，纯乎抄袭红娘一派老文章也。",
+  "performance_notes": "此剧推贾璧云所演为最上乘。而毛韵珂曩时亦颇拿手，今则不常演矣。惟有识者每谓此戏必须改良，孰意况\n而愈下。某某舞台竟有男女合演之举。噫，有心人其奈彼薄俗何。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 114,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.758,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "相公": 1,
+        "翠香": 1,
+        "小姐": 1
+      },
+      "links": [
+        {
+          "source": "相公",
+          "target": "翠香",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "相公",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "翠香",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 139,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.925,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "相公": 1,
+        "翠香": 1,
+        "小姐": 1,
+        "老夫人": 1
+      },
+      "links": [
+        {
+          "source": "小姐",
+          "target": "翠香",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "相公",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "老夫人",
+          "value": 1
+        },
+        {
+          "source": "相公",
+          "target": "翠香",
+          "value": 1
+        },
+        {
+          "source": "翠香",
+          "target": "老夫人",
+          "value": 1
+        },
+        {
+          "source": "相公",
+          "target": "老夫人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 198,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "相公": 1,
+        "老夫人": 1,
+        "翠香": 1,
+        "小姐": 1
+      },
+      "links": [
+        {
+          "source": "相公",
+          "target": "翠香",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "翠香",
+          "value": 1
+        },
+        {
+          "source": "翠香",
+          "target": "老夫人",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "相公",
+          "value": 1
+        },
+        {
+          "source": "相公",
+          "target": "老夫人",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "老夫人",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "相公",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吓吓吓！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "翠香",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "走吓！",
+          "rating": -0.333,
+          "role": "花旦"
+        },
+        {
+          "name": "小姐",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：3位角色，114行",
+      "firstLine": 1,
+      "lastLine": 114,
+      "numLines": 114,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.254,
+        "sentiment": 0.095
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "小姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "大会场与相公相见一面，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "翠香",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "走吓。",
+          "rating": 0.5,
+          "role": "花旦"
+        },
+        {
+          "name": "相公",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "用手儿上前去把门开放。",
+          "rating": 0.429,
+          "role": "小生"
+        },
+        {
+          "name": "老夫人",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第二场：4位角色，139行",
+      "firstLine": 1,
+      "lastLine": 139,
+      "numLines": 139,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.188,
+        "sentiment": 0.371
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "翠香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我说是姑娘姑娘，你害了我了。",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "相公",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "争前小姐未见面，",
+          "rating": 0.2,
+          "role": "小生"
+        },
+        {
+          "name": "小姐",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "哪个来了?",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "老夫人",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "将身来在绣阁内，",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第三场：4位角色，198行",
+      "firstLine": 1,
+      "lastLine": 198,
+      "numLines": 198,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.196,
+        "sentiment": 0.164
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "相公",
+      "short": "相公",
+      "key": "相公",
+      "quote": "相公 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "翠香",
+      "short": "翠香",
+      "key": "翠香",
+      "quote": "翠香 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "小姐",
+      "short": "小姐",
+      "key": "小姐",
+      "quote": "小姐 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "老夫人",
+      "short": "老夫",
+      "key": "老夫人",
+      "quote": "老夫人 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "_meta": {
+    "description": "特征→行当 Sankey 关联数据（基于实际角色统计）",
+    "dataSource": "role-treering.json (角色计数) + 领域知识特征标签",
+    "note": "特征标签来源于京剧行当研究的领域知识。链接权重基于实际角色出现次数。"
+  },
+  "links": [
+    {
+      "source": "刚毅",
+      "target": "净",
+      "value": 1636,
+      "zScore": 0.0
+    },
+    {
+      "source": "粗犷",
+      "target": "净",
+      "value": 1636,
+      "zScore": 0.0
+    },
+    {
+      "source": "豪放",
+      "target": "净",
+      "value": 1636,
+      "zScore": 0.0
+    },
+    {
+      "source": "儒雅",
+      "target": "老生",
+      "value": 1439,
+      "zScore": 0.0
+    },
+    {
+      "source": "忠义",
+      "target": "老生",
+      "value": 1439,
+      "zScore": 0.0
+    },
+    {
+      "source": "稳重",
+      "target": "老生",
+      "value": 1439,
+      "zScore": 0.0
+    },
+    {
+      "source": "机敏",
+      "target": "文丑",
+      "value": 1136,
+      "zScore": 0.0
+    },
+    {
+      "source": "滑稽",
+      "target": "文丑",
+      "value": 1136,
+      "zScore": 0.0
+    },
+    {
+      "source": "诙谐",
+      "target": "文丑",
+      "value": 1136,
+      "zScore": 0.0
+    },
+    {
+      "source": "端庄",
+      "target": "青衣·正旦",
+      "value": 1002,
+      "zScore": 0.0
+    },
+    {
+      "source": "贞烈",
+      "target": "青衣·正旦",
+      "value": 1002,
+      "zScore": 0.0
+    },
+    {
+      "source": "贤淑",
+      "target": "青衣·正旦",
+      "value": 1002,
+      "zScore": 0.0
+    },
+    {
+      "source": "宽厚",
+      "target": "末·外·生",
+      "value": 972,
+      "zScore": 97.45
+    },
+    {
+      "source": "持重",
+      "target": "末·外·生",
+      "value": 972,
+      "zScore": 97.45
+    },
+    {
+      "source": "儒生气",
+      "target": "小生",
+      "value": 739,
+      "zScore": 78.52
+    },
+    {
+      "source": "文雅",
+      "target": "小生",
+      "value": 739,
+      "zScore": 0.0
+    },
+    {
+      "source": "清秀",
+      "target": "小生",
+      "value": 739,
+      "zScore": 0.0
+    },
+    {
+      "source": "刚毅",
+      "target": "武生",
+      "value": 340,
+      "zScore": 0.0
+    },
+    {
+      "source": "武艺高强",
+      "target": "武生",
+      "value": 340,
+      "zScore": 83.11
+    },
+    {
+      "source": "英勇",
+      "target": "武生",
+      "value": 340,
+      "zScore": 83.11
+    },
+    {
+      "source": "慈祥",
+      "target": "老旦",
+      "value": 279,
+      "zScore": 83.81
+    },
+    {
+      "source": "沧桑",
+      "target": "老旦",
+      "value": 279,
+      "zScore": 83.81
+    },
+    {
+      "source": "稳重",
+      "target": "老旦",
+      "value": 279,
+      "zScore": 0.0
+    },
+    {
+      "source": "娇俏",
+      "target": "花旦·花衫",
+      "value": 233,
+      "zScore": 84.34
+    },
+    {
+      "source": "活泼",
+      "target": "花旦·花衫",
+      "value": 233,
+      "zScore": 84.34
+    },
+    {
+      "source": "直率",
+      "target": "花旦·花衫",
+      "value": 233,
+      "zScore": 84.34
+    },
+    {
+      "source": "矫健",
+      "target": "武旦",
+      "value": 65,
+      "zScore": 86.27
+    },
+    {
+      "source": "英武",
+      "target": "武旦",
+      "value": 65,
+      "zScore": 86.27
+    },
+    {
+      "source": "飒爽",
+      "target": "武旦",
+      "value": 65,
+      "zScore": 86.27
+    },
+    {
+      "source": "敏捷",
+      "target": "武丑",
+      "value": 55,
+      "zScore": 86.39
+    },
+    {
+      "source": "滑稽",
+      "target": "武丑",
+      "value": 55,
+      "zScore": 0.0
+    },
+    {
+      "source": "灵活",
+      "target": "武丑",
+      "value": 55,
+      "zScore": 86.39
+    }
+  ],
+  "features": [
+    {
+      "name": "儒生气",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "儒雅",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "刚毅",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "娇俏",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "宽厚",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "忠义",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "慈祥",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "持重",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "敏捷",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "文雅",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "机敏",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "武艺高强",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "沧桑",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "活泼",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "清秀",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "滑稽",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "灵活",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "直率",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "矫健",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "稳重",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "端庄",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "粗犷",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "英勇",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "英武",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "诙谐",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "豪放",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "贞烈",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "贤淑",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    },
+    {
+      "name": "飒爽",
+      "itemStyle": {
+        "color": "#b8926a"
+      }
+    }
+  ],
+  "roles": [
+    {
+      "name": "老生",
+      "itemStyle": {
+        "color": "#d4bea6"
+      },
+      "count": 1439
+    },
+    {
+      "name": "小生",
+      "itemStyle": {
+        "color": "#dcc8b1"
+      },
+      "count": 739
+    },
+    {
+      "name": "武生",
+      "itemStyle": {
+        "color": "#cdb59c"
+      },
+      "count": 340
+    },
+    {
+      "name": "末·外·生",
+      "itemStyle": {
+        "color": "#e0d2be"
+      },
+      "count": 972
+    },
+    {
+      "name": "青衣·正旦",
+      "itemStyle": {
+        "color": "#c09894"
+      },
+      "count": 1002
+    },
+    {
+      "name": "花旦·花衫",
+      "itemStyle": {
+        "color": "#d3b8b3"
+      },
+      "count": 233
+    },
+    {
+      "name": "老旦",
+      "itemStyle": {
+        "color": "#c9a49f"
+      },
+      "count": 279
+    },
+    {
+      "name": "武旦",
+      "itemStyle": {
+        "color": "#b88b86"
+      },
+      "count": 65
+    },
+    {
+      "name": "净",
+      "itemStyle": {
+        "color": "#9ea6ad"
+      },
+      "count": 1636
+    },
+    {
+      "name": "文丑",
+      "itemStyle": {
+        "color": "#a7b8b3"
+      },
+      "count": 1136
+    },
+    {
+      "name": "武丑",
+      "itemStyle": {
+        "color": "#8ca39e"
+      },
+      "count": 55
+    }
+  ],
+  "chiSquare": {
+    "chiSq": 204444.0,
+    "df": 280,
+    "p": "< 0.001",
+    "cramerV": 0.949,
+    "topResiduals": [
+      {
+        "feature": "宽厚",
+        "role": "末·外·生",
+        "observed": 972,
+        "expected": 83.2,
+        "zScore": 97.45
+      },
+      {
+        "feature": "持重",
+        "role": "末·外·生",
+        "observed": 972,
+        "expected": 83.2,
+        "zScore": 97.45
+      },
+      {
+        "feature": "敏捷",
+        "role": "武丑",
+        "observed": 55,
+        "expected": 0.4,
+        "zScore": 86.39
+      },
+      {
+        "feature": "灵活",
+        "role": "武丑",
+        "observed": 55,
+        "expected": 0.4,
+        "zScore": 86.39
+      },
+      {
+        "feature": "矫健",
+        "role": "武旦",
+        "observed": 65,
+        "expected": 0.6,
+        "zScore": 86.27
+      },
+      {
+        "feature": "英武",
+        "role": "武旦",
+        "observed": 65,
+        "expected": 0.6,
+        "zScore": 86.27
+      },
+      {
+        "feature": "飒爽",
+        "role": "武旦",
+        "observed": 65,
+        "expected": 0.6,
+        "zScore": 86.27
+      },
+      {
+        "feature": "娇俏",
+        "role": "花旦·花衫",
+        "observed": 233,
+        "expected": 7.2,
+        "zScore": 84.34
+      },
+      {
+        "feature": "活泼",
+        "role": "花旦·花衫",
+        "observed": 233,
+        "expected": 7.2,
+        "zScore": 84.34
+      },
+      {
+        "feature": "直率",
+        "role": "花旦·花衫",
+        "observed": 233,
+        "expected": 7.2,
+        "zScore": 84.34
+      },
+      {
+        "feature": "慈祥",
+        "role": "老旦",
+        "observed": 279,
+        "expected": 10.3,
+        "zScore": 83.81
+      },
+      {
+        "feature": "沧桑",
+        "role": "老旦",
+        "observed": 279,
+        "expected": 10.3,
+        "zScore": 83.81
+      },
+      {
+        "feature": "武艺高强",
+        "role": "武生",
+        "observed": 340,
+        "expected": 15.3,
+        "zScore": 83.11
+      },
+      {
+        "feature": "英勇",
+        "role": "武生",
+        "observed": 340,
+        "expected": 15.3,
+        "zScore": 83.11
+      },
+      {
+        "feature": "儒生气",
+        "role": "小生",
+        "observed": 739,
+        "expected": 72.1,
+        "zScore": 78.52
+      }
+    ],
+    "interpretation": "强关联"
+  }
+}

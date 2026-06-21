@@ -1,0 +1,370 @@
+{
+  "title": "置田装疯",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "03046004_置田装疯.json",
+  "source_folder": "03000000",
+  "plot_summary": "尉迟恭因代薛仁贵解围，怒打李道宗，被贬归田。高丽国大将铁里金牙造反，指名索尉迟恭应战。徐茂公奉\n旨颁请，尉迟恭装疯，不愿出山。徐茂公乃令军士假意罗唣，诱尉迟恭出。尉迟恭不得已，始从征。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 11,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.194,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四龙套": 1,
+        "徐茂公": 1
+      },
+      "links": [
+        {
+          "source": "四龙套",
+          "target": "徐茂公",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 123,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "徐茂公": 1,
+        "黑氏": 1,
+        "尉迟恭": 1
+      },
+      "links": [
+        {
+          "source": "尉迟恭",
+          "target": "黑氏",
+          "value": 1
+        },
+        {
+          "source": "徐茂公",
+          "target": "黑氏",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐茂公",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.352,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四龙套": 1,
+        "徐茂公": 1
+      },
+      "links": [
+        {
+          "source": "四龙套",
+          "target": "徐茂公",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 73,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四龙套": 1,
+        "徐茂公": 1,
+        "黑氏": 1,
+        "尉迟恭": 1
+      },
+      "links": [
+        {
+          "source": "四龙套",
+          "target": "黑氏",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "尉迟恭",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "徐茂公",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "黑氏",
+          "value": 1
+        },
+        {
+          "source": "徐茂公",
+          "target": "黑氏",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐茂公",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐茂公",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "忠心耿耿，扶保乾坤。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.444,
+        "conflict": 0.952,
+        "sentiment": 0.768
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "黑氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "功臣无故遭谗害，来作耕田种地人。",
+          "rating": 0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "妈妈，哎呀呀呀呀！妈妈，看庄外有人无有？",
+          "rating": 0.429,
+          "role": "净"
+        },
+        {
+          "name": "徐茂公",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "为国求良将，来到置田庄。",
+          "rating": 0.714,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：3位角色，123行",
+      "firstLine": 1,
+      "lastLine": 123,
+      "numLines": 123,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.221,
+        "sentiment": 0.424
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐茂公",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "千军容易得，一将最难求。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "军师唤一声，何方将令行。",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：2位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.479,
+        "conflict": 0.0,
+        "sentiment": 0.169
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "四龙套",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来此已是，待我们叫门。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黑氏",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "为何这等惊慌？",
+          "rating": 0.2,
+          "role": "净"
+        },
+        {
+          "name": "徐茂公",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "老将军暂且息怒，徐茂公在此。老将军装得好病！",
+          "rating": 0.5,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：4位角色，73行",
+      "firstLine": 1,
+      "lastLine": 73,
+      "numLines": 73,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.989,
+        "conflict": 0.397,
+        "sentiment": 0.379
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "尉迟恭",
+      "short": "尉迟",
+      "key": "尉迟恭",
+      "quote": "尉迟恭 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "徐茂公",
+      "short": "徐茂",
+      "key": "徐茂公",
+      "quote": "徐茂公 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "黑氏",
+      "short": "黑氏",
+      "key": "黑氏",
+      "quote": "黑氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

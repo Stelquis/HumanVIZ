@@ -1,0 +1,236 @@
+{
+  "title": "借茶活捉",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01031011_借茶活捉.json",
+  "source_folder": "01000000",
+  "plot_summary": "宋江未入梁山泊之前，任郓城县刑房书吏，娶土妓阎婆惜为小妾，另癖藏娇之所，公务完毕，作为休息地。\n同事张文远，少年佻薄，专以问柳寻花为事。行经该处，见阎氏站立门前，一种婀娜动人之态，注射于眼帘。\n以借茶为名，与通款曲，一转瞬间，竟作登堂之客。问长问短，入以游词。阎氏本淫荡成性，互相爱悦，\n遂结不解之缘。一对野鸳鸯，从此双宿双飞，视宋江为眼中钉矣。后来阎氏得宋江通盗证据，用以挟制，欲\n求离异，醮于张文远。宋江恐绝漏机密，杀阎氏而逃（事实详载《水浒传》）。阎氏死后，仍不忘情于张文\n远，其鬼乃往县署显形，与张文远当面磋商，欲实行与子同穴之举。张文远婉辞再三，卒不听从。至鸡声三\n唱，而张文远之魂，被阎氏勾摄以去。",
+  "performance_notes": "此剧借镜于《水浒传》，装点而出。昆班全盛时代，为花旦之做工重头。现编入京班中串演，纯平吹腔，亦\n是袭昆班之故智，为花样翻新耳。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 197,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "阎婆惜": 1,
+        "张文远": 1
+      },
+      "links": [
+        {
+          "source": "张文远",
+          "target": "阎婆惜",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 190,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.982,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "书童乙": 1,
+        "书童甲": 1,
+        "阎婆惜": 1,
+        "张文远": 1
+      },
+      "links": [
+        {
+          "source": "张文远",
+          "target": "阎婆惜",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "张文远",
+          "value": 1
+        },
+        {
+          "source": "书童甲",
+          "target": "张文远",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "阎婆惜",
+          "value": 1
+        },
+        {
+          "source": "书童甲",
+          "target": "阎婆惜",
+          "value": 1
+        },
+        {
+          "source": "书童乙",
+          "target": "书童甲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "阎婆惜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "春光明媚百花香，",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "张文远",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "身为押司在刑房，",
+          "rating": 0.4,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：2位角色，197行",
+      "firstLine": 1,
+      "lastLine": 197,
+      "numLines": 197,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.309,
+        "sentiment": 0.275
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张文远",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "酒不醉人人自醉，色不迷人人自迷。",
+          "rating": -0.556,
+          "role": "丑"
+        },
+        {
+          "name": "阎婆惜",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "三郎！",
+          "rating": -0.6,
+          "role": "花旦"
+        },
+        {
+          "name": "书童乙",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "岂敢，老弟。书房里个个响，阿要去看看。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "书童甲",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "阿哥！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，190行",
+      "firstLine": 1,
+      "lastLine": 190,
+      "numLines": 190,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.995,
+        "conflict": 0.362,
+        "sentiment": -0.149
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "阎婆惜",
+      "short": "阎婆",
+      "key": "阎婆惜",
+      "quote": "阎婆惜 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张文远",
+      "short": "张文",
+      "key": "张文远",
+      "quote": "张文远 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "书童乙",
+      "short": "书童",
+      "key": "书童乙",
+      "quote": "书童乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "书童甲",
+      "short": "书童",
+      "key": "书童甲",
+      "quote": "书童甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

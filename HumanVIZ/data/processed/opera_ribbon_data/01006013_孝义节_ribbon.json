@@ -1,0 +1,415 @@
+{
+  "title": "孝义节",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 7,
+  "num_locations": 6,
+  "source_file": "01006013_孝义节.json",
+  "source_folder": "01000000",
+  "plot_summary": "此剧系《别宫祭江》之后，孙尚香鬼魂还宫，托兆吴后，自言投水之后，尸向西逆流，在芜湖关旁，已蒙上\n帝嘉我节烈，敕封为枭姬娘娘，受世人祭享。但虽受封，却无庙堂可以凭式。吴后乃许为立庙云。",
+  "performance_notes": "按前过枭矶祠，相传为孙夫人之祠庙。但此“枭”字甚不雅观，其确系孝姬而讹为枭矶乎？抑本系枭矶而流\n传附会为孝姬乎？还请致诸孙尚香。一笑。此剧二黄摇板甚多，为青衫之唱工重头戏。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.563,
+      "locations": {
+        "尚香上高台": 1
+      },
+      "characters": {
+        "孙尚香": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 40,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "逊火烧连营": 1
+      },
+      "characters": {
+        "大太监": 1,
+        "吴国太": 1
+      },
+      "links": [
+        {
+          "source": "吴国太",
+          "target": "大太监",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 24,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.676,
+      "locations": {
+        "逊火烧连营": 1
+      },
+      "characters": {
+        "门神甲": 1,
+        "门神乙": 1,
+        "孙尚香": 1,
+        "二门神": 1
+      },
+      "links": [
+        {
+          "source": "门神乙",
+          "target": "门神甲",
+          "value": 1
+        },
+        {
+          "source": "孙尚香",
+          "target": "门神甲",
+          "value": 1
+        },
+        {
+          "source": "二门神",
+          "target": "门神甲",
+          "value": 1
+        },
+        {
+          "source": "孙尚香",
+          "target": "门神乙",
+          "value": 1
+        },
+        {
+          "source": "二门神",
+          "target": "门神乙",
+          "value": 1
+        },
+        {
+          "source": "二门神",
+          "target": "孙尚香",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 58,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "逊火烧连营": 1
+      },
+      "characters": {
+        "孙尚香": 1,
+        "二宫女": 1,
+        "吴国太": 1
+      },
+      "links": [
+        {
+          "source": "吴国太",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "吴国太",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "孙尚香",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "尚香上高台",
+      "characters": [
+        {
+          "name": "孙尚香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "沧海连江，乾坤浩荡，虽受职，哪有庙堂，何处受祭享！",
+          "rating": 0.2,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第一场：1位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.644,
+        "conflict": 0.0,
+        "sentiment": 0.356
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "逊火烧连营",
+      "characters": [
+        {
+          "name": "吴国太",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "夫本是炎汉家辅国大将，",
+          "rating": -0.5,
+          "role": "老旦"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "太后大事不好了！",
+          "rating": -0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.65,
+        "conflict": 0.533,
+        "sentiment": -0.127
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "逊火烧连营",
+      "characters": [
+        {
+          "name": "门神甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "上苍有旨意，",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "门神乙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "看守宫门庭。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "孙尚香",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "水晶宫与阳间一般模样，",
+          "rating": 0.0,
+          "role": "正旦"
+        },
+        {
+          "name": "二门神",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "到此何事？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：4位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.769,
+        "conflict": 0.0,
+        "sentiment": 0.2
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "逊火烧连营",
+      "characters": [
+        {
+          "name": "吴国太",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "恨的是陆伯言智足谋广，",
+          "rating": -0.143,
+          "role": "老旦"
+        },
+        {
+          "name": "孙尚香",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "在生前常出进宫人随往，",
+          "rating": -0.5,
+          "role": "正旦"
+        },
+        {
+          "name": "二宫女",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "太后醒来！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：3位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.177,
+        "sentiment": -0.079
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙尚香",
+      "short": "孙尚",
+      "key": "孙尚香",
+      "quote": "孙尚香 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "吴国太",
+      "short": "吴国",
+      "key": "吴国太",
+      "quote": "吴国太 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "门神甲",
+      "short": "门神",
+      "key": "门神甲",
+      "quote": "门神甲 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "门神乙",
+      "short": "门神",
+      "key": "门神乙",
+      "quote": "门神乙 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "二宫女",
+      "short": "二宫",
+      "key": "二宫女",
+      "quote": "二宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二门神",
+      "short": "二门",
+      "key": "二门神",
+      "quote": "二门神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "逊火烧连营",
+      "key": "逊火烧连营",
+      "quote": "场景发生在逊火烧连营"
+    },
+    {
+      "name": "尚香上高台",
+      "key": "尚香上高台",
+      "quote": "场景发生在尚香上高台"
+    },
+    {
+      "name": "哪有庙堂",
+      "key": "哪有庙堂",
+      "quote": "场景发生在哪有庙堂"
+    },
+    {
+      "name": "白帝城",
+      "key": "白帝城",
+      "quote": "场景发生在白帝城"
+    },
+    {
+      "name": "建造庙堂",
+      "key": "建造庙堂",
+      "quote": "场景发生在建造庙堂"
+    },
+    {
+      "name": "神光照水府",
+      "key": "神光照水府",
+      "quote": "场景发生在神光照水府"
+    }
+  ]
+}

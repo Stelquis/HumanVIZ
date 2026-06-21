@@ -1,0 +1,1325 @@
+{
+  "title": "丁甲山",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 6,
+  "num_scenes": 12,
+  "num_characters": 12,
+  "num_locations": 2,
+  "source_file": "14001005_丁甲山.json",
+  "source_folder": "14000000",
+  "plot_summary": "丁甲山草寇周明、周亮弟兄二人，冒着梁山泊宋江的名字，到太平庄陈员外家中，把他的女儿抢去，强逼成\n亲。梁山泊好汉黑旋风李逵和浪子燕青，因公干下山，走此经过，恰在陈家借宿一宵。李逵听得陈员外哭骂\n之声，只是睡不着觉，跑进去问他为何如此。员外就把女儿被抢去的事情详细的告诉他。李逵也不想想这事\n情的真假，竟自信以为真，并且以为员外所说的先来提亲的那少年，也必定是柴进，于是气愤愤地跑回梁山，\n见着宋江、柴进，破口大骂，举斧就砍。辛亏旁人连忙挡住，没有闯出祸来。弄得宋江、柴进二人莫名其\n妙，问起情由，燕青就把有人假冒宋江，强抢民女的事情述说一遍。李逵只是不信，嚷着要宋江、柴进二人\n一同到陈家去对质。辨认之后，李逵晓得到底是自己太鲁莽了，只好负荆请罪，如是再和燕青四下打探，寻\n着周亮弟兄，把他们一齐杀死了。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 36,
+      "summary": "第一场；第二场",
+      "conflict": 0.622,
+      "importance": 0.847,
+      "locations": {
+        "闹了忠义堂": 2
+      },
+      "characters": {
+        "周明": 1,
+        "小姐": 1,
+        "院子": 1,
+        "陈员外": 1,
+        "周亮": 1
+      },
+      "links": [
+        {
+          "source": "周亮",
+          "target": "周明",
+          "value": 1
+        },
+        {
+          "source": "周明",
+          "target": "陈员外",
+          "value": 1
+        },
+        {
+          "source": "周亮",
+          "target": "陈员外",
+          "value": 2
+        },
+        {
+          "source": "陈员外",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "陈员外",
+          "value": 1
+        },
+        {
+          "source": "周亮",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "周亮",
+          "target": "小姐",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 10,
+      "summary": "第三场；第四场",
+      "conflict": 1.713,
+      "importance": 0.235,
+      "locations": {
+        "闹了忠义堂": 2
+      },
+      "characters": {
+        "周明": 1,
+        "小姐": 1,
+        "燕青": 1,
+        "李逵": 1,
+        "陈员外": 1
+      },
+      "links": [
+        {
+          "source": "李逵",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "周明",
+          "target": "小姐",
+          "value": 1
+        },
+        {
+          "source": "周明",
+          "target": "陈员外",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "陈员外",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 64,
+      "summary": "第五场；第六场",
+      "conflict": 0.834,
+      "importance": 1.0,
+      "locations": {
+        "闹了忠义堂": 2
+      },
+      "characters": {
+        "院子": 1,
+        "燕青": 1,
+        "李逵": 1,
+        "员外": 1,
+        "陈员外": 1,
+        "柴进": 1,
+        "宋江": 1
+      },
+      "links": [
+        {
+          "source": "李逵",
+          "target": "燕青",
+          "value": 2
+        },
+        {
+          "source": "燕青",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "燕青",
+          "target": "陈员外",
+          "value": 2
+        },
+        {
+          "source": "员外",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "李逵",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "李逵",
+          "target": "陈员外",
+          "value": 2
+        },
+        {
+          "source": "员外",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "陈员外",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "员外",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "员外",
+          "target": "陈员外",
+          "value": 1
+        },
+        {
+          "source": "柴进",
+          "target": "陈员外",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "陈员外",
+          "value": 1
+        },
+        {
+          "source": "李逵",
+          "target": "柴进",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "柴进",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "柴进",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 74,
+      "summary": "第七场；第八场",
+      "conflict": 0.663,
+      "importance": 1.0,
+      "locations": {
+        "韬略貌堂堂": 1,
+        "闹了忠义堂": 1
+      },
+      "characters": {
+        "小姐": 1,
+        "燕青": 1,
+        "李逵": 1,
+        "陈员外": 1,
+        "柴进": 1,
+        "丫鬟": 1,
+        "宋江": 1
+      },
+      "links": [
+        {
+          "source": "宋江",
+          "target": "李逵",
+          "value": 2
+        },
+        {
+          "source": "宋江",
+          "target": "燕青",
+          "value": 2
+        },
+        {
+          "source": "宋江",
+          "target": "陈员外",
+          "value": 2
+        },
+        {
+          "source": "宋江",
+          "target": "柴进",
+          "value": 2
+        },
+        {
+          "source": "李逵",
+          "target": "燕青",
+          "value": 2
+        },
+        {
+          "source": "李逵",
+          "target": "陈员外",
+          "value": 2
+        },
+        {
+          "source": "李逵",
+          "target": "柴进",
+          "value": 2
+        },
+        {
+          "source": "燕青",
+          "target": "陈员外",
+          "value": 2
+        },
+        {
+          "source": "柴进",
+          "target": "燕青",
+          "value": 2
+        },
+        {
+          "source": "柴进",
+          "target": "陈员外",
+          "value": 2
+        },
+        {
+          "source": "丫鬟",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "陈员外",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "陈员外",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "宋江",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "小姐",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "柴进",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "小姐",
+          "value": 1
+        },
+        {
+          "source": "小姐",
+          "target": "柴进",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 39,
+      "summary": "第九场；第十场",
+      "conflict": 0.113,
+      "importance": 0.918,
+      "locations": {
+        "闹了忠义堂": 2
+      },
+      "characters": {
+        "李逵": 1,
+        "柴进": 1,
+        "燕青": 1,
+        "宋江": 1
+      },
+      "links": [
+        {
+          "source": "宋江",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "李逵",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "柴进",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "柴进",
+          "value": 2
+        },
+        {
+          "source": "李逵",
+          "target": "柴进",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 2,
+      "numLines": 32,
+      "summary": "第十一场；第十二场",
+      "conflict": 0.3,
+      "importance": 0.753,
+      "locations": {
+        "闹了忠义堂": 2
+      },
+      "characters": {
+        "周明": 1,
+        "燕青": 1,
+        "李逵": 1,
+        "草上飞": 1,
+        "柴进": 1,
+        "周亮": 1,
+        "宋江": 1
+      },
+      "links": [
+        {
+          "source": "李逵",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "燕青",
+          "target": "草上飞",
+          "value": 1
+        },
+        {
+          "source": "柴进",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "周明",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "周亮",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "李逵",
+          "target": "草上飞",
+          "value": 1
+        },
+        {
+          "source": "李逵",
+          "target": "柴进",
+          "value": 1
+        },
+        {
+          "source": "周明",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "周亮",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "柴进",
+          "target": "草上飞",
+          "value": 1
+        },
+        {
+          "source": "周明",
+          "target": "草上飞",
+          "value": 1
+        },
+        {
+          "source": "周亮",
+          "target": "草上飞",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "草上飞",
+          "value": 1
+        },
+        {
+          "source": "周明",
+          "target": "柴进",
+          "value": 1
+        },
+        {
+          "source": "周亮",
+          "target": "柴进",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "柴进",
+          "value": 1
+        },
+        {
+          "source": "周亮",
+          "target": "周明",
+          "value": 1
+        },
+        {
+          "source": "周明",
+          "target": "宋江",
+          "value": 1
+        },
+        {
+          "source": "周亮",
+          "target": "宋江",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "闹了忠义堂",
+      "characters": [
+        {
+          "name": "周明",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "自幼生来力无双，弟兄二人占山岗。",
+          "rating": 1.0,
+          "role": "武净"
+        },
+        {
+          "name": "周亮",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "终日山下来打抢，最喜美貌女娇娘。",
+          "rating": 1.0,
+          "role": "武三花"
+        },
+        {
+          "name": "陈员外",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第一场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.557,
+        "conflict": 1.0,
+        "sentiment": 0.785
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "闹了忠义堂",
+      "characters": [
+        {
+          "name": "陈员外",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "家有万石粮，前仓和后仓。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "周亮",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "门上有人么？",
+          "rating": 0.0,
+          "role": "武三花"
+        },
+        {
+          "name": "院子",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "小姐",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第二场：4位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.477,
+        "conflict": 0.0,
+        "sentiment": 0.163
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "闹了忠义堂",
+      "characters": [
+        {
+          "name": "燕青",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "适才领了大哥命，",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "李逵",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "一路之上要小心。",
+          "rating": 0.0,
+          "role": "架子花面"
+        }
+      ],
+      "summary": "第三场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.366,
+        "conflict": 0.0,
+        "sentiment": 0.833
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "闹了忠义堂",
+      "characters": [
+        {
+          "name": "周明",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武净"
+        },
+        {
+          "name": "小姐",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "陈员外",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第四场：3位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.235,
+        "conflict": 0.0,
+        "sentiment": -0.88
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "闹了忠义堂",
+      "characters": [
+        {
+          "name": "燕青",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来此大户人家，你我向前借宿。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "李逵",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "这个我会。",
+          "rating": 0.0,
+          "role": "架子花面"
+        },
+        {
+          "name": "院子",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陈员外",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "员外",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：5位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.577,
+        "conflict": 0.339,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "闹了忠义堂",
+      "characters": [
+        {
+          "name": "陈员外",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "可恨宋江这强盗，将我女儿抢去。我女儿倘若不从，只恐性命难保。",
+          "rating": -0.333,
+          "role": "末"
+        },
+        {
+          "name": "李逵",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "呔，想我弟兄二人，行了一日路程，身体困倦。你在此哭哭啼啼，是何道理？",
+          "rating": -0.333,
+          "role": "架子花面"
+        },
+        {
+          "name": "燕青",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "你在此叫些什么？",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "柴进",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "宋江",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -0.333,
+          "role": "生"
+        }
+      ],
+      "summary": "第六场：5位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.583,
+        "conflict": 0.455,
+        "sentiment": -0.074
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "韬略貌堂堂",
+      "characters": [
+        {
+          "name": "宋江",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "胸藏韬略貌堂堂，梁山水泊自为王。谁人不知及时雨，替天行道在山岗。",
+          "rating": 0.5,
+          "role": "生"
+        },
+        {
+          "name": "李逵",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "什么替天行道，去你的罢！",
+          "rating": 0.333,
+          "role": "架子花面"
+        },
+        {
+          "name": "燕青",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "参见大哥。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "陈员外",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "柴进",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第七场：5位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.583,
+        "conflict": 0.0,
+        "sentiment": 0.523
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "闹了忠义堂",
+      "characters": [
+        {
+          "name": "燕青",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "有请员外。",
+          "rating": -0.333,
+          "role": "武生"
+        },
+        {
+          "name": "李逵",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "员外，我今已将宋江带来了。你若说是他，我就是这一斧。",
+          "rating": 0.0,
+          "role": "架子花面"
+        },
+        {
+          "name": "陈员外",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "待我看来。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "哎唷，哪儿这一个煤黑子！啊，你问我，我小名如意。",
+          "rating": 0.0,
+          "role": "丑旦"
+        },
+        {
+          "name": "宋江",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "李逵大胆！",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "小姐",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "柴进",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第八场：7位角色，48行",
+      "firstLine": 1,
+      "lastLine": 48,
+      "numLines": 48,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.643,
+        "conflict": 0.164,
+        "sentiment": -0.14
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "闹了忠义堂",
+      "characters": [
+        {
+          "name": "燕青",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "李逵带到。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "宋江",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "将他押上堂来。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "李逵",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 0.5,
+          "role": "架子花面"
+        },
+        {
+          "name": "柴进",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第九场：4位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.553,
+        "conflict": 0.606,
+        "sentiment": 0.273
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "闹了忠义堂",
+      "characters": [
+        {
+          "name": "宋江",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "众家兄弟，一同下山，捉拿盗贼，不得有误。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "柴进",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十场：2位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.095,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "闹了忠义堂",
+      "characters": [
+        {
+          "name": "草上飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "俺，草上飞，奉了寨主之命，去至松林走走。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第十一场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.065,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "闹了忠义堂",
+      "characters": [
+        {
+          "name": "燕青",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "这是你所招之祸。我看那贼人，叫我往哪里去找？",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "李逵",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你看前面有一松林，其中定有歹人。捉住一个，或可问出那厮的姓名。",
+          "rating": 1.0,
+          "role": "架子花面"
+        },
+        {
+          "name": "草上飞",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "爷爷饶命。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "柴进",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "可曾探着那贼巢穴？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "周明",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武净"
+        },
+        {
+          "name": "周亮",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武三花"
+        },
+        {
+          "name": "宋江",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第十二场：7位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.91,
+        "conflict": 0.822,
+        "sentiment": -0.14
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李逵",
+      "short": "李逵",
+      "key": "李逵",
+      "quote": "李逵 — 架子花面",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 架子花面",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周明",
+      "short": "周明",
+      "key": "周明",
+      "quote": "周明 — 武净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 武净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "周亮",
+      "short": "周亮",
+      "key": "周亮",
+      "quote": "周亮 — 武三花",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 武三花",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "燕青",
+      "short": "燕青",
+      "key": "燕青",
+      "quote": "燕青 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陈员外",
+      "short": "陈员",
+      "key": "陈员外",
+      "quote": "陈员外 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 丑旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 丑旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小姐",
+      "short": "小姐",
+      "key": "小姐",
+      "quote": "小姐 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "宋江",
+      "short": "宋江",
+      "key": "宋江",
+      "quote": "宋江 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "柴进",
+      "short": "柴进",
+      "key": "柴进",
+      "quote": "柴进 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "草上飞",
+      "short": "草上",
+      "key": "草上飞",
+      "quote": "草上飞 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "员外",
+      "short": "员外",
+      "key": "员外",
+      "quote": "员外 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "闹了忠义堂",
+      "key": "闹了忠义堂",
+      "quote": "场景发生在闹了忠义堂"
+    },
+    {
+      "name": "韬略貌堂堂",
+      "key": "韬略貌堂堂",
+      "quote": "场景发生在韬略貌堂堂"
+    }
+  ]
+}

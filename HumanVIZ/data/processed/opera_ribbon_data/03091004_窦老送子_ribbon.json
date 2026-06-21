@@ -1,0 +1,417 @@
+{
+  "title": "窦老送子",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "03091004_窦老送子.json",
+  "source_folder": "03000000",
+  "plot_summary": "刘高离家投军，妻李三娘为兄嫂所逼，受尽艰辛。后产子，李三娘兄嫂欲将初生婴儿杀害，李家老仆窦公激\n于义愤，排除万难，将初生儿送刘高处。时刘高已另与元帅之女成亲，经窦老说明李三娘苦况，刘高允即遣\n人迎李三娘至并州。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 17,
+      "summary": "第1场；第2场",
+      "conflict": 0.19,
+      "importance": 0.197,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "刘高": 1,
+        "院子": 1,
+        "看堂人": 1
+      },
+      "links": [
+        {
+          "source": "刘高",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "看堂人",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 109,
+      "summary": "第3场；第4场",
+      "conflict": 1.054,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "看堂人": 1,
+        "院子": 1,
+        "窦老": 1,
+        "岳氏": 1,
+        "刘高": 1
+      },
+      "links": [
+        {
+          "source": "看堂人",
+          "target": "窦老",
+          "value": 1
+        },
+        {
+          "source": "窦老",
+          "target": "院子",
+          "value": 2
+        },
+        {
+          "source": "看堂人",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "刘高",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "岳氏",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "刘高",
+          "target": "窦老",
+          "value": 1
+        },
+        {
+          "source": "刘高",
+          "target": "岳氏",
+          "value": 1
+        },
+        {
+          "source": "岳氏",
+          "target": "窦老",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 133,
+      "summary": "第5场；第6场",
+      "conflict": 0.432,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "刘高": 1,
+        "窦老": 1
+      },
+      "links": [
+        {
+          "source": "刘高",
+          "target": "窦老",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘高",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "身附权要，指日里，龙门高跳！",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "院子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.312,
+        "conflict": 0.0,
+        "sentiment": -0.03
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "看堂人",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了，来了！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.308,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "窦老",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "嗯哼！",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "看堂人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "嗯哼！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "院子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：3位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.736,
+        "conflict": 0.5,
+        "sentiment": -0.435
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有请老爷！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘高",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "窦老",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "刘官人在哪里？",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "岳氏",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "夫受皇家爵，妻沾雨露恩。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第4场：4位角色，78行",
+      "firstLine": 1,
+      "lastLine": 78,
+      "numLines": 78,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.79,
+        "conflict": 0.092,
+        "sentiment": 0.619
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘高",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "少刻再叙谈。",
+          "rating": 0.75,
+          "role": ""
+        },
+        {
+          "name": "窦老",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "刘官人哪，方才夫人口内说些什么？",
+          "rating": 0.2,
+          "role": "丑"
+        }
+      ],
+      "summary": "第5场：2位角色，131行",
+      "firstLine": 1,
+      "lastLine": 131,
+      "numLines": 131,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.852,
+        "conflict": 0.293,
+        "sentiment": 0.432
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第6场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.002,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "窦老",
+      "short": "窦老",
+      "key": "窦老",
+      "quote": "窦老 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "看堂人",
+      "short": "看堂",
+      "key": "看堂人",
+      "quote": "看堂人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "岳氏",
+      "short": "岳氏",
+      "key": "岳氏",
+      "quote": "岳氏 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘高",
+      "short": "刘高",
+      "key": "刘高",
+      "quote": "刘高 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

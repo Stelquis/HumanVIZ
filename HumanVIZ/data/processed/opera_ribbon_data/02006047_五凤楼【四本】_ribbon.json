@@ -1,0 +1,389 @@
+{
+  "title": "五凤楼",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "02006047_五凤楼【四本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "武则天听奸臣张天佐、张天佑之言，斩薛氏满门，废新君为卢陵王，赶出宫廷，垂帘听政，改为垂拱元年。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 90,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.198,
+      "importance": 1.0,
+      "locations": {
+        "丁山中殿": 3
+      },
+      "characters": {
+        "太监": 1,
+        "武则天": 1,
+        "韦后": 1,
+        "张天佐": 1,
+        "张天佑": 1,
+        "李显": 1
+      },
+      "links": [
+        {
+          "source": "张天佐",
+          "target": "武则天",
+          "value": 1
+        },
+        {
+          "source": "张天佑",
+          "target": "武则天",
+          "value": 1
+        },
+        {
+          "source": "张天佐",
+          "target": "张天佑",
+          "value": 1
+        },
+        {
+          "source": "李显",
+          "target": "武则天",
+          "value": 2
+        },
+        {
+          "source": "太监",
+          "target": "李显",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "武则天",
+          "value": 1
+        },
+        {
+          "source": "武则天",
+          "target": "韦后",
+          "value": 1
+        },
+        {
+          "source": "李显",
+          "target": "韦后",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 11,
+      "summary": "第4场；第5场",
+      "conflict": 0.23,
+      "importance": 0.218,
+      "locations": {
+        "丁山中殿": 2
+      },
+      "characters": {
+        "二太监": 1,
+        "武则天": 1
+      },
+      "links": [
+        {
+          "source": "二太监",
+          "target": "武则天",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "丁山中殿",
+      "characters": [
+        {
+          "name": "武则天",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "孤单凄凉坐深宫，",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "张天佐",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "新君柔弱成何用，",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "张天佑",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "不斩薛氏我难容。",
+          "rating": -0.2,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：3位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.726,
+        "conflict": 1.0,
+        "sentiment": 0.085
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "丁山中殿",
+      "characters": [
+        {
+          "name": "李显",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "龙心嗟叹思忠勇，寡人常怀薛氏功。",
+          "rating": 0.5,
+          "role": "生"
+        },
+        {
+          "name": "武则天",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "皇儿平身。",
+          "rating": -0.5,
+          "role": "旦"
+        },
+        {
+          "name": "太监",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：3位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.813,
+        "conflict": 1.0,
+        "sentiment": 0.283
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "丁山中殿",
+      "characters": [
+        {
+          "name": "武则天",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "你即出长安。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "李显",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "哎呀，母后吓！",
+          "rating": -1.0,
+          "role": "生"
+        },
+        {
+          "name": "韦后",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "主上为君如尧舜，",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：3位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.896,
+        "conflict": 0.571,
+        "sentiment": 0.15
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "丁山中殿",
+      "characters": [
+        {
+          "name": "武则天",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哈哈哈！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "二太监",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第4场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.548,
+        "conflict": 0.0,
+        "sentiment": 0.01
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "丁山中殿",
+      "characters": [
+        {
+          "name": "武则天",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "皇儿已废，本后执掌江山，谁敢搭救薛氏满门！",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第5场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.568,
+        "conflict": 0.0,
+        "sentiment": 0.24
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "武则天",
+      "short": "武则",
+      "key": "武则天",
+      "quote": "武则天 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李显",
+      "short": "李显",
+      "key": "李显",
+      "quote": "李显 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "韦后",
+      "short": "韦后",
+      "key": "韦后",
+      "quote": "韦后 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二太监",
+      "short": "二太",
+      "key": "二太监",
+      "quote": "二太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张天佐",
+      "short": "张天",
+      "key": "张天佐",
+      "quote": "张天佐 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张天佑",
+      "short": "张天",
+      "key": "张天佑",
+      "quote": "张天佑 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "丁山中殿",
+      "key": "丁山中殿",
+      "quote": "场景发生在丁山中殿"
+    }
+  ]
+}

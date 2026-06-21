@@ -1,0 +1,256 @@
+{
+  "title": "举鼎观画",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01023003_举鼎观画.json",
+  "source_folder": "01000000",
+  "plot_summary": "唐武则天时，薛刚闯祸，满门抄斩。薛刚逃出，占据寒山，积粮招兵，为报复之计。时薛刚兄薛猛，被武三\n思全家诛戮。有儿薛蛟，尚在襁褓，亦将受戮。薛猛有至友徐策，服官在朝。闻信后，往法场祭之，暗将己\n儿藏之金斗，换出薛蛟，以留薛门后裔。行刑时徐策子被狂风吹去。迨薛蛟年长，臂力过人，徐策亦拜相。\n一日徐策往朝堂，薛蛟与书童至门外，将石狮举起戏玩。适徐策回府，见狮易处，问书童，知薛蛟所为，乃\n唤薛蛟入祖先堂，观薛家被难图。薛蛟莫明其故。徐策为细讲当日冤情，声明薛蛟并非亲生子，实薛门后裔。\n薛蛟闻言大哭，誓必报仇。徐策乃修书付薛蛟，嘱至寒山助叔报仇。",
+  "performance_notes": "京剧脚本，初时悉本乱弹。自京津以及皖汴汉越江湖各班，无不翕然宗之。虽腔调或异，而曲本则遵守前规，\n南北若合一契。自山陕班入京，分得一席地，积渐而盛行于南省。近且江湖班中，亦皆京腔秦腔夹杂演唱，\n于是乱弹之藩篱尽破，而一戏遂有两脚本矣。如《南天门·曹福登仙》、《汾河湾·仁贵回窑》、《玉堂\n春》、《蝴蝶梦》、《忠孝图》等，不一而足。才外则辗转相授，口传或误。旋经名伶窜改订定，因此亦不\n免稍有异同。此剧本已见诸第一册中，因其前数场稍有歧异处，故特再觅得叫天、鸿声两名伶所唱之真本，\n亟为披露，以饷读者。当亦研究戏学诸君所急欲一观者乎？",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 166,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛蛟": 1,
+        "家院": 1,
+        "书童": 1,
+        "徐策": 1
+      },
+      "links": [
+        {
+          "source": "书童",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "徐策",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "徐策",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 136,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.901,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛蛟": 1,
+        "徐策": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "徐策",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛蛟",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "薛蛟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "幼习兵书，论韬略，盖世称奇。",
+          "rating": 0.636,
+          "role": "小生"
+        },
+        {
+          "name": "书童",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "徐策",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "朝罢了圣主爷转回府门，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "今日门官告假，书童代管。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，166行",
+      "firstLine": 1,
+      "lastLine": 166,
+      "numLines": 166,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.149,
+        "sentiment": 0.585
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "家院",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "请相爷。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐策",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我儿向前拜过，要多拜上几拜。",
+          "rating": -0.053,
+          "role": "老生"
+        },
+        {
+          "name": "薛蛟",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "吓，爹爹，想我家世代文职官员，为何悬挂这武将的真容？",
+          "rating": -0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，136行",
+      "firstLine": 1,
+      "lastLine": 136,
+      "numLines": 136,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.392,
+        "sentiment": 0.11
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐策",
+      "short": "徐策",
+      "key": "徐策",
+      "quote": "徐策 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛蛟",
+      "short": "薛蛟",
+      "key": "薛蛟",
+      "quote": "薛蛟 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "书童",
+      "short": "书童",
+      "key": "书童",
+      "quote": "书童 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

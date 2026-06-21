@@ -1,0 +1,110 @@
+{
+  "title": "幻化",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "02001056_幻化.json",
+  "source_folder": "02000000",
+  "plot_summary": "庄周闲步田间，见骷髅一堆，无人葬埋，不胜叹息。骷髅乃乘庄周入睡，向庄周历述死后之乐与生前之苦，\n最后庄周反被骷髅说服，出家修道。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 104,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "庄周": 1,
+        "老人": 1
+      },
+      "links": [
+        {
+          "source": "庄周",
+          "target": "老人",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "老人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "茫茫不知处，悠悠何所归？生前无人识，死后有谁知？",
+          "rating": 0.25,
+          "role": "外"
+        },
+        {
+          "name": "庄周",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "晓风凉，旭日遮晴障，",
+          "rating": -0.429,
+          "role": "老生"
+        }
+      ],
+      "summary": "段落1：2位角色，104行",
+      "firstLine": 1,
+      "lastLine": 104,
+      "numLines": 104,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.513,
+        "sentiment": 0.133
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "庄周",
+      "short": "庄周",
+      "key": "庄周",
+      "quote": "庄周 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "老人",
+      "short": "老人",
+      "key": "老人",
+      "quote": "老人 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "title": "救儒逃洞",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "02006036_救儒逃洞.json",
+  "source_folder": "02000000",
+  "plot_summary": "闻仁同其妻花香洁进京观看火灯，黄袍郎使动妖风，将柏宪之女百花羞及花香洁一同卷往洞中。柏宪寻女不\n得，遂疑闻仁使用妖术，将百花羞诱走，乃令人捕闻仁问罪。都察院认为情有可疑，宽限一月，令闻仁寻觅\n其妻花香洁及百花羞所在。闻仁到处访问不得，认为限期一满，即须问斩，拟行自尽。适孙悟空及猪悟能在\n空中经过，见冤气冲天，知有隐情，逐降下云端，向闻仁问讯。始知闻仁所找者，即被黄袍郎卷去之百花羞\n与花香洁，遂领闻仁同至黄袍郎洞中，将花香洁与百花羞救出云。",
+  "performance_notes": "此剧亦系根据《西游记》第三十一回“孙行者智降妖怪”一段故事编来。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 21,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.609,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "闻仁": 1,
+        "捕役": 1
+      },
+      "links": [
+        {
+          "source": "捕役",
+          "target": "闻仁",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.522,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙悟空": 1,
+        "猪悟能": 1
+      },
+      "links": [
+        {
+          "source": "孙悟空",
+          "target": "猪悟能",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 69,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙悟空": 1,
+        "猪悟能": 1,
+        "四小妖": 1,
+        "小妖甲": 1,
+        "闻仁": 1
+      },
+      "links": [
+        {
+          "source": "孙悟空",
+          "target": "闻仁",
+          "value": 1
+        },
+        {
+          "source": "猪悟能",
+          "target": "闻仁",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "闻仁",
+          "value": 1
+        },
+        {
+          "source": "小妖甲",
+          "target": "闻仁",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "小妖甲",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "小妖甲",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "小妖甲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 30,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 0.87,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙悟空": 1,
+        "花香洁": 1,
+        "猪悟能": 1,
+        "百花羞": 1,
+        "闻仁": 1
+      },
+      "links": [
+        {
+          "source": "孙悟空",
+          "target": "花香洁",
+          "value": 1
+        },
+        {
+          "source": "百花羞",
+          "target": "花香洁",
+          "value": 1
+        },
+        {
+          "source": "猪悟能",
+          "target": "花香洁",
+          "value": 1
+        },
+        {
+          "source": "花香洁",
+          "target": "闻仁",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "孙悟空",
+          "target": "闻仁",
+          "value": 1
+        },
+        {
+          "source": "猪悟能",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "百花羞",
+          "target": "闻仁",
+          "value": 1
+        },
+        {
+          "source": "猪悟能",
+          "target": "闻仁",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "闻仁",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "愁城一望无边际，",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "捕役",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "你也不必怨苦，好歹往前途寻问一番。若再没有，限期已满。要去回都老爷的",
+          "rating": -0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.591,
+        "conflict": 0.69,
+        "sentiment": 0.024
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙悟空",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "驾云迅逝，",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "猪悟能",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "哥哥，我们去救师父要紧，别样事儿，不要管他罢。",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.578,
+        "conflict": 0.667,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "闻仁",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "两腿疼痛步难挪，",
+          "rating": -0.2,
+          "role": "小生"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "那汉子为着何事，带锁披枷，寻此短见？",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "猪悟能",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "可是百花羞么？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "四小妖",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "不好了！猴公公、猪爹爹来了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "小妖甲",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "不在家，到柏将军家认丈人去了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，69行",
+      "firstLine": 1,
+      "lastLine": 69,
+      "numLines": 69,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.571,
+        "sentiment": 0.107
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "花香洁",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "妖怪饶命吓！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "哪个是百花羞？",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "百花羞",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "奴家是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "猪悟能",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "你便是闻道泉的妻子么？",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "闻仁",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "在这里。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：5位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.83,
+        "conflict": 0.0,
+        "sentiment": 0.131
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "闻仁",
+      "short": "闻仁",
+      "key": "闻仁",
+      "quote": "闻仁 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "猪悟能",
+      "short": "猪悟",
+      "key": "猪悟能",
+      "quote": "猪悟能 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "花香洁",
+      "short": "花香",
+      "key": "花香洁",
+      "quote": "花香洁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "捕役",
+      "short": "捕役",
+      "key": "捕役",
+      "quote": "捕役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四小妖",
+      "short": "四小",
+      "key": "四小妖",
+      "quote": "四小妖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "百花羞",
+      "short": "百花",
+      "key": "百花羞",
+      "quote": "百花羞 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小妖甲",
+      "short": "小妖",
+      "key": "小妖甲",
+      "quote": "小妖甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

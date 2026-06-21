@@ -1,0 +1,151 @@
+{
+  "title": "描容上路",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "04022002_描容上路.json",
+  "source_folder": "04000000",
+  "plot_summary": "陈留郡士人蔡伯喈奉父命进京赴试，中状元后，被牛丞相藉王命迫招为婿，和家中断绝音讯。当时，陈留郡\n一带正闹灾荒，蔡妻赵五娘乞来白米奉进翁姑，自己则以糠秕充饥。蔡家二老终于饥饿而死。赵五娘卖发埋\n葬了公婆，决意到京城去寻找丈夫。她在月光下凭着记忆描画了公婆的容像，打算带在身旁，作为纪念。蔡\n家近邻张广才，是一个善良热情的老人，听说赵五娘要赴京寻夫，便送她一面琵琶和一些散碎银两。在郊外\n送别赵五娘时，又再三叮嘱她一路小心；并愿意代赵五娘照看二老的坟墓。赵五娘衷心感激，与张广才洒泪\n而别。",
+  "performance_notes": "本剧是根据明初大戏曲家高则诚所著《琵琶记》中的一折改编的。\n本剧是根据周信芳先生的演出本，由周先生和华东戏曲研究院编审室严朴共同整理的。整理时仅在个别词句\n上作了一些修改。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 158,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵五娘": 1,
+        "张广才": 1
+      },
+      "links": [
+        {
+          "source": "张广才",
+          "target": "赵五娘",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.061,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张广才": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵五娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "家业凋零，思夫君，日夜忧心！",
+          "rating": -0.077,
+          "role": "旦"
+        },
+        {
+          "name": "张广才",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "听衰柳鸣寒蝉树枯草瘦，",
+          "rating": -0.556,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：2位角色，158行",
+      "firstLine": 1,
+      "lastLine": 158,
+      "numLines": 158,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.368,
+        "sentiment": 0.014
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张广才",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "五娘慢走，恕老汉不远送了。",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.568,
+        "conflict": 1.0,
+        "sentiment": 0.813
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张广才",
+      "short": "张广",
+      "key": "张广才",
+      "quote": "张广才 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵五娘",
+      "short": "赵五",
+      "key": "赵五娘",
+      "quote": "赵五娘 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

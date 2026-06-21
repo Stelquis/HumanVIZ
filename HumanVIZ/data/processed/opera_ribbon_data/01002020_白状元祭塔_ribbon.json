@@ -1,0 +1,183 @@
+{
+  "title": "白状元祭塔",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01002020_白状元祭塔.json",
+  "source_folder": "01000000",
+  "plot_summary": "许仙之妻白氏，系白蛇妖化身。金山主持法海，与有嫌隙，用合钵镇压之，而建塔其上。后白氏所生之子许\n仕林，以第一人及第，衣锦还乡，就塔前祭之。白氏出见大哭，历诉往事。痛恨许仙薄幸，法海狠毒不已。\n许仕林虽为乌哺情深，莫能救也，叹惜愤恨而归。",
+  "performance_notes": "此剧事实荒诞，听者付之一笑可也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.162,
+      "locations": {
+        "无穷顶砚台": 1
+      },
+      "characters": {
+        "许仕林": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 91,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "无穷顶砚台": 1
+      },
+      "characters": {
+        "许仕林": 1,
+        "塔神": 1,
+        "白素贞": 1
+      },
+      "links": [
+        {
+          "source": "塔神",
+          "target": "许仕林",
+          "value": 1
+        },
+        {
+          "source": "塔神",
+          "target": "白素贞",
+          "value": 1
+        },
+        {
+          "source": "白素贞",
+          "target": "许仕林",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "无穷顶砚台",
+      "characters": [
+        {
+          "name": "许仕林",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一色杏花红十里，状元归去马如飞。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.598,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "无穷顶砚台",
+      "characters": [
+        {
+          "name": "塔神",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "力大无穷顶砚台，玉帝符旨把某差。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "许仕林",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "母亲！老娘！娘亲！",
+          "rating": -0.5,
+          "role": "小生"
+        },
+        {
+          "name": "白素贞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "在塔中思娇儿珠泪滚滚，",
+          "rating": -0.5,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：3位角色，91行",
+      "firstLine": 1,
+      "lastLine": 91,
+      "numLines": 91,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.38,
+        "sentiment": -0.064
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "白素贞",
+      "short": "白素",
+      "key": "白素贞",
+      "quote": "白素贞 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "许仕林",
+      "short": "许仕",
+      "key": "许仕林",
+      "quote": "许仕林 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "塔神",
+      "short": "塔神",
+      "key": "塔神",
+      "quote": "塔神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "无穷顶砚台",
+      "key": "无穷顶砚台",
+      "quote": "场景发生在无穷顶砚台"
+    }
+  ]
+}

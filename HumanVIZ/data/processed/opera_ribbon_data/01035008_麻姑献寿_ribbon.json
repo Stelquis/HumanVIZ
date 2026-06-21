@@ -1,0 +1,845 @@
+{
+  "title": "麻姑献寿",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 9,
+  "num_locations": 4,
+  "source_file": "01035008_麻姑献寿.json",
+  "source_folder": "01000000",
+  "plot_summary": "全剧大致谓某月某日，西池王母圣诞，一年一度蟠桃大会上，中八洞神仙无不齐临祝寿。百花、牡丹、芍药、\n海棠四仙子，往邀麻姑同赴瑶池祝寿。麻姑仙子因正在采取群花欲做百花酿，以备称觞上寿，故令四仙子\n先行，自己则一路寻采。寻至绛珠河畔觅得灵芝始归，预备酿成上献。既而李铁拐奉众仙之命，专往兜率宫\n李老君处乞题寿词，以便进祝。既而王母出场，即是蟠桃大会，瑶池开宴日矣。一班仙姑道长，换次进觞，\n次为麻姑献酒，王母命麻姑向众仙歌舞行酒，既又命玉女向园中摘取蟠桃，各赐一枚，尽欢而散。其祝寿行\n酒时之一段歌舞，颇悠扬可听，真有众仙同日咏霓裳之致。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 56,
+      "summary": "第一场；第二场",
+      "conflict": 0.309,
+      "importance": 0.594,
+      "locations": {
+        "绛珠河畔": 1,
+        "座出得洞府": 1
+      },
+      "characters": {
+        "牡丹仙子": 1,
+        "百花仙子": 1,
+        "麻姑": 1,
+        "芍药仙子": 1,
+        "金母": 1,
+        "海棠仙子": 1
+      },
+      "links": [
+        {
+          "source": "牡丹仙子",
+          "target": "百花仙子",
+          "value": 2
+        },
+        {
+          "source": "百花仙子",
+          "target": "芍药仙子",
+          "value": 2
+        },
+        {
+          "source": "海棠仙子",
+          "target": "百花仙子",
+          "value": 2
+        },
+        {
+          "source": "百花仙子",
+          "target": "麻姑",
+          "value": 2
+        },
+        {
+          "source": "百花仙子",
+          "target": "金母",
+          "value": 2
+        },
+        {
+          "source": "牡丹仙子",
+          "target": "芍药仙子",
+          "value": 2
+        },
+        {
+          "source": "海棠仙子",
+          "target": "牡丹仙子",
+          "value": 2
+        },
+        {
+          "source": "牡丹仙子",
+          "target": "麻姑",
+          "value": 2
+        },
+        {
+          "source": "牡丹仙子",
+          "target": "金母",
+          "value": 2
+        },
+        {
+          "source": "海棠仙子",
+          "target": "芍药仙子",
+          "value": 2
+        },
+        {
+          "source": "芍药仙子",
+          "target": "麻姑",
+          "value": 2
+        },
+        {
+          "source": "芍药仙子",
+          "target": "金母",
+          "value": 2
+        },
+        {
+          "source": "海棠仙子",
+          "target": "麻姑",
+          "value": 2
+        },
+        {
+          "source": "海棠仙子",
+          "target": "金母",
+          "value": 2
+        },
+        {
+          "source": "金母",
+          "target": "麻姑",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 32,
+      "summary": "第三场；第四场",
+      "conflict": 1.193,
+      "importance": 0.339,
+      "locations": {
+        "绛珠河畔": 2
+      },
+      "characters": {
+        "李铁拐": 1,
+        "麻姑": 1,
+        "金母": 1
+      },
+      "links": [
+        {
+          "source": "李铁拐",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "金母",
+          "target": "麻姑",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 195,
+      "summary": "第五场；第六场",
+      "conflict": 1.05,
+      "importance": 1.0,
+      "locations": {
+        "绛珠河畔": 1,
+        "金母上高台": 1
+      },
+      "characters": {
+        "牡丹仙子": 1,
+        "吕洞宾": 1,
+        "百花仙子": 1,
+        "李铁拐": 1,
+        "麻姑": 1,
+        "芍药仙子": 1,
+        "金母": 1,
+        "海棠仙子": 1,
+        "曹国舅": 1
+      },
+      "links": [
+        {
+          "source": "吕洞宾",
+          "target": "曹国舅",
+          "value": 2
+        },
+        {
+          "source": "吕洞宾",
+          "target": "李铁拐",
+          "value": 2
+        },
+        {
+          "source": "吕洞宾",
+          "target": "金母",
+          "value": 2
+        },
+        {
+          "source": "曹国舅",
+          "target": "李铁拐",
+          "value": 2
+        },
+        {
+          "source": "曹国舅",
+          "target": "金母",
+          "value": 2
+        },
+        {
+          "source": "李铁拐",
+          "target": "金母",
+          "value": 2
+        },
+        {
+          "source": "海棠仙子",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "金母",
+          "target": "麻姑",
+          "value": 1
+        },
+        {
+          "source": "牡丹仙子",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "百花仙子",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "芍药仙子",
+          "target": "金母",
+          "value": 1
+        },
+        {
+          "source": "吕洞宾",
+          "target": "海棠仙子",
+          "value": 1
+        },
+        {
+          "source": "曹国舅",
+          "target": "海棠仙子",
+          "value": 1
+        },
+        {
+          "source": "海棠仙子",
+          "target": "麻姑",
+          "value": 1
+        },
+        {
+          "source": "李铁拐",
+          "target": "海棠仙子",
+          "value": 1
+        },
+        {
+          "source": "海棠仙子",
+          "target": "牡丹仙子",
+          "value": 1
+        },
+        {
+          "source": "海棠仙子",
+          "target": "百花仙子",
+          "value": 1
+        },
+        {
+          "source": "海棠仙子",
+          "target": "芍药仙子",
+          "value": 1
+        },
+        {
+          "source": "吕洞宾",
+          "target": "麻姑",
+          "value": 1
+        },
+        {
+          "source": "吕洞宾",
+          "target": "牡丹仙子",
+          "value": 1
+        },
+        {
+          "source": "吕洞宾",
+          "target": "百花仙子",
+          "value": 1
+        },
+        {
+          "source": "吕洞宾",
+          "target": "芍药仙子",
+          "value": 1
+        },
+        {
+          "source": "曹国舅",
+          "target": "麻姑",
+          "value": 1
+        },
+        {
+          "source": "曹国舅",
+          "target": "牡丹仙子",
+          "value": 1
+        },
+        {
+          "source": "曹国舅",
+          "target": "百花仙子",
+          "value": 1
+        },
+        {
+          "source": "曹国舅",
+          "target": "芍药仙子",
+          "value": 1
+        },
+        {
+          "source": "李铁拐",
+          "target": "麻姑",
+          "value": 1
+        },
+        {
+          "source": "牡丹仙子",
+          "target": "麻姑",
+          "value": 1
+        },
+        {
+          "source": "百花仙子",
+          "target": "麻姑",
+          "value": 1
+        },
+        {
+          "source": "芍药仙子",
+          "target": "麻姑",
+          "value": 1
+        },
+        {
+          "source": "李铁拐",
+          "target": "牡丹仙子",
+          "value": 1
+        },
+        {
+          "source": "李铁拐",
+          "target": "百花仙子",
+          "value": 1
+        },
+        {
+          "source": "李铁拐",
+          "target": "芍药仙子",
+          "value": 1
+        },
+        {
+          "source": "牡丹仙子",
+          "target": "百花仙子",
+          "value": 1
+        },
+        {
+          "source": "牡丹仙子",
+          "target": "芍药仙子",
+          "value": 1
+        },
+        {
+          "source": "百花仙子",
+          "target": "芍药仙子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "绛珠河畔",
+      "characters": [
+        {
+          "name": "百花仙子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "云中化日东升浩，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "牡丹仙子",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "紫霞飞雪瑞气飘。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "芍药仙子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "上苑齐献灵山宝，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "海棠仙子",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "瑶池会上赴蟠桃。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "麻姑",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "金母",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第一场：6位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.678,
+        "conflict": 0.0,
+        "sentiment": 0.807
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "座出得洞府",
+      "characters": [
+        {
+          "name": "麻姑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "好景色艳阳天花林开放，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "百花仙子",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "离却洞府到深山，",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "海棠仙子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "但见麻姑在面前。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "牡丹仙子",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "芍药仙子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "金母",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第二场：6位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.78,
+        "conflict": 0.625,
+        "sentiment": 0.498
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "绛珠河畔",
+      "characters": [
+        {
+          "name": "李铁拐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "洞府领了众仙命，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "金母",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第三场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.534,
+        "conflict": 1.0,
+        "sentiment": 0.82
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "绛珠河畔",
+      "characters": [
+        {
+          "name": "麻姑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "离蓬莱又来到绛珠河畔，",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "金母",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第四场：2位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.687,
+        "conflict": 0.476,
+        "sentiment": -0.373
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "绛珠河畔",
+      "characters": [
+        {
+          "name": "吕洞宾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "离却天宫到蓬莱，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "曹国舅",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "庆贺娘娘寿诞开。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李铁拐",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "金母",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第五场：4位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.603,
+        "conflict": 0.606,
+        "sentiment": -0.373
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "金母上高台",
+      "characters": [
+        {
+          "name": "金母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "喜孜孜移莲步用目观望，",
+          "rating": 0.667,
+          "role": "老旦"
+        },
+        {
+          "name": "海棠仙子",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "画堂筵庆雀屏开，福禄荣华自天来。",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "吕洞宾",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "银烛辉煌瑞彩草，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "曹国舅",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "年年此日捧蟠桃。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "麻姑",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "手捧佳酿瑶池献，整束彩衣拜金阶。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "李铁拐",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "吓，金母，麻姑仙子之长生不老酒，可能给我等饮一杯否？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "牡丹仙子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "百花仙子",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "芍药仙子",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第六场：9位角色，173行",
+      "firstLine": 1,
+      "lastLine": 173,
+      "numLines": 173,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.305,
+        "sentiment": 0.677
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "麻姑",
+      "short": "麻姑",
+      "key": "麻姑",
+      "quote": "麻姑 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "金母",
+      "short": "金母",
+      "key": "金母",
+      "quote": "金母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李铁拐",
+      "short": "李铁",
+      "key": "李铁拐",
+      "quote": "李铁拐 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "吕洞宾",
+      "short": "吕洞",
+      "key": "吕洞宾",
+      "quote": "吕洞宾 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "百花仙子",
+      "short": "百花",
+      "key": "百花仙子",
+      "quote": "百花仙子 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "牡丹仙子",
+      "short": "牡丹",
+      "key": "牡丹仙子",
+      "quote": "牡丹仙子 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "芍药仙子",
+      "short": "芍药",
+      "key": "芍药仙子",
+      "quote": "芍药仙子 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "海棠仙子",
+      "short": "海棠",
+      "key": "海棠仙子",
+      "quote": "海棠仙子 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "曹国舅",
+      "short": "曹国",
+      "key": "曹国舅",
+      "quote": "曹国舅 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "绛珠河畔",
+      "key": "绛珠河畔",
+      "quote": "场景发生在绛珠河畔"
+    },
+    {
+      "name": "金母上高台",
+      "key": "金母上高台",
+      "quote": "场景发生在金母上高台"
+    },
+    {
+      "name": "座出得洞府",
+      "key": "座出得洞府",
+      "quote": "场景发生在座出得洞府"
+    },
+    {
+      "name": "艳胜似天堂",
+      "key": "艳胜似天堂",
+      "quote": "场景发生在艳胜似天堂"
+    }
+  ]
+}

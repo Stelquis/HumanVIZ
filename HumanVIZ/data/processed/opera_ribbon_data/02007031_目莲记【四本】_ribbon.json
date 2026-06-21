@@ -1,0 +1,268 @@
+{
+  "title": "目莲记",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02007031_目莲记【四本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "目莲一门，素行善。目莲之母常诵经，戒杀放生。久之目莲之兄为佛度去，其父出门追寻，亦为佛度去。一\n日目莲自学塾归，途中又为地藏佛度去。其母参禅未透，不知彼等已成正果。反以为彼苍梦梦，我佛昏昏，\n善恶不分，竟令我家破人亡。遂大开杀戒，停止善举。经卷佛像，毁之一空。死后冥王怒其修真不果，造孽\n过多。令鬼卒押在酆都城，遍观刀山、剑树、油锅、血池，刳腹抽肠，剥皮割舌，以及煎熬磨碓种种冥刑。\n并谓冤冤相报，毫无情面。目莲之母，属目之馀，心塞胆裂，悔之无及。游至第六殿，阎王判至滑油山受苦，\n适目莲寻母而至，母子相见大哭。目莲弘施佛力，救母出地狱而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 80,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.769,
+      "locations": {
+        "看守酆都城": 1
+      },
+      "characters": {
+        "大鬼": 1,
+        "众小鬼": 1,
+        "刘青提": 1
+      },
+      "links": [
+        {
+          "source": "刘青提",
+          "target": "大鬼",
+          "value": 1
+        },
+        {
+          "source": "众小鬼",
+          "target": "大鬼",
+          "value": 1
+        },
+        {
+          "source": "众小鬼",
+          "target": "刘青提",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 128,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "看守酆都城": 1
+      },
+      "characters": {
+        "大鬼": 1,
+        "小鬼": 1,
+        "目莲僧": 1,
+        "刘青提": 1
+      },
+      "links": [
+        {
+          "source": "大鬼",
+          "target": "目莲僧",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "大鬼",
+          "value": 1
+        },
+        {
+          "source": "大鬼",
+          "target": "小鬼",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "目莲僧",
+          "value": 1
+        },
+        {
+          "source": "小鬼",
+          "target": "目莲僧",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "小鬼",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "看守酆都城",
+      "characters": [
+        {
+          "name": "大鬼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "我乃六殿阎君麾下大鬼是也。今有刘氏青提作恶多端，将她打在滑油山前受罪。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "刘青提",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "黑暗暗雾矇矇一路上无光，",
+          "rating": -0.4,
+          "role": "老旦"
+        },
+        {
+          "name": "众小鬼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "长官唤你。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，80行",
+      "firstLine": 1,
+      "lastLine": 80,
+      "numLines": 80,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.42,
+        "sentiment": -0.102
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "看守酆都城",
+      "characters": [
+        {
+          "name": "大鬼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哽吓！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "目莲僧",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "阿弥陀佛。",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "刘青提",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "有哇！",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "小鬼",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "阎君回殿来了！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，128行",
+      "firstLine": 1,
+      "lastLine": 128,
+      "numLines": 128,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.234,
+        "sentiment": -0.019
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘青提",
+      "short": "刘青",
+      "key": "刘青提",
+      "quote": "刘青提 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "大鬼",
+      "short": "大鬼",
+      "key": "大鬼",
+      "quote": "大鬼 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "目莲僧",
+      "short": "目莲",
+      "key": "目莲僧",
+      "quote": "目莲僧 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "小鬼",
+      "short": "小鬼",
+      "key": "小鬼",
+      "quote": "小鬼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众小鬼",
+      "short": "众小",
+      "key": "众小鬼",
+      "quote": "众小鬼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "看守酆都城",
+      "key": "看守酆都城",
+      "quote": "场景发生在看守酆都城"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "title": "梅龙镇",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "90000005_梅龙镇.json",
+  "source_folder": "90000000",
+  "plot_summary": "正德帝私游大同，过李龙酒店，见李龙之妹李凤姐美，乃加调戏。后实告以皇帝身份，封李凤姐为妃。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 341,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "正德帝": 1,
+        "李凤姐": 1
+      },
+      "links": [
+        {
+          "source": "李凤姐",
+          "target": "正德帝",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 100,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.454,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "正德帝": 1,
+        "李凤姐": 1
+      },
+      "links": [
+        {
+          "source": "李凤姐",
+          "target": "正德帝",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "正德帝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "嗯哼！",
+          "rating": 0.0,
+          "role": "老生，武生巾，风帽，内罩黄道袍，外穿蓝道袍，红彩裤，穿厚底，手执扇子"
+        },
+        {
+          "name": "李凤姐",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来了！",
+          "rating": 0.333,
+          "role": "旦，头梳抓髻，穿粉红裤袄，系饭袋和四喜帚，彩鞋，白袜子，手绢"
+        }
+      ],
+      "summary": "第一场：2位角色，341行",
+      "firstLine": 1,
+      "lastLine": 341,
+      "numLines": 341,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.139,
+        "sentiment": 0.251
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李凤姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "前面走的李凤姐，",
+          "rating": 0.0,
+          "role": "旦，头梳抓髻，穿粉红裤袄，系饭袋和四喜帚，彩鞋，白袜子，手绢"
+        },
+        {
+          "name": "正德帝",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "后面跟随正德帝君。",
+          "rating": 0.0,
+          "role": "老生，武生巾，风帽，内罩黄道袍，外穿蓝道袍，红彩裤，穿厚底，手执扇子"
+        }
+      ],
+      "summary": "第二场：2位角色，100行",
+      "firstLine": 1,
+      "lastLine": 100,
+      "numLines": 100,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.836,
+        "conflict": 0.228,
+        "sentiment": 0.081
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "正德帝",
+      "short": "正德",
+      "key": "正德帝",
+      "quote": "正德帝 — 老生，武生巾，风帽，内罩黄道袍，外穿蓝道袍，红彩裤，穿厚底，手执扇子",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老生，武生巾，风帽，内罩黄道袍，外穿蓝道袍，红彩裤，穿厚底，手执扇子",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李凤姐",
+      "short": "李凤",
+      "key": "李凤姐",
+      "quote": "李凤姐 — 旦，头梳抓髻，穿粉红裤袄，系饭袋和四喜帚，彩鞋，白袜子，手绢",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 旦，头梳抓髻，穿粉红裤袄，系饭袋和四喜帚，彩鞋，白袜子，手绢",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

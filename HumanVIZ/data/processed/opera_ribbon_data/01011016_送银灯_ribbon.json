@@ -1,0 +1,219 @@
+{
+  "title": "送银灯",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01011016_送银灯.json",
+  "source_folder": "01000000",
+  "plot_summary": "有张子显者，自称为秀士，为宦家子，不详其为何等人。风流蕴藉，大概如张绪当年。因当大比年，晋京应\n试。途经一镇集，忽被一打虎少年劫之去，闭置书馆中。旋有一老妇出，与之议婚事，欲赘为婿。至晚，忽\n有美人送灯至。张子显见之，心摇摇不能自主，遂与扳谈。言语间一味挑逗，且挽之求欢。女名桂娟。其送\n灯至此，本出老妇计，盖故予以暧昧可乘之机。使男女见之，两相爱悦，而苟且作合也。桂娟见张子显如潘\n安、宋玉，心已雅爱之。惟女孩儿家人前尚腼腆，故假不允。张子显至此，忍俊不禁，急色儿已轻薄不复能\n耐。方屈膝依依跪桂娟裙胯间，而老妇忽至，始则故装门面，作假正经语以窘张子显。迨张子显求之再三，\n乃卒为之配合。",
+  "performance_notes": "此种调情戏，与《月华缘》、《打樱桃》等，同是一丘之貉耳。从前本西皮调，近则多唱梆子矣。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 37,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.46,
+      "locations": {
+        "劫进他府": 1
+      },
+      "characters": {
+        "桂娟": 1,
+        "老妇": 1,
+        "张子显": 1
+      },
+      "links": [
+        {
+          "source": "张子显",
+          "target": "桂娟",
+          "value": 1
+        },
+        {
+          "source": "张子显",
+          "target": "老妇",
+          "value": 1
+        },
+        {
+          "source": "桂娟",
+          "target": "老妇",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 124,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "劫进他府": 1
+      },
+      "characters": {
+        "张子显": 1,
+        "老妇": 1,
+        "桂娟": 1
+      },
+      "links": [
+        {
+          "source": "张子显",
+          "target": "桂娟",
+          "value": 1
+        },
+        {
+          "source": "桂娟",
+          "target": "老妇",
+          "value": 1
+        },
+        {
+          "source": "张子显",
+          "target": "老妇",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "劫进他府",
+      "characters": [
+        {
+          "name": "张子显",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "十载寒窗苦，但愿早成名。",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "桂娟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "有桂娟持银灯怎敢怠慢？",
+          "rating": -1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "老妇",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "儿为何不走？",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第1场：3位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.907,
+        "conflict": 0.506,
+        "sentiment": -0.108
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "劫进他府",
+      "characters": [
+        {
+          "name": "桂娟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "妈妈，娘吓！",
+          "rating": 0.333,
+          "role": "花旦"
+        },
+        {
+          "name": "张子显",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "书馆里闷坏我张子显，",
+          "rating": 0.667,
+          "role": "小生"
+        },
+        {
+          "name": "老妇",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "那是家母。",
+          "rating": 1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第2场：3位角色，124行",
+      "firstLine": 1,
+      "lastLine": 124,
+      "numLines": 124,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.3,
+        "sentiment": 0.493
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张子显",
+      "short": "张子",
+      "key": "张子显",
+      "quote": "张子显 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "桂娟",
+      "short": "桂娟",
+      "key": "桂娟",
+      "quote": "桂娟 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "老妇",
+      "short": "老妇",
+      "key": "老妇",
+      "quote": "老妇 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "劫进他府",
+      "key": "劫进他府",
+      "quote": "场景发生在劫进他府"
+    }
+  ]
+}

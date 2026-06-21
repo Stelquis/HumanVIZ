@@ -1,0 +1,208 @@
+{
+  "title": "小放牛",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "04021003_小放牛.json",
+  "source_folder": "04000000",
+  "plot_summary": "此剧是一出小歌舞剧。它写一个牧童正在放牛，邻村的小姑娘路过，二人相见，对唱山歌，表达互相爱慕的\n心意。",
+  "performance_notes": "剧本是由北京市戏曲学校教员赵绮霞、王福山、北京市京剧二团演员陈永玲和北京市戏曲编导委员会李岳南、\n刘保绵、袁韵宜共同整理的。对原本，只改动了一些不合人物身份的和低级、庸俗的词句。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 217,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "牧童": 1,
+        "村姑": 1
+      },
+      "links": [
+        {
+          "source": "村姑",
+          "target": "牧童",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.024,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "牧童": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 36,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.424,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "牧童": 1,
+        "村姑": 1
+      },
+      "links": [
+        {
+          "source": "村姑",
+          "target": "牧童",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "牧童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.25,
+          "role": "丑"
+        },
+        {
+          "name": "村姑",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": -0.111,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第1场：2位角色，217行",
+      "firstLine": 1,
+      "lastLine": 217,
+      "numLines": 217,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.139,
+        "sentiment": 0.331
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "牧童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "等我牵上牛。哟，我的牛哪儿去了？",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：1位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.555,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "牧童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哪哈咿呀呵！情妹恋情哥！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "村姑",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "情妹恋情哥，窗下绣绫罗！",
+          "rating": 1.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第3场：2位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.785,
+        "conflict": 0.714,
+        "sentiment": 0.92
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "村姑",
+      "short": "村姑",
+      "key": "村姑",
+      "quote": "村姑 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "牧童",
+      "short": "牧童",
+      "key": "牧童",
+      "quote": "牧童 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

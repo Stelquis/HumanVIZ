@@ -1,0 +1,323 @@
+{
+  "title": "变羊记",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70601110_变羊记.json",
+  "source_folder": "70601000",
+  "plot_summary": "宋朝，陈慥（季常）因其妻柳氏禁其外出，缚之于房。苏东坡知之，遂命女仆贾妈假扮巫婆，以羊代陈慥，\n佯告柳氏陈慥变为羊；柳氏惧，乞巫婆读解，巫婆乃假称陈慥因被禁锁故变为羊。柳氏悔恨，陈慥乃得外出。",
+  "performance_notes": "这是萧长华先生早年经常演出的杰作，现经重新整理订正。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 121,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.313,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "柳氏": 1,
+        "陈慥": 1,
+        "苍头": 1,
+        "苏东坡": 1
+      },
+      "links": [
+        {
+          "source": "柳氏",
+          "target": "苍头",
+          "value": 1
+        },
+        {
+          "source": "柳氏",
+          "target": "陈慥",
+          "value": 1
+        },
+        {
+          "source": "柳氏",
+          "target": "苏东坡",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "陈慥",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "苏东坡",
+          "value": 1
+        },
+        {
+          "source": "苏东坡",
+          "target": "陈慥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 652,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "柳氏": 1,
+        "苍头": 1,
+        "贾妈": 1,
+        "陈慥": 1,
+        "苏东坡": 1
+      },
+      "links": [
+        {
+          "source": "柳氏",
+          "target": "苍头",
+          "value": 1
+        },
+        {
+          "source": "柳氏",
+          "target": "陈慥",
+          "value": 1
+        },
+        {
+          "source": "柳氏",
+          "target": "苏东坡",
+          "value": 1
+        },
+        {
+          "source": "柳氏",
+          "target": "贾妈",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "陈慥",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "苏东坡",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "贾妈",
+          "value": 1
+        },
+        {
+          "source": "苏东坡",
+          "target": "陈慥",
+          "value": 1
+        },
+        {
+          "source": "贾妈",
+          "target": "陈慥",
+          "value": 1
+        },
+        {
+          "source": "苏东坡",
+          "target": "贾妈",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "柳氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "嗔伊怪伊，怎当他，无端生事。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "苍头",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "陈慥",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "嗯哼！",
+          "rating": 0.556,
+          "role": "小生"
+        },
+        {
+          "name": "苏东坡",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：4位角色，121行",
+      "firstLine": 1,
+      "lastLine": 121,
+      "numLines": 121,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.741,
+        "conflict": 0.203,
+        "sentiment": 0.449
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "柳氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "轻移莲步出绣房，",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "苍头",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "大奶奶高升叫，想必要糟糕。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "陈慥",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "哈哈哈……",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "苏东坡",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "嗯哼！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "贾妈",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.25,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第二场：5位角色，652行",
+      "firstLine": 1,
+      "lastLine": 652,
+      "numLines": 652,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.037,
+        "sentiment": 0.241
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "贾妈",
+      "short": "贾妈",
+      "key": "贾妈",
+      "quote": "贾妈 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "苍头",
+      "short": "苍头",
+      "key": "苍头",
+      "quote": "苍头 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "柳氏",
+      "short": "柳氏",
+      "key": "柳氏",
+      "quote": "柳氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "陈慥",
+      "short": "陈慥",
+      "key": "陈慥",
+      "quote": "陈慥 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "苏东坡",
+      "short": "苏东",
+      "key": "苏东坡",
+      "quote": "苏东坡 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

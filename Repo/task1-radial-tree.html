@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>特征-行当 径向知识图谱</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #0d1117;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif;
+  overflow: hidden;
+}
+svg#chart {
+  display: block;
+  background: #0d1117;
+}
+</style>
+</head>
+<body>
+<svg id="chart" width="900" height="900"></svg>
+<script>
+(function() {
+  // ============================================================
+  // 1. DATA — embedded from task1-sankey.json
+  // ============================================================
+  const LINKS = [
+    {"source":"刚毅","target":"净","value":1636,"zScore":0.0},
+    {"source":"粗犷","target":"净","value":1636,"zScore":0.0},
+    {"source":"豪放","target":"净","value":1636,"zScore":0.0},
+    {"source":"儒雅","target":"老生","value":1439,"zScore":0.0},
+    {"source":"忠义","target":"老生","value":1439,"zScore":0.0},
+    {"source":"稳重","target":"老生","value":1439,"zScore":0.0},
+    {"source":"机敏","target":"文丑","value":1136,"zScore":0.0},
+    {"source":"滑稽","target":"文丑","value":1136,"zScore":0.0},
+    {"source":"诙谐","target":"文丑","value":1136,"zScore":0.0},
+    {"source":"端庄","target":"青衣·正旦","value":1002,"zScore":0.0},
+    {"source":"贞烈","target":"青衣·正旦","value":1002,"zScore":0.0},
+    {"source":"贤淑","target":"青衣·正旦","value":1002,"zScore":0.0},
+    {"source":"宽厚","target":"末·外·生","value":972,"zScore":97.45},
+    {"source":"持重","target":"末·外·生","value":972,"zScore":97.45},
+    {"source":"儒生气","target":"小生","value":739,"zScore":78.52},
+    {"source":"文雅","target":"小生","value":739,"zScore":0.0},
+    {"source":"清秀","target":"小生","value":739,"zScore":0.0},
+    {"source":"刚毅","target":"武生","value":340,"zScore":0.0},
+    {"source":"武艺高强","target":"武生","value":340,"zScore":83.11},
+    {"source":"英勇","target":"武生","value":340,"zScore":83.11},
+    {"source":"慈祥","target":"老旦","value":279,"zScore":83.81},
+    {"source":"沧桑","target":"老旦","value":279,"zScore":83.81},
+    {"source":"稳重","target":"老旦","value":279,"zScore":0.0},
+    {"source":"娇俏","target":"花旦·花衫","value":233,"zScore":84.34},
+    {"source":"活泼","target":"花旦·花衫","value":233,"zScore":84.34},
+    {"source":"直率","target":"花旦·花衫","value":233,"zScore":84.34},
+    {"source":"矫健","target":"武旦","value":65,"zScore":86.27},
+    {"source":"英武","target":"武旦","value":65,"zScore":86.27},
+    {"source":"飒爽","target":"武旦","value":65,"zScore":86.27},
+    {"source":"敏捷","target":"武丑","value":55,"zScore":86.39},
+    {"source":"滑稽","target":"武丑","value":55,"zScore":0.0},
+    {"source":"灵活","target":"武丑","value":55,"zScore":86.39}
+  ];
+
+  const UNIQUE_FEATURES_COUNT = new Set(LINKS.map(l => l.source)).size; // 29
+
+  // ============================================================
+  // 2. COLOR MAP (user-specified)
+  // ============================================================
+  const ROLE_COLORS = {
+    "老生": "#c4956a",
+    "小生": "#d4a96a",
+    "武生": "#b8956a",
+    "末·外·生": "#dcc8a0",
+    "青衣·正旦": "#8b3a3a",
+    "花旦·花衫": "#c45a5a",
+    "老旦": "#b04040",
+    "武旦": "#963030",
+    "净": "#4a5a78",
+    "文丑": "#3d6b5a",
+    "武丑": "#5a7a5a"
+  };
+
+  // ============================================================
+  // 3. BUILD HIERARCHY — flat links → nested children
+  // ============================================================
+  const roleMap = new Map(); // roleName → Map<featureName, value>
+  for (const link of LINKS) {
+    if (!roleMap.has(link.target)) {
+      roleMap.set(link.target, new Map());
+    }
+    roleMap.get(link.target).set(link.source, link.value);
+  }
+
+  const hierarchyData = {
+    name: "root",
+    children: []
+  };
+
+  for (const [roleName, featureMap] of roleMap) {
+    const roleColor = ROLE_COLORS[roleName] || "#888888";
+    const roleNode = {
+      name: roleName,
+      roleColor: roleColor,
+      children: []
+    };
+    for (const [featureName, value] of featureMap) {
+      roleNode.children.push({
+        name: featureName,
+        value: value,
+        roleColor: roleColor // inherit
+      });
+    }
+    hierarchyData.children.push(roleNode);
+  }
+
+  // ============================================================
+  // 4. D3 SETUP
+  // ============================================================
+  const width = 900;
+  const height = 900;
+  const cx = width / 2;
+  const cy = height / 2;
+
+  const svg = d3.select("svg#chart");
+  const g = svg.append("g")
+    .attr("transform", `translate(${cx},${cy})`);
+
+  // ============================================================
+  // 5. LAYOUT — d3.cluster()
+  // ============================================================
+  const root = d3.hierarchy(hierarchyData);
+  const cluster = d3.cluster()
+    .size([2 * Math.PI, 2]); // x=angle (rad), y=depth
+  cluster(root);
+
+  // Assign radial distances
+  root.each(d => {
+    if (d.depth === 0) d.r = 0;      // root at center
+    else if (d.depth === 1) d.r = 180; // role ring
+    else if (d.depth === 2) d.r = 380; // feature ring
+  });
+
+  // Feature node radius scale: value → px
+  const allValues = LINKS.map(l => l.value);
+  const minVal = Math.min(...allValues); // 55
+  const maxVal = Math.max(...allValues); // 1636
+  const radiusScale = d3.scaleSqrt()
+    .domain([minVal, maxVal])
+    .range([4, 9]);
+
+  // ============================================================
+  // 6. RENDER
+  // ============================================================
+
+  // --- 6a. Reference rings (subtle) ---
+  g.append("circle")
+    .attr("r", 180)
+    .attr("fill", "none")
+    .attr("stroke", "rgba(255,255,255,0.06)")
+    .attr("stroke-width", 1)
+    .attr("stroke-dasharray", "4,6");
+
+  g.append("circle")
+    .attr("r", 380)
+    .attr("fill", "none")
+    .attr("stroke", "rgba(255,255,255,0.06)")
+    .attr("stroke-width", 1)
+    .attr("stroke-dasharray", "4,6");
+
+  // --- 6b. Radial links (draw first so nodes appear on top) ---
+  const linkGen = d3.linkRadial()
+    .angle(d => d.x)
+    .radius(d => d.r);
+
+  g.selectAll("path.link")
+    .data(root.links())
+    .join("path")
+    .attr("class", "link")
+    .attr("d", linkGen)
+    .attr("fill", "none")
+    .attr("stroke", d => d.target.data.roleColor)
+    .attr("stroke-width", 1)
+    .attr("opacity", 0.6);
+
+  // --- 6c. Role nodes (depth 1) ---
+  const roleNodes = root.children;
+
+  g.selectAll("circle.role")
+    .data(roleNodes)
+    .join("circle")
+    .attr("class", "role")
+    .attr("cx", d => d.r * Math.cos(d.x - Math.PI / 2))
+    .attr("cy", d => d.r * Math.sin(d.x - Math.PI / 2))
+    .attr("r", 14)
+    .attr("fill", d => d.data.roleColor)
+    .attr("stroke", "#ffffff")
+    .attr("stroke-width", 2);
+
+  // --- 6d. Feature leaf nodes (depth 2) ---
+  const leafNodes = root.leaves();
+
+  g.selectAll("circle.leaf")
+    .data(leafNodes)
+    .join("circle")
+    .attr("class", "leaf")
+    .attr("cx", d => d.r * Math.cos(d.x - Math.PI / 2))
+    .attr("cy", d => d.r * Math.sin(d.x - Math.PI / 2))
+    .attr("r", d => radiusScale(d.data.value))
+    .attr("fill", d => d.data.roleColor)
+    .attr("opacity", 0.85);
+
+  // --- 6e. Role labels (r=160) ---
+  g.selectAll("text.role-label")
+    .data(roleNodes)
+    .join("text")
+    .attr("class", "role-label")
+    .attr("transform", d => {
+      const deg = d.x * 180 / Math.PI - 90;
+      if (d.x >= Math.PI) {
+        // Left half: flip
+        return `rotate(${deg}) translate(160,0) rotate(180)`;
+      }
+      return `rotate(${deg}) translate(160,0)`;
+    })
+    .attr("text-anchor", d => d.x >= Math.PI ? "end" : "start")
+    .attr("dy", "0.35em")
+    .attr("font-size", "14px")
+    .attr("font-weight", "bold")
+    .attr("fill", d => d.data.roleColor)
+    .text(d => d.data.name);
+
+  // --- 6f. Feature labels (r + leafR + 8 outside leaf node) ---
+  g.selectAll("text.leaf-label")
+    .data(leafNodes)
+    .join("text")
+    .attr("class", "leaf-label")
+    .attr("transform", d => {
+      const deg = d.x * 180 / Math.PI - 90;
+      const r = 380 + radiusScale(d.data.value) + 8;
+      if (d.x >= Math.PI) {
+        // Left half: flip 180° to avoid upside-down
+        return `rotate(${deg}) translate(${r},0) rotate(180)`;
+      }
+      return `rotate(${deg}) translate(${r},0)`;
+    })
+    .attr("text-anchor", d => d.x >= Math.PI ? "end" : "start")
+    .attr("dy", "0.32em")
+    .attr("font-size", "11px")
+    .attr("fill", "#c0c0c0")
+    .text(d => d.data.name);
+
+  // --- 6g. Center circle ---
+  const centerGlow = g.append("circle")
+    .attr("r", 54)
+    .attr("fill", "none")
+    .attr("stroke", "rgba(255,255,255,0.06)")
+    .attr("stroke-width", 4);
+
+  const centerCircle = g.append("circle")
+    .attr("r", 50)
+    .attr("fill", "#161b22")
+    .attr("stroke", "rgba(255,255,255,0.12)")
+    .attr("stroke-width", 1.5);
+
+  // Center count
+  g.append("text")
+    .attr("text-anchor", "middle")
+    .attr("dy", "-0.15em")
+    .attr("font-size", "24px")
+    .attr("font-weight", "bold")
+    .attr("fill", "#d0d0d0")
+    .text(String(UNIQUE_FEATURES_COUNT));
+
+  g.append("text")
+    .attr("text-anchor", "middle")
+    .attr("dy", "1.3em")
+    .attr("font-size", "10px")
+    .attr("fill", "#808890")
+    .text("属性维度");
+
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+{
+  "title": "贵妃醉酒",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 3,
+  "source_file": "01012007_贵妃醉酒.json",
+  "source_folder": "01000000",
+  "plot_summary": "唐玄宗先一日与杨贵妃约，命其设宴百花亭，同往赏花饮酒。至次日，杨贵妃遂先赴百花亭，备齐御筵候驾，\n孰意迟待移时，唐玄宗车驾竟不至。迟之久，迟之又久。乃忽报皇帝已幸江妃宫，杨贵妃闻讯，懊恼欲死。\n杨贵妃性本褊狭善妒，尤媚浪，且妇女于怨望之余，本最易生反应力。遂使万种情怀，一时竟难排遣，加\n以酒入愁肠，三杯亦醉，春情顿炽，忍俊不禁。于是竟忘其所以，放浪形骸，频频与高力士、裴力士二太监，\n作种种醉态，及求欢猥亵状，乃始倦极回宫。",
+  "performance_notes": "此剧为花旦做工兼唱工戏，纯以身段软柔见长。惟识者见之，甚觉其无谓。且亦形容太过，若遇恶劣之花旦\n演之，则每每描摹过当，尤觉不堪，直令人作三日恶。当年路三宝演此，颇为一般人所称许。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 126,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "天上神仙府": 1
+      },
+      "characters": {
+        "杨玉环": 1,
+        "高力士": 1,
+        "高曲": 1,
+        "宫女": 1,
+        "裴力士": 1
+      },
+      "links": [
+        {
+          "source": "裴力士",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "杨玉环",
+          "target": "裴力士",
+          "value": 1
+        },
+        {
+          "source": "裴力士",
+          "target": "高曲",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "裴力士",
+          "value": 1
+        },
+        {
+          "source": "杨玉环",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "高力士",
+          "target": "高曲",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "杨玉环",
+          "target": "高曲",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "杨玉环",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "高曲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.238,
+      "locations": {
+        "天上神仙府": 1
+      },
+      "characters": {
+        "高力士": 1,
+        "裴力士": 1,
+        "杨玉环": 1
+      },
+      "links": [
+        {
+          "source": "杨玉环",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "杨玉环",
+          "target": "裴力士",
+          "value": 1
+        },
+        {
+          "source": "裴力士",
+          "target": "高力士",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "天上神仙府",
+      "characters": [
+        {
+          "name": "裴力士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "天上神仙府，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "高力士",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "人间宰相家。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "杨玉环",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "摆驾！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "高曲",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "金丝鲤鱼朝见娘娘！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "宫女",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "启娘娘：宫娥们敬酒。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：5位角色，126行",
+      "firstLine": 1,
+      "lastLine": 126,
+      "numLines": 126,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.137,
+        "sentiment": 0.111
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "天上神仙府",
+      "characters": [
+        {
+          "name": "杨玉环",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啐啐啐！",
+          "rating": 0.75,
+          "role": ""
+        },
+        {
+          "name": "高力士",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "天色已晚，请娘娘回宫。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "裴力士",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.674,
+        "conflict": 0.0,
+        "sentiment": 0.637
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "裴力士",
+      "short": "裴力",
+      "key": "裴力士",
+      "quote": "裴力士 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "高力士",
+      "short": "高力",
+      "key": "高力士",
+      "quote": "高力士 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "杨玉环",
+      "short": "杨玉",
+      "key": "杨玉环",
+      "quote": "杨玉环 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "高曲",
+      "short": "高曲",
+      "key": "高曲",
+      "quote": "高曲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "宫女",
+      "short": "宫女",
+      "key": "宫女",
+      "quote": "宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "天上神仙府",
+      "key": "天上神仙府",
+      "quote": "场景发生在天上神仙府"
+    },
+    {
+      "name": "神仙府",
+      "key": "神仙府",
+      "quote": "场景发生在神仙府"
+    },
+    {
+      "name": "百花亭",
+      "key": "百花亭",
+      "quote": "场景发生在百花亭"
+    }
+  ]
+}

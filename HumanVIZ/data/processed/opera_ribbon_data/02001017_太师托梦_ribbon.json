@@ -1,0 +1,420 @@
+{
+  "title": "太师托梦",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 3,
+  "source_file": "02001017_太师托梦.json",
+  "source_folder": "02000000",
+  "plot_summary": "闻仲奉命抵御姜尚，战死绝龙岭前。忠魂不散，转回朝歌。向纣王报告战死经过及商朝将亡情形。惜纣王仍\n不悔悟，荒淫如故，以为有妲己御侮，定可无事云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 13,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.281,
+      "locations": {
+        "苏国母上殿": 1
+      },
+      "characters": {
+        "妲己": 1,
+        "闻仲": 1
+      },
+      "links": [
+        {
+          "source": "妲己",
+          "target": "闻仲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 40,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.863,
+      "locations": {
+        "苏国母上殿": 1
+      },
+      "characters": {
+        "妲己": 1,
+        "二大太监": 1,
+        "闻仲": 1,
+        "纣王": 1,
+        "大太监甲": 1
+      },
+      "links": [
+        {
+          "source": "大太监甲",
+          "target": "纣王",
+          "value": 1
+        },
+        {
+          "source": "妲己",
+          "target": "纣王",
+          "value": 1
+        },
+        {
+          "source": "二大太监",
+          "target": "纣王",
+          "value": 1
+        },
+        {
+          "source": "纣王",
+          "target": "闻仲",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "妲己",
+          "value": 1
+        },
+        {
+          "source": "二大太监",
+          "target": "大太监甲",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "闻仲",
+          "value": 1
+        },
+        {
+          "source": "二大太监",
+          "target": "妲己",
+          "value": 1
+        },
+        {
+          "source": "妲己",
+          "target": "闻仲",
+          "value": 1
+        },
+        {
+          "source": "二大太监",
+          "target": "闻仲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 86,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "苏国母上殿": 1
+      },
+      "characters": {
+        "妲己": 1,
+        "纣王": 1,
+        "闻仲": 1,
+        "二大太监": 1,
+        "大太监甲": 1
+      },
+      "links": [
+        {
+          "source": "二大太监",
+          "target": "纣王",
+          "value": 1
+        },
+        {
+          "source": "二大太监",
+          "target": "妲己",
+          "value": 1
+        },
+        {
+          "source": "二大太监",
+          "target": "闻仲",
+          "value": 1
+        },
+        {
+          "source": "二大太监",
+          "target": "大太监甲",
+          "value": 1
+        },
+        {
+          "source": "妲己",
+          "target": "纣王",
+          "value": 1
+        },
+        {
+          "source": "纣王",
+          "target": "闻仲",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "纣王",
+          "value": 1
+        },
+        {
+          "source": "妲己",
+          "target": "闻仲",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "妲己",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "闻仲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "苏国母上殿",
+      "characters": [
+        {
+          "name": "闻仲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "忠魂未散，回朝歌，面见龙颜。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "妲己",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.684,
+        "conflict": 1.0,
+        "sentiment": -0.01
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "苏国母上殿",
+      "characters": [
+        {
+          "name": "纣王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "皇宫内院，喜爱妃，常伴龙眠。",
+          "rating": 0.143,
+          "role": "净"
+        },
+        {
+          "name": "大太监甲",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "妲己",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "领旨。",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "二大太监",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "闻仲",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：5位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.959,
+        "conflict": 0.222,
+        "sentiment": 0.39
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "苏国母上殿",
+      "characters": [
+        {
+          "name": "二大太监",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有请万岁！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "纣王",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "梓童随孤来呀，哈哈哈！",
+          "rating": -0.5,
+          "role": "净"
+        },
+        {
+          "name": "妲己",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "回避了。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "闻仲",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "最可叹为国家身遭大难，",
+          "rating": -0.667,
+          "role": "净"
+        },
+        {
+          "name": "大太监甲",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "万岁醒来！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，86行",
+      "firstLine": 1,
+      "lastLine": 86,
+      "numLines": 86,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.741,
+        "sentiment": -0.106
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "闻仲",
+      "short": "闻仲",
+      "key": "闻仲",
+      "quote": "闻仲 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "纣王",
+      "short": "纣王",
+      "key": "纣王",
+      "quote": "纣王 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "妲己",
+      "short": "妲己",
+      "key": "妲己",
+      "quote": "妲己 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "二大太监",
+      "short": "二大",
+      "key": "二大太监",
+      "quote": "二大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监甲",
+      "short": "大太",
+      "key": "大太监甲",
+      "quote": "大太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "苏国母上殿",
+      "key": "苏国母上殿",
+      "quote": "场景发生在苏国母上殿"
+    },
+    {
+      "name": "宣苏妃上殿",
+      "key": "宣苏妃上殿",
+      "quote": "场景发生在宣苏妃上殿"
+    },
+    {
+      "name": "西歧反朝堂",
+      "key": "西歧反朝堂",
+      "quote": "场景发生在西歧反朝堂"
+    }
+  ]
+}

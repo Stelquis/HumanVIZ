@@ -54,10 +54,10 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish }) => {
         {/* 画心 — scroll paper */}
         <div className={`scroll-paper${isOpen ? " scroll-paper--open" : ""}`}>
           <div className="scroll-paper-inner">
-            {/* 脸谱底纹 — Guan.png 水印 */}
+            {/* 脸谱底纹 — guan-mask.png 水印 */}
             <img
               className={`scroll-mask-img${isContentVisible ? " scroll-mask-img--visible" : ""}`}
-              src="/Guan.png"
+              src="/guan-mask.png"
               alt=""
             />
 

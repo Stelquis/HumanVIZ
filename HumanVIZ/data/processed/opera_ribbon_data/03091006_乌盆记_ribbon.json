@@ -1,0 +1,602 @@
+{
+  "title": "乌盆记",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "03091006_乌盆记.json",
+  "source_folder": "03000000",
+  "plot_summary": "刘世昌外地经商，结算帐目后，携仆回家，中途遇雨，借宿于窑户赵大家中。赵大夫妻见财心动，将刘世昌\n主仆谋害，并将二人剁为肉泥，烧制成乌盆。适张别古至赵家索欠债，刘世昌鬼魂向张别古伸诉冤情，张别\n古诉于包拯处，冤乃昭雪。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 146,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.537,
+      "importance": 0.579,
+      "locations": {
+        "啊兄台": 3
+      },
+      "characters": {
+        "判官": 1,
+        "赵妻": 1,
+        "刘升": 1,
+        "赵大": 1,
+        "刘世昌": 1
+      },
+      "links": [
+        {
+          "source": "刘世昌",
+          "target": "刘升",
+          "value": 2
+        },
+        {
+          "source": "赵大",
+          "target": "赵妻",
+          "value": 2
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵妻",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "判官",
+          "value": 1
+        },
+        {
+          "source": "刘升",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘升",
+          "target": "赵妻",
+          "value": 1
+        },
+        {
+          "source": "刘升",
+          "target": "判官",
+          "value": 1
+        },
+        {
+          "source": "判官",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "判官",
+          "target": "赵妻",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 358,
+      "summary": "第四场；第五场",
+      "conflict": 0.293,
+      "importance": 1.0,
+      "locations": {
+        "啊兄台": 2
+      },
+      "characters": {
+        "张别古": 1,
+        "包拯": 1,
+        "二差役": 1,
+        "赵大": 1,
+        "四青袍": 1,
+        "刘世昌": 1,
+        "差役甲": 1
+      },
+      "links": [
+        {
+          "source": "张别古",
+          "target": "赵大",
+          "value": 2
+        },
+        {
+          "source": "刘世昌",
+          "target": "张别古",
+          "value": 2
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵大",
+          "value": 2
+        },
+        {
+          "source": "二差役",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "刘世昌",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "差役甲",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "差役甲",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "赵大",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "啊兄台",
+      "characters": [
+        {
+          "name": "刘世昌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "趱行！",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "刘升",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "有。",
+          "rating": -1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：2位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.377,
+        "conflict": 0.0,
+        "sentiment": 0.497
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "啊兄台",
+      "characters": [
+        {
+          "name": "赵大",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "赵妻",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：2位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.394,
+        "conflict": 0.0,
+        "sentiment": -0.04
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "啊兄台",
+      "characters": [
+        {
+          "name": "刘世昌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "行了一程又一程，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘升",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "嘿！你们这儿是店么？",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "赵大",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "做什么的？",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "赵妻",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "什么事？",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "判官",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "着道金阶怒气多，只因不中状元科。唐王赐某青锋剑，颁请天下斩妖魔。",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：5位角色，98行",
+      "firstLine": 1,
+      "lastLine": 98,
+      "numLines": 98,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.781,
+        "conflict": 0.184,
+        "sentiment": 0.185
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "啊兄台",
+      "characters": [
+        {
+          "name": "张别古",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "嗯咳！",
+          "rating": -0.6,
+          "role": "丑"
+        },
+        {
+          "name": "赵大",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "忽听叫赵大，胆战心如麻。纵然将事发，有钱全不怕。",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "刘世昌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "张别古！",
+          "rating": -0.111,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：3位角色，232行",
+      "firstLine": 1,
+      "lastLine": 232,
+      "numLines": 232,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.829,
+        "conflict": 0.15,
+        "sentiment": 0.072
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "啊兄台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "官居县令，与黎民，判断冤情。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "二差役",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "将放告牌抬出！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "张别古",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "虽然古怪年年有，果然不似今年多。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "刘世昌",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "有。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "差役甲",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "启禀老爷：有一老头儿喊冤。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵大",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第五场：7位角色，126行",
+      "firstLine": 1,
+      "lastLine": 126,
+      "numLines": 126,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.132,
+        "sentiment": 0.365
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘世昌",
+      "short": "刘世",
+      "key": "刘世昌",
+      "quote": "刘世昌 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张别古",
+      "short": "张别",
+      "key": "张别古",
+      "quote": "张别古 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "赵大",
+      "short": "赵大",
+      "key": "赵大",
+      "quote": "赵大 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "包拯",
+      "short": "包拯",
+      "key": "包拯",
+      "quote": "包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "刘升",
+      "short": "刘升",
+      "key": "刘升",
+      "quote": "刘升 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "赵妻",
+      "short": "赵妻",
+      "key": "赵妻",
+      "quote": "赵妻 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "判官",
+      "short": "判官",
+      "key": "判官",
+      "quote": "判官 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "二差役",
+      "short": "二差",
+      "key": "二差役",
+      "quote": "二差役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "差役甲",
+      "short": "差役",
+      "key": "差役甲",
+      "quote": "差役甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "啊兄台",
+      "key": "啊兄台",
+      "quote": "场景发生在啊兄台"
+    }
+  ]
+}

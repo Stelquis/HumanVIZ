@@ -1,0 +1,276 @@
+{
+  "title": "背凳",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01028010_背凳.json",
+  "source_folder": "01000000",
+  "plot_summary": "有张三者，承怕老婆之世传，为怕老婆之巨擘。在老婆前告假数句钟，闲游散闷，遇一怕老婆之尤二。两人\n素系结义兄弟，同病相怜，交情益密。谈及家常，张三欲遮掩过本来面目，谎言老婆为其制服。尤二不信，\n约定到家，观看实在情形。愿出银二十两，互为赌赛。张三央求老婆，暂时之间。舒展其丈夫气，作为骗银\n之计。老婆从之。欣欣然俟尤二来，供给酒食。张三故意大呼小叫，老婆看银子薄面，耐心忍受。尤二非常\n惊异，暗想输此银子，殊不值得，乘间逃去。张三无银可交，老婆恨甚，命张三伏地受鞭，用一板凳，缚于\n背上，驱之出门。忽见尤二头顶一同样之物，踯躅街市中。问之，亦系老婆之光宠。如此大惠，感戴不忘，\n再三商议，不得不颂扬于岳父母前焉。",
+  "performance_notes": "自阴阳定位，而后有夫妇。夫者阳也刚象，妇者阴也柔象。阴不敌阳，柔不敌刚，故理之当然，实势之必然。\n然五行消长之机，阴能制阳，柔能克刚。造物既如是，家庭亦何独不如是乎？所以怕老婆之男子，遂风行\n一时。而可惊可怪可笑可叹之种种丑史，即使传播于罪人，仍安之若素，反以为得闺房之真趣也。是剧串演\n怕老婆之张三、尤二，形容尽至，颇堪发噱。其引人入胜处，专以插科打诨为事。全剧口白多而唱口少。自\n开幕至闭幕，唯恃丑角之做工见长。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 74,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.742,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张三": 1,
+        "老婆": 1
+      },
+      "links": [
+        {
+          "source": "张三",
+          "target": "老婆",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 47,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.472,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张三": 1,
+        "尤二": 1,
+        "老婆": 1
+      },
+      "links": [
+        {
+          "source": "尤二",
+          "target": "张三",
+          "value": 1
+        },
+        {
+          "source": "张三",
+          "target": "老婆",
+          "value": 1
+        },
+        {
+          "source": "尤二",
+          "target": "老婆",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 178,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张三": 1,
+        "尤二": 1,
+        "老婆": 1
+      },
+      "links": [
+        {
+          "source": "张三",
+          "target": "老婆",
+          "value": 1
+        },
+        {
+          "source": "尤二",
+          "target": "老婆",
+          "value": 1
+        },
+        {
+          "source": "尤二",
+          "target": "张三",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张三",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "自幼生来傻喝喝，祖传三辈怕老婆。一天倒有三顿打，见她心中就打哆嗦。",
+          "rating": 0.2,
+          "role": "丑"
+        },
+        {
+          "name": "老婆",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "奴家生来性儿粗，只会在家管丈夫。轻者打来重者杵，人人道我是胭脂虎。",
+          "rating": -0.333,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第一场：2位角色，74行",
+      "firstLine": 1,
+      "lastLine": 74,
+      "numLines": 74,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.823,
+        "conflict": 0.29,
+        "sentiment": 0.179
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张三",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "咳，兄弟。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "尤二",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "自幼褦襶，管着老婆叫奶奶。三餐茶饭吃不饱，责打怒骂实难挨，实难挨。",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "老婆",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第二场：3位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.841,
+        "conflict": 0.351,
+        "sentiment": -0.193
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "老婆",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "梳妆打扮衣衫整，",
+          "rating": -0.5,
+          "role": "花旦"
+        },
+        {
+          "name": "张三",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "老婆娘在上，汉子孩儿有礼。不用吩咐，一旁站立，不敢出气。",
+          "rating": -0.2,
+          "role": "丑"
+        },
+        {
+          "name": "尤二",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "走着走着，就到啦。待我去叫门。",
+          "rating": -0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第三场：3位角色，178行",
+      "firstLine": 1,
+      "lastLine": 178,
+      "numLines": 178,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.137,
+        "sentiment": -0.097
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张三",
+      "short": "张三",
+      "key": "张三",
+      "quote": "张三 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "老婆",
+      "short": "老婆",
+      "key": "老婆",
+      "quote": "老婆 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "尤二",
+      "short": "尤二",
+      "key": "尤二",
+      "quote": "尤二 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

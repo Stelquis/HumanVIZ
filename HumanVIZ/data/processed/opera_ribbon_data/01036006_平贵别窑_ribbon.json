@@ -1,0 +1,188 @@
+{
+  "title": "平贵别窑",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 2,
+  "source_file": "01036006_平贵别窑.json",
+  "source_folder": "01000000",
+  "plot_summary": "薛平贵因在外揭下皇榜，至红纱洞中，降伏红鬃烈火马，有功入朝，唐王特加升赏，先封后营都督府，旋被\n王允一本，改为马前先行。恰巧西凉国造反，下来战表，朝廷命将出师，遂命薛平贵隶属魏虎，随营为马前\n先行，克日起行。薛平贵即回窑别妻，王宝钏方守候平郎回来，先闻立功得官，颇喜，及闻欲出从征，不禁\n大惊，彼此流泪相对，说不尽生离之苦。",
+  "performance_notes": "因忆唐人诗中，“忽见陌头杨柳色，悔教夫婿觅封侯”之句，闺中少妇尚如此，何况窑中少妇，且在临岐握\n手，阳关未唱之前哉，此剧情致，颇足感人。\n按此剧在《三击掌》之后，《探窑》之前，为薛平贵从军别妻之事。《红鬃烈火马开国传》及《彩楼记》传\n奇全本中，均有此节，全剧自王三姐宝钏，在窑中盼候平郎回家起，出场即有一段正板二黄唱工，演至夫妻\n洒泪分别，薛平贵听得第三声发兵号炮，慌忙上马急行为止，后半本夫妻依依不舍，对唱几段哭板，尤为凄\n婉动人。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.217,
+      "locations": {
+        "此赶出相府": 1
+      },
+      "characters": {
+        "王宝钏": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 140,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "都督府": 1
+      },
+      "characters": {
+        "中军": 1,
+        "薛平贵": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "王宝钏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "此赶出相府",
+      "characters": [
+        {
+          "name": "王宝钏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "富贵贫贱天注定，岂知由天不由人，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：1位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.615,
+        "conflict": 0.87,
+        "sentiment": 0.094
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "都督府",
+      "characters": [
+        {
+          "name": "薛平贵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "头戴金盔一点红，身穿铠甲响玲珑。红纱洞降烈火马，唐王驾前立大功。",
+          "rating": -0.143,
+          "role": "生"
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": 0.091,
+          "role": "旦"
+        },
+        {
+          "name": "中军",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "平贵听令：元帅身坐教场，连点二卯，再有一卯不到，按军令示刑。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，140行",
+      "firstLine": 1,
+      "lastLine": 140,
+      "numLines": 140,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.379,
+        "sentiment": 0.123
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛平贵",
+      "short": "薛平",
+      "key": "薛平贵",
+      "quote": "薛平贵 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "此赶出相府",
+      "key": "此赶出相府",
+      "quote": "场景发生在此赶出相府"
+    },
+    {
+      "name": "都督府",
+      "key": "都督府",
+      "quote": "场景发生在都督府"
+    }
+  ]
+}

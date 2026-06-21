@@ -1,0 +1,512 @@
+{
+  "title": "双沙河",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "02008061_双沙河【二本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "卫小申出马与番邦人才驸马交战，大败而归。继由高能、杨仙童与二位公主玉宝、玉珍交战，二位公主并将\n杨仙童、高能二将留宿，最后又将原来之人才驸马杀死。",
+  "performance_notes": "剧中情节，极不伦类。殆系一个喜剧，不必深究也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 44,
+      "summary": "第一场；第二场",
+      "conflict": 0.795,
+      "importance": 0.83,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "旗牌": 1,
+        "张天龙": 1,
+        "卫小申": 1,
+        "玉珍公主": 1,
+        "玉宝公主": 1
+      },
+      "links": [
+        {
+          "source": "张天龙",
+          "target": "玉宝公主",
+          "value": 1
+        },
+        {
+          "source": "张天龙",
+          "target": "玉珍公主",
+          "value": 1
+        },
+        {
+          "source": "张天龙",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "玉宝公主",
+          "target": "玉珍公主",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "玉宝公主",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "玉珍公主",
+          "value": 1
+        },
+        {
+          "source": "卫小申",
+          "target": "张天龙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 49,
+      "summary": "第三场；第四场",
+      "conflict": 0.002,
+      "importance": 0.925,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "张天龙": 1,
+        "卫小申": 1,
+        "玉珍公主": 1,
+        "高能": 1,
+        "杨仙童": 1
+      },
+      "links": [
+        {
+          "source": "卫小申",
+          "target": "杨仙童",
+          "value": 1
+        },
+        {
+          "source": "张天龙",
+          "target": "杨仙童",
+          "value": 1
+        },
+        {
+          "source": "卫小申",
+          "target": "张天龙",
+          "value": 1
+        },
+        {
+          "source": "玉珍公主",
+          "target": "高能",
+          "value": 1
+        },
+        {
+          "source": "张天龙",
+          "target": "高能",
+          "value": 1
+        },
+        {
+          "source": "张天龙",
+          "target": "玉珍公主",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 66,
+      "summary": "第五场；第六场",
+      "conflict": 0.364,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "玉宝公主": 1,
+        "杨仙童": 1,
+        "张天龙": 1,
+        "卫小申": 1
+      },
+      "links": [
+        {
+          "source": "卫小申",
+          "target": "张天龙",
+          "value": 1
+        },
+        {
+          "source": "杨仙童",
+          "target": "玉宝公主",
+          "value": 1
+        },
+        {
+          "source": "张天龙",
+          "target": "玉宝公主",
+          "value": 1
+        },
+        {
+          "source": "张天龙",
+          "target": "杨仙童",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张天龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "虎踞番邦，招纳东床。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "玉宝公主",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "为大将，邪术无挡，中原反掌。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "玉珍公主",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "上阵不用多费力，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "启驸马：南朝搬来救兵前来讨战。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.5,
+        "conflict": 0.678,
+        "sentiment": 0.391
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "卫小申",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我奉元帅令，来打张天龙，",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "张天龙",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "骂声黑贼哪里行！",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.481,
+        "conflict": 0.606,
+        "sentiment": -0.404
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨仙童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "表兄回来了？",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "卫小申",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "回来了。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "张天龙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：3位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.654,
+        "conflict": 1.0,
+        "sentiment": 0.369
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "高能",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "兄弟三人要争功，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "玉珍公主",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来将通名。",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "张天龙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：3位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.583,
+        "conflict": 1.0,
+        "sentiment": 0.367
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张天龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "两家大战在杀场，",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "卫小申",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "一来一往各逞强。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第五场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.447,
+        "conflict": 1.0,
+        "sentiment": 0.104
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "玉宝公主",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "两家交战同勒马，",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "杨仙童",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "站立阵前用目观，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "张天龙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：3位角色，53行",
+      "firstLine": 1,
+      "lastLine": 53,
+      "numLines": 53,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.583,
+        "conflict": 0.602,
+        "sentiment": 0.468
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨仙童",
+      "short": "杨仙",
+      "key": "杨仙童",
+      "quote": "杨仙童 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "高能",
+      "short": "高能",
+      "key": "高能",
+      "quote": "高能 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "卫小申",
+      "short": "卫小",
+      "key": "卫小申",
+      "quote": "卫小申 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "玉珍公主",
+      "short": "玉珍",
+      "key": "玉珍公主",
+      "quote": "玉珍公主 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "玉宝公主",
+      "short": "玉宝",
+      "key": "玉宝公主",
+      "quote": "玉宝公主 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张天龙",
+      "short": "张天",
+      "key": "张天龙",
+      "quote": "张天龙 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

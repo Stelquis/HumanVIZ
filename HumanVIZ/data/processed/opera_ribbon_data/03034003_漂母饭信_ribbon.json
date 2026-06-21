@@ -1,0 +1,426 @@
+{
+  "title": "漂母饭信",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "03034003_漂母饭信.json",
+  "source_folder": "03000000",
+  "plot_summary": "韩信微时，曾受胯下之辱，垂钓于淮阴城下。有吴姓漂母者，见韩信饥，饭韩信竟漂数十日。韩信曰：“吾\n必有一日重报母”。漂母怒曰：“大丈夫不能自食，吾哀王孙而进食，岂望报乎！”复劝韩信投戎。韩信从\n之，终成大器。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 10,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.207,
+      "locations": {
+        "这淮阴城": 1
+      },
+      "characters": {
+        "贾勇": 1,
+        "四少年": 1
+      },
+      "links": [
+        {
+          "source": "四少年",
+          "target": "贾勇",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 31,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.642,
+      "locations": {
+        "这淮阴城": 1
+      },
+      "characters": {
+        "四少年": 1,
+        "韩信": 1,
+        "贾勇": 1
+      },
+      "links": [
+        {
+          "source": "贾勇",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "四少年",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "四少年",
+          "target": "贾勇",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 39,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.808,
+      "locations": {
+        "这淮阴城": 1
+      },
+      "characters": {
+        "村妇乙": 1,
+        "村妇甲": 1,
+        "二村妇": 1,
+        "漂母": 1
+      },
+      "links": [
+        {
+          "source": "村妇甲",
+          "target": "漂母",
+          "value": 1
+        },
+        {
+          "source": "村妇乙",
+          "target": "漂母",
+          "value": 1
+        },
+        {
+          "source": "二村妇",
+          "target": "漂母",
+          "value": 1
+        },
+        {
+          "source": "村妇乙",
+          "target": "村妇甲",
+          "value": 1
+        },
+        {
+          "source": "二村妇",
+          "target": "村妇甲",
+          "value": 1
+        },
+        {
+          "source": "二村妇",
+          "target": "村妇乙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 113,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "这淮阴城": 1
+      },
+      "characters": {
+        "村妇甲": 1,
+        "韩信": 1,
+        "漂母": 1
+      },
+      "links": [
+        {
+          "source": "漂母",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "村妇甲",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "村妇甲",
+          "target": "漂母",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "这淮阴城",
+      "characters": [
+        {
+          "name": "贾勇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四少年",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "贾勇，你上哪儿去？",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.331,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "这淮阴城",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "走哇！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "贾勇",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "众位，你们瞧韩信这小子，身跨宝剑，倒仿佛是个武术家似的，待我赶罗赶罗",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四少年",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "得了，咱们走吧！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.596,
+        "conflict": 0.0,
+        "sentiment": 0.112
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "这淮阴城",
+      "characters": [
+        {
+          "name": "漂母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "孤苦伶仃，食己力，且度残生。",
+          "rating": -0.5,
+          "role": "老旦"
+        },
+        {
+          "name": "村妇甲",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "每日苦勤劳，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "村妇乙",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "漂洗在城壕。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "二村妇",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "漂母在家吗？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：4位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.621,
+        "conflict": 0.541,
+        "sentiment": 0.183
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "这淮阴城",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "英雄困顿负壮志，",
+          "rating": -0.25,
+          "role": "武生"
+        },
+        {
+          "name": "漂母",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "家中贫寒当勤俭，",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "村妇甲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "您在这儿，我们到那边儿洗去啦。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：3位角色，113行",
+      "firstLine": 1,
+      "lastLine": 113,
+      "numLines": 113,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.412,
+        "sentiment": 0.09
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "漂母",
+      "short": "漂母",
+      "key": "漂母",
+      "quote": "漂母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "韩信",
+      "short": "韩信",
+      "key": "韩信",
+      "quote": "韩信 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "贾勇",
+      "short": "贾勇",
+      "key": "贾勇",
+      "quote": "贾勇 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四少年",
+      "short": "四少",
+      "key": "四少年",
+      "quote": "四少年 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "村妇乙",
+      "short": "村妇",
+      "key": "村妇乙",
+      "quote": "村妇乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二村妇",
+      "short": "二村",
+      "key": "二村妇",
+      "quote": "二村妇 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "村妇甲",
+      "short": "村妇",
+      "key": "村妇甲",
+      "quote": "村妇甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "这淮阴城",
+      "key": "这淮阴城",
+      "quote": "场景发生在这淮阴城"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "title": "昊天塔·会兄",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70901104_昊天塔·会兄.json",
+  "source_folder": "70901000",
+  "plot_summary": "杨延昭与孟良盗得杨继业骨殖，正待急急赶回，后面追兵已到。杨延昭身背骨匣，孟良在后御敌，慌忙中二\n人走散。杨延昭夜宿于五台山兴国寺，巧遇在此出家的杨延德。难中相遇，悲痛万状。此时追兵已围住寺院，\n兄弟二人合力击退众兵。后杨延昭归家，杨延德仍留五台山为僧。",
+  "performance_notes": "《会兄》即《昊天塔》第四折。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 66,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "杨延德": 1,
+        "杨延昭": 1,
+        "老僧": 1
+      },
+      "links": [
+        {
+          "source": "杨延昭",
+          "target": "老僧",
+          "value": 1
+        },
+        {
+          "source": "杨延德",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨延德",
+          "target": "老僧",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 87,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "杨延德": 1,
+        "杨延昭": 1
+      },
+      "links": [
+        {
+          "source": "杨延德",
+          "target": "杨延昭",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 35,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.559,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "杨延德": 1,
+        "杨延昭": 1,
+        "萧天佐": 1
+      },
+      "links": [
+        {
+          "source": "杨延德",
+          "target": "萧天佐",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "萧天佐",
+          "value": 1
+        },
+        {
+          "source": "杨延德",
+          "target": "杨延昭",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呔！休赶哪休赶。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "老僧",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来了，来了！",
+          "rating": -0.333,
+          "role": "末"
+        },
+        {
+          "name": "杨延德",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "嘿，好酒，好酒！吃的来好不爽快也！呣……",
+          "rating": -0.667,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：3位角色，66行",
+      "firstLine": 1,
+      "lastLine": 66,
+      "numLines": 66,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.272,
+        "sentiment": -0.12
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨延德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哈……这等样来路不明之人，留他做甚。待我打发他出去。",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "看剑！",
+          "rating": 0.333,
+          "role": "武生"
+        }
+      ],
+      "summary": "第2场：2位角色，87行",
+      "firstLine": 1,
+      "lastLine": 87,
+      "numLines": 87,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.459,
+        "sentiment": 0.093
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "萧天佐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "啊咳！",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "杨延德",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "呔！",
+          "rating": -0.6,
+          "role": "净"
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "番兵已退，哥哥随小弟回家见母亲一面。",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第3场：3位角色，35行",
+      "firstLine": 1,
+      "lastLine": 35,
+      "numLines": 35,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.715,
+        "conflict": 0.938,
+        "sentiment": -0.021
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨延德",
+      "short": "杨延",
+      "key": "杨延德",
+      "quote": "杨延德 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨延昭",
+      "short": "杨延",
+      "key": "杨延昭",
+      "quote": "杨延昭 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "老僧",
+      "short": "老僧",
+      "key": "老僧",
+      "quote": "老僧 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "萧天佐",
+      "short": "萧天",
+      "key": "萧天佐",
+      "quote": "萧天佐 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

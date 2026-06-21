@@ -1,0 +1,199 @@
+{
+  "title": "真假李逵",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "04004003_真假李逵.json",
+  "source_folder": "04000000",
+  "plot_summary": "沂州李鬼，假冒梁山英雄李逵的名号，在松林中抢劫，恰好和回沂州探望老母的李逵争斗起来。李逵板斧厉\n害，将李鬼打倒，李鬼告饶，李逵得悉李鬼的性情与已略同，又是为了奉养老母而行劫的，乃有惺惺相惜之\n意，遂赠予银两，并约他上梁山泊去。李鬼愧喜交加，两人订约而别。",
+  "performance_notes": "《真假李逵》（原名《闹江州》）是根据《水浒传》改编的一个传统剧本。原本基本上是把李鬼当作好人来\n处理的。但在开场时把李鬼写得相当无赖，以后的转变就似乎有些勉强。整理时将上场诗至扑灯蛾这一节略\n加改动，着重描写李鬼的豪爽直率。另外终场时李鬼所唱的流水，也在原来的基础上加以改写。原本这一节\n除叙事以外，只大略表现了一下李鬼的羞愧心情，对于描写已决定要上梁山的李鬼来说，这是不够的。改本\n在这里描写了李鬼的感激与喜悦之情，这对于衬托李逵的英雄气概也是有帮助的。此外，在本剧的文字上和\n若干较小的情节上也略有修润。\n这个本子的整理工作，是中国京剧团演员王玉让、苏维明与本院（中国戏曲研究院）编辑处吴少岳共同进行\n的。在整理过程中并经郝寿臣先生提供许多意见，定稿后也取得了郝先生的同意。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 62,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.78,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李母": 1,
+        "李鬼": 1,
+        "李逵": 1
+      },
+      "links": [
+        {
+          "source": "李母",
+          "target": "李鬼",
+          "value": 1
+        },
+        {
+          "source": "李逵",
+          "target": "李鬼",
+          "value": 1
+        },
+        {
+          "source": "李母",
+          "target": "李逵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 97,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李鬼": 1,
+        "李逵": 1
+      },
+      "links": [
+        {
+          "source": "李逵",
+          "target": "李鬼",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李鬼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "爱习拳棒，抡板斧，武艺高强。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "李母",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "做什么？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李逵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "离了梁山把路奔，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：3位角色，62行",
+      "firstLine": 1,
+      "lastLine": 62,
+      "numLines": 62,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.934,
+        "conflict": 0.154,
+        "sentiment": 0.178
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李逵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住，黑汉倒有几分厉害，待我用反板斧伤他！",
+          "rating": 0.143,
+          "role": "净"
+        },
+        {
+          "name": "李鬼",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哪里走！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：2位角色，97行",
+      "firstLine": 1,
+      "lastLine": 97,
+      "numLines": 97,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.426,
+        "sentiment": 0.293
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李鬼",
+      "short": "李鬼",
+      "key": "李鬼",
+      "quote": "李鬼 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "李逵",
+      "short": "李逵",
+      "key": "李逵",
+      "quote": "李逵 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "李母",
+      "short": "李母",
+      "key": "李母",
+      "quote": "李母 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

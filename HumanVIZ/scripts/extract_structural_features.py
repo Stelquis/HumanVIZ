@@ -17,9 +17,9 @@ from tqdm import tqdm
 # ============================================================
 # 配置
 # ============================================================
-BASE_DIR = "/workspace/HumanVIZ/data/dataSet"
-OUTPUT_PATH = "/workspace/HumanVIZ/data/structural_fingerprints.json"
-GENRE_PATH = "/workspace/HumanVIZ/data/db_exports/剧目类型.json"
+BASE_DIR = "/workspace/HumanVIZ/data/raw/dataSet"
+OUTPUT_PATH = "/workspace/HumanVIZ/data/processed/structural_fingerprints.json"
+GENRE_PATH = "/workspace/HumanVIZ/data/processed/db_exports/剧目类型.json"
 
 # 场景边界正则
 SCENE_RE = re.compile(r'【第[一二三四五六七八九十\d]+[场折幕]】')

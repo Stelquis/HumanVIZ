@@ -1,0 +1,179 @@
+{
+  "title": "滑油山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01003013_滑油山.json",
+  "source_folder": "01000000",
+  "plot_summary": "目莲母刘氏，既遍历刀山、剑树、油锅、血池之苦，及煎熬剥刳等刑，游至第六殿，冥王又令鬼卒押往滑油\n山受罪。刘氏一路哀求，挨打受骂，备极惨苦。",
+  "performance_notes": "《滑油山》，即全本《目莲救母》中之一出。在《游殿》之末、《母子相会》之前。与本考第二册《救母》\n出剧本内容不同。此出即形容冥途押解及迫令上山之状，系老旦之唱工戏，中间原板甚多，而时以导板及摇\n板相间，则每至沉郁不舒之际，辄变为悲苍激越之声，故调颇铿锵可听。\n昔时大头最工此剧，近时实无继起者，惟吕月樵差强人意耳。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 79,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "鬼门关": 1
+      },
+      "characters": {
+        "大鬼": 1,
+        "小鬼": 1,
+        "刘青提": 1,
+        "众鬼卒": 1
+      },
+      "links": [
+        {
+          "source": "刘青提",
+          "target": "大鬼",
+          "value": 1
+        },
+        {
+          "source": "大鬼",
+          "target": "小鬼",
+          "value": 1
+        },
+        {
+          "source": "众鬼卒",
+          "target": "大鬼",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "小鬼",
+          "value": 1
+        },
+        {
+          "source": "众鬼卒",
+          "target": "刘青提",
+          "value": 1
+        },
+        {
+          "source": "众鬼卒",
+          "target": "小鬼",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "鬼门关",
+      "characters": [
+        {
+          "name": "大鬼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "我乃六殿阎君麾下大鬼是也。今有刘氏青提，作恶多端，将她打在滑油山前受",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "刘青提",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "黑暗暗雾沉沉一阵昏暗，",
+          "rating": -0.4,
+          "role": "老旦"
+        },
+        {
+          "name": "小鬼",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "长官唤你。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众鬼卒",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "走呀！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "段落1：4位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.42,
+        "sentiment": -0.103
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘青提",
+      "short": "刘青",
+      "key": "刘青提",
+      "quote": "刘青提 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "大鬼",
+      "short": "大鬼",
+      "key": "大鬼",
+      "quote": "大鬼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小鬼",
+      "short": "小鬼",
+      "key": "小鬼",
+      "quote": "小鬼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众鬼卒",
+      "short": "众鬼",
+      "key": "众鬼卒",
+      "quote": "众鬼卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "鬼门关",
+      "key": "鬼门关",
+      "quote": "场景发生在鬼门关"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "title": "探阴山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01002006_探阴山.json",
+  "source_folder": "01000000",
+  "plot_summary": "宋仁宗大放花灯，与民同乐。有女子柳金蝉随家人逛灯中途失散，踽踽独行，被无赖李保诱至家中，强奸逼\n死，移尸颜查散门首卸祸。地方不察，逮颜查散于案。包拯审问时，颜查散极口呼冤。包拯以颜查散书生，\n不类杀人者，乃下阴曹，令判官查生死簿。簿上注明柳金蝉因看灯为颜查散奸毙。包拯终不信，私访至阴山，\n得柳金蝉冤魂而问之，始知凶手为李保，而判官为李保之母舅，徇私舞弊，擅改生死簿。包拯大怒，立令\n判官改正。判官不认，竞至与阎罗相骂，包拯怒铡之。回至阳世，释颜查散，铡李保了案。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 113,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "望乡台": 1
+      },
+      "characters": {
+        "马汉": 1,
+        "包拯": 1,
+        "柳金蝉": 1,
+        "油流鬼": 1,
+        "王朝": 1
+      },
+      "links": [
+        {
+          "source": "包拯",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "油流鬼",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "柳金蝉",
+          "value": 1
+        },
+        {
+          "source": "王朝",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "油流鬼",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "柳金蝉",
+          "target": "王朝",
+          "value": 1
+        },
+        {
+          "source": "油流鬼",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "柳金蝉",
+          "target": "马汉",
+          "value": 1
+        },
+        {
+          "source": "柳金蝉",
+          "target": "油流鬼",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "望乡台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "扶大宋锦华夷赤心肝胆，",
+          "rating": -0.8,
+          "role": "净"
+        },
+        {
+          "name": "王朝",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马汉",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "油流鬼",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "何方冤鬼，少往前进！",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "柳金蝉",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "苦吓！",
+          "rating": -0.333,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：5位角色，113行",
+      "firstLine": 1,
+      "lastLine": 113,
+      "numLines": 113,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.314,
+        "sentiment": -0.151
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "包拯",
+      "short": "包拯",
+      "key": "包拯",
+      "quote": "包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "油流鬼",
+      "short": "油流",
+      "key": "油流鬼",
+      "quote": "油流鬼 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "柳金蝉",
+      "short": "柳金",
+      "key": "柳金蝉",
+      "quote": "柳金蝉 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "马汉",
+      "short": "马汉",
+      "key": "马汉",
+      "quote": "马汉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王朝",
+      "short": "王朝",
+      "key": "王朝",
+      "quote": "王朝 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "望乡台",
+      "key": "望乡台",
+      "quote": "场景发生在望乡台"
+    }
+  ]
+}

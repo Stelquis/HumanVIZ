@@ -1,0 +1,513 @@
+{
+  "title": "顶花砖",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 8,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "03031004_顶花砖.json",
+  "source_folder": "03000000",
+  "plot_summary": "周子清邀友常天保赴京赶考。常天保素惧妻，归与请商。非但未允，反被罚跪顶砖。适周子清撞见，婉劝不\n果。周子清乃助常天保打妻，终得允考。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 198,
+      "summary": "第1场；第2场",
+      "conflict": 0.16,
+      "importance": 1.0,
+      "locations": {
+        "天保跪庭堂": 2
+      },
+      "characters": {
+        "丫鬟": 1,
+        "常天保": 1,
+        "常妻": 1,
+        "周子清": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "常天保",
+          "value": 1
+        },
+        {
+          "source": "常天保",
+          "target": "常妻",
+          "value": 2
+        },
+        {
+          "source": "丫鬟",
+          "target": "常妻",
+          "value": 1
+        },
+        {
+          "source": "周子清",
+          "target": "常天保",
+          "value": 1
+        },
+        {
+          "source": "周子清",
+          "target": "常妻",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 99,
+      "summary": "第3场；第4场",
+      "conflict": 0.38,
+      "importance": 1.0,
+      "locations": {
+        "天保跪庭堂": 1,
+        "谁等谁": 1
+      },
+      "characters": {
+        "周子清": 1,
+        "常天保": 1,
+        "常妻": 1
+      },
+      "links": [
+        {
+          "source": "周子清",
+          "target": "常妻",
+          "value": 1
+        },
+        {
+          "source": "周子清",
+          "target": "常天保",
+          "value": 2
+        },
+        {
+          "source": "常天保",
+          "target": "常妻",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 25,
+      "summary": "第5场；第6场",
+      "conflict": 0.615,
+      "importance": 0.284,
+      "locations": {
+        "天保跪庭堂": 2
+      },
+      "characters": {
+        "常天保": 1,
+        "常妻": 1,
+        "周子清": 1
+      },
+      "links": [
+        {
+          "source": "周子清",
+          "target": "常天保",
+          "value": 2
+        },
+        {
+          "source": "常天保",
+          "target": "常妻",
+          "value": 1
+        },
+        {
+          "source": "周子清",
+          "target": "常妻",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 30,
+      "summary": "第7场；第8场",
+      "conflict": 0.495,
+      "importance": 0.341,
+      "locations": {
+        "谁等谁": 1,
+        "天保跪庭堂": 1
+      },
+      "characters": {
+        "常天保": 1,
+        "常妻": 1
+      },
+      "links": [
+        {
+          "source": "常天保",
+          "target": "常妻",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "天保跪庭堂",
+      "characters": [
+        {
+          "name": "常天保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": -0.143,
+          "role": "丑"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大爷什么事？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "常妻",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "我说常天保，你也不瞧瞧，那是我的坐儿，也是你坐的吗？",
+          "rating": 0.6,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第1场：3位角色，127行",
+      "firstLine": 1,
+      "lastLine": 127,
+      "numLines": 127,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.125,
+        "sentiment": 0.176
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "天保跪庭堂",
+      "characters": [
+        {
+          "name": "常天保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "这干什么还赶考啊？现成的平顶冠这不就带上了吗？",
+          "rating": -0.143,
+          "role": "丑"
+        },
+        {
+          "name": "周子清",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走啊！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "常妻",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我说丫头啊！瞧瞧你们大爷跪好了没有？要是没跪好啊，告诉我，我还得打他，",
+          "rating": 0.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第2场：3位角色，71行",
+      "firstLine": 1,
+      "lastLine": 71,
+      "numLines": 71,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.882,
+        "conflict": 0.237,
+        "sentiment": 0.016
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "天保跪庭堂",
+      "characters": [
+        {
+          "name": "周子清",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "嫂嫂，还是让他去吧！",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "常妻",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我不让他去！",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "常天保",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "是啦。",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第3场：3位角色，96行",
+      "firstLine": 1,
+      "lastLine": 96,
+      "numLines": 96,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.945,
+        "conflict": 0.171,
+        "sentiment": 0.38
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "谁等谁",
+      "characters": [
+        {
+          "name": "常天保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "嘿！兄弟，你这主意真好。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "周子清",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我在长亭等你。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第4场：2位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.608,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "天保跪庭堂",
+      "characters": [
+        {
+          "name": "常天保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "唉！不得了。他走了，我怎么直打哆嗦？",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "周子清",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "兄长何事？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "常妻",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "兄弟他走了吗？",
+          "rating": 0.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第5场：3位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.759,
+        "conflict": 0.37,
+        "sentiment": 0.775
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "天保跪庭堂",
+      "characters": [
+        {
+          "name": "常天保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "兄弟，长亭见！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "周子清",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第6场：2位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.605,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": "谁等谁",
+      "characters": [
+        {
+          "name": "常天保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "对啦，谁先到谁等谁，长亭见！长亭见！不行！他一走，我又哆嗦上啦。这可",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "常妻",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "兄弟走了吗？",
+          "rating": 1.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第7场：2位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.664,
+        "conflict": 0.784,
+        "sentiment": 0.495
+      }
+    },
+    {
+      "number": 8,
+      "name": "第8场",
+      "location": "天保跪庭堂",
+      "characters": [],
+      "summary": "第8场：0位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.013,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "常天保",
+      "short": "常天",
+      "key": "常天保",
+      "quote": "常天保 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "常妻",
+      "short": "常妻",
+      "key": "常妻",
+      "quote": "常妻 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "周子清",
+      "short": "周子",
+      "key": "周子清",
+      "quote": "周子清 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "天保跪庭堂",
+      "key": "天保跪庭堂",
+      "quote": "场景发生在天保跪庭堂"
+    },
+    {
+      "name": "谁等谁",
+      "key": "谁等谁",
+      "quote": "场景发生在谁等谁"
+    }
+  ]
+}

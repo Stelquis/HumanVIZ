@@ -1,0 +1,298 @@
+{
+  "title": "乌盆计",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01001004_乌盆计【后本】.json",
+  "source_folder": "01000000",
+  "plot_summary": "北宋，绸商刘世昌，投宿客店，店主赵大夫妇，窥其行囊沉重，顿起不良，设计将刘世昌药死，砍为肉酱，\n杂以泥土，团成乌盆。事隔数年，毫无破绽。适有张别古至赵大处讨草鞋钱，赵大坚不与钱。天网恢恢，卒\n以乌盆与之。张别古取盆回来，忽有鬼声自盆出，诉冤甚苦，张别古持盆至包拯处首告，包公准之，签提赵\n大，一鞠而服。",
+  "performance_notes": "剧中反二黄一段，鸣咽悲凉，最为动听。此剧普通只唱诉冤一段，惟谭贝勒必演全本。服毒一场，绕场跌扑，\n煞费力量。近贵俊卿亦演全本，纯仿谭派。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 219,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张别古": 1,
+        "刘世昌": 1,
+        "赵大": 1
+      },
+      "links": [
+        {
+          "source": "张别古",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵大",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 142,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.787,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张别古": 1,
+        "包拯": 1,
+        "赵大": 1,
+        "刘世昌": 1,
+        "二衙役": 1
+      },
+      "links": [
+        {
+          "source": "二衙役",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "刘世昌",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "张别古",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵大",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张别古",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哽唬。",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "赵大",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "忽听叫赵大，胆战又如麻。纵然将事发，我有钱也不怕。",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "刘世昌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "张别古！",
+          "rating": -0.077,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：3位角色，219行",
+      "firstLine": 1,
+      "lastLine": 219,
+      "numLines": 219,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.161,
+        "sentiment": 0.082
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "官居县令，与黎民，判断冤情。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "二衙役",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "将放告牌抬出。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "张别古",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "走吓。",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "刘世昌",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "赵大",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：5位角色，142行",
+      "firstLine": 1,
+      "lastLine": 142,
+      "numLines": 142,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.115,
+        "sentiment": 0.328
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘世昌",
+      "short": "刘世",
+      "key": "刘世昌",
+      "quote": "刘世昌 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张别古",
+      "short": "张别",
+      "key": "张别古",
+      "quote": "张别古 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "赵大",
+      "short": "赵大",
+      "key": "赵大",
+      "quote": "赵大 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "包拯",
+      "short": "包拯",
+      "key": "包拯",
+      "quote": "包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "二衙役",
+      "short": "二衙",
+      "key": "二衙役",
+      "quote": "二衙役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

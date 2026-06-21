@@ -1,0 +1,2751 @@
+{
+  "title": "卓文君",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 9,
+  "num_scenes": 20,
+  "num_characters": 27,
+  "num_locations": 9,
+  "source_file": "03079001_卓文君.json",
+  "source_folder": "03000000",
+  "plot_summary": "司马相如工辞赋，家贫不得志，乃至临邛访契友临邛令王吉，王吉厚遇之。临邛首富卓王孙，为结好王吉，\n宴司马相如。司马相如至卓王孙家操琴，为卓王孙新寡女卓文君所爱慕，请父允婚。卓王孙嫌司马相如贫，\n不允。卓文君私奔司马相如，在临邛开设酒肆，夫妻亲自操作，卓王孙深以为耻。后司马相如献《子虚赋》\n于君前，拜为中郞将，奉命出使外国，卓王孙见司马相如贵，乃献金相认。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 58,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.562,
+      "importance": 0.518,
+      "locations": {
+        "姐不在绣阁": 1,
+        " 打道出城": 1,
+        "临邛城": 1
+      },
+      "characters": {
+        "王吉": 1,
+        "司马相如": 1,
+        "院子": 1,
+        "家童": 1
+      },
+      "links": [
+        {
+          "source": "司马相如",
+          "target": "家童",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "王吉",
+          "value": 3
+        },
+        {
+          "source": "家童",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "王吉",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 164,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.761,
+      "importance": 1.0,
+      "locations": {
+        "姐不在绣阁": 1,
+        "招待宿都亭": 1,
+        "馆舍于都亭": 1
+      },
+      "characters": {
+        "王吉": 1,
+        "卓文君": 1,
+        "院子": 1,
+        "卓二公子": 1,
+        "王吉王孙": 1,
+        "卓大公子": 1,
+        "家院": 1,
+        "司马相如": 1,
+        "卓王孙": 1,
+        "家童": 1,
+        "丫鬟甲": 1
+      },
+      "links": [
+        {
+          "source": "卓王孙",
+          "target": "家院",
+          "value": 2
+        },
+        {
+          "source": "卓文君",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "王吉",
+          "value": 2
+        },
+        {
+          "source": "卓王孙",
+          "target": "司马相如",
+          "value": 2
+        },
+        {
+          "source": "卓文君",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "王吉",
+          "value": 2
+        },
+        {
+          "source": "司马相如",
+          "target": "家院",
+          "value": 2
+        },
+        {
+          "source": "卓大公子",
+          "target": "卓文君",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "卓文君",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "卓大公子",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "王吉",
+          "value": 2
+        },
+        {
+          "source": "司马相如",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "家童",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "王吉王孙",
+          "value": 1
+        },
+        {
+          "source": "王吉",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "家童",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "王吉",
+          "target": "王吉王孙",
+          "value": 1
+        },
+        {
+          "source": "家童",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "王吉王孙",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "家童",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家童",
+          "target": "王吉王孙",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "家童",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "王吉王孙",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "王吉王孙",
+          "value": 1
+        },
+        {
+          "source": "丫鬟甲",
+          "target": "卓文君",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 296,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.067,
+      "importance": 1.0,
+      "locations": {
+        "姐不在绣阁": 1,
+        "门径奔都亭": 1,
+        "前叩门": 1
+      },
+      "characters": {
+        "王吉": 1,
+        "卓家院乙": 1,
+        "卓家院": 1,
+        "卓文君": 1,
+        "司马相如": 1,
+        "丫鬟": 1,
+        "院子": 1,
+        "卓院子甲": 1,
+        "家院": 1,
+        "卓家院甲": 1,
+        "门客": 1,
+        "程郑": 1,
+        "卓王孙": 1
+      },
+      "links": [
+        {
+          "source": "卓家院乙",
+          "target": "卓家院甲",
+          "value": 1
+        },
+        {
+          "source": "卓家院甲",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "卓家院甲",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "卓家院甲",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "卓家院甲",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓家院甲",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓家院甲",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "卓家院甲",
+          "target": "卓院子甲",
+          "value": 1
+        },
+        {
+          "source": "卓家院",
+          "target": "卓家院甲",
+          "value": 1
+        },
+        {
+          "source": "卓家院甲",
+          "target": "卓文君",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "卓家院甲",
+          "value": 1
+        },
+        {
+          "source": "卓家院甲",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓家院乙",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "卓家院乙",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "卓家院乙",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "卓家院乙",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓家院乙",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓家院乙",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "卓家院乙",
+          "target": "卓院子甲",
+          "value": 1
+        },
+        {
+          "source": "卓家院",
+          "target": "卓家院乙",
+          "value": 1
+        },
+        {
+          "source": "卓家院乙",
+          "target": "卓文君",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "卓家院乙",
+          "value": 1
+        },
+        {
+          "source": "卓家院乙",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "卓院子甲",
+          "value": 1
+        },
+        {
+          "source": "卓家院",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "程郑",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "王吉",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "程郑",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "卓院子甲",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "卓家院",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "王吉",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "门客",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "卓院子甲",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "卓家院",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "卓院子甲",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓家院",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "司马相如",
+          "value": 2
+        },
+        {
+          "source": "丫鬟",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "王吉",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "卓院子甲",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓家院",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓院子甲",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "卓家院",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "卓家院",
+          "target": "卓院子甲",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "卓院子甲",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "卓院子甲",
+          "value": 1
+        },
+        {
+          "source": "卓院子甲",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓家院",
+          "target": "卓文君",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "卓家院",
+          "value": 1
+        },
+        {
+          "source": "卓家院",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "卓文君",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "家院",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 3,
+      "numLines": 90,
+      "summary": "第十场；第十一场；第十二场",
+      "conflict": 0.644,
+      "importance": 0.804,
+      "locations": {
+        "姐不在绣阁": 3
+      },
+      "characters": {
+        "王吉": 1,
+        "卓文君": 1,
+        "司马相如": 1,
+        "杨得意": 1,
+        "卓大公子": 1,
+        "家院": 1,
+        "丫鬟": 1,
+        "卓王孙": 1,
+        "四随从": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "卓大公子",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "四随从",
+          "target": "杨得意",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "杨得意",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "四随从",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 3,
+      "numLines": 210,
+      "summary": "第十三场；第十四场；第十五场",
+      "conflict": 0.442,
+      "importance": 1.0,
+      "locations": {
+        "为之也塌台": 1,
+        "姐不在绣阁": 2
+      },
+      "characters": {
+        "门子甲": 1,
+        "王吉": 1,
+        "卓文君": 1,
+        "杨得意": 1,
+        "二门子": 1,
+        "门客": 1,
+        "随从甲": 1,
+        "家院": 1,
+        "司马相如": 1,
+        "程郑": 1,
+        "卓王孙": 1,
+        "刘彻": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "卓文君",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "随从甲",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "卓王孙",
+          "value": 2
+        },
+        {
+          "source": "司马相如",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "随从甲",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "程郑",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "程郑",
+          "target": "随从甲",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "门客",
+          "target": "随从甲",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "随从甲",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "随从甲",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "王吉",
+          "target": "门子甲",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "门子甲",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "卓文君",
+          "value": 1
+        },
+        {
+          "source": "二门子",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "门子甲",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "门子甲",
+          "value": 1
+        },
+        {
+          "source": "刘彻",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "刘彻",
+          "target": "杨得意",
+          "value": 1
+        },
+        {
+          "source": "刘彻",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "杨得意",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "杨得意",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 3,
+      "numLines": 156,
+      "summary": "第十六场；第十七场；第十八场",
+      "conflict": 0.378,
+      "importance": 1.0,
+      "locations": {
+        "姐不在绣阁": 3
+      },
+      "characters": {
+        "王吉": 1,
+        "卓文君": 1,
+        "杨得意": 1,
+        "卓二公子": 1,
+        "家院": 1,
+        "卓大公子": 1,
+        "门子": 1,
+        "门客": 1,
+        "司马相如": 1,
+        "程郑": 1,
+        "卓王孙": 1
+      },
+      "links": [
+        {
+          "source": "卓王孙",
+          "target": "程郑",
+          "value": 2
+        },
+        {
+          "source": "卓王孙",
+          "target": "司马相如",
+          "value": 2
+        },
+        {
+          "source": "司马相如",
+          "target": "程郑",
+          "value": 2
+        },
+        {
+          "source": "卓文君",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "杨得意",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "杨得意",
+          "value": 1
+        },
+        {
+          "source": "王吉",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "杨得意",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "杨得意",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "卓王孙",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "卓王孙",
+          "value": 1
+        },
+        {
+          "source": "程郑",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "程郑",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "门客",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "卓大公子",
+          "value": 1
+        },
+        {
+          "source": "卓二公子",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "卓大公子",
+          "target": "司马相如",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第7章",
+      "numScenes": 2,
+      "numLines": 34,
+      "summary": "第十九场；第二十场",
+      "conflict": 0.027,
+      "importance": 0.304,
+      "locations": {
+        "姐不在绣阁": 2
+      },
+      "characters": {
+        "门子甲": 1,
+        "王吉": 1,
+        "卓文君": 1,
+        "太守": 1,
+        "司马相如": 1
+      },
+      "links": [
+        {
+          "source": "太守",
+          "target": "王吉",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "司马相如",
+          "value": 1
+        },
+        {
+          "source": "司马相如",
+          "target": "门子甲",
+          "value": 1
+        },
+        {
+          "source": "卓文君",
+          "target": "门子甲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第8章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    },
+    {
+      "chapter": "第9章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "司马相如",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "才高北斗，论词赋，迈越同俦。",
+          "rating": 0.667,
+          "role": "小生"
+        },
+        {
+          "name": "家童",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "有。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "王吉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：3位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.339,
+        "conflict": 0.377,
+        "sentiment": 0.596
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 打道出城",
+      "characters": [
+        {
+          "name": "王吉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "良朋要入境，策马出郊迎。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "司马相如",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.303,
+        "conflict": 0.0,
+        "sentiment": 0.793
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "临邛城",
+      "characters": [
+        {
+          "name": "司马相如",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "长卿策马出家门，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "王吉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "前途车马雍容甚，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.329,
+        "conflict": 0.0,
+        "sentiment": 0.231
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "卓王孙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "席丰履厚，家富有，贵比玉侯。",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "卓文君",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "生长富豪家，望门寡，美玉无瑕。",
+          "rating": 0.5,
+          "role": "旦"
+        },
+        {
+          "name": "卓大公子",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "街上听得人谈论，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "卓二公子",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "司马长卿到临邛。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王吉",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "司马相如",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：7位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.841,
+        "conflict": 0.22,
+        "sentiment": 0.544
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "招待宿都亭",
+      "characters": [
+        {
+          "name": "司马相如",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "邑令招待宿都亭，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "王吉",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我故人无如那司马长卿，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "里面有人么？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家童",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "王相公来了。请进！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "奉了主人命，来此邀上宾。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王吉王孙",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "虽非雅人，其女文君新寡，爱好音律，能鼓七弦之琴。她与长卿有同好。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "卓王孙",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：7位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.681,
+        "conflict": 0.296,
+        "sentiment": 0.774
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "馆舍于都亭",
+      "characters": [
+        {
+          "name": "卓文君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "昨夜晚听琴声芳心荡漾，",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟甲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "姑娘！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：2位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.338,
+        "conflict": 1.0,
+        "sentiment": 0.013
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "卓家院甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "主人今日大宴宾客，首席乃是司马官人。我们必须将客堂打扫齐整。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "卓家院乙",
+          "importance": 0.9230769230769231,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "那司马官人是甚等样人，主人为何如此器重？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "卓王孙",
+          "importance": 0.8461538461538461,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "嗯咳！",
+          "rating": 0.636,
+          "role": "老生"
+        },
+        {
+          "name": "程郑",
+          "importance": 0.7692307692307693,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "富有千钟粟，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "门客",
+          "importance": 0.6923076923076923,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "来陪座上宾。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "司马相如",
+          "importance": 0.6153846153846154,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "客临邛舍都亭偶染小恙，",
+          "rating": 0.6,
+          "role": "小生"
+        },
+        {
+          "name": "王吉",
+          "importance": 0.5384615384615384,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "前去通报。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.46153846153846156,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "里面有人么？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "卓院子甲",
+          "importance": 0.38461538461538464,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "卓家院",
+          "importance": 0.3076923076923077,
+          "importance_rank": 10,
+          "emotion": "neutral",
+          "quote": "王县尊、司马官人来了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "卓文君",
+          "importance": 0.23076923076923078,
+          "importance_rank": 11,
+          "emotion": "positive",
+          "quote": "好个司马长卿，像貌非凡，举止佳妙。现在他就要鼓琴，待奴隔屏窃听便了。",
+          "rating": 0.6,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.15384615384615385,
+          "importance_rank": 12,
+          "emotion": "neutral",
+          "quote": "小姐！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.07692307692307693,
+          "importance_rank": 13,
+          "emotion": "neutral",
+          "quote": "王县尊、司马官人来了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：13位角色，231行",
+      "firstLine": 1,
+      "lastLine": 231,
+      "numLines": 231,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.121,
+        "sentiment": 0.507
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "门径奔都亭",
+      "characters": [
+        {
+          "name": "卓文君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "方才与父来争论，",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第八场：1位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.471,
+        "conflict": 1.0,
+        "sentiment": 0.44
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "前叩门",
+      "characters": [
+        {
+          "name": "司马相如",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "卓府夜宴听琴音，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "卓文君",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "不觉已到都亭了。待我上前叩门。哎呀且住！他若问我，我拿何言答对？这便",
+          "rating": 0.2,
+          "role": "旦"
+        }
+      ],
+      "summary": "第九场：2位角色，53行",
+      "firstLine": 1,
+      "lastLine": 53,
+      "numLines": 53,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.595,
+        "conflict": 0.684,
+        "sentiment": 0.452
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "卓王孙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "昨日里宴佳客尽欢而散，",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "哎呀家爷呀，大事不好啦！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启家爷：司马官人不知何时逃走。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "卓大公子",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "忙将新闻事，报与父亲知。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "司马相如",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十场：5位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.581,
+        "conflict": 1.0,
+        "sentiment": 0.176
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "卓文君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一曲琴音，引得我，沉醉芳心。",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "司马相如",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我二人回成都资财耗尽，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "王吉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第十一场：3位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.481,
+        "conflict": 0.625,
+        "sentiment": 0.565
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "杨得意",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "好一片青春景太平世界，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "四随从",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "司马相如",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十二场：3位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.315,
+        "conflict": 0.0,
+        "sentiment": 0.82
+      }
+    },
+    {
+      "number": 13,
+      "name": "第十三场",
+      "location": "为之也塌台",
+      "characters": [
+        {
+          "name": "卓文君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "抛秀容出香闺临邛设肆，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "司马相如",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "唉，羞煞人也！",
+          "rating": 0.6,
+          "role": "小生"
+        },
+        {
+          "name": "程郑",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我程郑有的是万贯家财，",
+          "rating": 0.231,
+          "role": "老生"
+        },
+        {
+          "name": "门客",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "他的钱虽然多难入我袋，",
+          "rating": 0.25,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "随从甲",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "奉了杨公公之命，在临邛县内寻找司马相如，可叫我哪儿找去哪？那边儿有个",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "卓王孙",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第十三场：7位角色，155行",
+      "firstLine": 1,
+      "lastLine": 155,
+      "numLines": 155,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.977,
+        "conflict": 0.181,
+        "sentiment": 0.34
+      }
+    },
+    {
+      "number": 14,
+      "name": "第十四场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "王吉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "鸣驹往返，七品官，送去迎来。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "二门子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "门子甲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "是。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "卓文君",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "卓王孙",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第十四场：5位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.568,
+        "conflict": 0.678,
+        "sentiment": 0.782
+      }
+    },
+    {
+      "number": 15,
+      "name": "第十五场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "刘彻",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "万机待理，承皇业，一统山河。",
+          "rating": 0.75,
+          "role": ""
+        },
+        {
+          "name": "大太监",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "奴婢在。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨得意",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "司马相如",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十五场：4位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.38,
+        "conflict": 0.0,
+        "sentiment": 0.628
+      }
+    },
+    {
+      "number": 16,
+      "name": "第十六场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "卓王孙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "家门遭不幸，恨女竟私逃。",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "程郑",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "迈步且把卓府进，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "司马相如",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十六场：3位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.477,
+        "conflict": 0.308,
+        "sentiment": 0.247
+      }
+    },
+    {
+      "number": 17,
+      "name": "第十七场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "司马相如",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "一寒清彻骨，有情成眷属。夫妻作佣保，甘心自羞辱。",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "卓文君",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "当初你到我家，本从县令饮酒。如今沦落不遇，卖酒为生，酒始酒终，岂非一",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "王吉",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "聊分鹤俸济清贫，",
+          "rating": 0.667,
+          "role": "老生"
+        },
+        {
+          "name": "门子",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "司马官人，王县尊亲送礼物来了。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "杨得意",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "圣旨下！",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十七场：5位角色，62行",
+      "firstLine": 1,
+      "lastLine": 62,
+      "numLines": 62,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.627,
+        "conflict": 0.0,
+        "sentiment": 0.291
+      }
+    },
+    {
+      "number": 18,
+      "name": "第十八场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "卓王孙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "为女儿气得我一场大病，",
+          "rating": 0.667,
+          "role": "老生"
+        },
+        {
+          "name": "程郑",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忙将所闻事，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "门客",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "报与王孙知。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "二位来了。请进！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "卓二公子",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "参见爹爹！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "卓大公子",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "回来了。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "司马相如",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十八场：7位角色，60行",
+      "firstLine": 1,
+      "lastLine": 60,
+      "numLines": 60,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.674,
+        "conflict": 0.432,
+        "sentiment": 0.625
+      }
+    },
+    {
+      "number": 19,
+      "name": "第十九场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "太守",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "天使将入境，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "王吉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "郊接献殷勤。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第十九场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.121,
+        "conflict": 0.0,
+        "sentiment": 0.773
+      }
+    },
+    {
+      "number": 20,
+      "name": "第二十场",
+      "location": "姐不在绣阁",
+      "characters": [
+        {
+          "name": "司马相如",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "仕宦而至将与相，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "卓文君",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "君承宠命建节往，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "门子甲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "蜀郡太守等出郊恭迎。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二十场：3位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.456,
+        "conflict": 0.0,
+        "sentiment": 0.8
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "卓文君",
+      "short": "卓文",
+      "key": "卓文君",
+      "quote": "卓文君 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "司马相如",
+      "short": "司马",
+      "key": "司马相如",
+      "quote": "司马相如 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "卓王孙",
+      "short": "卓王",
+      "key": "卓王孙",
+      "quote": "卓王孙 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "程郑",
+      "short": "程郑",
+      "key": "程郑",
+      "quote": "程郑 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨得意",
+      "short": "杨得",
+      "key": "杨得意",
+      "quote": "杨得意 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "王吉",
+      "short": "王吉",
+      "key": "王吉",
+      "quote": "王吉 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "卓二公子",
+      "short": "卓二",
+      "key": "卓二公子",
+      "quote": "卓二公子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门子",
+      "short": "门子",
+      "key": "门子",
+      "quote": "门子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "卓院子甲",
+      "short": "卓院",
+      "key": "卓院子甲",
+      "quote": "卓院子甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门客",
+      "short": "门客",
+      "key": "门客",
+      "quote": "门客 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "卓家院甲",
+      "short": "卓家",
+      "key": "卓家院甲",
+      "quote": "卓家院甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "卓家院",
+      "short": "卓家",
+      "key": "卓家院",
+      "quote": "卓家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "卓家院乙",
+      "short": "卓家",
+      "key": "卓家院乙",
+      "quote": "卓家院乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二门子",
+      "short": "二门",
+      "key": "二门子",
+      "quote": "二门子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟甲",
+      "short": "丫鬟",
+      "key": "丫鬟甲",
+      "quote": "丫鬟甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家童",
+      "short": "家童",
+      "key": "家童",
+      "quote": "家童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门子甲",
+      "short": "门子",
+      "key": "门子甲",
+      "quote": "门子甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "随从甲",
+      "short": "随从",
+      "key": "随从甲",
+      "quote": "随从甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘彻",
+      "short": "刘彻",
+      "key": "刘彻",
+      "quote": "刘彻 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四随从",
+      "short": "四随",
+      "key": "四随从",
+      "quote": "四随从 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "太守",
+      "short": "太守",
+      "key": "太守",
+      "quote": "太守 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王吉王孙",
+      "short": "王吉",
+      "key": "王吉王孙",
+      "quote": "王吉王孙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "卓大公子",
+      "short": "卓大",
+      "key": "卓大公子",
+      "quote": "卓大公子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "姐不在绣阁",
+      "key": "姐不在绣阁",
+      "quote": "场景发生在姐不在绣阁"
+    },
+    {
+      "name": "门径奔都亭",
+      "key": "门径奔都亭",
+      "quote": "场景发生在门径奔都亭"
+    },
+    {
+      "name": "馆舍于都亭",
+      "key": "馆舍于都亭",
+      "quote": "场景发生在馆舍于都亭"
+    },
+    {
+      "name": "临邛城",
+      "key": "临邛城",
+      "quote": "场景发生在临邛城"
+    },
+    {
+      "name": "为之也塌台",
+      "key": "为之也塌台",
+      "quote": "场景发生在为之也塌台"
+    },
+    {
+      "name": "前叩门",
+      "key": "前叩门",
+      "quote": "场景发生在前叩门"
+    },
+    {
+      "name": " 打道出城",
+      "key": " 打道出城",
+      "quote": "场景发生在 打道出城"
+    },
+    {
+      "name": "招待宿都亭",
+      "key": "招待宿都亭",
+      "quote": "场景发生在招待宿都亭"
+    },
+    {
+      "name": "来到临邛城",
+      "key": "来到临邛城",
+      "quote": "场景发生在来到临邛城"
+    }
+  ]
+}

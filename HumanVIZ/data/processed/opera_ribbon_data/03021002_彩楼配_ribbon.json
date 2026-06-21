@@ -1,0 +1,404 @@
+{
+  "title": "彩楼配",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 8,
+  "num_locations": 3,
+  "source_file": "03021002_彩楼配.json",
+  "source_folder": "03000000",
+  "plot_summary": "二月二日，王丞相府高搭彩楼，抛球招婿，无数王孙公子前往接彩。王宝钏高立彩楼，既见薛平贵，即将球\n抛下。薛平贵获得彩球，王宝钏乃下楼回报。",
+  "performance_notes": "为全部《王宝钏》之第二折。全部《王宝钏》共十三个剧目，除《武家坡》、《大登殿》两折，其余大部均\n不常见于舞台。有些单出戏经过历次舞台实践得到发展。经串连后，不免有词句重复、情节欠统一之处。本\n集为了存真，一律未予更动。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 37,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.949,
+      "locations": {
+        "高搭彩楼": 1
+      },
+      "characters": {
+        "公子乙": 1,
+        "薛平贵": 1,
+        "门官": 1,
+        "公子甲": 1,
+        "公子丁": 1,
+        "公子丙": 1
+      },
+      "links": [
+        {
+          "source": "公子乙",
+          "target": "公子甲",
+          "value": 1
+        },
+        {
+          "source": "公子丙",
+          "target": "公子甲",
+          "value": 1
+        },
+        {
+          "source": "公子丁",
+          "target": "公子甲",
+          "value": 1
+        },
+        {
+          "source": "公子甲",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "公子甲",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "公子丙",
+          "target": "公子乙",
+          "value": 1
+        },
+        {
+          "source": "公子丁",
+          "target": "公子乙",
+          "value": 1
+        },
+        {
+          "source": "公子乙",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "公子乙",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "公子丁",
+          "target": "公子丙",
+          "value": 1
+        },
+        {
+          "source": "公子丙",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "公子丙",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "公子丁",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "公子丁",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "薛平贵",
+          "target": "门官",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 41,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "宝钏同上楼": 1
+      },
+      "characters": {
+        "月老": 1,
+        "薛平贵": 1,
+        "公子丁": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "公子丁",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "月老",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "公子丁",
+          "target": "月老",
+          "value": 1
+        },
+        {
+          "source": "公子丁",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "月老",
+          "target": "薛平贵",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "高搭彩楼",
+      "characters": [
+        {
+          "name": "公子甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "春游芳草地，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "公子乙",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "夏赏荷花池。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "公子丙",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "秋饮菊花酒，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "公子丁",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "冬吟白雪诗。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "门官",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "你们都是接彩的吗？往里边儿请吧！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "薛平贵",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：6位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.0,
+        "sentiment": 0.766
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "宝钏同上楼",
+      "characters": [
+        {
+          "name": "王宝钏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "梳妆打扮出绣房，",
+          "rating": 0.5,
+          "role": "旦"
+        },
+        {
+          "name": "公子丁",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "别回去！",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "月老",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "彩球打中讨饭郎。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "薛平贵",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：4位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.0,
+        "sentiment": 0.559
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "薛平贵",
+      "short": "薛平",
+      "key": "薛平贵",
+      "quote": "薛平贵 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "公子丁",
+      "short": "公子",
+      "key": "公子丁",
+      "quote": "公子丁 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "公子乙",
+      "short": "公子",
+      "key": "公子乙",
+      "quote": "公子乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门官",
+      "short": "门官",
+      "key": "门官",
+      "quote": "门官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "公子甲",
+      "short": "公子",
+      "key": "公子甲",
+      "quote": "公子甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "公子丙",
+      "short": "公子",
+      "key": "公子丙",
+      "quote": "公子丙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "月老",
+      "short": "月老",
+      "key": "月老",
+      "quote": "月老 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "宝钏同上楼",
+      "key": "宝钏同上楼",
+      "quote": "场景发生在宝钏同上楼"
+    },
+    {
+      "name": "高搭彩楼",
+      "key": "高搭彩楼",
+      "quote": "场景发生在高搭彩楼"
+    },
+    {
+      "name": "今有王相府",
+      "key": "今有王相府",
+      "quote": "场景发生在今有王相府"
+    }
+  ]
+}

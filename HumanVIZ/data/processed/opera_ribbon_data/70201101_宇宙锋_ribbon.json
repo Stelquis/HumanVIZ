@@ -1,0 +1,335 @@
+{
+  "title": "宇宙锋",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "70201101_宇宙锋.json",
+  "source_folder": "70201000",
+  "plot_summary": "秦二世胡亥，荒淫暴虐，宠任奸佞赵高，置国事于不顾。赵高有女赵艳容，美而寡。秦二世幸赵府，见之大\n悦，欲纳为后，赵高欣然允之。赵艳容以秦二世淫逸放纵，灭亡可待，执意不从。赵高利禄熏心，再四逼迫。\n有哑婢教赵艳容装疯以难之，赵艳容遂胡言乱语，指天尽地，一似真有神经病若。赵高不得已以女病疯奏\n二世，秦二世不信，迎赵艳容登殿。赵艳容指秦二世大骂。秦二世佯命斩首以惧之。赵艳容痛骂狂笑如故，\n乃放还焉。",
+  "performance_notes": "这是过去只注重唱功的戏；经过梅兰芳先生多年的舞台实践，把它发展并丰富起来，尤其是在表演艺术上，\n有很多的创造。它是梅兰芳先生从早年到现在不断演出的代表作。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 140,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        " 凤阁龙楼": 1
+      },
+      "characters": {
+        "秦王": 1,
+        "赵艳容": 1,
+        "门官": 1,
+        "赵高": 1
+      },
+      "links": [
+        {
+          "source": "赵高",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "赵艳容",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "秦王",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "赵艳容",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "秦王",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "秦王",
+          "target": "赵艳容",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 77,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.71,
+      "locations": {
+        " 凤阁龙楼": 1
+      },
+      "characters": {
+        "四朝臣": 1,
+        "赵艳容": 1,
+        "秦王": 1,
+        "赵高": 1,
+        "大太监甲": 1
+      },
+      "links": [
+        {
+          "source": "四朝臣",
+          "target": "秦王",
+          "value": 1
+        },
+        {
+          "source": "秦王",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "秦王",
+          "value": 1
+        },
+        {
+          "source": "秦王",
+          "target": "赵艳容",
+          "value": 1
+        },
+        {
+          "source": "四朝臣",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "四朝臣",
+          "target": "大太监甲",
+          "value": 1
+        },
+        {
+          "source": "四朝臣",
+          "target": "赵艳容",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "赵艳容",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "赵艳容",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "赵高",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "月影照纱窗，梅花映粉墙。",
+          "rating": 0.25,
+          "role": "净"
+        },
+        {
+          "name": "门官",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵艳容",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "杜鹃枝头泣，血泪暗悲啼。",
+          "rating": 0.0,
+          "role": "正旦"
+        },
+        {
+          "name": "秦王",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "摆驾！",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：4位角色，140行",
+      "firstLine": 1,
+      "lastLine": 140,
+      "numLines": 140,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.429,
+        "sentiment": 0.218
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "秦王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "凤阁龙楼，万古千秋。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "四朝臣",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "臣等见驾，吾皇万岁！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵高",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "臣赵高见驾，吾皇万岁！",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "大太监甲",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "御林军进殿哪！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵艳容",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "低着头下了这龙车凤辇，",
+          "rating": 0.667,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第二场：5位角色，77行",
+      "firstLine": 1,
+      "lastLine": 77,
+      "numLines": 77,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.447,
+        "sentiment": 0.297
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵艳容",
+      "short": "赵艳",
+      "key": "赵艳容",
+      "quote": "赵艳容 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵高",
+      "short": "赵高",
+      "key": "赵高",
+      "quote": "赵高 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "秦王",
+      "short": "秦王",
+      "key": "秦王",
+      "quote": "秦王 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四朝臣",
+      "short": "四朝",
+      "key": "四朝臣",
+      "quote": "四朝臣 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门官",
+      "short": "门官",
+      "key": "门官",
+      "quote": "门官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监甲",
+      "short": "大太",
+      "key": "大太监甲",
+      "quote": "大太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 凤阁龙楼",
+      "key": " 凤阁龙楼",
+      "quote": "场景发生在 凤阁龙楼"
+    }
+  ]
+}

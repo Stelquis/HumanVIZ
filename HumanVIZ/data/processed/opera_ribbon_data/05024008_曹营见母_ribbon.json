@@ -1,0 +1,335 @@
+{
+  "title": "曹营见母",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "05024008_曹营见母.json",
+  "source_folder": "05000000",
+  "plot_summary": "曹操迫徐母唤回徐庶未遂，伪造书信把徐庶骗到了许昌，徐母因徐庶弃明投暗，气极自尽。徐庶从此即留在\n曹营了。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 80,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "徐庶": 1,
+        "院子": 1,
+        "徐母": 1,
+        "曹操": 1,
+        "丫鬟": 1
+      },
+      "links": [
+        {
+          "source": "徐母",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "徐母",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "徐母",
+          "value": 1
+        },
+        {
+          "source": "徐母",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "曹操",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 59,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.849,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "院子": 1,
+        "曹操": 1,
+        "程昱": 1,
+        "徐庶": 1
+      },
+      "links": [
+        {
+          "source": "曹操",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "程昱",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "可恨曹操眼无珠，",
+          "rating": 0.333,
+          "role": "老旦"
+        },
+        {
+          "name": "院子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐庶",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "自离新野，不觉来此许昌。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "哎呀老爷不好了，老夫人在二堂自尽了！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "曹操",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：5位角色，80行",
+      "firstLine": 1,
+      "lastLine": 80,
+      "numLines": 80,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.602,
+        "sentiment": 0.048
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "安下天罗地网，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "程昱",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "难逃袖里机关。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐庶",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，59行",
+      "firstLine": 1,
+      "lastLine": 59,
+      "numLines": 59,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.339,
+        "sentiment": 0.779
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐母",
+      "short": "徐母",
+      "key": "徐母",
+      "quote": "徐母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "徐庶",
+      "short": "徐庶",
+      "key": "徐庶",
+      "quote": "徐庶 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹操",
+      "short": "曹操",
+      "key": "曹操",
+      "quote": "曹操 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "程昱",
+      "short": "程昱",
+      "key": "程昱",
+      "quote": "程昱 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

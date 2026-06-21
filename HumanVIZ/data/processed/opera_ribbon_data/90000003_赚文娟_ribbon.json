@@ -1,0 +1,204 @@
+{
+  "title": "赚文娟",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 2,
+  "source_file": "90000003_赚文娟.json",
+  "source_folder": "90000000",
+  "plot_summary": "长沙名妓文娟慕秦观词名，寄词达意，为秦观妻苏小妹所见，戏代秦观和词送还。蔑片柳元卿知其事，说动\n乡绅任草包冒秦观之名，往访文娟。文娟生疑，面试其才，柳元卿、任草包露丑而逃。秦观被贬郴洲，路经\n长沙，访文娟，一见订情。苏小妹乔装至长沙，冒秦观名，亦访文娟，佯指秦观为假冒，留词而去。秦观复\n任，再访文娟，文娟拒而不见。秦观悔恨至京，苏小妹已接文娟来，道破其事，秦观纳文娟为妾。",
+  "performance_notes": "故事见清朝李玉《眉山秀》传奇。程砚秋编演。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 38,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.987,
+      "locations": {
+        "春寒到画堂": 1
+      },
+      "characters": {
+        "苏小妹": 1,
+        "秦观": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "秦观",
+          "value": 1
+        },
+        {
+          "source": "秦观",
+          "target": "苏小妹",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "苏小妹",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 39,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "春寒到画堂": 1
+      },
+      "characters": {
+        "苏小妹": 1,
+        "秦观": 1
+      },
+      "links": [
+        {
+          "source": "秦观",
+          "target": "苏小妹",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "春寒到画堂",
+      "characters": [
+        {
+          "name": "秦观",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "淮海客家，正青春，锦样年华。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "齐备多时了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "苏小妹",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "春光无限，看闺林，柳媚花妍。",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：3位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.996,
+        "conflict": 0.253,
+        "sentiment": 0.26
+      }
+    },
+    {
+      "number": 2,
+      "name": "第七场",
+      "location": "春寒到画堂",
+      "characters": [
+        {
+          "name": "苏小妹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "我官人原本是才名远震，",
+          "rating": -0.6,
+          "role": "旦"
+        },
+        {
+          "name": "秦观",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "为新法使平民四方怨恨，",
+          "rating": -0.25,
+          "role": "小生"
+        }
+      ],
+      "summary": "第七场：2位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.58,
+        "sentiment": 0.002
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "苏小妹",
+      "short": "苏小",
+      "key": "苏小妹",
+      "quote": "苏小妹 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "秦观",
+      "short": "秦观",
+      "key": "秦观",
+      "quote": "秦观 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "春寒到画堂",
+      "key": "春寒到画堂",
+      "quote": "场景发生在春寒到画堂"
+    },
+    {
+      "name": "请夫人出堂",
+      "key": "请夫人出堂",
+      "quote": "场景发生在请夫人出堂"
+    }
+  ]
+}

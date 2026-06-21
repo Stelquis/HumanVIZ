@@ -1,0 +1,617 @@
+{
+  "title": "孝感天",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 10,
+  "num_locations": 4,
+  "source_file": "02001023_孝感天【三本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "庄公之母武姜自迁居颖邑后，终日郁郁不乐。颖考叔得知其情，入朝述职，于庄公赐宴之际，饮酒而遗其肉。\n庄公问故，颖考叔称臣有老母，未曾食君之赐，故留而不食，欲怀归奉母。庄公闻言，大受感动。惟以发\n誓在先，无法挽转。颖考叔乃献策掘地及泉，遂而相见。庄公从之，遂与武姜为母子如初。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 34,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.464,
+      "locations": {
+        "身死鄢城": 1
+      },
+      "characters": {
+        "颖考叔": 1,
+        "中军": 1,
+        "姜母虽是": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "姜母虽是",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "姜母虽是",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 141,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "继位登宝殿": 1
+      },
+      "characters": {
+        "颖考叔": 1,
+        "公子吕": 1,
+        "瑕叔盈": 1,
+        "窹生": 1,
+        "寤生": 1
+      },
+      "links": [
+        {
+          "source": "公子吕",
+          "target": "寤生",
+          "value": 1
+        },
+        {
+          "source": "寤生",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "寤生",
+          "target": "瑕叔盈",
+          "value": 1
+        },
+        {
+          "source": "寤生",
+          "target": "窹生",
+          "value": 1
+        },
+        {
+          "source": "公子吕",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "公子吕",
+          "target": "瑕叔盈",
+          "value": 1
+        },
+        {
+          "source": "公子吕",
+          "target": "窹生",
+          "value": 1
+        },
+        {
+          "source": "瑕叔盈",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "窹生",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "瑕叔盈",
+          "target": "窹生",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 35,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.478,
+      "locations": {
+        "继位登宝殿": 1
+      },
+      "characters": {
+        "颖考叔": 1,
+        "武姜": 1,
+        "二宫女": 1
+      },
+      "links": [
+        {
+          "source": "二宫女",
+          "target": "武姜",
+          "value": 1
+        },
+        {
+          "source": "武姜",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "颖考叔",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 83,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "然起驾出城": 1
+      },
+      "characters": {
+        "颖考叔": 1,
+        "公子吕": 1,
+        "瑕叔盈": 1,
+        "宫女": 1,
+        "武姜": 1,
+        "寤生": 1
+      },
+      "links": [
+        {
+          "source": "寤生",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "瑕叔盈",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "公子吕",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "武姜",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "颖考叔",
+          "value": 1
+        },
+        {
+          "source": "寤生",
+          "target": "瑕叔盈",
+          "value": 1
+        },
+        {
+          "source": "公子吕",
+          "target": "寤生",
+          "value": 1
+        },
+        {
+          "source": "寤生",
+          "target": "武姜",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "寤生",
+          "value": 1
+        },
+        {
+          "source": "公子吕",
+          "target": "瑕叔盈",
+          "value": 1
+        },
+        {
+          "source": "武姜",
+          "target": "瑕叔盈",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "瑕叔盈",
+          "value": 1
+        },
+        {
+          "source": "公子吕",
+          "target": "武姜",
+          "value": 1
+        },
+        {
+          "source": "公子吕",
+          "target": "宫女",
+          "value": 1
+        },
+        {
+          "source": "宫女",
+          "target": "武姜",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "身死鄢城",
+      "characters": [
+        {
+          "name": "颖考叔",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "镇守封疆，人强马壮，休兵将，亲课农桑，国泰民安享。",
+          "rating": 0.25,
+          "role": "净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姜母虽是",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "妇人见，",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.538,
+        "conflict": 0.727,
+        "sentiment": 0.466
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "继位登宝殿",
+      "characters": [
+        {
+          "name": "寤生",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "摆驾！",
+          "rating": 0.467,
+          "role": "老生"
+        },
+        {
+          "name": "公子吕",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "臣公子吕见驾，主公千岁。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "颖考叔",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "领旨。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "瑕叔盈",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "窹生",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "啊考叔！",
+          "rating": -0.429,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：5位角色，141行",
+      "firstLine": 1,
+      "lastLine": 141,
+      "numLines": 141,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.498,
+        "sentiment": 0.282
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "继位登宝殿",
+      "characters": [
+        {
+          "name": "武姜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "日在愁城常悲叹，",
+          "rating": -0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "二宫女",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启国母：颖考叔求见。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "颖考叔",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "领旨。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：3位角色，35行",
+      "firstLine": 1,
+      "lastLine": 35,
+      "numLines": 35,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.674,
+        "conflict": 0.0,
+        "sentiment": 0.185
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "然起驾出城",
+      "characters": [
+        {
+          "name": "颖考叔",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "参见主公。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "寤生",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "可曾回明国母？",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "瑕叔盈",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "遵旨。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "公子吕",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "众将官，将人马扎住！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "武姜",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "雾散云开旗飘荡，",
+          "rating": -0.273,
+          "role": "老旦"
+        },
+        {
+          "name": "宫女",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：6位角色，83行",
+      "firstLine": 1,
+      "lastLine": 83,
+      "numLines": 83,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.955,
+        "conflict": 0.268,
+        "sentiment": 0.046
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "寤生",
+      "short": "寤生",
+      "key": "寤生",
+      "quote": "寤生 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "武姜",
+      "short": "武姜",
+      "key": "武姜",
+      "quote": "武姜 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "颖考叔",
+      "short": "颖考",
+      "key": "颖考叔",
+      "quote": "颖考叔 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "公子吕",
+      "short": "公子",
+      "key": "公子吕",
+      "quote": "公子吕 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "姜母虽是",
+      "short": "姜母",
+      "key": "姜母虽是",
+      "quote": "姜母虽是 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "瑕叔盈",
+      "short": "瑕叔",
+      "key": "瑕叔盈",
+      "quote": "瑕叔盈 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二宫女",
+      "short": "二宫",
+      "key": "二宫女",
+      "quote": "二宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "宫女",
+      "short": "宫女",
+      "key": "宫女",
+      "quote": "宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "窹生",
+      "short": "窹生",
+      "key": "窹生",
+      "quote": "窹生 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "继位登宝殿",
+      "key": "继位登宝殿",
+      "quote": "场景发生在继位登宝殿"
+    },
+    {
+      "name": "身死鄢城",
+      "key": "身死鄢城",
+      "quote": "场景发生在身死鄢城"
+    },
+    {
+      "name": "然起驾出城",
+      "key": "然起驾出城",
+      "quote": "场景发生在然起驾出城"
+    },
+    {
+      "name": "考叔上高台",
+      "key": "考叔上高台",
+      "quote": "场景发生在考叔上高台"
+    }
+  ]
+}

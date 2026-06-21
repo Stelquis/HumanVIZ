@@ -1,0 +1,407 @@
+{
+  "title": "双包案",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "01006017_双包案.json",
+  "source_folder": "01000000",
+  "plot_summary": "此剧大致谓包公放粮回京，途遇黑鼠精，亦变作包公模样，与之混搅。一时法堂之上，但见一包老变为两包\n老；一罪犯变为两罪犯；两皂快变为两两皂快；四青袍变为两四青袍。真假辨认不清。",
+  "performance_notes": "此剧剧情奇幻，本属不经，毫无做工可取。惟取其听两净角对唱，以辨别妍媸耳。洵足令妇人、稚子发笑也。\n惟近来往往有《双双包案》，同时有四包公、六包公同出同唱者，则更是胡闹矣，真不值识者一笑。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 24,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.923,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "马汉": 1,
+        "包拯": 1
+      },
+      "links": [
+        {
+          "source": "包拯",
+          "target": "马汉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 77,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "包拯": 1,
+        "众人": 1,
+        "黑鼠": 1,
+        "施俊": 1,
+        "假包拯": 1,
+        "假施俊": 1
+      },
+      "links": [
+        {
+          "source": "众人",
+          "target": "黑鼠",
+          "value": 1
+        },
+        {
+          "source": "假包拯",
+          "target": "黑鼠",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "黑鼠",
+          "value": 1
+        },
+        {
+          "source": "施俊",
+          "target": "黑鼠",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "黑鼠",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "假包拯",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "假施俊",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "假包拯",
+          "target": "假施俊",
+          "value": 1
+        },
+        {
+          "source": "假包拯",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "假包拯",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "施俊",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 1,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.038,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "包拯": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 0.077,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一片丹心，保宋主，锦绣龙廷。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "马汉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "俱已齐备。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.627,
+        "conflict": 0.488,
+        "sentiment": 0.813
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "黑鼠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "修炼千年道法高，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "看我等变得可像？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "假包拯",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "哇呀呀！",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "假施俊",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "参见大人。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "施俊",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "参见大人。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "包拯",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "哇呀呀！",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：6位角色，77行",
+      "firstLine": 1,
+      "lastLine": 77,
+      "numLines": 77,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.245,
+        "sentiment": 0.814
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.487,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第四场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.023,
+        "conflict": 0.0,
+        "sentiment": 0.4
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "包拯",
+      "short": "包拯",
+      "key": "包拯",
+      "quote": "包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "假包拯",
+      "short": "假包",
+      "key": "假包拯",
+      "quote": "假包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "施俊",
+      "short": "施俊",
+      "key": "施俊",
+      "quote": "施俊 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "假施俊",
+      "short": "假施",
+      "key": "假施俊",
+      "quote": "假施俊 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "马汉",
+      "short": "马汉",
+      "key": "马汉",
+      "quote": "马汉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黑鼠",
+      "short": "黑鼠",
+      "key": "黑鼠",
+      "quote": "黑鼠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

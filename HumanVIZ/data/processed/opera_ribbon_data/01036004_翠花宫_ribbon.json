@@ -1,0 +1,509 @@
+{
+  "title": "翠花宫",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "01036004_翠花宫.json",
+  "source_folder": "01000000",
+  "plot_summary": "因护国公死（护国公即秦叔宝），徐茂功、尉迟恭、程咬金三老公爷，同往吊奠。三人知翠花宫妃张金定，\n亦必来吊，因与护国公夫人等，商量安排定当，待其来时，故意怠慢，引其恼怒，与之打架。程咬金出面劝\n解，再加调弄，百般羞辱，以出心头之恨。旋张妃来，果如所云，卒坠计中，被夫人厮打，甚至剥裤落鞋，\n踉跄不堪，且被程咬金调笑一番而去。",
+  "performance_notes": "《翠花宫》一剧，按阅剧中事实，系出初唐时代，当在薛仁贵征东前后，然按诸说唐扫北征东等各说部中，\n均无此事。全剧没头没脑，不可捉摸，究不知以何仇怨，而至欲如此被辱。考《征东传》，秦叔宝死于家，\n系在太宗御驾亲征、尉迟恭挂帅之时，徐勣、程咬金等亦均随往，均不在京，未尝有护国公死徐勣、程咬金\n等同往吊奠之事。至张士贵之妹，与秦府究有何亲戚关系，而必欲屈其贵妃之尊，亲往祭吊，亦无考据。既\n往吊矣，又有何大怨仇，而竟欲如此折辱，均难索解。秦腔中剧本，大半如是。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 27,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.152,
+      "locations": {
+        "打扫灵堂": 1
+      },
+      "characters": {
+        "张金定": 1,
+        "院子": 1,
+        "徐勣": 1,
+        "程咬金": 1,
+        "尉迟恭": 1
+      },
+      "links": [
+        {
+          "source": "徐勣",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "张金定",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "程咬金",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "张金定",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "张金定",
+          "value": 1
+        },
+        {
+          "source": "张金定",
+          "target": "程咬金",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 328,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "打扫灵堂": 1
+      },
+      "characters": {
+        "张金定": 1,
+        "院子": 1,
+        "徐勣": 1,
+        "程咬金": 1,
+        "管家": 1,
+        "尉迟恭": 1,
+        "秦夫人": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "管家",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "秦夫人",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "程咬金",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "张金定",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "秦夫人",
+          "target": "管家",
+          "value": 1
+        },
+        {
+          "source": "程咬金",
+          "target": "管家",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "管家",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "管家",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "管家",
+          "value": 1
+        },
+        {
+          "source": "张金定",
+          "target": "管家",
+          "value": 1
+        },
+        {
+          "source": "秦夫人",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "秦夫人",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "秦夫人",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "秦夫人",
+          "value": 1
+        },
+        {
+          "source": "张金定",
+          "target": "秦夫人",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "张金定",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "张金定",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "尉迟恭",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "张金定",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "张金定",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "打扫灵堂",
+      "characters": [
+        {
+          "name": "徐勣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "地为阴来天为阳，九宫八卦腹内藏。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "禀爷：诸位国公到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "岂敢。我等来得鲁莽，先生恕罪。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "吓先生，我想张士贵之妹张金定，必然前去吊祭。你我拿她取笑一场，方去了",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "张金定",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第一场：5位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.641,
+        "conflict": 0.667,
+        "sentiment": 0.296
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "打扫灵堂",
+      "characters": [
+        {
+          "name": "院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有请管家爷。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "管家",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.2,
+          "role": "小生"
+        },
+        {
+          "name": "秦夫人",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "见灵堂不由我泪流满面，",
+          "rating": 0.0,
+          "role": "二旦"
+        },
+        {
+          "name": "程咬金",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "有坐。",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "你又来多事。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "你我等候便了。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "哈哈哈哈哈，别走了，我家娘娘还未摆驾哪，我先出来了。瞒了上了，待我请",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "张金定",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "翠花宫又来了张金定，",
+          "rating": 0.143,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第二场：8位角色，328行",
+      "firstLine": 1,
+      "lastLine": 328,
+      "numLines": 328,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.098,
+        "sentiment": 0.265
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张金定",
+      "short": "张金",
+      "key": "张金定",
+      "quote": "张金定 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "程咬金",
+      "short": "程咬",
+      "key": "程咬金",
+      "quote": "程咬金 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "秦夫人",
+      "short": "秦夫",
+      "key": "秦夫人",
+      "quote": "秦夫人 — 二旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 二旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "管家",
+      "short": "管家",
+      "key": "管家",
+      "quote": "管家 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "徐勣",
+      "short": "徐勣",
+      "key": "徐勣",
+      "quote": "徐勣 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "尉迟恭",
+      "short": "尉迟",
+      "key": "尉迟恭",
+      "quote": "尉迟恭 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "打扫灵堂",
+      "key": "打扫灵堂",
+      "quote": "场景发生在打扫灵堂"
+    }
+  ]
+}

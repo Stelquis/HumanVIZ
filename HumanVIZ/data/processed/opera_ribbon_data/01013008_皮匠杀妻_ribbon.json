@@ -1,0 +1,388 @@
+{
+  "title": "皮匠杀妻",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01013008_皮匠杀妻.json",
+  "source_folder": "01000000",
+  "plot_summary": "朝邑县皮匠杨虎，日肩皮匠担在外游行。其妻林玉兰，少有姿色，在家开一鞋铺名百万斋。因杨虎粗鲁不成\n器，故在家久有怨言。既而为县前淫吏岳子奇所挑，遂与有染，日夕往来有年，杨虎尚懵然无所觉察。旋为\n其弟杨盛恭看破，乃与杨虎说知，令往捉奸，杨虎犹犹豫不能自决。经杨盛恭再四迫激，始允于晚间同往。\n遂将岳子奇、林玉兰二人杀死，而弟兄同往自首云。",
+  "performance_notes": "此剧情节，与《翠屏山》相仿佛。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 137,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.275,
+      "importance": 0.913,
+      "locations": {
+        "朝邑县衙门": 3
+      },
+      "characters": {
+        "杨虎": 1,
+        "岳子奇": 1,
+        "林玉兰": 1
+      },
+      "links": [
+        {
+          "source": "岳子奇",
+          "target": "林玉兰",
+          "value": 3
+        },
+        {
+          "source": "杨虎",
+          "target": "林玉兰",
+          "value": 2
+        },
+        {
+          "source": "岳子奇",
+          "target": "杨虎",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 163,
+      "summary": "第四场；第五场",
+      "conflict": 0.129,
+      "importance": 1.0,
+      "locations": {
+        "朝邑县衙门": 2
+      },
+      "characters": {
+        "杨虎": 1,
+        "岳子奇": 1,
+        "林玉兰": 1,
+        "杨盛恭": 1
+      },
+      "links": [
+        {
+          "source": "杨盛恭",
+          "target": "杨虎",
+          "value": 2
+        },
+        {
+          "source": "杨盛恭",
+          "target": "林玉兰",
+          "value": 2
+        },
+        {
+          "source": "岳子奇",
+          "target": "杨盛恭",
+          "value": 2
+        },
+        {
+          "source": "杨虎",
+          "target": "林玉兰",
+          "value": 2
+        },
+        {
+          "source": "岳子奇",
+          "target": "杨虎",
+          "value": 2
+        },
+        {
+          "source": "岳子奇",
+          "target": "林玉兰",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "朝邑县衙门",
+      "characters": [
+        {
+          "name": "林玉兰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "好汉无好妻，赖汉娶花枝。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "岳子奇",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "迈步来在大街上，",
+          "rating": 0.667,
+          "role": "丑"
+        },
+        {
+          "name": "杨虎",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第一场：3位角色，90行",
+      "firstLine": 1,
+      "lastLine": 90,
+      "numLines": 90,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.185,
+        "sentiment": 0.445
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "朝邑县衙门",
+      "characters": [
+        {
+          "name": "林玉兰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "你看方才这个买鞋的……",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "岳子奇",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "霸王来上弓来啦。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：2位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.626,
+        "conflict": 0.556,
+        "sentiment": 0.21
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "朝邑县衙门",
+      "characters": [
+        {
+          "name": "杨虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "闲来无事大街游，",
+          "rating": -1.0,
+          "role": "副净"
+        },
+        {
+          "name": "林玉兰",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "是谁呀？",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "岳子奇",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "甜葡萄来，咯咯枣儿！",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第三场：3位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.604,
+        "conflict": 0.0,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "朝邑县衙门",
+      "characters": [
+        {
+          "name": "杨盛恭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "太爷赐花红，英雄显大名。",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "杨虎",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "昨日沉沉醉，回家就酣睡。起来抬头看，",
+          "rating": 0.333,
+          "role": "副净"
+        },
+        {
+          "name": "林玉兰",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "忽听当家唤，迈步到跟前。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "岳子奇",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "今日无事，到她后门走走。",
+          "rating": 0.5,
+          "role": "丑"
+        }
+      ],
+      "summary": "第四场：4位角色，145行",
+      "firstLine": 1,
+      "lastLine": 145,
+      "numLines": 145,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.288,
+        "sentiment": 0.289
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "朝邑县衙门",
+      "characters": [
+        {
+          "name": "林玉兰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哎呀，我的当家的！",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "杨虎",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "哎呦，我的赶车的！",
+          "rating": 0.333,
+          "role": "副净"
+        },
+        {
+          "name": "杨盛恭",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "若不将她杀死，那岳子奇何人偿命？",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "岳子奇",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第五场：4位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.772,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "林玉兰",
+      "short": "林玉",
+      "key": "林玉兰",
+      "quote": "林玉兰 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "岳子奇",
+      "short": "岳子",
+      "key": "岳子奇",
+      "quote": "岳子奇 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "杨盛恭",
+      "short": "杨盛",
+      "key": "杨盛恭",
+      "quote": "杨盛恭 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨虎",
+      "short": "杨虎",
+      "key": "杨虎",
+      "quote": "杨虎 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "朝邑县衙门",
+      "key": "朝邑县衙门",
+      "quote": "场景发生在朝邑县衙门"
+    }
+  ]
+}

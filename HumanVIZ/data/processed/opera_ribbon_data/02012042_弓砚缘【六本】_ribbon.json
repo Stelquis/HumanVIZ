@@ -1,0 +1,566 @@
+{
+  "title": "弓砚缘",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 6,
+  "num_locations": 2,
+  "source_file": "02012042_弓砚缘【六本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "总督李尉奉圣旨调纪献唐晋京，纪献唐知凶多吉少，托故迟不晋京。雍正又派定南王赵惠前来，催纪献唐速\n速晋京。纪献唐知圣旨不可违抗，遂一同启行云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 34,
+      "summary": "第一场；第二场",
+      "conflict": 0.34,
+      "importance": 0.498,
+      "locations": {
+        "自从离都城": 2
+      },
+      "characters": {
+        "中军": 1,
+        "李尉": 1,
+        "纪献唐": 1,
+        "纪多文": 1
+      },
+      "links": [
+        {
+          "source": "纪多文",
+          "target": "纪献唐",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "纪献唐",
+          "value": 1
+        },
+        {
+          "source": "李尉",
+          "target": "纪献唐",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "纪多文",
+          "value": 1
+        },
+        {
+          "source": "李尉",
+          "target": "纪多文",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "李尉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 60,
+      "summary": "第三场；第四场",
+      "conflict": 0.103,
+      "importance": 0.878,
+      "locations": {
+        "自从离都城": 2
+      },
+      "characters": {
+        "李尉": 1,
+        "赵惠": 1,
+        "纪献唐": 1,
+        "中军": 1,
+        "纪多文": 1,
+        "梅高": 1
+      },
+      "links": [
+        {
+          "source": "纪多文",
+          "target": "纪献唐",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "纪多文",
+          "value": 1
+        },
+        {
+          "source": "李尉",
+          "target": "纪多文",
+          "value": 1
+        },
+        {
+          "source": "梅高",
+          "target": "纪多文",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "纪献唐",
+          "value": 1
+        },
+        {
+          "source": "李尉",
+          "target": "纪献唐",
+          "value": 1
+        },
+        {
+          "source": "梅高",
+          "target": "纪献唐",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "李尉",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "梅高",
+          "value": 1
+        },
+        {
+          "source": "李尉",
+          "target": "梅高",
+          "value": 1
+        },
+        {
+          "source": "纪献唐",
+          "target": "赵惠",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 111,
+      "summary": "第五场；第六场",
+      "conflict": 0.077,
+      "importance": 1.0,
+      "locations": {
+        "自从离都城": 1,
+        "上高台": 1
+      },
+      "characters": {
+        "李尉": 1,
+        "赵惠": 1,
+        "纪献唐": 1,
+        "中军": 1,
+        "纪多文": 1
+      },
+      "links": [
+        {
+          "source": "纪多文",
+          "target": "纪献唐",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "纪献唐",
+          "value": 1
+        },
+        {
+          "source": "李尉",
+          "target": "纪献唐",
+          "value": 1
+        },
+        {
+          "source": "纪献唐",
+          "target": "赵惠",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "纪多文",
+          "value": 1
+        },
+        {
+          "source": "李尉",
+          "target": "纪多文",
+          "value": 1
+        },
+        {
+          "source": "纪多文",
+          "target": "赵惠",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "李尉",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "赵惠",
+          "value": 1
+        },
+        {
+          "source": "李尉",
+          "target": "赵惠",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "自从离都城",
+      "characters": [
+        {
+          "name": "李尉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "钦奉王命，怎敢辞，昼夜辛勤。",
+          "rating": 0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：1位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.206,
+        "conflict": 0.0,
+        "sentiment": 0.5
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "自从离都城",
+      "characters": [
+        {
+          "name": "纪献唐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "某，纪献唐。前日李尉奉圣旨到来，调老夫回京，是我将他留在驿馆，候吾儿",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "纪多文",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "参见父帅。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "中军",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "且住！少爷回来，被元帅扯至后面，其中必有原故，不免在辕门等候。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李尉",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "烦劳通禀：押旨官求见大将军。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.744,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "自从离都城",
+      "characters": [
+        {
+          "name": "纪多文",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "父帅为何这等模样？",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "纪献唐",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "哎呀，儿吓。只因圣上命李尉调为父进京，追回尚方宝剑及九头狮子印，此番",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "李尉擅闯辕门。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李尉",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "李尉告进。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "梅高",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "参见大将军。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.861,
+        "conflict": 0.541,
+        "sentiment": 0.263
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "自从离都城",
+      "characters": [
+        {
+          "name": "赵惠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "本番，定南王赵惠。只因纪献唐在外专权卖法，圣上命李尉奉旨前行调他回京，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "纪献唐",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.515,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "自从离都城",
+      "characters": [
+        {
+          "name": "纪多文",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "少小英雄将，威名振四方。斩将如瓜滚，四海把名扬。",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第五场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.573,
+        "conflict": 0.0,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "上高台",
+      "characters": [
+        {
+          "name": "纪献唐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "自古军令如山倒，",
+          "rating": -0.5,
+          "role": "净"
+        },
+        {
+          "name": "纪多文",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "李大人。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "中军",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "长枪手开操。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李尉",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "甚是雄壮整齐。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "赵惠",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "定南王到。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：5位角色，103行",
+      "firstLine": 1,
+      "lastLine": 103,
+      "numLines": 103,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.174,
+        "sentiment": 0.093
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "纪献唐",
+      "short": "纪献",
+      "key": "纪献唐",
+      "quote": "纪献唐 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "纪多文",
+      "short": "纪多",
+      "key": "纪多文",
+      "quote": "纪多文 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李尉",
+      "short": "李尉",
+      "key": "李尉",
+      "quote": "李尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵惠",
+      "short": "赵惠",
+      "key": "赵惠",
+      "quote": "赵惠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "梅高",
+      "short": "梅高",
+      "key": "梅高",
+      "quote": "梅高 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "自从离都城",
+      "key": "自从离都城",
+      "quote": "场景发生在自从离都城"
+    },
+    {
+      "name": "上高台",
+      "key": "上高台",
+      "quote": "场景发生在上高台"
+    }
+  ]
+}

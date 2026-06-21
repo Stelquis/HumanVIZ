@@ -1,0 +1,231 @@
+{
+  "title": "三字经",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01037003_三字经.json",
+  "source_folder": "01000000",
+  "plot_summary": "临淮骑都尉温韬，一日得节度使罗兆威来信，令其拿捉一不第举子罗英，嘱即枉法办罪，以洩私愤。岂知温\n韬却是一目不识丁的小军阀，手下亦然。拿了此书，犹如老学究见了英文信函一样，当场只好含糊过去，但\n苦无师爷。故退堂以后，仍旧不知此信中是合云云。于是乃命千总官去找寻一个幕宾。适有一不第举子，在\n外卖字。千总遂请他到衙。温韬却还要假充行家，先盘问这举子的学问。举子早知其为没字碑，遂有意戏弄。\n这温小军阀，听说到这人熟读《三字经》，那时不由得心中钦敬，然却还有些不敢信任，必须请这人把\n《三字经》讲演一遍，方可任用。那举子心中好笑，遂将《三字经》中句子，编成一段滑稽故事，句句用《三\n字经》句子嵌入，信口开河，说得天花乱坠，真是挖苦得不小。到后来温韬把这信请他念看，谁知这信中所\n要捉的人，就是这位举子。这举子遂一派胡言，把他哄过，而自己的一场大祸，顷刻之间化为烟消火灭矣。",
+  "performance_notes": "《三字经》一剧，沪上听戏者向不甚知，亦不甚重视。良以此戏精神，全在说白。盖以《三字经》中成语，\n嵌入说白中，为生角之滑稽戏。细细玩味，自颇堪发喙。从前赵如泉、潘月樵等，虽亦曾偶一演做，但以南\n人之于戏，本只重看不重听；既有知听者，亦只在听唱而不能听白，故而不能哄动。近自马连良来沪，演唱\n数次，始有知贵之者。盖近来沪人听戏之程度，亦较前进步故耳。此戏在北京，时常见之。昔张胜奎最得盛\n名。谭老班亦曾演过，但以其他著名之戏占多数，故此戏亦不甚得名。按此戏宗旨，为讥笑武人不识字。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 57,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.523,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "关卞": 1,
+        "温韬": 1,
+        "旗牌": 1
+      },
+      "links": [
+        {
+          "source": "关卞",
+          "target": "温韬",
+          "value": 1
+        },
+        {
+          "source": "关卞",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "温韬",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 161,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "温韬": 1,
+        "关卞": 1,
+        "罗英": 1
+      },
+      "links": [
+        {
+          "source": "关卞",
+          "target": "罗英",
+          "value": 1
+        },
+        {
+          "source": "温韬",
+          "target": "罗英",
+          "value": 1
+        },
+        {
+          "source": "关卞",
+          "target": "温韬",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关卞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "人情如水急，世事如棋更。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "温韬",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "剑气冲牛斗，指日盼封侯。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "为求民事，特寄私书。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，57行",
+      "firstLine": 1,
+      "lastLine": 57,
+      "numLines": 57,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.802,
+        "conflict": 0.14,
+        "sentiment": 0.463
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "罗英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "堪怜今古谁英雄，浪迹山川事业空。纵有文章倾宇宙，依然辜负落江东。",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "关卞",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你做什么的？",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "温韬",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "方知大钺斧，不及小毛锥。",
+          "rating": 0.2,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：3位角色，161行",
+      "firstLine": 1,
+      "lastLine": 161,
+      "numLines": 161,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.176,
+        "sentiment": 0.411
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "罗英",
+      "short": "罗英",
+      "key": "罗英",
+      "quote": "罗英 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "温韬",
+      "short": "温韬",
+      "key": "温韬",
+      "quote": "温韬 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "关卞",
+      "short": "关卞",
+      "key": "关卞",
+      "quote": "关卞 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

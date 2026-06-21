@@ -1,0 +1,813 @@
+{
+  "title": "马前泼水",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 12,
+  "num_locations": 1,
+  "source_file": "70005106_马前泼水.json",
+  "source_folder": "70005000",
+  "plot_summary": "书生朱买臣穷途潦倒，妻崔氏不耐清贫，逼夫休她另嫁，渐沦为乞丐。数年后，朱买臣高中归乡，崔氏叩于\n马前，朱买臣命人泼水于地，以“覆水难收”讥之，崔氏羞愧，撞死马前。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 186,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.531,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "徐大嫂": 1,
+        "朱买臣": 1,
+        "崔氏": 1
+      },
+      "links": [
+        {
+          "source": "崔氏",
+          "target": "朱买臣",
+          "value": 3
+        },
+        {
+          "source": "崔氏",
+          "target": "徐大嫂",
+          "value": 2
+        },
+        {
+          "source": "徐大嫂",
+          "target": "朱买臣",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 81,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.008,
+      "importance": 0.723,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "崔氏": 1,
+        "和尚": 1,
+        "张三": 1,
+        "衙役": 1,
+        "朱买臣": 1,
+        "寇恂": 1
+      },
+      "links": [
+        {
+          "source": "崔氏",
+          "target": "张三",
+          "value": 1
+        },
+        {
+          "source": "张三",
+          "target": "朱买臣",
+          "value": 1
+        },
+        {
+          "source": "崔氏",
+          "target": "朱买臣",
+          "value": 1
+        },
+        {
+          "source": "寇恂",
+          "target": "衙役",
+          "value": 1
+        },
+        {
+          "source": "寇恂",
+          "target": "朱买臣",
+          "value": 1
+        },
+        {
+          "source": "朱买臣",
+          "target": "衙役",
+          "value": 1
+        },
+        {
+          "source": "和尚",
+          "target": "朱买臣",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 181,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.804,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "二皂衙役": 1,
+        "崔氏": 1,
+        "吏官": 1,
+        "和尚": 1,
+        "张三": 1,
+        "二锣夫": 1,
+        "衙役": 1,
+        "朱买臣": 1,
+        "张公道": 1,
+        "报录": 1
+      },
+      "links": [
+        {
+          "source": "崔氏",
+          "target": "张三",
+          "value": 1
+        },
+        {
+          "source": "和尚",
+          "target": "报录",
+          "value": 1
+        },
+        {
+          "source": "报录",
+          "target": "朱买臣",
+          "value": 1
+        },
+        {
+          "source": "吏官",
+          "target": "报录",
+          "value": 1
+        },
+        {
+          "source": "二锣夫",
+          "target": "报录",
+          "value": 1
+        },
+        {
+          "source": "二皂衙役",
+          "target": "报录",
+          "value": 1
+        },
+        {
+          "source": "和尚",
+          "target": "朱买臣",
+          "value": 1
+        },
+        {
+          "source": "吏官",
+          "target": "和尚",
+          "value": 1
+        },
+        {
+          "source": "二锣夫",
+          "target": "和尚",
+          "value": 1
+        },
+        {
+          "source": "二皂衙役",
+          "target": "和尚",
+          "value": 1
+        },
+        {
+          "source": "吏官",
+          "target": "朱买臣",
+          "value": 1
+        },
+        {
+          "source": "二锣夫",
+          "target": "朱买臣",
+          "value": 1
+        },
+        {
+          "source": "二皂衙役",
+          "target": "朱买臣",
+          "value": 1
+        },
+        {
+          "source": "二锣夫",
+          "target": "吏官",
+          "value": 1
+        },
+        {
+          "source": "二皂衙役",
+          "target": "吏官",
+          "value": 1
+        },
+        {
+          "source": "二皂衙役",
+          "target": "二锣夫",
+          "value": 1
+        },
+        {
+          "source": "崔氏",
+          "target": "张公道",
+          "value": 1
+        },
+        {
+          "source": "张公道",
+          "target": "衙役",
+          "value": 1
+        },
+        {
+          "source": "张公道",
+          "target": "朱买臣",
+          "value": 1
+        },
+        {
+          "source": "崔氏",
+          "target": "衙役",
+          "value": 1
+        },
+        {
+          "source": "崔氏",
+          "target": "朱买臣",
+          "value": 1
+        },
+        {
+          "source": "朱买臣",
+          "target": "衙役",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "崔氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "前世不修今受苦，嫁给贫郎没奈何。",
+          "rating": -0.143,
+          "role": "旦"
+        },
+        {
+          "name": "朱买臣",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "好冷天呐！",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "徐大嫂",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "隔壁他夫妻，又吵闹起来了，待我前去看来。",
+          "rating": 0.0,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第一场：3位角色，103行",
+      "firstLine": 1,
+      "lastLine": 103,
+      "numLines": 103,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.276,
+        "sentiment": 0.171
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "朱买臣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "天寒地冷雪花飘，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "崔氏",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.544,
+        "conflict": 0.0,
+        "sentiment": -0.36
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "崔氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "指望打牌赢几个铜钱，不料又输了。天已不早，我那个穷短命还不见回来。",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "朱买臣",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "开门来！",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "徐大嫂",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "什么事？",
+          "rating": 0.5,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第三场：3位角色，72行",
+      "firstLine": 1,
+      "lastLine": 72,
+      "numLines": 72,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.839,
+        "conflict": 0.471,
+        "sentiment": 0.113
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张三",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "人要是发了财，无论是谁都要巴结。我这一来，正是人不发横财不富，马不吃",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "崔氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "那不是张家兄弟么？",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "朱买臣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：3位角色，43行",
+      "firstLine": 1,
+      "lastLine": 43,
+      "numLines": 43,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.589,
+        "conflict": 0.583,
+        "sentiment": 0.763
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "寇恂",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "皇恩浩荡，为主考，桃李门墙。",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "衙役",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "众举子交卷。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "朱买臣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：3位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.319,
+        "conflict": 0.0,
+        "sentiment": 0.77
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "朱买臣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "三场考罢心高兴，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "和尚",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "清晨水面挑蝼蚁，夜晚灯前救火蛾。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第六场：2位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.417,
+        "conflict": 0.299,
+        "sentiment": 0.771
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张三",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "咳！实指望娶个好人，不想她好吃懒做，终日打牌吃酒听戏，把些银子都花干",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "崔氏",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "唤我做什么呀？",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第七场：2位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.445,
+        "conflict": 0.233,
+        "sentiment": -0.04
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "报录",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "报，报，报！喜来到，金榜题名文字高，一朝得志身荣耀。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "和尚",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你是做什么的？",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "朱买臣",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "和尚唤我何事啊？",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "吏官",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "我们是迎接朱老爷上任的。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二锣夫",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "参见老爷。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二皂衙役",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "叩见老爷！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：6位角色，81行",
+      "firstLine": 1,
+      "lastLine": 81,
+      "numLines": 81,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.733,
+        "conflict": 0.294,
+        "sentiment": 0.764
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张公道",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "生意兴隆通四海，财源茂盛达三江。",
+          "rating": 0.429,
+          "role": ""
+        },
+        {
+          "name": "崔氏",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "正是。原来是张家兄弟。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "衙役",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "开道！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "朱买臣",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "马前跪的何人？",
+          "rating": 0.6,
+          "role": "老生"
+        }
+      ],
+      "summary": "第九场：4位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.724,
+        "conflict": 0.179,
+        "sentiment": 0.48
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "朱买臣",
+      "short": "朱买",
+      "key": "朱买臣",
+      "quote": "朱买臣 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "崔氏",
+      "short": "崔氏",
+      "key": "崔氏",
+      "quote": "崔氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "徐大嫂",
+      "short": "徐大",
+      "key": "徐大嫂",
+      "quote": "徐大嫂 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张三",
+      "short": "张三",
+      "key": "张三",
+      "quote": "张三 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "寇恂",
+      "short": "寇恂",
+      "key": "寇恂",
+      "quote": "寇恂 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "和尚",
+      "short": "和尚",
+      "key": "和尚",
+      "quote": "和尚 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "二皂衙役",
+      "short": "二皂",
+      "key": "二皂衙役",
+      "quote": "二皂衙役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "吏官",
+      "short": "吏官",
+      "key": "吏官",
+      "quote": "吏官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "衙役",
+      "short": "衙役",
+      "key": "衙役",
+      "quote": "衙役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二锣夫",
+      "short": "二锣",
+      "key": "二锣夫",
+      "quote": "二锣夫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张公道",
+      "short": "张公",
+      "key": "张公道",
+      "quote": "张公道 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "报录",
+      "short": "报录",
+      "key": "报录",
+      "quote": "报录 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

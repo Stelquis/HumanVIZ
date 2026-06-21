@@ -1,0 +1,640 @@
+{
+  "title": "麒麟阁·三挡",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "70901118_麒麟阁·三挡.json",
+  "source_folder": "70901000",
+  "plot_summary": "秦琼为奸人所害，被逼无路，逃出潼关，又被杨林一路追杀。后与程咬金等人，共投瓦岗寨。",
+  "performance_notes": "《三挡》为《麒麟阁》第三十三出。\n《麒麟阁》清李玉撰，全本六十一出。取材于《隋唐演义》。故事写隋朝末年好汉秦琼、尉迟恭、程咬金等\n人辅佐李渊起义。最后推翻了隋朝，建立了大唐。功成后，李渊敕建麒麟阁，绘制诸功臣图像，陈列阁中，\n以示表彰。《麒麟阁》即以此而得名。\n另有一种说法，认为“唐代李渊敕建的不是麒麟阁，应为凌烟阁。汉武帝时，因获麒麟兽乃建麒麟阁”（见\n《曲海总目提要》卷一）。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 36,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.602,
+      "importance": 0.9,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "杨林": 1,
+        "贺方": 1,
+        "上官仪": 1,
+        "众兵": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "杨林",
+          "target": "贺方",
+          "value": 2
+        },
+        {
+          "source": "上官仪",
+          "target": "贺方",
+          "value": 2
+        },
+        {
+          "source": "秦琼",
+          "target": "贺方",
+          "value": 2
+        },
+        {
+          "source": "上官仪",
+          "target": "杨林",
+          "value": 2
+        },
+        {
+          "source": "杨林",
+          "target": "秦琼",
+          "value": 3
+        },
+        {
+          "source": "上官仪",
+          "target": "秦琼",
+          "value": 2
+        },
+        {
+          "source": "众兵",
+          "target": "杨林",
+          "value": 1
+        },
+        {
+          "source": "众兵",
+          "target": "秦琼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 86,
+      "summary": "第4场；第5场；第6场",
+      "conflict": 0.577,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "杨林": 1,
+        "秦琼": 1,
+        "贺方": 1,
+        "上官仪": 1,
+        "兵甲": 1
+      },
+      "links": [
+        {
+          "source": "上官仪",
+          "target": "秦琼",
+          "value": 2
+        },
+        {
+          "source": "上官仪",
+          "target": "贺方",
+          "value": 1
+        },
+        {
+          "source": "上官仪",
+          "target": "兵甲",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "贺方",
+          "value": 1
+        },
+        {
+          "source": "兵甲",
+          "target": "贺方",
+          "value": 1
+        },
+        {
+          "source": "兵甲",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "杨林",
+          "target": "秦琼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 38,
+      "summary": "第7场；第8场；第9场",
+      "conflict": 0.293,
+      "importance": 0.95,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "杨林": 1,
+        "秦琼": 1,
+        "程咬金": 1
+      },
+      "links": [
+        {
+          "source": "杨林",
+          "target": "秦琼",
+          "value": 2
+        },
+        {
+          "source": "杨林",
+          "target": "程咬金",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "程咬金",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "贺方",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "忙将破胆惊天事，报与金枝玉叶人。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨林",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "日月依龙德，风云挟虎豹。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "上官仪",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "智号人中杰，威风阃外司。",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第1场：4位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.76,
+        "conflict": 0.968,
+        "sentiment": -0.432
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "贺方",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "启上大王：上官仪此去，那秦琼决不转来。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨林",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "也罢，就命令你带领五百铁骑，星夜赶上，擒回便了。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "上官仪",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第2场：4位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.544,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨林",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "贺方此去，不是秦琼的对手。待孤家亲自走遭。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "众兵",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第3场：3位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.494,
+        "conflict": 0.0,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "带月披星，离深垒，",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "上官仪",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "衔命疾驱驰，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第4场：2位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.62,
+        "conflict": 0.282,
+        "sentiment": -0.114
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "上官仪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "他竟自去了，我怎好恶识他，不免回复大王便了。正是：",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "贺方",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "纷纷军马弓刀集，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "呀！这马儿一声声不住嘶，",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "兵甲",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第5场：4位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.673,
+        "conflict": 0.811,
+        "sentiment": -0.197
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊，哈哈……且喜被俺赚出关来也，",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "杨林",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "雄关暗袭，窃符虎帐如姬急。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第6场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.604,
+        "conflict": 0.0,
+        "sentiment": 0.38
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨林",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "秦琼哪里走？",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "半空中，隐隐征尘起看，",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第7场：2位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.679,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 8,
+      "name": "第8场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "程咬金",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "髫龄识、髫龄识，念患难同今昔。云天谊、云天谊，念生死同休戚。",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "杨林",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "杀了半日，杀出一伙毛贼来了。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "原来是兄弟，亏你助力了。哈哈……",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第8场：3位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.625,
+        "conflict": 0.87,
+        "sentiment": -0.133
+      }
+    },
+    {
+      "number": 9,
+      "name": "第9场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第9场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.019,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "秦琼",
+      "short": "秦琼",
+      "key": "秦琼",
+      "quote": "秦琼 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨林",
+      "short": "杨林",
+      "key": "杨林",
+      "quote": "杨林 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "上官仪",
+      "short": "上官",
+      "key": "上官仪",
+      "quote": "上官仪 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "程咬金",
+      "short": "程咬",
+      "key": "程咬金",
+      "quote": "程咬金 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "兵甲",
+      "short": "兵甲",
+      "key": "兵甲",
+      "quote": "兵甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "贺方",
+      "short": "贺方",
+      "key": "贺方",
+      "quote": "贺方 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众兵",
+      "short": "众兵",
+      "key": "众兵",
+      "quote": "众兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

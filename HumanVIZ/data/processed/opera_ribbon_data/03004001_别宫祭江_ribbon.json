@@ -1,0 +1,369 @@
+{
+  "title": "别宫祭江",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "03004001_别宫祭江.json",
+  "source_folder": "03000000",
+  "plot_summary": "蜀、吴失和之后，刘备妻孙尚香被留东吴，迨闻刘备战败，病死白帝城，孙尚香决志殉夫，乃入宫别母，要\n求临江设祭。力争之下，始得允许。孙尚香祭奠后，即投江以殉。",
+  "performance_notes": "《别宫》、《祭江》是两折紧连的节目，故事出于《三国演义》。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 36,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.783,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "二宫娥": 1,
+        "孙尚香": 1
+      },
+      "links": [
+        {
+          "source": "二宫娥",
+          "target": "孙尚香",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 88,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙尚香": 1,
+        "内侍甲": 1,
+        "吴国太": 1
+      },
+      "links": [
+        {
+          "source": "吴国太",
+          "target": "孙尚香",
+          "value": 1
+        },
+        {
+          "source": "内侍甲",
+          "target": "吴国太",
+          "value": 1
+        },
+        {
+          "source": "内侍甲",
+          "target": "孙尚香",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 45,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.978,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙尚香": 1,
+        "内侍甲": 1
+      },
+      "links": [
+        {
+          "source": "内侍甲",
+          "target": "孙尚香",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 15,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.326,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙尚香": 1,
+        "龙王": 1,
+        "四水旗": 1
+      },
+      "links": [
+        {
+          "source": "孙尚香",
+          "target": "龙王",
+          "value": 1
+        },
+        {
+          "source": "四水旗",
+          "target": "龙王",
+          "value": 1
+        },
+        {
+          "source": "四水旗",
+          "target": "孙尚香",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙尚香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "恹恹瘦损，怎能消，终日愁闷。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "二宫娥",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "启公主：大事不好了！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.617,
+        "conflict": 0.299,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "吴国太",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一日偷闲一日安，",
+          "rating": 0.143,
+          "role": "老旦"
+        },
+        {
+          "name": "孙尚香",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "叹汉皇为社稷今把驾晏，",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "内侍甲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，88行",
+      "firstLine": 1,
+      "lastLine": 88,
+      "numLines": 88,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.987,
+        "conflict": 0.491,
+        "sentiment": 0.15
+      }
+    },
+    {
+      "number": 3,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙尚香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "摆驾！",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "内侍甲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来在江边。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.647,
+        "conflict": 0.588,
+        "sentiment": 0.002
+      }
+    },
+    {
+      "number": 4,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "龙王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "敕旨下。跪！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "孙尚香",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "圣寿。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "四水旗",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.549,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙尚香",
+      "short": "孙尚",
+      "key": "孙尚香",
+      "quote": "孙尚香 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "吴国太",
+      "short": "吴国",
+      "key": "吴国太",
+      "quote": "吴国太 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "二宫娥",
+      "short": "二宫",
+      "key": "二宫娥",
+      "quote": "二宫娥 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四水旗",
+      "short": "四水",
+      "key": "四水旗",
+      "quote": "四水旗 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内侍甲",
+      "short": "内侍",
+      "key": "内侍甲",
+      "quote": "内侍甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙王",
+      "short": "龙王",
+      "key": "龙王",
+      "quote": "龙王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

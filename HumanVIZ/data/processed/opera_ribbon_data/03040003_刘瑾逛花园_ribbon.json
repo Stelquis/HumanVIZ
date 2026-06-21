@@ -1,0 +1,179 @@
+{
+  "title": "刘瑾逛花园",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "03040003_刘瑾逛花园.json",
+  "source_folder": "03000000",
+  "plot_summary": "刘瑾同太后到法门寺降香，太后至观音堂后，贾桂同刘瑾闲逛法门寺。",
+  "performance_notes": "这出戏应接在《法门寺》第三场里。贾桂念完“和尚带路。校尉的，摆驾观音堂啊！”刘瑾原人下，场上仅\n留刘瑾和贾桂。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 3,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.069,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四校尉": 1,
+        "贾桂": 1
+      },
+      "links": [
+        {
+          "source": "四校尉",
+          "target": "贾桂",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 84,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "刘瑾": 1,
+        "贾桂": 1
+      },
+      "links": [
+        {
+          "source": "刘瑾",
+          "target": "贾桂",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "贾桂",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "和尚带路。校尉的！摆驾观音堂啊！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "四校尉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：2位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.521,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘瑾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哎，桂儿啊！",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "贾桂",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "嗻！",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：2位角色，84行",
+      "firstLine": 1,
+      "lastLine": 84,
+      "numLines": 84,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.182,
+        "sentiment": 0.417
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘瑾",
+      "short": "刘瑾",
+      "key": "刘瑾",
+      "quote": "刘瑾 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "贾桂",
+      "short": "贾桂",
+      "key": "贾桂",
+      "quote": "贾桂 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "四校尉",
+      "short": "四校",
+      "key": "四校尉",
+      "quote": "四校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

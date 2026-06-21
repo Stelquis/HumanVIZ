@@ -1,0 +1,302 @@
+{
+  "title": "查头关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "01010012_查头关.json",
+  "source_folder": "01000000",
+  "plot_summary": "汉太子刘唐建，奉太后命，出关追驾，途经尤家关，在关外歇息，拴马而睡。适番女将尤春风，带同番将苏\n里烟，夜出查关，见远处有红光如火，尤春风因遣苏里烟往查。见一年少蛮子，露宿在彼。留心细察，又见\n蛇攒七窍。尤春风素读南朝书，知系贵相，当即令苏里烟唤醒盘问，始知即汉太子。尤春风乃留之入关，乞\n以身事，并先索封。刘唐建乃漫封为昭阳正宫。后刘唐建不愿居此，借故遁去，又为二关二姑娘所获，亦然\n私留索封，即《逃关·二关》等剧是也。",
+  "performance_notes": "《查头关》亦单称《头关》，系《赶三关》之一，昆剧中名《宿关》，后本又有《逃关·二关》等剧。本剧，\n亦大半从昆剧中脱胎而出。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.056,
+      "locations": {
+        "是关门": 1
+      },
+      "characters": {
+        "刘唐建": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 42,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.336,
+      "locations": {
+        "是关门": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "尤春风": 1,
+        "苏里烟": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "尤春风",
+          "value": 1
+        },
+        {
+          "source": "尤春风",
+          "target": "苏里烟",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "苏里烟",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 326,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "是关门": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "苏里烟": 1,
+        "尤春风": 1,
+        "刘唐建": 1
+      },
+      "links": [
+        {
+          "source": "刘唐建",
+          "target": "尤春风",
+          "value": 1
+        },
+        {
+          "source": "刘唐建",
+          "target": "苏里烟",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "刘唐建",
+          "value": 1
+        },
+        {
+          "source": "尤春风",
+          "target": "苏里烟",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "尤春风",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "苏里烟",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "是关门",
+      "characters": [
+        {
+          "name": "刘唐建",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "家中奉了母亲命，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.517,
+        "conflict": 0.0,
+        "sentiment": 0.24
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "是关门",
+      "characters": [
+        {
+          "name": "尤春风",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "把守窑萁关，儿郎心胆寒。",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "姑娘传苏里烟进帐。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "苏里烟",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哦！",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：3位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.667,
+        "conflict": 0.189,
+        "sentiment": -0.434
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "是关门",
+      "characters": [
+        {
+          "name": "刘唐建",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "扬鞭催马往前进，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "尤春风",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "急急走来往前行，",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "苏里烟",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "不觉来到是关门。",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "你不要我，我还不愿意跟你呢！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：4位角色，326行",
+      "firstLine": 1,
+      "lastLine": 326,
+      "numLines": 326,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.096,
+        "sentiment": 0.182
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "尤春风",
+      "short": "尤春",
+      "key": "尤春风",
+      "quote": "尤春风 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "苏里烟",
+      "short": "苏里",
+      "key": "苏里烟",
+      "quote": "苏里烟 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "刘唐建",
+      "short": "刘唐",
+      "key": "刘唐建",
+      "quote": "刘唐建 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "是关门",
+      "key": "是关门",
+      "quote": "场景发生在是关门"
+    },
+    {
+      "name": "沉沉到阳台",
+      "key": "沉沉到阳台",
+      "quote": "场景发生在沉沉到阳台"
+    }
+  ]
+}

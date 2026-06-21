@@ -1,0 +1,526 @@
+{
+  "title": "醋中醋",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 8,
+  "num_locations": 2,
+  "source_file": "01034008_醋中醋.json",
+  "source_folder": "01000000",
+  "plot_summary": "按剧中情节，似亦可称之为《卖绒线》。盖此戏以卖买绒线始，以暗中吃醋、将亲事蹉跎，致彼女子因而病\n相思终。大致谓有张和尚者，以背包叫卖绒线京、杂货为业，常至钱员外家做卖买。钱女素娟，颇有姿首，\n本届怀春。张和尚竞妄想，以为彼女已属意于己，于是长往相溷，日与彼女厮缠。一日，女见街头少年姓闵\n者，乃真属意。彼少年亦惊为天人。二人方欲略询家世，忽被张和尚来冲散。张和尚偕闵出，本含有极大醋\n意。见闵係笃实人，遂用滑头骗诈手段，佯与交好，绐称与钱家有素，愿为作伐，保汝必成。闵信以为真，\n竟堕其术。当交十两银子作文定金，约以三日为期。张和尚骗得此银到手，本是竹杠变相，安有回音。讵知\n钱女，自从一见闵子之后，即思念成疾。其母爱女心切，即嘱女舅去往闵处说亲，讵其舅又是一糊涂虫，终\n日只爱杯中物。虽与闵谈妥，却模模糊糊，不与其姊回音。遂致外甥女忧思心切，以为如此日久，必无成理。\n此丑声传播，宁不汗颜，以后尚何能为人哉？一念羞愤悬梁遂绝。呜呼哀哉，是亦丑而贞者。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 283,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.426,
+      "importance": 1.0,
+      "locations": {
+        "钱员外门": 3
+      },
+      "characters": {
+        "张和尚": 1,
+        "闵子千": 1,
+        "酒保": 1,
+        "钱母": 1,
+        "钱素娟": 1,
+        "钱舅": 1
+      },
+      "links": [
+        {
+          "source": "张和尚",
+          "target": "钱素娟",
+          "value": 2
+        },
+        {
+          "source": "张和尚",
+          "target": "闵子千",
+          "value": 2
+        },
+        {
+          "source": "钱素娟",
+          "target": "闵子千",
+          "value": 2
+        },
+        {
+          "source": "张和尚",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "酒保",
+          "target": "闵子千",
+          "value": 1
+        },
+        {
+          "source": "酒保",
+          "target": "钱素娟",
+          "value": 1
+        },
+        {
+          "source": "钱母",
+          "target": "钱素娟",
+          "value": 1
+        },
+        {
+          "source": "钱素娟",
+          "target": "钱舅",
+          "value": 1
+        },
+        {
+          "source": "钱母",
+          "target": "钱舅",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 74,
+      "summary": "第四场；第五场",
+      "conflict": 0.171,
+      "importance": 0.415,
+      "locations": {
+        "钱员外门": 2
+      },
+      "characters": {
+        "张和尚": 1,
+        "闵子千": 1,
+        "钱父": 1,
+        "酒保": 1,
+        "钱母": 1,
+        "丫鬟": 1,
+        "钱素娟": 1,
+        "钱舅": 1
+      },
+      "links": [
+        {
+          "source": "钱舅",
+          "target": "闵子千",
+          "value": 1
+        },
+        {
+          "source": "酒保",
+          "target": "闵子千",
+          "value": 1
+        },
+        {
+          "source": "张和尚",
+          "target": "闵子千",
+          "value": 1
+        },
+        {
+          "source": "酒保",
+          "target": "钱舅",
+          "value": 1
+        },
+        {
+          "source": "张和尚",
+          "target": "钱舅",
+          "value": 1
+        },
+        {
+          "source": "张和尚",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "钱素娟",
+          "value": 1
+        },
+        {
+          "source": "钱父",
+          "target": "钱素娟",
+          "value": 1
+        },
+        {
+          "source": "钱母",
+          "target": "钱素娟",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "钱父",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "钱母",
+          "value": 1
+        },
+        {
+          "source": "钱母",
+          "target": "钱父",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "钱员外门",
+      "characters": [
+        {
+          "name": "张和尚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "买卖兴隆通四海，财源茂盛达三江。",
+          "rating": 0.75,
+          "role": "丑"
+        },
+        {
+          "name": "钱素娟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "耳边厢又听得铃当响亮，",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "闵子千",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "闲无事来到了大街以上，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：3位角色，152行",
+      "firstLine": 1,
+      "lastLine": 152,
+      "numLines": 152,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.109,
+        "sentiment": 0.495
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "钱员外门",
+      "characters": [
+        {
+          "name": "张和尚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哈哈、哈哈、哈哈、哈哈。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "闵子千",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "不错，是我呀。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "酒保",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "美味珍馐处，应时小卖全。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "钱素娟",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：4位角色，110行",
+      "firstLine": 1,
+      "lastLine": 110,
+      "numLines": 110,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.207,
+        "sentiment": 0.363
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "钱员外门",
+      "characters": [
+        {
+          "name": "钱素娟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "叫丫鬟你搀我病床一上，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "钱母",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "将身来到秀房上，",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "钱舅",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来了！姐姐做什么？",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第三场：3位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.389,
+        "conflict": 0.0,
+        "sentiment": 0.789
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "钱员外门",
+      "characters": [
+        {
+          "name": "闵子千",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "张和尚一去无音信，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "钱舅",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "急急忙忙望前进，",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "酒保",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来了！相公吃什酒？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张和尚",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第四场：4位角色，48行",
+      "firstLine": 1,
+      "lastLine": 48,
+      "numLines": 48,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.709,
+        "conflict": 0.331,
+        "sentiment": 0.47
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "钱员外门",
+      "characters": [
+        {
+          "name": "钱素娟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "前去说亲未回转，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "哦，晓得。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "钱父",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "钱母",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "就依员外。",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第五场：4位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.464,
+        "conflict": 0.0,
+        "sentiment": 0.299
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张和尚",
+      "short": "张和",
+      "key": "张和尚",
+      "quote": "张和尚 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "钱素娟",
+      "short": "钱素",
+      "key": "钱素娟",
+      "quote": "钱素娟 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "闵子千",
+      "short": "闵子",
+      "key": "闵子千",
+      "quote": "闵子千 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "钱母",
+      "short": "钱母",
+      "key": "钱母",
+      "quote": "钱母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "钱舅",
+      "short": "钱舅",
+      "key": "钱舅",
+      "quote": "钱舅 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "钱父",
+      "short": "钱父",
+      "key": "钱父",
+      "quote": "钱父 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "酒保",
+      "short": "酒保",
+      "key": "酒保",
+      "quote": "酒保 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "钱员外门",
+      "key": "钱员外门",
+      "quote": "场景发生在钱员外门"
+    },
+    {
+      "name": "十字街",
+      "key": "十字街",
+      "quote": "场景发生在十字街"
+    }
+  ]
+}

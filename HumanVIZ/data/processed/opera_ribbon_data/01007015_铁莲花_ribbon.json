@@ -1,0 +1,368 @@
+{
+  "title": "铁莲花",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01007015_铁莲花.json",
+  "source_folder": "01000000",
+  "plot_summary": "是剧为形容世间后妻虐待孤儿之事。有刘子忠者，嫡妻早故，老而无子。抚养胞侄刘定生为嗣。甚爱怜之。\n旋以内助乏人，续娶马氏为室。马氏为人蠢而悍，并有一油瓶儿名珠儿者从之来，性又狡刻。母子二人，视\n刘定生如眼中钉，时相构陷，欲锄之去，以利得刘全份家产。一日，刘子忠在外，二人又设计虐待之，时方\n天寒大雪，二人强褫去刘定生衣，令在院中扫雪以冻饿之。刘子忠归，见刘定生冻饿雪中，询状，怒极入问，\n不意不及三数语，仍被二人掩饰过去。刘子忠知刘定生尚未饭，即令马氏往治食。马氏与珠儿，又设计将\n碗烧红，递与刘定生。刘定生接碗，痛极，失手落地，马氏即从旁挑唆，谓其使性砸碗，刘子忠被愚，遂怒\n责刘定生。刘定生逃，既而刘子忠怒解，又出寻刘定生。又见刘定生两手皆烫烂，始知又堕马氏奸计。于是\n挈刘定生归。遂与马氏分居。刘子忠、刘定生居楼上。马氏、珠儿居楼下。马氏见刘子忠已与己决裂，终必\n无幸。遂又与珠儿设毒计，欲用铁莲花将刘子忠谋毙，嫁祸刘定生，以绝根株。此为后本事实也。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 214,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.707,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "刘子忠": 1,
+        "宝珠": 1,
+        "刘定生": 1,
+        "马氏": 1
+      },
+      "links": [
+        {
+          "source": "宝珠",
+          "target": "马氏",
+          "value": 1
+        },
+        {
+          "source": "刘定生",
+          "target": "马氏",
+          "value": 1
+        },
+        {
+          "source": "刘子忠",
+          "target": "马氏",
+          "value": 1
+        },
+        {
+          "source": "刘定生",
+          "target": "宝珠",
+          "value": 1
+        },
+        {
+          "source": "刘子忠",
+          "target": "宝珠",
+          "value": 1
+        },
+        {
+          "source": "刘子忠",
+          "target": "刘定生",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 93,
+      "summary": "第四场；第五场",
+      "conflict": 0.268,
+      "importance": 0.606,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "刘子忠": 1,
+        "宝珠": 1,
+        "马氏": 1,
+        "刘定生": 1
+      },
+      "links": [
+        {
+          "source": "刘子忠",
+          "target": "刘定生",
+          "value": 2
+        },
+        {
+          "source": "刘子忠",
+          "target": "马氏",
+          "value": 1
+        },
+        {
+          "source": "宝珠",
+          "target": "马氏",
+          "value": 1
+        },
+        {
+          "source": "刘定生",
+          "target": "马氏",
+          "value": 1
+        },
+        {
+          "source": "刘子忠",
+          "target": "宝珠",
+          "value": 1
+        },
+        {
+          "source": "刘定生",
+          "target": "宝珠",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "马氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "喔唬。",
+          "rating": 0.0,
+          "role": "丑旦"
+        },
+        {
+          "name": "宝珠",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "喔唬。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "刘定生",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来了。",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "刘子忠",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "大雪不住纷纷下，",
+          "rating": -0.2,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：4位角色，204行",
+      "firstLine": 1,
+      "lastLine": 204,
+      "numLines": 204,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.252,
+        "sentiment": 0.133
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘定生",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一计不成二计生，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.495,
+        "conflict": 1.0,
+        "sentiment": 0.27
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘子忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "山前山后俱找寻，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.495,
+        "conflict": 0.0,
+        "sentiment": 0.84
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘子忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "醒来！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘定生",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在雪地冻得我昏迷不醒，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：2位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.702,
+        "conflict": 0.652,
+        "sentiment": 0.304
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "马氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "阎王造定三更死，",
+          "rating": 0.333,
+          "role": "丑旦"
+        },
+        {
+          "name": "刘子忠",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "好贱人！",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "宝珠",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "吓，我姑妈打死了。刘子忠。",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "刘定生",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第五场：4位角色，54行",
+      "firstLine": 1,
+      "lastLine": 54,
+      "numLines": 54,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.911,
+        "conflict": 0.31,
+        "sentiment": 0.572
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘子忠",
+      "short": "刘子",
+      "key": "刘子忠",
+      "quote": "刘子忠 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "马氏",
+      "short": "马氏",
+      "key": "马氏",
+      "quote": "马氏 — 丑旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 丑旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘定生",
+      "short": "刘定",
+      "key": "刘定生",
+      "quote": "刘定生 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "宝珠",
+      "short": "宝珠",
+      "key": "宝珠",
+      "quote": "宝珠 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

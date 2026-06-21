@@ -1,0 +1,268 @@
+{
+  "title": "困曹府",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "03060005_困曹府.json",
+  "source_folder": "03000000",
+  "plot_summary": "赵匡胤领郭威命往刺刘化王，行至刘地，几为关卒识破，幸曹彬之嫂假呼为丈夫，始免于难。曹嫂归，闻赵\n匡胤酒后背语，羞愧自缢。赵匡胤于梦中遇华佗来割瘤，封为神仙。继梦曹嫂讨封，乃封为华山插花圣母。\n醒来，语及曹彬，冒称其兄曹仁，乃得出关。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 175,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵匡胤": 1,
+        "张氏": 1,
+        "曹小姐": 1,
+        "玉女": 1,
+        "曹彬": 1,
+        "华佗": 1
+      },
+      "links": [
+        {
+          "source": "曹彬",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "张氏",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "玉女",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "曹小姐",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "张氏",
+          "target": "曹彬",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "曹彬",
+          "value": 1
+        },
+        {
+          "source": "曹彬",
+          "target": "玉女",
+          "value": 1
+        },
+        {
+          "source": "曹小姐",
+          "target": "曹彬",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "张氏",
+          "value": 1
+        },
+        {
+          "source": "张氏",
+          "target": "玉女",
+          "value": 1
+        },
+        {
+          "source": "张氏",
+          "target": "曹小姐",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "玉女",
+          "value": 1
+        },
+        {
+          "source": "华佗",
+          "target": "曹小姐",
+          "value": 1
+        },
+        {
+          "source": "曹小姐",
+          "target": "玉女",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "逃出天罗地网，",
+          "rating": 0.125,
+          "role": "红生"
+        },
+        {
+          "name": "曹彬",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "好似雀鸟腾空。",
+          "rating": 0.5,
+          "role": "小生"
+        },
+        {
+          "name": "张氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "轻移莲步到书房，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "华佗",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "闷坐松林下，修道数百年。三国我为首，自称华佗仙。",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "玉女",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曹小姐",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "走哇！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：6位角色，175行",
+      "firstLine": 1,
+      "lastLine": 175,
+      "numLines": 175,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.196,
+        "sentiment": 0.185
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹彬",
+      "short": "曹彬",
+      "key": "曹彬",
+      "quote": "曹彬 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张氏",
+      "short": "张氏",
+      "key": "张氏",
+      "quote": "张氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "华佗",
+      "short": "华佗",
+      "key": "华佗",
+      "quote": "华佗 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "曹小姐",
+      "short": "曹小",
+      "key": "曹小姐",
+      "quote": "曹小姐 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "玉女",
+      "short": "玉女",
+      "key": "玉女",
+      "quote": "玉女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

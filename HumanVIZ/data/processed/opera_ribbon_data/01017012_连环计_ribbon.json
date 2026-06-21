@@ -1,0 +1,167 @@
+{
+  "title": "连环计",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "01017012_连环计.json",
+  "source_folder": "01000000",
+  "plot_summary": "汉末，董卓窃权攘政，扰乱朝纲，收吕布为假子，以作羽翼。吕布勇猛过人，诸将中无出其右，董卓极信任\n之，寄为心腹。董卓之跋扈，日甚一日。诛戮大臣，悉逞己意，立朝者，人人自危。董卓竟在宴会百官之时，\n命吕布杀司空张温于席上，百官骇然，均不敢议论。司徒王允，目睹情形，归到府中，忧愤无策，扶杖往\n后园步月。至牡丹亭畔，忽闻歌妓貂蝉，一声长叹。疑有私情，逼问至再，貂蝉曰：“妾之所以长叹者，见\n主人行坐不安，必为国家大事。倘有用妾之处，虽牺牲妾身，亦所情愿。”王允谢之。遂与貂蝉定连环之计：\n先许嫁于吕布，后奉献于董卓，于中取事，离间其父子，使吕布杀董卓，以除国家蟊贼。盖貂蝉姿容美丽，\n为世间绝无仅有之女子。董卓与吕布皆好色之徒，互相见面，势必不能忘情，欲攫为己有。后董卓果被貂\n蝉播弄，致有凤仪亭掷戟之事。而董卓与吕布两人之嫌隙，从此深矣。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 84,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王允": 1,
+        "貂蝉": 1
+      },
+      "links": [
+        {
+          "source": "王允",
+          "target": "貂蝉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 4,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.091,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王允": 1,
+        "貂蝉": 1
+      },
+      "links": [
+        {
+          "source": "王允",
+          "target": "貂蝉",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "貂蝉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "坐着绣梧桐，芭蕉开玉屏。",
+          "rating": -0.6,
+          "role": "旦"
+        },
+        {
+          "name": "王允",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "汉室江山四百年，",
+          "rating": -0.143,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：2位角色，84行",
+      "firstLine": 1,
+      "lastLine": 84,
+      "numLines": 84,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.492,
+        "sentiment": 0.099
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王允",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "见貂蝉行走甚风流，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "貂蝉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.727,
+        "conflict": 0.0,
+        "sentiment": 0.88
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "貂蝉",
+      "short": "貂蝉",
+      "key": "貂蝉",
+      "quote": "貂蝉 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王允",
+      "short": "王允",
+      "key": "王允",
+      "quote": "王允 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

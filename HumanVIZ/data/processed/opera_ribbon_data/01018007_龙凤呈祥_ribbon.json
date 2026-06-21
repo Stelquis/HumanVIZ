@@ -1,0 +1,440 @@
+{
+  "title": "龙凤呈祥",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01018007_龙凤呈祥.json",
+  "source_folder": "01000000",
+  "plot_summary": "明太祖出身寒微，且早失怙恃，孤苦伶仃，难以言喻。欲投亲故，为借贷之计。东奔西走，迄无所遇。自觉\n劳碌疲倦，路旁有大青石，藉此歇息片时，坐而假寐。有普姓油漆匠，经过是处，见太祖耳目口鼻，均有小\n虫出入，识为蛇钻七窍。默念此子，日后必然大贵。唤醒太祖，叩问氏族，将自己亲生女许配焉。邀至家中，\n为之合卺。",
+  "performance_notes": "是剧并无出处。明太祖后马氏，《本纪》但言父马公，母郑媪，不详其家世。因父母早卒，育养于郭氏，为\n郭子兴之义女。史册上固已斑斑可考。除外如孙贵妃、李淑妃、郭宁妃，亦有列传。而嫔御中是否有普姓之\n女，难以稽查。大约剧本所云，实齐东野人之语也。惟剧中纯係插科打诨，颇堪发噱。观剧诸君，以陶情适\n性为主。只须寻释其趣味，不必议论其事实也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 99,
+      "summary": "第1场；第2场",
+      "conflict": 0.02,
+      "importance": 1.0,
+      "locations": {
+        "一家门": 2
+      },
+      "characters": {
+        "朱洪武": 1,
+        "妞儿": 1,
+        "普胡子": 1,
+        "鲍大嫂子": 1
+      },
+      "links": [
+        {
+          "source": "普胡子",
+          "target": "朱洪武",
+          "value": 1
+        },
+        {
+          "source": "普胡子",
+          "target": "鲍大嫂子",
+          "value": 1
+        },
+        {
+          "source": "妞儿",
+          "target": "普胡子",
+          "value": 1
+        },
+        {
+          "source": "妞儿",
+          "target": "鲍大嫂子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 114,
+      "summary": "第3场；第4场",
+      "conflict": 0.182,
+      "importance": 1.0,
+      "locations": {
+        "一家门": 2
+      },
+      "characters": {
+        "朱洪武": 1,
+        "苟阴阳": 1,
+        "妞儿": 1,
+        "普胡子": 1,
+        "鲍大嫂子": 1
+      },
+      "links": [
+        {
+          "source": "普胡子",
+          "target": "苟阴阳",
+          "value": 2
+        },
+        {
+          "source": "普胡子",
+          "target": "鲍大嫂子",
+          "value": 2
+        },
+        {
+          "source": "普胡子",
+          "target": "朱洪武",
+          "value": 1
+        },
+        {
+          "source": "妞儿",
+          "target": "普胡子",
+          "value": 1
+        },
+        {
+          "source": "苟阴阳",
+          "target": "鲍大嫂子",
+          "value": 2
+        },
+        {
+          "source": "朱洪武",
+          "target": "苟阴阳",
+          "value": 1
+        },
+        {
+          "source": "妞儿",
+          "target": "苟阴阳",
+          "value": 1
+        },
+        {
+          "source": "朱洪武",
+          "target": "鲍大嫂子",
+          "value": 1
+        },
+        {
+          "source": "妞儿",
+          "target": "鲍大嫂子",
+          "value": 1
+        },
+        {
+          "source": "妞儿",
+          "target": "朱洪武",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 3,
+      "summary": "第5场；第6场",
+      "conflict": 0.76,
+      "importance": 0.042,
+      "locations": {
+        "一家门": 2
+      },
+      "characters": {
+        "普胡子": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "一家门",
+      "characters": [
+        {
+          "name": "朱洪武",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "投亲不遇转回程，",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "普胡子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "人逢喜事精神爽，",
+          "rating": 1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第1场：2位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.598,
+        "conflict": 0.44,
+        "sentiment": 0.181
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "一家门",
+      "characters": [
+        {
+          "name": "普胡子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "我说道嫁女儿，须还得请个人搅搅亲，招呼招呼才好。这可请谁去？嘿，有啦，",
+          "rating": -0.333,
+          "role": "副净"
+        },
+        {
+          "name": "鲍大嫂子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "吓哈！",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "妞儿",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：3位角色，59行",
+      "firstLine": 1,
+      "lastLine": 59,
+      "numLines": 59,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.747,
+        "conflict": 0.268,
+        "sentiment": 0.161
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "一家门",
+      "characters": [
+        {
+          "name": "普胡子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我知道。",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "苟阴阳",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哎！",
+          "rating": 0.091,
+          "role": "外"
+        },
+        {
+          "name": "鲍大嫂子",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来啦，来啦。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "朱洪武",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "妞儿",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：5位角色，88行",
+      "firstLine": 1,
+      "lastLine": 88,
+      "numLines": 88,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.197,
+        "sentiment": 0.178
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "一家门",
+      "characters": [
+        {
+          "name": "苟阴阳",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我给兄弟道个喜罢。",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "普胡子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "自己弟兄，道什么喜呀！",
+          "rating": 1.0,
+          "role": "副净"
+        },
+        {
+          "name": "鲍大嫂子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "事情也完啦。我说兄弟，我要回去啦。",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第4场：3位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.761,
+        "conflict": 0.299,
+        "sentiment": 0.36
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "一家门",
+      "characters": [
+        {
+          "name": "普胡子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第5场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.467,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "一家门",
+      "characters": [],
+      "summary": "第6场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.014,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "普胡子",
+      "short": "普胡",
+      "key": "普胡子",
+      "quote": "普胡子 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "鲍大嫂子",
+      "short": "鲍大",
+      "key": "鲍大嫂子",
+      "quote": "鲍大嫂子 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "苟阴阳",
+      "short": "苟阴",
+      "key": "苟阴阳",
+      "quote": "苟阴阳 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "朱洪武",
+      "short": "朱洪",
+      "key": "朱洪武",
+      "quote": "朱洪武 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "妞儿",
+      "short": "妞儿",
+      "key": "妞儿",
+      "quote": "妞儿 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "一家门",
+      "key": "一家门",
+      "quote": "场景发生在一家门"
+    }
+  ]
+}

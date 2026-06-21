@@ -1,0 +1,358 @@
+{
+  "title": "狮吼记·跪池",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70902123_狮吼记·跪池.json",
+  "source_folder": "70902000",
+  "plot_summary": "陈季常应苏东坡游春之约，其妻柳氏恐夫冶游，约定如有妓陪伴将施以杖责；一面暗遣苍头侦悉果有妓女琴\n操同游。陈季常归后，柳氏罚令长跪池边。适苏东坡来访，见状，责柳氏不当，并唆使陈季常纳妾。柳氏乃\n斥苏东坡干预家事，怒而逐客。",
+  "performance_notes": "宋代诗人苏轼（字子瞻，号东坡）赠其好友陈慥（字季常，别号方山子）诗有句云：“忽闻河东狮子吼，拄\n杖落地心茫然。”诗意原是引用佛家典故，说陈季常好佛，听到讲解教义，好似狮子吼声的振聩发聋，手里\n拄杖堕地，思想上茫然若失。明代剧作家汪廷讷把这两句诗附会虚构为陈季常惧内的故事，写成了《狮吼记》\n传奇。\n在《梳妆》、《跪地》之间，还有一出《游春》，可以连演，也可省略。这是两出喜剧，舞台演出比较生动，\n但有宣扬“夫纲”的糟粕，以及列举妒妇的例子，冷僻难懂，今已分别作了修改。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 103,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.878,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "柳氏": 1,
+        "苏东坡": 1,
+        "陈季常": 1,
+        "苍头": 1
+      },
+      "links": [
+        {
+          "source": "柳氏",
+          "target": "陈季常",
+          "value": 1
+        },
+        {
+          "source": "柳氏",
+          "target": "苍头",
+          "value": 1
+        },
+        {
+          "source": "柳氏",
+          "target": "苏东坡",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "陈季常",
+          "value": 1
+        },
+        {
+          "source": "苏东坡",
+          "target": "陈季常",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "苏东坡",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 217,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "柳氏": 1,
+        "苍头": 1,
+        "陈季常": 1,
+        "苏东坡": 1
+      },
+      "links": [
+        {
+          "source": "苏东坡",
+          "target": "陈季常",
+          "value": 1
+        },
+        {
+          "source": "柳氏",
+          "target": "陈季常",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "陈季常",
+          "value": 1
+        },
+        {
+          "source": "柳氏",
+          "target": "苏东坡",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "苏东坡",
+          "value": 1
+        },
+        {
+          "source": "柳氏",
+          "target": "苍头",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 32,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.273,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "柳氏": 1,
+        "陈季常": 1,
+        "苏东坡": 1
+      },
+      "links": [
+        {
+          "source": "柳氏",
+          "target": "苏东坡",
+          "value": 1
+        },
+        {
+          "source": "柳氏",
+          "target": "陈季常",
+          "value": 1
+        },
+        {
+          "source": "苏东坡",
+          "target": "陈季常",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "柳氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "儿夫喜浪游，不把盟言守。嗃嗃奈予何？啊呀咦！伊作伊还受。",
+          "rating": 0.143,
+          "role": "五旦"
+        },
+        {
+          "name": "陈季常",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "喔，来了。",
+          "rating": 0.333,
+          "role": "巾生"
+        },
+        {
+          "name": "苍头",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "白面"
+        },
+        {
+          "name": "苏东坡",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第1场：4位角色，103行",
+      "firstLine": 1,
+      "lastLine": 103,
+      "numLines": 103,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.222,
+        "sentiment": 0.216
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "陈季常",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "喔哟，气死我也！哈哈哈……",
+          "rating": -0.111,
+          "role": "巾生"
+        },
+        {
+          "name": "苏东坡",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "既已为男子，应当制妇人，牝鸡曾有戒，未可令司晨。",
+          "rating": -0.111,
+          "role": "外"
+        },
+        {
+          "name": "柳氏",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "跪在哪里？",
+          "rating": -0.333,
+          "role": "五旦"
+        },
+        {
+          "name": "苍头",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "大奶奶茶拉里。",
+          "rating": 1.0,
+          "role": "白面"
+        }
+      ],
+      "summary": "第2场：4位角色，217行",
+      "firstLine": 1,
+      "lastLine": 217,
+      "numLines": 217,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.223,
+        "sentiment": 0.048
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "柳氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "喂，老苏！",
+          "rating": 1.0,
+          "role": "五旦"
+        },
+        {
+          "name": "苏东坡",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "又是老苏！",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "陈季常",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "子瞻，你这句话又讲差了。",
+          "rating": 1.0,
+          "role": "巾生"
+        }
+      ],
+      "summary": "第3场：3位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.734,
+        "conflict": 0.25,
+        "sentiment": 0.77
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "陈季常",
+      "short": "陈季",
+      "key": "陈季常",
+      "quote": "陈季常 — 巾生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 巾生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "柳氏",
+      "short": "柳氏",
+      "key": "柳氏",
+      "quote": "柳氏 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "苏东坡",
+      "short": "苏东",
+      "key": "苏东坡",
+      "quote": "苏东坡 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "苍头",
+      "short": "苍头",
+      "key": "苍头",
+      "quote": "苍头 — 白面",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 白面",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,839 @@
+{
+  "title": "取成都",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 13,
+  "num_locations": 4,
+  "source_file": "01001008_取成都.json",
+  "source_folder": "01000000",
+  "plot_summary": "汉末，刘璋为刘备所困，求援于汉中张鲁。张鲁遣马超救之，不料马超至葭萌关，竟降刘备而功刘璋。刘璋\n不得已，开城降刘备。降见时，刘璋诘之曰：当日以成都让贤弟，却之再四；今日兴兵至此，意欲何为？刘\n备语塞，诸葛亮代答曰：吾主乃不得已而为之。利之所在，虽谊属同宗，情同骨肉，亦兵戎相见。刘备逼刘\n璋交印后自领益州牧。",
+  "performance_notes": "汪大头善唱此剧，声调高透，神情周到。临行时，唱二六板一段，悲歌慷慨，韵节苍凉，直欲声碎垂壶，天\n生一副好歌喉，非他伶所可望其项背也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 170,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.942,
+      "importance": 1.0,
+      "locations": {
+        "请来进城": 3
+      },
+      "characters": {
+        "刘备": 1,
+        "众人": 1,
+        "四白龙套": 1,
+        "刘玉": 1,
+        "探子": 1,
+        "刘璋": 1,
+        "马超": 1,
+        "王累": 1
+      },
+      "links": [
+        {
+          "source": "刘璋",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "刘玉",
+          "target": "刘璋",
+          "value": 1
+        },
+        {
+          "source": "刘璋",
+          "target": "王累",
+          "value": 3
+        },
+        {
+          "source": "刘璋",
+          "target": "马超",
+          "value": 3
+        },
+        {
+          "source": "众人",
+          "target": "刘璋",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "刘璋",
+          "value": 2
+        },
+        {
+          "source": "刘玉",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "王累",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "刘玉",
+          "target": "王累",
+          "value": 1
+        },
+        {
+          "source": "刘玉",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "刘玉",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "刘玉",
+          "value": 1
+        },
+        {
+          "source": "王累",
+          "target": "马超",
+          "value": 3
+        },
+        {
+          "source": "众人",
+          "target": "王累",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "王累",
+          "value": 2
+        },
+        {
+          "source": "众人",
+          "target": "马超",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "众人",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "四白龙套",
+          "target": "马超",
+          "value": 2
+        },
+        {
+          "source": "刘璋",
+          "target": "四白龙套",
+          "value": 2
+        },
+        {
+          "source": "四白龙套",
+          "target": "王累",
+          "value": 2
+        },
+        {
+          "source": "刘备",
+          "target": "四白龙套",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 141,
+      "summary": "第四场；第五场",
+      "conflict": 0.592,
+      "importance": 0.907,
+      "locations": {
+        "请来进城": 2
+      },
+      "characters": {
+        "赵云": 1,
+        "刘备": 1,
+        "黄忠": 1,
+        "众人": 1,
+        "刘璋": 1,
+        "严颜": 1,
+        "诸葛亮": 1,
+        "魏延": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "刘璋",
+          "value": 2
+        },
+        {
+          "source": "刘备",
+          "target": "诸葛亮",
+          "value": 2
+        },
+        {
+          "source": "刘璋",
+          "target": "诸葛亮",
+          "value": 2
+        },
+        {
+          "source": "刘璋",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "刘璋",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "刘璋",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "刘璋",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "刘璋",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "魏延",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "严颜",
+          "target": "众人",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "请来进城",
+      "characters": [
+        {
+          "name": "刘璋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "驾坐西川，恨张松，归顺桃园。",
+          "rating": 0.273,
+          "role": "老生"
+        },
+        {
+          "name": "探子",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "启禀大王：马超降顺刘备，带领人马，夺取成都。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "刘玉",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "儿臣有本启奏。",
+          "rating": 0.667,
+          "role": "小生"
+        },
+        {
+          "name": "王累",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "千岁等着，王累有本启奏。",
+          "rating": 1.0,
+          "role": "老丑"
+        },
+        {
+          "name": "马超",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "某奉军师将领遣，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "呵。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘备",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：7位角色，109行",
+      "firstLine": 1,
+      "lastLine": 109,
+      "numLines": 109,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.374,
+        "sentiment": 0.3
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "请来进城",
+      "characters": [
+        {
+          "name": "马超",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "且住，看那王累打下滚木擂石，不是快马如飞，险遭不测。临行之时，军师言",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四白龙套",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "喝。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘璋",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "王累",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老丑"
+        }
+      ],
+      "summary": "第二场：4位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.536,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "请来进城",
+      "characters": [
+        {
+          "name": "刘璋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "摆驾。",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "马超",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "蜀主请了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四白龙套",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哦。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王累",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "尊一声千岁慢开城，",
+          "rating": -1.0,
+          "role": "老丑"
+        },
+        {
+          "name": "刘备",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：5位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.832,
+        "conflict": 0.55,
+        "sentiment": -0.182
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "请来进城",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吓，宗兄！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘璋",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓，宗兄来了！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.366,
+        "conflict": 0.0,
+        "sentiment": 0.765
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "请来进城",
+      "characters": [
+        {
+          "name": "刘璋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吓，宗兄，此位是谁？",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘备",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "此乃是卧龙先生。",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "遵命。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "魏延",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "听他言来怒气生，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "赵云",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "恼了常山赵将军。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "黄忠",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "你今不把成都献，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "严颜",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "若稍迟延一命倾。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "让印！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：8位角色，130行",
+      "firstLine": 1,
+      "lastLine": 130,
+      "numLines": 130,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.733,
+        "conflict": 0.417,
+        "sentiment": 0.173
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘璋",
+      "short": "刘璋",
+      "key": "刘璋",
+      "quote": "刘璋 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘玉",
+      "short": "刘玉",
+      "key": "刘玉",
+      "quote": "刘玉 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王累",
+      "short": "王累",
+      "key": "王累",
+      "quote": "王累 — 老丑",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老丑",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵云",
+      "short": "赵云",
+      "key": "赵云",
+      "quote": "赵云 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄忠",
+      "short": "黄忠",
+      "key": "黄忠",
+      "quote": "黄忠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四白龙套",
+      "short": "四白",
+      "key": "四白龙套",
+      "quote": "四白龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马超",
+      "short": "马超",
+      "key": "马超",
+      "quote": "马超 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "严颜",
+      "short": "严颜",
+      "key": "严颜",
+      "quote": "严颜 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "魏延",
+      "short": "魏延",
+      "key": "魏延",
+      "quote": "魏延 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "请来进城",
+      "key": "请来进城",
+      "quote": "场景发生在请来进城"
+    },
+    {
+      "name": "刘璋同进城",
+      "key": "刘璋同进城",
+      "quote": "场景发生在刘璋同进城"
+    },
+    {
+      "name": "同进城",
+      "key": "同进城",
+      "quote": "场景发生在同进城"
+    },
+    {
+      "name": "赵云同进城",
+      "key": "赵云同进城",
+      "quote": "场景发生在赵云同进城"
+    }
+  ]
+}

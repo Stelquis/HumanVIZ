@@ -1,0 +1,375 @@
+{
+  "title": "十八扯",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 2,
+  "num_locations": 3,
+  "source_file": "01009004_十八扯.json",
+  "source_folder": "01000000",
+  "plot_summary": "剧情从何摭取，初无所本，但知为孔怀哥，因其兄孔亨晋京求取功名，久无音耗，其母将媳妇（即亨妻，怀\n哥之嫂）施以种种酷待，虐令在磨房终日磨粉，日仅饲以糠麸粥糜二餐而已，时且自往督勤，稍拂其意，则\n即以鞭笞被其体。怀哥因是大不忍，拟偷闲入磨房代嫂分劳，俾嫂得少休力，适遇其妹，因与妹同入代磨。\n磨有顷，二人苦无聊，遂出其嬉皮滑脸之村童故态，相与串扮戏剧，变兄妹为夫妇，作种种丑态，以消遣而\n行乐，真无稽之极，直不知其命意之何在也。",
+  "performance_notes": "《十八扯》即昆曲中梆腔杂剧类中之《磨房》、《串戏》两折也。原系乱弹腔，后京班中也袭其大概情节，\n翻为京戏，其所串各戏，亦与昆派不同。从前尚京昆杂串，近十年来则昆戏渐渐删汰略尽，单串京戏，此亦\n随乐风时会之趋势而变迁也。惟昆派演此，有一定规模，不能以意增删改串它戏，京班中从前亦尚如此，年\n来则各伶工人自为谋，大都皆就己所长随意串演，以便卖弄其技能，藉以博得拿手擅长之名誉，故所串戏之\n多少，亦无一定，其大致几与《戏迷传》相仿佛矣。以李百岁、吕月樵等为最擅名，坤角恩晓峰亦善唱此剧。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 47,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.735,
+      "importance": 0.56,
+      "locations": {
+        "走到北京城": 3
+      },
+      "characters": {
+        "孔秀英": 1,
+        "孔怀": 1
+      },
+      "links": [
+        {
+          "source": "孔怀",
+          "target": "孔秀英",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 135,
+      "summary": "第4场；第5场；第6场",
+      "conflict": 0.421,
+      "importance": 1.0,
+      "locations": {
+        "走到北京城": 2,
+        "打马到土台": 1
+      },
+      "characters": {
+        "孔秀英": 1,
+        "孔怀": 1
+      },
+      "links": [
+        {
+          "source": "孔怀",
+          "target": "孔秀英",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 70,
+      "summary": "第7场",
+      "conflict": 0.0,
+      "importance": 0.833,
+      "locations": {
+        "走到北京城": 1
+      },
+      "characters": {
+        "孔秀英": 1,
+        "孔怀": 1
+      },
+      "links": [
+        {
+          "source": "孔怀",
+          "target": "孔秀英",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "走到北京城",
+      "characters": [
+        {
+          "name": "孔秀英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "正在后帐把酒饮，",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "孔怀",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "庞德听令。这有令箭一枝，走到北京城，颁来小叫天大战刘鸿声。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第1场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.719,
+        "conflict": 1.0,
+        "sentiment": 0.232
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "走到北京城",
+      "characters": [
+        {
+          "name": "孔秀英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "黄罗宝帐领将令，",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "孔怀",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：2位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.75,
+        "conflict": 0.8,
+        "sentiment": 0.62
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "走到北京城",
+      "characters": [
+        {
+          "name": "孔秀英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "要把那定军一扫平。",
+          "rating": -1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "孔怀",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "龙争虎斗，这砂锅，何日打破？",
+          "rating": -0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第3场：2位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.743,
+        "conflict": 1.0,
+        "sentiment": -0.115
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "走到北京城",
+      "characters": [
+        {
+          "name": "孔怀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哎呀，且住。时才黄信报到，罗家山发来一哨人马，昨日鞭坠白龙，今日叫骂",
+          "rating": -0.5,
+          "role": "丑"
+        },
+        {
+          "name": "孔秀英",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "领旨。",
+          "rating": 0.333,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第4场：2位角色，70行",
+      "firstLine": 1,
+      "lastLine": 70,
+      "numLines": 70,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.472,
+        "sentiment": -0.018
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "打马到土台",
+      "characters": [
+        {
+          "name": "孔秀英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "姚刚，霸林！哎，儿吓！",
+          "rating": 0.2,
+          "role": "花旦"
+        },
+        {
+          "name": "孔怀",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "得胜猫儿强似虎，",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第5场：2位角色，50行",
+      "firstLine": 1,
+      "lastLine": 50,
+      "numLines": 50,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.819,
+        "conflict": 0.984,
+        "sentiment": 0.403
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "走到北京城",
+      "characters": [
+        {
+          "name": "孔怀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "康贤弟比孤年纪小，",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "孔秀英",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "老丈。",
+          "rating": 1.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第6场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.736,
+        "conflict": 0.0,
+        "sentiment": 0.39
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": "走到北京城",
+      "characters": [
+        {
+          "name": "孔怀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "孟德下马语发诈，",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "孔秀英",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "且住。俺曹庄不在家中，这贱人打骂老娘。不免唤他出来，相劝与他。若听还",
+          "rating": 0.6,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第7场：2位角色，70行",
+      "firstLine": 1,
+      "lastLine": 70,
+      "numLines": 70,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.435,
+        "sentiment": 0.317
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孔怀",
+      "short": "孔怀",
+      "key": "孔怀",
+      "quote": "孔怀 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "孔秀英",
+      "short": "孔秀",
+      "key": "孔秀英",
+      "quote": "孔秀英 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "走到北京城",
+      "key": "走到北京城",
+      "quote": "场景发生在走到北京城"
+    },
+    {
+      "name": "北京城",
+      "key": "北京城",
+      "quote": "场景发生在北京城"
+    },
+    {
+      "name": "打马到土台",
+      "key": "打马到土台",
+      "quote": "场景发生在打马到土台"
+    }
+  ]
+}

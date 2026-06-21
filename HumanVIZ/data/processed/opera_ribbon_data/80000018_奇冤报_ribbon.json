@@ -1,0 +1,325 @@
+{
+  "title": "奇冤报",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "80000018_奇冤报.json",
+  "source_folder": "80000000",
+  "plot_summary": "北宋，绸商刘世昌，投宿客店，店主赵大夫妇，窥其行囊沉重，顿起不良，设计将刘世昌药死，砍为肉酱，\n杂以泥土，团成乌盆。事隔数年，毫无破绽。适有张别古至赵大处讨草鞋钱，赵大坚不与钱。天网恢恢，卒\n以乌盆与之。张别古取盆回来，忽有鬼声自盆出，诉冤甚苦，张别古持盆至包拯处首告，包公准之，签提赵\n大，一鞠而服。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 27,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.273,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "刘世昌": 1,
+        "刘升": 1
+      },
+      "links": [
+        {
+          "source": "刘世昌",
+          "target": "刘升",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 106,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵大": 1,
+        "刘世昌": 1,
+        "赵妻": 1,
+        "刘升": 1
+      },
+      "links": [
+        {
+          "source": "刘世昌",
+          "target": "刘升",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵妻",
+          "value": 1
+        },
+        {
+          "source": "刘升",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘升",
+          "target": "赵妻",
+          "value": 1
+        },
+        {
+          "source": "赵大",
+          "target": "赵妻",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 164,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张别古": 1,
+        "刘世昌": 1,
+        "赵大": 1
+      },
+      "links": [
+        {
+          "source": "张别古",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵大",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘世昌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "刘升！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘升",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：2位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.456,
+        "conflict": 0.0,
+        "sentiment": 0.309
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘世昌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "行了一程又一程，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "刘升",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "是啦。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "赵大",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "谁说话这么厌恶的！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "赵妻",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "来了，干什么？",
+          "rating": -1.0,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第二场：4位角色，106行",
+      "firstLine": 1,
+      "lastLine": 106,
+      "numLines": 106,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.807,
+        "conflict": 0.08,
+        "sentiment": 0.323
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张别古",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "啊哈！",
+          "rating": -0.5,
+          "role": "丑"
+        },
+        {
+          "name": "赵大",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "呃哼！",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "刘世昌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "张别古。",
+          "rating": -0.25,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：3位角色，164行",
+      "firstLine": 1,
+      "lastLine": 164,
+      "numLines": 164,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.88,
+        "conflict": 0.161,
+        "sentiment": -0.029
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘世昌",
+      "short": "刘世",
+      "key": "刘世昌",
+      "quote": "刘世昌 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张别古",
+      "short": "张别",
+      "key": "张别古",
+      "quote": "张别古 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "赵大",
+      "short": "赵大",
+      "key": "赵大",
+      "quote": "赵大 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "赵妻",
+      "short": "赵妻",
+      "key": "赵妻",
+      "quote": "赵妻 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "刘升",
+      "short": "刘升",
+      "key": "刘升",
+      "quote": "刘升 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

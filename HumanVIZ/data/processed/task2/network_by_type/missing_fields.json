@@ -1,0 +1,1735 @@
+{
+  "audit_time": "2026-06-06T15:37:00.642934",
+  "audit_version": "v2",
+  "total_plays": 1473,
+  "total_nodes": 22494,
+  "total_edges": 72257,
+  "issues": [
+    {
+      "id": "empty_relation_type_distribution",
+      "severity": "low",
+      "count": 11,
+      "note": "这些剧没有关系边，属于独白戏或纯功能性片段",
+      "plays": [
+        {
+          "entity_id": 5935,
+          "剧本名": "拾黄金（一名：财迷传）",
+          "剧目类型": "技法展示戏",
+          "node_count": 1,
+          "edge_count": 0
+        },
+        {
+          "entity_id": 6222,
+          "剧本名": "思凡（一名：小尼姑下山）",
+          "剧目类型": "爱情戏",
+          "node_count": 2,
+          "edge_count": 0
+        },
+        {
+          "entity_id": 6487,
+          "剧本名": "林冲夜奔（一名：黄河渡）",
+          "剧目类型": "侠义戏",
+          "node_count": 2,
+          "edge_count": 0
+        },
+        {
+          "entity_id": 6615,
+          "剧本名": "鸿雁捎书",
+          "剧目类型": "家庭戏",
+          "node_count": 1,
+          "edge_count": 0
+        },
+        {
+          "entity_id": 6842,
+          "剧本名": "秦罗敷",
+          "剧目类型": "家庭戏",
+          "node_count": 1,
+          "edge_count": 0
+        },
+        {
+          "entity_id": 6916,
+          "剧本名": "思凡",
+          "剧目类型": "爱情戏",
+          "node_count": 2,
+          "edge_count": 0
+        },
+        {
+          "entity_id": 7252,
+          "剧本名": "宝剑记·夜奔",
+          "剧目类型": "侠义戏",
+          "node_count": 1,
+          "edge_count": 0
+        },
+        {
+          "entity_id": 7273,
+          "剧本名": "牡丹亭·拾画",
+          "剧目类型": "爱情戏",
+          "node_count": 1,
+          "edge_count": 0
+        },
+        {
+          "entity_id": 7274,
+          "剧本名": "牡丹亭·叫画",
+          "剧目类型": "爱情戏",
+          "node_count": 1,
+          "edge_count": 0
+        },
+        {
+          "entity_id": 7290,
+          "剧本名": "孽海记·思凡",
+          "剧目类型": "爱情戏",
+          "node_count": 2,
+          "edge_count": 0
+        },
+        {
+          "entity_id": 7302,
+          "剧本名": "疗妒羹·题曲",
+          "剧目类型": "爱情戏",
+          "node_count": 1,
+          "edge_count": 0
+        }
+      ]
+    },
+    {
+      "id": "missing_role_type",
+      "severity": "medium",
+      "functional_characters_expected": 5188,
+      "named_characters_missing": 9305,
+      "total_missing": 14493,
+      "plays_affected": 1193,
+      "named_examples": [
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "诸葛亮",
+          "dialogue_count": 41,
+          "degree_centrality": 0.363636
+        },
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "二老军",
+          "dialogue_count": 9,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "老军甲",
+          "dialogue_count": 10,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "老军乙",
+          "dialogue_count": 9,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "司马懿",
+          "dialogue_count": 16,
+          "degree_centrality": 0.363636
+        },
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "司马昭",
+          "dialogue_count": 3,
+          "degree_centrality": 0.363636
+        },
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "赵云",
+          "dialogue_count": 3,
+          "degree_centrality": 0.363636
+        },
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "司马师",
+          "dialogue_count": 1,
+          "degree_centrality": 0.272727
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "张辽",
+          "dialogue_count": 14,
+          "degree_centrality": 0.3
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "孔融",
+          "dialogue_count": 10,
+          "degree_centrality": 0.3
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "朝官甲",
+          "dialogue_count": 3,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "朝官乙",
+          "dialogue_count": 1,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "朝官丙",
+          "dialogue_count": 1,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "朝官丁",
+          "dialogue_count": 1,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5898,
+          "剧本名": "捉放曹（一名：中牟县）",
+          "角色名": "家人",
+          "dialogue_count": 2,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5899,
+          "剧本名": "桑园寄子（一名：黑水国）",
+          "角色名": "邓方",
+          "dialogue_count": 26,
+          "degree_centrality": 0.666667
+        },
+        {
+          "entity_id": 5899,
+          "剧本名": "桑园寄子（一名：黑水国）",
+          "角色名": "番王",
+          "dialogue_count": 2,
+          "degree_centrality": 0.666667
+        },
+        {
+          "entity_id": 5900,
+          "剧本名": "取成都（一名：石伏岩）",
+          "角色名": "探子",
+          "dialogue_count": 1,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5900,
+          "剧本名": "取成都（一名：石伏岩）",
+          "角色名": "马超",
+          "dialogue_count": 9,
+          "degree_centrality": 0.25
+        },
+        {
+          "entity_id": 5900,
+          "剧本名": "取成都（一名：石伏岩）",
+          "角色名": "魏延",
+          "dialogue_count": 2,
+          "degree_centrality": 0.5
+        },
+        {
+          "entity_id": 5900,
+          "剧本名": "取成都（一名：石伏岩）",
+          "角色名": "赵云",
+          "dialogue_count": 2,
+          "degree_centrality": 0.5
+        },
+        {
+          "entity_id": 5900,
+          "剧本名": "取成都（一名：石伏岩）",
+          "角色名": "黄忠",
+          "dialogue_count": 2,
+          "degree_centrality": 0.5
+        },
+        {
+          "entity_id": 5900,
+          "剧本名": "取成都（一名：石伏岩）",
+          "角色名": "严颜",
+          "dialogue_count": 4,
+          "degree_centrality": 0.5
+        },
+        {
+          "entity_id": 5901,
+          "剧本名": "硃砂痣（一名：行善得子）",
+          "角色名": "丫鬟",
+          "dialogue_count": 1,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5904,
+          "剧本名": "黄鹤楼（一名：过江赴宴）",
+          "角色名": "刘封",
+          "dialogue_count": 4,
+          "degree_centrality": 0.5
+        },
+        {
+          "entity_id": 5904,
+          "剧本名": "黄鹤楼（一名：过江赴宴）",
+          "角色名": "甘宁",
+          "dialogue_count": 7,
+          "degree_centrality": 0.375
+        },
+        {
+          "entity_id": 5905,
+          "剧本名": "天水关（一名：初出祁山）",
+          "角色名": "内侍",
+          "dialogue_count": 2,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5905,
+          "剧本名": "天水关（一名：初出祁山）",
+          "角色名": "魏延",
+          "dialogue_count": 17,
+          "degree_centrality": 0.615385
+        },
+        {
+          "entity_id": 5905,
+          "剧本名": "天水关（一名：初出祁山）",
+          "角色名": "马岱",
+          "dialogue_count": 12,
+          "degree_centrality": 0.538462
+        },
+        {
+          "entity_id": 5905,
+          "剧本名": "天水关（一名：初出祁山）",
+          "角色名": "关兴",
+          "dialogue_count": 12,
+          "degree_centrality": 0.538462
+        },
+        {
+          "entity_id": 5905,
+          "剧本名": "天水关（一名：初出祁山）",
+          "角色名": "张苞",
+          "dialogue_count": 13,
+          "degree_centrality": 0.538462
+        },
+        {
+          "entity_id": 5905,
+          "剧本名": "天水关（一名：初出祁山）",
+          "角色名": "赵云",
+          "dialogue_count": 13,
+          "degree_centrality": 0.538462
+        },
+        {
+          "entity_id": 5905,
+          "剧本名": "天水关（一名：初出祁山）",
+          "角色名": "马遵",
+          "dialogue_count": 18,
+          "degree_centrality": 0.153846
+        },
+        {
+          "entity_id": 5906,
+          "剧本名": "七星灯（一名：孔明求寿）",
+          "角色名": "魏延",
+          "dialogue_count": 8,
+          "degree_centrality": 0.6
+        },
+        {
+          "entity_id": 5906,
+          "剧本名": "七星灯（一名：孔明求寿）",
+          "角色名": "李福",
+          "dialogue_count": 12,
+          "degree_centrality": 0.6
+        },
+        {
+          "entity_id": 5906,
+          "剧本名": "七星灯（一名：孔明求寿）",
+          "角色名": "马岱",
+          "dialogue_count": 12,
+          "degree_centrality": 0.6
+        },
+        {
+          "entity_id": 5906,
+          "剧本名": "七星灯（一名：孔明求寿）",
+          "角色名": "杨仪",
+          "dialogue_count": 12,
+          "degree_centrality": 0.6
+        },
+        {
+          "entity_id": 5906,
+          "剧本名": "七星灯（一名：孔明求寿）",
+          "角色名": "王平",
+          "dialogue_count": 12,
+          "degree_centrality": 0.6
+        },
+        {
+          "entity_id": 5907,
+          "剧本名": "战北原（一名：斩郑文）",
+          "角色名": "赵云",
+          "dialogue_count": 6,
+          "degree_centrality": 0.666667
+        },
+        {
+          "entity_id": 5907,
+          "剧本名": "战北原（一名：斩郑文）",
+          "角色名": "马岱",
+          "dialogue_count": 6,
+          "degree_centrality": 0.666667
+        },
+        {
+          "entity_id": 5907,
+          "剧本名": "战北原（一名：斩郑文）",
+          "角色名": "关兴",
+          "dialogue_count": 6,
+          "degree_centrality": 0.666667
+        },
+        {
+          "entity_id": 5907,
+          "剧本名": "战北原（一名：斩郑文）",
+          "角色名": "张苞",
+          "dialogue_count": 6,
+          "degree_centrality": 0.666667
+        },
+        {
+          "entity_id": 5907,
+          "剧本名": "战北原（一名：斩郑文）",
+          "角色名": "秦朗",
+          "dialogue_count": 1,
+          "degree_centrality": 0.666667
+        },
+        {
+          "entity_id": 5908,
+          "剧本名": "牧羊卷（一名：席棚会妻）",
+          "角色名": "厨房",
+          "dialogue_count": 2,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5909,
+          "剧本名": "清官册（一名：升官图）",
+          "角色名": "金牌官",
+          "dialogue_count": 3,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5909,
+          "剧本名": "清官册（一名：升官图）",
+          "角色名": "驿丞官",
+          "dialogue_count": 7,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5909,
+          "剧本名": "清官册（一名：升官图）",
+          "角色名": "宋王",
+          "dialogue_count": 3,
+          "degree_centrality": 0.0
+        },
+        {
+          "entity_id": 5911,
+          "剧本名": "柴桑口（一名：孔明吊丧）",
+          "角色名": "赵云",
+          "dialogue_count": 1,
+          "degree_centrality": 0.5
+        },
+        {
+          "entity_id": 5911,
+          "剧本名": "柴桑口（一名：孔明吊丧）",
+          "角色名": "庞统",
+          "dialogue_count": 7,
+          "degree_centrality": 0.666667
+        },
+        {
+          "entity_id": 5911,
+          "剧本名": "柴桑口（一名：孔明吊丧）",
+          "角色名": "张飞",
+          "dialogue_count": 2,
+          "degree_centrality": 0.666667
+        }
+      ],
+      "plays_detail": [
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "剧目类型": "历史戏",
+          "total_nodes": 12,
+          "missing_named": 8,
+          "missing_ratio": 0.667,
+          "top_missing": [
+            {
+              "name": "诸葛亮",
+              "dialogue_count": 41,
+              "degree_centrality": 0.363636
+            },
+            {
+              "name": "二老军",
+              "dialogue_count": 9,
+              "degree_centrality": 0.0
+            },
+            {
+              "name": "老军甲",
+              "dialogue_count": 10,
+              "degree_centrality": 0.0
+            },
+            {
+              "name": "老军乙",
+              "dialogue_count": 9,
+              "degree_centrality": 0.0
+            },
+            {
+              "name": "司马懿",
+              "dialogue_count": 16,
+              "degree_centrality": 0.363636
+            }
+          ]
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "剧目类型": "历史戏",
+          "total_nodes": 11,
+          "missing_named": 6,
+          "missing_ratio": 0.545,
+          "top_missing": [
+            {
+              "name": "张辽",
+              "dialogue_count": 14,
+              "degree_centrality": 0.3
+            },
+            {
+              "name": "孔融",
+              "dialogue_count": 10,
+              "degree_centrality": 0.3
+            },
+            {
+              "name": "朝官甲",
+              "dialogue_count": 3,
+              "degree_centrality": 0.0
+            },
+            {
+              "name": "朝官乙",
+              "dialogue_count": 1,
+              "degree_centrality": 0.0
+            },
+            {
+              "name": "朝官丙",
+              "dialogue_count": 1,
+              "degree_centrality": 0.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5898,
+          "剧本名": "捉放曹（一名：中牟县）",
+          "剧目类型": "历史戏",
+          "total_nodes": 10,
+          "missing_named": 1,
+          "missing_ratio": 0.1,
+          "top_missing": [
+            {
+              "name": "家人",
+              "dialogue_count": 2,
+              "degree_centrality": 0.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5899,
+          "剧本名": "桑园寄子（一名：黑水国）",
+          "剧目类型": "家庭戏",
+          "total_nodes": 7,
+          "missing_named": 2,
+          "missing_ratio": 0.286,
+          "top_missing": [
+            {
+              "name": "邓方",
+              "dialogue_count": 26,
+              "degree_centrality": 0.666667
+            },
+            {
+              "name": "番王",
+              "dialogue_count": 2,
+              "degree_centrality": 0.666667
+            }
+          ]
+        },
+        {
+          "entity_id": 5900,
+          "剧本名": "取成都（一名：石伏岩）",
+          "剧目类型": "历史戏",
+          "total_nodes": 13,
+          "missing_named": 6,
+          "missing_ratio": 0.462,
+          "top_missing": [
+            {
+              "name": "探子",
+              "dialogue_count": 1,
+              "degree_centrality": 0.0
+            },
+            {
+              "name": "马超",
+              "dialogue_count": 9,
+              "degree_centrality": 0.25
+            },
+            {
+              "name": "魏延",
+              "dialogue_count": 2,
+              "degree_centrality": 0.5
+            },
+            {
+              "name": "赵云",
+              "dialogue_count": 2,
+              "degree_centrality": 0.5
+            },
+            {
+              "name": "黄忠",
+              "dialogue_count": 2,
+              "degree_centrality": 0.5
+            }
+          ]
+        },
+        {
+          "entity_id": 5901,
+          "剧本名": "硃砂痣（一名：行善得子）",
+          "剧目类型": "家庭戏",
+          "total_nodes": 8,
+          "missing_named": 1,
+          "missing_ratio": 0.125,
+          "top_missing": [
+            {
+              "name": "丫鬟",
+              "dialogue_count": 1,
+              "degree_centrality": 0.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5904,
+          "剧本名": "黄鹤楼（一名：过江赴宴）",
+          "剧目类型": "历史戏",
+          "total_nodes": 9,
+          "missing_named": 2,
+          "missing_ratio": 0.222,
+          "top_missing": [
+            {
+              "name": "刘封",
+              "dialogue_count": 4,
+              "degree_centrality": 0.5
+            },
+            {
+              "name": "甘宁",
+              "dialogue_count": 7,
+              "degree_centrality": 0.375
+            }
+          ]
+        },
+        {
+          "entity_id": 5905,
+          "剧本名": "天水关（一名：初出祁山）",
+          "剧目类型": "历史戏",
+          "total_nodes": 14,
+          "missing_named": 7,
+          "missing_ratio": 0.5,
+          "top_missing": [
+            {
+              "name": "内侍",
+              "dialogue_count": 2,
+              "degree_centrality": 0.0
+            },
+            {
+              "name": "魏延",
+              "dialogue_count": 17,
+              "degree_centrality": 0.615385
+            },
+            {
+              "name": "马岱",
+              "dialogue_count": 12,
+              "degree_centrality": 0.538462
+            },
+            {
+              "name": "关兴",
+              "dialogue_count": 12,
+              "degree_centrality": 0.538462
+            },
+            {
+              "name": "张苞",
+              "dialogue_count": 13,
+              "degree_centrality": 0.538462
+            }
+          ]
+        },
+        {
+          "entity_id": 5906,
+          "剧本名": "七星灯（一名：孔明求寿）",
+          "剧目类型": "历史戏",
+          "total_nodes": 11,
+          "missing_named": 5,
+          "missing_ratio": 0.455,
+          "top_missing": [
+            {
+              "name": "魏延",
+              "dialogue_count": 8,
+              "degree_centrality": 0.6
+            },
+            {
+              "name": "李福",
+              "dialogue_count": 12,
+              "degree_centrality": 0.6
+            },
+            {
+              "name": "马岱",
+              "dialogue_count": 12,
+              "degree_centrality": 0.6
+            },
+            {
+              "name": "杨仪",
+              "dialogue_count": 12,
+              "degree_centrality": 0.6
+            },
+            {
+              "name": "王平",
+              "dialogue_count": 12,
+              "degree_centrality": 0.6
+            }
+          ]
+        },
+        {
+          "entity_id": 5907,
+          "剧本名": "战北原（一名：斩郑文）",
+          "剧目类型": "历史戏",
+          "total_nodes": 10,
+          "missing_named": 5,
+          "missing_ratio": 0.5,
+          "top_missing": [
+            {
+              "name": "赵云",
+              "dialogue_count": 6,
+              "degree_centrality": 0.666667
+            },
+            {
+              "name": "马岱",
+              "dialogue_count": 6,
+              "degree_centrality": 0.666667
+            },
+            {
+              "name": "关兴",
+              "dialogue_count": 6,
+              "degree_centrality": 0.666667
+            },
+            {
+              "name": "张苞",
+              "dialogue_count": 6,
+              "degree_centrality": 0.666667
+            },
+            {
+              "name": "秦朗",
+              "dialogue_count": 1,
+              "degree_centrality": 0.666667
+            }
+          ]
+        },
+        {
+          "entity_id": 5908,
+          "剧本名": "牧羊卷（一名：席棚会妻）",
+          "剧目类型": "家庭戏",
+          "total_nodes": 11,
+          "missing_named": 1,
+          "missing_ratio": 0.091,
+          "top_missing": [
+            {
+              "name": "厨房",
+              "dialogue_count": 2,
+              "degree_centrality": 0.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5909,
+          "剧本名": "清官册（一名：升官图）",
+          "剧目类型": "公案戏",
+          "total_nodes": 12,
+          "missing_named": 3,
+          "missing_ratio": 0.25,
+          "top_missing": [
+            {
+              "name": "金牌官",
+              "dialogue_count": 3,
+              "degree_centrality": 0.0
+            },
+            {
+              "name": "驿丞官",
+              "dialogue_count": 7,
+              "degree_centrality": 0.0
+            },
+            {
+              "name": "宋王",
+              "dialogue_count": 3,
+              "degree_centrality": 0.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5911,
+          "剧本名": "柴桑口（一名：孔明吊丧）",
+          "剧目类型": "历史戏",
+          "total_nodes": 7,
+          "missing_named": 3,
+          "missing_ratio": 0.429,
+          "top_missing": [
+            {
+              "name": "赵云",
+              "dialogue_count": 1,
+              "degree_centrality": 0.5
+            },
+            {
+              "name": "庞统",
+              "dialogue_count": 7,
+              "degree_centrality": 0.666667
+            },
+            {
+              "name": "张飞",
+              "dialogue_count": 2,
+              "degree_centrality": 0.666667
+            }
+          ]
+        },
+        {
+          "entity_id": 5913,
+          "剧本名": "李陵碑（一名：两狼山）",
+          "剧目类型": "历史戏",
+          "total_nodes": 6,
+          "missing_named": 2,
+          "missing_ratio": 0.333,
+          "top_missing": [
+            {
+              "name": "耶律休",
+              "dialogue_count": 2,
+              "degree_centrality": 0.2
+            },
+            {
+              "name": "探子",
+              "dialogue_count": 1,
+              "degree_centrality": 0.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5914,
+          "剧本名": "祭长江（一名：祭江）",
+          "剧目类型": "爱情戏",
+          "total_nodes": 2,
+          "missing_named": 1,
+          "missing_ratio": 0.5,
+          "top_missing": [
+            {
+              "name": "龙王",
+              "dialogue_count": 2,
+              "degree_centrality": 1.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5915,
+          "剧本名": "探寒窑（一名：母女会）",
+          "剧目类型": "家庭戏",
+          "total_nodes": 4,
+          "missing_named": 1,
+          "missing_ratio": 0.25,
+          "top_missing": [
+            {
+              "name": "丫鬟",
+              "dialogue_count": 1,
+              "degree_centrality": 0.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5916,
+          "剧本名": "落花园（一名：杏元和番）",
+          "剧目类型": "家庭戏",
+          "total_nodes": 4,
+          "missing_named": 1,
+          "missing_ratio": 0.25,
+          "top_missing": [
+            {
+              "name": "丫鬟",
+              "dialogue_count": 2,
+              "degree_centrality": 0.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5917,
+          "剧本名": "探阴山",
+          "剧目类型": "公案戏",
+          "total_nodes": 5,
+          "missing_named": 2,
+          "missing_ratio": 0.4,
+          "top_missing": [
+            {
+              "name": "王朝",
+              "dialogue_count": 1,
+              "degree_centrality": 1.0
+            },
+            {
+              "name": "马汉",
+              "dialogue_count": 1,
+              "degree_centrality": 1.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5920,
+          "剧本名": "鱼肠剑（一名：子胥投吴）",
+          "剧目类型": "历史戏",
+          "total_nodes": 10,
+          "missing_named": 2,
+          "missing_ratio": 0.2,
+          "top_missing": [
+            {
+              "name": "牛二",
+              "dialogue_count": 14,
+              "degree_centrality": 0.444444
+            },
+            {
+              "name": "老丈",
+              "dialogue_count": 6,
+              "degree_centrality": 0.444444
+            }
+          ]
+        },
+        {
+          "entity_id": 5923,
+          "剧本名": "白门楼",
+          "剧目类型": "历史戏",
+          "total_nodes": 17,
+          "missing_named": 7,
+          "missing_ratio": 0.412,
+          "top_missing": [
+            {
+              "name": "关羽",
+              "dialogue_count": 9,
+              "degree_centrality": 0.6875
+            },
+            {
+              "name": "张飞",
+              "dialogue_count": 8,
+              "degree_centrality": 0.6875
+            },
+            {
+              "name": "李典",
+              "dialogue_count": 4,
+              "degree_centrality": 0.6875
+            },
+            {
+              "name": "乐进",
+              "dialogue_count": 4,
+              "degree_centrality": 0.6875
+            },
+            {
+              "name": "许褚",
+              "dialogue_count": 4,
+              "degree_centrality": 0.6875
+            }
+          ]
+        },
+        {
+          "entity_id": 5924,
+          "剧本名": "华容道（一名：挡曹）",
+          "剧目类型": "历史戏",
+          "total_nodes": 4,
+          "missing_named": 2,
+          "missing_ratio": 0.5,
+          "top_missing": [
+            {
+              "name": "许褚",
+              "dialogue_count": 8,
+              "degree_centrality": 1.0
+            },
+            {
+              "name": "小校",
+              "dialogue_count": 3,
+              "degree_centrality": 1.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5925,
+          "剧本名": "宇宙锋（一名：金殿装疯）",
+          "剧目类型": "历史戏",
+          "total_nodes": 6,
+          "missing_named": 3,
+          "missing_ratio": 0.5,
+          "top_missing": [
+            {
+              "name": "门官",
+              "dialogue_count": 5,
+              "degree_centrality": 0.8
+            },
+            {
+              "name": "丫鬟",
+              "dialogue_count": 1,
+              "degree_centrality": 0.0
+            },
+            {
+              "name": "丫头",
+              "dialogue_count": 3,
+              "degree_centrality": 0.8
+            }
+          ]
+        },
+        {
+          "entity_id": 5926,
+          "剧本名": "取帅印",
+          "剧目类型": "历史戏",
+          "total_nodes": 8,
+          "missing_named": 2,
+          "missing_ratio": 0.25,
+          "top_missing": [
+            {
+              "name": "李世民",
+              "dialogue_count": 25,
+              "degree_centrality": 0.714286
+            },
+            {
+              "name": "徐勣",
+              "dialogue_count": 6,
+              "degree_centrality": 0.714286
+            }
+          ]
+        },
+        {
+          "entity_id": 5927,
+          "剧本名": "打渔杀家（一名：庆顶珠）",
+          "剧目类型": "侠义戏",
+          "total_nodes": 14,
+          "missing_named": 3,
+          "missing_ratio": 0.214,
+          "top_missing": [
+            {
+              "name": "李倪",
+              "dialogue_count": 1,
+              "degree_centrality": 0.461538
+            },
+            {
+              "name": "丁员外",
+              "dialogue_count": 28,
+              "degree_centrality": 0.461538
+            },
+            {
+              "name": "吕子秋",
+              "dialogue_count": 1,
+              "degree_centrality": 0.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5929,
+          "剧本名": "目莲救母",
+          "剧目类型": "神话戏",
+          "total_nodes": 4,
+          "missing_named": 1,
+          "missing_ratio": 0.25,
+          "top_missing": [
+            {
+              "name": "小鬼",
+              "dialogue_count": 1,
+              "degree_centrality": 1.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5930,
+          "剧本名": "红鸾禧（一名：棒打薄情郎）",
+          "剧目类型": "爱情戏",
+          "total_nodes": 6,
+          "missing_named": 1,
+          "missing_ratio": 0.167,
+          "top_missing": [
+            {
+              "name": "天喜星",
+              "dialogue_count": 2,
+              "degree_centrality": 0.8
+            }
+          ]
+        },
+        {
+          "entity_id": 5932,
+          "剧本名": "琼林宴（一名：问樵闹府·打棍出箱）",
+          "剧目类型": "家庭戏",
+          "total_nodes": 10,
+          "missing_named": 1,
+          "missing_ratio": 0.1,
+          "top_missing": [
+            {
+              "name": "土地",
+              "dialogue_count": 2,
+              "degree_centrality": 0.333333
+            }
+          ]
+        },
+        {
+          "entity_id": 5937,
+          "剧本名": "断太后（一名：赵州桥）",
+          "剧目类型": "公案戏",
+          "total_nodes": 6,
+          "missing_named": 2,
+          "missing_ratio": 0.333,
+          "top_missing": [
+            {
+              "name": "王朝",
+              "dialogue_count": 7,
+              "degree_centrality": 0.8
+            },
+            {
+              "name": "马汉",
+              "dialogue_count": 4,
+              "degree_centrality": 0.8
+            }
+          ]
+        },
+        {
+          "entity_id": 5938,
+          "剧本名": "打龙袍",
+          "剧目类型": "公案戏",
+          "total_nodes": 12,
+          "missing_named": 3,
+          "missing_ratio": 0.25,
+          "top_missing": [
+            {
+              "name": "郭槐",
+              "dialogue_count": 2,
+              "degree_centrality": 0.454545
+            },
+            {
+              "name": "皇后",
+              "dialogue_count": 1,
+              "degree_centrality": 0.454545
+            },
+            {
+              "name": "内侍",
+              "dialogue_count": 1,
+              "degree_centrality": 0.0
+            }
+          ]
+        },
+        {
+          "entity_id": 5940,
+          "剧本名": "斩黄袍（一名：斩郑恩）",
+          "剧目类型": "历史戏",
+          "total_nodes": 20,
+          "missing_named": 5,
+          "missing_ratio": 0.25,
+          "top_missing": [
+            {
+              "name": "高怀德",
+              "dialogue_count": 60,
+              "degree_centrality": 0.421053
+            },
+            {
+              "name": "郑高苗",
+              "dialogue_count": 2,
+              "degree_centrality": 0.263158
+            },
+            {
+              "name": "韩素梅",
+              "dialogue_count": 11,
+              "degree_centrality": 0.157895
+            },
+            {
+              "name": "黄门官",
+              "dialogue_count": 5,
+              "degree_centrality": 0.157895
+            },
+            {
+              "name": "黄花真人",
+              "dialogue_count": 1,
+              "degree_centrality": 0.263158
+            }
+          ]
+        }
+      ],
+      "note": "功能性角色（龙套等）无行当属正常；命名角色缺行当需关注"
+    },
+    {
+      "id": "isolated_nodes",
+      "severity": "info",
+      "total": 4685,
+      "crowd_expected": 2398,
+      "named_unexpected": 2287,
+      "note": "龙套/群体角色孤立正常；命名角色孤立需核查（可能为独白角色）",
+      "named_examples": [
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "旗牌",
+          "role_type": "",
+          "dialogue_count": 9
+        },
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "报子",
+          "role_type": "",
+          "dialogue_count": 7
+        },
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "二老军",
+          "role_type": "",
+          "dialogue_count": 9
+        },
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "老军甲",
+          "role_type": "",
+          "dialogue_count": 10
+        },
+        {
+          "entity_id": 5893,
+          "剧本名": "空城计（一名：抚琴退兵）",
+          "角色名": "老军乙",
+          "role_type": "",
+          "dialogue_count": 9
+        },
+        {
+          "entity_id": 5894,
+          "剧本名": "洪羊洞（一名：孟良盗骨）",
+          "角色名": "家院",
+          "role_type": "",
+          "dialogue_count": 10
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "朝官甲",
+          "role_type": "",
+          "dialogue_count": 3
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "朝官乙",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "朝官丙",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "朝官丁",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "旗牌",
+          "role_type": "",
+          "dialogue_count": 2
+        },
+        {
+          "entity_id": 5897,
+          "剧本名": "打鼓骂曹（一名：群臣宴）",
+          "角色名": "二旗牌",
+          "role_type": "",
+          "dialogue_count": 8
+        },
+        {
+          "entity_id": 5898,
+          "剧本名": "捉放曹（一名：中牟县）",
+          "角色名": "班头乙",
+          "role_type": "丑",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5898,
+          "剧本名": "捉放曹（一名：中牟县）",
+          "角色名": "店家",
+          "role_type": "丑",
+          "dialogue_count": 7
+        },
+        {
+          "entity_id": 5898,
+          "剧本名": "捉放曹（一名：中牟县）",
+          "角色名": "门子",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5898,
+          "剧本名": "捉放曹（一名：中牟县）",
+          "角色名": "家人",
+          "role_type": "",
+          "dialogue_count": 2
+        },
+        {
+          "entity_id": 5899,
+          "剧本名": "桑园寄子（一名：黑水国）",
+          "角色名": "二家院",
+          "role_type": "",
+          "dialogue_count": 10
+        },
+        {
+          "entity_id": 5900,
+          "剧本名": "取成都（一名：石伏岩）",
+          "角色名": "探子",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5901,
+          "剧本名": "硃砂痣（一名：行善得子）",
+          "角色名": "媒婆",
+          "role_type": "丑旦",
+          "dialogue_count": 6
+        },
+        {
+          "entity_id": 5901,
+          "剧本名": "硃砂痣（一名：行善得子）",
+          "角色名": "丫鬟",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5901,
+          "剧本名": "硃砂痣（一名：行善得子）",
+          "角色名": "家院",
+          "role_type": "",
+          "dialogue_count": 6
+        },
+        {
+          "entity_id": 5902,
+          "剧本名": "黄金台（一名：田单救主）",
+          "角色名": "家院",
+          "role_type": "",
+          "dialogue_count": 2
+        },
+        {
+          "entity_id": 5905,
+          "剧本名": "天水关（一名：初出祁山）",
+          "角色名": "内侍",
+          "role_type": "",
+          "dialogue_count": 2
+        },
+        {
+          "entity_id": 5905,
+          "剧本名": "天水关（一名：初出祁山）",
+          "角色名": "报子",
+          "role_type": "",
+          "dialogue_count": 2
+        },
+        {
+          "entity_id": 5906,
+          "剧本名": "七星灯（一名：孔明求寿）",
+          "角色名": "旗牌",
+          "role_type": "",
+          "dialogue_count": 10
+        },
+        {
+          "entity_id": 5906,
+          "剧本名": "七星灯（一名：孔明求寿）",
+          "角色名": "报子",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5907,
+          "剧本名": "战北原（一名：斩郑文）",
+          "角色名": "报子",
+          "role_type": "",
+          "dialogue_count": 4
+        },
+        {
+          "entity_id": 5907,
+          "剧本名": "战北原（一名：斩郑文）",
+          "角色名": "旗牌",
+          "role_type": "",
+          "dialogue_count": 4
+        },
+        {
+          "entity_id": 5908,
+          "剧本名": "牧羊卷（一名：席棚会妻）",
+          "角色名": "中军",
+          "role_type": "净",
+          "dialogue_count": 32
+        },
+        {
+          "entity_id": 5908,
+          "剧本名": "牧羊卷（一名：席棚会妻）",
+          "角色名": "厨房",
+          "role_type": "",
+          "dialogue_count": 2
+        },
+        {
+          "entity_id": 5909,
+          "剧本名": "清官册（一名：升官图）",
+          "角色名": "金牌官",
+          "role_type": "",
+          "dialogue_count": 3
+        },
+        {
+          "entity_id": 5909,
+          "剧本名": "清官册（一名：升官图）",
+          "角色名": "家院",
+          "role_type": "",
+          "dialogue_count": 5
+        },
+        {
+          "entity_id": 5909,
+          "剧本名": "清官册（一名：升官图）",
+          "角色名": "驿丞官",
+          "role_type": "",
+          "dialogue_count": 7
+        },
+        {
+          "entity_id": 5909,
+          "剧本名": "清官册（一名：升官图）",
+          "角色名": "宋王",
+          "role_type": "",
+          "dialogue_count": 3
+        },
+        {
+          "entity_id": 5910,
+          "剧本名": "双狮图（一名：举鼎观画）",
+          "角色名": "家院",
+          "role_type": "",
+          "dialogue_count": 2
+        },
+        {
+          "entity_id": 5913,
+          "剧本名": "李陵碑（一名：两狼山）",
+          "角色名": "探子",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5915,
+          "剧本名": "探寒窑（一名：母女会）",
+          "角色名": "家院",
+          "role_type": "",
+          "dialogue_count": 10
+        },
+        {
+          "entity_id": 5915,
+          "剧本名": "探寒窑（一名：母女会）",
+          "角色名": "丫鬟",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5916,
+          "剧本名": "落花园（一名：杏元和番）",
+          "角色名": "丫鬟",
+          "role_type": "",
+          "dialogue_count": 2
+        },
+        {
+          "entity_id": 5923,
+          "剧本名": "白门楼",
+          "角色名": "马夫",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5925,
+          "剧本名": "宇宙锋（一名：金殿装疯）",
+          "角色名": "丫鬟",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5926,
+          "剧本名": "取帅印",
+          "角色名": "旗牌",
+          "role_type": "",
+          "dialogue_count": 3
+        },
+        {
+          "entity_id": 5927,
+          "剧本名": "打渔杀家（一名：庆顶珠）",
+          "角色名": "吕子秋",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5932,
+          "剧本名": "琼林宴（一名：问樵闹府·打棍出箱）",
+          "角色名": "家院",
+          "role_type": "",
+          "dialogue_count": 16
+        },
+        {
+          "entity_id": 5938,
+          "剧本名": "打龙袍",
+          "角色名": "内侍",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5939,
+          "剧本名": "战蒲关（一名：吃人肉）",
+          "角色名": "旗牌",
+          "role_type": "",
+          "dialogue_count": 1
+        },
+        {
+          "entity_id": 5940,
+          "剧本名": "斩黄袍（一名：斩郑恩）",
+          "角色名": "家院",
+          "role_type": "老生",
+          "dialogue_count": 5
+        },
+        {
+          "entity_id": 5940,
+          "剧本名": "斩黄袍（一名：斩郑恩）",
+          "角色名": "报子",
+          "role_type": "",
+          "dialogue_count": 2
+        },
+        {
+          "entity_id": 5941,
+          "剧本名": "彩楼配",
+          "角色名": "丫鬟",
+          "role_type": "",
+          "dialogue_count": 9
+        },
+        {
+          "entity_id": 5944,
+          "剧本名": "阴阳河（一名：赏中秋）",
+          "角色名": "店家",
+          "role_type": "丑",
+          "dialogue_count": 35
+        }
+      ]
+    },
+    {
+      "id": "entity_id_alignment",
+      "severity": "info",
+      "single_net_count": 1473,
+      "unified_data_count": 1473,
+      "play_types_count": 1473,
+      "role_relations_count": 1473,
+      "in_all_four": 1473,
+      "only_in_single_net": [],
+      "only_in_unified": [],
+      "only_in_types": [],
+      "only_in_relations": []
+    },
+    {
+      "id": "neutral_dominated",
+      "severity": "info",
+      "count": 113,
+      "note": "这些剧的关系以共现为主，LLM语义标签覆盖率低",
+      "plays": [
+        {
+          "entity_id": 5902,
+          "剧本名": "黄金台（一名：田单救主）",
+          "neutral_ratio": 1.0,
+          "edge_count": 6
+        },
+        {
+          "entity_id": 5903,
+          "剧本名": "文昭关（一名：一夜白须）",
+          "neutral_ratio": 1.0,
+          "edge_count": 8
+        },
+        {
+          "entity_id": 5904,
+          "剧本名": "黄鹤楼（一名：过江赴宴）",
+          "neutral_ratio": 1.0,
+          "edge_count": 18
+        },
+        {
+          "entity_id": 5908,
+          "剧本名": "牧羊卷（一名：席棚会妻）",
+          "neutral_ratio": 1.0,
+          "edge_count": 10
+        },
+        {
+          "entity_id": 5954,
+          "剧本名": "双投唐（一名：双带箭）",
+          "neutral_ratio": 1.0,
+          "edge_count": 31
+        },
+        {
+          "entity_id": 5973,
+          "剧本名": "审李七（一名：白绫记）",
+          "neutral_ratio": 1.0,
+          "edge_count": 10
+        },
+        {
+          "entity_id": 5977,
+          "剧本名": "战长沙",
+          "neutral_ratio": 1.0,
+          "edge_count": 8
+        },
+        {
+          "entity_id": 5979,
+          "剧本名": "九更天（一名：马义救主）",
+          "neutral_ratio": 1.0,
+          "edge_count": 12
+        },
+        {
+          "entity_id": 5992,
+          "剧本名": "双包案",
+          "neutral_ratio": 1.0,
+          "edge_count": 6
+        },
+        {
+          "entity_id": 6021,
+          "剧本名": "白良关（一名：雌雄鞭）",
+          "neutral_ratio": 1.0,
+          "edge_count": 18
+        },
+        {
+          "entity_id": 6022,
+          "剧本名": "卖绒花（一名：三不愿意）",
+          "neutral_ratio": 1.0,
+          "edge_count": 15
+        },
+        {
+          "entity_id": 6028,
+          "剧本名": "战樊城（一名：杀府逃国）",
+          "neutral_ratio": 1.0,
+          "edge_count": 16
+        },
+        {
+          "entity_id": 6038,
+          "剧本名": "锁云囊",
+          "neutral_ratio": 1.0,
+          "edge_count": 23
+        },
+        {
+          "entity_id": 6053,
+          "剧本名": "拿高登（一名：艳阳楼）",
+          "neutral_ratio": 1.0,
+          "edge_count": 71
+        },
+        {
+          "entity_id": 6063,
+          "剧本名": "莲花湖",
+          "neutral_ratio": 0.967,
+          "edge_count": 183
+        },
+        {
+          "entity_id": 6069,
+          "剧本名": "南阳关",
+          "neutral_ratio": 1.0,
+          "edge_count": 15
+        },
+        {
+          "entity_id": 6099,
+          "剧本名": "淮安府（一名：拿蔡天化）",
+          "neutral_ratio": 1.0,
+          "edge_count": 11
+        },
+        {
+          "entity_id": 6106,
+          "剧本名": "罗锅子抢亲（一名：金鸡岭）",
+          "neutral_ratio": 1.0,
+          "edge_count": 7
+        },
+        {
+          "entity_id": 6111,
+          "剧本名": "红梅阁（一名：游西湖）",
+          "neutral_ratio": 1.0,
+          "edge_count": 6
+        },
+        {
+          "entity_id": 6131,
+          "剧本名": "单刀赴会",
+          "neutral_ratio": 1.0,
+          "edge_count": 22
+        },
+        {
+          "entity_id": 6139,
+          "剧本名": "破洪州",
+          "neutral_ratio": 1.0,
+          "edge_count": 17
+        },
+        {
+          "entity_id": 6146,
+          "剧本名": "假金牌（一名：捉拿张秉仁）",
+          "neutral_ratio": 1.0,
+          "edge_count": 49
+        },
+        {
+          "entity_id": 6148,
+          "剧本名": "张古董借妻（一名：一匹布）",
+          "neutral_ratio": 1.0,
+          "edge_count": 23
+        },
+        {
+          "entity_id": 6153,
+          "剧本名": "景阳岗（一名：武松打虎）",
+          "neutral_ratio": 1.0,
+          "edge_count": 7
+        },
+        {
+          "entity_id": 6159,
+          "剧本名": "骂阎罗",
+          "neutral_ratio": 1.0,
+          "edge_count": 41
+        },
+        {
+          "entity_id": 6175,
+          "剧本名": "曾头市（一名：英雄义）",
+          "neutral_ratio": 1.0,
+          "edge_count": 15
+        },
+        {
+          "entity_id": 6184,
+          "剧本名": "义旗令（一名：讲堂斗智）",
+          "neutral_ratio": 1.0,
+          "edge_count": 106
+        },
+        {
+          "entity_id": 6191,
+          "剧本名": "拷红（一名：拷打红娘）",
+          "neutral_ratio": 1.0,
+          "edge_count": 6
+        },
+        {
+          "entity_id": 6197,
+          "剧本名": "天宝图",
+          "neutral_ratio": 0.972,
+          "edge_count": 539
+        },
+        {
+          "entity_id": 6198,
+          "剧本名": "雪夜访普（一名：际会风云）",
+          "neutral_ratio": 1.0,
+          "edge_count": 28
+        }
+      ]
+    },
+    {
+      "id": "llm_role_type_integration",
+      "severity": "info",
+      "total_llm_filled": 127,
+      "reflected_in_nodes": 126,
+      "not_reflected": 0,
+      "note": "检查LLM补全的角色类型是否已写入单剧本网络的nodes.role_type"
+    }
+  ],
+  "summary": {
+    "total_issues": 6,
+    "by_severity": {
+      "high": 0,
+      "medium": 1,
+      "low": 1,
+      "info": 4
+    }
+  }
+}

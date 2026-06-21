@@ -1,0 +1,754 @@
+{
+  "title": "古城相会",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 10,
+  "num_locations": 9,
+  "source_file": "01015002_古城相会.json",
+  "source_folder": "01000000",
+  "plot_summary": "据《三国演义》，曹操夺取徐州，刘、关、张兄弟三人，互相失散。关公被围在土山，张辽说降，订约三事，\n暂归许都。关公之意不以身命爵禄为重，只欲保全二嫂，不负刘备之付托，其不得已之苦衷，当昭于天地\n古今而无愧。虽曹操待之甚厚，而关公则思念桃园结义之情，耿耿于故主，不获会面，不能忘怀。所以赤兔\n千里马之赠，竭诚拜谢，不避贱人贵畜之讥，毅然决然，封金挂印，往河北寻兄，五关斩将，历尽险阻艰难。\n护二嫂车驾，渡黄河，至古城，探悉张飞在此占据，命人通报，欣欣然以为安顿二嫂，畅谈阔别，当在转\n瞬间也。讵知张飞疑关公已降曹操，见面即以丈八蛇矛奉敬。关公分辩再三，二嫂亦为之解脱，张飞卒不听。\n忽后面尘土冲天，蔡阳领兵追至。盖关公于黄河岸口，杀其甥秦琪，故来报仇。张飞谓关公勾引曹兵，来\n赚古城。关公无以自明，请张飞擂鼓助威，回战斩阳。张飞从此疑团尽释，迎接关公与二嫂入城，各诉别后\n衷曲，唏嘘不已。",
+  "performance_notes": "按此剧事实，正史上无从查阅，惟载建安五年，关公去曹操，投刘备。六年，袁绍使备略汝南，汝南贼龚都\n等应之。曹操遣蔡阳击都，不利，为龚都所破。是关公寻兄，在上一年，而蔡阳见败，在下一年。且蔡阳亦\n不闻被杀，此为《三国演义》增饰无疑。至张飞心疑关公已降曹，闭门不纳，史虽不载，事诚有之，枥老曾\n见北京正阳门关庙刻石，邓临米南宫帖，有关公与张飞书，当非伪作。书曰：“操之诡计百端，非羽智缚，\n安有今日。将军罪羽，是不知羽也。羽不缘社稷倾危，仁兄（指刘备）无俦，则以三尺剑报将军，使羽异日\n无愧于黄壤间也。三上翼德将军，死罪死罪死罪。”是帖乃其三上书。其一二简不传于世。夫公之归曹，心\n虽坦白，迹近嫌疑，在张飞岂能无虑，后之纳公，殆为三书感动，非以其斩蔡阳而始释然也。后人以两事粘\n合之，亦不免附会矣。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 134,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.464,
+      "importance": 1.0,
+      "locations": {
+        "斩六将才过五关": 1,
+        "你二爷进城": 2
+      },
+      "characters": {
+        "蔡阳": 1,
+        "张飞": 1,
+        "关羽": 1,
+        "马童": 1,
+        "二皇嫂": 1,
+        "上手": 1
+      },
+      "links": [
+        {
+          "source": "二皇嫂",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "马童",
+          "value": 2
+        },
+        {
+          "source": "二皇嫂",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马童",
+          "value": 2
+        },
+        {
+          "source": "上手",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "上手",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "蔡阳",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "蔡阳",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 46,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.611,
+      "importance": 0.559,
+      "locations": {
+        "你二爷进城": 1,
+        "请二爷进城": 1,
+        "众人同进城": 1
+      },
+      "characters": {
+        "旗牌": 1,
+        "刘备": 1,
+        "蔡阳": 1,
+        "关羽": 1,
+        "马童": 1,
+        "张飞": 1,
+        "龙套": 1,
+        "二旗牌": 1
+      },
+      "links": [
+        {
+          "source": "二旗牌",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "马童",
+          "value": 2
+        },
+        {
+          "source": "关羽",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "马童",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "蔡阳",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "蔡阳",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 67,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.814,
+      "locations": {
+        "你二爷进城": 1
+      },
+      "characters": {
+        "旗牌": 1,
+        "刘备": 1,
+        "关羽": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "旗牌",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "斩六将才过五关",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "辞曹只用一小柬，",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "二皇嫂",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "但凭二叔。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马童",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.494,
+        "conflict": 0.333,
+        "sentiment": -0.002
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "你二爷进城",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "恼恨红脸的，不仁又不义。无故竟降曹，令人好闷气。",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "马童",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "有人么？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "上手",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.494,
+        "conflict": 0.274,
+        "sentiment": 0.462
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "你二爷进城",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "柳林春试马，虎帐夜谈兵。",
+          "rating": -0.75,
+          "role": "红生"
+        },
+        {
+          "name": "马童",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "参见二爷。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "红脸的，你背俺大哥，降了曹操，是何道理？你看枪。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "蔡阳",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "呔，胆大关公，为何将我外甥秦琪杀死？",
+          "rating": -1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第三场：4位角色，78行",
+      "firstLine": 1,
+      "lastLine": 78,
+      "numLines": 78,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.702,
+        "sentiment": 0.012
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "你二爷进城",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "二弟在古城，叫人喜在心。",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "二旗牌",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "启大哥：时才小弟在城外，言语冒犯二哥，要求大哥替我讲个人情。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.421,
+        "conflict": 0.667,
+        "sentiment": 0.764
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "请二爷进城",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "弟兄在古城，",
+          "rating": 0.333,
+          "role": "红生"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "小人奉大爷所差，特送冠袍带履，请二爷进城。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马童",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "有。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "龙套",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "乃是蔡阳败兵呐喊。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "蔡阳",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第五场：5位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.712,
+        "conflict": 0.0,
+        "sentiment": 0.153
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "众人同进城",
+      "characters": [
+        {
+          "name": "马童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "免接。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：3位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.506,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "你二爷进城",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "贤弟少礼。",
+          "rating": 0.5,
+          "role": "末"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "弟兄分别有多年，",
+          "rating": -0.143,
+          "role": "红生"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "宴齐。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "小弟翼德张。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：4位角色，67行",
+      "firstLine": 1,
+      "lastLine": 67,
+      "numLines": 67,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.132,
+        "sentiment": 0.095
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "蔡阳",
+      "short": "蔡阳",
+      "key": "蔡阳",
+      "quote": "蔡阳 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马童",
+      "short": "马童",
+      "key": "马童",
+      "quote": "马童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二皇嫂",
+      "short": "二皇",
+      "key": "二皇嫂",
+      "quote": "二皇嫂 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "上手",
+      "short": "上手",
+      "key": "上手",
+      "quote": "上手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙套",
+      "short": "龙套",
+      "key": "龙套",
+      "quote": "龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二旗牌",
+      "short": "二旗",
+      "key": "二旗牌",
+      "quote": "二旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "你二爷进城",
+      "key": "你二爷进城",
+      "quote": "场景发生在你二爷进城"
+    },
+    {
+      "name": "请二爷进城",
+      "key": "请二爷进城",
+      "quote": "场景发生在请二爷进城"
+    },
+    {
+      "name": "众人同进城",
+      "key": "众人同进城",
+      "quote": "场景发生在众人同进城"
+    },
+    {
+      "name": "斩六将才过五关",
+      "key": "斩六将才过五关",
+      "quote": "场景发生在斩六将才过五关"
+    },
+    {
+      "name": "二弟在古城",
+      "key": "二弟在古城",
+      "quote": "场景发生在二弟在古城"
+    },
+    {
+      "name": "待等进城",
+      "key": "待等进城",
+      "quote": "场景发生在待等进城"
+    },
+    {
+      "name": "飞冠带出城",
+      "key": "飞冠带出城",
+      "quote": "场景发生在飞冠带出城"
+    },
+    {
+      "name": "弟兄在古城",
+      "key": "弟兄在古城",
+      "quote": "场景发生在弟兄在古城"
+    },
+    {
+      "name": "（关羽进城",
+      "key": "（关羽进城",
+      "quote": "场景发生在（关羽进城"
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "title": "双锁山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 8,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01023009_双锁山.json",
+  "source_folder": "01000000",
+  "plot_summary": "高俊保奉父之命，出营探山。行至双锁山前，见树木之上，铸有七言诗四句，系女寇刘金定所铸。自述从仙\n山学武下来，欲与高俊保结为婚姻云云。高俊保见之大怒，即将诗句铲去。其意尽谓身系将门之子，岂肯与\n贼女定为夫妻。继而刘金定得报，下山面会，并言奉仙师之命，与君有姻缘之份。讵知高俊保执意不应，遂\n相交锋。刘金定不敌，卒用法术困高俊保于山腰。高俊保求死不得，只得允从。刘金定乃放之下，邀入山寨，\n款待成亲云。",
+  "performance_notes": "《双锁山》一剧，系出后周赵宋间之俗传小说中，其剧情大致与丁山招亲相仿佛。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 26,
+      "summary": "第一场；第二场",
+      "conflict": 0.617,
+      "importance": 0.571,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "高俊保": 1,
+        "刘金定": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 22,
+      "summary": "第三场；第四场",
+      "conflict": 0.64,
+      "importance": 0.484,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "高俊保": 1,
+        "刘金定": 1,
+        "刘能": 1
+      },
+      "links": [
+        {
+          "source": "刘金定",
+          "target": "高俊保",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 68,
+      "summary": "第五场；第六场",
+      "conflict": 0.075,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "高俊保": 1,
+        "刘能": 1,
+        "刘金定": 1
+      },
+      "links": [
+        {
+          "source": "刘能",
+          "target": "高俊保",
+          "value": 2
+        },
+        {
+          "source": "刘金定",
+          "target": "高俊保",
+          "value": 2
+        },
+        {
+          "source": "刘能",
+          "target": "刘金定",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 66,
+      "summary": "第七场；第【第八场",
+      "conflict": 0.538,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "高俊保": 1,
+        "樵夫": 1,
+        "刘金定": 1,
+        "土地": 1
+      },
+      "links": [
+        {
+          "source": "刘金定",
+          "target": "土地",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "高俊保",
+          "value": 2
+        },
+        {
+          "source": "土地",
+          "target": "高俊保",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "高俊保",
+          "value": 1
+        },
+        {
+          "source": "刘金定",
+          "target": "樵夫",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "高俊保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "帐中领了父帅言，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.564,
+        "conflict": 0.0,
+        "sentiment": 0.297
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "辞别了圣母下山岗，",
+          "rating": -1.0,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "第二场：1位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.564,
+        "conflict": 1.0,
+        "sentiment": -0.32
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘能",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "时才领了姑娘命，",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第三场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.53,
+        "conflict": 0.0,
+        "sentiment": 0.32
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "勒住马头用目看，",
+          "rating": -1.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "高俊保",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.679,
+        "conflict": 0.0,
+        "sentiment": -0.32
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "高俊保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "来在山前催坐战，",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "刘能",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "好，好，好，我来了，姑娘叫我来巡哨，只得下山瞧一瞧。我也不骑马，我也",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "第五场：3位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.853,
+        "conflict": 0.93,
+        "sentiment": 0.02
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "山前山后来闲玩，",
+          "rating": 0.333,
+          "role": "贴旦"
+        },
+        {
+          "name": "刘能",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "报，报，报，报与姑娘你知道。山下来了一员将，威风凛凛甚年少。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "高俊保",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "高俊保就是你少爷的名。",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第六场：3位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.883,
+        "conflict": 0.0,
+        "sentiment": 0.095
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "小将武艺时可夸，",
+          "rating": -1.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "土地",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "参见道姑。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "高俊保",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第七场：3位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.685,
+        "conflict": 1.0,
+        "sentiment": -0.349
+      }
+    },
+    {
+      "number": 8,
+      "name": "第【第八场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "高俊保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "催马来到山岗上，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "樵夫",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "老汉今年八十八，一生尚未成过家。娶了一个老伴九十二，我两个人足足一百",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "刘金定",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "叫声小将休逞能，",
+          "rating": 0.0,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "第【第八场：3位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.774,
+        "conflict": 0.659,
+        "sentiment": 0.189
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "高俊保",
+      "short": "高俊",
+      "key": "高俊保",
+      "quote": "高俊保 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘金定",
+      "short": "刘金",
+      "key": "刘金定",
+      "quote": "刘金定 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘能",
+      "short": "刘能",
+      "key": "刘能",
+      "quote": "刘能 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "土地",
+      "short": "土地",
+      "key": "土地",
+      "quote": "土地 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "樵夫",
+      "short": "樵夫",
+      "key": "樵夫",
+      "quote": "樵夫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

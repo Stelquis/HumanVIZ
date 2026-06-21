@@ -1,0 +1,268 @@
+{
+  "title": "探寒窑",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "03021007_探寒窑.json",
+  "source_folder": "03000000",
+  "plot_summary": "薛平贵出征后，王宝钏苦守寒窑；王允屡逼其改嫁，王宝钏坚决不从，贫病交加。母来探望，见女凄苦，劝\n其返家，王宝钏将母诓出，紧闭窑门，誓死不回。",
+  "performance_notes": "为全部《王宝钏》之第七折。全部《王宝钏》共十三个剧目，除《武家坡》、《大登殿》两折，其余大部均\n不常见于舞台。有些单出戏经过历次舞台实践得到发展。经串连后，不免有词句重复、情节欠统一之处。本\n集为了存真，一律未予更动。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 44,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.406,
+      "locations": {
+        "意不肯回府": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "王夫人": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "王夫人",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "王夫人",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "家院",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 173,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "意不肯回府": 1
+      },
+      "characters": {
+        "王宝钏": 1,
+        "王夫人": 1,
+        "丫鬟参": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "王夫人",
+          "value": 1
+        },
+        {
+          "source": "丫鬟参",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "王夫人",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟参",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟参",
+          "target": "王夫人",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "意不肯回府",
+      "characters": [
+        {
+          "name": "王夫人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "鹤发皓首，两鬓如霜。",
+          "rating": -0.429,
+          "role": "老旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "有事来通报，无事不乱言。",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：3位角色，44行",
+      "firstLine": 1,
+      "lastLine": 44,
+      "numLines": 44,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.622,
+        "conflict": 0.69,
+        "sentiment": -0.184
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "意不肯回府",
+      "characters": [
+        {
+          "name": "家院",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "三姑娘开门来！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来了！",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "王夫人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我儿！",
+          "rating": -0.167,
+          "role": "老旦"
+        },
+        {
+          "name": "丫鬟参",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "见三姑娘！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：4位角色，173行",
+      "firstLine": 1,
+      "lastLine": 173,
+      "numLines": 173,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.245,
+        "sentiment": 0.001
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王夫人",
+      "short": "王夫",
+      "key": "王夫人",
+      "quote": "王夫人 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "丫鬟参",
+      "short": "丫鬟",
+      "key": "丫鬟参",
+      "quote": "丫鬟参 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "意不肯回府",
+      "key": "意不肯回府",
+      "quote": "场景发生在意不肯回府"
+    }
+  ]
+}

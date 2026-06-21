@@ -1,0 +1,338 @@
+{
+  "title": "三世修",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "01038005_三世修.json",
+  "source_folder": "01000000",
+  "plot_summary": "黄员外出外讨账，后母马氏与油瓶侯七，朋比为奸，欲将黄桂香虐害，故意令其操作粗重，入磨房褪麦。且\n令侯七掩入磨房调戏。",
+  "performance_notes": "黄桂香三世七岁修行，完成得道。其全部事实，出在宣卷书中。盖宣卷中，本有一种宣述桂香得道的宝卷。\n其第一世为一老道士，从七岁上便吃素修行。后来因感黄员外（即本剧中之黄天路）布施之诚，转胎投生黄\n家为女，即黄桂香是也。黄桂香从小伶俐，不同凡骨。黄员外之爱如掌珍，自不待言。岂知六岁上母亲见背，\n黄天路续娶继室马氏，带进油瓶儿侯七。从此黄桂香身世渐入魔道矣。因于七岁上起，又专心念佛修行，\n中间牵磨担水，吃尽种种苦楚。又冤遭命案，黄桂香代父伏刑，刑毙后三日又复活。到后来功行将满，阴司\n鬼狱，大放金光。阎罗王请黄桂香到阴司理经，以延误时日，不得复归原躯壳，因此重行投胎，转为男身。\n此为第三世。有此根行，自然自小聪明，仍旧七岁上即苦志修行。以后功行愈深，能自知前生，寻得黄桂香\n之墓，及召到前世丈夫等事。此剧单演黄桂香于马氏手中，忍受种种惨苦的一段。\n从前真天娥旦，最擅长此戏。南来演唱时，即恃此戏及《烧骨计》两名作为号召。近年秦腔虽盛行，而此戏\n反将如广陵散，是亦足观世道已。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 65,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.72,
+      "locations": {
+        "奉经在佛堂": 1
+      },
+      "characters": {
+        "黄桂香": 1,
+        "马氏": 1,
+        "侯七": 1,
+        "黄天路": 1
+      },
+      "links": [
+        {
+          "source": "黄天路",
+          "target": "黄桂香",
+          "value": 1
+        },
+        {
+          "source": "马氏",
+          "target": "黄天路",
+          "value": 1
+        },
+        {
+          "source": "侯七",
+          "target": "黄天路",
+          "value": 1
+        },
+        {
+          "source": "马氏",
+          "target": "黄桂香",
+          "value": 1
+        },
+        {
+          "source": "侯七",
+          "target": "黄桂香",
+          "value": 1
+        },
+        {
+          "source": "侯七",
+          "target": "马氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 111,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "进经堂": 1
+      },
+      "characters": {
+        "黄桂香": 1,
+        "马氏": 1,
+        "侯七": 1
+      },
+      "links": [
+        {
+          "source": "马氏",
+          "target": "黄桂香",
+          "value": 1
+        },
+        {
+          "source": "侯七",
+          "target": "黄桂香",
+          "value": 1
+        },
+        {
+          "source": "侯七",
+          "target": "马氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 95,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "奉经在佛堂": 1
+      },
+      "characters": {
+        "黄桂香": 1,
+        "马氏": 1,
+        "侯七": 1
+      },
+      "links": [
+        {
+          "source": "侯七",
+          "target": "黄桂香",
+          "value": 1
+        },
+        {
+          "source": "马氏",
+          "target": "黄桂香",
+          "value": 1
+        },
+        {
+          "source": "侯七",
+          "target": "马氏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "奉经在佛堂",
+      "characters": [
+        {
+          "name": "黄天路",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "向阳门外春常在，积善之家庆有余。",
+          "rating": 0.667,
+          "role": "老生"
+        },
+        {
+          "name": "黄桂香",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "手戴念珠五十双，菩提百八念金刚。虽然不能成佛主，每日奉经在佛堂。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "马氏",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "侯七",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "来了来了，妈什么事？",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：4位角色，65行",
+      "firstLine": 1,
+      "lastLine": 65,
+      "numLines": 65,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.988,
+        "conflict": 0.256,
+        "sentiment": 0.502
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "进经堂",
+      "characters": [
+        {
+          "name": "黄桂香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "打开孝经卷，用目仔细观。劝人要行孝，孝母如敬天。",
+          "rating": -0.25,
+          "role": "旦"
+        },
+        {
+          "name": "马氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来至经堂外侧耳仔细听，",
+          "rating": -0.333,
+          "role": "彩旦"
+        },
+        {
+          "name": "侯七",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "妹子，妈叫你去，你就快去罢。",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：3位角色，111行",
+      "firstLine": 1,
+      "lastLine": 111,
+      "numLines": 111,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.342,
+        "sentiment": 0.123
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "奉经在佛堂",
+      "characters": [
+        {
+          "name": "黄桂香",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "天不幸我娘下世去早，",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "侯七",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "小子生来命不强，七个老子一个娘，白天全不见，晚上上一床。",
+          "rating": 0.667,
+          "role": "丑"
+        },
+        {
+          "name": "马氏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "开门来。",
+          "rating": 0.0,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第三场：3位角色，95行",
+      "firstLine": 1,
+      "lastLine": 95,
+      "numLines": 95,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.271,
+        "sentiment": 0.162
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "黄桂香",
+      "short": "黄桂",
+      "key": "黄桂香",
+      "quote": "黄桂香 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "马氏",
+      "short": "马氏",
+      "key": "马氏",
+      "quote": "马氏 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "侯七",
+      "short": "侯七",
+      "key": "侯七",
+      "quote": "侯七 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "黄天路",
+      "short": "黄天",
+      "key": "黄天路",
+      "quote": "黄天路 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "奉经在佛堂",
+      "key": "奉经在佛堂",
+      "quote": "场景发生在奉经在佛堂"
+    },
+    {
+      "name": "进经堂",
+      "key": "进经堂",
+      "quote": "场景发生在进经堂"
+    }
+  ]
+}

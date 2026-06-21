@@ -1,0 +1,609 @@
+{
+  "title": "安天会",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 10,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02006025_安天会.json",
+  "source_folder": "02000000",
+  "plot_summary": "托塔天王李靖奉御旨至花果山水帘洞，擒拿妖猴。天兵天将四面埋伏，并令二郎神杨戬为总先锋。一场鏖战，\n最后将妖猴擒拿，带领至天门请旨。",
+  "performance_notes": "按此剧与《闹天宫》最后之一场，大同小异。但单独上演者颇多，故一并收存。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 30,
+      "summary": "第1场；第2场",
+      "conflict": 0.204,
+      "importance": 1.0,
+      "locations": {
+        "十万列连营": 2
+      },
+      "characters": {
+        "哪吒": 1,
+        "众天将": 1,
+        "李靖": 1
+      },
+      "links": [
+        {
+          "source": "哪吒",
+          "target": "李靖",
+          "value": 1
+        },
+        {
+          "source": "众天将",
+          "target": "李靖",
+          "value": 1
+        },
+        {
+          "source": "众天将",
+          "target": "哪吒",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 8,
+      "summary": "第3场；第4场",
+      "conflict": 0.0,
+      "importance": 0.351,
+      "locations": {
+        "十万列连营": 2
+      },
+      "characters": {
+        "李靖": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 6,
+      "summary": "第5场；第6场",
+      "conflict": 0.0,
+      "importance": 0.263,
+      "locations": {
+        "十万列连营": 2
+      },
+      "characters": {
+        "李靖": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 10,
+      "summary": "第7场；第8场",
+      "conflict": 0.6,
+      "importance": 0.439,
+      "locations": {
+        "十万列连营": 2
+      },
+      "characters": {
+        "哪吒": 1,
+        "杨戬": 1,
+        "李靖": 1
+      },
+      "links": [
+        {
+          "source": "李靖",
+          "target": "杨戬",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "李靖",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 60,
+      "summary": "第9场；第10场",
+      "conflict": 0.613,
+      "importance": 1.0,
+      "locations": {
+        "十万列连营": 2
+      },
+      "characters": {
+        "孙悟空": 1,
+        "哪吒": 1,
+        "众天将": 1,
+        "杨戬": 1,
+        "李靖": 1
+      },
+      "links": [
+        {
+          "source": "孙悟空",
+          "target": "李靖",
+          "value": 2
+        },
+        {
+          "source": "李靖",
+          "target": "杨戬",
+          "value": 2
+        },
+        {
+          "source": "哪吒",
+          "target": "李靖",
+          "value": 2
+        },
+        {
+          "source": "孙悟空",
+          "target": "杨戬",
+          "value": 2
+        },
+        {
+          "source": "哪吒",
+          "target": "孙悟空",
+          "value": 2
+        },
+        {
+          "source": "哪吒",
+          "target": "杨戬",
+          "value": 2
+        },
+        {
+          "source": "众天将",
+          "target": "杨戬",
+          "value": 1
+        },
+        {
+          "source": "众天将",
+          "target": "孙悟空",
+          "value": 1
+        },
+        {
+          "source": "众天将",
+          "target": "李靖",
+          "value": 1
+        },
+        {
+          "source": "众天将",
+          "target": "哪吒",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "十万列连营",
+      "characters": [
+        {
+          "name": "李靖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "十万熊罴，星辰齐聚，遵天旨，歼灭渠魁，扫尽如斯辈。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "哪吒",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "众天将",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "众天将打躬。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：3位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.765,
+        "conflict": 0.392,
+        "sentiment": 0.364
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "十万列连营",
+      "characters": [
+        {
+          "name": "李靖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "赵天君！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第2场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.517,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "十万列连营",
+      "characters": [
+        {
+          "name": "李靖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "温天君！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第3场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.517,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "十万列连营",
+      "characters": [
+        {
+          "name": "李靖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "刘天君！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第4场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.517,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "十万列连营",
+      "characters": [
+        {
+          "name": "李靖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "二十八宿！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第5场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.507,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "十万列连营",
+      "characters": [
+        {
+          "name": "李靖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "十二元辰！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第6场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.507,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": "十万列连营",
+      "characters": [
+        {
+          "name": "李靖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "二郎神！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "杨戬",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第7场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.603,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 8,
+      "name": "第8场",
+      "location": "十万列连营",
+      "characters": [
+        {
+          "name": "李靖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哪吒！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "哪吒",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第8场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.603,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 9,
+      "name": "第9场",
+      "location": "十万列连营",
+      "characters": [
+        {
+          "name": "李靖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "俺这里天兵天将施威武，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "杀了半日，并无个对手。你且通个名儿上来。",
+          "rating": -0.333,
+          "role": "武生"
+        },
+        {
+          "name": "杨戬",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "妖猴听者。吾乃：",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "哪吒",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第9场：4位角色，53行",
+      "firstLine": 1,
+      "lastLine": 53,
+      "numLines": 53,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.8,
+        "sentiment": 0.173
+      }
+    },
+    {
+      "number": 10,
+      "name": "第10场",
+      "location": "十万列连营",
+      "characters": [
+        {
+          "name": "杨戬",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "妖猴！你看你那些子孙都被我擒去了。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "孙悟空",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "罢了，罢了。杀了半日，吃了狗的亏。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "众天将",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "妖猴已擒。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李靖",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "诸天将，玉帝有旨，将他带领天门，请旨定夺。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "哪吒",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第10场：5位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.774,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李靖",
+      "short": "李靖",
+      "key": "李靖",
+      "quote": "李靖 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "哪吒",
+      "short": "哪吒",
+      "key": "哪吒",
+      "quote": "哪吒 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨戬",
+      "short": "杨戬",
+      "key": "杨戬",
+      "quote": "杨戬 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "孙悟空",
+      "short": "孙悟",
+      "key": "孙悟空",
+      "quote": "孙悟空 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "众天将",
+      "short": "众天",
+      "key": "众天将",
+      "quote": "众天将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "十万列连营",
+      "key": "十万列连营",
+      "quote": "场景发生在十万列连营"
+    }
+  ]
+}

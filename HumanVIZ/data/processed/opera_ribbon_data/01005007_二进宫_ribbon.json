@@ -1,0 +1,380 @@
+{
+  "title": "二进宫",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01005007_二进宫.json",
+  "source_folder": "01000000",
+  "plot_summary": "徐延昭、杨波，因初次力谏李良摄位事，李后执拗不听，故叹皇陵后，复二次入宫，竭诚奏导。时李后适因\n其父封锁朝阳，间隔内外，渐露篡夺之谋，以是心亦回悟，深知徐、杨忠诚，可托六尺之孤。且其威望骨鲠，\n足以慑服国丈。遂欲将幼主托付徐延昭，命其谋策万全，以固明室社稷。徐延昭力保杨波智勇双全，公忠\n可托，足使国丈不生反侧之心。后从其议，三人遂在宫中对天立誓，共保冲帝。卒使李良逆谋隐消，明社渐\n安，皆徐、杨二人百折不回，婉转谏奏之功也。然后之立地悔悟，从善如流，其明决亦有足多者。",
+  "performance_notes": "此剧须生黑头青衫均重唱工，且极冗长，颇难讨好。而入后三人跪地时一段快板，尤煞费力量。擅长者至此，\n唱得步步紧接，声声入彀，实觉非常动听，然非具大魄力者不辨。盖音节虽促，而声量仍须暇逸也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 24,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.365,
+      "locations": {
+        "宫中门": 1
+      },
+      "characters": {
+        "徐延昭": 1,
+        "徐小姐": 1,
+        "杨四郎": 1,
+        "杨波": 1,
+        "李艳妃": 1
+      },
+      "links": [
+        {
+          "source": "徐延昭",
+          "target": "李艳妃",
+          "value": 1
+        },
+        {
+          "source": "李艳妃",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "李艳妃",
+          "target": "杨四郎",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "李艳妃",
+          "value": 1
+        },
+        {
+          "source": "徐延昭",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "徐延昭",
+          "target": "杨四郎",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "徐延昭",
+          "value": 1
+        },
+        {
+          "source": "杨四郎",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "杨四郎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 164,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "宫中门": 1
+      },
+      "characters": {
+        "徐延昭": 1,
+        "李艳妃": 1,
+        "杨波": 1,
+        "徐小姐": 1
+      },
+      "links": [
+        {
+          "source": "徐小姐",
+          "target": "徐延昭",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "李艳妃",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "徐延昭",
+          "target": "李艳妃",
+          "value": 1
+        },
+        {
+          "source": "徐延昭",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "李艳妃",
+          "target": "杨波",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.137,
+      "locations": {
+        "宫中门": 1
+      },
+      "characters": {
+        "徐延昭": 1,
+        "杨波": 1
+      },
+      "links": [
+        {
+          "source": "徐延昭",
+          "target": "杨波",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "宫中门",
+      "characters": [
+        {
+          "name": "李艳妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "嗳，先王吓！",
+          "rating": -1.0,
+          "role": "正旦"
+        },
+        {
+          "name": "徐延昭",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大人请！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "杨波",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "千岁请！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "杨四郎",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "遵命！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "徐小姐",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "你是何人击宫门？",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：5位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.883,
+        "conflict": 0.0,
+        "sentiment": -0.092
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "宫中门",
+      "characters": [
+        {
+          "name": "徐小姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "参见爹爹！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "徐延昭",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "罢了！我儿启奏国太，徐、杨二家，宫门求见。",
+          "rating": 0.2,
+          "role": "净"
+        },
+        {
+          "name": "李艳妃",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "宣徐、杨二家进宫。",
+          "rating": 0.333,
+          "role": "正旦"
+        },
+        {
+          "name": "杨波",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": -0.143,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：4位角色，164行",
+      "firstLine": 1,
+      "lastLine": 164,
+      "numLines": 164,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.94,
+        "conflict": 0.251,
+        "sentiment": 0.168
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "宫中门",
+      "characters": [
+        {
+          "name": "杨波",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "叩罢头来谢罢恩，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "徐延昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "徐延昭代驾且平身。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第3场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.589,
+        "conflict": 0.0,
+        "sentiment": 0.24
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李艳妃",
+      "short": "李艳",
+      "key": "李艳妃",
+      "quote": "李艳妃 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "徐延昭",
+      "short": "徐延",
+      "key": "徐延昭",
+      "quote": "徐延昭 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨波",
+      "short": "杨波",
+      "key": "杨波",
+      "quote": "杨波 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "徐小姐",
+      "short": "徐小",
+      "key": "徐小姐",
+      "quote": "徐小姐 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "杨四郎",
+      "short": "杨四",
+      "key": "杨四郎",
+      "quote": "杨四郎 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "宫中门",
+      "key": "宫中门",
+      "quote": "场景发生在宫中门"
+    }
+  ]
+}

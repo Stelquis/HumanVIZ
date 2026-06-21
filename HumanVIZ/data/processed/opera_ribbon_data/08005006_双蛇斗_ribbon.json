@@ -1,0 +1,281 @@
+{
+  "title": "双蛇斗",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "08005006_双蛇斗.json",
+  "source_folder": "08000000",
+  "plot_summary": "白素贞修行于峨眉山，思念凡尘，遂下山。过青峰山，遇青蛇。青蛇欲娶白素贞，白素贞不允，二人打斗。\n青蛇不敌，化为女身，二人结为姐妹，一路同行。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 62,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.402,
+      "importance": 1.0,
+      "locations": {
+        "（小高台": 3
+      },
+      "characters": {
+        "青蛇": 1,
+        "四风旗": 1,
+        "白素贞": 1
+      },
+      "links": [
+        {
+          "source": "四风旗",
+          "target": "青蛇",
+          "value": 1
+        },
+        {
+          "source": "白素贞",
+          "target": "青蛇",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 48,
+      "summary": "第四场；第五场",
+      "conflict": 0.226,
+      "importance": 0.873,
+      "locations": {
+        "（小高台": 2
+      },
+      "characters": {
+        "青蛇": 1,
+        "白素贞": 1
+      },
+      "links": [
+        {
+          "source": "白素贞",
+          "target": "青蛇",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "（小高台",
+      "characters": [
+        {
+          "name": "白素贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "离峨眉驾祥云飘越崇山，",
+          "rating": 0.5,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第一场：1位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.686,
+        "conflict": 1.0,
+        "sentiment": 0.486
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "（小高台",
+      "characters": [
+        {
+          "name": "四风旗",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "青蛇",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "变化奇巧，法力无边，苦修炼，幻术精湛，尘心常常念。",
+          "rating": 0.333,
+          "role": "（前）净，（后）武旦"
+        }
+      ],
+      "summary": "第二场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.549,
+        "conflict": 0.0,
+        "sentiment": 0.373
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "（小高台",
+      "characters": [
+        {
+          "name": "青蛇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呔，何方妖魔擅闯仙山？",
+          "rating": 0.0,
+          "role": "（前）净，（后）武旦"
+        },
+        {
+          "name": "白素贞",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "观山景绿深处银杏千年，",
+          "rating": -0.2,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第三场：2位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.853,
+        "conflict": 0.408,
+        "sentiment": 0.084
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "（小高台",
+      "characters": [
+        {
+          "name": "青蛇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "（前）净，（后）武旦"
+        },
+        {
+          "name": "白素贞",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第四场：2位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.705,
+        "conflict": 0.0,
+        "sentiment": -0.32
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "（小高台",
+      "characters": [
+        {
+          "name": "白素贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "看剑。",
+          "rating": -1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "青蛇",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "且慢，白蛇仙子果然道法非凡，望乞慈悲，饶恕于我，情愿跟随仙子，侍奉左",
+          "rating": -0.333,
+          "role": "（前）净，（后）武旦"
+        }
+      ],
+      "summary": "第五场：2位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.956,
+        "conflict": 0.404,
+        "sentiment": -0.094
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "白素贞",
+      "short": "白素",
+      "key": "白素贞",
+      "quote": "白素贞 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "青蛇",
+      "short": "青蛇",
+      "key": "青蛇",
+      "quote": "青蛇 — （前）净，（后）武旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: （前）净，（后）武旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四风旗",
+      "short": "四风",
+      "key": "四风旗",
+      "quote": "四风旗 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "（小高台",
+      "key": "（小高台",
+      "quote": "场景发生在（小高台"
+    }
+  ]
+}

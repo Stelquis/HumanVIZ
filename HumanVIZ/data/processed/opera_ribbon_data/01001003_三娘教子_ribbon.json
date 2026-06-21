@@ -1,0 +1,219 @@
+{
+  "title": "三娘教子",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01001003_三娘教子.json",
+  "source_folder": "01000000",
+  "plot_summary": "明代，儒生薛广，往镇江营业。家中有妻张氏，妾刘氏、王氏。刘氏生一子，乳名倚哥。又有老仆薛保。薛\n广在镇江，适遇同乡人，以白金五百两，托带回家。不料其人吞没白金，购一空棺，停厝荒郊，以为薛广灵\n柩，回乡报知张氏等，举室嚎啕，使薛保运回灵柩安葬。后家渐衰落，张、刘不能耐贫，先后改嫁。三娘王\n氏深鄙之，誓与薛保茹苦含辛，抚养倚哥，送之入学，己则织布以易升斗之栗。倚哥在学堂被同学讥为无母\n之儿，气愤回家，遂不认三娘为母，语语挺撞，三娘怒不可遏，将刀立断机布，以示决绝。幸薛保竭诚劝导，\n母子始和好如初。",
+  "performance_notes": "前在丹桂听孙菊仙小子和小黎青合唱此剧，唱做俱妙，无懈可击，生平最为惬意。孙菊仙去薛保，白口至\n“三娘”二字，声若洪钟，有石破天惊之概。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 39,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.335,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛倚哥": 1,
+        "王春娥": 1,
+        "薛保": 1
+      },
+      "links": [
+        {
+          "source": "王春娥",
+          "target": "薛倚哥",
+          "value": 1
+        },
+        {
+          "source": "王春娥",
+          "target": "薛保",
+          "value": 1
+        },
+        {
+          "source": "薛保",
+          "target": "薛倚哥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 194,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛倚哥": 1,
+        "王春娥": 1,
+        "薛保": 1
+      },
+      "links": [
+        {
+          "source": "王春娥",
+          "target": "薛倚哥",
+          "value": 1
+        },
+        {
+          "source": "薛保",
+          "target": "薛倚哥",
+          "value": 1
+        },
+        {
+          "source": "王春娥",
+          "target": "薛保",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王春娥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "守冰霜贞节为本，效寡居教子成名。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "薛倚哥",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "走吓。",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "薛保",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "这般时候，还不见东人回来，待老奴外面看来。",
+          "rating": 1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第1场：3位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.851,
+        "conflict": 0.845,
+        "sentiment": 0.242
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "薛倚哥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "听说是我母亲机房织绢，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "王春娥",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "罢了。儿吓，回来了？",
+          "rating": -0.25,
+          "role": "旦"
+        },
+        {
+          "name": "薛保",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "小东人下学来机房闯祸，",
+          "rating": -0.333,
+          "role": "外"
+        }
+      ],
+      "summary": "第2场：3位角色，194行",
+      "firstLine": 1,
+      "lastLine": 194,
+      "numLines": 194,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.278,
+        "sentiment": -0.003
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王春娥",
+      "short": "王春",
+      "key": "王春娥",
+      "quote": "王春娥 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "薛保",
+      "short": "薛保",
+      "key": "薛保",
+      "quote": "薛保 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛倚哥",
+      "short": "薛倚",
+      "key": "薛倚哥",
+      "quote": "薛倚哥 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

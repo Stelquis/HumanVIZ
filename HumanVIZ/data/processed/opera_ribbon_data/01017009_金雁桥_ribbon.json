@@ -1,0 +1,793 @@
+{
+  "title": "金雁桥",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 6,
+  "num_locations": 3,
+  "source_file": "01017009_金雁桥.json",
+  "source_folder": "01000000",
+  "plot_summary": "后汉三国时，刘备与副军师庞统一同收川。庞统被川将张任射死在落凤坡前，刘备又调诸葛亮前来。诸葛亮\n与张飞分兵两路入川，会于雒城。诸葛亮知张任智勇双全，为川中名将；因此定计先捉张任，然后取雒城。\n城东有桥，名曰金雁桥。两岸都是芦苇蒹葭。命黄忠、魏延埋伏于左右；又命张飞伏在城东小路，就彼处截\n杀之；诸葛亮自引一队“不整不齐”军，以之诱敌。张任追过桥来，黄忠、魏延两路伏兵齐起。急欲回军，\n而赵云早依诸葛亮之令将桥拆断，勒兵于桥北，遥为之势。张任望山僻而走，正撞着张飞，被其擒获。解至\n帐中，诸葛亮劝之降，不从，厉声大骂。命斩之，以全其名。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 33,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.6,
+      "importance": 1.0,
+      "locations": {
+        "攻打雒城": 1,
+        "之命守雒城": 2
+      },
+      "characters": {
+        "赵云": 1,
+        "黄忠": 1,
+        "张任": 1,
+        "张飞": 1,
+        "诸葛亮": 1,
+        "魏延": 1
+      },
+      "links": [
+        {
+          "source": "诸葛亮",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "魏延",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "张任",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "张任",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "张任",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "张任",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "张任",
+          "target": "张飞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 28,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.577,
+      "importance": 1.0,
+      "locations": {
+        "之命守雒城": 3
+      },
+      "characters": {
+        "黄忠": 1,
+        "张任": 1,
+        "张飞": 1,
+        "诸葛亮": 1,
+        "魏延": 1
+      },
+      "links": [
+        {
+          "source": "张任",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "张任",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "张任",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "张任",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "魏延",
+          "target": "黄忠",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 34,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.84,
+      "importance": 1.0,
+      "locations": {
+        "之命守雒城": 3
+      },
+      "characters": {
+        "赵云": 1,
+        "黄忠": 1,
+        "张任": 1,
+        "张飞": 1,
+        "诸葛亮": 1,
+        "魏延": 1
+      },
+      "links": [
+        {
+          "source": "张任",
+          "target": "赵云",
+          "value": 3
+        },
+        {
+          "source": "张任",
+          "target": "黄忠",
+          "value": 3
+        },
+        {
+          "source": "张任",
+          "target": "魏延",
+          "value": 3
+        },
+        {
+          "source": "赵云",
+          "target": "黄忠",
+          "value": 3
+        },
+        {
+          "source": "赵云",
+          "target": "魏延",
+          "value": 3
+        },
+        {
+          "source": "魏延",
+          "target": "黄忠",
+          "value": 3
+        },
+        {
+          "source": "张飞",
+          "target": "赵云",
+          "value": 2
+        },
+        {
+          "source": "张飞",
+          "target": "黄忠",
+          "value": 2
+        },
+        {
+          "source": "张任",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "张飞",
+          "target": "魏延",
+          "value": 2
+        },
+        {
+          "source": "张飞",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "张任",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "黄忠",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "魏延",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "攻打雒城",
+      "characters": [
+        {
+          "name": "黄忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "在。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "八卦阴阳，安排停当，统兵将，出离荆襄，要把西川掌。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "魏延",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "赵云",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "张任",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第一场：6位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.882,
+        "sentiment": 0.172
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "之命守雒城",
+      "characters": [
+        {
+          "name": "黄忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.069,
+        "conflict": 0.0,
+        "sentiment": 0.6
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "之命守雒城",
+      "characters": [
+        {
+          "name": "魏延",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第三场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.069,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "之命守雒城",
+      "characters": [
+        {
+          "name": "张任",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "奉主之命守雒城，",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第四场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.564,
+        "conflict": 1.0,
+        "sentiment": -0.373
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "之命守雒城",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "俺，张飞。在帐中奉了军师将令，扮做樵夫模样，藏在芦苇之中，等候张任到",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "张任",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第五场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.595,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "之命守雒城",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来者敢么是张任？",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "张任",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "然也。你是何人？敢挡某家去路！",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "黄忠",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "魏延",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第六场：4位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.767,
+        "conflict": 1.0,
+        "sentiment": 0.204
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "之命守雒城",
+      "characters": [
+        {
+          "name": "张任",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "且住！那贼败下阵去，待我赶上。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "赵云",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "黄忠",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "魏延",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第七场：4位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.428,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "之命守雒城",
+      "characters": [
+        {
+          "name": "赵云",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "黄忠",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张任",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "魏延",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第八场：5位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.555,
+        "conflict": 0.0,
+        "sentiment": 1.0
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "之命守雒城",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "张任拿到！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "绑上来！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张任",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "大将失机入罗网，",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "赵云",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "黄忠",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "魏延",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第九场：6位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 1.0,
+        "sentiment": 0.371
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张任",
+      "short": "张任",
+      "key": "张任",
+      "quote": "张任 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "赵云",
+      "short": "赵云",
+      "key": "赵云",
+      "quote": "赵云 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "黄忠",
+      "short": "黄忠",
+      "key": "黄忠",
+      "quote": "黄忠 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "魏延",
+      "short": "魏延",
+      "key": "魏延",
+      "quote": "魏延 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "之命守雒城",
+      "key": "之命守雒城",
+      "quote": "场景发生在之命守雒城"
+    },
+    {
+      "name": "兵把守雒城",
+      "key": "兵把守雒城",
+      "quote": "场景发生在兵把守雒城"
+    },
+    {
+      "name": "攻打雒城",
+      "key": "攻打雒城",
+      "quote": "场景发生在攻打雒城"
+    }
+  ]
+}

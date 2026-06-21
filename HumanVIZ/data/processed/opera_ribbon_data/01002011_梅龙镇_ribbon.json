@@ -1,0 +1,167 @@
+{
+  "title": "梅龙镇",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "01002011_梅龙镇.json",
+  "source_folder": "01000000",
+  "plot_summary": "明武宗喜微行，委政江彬、刘瑾等小人，以致阉寺弄权，朝纲日坏。某日游至梅龙镇，乔装军官模样，投宿\n李龙哥家。李龙只兄妹二人，设酒肆度日。李龙适有事他出，嘱妹凤姐招待一切，帝见凤姐色艳，顿起佻达\n之意，呼茶唤酒，借端戏谑。凤姐娇羞薄怒，帝益心醉神迷，乃告凤姐以实。凤姐不信，帝解去外衣，以龙\n衮示之。凤姐大惊，跪地求恕，帝笑而慰之。从此更衣入侍。宠冠六宫，香车宝辇，管领春风。回想红炉暖\n酒时，真有天上人间之别矣。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 298,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "正德帝": 1,
+        "李凤姐": 1
+      },
+      "links": [
+        {
+          "source": "李凤姐",
+          "target": "正德帝",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 109,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.536,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "正德帝": 1,
+        "李凤姐": 1
+      },
+      "links": [
+        {
+          "source": "李凤姐",
+          "target": "正德帝",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "正德帝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "龙游芳草地，凤绕牡丹池。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "李凤姐",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：2位角色，298行",
+      "firstLine": 1,
+      "lastLine": 298,
+      "numLines": 298,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.131,
+        "sentiment": 0.21
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李凤姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "前面走的李凤姐，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "正德帝",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "后面跟随正德君。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，109行",
+      "firstLine": 1,
+      "lastLine": 109,
+      "numLines": 109,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.861,
+        "conflict": 0.351,
+        "sentiment": 0.174
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "正德帝",
+      "short": "正德",
+      "key": "正德帝",
+      "quote": "正德帝 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李凤姐",
+      "short": "李凤",
+      "key": "李凤姐",
+      "quote": "李凤姐 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

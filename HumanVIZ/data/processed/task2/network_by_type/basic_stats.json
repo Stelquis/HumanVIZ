@@ -1,0 +1,1355 @@
+{
+  "meta": {
+    "audit_time": "2026-06-05T18:10:16.456165",
+    "total_plays": 1473,
+    "metrics_computed": [
+      "node_count",
+      "edge_count",
+      "density",
+      "avg_clustering",
+      "connected_components",
+      "largest_component_ratio",
+      "centralization",
+      "degree_entropy"
+    ],
+    "口径说明": {
+      "full_graph": "包含所有角色节点和关系边，反映完整角色表规模",
+      "active_graph": "排除度中心性=0的孤立节点（龙套、无互动配角），反映真实互动结构"
+    }
+  },
+  "by_type": {
+    "侠义戏": {
+      "play_count": 126,
+      "full_graph": {
+        "node_count": {
+          "mean": 18.1508,
+          "median": 14.5,
+          "min": 1,
+          "max": 76,
+          "std": 13.6231,
+          "p25": 9.0,
+          "p75": 23.0,
+          "count": 126
+        },
+        "edge_count": {
+          "mean": 65.4127,
+          "median": 35.5,
+          "min": 0,
+          "max": 539,
+          "std": 87.9238,
+          "p25": 15.0,
+          "p75": 75.5,
+          "count": 126
+        },
+        "density": {
+          "mean": 0.4134,
+          "median": 0.3476,
+          "min": 0,
+          "max": 1.0,
+          "std": 0.2439,
+          "p25": 0.2547,
+          "p75": 0.522,
+          "count": 126
+        },
+        "avg_clustering": {
+          "mean": 0.6899,
+          "median": 0.7194,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.2035,
+          "p25": 0.5893,
+          "p75": 0.8067,
+          "count": 126
+        },
+        "connected_components": {
+          "mean": 3.9683,
+          "median": 3.0,
+          "min": 1,
+          "max": 15,
+          "std": 2.9518,
+          "p25": 2.0,
+          "p75": 5.0,
+          "count": 126
+        },
+        "largest_component_ratio": {
+          "mean": 0.8249,
+          "median": 0.8311,
+          "min": 0.4,
+          "max": 1.0,
+          "std": 0.1383,
+          "p25": 0.75,
+          "p75": 0.9304,
+          "count": 126
+        },
+        "centralization": {
+          "mean": 1.0242,
+          "median": 0.8567,
+          "min": 0.0,
+          "max": 3.4,
+          "std": 0.7585,
+          "p25": 0.5,
+          "p75": 1.3333,
+          "count": 126
+        },
+        "degree_entropy": {
+          "mean": 0.8867,
+          "median": 0.9095,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.1325,
+          "p25": 0.8614,
+          "p75": 0.9467,
+          "count": 126
+        }
+      },
+      "active_graph": {
+        "node_count": {
+          "mean": 15.3095,
+          "median": 12.0,
+          "min": 1,
+          "max": 63,
+          "std": 11.8365,
+          "p25": 7.0,
+          "p75": 19.0,
+          "count": 126
+        },
+        "edge_count": {
+          "mean": 65.4127,
+          "median": 35.5,
+          "min": 0,
+          "max": 539,
+          "std": 87.9238,
+          "p25": 15.0,
+          "p75": 75.5,
+          "count": 126
+        },
+        "density": {
+          "mean": 0.5707,
+          "median": 0.5499,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.2507,
+          "p25": 0.3643,
+          "p75": 0.75,
+          "count": 126
+        },
+        "avg_clustering": {
+          "mean": 0.8095,
+          "median": 0.855,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.1939,
+          "p25": 0.7882,
+          "p75": 0.9,
+          "count": 126
+        },
+        "connected_components": {
+          "mean": 1.127,
+          "median": 1.0,
+          "min": 1,
+          "max": 3,
+          "std": 0.356,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 126
+        },
+        "largest_component_ratio": {
+          "mean": 0.9735,
+          "median": 1.0,
+          "min": 0.5,
+          "max": 1.0,
+          "std": 0.0902,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 126
+        },
+        "centralization": {
+          "mean": 0.6782,
+          "median": 0.5732,
+          "min": 0.0,
+          "max": 3.0857,
+          "std": 0.5874,
+          "p25": 0.2827,
+          "p75": 0.9167,
+          "count": 126
+        },
+        "degree_entropy": {
+          "mean": 0.9547,
+          "median": 0.9707,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.123,
+          "p25": 0.9566,
+          "p75": 0.9858,
+          "count": 126
+        }
+      }
+    },
+    "公案戏": {
+      "play_count": 100,
+      "full_graph": {
+        "node_count": {
+          "mean": 18.2,
+          "median": 12.0,
+          "min": 2,
+          "max": 73,
+          "std": 15.0366,
+          "p25": 8.0,
+          "p75": 23.0,
+          "count": 100
+        },
+        "edge_count": {
+          "mean": 72.01,
+          "median": 36.0,
+          "min": 1,
+          "max": 887,
+          "std": 119.45,
+          "p25": 13.5,
+          "p75": 75.75,
+          "count": 100
+        },
+        "density": {
+          "mean": 0.4561,
+          "median": 0.4129,
+          "min": 0.0676,
+          "max": 1.0,
+          "std": 0.2563,
+          "p25": 0.2358,
+          "p75": 0.6667,
+          "count": 100
+        },
+        "avg_clustering": {
+          "mean": 0.6895,
+          "median": 0.6824,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.188,
+          "p25": 0.6092,
+          "p75": 0.822,
+          "count": 100
+        },
+        "connected_components": {
+          "mean": 5.04,
+          "median": 4.0,
+          "min": 1,
+          "max": 21,
+          "std": 4.1903,
+          "p25": 2.0,
+          "p75": 6.25,
+          "count": 100
+        },
+        "largest_component_ratio": {
+          "mean": 0.7865,
+          "median": 0.8,
+          "min": 0.3529,
+          "max": 1.0,
+          "std": 0.1389,
+          "p25": 0.7044,
+          "p75": 0.8791,
+          "count": 100
+        },
+        "centralization": {
+          "mean": 0.957,
+          "median": 0.7574,
+          "min": 0.0,
+          "max": 3.2714,
+          "std": 0.7999,
+          "p25": 0.25,
+          "p75": 1.4158,
+          "count": 100
+        },
+        "degree_entropy": {
+          "mean": 0.8859,
+          "median": 0.8945,
+          "min": 0.5,
+          "max": 1.0,
+          "std": 0.0798,
+          "p25": 0.8525,
+          "p75": 0.9334,
+          "count": 100
+        }
+      },
+      "active_graph": {
+        "node_count": {
+          "mean": 14.25,
+          "median": 9.5,
+          "min": 2,
+          "max": 59,
+          "std": 11.7952,
+          "p25": 6.0,
+          "p75": 19.0,
+          "count": 100
+        },
+        "edge_count": {
+          "mean": 72.01,
+          "median": 36.0,
+          "min": 1,
+          "max": 887,
+          "std": 119.45,
+          "p25": 13.5,
+          "p75": 75.75,
+          "count": 100
+        },
+        "density": {
+          "mean": 0.6974,
+          "median": 0.7225,
+          "min": 0.1377,
+          "max": 1.0,
+          "std": 0.2661,
+          "p25": 0.476,
+          "p75": 1.0,
+          "count": 100
+        },
+        "avg_clustering": {
+          "mean": 0.8602,
+          "median": 0.869,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.1738,
+          "p25": 0.8185,
+          "p75": 1.0,
+          "count": 100
+        },
+        "connected_components": {
+          "mean": 1.09,
+          "median": 1.0,
+          "min": 1,
+          "max": 3,
+          "std": 0.3192,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 100
+        },
+        "largest_component_ratio": {
+          "mean": 0.9842,
+          "median": 1.0,
+          "min": 0.5833,
+          "max": 1.0,
+          "std": 0.0649,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 100
+        },
+        "centralization": {
+          "mean": 0.5091,
+          "median": 0.366,
+          "min": 0.0,
+          "max": 2.2742,
+          "std": 0.5478,
+          "p25": 0.0,
+          "p75": 0.75,
+          "count": 100
+        },
+        "degree_entropy": {
+          "mean": 0.9781,
+          "median": 0.9816,
+          "min": 0.9255,
+          "max": 1.0,
+          "std": 0.0209,
+          "p25": 0.9649,
+          "p75": 1.0,
+          "count": 100
+        }
+      }
+    },
+    "历史戏": {
+      "play_count": 776,
+      "full_graph": {
+        "node_count": {
+          "mean": 17.5966,
+          "median": 14.0,
+          "min": 2,
+          "max": 102,
+          "std": 12.7538,
+          "p25": 9.0,
+          "p75": 23.0,
+          "count": 776
+        },
+        "edge_count": {
+          "mean": 55.7397,
+          "median": 30.0,
+          "min": 1,
+          "max": 820,
+          "std": 78.4086,
+          "p25": 12.0,
+          "p75": 71.0,
+          "count": 776
+        },
+        "density": {
+          "mean": 0.3855,
+          "median": 0.3333,
+          "min": 0.0483,
+          "max": 1.0,
+          "std": 0.236,
+          "p25": 0.209,
+          "p75": 0.5,
+          "count": 776
+        },
+        "avg_clustering": {
+          "mean": 0.654,
+          "median": 0.6667,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.1892,
+          "p25": 0.5589,
+          "p75": 0.7623,
+          "count": 776
+        },
+        "connected_components": {
+          "mean": 5.1018,
+          "median": 4.0,
+          "min": 1,
+          "max": 38,
+          "std": 3.8964,
+          "p25": 3.0,
+          "p75": 6.0,
+          "count": 776
+        },
+        "largest_component_ratio": {
+          "mean": 0.76,
+          "median": 0.7698,
+          "min": 0.2791,
+          "max": 1.0,
+          "std": 0.1527,
+          "p25": 0.6667,
+          "p75": 0.875,
+          "count": 776
+        },
+        "centralization": {
+          "mean": 1.1367,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 6.988,
+          "std": 0.8617,
+          "p25": 0.5,
+          "p75": 1.5882,
+          "count": 776
+        },
+        "degree_entropy": {
+          "mean": 0.8655,
+          "median": 0.8815,
+          "min": 0.3869,
+          "max": 1.0,
+          "std": 0.0937,
+          "p25": 0.8271,
+          "p75": 0.9252,
+          "count": 776
+        }
+      },
+      "active_graph": {
+        "node_count": {
+          "mean": 13.5928,
+          "median": 10.0,
+          "min": 2,
+          "max": 67,
+          "std": 10.1127,
+          "p25": 6.0,
+          "p75": 18.0,
+          "count": 776
+        },
+        "edge_count": {
+          "mean": 55.7397,
+          "median": 30.0,
+          "min": 1,
+          "max": 820,
+          "std": 78.4086,
+          "p25": 12.0,
+          "p75": 71.0,
+          "count": 776
+        },
+        "density": {
+          "mean": 0.6368,
+          "median": 0.6117,
+          "min": 0.1126,
+          "max": 1.0,
+          "std": 0.2587,
+          "p25": 0.4191,
+          "p75": 0.8667,
+          "count": 776
+        },
+        "avg_clustering": {
+          "mean": 0.8393,
+          "median": 0.8667,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.1762,
+          "p25": 0.7982,
+          "p75": 0.9351,
+          "count": 776
+        },
+        "connected_components": {
+          "mean": 1.0979,
+          "median": 1.0,
+          "min": 1,
+          "max": 5,
+          "std": 0.3564,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 776
+        },
+        "largest_component_ratio": {
+          "mean": 0.9807,
+          "median": 1.0,
+          "min": 0.4444,
+          "max": 1.0,
+          "std": 0.0765,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 776
+        },
+        "centralization": {
+          "mean": 0.6002,
+          "median": 0.5,
+          "min": 0.0,
+          "max": 4.5972,
+          "std": 0.5936,
+          "p25": 0.1538,
+          "p75": 0.89,
+          "count": 776
+        },
+        "degree_entropy": {
+          "mean": 0.9735,
+          "median": 0.9741,
+          "min": 0.8948,
+          "max": 1.0,
+          "std": 0.0209,
+          "p25": 0.9597,
+          "p75": 0.992,
+          "count": 776
+        }
+      }
+    },
+    "家庭戏": {
+      "play_count": 223,
+      "full_graph": {
+        "node_count": {
+          "mean": 9.8565,
+          "median": 7.0,
+          "min": 1,
+          "max": 53,
+          "std": 8.7633,
+          "p25": 4.0,
+          "p75": 12.5,
+          "count": 223
+        },
+        "edge_count": {
+          "mean": 26.6278,
+          "median": 10.0,
+          "min": 0,
+          "max": 239,
+          "std": 42.4947,
+          "p25": 3.0,
+          "p75": 29.5,
+          "count": 223
+        },
+        "density": {
+          "mean": 0.5575,
+          "median": 0.5,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.3117,
+          "p25": 0.2871,
+          "p75": 0.8639,
+          "count": 223
+        },
+        "avg_clustering": {
+          "mean": 0.6497,
+          "median": 0.7143,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.3156,
+          "p25": 0.5298,
+          "p75": 0.8929,
+          "count": 223
+        },
+        "connected_components": {
+          "mean": 3.1211,
+          "median": 2.0,
+          "min": 1,
+          "max": 14,
+          "std": 2.4638,
+          "p25": 1.0,
+          "p75": 4.0,
+          "count": 223
+        },
+        "largest_component_ratio": {
+          "mean": 0.8081,
+          "median": 0.814,
+          "min": 0.3333,
+          "max": 1.0,
+          "std": 0.1774,
+          "p25": 0.6667,
+          "p75": 1.0,
+          "count": 223
+        },
+        "centralization": {
+          "mean": 0.6233,
+          "median": 0.4483,
+          "min": 0.0,
+          "max": 3.5573,
+          "std": 0.6372,
+          "p25": 0.05,
+          "p75": 1.0,
+          "count": 223
+        },
+        "degree_entropy": {
+          "mean": 0.86,
+          "median": 0.8884,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.1564,
+          "p25": 0.8,
+          "p75": 0.9904,
+          "count": 223
+        }
+      },
+      "active_graph": {
+        "node_count": {
+          "mean": 7.7668,
+          "median": 5.0,
+          "min": 1,
+          "max": 41,
+          "std": 7.1203,
+          "p25": 3.0,
+          "p75": 9.0,
+          "count": 223
+        },
+        "edge_count": {
+          "mean": 26.6278,
+          "median": 10.0,
+          "min": 0,
+          "max": 239,
+          "std": 42.4947,
+          "p25": 3.0,
+          "p75": 29.5,
+          "count": 223
+        },
+        "density": {
+          "mean": 0.8322,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.2375,
+          "p25": 0.6667,
+          "p75": 1.0,
+          "count": 223
+        },
+        "avg_clustering": {
+          "mean": 0.7909,
+          "median": 0.9405,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.3381,
+          "p25": 0.8006,
+          "p75": 1.0,
+          "count": 223
+        },
+        "connected_components": {
+          "mean": 1.0314,
+          "median": 1.0,
+          "min": 1,
+          "max": 3,
+          "std": 0.1984,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 223
+        },
+        "largest_component_ratio": {
+          "mean": 0.9948,
+          "median": 1.0,
+          "min": 0.6,
+          "max": 1.0,
+          "std": 0.0357,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 223
+        },
+        "centralization": {
+          "mean": 0.2498,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 2.5255,
+          "std": 0.4162,
+          "p25": 0.0,
+          "p75": 0.4286,
+          "count": 223
+        },
+        "degree_entropy": {
+          "mean": 0.9778,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.095,
+          "p25": 0.9728,
+          "p75": 1.0,
+          "count": 223
+        }
+      }
+    },
+    "技法展示戏": {
+      "play_count": 17,
+      "full_graph": {
+        "node_count": {
+          "mean": 4.5294,
+          "median": 3.0,
+          "min": 1,
+          "max": 20,
+          "std": 4.313,
+          "p25": 3.0,
+          "p75": 4.0,
+          "count": 17
+        },
+        "edge_count": {
+          "mean": 9.0,
+          "median": 3.0,
+          "min": 0,
+          "max": 76,
+          "std": 17.8556,
+          "p25": 1.0,
+          "p75": 5.0,
+          "count": 17
+        },
+        "density": {
+          "mean": 0.7745,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.3094,
+          "p25": 0.5,
+          "p75": 1.0,
+          "count": 17
+        },
+        "avg_clustering": {
+          "mean": 0.6412,
+          "median": 0.8333,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.4252,
+          "p25": 0.0,
+          "p75": 1.0,
+          "count": 17
+        },
+        "connected_components": {
+          "mean": 1.4118,
+          "median": 1.0,
+          "min": 1,
+          "max": 5,
+          "std": 0.9737,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 17
+        },
+        "largest_component_ratio": {
+          "mean": 0.9392,
+          "median": 1.0,
+          "min": 0.6667,
+          "max": 1.0,
+          "std": 0.112,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 17
+        },
+        "centralization": {
+          "mean": 0.1537,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.6667,
+          "std": 0.2289,
+          "p25": 0.0,
+          "p75": 0.3333,
+          "count": 17
+        },
+        "degree_entropy": {
+          "mean": 0.8863,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.2443,
+          "p25": 0.8981,
+          "p75": 1.0,
+          "count": 17
+        }
+      },
+      "active_graph": {
+        "node_count": {
+          "mean": 4.1176,
+          "median": 3.0,
+          "min": 1,
+          "max": 16,
+          "std": 3.546,
+          "p25": 2.0,
+          "p75": 4.0,
+          "count": 17
+        },
+        "edge_count": {
+          "mean": 9.0,
+          "median": 3.0,
+          "min": 0,
+          "max": 76,
+          "std": 17.8556,
+          "p25": 1.0,
+          "p75": 5.0,
+          "count": 17
+        },
+        "density": {
+          "mean": 0.8863,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.2546,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 17
+        },
+        "avg_clustering": {
+          "mean": 0.6808,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.4426,
+          "p25": 0.0,
+          "p75": 1.0,
+          "count": 17
+        },
+        "connected_components": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1,
+          "max": 1,
+          "std": 0.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 17
+        },
+        "largest_component_ratio": {
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "std": 0.0,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 17
+        },
+        "centralization": {
+          "mean": 0.0665,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.6667,
+          "std": 0.1678,
+          "p25": 0.0,
+          "p75": 0.0,
+          "count": 17
+        },
+        "degree_entropy": {
+          "mean": 0.9367,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.2344,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 17
+        }
+      }
+    },
+    "爱情戏": {
+      "play_count": 116,
+      "full_graph": {
+        "node_count": {
+          "mean": 9.3017,
+          "median": 6.0,
+          "min": 1,
+          "max": 58,
+          "std": 8.715,
+          "p25": 3.0,
+          "p75": 13.0,
+          "count": 116
+        },
+        "edge_count": {
+          "mean": 27.3793,
+          "median": 9.0,
+          "min": 0,
+          "max": 300,
+          "std": 41.8288,
+          "p25": 3.0,
+          "p75": 38.0,
+          "count": 116
+        },
+        "density": {
+          "mean": 0.6152,
+          "median": 0.6036,
+          "min": 0,
+          "max": 1.0,
+          "std": 0.3228,
+          "p25": 0.3333,
+          "p75": 1.0,
+          "count": 116
+        },
+        "avg_clustering": {
+          "mean": 0.6464,
+          "median": 0.796,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.3563,
+          "p25": 0.5367,
+          "p75": 0.9179,
+          "count": 116
+        },
+        "connected_components": {
+          "mean": 2.569,
+          "median": 2.0,
+          "min": 1,
+          "max": 13,
+          "std": 2.4077,
+          "p25": 1.0,
+          "p75": 3.0,
+          "count": 116
+        },
+        "largest_component_ratio": {
+          "mean": 0.8619,
+          "median": 0.8912,
+          "min": 0.5,
+          "max": 1.0,
+          "std": 0.1533,
+          "p25": 0.7467,
+          "p75": 1.0,
+          "count": 116
+        },
+        "centralization": {
+          "mean": 0.4698,
+          "median": 0.25,
+          "min": 0.0,
+          "max": 2.8779,
+          "std": 0.59,
+          "p25": 0.0,
+          "p75": 0.6731,
+          "count": 116
+        },
+        "degree_entropy": {
+          "mean": 0.8639,
+          "median": 0.9417,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.2271,
+          "p25": 0.8489,
+          "p75": 1.0,
+          "count": 116
+        }
+      },
+      "active_graph": {
+        "node_count": {
+          "mean": 7.7845,
+          "median": 5.0,
+          "min": 1,
+          "max": 48,
+          "std": 6.9317,
+          "p25": 3.0,
+          "p75": 11.0,
+          "count": 116
+        },
+        "edge_count": {
+          "mean": 27.3793,
+          "median": 9.0,
+          "min": 0,
+          "max": 300,
+          "std": 41.8288,
+          "p25": 3.0,
+          "p75": 38.0,
+          "count": 116
+        },
+        "density": {
+          "mean": 0.7936,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.2881,
+          "p25": 0.6071,
+          "p75": 1.0,
+          "count": 116
+        },
+        "avg_clustering": {
+          "mean": 0.735,
+          "median": 0.8828,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.3809,
+          "p25": 0.744,
+          "p75": 1.0,
+          "count": 116
+        },
+        "connected_components": {
+          "mean": 1.0517,
+          "median": 1.0,
+          "min": 1,
+          "max": 3,
+          "std": 0.2575,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 116
+        },
+        "largest_component_ratio": {
+          "mean": 0.9819,
+          "median": 1.0,
+          "min": 0.5,
+          "max": 1.0,
+          "std": 0.0879,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 116
+        },
+        "centralization": {
+          "mean": 0.2452,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 2.2093,
+          "std": 0.4088,
+          "p25": 0.0,
+          "p75": 0.4501,
+          "count": 116
+        },
+        "degree_entropy": {
+          "mean": 0.9369,
+          "median": 1.0,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.2195,
+          "p25": 0.9758,
+          "p75": 1.0,
+          "count": 116
+        }
+      }
+    },
+    "神话戏": {
+      "play_count": 115,
+      "full_graph": {
+        "node_count": {
+          "mean": 11.9826,
+          "median": 10.0,
+          "min": 2,
+          "max": 58,
+          "std": 9.0352,
+          "p25": 5.5,
+          "p75": 16.0,
+          "count": 115
+        },
+        "edge_count": {
+          "mean": 37.3304,
+          "median": 21.0,
+          "min": 1,
+          "max": 409,
+          "std": 51.3008,
+          "p25": 6.5,
+          "p75": 50.0,
+          "count": 115
+        },
+        "density": {
+          "mean": 0.5818,
+          "median": 0.5275,
+          "min": 0.0702,
+          "max": 1.0,
+          "std": 0.2939,
+          "p25": 0.3431,
+          "p75": 0.8397,
+          "count": 115
+        },
+        "avg_clustering": {
+          "mean": 0.7539,
+          "median": 0.7844,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.2342,
+          "p25": 0.6697,
+          "p75": 0.9187,
+          "count": 115
+        },
+        "connected_components": {
+          "mean": 2.6087,
+          "median": 2.0,
+          "min": 1,
+          "max": 12,
+          "std": 2.2016,
+          "p25": 1.0,
+          "p75": 3.0,
+          "count": 115
+        },
+        "largest_component_ratio": {
+          "mean": 0.8629,
+          "median": 0.9091,
+          "min": 0.2778,
+          "max": 1.0,
+          "std": 0.1545,
+          "p25": 0.7778,
+          "p75": 1.0,
+          "count": 115
+        },
+        "centralization": {
+          "mean": 0.6699,
+          "median": 0.5,
+          "min": 0.0,
+          "max": 4.5417,
+          "std": 0.7138,
+          "p25": 0.1049,
+          "p75": 1.0,
+          "count": 115
+        },
+        "degree_entropy": {
+          "mean": 0.9246,
+          "median": 0.9358,
+          "min": 0.656,
+          "max": 1.0,
+          "std": 0.0725,
+          "p25": 0.8846,
+          "p75": 0.9864,
+          "count": 115
+        }
+      },
+      "active_graph": {
+        "node_count": {
+          "mean": 10.5217,
+          "median": 8.0,
+          "min": 2,
+          "max": 54,
+          "std": 7.8744,
+          "p25": 5.0,
+          "p75": 14.0,
+          "count": 115
+        },
+        "edge_count": {
+          "mean": 37.3304,
+          "median": 21.0,
+          "min": 1,
+          "max": 409,
+          "std": 51.3008,
+          "p25": 6.5,
+          "p75": 50.0,
+          "count": 115
+        },
+        "density": {
+          "mean": 0.7071,
+          "median": 0.7,
+          "min": 0.1688,
+          "max": 1.0,
+          "std": 0.2686,
+          "p25": 0.5,
+          "p75": 1.0,
+          "count": 115
+        },
+        "avg_clustering": {
+          "mean": 0.8401,
+          "median": 0.9,
+          "min": 0.0,
+          "max": 1.0,
+          "std": 0.2193,
+          "p25": 0.8004,
+          "p75": 1.0,
+          "count": 115
+        },
+        "connected_components": {
+          "mean": 1.1478,
+          "median": 1.0,
+          "min": 1,
+          "max": 4,
+          "std": 0.4614,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 115
+        },
+        "largest_component_ratio": {
+          "mean": 0.9646,
+          "median": 1.0,
+          "min": 0.3333,
+          "max": 1.0,
+          "std": 0.1111,
+          "p25": 1.0,
+          "p75": 1.0,
+          "count": 115
+        },
+        "centralization": {
+          "mean": 0.4402,
+          "median": 0.3333,
+          "min": 0.0,
+          "max": 2.027,
+          "std": 0.4728,
+          "p25": 0.0,
+          "p75": 0.6771,
+          "count": 115
+        },
+        "degree_entropy": {
+          "mean": 0.9775,
+          "median": 0.9799,
+          "min": 0.9289,
+          "max": 1.0,
+          "std": 0.0207,
+          "p25": 0.9605,
+          "p75": 1.0,
+          "count": 115
+        }
+      }
+    }
+  },
+  "global_full_graph": {
+    "node_count": {
+      "mean": 15.2709,
+      "median": 12.0,
+      "min": 1,
+      "max": 102,
+      "std": 12.4367,
+      "p25": 6.0,
+      "p75": 20.0,
+      "count": 1473
+    },
+    "edge_count": {
+      "mean": 49.0543,
+      "median": 24.0,
+      "min": 0,
+      "max": 887,
+      "std": 75.5887,
+      "p25": 9.0,
+      "p75": 60.0,
+      "count": 1473
+    },
+    "density": {
+      "mean": 0.4566,
+      "median": 0.3801,
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.28,
+      "p25": 0.2368,
+      "p75": 0.6222,
+      "count": 1473
+    },
+    "avg_clustering": {
+      "mean": 0.6659,
+      "median": 0.6946,
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.2389,
+      "p25": 0.569,
+      "p75": 0.8149,
+      "count": 1473
+    },
+    "connected_components": {
+      "mean": 4.2641,
+      "median": 3.0,
+      "min": 1,
+      "max": 38,
+      "std": 3.5847,
+      "p25": 2.0,
+      "p75": 6.0,
+      "count": 1473
+    },
+    "largest_component_ratio": {
+      "mean": 0.7927,
+      "median": 0.8,
+      "min": 0.2778,
+      "max": 1.0,
+      "std": 0.1598,
+      "p25": 0.6923,
+      "p75": 0.913,
+      "count": 1473
+    },
+    "centralization": {
+      "mean": 0.9368,
+      "median": 0.7778,
+      "min": 0.0,
+      "max": 6.988,
+      "std": 0.8243,
+      "p25": 0.2857,
+      "p75": 1.3551,
+      "count": 1473
+    },
+    "degree_entropy": {
+      "mean": 0.8726,
+      "median": 0.897,
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.1254,
+      "p25": 0.8356,
+      "p75": 0.9451,
+      "count": 1473
+    }
+  },
+  "global_active_graph": {
+    "node_count": {
+      "mean": 12.0957,
+      "median": 9.0,
+      "min": 1,
+      "max": 67,
+      "std": 9.9679,
+      "p25": 5.0,
+      "p75": 16.0,
+      "count": 1473
+    },
+    "edge_count": {
+      "mean": 49.0543,
+      "median": 24.0,
+      "min": 0,
+      "max": 887,
+      "std": 75.5887,
+      "p25": 9.0,
+      "p75": 60.0,
+      "count": 1473
+    },
+    "density": {
+      "mean": 0.6856,
+      "median": 0.6786,
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.272,
+      "p25": 0.4615,
+      "p75": 1.0,
+      "count": 1473
+    },
+    "avg_clustering": {
+      "mean": 0.8209,
+      "median": 0.8714,
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.2401,
+      "p25": 0.8,
+      "p75": 1.0,
+      "count": 1473
+    },
+    "connected_components": {
+      "mean": 1.0889,
+      "median": 1.0,
+      "min": 1,
+      "max": 5,
+      "std": 0.3371,
+      "p25": 1.0,
+      "p75": 1.0,
+      "count": 1473
+    },
+    "largest_component_ratio": {
+      "mean": 0.9815,
+      "median": 1.0,
+      "min": 0.3333,
+      "max": 1.0,
+      "std": 0.0768,
+      "p25": 1.0,
+      "p75": 1.0,
+      "count": 1473
+    },
+    "centralization": {
+      "mean": 0.5011,
+      "median": 0.3714,
+      "min": 0.0,
+      "max": 4.5972,
+      "std": 0.5637,
+      "p25": 0.0,
+      "p75": 0.75,
+      "count": 1473
+    },
+    "degree_entropy": {
+      "mean": 0.9699,
+      "median": 0.9799,
+      "min": 0.0,
+      "max": 1.0,
+      "std": 0.0868,
+      "p25": 0.9618,
+      "p75": 1.0,
+      "count": 1473
+    }
+  }
+}

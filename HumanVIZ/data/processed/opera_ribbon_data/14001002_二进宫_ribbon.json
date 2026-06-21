@@ -1,0 +1,422 @@
+{
+  "title": "二进宫",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "14001002_二进宫.json",
+  "source_folder": "14000000",
+  "plot_summary": "徐延昭和杨波都是明朝的忠臣，因为初次谏阻国丈李良摄位，李后执拗不听，所以叹皇灵后，便又二次进宫\n竭诚奏告。在那时候李妃也渐渐地知道了她父亲要想封锁昭阳院，使得内外隔别，显明是露出了篡夺的阴谋，\n所以也就回心转意。她很知道徐延昭和杨波都是赤胆忠心，并且威望也在国丈之上，因此便把怀中的幼主\n托付徐延昭收养，又托他谋划万全以巩固明朝的社稷。但徐延昭称老不允，反保荐杨波智勇双全忠耿可托。\n李妃见他不肯，也就不勉强他，便把幼主交给了杨波。三人在宫中对天立誓，共保幼主。",
+  "performance_notes": "后来国丈李良知道了这回事，便无形地把逆谋隐消。明朝一天天地安稳了起来。这固然是徐杨两人婉转谏奏\n的功劳，但是李妃能够悔悟得早，并且从善如流，也要算她是聪明贤惠的国母了。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 24,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.364,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "徐延昭": 1,
+        "徐小姐": 1,
+        "杨四郎": 1,
+        "杨波": 1,
+        "李妃": 1
+      },
+      "links": [
+        {
+          "source": "徐延昭",
+          "target": "李妃",
+          "value": 1
+        },
+        {
+          "source": "李妃",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "李妃",
+          "target": "杨四郎",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "李妃",
+          "value": 1
+        },
+        {
+          "source": "徐延昭",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "徐延昭",
+          "target": "杨四郎",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "徐延昭",
+          "value": 1
+        },
+        {
+          "source": "杨四郎",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "杨四郎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 165,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "徐延昭": 1,
+        "杨波领": 1,
+        "徐小姐": 1,
+        "杨波": 1,
+        "李妃": 1
+      },
+      "links": [
+        {
+          "source": "徐小姐",
+          "target": "徐延昭",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "李妃",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "杨波领",
+          "value": 1
+        },
+        {
+          "source": "徐小姐",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "徐延昭",
+          "target": "李妃",
+          "value": 1
+        },
+        {
+          "source": "徐延昭",
+          "target": "杨波领",
+          "value": 1
+        },
+        {
+          "source": "徐延昭",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "李妃",
+          "target": "杨波领",
+          "value": 1
+        },
+        {
+          "source": "李妃",
+          "target": "杨波",
+          "value": 1
+        },
+        {
+          "source": "杨波",
+          "target": "杨波领",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.136,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "徐延昭": 1,
+        "杨波": 1
+      },
+      "links": [
+        {
+          "source": "徐延昭",
+          "target": "杨波",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哎！先王啊！",
+          "rating": -1.0,
+          "role": "青衣"
+        },
+        {
+          "name": "徐延昭",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大人请！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "杨波",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "千岁请！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "杨四郎",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "遵命！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐小姐",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "你是何人击宫墙？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：5位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.809,
+        "conflict": 0.0,
+        "sentiment": -0.092
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐小姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "参见爹爹！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐延昭",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "罢了！我儿启奏国太，徐、杨二臣，宫门求见。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "李妃",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "宣徐、杨二臣进宫。",
+          "rating": 0.333,
+          "role": "青衣"
+        },
+        {
+          "name": "杨波领",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "旨！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨波",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "千岁！",
+          "rating": -0.2,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：5位角色，165行",
+      "firstLine": 1,
+      "lastLine": 165,
+      "numLines": 165,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.235,
+        "sentiment": 0.062
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨波",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "叩罢头来谢罢恩，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "徐延昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "徐延昭代驾且平身。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第3场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.641,
+        "conflict": 0.0,
+        "sentiment": 0.24
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李妃",
+      "short": "李妃",
+      "key": "李妃",
+      "quote": "李妃 — 青衣",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 青衣",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "徐延昭",
+      "short": "徐延",
+      "key": "徐延昭",
+      "quote": "徐延昭 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨波",
+      "short": "杨波",
+      "key": "杨波",
+      "quote": "杨波 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "徐小姐",
+      "short": "徐小",
+      "key": "徐小姐",
+      "quote": "徐小姐 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杨波领",
+      "short": "杨波",
+      "key": "杨波领",
+      "quote": "杨波领 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杨四郎",
+      "short": "杨四",
+      "key": "杨四郎",
+      "quote": "杨四郎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

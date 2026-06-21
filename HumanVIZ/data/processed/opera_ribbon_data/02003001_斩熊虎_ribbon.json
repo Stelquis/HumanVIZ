@@ -1,0 +1,298 @@
+{
+  "title": "斩熊虎",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02003001_斩熊虎.json",
+  "source_folder": "02000000",
+  "plot_summary": "冯显读《春秋》后，到街上散步。忽闻叫苦声，及经询问，始知系韩守义被恶霸熊虎将其妻抢去，复将渠押\n在监狱。冯显极为愤恨，迳往熊虎处欲与理论。适熊虎正在预备与韩妻入洞房，乃将韩妻救出，并杀死熊虎\n而去。",
+  "performance_notes": "按一般传说，剧中之冯显，即系关公。冯显因杀熊虎被官搜捕，不得已乃改名易姓为关羽，始得逃脱云。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 75,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "韩守义": 1,
+        "冯显": 1,
+        "熊虎": 1
+      },
+      "links": [
+        {
+          "source": "冯显",
+          "target": "韩守义",
+          "value": 1
+        },
+        {
+          "source": "冯显",
+          "target": "熊虎",
+          "value": 1
+        },
+        {
+          "source": "熊虎",
+          "target": "韩守义",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 75,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "韩守义": 1,
+        "熊虎": 1,
+        "四丑院子": 1,
+        "丑院子甲": 1,
+        "冯显": 1
+      },
+      "links": [
+        {
+          "source": "四丑院子",
+          "target": "熊虎",
+          "value": 1
+        },
+        {
+          "source": "四丑院子",
+          "target": "韩守义",
+          "value": 1
+        },
+        {
+          "source": "冯显",
+          "target": "四丑院子",
+          "value": 1
+        },
+        {
+          "source": "丑院子甲",
+          "target": "四丑院子",
+          "value": 1
+        },
+        {
+          "source": "熊虎",
+          "target": "韩守义",
+          "value": 1
+        },
+        {
+          "source": "冯显",
+          "target": "熊虎",
+          "value": 1
+        },
+        {
+          "source": "丑院子甲",
+          "target": "熊虎",
+          "value": 1
+        },
+        {
+          "source": "冯显",
+          "target": "韩守义",
+          "value": 1
+        },
+        {
+          "source": "丑院子甲",
+          "target": "韩守义",
+          "value": 1
+        },
+        {
+          "source": "丑院子甲",
+          "target": "冯显",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "冯显",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "豪杰英雄为丈夫，能文会武效孙、吴。有朝大展擎天手，定把乾坤一掌扶。",
+          "rating": -0.077,
+          "role": "净"
+        },
+        {
+          "name": "韩守义",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "苦哇！",
+          "rating": 0.333,
+          "role": "生"
+        },
+        {
+          "name": "熊虎",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：3位角色，75行",
+      "firstLine": 1,
+      "lastLine": 75,
+      "numLines": 75,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.496,
+        "sentiment": 0.249
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "四丑院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "伺候大爷。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "熊虎",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "风流腰摆，风流腰摆，",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "韩守义",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "行过安平县了，爷爷！",
+          "rating": 1.0,
+          "role": "生"
+        },
+        {
+          "name": "冯显",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "行过了安平县，又来到节义仓，",
+          "rating": 0.2,
+          "role": "净"
+        },
+        {
+          "name": "丑院子甲",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "什么人哪？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：5位角色，75行",
+      "firstLine": 1,
+      "lastLine": 75,
+      "numLines": 75,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.556,
+        "sentiment": 0.419
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "冯显",
+      "short": "冯显",
+      "key": "冯显",
+      "quote": "冯显 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "熊虎",
+      "short": "熊虎",
+      "key": "熊虎",
+      "quote": "熊虎 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "韩守义",
+      "short": "韩守",
+      "key": "韩守义",
+      "quote": "韩守义 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四丑院子",
+      "short": "四丑",
+      "key": "四丑院子",
+      "quote": "四丑院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丑院子甲",
+      "short": "丑院",
+      "key": "丑院子甲",
+      "quote": "丑院子甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -17,9 +17,9 @@ from sklearn.metrics import silhouette_score
 from scipy.spatial.distance import cdist
 from collections import Counter, defaultdict
 
-INPUT_PATH = "/workspace/HumanVIZ/data/structural_fingerprints.json"
-OUTPUT_CLUSTER = "/workspace/HumanVIZ/data/clustering_results.json"
-OUTPUT_TYPICAL = "/workspace/HumanVIZ/data/typical_scripts.json"
+INPUT_PATH = "/workspace/HumanVIZ/data/processed/structural_fingerprints.json"
+OUTPUT_CLUSTER = "/workspace/HumanVIZ/data/processed/clustering_results.json"
+OUTPUT_TYPICAL = "/workspace/HumanVIZ/data/processed/typical_scripts.json"
 
 CLUSTER_FEATURES = [
     'scene_count', 'avg_lines_per_scene', 'scene_lines_cv',

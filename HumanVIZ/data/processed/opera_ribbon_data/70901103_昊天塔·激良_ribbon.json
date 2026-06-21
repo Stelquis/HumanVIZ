@@ -1,0 +1,358 @@
+{
+  "title": "昊天塔·激良",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70901103_昊天塔·激良.json",
+  "source_folder": "70901000",
+  "plot_summary": "《激良》即《昊天塔》之第二折。写杨继业被番兵困在两狼山虎口交牙峪，后撞李陵碑而死，幽魂乃托梦于\n其子六郎杨延昭。杨延昭惊醒后，将梦中之事向排军岳胜诉说，并用激将法激恼孟良。二人遂同闯敌阵，去\n昊天塔盗取杨继业骨殖。",
+  "performance_notes": "《昊天塔》杂剧，正名《昊天塔孟良盗骨殖》，全四折。元朱凯（一曰无名氏）撰。取材于宋代杨家将故事。\n写宋、辽交兵之际，老将杨继业被辽兵围困，撞死在李陵碑下，杨七郎亦阵亡。杨继业尸身被吊在昊天寺\n塔尖上，每日一百个辽兵，轮番射三箭。杨继业及七郎二人魂灵不散，托梦给杨延昭以夺回骨殖。后六郎用\n激将法激恼孟良去盗骨。于归途中被追兵冲散，六郎逃到五台山，巧遇在此出家的杨五郎，兄弟难中相遇，\n悲痛万分。六郎将盗取父亲骨殖之事细诉一遍，五郎愤极，此时，追兵已到，二人合力击退了辽兵。六郎归\n去，五郎仍留五台山为僧。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 26,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.503,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "岳胜": 1,
+        "中军": 1,
+        "孟良": 1,
+        "杨延昭": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "岳胜",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "岳胜",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "孟良",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "岳胜",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 122,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "岳胜": 1,
+        "中军": 1,
+        "孟良": 1,
+        "杨延昭": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "孟良",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "岳胜",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "岳胜",
+          "value": 1
+        },
+        {
+          "source": "岳胜",
+          "target": "杨延昭",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.135,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "岳胜": 1,
+        "孟良": 1,
+        "杨延昭": 1
+      },
+      "links": [
+        {
+          "source": "岳胜",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "岳胜",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨延昭",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "昨夜分明见严亲，休言梦里是非真。我今不把冤仇报，枉为英雄一世人。",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "中军",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "岳胜告进。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "岳胜",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "元帅在上，岳胜打恭。",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "孟良",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：4位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.851,
+        "conflict": 0.69,
+        "sentiment": 0.402
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孟良",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "伽山太保显英豪，昼夜巡边不惮劳。饶尔番兵千百万，撞着咱，胆战魂魄消。",
+          "rating": 0.429,
+          "role": "净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "孟将军回来了，巡查界河多有辛苦。",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哪个在此杀人？",
+          "rating": -0.111,
+          "role": "武生"
+        },
+        {
+          "name": "岳胜",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "岂敢无礼！",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第2场：4位角色，122行",
+      "firstLine": 1,
+      "lastLine": 122,
+      "numLines": 122,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.375,
+        "sentiment": 0.196
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "岳胜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "孟良此去必然成功。",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "正是：",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "孟良",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第3场：3位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.741,
+        "conflict": 0.0,
+        "sentiment": 0.587
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孟良",
+      "short": "孟良",
+      "key": "孟良",
+      "quote": "孟良 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨延昭",
+      "short": "杨延",
+      "key": "杨延昭",
+      "quote": "杨延昭 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "岳胜",
+      "short": "岳胜",
+      "key": "岳胜",
+      "quote": "岳胜 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

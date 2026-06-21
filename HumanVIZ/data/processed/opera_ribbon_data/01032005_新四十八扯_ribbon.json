@@ -1,0 +1,238 @@
+{
+  "title": "新四十八扯",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 2,
+  "num_locations": 2,
+  "source_file": "01032005_新四十八扯.json",
+  "source_folder": "01000000",
+  "plot_summary": "",
+  "performance_notes": "《十八扯》一戏，虽是拉杂演唱，然亦颇不寻常。盖生旦净丑，各种唱调皆全，故向来脍炙人口，每受社会\n欢迎。然各家脚本，初无一定，因此戏本之自由唱奏，故名角多随意增删。此《新四十八扯》，系最近北京\n某艺员新编之本，所收各剧，皆以前人缺憾事翻案，故甚有兴趣，能使人耳目一新。洵非胸无点墨者，所能\n杂凑而成也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 40,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.925,
+      "locations": {
+        "叹廊庙": 1
+      },
+      "characters": {
+        "赵瑶颜": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.416,
+      "locations": {
+        "叹廊庙": 1
+      },
+      "characters": {
+        "赵瑶颜": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.393,
+      "locations": {
+        "叹廊庙": 1
+      },
+      "characters": {
+        "赵晃": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 98,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "楚国御皇阁": 1
+      },
+      "characters": {
+        "赵瑶颜": 1,
+        "赵晃": 1
+      },
+      "links": [
+        {
+          "source": "赵晃",
+          "target": "赵瑶颜",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "叹廊庙",
+      "characters": [
+        {
+          "name": "赵瑶颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "见坟台不由得孤泪如雨下，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：1位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.689,
+        "conflict": 1.0,
+        "sentiment": 0.009
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "叹廊庙",
+      "characters": [
+        {
+          "name": "赵瑶颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "叹高皇创汉业太平天下，",
+          "rating": -0.2,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：1位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.612,
+        "conflict": 0.0,
+        "sentiment": 0.06
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "叹廊庙",
+      "characters": [
+        {
+          "name": "赵晃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "你看这天，天道昏聩无昏晓，",
+          "rating": -0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第3场：1位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.609,
+        "conflict": 1.0,
+        "sentiment": 0.12
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "楚国御皇阁",
+      "characters": [
+        {
+          "name": "赵瑶颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "豪杰打马奔东吴，",
+          "rating": -0.111,
+          "role": "旦"
+        },
+        {
+          "name": "赵晃",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "春雨连绵，叹无衣，埋怨苍天。",
+          "rating": -0.2,
+          "role": "丑"
+        }
+      ],
+      "summary": "第4场：2位角色，98行",
+      "firstLine": 1,
+      "lastLine": 98,
+      "numLines": 98,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.584,
+        "sentiment": 0.06
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵瑶颜",
+      "short": "赵瑶",
+      "key": "赵瑶颜",
+      "quote": "赵瑶颜 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "赵晃",
+      "short": "赵晃",
+      "key": "赵晃",
+      "quote": "赵晃 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "叹廊庙",
+      "key": "叹廊庙",
+      "quote": "场景发生在叹廊庙"
+    },
+    {
+      "name": "楚国御皇阁",
+      "key": "楚国御皇阁",
+      "quote": "场景发生在楚国御皇阁"
+    }
+  ]
+}

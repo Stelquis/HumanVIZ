@@ -1,0 +1,228 @@
+{
+  "title": "武家坡",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "70006106_武家坡.json",
+  "source_folder": "70006000",
+  "plot_summary": "薛平贵归家，遇王宝钏于武家坡前，夫妻相别十八年，王宝钏已不识薛平贵。薛平贵假问路以试其心，王宝\n钏逃回窑，薛平贵赶至，直告己名及别后经历，夫妻相认。",
+  "performance_notes": "这个剧本是在钱培荣手抄余派戏词（不含配角唱念）的基础上，由李炳莘对照孟小冬说戏录音进行校核，并\n请范石人对配角的唱念进行修订，最终订稿。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 260,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "大嫂": 1,
+        "薛平贵": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "大嫂",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "大嫂",
+          "target": "王宝钏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 162,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛平贵": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.014,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "薛平贵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一马离了西凉界，",
+          "rating": -0.059,
+          "role": "老生"
+        },
+        {
+          "name": "大嫂",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "请了，军爷敢是失迷路途？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "怎么？",
+          "rating": 0.125,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：3位角色，260行",
+      "firstLine": 1,
+      "lastLine": 260,
+      "numLines": 260,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.232,
+        "sentiment": 0.172
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "薛平贵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哈哈……",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走啊！",
+          "rating": -0.2,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：2位角色，162行",
+      "firstLine": 1,
+      "lastLine": 162,
+      "numLines": 162,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.929,
+        "conflict": 0.115,
+        "sentiment": 0.213
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第3场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.003,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛平贵",
+      "short": "薛平",
+      "key": "薛平贵",
+      "quote": "薛平贵 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "大嫂",
+      "short": "大嫂",
+      "key": "大嫂",
+      "quote": "大嫂 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

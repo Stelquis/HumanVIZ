@@ -1,0 +1,890 @@
+{
+  "title": "洪羊洞",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 10,
+  "num_characters": 11,
+  "num_locations": 3,
+  "source_file": "01001002_洪羊洞.json",
+  "source_folder": "01000000",
+  "plot_summary": "北宋，杨继业撞碑后，遗骸藏于洪羊洞中。杨继业托梦杨延昭，嘱其取回。杨延昭乃命孟良往取。焦赞耻不\n被命，乃瞒过杨延昭，暗随孟良。孟良至洪羊洞，正欲取骨，觉后有人声，疑是番将，黑暗中急以大斧砍之，\n焦赞竟死。孟良忽疑被砍者哀声不类番将，急将尸身抬出，于月光中细察之，则焦赞也。孟良念结义之情，\n悲痛引咎，誓不独生，乃以杨继业遗骨，付于降番之宋兵，嘱其逃回，交付杨元帅，孟良即自刎。杨延昭\n得信，惊悼成疾，将星现于郊外，被八贤王赵德芳是射，遂至不起。",
+  "performance_notes": "因杨延昭将星为赵德芳所射，故剧中赵德芳探病时，杨延昭万分惊骇，剧中有“你、你、你，你不该放雕翎\n射我的前心”句，一连几个“你”字，极难顿挫。贵俊卿演此剧，唱“洪羊洞”之“洞”字，调最佳。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 64,
+      "summary": "第一场；第二场",
+      "conflict": 0.403,
+      "importance": 0.882,
+      "locations": {
+        "免去到宋营": 1,
+        "在郡马府": 1
+      },
+      "characters": {
+        "孟良": 1,
+        "杨继业": 1,
+        "杨延昭": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "杨延昭",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "家院",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 29,
+      "summary": "第三场；第四场",
+      "conflict": 0.557,
+      "importance": 0.399,
+      "locations": {
+        "在郡马府": 2
+      },
+      "characters": {
+        "孟良": 1,
+        "焦赞": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "家院",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 34,
+      "summary": "第五场；第六场",
+      "conflict": 0.578,
+      "importance": 0.468,
+      "locations": {
+        "在郡马府": 2
+      },
+      "characters": {
+        "孟良": 1,
+        "焦赞": 1,
+        "程宣": 1
+      },
+      "links": [
+        {
+          "source": "孟良",
+          "target": "程宣",
+          "value": 1
+        },
+        {
+          "source": "焦赞",
+          "target": "程宣",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "焦赞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 114,
+      "summary": "第七场；第八场",
+      "conflict": 0.017,
+      "importance": 1.0,
+      "locations": {
+        "在郡马府": 2
+      },
+      "characters": {
+        "杨延昭": 1,
+        "焦赞": 1,
+        "家院": 1,
+        "孟良": 1,
+        "程宣": 1
+      },
+      "links": [
+        {
+          "source": "孟良",
+          "target": "焦赞",
+          "value": 2
+        },
+        {
+          "source": "孟良",
+          "target": "程宣",
+          "value": 2
+        },
+        {
+          "source": "焦赞",
+          "target": "程宣",
+          "value": 2
+        },
+        {
+          "source": "家院",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "程宣",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "程宣",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "家院",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 122,
+      "summary": "第九场；第十场",
+      "conflict": 0.539,
+      "importance": 1.0,
+      "locations": {
+        "在郡马府": 2
+      },
+      "characters": {
+        "赵德芳": 1,
+        "杨延昭": 1,
+        "杨宗保": 1,
+        "佘太君": 1,
+        "柴夫人": 1,
+        "孟良": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "大太监",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "杨宗保",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "柴夫人",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨宗保",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "柴夫人",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "杨宗保",
+          "value": 1
+        },
+        {
+          "source": "杨宗保",
+          "target": "柴夫人",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨宗保",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "柴夫人",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "孟良",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "柴夫人",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "免去到宋营",
+      "characters": [
+        {
+          "name": "杨继业",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "在生为大将，死后作忠魂。",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第一场：1位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.13,
+        "conflict": 0.0,
+        "sentiment": 0.193
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "在郡马府",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "为国家哪何曾半日闲空，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "杨继业",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "听谯楼打罢了三更时分，",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "家院",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "元帅醒来。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "孟良",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "不听皇王诏宣，单听杨家令传。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：4位角色，51行",
+      "firstLine": 1,
+      "lastLine": 51,
+      "numLines": 51,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.7,
+        "conflict": 0.404,
+        "sentiment": 0.596
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "在郡马府",
+      "characters": [
+        {
+          "name": "焦赞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "事不关心，关心则乱。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "家院",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忙将机密事，报与老爷知。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "孟良",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：3位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.523,
+        "conflict": 0.476,
+        "sentiment": 0.383
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "在郡马府",
+      "characters": [
+        {
+          "name": "孟良",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "元帅昨晚得一梦，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.493,
+        "conflict": 0.0,
+        "sentiment": 0.94
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "在郡马府",
+      "characters": [
+        {
+          "name": "焦赞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "宋王爷坐江山风调雨顺，",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.493,
+        "conflict": 0.0,
+        "sentiment": 0.94
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "在郡马府",
+      "characters": [
+        {
+          "name": "程宣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "生在南朝长在番，思想故土难得还。老母望儿不能见，儿想老母难上难。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "孟良",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "呔！你可是奸细？",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "呔！可曾看见一红脸大汉过去？",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：3位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.56,
+        "conflict": 0.952,
+        "sentiment": 0.362
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "在郡马府",
+      "characters": [
+        {
+          "name": "孟良",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "北国有个洪羊洞，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "后面来了焦克明。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "程宣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "二爷可曾看见一黑脸大汉？",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第七场：3位角色，54行",
+      "firstLine": 1,
+      "lastLine": 54,
+      "numLines": 54,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.667,
+        "conflict": 0.583,
+        "sentiment": 0.291
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "在郡马府",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "孟良盗骨无音信，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "少站一时。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "程宣",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "是。元帅在哪里，元帅在哪里？",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "孟良",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第八场：5位角色，60行",
+      "firstLine": 1,
+      "lastLine": 60,
+      "numLines": 60,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.286,
+        "sentiment": 0.274
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "在郡马府",
+      "characters": [
+        {
+          "name": "赵德芳",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "驾坐清宫，听笙歌，一派嘹亮。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "大太监",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "御林军走上。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第九场：2位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.208,
+        "conflict": 0.0,
+        "sentiment": -0.396
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "在郡马府",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "搀扶了。",
+          "rating": 0.167,
+          "role": "老生"
+        },
+        {
+          "name": "赵德芳",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来至在郡马府忙下金镫，",
+          "rating": -0.5,
+          "role": "老生"
+        },
+        {
+          "name": "杨宗保",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "迎接千岁。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "佘太君",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "听说宗保一声请，",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "柴夫人",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "急忙上前问分明。",
+          "rating": -1.0,
+          "role": "正旦"
+        },
+        {
+          "name": "孟良",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十场：6位角色，103行",
+      "firstLine": 1,
+      "lastLine": 103,
+      "numLines": 103,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.767,
+        "conflict": 0.216,
+        "sentiment": 0.143
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨延昭",
+      "short": "杨延",
+      "key": "杨延昭",
+      "quote": "杨延昭 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "孟良",
+      "short": "孟良",
+      "key": "孟良",
+      "quote": "孟良 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "焦赞",
+      "short": "焦赞",
+      "key": "焦赞",
+      "quote": "焦赞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "程宣",
+      "short": "程宣",
+      "key": "程宣",
+      "quote": "程宣 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "赵德芳",
+      "short": "赵德",
+      "key": "赵德芳",
+      "quote": "赵德芳 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨继业",
+      "short": "杨继",
+      "key": "杨继业",
+      "quote": "杨继业 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨宗保",
+      "short": "杨宗",
+      "key": "杨宗保",
+      "quote": "杨宗保 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "佘太君",
+      "short": "佘太",
+      "key": "佘太君",
+      "quote": "佘太君 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "柴夫人",
+      "short": "柴夫",
+      "key": "柴夫人",
+      "quote": "柴夫人 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "在郡马府",
+      "key": "在郡马府",
+      "quote": "场景发生在在郡马府"
+    },
+    {
+      "name": "免去到宋营",
+      "key": "免去到宋营",
+      "quote": "场景发生在免去到宋营"
+    },
+    {
+      "name": "他命丧番营",
+      "key": "他命丧番营",
+      "quote": "场景发生在他命丧番营"
+    }
+  ]
+}

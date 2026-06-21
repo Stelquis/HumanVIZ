@@ -1,0 +1,677 @@
+{
+  "title": "临江会",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 11,
+  "num_locations": 1,
+  "source_file": "70003120_临江会.json",
+  "source_folder": "70003000",
+  "plot_summary": "诸葛亮既至江东，助周瑜起兵拒曹。刘备因无消息，特遣糜竺前往，以犒军为名，暗中探听诸葛亮消息。不\n意周瑜反乘机诱请刘备过江宴叙，暗伏刀斧手于两厢，拟以掷杯为号，出擒刘备。孰意刘备虽惠然肯来，却\n有关羽戎装紧随，不离一步。周瑜方传杯，忽瞥见关羽按剑而立，怒容满面，凛凛不可犯。时周瑜尚未识关\n羽也。问之刘备，始知即过五关、斩颜良、诛文丑之关云长。周瑜乃大惊，汗流浃背，遂不敢实行，刘备始\n得安然而返。先是诸葛亮在外，得知刘备为周瑜骗过江东，大骇，急往都督府探视，见两厢虽伏刀斧手，然\n有关羽在，必无妨也，遂出。先至刘备来船中伺候，及刘备返舟，诸葛亮告知其意，刘备回忆前宴，始惊诧\n不定。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 54,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.616,
+      "locations": {
+        "东吴临江亭": 1
+      },
+      "characters": {
+        "船夫": 1,
+        "刘备": 1,
+        "关羽": 1,
+        "周瑜": 1,
+        "糜竺": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "糜竺",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "船夫",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "周瑜",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "糜竺",
+          "value": 1
+        },
+        {
+          "source": "糜竺",
+          "target": "船夫",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "糜竺",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "船夫",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "周瑜",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "船夫",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 25,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.285,
+      "locations": {
+        "东吴临江亭": 1
+      },
+      "characters": {
+        "旗牌": 1,
+        "刘备": 1,
+        "关羽": 1,
+        "周瑜": 1,
+        "四龙套": 1
+      },
+      "links": [
+        {
+          "source": "周瑜",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "周瑜",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "周瑜",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 184,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "东吴临江亭": 1
+      },
+      "characters": {
+        "旗牌": 1,
+        "四红龙套": 1,
+        "刘备": 1,
+        "鲁肃": 1,
+        "二下书人": 1,
+        "关羽": 1,
+        "周瑜": 1,
+        "诸葛亮": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "周瑜",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "四红龙套",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "周瑜",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "二下书人",
+          "target": "周瑜",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "四红龙套",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "二下书人",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "二下书人",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "四红龙套",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "二下书人",
+          "target": "四红龙套",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "二下书人",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "二下书人",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "二下书人",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "东吴临江亭",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "糜子仲奉命东吴去了，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "糜竺",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "奉命东吴将军犒，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "住者！",
+          "rating": 1.0,
+          "role": "红生"
+        },
+        {
+          "name": "船夫",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "与主公叩头。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周瑜",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：5位角色，54行",
+      "firstLine": 1,
+      "lastLine": 54,
+      "numLines": 54,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.95,
+        "conflict": 0.177,
+        "sentiment": 0.389
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "东吴临江亭",
+      "characters": [
+        {
+          "name": "周瑜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "计就月中擒玉兔，谋成海底捉金鳌。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启禀都督：刘皇叔到。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘备",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "备过江来了。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第二场：5位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.821,
+        "conflict": 0.0,
+        "sentiment": 0.765
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "东吴临江亭",
+      "characters": [
+        {
+          "name": "周瑜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "皇叔请来上坐，待瑜大礼参拜。",
+          "rating": 0.429,
+          "role": "小生"
+        },
+        {
+          "name": "刘备",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "不敢，不敢，你我分宾主而坐。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "宴齐。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "四红龙套",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "做什么？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "酒放下，肴撤去！",
+          "rating": 1.0,
+          "role": "红生"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "正在舟中童儿报，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "negative",
+          "quote": "再与孔明把话交。",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "二下书人",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "与都督叩头。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：8位角色，184行",
+      "firstLine": 1,
+      "lastLine": 184,
+      "numLines": 184,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.451,
+        "sentiment": 0.284
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周瑜",
+      "short": "周瑜",
+      "key": "周瑜",
+      "quote": "周瑜 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "鲁肃",
+      "short": "鲁肃",
+      "key": "鲁肃",
+      "quote": "鲁肃 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "船夫",
+      "short": "船夫",
+      "key": "船夫",
+      "quote": "船夫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四红龙套",
+      "short": "四红",
+      "key": "四红龙套",
+      "quote": "四红龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二下书人",
+      "short": "二下",
+      "key": "二下书人",
+      "quote": "二下书人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "糜竺",
+      "short": "糜竺",
+      "key": "糜竺",
+      "quote": "糜竺 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "东吴临江亭",
+      "key": "东吴临江亭",
+      "quote": "场景发生在东吴临江亭"
+    }
+  ]
+}

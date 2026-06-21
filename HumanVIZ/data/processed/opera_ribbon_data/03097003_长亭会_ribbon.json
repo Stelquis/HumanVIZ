@@ -1,0 +1,236 @@
+{
+  "title": "长亭会",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "03097003_长亭会.json",
+  "source_folder": "03000000",
+  "plot_summary": "春秋时期，申包胥与好友伍员同在楚国为臣。伍员之父伍奢因向楚平王进谏，被奸臣费无极陷害，与长子伍\n尚一同被杀害。楚平王下令捉拿伍员。伍员逃亡途中与催贡回朝的申包胥相遇于长亭，向其诉说冤屈。申包\n胥力劝伍员放弃前嫌。伍员不听，立誓要报父兄被杀之仇。申包胥放伍员逃走。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.373,
+      "locations": {
+        "旨意出朝堂": 1
+      },
+      "characters": {
+        "中军": 1,
+        "申包胥": 1,
+        "八龙套": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "申包胥",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "八龙套",
+          "value": 1
+        },
+        {
+          "source": "八龙套",
+          "target": "申包胥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 61,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "喜逃出樊城": 1
+      },
+      "characters": {
+        "伍员": 1,
+        "申包胥": 1,
+        "八龙套": 1
+      },
+      "links": [
+        {
+          "source": "伍员",
+          "target": "申包胥",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "八龙套",
+          "value": 1
+        },
+        {
+          "source": "八龙套",
+          "target": "申包胥",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "旨意出朝堂",
+      "characters": [
+        {
+          "name": "中军",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "申包胥",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "奉旨出朝，地动山摇，催贡到，本奏当朝，要把狼烟扫。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "八龙套",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.612,
+        "conflict": 0.588,
+        "sentiment": 0.764
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "喜逃出樊城",
+      "characters": [
+        {
+          "name": "伍员",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住，且喜逃出樊城，看那旁旌旗飘摇，上面写着斗大“申”字，想必是申包",
+          "rating": 0.25,
+          "role": "老生"
+        },
+        {
+          "name": "申包胥",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "前道为何不行？",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "八龙套",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有人挡道。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，61行",
+      "firstLine": 1,
+      "lastLine": 61,
+      "numLines": 61,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.444,
+        "sentiment": 0.328
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "伍员",
+      "short": "伍员",
+      "key": "伍员",
+      "quote": "伍员 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "申包胥",
+      "short": "申包",
+      "key": "申包胥",
+      "quote": "申包胥 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八龙套",
+      "short": "八龙",
+      "key": "八龙套",
+      "quote": "八龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "喜逃出樊城",
+      "key": "喜逃出樊城",
+      "quote": "场景发生在喜逃出樊城"
+    },
+    {
+      "name": "旨意出朝堂",
+      "key": "旨意出朝堂",
+      "quote": "场景发生在旨意出朝堂"
+    }
+  ]
+}

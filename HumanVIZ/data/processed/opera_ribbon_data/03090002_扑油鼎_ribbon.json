@@ -1,0 +1,574 @@
+{
+  "title": "扑油鼎",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "03090002_扑油鼎.json",
+  "source_folder": "03000000",
+  "plot_summary": "曹丕联合五路兵马侵蜀。诸葛亮遣邓芝赴吴修好，孙权设油鼎以试邓芝。邓芝以利害说服孙权。",
+  "performance_notes": "此剧与《安居平五路》内《扑油鼎》不同，一并刊载，以供参考。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 111,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.974,
+      "importance": 0.917,
+      "locations": {
+        "下场门拉城": 3
+      },
+      "characters": {
+        "报子": 1,
+        "四将官": 1,
+        "琴童甲": 1,
+        "张昭": 1,
+        "家将": 1,
+        "孙权": 1,
+        "四太监": 1,
+        "诸葛亮": 1,
+        "邓芝": 1
+      },
+      "links": [
+        {
+          "source": "琴童甲",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "诸葛亮",
+          "value": 2
+        },
+        {
+          "source": "琴童甲",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "琴童甲",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "张昭",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "四将官",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "张昭",
+          "value": 1
+        },
+        {
+          "source": "四将官",
+          "target": "张昭",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四将官",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "四将官",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "四将官",
+          "target": "诸葛亮",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 131,
+      "summary": "第四场；第五场",
+      "conflict": 0.186,
+      "importance": 1.0,
+      "locations": {
+        "下场门拉城": 2
+      },
+      "characters": {
+        "张昭": 1,
+        "四校尉": 1,
+        "邓芝": 1,
+        "孙权": 1
+      },
+      "links": [
+        {
+          "source": "张昭",
+          "target": "邓芝",
+          "value": 2
+        },
+        {
+          "source": "孙权",
+          "target": "张昭",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "张昭",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "邓芝",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "下场门拉城",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "安居平五路，报先主，口诏托孤。",
+          "rating": 0.75,
+          "role": "老生"
+        },
+        {
+          "name": "琴童甲",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有请邓先生！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "邓芝",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "孙权",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：4位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.875,
+        "conflict": 0.732,
+        "sentiment": 0.551
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "下场门拉城",
+      "characters": [
+        {
+          "name": "邓芝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "下官，邓芝。官居户部尚书之职。奉了丞相之命，顺说吴侯。来此江边。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "家将",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.456,
+        "conflict": 0.769,
+        "sentiment": -0.423
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "下场门拉城",
+      "characters": [
+        {
+          "name": "孙权",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "虎踞江东九州郡，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "张昭",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "曹丕中原篡汉鼎，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "报子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "报！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "四太监",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "千岁有旨：众将上殿！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四将官",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：6位角色，49行",
+      "firstLine": 1,
+      "lastLine": 49,
+      "numLines": 49,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.749,
+        "conflict": 0.6,
+        "sentiment": 0.185
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "下场门拉城",
+      "characters": [
+        {
+          "name": "邓芝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "马来！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "张昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来者何人？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.452,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "下场门拉城",
+      "characters": [
+        {
+          "name": "孙权",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "设下牢笼计，使臣魂魄消！",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "张昭",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "使臣邓芝，在午门候旨。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "邓芝",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "四校尉",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：4位角色，117行",
+      "firstLine": 1,
+      "lastLine": 117,
+      "numLines": 117,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.383,
+        "sentiment": 0.366
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "邓芝",
+      "short": "邓芝",
+      "key": "邓芝",
+      "quote": "邓芝 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "孙权",
+      "short": "孙权",
+      "key": "孙权",
+      "quote": "孙权 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四将官",
+      "short": "四将",
+      "key": "四将官",
+      "quote": "四将官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "琴童甲",
+      "short": "琴童",
+      "key": "琴童甲",
+      "quote": "琴童甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张昭",
+      "short": "张昭",
+      "key": "张昭",
+      "quote": "张昭 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家将",
+      "short": "家将",
+      "key": "家将",
+      "quote": "家将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四校尉",
+      "short": "四校",
+      "key": "四校尉",
+      "quote": "四校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四太监",
+      "short": "四太",
+      "key": "四太监",
+      "quote": "四太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "下场门拉城",
+      "key": "下场门拉城",
+      "quote": "场景发生在下场门拉城"
+    }
+  ]
+}

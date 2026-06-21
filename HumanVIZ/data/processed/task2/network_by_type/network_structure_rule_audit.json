@@ -1,0 +1,5274 @@
+{
+  "meta": {
+    "step": "5.5B",
+    "generated_at": "2026-06-06T16:43:04.490315",
+    "description": "规则抽样审计 — 每类标签抽样检查，供人工验证",
+    "sample_size_per_label": 20,
+    "random_seed": 42
+  },
+  "audit": {
+    "分散型": {
+      "total": 1007,
+      "sampled": 20,
+      "cases": [
+        {
+          "entity_id": 6880,
+          "title": "四平山",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.154, ratio=1.22, dc=0.548, t3s=0.231, anc=25, gap23=0.115, mmr=2.50)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 119,
+            "node_count": 27,
+            "active_node_ratio": 0.925926,
+            "largest_component_ratio": 0.925926,
+            "top1_top2_gap": 0.153846,
+            "top1_top2_ratio": 1.2222,
+            "degree_centralization": 0.547692,
+            "top3_centrality_share": 0.231092
+          },
+          "top_characters": [
+            {
+              "name": "李元霸",
+              "role_type": "武生",
+              "deg": 0.846154
+            },
+            {
+              "name": "尤俊达",
+              "role_type": "",
+              "deg": 0.692308
+            },
+            {
+              "name": "李如珪",
+              "role_type": "",
+              "deg": 0.576923
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "阵营对立",
+            "weight": 0.842947
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6064,
+          "title": "打銮驾",
+          "play_type": "公案戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.000, ratio=1.00, dc=0.250, t3s=0.750, anc=4, gap23=0.000, mmr=1.25)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 6,
+            "node_count": 5,
+            "active_node_ratio": 0.8,
+            "largest_component_ratio": 0.8,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.25,
+            "top3_centrality_share": 0.75
+          },
+          "top_characters": [
+            {
+              "name": "包拯",
+              "role_type": "净",
+              "deg": 0.75
+            },
+            {
+              "name": "马妃",
+              "role_type": "旦",
+              "deg": 0.75
+            },
+            {
+              "name": "王朝",
+              "role_type": "",
+              "deg": 0.75
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.605
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5933,
+          "title": "群英会（一名：蒋干中计）",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.059, ratio=1.09, dc=0.375, t3s=0.298, anc=14, gap23=0.000, mmr=1.89)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 57,
+            "node_count": 18,
+            "active_node_ratio": 0.777778,
+            "largest_component_ratio": 0.777778,
+            "top1_top2_gap": 0.058824,
+            "top1_top2_ratio": 1.0909,
+            "degree_centralization": 0.375,
+            "top3_centrality_share": 0.298246
+          },
+          "top_characters": [
+            {
+              "name": "蒋干",
+              "role_type": "丑",
+              "deg": 0.705882
+            },
+            {
+              "name": "诸葛亮",
+              "role_type": "老生",
+              "deg": 0.647059
+            },
+            {
+              "name": "鲁肃",
+              "role_type": "老生",
+              "deg": 0.647059
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "阵营对立",
+            "weight": 0.605203
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7020,
+          "title": "香莲帕",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.067, ratio=1.19, dc=0.309, t3s=0.151, anc=53, gap23=0.033, mmr=3.55)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 215,
+            "node_count": 61,
+            "active_node_ratio": 0.868852,
+            "largest_component_ratio": 0.836066,
+            "top1_top2_gap": 0.066667,
+            "top1_top2_ratio": 1.1905,
+            "degree_centralization": 0.309322,
+            "top3_centrality_share": 0.151163
+          },
+          "top_characters": [
+            {
+              "name": "李良",
+              "role_type": "",
+              "deg": 0.416667
+            },
+            {
+              "name": "李泰",
+              "role_type": "老生",
+              "deg": 0.35
+            },
+            {
+              "name": "徐延昭",
+              "role_type": "净",
+              "deg": 0.316667
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 0.773706
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6352,
+          "title": "孝感天",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.053, ratio=1.08, dc=0.298, t3s=0.234, anc=14, gap23=0.000, mmr=1.65)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 79,
+            "node_count": 20,
+            "active_node_ratio": 0.7,
+            "largest_component_ratio": 0.7,
+            "top1_top2_gap": 0.052632,
+            "top1_top2_ratio": 1.0833,
+            "degree_centralization": 0.298246,
+            "top3_centrality_share": 0.234177
+          },
+          "top_characters": [
+            {
+              "name": "共叔段",
+              "role_type": "小生",
+              "deg": 0.684211
+            },
+            {
+              "name": "寤生",
+              "role_type": "老生",
+              "deg": 0.631579
+            },
+            {
+              "name": "武姜",
+              "role_type": "老旦",
+              "deg": 0.631579
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "兄弟",
+            "weight": 0.635
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6314,
+          "title": "三字经",
+          "play_type": "技法展示戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.000, ratio=1.00, dc=0.333, t3s=1.000, anc=3, gap23=0.000, mmr=1.33)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 3,
+            "node_count": 4,
+            "active_node_ratio": 0.75,
+            "largest_component_ratio": 0.75,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.333333,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "罗英",
+              "role_type": "老生",
+              "deg": 0.666667
+            },
+            {
+              "name": "温韬",
+              "role_type": "净",
+              "deg": 0.666667
+            },
+            {
+              "name": "关卞",
+              "role_type": "丑",
+              "deg": 0.666667
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "其他同盟",
+            "weight": 0.651651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6280,
+          "title": "选元戎",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.062, ratio=1.08, dc=0.446, t3s=0.325, anc=15, gap23=0.000, mmr=1.94)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 57,
+            "node_count": 17,
+            "active_node_ratio": 0.882353,
+            "largest_component_ratio": 0.882353,
+            "top1_top2_gap": 0.0625,
+            "top1_top2_ratio": 1.0833,
+            "degree_centralization": 0.445833,
+            "top3_centrality_share": 0.324561
+          },
+          "top_characters": [
+            {
+              "name": "詹龙",
+              "role_type": "净",
+              "deg": 0.8125
+            },
+            {
+              "name": "程咬金",
+              "role_type": "丑",
+              "deg": 0.75
+            },
+            {
+              "name": "唐王",
+              "role_type": "老生",
+              "deg": 0.75
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.839737
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6128,
+          "title": "临潼山",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.231, ratio=1.60, dc=0.513, t3s=0.500, anc=9, gap23=0.154, mmr=3.50)"
+          ],
+          "secondary_flags": [
+            "单核心倾向 (gap=0.231, dc=0.513)"
+          ],
+          "key_metrics": {
+            "edge_count": 16,
+            "node_count": 14,
+            "active_node_ratio": 0.642857,
+            "largest_component_ratio": 0.642857,
+            "top1_top2_gap": 0.230769,
+            "top1_top2_ratio": 1.6,
+            "degree_centralization": 0.512821,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "李渊",
+              "role_type": "老生",
+              "deg": 0.615385
+            },
+            {
+              "name": "李母",
+              "role_type": "老旦",
+              "deg": 0.384615
+            },
+            {
+              "name": "杨广",
+              "role_type": "净",
+              "deg": 0.230769
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "母子",
+            "weight": 0.994
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7015,
+          "title": "五彩舆",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.150, ratio=1.30, dc=0.415, t3s=0.158, anc=33, gap23=0.000, mmr=2.55)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 209,
+            "node_count": 41,
+            "active_node_ratio": 0.804878,
+            "largest_component_ratio": 0.804878,
+            "top1_top2_gap": 0.15,
+            "top1_top2_ratio": 1.3,
+            "degree_centralization": 0.415385,
+            "top3_centrality_share": 0.157895
+          },
+          "top_characters": [
+            {
+              "name": "冯莲芳",
+              "role_type": "旦",
+              "deg": 0.65
+            },
+            {
+              "name": "班头甲",
+              "role_type": "",
+              "deg": 0.5
+            },
+            {
+              "name": "张月娇",
+              "role_type": "",
+              "deg": 0.5
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 0.5
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6052,
+          "title": "马上缘（一名：樊江关）",
+          "play_type": "爱情戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.000, ratio=1.00, dc=0.351, t3s=0.292, anc=16, gap23=0.053, mmr=2.00)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 60,
+            "node_count": 20,
+            "active_node_ratio": 0.8,
+            "largest_component_ratio": 0.8,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.350877,
+            "top3_centrality_share": 0.291667
+          },
+          "top_characters": [
+            {
+              "name": "薛丁山",
+              "role_type": "小生",
+              "deg": 0.631579
+            },
+            {
+              "name": "程千忠",
+              "role_type": "",
+              "deg": 0.631579
+            },
+            {
+              "name": "樊梨花",
+              "role_type": "旦",
+              "deg": 0.578947
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "同僚",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6933,
+          "title": "五台山（一名：五台会兄）",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.000, ratio=1.00, dc=0.000, t3s=1.000, anc=3, gap23=0.000, mmr=1.00)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 3,
+            "node_count": 3,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "杨五郎",
+              "role_type": "净",
+              "deg": 1.0
+            },
+            {
+              "name": "杨延昭",
+              "role_type": "老生",
+              "deg": 1.0
+            },
+            {
+              "name": "老僧",
+              "role_type": "",
+              "deg": 1.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "兄弟",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7019,
+          "title": "五彩舆",
+          "play_type": "家庭戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.033, ratio=1.05, dc=0.348, t3s=0.161, anc=24, gap23=0.033, mmr=1.74)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 205,
+            "node_count": 31,
+            "active_node_ratio": 0.774194,
+            "largest_component_ratio": 0.774194,
+            "top1_top2_gap": 0.033333,
+            "top1_top2_ratio": 1.0455,
+            "degree_centralization": 0.348276,
+            "top3_centrality_share": 0.160976
+          },
+          "top_characters": [
+            {
+              "name": "冯莲芳",
+              "role_type": "旦",
+              "deg": 0.766667
+            },
+            {
+              "name": "海瑞",
+              "role_type": "老生",
+              "deg": 0.733333
+            },
+            {
+              "name": "戚继光",
+              "role_type": "老生",
+              "deg": 0.7
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "恩人",
+            "weight": 0.955
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7236,
+          "title": "九江口",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.161, ratio=1.38, dc=0.398, t3s=0.214, anc=23, gap23=0.000, mmr=2.80)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 103,
+            "node_count": 32,
+            "active_node_ratio": 0.71875,
+            "largest_component_ratio": 0.71875,
+            "top1_top2_gap": 0.16129,
+            "top1_top2_ratio": 1.3846,
+            "degree_centralization": 0.397849,
+            "top3_centrality_share": 0.213592
+          },
+          "top_characters": [
+            {
+              "name": "华云龙",
+              "role_type": "小生",
+              "deg": 0.580645
+            },
+            {
+              "name": "胡兰",
+              "role_type": "净",
+              "deg": 0.419355
+            },
+            {
+              "name": "徐达",
+              "role_type": "老生",
+              "deg": 0.419355
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "阵营对立",
+            "weight": 0.73869
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6742,
+          "title": "双龙会",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.240, ratio=1.55, dc=0.510, t3s=0.272, anc=22, gap23=0.080, mmr=3.25)"
+          ],
+          "secondary_flags": [
+            "单核心倾向 (gap=0.240, dc=0.510)"
+          ],
+          "key_metrics": {
+            "edge_count": 68,
+            "node_count": 26,
+            "active_node_ratio": 0.846154,
+            "largest_component_ratio": 0.846154,
+            "top1_top2_gap": 0.24,
+            "top1_top2_ratio": 1.5455,
+            "degree_centralization": 0.51,
+            "top3_centrality_share": 0.272059
+          },
+          "top_characters": [
+            {
+              "name": "杨继业",
+              "role_type": "老生",
+              "deg": 0.68
+            },
+            {
+              "name": "潘洪",
+              "role_type": "",
+              "deg": 0.44
+            },
+            {
+              "name": "韩延寿",
+              "role_type": "",
+              "deg": 0.36
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.732824
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6032,
+          "title": "宫门带（一名：十道本章）",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.000, ratio=1.00, dc=0.111, t3s=0.333, anc=9, gap23=0.000, mmr=1.11)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 36,
+            "node_count": 10,
+            "active_node_ratio": 0.9,
+            "largest_component_ratio": 0.9,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.111111,
+            "top3_centrality_share": 0.333333
+          },
+          "top_characters": [
+            {
+              "name": "褚遂良",
+              "role_type": "老生",
+              "deg": 0.888889
+            },
+            {
+              "name": "李渊",
+              "role_type": "老生",
+              "deg": 0.888889
+            },
+            {
+              "name": "李世民",
+              "role_type": "小生",
+              "deg": 0.888889
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "君臣",
+            "weight": 0.824737
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6810,
+          "title": "斩华雄（一名：汜水关）",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.000, ratio=1.00, dc=0.284, t3s=0.141, anc=28, gap23=0.000, mmr=1.55)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 255,
+            "node_count": 33,
+            "active_node_ratio": 0.848485,
+            "largest_component_ratio": 0.848485,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.284274,
+            "top3_centrality_share": 0.141176
+          },
+          "top_characters": [
+            {
+              "name": "孙坚",
+              "role_type": "",
+              "deg": 0.75
+            },
+            {
+              "name": "关羽",
+              "role_type": "红生",
+              "deg": 0.75
+            },
+            {
+              "name": "刘备",
+              "role_type": "生",
+              "deg": 0.75
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 0.5
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6575,
+          "title": "浣花溪",
+          "play_type": "家庭戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.043, ratio=1.06, dc=0.360, t3s=0.217, anc=18, gap23=0.000, mmr=1.81)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 113,
+            "node_count": 24,
+            "active_node_ratio": 0.75,
+            "largest_component_ratio": 0.75,
+            "top1_top2_gap": 0.043478,
+            "top1_top2_ratio": 1.0625,
+            "degree_centralization": 0.359684,
+            "top3_centrality_share": 0.216814
+          },
+          "top_characters": [
+            {
+              "name": "任蓉卿",
+              "role_type": "旦",
+              "deg": 0.73913
+            },
+            {
+              "name": "崔宁",
+              "role_type": "老生",
+              "deg": 0.695652
+            },
+            {
+              "name": "史宪诚",
+              "role_type": "净",
+              "deg": 0.695652
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "夫妻",
+            "weight": 0.825825
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5941,
+          "title": "彩楼配",
+          "play_type": "爱情戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.000, ratio=1.00, dc=0.250, t3s=0.387, anc=9, gap23=0.000, mmr=1.29)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 31,
+            "node_count": 10,
+            "active_node_ratio": 0.9,
+            "largest_component_ratio": 0.9,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.25,
+            "top3_centrality_share": 0.387097
+          },
+          "top_characters": [
+            {
+              "name": "薛平贵",
+              "role_type": "小生",
+              "deg": 0.888889
+            },
+            {
+              "name": "月老",
+              "role_type": "老旦",
+              "deg": 0.888889
+            },
+            {
+              "name": "四游人",
+              "role_type": "",
+              "deg": 0.888889
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "恩人",
+            "weight": 0.681651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5939,
+          "title": "战蒲关（一名：吃人肉）",
+          "play_type": "历史戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.000, ratio=1.00, dc=0.333, t3s=1.000, anc=3, gap23=0.000, mmr=1.67)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 3,
+            "node_count": 5,
+            "active_node_ratio": 0.6,
+            "largest_component_ratio": 0.6,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.333333,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "刘忠",
+              "role_type": "老生",
+              "deg": 0.5
+            },
+            {
+              "name": "王霸",
+              "role_type": "老生",
+              "deg": 0.5
+            },
+            {
+              "name": "徐艳贞",
+              "role_type": "旦",
+              "deg": 0.5
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "将卒",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6038,
+          "title": "锁云囊",
+          "play_type": "侠义戏",
+          "label": "分散型",
+          "reasons": [
+            "不满足以上任何规则 (gap=0.111, ratio=1.14, dc=0.472, t3s=0.457, anc=9, gap23=0.111, mmr=1.74)"
+          ],
+          "secondary_flags": [
+            "双核心倾向 (gap=0.111, gap23=0.111)"
+          ],
+          "key_metrics": {
+            "edge_count": 23,
+            "node_count": 10,
+            "active_node_ratio": 0.9,
+            "largest_component_ratio": 0.9,
+            "top1_top2_gap": 0.111111,
+            "top1_top2_ratio": 1.1429,
+            "degree_centralization": 0.472222,
+            "top3_centrality_share": 0.456522
+          },
+          "top_characters": [
+            {
+              "name": "梅花娘",
+              "role_type": "花旦",
+              "deg": 0.888889
+            },
+            {
+              "name": "花院",
+              "role_type": "丑",
+              "deg": 0.777778
+            },
+            {
+              "name": "朱母",
+              "role_type": "老旦",
+              "deg": 0.666667
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 1.0
+          },
+          "possible_misclassification": ""
+        }
+      ]
+    },
+    "单核心型": {
+      "total": 80,
+      "sampled": 20,
+      "cases": [
+        {
+          "entity_id": 6297,
+          "title": "艾孝子（一名：寻亲奇遇）",
+          "play_type": "家庭戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.286 > 0.25 AND degree_centralization=0.476 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 18,
+            "node_count": 8,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.285714,
+            "top1_top2_ratio": 1.4,
+            "degree_centralization": 0.47619,
+            "top3_centrality_share": 0.472222
+          },
+          "top_characters": [
+            {
+              "name": "艾子诚",
+              "role_type": "小生",
+              "deg": 1.0
+            },
+            {
+              "name": "周仁全",
+              "role_type": "老生",
+              "deg": 0.714286
+            },
+            {
+              "name": "康氏",
+              "role_type": "旦",
+              "deg": 0.714286
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 1.0
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6384,
+          "title": "骂曹饯行",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.286 > 0.25 AND degree_centralization=0.524 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 13,
+            "node_count": 8,
+            "active_node_ratio": 0.875,
+            "largest_component_ratio": 0.875,
+            "top1_top2_gap": 0.285714,
+            "top1_top2_ratio": 1.5,
+            "degree_centralization": 0.52381,
+            "top3_centrality_share": 0.538462
+          },
+          "top_characters": [
+            {
+              "name": "祢衡",
+              "role_type": "老生",
+              "deg": 0.857143
+            },
+            {
+              "name": "荀彧",
+              "role_type": "末",
+              "deg": 0.571429
+            },
+            {
+              "name": "荀攸",
+              "role_type": "小生",
+              "deg": 0.571429
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "阵营对立",
+            "weight": 0.955
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6950,
+          "title": "伐东吴（一名：大报仇）",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_ratio=1.67 > 1.6 AND max_to_mean=3.06 >= 2.5"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 9,
+            "node_count": 11,
+            "active_node_ratio": 0.636364,
+            "largest_component_ratio": 0.636364,
+            "top1_top2_gap": 0.2,
+            "top1_top2_ratio": 1.6667,
+            "degree_centralization": 0.411111,
+            "top3_centrality_share": 0.611111
+          },
+          "top_characters": [
+            {
+              "name": "黄忠",
+              "role_type": "老生",
+              "deg": 0.5
+            },
+            {
+              "name": "刘备",
+              "role_type": "老生",
+              "deg": 0.3
+            },
+            {
+              "name": "张苞",
+              "role_type": "",
+              "deg": 0.3
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "君臣",
+            "weight": 0.839737
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6044,
+          "title": "风云会（一名：龙虎斗）",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.333 > 0.25 AND degree_centralization=0.667 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 4,
+            "node_count": 4,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.333333,
+            "top1_top2_ratio": 1.5,
+            "degree_centralization": 0.666667,
+            "top3_centrality_share": 0.875
+          },
+          "top_characters": [
+            {
+              "name": "赵匡胤",
+              "role_type": "红生",
+              "deg": 1.0
+            },
+            {
+              "name": "黄兴",
+              "role_type": "",
+              "deg": 0.666667
+            },
+            {
+              "name": "马童",
+              "role_type": "",
+              "deg": 0.666667
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "将卒",
+            "weight": 0.651651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7045,
+          "title": "生死恨",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_ratio=1.83 > 1.6 AND max_to_mean=5.50 >= 2.5"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 28,
+            "node_count": 28,
+            "active_node_ratio": 0.5,
+            "largest_component_ratio": 0.5,
+            "top1_top2_gap": 0.185185,
+            "top1_top2_ratio": 1.8333,
+            "degree_centralization": 0.358974,
+            "top3_centrality_share": 0.410714
+          },
+          "top_characters": [
+            {
+              "name": "韩玉娘",
+              "role_type": "旦，梳大头，包蛋青头布，蛋青素褶子，套坎肩，系腰巾子，绣花边褶子，富贵衣，绣花粉帔",
+              "deg": 0.407407
+            },
+            {
+              "name": "程鹏举",
+              "role_type": "小生，如意巾，甩发，忠纱帽（或学士巾），绣领青素褶子，系绦子，红帔，红蟒玉带（或粉蟒），",
+              "deg": 0.222222
+            },
+            {
+              "name": "张万户",
+              "role_type": "净，（老的不开打）戴达帽、黑扎耳毛子，穿青绣团花褶子，厚底；（按改过后带开打的）戴达帽，",
+              "deg": 0.222222
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "夫妻",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6277,
+          "title": "莲花塘（一名：庆安澜）",
+          "play_type": "神话戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_ratio=2.00 > 1.6 AND max_to_mean=2.86 >= 2.5"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 7,
+            "node_count": 10,
+            "active_node_ratio": 0.7,
+            "largest_component_ratio": 0.5,
+            "top1_top2_gap": 0.222222,
+            "top1_top2_ratio": 2.0,
+            "degree_centralization": 0.361111,
+            "top3_centrality_share": 0.571429
+          },
+          "top_characters": [
+            {
+              "name": "小龙",
+              "role_type": "小生",
+              "deg": 0.444444
+            },
+            {
+              "name": "母龙",
+              "role_type": "武旦",
+              "deg": 0.222222
+            },
+            {
+              "name": "老龙",
+              "role_type": "净",
+              "deg": 0.222222
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "母子",
+            "weight": 0.726651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7014,
+          "title": "五彩舆",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.256 > 0.25 AND degree_centralization=0.404 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 121,
+            "node_count": 40,
+            "active_node_ratio": 0.8,
+            "largest_component_ratio": 0.6,
+            "top1_top2_gap": 0.25641,
+            "top1_top2_ratio": 1.9091,
+            "degree_centralization": 0.403509,
+            "top3_centrality_share": 0.177686
+          },
+          "top_characters": [
+            {
+              "name": "海瑞",
+              "role_type": "老生",
+              "deg": 0.538462
+            },
+            {
+              "name": "赵文华",
+              "role_type": "丑",
+              "deg": 0.282051
+            },
+            {
+              "name": "鄢懋卿",
+              "role_type": "净",
+              "deg": 0.282051
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 0.5
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6808,
+          "title": "输财救国",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.286 > 0.25 AND degree_centralization=0.476 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 18,
+            "node_count": 8,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.285714,
+            "top1_top2_ratio": 1.4,
+            "degree_centralization": 0.47619,
+            "top3_centrality_share": 0.472222
+          },
+          "top_characters": [
+            {
+              "name": "卜式",
+              "role_type": "老生",
+              "deg": 1.0
+            },
+            {
+              "name": "父老甲",
+              "role_type": "",
+              "deg": 0.714286
+            },
+            {
+              "name": "父老乙",
+              "role_type": "",
+              "deg": 0.714286
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "其他同盟",
+            "weight": 0.651651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6370,
+          "title": "韩信",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.400 > 0.25 AND degree_centralization=0.587 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 178,
+            "node_count": 41,
+            "active_node_ratio": 0.926829,
+            "largest_component_ratio": 0.926829,
+            "top1_top2_gap": 0.4,
+            "top1_top2_ratio": 2.0667,
+            "degree_centralization": 0.586538,
+            "top3_centrality_share": 0.168539
+          },
+          "top_characters": [
+            {
+              "name": "韩信",
+              "role_type": "武生",
+              "deg": 0.775
+            },
+            {
+              "name": "司马欣",
+              "role_type": "",
+              "deg": 0.375
+            },
+            {
+              "name": "卜仁",
+              "role_type": "",
+              "deg": 0.35
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 0.613147
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6849,
+          "title": "哭祖庙",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.571 > 0.25 AND degree_centralization=0.714 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 13,
+            "node_count": 8,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.571429,
+            "top1_top2_ratio": 2.3333,
+            "degree_centralization": 0.714286,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "刘谌",
+              "role_type": "老生",
+              "deg": 1.0
+            },
+            {
+              "name": "刘禅",
+              "role_type": "老生",
+              "deg": 0.428571
+            },
+            {
+              "name": "崔夫人",
+              "role_type": "正旦",
+              "deg": 0.428571
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "父子",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6496,
+          "title": "娘子军",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.375 > 0.25 AND degree_centralization=0.512 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 49,
+            "node_count": 17,
+            "active_node_ratio": 0.823529,
+            "largest_component_ratio": 0.823529,
+            "top1_top2_gap": 0.375,
+            "top1_top2_ratio": 1.8571,
+            "degree_centralization": 0.5125,
+            "top3_centrality_share": 0.27551
+          },
+          "top_characters": [
+            {
+              "name": "韩世忠",
+              "role_type": "老生",
+              "deg": 0.8125
+            },
+            {
+              "name": "梁红玉",
+              "role_type": "旦",
+              "deg": 0.4375
+            },
+            {
+              "name": "韩彦直",
+              "role_type": "武生",
+              "deg": 0.4375
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "夫妻",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5894,
+          "title": "洪羊洞（一名：孟良盗骨）",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.400 > 0.25 AND degree_centralization=0.578 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 18,
+            "node_count": 11,
+            "active_node_ratio": 0.818182,
+            "largest_component_ratio": 0.818182,
+            "top1_top2_gap": 0.4,
+            "top1_top2_ratio": 2.0,
+            "degree_centralization": 0.577778,
+            "top3_centrality_share": 0.444444
+          },
+          "top_characters": [
+            {
+              "name": "杨延昭",
+              "role_type": "老生",
+              "deg": 0.8
+            },
+            {
+              "name": "孟良",
+              "role_type": "净",
+              "deg": 0.4
+            },
+            {
+              "name": "赵德芳",
+              "role_type": "老生",
+              "deg": 0.4
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "将卒",
+            "weight": 0.711651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6242,
+          "title": "三门街",
+          "play_type": "侠义戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.300 > 0.25 AND degree_centralization=0.584 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 118,
+            "node_count": 31,
+            "active_node_ratio": 0.967742,
+            "largest_component_ratio": 0.806452,
+            "top1_top2_gap": 0.3,
+            "top1_top2_ratio": 1.6,
+            "degree_centralization": 0.583908,
+            "top3_centrality_share": 0.224576
+          },
+          "top_characters": [
+            {
+              "name": "徐文炳",
+              "role_type": "小生",
+              "deg": 0.8
+            },
+            {
+              "name": "徐文亮",
+              "role_type": "小生",
+              "deg": 0.5
+            },
+            {
+              "name": "李广",
+              "role_type": "武生",
+              "deg": 0.466667
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "兄弟",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6827,
+          "title": "扑油鼎",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_ratio=2.00 > 1.6 AND max_to_mean=3.33 >= 2.5"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 6,
+            "node_count": 10,
+            "active_node_ratio": 0.5,
+            "largest_component_ratio": 0.5,
+            "top1_top2_gap": 0.222222,
+            "top1_top2_ratio": 2.0,
+            "degree_centralization": 0.388889,
+            "top3_centrality_share": 0.666667
+          },
+          "top_characters": [
+            {
+              "name": "邓芝",
+              "role_type": "老生",
+              "deg": 0.444444
+            },
+            {
+              "name": "孙权",
+              "role_type": "净",
+              "deg": 0.222222
+            },
+            {
+              "name": "诸葛亮",
+              "role_type": "老生",
+              "deg": 0.222222
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "利益结盟",
+            "weight": 0.696651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6596,
+          "title": "战冀州",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.333 > 0.25 AND degree_centralization=0.517 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 116,
+            "node_count": 31,
+            "active_node_ratio": 0.806452,
+            "largest_component_ratio": 0.806452,
+            "top1_top2_gap": 0.333333,
+            "top1_top2_ratio": 1.8333,
+            "degree_centralization": 0.517241,
+            "top3_centrality_share": 0.198276
+          },
+          "top_characters": [
+            {
+              "name": "杨阜",
+              "role_type": "",
+              "deg": 0.733333
+            },
+            {
+              "name": "马超",
+              "role_type": "武生",
+              "deg": 0.4
+            },
+            {
+              "name": "曹操",
+              "role_type": "",
+              "deg": 0.4
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "仇人",
+            "weight": 0.665202
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7121,
+          "title": "收周仓",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.278 > 0.25 AND degree_centralization=0.582 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 63,
+            "node_count": 19,
+            "active_node_ratio": 0.894737,
+            "largest_component_ratio": 0.894737,
+            "top1_top2_gap": 0.277778,
+            "top1_top2_ratio": 1.4545,
+            "degree_centralization": 0.581699,
+            "top3_centrality_share": 0.301587
+          },
+          "top_characters": [
+            {
+              "name": "关羽",
+              "role_type": "红生",
+              "deg": 0.888889
+            },
+            {
+              "name": "甘夫人",
+              "role_type": "",
+              "deg": 0.611111
+            },
+            {
+              "name": "糜夫人",
+              "role_type": "",
+              "deg": 0.611111
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 0.792481
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6240,
+          "title": "三结义（一名：刘关张）",
+          "play_type": "侠义戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_ratio=1.70 > 1.6 AND max_to_mean=3.24 >= 2.5"
+          ],
+          "secondary_flags": [
+            "单核心倾向 (gap=0.250, dc=0.451)"
+          ],
+          "key_metrics": {
+            "edge_count": 76,
+            "node_count": 29,
+            "active_node_ratio": 0.827586,
+            "largest_component_ratio": 0.827586,
+            "top1_top2_gap": 0.25,
+            "top1_top2_ratio": 1.7,
+            "degree_centralization": 0.451058,
+            "top3_centrality_share": 0.243421
+          },
+          "top_characters": [
+            {
+              "name": "关羽",
+              "role_type": "生",
+              "deg": 0.607143
+            },
+            {
+              "name": "熊祥",
+              "role_type": "丑",
+              "deg": 0.357143
+            },
+            {
+              "name": "刘备",
+              "role_type": "老生",
+              "deg": 0.357143
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 0.430677
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6170,
+          "title": "过五关（一名：辞曹斩将）",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.421 > 0.25 AND degree_centralization=0.573 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 32,
+            "node_count": 20,
+            "active_node_ratio": 0.85,
+            "largest_component_ratio": 0.85,
+            "top1_top2_gap": 0.421053,
+            "top1_top2_ratio": 2.6,
+            "degree_centralization": 0.573099,
+            "top3_centrality_share": 0.359375
+          },
+          "top_characters": [
+            {
+              "name": "关羽",
+              "role_type": "红生",
+              "deg": 0.684211
+            },
+            {
+              "name": "甘夫人",
+              "role_type": "旦",
+              "deg": 0.263158
+            },
+            {
+              "name": "糜夫人",
+              "role_type": "旦",
+              "deg": 0.263158
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "其他从属",
+            "weight": 0.605
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6907,
+          "title": "辕门射戟",
+          "play_type": "历史戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_ratio=1.67 > 1.6 AND max_to_mean=2.50 >= 2.5"
+          ],
+          "secondary_flags": [
+            "单核心倾向 (gap=0.250, dc=0.482)"
+          ],
+          "key_metrics": {
+            "edge_count": 9,
+            "node_count": 9,
+            "active_node_ratio": 0.666667,
+            "largest_component_ratio": 0.666667,
+            "top1_top2_gap": 0.25,
+            "top1_top2_ratio": 1.6667,
+            "degree_centralization": 0.482143,
+            "top3_centrality_share": 0.611111
+          },
+          "top_characters": [
+            {
+              "name": "吕布",
+              "role_type": "小生",
+              "deg": 0.625
+            },
+            {
+              "name": "刘备",
+              "role_type": "老生",
+              "deg": 0.375
+            },
+            {
+              "name": "纪灵",
+              "role_type": "净",
+              "deg": 0.375
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "恩人",
+            "weight": 0.94
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6758,
+          "title": "青峰岭",
+          "play_type": "侠义戏",
+          "label": "单核心型",
+          "reasons": [
+            "top1_top2_gap=0.286 > 0.25 AND degree_centralization=0.476 >= 0.35"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 6,
+            "node_count": 8,
+            "active_node_ratio": 0.625,
+            "largest_component_ratio": 0.625,
+            "top1_top2_gap": 0.285714,
+            "top1_top2_ratio": 2.0,
+            "degree_centralization": 0.47619,
+            "top3_centrality_share": 0.666667
+          },
+          "top_characters": [
+            {
+              "name": "徐凤英",
+              "role_type": "武旦",
+              "deg": 0.571429
+            },
+            {
+              "name": "刘飞虎",
+              "role_type": "丑",
+              "deg": 0.285714
+            },
+            {
+              "name": "江老鼠",
+              "role_type": "丑",
+              "deg": 0.285714
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "夫妻",
+            "weight": 0.857947
+          },
+          "possible_misclassification": ""
+        }
+      ]
+    },
+    "双核心型": {
+      "total": 125,
+      "sampled": 20,
+      "cases": [
+        {
+          "entity_id": 6203,
+          "title": "青风寨（一名：娶李逵）",
+          "play_type": "侠义戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.125 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 10,
+            "node_count": 9,
+            "active_node_ratio": 0.777778,
+            "largest_component_ratio": 0.777778,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.285714,
+            "top3_centrality_share": 0.55
+          },
+          "top_characters": [
+            {
+              "name": "张员外",
+              "role_type": "末",
+              "deg": 0.5
+            },
+            {
+              "name": "李逵",
+              "role_type": "净",
+              "deg": 0.5
+            },
+            {
+              "name": "二大王",
+              "role_type": "武丑",
+              "deg": 0.375
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "恩人",
+            "weight": 0.696651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5999,
+          "title": "凤鸣关（一名：力斩五将）",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.143 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 9,
+            "node_count": 8,
+            "active_node_ratio": 0.875,
+            "largest_component_ratio": 0.875,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.333333,
+            "top3_centrality_share": 0.611111
+          },
+          "top_characters": [
+            {
+              "name": "诸葛亮",
+              "role_type": "老生",
+              "deg": 0.571429
+            },
+            {
+              "name": "赵云",
+              "role_type": "老生",
+              "deg": 0.571429
+            },
+            {
+              "name": "邓芝",
+              "role_type": "",
+              "deg": 0.428571
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "君臣",
+            "weight": 0.65
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5983,
+          "title": "宝莲灯（一名：二堂舍子）",
+          "play_type": "家庭戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.167 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 8,
+            "node_count": 7,
+            "active_node_ratio": 0.714286,
+            "largest_component_ratio": 0.714286,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.4,
+            "top3_centrality_share": 0.6875
+          },
+          "top_characters": [
+            {
+              "name": "刘彦昌",
+              "role_type": "老生",
+              "deg": 0.666667
+            },
+            {
+              "name": "秋儿",
+              "role_type": "小生",
+              "deg": 0.666667
+            },
+            {
+              "name": "王桂英",
+              "role_type": "正旦",
+              "deg": 0.5
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "父子",
+            "weight": 0.994
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6266,
+          "title": "吴汉杀妻（一名：斩经堂）",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.333 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 5,
+            "node_count": 4,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.333333,
+            "top3_centrality_share": 0.8
+          },
+          "top_characters": [
+            {
+              "name": "吴汉",
+              "role_type": "老生",
+              "deg": 1.0
+            },
+            {
+              "name": "王兰英",
+              "role_type": "旦",
+              "deg": 1.0
+            },
+            {
+              "name": "吴母",
+              "role_type": "老旦",
+              "deg": 0.666667
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "夫妻",
+            "weight": 0.726651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5995,
+          "title": "卖马",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.167 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 12,
+            "node_count": 7,
+            "active_node_ratio": 0.857143,
+            "largest_component_ratio": 0.857143,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.366667,
+            "top3_centrality_share": 0.583333
+          },
+          "top_characters": [
+            {
+              "name": "秦琼",
+              "role_type": "老生",
+              "deg": 0.833333
+            },
+            {
+              "name": "王老好",
+              "role_type": "丑",
+              "deg": 0.833333
+            },
+            {
+              "name": "王伯当",
+              "role_type": "小生",
+              "deg": 0.666667
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "交易",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6215,
+          "title": "双锁山（一名：俊保招亲）",
+          "play_type": "爱情戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.250 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 8,
+            "node_count": 5,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.333333,
+            "top3_centrality_share": 0.6875
+          },
+          "top_characters": [
+            {
+              "name": "高俊保",
+              "role_type": "小生",
+              "deg": 1.0
+            },
+            {
+              "name": "刘金定",
+              "role_type": "贴旦",
+              "deg": 1.0
+            },
+            {
+              "name": "土地",
+              "role_type": "",
+              "deg": 0.75
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "情感",
+            "micro_type": "恋人",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7027,
+          "title": "曹营见母",
+          "play_type": "家庭戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.200 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 8,
+            "node_count": 6,
+            "active_node_ratio": 0.833333,
+            "largest_component_ratio": 0.833333,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.4,
+            "top3_centrality_share": 0.6875
+          },
+          "top_characters": [
+            {
+              "name": "徐庶",
+              "role_type": "老生",
+              "deg": 0.8
+            },
+            {
+              "name": "院子",
+              "role_type": "",
+              "deg": 0.8
+            },
+            {
+              "name": "曹操",
+              "role_type": "净",
+              "deg": 0.6
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "主仆",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6207,
+          "title": "飞叉阵（一名：马援归汉）",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.125 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 35,
+            "node_count": 17,
+            "active_node_ratio": 0.823529,
+            "largest_component_ratio": 0.647059,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.345833,
+            "top3_centrality_share": 0.357143
+          },
+          "top_characters": [
+            {
+              "name": "马援",
+              "role_type": "外",
+              "deg": 0.5625
+            },
+            {
+              "name": "马洪",
+              "role_type": "小生",
+              "deg": 0.5625
+            },
+            {
+              "name": "邓禹",
+              "role_type": "",
+              "deg": 0.4375
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "父子",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6634,
+          "title": "潞安州",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.075 <= 0.10 AND top2_top3_gap=0.151 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 319,
+            "node_count": 54,
+            "active_node_ratio": 0.833333,
+            "largest_component_ratio": 0.833333,
+            "top1_top2_gap": 0.075472,
+            "top1_top2_ratio": 1.1111,
+            "degree_centralization": 0.55225,
+            "top3_centrality_share": 0.163009
+          },
+          "top_characters": [
+            {
+              "name": "金兀术",
+              "role_type": "净",
+              "deg": 0.754717
+            },
+            {
+              "name": "黑风力",
+              "role_type": "",
+              "deg": 0.679245
+            },
+            {
+              "name": "哈迷蚩",
+              "role_type": "",
+              "deg": 0.528302
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "将卒",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6147,
+          "title": "襄阳宴（一名：马跳檀溪）",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.222 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 67,
+            "node_count": 19,
+            "active_node_ratio": 0.842105,
+            "largest_component_ratio": 0.842105,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.431373,
+            "top3_centrality_share": 0.283582
+          },
+          "top_characters": [
+            {
+              "name": "刘备",
+              "role_type": "老生",
+              "deg": 0.777778
+            },
+            {
+              "name": "赵云",
+              "role_type": "武生",
+              "deg": 0.777778
+            },
+            {
+              "name": "伊籍",
+              "role_type": "末",
+              "deg": 0.555556
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "将卒",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6972,
+          "title": "徐母骂曹",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.167 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 5,
+            "node_count": 7,
+            "active_node_ratio": 0.571429,
+            "largest_component_ratio": 0.571429,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.366667,
+            "top3_centrality_share": 0.8
+          },
+          "top_characters": [
+            {
+              "name": "曹操",
+              "role_type": "净",
+              "deg": 0.5
+            },
+            {
+              "name": "程昱",
+              "role_type": "老生",
+              "deg": 0.5
+            },
+            {
+              "name": "徐母",
+              "role_type": "老旦",
+              "deg": 0.333333
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "君臣",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5919,
+          "title": "八义图（一名：搜孤救孤）",
+          "play_type": "侠义戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.200 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 5,
+            "node_count": 6,
+            "active_node_ratio": 0.666667,
+            "largest_component_ratio": 0.666667,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.4,
+            "top3_centrality_share": 0.8
+          },
+          "top_characters": [
+            {
+              "name": "程婴",
+              "role_type": "老生",
+              "deg": 0.6
+            },
+            {
+              "name": "公孙杵臼",
+              "role_type": "外",
+              "deg": 0.6
+            },
+            {
+              "name": "屠岸贾",
+              "role_type": "净",
+              "deg": 0.4
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "知己",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6855,
+          "title": "战长沙",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.154 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 34,
+            "node_count": 14,
+            "active_node_ratio": 0.857143,
+            "largest_component_ratio": 0.857143,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.461538,
+            "top3_centrality_share": 0.411765
+          },
+          "top_characters": [
+            {
+              "name": "魏延",
+              "role_type": "净",
+              "deg": 0.769231
+            },
+            {
+              "name": "黄忠",
+              "role_type": "老生",
+              "deg": 0.769231
+            },
+            {
+              "name": "关羽",
+              "role_type": "红生",
+              "deg": 0.615385
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "同僚",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6424,
+          "title": "观音院",
+          "play_type": "神话戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.167 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 17,
+            "node_count": 7,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.266667,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "孙悟空",
+              "role_type": "武生",
+              "deg": 1.0
+            },
+            {
+              "name": "唐僧",
+              "role_type": "",
+              "deg": 1.0
+            },
+            {
+              "name": "了然",
+              "role_type": "外",
+              "deg": 0.833333
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "师徒",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6535,
+          "title": "米注山（一名：付剑印）",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.200 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 29,
+            "node_count": 16,
+            "active_node_ratio": 0.75,
+            "largest_component_ratio": 0.75,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.409524,
+            "top3_centrality_share": 0.413793
+          },
+          "top_characters": [
+            {
+              "name": "斗越椒",
+              "role_type": "净",
+              "deg": 0.6
+            },
+            {
+              "name": "公子茷",
+              "role_type": "武生",
+              "deg": 0.6
+            },
+            {
+              "name": "楚庄王",
+              "role_type": "老生",
+              "deg": 0.4
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "同僚",
+            "weight": 0.56
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6008,
+          "title": "阳平关（一名：子龙护忠）",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.182 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 104,
+            "node_count": 23,
+            "active_node_ratio": 0.869565,
+            "largest_component_ratio": 0.869565,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.445887,
+            "top3_centrality_share": 0.240385
+          },
+          "top_characters": [
+            {
+              "name": "黄忠",
+              "role_type": "老生",
+              "deg": 0.818182
+            },
+            {
+              "name": "赵云",
+              "role_type": "武生",
+              "deg": 0.818182
+            },
+            {
+              "name": "曹操",
+              "role_type": "净",
+              "deg": 0.636364
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "同僚",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7321,
+          "title": "李陵碑（一名：两狼山）",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.167 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 3,
+            "node_count": 7,
+            "active_node_ratio": 0.571429,
+            "largest_component_ratio": 0.571429,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.266667,
+            "top3_centrality_share": 0.833333
+          },
+          "top_characters": [
+            {
+              "name": "杨继业",
+              "role_type": "老生",
+              "deg": 0.333333
+            },
+            {
+              "name": "杨延昭",
+              "role_type": "老生",
+              "deg": 0.333333
+            },
+            {
+              "name": "苏隐士",
+              "role_type": "老生",
+              "deg": 0.166667
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "父子",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7151,
+          "title": "骂王朗",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.125 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 15,
+            "node_count": 9,
+            "active_node_ratio": 0.888889,
+            "largest_component_ratio": 0.888889,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.267857,
+            "top3_centrality_share": 0.466667
+          },
+          "top_characters": [
+            {
+              "name": "诸葛亮",
+              "role_type": "老生",
+              "deg": 0.625
+            },
+            {
+              "name": "关兴",
+              "role_type": "",
+              "deg": 0.625
+            },
+            {
+              "name": "王朗",
+              "role_type": "老生",
+              "deg": 0.5
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "将卒",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5980,
+          "title": "状元谱（一名：打侄上坟）",
+          "play_type": "家庭戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.333 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 15,
+            "node_count": 7,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.4,
+            "top3_centrality_share": 0.533333
+          },
+          "top_characters": [
+            {
+              "name": "陈伯愚",
+              "role_type": "老生",
+              "deg": 1.0
+            },
+            {
+              "name": "院子",
+              "role_type": "",
+              "deg": 1.0
+            },
+            {
+              "name": "陈大官",
+              "role_type": "小生",
+              "deg": 0.666667
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "主仆",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6561,
+          "title": "锤换带（一名：汜水关）",
+          "play_type": "历史戏",
+          "label": "双核心型",
+          "reasons": [
+            "top1_top2_gap=0.100 <= 0.10 AND top2_top3_gap=0.200 > 0.12"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 28,
+            "node_count": 11,
+            "active_node_ratio": 0.909091,
+            "largest_component_ratio": 0.909091,
+            "top1_top2_gap": 0.1,
+            "top1_top2_ratio": 1.125,
+            "degree_centralization": 0.477778,
+            "top3_centrality_share": 0.410714
+          },
+          "top_characters": [
+            {
+              "name": "杨滚",
+              "role_type": "净",
+              "deg": 0.9
+            },
+            {
+              "name": "高怀亮",
+              "role_type": "小生",
+              "deg": 0.8
+            },
+            {
+              "name": "杨继业",
+              "role_type": "小生",
+              "deg": 0.6
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "其他同盟",
+            "weight": 0.91
+          },
+          "possible_misclassification": ""
+        }
+      ]
+    },
+    "双核心对抗型": {
+      "total": 32,
+      "sampled": 20,
+      "cases": [
+        {
+          "entity_id": 6658,
+          "title": "司马师逼宫",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.250 > 0.12 AND relation=敌对/政敌 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 11,
+            "node_count": 9,
+            "active_node_ratio": 0.666667,
+            "largest_component_ratio": 0.666667,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.410714,
+            "top3_centrality_share": 0.590909
+          },
+          "top_characters": [
+            {
+              "name": "司马师",
+              "role_type": "净",
+              "deg": 0.625
+            },
+            {
+              "name": "曹芳",
+              "role_type": "小生",
+              "deg": 0.625
+            },
+            {
+              "name": "张捷",
+              "role_type": "老生",
+              "deg": 0.375
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7086,
+          "title": "打严嵩",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.125 > 0.12 AND relation=敌对/政敌 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 12,
+            "node_count": 9,
+            "active_node_ratio": 0.666667,
+            "largest_component_ratio": 0.666667,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.375,
+            "top3_centrality_share": 0.583333
+          },
+          "top_characters": [
+            {
+              "name": "邹应龙",
+              "role_type": "老生",
+              "deg": 0.625
+            },
+            {
+              "name": "严嵩",
+              "role_type": "净",
+              "deg": 0.625
+            },
+            {
+              "name": "常宝童",
+              "role_type": "小生",
+              "deg": 0.5
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6724,
+          "title": "打銮驾",
+          "play_type": "公案戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.079 <= 0.10 AND top2_top3_gap=0.127 > 0.12 AND relation=敌对/仇人 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 374,
+            "node_count": 64,
+            "active_node_ratio": 0.78125,
+            "largest_component_ratio": 0.75,
+            "top1_top2_gap": 0.079365,
+            "top1_top2_ratio": 1.1515,
+            "degree_centralization": 0.431132,
+            "top3_centrality_share": 0.128342
+          },
+          "top_characters": [
+            {
+              "name": "包拯",
+              "role_type": "净",
+              "deg": 0.603175
+            },
+            {
+              "name": "庞昱",
+              "role_type": "净",
+              "deg": 0.52381
+            },
+            {
+              "name": "庞秀英",
+              "role_type": "旦",
+              "deg": 0.396825
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "仇人",
+            "weight": 0.495721
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6720,
+          "title": "马陵道",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.065 <= 0.10 AND top2_top3_gap=0.161 > 0.12 AND relation=敌对/宿敌 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 61,
+            "node_count": 32,
+            "active_node_ratio": 0.6875,
+            "largest_component_ratio": 0.6875,
+            "top1_top2_gap": 0.064516,
+            "top1_top2_ratio": 1.1429,
+            "degree_centralization": 0.419355,
+            "top3_centrality_share": 0.319672
+          },
+          "top_characters": [
+            {
+              "name": "庞涓",
+              "role_type": "净",
+              "deg": 0.516129
+            },
+            {
+              "name": "孙膑",
+              "role_type": "老生",
+              "deg": 0.451613
+            },
+            {
+              "name": "袁达",
+              "role_type": "净",
+              "deg": 0.290323
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "宿敌",
+            "weight": 0.762824
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7098,
+          "title": "打严嵩",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.167 > 0.12 AND relation=敌对/政敌 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 5,
+            "node_count": 7,
+            "active_node_ratio": 0.571429,
+            "largest_component_ratio": 0.571429,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.366667,
+            "top3_centrality_share": 0.8
+          },
+          "top_characters": [
+            {
+              "name": "邹应龙",
+              "role_type": "老生",
+              "deg": 0.5
+            },
+            {
+              "name": "严嵩",
+              "role_type": "净",
+              "deg": 0.5
+            },
+            {
+              "name": "严侠",
+              "role_type": "丑",
+              "deg": 0.333333
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6397,
+          "title": "定中原（一名：司马逼宫）",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.143 > 0.12 AND relation=敌对/政敌 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 8,
+            "node_count": 8,
+            "active_node_ratio": 0.625,
+            "largest_component_ratio": 0.625,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.380952,
+            "top3_centrality_share": 0.6875
+          },
+          "top_characters": [
+            {
+              "name": "司马师",
+              "role_type": "净",
+              "deg": 0.571429
+            },
+            {
+              "name": "曹芳",
+              "role_type": "小生",
+              "deg": 0.571429
+            },
+            {
+              "name": "张捷",
+              "role_type": "末",
+              "deg": 0.428571
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7333,
+          "title": "打严嵩（一名：开山府）",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.143 > 0.12 AND relation=敌对/政敌 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 5,
+            "node_count": 8,
+            "active_node_ratio": 0.5,
+            "largest_component_ratio": 0.5,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.333333,
+            "top3_centrality_share": 0.8
+          },
+          "top_characters": [
+            {
+              "name": "邹应龙",
+              "role_type": "老生",
+              "deg": 0.428571
+            },
+            {
+              "name": "严嵩",
+              "role_type": "净",
+              "deg": 0.428571
+            },
+            {
+              "name": "严侠",
+              "role_type": "丑",
+              "deg": 0.285714
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6247,
+          "title": "打沙锅（一名：糊涂案）",
+          "play_type": "公案戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.250 > 0.12 AND relation=敌对/其他敌对 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 5,
+            "node_count": 5,
+            "active_node_ratio": 0.8,
+            "largest_component_ratio": 0.8,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.416667,
+            "top3_centrality_share": 0.8
+          },
+          "top_characters": [
+            {
+              "name": "山西人",
+              "role_type": "丑",
+              "deg": 0.75
+            },
+            {
+              "name": "胡子林",
+              "role_type": "末",
+              "deg": 0.75
+            },
+            {
+              "name": "胡抡",
+              "role_type": "丑",
+              "deg": 0.5
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "其他敌对",
+            "weight": 0.621651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6857,
+          "title": "斩伍奢",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.061 <= 0.10 AND top2_top3_gap=0.182 > 0.12 AND relation=敌对/政敌 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 75,
+            "node_count": 34,
+            "active_node_ratio": 0.735294,
+            "largest_component_ratio": 0.735294,
+            "top1_top2_gap": 0.060606,
+            "top1_top2_ratio": 1.125,
+            "degree_centralization": 0.4375,
+            "top3_centrality_share": 0.293333
+          },
+          "top_characters": [
+            {
+              "name": "费无极",
+              "role_type": "丑",
+              "deg": 0.545455
+            },
+            {
+              "name": "伍奢",
+              "role_type": "老生",
+              "deg": 0.484848
+            },
+            {
+              "name": "楚平王",
+              "role_type": "净",
+              "deg": 0.30303
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.811594
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6122,
+          "title": "紫荆树（一名：打皂分家）",
+          "play_type": "家庭戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.250 > 0.12 AND relation=敌对/其他敌对 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 8,
+            "node_count": 5,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.333333,
+            "top3_centrality_share": 0.6875
+          },
+          "top_characters": [
+            {
+              "name": "李三春",
+              "role_type": "旦",
+              "deg": 1.0
+            },
+            {
+              "name": "田大",
+              "role_type": "老生",
+              "deg": 1.0
+            },
+            {
+              "name": "田二",
+              "role_type": "丑",
+              "deg": 0.75
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "其他敌对",
+            "weight": 0.955
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6027,
+          "title": "濮阳城",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.062 <= 0.10 AND top2_top3_gap=0.188 > 0.12 AND relation=敌对/阵营对立 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 48,
+            "node_count": 17,
+            "active_node_ratio": 0.823529,
+            "largest_component_ratio": 0.823529,
+            "top1_top2_gap": 0.0625,
+            "top1_top2_ratio": 1.0909,
+            "degree_centralization": 0.45,
+            "top3_centrality_share": 0.322917
+          },
+          "top_characters": [
+            {
+              "name": "吕布",
+              "role_type": "小生",
+              "deg": 0.75
+            },
+            {
+              "name": "曹操",
+              "role_type": "净",
+              "deg": 0.6875
+            },
+            {
+              "name": "二田氏",
+              "role_type": "",
+              "deg": 0.5
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "阵营对立",
+            "weight": 0.839737
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6312,
+          "title": "刀劈三关",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.053 <= 0.10 AND top2_top3_gap=0.158 > 0.12 AND relation=敌对/政敌 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 38,
+            "node_count": 20,
+            "active_node_ratio": 0.75,
+            "largest_component_ratio": 0.75,
+            "top1_top2_gap": 0.052632,
+            "top1_top2_ratio": 1.1,
+            "degree_centralization": 0.421053,
+            "top3_centrality_share": 0.368421
+          },
+          "top_characters": [
+            {
+              "name": "郭章",
+              "role_type": "净",
+              "deg": 0.578947
+            },
+            {
+              "name": "雷万春",
+              "role_type": "老生",
+              "deg": 0.526316
+            },
+            {
+              "name": "万花公主",
+              "role_type": "旦",
+              "deg": 0.368421
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6379,
+          "title": "捉放曹（一名：过关公堂）",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.167 > 0.12 AND relation=敌对/阵营对立 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 5,
+            "node_count": 7,
+            "active_node_ratio": 0.714286,
+            "largest_component_ratio": 0.714286,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.366667,
+            "top3_centrality_share": 0.8
+          },
+          "top_characters": [
+            {
+              "name": "曹操",
+              "role_type": "净",
+              "deg": 0.5
+            },
+            {
+              "name": "捕头",
+              "role_type": "丑",
+              "deg": 0.5
+            },
+            {
+              "name": "陈宫",
+              "role_type": "老生",
+              "deg": 0.333333
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "阵营对立",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7021,
+          "title": "纪母骂刘邦",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.200 > 0.12 AND relation=敌对/阵营对立 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 33,
+            "node_count": 11,
+            "active_node_ratio": 0.909091,
+            "largest_component_ratio": 0.909091,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.366667,
+            "top3_centrality_share": 0.378788
+          },
+          "top_characters": [
+            {
+              "name": "纪母",
+              "role_type": "老旦",
+              "deg": 0.9
+            },
+            {
+              "name": "随何",
+              "role_type": "",
+              "deg": 0.9
+            },
+            {
+              "name": "刘邦",
+              "role_type": "老生",
+              "deg": 0.7
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "阵营对立",
+            "weight": 0.91
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7154,
+          "title": "刀劈三关",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.050 <= 0.10 AND top2_top3_gap=0.200 > 0.12 AND relation=敌对/政敌 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 44,
+            "node_count": 21,
+            "active_node_ratio": 0.761905,
+            "largest_component_ratio": 0.761905,
+            "top1_top2_gap": 0.05,
+            "top1_top2_ratio": 1.0833,
+            "degree_centralization": 0.486842,
+            "top3_centrality_share": 0.375
+          },
+          "top_characters": [
+            {
+              "name": "郭章",
+              "role_type": "净",
+              "deg": 0.65
+            },
+            {
+              "name": "雷万春",
+              "role_type": "老生",
+              "deg": 0.6
+            },
+            {
+              "name": "羌洪",
+              "role_type": "",
+              "deg": 0.4
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6123,
+          "title": "庆阳图（一名：战虹霓）",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.250 > 0.12 AND relation=敌对/政敌 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 31,
+            "node_count": 13,
+            "active_node_ratio": 0.846154,
+            "largest_component_ratio": 0.846154,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.416667,
+            "top3_centrality_share": 0.387097
+          },
+          "top_characters": [
+            {
+              "name": "李刚",
+              "role_type": "净",
+              "deg": 0.75
+            },
+            {
+              "name": "马兰",
+              "role_type": "丑",
+              "deg": 0.75
+            },
+            {
+              "name": "朝臣甲",
+              "role_type": "外",
+              "deg": 0.5
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.681651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6427,
+          "title": "五庄观（一名：擒僧活树）",
+          "play_type": "神话戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.385 > 0.12 AND relation=敌对/仇人 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 48,
+            "node_count": 14,
+            "active_node_ratio": 0.928571,
+            "largest_component_ratio": 0.928571,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.461538,
+            "top3_centrality_share": 0.322917
+          },
+          "top_characters": [
+            {
+              "name": "孙悟空",
+              "role_type": "武生",
+              "deg": 0.923077
+            },
+            {
+              "name": "镇元子",
+              "role_type": "生",
+              "deg": 0.923077
+            },
+            {
+              "name": "观音",
+              "role_type": "旦",
+              "deg": 0.538462
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "仇人",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6155,
+          "title": "下河东（一名：河东刺驾）",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.091 <= 0.10 AND top2_top3_gap=0.182 > 0.12 AND relation=敌对/政敌 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 13,
+            "node_count": 12,
+            "active_node_ratio": 0.666667,
+            "largest_component_ratio": 0.666667,
+            "top1_top2_gap": 0.090909,
+            "top1_top2_ratio": 1.2,
+            "degree_centralization": 0.418182,
+            "top3_centrality_share": 0.538462
+          },
+          "top_characters": [
+            {
+              "name": "欧阳方",
+              "role_type": "净",
+              "deg": 0.545455
+            },
+            {
+              "name": "呼延寿廷",
+              "role_type": "老生",
+              "deg": 0.454545
+            },
+            {
+              "name": "呼延妹",
+              "role_type": "武旦",
+              "deg": 0.272727
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "政敌",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6619,
+          "title": "银空山",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.143 > 0.12 AND relation=敌对/阵营对立 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 9,
+            "node_count": 8,
+            "active_node_ratio": 0.875,
+            "largest_component_ratio": 0.625,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.333333,
+            "top3_centrality_share": 0.611111
+          },
+          "top_characters": [
+            {
+              "name": "代战公主",
+              "role_type": "旦",
+              "deg": 0.571429
+            },
+            {
+              "name": "高嗣继",
+              "role_type": "小生",
+              "deg": 0.571429
+            },
+            {
+              "name": "马达",
+              "role_type": "",
+              "deg": 0.428571
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "阵营对立",
+            "weight": 0.94
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6393,
+          "title": "瓦口关",
+          "play_type": "历史戏",
+          "label": "双核心对抗型",
+          "reasons": [
+            "top1_top2_gap=0.000 <= 0.10 AND top2_top3_gap=0.188 > 0.12 AND relation=敌对/阵营对立 (对抗)"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 31,
+            "node_count": 17,
+            "active_node_ratio": 0.764706,
+            "largest_component_ratio": 0.764706,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.379167,
+            "top3_centrality_share": 0.387097
+          },
+          "top_characters": [
+            {
+              "name": "张郃",
+              "role_type": "净",
+              "deg": 0.5625
+            },
+            {
+              "name": "魏延",
+              "role_type": "净",
+              "deg": 0.5625
+            },
+            {
+              "name": "张飞",
+              "role_type": "净",
+              "deg": 0.375
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "阵营对立",
+            "weight": 0.665202
+          },
+          "possible_misclassification": ""
+        }
+      ]
+    },
+    "多核心群像型": {
+      "total": 116,
+      "sampled": 20,
+      "cases": [
+        {
+          "entity_id": 7278,
+          "title": "玉簪记·问病",
+          "play_type": "爱情戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.500 >= 0.45 AND degree_centralization=0.000 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 15,
+            "node_count": 6,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "潘必正",
+              "role_type": "巾生",
+              "deg": 1.0
+            },
+            {
+              "name": "陈妙常",
+              "role_type": "五旦",
+              "deg": 1.0
+            },
+            {
+              "name": "姑母",
+              "role_type": "老旦",
+              "deg": 1.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "情感",
+            "micro_type": "恋人",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6364,
+          "title": "五雷阵",
+          "play_type": "神话戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.643 >= 0.45 AND degree_centralization=0.200 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 7,
+            "node_count": 6,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 0.666667,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.2,
+            "top3_centrality_share": 0.642857
+          },
+          "top_characters": [
+            {
+              "name": "海潮",
+              "role_type": "外",
+              "deg": 0.6
+            },
+            {
+              "name": "毛蕡",
+              "role_type": "净",
+              "deg": 0.6
+            },
+            {
+              "name": "清风",
+              "role_type": "童",
+              "deg": 0.6
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "其他同盟",
+            "weight": 0.91
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6097,
+          "title": "打樱桃（一名：寿山会）",
+          "play_type": "爱情戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=7 >= 6 AND top3_centrality_share=0.474 >= 0.45 AND degree_centralization=0.238 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 19,
+            "node_count": 8,
+            "active_node_ratio": 0.875,
+            "largest_component_ratio": 0.875,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.238095,
+            "top3_centrality_share": 0.473684
+          },
+          "top_characters": [
+            {
+              "name": "秋水",
+              "role_type": "丑",
+              "deg": 0.857143
+            },
+            {
+              "name": "邱相公",
+              "role_type": "小生",
+              "deg": 0.857143
+            },
+            {
+              "name": "太老爷",
+              "role_type": "末",
+              "deg": 0.857143
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "其他同盟",
+            "weight": 0.955
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6411,
+          "title": "观阵",
+          "play_type": "历史戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.500 >= 0.45 AND degree_centralization=0.000 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 15,
+            "node_count": 6,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "秦琼",
+              "role_type": "生",
+              "deg": 1.0
+            },
+            {
+              "name": "罗周",
+              "role_type": "小生",
+              "deg": 1.0
+            },
+            {
+              "name": "程咬金",
+              "role_type": "净",
+              "deg": 1.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "其他亲属",
+            "weight": 0.955
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6356,
+          "title": "米注山（一名：伐陆浑）",
+          "play_type": "历史戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.577 >= 0.45 AND degree_centralization=0.339 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 13,
+            "node_count": 9,
+            "active_node_ratio": 0.666667,
+            "largest_component_ratio": 0.666667,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.339286,
+            "top3_centrality_share": 0.576923
+          },
+          "top_characters": [
+            {
+              "name": "蒍贾",
+              "role_type": "外，相貂白满白蟒",
+              "deg": 0.625
+            },
+            {
+              "name": "蒍夫人",
+              "role_type": "老旦",
+              "deg": 0.625
+            },
+            {
+              "name": "蒍子",
+              "role_type": "小生",
+              "deg": 0.625
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "夫妻",
+            "weight": 0.635
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6126,
+          "title": "三气周瑜（一名：芦花荡）",
+          "play_type": "历史戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=9 >= 6 AND top3_centrality_share=0.471 >= 0.45 AND degree_centralization=0.321 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 17,
+            "node_count": 14,
+            "active_node_ratio": 0.642857,
+            "largest_component_ratio": 0.5,
+            "top1_top2_gap": 0.076923,
+            "top1_top2_ratio": 1.2,
+            "degree_centralization": 0.320513,
+            "top3_centrality_share": 0.470588
+          },
+          "top_characters": [
+            {
+              "name": "周瑜",
+              "role_type": "小生",
+              "deg": 0.461538
+            },
+            {
+              "name": "刘封",
+              "role_type": "",
+              "deg": 0.384615
+            },
+            {
+              "name": "糜竺",
+              "role_type": "",
+              "deg": 0.384615
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "敌对",
+            "micro_type": "阵营对立",
+            "weight": 0.711651
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6994,
+          "title": "珍珠塔",
+          "play_type": "家庭戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.600 >= 0.45 AND degree_centralization=0.341 < 0.4"
+          ],
+          "secondary_flags": [
+            "双核心倾向 (gap=0.083, gap23=0.083)"
+          ],
+          "key_metrics": {
+            "edge_count": 10,
+            "node_count": 13,
+            "active_node_ratio": 0.461538,
+            "largest_component_ratio": 0.461538,
+            "top1_top2_gap": 0.083333,
+            "top1_top2_ratio": 1.25,
+            "degree_centralization": 0.340909,
+            "top3_centrality_share": 0.6
+          },
+          "top_characters": [
+            {
+              "name": "方卿",
+              "role_type": "小生",
+              "deg": 0.416667
+            },
+            {
+              "name": "陈宣",
+              "role_type": "外",
+              "deg": 0.333333
+            },
+            {
+              "name": "彩屏",
+              "role_type": "",
+              "deg": 0.25
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "其他亲属",
+            "weight": 0.994
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6188,
+          "title": "采花赶府",
+          "play_type": "家庭戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.500 >= 0.45 AND degree_centralization=0.238 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 15,
+            "node_count": 8,
+            "active_node_ratio": 0.75,
+            "largest_component_ratio": 0.75,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.238095,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "刘文艳",
+              "role_type": "花旦",
+              "deg": 0.714286
+            },
+            {
+              "name": "张尚书",
+              "role_type": "老生",
+              "deg": 0.714286
+            },
+            {
+              "name": "张夫人",
+              "role_type": "老旦",
+              "deg": 0.714286
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "其他亲属",
+            "weight": 0.88
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7060,
+          "title": "二进宫",
+          "play_type": "历史戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.500 >= 0.45 AND degree_centralization=0.000 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 15,
+            "node_count": 6,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "李妃",
+              "role_type": "青衣",
+              "deg": 1.0
+            },
+            {
+              "name": "徐延昭",
+              "role_type": "净",
+              "deg": 1.0
+            },
+            {
+              "name": "杨波",
+              "role_type": "老生",
+              "deg": 1.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "君臣",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7040,
+          "title": "奇双会",
+          "play_type": "家庭戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.500 >= 0.45 AND degree_centralization=0.256 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 15,
+            "node_count": 14,
+            "active_node_ratio": 0.428571,
+            "largest_component_ratio": 0.428571,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.25641,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "李桂枝",
+              "role_type": "闺门旦，《哭监》梳大头，缀点翠头面包头巾、彩裤，绣花褶子，斗篷、彩鞋；《写状》除去头巾、",
+              "deg": 0.384615
+            },
+            {
+              "name": "赵宠",
+              "role_type": "小冠生，《写状》带帽正的小生纱帽、彩裤、蓝官衣，厚底靴。二场换穿红对儿帔；《三拉》黑官衣、",
+              "deg": 0.384615
+            },
+            {
+              "name": "李保童",
+              "role_type": "小冠生，带帽正的小生纱帽、彩裤、粉蟒、厚底靴",
+              "deg": 0.384615
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "夫妻",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6960,
+          "title": "钟馗嫁妹",
+          "play_type": "神话戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.536 >= 0.45 AND degree_centralization=0.100 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 14,
+            "node_count": 6,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.1,
+            "top3_centrality_share": 0.535714
+          },
+          "top_characters": [
+            {
+              "name": "钟馗",
+              "role_type": "净",
+              "deg": 1.0
+            },
+            {
+              "name": "大鬼卒",
+              "role_type": "净",
+              "deg": 1.0
+            },
+            {
+              "name": "钟妹",
+              "role_type": "旦",
+              "deg": 1.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "将卒",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6022,
+          "title": "卖绒花（一名：三不愿意）",
+          "play_type": "公案戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.500 >= 0.45 AND degree_centralization=0.167 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 15,
+            "node_count": 7,
+            "active_node_ratio": 0.857143,
+            "largest_component_ratio": 0.857143,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.166667,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "崔华",
+              "role_type": "丑",
+              "deg": 0.833333
+            },
+            {
+              "name": "二小姐",
+              "role_type": "花旦",
+              "deg": 0.833333
+            },
+            {
+              "name": "院子",
+              "role_type": "丑",
+              "deg": 0.833333
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 1.0
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6858,
+          "title": "战樊城",
+          "play_type": "历史戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=7 >= 6 AND top3_centrality_share=0.583 >= 0.45 AND degree_centralization=0.311 < 0.4"
+          ],
+          "secondary_flags": [
+            "双核心倾向 (gap=0.000, gap23=0.083)"
+          ],
+          "key_metrics": {
+            "edge_count": 12,
+            "node_count": 13,
+            "active_node_ratio": 0.538462,
+            "largest_component_ratio": 0.538462,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.310606,
+            "top3_centrality_share": 0.583333
+          },
+          "top_characters": [
+            {
+              "name": "伍尚",
+              "role_type": "老生",
+              "deg": 0.416667
+            },
+            {
+              "name": "鄢将师",
+              "role_type": "丑",
+              "deg": 0.416667
+            },
+            {
+              "name": "伍子胥",
+              "role_type": "老生",
+              "deg": 0.333333
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 1.0
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6949,
+          "title": "铡美案（一名：明公断）",
+          "play_type": "公案戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=7 >= 6 AND top3_centrality_share=0.474 >= 0.45 AND degree_centralization=0.238 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 19,
+            "node_count": 8,
+            "active_node_ratio": 0.875,
+            "largest_component_ratio": 0.875,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.238095,
+            "top3_centrality_share": 0.473684
+          },
+          "top_characters": [
+            {
+              "name": "包拯",
+              "role_type": "净",
+              "deg": 0.857143
+            },
+            {
+              "name": "秦香莲",
+              "role_type": "旦",
+              "deg": 0.857143
+            },
+            {
+              "name": "马汉",
+              "role_type": "",
+              "deg": 0.857143
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "恩人",
+            "weight": 0.97
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6098,
+          "title": "丁甲山（一名：李逵犯罪）",
+          "play_type": "侠义戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=9 >= 6 AND top3_centrality_share=0.500 >= 0.45 AND degree_centralization=0.345 < 0.4"
+          ],
+          "secondary_flags": [
+            "双核心倾向 (gap=0.000, gap23=0.091)"
+          ],
+          "key_metrics": {
+            "edge_count": 17,
+            "node_count": 12,
+            "active_node_ratio": 0.75,
+            "largest_component_ratio": 0.75,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.345455,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "李逵",
+              "role_type": "净",
+              "deg": 0.545455
+            },
+            {
+              "name": "燕青",
+              "role_type": "武生",
+              "deg": 0.545455
+            },
+            {
+              "name": "陈员外",
+              "role_type": "末",
+              "deg": 0.454545
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "结拜",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6682,
+          "title": "飞将军",
+          "play_type": "历史戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=9 >= 6 AND top3_centrality_share=0.452 >= 0.45 AND degree_centralization=0.309 < 0.4"
+          ],
+          "secondary_flags": [
+            "双核心倾向 (gap=0.000, gap23=0.118)"
+          ],
+          "key_metrics": {
+            "edge_count": 21,
+            "node_count": 18,
+            "active_node_ratio": 0.5,
+            "largest_component_ratio": 0.5,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.308824,
+            "top3_centrality_share": 0.452381
+          },
+          "top_characters": [
+            {
+              "name": "稽粥",
+              "role_type": "",
+              "deg": 0.411765
+            },
+            {
+              "name": "呐奴",
+              "role_type": "",
+              "deg": 0.411765
+            },
+            {
+              "name": "突兀",
+              "role_type": "",
+              "deg": 0.294118
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "君臣",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7112,
+          "title": "斩车胄",
+          "play_type": "历史戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.583 >= 0.45 AND degree_centralization=0.327 < 0.4"
+          ],
+          "secondary_flags": [
+            "双核心倾向 (gap=0.000, gap23=0.091)"
+          ],
+          "key_metrics": {
+            "edge_count": 12,
+            "node_count": 12,
+            "active_node_ratio": 0.5,
+            "largest_component_ratio": 0.5,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.327273,
+            "top3_centrality_share": 0.583333
+          },
+          "top_characters": [
+            {
+              "name": "刘备",
+              "role_type": "生",
+              "deg": 0.454545
+            },
+            {
+              "name": "陈登",
+              "role_type": "生",
+              "deg": 0.454545
+            },
+            {
+              "name": "关羽",
+              "role_type": "红生",
+              "deg": 0.363636
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "君臣",
+            "weight": 0.955
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6158,
+          "title": "孝妇羹",
+          "play_type": "家庭戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.500 >= 0.45 AND degree_centralization=0.238 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 15,
+            "node_count": 8,
+            "active_node_ratio": 0.75,
+            "largest_component_ratio": 0.75,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.238095,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "陈炳顺",
+              "role_type": "老生",
+              "deg": 0.714286
+            },
+            {
+              "name": "大媳妇",
+              "role_type": "旦",
+              "deg": 0.714286
+            },
+            {
+              "name": "姑母",
+              "role_type": "正旦",
+              "deg": 0.714286
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "夫妻",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6517,
+          "title": "九龙杯（一名：奏事起程）",
+          "play_type": "公案戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=7 >= 6 AND top3_centrality_share=0.500 >= 0.45 AND degree_centralization=0.393 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 16,
+            "node_count": 9,
+            "active_node_ratio": 0.777778,
+            "largest_component_ratio": 0.777778,
+            "top1_top2_gap": 0.125,
+            "top1_top2_ratio": 1.2,
+            "degree_centralization": 0.392857,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "梁九公",
+              "role_type": "净",
+              "deg": 0.75
+            },
+            {
+              "name": "赵兴本",
+              "role_type": "",
+              "deg": 0.625
+            },
+            {
+              "name": "黄国瑞",
+              "role_type": "",
+              "deg": 0.625
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "君臣",
+            "weight": 0.94
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6412,
+          "title": "报信",
+          "play_type": "侠义戏",
+          "label": "多核心群像型",
+          "reasons": [
+            "active_node_count=6 >= 6 AND top3_centrality_share=0.500 >= 0.45 AND degree_centralization=0.067 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 6,
+            "node_count": 7,
+            "active_node_ratio": 0.857143,
+            "largest_component_ratio": 0.428571,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.066667,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "秦琼",
+              "role_type": "生",
+              "deg": 0.333333
+            },
+            {
+              "name": "张紫艳",
+              "role_type": "旦",
+              "deg": 0.333333
+            },
+            {
+              "name": "杨林",
+              "role_type": "净",
+              "deg": 0.333333
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "恩人",
+            "weight": 0.91
+          },
+          "possible_misclassification": ""
+        }
+      ]
+    },
+    "弱关系碎片型": {
+      "total": 113,
+      "sampled": 20,
+      "cases": [
+        {
+          "entity_id": 6246,
+          "title": "戏牡丹（一名：纯阳戏洞）",
+          "play_type": "神话戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=1 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 1,
+            "node_count": 2,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "吕洞宾",
+              "role_type": "生",
+              "deg": 1.0
+            },
+            {
+              "name": "牡丹",
+              "role_type": "旦",
+              "deg": 1.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 1.0
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6940,
+          "title": "扫松下书",
+          "play_type": "家庭戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=1 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 1,
+            "node_count": 2,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "张广才",
+              "role_type": "老生",
+              "deg": 1.0
+            },
+            {
+              "name": "李旺",
+              "role_type": "丑",
+              "deg": 1.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 1.0
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7055,
+          "title": "洛阳桥·下海",
+          "play_type": "神话戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=1 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 1,
+            "node_count": 2,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "夏得海",
+              "role_type": "付",
+              "deg": 1.0
+            },
+            {
+              "name": "未知",
+              "role_type": "",
+              "deg": 1.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "利益结盟",
+            "weight": 0.7
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6826,
+          "title": "安居平五路",
+          "play_type": "历史戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "largest_component_ratio=0.279 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 55,
+            "node_count": 43,
+            "active_node_ratio": 0.627907,
+            "largest_component_ratio": 0.27907,
+            "top1_top2_gap": 0.095238,
+            "top1_top2_ratio": 1.6667,
+            "degree_centralization": 0.18583,
+            "top3_centrality_share": 0.2
+          },
+          "top_characters": [
+            {
+              "name": "黄门官",
+              "role_type": "",
+              "deg": 0.238095
+            },
+            {
+              "name": "邓芝",
+              "role_type": "老生",
+              "deg": 0.142857
+            },
+            {
+              "name": "孙权",
+              "role_type": "净",
+              "deg": 0.142857
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 0.5
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6194,
+          "title": "霸王别姬（一名：垓下围）",
+          "play_type": "历史戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=2 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 2,
+            "node_count": 7,
+            "active_node_ratio": 0.428571,
+            "largest_component_ratio": 0.428571,
+            "top1_top2_gap": 0.166667,
+            "top1_top2_ratio": 2.0,
+            "degree_centralization": 0.333333,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "项羽",
+              "role_type": "净",
+              "deg": 0.333333
+            },
+            {
+              "name": "虞姬",
+              "role_type": "小旦",
+              "deg": 0.166667
+            },
+            {
+              "name": "渔夫",
+              "role_type": "外",
+              "deg": 0.166667
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "夫妻",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7039,
+          "title": "宇宙锋",
+          "play_type": "历史戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "largest_component_ratio=0.375 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 13,
+            "node_count": 16,
+            "active_node_ratio": 0.375,
+            "largest_component_ratio": 0.375,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.257143,
+            "top3_centrality_share": 0.576923
+          },
+          "top_characters": [
+            {
+              "name": "赵艳容",
+              "role_type": "旦，梳大头线帘子、点翠头面、带抱头联、小白绸条、团花蓝披或黑披、衬青褶子、花边腰包、彩",
+              "deg": 0.333333
+            },
+            {
+              "name": "赵高",
+              "role_type": "净，相巾、黪满、紫开氅、衬素褶子、红彩裤、厚底；金殿一场换相纱、黑蟒、玉带。",
+              "deg": 0.333333
+            },
+            {
+              "name": "秦二世",
+              "role_type": "小生，九龙冠、黄披、黄素褶子、红彩裤、厚底；金殿一场换王帽、黄蟒、玉带",
+              "deg": 0.333333
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "其他亲属",
+            "weight": 1.0
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6327,
+          "title": "宁武关（一名：对刀步战）",
+          "play_type": "历史戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "largest_component_ratio=0.333 < 0.4"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 6,
+            "node_count": 12,
+            "active_node_ratio": 0.583333,
+            "largest_component_ratio": 0.333333,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.109091,
+            "top3_centrality_share": 0.5
+          },
+          "top_characters": [
+            {
+              "name": "周遇吉",
+              "role_type": "老生",
+              "deg": 0.181818
+            },
+            {
+              "name": "李洪基",
+              "role_type": "武生",
+              "deg": 0.181818
+            },
+            {
+              "name": "李自成",
+              "role_type": "净",
+              "deg": 0.181818
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 1.0
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7339,
+          "title": "春闺梦",
+          "play_type": "家庭戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=1 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 1,
+            "node_count": 3,
+            "active_node_ratio": 0.666667,
+            "largest_component_ratio": 0.666667,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.5,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "张氏",
+              "role_type": "旦",
+              "deg": 0.5
+            },
+            {
+              "name": "王恢",
+              "role_type": "小生",
+              "deg": 0.5
+            },
+            {
+              "name": "丫鬟",
+              "role_type": "丑旦",
+              "deg": 0.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 1.0
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7274,
+          "title": "牡丹亭·叫画",
+          "play_type": "爱情戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=0 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 0,
+            "node_count": 1,
+            "active_node_ratio": 0.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": null,
+            "top1_top2_ratio": null,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": null
+          },
+          "top_characters": [
+            {
+              "name": "柳梦梅",
+              "role_type": "巾生",
+              "deg": 0.0
+            }
+          ],
+          "top1_top2_relation": null,
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7290,
+          "title": "孽海记·思凡",
+          "play_type": "爱情戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=0 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 0,
+            "node_count": 2,
+            "active_node_ratio": 0.0,
+            "largest_component_ratio": 0.5,
+            "top1_top2_gap": null,
+            "top1_top2_ratio": null,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": null
+          },
+          "top_characters": [
+            {
+              "name": "色空",
+              "role_type": "五旦",
+              "deg": 0.0
+            },
+            {
+              "name": "未知",
+              "role_type": "",
+              "deg": 0.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": false,
+            "relation_type": null,
+            "micro_type": null,
+            "weight": null
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5960,
+          "title": "武家坡（一名：平贵回窑）",
+          "play_type": "家庭戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=1 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 1,
+            "node_count": 3,
+            "active_node_ratio": 0.666667,
+            "largest_component_ratio": 0.666667,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.5,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "薛平贵",
+              "role_type": "老生",
+              "deg": 0.5
+            },
+            {
+              "name": "王宝钏",
+              "role_type": "旦",
+              "deg": 0.5
+            },
+            {
+              "name": "大嫂",
+              "role_type": "",
+              "deg": 0.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 1.0
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6199,
+          "title": "双合印",
+          "play_type": "公案戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=2 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 2,
+            "node_count": 3,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.5,
+            "top1_top2_ratio": 2.0,
+            "degree_centralization": 1.0,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "董洪",
+              "role_type": "小生",
+              "deg": 1.0
+            },
+            {
+              "name": "王月梅",
+              "role_type": "旦",
+              "deg": 0.5
+            },
+            {
+              "name": "丑院子",
+              "role_type": "丑",
+              "deg": 0.5
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "从属",
+            "micro_type": "官民",
+            "weight": 0.88
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7323,
+          "title": "梅龙镇（一名：游龙戏凤）",
+          "play_type": "爱情戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=1 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 1,
+            "node_count": 2,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "正德帝",
+              "role_type": "老生",
+              "deg": 1.0
+            },
+            {
+              "name": "李凤姐",
+              "role_type": "旦",
+              "deg": 1.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "情感",
+            "micro_type": "恋人",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5935,
+          "title": "拾黄金（一名：财迷传）",
+          "play_type": "技法展示戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=0 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 0,
+            "node_count": 1,
+            "active_node_ratio": 0.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": null,
+            "top1_top2_ratio": null,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": null
+          },
+          "top_characters": [
+            {
+              "name": "范陶",
+              "role_type": "丑",
+              "deg": 0.0
+            }
+          ],
+          "top1_top2_relation": null,
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 7312,
+          "title": "西游记·认子",
+          "play_type": "家庭戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=1 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 1,
+            "node_count": 2,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "殷氏",
+              "role_type": "正旦",
+              "deg": 1.0
+            },
+            {
+              "name": "唐僧",
+              "role_type": "小生",
+              "deg": 1.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "母子",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6311,
+          "title": "平贵别窑（一名：平贵从军）",
+          "play_type": "家庭戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=1 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 1,
+            "node_count": 3,
+            "active_node_ratio": 0.666667,
+            "largest_component_ratio": 0.666667,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.5,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "薛平贵",
+              "role_type": "生",
+              "deg": 0.5
+            },
+            {
+              "name": "王宝钏",
+              "role_type": "旦",
+              "deg": 0.5
+            },
+            {
+              "name": "中军",
+              "role_type": "",
+              "deg": 0.0
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "亲属",
+            "micro_type": "夫妻",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6482,
+          "title": "双挂印",
+          "play_type": "历史戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "largest_component_ratio=0.375 < 0.4"
+          ],
+          "secondary_flags": [
+            "双核心倾向 (gap=0.000, gap23=0.067)"
+          ],
+          "key_metrics": {
+            "edge_count": 22,
+            "node_count": 16,
+            "active_node_ratio": 0.6875,
+            "largest_component_ratio": 0.375,
+            "top1_top2_gap": 0.0,
+            "top1_top2_ratio": 1.0,
+            "degree_centralization": 0.171429,
+            "top3_centrality_share": 0.318182
+          },
+          "top_characters": [
+            {
+              "name": "白天佐",
+              "role_type": "净",
+              "deg": 0.333333
+            },
+            {
+              "name": "鲁雄",
+              "role_type": "",
+              "deg": 0.333333
+            },
+            {
+              "name": "穆桂英",
+              "role_type": "旦",
+              "deg": 0.266667
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "同盟",
+            "micro_type": "同僚",
+            "weight": 0.764737
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 5961,
+          "title": "浣纱记（一名：子胥投吴）",
+          "play_type": "历史戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=2 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 2,
+            "node_count": 3,
+            "active_node_ratio": 1.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": 0.5,
+            "top1_top2_ratio": 2.0,
+            "degree_centralization": 1.0,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "伍子胥",
+              "role_type": "老生",
+              "deg": 1.0
+            },
+            {
+              "name": "渔父",
+              "role_type": "丑",
+              "deg": 0.5
+            },
+            {
+              "name": "浣纱女",
+              "role_type": "正旦",
+              "deg": 0.5
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "中立",
+            "micro_type": "同场",
+            "weight": 1.0
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6176,
+          "title": "佘塘关（一名：七星庙）",
+          "play_type": "爱情戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=2 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 2,
+            "node_count": 4,
+            "active_node_ratio": 0.75,
+            "largest_component_ratio": 0.75,
+            "top1_top2_gap": 0.333333,
+            "top1_top2_ratio": 2.0,
+            "degree_centralization": 0.666667,
+            "top3_centrality_share": 1.0
+          },
+          "top_characters": [
+            {
+              "name": "佘太君",
+              "role_type": "旦",
+              "deg": 0.666667
+            },
+            {
+              "name": "杨业",
+              "role_type": "小生",
+              "deg": 0.333333
+            },
+            {
+              "name": "女马童",
+              "role_type": "",
+              "deg": 0.333333
+            }
+          ],
+          "top1_top2_relation": {
+            "exists": true,
+            "relation_type": "情感",
+            "micro_type": "恋人",
+            "weight": 0.985
+          },
+          "possible_misclassification": ""
+        },
+        {
+          "entity_id": 6842,
+          "title": "秦罗敷",
+          "play_type": "家庭戏",
+          "label": "弱关系碎片型",
+          "reasons": [
+            "edge_count=0 <= 2"
+          ],
+          "secondary_flags": [],
+          "key_metrics": {
+            "edge_count": 0,
+            "node_count": 1,
+            "active_node_ratio": 0.0,
+            "largest_component_ratio": 1.0,
+            "top1_top2_gap": null,
+            "top1_top2_ratio": null,
+            "degree_centralization": 0.0,
+            "top3_centrality_share": null
+          },
+          "top_characters": [
+            {
+              "name": "秦罗敷",
+              "role_type": "旦",
+              "deg": 0.0
+            }
+          ],
+          "top1_top2_relation": null,
+          "possible_misclassification": ""
+        }
+      ]
+    }
+  }
+}

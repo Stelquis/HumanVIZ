@@ -1,0 +1,296 @@
+{
+  "title": "太行山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "02002030_太行山.json",
+  "source_folder": "02000000",
+  "plot_summary": "汉姚期被光武斩后，其子姚刚带领人马，逃至太行山，自立为王。后刘唐造反，王英往太行山搬兵求救。姚\n刚在太行山有令，凡提及汉刘一字者，重责四十；二字者，重责八十；三字者斩首。王英甘冒重责，向姚刚\n陈述情形，被姚刚囚禁云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 106,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王英": 1,
+        "喽啰": 1,
+        "姚刚": 1
+      },
+      "links": [
+        {
+          "source": "喽啰",
+          "target": "姚刚",
+          "value": 1
+        },
+        {
+          "source": "喽啰",
+          "target": "王英",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "王英",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 36,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.524,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王英": 1,
+        "喽啰": 1,
+        "姚刚": 1
+      },
+      "links": [
+        {
+          "source": "喽啰",
+          "target": "王英",
+          "value": 1
+        },
+        {
+          "source": "喽啰",
+          "target": "姚刚",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "王英",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 64,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.932,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王英": 1,
+        "喽啰": 1,
+        "姚刚": 1
+      },
+      "links": [
+        {
+          "source": "喽啰",
+          "target": "王英",
+          "value": 1
+        },
+        {
+          "source": "喽啰",
+          "target": "姚刚",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "王英",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "喽啰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊啊啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姚刚",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "盖世英雄，威风千丈，声名重，力勇豪雄，若比泰山动。",
+          "rating": 0.2,
+          "role": "净"
+        },
+        {
+          "name": "王英",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "为国求良将，来此太行山。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：3位角色，106行",
+      "firstLine": 1,
+      "lastLine": 106,
+      "numLines": 106,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.273,
+        "sentiment": 0.276
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "喽啰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一五、一十，十五、二十，二五、三十，三五、四十。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王英",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呀！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "姚刚",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "尊一声贤弟你休怪，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第2场：3位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.805,
+        "conflict": 0.333,
+        "sentiment": 0.424
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "喽啰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一五、一十，十五、二十，二五、三十，三五、四十。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "王英",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "呀！",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "姚刚",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "看软座！",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第3场：3位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.886,
+        "conflict": 0.0,
+        "sentiment": 0.076
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "姚刚",
+      "short": "姚刚",
+      "key": "姚刚",
+      "quote": "姚刚 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "王英",
+      "short": "王英",
+      "key": "王英",
+      "quote": "王英 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "喽啰",
+      "short": "喽啰",
+      "key": "喽啰",
+      "quote": "喽啰 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

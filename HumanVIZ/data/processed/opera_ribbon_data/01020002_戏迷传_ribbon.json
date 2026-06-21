@@ -1,0 +1,590 @@
+{
+  "title": "戏迷传",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 10,
+  "num_locations": 2,
+  "source_file": "01020002_戏迷传.json",
+  "source_folder": "01000000",
+  "plot_summary": "",
+  "performance_notes": "此剧专以模唱诸名伶擅长之腔调，为其佳处，并非专演某朝某人某事之戏。乃旧剧中之推陈出新，别创一格\n者，故并无情节可考。所可考者，此剧系沪汉间名伶吕月樵所创演。吕月樵以嗓音颇好，善能摹仿诸名伶声\n口，如谭鑫培、汪桂芬、孙菊仙、朱素云等，且于须生、大面、青衫、小生种种角色，并无不各善其能。然\n徒抱此兼长，非但无此种夹夹杂杂之戏，可以一试其技，且亦无此项扫边角色可居，因此超越常轨，创编斯\n剧，籍以自见，洵亦非易事也。然细按此剧，究亦非真真破天荒之创格，实则脱胎于《拾黄金》、《兄妹串\n戏》等剧之间，而稍异其面目，然拉杂诌唱，不过挖苦世之真戏迷耳。远不若《拾金》只有用意，于世俗有\n针砭也。第信手拈来，皆成妙谛。其运化之才，亦自不可没。且集各戏中唱白之精华，熔于一炉。看此一剧，\n胜如听了数十套留声戏片，又如叫了数十个之堂唱，真可谓之无美不备。至唱演之能事，则吕月樵外，我\n尤佩服恩晓峰。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 86,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "每日看戏台": 1
+      },
+      "characters": {
+        "伍父": 1,
+        "伍妻": 1,
+        "伍子": 1,
+        "伍音": 1,
+        "伍母": 1,
+        "路人": 1
+      },
+      "links": [
+        {
+          "source": "伍音",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "伍妻",
+          "target": "伍音",
+          "value": 1
+        },
+        {
+          "source": "伍子",
+          "target": "伍音",
+          "value": 1
+        },
+        {
+          "source": "伍父",
+          "target": "伍音",
+          "value": 1
+        },
+        {
+          "source": "伍母",
+          "target": "伍音",
+          "value": 1
+        },
+        {
+          "source": "伍妻",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "伍子",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "伍父",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "伍母",
+          "target": "路人",
+          "value": 1
+        },
+        {
+          "source": "伍妻",
+          "target": "伍子",
+          "value": 1
+        },
+        {
+          "source": "伍妻",
+          "target": "伍父",
+          "value": 1
+        },
+        {
+          "source": "伍妻",
+          "target": "伍母",
+          "value": 1
+        },
+        {
+          "source": "伍子",
+          "target": "伍父",
+          "value": 1
+        },
+        {
+          "source": "伍子",
+          "target": "伍母",
+          "value": 1
+        },
+        {
+          "source": "伍母",
+          "target": "伍父",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 85,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "贼子的府门": 1
+      },
+      "characters": {
+        "伍父": 1,
+        "医生": 1,
+        "伍妻": 1,
+        "伍音": 1,
+        "伍母": 1,
+        "岳父": 1
+      },
+      "links": [
+        {
+          "source": "伍父",
+          "target": "伍音",
+          "value": 1
+        },
+        {
+          "source": "伍母",
+          "target": "伍音",
+          "value": 1
+        },
+        {
+          "source": "伍音",
+          "target": "医生",
+          "value": 1
+        },
+        {
+          "source": "伍音",
+          "target": "岳父",
+          "value": 1
+        },
+        {
+          "source": "伍妻",
+          "target": "伍音",
+          "value": 1
+        },
+        {
+          "source": "伍母",
+          "target": "伍父",
+          "value": 1
+        },
+        {
+          "source": "伍父",
+          "target": "医生",
+          "value": 1
+        },
+        {
+          "source": "伍父",
+          "target": "岳父",
+          "value": 1
+        },
+        {
+          "source": "伍妻",
+          "target": "伍父",
+          "value": 1
+        },
+        {
+          "source": "伍母",
+          "target": "医生",
+          "value": 1
+        },
+        {
+          "source": "伍母",
+          "target": "岳父",
+          "value": 1
+        },
+        {
+          "source": "伍妻",
+          "target": "伍母",
+          "value": 1
+        },
+        {
+          "source": "医生",
+          "target": "岳父",
+          "value": 1
+        },
+        {
+          "source": "伍妻",
+          "target": "医生",
+          "value": 1
+        },
+        {
+          "source": "伍妻",
+          "target": "岳父",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 60,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.779,
+      "locations": {
+        "每日看戏台": 1
+      },
+      "characters": {
+        "县官": 1,
+        "伍音": 1,
+        "四差役": 1,
+        "伍母": 1
+      },
+      "links": [
+        {
+          "source": "伍母",
+          "target": "四差役",
+          "value": 1
+        },
+        {
+          "source": "县官",
+          "target": "四差役",
+          "value": 1
+        },
+        {
+          "source": "伍音",
+          "target": "四差役",
+          "value": 1
+        },
+        {
+          "source": "伍母",
+          "target": "县官",
+          "value": 1
+        },
+        {
+          "source": "伍母",
+          "target": "伍音",
+          "value": 1
+        },
+        {
+          "source": "伍音",
+          "target": "县官",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "每日看戏台",
+      "characters": [
+        {
+          "name": "伍音",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "西皮二黄，四平调，梆子昆腔。",
+          "rating": 0.333,
+          "role": "老生扮丑"
+        },
+        {
+          "name": "路人",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有一位朋友，送了一封信来，也不知道为的什么事情，我也不认识字。那边有",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "伍妻",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "奴家生来命儿低，嫁了个丈夫是戏迷。清晨起来唱到晚，不是二黄就是西皮。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "伍子",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "参见爹爹。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "伍父",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "亲戚，你起的早呀！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "伍母",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "你这个奴才，真真的大胆！",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第一场：6位角色，86行",
+      "firstLine": 1,
+      "lastLine": 86,
+      "numLines": 86,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.69,
+        "conflict": 0.286,
+        "sentiment": 0.339
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "贼子的府门",
+      "characters": [
+        {
+          "name": "伍音",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哎，哎哎哎，我的妻氏儿呀！",
+          "rating": -0.333,
+          "role": "老生扮丑"
+        },
+        {
+          "name": "伍父",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "我找了半天，也没有看见你，你敢情在这儿，又唱起《打棍出箱》来啦！别唱",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "伍母",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "这个奴才回来了。",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "医生",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "待我来看看。",
+          "rating": 0.6,
+          "role": "丑"
+        },
+        {
+          "name": "岳父",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "请先生开个方子罢。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "伍妻",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：6位角色，85行",
+      "firstLine": 1,
+      "lastLine": 85,
+      "numLines": 85,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.824,
+        "conflict": 0.506,
+        "sentiment": 0.255
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "每日看戏台",
+      "characters": [
+        {
+          "name": "四差役",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "伍母",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "冤枉。",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "县官",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "昨晚一梦甚是凶，梦见寿星老儿，骑着苍蝇。左手抓住苍蝇翅，右手抓住苍蝇",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "伍音",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "来也！",
+          "rating": -1.0,
+          "role": "老生扮丑"
+        }
+      ],
+      "summary": "第三场：4位角色，60行",
+      "firstLine": 1,
+      "lastLine": 60,
+      "numLines": 60,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.738,
+        "conflict": 0.55,
+        "sentiment": -0.184
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "伍音",
+      "short": "伍音",
+      "key": "伍音",
+      "quote": "伍音 — 老生扮丑",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老生扮丑",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "县官",
+      "short": "县官",
+      "key": "县官",
+      "quote": "县官 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "医生",
+      "short": "医生",
+      "key": "医生",
+      "quote": "医生 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "伍父",
+      "short": "伍父",
+      "key": "伍父",
+      "quote": "伍父 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "伍母",
+      "short": "伍母",
+      "key": "伍母",
+      "quote": "伍母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "伍妻",
+      "short": "伍妻",
+      "key": "伍妻",
+      "quote": "伍妻 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "路人",
+      "short": "路人",
+      "key": "路人",
+      "quote": "路人 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "伍子",
+      "short": "伍子",
+      "key": "伍子",
+      "quote": "伍子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四差役",
+      "short": "四差",
+      "key": "四差役",
+      "quote": "四差役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "岳父",
+      "short": "岳父",
+      "key": "岳父",
+      "quote": "岳父 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "每日看戏台",
+      "key": "每日看戏台",
+      "quote": "场景发生在每日看戏台"
+    },
+    {
+      "name": "贼子的府门",
+      "key": "贼子的府门",
+      "quote": "场景发生在贼子的府门"
+    }
+  ]
+}

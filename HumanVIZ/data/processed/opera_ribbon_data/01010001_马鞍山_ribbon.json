@@ -1,0 +1,335 @@
+{
+  "title": "马鞍山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01010001_马鞍山.json",
+  "source_folder": "01000000",
+  "plot_summary": "今按剧中事实，为晋臣上大夫俞伯牙出使楚，行经马鞍山，停舟抚琴，为樵者钟子期闻而叹赏。俞伯牙琴弦\n忽中断，知必有知音者窃听。令童子出探，乃得钟子期，二人遂订金石交。明年俞伯牙使事毕，归经故道，\n携琴入山访钟子期。途遇钟父，不谓钟子期已死。俞伯牙闻之，悲怆欲绝。乃临钟子期坟，对冢抚琴，唏嘘\n凭吊。适有渔樵二，闻而窃笑。俞伯牙感知音之不再，益忉怛伤怀，遂碎琴墓前，终身誓不复鼓。奉钟父而\n终养焉。",
+  "performance_notes": "考《荀子》载：伯牙善鼓琴，钟子期听之。伯牙志在高山，子期曰：善哉巍巍乎，如高山，少还之间；志在\n流水，子期曰：善哉洋洋乎，若流水。伯牙以为知音，遂订交。子期死，伯牙破琴绝弦，终身不复鼓。此剧\n即本此数语，以事实附体之而成。始有昆曲，继由昆腔翻为京剧。惟强冠伯牙以姓俞，则足见编剧者之无识\n矣。按伯牙为周楚人，庄列诸书，皆称其曾学琴于成连先生。三年不成，成连引之东海绝壑间，闻波涛移情，\n乃成水仙操遂擅名云云。初未尝有称其为姓俞者，虽编剧不能不附会，然强加以姓，则正不必。此剧多仅\n演后本访友一出。盖其精神，本在墓前鼓琴一假也。常见真小桂芬演此颇佳。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.327,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "俞伯牙": 1,
+        "童儿": 1
+      },
+      "links": [
+        {
+          "source": "俞伯牙",
+          "target": "童儿",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 16,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.291,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "钟元甫": 1,
+        "俞伯牙": 1
+      },
+      "links": [
+        {
+          "source": "俞伯牙",
+          "target": "钟元甫",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 131,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "童儿": 1,
+        "樵夫": 1,
+        "钟元甫": 1,
+        "渔夫": 1,
+        "俞伯牙": 1
+      },
+      "links": [
+        {
+          "source": "俞伯牙",
+          "target": "钟元甫",
+          "value": 1
+        },
+        {
+          "source": "俞伯牙",
+          "target": "童儿",
+          "value": 1
+        },
+        {
+          "source": "俞伯牙",
+          "target": "渔夫",
+          "value": 1
+        },
+        {
+          "source": "俞伯牙",
+          "target": "樵夫",
+          "value": 1
+        },
+        {
+          "source": "童儿",
+          "target": "钟元甫",
+          "value": 1
+        },
+        {
+          "source": "渔夫",
+          "target": "钟元甫",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "钟元甫",
+          "value": 1
+        },
+        {
+          "source": "渔夫",
+          "target": "童儿",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "童儿",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "渔夫",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "俞伯牙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "好访名贤，顾不得，涉水登山。",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "童儿",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "遵命！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.565,
+        "conflict": 0.714,
+        "sentiment": 0.06
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "钟元甫",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "屋漏更遭连夜雨，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "俞伯牙",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.758,
+        "conflict": 0.0,
+        "sentiment": -0.007
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "俞伯牙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "昨晚间抚瑶琴内藏悲调，",
+          "rating": -0.25,
+          "role": "老生"
+        },
+        {
+          "name": "钟元甫",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "断香烟绝后代此罪非小，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "童儿",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "此乃是晋国上大夫俞大人便是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "渔夫",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "六月炉边炼铁，数九江上渔翁。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "樵夫",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "非是不知寒暑，生涯落在其中。",
+          "rating": 0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，131行",
+      "firstLine": 1,
+      "lastLine": 131,
+      "numLines": 131,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.296,
+        "sentiment": -0.004
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "俞伯牙",
+      "short": "俞伯",
+      "key": "俞伯牙",
+      "quote": "俞伯牙 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "钟元甫",
+      "short": "钟元",
+      "key": "钟元甫",
+      "quote": "钟元甫 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "童儿",
+      "short": "童儿",
+      "key": "童儿",
+      "quote": "童儿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "樵夫",
+      "short": "樵夫",
+      "key": "樵夫",
+      "quote": "樵夫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "渔夫",
+      "short": "渔夫",
+      "key": "渔夫",
+      "quote": "渔夫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "title": "煤山恨",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 7,
+  "num_locations": 2,
+  "source_file": "01018006_煤山恨.json",
+  "source_folder": "01000000",
+  "plot_summary": "李闯围困京城，襄城伯李国桢竭力守御，屡战屡败，奏请帝出奔以避锐。帝不从，忽报杜勋杜秩亨降贼，已\n献彰仪门。帝急极回宫，令周后自裁，手刃公主，使内监负太子逃难，将铁冠道人所进画图三轴拽开观看。\n第一、第二轴系官员民众，难散之状；第三轴有一小像，宛似御容，披发中悬，左足袜履完全，而右足则跣，\n知非吉兆。帝乃入太庙痛哭，拜别列祖列宗，追念各路诸将帅，尽节死难之事，一一历数之，而深为惋惜，\n大骂廷臣误国，以致不可收拾，并抚躬自责，斥为不肖子孙，遂往煤山（即北京紫禁城北上门外景山）缢\n焉。衣襟上有题字一行曰：听凭分裂朕尸，毋许伤朕百姓。帝真仁慈之主也，至于失国，实天数使然，呜呼\n伤哉！",
+  "performance_notes": "此即《排王赞》后本，二剧总名《铁冠图》。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 52,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.693,
+      "locations": {
+        "万寿亭": 1
+      },
+      "characters": {
+        "报子": 1,
+        "周后": 1,
+        "王承恩": 1,
+        "公主": 1,
+        "崇祯": 1,
+        "太子": 1,
+        "内监": 1
+      },
+      "links": [
+        {
+          "source": "周后",
+          "target": "崇祯",
+          "value": 1
+        },
+        {
+          "source": "太子",
+          "target": "崇祯",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "崇祯",
+          "value": 1
+        },
+        {
+          "source": "公主",
+          "target": "崇祯",
+          "value": 1
+        },
+        {
+          "source": "崇祯",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "崇祯",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "周后",
+          "target": "太子",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "周后",
+          "value": 1
+        },
+        {
+          "source": "公主",
+          "target": "周后",
+          "value": 1
+        },
+        {
+          "source": "周后",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "周后",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "太子",
+          "value": 1
+        },
+        {
+          "source": "公主",
+          "target": "太子",
+          "value": 1
+        },
+        {
+          "source": "太子",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "太子",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "公主",
+          "target": "内监",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "公主",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "公主",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "王承恩",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 98,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "万寿亭": 1
+      },
+      "characters": {
+        "崇祯": 1,
+        "王承恩": 1
+      },
+      "links": [
+        {
+          "source": "崇祯",
+          "target": "王承恩",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "万寿亭",
+      "characters": [
+        {
+          "name": "崇祯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "朝王殿看罢了排王赞，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "周后",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "臣妾接驾。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "太子",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "皇娘，难道舍了孩儿不成？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "内监",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "公主",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "咳，父王呀，难道杀了孩儿么？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "报子",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "王承恩",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第1场：7位角色，52行",
+      "firstLine": 1,
+      "lastLine": 52,
+      "numLines": 52,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.889,
+        "sentiment": 0.272
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "万寿亭",
+      "characters": [
+        {
+          "name": "王承恩",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "启我主，贼把彰仪门打开，我主快快换衣服，溜出城门，再作商量。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "崇祯",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "今大事已去，你叫朕往哪里逃走去。",
+          "rating": 0.067,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：2位角色，98行",
+      "firstLine": 1,
+      "lastLine": 98,
+      "numLines": 98,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.48,
+        "sentiment": 0.276
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "崇祯",
+      "short": "崇祯",
+      "key": "崇祯",
+      "quote": "崇祯 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周后",
+      "short": "周后",
+      "key": "周后",
+      "quote": "周后 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王承恩",
+      "short": "王承",
+      "key": "王承恩",
+      "quote": "王承恩 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "公主",
+      "short": "公主",
+      "key": "公主",
+      "quote": "公主 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "太子",
+      "short": "太子",
+      "key": "太子",
+      "quote": "太子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内监",
+      "short": "内监",
+      "key": "内监",
+      "quote": "内监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "万寿亭",
+      "key": "万寿亭",
+      "quote": "场景发生在万寿亭"
+    },
+    {
+      "name": "前到万寿亭",
+      "key": "前到万寿亭",
+      "quote": "场景发生在前到万寿亭"
+    }
+  ]
+}

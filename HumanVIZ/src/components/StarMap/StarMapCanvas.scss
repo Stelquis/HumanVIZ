@@ -1,20 +1,34 @@
 /* ═══════════════════════════════════════════
    梨园星图 Styles
+   燕京清晖 · 卡片体系 — 对齐 Overview 首页
    ═══════════════════════════════════════════ */
+
+/* ── 主题变量别名（与 liyuan.scss 一致） ── */
+$paper: var(--theme-paper);
+$parchment: var(--theme-parchment);
+$camel: var(--theme-gold);
+$wood: var(--theme-wood);
+$ink: var(--theme-ink);
+$border: var(--theme-border);
+$border-soft: var(--theme-border-soft);
+$shadow: var(--theme-shadow-color);
+$text-soft: var(--theme-text-soft);
+
+/* ═══════════ Container ═══════════ */
 
 .starmap-container {
   position: relative;
   width: 100%;
   height: 100%;
   min-height: 0;
-  background: #faf8f5;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.35)), $paper;
   overflow: hidden;
   font-family: "Noto Sans SC", "Atkinson Hyperlegible", sans-serif;
   display: flex;
   flex-direction: column;
 }
 
-/* ── Canvas layers ── */
+/* ═══════════ Canvas layers ═══════════ */
 
 .starmap-canvas {
   position: absolute;
@@ -35,66 +49,87 @@
   cursor: grab;
 }
 
-/* ── Top bar: filter chips ── */
+/* ═══════════ Top card — 左侧竖排 ═══════════ */
 
-.starmap-topbar {
+.starmap-top-card {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 10px;
+  left: 12px;
   z-index: 10;
-  padding: 10px 14px;
-  background: linear-gradient(to bottom, rgba(247, 247, 247, 0.92), rgba(247, 247, 247, 0));
-  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 8px 10px;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px $shadow;
+  pointer-events: auto;
+  max-height: 55vh;
+  overflow-y: auto;
 
-  > * { pointer-events: auto; }
+  &::-webkit-scrollbar { width: 3px; }
+  &::-webkit-scrollbar-thumb { background: $border; border-radius: 2px; }
 }
 
-.starmap-filter-tabs {
+/* ── Tabs — 竖排 ── */
+.starmap-tabs {
   display: flex;
-  gap: 2px;
+  flex-direction: column;
+  gap: 3px;
   flex-shrink: 0;
 }
 
-.starmap-filter-tab {
-  padding: 3px 10px;
-  border: 1px solid rgba(160, 130, 100, 0.2);
-  border-radius: 5px;
-  background: transparent;
-  color: #8b7355;
-  font-size: 10px;
-  font-weight: 500;
+.starmap-tab {
+  padding: 5px 14px;
+  border: 1px solid $border;
+  border-radius: 10px;
+  background: rgba(255,255,255,.6);
+  color: $wood;
+  font-size: 11px;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: all 0.2s ease;
   white-space: nowrap;
+  font-family: inherit;
+  text-align: left;
 
-  &:hover { background: rgba(255, 255, 255, 0.5); }
+  &:hover {
+    border-color: $camel;
+    background: rgba(184,155,109,.15);
+  }
 
   &.active {
-    background: rgba(184, 147, 106, 0.15);
-    color: #4d4950;
+    background: rgba(184,155,109,.18);
+    border-color: $camel;
+    color: $ink;
     font-weight: 700;
-    border-color: rgba(184, 147, 106, 0.3);
   }
 }
 
-.starmap-filter-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  padding: 6px 8px;
-  background: rgba(255, 255, 255, 0.85);
-  border: 1px solid rgba(160, 130, 100, 0.15);
-  border-radius: 0 8px 8px 8px;
-  backdrop-filter: blur(4px);
-  max-width: min(600px, 70vw);
+/* ── Divider ── */
+.starmap-divider {
+  height: 1px;
+  margin: 6px 2px;
+  border-top: 1px solid $border-soft;
+  flex-shrink: 0;
 }
 
-.starmap-filter-chip {
+/* ── Chips — 竖排 ── */
+.starmap-chips-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: stretch;
+  flex: 1;
+  min-height: 0;
+}
+
+.starmap-chip {
   display: inline-flex;
   align-items: center;
-  gap: 3px;
-  padding: 3px 10px;
+  gap: 4px;
+  padding: 4px 11px;
   border: 1.5px solid;
   border-radius: 14px;
   font-size: 11px;
@@ -102,6 +137,8 @@
   cursor: pointer;
   transition: all 0.2s ease;
   white-space: nowrap;
+  font-family: inherit;
+  justify-content: space-between;
 
   &:hover {
     transform: translateY(-1px);
@@ -114,13 +151,13 @@
   }
 }
 
-.starmap-filter-cnt {
+.starmap-chip-cnt {
   font-size: 9px;
   opacity: 0.7;
   margin-left: 1px;
 }
 
-.starmap-filter-clear {
+.starmap-chip-clear {
   padding: 3px 10px;
   border: 1px solid rgba(150, 84, 77, 0.3);
   border-radius: 14px;
@@ -129,44 +166,32 @@
   font-size: 10px;
   cursor: pointer;
   transition: all 0.15s ease;
+  font-family: inherit;
 
   &:hover {
     background: rgba(150, 84, 77, 0.08);
   }
 }
 
-.starmap-zoom-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3px 10px;
-  border-radius: 6px;
-  background: rgba(184, 147, 106, 0.12);
-  color: #b8926a;
-  font-weight: 700;
-  font-size: 11px;
-  font-variant-numeric: tabular-nums;
-  flex-shrink: 0;
-}
-
-/* ── Selected character indicator ── */
+/* ═══════════ Character indicator ═══════════ */
 
 .starmap-char-indicator {
   position: absolute;
-  top: 80px;
-  left: 14px;
+  top: 10px;
+  right: 14px;
   z-index: 10;
   display: flex;
   align-items: center;
   gap: 6px;
   padding: 6px 14px;
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(160, 130, 100, 0.2);
-  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.35)), $paper;
+  border: 1px solid $border;
+  border-radius: 10px;
   font-size: 12px;
-  color: #8b7355;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  color: $text-soft;
+  box-shadow: 0 4px 12px $shadow;
   animation: starmap-slide-in 0.25s ease;
+  pointer-events: auto;
 }
 
 @keyframes starmap-slide-in {
@@ -176,16 +201,16 @@
 
 .starmap-char-name {
   font-weight: 700;
-  color: #4d4950;
+  color: $ink;
 }
 
 .starmap-char-clear {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 1px solid rgba(160, 130, 100, 0.2);
+  border: 1px solid $border-soft;
   background: transparent;
-  color: #8b7355;
+  color: $text-soft;
   font-size: 10px;
   cursor: pointer;
   display: flex;
@@ -199,68 +224,203 @@
   }
 }
 
-/* ── Bottom bar: tabs + legend + zoom ── */
-
+/* Bottom legend — minimal label button + popover */
 .starmap-bottom-bar {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
+  bottom: 18px;
+  left: 18px;
+  z-index: 40;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 8px;
-  padding: 5px 14px;
-  background: linear-gradient(180deg, rgba(255,255,255,.35), rgba(246,241,231,.18));
-  border-top: 1px solid rgba(160, 130, 100, 0.12);
-  font-size: 10px;
-  color: #8b7355;
-  pointer-events: none;
+}
 
-  > * { pointer-events: auto; }
+.starmap-legend-btn {
+  padding: 4px 12px;
+  border: 1px solid rgba(184, 149, 109, 0.20);
+  border-radius: 16px;
+  background: rgba(255, 253, 249, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: rgba(184, 149, 109, 0.85);
+  font-size: 11px;
+  font-weight: 700;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: rgba(184, 155, 109, 0.15);
+    border-color: rgba(184, 149, 109, 0.35);
+    color: rgba(184, 149, 109, 1);
+  }
+}
+
+.starmap-legend-popover {
+  width: 180px;
+  max-height: 50vh;
+  overflow-y: auto;
+  padding: 8px 12px;
+  border: 1px solid rgba(184, 149, 109, 0.14);
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255, 253, 249, 0.16), rgba(246, 241, 231, 0.11));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+  animation: slPopoverIn .18s cubic-bezier(0.22, 1, 0.36, 1);
+
+  &::-webkit-scrollbar { width: 3px; }
+  &::-webkit-scrollbar-thumb { background: rgba(184, 149, 109, 0.25); border-radius: 2px; }
 }
 
 .starmap-legend-label {
+  display: block;
   font-size: 11px;
   font-weight: 700;
-  color: #b8926a;
+  color: rgba(184, 149, 109, 0.9);
   white-space: nowrap;
   flex-shrink: 0;
   font-family: "PT Serif", "Noto Serif SC", serif;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid rgba(184, 149, 109, 0.15);
+}
+
+.starmap-legend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 
 .starmap-legend-chip {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 5px;
   white-space: nowrap;
 }
 
 .starmap-legend-dot {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   flex-shrink: 0;
 }
 
+.starmap-legend-name {
+  font-size: 10px;
+  color: rgba(58, 51, 53, 0.62);
+}
+
 .starmap-legend-cnt {
   font-variant-numeric: tabular-nums;
-  color: rgba(139, 115, 85, 0.7);
+  color: rgba(58, 51, 53, 0.45);
   font-size: 9px;
 }
 
-.starmap-legend-sep {
-  color: rgba(160, 130, 100, 0.3);
-  font-weight: 300;
+/* Layout legend — bottom-right ? button with popover */
+.sl-legend {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
 }
 
-/* ── Detail overlay ── */
+.sl-legend-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(184, 149, 109, 0.20);
+  background: rgba(255, 253, 249, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: rgba(184, 149, 109, 0.85);
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "PT Serif", "Noto Serif SC", serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: rgba(184, 155, 109, 0.15);
+    border-color: rgba(184, 149, 109, 0.35);
+    color: rgba(184, 149, 109, 1);
+    transform: scale(1.06);
+  }
+}
+
+.sl-legend-popover {
+  width: 220px;
+  padding: 10px 13px;
+  border: 1px solid rgba(184, 149, 109, 0.14);
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255, 253, 249, 0.16), rgba(246, 241, 231, 0.11));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  color: rgba(58, 51, 53, 0.62);
+  animation: slPopoverIn .18s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes slPopoverIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.sl-legend-desc {
+  margin: 0 0 6px;
+  line-height: 1.55;
+  color: rgba(58, 51, 53, 0.45);
+}
+
+.sl-legend-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px 8px;
+  padding: 6px 0;
+  border-top: 1px solid rgba(184, 149, 109, 0.15);
+}
+
+.sl-legend-item {
+  display: flex; align-items: baseline; gap: 5px;
+}
+
+.sl-legend-label {
+  color: rgba(184, 149, 109, 0.9);
+  font-weight: 700;
+}
+
+.sl-legend-value {
+  color: rgba(58, 51, 53, 0.62);
+}
+
+.sl-legend-stats {
+  margin-top: 6px; padding-top: 6px;
+  border-top: 1px solid rgba(184, 149, 109, 0.15);
+  font-size: 9px;
+  color: rgba(58, 51, 53, 0.45);
+}
+
+/* ═══════════ Detail overlay ═══════════ */
 
 .starmap-detail-overlay {
   position: absolute;
   inset: 0;
   z-index: 20;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(58, 44, 33, 0.25);
+  backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -277,15 +437,15 @@
   width: min(720px, 90vw);
   max-height: 85vh;
   overflow-y: auto;
-  background: linear-gradient(180deg, #f9f4e8, #f2e9d5);
-  border: 1px solid rgba(160, 130, 100, 0.3);
+  background: linear-gradient(180deg, rgba(255,253,249,0.98), rgba(246,241,231,0.96));
+  border: 1px solid $border;
   border-radius: 16px;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 40px rgba(58, 44, 33, 0.22);
   padding: 28px 32px;
   animation: starmap-card-in 0.3s cubic-bezier(0.22, 1, 0.36, 1);
 
   &::-webkit-scrollbar { width: 4px; }
-  &::-webkit-scrollbar-thumb { background: rgba(160,130,100,0.3); border-radius: 2px; }
+  &::-webkit-scrollbar-thumb { background: $border; border-radius: 2px; }
 }
 
 @keyframes starmap-card-in {
@@ -300,9 +460,9 @@
   width: 32px;
   height: 32px;
   border-radius: 8px;
-  border: 1px solid rgba(160, 130, 100, 0.25);
+  border: 1px solid $border;
   background: rgba(255, 255, 255, 0.5);
-  color: #8b7355;
+  color: $text-soft;
   font-size: 16px;
   cursor: pointer;
   display: flex;
@@ -325,7 +485,7 @@
     font-size: 22px;
     font-family: "PT Serif", "Noto Serif SC", serif;
     font-weight: 700;
-    color: #4d4950;
+    color: $ink;
   }
 }
 
@@ -346,8 +506,8 @@
 }
 
 .starmap-detail-panel {
-  background: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(160, 130, 100, 0.15);
+  background: linear-gradient(180deg, rgba(255,255,255,.45), rgba(255,255,255,.18));
+  border: 1px solid $border-soft;
   border-radius: 12px;
   padding: 14px 16px;
 
@@ -355,7 +515,7 @@
     margin: 0 0 10px;
     font-size: 13px;
     font-weight: 700;
-    color: #5e3a2e;
+    color: $wood;
     font-family: "PT Serif", "Noto Serif SC", serif;
   }
 }
@@ -391,7 +551,7 @@
   border-radius: 4px;
   background: rgba(184, 147, 106, 0.1);
   font-size: 11px;
-  color: #5e3a2e;
+  color: $ink;
 }
 
 .starmap-detail-ribbon {
@@ -417,9 +577,9 @@
   flex-wrap: wrap;
   gap: 12px;
   font-size: 11px;
-  color: #8b7355;
+  color: $text-soft;
 
-  b { color: #4d4950; margin-left: 2px; }
+  b { color: $ink; margin-left: 2px; }
 }
 
 .starmap-detail-themes {
@@ -450,7 +610,7 @@
 
 .starmap-detail-radar-label {
   font-size: 11px;
-  color: #8b7355;
+  color: $text-soft;
   min-width: 36px;
   flex-shrink: 0;
 }
@@ -473,7 +633,7 @@
 .starmap-detail-radar-val {
   font-size: 11px;
   font-weight: 600;
-  color: #4d4950;
+  color: $ink;
   min-width: 32px;
   text-align: right;
   font-variant-numeric: tabular-nums;

@@ -1,0 +1,996 @@
+{
+  "title": "刀劈三关",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 14,
+  "num_locations": 3,
+  "source_file": "70004111_刀劈三关.json",
+  "source_folder": "70004000",
+  "plot_summary": "唐奸相郭震私通辽主羌洪，羌兵入犯，郭震设计保荐雷万春出守边关，雷万春患病不能成行，命三子代往镇\n守三关。长子雷振、次子雷胜皆出战阵亡，三子雷鸣被羌洪之女万花公主擒去，逼招驸马不从，三关失守。\n雷万春闻信大惊，郭震又假传圣旨赐雷万春药酒自裁，雷万春欲自尽，忽悟其奸，于郭府外捕得辽邦下书人，\n识破郭震计，亲捕郭震，并驰往三关援救，雷万春刀劈三关，力斩莫须龙、莫须虎，擒辽主羌洪。万花公\n主绑雷鸣城外讨战，雷万春绑羌洪上城楼对答。万花公主无奈，遵父命携辽兵降雷万春。",
+  "performance_notes": "此剧系由汪笑侬先生的演出本改编而成。先父（唐韵笙）曾于青年时向前辈艺人郭金奎学过汪派的《刀劈三\n关》，但演出不多。四十年代末，汪派《刀劈三关》几乎绝迹舞台。先父于一九四九年在上海演出期间，根\n据唐派艺术的特点改编了此剧。\n汪笑侬先生原剧由“探子下书”起至“城楼降辽”止，共十八场。先父将原剧中“探子下书”、“金殿降旨”\n、“雷鸣招亲”等情节删去，该原剧中郭章长亭饯酒下毒为雷万春身得重病，雷鸣投降招亲为坚持不降。\n全剧共七场，台词、唱腔重新编写，并加重了劈三关的舞蹈和开打。成为唐派艺术的代表剧目。\n第二场的西皮流水，第五场的反二黄原板，第六场的西皮流水，第七场的西皮导板、原板唱腔均由先父设计，\n与汪本演唱完全不同。\n全剧场次较为紧凑，雷万春复夺三关连续进行。上场门上劈头关，下场门下场；下场门复上，劈二关，圆场\n后连劈第三关，擒羌洪，当场转大帐，审羌。\n此剧改编后于各地经常演出，一九六零年先父随沈阳京剧院赴北京演出了此剧。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 188,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.413,
+      "importance": 1.0,
+      "locations": {
+        "已然夺二城": 3
+      },
+      "characters": {
+        "军兵": 1,
+        "郭震": 1,
+        "莫须龙": 1,
+        "羌洪": 1,
+        "雷振": 1,
+        "八女兵": 1,
+        "万花公主": 1,
+        "雷鸣": 1,
+        "雷万春": 1,
+        "众番兵": 1,
+        "雷胜": 1
+      },
+      "links": [
+        {
+          "source": "万花公主",
+          "target": "八女兵",
+          "value": 1
+        },
+        {
+          "source": "万花公主",
+          "target": "众番兵",
+          "value": 1
+        },
+        {
+          "source": "万花公主",
+          "target": "羌洪",
+          "value": 1
+        },
+        {
+          "source": "万花公主",
+          "target": "莫须龙",
+          "value": 1
+        },
+        {
+          "source": "众番兵",
+          "target": "八女兵",
+          "value": 1
+        },
+        {
+          "source": "八女兵",
+          "target": "羌洪",
+          "value": 1
+        },
+        {
+          "source": "八女兵",
+          "target": "莫须龙",
+          "value": 1
+        },
+        {
+          "source": "众番兵",
+          "target": "羌洪",
+          "value": 1
+        },
+        {
+          "source": "众番兵",
+          "target": "莫须龙",
+          "value": 1
+        },
+        {
+          "source": "羌洪",
+          "target": "莫须龙",
+          "value": 1
+        },
+        {
+          "source": "雷万春",
+          "target": "雷鸣",
+          "value": 2
+        },
+        {
+          "source": "雷万春",
+          "target": "雷振",
+          "value": 2
+        },
+        {
+          "source": "郭震",
+          "target": "雷万春",
+          "value": 2
+        },
+        {
+          "source": "雷振",
+          "target": "雷鸣",
+          "value": 2
+        },
+        {
+          "source": "郭震",
+          "target": "雷鸣",
+          "value": 2
+        },
+        {
+          "source": "郭震",
+          "target": "雷振",
+          "value": 2
+        },
+        {
+          "source": "雷万春",
+          "target": "雷胜",
+          "value": 1
+        },
+        {
+          "source": "雷振",
+          "target": "雷胜",
+          "value": 1
+        },
+        {
+          "source": "军兵",
+          "target": "雷胜",
+          "value": 1
+        },
+        {
+          "source": "郭震",
+          "target": "雷胜",
+          "value": 1
+        },
+        {
+          "source": "雷胜",
+          "target": "雷鸣",
+          "value": 1
+        },
+        {
+          "source": "军兵",
+          "target": "雷万春",
+          "value": 1
+        },
+        {
+          "source": "军兵",
+          "target": "雷振",
+          "value": 1
+        },
+        {
+          "source": "军兵",
+          "target": "郭震",
+          "value": 1
+        },
+        {
+          "source": "军兵",
+          "target": "雷鸣",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 250,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.242,
+      "importance": 1.0,
+      "locations": {
+        "已然夺二城": 3
+      },
+      "characters": {
+        "郭震": 1,
+        "二家将": 1,
+        "羌洪": 1,
+        "奸细": 1,
+        "万花公主": 1,
+        "雷鸣": 1,
+        "雷万春": 1,
+        "家将甲": 1
+      },
+      "links": [
+        {
+          "source": "万花公主",
+          "target": "雷鸣",
+          "value": 1
+        },
+        {
+          "source": "万花公主",
+          "target": "羌洪",
+          "value": 2
+        },
+        {
+          "source": "羌洪",
+          "target": "雷鸣",
+          "value": 1
+        },
+        {
+          "source": "家将甲",
+          "target": "雷万春",
+          "value": 2
+        },
+        {
+          "source": "二家将",
+          "target": "雷万春",
+          "value": 1
+        },
+        {
+          "source": "郭震",
+          "target": "雷万春",
+          "value": 2
+        },
+        {
+          "source": "奸细",
+          "target": "雷万春",
+          "value": 1
+        },
+        {
+          "source": "雷万春",
+          "target": "雷鸣",
+          "value": 1
+        },
+        {
+          "source": "二家将",
+          "target": "家将甲",
+          "value": 1
+        },
+        {
+          "source": "家将甲",
+          "target": "郭震",
+          "value": 2
+        },
+        {
+          "source": "奸细",
+          "target": "家将甲",
+          "value": 1
+        },
+        {
+          "source": "家将甲",
+          "target": "雷鸣",
+          "value": 1
+        },
+        {
+          "source": "二家将",
+          "target": "郭震",
+          "value": 1
+        },
+        {
+          "source": "二家将",
+          "target": "奸细",
+          "value": 1
+        },
+        {
+          "source": "二家将",
+          "target": "雷鸣",
+          "value": 1
+        },
+        {
+          "source": "奸细",
+          "target": "郭震",
+          "value": 1
+        },
+        {
+          "source": "郭震",
+          "target": "雷鸣",
+          "value": 1
+        },
+        {
+          "source": "奸细",
+          "target": "雷鸣",
+          "value": 1
+        },
+        {
+          "source": "羌洪",
+          "target": "郭震",
+          "value": 1
+        },
+        {
+          "source": "万花公主",
+          "target": "郭震",
+          "value": 1
+        },
+        {
+          "source": "羌洪",
+          "target": "雷万春",
+          "value": 1
+        },
+        {
+          "source": "万花公主",
+          "target": "雷万春",
+          "value": 1
+        },
+        {
+          "source": "家将甲",
+          "target": "羌洪",
+          "value": 1
+        },
+        {
+          "source": "万花公主",
+          "target": "家将甲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 90,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.511,
+      "locations": {
+        "雷万春上城": 1
+      },
+      "characters": {
+        "羌洪": 1,
+        "万花公主": 1,
+        "雷鸣": 1,
+        "雷万春": 1,
+        "家将甲": 1
+      },
+      "links": [
+        {
+          "source": "万花公主",
+          "target": "家将甲",
+          "value": 1
+        },
+        {
+          "source": "万花公主",
+          "target": "雷万春",
+          "value": 1
+        },
+        {
+          "source": "万花公主",
+          "target": "雷鸣",
+          "value": 1
+        },
+        {
+          "source": "万花公主",
+          "target": "羌洪",
+          "value": 1
+        },
+        {
+          "source": "家将甲",
+          "target": "雷万春",
+          "value": 1
+        },
+        {
+          "source": "家将甲",
+          "target": "雷鸣",
+          "value": 1
+        },
+        {
+          "source": "家将甲",
+          "target": "羌洪",
+          "value": 1
+        },
+        {
+          "source": "雷万春",
+          "target": "雷鸣",
+          "value": 1
+        },
+        {
+          "source": "羌洪",
+          "target": "雷万春",
+          "value": 1
+        },
+        {
+          "source": "羌洪",
+          "target": "雷鸣",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "已然夺二城",
+      "characters": [
+        {
+          "name": "万花公主",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "跃马旌旗领雄兵，女将沙场显奇能。哪怕唐朝兵将勇，盘枪雾剑鬼神惊！",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "八女兵",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "是！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众番兵",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "老大王驾到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "羌洪",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "罢了，命我儿点动人马，可曾齐备？",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "莫须龙",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "在！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：5位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.513,
+        "conflict": 0.678,
+        "sentiment": 0.762
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "已然夺二城",
+      "characters": [
+        {
+          "name": "雷万春",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "搀扶！",
+          "rating": 0.111,
+          "role": "老生，白三，金踏蹬，黄软靠，黑靴，金刀"
+        },
+        {
+          "name": "雷鸣",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "爹爹病体近日有所康复，此乃孩儿等之幸也，只是尚未痊愈，万望爹爹多加保",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "雷振",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "圣上传旨到府门。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "郭震",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "捧旨亲下九龙庭。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：4位角色，84行",
+      "firstLine": 1,
+      "lastLine": 84,
+      "numLines": 84,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.745,
+        "conflict": 0.513,
+        "sentiment": 0.448
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "已然夺二城",
+      "characters": [
+        {
+          "name": "雷胜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "旌旗映重霄，剑戟放光豪。将士逞威武，齐队列西郊。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "雷万春",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "士气昂扬五千众，",
+          "rating": 0.0,
+          "role": "老生，白三，金踏蹬，黄软靠，黑靴，金刀"
+        },
+        {
+          "name": "雷振",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "参见爹爹！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "军兵",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "太师到！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郭震",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "老元戎带病出征，此乃国家之幸。老夫备酒与老元戎饯行。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "雷鸣",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "保重了！",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：6位角色，76行",
+      "firstLine": 1,
+      "lastLine": 76,
+      "numLines": 76,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.783,
+        "conflict": 0.519,
+        "sentiment": 0.349
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "已然夺二城",
+      "characters": [
+        {
+          "name": "万花公主",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "旌旗招展遮日影，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "雷鸣",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "军鼓号炮连声震，",
+          "rating": -0.25,
+          "role": "小生"
+        },
+        {
+          "name": "羌洪",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "一同进关！",
+          "rating": 0.2,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：3位角色，85行",
+      "firstLine": 1,
+      "lastLine": 85,
+      "numLines": 85,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.555,
+        "conflict": 0.694,
+        "sentiment": 0.271
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "已然夺二城",
+      "characters": [
+        {
+          "name": "雷万春",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "未出兵得下了冤孽病状，",
+          "rating": -0.4,
+          "role": "老生，白三，金踏蹬，黄软靠，黑靴，金刀"
+        },
+        {
+          "name": "家将甲",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启禀老元戎：大事不好！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二家将",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "老元戎醒来！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郭震",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "圣旨下！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "奸细",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "我乃是郭老太师的宾客，你……你们不要错抓好人哪！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "雷鸣",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第五场：6位角色，89行",
+      "firstLine": 1,
+      "lastLine": 89,
+      "numLines": 89,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.82,
+        "conflict": 0.353,
+        "sentiment": 0.08
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "已然夺二城",
+      "characters": [
+        {
+          "name": "郭震",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "大事安排定，机密少人知。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "雷万春",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "绑了！",
+          "rating": 0.25,
+          "role": "老生，白三，金踏蹬，黄软靠，黑靴，金刀"
+        },
+        {
+          "name": "羌洪",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "孤家兴兵占据三关，乃是你国郭老太师的约请，并非孤家的本意呀！",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "家将甲",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "启禀老元戎：今有西辽万花公主城外讨战！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "万花公主",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第六场：5位角色，76行",
+      "firstLine": 1,
+      "lastLine": 76,
+      "numLines": 76,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.916,
+        "conflict": 0.621,
+        "sentiment": 0.322
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "雷万春上城",
+      "characters": [
+        {
+          "name": "万花公主",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "扬鞭催动桃花马，",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "家将甲",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "老元戎城楼搭话！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "雷万春",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "耳边厢又听得人马喧哗，",
+          "rating": -0.143,
+          "role": "老生，白三，金踏蹬，黄软靠，黑靴，金刀"
+        },
+        {
+          "name": "雷鸣",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "爹爹！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "羌洪",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "唉呀儿呀！",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：5位角色，90行",
+      "firstLine": 1,
+      "lastLine": 90,
+      "numLines": 90,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.822,
+        "conflict": 0.625,
+        "sentiment": 0.285
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "雷万春",
+      "short": "雷万",
+      "key": "雷万春",
+      "quote": "雷万春 — 老生，白三，金踏蹬，黄软靠，黑靴，金刀",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 老生，白三，金踏蹬，黄软靠，黑靴，金刀",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "郭震",
+      "short": "郭震",
+      "key": "郭震",
+      "quote": "郭震 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "万花公主",
+      "short": "万花",
+      "key": "万花公主",
+      "quote": "万花公主 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "羌洪",
+      "short": "羌洪",
+      "key": "羌洪",
+      "quote": "羌洪 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "雷鸣",
+      "short": "雷鸣",
+      "key": "雷鸣",
+      "quote": "雷鸣 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "军兵",
+      "short": "军兵",
+      "key": "军兵",
+      "quote": "军兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "莫须龙",
+      "short": "莫须",
+      "key": "莫须龙",
+      "quote": "莫须龙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二家将",
+      "short": "二家",
+      "key": "二家将",
+      "quote": "二家将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "奸细",
+      "short": "奸细",
+      "key": "奸细",
+      "quote": "奸细 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "雷振",
+      "short": "雷振",
+      "key": "雷振",
+      "quote": "雷振 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八女兵",
+      "short": "八女",
+      "key": "八女兵",
+      "quote": "八女兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家将甲",
+      "short": "家将",
+      "key": "家将甲",
+      "quote": "家将甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众番兵",
+      "short": "众番",
+      "key": "众番兵",
+      "quote": "众番兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "雷胜",
+      "short": "雷胜",
+      "key": "雷胜",
+      "quote": "雷胜 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "已然夺二城",
+      "key": "已然夺二城",
+      "quote": "场景发生在已然夺二城"
+    },
+    {
+      "name": "列队要攻城",
+      "key": "列队要攻城",
+      "quote": "场景发生在列队要攻城"
+    },
+    {
+      "name": "雷万春上城",
+      "key": "雷万春上城",
+      "quote": "场景发生在雷万春上城"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "title": "女起解",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 4,
+  "source_file": "01004012_女起解.json",
+  "source_folder": "01000000",
+  "plot_summary": "有苏三者，自幼卖入娼寮为妓。与王公子金龙有啮臂盟。王金龙迷恋苏三，将数万巨金化尽。谁知一旦金尽\n床头，鸨妇即白眼相加。苏三虽恋恋不舍，然王金龙已至落魄，赖苏三私赠银两，始得进京应试。一举成名，\n钦放山西巡按。而苏三自王金龙去后，竟为沈洪抢至洪桐县家中为妾，后沈洪被皮氏串通王婆毒死。案发\n报县，诬陷苏三谋毙亲夫之罪。刑幕张允忠、洪桐县王知县，均得重金贿赂，遂不惜尽情周内，勒逼苏三画\n供，注成铁案，发配太原。幸王金龙至山西查阅案卷，忽见此案，不觉大惊，遂命臬司吊提全案人犯，在按\n院亲审。方得水落石出。",
+  "performance_notes": "此本乃起解出狱，发配上路，一路与解差诉说冤情之一段。后本即《三堂会审》，方与王金龙见面，最为全\n剧精华。此系梆子青衣中之著名好戏，昔吴彩霞唱此，娇音婉转，如百转春莺，令人不厌百回听，诚可见也。\n今梅兰芳方至沪上，一纸飞传，早已誉满海天，戏单方出（第二日即演《玉堂春》），而三五日后之座头，\n均已定满无剩，亦可见该伶于此剧之价值矣。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 44,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.545,
+      "locations": {
+        "太原府": 1
+      },
+      "characters": {
+        "张公道": 1,
+        "苏三": 1,
+        "禁子": 1
+      },
+      "links": [
+        {
+          "source": "张公道",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "张公道",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "禁子",
+          "target": "苏三",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 39,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.483,
+      "locations": {
+        "太原府": 1
+      },
+      "characters": {
+        "狱官": 1,
+        "张公道": 1,
+        "苏三": 1
+      },
+      "links": [
+        {
+          "source": "张公道",
+          "target": "狱官",
+          "value": 1
+        },
+        {
+          "source": "狱官",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "张公道",
+          "target": "苏三",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 159,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "你上太原府": 1
+      },
+      "characters": {
+        "客人": 1,
+        "张公道": 1,
+        "苏三": 1
+      },
+      "links": [
+        {
+          "source": "张公道",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "客人",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "客人",
+          "target": "张公道",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "太原府",
+      "characters": [
+        {
+          "name": "张公道",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "公道不公道，自有天知道。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "禁子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "作什么？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "苏三",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "忽听唤苏三，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：3位角色，44行",
+      "firstLine": 1,
+      "lastLine": 44,
+      "numLines": 44,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.73,
+        "conflict": 0.645,
+        "sentiment": 0.192
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "太原府",
+      "characters": [
+        {
+          "name": "狱官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "解子崔公道。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "张公道",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "苏三",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：3位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.845,
+        "conflict": 0.187,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "你上太原府",
+      "characters": [
+        {
+          "name": "苏三",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "眼巴巴哭到了太原城，",
+          "rating": 0.2,
+          "role": "旦"
+        },
+        {
+          "name": "张公道",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "看这孩子走走不走，你跪在这里做什么？",
+          "rating": -0.667,
+          "role": "丑"
+        },
+        {
+          "name": "客人",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "上南京去的人早走了，剩下上热八沟喇叭庙贩骆驼的。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，159行",
+      "firstLine": 1,
+      "lastLine": 159,
+      "numLines": 159,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.348,
+        "sentiment": 0.088
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "苏三",
+      "short": "苏三",
+      "key": "苏三",
+      "quote": "苏三 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张公道",
+      "short": "张公",
+      "key": "张公道",
+      "quote": "张公道 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "狱官",
+      "short": "狱官",
+      "key": "狱官",
+      "quote": "狱官 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "客人",
+      "short": "客人",
+      "key": "客人",
+      "quote": "客人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "禁子",
+      "short": "禁子",
+      "key": "禁子",
+      "quote": "禁子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "你上太原府",
+      "key": "你上太原府",
+      "quote": "场景发生在你上太原府"
+    },
+    {
+      "name": "太原府",
+      "key": "太原府",
+      "quote": "场景发生在太原府"
+    },
+    {
+      "name": "了太原城",
+      "key": "了太原城",
+      "quote": "场景发生在了太原城"
+    },
+    {
+      "name": "到了太原城",
+      "key": "到了太原城",
+      "quote": "场景发生在到了太原城"
+    }
+  ]
+}

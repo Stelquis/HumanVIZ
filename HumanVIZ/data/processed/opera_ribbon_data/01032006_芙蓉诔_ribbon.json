@@ -1,0 +1,455 @@
+{
+  "title": "芙蓉诔",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "01032006_芙蓉诔.json",
+  "source_folder": "01000000",
+  "plot_summary": "王夫人因傻大姐误拾绣春囊，王善保家的妒恨睛雯，乘势进谗，王夫人抄检大观园，逐出晴雯，睛雯带病负\n气抵家，病益重。贾宝玉偷往探望，睛雯与之诀别。贾宝玉于其死后，闻其封为芙蓉花神，乃写《芙蓉诔》\n祭之，以泄郁闷。",
+  "performance_notes": "定名分而复分主奴，分主奴而后有贵贱，古今一辙，不易之常理也。故理可以制情，情不合乎理，所谓反常，\n终归于无情而已。贾宝玉，钟情者也，姐妹行间，日与厮混，爱之重之，情之作用固如此，而侍婢辈，亦\n何莫不然，竟以同等看待，无所谓主奴，无所谓贵贱也。晴雯亦侍婢之一，颇得贾宝玉之欢心，志高气傲，\n本属天赋，贾宝玉常纵容之，恃宠而骄，忘其为侍婢之身分矣。本考上册，载有《晴雯撕扇》一剧，平日之\n撒娇撒痴，毫无忌惮，枕可想见，得罪之由，实兆端于此。且晴雯被攒出府，蕴酿已非一日。贾宝玉既非常\n怜爱，妒忌者必多；自高位置，与同辈周旋，不肯稍假辞色，怨恨者必多；环伺其隙，继久自然勃发，正如\n水银泻地，无孔不入，于是晴雯万不能一刻容留矣。乃病忽加重，竟至不起，一激而齐恨九泉，良可悲痛，\n人谓主人之情而不情，以致如此，我则谓晴雯自取其祸，不能归咎于贾宝玉，更不能归咎于贾母。观剧者欲\n知详细，请参阅《金玉缘》一堂。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 23,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.748,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "晴雯": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "晴雯",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 24,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.78,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "贾宝玉": 1,
+        "焙茗": 1,
+        "晴雯": 1
+      },
+      "links": [
+        {
+          "source": "焙茗",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "晴雯",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "晴雯",
+          "target": "焙茗",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 67,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "晴雯嫂嫂": 1,
+        "焙茗": 1,
+        "五儿": 1,
+        "晴雯": 1,
+        "仙女": 1,
+        "贾宝玉": 1
+      },
+      "links": [
+        {
+          "source": "晴雯",
+          "target": "晴雯嫂嫂",
+          "value": 1
+        },
+        {
+          "source": "晴雯",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "晴雯",
+          "target": "焙茗",
+          "value": 1
+        },
+        {
+          "source": "五儿",
+          "target": "晴雯",
+          "value": 1
+        },
+        {
+          "source": "仙女",
+          "target": "晴雯",
+          "value": 1
+        },
+        {
+          "source": "晴雯嫂嫂",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "晴雯嫂嫂",
+          "target": "焙茗",
+          "value": 1
+        },
+        {
+          "source": "五儿",
+          "target": "晴雯嫂嫂",
+          "value": 1
+        },
+        {
+          "source": "仙女",
+          "target": "晴雯嫂嫂",
+          "value": 1
+        },
+        {
+          "source": "焙茗",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "五儿",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "仙女",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "五儿",
+          "target": "焙茗",
+          "value": 1
+        },
+        {
+          "source": "仙女",
+          "target": "焙茗",
+          "value": 1
+        },
+        {
+          "source": "五儿",
+          "target": "仙女",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 0.293,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "晴雯": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "晴雯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "苦啊！",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "啊，晴雯姑娘，病中被逐，到底为了何事？何不见过老太太，赔罪认过央告几",
+          "rating": -1.0,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "第一场：2位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.586,
+        "conflict": 0.0,
+        "sentiment": -0.397
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "贾宝玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "愿作护花主，平生一片心。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "焙茗",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "报报报，二爷大事不好了！",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "晴雯",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：3位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.829,
+        "conflict": 0.392,
+        "sentiment": -0.147
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "晴雯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一日别离一日心，",
+          "rating": -0.25,
+          "role": "旦"
+        },
+        {
+          "name": "晴雯嫂嫂",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哼，哼，不得了，姑娘，你不要装斯文了。你自己想想，当日在大观中，何等",
+          "rating": 0.143,
+          "role": "丑"
+        },
+        {
+          "name": "贾宝玉",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "马上伤情魂欲断，",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "焙茗",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来此已是。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "五儿",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "晴雯姑娘，可好些了？",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "仙女",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "第三场：6位角色，67行",
+      "firstLine": 1,
+      "lastLine": 67,
+      "numLines": 67,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.957,
+        "conflict": 0.317,
+        "sentiment": 0.05
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "晴雯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "俺乃晴雯灵魂是也。警幻仙姑怜俺玉洁冰霜，无罪被逐。封俺为芙蓉花神，今",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第四场：1位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.597,
+        "conflict": 0.0,
+        "sentiment": -0.12
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "晴雯",
+      "short": "晴雯",
+      "key": "晴雯",
+      "quote": "晴雯 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "贾宝玉",
+      "short": "贾宝",
+      "key": "贾宝玉",
+      "quote": "贾宝玉 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "焙茗",
+      "short": "焙茗",
+      "key": "焙茗",
+      "quote": "焙茗 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "仙女",
+      "short": "仙女",
+      "key": "仙女",
+      "quote": "仙女 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "晴雯嫂嫂",
+      "short": "晴雯",
+      "key": "晴雯嫂嫂",
+      "quote": "晴雯嫂嫂 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "五儿",
+      "short": "五儿",
+      "key": "五儿",
+      "quote": "五儿 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

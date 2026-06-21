@@ -1,0 +1,594 @@
+{
+  "title": "晋阳宫",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "01027010_晋阳宫.json",
+  "source_folder": "01000000",
+  "plot_summary": "隋炀帝不修国政，专事巡幸。命唐公李渊（即唐高祖）为晋阳（即山西太原府隋之东都）留守，率领宫眷，\n驻跸江都（小说本载炀帝至扬州看琼花即是），乐而忘返。晋阳宫内，只有张、尹二妃，寂寞良宵，不无觖\n望。外间又喧传盗贼蜂起，路途阻隔，恐无回銮之日。二妃欲自为计，与司理监裴寂定议，邀唐公入宫，醉\n以酒，扶睡二妃床榻。候酒醒时，说唐公起兵，以图帝业。唐公为二妃所挟持，不得不从，于是移檄远近，\n征集兵马，劖除隋乱，开一统之基焉。",
+  "performance_notes": "按正史，炀帝荒淫，四方英雄窃据，烽烟告警，已无一片干净土。唐公李渊，留守晋阳。其子李世民（即唐\n太宗）欲兴义师，举大事，久不敢言，乃与宫监裴寂密商，私以宫人侍李渊。李渊恐及祸，遂与李世民计划，\n起兵于晋阳。所以李渊与李世民，有“破家亡身由汝，化家为国亦由汝”之言。可知唐之开基立业，实李\n世民之功也。小说本谓张、尹二妃，唐家三百年天下，出于二妃掌握之中，诚小说之趣谈也。剧本亦依此编\n排，姑妄言之，姑妄听之。观剧诸君，守此成例可耳。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 57,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.88,
+      "importance": 0.55,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "尹妃": 1,
+        "张妃": 1,
+        "裴寂": 1,
+        "李渊": 1
+      },
+      "links": [
+        {
+          "source": "尹妃",
+          "target": "张妃",
+          "value": 1
+        },
+        {
+          "source": "张妃",
+          "target": "裴寂",
+          "value": 1
+        },
+        {
+          "source": "张妃",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "尹妃",
+          "target": "裴寂",
+          "value": 1
+        },
+        {
+          "source": "尹妃",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "李渊",
+          "target": "裴寂",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 142,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.58,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "裴寂": 1,
+        "二小太监": 1,
+        "李渊": 1,
+        "张妃": 1,
+        "二大将": 1,
+        "尹妃": 1
+      },
+      "links": [
+        {
+          "source": "二大将",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "二大将",
+          "target": "二小太监",
+          "value": 1
+        },
+        {
+          "source": "二大将",
+          "target": "裴寂",
+          "value": 1
+        },
+        {
+          "source": "二大将",
+          "target": "尹妃",
+          "value": 1
+        },
+        {
+          "source": "二大将",
+          "target": "张妃",
+          "value": 1
+        },
+        {
+          "source": "二小太监",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "李渊",
+          "target": "裴寂",
+          "value": 1
+        },
+        {
+          "source": "尹妃",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "张妃",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "二小太监",
+          "target": "裴寂",
+          "value": 1
+        },
+        {
+          "source": "二小太监",
+          "target": "尹妃",
+          "value": 1
+        },
+        {
+          "source": "二小太监",
+          "target": "张妃",
+          "value": 1
+        },
+        {
+          "source": "尹妃",
+          "target": "裴寂",
+          "value": 1
+        },
+        {
+          "source": "张妃",
+          "target": "裴寂",
+          "value": 1
+        },
+        {
+          "source": "尹妃",
+          "target": "张妃",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 112,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "尹妃": 1,
+        "李渊": 1,
+        "裴寂": 1,
+        "张妃": 1
+      },
+      "links": [
+        {
+          "source": "尹妃",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "张妃",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "李渊",
+          "target": "裴寂",
+          "value": 1
+        },
+        {
+          "source": "尹妃",
+          "target": "张妃",
+          "value": 1
+        },
+        {
+          "source": "尹妃",
+          "target": "裴寂",
+          "value": 1
+        },
+        {
+          "source": "张妃",
+          "target": "裴寂",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "裴寂",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "怀抱剑手扶琴，",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：1位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.121,
+        "conflict": 1.0,
+        "sentiment": 0.44
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "俏东君薄情隋炀帝，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "尹妃",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "撇下我姐妹受苦凄。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "裴寂",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "可叹烟尘遍地起，",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "李渊",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.847,
+        "conflict": 0.976,
+        "sentiment": 0.186
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李渊",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "虎踞龙蟠据太原，为国忧民事转烦。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "裴寂",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "奉张、尹二位娘娘旨意，宣召千岁进宫。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第三场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.377,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "二大将",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "已是宫门。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李渊",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "通禀。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "二小太监",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "每日宫中乐逍遥，睁开两眼睡不着。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "裴寂",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "怎么事？",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "尹妃",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "头带珠冠双凤飞，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "张妃",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "妹妹，你我前去看来。",
+          "rating": 0.333,
+          "role": "旦"
+        }
+      ],
+      "summary": "第四场：6位角色，124行",
+      "firstLine": 1,
+      "lastLine": 124,
+      "numLines": 124,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.214,
+        "sentiment": 0.66
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李渊",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "二位皇娘机关巧，",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：1位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.517,
+        "conflict": 0.0,
+        "sentiment": 0.84
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "尹妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "非是奴姊妹多计巧，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "张妃",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第六场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.577,
+        "conflict": 0.0,
+        "sentiment": 0.26
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李渊",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "醉醺醺急往宫门跑，",
+          "rating": 0.111,
+          "role": "老生"
+        },
+        {
+          "name": "尹妃",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "扯住龙袍讨封号。",
+          "rating": 0.714,
+          "role": "旦"
+        },
+        {
+          "name": "张妃",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "我来先讨封。",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "裴寂",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第七场：4位角色，112行",
+      "firstLine": 1,
+      "lastLine": 112,
+      "numLines": 112,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.279,
+        "sentiment": 0.338
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李渊",
+      "short": "李渊",
+      "key": "李渊",
+      "quote": "李渊 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张妃",
+      "short": "张妃",
+      "key": "张妃",
+      "quote": "张妃 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "尹妃",
+      "short": "尹妃",
+      "key": "尹妃",
+      "quote": "尹妃 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "裴寂",
+      "short": "裴寂",
+      "key": "裴寂",
+      "quote": "裴寂 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "二小太监",
+      "short": "二小",
+      "key": "二小太监",
+      "quote": "二小太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二大将",
+      "short": "二大",
+      "key": "二大将",
+      "quote": "二大将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

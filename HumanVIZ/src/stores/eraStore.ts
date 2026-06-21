@@ -1,15 +1,15 @@
 import { create } from "zustand";
 
 interface EraState {
-  selectedEra: number | null;
   hoveredEra: number | null;
-  setSelectedEra: (era: number | null) => void;
+  hoveredRole: string | null;
   setHoveredEra: (era: number | null) => void;
+  setHoveredRole: (role: string | null) => void;
 }
 
 export const useEraStore = create<EraState>((set) => ({
-  selectedEra: null,
   hoveredEra: null,
-  setSelectedEra: (era) => set({ selectedEra: era }),
+  hoveredRole: null,
   setHoveredEra: (era) => set({ hoveredEra: era }),
+  setHoveredRole: (role) => set({ hoveredRole: role }),
 }));

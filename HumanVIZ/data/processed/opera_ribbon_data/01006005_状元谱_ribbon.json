@@ -1,0 +1,454 @@
+{
+  "title": "状元谱",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 7,
+  "num_locations": 2,
+  "source_file": "01006005_状元谱.json",
+  "source_folder": "01000000",
+  "plot_summary": "陈伯愚老而无子，素行善。时值荒歉，陈伯愚开仓放赈，以赒贫苦。同里有张公道者，穷多子，进飱常不给，\n因率众儿同往陈伯愚处领赈，陈伯愚见其年只三十余，已有六子，回念己半世行善，膝下尚虚，不禁感慨\n系之。先是陈伯愚兄嫂临殁时，以子陈大官托陈伯愚，陈伯愚亦爱之如己出，为之教养，年十五即补弟子员。\n嗣以交结小人，流入狎邪游，遂听友朋唆，日夕与叔争吵，欲分爨，陈伯愚不得已，乃与以家产之半。不\n数年，陈大官赌博冶游，挥霍净尽，甚至流为乞丐，至是迫于饥，亦腼颜来叔处领赈。陈伯愚一见此玷辱门\n楣之子，不禁气忿交加，怒不可遏，恨击之至毙，妻闻之出劝，陈伯愚余怒未息，命抛尸郊外。幸伯愚妻出\n唤之苏，私赠以金，命其改换衣装，隔日再来，当劝汝叔收留也。不意陈大官才欣然怀金去，未及隔宿，其\n金即被偷儿盗去。时适清明，陈大官于市上乞得数钱，忽念及爷娘，遂将所乞钱购买纸帛，上父母坟哭祭。\n方化纸毕，忽陈伯愚夫妇亦至扫墓，忽见兄嫂坟前，已有纸灰，遂诘坟丁，坟丁告以故。陈伯愚见陈大官落\n魄至此，尚不忘祖先，知稚子犹可教焉。况陈伯愚前日怒责，本属一时之愤，旋即思念不置，至是，遂招之\n至，好言抚慰，携之归家。陈大官从此痛改前非，发愤攻书，后卒大魁天下，故剧名《状元谱》云。",
+  "performance_notes": "按此剧情节似出昆曲《绣襦记》中，惟中间稍异耳。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 115,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.81,
+      "locations": {
+        "生贸易经营": 1
+      },
+      "characters": {
+        "院子": 1,
+        "陈伯愚": 1,
+        "张公道": 1,
+        "众小孩": 1
+      },
+      "links": [
+        {
+          "source": "众小孩",
+          "target": "张公道",
+          "value": 1
+        },
+        {
+          "source": "张公道",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "张公道",
+          "target": "陈伯愚",
+          "value": 1
+        },
+        {
+          "source": "众小孩",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "众小孩",
+          "target": "陈伯愚",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 190,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "与人看坟台": 1
+      },
+      "characters": {
+        "陈大官": 1,
+        "陈伯愚": 1,
+        "院子": 1,
+        "陈夫人": 1
+      },
+      "links": [
+        {
+          "source": "陈大官",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "陈大官",
+          "value": 1
+        },
+        {
+          "source": "陈大官",
+          "target": "陈夫人",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "陈夫人",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "陈夫人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 121,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.852,
+      "locations": {
+        "与人看坟台": 1
+      },
+      "characters": {
+        "陈大官": 1,
+        "朱仓": 1,
+        "院子": 1,
+        "陈伯愚": 1,
+        "陈夫人": 1
+      },
+      "links": [
+        {
+          "source": "朱仓",
+          "target": "陈大官",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "陈大官",
+          "value": 1
+        },
+        {
+          "source": "陈大官",
+          "target": "陈夫人",
+          "value": 1
+        },
+        {
+          "source": "陈大官",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "朱仓",
+          "target": "陈伯愚",
+          "value": 1
+        },
+        {
+          "source": "朱仓",
+          "target": "陈夫人",
+          "value": 1
+        },
+        {
+          "source": "朱仓",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "陈夫人",
+          "value": 1
+        },
+        {
+          "source": "陈伯愚",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "陈夫人",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "生贸易经营",
+      "characters": [
+        {
+          "name": "张公道",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "家无生和意，吃尽斗量金。",
+          "rating": 0.6,
+          "role": "丑"
+        },
+        {
+          "name": "众小孩",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忽听爹爹唤，急忙到跟前。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "院子",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "一生为奴仆，终朝侍主人。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "陈伯愚",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "向阳门第春常在，积善之家庆有余。",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：4位角色，115行",
+      "firstLine": 1,
+      "lastLine": 115,
+      "numLines": 115,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.673,
+        "conflict": 0.069,
+        "sentiment": 0.565
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "与人看坟台",
+      "characters": [
+        {
+          "name": "陈大官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "贫居街市无人问，富在深山有远亲。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "是哪个叫门？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "陈伯愚",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有子无财终有靠，有财无子也枉然。",
+          "rating": -0.077,
+          "role": "老生"
+        },
+        {
+          "name": "陈夫人",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "只听前堂哭悲声，",
+          "rating": -0.2,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第二场：4位角色，190行",
+      "firstLine": 1,
+      "lastLine": 190,
+      "numLines": 190,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.94,
+        "conflict": 0.283,
+        "sentiment": 0.037
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "与人看坟台",
+      "characters": [
+        {
+          "name": "陈大官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "破屋又遭连夜雨，",
+          "rating": 0.2,
+          "role": "小生"
+        },
+        {
+          "name": "朱仓",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我名叫朱仓，与人看坟台。开开门来看，原来是陈大官。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "陈伯愚",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "三月三日正清明，",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "陈夫人",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "家家户户上坟茔。",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "院子",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "祭礼赏与朱仓。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，121行",
+      "firstLine": 1,
+      "lastLine": 121,
+      "numLines": 121,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.328,
+        "sentiment": 0.347
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "陈伯愚",
+      "short": "陈伯",
+      "key": "陈伯愚",
+      "quote": "陈伯愚 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陈大官",
+      "short": "陈大",
+      "key": "陈大官",
+      "quote": "陈大官 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陈夫人",
+      "short": "陈夫",
+      "key": "陈夫人",
+      "quote": "陈夫人 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张公道",
+      "short": "张公",
+      "key": "张公道",
+      "quote": "张公道 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "朱仓",
+      "short": "朱仓",
+      "key": "朱仓",
+      "quote": "朱仓 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众小孩",
+      "short": "众小",
+      "key": "众小孩",
+      "quote": "众小孩 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "与人看坟台",
+      "key": "与人看坟台",
+      "quote": "场景发生在与人看坟台"
+    },
+    {
+      "name": "生贸易经营",
+      "key": "生贸易经营",
+      "quote": "场景发生在生贸易经营"
+    }
+  ]
+}

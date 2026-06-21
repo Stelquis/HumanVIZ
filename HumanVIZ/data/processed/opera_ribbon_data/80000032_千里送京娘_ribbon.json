@@ -1,0 +1,357 @@
+{
+  "title": "千里送京娘",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "80000032_千里送京娘.json",
+  "source_folder": "80000000",
+  "plot_summary": "赵匡胤路经古寺，救出为山寇张广、周进所劫掳之少女赵京娘，结为兄妹，以避嫌疑。赵匡胤又亲身护送赵\n京娘回家。赵京娘之父欲以赵京娘许婚，赵匡胤拒之而行。赵京娘思赵匡胤自尽，魂送之。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 79,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "汴梁城": 1
+      },
+      "characters": {
+        "赵匡胤": 1,
+        "赵京娘": 1
+      },
+      "links": [
+        {
+          "source": "赵京娘",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 13,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.202,
+      "locations": {
+        "汴梁城": 1
+      },
+      "characters": {
+        "周进": 1,
+        "张广": 1,
+        "众喽兵": 1
+      },
+      "links": [
+        {
+          "source": "周进",
+          "target": "张广",
+          "value": 1
+        },
+        {
+          "source": "众喽兵",
+          "target": "张广",
+          "value": 1
+        },
+        {
+          "source": "众喽兵",
+          "target": "周进",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 16,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.248,
+      "locations": {
+        "汴梁城": 1
+      },
+      "characters": {
+        "周进": 1,
+        "赵匡胤": 1,
+        "赵京娘": 1
+      },
+      "links": [
+        {
+          "source": "赵京娘",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "周进",
+          "target": "赵京娘",
+          "value": 1
+        },
+        {
+          "source": "周进",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 150,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "汴梁城": 1
+      },
+      "characters": {
+        "赵匡胤": 1,
+        "赵京娘": 1
+      },
+      "links": [
+        {
+          "source": "赵京娘",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "汴梁城",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "走！马来！",
+          "rating": 0.0,
+          "role": "红净"
+        },
+        {
+          "name": "赵京娘",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "哎呀！大王爷饶命！饶命！",
+          "rating": -0.429,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：2位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.884,
+        "conflict": 0.824,
+        "sentiment": -0.009
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "汴梁城",
+      "characters": [
+        {
+          "name": "张广",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "要除心头恨，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周进",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "钢刀杀仇人。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "众喽兵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.33,
+        "conflict": 0.606,
+        "sentiment": -0.032
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "汴梁城",
+      "characters": [
+        {
+          "name": "赵京娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "望断孤云泪涟涟，",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "贤妹不必惊慌。愚兄这条蟠龙棍，打遍天下，怕他何来！",
+          "rating": 0.0,
+          "role": "红净"
+        },
+        {
+          "name": "周进",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哪里走！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.737,
+        "conflict": 0.0,
+        "sentiment": 0.229
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "汴梁城",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "贤妹，",
+          "rating": -0.429,
+          "role": "红净"
+        },
+        {
+          "name": "赵京娘",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "遥望凝眸，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第四场：2位角色，150行",
+      "firstLine": 1,
+      "lastLine": 150,
+      "numLines": 150,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.293,
+        "sentiment": 0.126
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红净",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 红净",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵京娘",
+      "short": "赵京",
+      "key": "赵京娘",
+      "quote": "赵京娘 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "众喽兵",
+      "short": "众喽",
+      "key": "众喽兵",
+      "quote": "众喽兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张广",
+      "short": "张广",
+      "key": "张广",
+      "quote": "张广 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周进",
+      "short": "周进",
+      "key": "周进",
+      "quote": "周进 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "汴梁城",
+      "key": "汴梁城",
+      "quote": "场景发生在汴梁城"
+    }
+  ]
+}

@@ -1,0 +1,1110 @@
+{
+  "title": "四郎探母",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 11,
+  "num_characters": 11,
+  "num_locations": 9,
+  "source_file": "80000001_四郎探母.json",
+  "source_folder": "80000000",
+  "plot_summary": "杨延辉被擒后，改姓名，与铁镜公主成婚。辽邦萧天佐摆天门阵，佘太君亲征。杨延辉思母，为铁镜公主看\n破，以实告之；铁镜公主计盗令箭，助其出关，私回宋营，母子兄弟相会。杨延辉复回辽邦，被萧后得知，\n欲斩，铁镜公主代为求免。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 283,
+      "summary": "坐宫；盗令；别宫",
+      "conflict": 0.302,
+      "importance": 1.0,
+      "locations": {
+        "雁门关": 1,
+        "摆驾银安殿": 1,
+        "梳妆台": 1
+      },
+      "characters": {
+        "萧太后": 1,
+        "铁镜公主": 1,
+        "杨延辉": 1,
+        "佘太君": 1
+      },
+      "links": [
+        {
+          "source": "杨延辉",
+          "target": "铁镜公主",
+          "value": 2
+        },
+        {
+          "source": "佘太君",
+          "target": "杨延辉",
+          "value": 1
+        },
+        {
+          "source": "杨延辉",
+          "target": "萧太后",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "铁镜公主",
+          "value": 1
+        },
+        {
+          "source": "萧太后",
+          "target": "铁镜公主",
+          "value": 2
+        },
+        {
+          "source": "佘太君",
+          "target": "萧太后",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 144,
+      "summary": "过关；巡营；见弟",
+      "conflict": 0.608,
+      "importance": 0.903,
+      "locations": {
+        "雁门关": 1,
+        "令插箭游营": 1,
+        "东京": 1
+      },
+      "characters": {
+        "杨延辉": 1,
+        "杨延昭": 1,
+        "大国舅": 1,
+        "二国舅": 1,
+        "杨宗保": 1
+      },
+      "links": [
+        {
+          "source": "二国舅",
+          "target": "大国舅",
+          "value": 1
+        },
+        {
+          "source": "大国舅",
+          "target": "杨延辉",
+          "value": 1
+        },
+        {
+          "source": "二国舅",
+          "target": "杨延辉",
+          "value": 1
+        },
+        {
+          "source": "杨宗保",
+          "target": "杨延辉",
+          "value": 2
+        },
+        {
+          "source": "杨宗保",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "杨延辉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 193,
+      "summary": "见娘；见妻；哭堂",
+      "conflict": 0.249,
+      "importance": 1.0,
+      "locations": {
+        "禀报老萱台": 1,
+        "梳妆台": 2
+      },
+      "characters": {
+        "铁镜公主": 1,
+        "杨延辉": 1,
+        "杨延昭": 1,
+        "佘太君": 1,
+        "萧太后": 1,
+        "杨八姐": 1,
+        "四夫人": 1,
+        "杨九妹": 1
+      },
+      "links": [
+        {
+          "source": "佘太君",
+          "target": "杨延昭",
+          "value": 2
+        },
+        {
+          "source": "佘太君",
+          "target": "杨延辉",
+          "value": 2
+        },
+        {
+          "source": "佘太君",
+          "target": "杨九妹",
+          "value": 2
+        },
+        {
+          "source": "佘太君",
+          "target": "铁镜公主",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "萧太后",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "杨八姐",
+          "value": 2
+        },
+        {
+          "source": "杨延昭",
+          "target": "杨延辉",
+          "value": 2
+        },
+        {
+          "source": "杨九妹",
+          "target": "杨延昭",
+          "value": 2
+        },
+        {
+          "source": "杨延昭",
+          "target": "铁镜公主",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "萧太后",
+          "value": 1
+        },
+        {
+          "source": "杨八姐",
+          "target": "杨延昭",
+          "value": 2
+        },
+        {
+          "source": "杨九妹",
+          "target": "杨延辉",
+          "value": 3
+        },
+        {
+          "source": "杨延辉",
+          "target": "铁镜公主",
+          "value": 2
+        },
+        {
+          "source": "杨延辉",
+          "target": "萧太后",
+          "value": 1
+        },
+        {
+          "source": "杨八姐",
+          "target": "杨延辉",
+          "value": 3
+        },
+        {
+          "source": "杨九妹",
+          "target": "铁镜公主",
+          "value": 2
+        },
+        {
+          "source": "杨九妹",
+          "target": "萧太后",
+          "value": 1
+        },
+        {
+          "source": "杨九妹",
+          "target": "杨八姐",
+          "value": 3
+        },
+        {
+          "source": "萧太后",
+          "target": "铁镜公主",
+          "value": 1
+        },
+        {
+          "source": "杨八姐",
+          "target": "铁镜公主",
+          "value": 2
+        },
+        {
+          "source": "杨八姐",
+          "target": "萧太后",
+          "value": 1
+        },
+        {
+          "source": "四夫人",
+          "target": "杨九妹",
+          "value": 2
+        },
+        {
+          "source": "四夫人",
+          "target": "杨延辉",
+          "value": 2
+        },
+        {
+          "source": "四夫人",
+          "target": "铁镜公主",
+          "value": 1
+        },
+        {
+          "source": "四夫人",
+          "target": "杨八姐",
+          "value": 2
+        },
+        {
+          "source": "佘太君",
+          "target": "四夫人",
+          "value": 1
+        },
+        {
+          "source": "四夫人",
+          "target": "杨延昭",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 177,
+      "summary": "擒杨；回令",
+      "conflict": 0.116,
+      "importance": 1.0,
+      "locations": {
+        "梳妆台": 1,
+        "盗令回宋营": 1
+      },
+      "characters": {
+        "铁镜公主": 1,
+        "杨延辉": 1,
+        "大国舅": 1,
+        "二国舅": 1,
+        "萧太后": 1
+      },
+      "links": [
+        {
+          "source": "二国舅",
+          "target": "大国舅",
+          "value": 2
+        },
+        {
+          "source": "大国舅",
+          "target": "杨延辉",
+          "value": 2
+        },
+        {
+          "source": "二国舅",
+          "target": "杨延辉",
+          "value": 2
+        },
+        {
+          "source": "二国舅",
+          "target": "萧太后",
+          "value": 1
+        },
+        {
+          "source": "杨延辉",
+          "target": "萧太后",
+          "value": 1
+        },
+        {
+          "source": "大国舅",
+          "target": "萧太后",
+          "value": 1
+        },
+        {
+          "source": "萧太后",
+          "target": "铁镜公主",
+          "value": 1
+        },
+        {
+          "source": "二国舅",
+          "target": "铁镜公主",
+          "value": 1
+        },
+        {
+          "source": "杨延辉",
+          "target": "铁镜公主",
+          "value": 1
+        },
+        {
+          "source": "大国舅",
+          "target": "铁镜公主",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "坐宫",
+      "location": "雁门关",
+      "characters": [
+        {
+          "name": "杨延辉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "金井锁梧桐，长叹空随，一阵风。",
+          "rating": -0.091,
+          "role": "老生"
+        },
+        {
+          "name": "铁镜公主",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "丫头，带路啊！",
+          "rating": 0.077,
+          "role": "旦"
+        },
+        {
+          "name": "佘太君",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "萧太后",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "坐宫：4位角色，211行",
+      "firstLine": 1,
+      "lastLine": 211,
+      "numLines": 211,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.82,
+        "conflict": 0.234,
+        "sentiment": 0.081
+      }
+    },
+    {
+      "number": 2,
+      "name": "盗令",
+      "location": "摆驾银安殿",
+      "characters": [
+        {
+          "name": "萧太后",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "两国不和屡交战，",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "铁镜公主",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "适才离了皇宫院，",
+          "rating": -0.333,
+          "role": "旦"
+        }
+      ],
+      "summary": "盗令：2位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.618,
+        "conflict": 0.27,
+        "sentiment": 0.052
+      }
+    },
+    {
+      "number": 3,
+      "name": "别宫",
+      "location": "梳妆台",
+      "characters": [
+        {
+          "name": "杨延辉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "在头上摘下胡地冠，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "铁镜公主",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "银安盗来金鈚箭，",
+          "rating": 0.6,
+          "role": "旦"
+        }
+      ],
+      "summary": "别宫：2位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.573,
+        "conflict": 0.69,
+        "sentiment": 0.354
+      }
+    },
+    {
+      "number": 4,
+      "name": "过关",
+      "location": "雁门关",
+      "characters": [
+        {
+          "name": "大国舅",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "番儿带路往前趱，",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "二国舅",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有人过关仔细盘。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "杨延辉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "适才离了皇宫院，",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "过关：3位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.344,
+        "conflict": 0.667,
+        "sentiment": -0.346
+      }
+    },
+    {
+      "number": 5,
+      "name": "巡营",
+      "location": "令插箭游营",
+      "characters": [
+        {
+          "name": "杨宗保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "帐中领了父帅令，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "杨延辉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "为探慈母到宋营，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "巡营：2位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.339,
+        "conflict": 0.0,
+        "sentiment": 0.262
+      }
+    },
+    {
+      "number": 6,
+      "name": "见弟",
+      "location": "东京",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "一封战表到东京，",
+          "rating": -0.5,
+          "role": "老生"
+        },
+        {
+          "name": "杨宗保",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "宝剑令箭作凭证，",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "杨延辉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "大喝一声如雷震，",
+          "rating": 0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "见弟：3位角色，91行",
+      "firstLine": 1,
+      "lastLine": 91,
+      "numLines": 91,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.523,
+        "conflict": 0.37,
+        "sentiment": 0.063
+      }
+    },
+    {
+      "number": 7,
+      "name": "见娘",
+      "location": "禀报老萱台",
+      "characters": [
+        {
+          "name": "佘太君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "宋王爷御驾征北寨，",
+          "rating": -0.111,
+          "role": "老旦"
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "四哥且站营门外，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "杨延辉",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "贤弟禀报老萱台。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "杨九妹",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "四哥！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "铁镜公主",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "萧太后",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "杨八姐",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "见娘：7位角色，90行",
+      "firstLine": 1,
+      "lastLine": 90,
+      "numLines": 90,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.91,
+        "conflict": 0.471,
+        "sentiment": 0.258
+      }
+    },
+    {
+      "number": 8,
+      "name": "见妻",
+      "location": "梳妆台",
+      "characters": [
+        {
+          "name": "四夫人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "儿夫失落番邦外，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨九妹",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "四哥且等营门外，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "杨延辉",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "贤妻！",
+          "rating": -0.5,
+          "role": "老生"
+        },
+        {
+          "name": "铁镜公主",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "杨八姐",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "见妻：5位角色，62行",
+      "firstLine": 1,
+      "lastLine": 62,
+      "numLines": 62,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.65,
+        "conflict": 0.164,
+        "sentiment": 0.125
+      }
+    },
+    {
+      "number": 9,
+      "name": "哭堂",
+      "location": "梳妆台",
+      "characters": [
+        {
+          "name": "佘太君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "耳听得帐外悲声坏，",
+          "rating": -0.333,
+          "role": "老旦"
+        },
+        {
+          "name": "杨延辉",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "辞别老娘回北塞，",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "四夫人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "再与婆婆说开怀。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "四兄长！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "杨九妹",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "四哥哥！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "杨八姐",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "哭堂：6位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.468,
+        "conflict": 0.0,
+        "sentiment": 0.009
+      }
+    },
+    {
+      "number": 10,
+      "name": "擒杨",
+      "location": "梳妆台",
+      "characters": [
+        {
+          "name": "大国舅",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "摘去顶戴，",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "二国舅",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "罚俸三载。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "杨延辉",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "擒杨：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.265,
+        "conflict": 0.0,
+        "sentiment": 0.2
+      }
+    },
+    {
+      "number": 11,
+      "name": "回令",
+      "location": "盗令回宋营",
+      "characters": [
+        {
+          "name": "萧太后",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "散下鹰鹞去，捉拿燕子回。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "二国舅",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "木易拿到！",
+          "rating": -0.5,
+          "role": "丑"
+        },
+        {
+          "name": "杨延辉",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "不该盗令回宋营，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "大国舅",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "喳！",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "铁镜公主",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "忽听国舅一声请，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "回令：5位角色，166行",
+      "firstLine": 1,
+      "lastLine": 166,
+      "numLines": 166,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.107,
+        "sentiment": 0.316
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨延辉",
+      "short": "杨延",
+      "key": "杨延辉",
+      "quote": "杨延辉 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "铁镜公主",
+      "short": "铁镜",
+      "key": "铁镜公主",
+      "quote": "铁镜公主 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "萧太后",
+      "short": "萧太",
+      "key": "萧太后",
+      "quote": "萧太后 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "杨延昭",
+      "short": "杨延",
+      "key": "杨延昭",
+      "quote": "杨延昭 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨宗保",
+      "short": "杨宗",
+      "key": "杨宗保",
+      "quote": "杨宗保 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "佘太君",
+      "short": "佘太",
+      "key": "佘太君",
+      "quote": "佘太君 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "杨八姐",
+      "short": "杨八",
+      "key": "杨八姐",
+      "quote": "杨八姐 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "杨九妹",
+      "short": "杨九",
+      "key": "杨九妹",
+      "quote": "杨九妹 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "大国舅",
+      "short": "大国",
+      "key": "大国舅",
+      "quote": "大国舅 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "二国舅",
+      "short": "二国",
+      "key": "二国舅",
+      "quote": "二国舅 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "四夫人",
+      "short": "四夫",
+      "key": "四夫人",
+      "quote": "四夫人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "梳妆台",
+      "key": "梳妆台",
+      "quote": "场景发生在梳妆台"
+    },
+    {
+      "name": "禀报老萱台",
+      "key": "禀报老萱台",
+      "quote": "场景发生在禀报老萱台"
+    },
+    {
+      "name": "盗令回宋营",
+      "key": "盗令回宋营",
+      "quote": "场景发生在盗令回宋营"
+    },
+    {
+      "name": "东京",
+      "key": "东京",
+      "quote": "场景发生在东京"
+    },
+    {
+      "name": "有家门",
+      "key": "有家门",
+      "quote": "场景发生在有家门"
+    },
+    {
+      "name": "未上梳妆台",
+      "key": "未上梳妆台",
+      "quote": "场景发生在未上梳妆台"
+    },
+    {
+      "name": "摆驾银安殿",
+      "key": "摆驾银安殿",
+      "quote": "场景发生在摆驾银安殿"
+    },
+    {
+      "name": "雁门关",
+      "key": "雁门关",
+      "quote": "场景发生在雁门关"
+    },
+    {
+      "name": "令插箭游营",
+      "key": "令插箭游营",
+      "quote": "场景发生在令插箭游营"
+    }
+  ]
+}

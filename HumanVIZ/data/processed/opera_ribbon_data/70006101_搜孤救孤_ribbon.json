@@ -1,0 +1,516 @@
+{
+  "title": "搜孤救孤",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "70006101_搜孤救孤.json",
+  "source_folder": "70006000",
+  "plot_summary": "晋赵盾死后，屠岸贾诬其曾弑灵公，请景公杀死其子赵同、赵括、赵朔等。赵朔娶成公之女庄姬，庄姬将孤\n儿带入宫中躲藏，赵门客程婴暗将孤儿救回家中。屠岸贾再搜不得，下令十日内若不献出孤儿，即将国中与\n孤儿同庚婴儿杀死。程婴乃舍子，公孙杵臼舍身，合计救孤。",
+  "performance_notes": "晋赵盾死后，屠岸贾诬其曾弑灵公，请景公杀死其子赵同、赵括、赵朔等。赵朔娶成公之女庄姬，庄姬将孤\n儿带入宫中躲藏，赵门客程婴暗将孤儿救回家中。屠岸贾再搜不得，下令十日内若不献出孤儿，即将国中与\n孤儿同庚婴儿杀死。程婴乃舍子，公孙杵臼舍身，合计救孤。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 51,
+      "summary": "定计",
+      "conflict": 0.0,
+      "importance": 0.538,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "程婴": 1,
+        "公孙杵臼": 1
+      },
+      "links": [
+        {
+          "source": "公孙杵臼",
+          "target": "程婴",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 126,
+      "summary": "舍子",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "程婴": 1,
+        "公孙杵臼": 1,
+        "程妻": 1
+      },
+      "links": [
+        {
+          "source": "程妻",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "程妻",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "程婴",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 118,
+      "summary": "公堂·搜孤",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "程婴": 1,
+        "四校尉": 1,
+        "二校尉": 1,
+        "校尉甲": 1,
+        "公孙杵臼": 1,
+        "屠岸贾": 1
+      },
+      "links": [
+        {
+          "source": "四校尉",
+          "target": "屠岸贾",
+          "value": 1
+        },
+        {
+          "source": "屠岸贾",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "屠岸贾",
+          "target": "校尉甲",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "屠岸贾",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "屠岸贾",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "校尉甲",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "校尉甲",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "校尉甲",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "校尉甲",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "公孙杵臼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 84,
+      "summary": "法场·救孤",
+      "conflict": 0.0,
+      "importance": 0.887,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "程婴": 1,
+        "屠岸贾": 1,
+        "四校尉": 1,
+        "公孙杵臼": 1
+      },
+      "links": [
+        {
+          "source": "公孙杵臼",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "公孙杵臼",
+          "target": "屠岸贾",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "屠岸贾",
+          "target": "程婴",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "屠岸贾",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "定计",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "公孙杵臼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "嗯哼！",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "程婴",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "走哇！",
+          "rating": -0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "定计：2位角色，51行",
+      "firstLine": 1,
+      "lastLine": 51,
+      "numLines": 51,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.711,
+        "conflict": 0.909,
+        "sentiment": 0.246
+      }
+    },
+    {
+      "number": 2,
+      "name": "舍子",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "程妻",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "仗义救孤生，妻随夫志行。",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "程婴",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大事安排定，劝妻舍亲生。",
+          "rating": 0.091,
+          "role": "老生"
+        },
+        {
+          "name": "公孙杵臼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "我与程婴把计定，",
+          "rating": 0.455,
+          "role": "老生"
+        }
+      ],
+      "summary": "舍子：3位角色，126行",
+      "firstLine": 1,
+      "lastLine": 126,
+      "numLines": 126,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.301,
+        "sentiment": 0.285
+      }
+    },
+    {
+      "number": 3,
+      "name": "公堂·搜孤",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "屠岸贾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "要除心头恨，斩草要除根。",
+          "rating": -0.5,
+          "role": "净"
+        },
+        {
+          "name": "四校尉",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "程婴",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "走哇！",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "校尉甲",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有人击鼓。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "公孙杵臼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "叩见大人！",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "二校尉",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "来到首阳山。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "公堂·搜孤：6位角色，118行",
+      "firstLine": 1,
+      "lastLine": 118,
+      "numLines": 118,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.311,
+        "sentiment": -0.245
+      }
+    },
+    {
+      "number": 4,
+      "name": "法场·救孤",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "公孙杵臼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一片好心反成恨，",
+          "rating": -0.143,
+          "role": "老生"
+        },
+        {
+          "name": "程婴",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "迈步儿来在法场中，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "四校尉",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哦！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "屠岸贾",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "可曾祭奠？",
+          "rating": 0.429,
+          "role": "净"
+        }
+      ],
+      "summary": "法场·救孤：4位角色，84行",
+      "firstLine": 1,
+      "lastLine": 84,
+      "numLines": 84,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.966,
+        "conflict": 0.613,
+        "sentiment": 0.278
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "程婴",
+      "short": "程婴",
+      "key": "程婴",
+      "quote": "程婴 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "屠岸贾",
+      "short": "屠岸",
+      "key": "屠岸贾",
+      "quote": "屠岸贾 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "公孙杵臼",
+      "short": "公孙",
+      "key": "公孙杵臼",
+      "quote": "公孙杵臼 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "程妻",
+      "short": "程妻",
+      "key": "程妻",
+      "quote": "程妻 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "四校尉",
+      "short": "四校",
+      "key": "四校尉",
+      "quote": "四校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二校尉",
+      "short": "二校",
+      "key": "二校尉",
+      "quote": "二校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "校尉甲",
+      "short": "校尉",
+      "key": "校尉甲",
+      "quote": "校尉甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "title": "五凤楼",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "02006046_五凤楼【三本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "武则天欲杀薛丁山满门，李敬犹念忠良不可绝后，因效程婴、杵臼故智，托名查监，将其子孝思，换出薛蛟\n云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 32,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.39,
+      "locations": {
+        "若问阴曹府": 1
+      },
+      "characters": {
+        "李敬犹": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 132,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "若问阴曹府": 1
+      },
+      "characters": {
+        "禁子": 1,
+        "张夫人": 1,
+        "狱官": 1,
+        "四禁子": 1,
+        "薛猛": 1,
+        "家院": 1,
+        "四家丁": 1,
+        "李敬犹": 1
+      },
+      "links": [
+        {
+          "source": "四禁子",
+          "target": "狱官",
+          "value": 1
+        },
+        {
+          "source": "李敬犹",
+          "target": "狱官",
+          "value": 1
+        },
+        {
+          "source": "四家丁",
+          "target": "狱官",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "狱官",
+          "value": 1
+        },
+        {
+          "source": "狱官",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "狱官",
+          "target": "薛猛",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "狱官",
+          "value": 1
+        },
+        {
+          "source": "四禁子",
+          "target": "李敬犹",
+          "value": 1
+        },
+        {
+          "source": "四家丁",
+          "target": "四禁子",
+          "value": 1
+        },
+        {
+          "source": "四禁子",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "四禁子",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "四禁子",
+          "target": "薛猛",
+          "value": 1
+        },
+        {
+          "source": "四禁子",
+          "target": "张夫人",
+          "value": 1
+        },
+        {
+          "source": "四家丁",
+          "target": "李敬犹",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "李敬犹",
+          "value": 1
+        },
+        {
+          "source": "李敬犹",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "李敬犹",
+          "target": "薛猛",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "李敬犹",
+          "value": 1
+        },
+        {
+          "source": "四家丁",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "四家丁",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "四家丁",
+          "target": "薛猛",
+          "value": 1
+        },
+        {
+          "source": "四家丁",
+          "target": "张夫人",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "薛猛",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "张夫人",
+          "value": 1
+        },
+        {
+          "source": "禁子",
+          "target": "薛猛",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "禁子",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "薛猛",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "若问阴曹府",
+      "characters": [
+        {
+          "name": "李敬犹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "本爵李敬犹。只为薛氏满门，尽入天牢，是我会同公卿，保救忠良，以赦薛氏",
+          "rating": 0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：1位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.676,
+        "conflict": 1.0,
+        "sentiment": 0.206
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "若问阴曹府",
+      "characters": [
+        {
+          "name": "狱官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "监狱和班房，牢房有囚床。长板带夹棍，拷打犯法郎。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四禁子",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "吓。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "李敬犹",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "静悄悄不要高声道，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "四家丁",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来此天牢监门。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "开门。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "禁子",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "吓。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "薛猛",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "negative",
+          "quote": "哎呀！",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张夫人",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "negative",
+          "quote": "三叔惹祸惧法逃。",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：8位角色，132行",
+      "firstLine": 1,
+      "lastLine": 132,
+      "numLines": 132,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.348,
+        "sentiment": 0.233
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李敬犹",
+      "short": "李敬",
+      "key": "李敬犹",
+      "quote": "李敬犹 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛猛",
+      "short": "薛猛",
+      "key": "薛猛",
+      "quote": "薛猛 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张夫人",
+      "short": "张夫",
+      "key": "张夫人",
+      "quote": "张夫人 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "禁子",
+      "short": "禁子",
+      "key": "禁子",
+      "quote": "禁子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "狱官",
+      "short": "狱官",
+      "key": "狱官",
+      "quote": "狱官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四禁子",
+      "short": "四禁",
+      "key": "四禁子",
+      "quote": "四禁子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四家丁",
+      "short": "四家",
+      "key": "四家丁",
+      "quote": "四家丁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "若问阴曹府",
+      "key": "若问阴曹府",
+      "quote": "场景发生在若问阴曹府"
+    }
+  ]
+}

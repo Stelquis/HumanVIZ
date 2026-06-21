@@ -1,0 +1,4999 @@
+{
+  "meta": {
+    "audit_time": "2026-06-05T19:04:13.733695",
+    "total_plays": 1473,
+    "total_edges_all": 72257,
+    "total_edges_semantic": 22148,
+    "口径说明": {
+      "all_relations": "包含所有关系边（macro_type=中立 约占69%，主要为同场共现），反映完整网络关系分布",
+      "semantic_relations": "排除 macro_type=中立，仅保留具有明确语义标签的关系（亲属/同盟/从属/敌对/情感），用于分析真正的角色戏剧关系"
+    }
+  },
+  "global": {
+    "all_relations": {
+      "total": 72257,
+      "macro": [
+        {
+          "type": "中立",
+          "count": 50109,
+          "ratio": 0.6935
+        },
+        {
+          "type": "同盟",
+          "count": 7945,
+          "ratio": 0.11
+        },
+        {
+          "type": "从属",
+          "count": 6989,
+          "ratio": 0.0967
+        },
+        {
+          "type": "敌对",
+          "count": 3683,
+          "ratio": 0.051
+        },
+        {
+          "type": "亲属",
+          "count": 3261,
+          "ratio": 0.0451
+        },
+        {
+          "type": "情感",
+          "count": 270,
+          "ratio": 0.0037
+        }
+      ],
+      "micro": [
+        {
+          "type": "同场",
+          "count": 48090,
+          "ratio": 0.6655
+        },
+        {
+          "type": "同僚",
+          "count": 4999,
+          "ratio": 0.0692
+        },
+        {
+          "type": "阵营对立",
+          "count": 2418,
+          "ratio": 0.0335
+        },
+        {
+          "type": "将卒",
+          "count": 2060,
+          "ratio": 0.0285
+        },
+        {
+          "type": "主仆",
+          "count": 1833,
+          "ratio": 0.0254
+        },
+        {
+          "type": "君臣",
+          "count": 1772,
+          "ratio": 0.0245
+        },
+        {
+          "type": "其他中立",
+          "count": 1228,
+          "ratio": 0.017
+        },
+        {
+          "type": "其他亲属",
+          "count": 1149,
+          "ratio": 0.0159
+        },
+        {
+          "type": "结拜",
+          "count": 1008,
+          "ratio": 0.014
+        },
+        {
+          "type": "其他从属",
+          "count": 704,
+          "ratio": 0.0097
+        },
+        {
+          "type": "其他同盟",
+          "count": 648,
+          "ratio": 0.009
+        },
+        {
+          "type": "夫妻",
+          "count": 628,
+          "ratio": 0.0087
+        },
+        {
+          "type": "利益结盟",
+          "count": 604,
+          "ratio": 0.0084
+        },
+        {
+          "type": "父子",
+          "count": 548,
+          "ratio": 0.0076
+        },
+        {
+          "type": "政敌",
+          "count": 519,
+          "ratio": 0.0072
+        },
+        {
+          "type": "萍水相逢",
+          "count": 511,
+          "ratio": 0.0071
+        },
+        {
+          "type": "仇人",
+          "count": 462,
+          "ratio": 0.0064
+        },
+        {
+          "type": "官民",
+          "count": 453,
+          "ratio": 0.0063
+        },
+        {
+          "type": "恩人",
+          "count": 446,
+          "ratio": 0.0062
+        },
+        {
+          "type": "兄弟",
+          "count": 400,
+          "ratio": 0.0055
+        },
+        {
+          "type": "母子",
+          "count": 325,
+          "ratio": 0.0045
+        },
+        {
+          "type": "知己",
+          "count": 240,
+          "ratio": 0.0033
+        },
+        {
+          "type": "恋人",
+          "count": 182,
+          "ratio": 0.0025
+        },
+        {
+          "type": "师徒",
+          "count": 167,
+          "ratio": 0.0023
+        },
+        {
+          "type": "其他敌对",
+          "count": 162,
+          "ratio": 0.0022
+        },
+        {
+          "type": "交易",
+          "count": 141,
+          "ratio": 0.002
+        },
+        {
+          "type": "路人",
+          "count": 139,
+          "ratio": 0.0019
+        },
+        {
+          "type": "婆媳",
+          "count": 84,
+          "ratio": 0.0012
+        },
+        {
+          "type": "情敌",
+          "count": 67,
+          "ratio": 0.0009
+        },
+        {
+          "type": "姐妹",
+          "count": 66,
+          "ratio": 0.0009
+        },
+        {
+          "type": "翁婿",
+          "count": 61,
+          "ratio": 0.0008
+        },
+        {
+          "type": "宿敌",
+          "count": 55,
+          "ratio": 0.0008
+        },
+        {
+          "type": "其他情感",
+          "count": 50,
+          "ratio": 0.0007
+        },
+        {
+          "type": "政治联姻",
+          "count": 28,
+          "ratio": 0.0004
+        },
+        {
+          "type": "暗恋",
+          "count": 10,
+          "ratio": 0.0001
+        }
+      ]
+    },
+    "semantic_relations": {
+      "total": 22148,
+      "note": "排除 macro_type=中立（含同场共现边），仅保留有明确语义标签的关系",
+      "macro": [
+        {
+          "type": "同盟",
+          "count": 7945,
+          "ratio": 0.3587
+        },
+        {
+          "type": "从属",
+          "count": 6989,
+          "ratio": 0.3156
+        },
+        {
+          "type": "敌对",
+          "count": 3683,
+          "ratio": 0.1663
+        },
+        {
+          "type": "亲属",
+          "count": 3261,
+          "ratio": 0.1472
+        },
+        {
+          "type": "情感",
+          "count": 270,
+          "ratio": 0.0122
+        }
+      ],
+      "micro": [
+        {
+          "type": "同僚",
+          "count": 4999,
+          "ratio": 0.2257
+        },
+        {
+          "type": "阵营对立",
+          "count": 2418,
+          "ratio": 0.1092
+        },
+        {
+          "type": "将卒",
+          "count": 2060,
+          "ratio": 0.093
+        },
+        {
+          "type": "主仆",
+          "count": 1833,
+          "ratio": 0.0828
+        },
+        {
+          "type": "君臣",
+          "count": 1772,
+          "ratio": 0.08
+        },
+        {
+          "type": "其他亲属",
+          "count": 1149,
+          "ratio": 0.0519
+        },
+        {
+          "type": "结拜",
+          "count": 1008,
+          "ratio": 0.0455
+        },
+        {
+          "type": "其他从属",
+          "count": 704,
+          "ratio": 0.0318
+        },
+        {
+          "type": "其他同盟",
+          "count": 648,
+          "ratio": 0.0293
+        },
+        {
+          "type": "夫妻",
+          "count": 628,
+          "ratio": 0.0284
+        },
+        {
+          "type": "利益结盟",
+          "count": 604,
+          "ratio": 0.0273
+        },
+        {
+          "type": "父子",
+          "count": 548,
+          "ratio": 0.0247
+        },
+        {
+          "type": "政敌",
+          "count": 519,
+          "ratio": 0.0234
+        },
+        {
+          "type": "仇人",
+          "count": 462,
+          "ratio": 0.0209
+        },
+        {
+          "type": "官民",
+          "count": 453,
+          "ratio": 0.0205
+        },
+        {
+          "type": "恩人",
+          "count": 446,
+          "ratio": 0.0201
+        },
+        {
+          "type": "兄弟",
+          "count": 400,
+          "ratio": 0.0181
+        },
+        {
+          "type": "母子",
+          "count": 325,
+          "ratio": 0.0147
+        },
+        {
+          "type": "知己",
+          "count": 240,
+          "ratio": 0.0108
+        },
+        {
+          "type": "恋人",
+          "count": 182,
+          "ratio": 0.0082
+        },
+        {
+          "type": "师徒",
+          "count": 167,
+          "ratio": 0.0075
+        },
+        {
+          "type": "其他敌对",
+          "count": 162,
+          "ratio": 0.0073
+        },
+        {
+          "type": "婆媳",
+          "count": 84,
+          "ratio": 0.0038
+        },
+        {
+          "type": "情敌",
+          "count": 67,
+          "ratio": 0.003
+        },
+        {
+          "type": "姐妹",
+          "count": 66,
+          "ratio": 0.003
+        },
+        {
+          "type": "翁婿",
+          "count": 61,
+          "ratio": 0.0028
+        },
+        {
+          "type": "宿敌",
+          "count": 55,
+          "ratio": 0.0025
+        },
+        {
+          "type": "其他情感",
+          "count": 50,
+          "ratio": 0.0023
+        },
+        {
+          "type": "政治联姻",
+          "count": 28,
+          "ratio": 0.0013
+        },
+        {
+          "type": "暗恋",
+          "count": 10,
+          "ratio": 0.0005
+        }
+      ]
+    }
+  },
+  "by_type": {
+    "侠义戏": {
+      "play_count": 126,
+      "total_edges": 8242,
+      "semantic_edges": 1999,
+      "semantic_enrichment": 0.2425,
+      "all_relations": {
+        "total": 8242,
+        "macro_top5": [
+          {
+            "type": "中立",
+            "count": 6243,
+            "ratio": 0.7575
+          },
+          {
+            "type": "同盟",
+            "count": 856,
+            "ratio": 0.1039
+          },
+          {
+            "type": "从属",
+            "count": 451,
+            "ratio": 0.0547
+          },
+          {
+            "type": "敌对",
+            "count": 407,
+            "ratio": 0.0494
+          },
+          {
+            "type": "亲属",
+            "count": 267,
+            "ratio": 0.0324
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "同场",
+            "count": 6051,
+            "ratio": 0.7342
+          },
+          {
+            "type": "结拜",
+            "count": 282,
+            "ratio": 0.0342
+          },
+          {
+            "type": "阵营对立",
+            "count": 259,
+            "ratio": 0.0314
+          },
+          {
+            "type": "主仆",
+            "count": 204,
+            "ratio": 0.0248
+          },
+          {
+            "type": "同僚",
+            "count": 184,
+            "ratio": 0.0223
+          },
+          {
+            "type": "利益结盟",
+            "count": 144,
+            "ratio": 0.0175
+          },
+          {
+            "type": "其他同盟",
+            "count": 135,
+            "ratio": 0.0164
+          },
+          {
+            "type": "仇人",
+            "count": 107,
+            "ratio": 0.013
+          },
+          {
+            "type": "其他亲属",
+            "count": 105,
+            "ratio": 0.0127
+          },
+          {
+            "type": "其他中立",
+            "count": 96,
+            "ratio": 0.0116
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "中立",
+            "count": 6243,
+            "ratio": 0.7575
+          },
+          {
+            "type": "同盟",
+            "count": 856,
+            "ratio": 0.1039
+          },
+          {
+            "type": "从属",
+            "count": 451,
+            "ratio": 0.0547
+          },
+          {
+            "type": "敌对",
+            "count": 407,
+            "ratio": 0.0494
+          },
+          {
+            "type": "亲属",
+            "count": 267,
+            "ratio": 0.0324
+          },
+          {
+            "type": "情感",
+            "count": 18,
+            "ratio": 0.0022
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "同场",
+            "count": 6051,
+            "ratio": 0.7342
+          },
+          {
+            "type": "结拜",
+            "count": 282,
+            "ratio": 0.0342
+          },
+          {
+            "type": "阵营对立",
+            "count": 259,
+            "ratio": 0.0314
+          },
+          {
+            "type": "主仆",
+            "count": 204,
+            "ratio": 0.0248
+          },
+          {
+            "type": "同僚",
+            "count": 184,
+            "ratio": 0.0223
+          },
+          {
+            "type": "利益结盟",
+            "count": 144,
+            "ratio": 0.0175
+          },
+          {
+            "type": "其他同盟",
+            "count": 135,
+            "ratio": 0.0164
+          },
+          {
+            "type": "仇人",
+            "count": 107,
+            "ratio": 0.013
+          },
+          {
+            "type": "其他亲属",
+            "count": 105,
+            "ratio": 0.0127
+          },
+          {
+            "type": "其他中立",
+            "count": 96,
+            "ratio": 0.0116
+          },
+          {
+            "type": "将卒",
+            "count": 88,
+            "ratio": 0.0107
+          },
+          {
+            "type": "其他从属",
+            "count": 82,
+            "ratio": 0.0099
+          },
+          {
+            "type": "恩人",
+            "count": 66,
+            "ratio": 0.008
+          },
+          {
+            "type": "萍水相逢",
+            "count": 56,
+            "ratio": 0.0068
+          },
+          {
+            "type": "夫妻",
+            "count": 48,
+            "ratio": 0.0058
+          },
+          {
+            "type": "知己",
+            "count": 45,
+            "ratio": 0.0055
+          },
+          {
+            "type": "兄弟",
+            "count": 45,
+            "ratio": 0.0055
+          },
+          {
+            "type": "父子",
+            "count": 39,
+            "ratio": 0.0047
+          },
+          {
+            "type": "官民",
+            "count": 37,
+            "ratio": 0.0045
+          },
+          {
+            "type": "交易",
+            "count": 33,
+            "ratio": 0.004
+          },
+          {
+            "type": "师徒",
+            "count": 29,
+            "ratio": 0.0035
+          },
+          {
+            "type": "其他敌对",
+            "count": 26,
+            "ratio": 0.0032
+          },
+          {
+            "type": "母子",
+            "count": 15,
+            "ratio": 0.0018
+          },
+          {
+            "type": "恋人",
+            "count": 12,
+            "ratio": 0.0015
+          },
+          {
+            "type": "君臣",
+            "count": 11,
+            "ratio": 0.0013
+          },
+          {
+            "type": "翁婿",
+            "count": 8,
+            "ratio": 0.001
+          },
+          {
+            "type": "宿敌",
+            "count": 7,
+            "ratio": 0.0008
+          },
+          {
+            "type": "路人",
+            "count": 7,
+            "ratio": 0.0008
+          },
+          {
+            "type": "政敌",
+            "count": 6,
+            "ratio": 0.0007
+          },
+          {
+            "type": "其他情感",
+            "count": 6,
+            "ratio": 0.0007
+          },
+          {
+            "type": "姐妹",
+            "count": 5,
+            "ratio": 0.0006
+          },
+          {
+            "type": "情敌",
+            "count": 2,
+            "ratio": 0.0002
+          },
+          {
+            "type": "婆媳",
+            "count": 2,
+            "ratio": 0.0002
+          }
+        ]
+      },
+      "semantic_relations": {
+        "total": 1999,
+        "macro_top5": [
+          {
+            "type": "同盟",
+            "count": 856,
+            "ratio": 0.4282
+          },
+          {
+            "type": "从属",
+            "count": 451,
+            "ratio": 0.2256
+          },
+          {
+            "type": "敌对",
+            "count": 407,
+            "ratio": 0.2036
+          },
+          {
+            "type": "亲属",
+            "count": 267,
+            "ratio": 0.1336
+          },
+          {
+            "type": "情感",
+            "count": 18,
+            "ratio": 0.009
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "结拜",
+            "count": 282,
+            "ratio": 0.1411
+          },
+          {
+            "type": "阵营对立",
+            "count": 259,
+            "ratio": 0.1296
+          },
+          {
+            "type": "主仆",
+            "count": 204,
+            "ratio": 0.1021
+          },
+          {
+            "type": "同僚",
+            "count": 184,
+            "ratio": 0.092
+          },
+          {
+            "type": "利益结盟",
+            "count": 144,
+            "ratio": 0.072
+          },
+          {
+            "type": "其他同盟",
+            "count": 135,
+            "ratio": 0.0675
+          },
+          {
+            "type": "仇人",
+            "count": 107,
+            "ratio": 0.0535
+          },
+          {
+            "type": "其他亲属",
+            "count": 105,
+            "ratio": 0.0525
+          },
+          {
+            "type": "将卒",
+            "count": 88,
+            "ratio": 0.044
+          },
+          {
+            "type": "其他从属",
+            "count": 82,
+            "ratio": 0.041
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "同盟",
+            "count": 856,
+            "ratio": 0.4282
+          },
+          {
+            "type": "从属",
+            "count": 451,
+            "ratio": 0.2256
+          },
+          {
+            "type": "敌对",
+            "count": 407,
+            "ratio": 0.2036
+          },
+          {
+            "type": "亲属",
+            "count": 267,
+            "ratio": 0.1336
+          },
+          {
+            "type": "情感",
+            "count": 18,
+            "ratio": 0.009
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "结拜",
+            "count": 282,
+            "ratio": 0.1411
+          },
+          {
+            "type": "阵营对立",
+            "count": 259,
+            "ratio": 0.1296
+          },
+          {
+            "type": "主仆",
+            "count": 204,
+            "ratio": 0.1021
+          },
+          {
+            "type": "同僚",
+            "count": 184,
+            "ratio": 0.092
+          },
+          {
+            "type": "利益结盟",
+            "count": 144,
+            "ratio": 0.072
+          },
+          {
+            "type": "其他同盟",
+            "count": 135,
+            "ratio": 0.0675
+          },
+          {
+            "type": "仇人",
+            "count": 107,
+            "ratio": 0.0535
+          },
+          {
+            "type": "其他亲属",
+            "count": 105,
+            "ratio": 0.0525
+          },
+          {
+            "type": "将卒",
+            "count": 88,
+            "ratio": 0.044
+          },
+          {
+            "type": "其他从属",
+            "count": 82,
+            "ratio": 0.041
+          },
+          {
+            "type": "恩人",
+            "count": 66,
+            "ratio": 0.033
+          },
+          {
+            "type": "夫妻",
+            "count": 48,
+            "ratio": 0.024
+          },
+          {
+            "type": "知己",
+            "count": 45,
+            "ratio": 0.0225
+          },
+          {
+            "type": "兄弟",
+            "count": 45,
+            "ratio": 0.0225
+          },
+          {
+            "type": "父子",
+            "count": 39,
+            "ratio": 0.0195
+          },
+          {
+            "type": "官民",
+            "count": 37,
+            "ratio": 0.0185
+          },
+          {
+            "type": "师徒",
+            "count": 29,
+            "ratio": 0.0145
+          },
+          {
+            "type": "其他敌对",
+            "count": 26,
+            "ratio": 0.013
+          },
+          {
+            "type": "母子",
+            "count": 15,
+            "ratio": 0.0075
+          },
+          {
+            "type": "恋人",
+            "count": 12,
+            "ratio": 0.006
+          },
+          {
+            "type": "君臣",
+            "count": 11,
+            "ratio": 0.0055
+          },
+          {
+            "type": "翁婿",
+            "count": 8,
+            "ratio": 0.004
+          },
+          {
+            "type": "宿敌",
+            "count": 7,
+            "ratio": 0.0035
+          },
+          {
+            "type": "政敌",
+            "count": 6,
+            "ratio": 0.003
+          },
+          {
+            "type": "其他情感",
+            "count": 6,
+            "ratio": 0.003
+          },
+          {
+            "type": "姐妹",
+            "count": 5,
+            "ratio": 0.0025
+          },
+          {
+            "type": "情敌",
+            "count": 2,
+            "ratio": 0.001
+          },
+          {
+            "type": "婆媳",
+            "count": 2,
+            "ratio": 0.001
+          }
+        ]
+      },
+      "enrichment_vs_global": {
+        "semantic_macro_pp_diff": {
+          "敌对": 0.0373,
+          "亲属": -0.0137,
+          "同盟": 0.0695,
+          "从属": -0.0899,
+          "情感": -0.0032
+        },
+        "note": "正值为该类型中占比高于全局均值，负值为低于。用于识别该类剧的特征关系类型。"
+      },
+      "per_play_ratio_stats": {
+        "all_macro": {
+          "同盟": {
+            "mean": 0.159,
+            "median": 0.1312,
+            "min": 0.0,
+            "max": 0.6667,
+            "std": 0.1456,
+            "p25": 0.0393,
+            "p75": 0.2416,
+            "count": 126
+          },
+          "中立": {
+            "mean": 0.5539,
+            "median": 0.5963,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.3364,
+            "p25": 0.2631,
+            "p75": 0.8272,
+            "count": 126
+          },
+          "亲属": {
+            "mean": 0.0566,
+            "median": 0.0244,
+            "min": 0.0,
+            "max": 0.381,
+            "std": 0.0827,
+            "p25": 0.0,
+            "p75": 0.0702,
+            "count": 126
+          },
+          "情感": {
+            "mean": 0.0033,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.0667,
+            "std": 0.0111,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 126
+          },
+          "从属": {
+            "mean": 0.0937,
+            "median": 0.061,
+            "min": 0.0,
+            "max": 0.6,
+            "std": 0.1042,
+            "p25": 0.0067,
+            "p75": 0.1333,
+            "count": 126
+          },
+          "敌对": {
+            "mean": 0.1177,
+            "median": 0.0359,
+            "min": 0.0,
+            "max": 0.6667,
+            "std": 0.1657,
+            "p25": 0.0,
+            "p75": 0.1806,
+            "count": 126
+          }
+        },
+        "sem_macro": {
+          "同盟": {
+            "mean": 0.339,
+            "median": 0.3333,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2475,
+            "p25": 0.1667,
+            "p75": 0.5,
+            "count": 126
+          },
+          "亲属": {
+            "mean": 0.1178,
+            "median": 0.0667,
+            "min": 0.0,
+            "max": 0.7143,
+            "std": 0.1435,
+            "p25": 0.0,
+            "p75": 0.1805,
+            "count": 126
+          },
+          "情感": {
+            "mean": 0.009,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.1667,
+            "std": 0.0266,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 126
+          },
+          "从属": {
+            "mean": 0.1879,
+            "median": 0.2,
+            "min": 0.0,
+            "max": 0.6,
+            "std": 0.1492,
+            "p25": 0.0397,
+            "p75": 0.2843,
+            "count": 126
+          },
+          "敌对": {
+            "mean": 0.1876,
+            "median": 0.1491,
+            "min": 0.0,
+            "max": 0.6667,
+            "std": 0.1888,
+            "p25": 0.0,
+            "p75": 0.3023,
+            "count": 126
+          }
+        }
+      }
+    },
+    "公案戏": {
+      "play_count": 100,
+      "total_edges": 7201,
+      "semantic_edges": 1469,
+      "semantic_enrichment": 0.204,
+      "all_relations": {
+        "total": 7201,
+        "macro_top5": [
+          {
+            "type": "中立",
+            "count": 5732,
+            "ratio": 0.796
+          },
+          {
+            "type": "从属",
+            "count": 598,
+            "ratio": 0.083
+          },
+          {
+            "type": "同盟",
+            "count": 385,
+            "ratio": 0.0535
+          },
+          {
+            "type": "敌对",
+            "count": 256,
+            "ratio": 0.0356
+          },
+          {
+            "type": "亲属",
+            "count": 202,
+            "ratio": 0.0281
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "同场",
+            "count": 5580,
+            "ratio": 0.7749
+          },
+          {
+            "type": "同僚",
+            "count": 216,
+            "ratio": 0.03
+          },
+          {
+            "type": "官民",
+            "count": 215,
+            "ratio": 0.0299
+          },
+          {
+            "type": "主仆",
+            "count": 166,
+            "ratio": 0.0231
+          },
+          {
+            "type": "其他从属",
+            "count": 113,
+            "ratio": 0.0157
+          },
+          {
+            "type": "仇人",
+            "count": 94,
+            "ratio": 0.0131
+          },
+          {
+            "type": "阵营对立",
+            "count": 93,
+            "ratio": 0.0129
+          },
+          {
+            "type": "其他中立",
+            "count": 89,
+            "ratio": 0.0124
+          },
+          {
+            "type": "其他亲属",
+            "count": 82,
+            "ratio": 0.0114
+          },
+          {
+            "type": "利益结盟",
+            "count": 70,
+            "ratio": 0.0097
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "中立",
+            "count": 5732,
+            "ratio": 0.796
+          },
+          {
+            "type": "从属",
+            "count": 598,
+            "ratio": 0.083
+          },
+          {
+            "type": "同盟",
+            "count": 385,
+            "ratio": 0.0535
+          },
+          {
+            "type": "敌对",
+            "count": 256,
+            "ratio": 0.0356
+          },
+          {
+            "type": "亲属",
+            "count": 202,
+            "ratio": 0.0281
+          },
+          {
+            "type": "情感",
+            "count": 28,
+            "ratio": 0.0039
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "同场",
+            "count": 5580,
+            "ratio": 0.7749
+          },
+          {
+            "type": "同僚",
+            "count": 216,
+            "ratio": 0.03
+          },
+          {
+            "type": "官民",
+            "count": 215,
+            "ratio": 0.0299
+          },
+          {
+            "type": "主仆",
+            "count": 166,
+            "ratio": 0.0231
+          },
+          {
+            "type": "其他从属",
+            "count": 113,
+            "ratio": 0.0157
+          },
+          {
+            "type": "仇人",
+            "count": 94,
+            "ratio": 0.0131
+          },
+          {
+            "type": "阵营对立",
+            "count": 93,
+            "ratio": 0.0129
+          },
+          {
+            "type": "其他中立",
+            "count": 89,
+            "ratio": 0.0124
+          },
+          {
+            "type": "其他亲属",
+            "count": 82,
+            "ratio": 0.0114
+          },
+          {
+            "type": "利益结盟",
+            "count": 70,
+            "ratio": 0.0097
+          },
+          {
+            "type": "君臣",
+            "count": 53,
+            "ratio": 0.0074
+          },
+          {
+            "type": "夫妻",
+            "count": 52,
+            "ratio": 0.0072
+          },
+          {
+            "type": "恩人",
+            "count": 48,
+            "ratio": 0.0067
+          },
+          {
+            "type": "将卒",
+            "count": 44,
+            "ratio": 0.0061
+          },
+          {
+            "type": "政敌",
+            "count": 35,
+            "ratio": 0.0049
+          },
+          {
+            "type": "萍水相逢",
+            "count": 35,
+            "ratio": 0.0049
+          },
+          {
+            "type": "结拜",
+            "count": 25,
+            "ratio": 0.0035
+          },
+          {
+            "type": "母子",
+            "count": 23,
+            "ratio": 0.0032
+          },
+          {
+            "type": "其他敌对",
+            "count": 23,
+            "ratio": 0.0032
+          },
+          {
+            "type": "父子",
+            "count": 23,
+            "ratio": 0.0032
+          },
+          {
+            "type": "其他同盟",
+            "count": 22,
+            "ratio": 0.0031
+          },
+          {
+            "type": "恋人",
+            "count": 22,
+            "ratio": 0.0031
+          },
+          {
+            "type": "路人",
+            "count": 15,
+            "ratio": 0.0021
+          },
+          {
+            "type": "兄弟",
+            "count": 14,
+            "ratio": 0.0019
+          },
+          {
+            "type": "交易",
+            "count": 13,
+            "ratio": 0.0018
+          },
+          {
+            "type": "宿敌",
+            "count": 7,
+            "ratio": 0.001
+          },
+          {
+            "type": "师徒",
+            "count": 7,
+            "ratio": 0.001
+          },
+          {
+            "type": "婆媳",
+            "count": 5,
+            "ratio": 0.0007
+          },
+          {
+            "type": "其他情感",
+            "count": 5,
+            "ratio": 0.0007
+          },
+          {
+            "type": "情敌",
+            "count": 4,
+            "ratio": 0.0006
+          },
+          {
+            "type": "知己",
+            "count": 4,
+            "ratio": 0.0006
+          },
+          {
+            "type": "翁婿",
+            "count": 2,
+            "ratio": 0.0003
+          },
+          {
+            "type": "政治联姻",
+            "count": 1,
+            "ratio": 0.0001
+          },
+          {
+            "type": "姐妹",
+            "count": 1,
+            "ratio": 0.0001
+          }
+        ]
+      },
+      "semantic_relations": {
+        "total": 1469,
+        "macro_top5": [
+          {
+            "type": "从属",
+            "count": 598,
+            "ratio": 0.4071
+          },
+          {
+            "type": "同盟",
+            "count": 385,
+            "ratio": 0.2621
+          },
+          {
+            "type": "敌对",
+            "count": 256,
+            "ratio": 0.1743
+          },
+          {
+            "type": "亲属",
+            "count": 202,
+            "ratio": 0.1375
+          },
+          {
+            "type": "情感",
+            "count": 28,
+            "ratio": 0.0191
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "同僚",
+            "count": 216,
+            "ratio": 0.147
+          },
+          {
+            "type": "官民",
+            "count": 215,
+            "ratio": 0.1464
+          },
+          {
+            "type": "主仆",
+            "count": 166,
+            "ratio": 0.113
+          },
+          {
+            "type": "其他从属",
+            "count": 113,
+            "ratio": 0.0769
+          },
+          {
+            "type": "仇人",
+            "count": 94,
+            "ratio": 0.064
+          },
+          {
+            "type": "阵营对立",
+            "count": 93,
+            "ratio": 0.0633
+          },
+          {
+            "type": "其他亲属",
+            "count": 82,
+            "ratio": 0.0558
+          },
+          {
+            "type": "利益结盟",
+            "count": 70,
+            "ratio": 0.0477
+          },
+          {
+            "type": "君臣",
+            "count": 53,
+            "ratio": 0.0361
+          },
+          {
+            "type": "夫妻",
+            "count": 52,
+            "ratio": 0.0354
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "从属",
+            "count": 598,
+            "ratio": 0.4071
+          },
+          {
+            "type": "同盟",
+            "count": 385,
+            "ratio": 0.2621
+          },
+          {
+            "type": "敌对",
+            "count": 256,
+            "ratio": 0.1743
+          },
+          {
+            "type": "亲属",
+            "count": 202,
+            "ratio": 0.1375
+          },
+          {
+            "type": "情感",
+            "count": 28,
+            "ratio": 0.0191
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "同僚",
+            "count": 216,
+            "ratio": 0.147
+          },
+          {
+            "type": "官民",
+            "count": 215,
+            "ratio": 0.1464
+          },
+          {
+            "type": "主仆",
+            "count": 166,
+            "ratio": 0.113
+          },
+          {
+            "type": "其他从属",
+            "count": 113,
+            "ratio": 0.0769
+          },
+          {
+            "type": "仇人",
+            "count": 94,
+            "ratio": 0.064
+          },
+          {
+            "type": "阵营对立",
+            "count": 93,
+            "ratio": 0.0633
+          },
+          {
+            "type": "其他亲属",
+            "count": 82,
+            "ratio": 0.0558
+          },
+          {
+            "type": "利益结盟",
+            "count": 70,
+            "ratio": 0.0477
+          },
+          {
+            "type": "君臣",
+            "count": 53,
+            "ratio": 0.0361
+          },
+          {
+            "type": "夫妻",
+            "count": 52,
+            "ratio": 0.0354
+          },
+          {
+            "type": "恩人",
+            "count": 48,
+            "ratio": 0.0327
+          },
+          {
+            "type": "将卒",
+            "count": 44,
+            "ratio": 0.03
+          },
+          {
+            "type": "政敌",
+            "count": 35,
+            "ratio": 0.0238
+          },
+          {
+            "type": "结拜",
+            "count": 25,
+            "ratio": 0.017
+          },
+          {
+            "type": "母子",
+            "count": 23,
+            "ratio": 0.0157
+          },
+          {
+            "type": "其他敌对",
+            "count": 23,
+            "ratio": 0.0157
+          },
+          {
+            "type": "父子",
+            "count": 23,
+            "ratio": 0.0157
+          },
+          {
+            "type": "其他同盟",
+            "count": 22,
+            "ratio": 0.015
+          },
+          {
+            "type": "恋人",
+            "count": 22,
+            "ratio": 0.015
+          },
+          {
+            "type": "兄弟",
+            "count": 14,
+            "ratio": 0.0095
+          },
+          {
+            "type": "宿敌",
+            "count": 7,
+            "ratio": 0.0048
+          },
+          {
+            "type": "师徒",
+            "count": 7,
+            "ratio": 0.0048
+          },
+          {
+            "type": "婆媳",
+            "count": 5,
+            "ratio": 0.0034
+          },
+          {
+            "type": "其他情感",
+            "count": 5,
+            "ratio": 0.0034
+          },
+          {
+            "type": "情敌",
+            "count": 4,
+            "ratio": 0.0027
+          },
+          {
+            "type": "知己",
+            "count": 4,
+            "ratio": 0.0027
+          },
+          {
+            "type": "翁婿",
+            "count": 2,
+            "ratio": 0.0014
+          },
+          {
+            "type": "政治联姻",
+            "count": 1,
+            "ratio": 0.0007
+          },
+          {
+            "type": "姐妹",
+            "count": 1,
+            "ratio": 0.0007
+          }
+        ]
+      },
+      "enrichment_vs_global": {
+        "semantic_macro_pp_diff": {
+          "同盟": -0.0966,
+          "敌对": 0.008,
+          "从属": 0.0915,
+          "亲属": -0.0097,
+          "情感": 0.0069
+        },
+        "note": "正值为该类型中占比高于全局均值，负值为低于。用于识别该类剧的特征关系类型。"
+      },
+      "per_play_ratio_stats": {
+        "all_macro": {
+          "同盟": {
+            "mean": 0.1021,
+            "median": 0.0684,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1344,
+            "p25": 0.0008,
+            "p75": 0.1399,
+            "count": 100
+          },
+          "中立": {
+            "mean": 0.4955,
+            "median": 0.5443,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.3642,
+            "p25": 0.111,
+            "p75": 0.8296,
+            "count": 100
+          },
+          "亲属": {
+            "mean": 0.0688,
+            "median": 0.027,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1349,
+            "p25": 0.0,
+            "p75": 0.0747,
+            "count": 100
+          },
+          "情感": {
+            "mean": 0.0088,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.1,
+            "std": 0.0206,
+            "p25": 0.0,
+            "p75": 0.0005,
+            "count": 100
+          },
+          "从属": {
+            "mean": 0.229,
+            "median": 0.1292,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2429,
+            "p25": 0.0344,
+            "p75": 0.4091,
+            "count": 100
+          },
+          "敌对": {
+            "mean": 0.0959,
+            "median": 0.0322,
+            "min": 0.0,
+            "max": 0.6667,
+            "std": 0.1453,
+            "p25": 0.0,
+            "p75": 0.1084,
+            "count": 100
+          }
+        },
+        "sem_macro": {
+          "同盟": {
+            "mean": 0.2029,
+            "median": 0.1667,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1929,
+            "p25": 0.0469,
+            "p75": 0.3019,
+            "count": 100
+          },
+          "亲属": {
+            "mean": 0.1331,
+            "median": 0.0817,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1658,
+            "p25": 0.0,
+            "p75": 0.2017,
+            "count": 100
+          },
+          "情感": {
+            "mean": 0.0208,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.25,
+            "std": 0.0431,
+            "p25": 0.0,
+            "p75": 0.0089,
+            "count": 100
+          },
+          "从属": {
+            "mean": 0.3773,
+            "median": 0.375,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2547,
+            "p25": 0.2,
+            "p75": 0.5714,
+            "count": 100
+          },
+          "敌对": {
+            "mean": 0.1658,
+            "median": 0.1392,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1764,
+            "p25": 0.0,
+            "p75": 0.2523,
+            "count": 100
+          }
+        }
+      }
+    },
+    "历史戏": {
+      "play_count": 776,
+      "total_edges": 43254,
+      "semantic_edges": 13811,
+      "semantic_enrichment": 0.3193,
+      "all_relations": {
+        "total": 43254,
+        "macro_top5": [
+          {
+            "type": "中立",
+            "count": 29443,
+            "ratio": 0.6807
+          },
+          {
+            "type": "同盟",
+            "count": 5356,
+            "ratio": 0.1238
+          },
+          {
+            "type": "从属",
+            "count": 4434,
+            "ratio": 0.1025
+          },
+          {
+            "type": "敌对",
+            "count": 2389,
+            "ratio": 0.0552
+          },
+          {
+            "type": "亲属",
+            "count": 1564,
+            "ratio": 0.0362
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "同场",
+            "count": 28622,
+            "ratio": 0.6617
+          },
+          {
+            "type": "同僚",
+            "count": 3898,
+            "ratio": 0.0901
+          },
+          {
+            "type": "将卒",
+            "count": 1731,
+            "ratio": 0.04
+          },
+          {
+            "type": "阵营对立",
+            "count": 1696,
+            "ratio": 0.0392
+          },
+          {
+            "type": "君臣",
+            "count": 1588,
+            "ratio": 0.0367
+          },
+          {
+            "type": "主仆",
+            "count": 695,
+            "ratio": 0.0161
+          },
+          {
+            "type": "结拜",
+            "count": 608,
+            "ratio": 0.0141
+          },
+          {
+            "type": "其他中立",
+            "count": 508,
+            "ratio": 0.0117
+          },
+          {
+            "type": "政敌",
+            "count": 447,
+            "ratio": 0.0103
+          },
+          {
+            "type": "其他亲属",
+            "count": 442,
+            "ratio": 0.0102
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "中立",
+            "count": 29443,
+            "ratio": 0.6807
+          },
+          {
+            "type": "同盟",
+            "count": 5356,
+            "ratio": 0.1238
+          },
+          {
+            "type": "从属",
+            "count": 4434,
+            "ratio": 0.1025
+          },
+          {
+            "type": "敌对",
+            "count": 2389,
+            "ratio": 0.0552
+          },
+          {
+            "type": "亲属",
+            "count": 1564,
+            "ratio": 0.0362
+          },
+          {
+            "type": "情感",
+            "count": 68,
+            "ratio": 0.0016
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "同场",
+            "count": 28622,
+            "ratio": 0.6617
+          },
+          {
+            "type": "同僚",
+            "count": 3898,
+            "ratio": 0.0901
+          },
+          {
+            "type": "将卒",
+            "count": 1731,
+            "ratio": 0.04
+          },
+          {
+            "type": "阵营对立",
+            "count": 1696,
+            "ratio": 0.0392
+          },
+          {
+            "type": "君臣",
+            "count": 1588,
+            "ratio": 0.0367
+          },
+          {
+            "type": "主仆",
+            "count": 695,
+            "ratio": 0.0161
+          },
+          {
+            "type": "结拜",
+            "count": 608,
+            "ratio": 0.0141
+          },
+          {
+            "type": "其他中立",
+            "count": 508,
+            "ratio": 0.0117
+          },
+          {
+            "type": "政敌",
+            "count": 447,
+            "ratio": 0.0103
+          },
+          {
+            "type": "其他亲属",
+            "count": 442,
+            "ratio": 0.0102
+          },
+          {
+            "type": "父子",
+            "count": 349,
+            "ratio": 0.0081
+          },
+          {
+            "type": "利益结盟",
+            "count": 301,
+            "ratio": 0.007
+          },
+          {
+            "type": "兄弟",
+            "count": 288,
+            "ratio": 0.0067
+          },
+          {
+            "type": "其他从属",
+            "count": 272,
+            "ratio": 0.0063
+          },
+          {
+            "type": "其他同盟",
+            "count": 271,
+            "ratio": 0.0063
+          },
+          {
+            "type": "夫妻",
+            "count": 268,
+            "ratio": 0.0062
+          },
+          {
+            "type": "萍水相逢",
+            "count": 231,
+            "ratio": 0.0053
+          },
+          {
+            "type": "仇人",
+            "count": 163,
+            "ratio": 0.0038
+          },
+          {
+            "type": "母子",
+            "count": 150,
+            "ratio": 0.0035
+          },
+          {
+            "type": "恩人",
+            "count": 149,
+            "ratio": 0.0034
+          },
+          {
+            "type": "知己",
+            "count": 129,
+            "ratio": 0.003
+          },
+          {
+            "type": "官民",
+            "count": 102,
+            "ratio": 0.0024
+          },
+          {
+            "type": "交易",
+            "count": 48,
+            "ratio": 0.0011
+          },
+          {
+            "type": "其他敌对",
+            "count": 47,
+            "ratio": 0.0011
+          },
+          {
+            "type": "师徒",
+            "count": 46,
+            "ratio": 0.0011
+          },
+          {
+            "type": "恋人",
+            "count": 36,
+            "ratio": 0.0008
+          },
+          {
+            "type": "婆媳",
+            "count": 35,
+            "ratio": 0.0008
+          },
+          {
+            "type": "路人",
+            "count": 34,
+            "ratio": 0.0008
+          },
+          {
+            "type": "宿敌",
+            "count": 32,
+            "ratio": 0.0007
+          },
+          {
+            "type": "政治联姻",
+            "count": 21,
+            "ratio": 0.0005
+          },
+          {
+            "type": "翁婿",
+            "count": 20,
+            "ratio": 0.0005
+          },
+          {
+            "type": "姐妹",
+            "count": 12,
+            "ratio": 0.0003
+          },
+          {
+            "type": "其他情感",
+            "count": 10,
+            "ratio": 0.0002
+          },
+          {
+            "type": "情敌",
+            "count": 4,
+            "ratio": 0.0001
+          },
+          {
+            "type": "暗恋",
+            "count": 1,
+            "ratio": 0.0
+          }
+        ]
+      },
+      "semantic_relations": {
+        "total": 13811,
+        "macro_top5": [
+          {
+            "type": "同盟",
+            "count": 5356,
+            "ratio": 0.3878
+          },
+          {
+            "type": "从属",
+            "count": 4434,
+            "ratio": 0.321
+          },
+          {
+            "type": "敌对",
+            "count": 2389,
+            "ratio": 0.173
+          },
+          {
+            "type": "亲属",
+            "count": 1564,
+            "ratio": 0.1132
+          },
+          {
+            "type": "情感",
+            "count": 68,
+            "ratio": 0.0049
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "同僚",
+            "count": 3898,
+            "ratio": 0.2822
+          },
+          {
+            "type": "将卒",
+            "count": 1731,
+            "ratio": 0.1253
+          },
+          {
+            "type": "阵营对立",
+            "count": 1696,
+            "ratio": 0.1228
+          },
+          {
+            "type": "君臣",
+            "count": 1588,
+            "ratio": 0.115
+          },
+          {
+            "type": "主仆",
+            "count": 695,
+            "ratio": 0.0503
+          },
+          {
+            "type": "结拜",
+            "count": 608,
+            "ratio": 0.044
+          },
+          {
+            "type": "政敌",
+            "count": 447,
+            "ratio": 0.0324
+          },
+          {
+            "type": "其他亲属",
+            "count": 442,
+            "ratio": 0.032
+          },
+          {
+            "type": "父子",
+            "count": 349,
+            "ratio": 0.0253
+          },
+          {
+            "type": "利益结盟",
+            "count": 301,
+            "ratio": 0.0218
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "同盟",
+            "count": 5356,
+            "ratio": 0.3878
+          },
+          {
+            "type": "从属",
+            "count": 4434,
+            "ratio": 0.321
+          },
+          {
+            "type": "敌对",
+            "count": 2389,
+            "ratio": 0.173
+          },
+          {
+            "type": "亲属",
+            "count": 1564,
+            "ratio": 0.1132
+          },
+          {
+            "type": "情感",
+            "count": 68,
+            "ratio": 0.0049
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "同僚",
+            "count": 3898,
+            "ratio": 0.2822
+          },
+          {
+            "type": "将卒",
+            "count": 1731,
+            "ratio": 0.1253
+          },
+          {
+            "type": "阵营对立",
+            "count": 1696,
+            "ratio": 0.1228
+          },
+          {
+            "type": "君臣",
+            "count": 1588,
+            "ratio": 0.115
+          },
+          {
+            "type": "主仆",
+            "count": 695,
+            "ratio": 0.0503
+          },
+          {
+            "type": "结拜",
+            "count": 608,
+            "ratio": 0.044
+          },
+          {
+            "type": "政敌",
+            "count": 447,
+            "ratio": 0.0324
+          },
+          {
+            "type": "其他亲属",
+            "count": 442,
+            "ratio": 0.032
+          },
+          {
+            "type": "父子",
+            "count": 349,
+            "ratio": 0.0253
+          },
+          {
+            "type": "利益结盟",
+            "count": 301,
+            "ratio": 0.0218
+          },
+          {
+            "type": "兄弟",
+            "count": 288,
+            "ratio": 0.0209
+          },
+          {
+            "type": "其他从属",
+            "count": 272,
+            "ratio": 0.0197
+          },
+          {
+            "type": "其他同盟",
+            "count": 271,
+            "ratio": 0.0196
+          },
+          {
+            "type": "夫妻",
+            "count": 268,
+            "ratio": 0.0194
+          },
+          {
+            "type": "仇人",
+            "count": 163,
+            "ratio": 0.0118
+          },
+          {
+            "type": "母子",
+            "count": 150,
+            "ratio": 0.0109
+          },
+          {
+            "type": "恩人",
+            "count": 149,
+            "ratio": 0.0108
+          },
+          {
+            "type": "知己",
+            "count": 129,
+            "ratio": 0.0093
+          },
+          {
+            "type": "官民",
+            "count": 102,
+            "ratio": 0.0074
+          },
+          {
+            "type": "其他敌对",
+            "count": 47,
+            "ratio": 0.0034
+          },
+          {
+            "type": "师徒",
+            "count": 46,
+            "ratio": 0.0033
+          },
+          {
+            "type": "恋人",
+            "count": 36,
+            "ratio": 0.0026
+          },
+          {
+            "type": "婆媳",
+            "count": 35,
+            "ratio": 0.0025
+          },
+          {
+            "type": "宿敌",
+            "count": 32,
+            "ratio": 0.0023
+          },
+          {
+            "type": "政治联姻",
+            "count": 21,
+            "ratio": 0.0015
+          },
+          {
+            "type": "翁婿",
+            "count": 20,
+            "ratio": 0.0014
+          },
+          {
+            "type": "姐妹",
+            "count": 12,
+            "ratio": 0.0009
+          },
+          {
+            "type": "其他情感",
+            "count": 10,
+            "ratio": 0.0007
+          },
+          {
+            "type": "情敌",
+            "count": 4,
+            "ratio": 0.0003
+          },
+          {
+            "type": "暗恋",
+            "count": 1,
+            "ratio": 0.0001
+          }
+        ]
+      },
+      "enrichment_vs_global": {
+        "semantic_macro_pp_diff": {
+          "从属": 0.0055,
+          "敌对": 0.0067,
+          "亲属": -0.034,
+          "同盟": 0.0291,
+          "情感": -0.0073
+        },
+        "note": "正值为该类型中占比高于全局均值，负值为低于。用于识别该类剧的特征关系类型。"
+      },
+      "per_play_ratio_stats": {
+        "all_macro": {
+          "同盟": {
+            "mean": 0.1845,
+            "median": 0.1429,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1772,
+            "p25": 0.0443,
+            "p75": 0.2882,
+            "count": 776
+          },
+          "中立": {
+            "mean": 0.4096,
+            "median": 0.3798,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.347,
+            "p25": 0.0,
+            "p75": 0.7275,
+            "count": 776
+          },
+          "亲属": {
+            "mean": 0.0742,
+            "median": 0.0175,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1359,
+            "p25": 0.0,
+            "p75": 0.0851,
+            "count": 776
+          },
+          "情感": {
+            "mean": 0.0038,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.5,
+            "std": 0.0253,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 776
+          },
+          "从属": {
+            "mean": 0.2009,
+            "median": 0.1667,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1787,
+            "p25": 0.0526,
+            "p75": 0.3182,
+            "count": 776
+          },
+          "敌对": {
+            "mean": 0.127,
+            "median": 0.0526,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1674,
+            "p25": 0.0,
+            "p75": 0.2,
+            "count": 776
+          }
+        },
+        "sem_macro": {
+          "同盟": {
+            "mean": 0.3159,
+            "median": 0.3103,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2377,
+            "p25": 0.1111,
+            "p75": 0.4804,
+            "count": 776
+          },
+          "亲属": {
+            "mean": 0.1147,
+            "median": 0.0476,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1695,
+            "p25": 0.0,
+            "p75": 0.1538,
+            "count": 776
+          },
+          "情感": {
+            "mean": 0.0066,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.0427,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 776
+          },
+          "从属": {
+            "mean": 0.3138,
+            "median": 0.3,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2086,
+            "p25": 0.1805,
+            "p75": 0.4375,
+            "count": 776
+          },
+          "敌对": {
+            "mean": 0.1782,
+            "median": 0.1348,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1829,
+            "p25": 0.0,
+            "p75": 0.2857,
+            "count": 776
+          }
+        }
+      }
+    },
+    "家庭戏": {
+      "play_count": 223,
+      "total_edges": 5938,
+      "semantic_edges": 2037,
+      "semantic_enrichment": 0.343,
+      "all_relations": {
+        "total": 5938,
+        "macro_top5": [
+          {
+            "type": "中立",
+            "count": 3901,
+            "ratio": 0.657
+          },
+          {
+            "type": "亲属",
+            "count": 802,
+            "ratio": 0.1351
+          },
+          {
+            "type": "从属",
+            "count": 617,
+            "ratio": 0.1039
+          },
+          {
+            "type": "同盟",
+            "count": 390,
+            "ratio": 0.0657
+          },
+          {
+            "type": "敌对",
+            "count": 191,
+            "ratio": 0.0322
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "同场",
+            "count": 3565,
+            "ratio": 0.6004
+          },
+          {
+            "type": "主仆",
+            "count": 336,
+            "ratio": 0.0566
+          },
+          {
+            "type": "其他亲属",
+            "count": 321,
+            "ratio": 0.0541
+          },
+          {
+            "type": "其他中立",
+            "count": 235,
+            "ratio": 0.0396
+          },
+          {
+            "type": "同僚",
+            "count": 194,
+            "ratio": 0.0327
+          },
+          {
+            "type": "夫妻",
+            "count": 186,
+            "ratio": 0.0313
+          },
+          {
+            "type": "母子",
+            "count": 104,
+            "ratio": 0.0175
+          },
+          {
+            "type": "父子",
+            "count": 87,
+            "ratio": 0.0147
+          },
+          {
+            "type": "其他从属",
+            "count": 82,
+            "ratio": 0.0138
+          },
+          {
+            "type": "将卒",
+            "count": 77,
+            "ratio": 0.013
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "中立",
+            "count": 3901,
+            "ratio": 0.657
+          },
+          {
+            "type": "亲属",
+            "count": 802,
+            "ratio": 0.1351
+          },
+          {
+            "type": "从属",
+            "count": 617,
+            "ratio": 0.1039
+          },
+          {
+            "type": "同盟",
+            "count": 390,
+            "ratio": 0.0657
+          },
+          {
+            "type": "敌对",
+            "count": 191,
+            "ratio": 0.0322
+          },
+          {
+            "type": "情感",
+            "count": 37,
+            "ratio": 0.0062
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "同场",
+            "count": 3565,
+            "ratio": 0.6004
+          },
+          {
+            "type": "主仆",
+            "count": 336,
+            "ratio": 0.0566
+          },
+          {
+            "type": "其他亲属",
+            "count": 321,
+            "ratio": 0.0541
+          },
+          {
+            "type": "其他中立",
+            "count": 235,
+            "ratio": 0.0396
+          },
+          {
+            "type": "同僚",
+            "count": 194,
+            "ratio": 0.0327
+          },
+          {
+            "type": "夫妻",
+            "count": 186,
+            "ratio": 0.0313
+          },
+          {
+            "type": "母子",
+            "count": 104,
+            "ratio": 0.0175
+          },
+          {
+            "type": "父子",
+            "count": 87,
+            "ratio": 0.0147
+          },
+          {
+            "type": "其他从属",
+            "count": 82,
+            "ratio": 0.0138
+          },
+          {
+            "type": "将卒",
+            "count": 77,
+            "ratio": 0.013
+          },
+          {
+            "type": "恩人",
+            "count": 75,
+            "ratio": 0.0126
+          },
+          {
+            "type": "阵营对立",
+            "count": 68,
+            "ratio": 0.0115
+          },
+          {
+            "type": "仇人",
+            "count": 65,
+            "ratio": 0.0109
+          },
+          {
+            "type": "君臣",
+            "count": 57,
+            "ratio": 0.0096
+          },
+          {
+            "type": "萍水相逢",
+            "count": 57,
+            "ratio": 0.0096
+          },
+          {
+            "type": "官民",
+            "count": 57,
+            "ratio": 0.0096
+          },
+          {
+            "type": "其他同盟",
+            "count": 52,
+            "ratio": 0.0088
+          },
+          {
+            "type": "婆媳",
+            "count": 37,
+            "ratio": 0.0062
+          },
+          {
+            "type": "兄弟",
+            "count": 33,
+            "ratio": 0.0056
+          },
+          {
+            "type": "结拜",
+            "count": 29,
+            "ratio": 0.0049
+          },
+          {
+            "type": "情敌",
+            "count": 26,
+            "ratio": 0.0044
+          },
+          {
+            "type": "交易",
+            "count": 26,
+            "ratio": 0.0044
+          },
+          {
+            "type": "翁婿",
+            "count": 25,
+            "ratio": 0.0042
+          },
+          {
+            "type": "利益结盟",
+            "count": 21,
+            "ratio": 0.0035
+          },
+          {
+            "type": "其他情感",
+            "count": 20,
+            "ratio": 0.0034
+          },
+          {
+            "type": "其他敌对",
+            "count": 19,
+            "ratio": 0.0032
+          },
+          {
+            "type": "知己",
+            "count": 19,
+            "ratio": 0.0032
+          },
+          {
+            "type": "路人",
+            "count": 18,
+            "ratio": 0.003
+          },
+          {
+            "type": "恋人",
+            "count": 14,
+            "ratio": 0.0024
+          },
+          {
+            "type": "政敌",
+            "count": 13,
+            "ratio": 0.0022
+          },
+          {
+            "type": "姐妹",
+            "count": 9,
+            "ratio": 0.0015
+          },
+          {
+            "type": "师徒",
+            "count": 8,
+            "ratio": 0.0013
+          },
+          {
+            "type": "政治联姻",
+            "count": 3,
+            "ratio": 0.0005
+          }
+        ]
+      },
+      "semantic_relations": {
+        "total": 2037,
+        "macro_top5": [
+          {
+            "type": "亲属",
+            "count": 802,
+            "ratio": 0.3937
+          },
+          {
+            "type": "从属",
+            "count": 617,
+            "ratio": 0.3029
+          },
+          {
+            "type": "同盟",
+            "count": 390,
+            "ratio": 0.1915
+          },
+          {
+            "type": "敌对",
+            "count": 191,
+            "ratio": 0.0938
+          },
+          {
+            "type": "情感",
+            "count": 37,
+            "ratio": 0.0182
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "主仆",
+            "count": 336,
+            "ratio": 0.1649
+          },
+          {
+            "type": "其他亲属",
+            "count": 321,
+            "ratio": 0.1576
+          },
+          {
+            "type": "同僚",
+            "count": 194,
+            "ratio": 0.0952
+          },
+          {
+            "type": "夫妻",
+            "count": 186,
+            "ratio": 0.0913
+          },
+          {
+            "type": "母子",
+            "count": 104,
+            "ratio": 0.0511
+          },
+          {
+            "type": "父子",
+            "count": 87,
+            "ratio": 0.0427
+          },
+          {
+            "type": "其他从属",
+            "count": 82,
+            "ratio": 0.0403
+          },
+          {
+            "type": "将卒",
+            "count": 77,
+            "ratio": 0.0378
+          },
+          {
+            "type": "恩人",
+            "count": 75,
+            "ratio": 0.0368
+          },
+          {
+            "type": "阵营对立",
+            "count": 68,
+            "ratio": 0.0334
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "亲属",
+            "count": 802,
+            "ratio": 0.3937
+          },
+          {
+            "type": "从属",
+            "count": 617,
+            "ratio": 0.3029
+          },
+          {
+            "type": "同盟",
+            "count": 390,
+            "ratio": 0.1915
+          },
+          {
+            "type": "敌对",
+            "count": 191,
+            "ratio": 0.0938
+          },
+          {
+            "type": "情感",
+            "count": 37,
+            "ratio": 0.0182
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "主仆",
+            "count": 336,
+            "ratio": 0.1649
+          },
+          {
+            "type": "其他亲属",
+            "count": 321,
+            "ratio": 0.1576
+          },
+          {
+            "type": "同僚",
+            "count": 194,
+            "ratio": 0.0952
+          },
+          {
+            "type": "夫妻",
+            "count": 186,
+            "ratio": 0.0913
+          },
+          {
+            "type": "母子",
+            "count": 104,
+            "ratio": 0.0511
+          },
+          {
+            "type": "父子",
+            "count": 87,
+            "ratio": 0.0427
+          },
+          {
+            "type": "其他从属",
+            "count": 82,
+            "ratio": 0.0403
+          },
+          {
+            "type": "将卒",
+            "count": 77,
+            "ratio": 0.0378
+          },
+          {
+            "type": "恩人",
+            "count": 75,
+            "ratio": 0.0368
+          },
+          {
+            "type": "阵营对立",
+            "count": 68,
+            "ratio": 0.0334
+          },
+          {
+            "type": "仇人",
+            "count": 65,
+            "ratio": 0.0319
+          },
+          {
+            "type": "君臣",
+            "count": 57,
+            "ratio": 0.028
+          },
+          {
+            "type": "官民",
+            "count": 57,
+            "ratio": 0.028
+          },
+          {
+            "type": "其他同盟",
+            "count": 52,
+            "ratio": 0.0255
+          },
+          {
+            "type": "婆媳",
+            "count": 37,
+            "ratio": 0.0182
+          },
+          {
+            "type": "兄弟",
+            "count": 33,
+            "ratio": 0.0162
+          },
+          {
+            "type": "结拜",
+            "count": 29,
+            "ratio": 0.0142
+          },
+          {
+            "type": "情敌",
+            "count": 26,
+            "ratio": 0.0128
+          },
+          {
+            "type": "翁婿",
+            "count": 25,
+            "ratio": 0.0123
+          },
+          {
+            "type": "利益结盟",
+            "count": 21,
+            "ratio": 0.0103
+          },
+          {
+            "type": "其他情感",
+            "count": 20,
+            "ratio": 0.0098
+          },
+          {
+            "type": "其他敌对",
+            "count": 19,
+            "ratio": 0.0093
+          },
+          {
+            "type": "知己",
+            "count": 19,
+            "ratio": 0.0093
+          },
+          {
+            "type": "恋人",
+            "count": 14,
+            "ratio": 0.0069
+          },
+          {
+            "type": "政敌",
+            "count": 13,
+            "ratio": 0.0064
+          },
+          {
+            "type": "姐妹",
+            "count": 9,
+            "ratio": 0.0044
+          },
+          {
+            "type": "师徒",
+            "count": 8,
+            "ratio": 0.0039
+          },
+          {
+            "type": "政治联姻",
+            "count": 3,
+            "ratio": 0.0015
+          }
+        ]
+      },
+      "enrichment_vs_global": {
+        "semantic_macro_pp_diff": {
+          "从属": -0.0127,
+          "亲属": 0.2465,
+          "敌对": -0.0725,
+          "同盟": -0.1673,
+          "情感": 0.006
+        },
+        "note": "正值为该类型中占比高于全局均值，负值为低于。用于识别该类剧的特征关系类型。"
+      },
+      "per_play_ratio_stats": {
+        "all_macro": {
+          "同盟": {
+            "mean": 0.0855,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1607,
+            "p25": 0.0,
+            "p75": 0.1062,
+            "count": 223
+          },
+          "中立": {
+            "mean": 0.37,
+            "median": 0.2857,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.3658,
+            "p25": 0.0,
+            "p75": 0.6937,
+            "count": 223
+          },
+          "亲属": {
+            "mean": 0.3176,
+            "median": 0.1667,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.3502,
+            "p25": 0.0455,
+            "p75": 0.4384,
+            "count": 223
+          },
+          "情感": {
+            "mean": 0.0117,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.3333,
+            "std": 0.0493,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 223
+          },
+          "从属": {
+            "mean": 0.1601,
+            "median": 0.0706,
+            "min": 0.0,
+            "max": 0.7,
+            "std": 0.2066,
+            "p25": 0.0,
+            "p75": 0.2697,
+            "count": 223
+          },
+          "敌对": {
+            "mean": 0.0462,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.9,
+            "std": 0.1163,
+            "p25": 0.0,
+            "p75": 0.0193,
+            "count": 223
+          }
+        },
+        "sem_macro": {
+          "同盟": {
+            "mean": 0.1377,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.213,
+            "p25": 0.0,
+            "p75": 0.25,
+            "count": 223
+          },
+          "亲属": {
+            "mean": 0.4084,
+            "median": 0.3333,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.3475,
+            "p25": 0.1026,
+            "p75": 0.6,
+            "count": 223
+          },
+          "情感": {
+            "mean": 0.0183,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.5,
+            "std": 0.065,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 223
+          },
+          "从属": {
+            "mean": 0.2437,
+            "median": 0.2,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.256,
+            "p25": 0.0,
+            "p75": 0.4286,
+            "count": 223
+          },
+          "敌对": {
+            "mean": 0.0664,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.9,
+            "std": 0.1359,
+            "p25": 0.0,
+            "p75": 0.0541,
+            "count": 223
+          }
+        }
+      }
+    },
+    "技法展示戏": {
+      "play_count": 17,
+      "total_edges": 153,
+      "semantic_edges": 71,
+      "semantic_enrichment": 0.4641,
+      "all_relations": {
+        "total": 153,
+        "macro_top5": [
+          {
+            "type": "中立",
+            "count": 82,
+            "ratio": 0.5359
+          },
+          {
+            "type": "亲属",
+            "count": 24,
+            "ratio": 0.1569
+          },
+          {
+            "type": "从属",
+            "count": 19,
+            "ratio": 0.1242
+          },
+          {
+            "type": "同盟",
+            "count": 18,
+            "ratio": 0.1176
+          },
+          {
+            "type": "敌对",
+            "count": 9,
+            "ratio": 0.0588
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "同场",
+            "count": 61,
+            "ratio": 0.3987
+          },
+          {
+            "type": "其他亲属",
+            "count": 12,
+            "ratio": 0.0784
+          },
+          {
+            "type": "同僚",
+            "count": 11,
+            "ratio": 0.0719
+          },
+          {
+            "type": "路人",
+            "count": 8,
+            "ratio": 0.0523
+          },
+          {
+            "type": "阵营对立",
+            "count": 8,
+            "ratio": 0.0523
+          },
+          {
+            "type": "将卒",
+            "count": 7,
+            "ratio": 0.0458
+          },
+          {
+            "type": "夫妻",
+            "count": 6,
+            "ratio": 0.0392
+          },
+          {
+            "type": "官民",
+            "count": 5,
+            "ratio": 0.0327
+          },
+          {
+            "type": "其他中立",
+            "count": 5,
+            "ratio": 0.0327
+          },
+          {
+            "type": "萍水相逢",
+            "count": 5,
+            "ratio": 0.0327
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "中立",
+            "count": 82,
+            "ratio": 0.5359
+          },
+          {
+            "type": "亲属",
+            "count": 24,
+            "ratio": 0.1569
+          },
+          {
+            "type": "从属",
+            "count": 19,
+            "ratio": 0.1242
+          },
+          {
+            "type": "同盟",
+            "count": 18,
+            "ratio": 0.1176
+          },
+          {
+            "type": "敌对",
+            "count": 9,
+            "ratio": 0.0588
+          },
+          {
+            "type": "情感",
+            "count": 1,
+            "ratio": 0.0065
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "同场",
+            "count": 61,
+            "ratio": 0.3987
+          },
+          {
+            "type": "其他亲属",
+            "count": 12,
+            "ratio": 0.0784
+          },
+          {
+            "type": "同僚",
+            "count": 11,
+            "ratio": 0.0719
+          },
+          {
+            "type": "路人",
+            "count": 8,
+            "ratio": 0.0523
+          },
+          {
+            "type": "阵营对立",
+            "count": 8,
+            "ratio": 0.0523
+          },
+          {
+            "type": "将卒",
+            "count": 7,
+            "ratio": 0.0458
+          },
+          {
+            "type": "夫妻",
+            "count": 6,
+            "ratio": 0.0392
+          },
+          {
+            "type": "官民",
+            "count": 5,
+            "ratio": 0.0327
+          },
+          {
+            "type": "其他中立",
+            "count": 5,
+            "ratio": 0.0327
+          },
+          {
+            "type": "萍水相逢",
+            "count": 5,
+            "ratio": 0.0327
+          },
+          {
+            "type": "主仆",
+            "count": 4,
+            "ratio": 0.0261
+          },
+          {
+            "type": "其他同盟",
+            "count": 4,
+            "ratio": 0.0261
+          },
+          {
+            "type": "交易",
+            "count": 3,
+            "ratio": 0.0196
+          },
+          {
+            "type": "利益结盟",
+            "count": 3,
+            "ratio": 0.0196
+          },
+          {
+            "type": "母子",
+            "count": 2,
+            "ratio": 0.0131
+          },
+          {
+            "type": "父子",
+            "count": 2,
+            "ratio": 0.0131
+          },
+          {
+            "type": "君臣",
+            "count": 2,
+            "ratio": 0.0131
+          },
+          {
+            "type": "翁婿",
+            "count": 1,
+            "ratio": 0.0065
+          },
+          {
+            "type": "其他从属",
+            "count": 1,
+            "ratio": 0.0065
+          },
+          {
+            "type": "婆媳",
+            "count": 1,
+            "ratio": 0.0065
+          },
+          {
+            "type": "暗恋",
+            "count": 1,
+            "ratio": 0.0065
+          },
+          {
+            "type": "其他敌对",
+            "count": 1,
+            "ratio": 0.0065
+          }
+        ]
+      },
+      "semantic_relations": {
+        "total": 71,
+        "macro_top5": [
+          {
+            "type": "亲属",
+            "count": 24,
+            "ratio": 0.338
+          },
+          {
+            "type": "从属",
+            "count": 19,
+            "ratio": 0.2676
+          },
+          {
+            "type": "同盟",
+            "count": 18,
+            "ratio": 0.2535
+          },
+          {
+            "type": "敌对",
+            "count": 9,
+            "ratio": 0.1268
+          },
+          {
+            "type": "情感",
+            "count": 1,
+            "ratio": 0.0141
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "其他亲属",
+            "count": 12,
+            "ratio": 0.169
+          },
+          {
+            "type": "同僚",
+            "count": 11,
+            "ratio": 0.1549
+          },
+          {
+            "type": "阵营对立",
+            "count": 8,
+            "ratio": 0.1127
+          },
+          {
+            "type": "将卒",
+            "count": 7,
+            "ratio": 0.0986
+          },
+          {
+            "type": "夫妻",
+            "count": 6,
+            "ratio": 0.0845
+          },
+          {
+            "type": "官民",
+            "count": 5,
+            "ratio": 0.0704
+          },
+          {
+            "type": "主仆",
+            "count": 4,
+            "ratio": 0.0563
+          },
+          {
+            "type": "其他同盟",
+            "count": 4,
+            "ratio": 0.0563
+          },
+          {
+            "type": "利益结盟",
+            "count": 3,
+            "ratio": 0.0423
+          },
+          {
+            "type": "母子",
+            "count": 2,
+            "ratio": 0.0282
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "亲属",
+            "count": 24,
+            "ratio": 0.338
+          },
+          {
+            "type": "从属",
+            "count": 19,
+            "ratio": 0.2676
+          },
+          {
+            "type": "同盟",
+            "count": 18,
+            "ratio": 0.2535
+          },
+          {
+            "type": "敌对",
+            "count": 9,
+            "ratio": 0.1268
+          },
+          {
+            "type": "情感",
+            "count": 1,
+            "ratio": 0.0141
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "其他亲属",
+            "count": 12,
+            "ratio": 0.169
+          },
+          {
+            "type": "同僚",
+            "count": 11,
+            "ratio": 0.1549
+          },
+          {
+            "type": "阵营对立",
+            "count": 8,
+            "ratio": 0.1127
+          },
+          {
+            "type": "将卒",
+            "count": 7,
+            "ratio": 0.0986
+          },
+          {
+            "type": "夫妻",
+            "count": 6,
+            "ratio": 0.0845
+          },
+          {
+            "type": "官民",
+            "count": 5,
+            "ratio": 0.0704
+          },
+          {
+            "type": "主仆",
+            "count": 4,
+            "ratio": 0.0563
+          },
+          {
+            "type": "其他同盟",
+            "count": 4,
+            "ratio": 0.0563
+          },
+          {
+            "type": "利益结盟",
+            "count": 3,
+            "ratio": 0.0423
+          },
+          {
+            "type": "母子",
+            "count": 2,
+            "ratio": 0.0282
+          },
+          {
+            "type": "父子",
+            "count": 2,
+            "ratio": 0.0282
+          },
+          {
+            "type": "君臣",
+            "count": 2,
+            "ratio": 0.0282
+          },
+          {
+            "type": "翁婿",
+            "count": 1,
+            "ratio": 0.0141
+          },
+          {
+            "type": "其他从属",
+            "count": 1,
+            "ratio": 0.0141
+          },
+          {
+            "type": "婆媳",
+            "count": 1,
+            "ratio": 0.0141
+          },
+          {
+            "type": "暗恋",
+            "count": 1,
+            "ratio": 0.0141
+          },
+          {
+            "type": "其他敌对",
+            "count": 1,
+            "ratio": 0.0141
+          }
+        ]
+      },
+      "enrichment_vs_global": {
+        "semantic_macro_pp_diff": {
+          "亲属": 0.1908,
+          "从属": -0.048,
+          "同盟": -0.1052,
+          "情感": 0.0019,
+          "敌对": -0.0395
+        },
+        "note": "正值为该类型中占比高于全局均值，负值为低于。用于识别该类剧的特征关系类型。"
+      },
+      "per_play_ratio_stats": {
+        "all_macro": {
+          "同盟": {
+            "mean": 0.1207,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2518,
+            "p25": 0.0,
+            "p75": 0.1184,
+            "count": 17
+          },
+          "中立": {
+            "mean": 0.2553,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.3471,
+            "p25": 0.0,
+            "p75": 0.3704,
+            "count": 17
+          },
+          "亲属": {
+            "mean": 0.3538,
+            "median": 0.3333,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.3902,
+            "p25": 0.0,
+            "p75": 0.4815,
+            "count": 17
+          },
+          "情感": {
+            "mean": 0.0196,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.3333,
+            "std": 0.0784,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 17
+          },
+          "从属": {
+            "mean": 0.149,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2934,
+            "p25": 0.0,
+            "p75": 0.1184,
+            "count": 17
+          },
+          "敌对": {
+            "mean": 0.0427,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.6,
+            "std": 0.1414,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 17
+          }
+        },
+        "sem_macro": {
+          "同盟": {
+            "mean": 0.15,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2733,
+            "p25": 0.0,
+            "p75": 0.2,
+            "count": 17
+          },
+          "亲属": {
+            "mean": 0.4293,
+            "median": 0.3333,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.4272,
+            "p25": 0.0,
+            "p75": 1.0,
+            "count": 17
+          },
+          "情感": {
+            "mean": 0.0294,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.5,
+            "std": 0.1176,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 17
+          },
+          "从属": {
+            "mean": 0.1736,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.3019,
+            "p25": 0.0,
+            "p75": 0.2353,
+            "count": 17
+          },
+          "敌对": {
+            "mean": 0.1,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2657,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 17
+          }
+        }
+      }
+    },
+    "爱情戏": {
+      "play_count": 116,
+      "total_edges": 3176,
+      "semantic_edges": 1006,
+      "semantic_enrichment": 0.3168,
+      "all_relations": {
+        "total": 3176,
+        "macro_top5": [
+          {
+            "type": "中立",
+            "count": 2170,
+            "ratio": 0.6832
+          },
+          {
+            "type": "从属",
+            "count": 322,
+            "ratio": 0.1014
+          },
+          {
+            "type": "同盟",
+            "count": 248,
+            "ratio": 0.0781
+          },
+          {
+            "type": "亲属",
+            "count": 209,
+            "ratio": 0.0658
+          },
+          {
+            "type": "敌对",
+            "count": 121,
+            "ratio": 0.0381
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "同场",
+            "count": 1854,
+            "ratio": 0.5838
+          },
+          {
+            "type": "主仆",
+            "count": 221,
+            "ratio": 0.0696
+          },
+          {
+            "type": "其他中立",
+            "count": 205,
+            "ratio": 0.0645
+          },
+          {
+            "type": "其他亲属",
+            "count": 119,
+            "ratio": 0.0375
+          },
+          {
+            "type": "恋人",
+            "count": 89,
+            "ratio": 0.028
+          },
+          {
+            "type": "萍水相逢",
+            "count": 63,
+            "ratio": 0.0198
+          },
+          {
+            "type": "同僚",
+            "count": 56,
+            "ratio": 0.0176
+          },
+          {
+            "type": "恩人",
+            "count": 51,
+            "ratio": 0.0161
+          },
+          {
+            "type": "结拜",
+            "count": 49,
+            "ratio": 0.0154
+          },
+          {
+            "type": "其他同盟",
+            "count": 45,
+            "ratio": 0.0142
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "中立",
+            "count": 2170,
+            "ratio": 0.6832
+          },
+          {
+            "type": "从属",
+            "count": 322,
+            "ratio": 0.1014
+          },
+          {
+            "type": "同盟",
+            "count": 248,
+            "ratio": 0.0781
+          },
+          {
+            "type": "亲属",
+            "count": 209,
+            "ratio": 0.0658
+          },
+          {
+            "type": "敌对",
+            "count": 121,
+            "ratio": 0.0381
+          },
+          {
+            "type": "情感",
+            "count": 106,
+            "ratio": 0.0334
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "同场",
+            "count": 1854,
+            "ratio": 0.5838
+          },
+          {
+            "type": "主仆",
+            "count": 221,
+            "ratio": 0.0696
+          },
+          {
+            "type": "其他中立",
+            "count": 205,
+            "ratio": 0.0645
+          },
+          {
+            "type": "其他亲属",
+            "count": 119,
+            "ratio": 0.0375
+          },
+          {
+            "type": "恋人",
+            "count": 89,
+            "ratio": 0.028
+          },
+          {
+            "type": "萍水相逢",
+            "count": 63,
+            "ratio": 0.0198
+          },
+          {
+            "type": "同僚",
+            "count": 56,
+            "ratio": 0.0176
+          },
+          {
+            "type": "恩人",
+            "count": 51,
+            "ratio": 0.0161
+          },
+          {
+            "type": "结拜",
+            "count": 49,
+            "ratio": 0.0154
+          },
+          {
+            "type": "其他同盟",
+            "count": 45,
+            "ratio": 0.0142
+          },
+          {
+            "type": "阵营对立",
+            "count": 43,
+            "ratio": 0.0135
+          },
+          {
+            "type": "将卒",
+            "count": 37,
+            "ratio": 0.0116
+          },
+          {
+            "type": "夫妻",
+            "count": 36,
+            "ratio": 0.0113
+          },
+          {
+            "type": "路人",
+            "count": 35,
+            "ratio": 0.011
+          },
+          {
+            "type": "其他从属",
+            "count": 34,
+            "ratio": 0.0107
+          },
+          {
+            "type": "知己",
+            "count": 30,
+            "ratio": 0.0094
+          },
+          {
+            "type": "情敌",
+            "count": 29,
+            "ratio": 0.0091
+          },
+          {
+            "type": "其他敌对",
+            "count": 27,
+            "ratio": 0.0085
+          },
+          {
+            "type": "仇人",
+            "count": 20,
+            "ratio": 0.0063
+          },
+          {
+            "type": "利益结盟",
+            "count": 17,
+            "ratio": 0.0054
+          },
+          {
+            "type": "父子",
+            "count": 16,
+            "ratio": 0.005
+          },
+          {
+            "type": "母子",
+            "count": 14,
+            "ratio": 0.0044
+          },
+          {
+            "type": "交易",
+            "count": 13,
+            "ratio": 0.0041
+          },
+          {
+            "type": "兄弟",
+            "count": 11,
+            "ratio": 0.0035
+          },
+          {
+            "type": "君臣",
+            "count": 11,
+            "ratio": 0.0035
+          },
+          {
+            "type": "官民",
+            "count": 10,
+            "ratio": 0.0031
+          },
+          {
+            "type": "师徒",
+            "count": 9,
+            "ratio": 0.0028
+          },
+          {
+            "type": "暗恋",
+            "count": 8,
+            "ratio": 0.0025
+          },
+          {
+            "type": "姐妹",
+            "count": 7,
+            "ratio": 0.0022
+          },
+          {
+            "type": "其他情感",
+            "count": 6,
+            "ratio": 0.0019
+          },
+          {
+            "type": "翁婿",
+            "count": 4,
+            "ratio": 0.0013
+          },
+          {
+            "type": "政治联姻",
+            "count": 3,
+            "ratio": 0.0009
+          },
+          {
+            "type": "婆媳",
+            "count": 2,
+            "ratio": 0.0006
+          },
+          {
+            "type": "宿敌",
+            "count": 1,
+            "ratio": 0.0003
+          },
+          {
+            "type": "政敌",
+            "count": 1,
+            "ratio": 0.0003
+          }
+        ]
+      },
+      "semantic_relations": {
+        "total": 1006,
+        "macro_top5": [
+          {
+            "type": "从属",
+            "count": 322,
+            "ratio": 0.3201
+          },
+          {
+            "type": "同盟",
+            "count": 248,
+            "ratio": 0.2465
+          },
+          {
+            "type": "亲属",
+            "count": 209,
+            "ratio": 0.2078
+          },
+          {
+            "type": "敌对",
+            "count": 121,
+            "ratio": 0.1203
+          },
+          {
+            "type": "情感",
+            "count": 106,
+            "ratio": 0.1054
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "主仆",
+            "count": 221,
+            "ratio": 0.2197
+          },
+          {
+            "type": "其他亲属",
+            "count": 119,
+            "ratio": 0.1183
+          },
+          {
+            "type": "恋人",
+            "count": 89,
+            "ratio": 0.0885
+          },
+          {
+            "type": "同僚",
+            "count": 56,
+            "ratio": 0.0557
+          },
+          {
+            "type": "恩人",
+            "count": 51,
+            "ratio": 0.0507
+          },
+          {
+            "type": "结拜",
+            "count": 49,
+            "ratio": 0.0487
+          },
+          {
+            "type": "其他同盟",
+            "count": 45,
+            "ratio": 0.0447
+          },
+          {
+            "type": "阵营对立",
+            "count": 43,
+            "ratio": 0.0427
+          },
+          {
+            "type": "将卒",
+            "count": 37,
+            "ratio": 0.0368
+          },
+          {
+            "type": "夫妻",
+            "count": 36,
+            "ratio": 0.0358
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "从属",
+            "count": 322,
+            "ratio": 0.3201
+          },
+          {
+            "type": "同盟",
+            "count": 248,
+            "ratio": 0.2465
+          },
+          {
+            "type": "亲属",
+            "count": 209,
+            "ratio": 0.2078
+          },
+          {
+            "type": "敌对",
+            "count": 121,
+            "ratio": 0.1203
+          },
+          {
+            "type": "情感",
+            "count": 106,
+            "ratio": 0.1054
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "主仆",
+            "count": 221,
+            "ratio": 0.2197
+          },
+          {
+            "type": "其他亲属",
+            "count": 119,
+            "ratio": 0.1183
+          },
+          {
+            "type": "恋人",
+            "count": 89,
+            "ratio": 0.0885
+          },
+          {
+            "type": "同僚",
+            "count": 56,
+            "ratio": 0.0557
+          },
+          {
+            "type": "恩人",
+            "count": 51,
+            "ratio": 0.0507
+          },
+          {
+            "type": "结拜",
+            "count": 49,
+            "ratio": 0.0487
+          },
+          {
+            "type": "其他同盟",
+            "count": 45,
+            "ratio": 0.0447
+          },
+          {
+            "type": "阵营对立",
+            "count": 43,
+            "ratio": 0.0427
+          },
+          {
+            "type": "将卒",
+            "count": 37,
+            "ratio": 0.0368
+          },
+          {
+            "type": "夫妻",
+            "count": 36,
+            "ratio": 0.0358
+          },
+          {
+            "type": "其他从属",
+            "count": 34,
+            "ratio": 0.0338
+          },
+          {
+            "type": "知己",
+            "count": 30,
+            "ratio": 0.0298
+          },
+          {
+            "type": "情敌",
+            "count": 29,
+            "ratio": 0.0288
+          },
+          {
+            "type": "其他敌对",
+            "count": 27,
+            "ratio": 0.0268
+          },
+          {
+            "type": "仇人",
+            "count": 20,
+            "ratio": 0.0199
+          },
+          {
+            "type": "利益结盟",
+            "count": 17,
+            "ratio": 0.0169
+          },
+          {
+            "type": "父子",
+            "count": 16,
+            "ratio": 0.0159
+          },
+          {
+            "type": "母子",
+            "count": 14,
+            "ratio": 0.0139
+          },
+          {
+            "type": "兄弟",
+            "count": 11,
+            "ratio": 0.0109
+          },
+          {
+            "type": "君臣",
+            "count": 11,
+            "ratio": 0.0109
+          },
+          {
+            "type": "官民",
+            "count": 10,
+            "ratio": 0.0099
+          },
+          {
+            "type": "师徒",
+            "count": 9,
+            "ratio": 0.0089
+          },
+          {
+            "type": "暗恋",
+            "count": 8,
+            "ratio": 0.008
+          },
+          {
+            "type": "姐妹",
+            "count": 7,
+            "ratio": 0.007
+          },
+          {
+            "type": "其他情感",
+            "count": 6,
+            "ratio": 0.006
+          },
+          {
+            "type": "翁婿",
+            "count": 4,
+            "ratio": 0.004
+          },
+          {
+            "type": "政治联姻",
+            "count": 3,
+            "ratio": 0.003
+          },
+          {
+            "type": "婆媳",
+            "count": 2,
+            "ratio": 0.002
+          },
+          {
+            "type": "宿敌",
+            "count": 1,
+            "ratio": 0.001
+          },
+          {
+            "type": "政敌",
+            "count": 1,
+            "ratio": 0.001
+          }
+        ]
+      },
+      "enrichment_vs_global": {
+        "semantic_macro_pp_diff": {
+          "从属": 0.0045,
+          "情感": 0.0932,
+          "亲属": 0.0605,
+          "同盟": -0.1122,
+          "敌对": -0.046
+        },
+        "note": "正值为该类型中占比高于全局均值，负值为低于。用于识别该类剧的特征关系类型。"
+      },
+      "per_play_ratio_stats": {
+        "all_macro": {
+          "同盟": {
+            "mean": 0.0851,
+            "median": 0.021,
+            "min": 0.0,
+            "max": 0.8333,
+            "std": 0.1294,
+            "p25": 0.0,
+            "p75": 0.1429,
+            "count": 116
+          },
+          "中立": {
+            "mean": 0.3963,
+            "median": 0.3819,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.354,
+            "p25": 0.0,
+            "p75": 0.7342,
+            "count": 116
+          },
+          "亲属": {
+            "mean": 0.0958,
+            "median": 0.0207,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.1885,
+            "p25": 0.0,
+            "p75": 0.0855,
+            "count": 116
+          },
+          "情感": {
+            "mean": 0.1639,
+            "median": 0.0357,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.282,
+            "p25": 0.0,
+            "p75": 0.1667,
+            "count": 116
+          },
+          "从属": {
+            "mean": 0.1692,
+            "median": 0.1067,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2217,
+            "p25": 0.0,
+            "p75": 0.2476,
+            "count": 116
+          },
+          "敌对": {
+            "mean": 0.038,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.6667,
+            "std": 0.0908,
+            "p25": 0.0,
+            "p75": 0.0336,
+            "count": 116
+          }
+        },
+        "sem_macro": {
+          "同盟": {
+            "mean": 0.1525,
+            "median": 0.0885,
+            "min": 0.0,
+            "max": 0.8333,
+            "std": 0.1868,
+            "p25": 0.0,
+            "p75": 0.3141,
+            "count": 116
+          },
+          "亲属": {
+            "mean": 0.1631,
+            "median": 0.0488,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2225,
+            "p25": 0.0,
+            "p75": 0.2956,
+            "count": 116
+          },
+          "情感": {
+            "mean": 0.2161,
+            "median": 0.1,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2969,
+            "p25": 0.0,
+            "p75": 0.276,
+            "count": 116
+          },
+          "从属": {
+            "mean": 0.2753,
+            "median": 0.2566,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2648,
+            "p25": 0.0,
+            "p75": 0.4779,
+            "count": 116
+          },
+          "敌对": {
+            "mean": 0.0638,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.6667,
+            "std": 0.1182,
+            "p25": 0.0,
+            "p75": 0.1122,
+            "count": 116
+          }
+        }
+      }
+    },
+    "神话戏": {
+      "play_count": 115,
+      "total_edges": 4293,
+      "semantic_edges": 1755,
+      "semantic_enrichment": 0.4088,
+      "all_relations": {
+        "total": 4293,
+        "macro_top5": [
+          {
+            "type": "中立",
+            "count": 2538,
+            "ratio": 0.5912
+          },
+          {
+            "type": "同盟",
+            "count": 692,
+            "ratio": 0.1612
+          },
+          {
+            "type": "从属",
+            "count": 548,
+            "ratio": 0.1276
+          },
+          {
+            "type": "敌对",
+            "count": 310,
+            "ratio": 0.0722
+          },
+          {
+            "type": "亲属",
+            "count": 193,
+            "ratio": 0.045
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "同场",
+            "count": 2357,
+            "ratio": 0.549
+          },
+          {
+            "type": "同僚",
+            "count": 440,
+            "ratio": 0.1025
+          },
+          {
+            "type": "阵营对立",
+            "count": 251,
+            "ratio": 0.0585
+          },
+          {
+            "type": "主仆",
+            "count": 207,
+            "ratio": 0.0482
+          },
+          {
+            "type": "其他从属",
+            "count": 120,
+            "ratio": 0.028
+          },
+          {
+            "type": "其他同盟",
+            "count": 119,
+            "ratio": 0.0277
+          },
+          {
+            "type": "其他中立",
+            "count": 90,
+            "ratio": 0.021
+          },
+          {
+            "type": "将卒",
+            "count": 76,
+            "ratio": 0.0177
+          },
+          {
+            "type": "其他亲属",
+            "count": 68,
+            "ratio": 0.0158
+          },
+          {
+            "type": "师徒",
+            "count": 68,
+            "ratio": 0.0158
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "中立",
+            "count": 2538,
+            "ratio": 0.5912
+          },
+          {
+            "type": "同盟",
+            "count": 692,
+            "ratio": 0.1612
+          },
+          {
+            "type": "从属",
+            "count": 548,
+            "ratio": 0.1276
+          },
+          {
+            "type": "敌对",
+            "count": 310,
+            "ratio": 0.0722
+          },
+          {
+            "type": "亲属",
+            "count": 193,
+            "ratio": 0.045
+          },
+          {
+            "type": "情感",
+            "count": 12,
+            "ratio": 0.0028
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "同场",
+            "count": 2357,
+            "ratio": 0.549
+          },
+          {
+            "type": "同僚",
+            "count": 440,
+            "ratio": 0.1025
+          },
+          {
+            "type": "阵营对立",
+            "count": 251,
+            "ratio": 0.0585
+          },
+          {
+            "type": "主仆",
+            "count": 207,
+            "ratio": 0.0482
+          },
+          {
+            "type": "其他从属",
+            "count": 120,
+            "ratio": 0.028
+          },
+          {
+            "type": "其他同盟",
+            "count": 119,
+            "ratio": 0.0277
+          },
+          {
+            "type": "其他中立",
+            "count": 90,
+            "ratio": 0.021
+          },
+          {
+            "type": "将卒",
+            "count": 76,
+            "ratio": 0.0177
+          },
+          {
+            "type": "其他亲属",
+            "count": 68,
+            "ratio": 0.0158
+          },
+          {
+            "type": "师徒",
+            "count": 68,
+            "ratio": 0.0158
+          },
+          {
+            "type": "萍水相逢",
+            "count": 64,
+            "ratio": 0.0149
+          },
+          {
+            "type": "恩人",
+            "count": 57,
+            "ratio": 0.0133
+          },
+          {
+            "type": "君臣",
+            "count": 50,
+            "ratio": 0.0116
+          },
+          {
+            "type": "利益结盟",
+            "count": 48,
+            "ratio": 0.0112
+          },
+          {
+            "type": "夫妻",
+            "count": 32,
+            "ratio": 0.0075
+          },
+          {
+            "type": "父子",
+            "count": 32,
+            "ratio": 0.0075
+          },
+          {
+            "type": "姐妹",
+            "count": 32,
+            "ratio": 0.0075
+          },
+          {
+            "type": "官民",
+            "count": 27,
+            "ratio": 0.0063
+          },
+          {
+            "type": "路人",
+            "count": 22,
+            "ratio": 0.0051
+          },
+          {
+            "type": "其他敌对",
+            "count": 19,
+            "ratio": 0.0044
+          },
+          {
+            "type": "母子",
+            "count": 17,
+            "ratio": 0.004
+          },
+          {
+            "type": "政敌",
+            "count": 17,
+            "ratio": 0.004
+          },
+          {
+            "type": "结拜",
+            "count": 15,
+            "ratio": 0.0035
+          },
+          {
+            "type": "仇人",
+            "count": 13,
+            "ratio": 0.003
+          },
+          {
+            "type": "知己",
+            "count": 13,
+            "ratio": 0.003
+          },
+          {
+            "type": "兄弟",
+            "count": 9,
+            "ratio": 0.0021
+          },
+          {
+            "type": "恋人",
+            "count": 9,
+            "ratio": 0.0021
+          },
+          {
+            "type": "宿敌",
+            "count": 8,
+            "ratio": 0.0019
+          },
+          {
+            "type": "交易",
+            "count": 5,
+            "ratio": 0.0012
+          },
+          {
+            "type": "其他情感",
+            "count": 3,
+            "ratio": 0.0007
+          },
+          {
+            "type": "情敌",
+            "count": 2,
+            "ratio": 0.0005
+          },
+          {
+            "type": "婆媳",
+            "count": 2,
+            "ratio": 0.0005
+          },
+          {
+            "type": "翁婿",
+            "count": 1,
+            "ratio": 0.0002
+          }
+        ]
+      },
+      "semantic_relations": {
+        "total": 1755,
+        "macro_top5": [
+          {
+            "type": "同盟",
+            "count": 692,
+            "ratio": 0.3943
+          },
+          {
+            "type": "从属",
+            "count": 548,
+            "ratio": 0.3123
+          },
+          {
+            "type": "敌对",
+            "count": 310,
+            "ratio": 0.1766
+          },
+          {
+            "type": "亲属",
+            "count": 193,
+            "ratio": 0.11
+          },
+          {
+            "type": "情感",
+            "count": 12,
+            "ratio": 0.0068
+          }
+        ],
+        "micro_top10": [
+          {
+            "type": "同僚",
+            "count": 440,
+            "ratio": 0.2507
+          },
+          {
+            "type": "阵营对立",
+            "count": 251,
+            "ratio": 0.143
+          },
+          {
+            "type": "主仆",
+            "count": 207,
+            "ratio": 0.1179
+          },
+          {
+            "type": "其他从属",
+            "count": 120,
+            "ratio": 0.0684
+          },
+          {
+            "type": "其他同盟",
+            "count": 119,
+            "ratio": 0.0678
+          },
+          {
+            "type": "将卒",
+            "count": 76,
+            "ratio": 0.0433
+          },
+          {
+            "type": "其他亲属",
+            "count": 68,
+            "ratio": 0.0387
+          },
+          {
+            "type": "师徒",
+            "count": 68,
+            "ratio": 0.0387
+          },
+          {
+            "type": "恩人",
+            "count": 57,
+            "ratio": 0.0325
+          },
+          {
+            "type": "君臣",
+            "count": 50,
+            "ratio": 0.0285
+          }
+        ],
+        "macro_full": [
+          {
+            "type": "同盟",
+            "count": 692,
+            "ratio": 0.3943
+          },
+          {
+            "type": "从属",
+            "count": 548,
+            "ratio": 0.3123
+          },
+          {
+            "type": "敌对",
+            "count": 310,
+            "ratio": 0.1766
+          },
+          {
+            "type": "亲属",
+            "count": 193,
+            "ratio": 0.11
+          },
+          {
+            "type": "情感",
+            "count": 12,
+            "ratio": 0.0068
+          }
+        ],
+        "micro_full": [
+          {
+            "type": "同僚",
+            "count": 440,
+            "ratio": 0.2507
+          },
+          {
+            "type": "阵营对立",
+            "count": 251,
+            "ratio": 0.143
+          },
+          {
+            "type": "主仆",
+            "count": 207,
+            "ratio": 0.1179
+          },
+          {
+            "type": "其他从属",
+            "count": 120,
+            "ratio": 0.0684
+          },
+          {
+            "type": "其他同盟",
+            "count": 119,
+            "ratio": 0.0678
+          },
+          {
+            "type": "将卒",
+            "count": 76,
+            "ratio": 0.0433
+          },
+          {
+            "type": "其他亲属",
+            "count": 68,
+            "ratio": 0.0387
+          },
+          {
+            "type": "师徒",
+            "count": 68,
+            "ratio": 0.0387
+          },
+          {
+            "type": "恩人",
+            "count": 57,
+            "ratio": 0.0325
+          },
+          {
+            "type": "君臣",
+            "count": 50,
+            "ratio": 0.0285
+          },
+          {
+            "type": "利益结盟",
+            "count": 48,
+            "ratio": 0.0274
+          },
+          {
+            "type": "夫妻",
+            "count": 32,
+            "ratio": 0.0182
+          },
+          {
+            "type": "父子",
+            "count": 32,
+            "ratio": 0.0182
+          },
+          {
+            "type": "姐妹",
+            "count": 32,
+            "ratio": 0.0182
+          },
+          {
+            "type": "官民",
+            "count": 27,
+            "ratio": 0.0154
+          },
+          {
+            "type": "其他敌对",
+            "count": 19,
+            "ratio": 0.0108
+          },
+          {
+            "type": "母子",
+            "count": 17,
+            "ratio": 0.0097
+          },
+          {
+            "type": "政敌",
+            "count": 17,
+            "ratio": 0.0097
+          },
+          {
+            "type": "结拜",
+            "count": 15,
+            "ratio": 0.0085
+          },
+          {
+            "type": "仇人",
+            "count": 13,
+            "ratio": 0.0074
+          },
+          {
+            "type": "知己",
+            "count": 13,
+            "ratio": 0.0074
+          },
+          {
+            "type": "兄弟",
+            "count": 9,
+            "ratio": 0.0051
+          },
+          {
+            "type": "恋人",
+            "count": 9,
+            "ratio": 0.0051
+          },
+          {
+            "type": "宿敌",
+            "count": 8,
+            "ratio": 0.0046
+          },
+          {
+            "type": "其他情感",
+            "count": 3,
+            "ratio": 0.0017
+          },
+          {
+            "type": "情敌",
+            "count": 2,
+            "ratio": 0.0011
+          },
+          {
+            "type": "婆媳",
+            "count": 2,
+            "ratio": 0.0011
+          },
+          {
+            "type": "翁婿",
+            "count": 1,
+            "ratio": 0.0006
+          }
+        ]
+      },
+      "enrichment_vs_global": {
+        "semantic_macro_pp_diff": {
+          "亲属": -0.0373,
+          "从属": -0.0033,
+          "敌对": 0.0103,
+          "同盟": 0.0356,
+          "情感": -0.0054
+        },
+        "note": "正值为该类型中占比高于全局均值，负值为低于。用于识别该类剧的特征关系类型。"
+      },
+      "per_play_ratio_stats": {
+        "all_macro": {
+          "同盟": {
+            "mean": 0.2195,
+            "median": 0.1667,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2027,
+            "p25": 0.0541,
+            "p75": 0.3333,
+            "count": 115
+          },
+          "中立": {
+            "mean": 0.3838,
+            "median": 0.3409,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.3505,
+            "p25": 0.0,
+            "p75": 0.6603,
+            "count": 115
+          },
+          "亲属": {
+            "mean": 0.0739,
+            "median": 0.0051,
+            "min": 0.0,
+            "max": 0.625,
+            "std": 0.1249,
+            "p25": 0.0,
+            "p75": 0.109,
+            "count": 115
+          },
+          "情感": {
+            "mean": 0.0065,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.2727,
+            "std": 0.0308,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 115
+          },
+          "从属": {
+            "mean": 0.199,
+            "median": 0.1429,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2122,
+            "p25": 0.0089,
+            "p75": 0.3333,
+            "count": 115
+          },
+          "敌对": {
+            "mean": 0.1173,
+            "median": 0.0196,
+            "min": 0.0,
+            "max": 0.8,
+            "std": 0.1699,
+            "p25": 0.0,
+            "p75": 0.1759,
+            "count": 115
+          }
+        },
+        "sem_macro": {
+          "同盟": {
+            "mean": 0.3198,
+            "median": 0.3077,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.246,
+            "p25": 0.1277,
+            "p75": 0.5,
+            "count": 115
+          },
+          "亲属": {
+            "mean": 0.104,
+            "median": 0.0222,
+            "min": 0.0,
+            "max": 0.7353,
+            "std": 0.1672,
+            "p25": 0.0,
+            "p75": 0.1667,
+            "count": 115
+          },
+          "情感": {
+            "mean": 0.0084,
+            "median": 0.0,
+            "min": 0.0,
+            "max": 0.2727,
+            "std": 0.0348,
+            "p25": 0.0,
+            "p75": 0.0,
+            "count": 115
+          },
+          "从属": {
+            "mean": 0.301,
+            "median": 0.3103,
+            "min": 0.0,
+            "max": 1.0,
+            "std": 0.2609,
+            "p25": 0.0147,
+            "p75": 0.4686,
+            "count": 115
+          },
+          "敌对": {
+            "mean": 0.1538,
+            "median": 0.0588,
+            "min": 0.0,
+            "max": 0.8,
+            "std": 0.188,
+            "p25": 0.0,
+            "p75": 0.3,
+            "count": 115
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,954 @@
+{
+  "title": "秦淮河",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 10,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "03076002_秦淮河.json",
+  "source_folder": "03000000",
+  "plot_summary": "宋江患瘩背，遣张顺请神医安道全。张顺过江，误饮药酒，被水寇张旺推落江心。张顺通水性，酒醒上岸。\n时安道全正在秦淮河热恋名妓李香兰，张顺往请，亦被留院。张旺杀死孙武，陡然大富，亦来秦淮河嫖妓，\n与安道全殴斗。张顺杀死张旺，复斩李香兰。安道全被迫，同上梁山。",
+  "performance_notes": "此剧第二场《劫江》系李燕生藏本。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 107,
+      "summary": "第一场；第二场",
+      "conflict": 0.791,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "孙武": 1,
+        "张顺": 1,
+        "张旺": 1
+      },
+      "links": [
+        {
+          "source": "孙武",
+          "target": "张旺",
+          "value": 1
+        },
+        {
+          "source": "张旺",
+          "target": "张顺",
+          "value": 1
+        },
+        {
+          "source": "孙武",
+          "target": "张顺",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 180,
+      "summary": "第三场；第四场",
+      "conflict": 0.13,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "鸨儿": 1,
+        "李香兰": 1,
+        "安道全": 1,
+        "张顺": 1,
+        "王八": 1,
+        "四下手": 1
+      },
+      "links": [
+        {
+          "source": "安道全",
+          "target": "李香兰",
+          "value": 1
+        },
+        {
+          "source": "安道全",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "安道全",
+          "target": "王八",
+          "value": 1
+        },
+        {
+          "source": "安道全",
+          "target": "张顺",
+          "value": 1
+        },
+        {
+          "source": "李香兰",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "李香兰",
+          "target": "王八",
+          "value": 1
+        },
+        {
+          "source": "张顺",
+          "target": "李香兰",
+          "value": 1
+        },
+        {
+          "source": "王八",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "张顺",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "张顺",
+          "target": "王八",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "鸨儿",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 161,
+      "summary": "第五场；第六场",
+      "conflict": 0.1,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "鸨儿": 1,
+        "妓女乙": 1,
+        "张旺": 1,
+        "李香兰": 1,
+        "安道全": 1,
+        "张顺": 1,
+        "妓女甲": 1
+      },
+      "links": [
+        {
+          "source": "安道全",
+          "target": "张顺",
+          "value": 2
+        },
+        {
+          "source": "安道全",
+          "target": "鸨儿",
+          "value": 2
+        },
+        {
+          "source": "安道全",
+          "target": "李香兰",
+          "value": 2
+        },
+        {
+          "source": "张顺",
+          "target": "鸨儿",
+          "value": 2
+        },
+        {
+          "source": "张顺",
+          "target": "李香兰",
+          "value": 2
+        },
+        {
+          "source": "李香兰",
+          "target": "鸨儿",
+          "value": 2
+        },
+        {
+          "source": "张旺",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "妓女乙",
+          "target": "张旺",
+          "value": 1
+        },
+        {
+          "source": "妓女甲",
+          "target": "张旺",
+          "value": 1
+        },
+        {
+          "source": "张旺",
+          "target": "李香兰",
+          "value": 1
+        },
+        {
+          "source": "安道全",
+          "target": "张旺",
+          "value": 1
+        },
+        {
+          "source": "张旺",
+          "target": "张顺",
+          "value": 1
+        },
+        {
+          "source": "妓女乙",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "妓女甲",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "妓女乙",
+          "target": "妓女甲",
+          "value": 1
+        },
+        {
+          "source": "妓女乙",
+          "target": "李香兰",
+          "value": 1
+        },
+        {
+          "source": "妓女乙",
+          "target": "安道全",
+          "value": 1
+        },
+        {
+          "source": "妓女乙",
+          "target": "张顺",
+          "value": 1
+        },
+        {
+          "source": "妓女甲",
+          "target": "李香兰",
+          "value": 1
+        },
+        {
+          "source": "妓女甲",
+          "target": "安道全",
+          "value": 1
+        },
+        {
+          "source": "妓女甲",
+          "target": "张顺",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 15,
+      "summary": "第七场；第八场",
+      "conflict": 0.36,
+      "importance": 0.156,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "鸨儿": 1,
+        "张旺": 1,
+        "李香兰": 1,
+        "张顺": 1,
+        "四下手": 1
+      },
+      "links": [
+        {
+          "source": "张旺",
+          "target": "鸨儿",
+          "value": 2
+        },
+        {
+          "source": "四下手",
+          "target": "张旺",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "李香兰",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "张顺",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "张旺",
+          "target": "李香兰",
+          "value": 1
+        },
+        {
+          "source": "张旺",
+          "target": "张顺",
+          "value": 1
+        },
+        {
+          "source": "张顺",
+          "target": "李香兰",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 19,
+      "summary": "第九场；第十场",
+      "conflict": 0.4,
+      "importance": 0.197,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "李香兰": 1,
+        "安道全": 1,
+        "张顺": 1
+      },
+      "links": [
+        {
+          "source": "安道全",
+          "target": "张顺",
+          "value": 2
+        },
+        {
+          "source": "张顺",
+          "target": "李香兰",
+          "value": 1
+        },
+        {
+          "source": "安道全",
+          "target": "李香兰",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张顺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "走哇！",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：1位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.484,
+        "conflict": 0.0,
+        "sentiment": 0.84
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张旺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "大雪不住纷纷下，",
+          "rating": -0.143,
+          "role": "丑"
+        },
+        {
+          "name": "孙武",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "并无买卖做生涯。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张顺",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "且住！天降大雪，又无船只，怎样过去？",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：3位角色，98行",
+      "firstLine": 1,
+      "lastLine": 98,
+      "numLines": 98,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.316,
+        "sentiment": 0.049
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "安道全",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "流落烟花，好叫我，心乱如麻！",
+          "rating": 0.556,
+          "role": "小生"
+        },
+        {
+          "name": "李香兰",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 0.429,
+          "role": "花旦"
+        },
+        {
+          "name": "鸨儿",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "耳边厢又听得悲声一阵，",
+          "rating": -0.2,
+          "role": "彩旦"
+        },
+        {
+          "name": "王八",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "什么事情，掌柜的？",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "张顺",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "踏破铁鞋无觅处，得来全不费工夫。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：5位角色，172行",
+      "firstLine": 1,
+      "lastLine": 172,
+      "numLines": 172,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.817,
+        "conflict": 0.145,
+        "sentiment": 0.29
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "鸨儿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "伙计们快来！",
+          "rating": 0.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "掌柜的，什么事情？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.13,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "安道全",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊，慢动手！请问尊姓大名？",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "张顺",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "浪里白条张顺。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "鸨儿",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "好哇！打了我个稀糊脑烂，你又认得啦！",
+          "rating": 1.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "李香兰",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第五场：4位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.541,
+        "conflict": 0.0,
+        "sentiment": 0.46
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张旺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "得啦，够啦，够使得啦。哎呀，您瞧瞧，人要是有了钱，打鼓的都架弄你。我",
+          "rating": 0.143,
+          "role": "丑"
+        },
+        {
+          "name": "鸨儿",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来啦！",
+          "rating": 1.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "妓女乙",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "掌柜的，有了客啦？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "妓女甲",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "我是李香兰。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李香兰",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "哎呀，我们才睡着，又叫！妈呀，什么事情？",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "安道全",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "啊，怎么划起拳来了！待我进去看来。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "张顺",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：7位角色，141行",
+      "firstLine": 1,
+      "lastLine": 141,
+      "numLines": 141,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.176,
+        "sentiment": 0.36
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张旺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "老鸨子！老鸨子！你怎么弄出个大花脸打我这个小花脸哪？",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "鸨儿",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "他就是那个包家儿的朋友，白吃白喝白挑眼。",
+          "rating": 0.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "什么事情？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.332,
+        "conflict": 0.606,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "鸨儿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "张旺",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "李香兰",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "张顺",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第八场：4位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.474,
+        "conflict": 1.0,
+        "sentiment": -0.2
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张顺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "且住！看他二人恋恋不舍，这便如何是好？哦哦有了！桌案之上，现有文房四",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "安道全",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第九场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.519,
+        "conflict": 1.0,
+        "sentiment": 0.36
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张顺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呔！你杀了人，还不逃走！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "安道全",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我何曾杀人哪？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "李香兰",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -0.333,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第十场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.469,
+        "conflict": 0.588,
+        "sentiment": -0.04
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张顺",
+      "short": "张顺",
+      "key": "张顺",
+      "quote": "张顺 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "张旺",
+      "short": "张旺",
+      "key": "张旺",
+      "quote": "张旺 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "安道全",
+      "short": "安道",
+      "key": "安道全",
+      "quote": "安道全 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李香兰",
+      "short": "李香",
+      "key": "李香兰",
+      "quote": "李香兰 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "鸨儿",
+      "short": "鸨儿",
+      "key": "鸨儿",
+      "quote": "鸨儿 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王八",
+      "short": "王八",
+      "key": "王八",
+      "quote": "王八 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "妓女乙",
+      "short": "妓女",
+      "key": "妓女乙",
+      "quote": "妓女乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "妓女甲",
+      "short": "妓女",
+      "key": "妓女甲",
+      "quote": "妓女甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "孙武",
+      "short": "孙武",
+      "key": "孙武",
+      "quote": "孙武 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

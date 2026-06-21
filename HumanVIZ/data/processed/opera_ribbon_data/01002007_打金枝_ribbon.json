@@ -1,0 +1,492 @@
+{
+  "title": "打金枝",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 6,
+  "num_locations": 3,
+  "source_file": "01002007_打金枝.json",
+  "source_folder": "01000000",
+  "plot_summary": "唐郭子仪既平安史之乱，功高望重。唐肃宗以女妻其子郭暧。会郭子仪夫妇八十双寿，家人相率拜贺，独公\n主不出拜寿，郭暧大恚，乘醉殴公主，公主痛哭回宫诉皇后。郭子仪闻之大惊，立缚其子。负荆上殿请罪。\n唐王笑曰：“不痴不聋，不作阿家翁。儿女琐屑事，何必问？”郭子仪乃安。父子再拜谢恩而退。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 172,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.247,
+      "importance": 1.0,
+      "locations": {
+        "碑匾挂高堂": 2,
+        "小奴才上殿": 1
+      },
+      "characters": {
+        "郭暧": 1,
+        "太监": 1,
+        "公主": 1,
+        "郭子仪": 1,
+        "唐王": 1,
+        "皇后": 1
+      },
+      "links": [
+        {
+          "source": "唐王",
+          "target": "皇后",
+          "value": 1
+        },
+        {
+          "source": "公主",
+          "target": "唐王",
+          "value": 3
+        },
+        {
+          "source": "唐王",
+          "target": "郭暧",
+          "value": 3
+        },
+        {
+          "source": "唐王",
+          "target": "郭子仪",
+          "value": 3
+        },
+        {
+          "source": "公主",
+          "target": "皇后",
+          "value": 1
+        },
+        {
+          "source": "皇后",
+          "target": "郭暧",
+          "value": 1
+        },
+        {
+          "source": "皇后",
+          "target": "郭子仪",
+          "value": 1
+        },
+        {
+          "source": "公主",
+          "target": "郭暧",
+          "value": 3
+        },
+        {
+          "source": "公主",
+          "target": "郭子仪",
+          "value": 3
+        },
+        {
+          "source": "郭子仪",
+          "target": "郭暧",
+          "value": 3
+        },
+        {
+          "source": "唐王",
+          "target": "太监",
+          "value": 2
+        },
+        {
+          "source": "太监",
+          "target": "郭子仪",
+          "value": 2
+        },
+        {
+          "source": "太监",
+          "target": "郭暧",
+          "value": 2
+        },
+        {
+          "source": "公主",
+          "target": "太监",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 18,
+      "summary": "第4场；第5场",
+      "conflict": 0.124,
+      "importance": 0.189,
+      "locations": {
+        "碑匾挂高堂": 2
+      },
+      "characters": {
+        "郭暧": 1,
+        "公主": 1,
+        "唐王": 1
+      },
+      "links": [
+        {
+          "source": "唐王",
+          "target": "郭暧",
+          "value": 1
+        },
+        {
+          "source": "公主",
+          "target": "唐王",
+          "value": 1
+        },
+        {
+          "source": "公主",
+          "target": "郭暧",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "碑匾挂高堂",
+      "characters": [
+        {
+          "name": "唐王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "摆驾。",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "皇后",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "内侍摆驾金殿里，",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "公主",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "领旨。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "郭暧",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "郭子仪",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第1场：5位角色，73行",
+      "firstLine": 1,
+      "lastLine": 73,
+      "numLines": 73,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.455,
+        "sentiment": 0.308
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "碑匾挂高堂",
+      "characters": [
+        {
+          "name": "唐王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "内侍与孤传旨意，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "太监",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "郭子仪上殿！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郭子仪",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "领旨！",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "郭暧",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "爹爹休要怒不息，",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "公主",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：5位角色，53行",
+      "firstLine": 1,
+      "lastLine": 53,
+      "numLines": 53,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.0,
+        "sentiment": 0.264
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "小奴才上殿",
+      "characters": [
+        {
+          "name": "郭子仪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "万岁不降郭暧罪，",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "唐王",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "平身，赐坐。",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "太监",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "驸马冠带上殿！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郭暧",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "领旨！",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "公主",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：5位角色，46行",
+      "firstLine": 1,
+      "lastLine": 46,
+      "numLines": 46,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.2,
+        "sentiment": 0.511
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "碑匾挂高堂",
+      "characters": [
+        {
+          "name": "唐王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "驸马近前听旨降：",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "郭暧",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "辞别万岁下殿往，",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "公主",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第4场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.557,
+        "conflict": 0.0,
+        "sentiment": 0.384
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "碑匾挂高堂",
+      "characters": [
+        {
+          "name": "唐王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "驸马犯罪难发放，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第5场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.492,
+        "conflict": 1.0,
+        "sentiment": 0.26
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "唐王",
+      "short": "唐王",
+      "key": "唐王",
+      "quote": "唐王 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "郭子仪",
+      "short": "郭子",
+      "key": "郭子仪",
+      "quote": "郭子仪 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "郭暧",
+      "short": "郭暧",
+      "key": "郭暧",
+      "quote": "郭暧 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "公主",
+      "short": "公主",
+      "key": "公主",
+      "quote": "公主 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "皇后",
+      "short": "皇后",
+      "key": "皇后",
+      "quote": "皇后 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "碑匾挂高堂",
+      "key": "碑匾挂高堂",
+      "quote": "场景发生在碑匾挂高堂"
+    },
+    {
+      "name": "小奴才上殿",
+      "key": "小奴才上殿",
+      "quote": "场景发生在小奴才上殿"
+    },
+    {
+      "name": "马冠带上殿",
+      "key": "马冠带上殿",
+      "quote": "场景发生在马冠带上殿"
+    }
+  ]
+}

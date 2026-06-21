@@ -1,0 +1,151 @@
+{
+  "title": "扫松下书",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "04022003_扫松下书.json",
+  "source_folder": "04000000",
+  "plot_summary": "张广才自赵五娘上京以后，便常常到蔡家二老的坟前打扫。这天，虽然秋风萧瑟，他仍挟着扫帚到蔡家坟前\n打扫残松败叶。差役李旺在京城奉了蔡伯喈之命，到陈留郡投递家书。因为问路，无意中碰到了张广才。相\n谈之下，张广才才知道蔡伯喈的情形。他领着李旺到蔡家坟前祭奠，把蔡家二老饿死以及赵五娘尽孝的情由\n激愤地倾诉出来，对蔡伯喈一去不归表示了很大的愤慨。",
+  "performance_notes": "本剧是根据明初大戏曲家高则诚所著《琵琶记》中的一折改编的。\n本剧是根据周信芳先生的演出本，由周先生和华东戏曲研究院编审室严朴共同整理的。整理时除在若干词句\n上作了一些修改外，为了便于和《描容上路》连贯演出，避免演员“赶场”，故增加了《李旺行路》（即第\n一场）。如单演《扫松下书》，则第一场可以省略。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.072,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李旺": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 213,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李旺": 1,
+        "张广才": 1
+      },
+      "links": [
+        {
+          "source": "张广才",
+          "target": "李旺",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李旺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "奉了状元命，前往陈留郡；蔡家庄上投书信，日夜奔波不敢停。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.572,
+        "conflict": 1.0,
+        "sentiment": 0.787
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张广才",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "草枯叶落已深秋，满目苍凉触景愁。寂寞门庭人不在，金风萧瑟起松楸！",
+          "rating": 0.111,
+          "role": "老生"
+        },
+        {
+          "name": "李旺",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "走哇。",
+          "rating": -0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：2位角色，213行",
+      "firstLine": 1,
+      "lastLine": 213,
+      "numLines": 213,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.164,
+        "sentiment": 0.202
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张广才",
+      "short": "张广",
+      "key": "张广才",
+      "quote": "张广才 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李旺",
+      "short": "李旺",
+      "key": "李旺",
+      "quote": "李旺 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

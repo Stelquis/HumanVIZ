@@ -1,0 +1,627 @@
+{
+  "title": "单刀会",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "03101001_单刀会.json",
+  "source_folder": "03000000",
+  "plot_summary": "鲁肃急索荆州，特命人请关羽过江赴宴，以便劫持。关羽仅携周仓单刀赴会，筵席间历述战功，鲁肃乘隙讨\n还荆州。关羽佯醉，并持刀亲执鲁肃同至江边。东吴诸将，以计不成，未敢轻动。经关平接应，关羽得安然\n返回荆州。",
+  "performance_notes": "故事出自关汉卿的《关大王独赴单刀会》的杂剧及《三国演义》。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 98,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.439,
+      "importance": 0.912,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "鲁肃": 1,
+        "东吴卒": 1,
+        "探子": 1,
+        "关羽": 1,
+        "四水手": 1,
+        "四龙套": 1,
+        "周仓": 1,
+        "关平": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 2
+        },
+        {
+          "source": "东吴卒",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "鲁肃",
+          "value": 2
+        },
+        {
+          "source": "东吴卒",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "东吴卒",
+          "target": "关平",
+          "value": 1
+        },
+        {
+          "source": "东吴卒",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "四水手",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "四水手",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "四龙套",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 117,
+      "summary": "第四场；第五场",
+      "conflict": 0.18,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "鲁肃": 1,
+        "甘宁": 1,
+        "关羽": 1,
+        "四水手": 1,
+        "周泰": 1,
+        "周仓": 1
+      },
+      "links": [
+        {
+          "source": "周仓",
+          "target": "鲁肃",
+          "value": 2
+        },
+        {
+          "source": "关羽",
+          "target": "鲁肃",
+          "value": 2
+        },
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 2
+        },
+        {
+          "source": "甘宁",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "四水手",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "周泰",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "甘宁",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "四水手",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "周泰",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "甘宁",
+          "value": 1
+        },
+        {
+          "source": "四水手",
+          "target": "甘宁",
+          "value": 1
+        },
+        {
+          "source": "周泰",
+          "target": "甘宁",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "四水手",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "周泰",
+          "value": 1
+        },
+        {
+          "source": "周泰",
+          "target": "四水手",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "凤目蚕眉须苍白，秉烛达旦天下仰；展雄威，声震邻邦。",
+          "rating": 0.333,
+          "role": "红生"
+        },
+        {
+          "name": "周仓",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "东吴卒",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "离了东吴地，来此是荆州。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "关平",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "鲁肃约请父帅饮宴，断无好意，父帅不可前去。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：5位角色，57行",
+      "firstLine": 1,
+      "lastLine": 57,
+      "numLines": 57,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.339,
+        "sentiment": 0.369
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周仓",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有请君侯！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "上得船来，好一派江景也！",
+          "rating": 1.0,
+          "role": "红生"
+        },
+        {
+          "name": "四水手",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.659,
+        "conflict": 0.339,
+        "sentiment": 0.808
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "鲁肃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "安排酒宴请关羽，为讨荆州费心机！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "探子",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第三场：4位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.628,
+        "conflict": 0.0,
+        "sentiment": 0.795
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "鲁肃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "周仓",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第四场：3位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.631,
+        "conflict": 0.0,
+        "sentiment": 0.6
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "鲁肃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "君侯驾到，肃未曾远迎，望祈恕罪！",
+          "rating": 0.25,
+          "role": "老生"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "某家久未致候，大夫海涵！",
+          "rating": 0.5,
+          "role": "红生"
+        },
+        {
+          "name": "甘宁",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "宴齐。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周仓",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "搭了扶手！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四水手",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周泰",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "大夫，为何将关羽放走？",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：6位角色，116行",
+      "firstLine": 1,
+      "lastLine": 116,
+      "numLines": 116,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.538,
+        "sentiment": 0.42
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "鲁肃",
+      "short": "鲁肃",
+      "key": "鲁肃",
+      "quote": "鲁肃 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周仓",
+      "short": "周仓",
+      "key": "周仓",
+      "quote": "周仓 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "关平",
+      "short": "关平",
+      "key": "关平",
+      "quote": "关平 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "东吴卒",
+      "short": "东吴",
+      "key": "东吴卒",
+      "quote": "东吴卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "甘宁",
+      "short": "甘宁",
+      "key": "甘宁",
+      "quote": "甘宁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四水手",
+      "short": "四水",
+      "key": "四水手",
+      "quote": "四水手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周泰",
+      "short": "周泰",
+      "key": "周泰",
+      "quote": "周泰 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

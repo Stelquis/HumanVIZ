@@ -1,0 +1,261 @@
+{
+  "title": "合凤裙",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 2,
+  "source_file": "01025006_合凤裙.json",
+  "source_folder": "01000000",
+  "plot_summary": "剧本所述，谓有吴、刘两姓，既订婚姻，吴为乾宅，刘为坤宅，至迎娶之日，刘氏女忽然卧病，令其弟乔装\n代嫁，及至花轿临门，吴氏子适有紧急差遣，随父他出，亦令其妹扮作新郎，为阿兄代表。一对假夫妻，竟\n实行交拜礼。合卺筵开，洞房春暖，两人本来面目，无可遮掩，互相惊异，然少年男女，未免有情，遂将错\n就错，以为天假之缘，缱绻终宵，订鸳盟于枕上焉。",
+  "performance_notes": "是剧系梆子调。二黄调中，向有《日月图》及《巧姻缘》两剧。唱口白口，虽各有别，其情节亦大致相似，\n无非从《今古奇观》小说中，《乱点鸳鸯谱》一事，脱胎而出。惟姓氏迥乎不同。\n按《合凤裙》一剧，向有全本，此系中间一段，事实虽不近情理，然于花旦戏中，亦极有趣味，尤堪发噱。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.175,
+      "locations": {
+        "在绣阁": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "吴小姐": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "吴小姐",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.175,
+      "locations": {
+        "在绣阁": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "吴小姐": 1,
+        "刘公子": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "吴小姐",
+          "value": 1
+        },
+        {
+          "source": "刘公子",
+          "target": "吴小姐",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "刘公子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 121,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "在绣阁": 1
+      },
+      "characters": {
+        "刘公子": 1,
+        "吴小姐": 1
+      },
+      "links": [
+        {
+          "source": "刘公子",
+          "target": "吴小姐",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "在绣阁",
+      "characters": [
+        {
+          "name": "吴小姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "清晨起来对菱花，蝴蝶双双闹窗纱。",
+          "rating": 0.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启禀小姑娘：花轿到门了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.535,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "在绣阁",
+      "characters": [
+        {
+          "name": "吴小姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "看丫鬟报道：花轿到门，已将我家新嫂嫂娶来了。我不免在绣阁等候便了。",
+          "rating": 0.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘公子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：3位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.735,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "在绣阁",
+      "characters": [
+        {
+          "name": "吴小姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "待我将绣阁房门闭上。",
+          "rating": 0.667,
+          "role": "贴旦"
+        },
+        {
+          "name": "刘公子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来至在绣阁中偷眼观看，",
+          "rating": 0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第3场：2位角色，121行",
+      "firstLine": 1,
+      "lastLine": 121,
+      "numLines": 121,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.312,
+        "sentiment": 0.363
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "吴小姐",
+      "short": "吴小",
+      "key": "吴小姐",
+      "quote": "吴小姐 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘公子",
+      "short": "刘公",
+      "key": "刘公子",
+      "quote": "刘公子 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "在绣阁",
+      "key": "在绣阁",
+      "quote": "场景发生在在绣阁"
+    },
+    {
+      "name": "绣阁等候便了",
+      "key": "绣阁等候便了",
+      "quote": "场景发生在绣阁等候便了"
+    }
+  ]
+}

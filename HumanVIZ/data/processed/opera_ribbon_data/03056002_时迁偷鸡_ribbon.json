@@ -1,0 +1,479 @@
+{
+  "title": "时迁偷鸡",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "03056002_时迁偷鸡.json",
+  "source_folder": "03000000",
+  "plot_summary": "杨雄、石秀、时迁投奔梁山，夜宿祝家店。时迁偷鸡食之。店家查问，时迁百般戏弄。后草鸡大王赶至，时\n迁就擒。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 674,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "时迁上高台": 1
+      },
+      "characters": {
+        "时迁": 1,
+        "杨雄": 1,
+        "店伙": 1,
+        "店家": 1,
+        "石秀": 1
+      },
+      "links": [
+        {
+          "source": "时迁",
+          "target": "杨雄",
+          "value": 1
+        },
+        {
+          "source": "时迁",
+          "target": "石秀",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "时迁",
+          "value": 1
+        },
+        {
+          "source": "店伙",
+          "target": "时迁",
+          "value": 1
+        },
+        {
+          "source": "杨雄",
+          "target": "石秀",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "杨雄",
+          "value": 1
+        },
+        {
+          "source": "店伙",
+          "target": "杨雄",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "石秀",
+          "value": 1
+        },
+        {
+          "source": "店伙",
+          "target": "石秀",
+          "value": 1
+        },
+        {
+          "source": "店伙",
+          "target": "店家",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.059,
+      "locations": {
+        "时迁上高台": 1
+      },
+      "characters": {
+        "时迁": 1,
+        "店家": 1,
+        "草鸡大王": 1,
+        "四庄客": 1
+      },
+      "links": [
+        {
+          "source": "四庄客",
+          "target": "草鸡大王",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "草鸡大王",
+          "value": 1
+        },
+        {
+          "source": "时迁",
+          "target": "草鸡大王",
+          "value": 1
+        },
+        {
+          "source": "四庄客",
+          "target": "店家",
+          "value": 1
+        },
+        {
+          "source": "四庄客",
+          "target": "时迁",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "时迁",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 26,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.109,
+      "locations": {
+        "时迁上高台": 1
+      },
+      "characters": {
+        "时迁": 1,
+        "杨雄": 1,
+        "草鸡大王": 1,
+        "店家": 1,
+        "石秀": 1
+      },
+      "links": [
+        {
+          "source": "时迁",
+          "target": "石秀",
+          "value": 1
+        },
+        {
+          "source": "石秀",
+          "target": "草鸡大王",
+          "value": 1
+        },
+        {
+          "source": "杨雄",
+          "target": "石秀",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "石秀",
+          "value": 1
+        },
+        {
+          "source": "时迁",
+          "target": "草鸡大王",
+          "value": 1
+        },
+        {
+          "source": "时迁",
+          "target": "杨雄",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "时迁",
+          "value": 1
+        },
+        {
+          "source": "杨雄",
+          "target": "草鸡大王",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "草鸡大王",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "杨雄",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "时迁上高台",
+      "characters": [
+        {
+          "name": "时迁",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊咳！",
+          "rating": -0.25,
+          "role": "武丑"
+        },
+        {
+          "name": "杨雄",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "杨雄。",
+          "rating": -0.6,
+          "role": "老生"
+        },
+        {
+          "name": "石秀",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "弟兄们双双朝前往，",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "店家",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "啊咳！",
+          "rating": -0.333,
+          "role": "武生"
+        },
+        {
+          "name": "店伙",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：5位角色，674行",
+      "firstLine": 1,
+      "lastLine": 674,
+      "numLines": 674,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.06,
+        "sentiment": -0.061
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "时迁上高台",
+      "characters": [
+        {
+          "name": "草鸡大王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一磴儿两磴儿，上头挂着个红杏儿。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四庄客",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "店家",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "时迁放火烧庄！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "时迁",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武丑"
+        }
+      ],
+      "summary": "第二场：4位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.536,
+        "conflict": 0.667,
+        "sentiment": 0.191
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "时迁上高台",
+      "characters": [
+        {
+          "name": "石秀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "且住！这般时候，怎么还不见三弟到来？如何是好？",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "时迁",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "二位哥哥，店家让我打出三样宝贝来。",
+          "rating": 0.0,
+          "role": "武丑"
+        },
+        {
+          "name": "草鸡大王",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "哪里走！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "杨雄",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "店家",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第三场：5位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.755,
+        "conflict": 0.727,
+        "sentiment": 0.198
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "时迁",
+      "short": "时迁",
+      "key": "时迁",
+      "quote": "时迁 — 武丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 武丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "店家",
+      "short": "店家",
+      "key": "店家",
+      "quote": "店家 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨雄",
+      "short": "杨雄",
+      "key": "杨雄",
+      "quote": "杨雄 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "石秀",
+      "short": "石秀",
+      "key": "石秀",
+      "quote": "石秀 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "草鸡大王",
+      "short": "草鸡",
+      "key": "草鸡大王",
+      "quote": "草鸡大王 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "店伙",
+      "short": "店伙",
+      "key": "店伙",
+      "quote": "店伙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四庄客",
+      "short": "四庄",
+      "key": "四庄客",
+      "quote": "四庄客 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "时迁上高台",
+      "key": "时迁上高台",
+      "quote": "场景发生在时迁上高台"
+    }
+  ]
+}

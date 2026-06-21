@@ -1,0 +1,778 @@
+{
+  "title": "党人碑",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 13,
+  "num_locations": 2,
+  "source_file": "01032007_党人碑.json",
+  "source_folder": "01000000",
+  "plot_summary": "剧中事实，会有谢琼仙者，缙绅门第，君子小人之途，颇知辨别。至京师探亲，在旅馆中识一侠士傅人龙，\n深相结纳，时常聚首，杯酒言欢。一日独自闲游，入酒楼小饮，不觉酩酊。兴阑返寓，经过端礼门，醉眼模\n糊，见有物矗立道旁，阻住去路。细审之，则一石碑。读其文字，始知为党人碑。是小人之作为，籍以倾陷\n君子者。不禁怒发冲冠，拳足交加，碑乃倒地而断矣。看守之军卒，阻止不及。谢琼仙遂捉将官里去。蔡京\n命锁解枢密院童贯处，使之罗织罪名。童贯与蔡京实表里为奸者也。傅人龙因数日不见谢琼仙，疑惑不定，\n往酒楼解闷。与堂倌闲谈，提及醉汉打碑之事，问其姓名，以不知对；但云年少书生，在此独酌，身无钱钞，\n解一玉珮暂抵。傅人龙命取来一看，认出谢琼仙之物，乃大惊；急往枢密院，探听消息。适值相府差官，\n手捧令箭，来提犯人。傅人龙虚与周旋，两相契合；邀入妓馆中，用酒灌醉，盗得令箭。竟将谢琼仙诳出，\n一同逃逸。演至此遂闭幕焉。",
+  "performance_notes": "君子道长，小人道消。斯言也，古今不易之常理也。若小人得志，势焰鸱张，君子则不可问矣。元祐（哲宗\n年号）间，宣仁太后垂帘，擢用者，皆正直君子，如司马光、文彦博、吕公著等；先后为相，以新法为不便，\n凡阿附王安石者，尽行斥退。天下宁静，朝政蔚然可观。至徽宗时，蔡京当国，复行新法；前所斥退者，\n仍在朝堂。于是小人用事，而君子遭诬。元祐诸贤，目为奸党，已死者夺爵，又籍没家产，子弟不准入仕途；\n存在者，则黜之、放之、逐之，且有杀之者。崇宁（徽宗年号）元年九月，立“党人碑”于端礼门，遍镌\n姓名，共计有一百二十人（参考宋史即知详细）。可知君子与小人，势同水火。盖水固可以灭火，而火亦可\n以涸水，万无并存之理。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 49,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.693,
+      "locations": {
+        "我去至酒楼": 1
+      },
+      "characters": {
+        "傅人龙": 1,
+        "二军牢": 1,
+        "谢琼仙": 1
+      },
+      "links": [
+        {
+          "source": "二军牢",
+          "target": "谢琼仙",
+          "value": 1
+        },
+        {
+          "source": "傅人龙",
+          "target": "谢琼仙",
+          "value": 1
+        },
+        {
+          "source": "二军牢",
+          "target": "傅人龙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 105,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "我去至酒楼": 1
+      },
+      "characters": {
+        "酒保": 1,
+        "傅人龙": 1,
+        "龙套": 1
+      },
+      "links": [
+        {
+          "source": "傅人龙",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "傅人龙",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "酒保",
+          "target": "龙套",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 51,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.721,
+      "locations": {
+        "我去至酒楼": 1
+      },
+      "characters": {
+        "傅人龙": 1,
+        "差官乙": 1,
+        "差官甲": 1,
+        "二差官": 1,
+        "酒保": 1
+      },
+      "links": [
+        {
+          "source": "差官乙",
+          "target": "差官甲",
+          "value": 1
+        },
+        {
+          "source": "傅人龙",
+          "target": "差官甲",
+          "value": 1
+        },
+        {
+          "source": "二差官",
+          "target": "差官甲",
+          "value": 1
+        },
+        {
+          "source": "差官甲",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "傅人龙",
+          "target": "差官乙",
+          "value": 1
+        },
+        {
+          "source": "二差官",
+          "target": "差官乙",
+          "value": 1
+        },
+        {
+          "source": "差官乙",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "二差官",
+          "target": "傅人龙",
+          "value": 1
+        },
+        {
+          "source": "傅人龙",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "二差官",
+          "target": "酒保",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 78,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "烟花柳巷": 1
+      },
+      "characters": {
+        "傅人龙": 1,
+        "差官乙": 1,
+        "差官甲": 1,
+        "四女": 1,
+        "禁卒": 1,
+        "官差乙": 1,
+        "方氏": 1,
+        "中军": 1,
+        "谢琼仙": 1
+      },
+      "links": [
+        {
+          "source": "傅人龙",
+          "target": "方氏",
+          "value": 1
+        },
+        {
+          "source": "差官乙",
+          "target": "方氏",
+          "value": 1
+        },
+        {
+          "source": "官差乙",
+          "target": "方氏",
+          "value": 1
+        },
+        {
+          "source": "四女",
+          "target": "方氏",
+          "value": 1
+        },
+        {
+          "source": "差官甲",
+          "target": "方氏",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "方氏",
+          "value": 1
+        },
+        {
+          "source": "方氏",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "方氏",
+          "target": "谢琼仙",
+          "value": 1
+        },
+        {
+          "source": "傅人龙",
+          "target": "差官乙",
+          "value": 1
+        },
+        {
+          "source": "傅人龙",
+          "target": "官差乙",
+          "value": 1
+        },
+        {
+          "source": "傅人龙",
+          "target": "四女",
+          "value": 1
+        },
+        {
+          "source": "傅人龙",
+          "target": "差官甲",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "傅人龙",
+          "value": 1
+        },
+        {
+          "source": "傅人龙",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "傅人龙",
+          "target": "谢琼仙",
+          "value": 1
+        },
+        {
+          "source": "官差乙",
+          "target": "差官乙",
+          "value": 1
+        },
+        {
+          "source": "四女",
+          "target": "差官乙",
+          "value": 1
+        },
+        {
+          "source": "差官乙",
+          "target": "差官甲",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "差官乙",
+          "value": 1
+        },
+        {
+          "source": "差官乙",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "差官乙",
+          "target": "谢琼仙",
+          "value": 1
+        },
+        {
+          "source": "四女",
+          "target": "官差乙",
+          "value": 1
+        },
+        {
+          "source": "官差乙",
+          "target": "差官甲",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "官差乙",
+          "value": 1
+        },
+        {
+          "source": "官差乙",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "官差乙",
+          "target": "谢琼仙",
+          "value": 1
+        },
+        {
+          "source": "四女",
+          "target": "差官甲",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "四女",
+          "value": 1
+        },
+        {
+          "source": "四女",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "四女",
+          "target": "谢琼仙",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "差官甲",
+          "value": 1
+        },
+        {
+          "source": "差官甲",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "差官甲",
+          "target": "谢琼仙",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "禁卒",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "谢琼仙",
+          "value": 1
+        },
+        {
+          "source": "禁卒",
+          "target": "谢琼仙",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "我去至酒楼",
+      "characters": [
+        {
+          "name": "谢琼仙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "适才酒楼开怀饮，",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "二军牢",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呔！那一汉子，竟敢大胆，将石碑字迹损坏，是何道理？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "傅人龙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第一场：3位角色，49行",
+      "firstLine": 1,
+      "lastLine": 49,
+      "numLines": 49,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 1.0,
+        "sentiment": 0.36
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "我去至酒楼",
+      "characters": [
+        {
+          "name": "傅人龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "年少英雄胆气强，行侠仗义岂寻常。两眼放开天地小，双眉倒竖血腥香。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "酒保",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": 0.25,
+          "role": "丑"
+        },
+        {
+          "name": "龙套",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "酒来！酒来！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，105行",
+      "firstLine": 1,
+      "lastLine": 105,
+      "numLines": 105,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.609,
+        "sentiment": 0.216
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "我去至酒楼",
+      "characters": [
+        {
+          "name": "差官甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "领了相府令，",
+          "rating": 1.0,
+          "role": "副净"
+        },
+        {
+          "name": "差官乙",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "要斩打碑人。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "傅人龙",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "时才酒保对我讲，",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "二差官",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "请了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "酒保",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第三场：5位角色，51行",
+      "firstLine": 1,
+      "lastLine": 51,
+      "numLines": 51,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.817,
+        "conflict": 0.19,
+        "sentiment": 0.629
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "烟花柳巷",
+      "characters": [
+        {
+          "name": "方氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "身在烟花柳巷，惯接公子王孙。",
+          "rating": 0.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "傅人龙",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来此已是。你我一同进去。",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "差官乙",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "请坐，请坐！",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "官差乙",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "吾先吃三杯！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四女",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "你先吃一大杯。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "差官甲",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "你也吃一大杯。",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "negative",
+          "quote": "身为帅府传宣，执掌生杀大权。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "禁卒",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "做什么的？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "谢琼仙",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "negative",
+          "quote": "一霎时嚇得我三魂飘荡，",
+          "rating": -0.5,
+          "role": "生"
+        }
+      ],
+      "summary": "第四场：9位角色，78行",
+      "firstLine": 1,
+      "lastLine": 78,
+      "numLines": 78,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.347,
+        "sentiment": 0.279
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "谢琼仙",
+      "short": "谢琼",
+      "key": "谢琼仙",
+      "quote": "谢琼仙 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "傅人龙",
+      "short": "傅人",
+      "key": "傅人龙",
+      "quote": "傅人龙 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "酒保",
+      "short": "酒保",
+      "key": "酒保",
+      "quote": "酒保 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "差官甲",
+      "short": "差官",
+      "key": "差官甲",
+      "quote": "差官甲 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "差官乙",
+      "short": "差官",
+      "key": "差官乙",
+      "quote": "差官乙 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "方氏",
+      "short": "方氏",
+      "key": "方氏",
+      "quote": "方氏 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "龙套",
+      "short": "龙套",
+      "key": "龙套",
+      "quote": "龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二差官",
+      "short": "二差",
+      "key": "二差官",
+      "quote": "二差官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四女",
+      "short": "四女",
+      "key": "四女",
+      "quote": "四女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "禁卒",
+      "short": "禁卒",
+      "key": "禁卒",
+      "quote": "禁卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "官差乙",
+      "short": "官差",
+      "key": "官差乙",
+      "quote": "官差乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二军牢",
+      "short": "二军",
+      "key": "二军牢",
+      "quote": "二军牢 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "我去至酒楼",
+      "key": "我去至酒楼",
+      "quote": "场景发生在我去至酒楼"
+    },
+    {
+      "name": "烟花柳巷",
+      "key": "烟花柳巷",
+      "quote": "场景发生在烟花柳巷"
+    }
+  ]
+}

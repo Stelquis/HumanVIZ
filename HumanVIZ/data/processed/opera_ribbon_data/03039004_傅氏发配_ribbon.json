@@ -1,0 +1,179 @@
+{
+  "title": "傅氏发配",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "03039004_傅氏发配.json",
+  "source_folder": "03000000",
+  "plot_summary": "严世蕃将莫怀古之妻傅氏及其子莫豪发配边关。莫成之子莫文禄替莫豪前往。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 88,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "郭仪": 1,
+        "傅氏": 1,
+        "莫文禄": 1,
+        "张龙": 1
+      },
+      "links": [
+        {
+          "source": "傅氏",
+          "target": "张龙",
+          "value": 1
+        },
+        {
+          "source": "傅氏",
+          "target": "莫文禄",
+          "value": 1
+        },
+        {
+          "source": "傅氏",
+          "target": "郭仪",
+          "value": 1
+        },
+        {
+          "source": "张龙",
+          "target": "莫文禄",
+          "value": 1
+        },
+        {
+          "source": "张龙",
+          "target": "郭仪",
+          "value": 1
+        },
+        {
+          "source": "莫文禄",
+          "target": "郭仪",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "傅氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "苦哇！",
+          "rating": -0.636,
+          "role": "老旦"
+        },
+        {
+          "name": "张龙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "呔！拉着走！",
+          "rating": 0.455,
+          "role": ""
+        },
+        {
+          "name": "莫文禄",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "娘啊！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "郭仪",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "你怨地？",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "段落1：4位角色，88行",
+      "firstLine": 1,
+      "lastLine": 88,
+      "numLines": 88,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.241,
+        "sentiment": 0.136
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "傅氏",
+      "short": "傅氏",
+      "key": "傅氏",
+      "quote": "傅氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "郭仪",
+      "short": "郭仪",
+      "key": "郭仪",
+      "quote": "郭仪 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "莫文禄",
+      "short": "莫文",
+      "key": "莫文禄",
+      "quote": "莫文禄 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张龙",
+      "short": "张龙",
+      "key": "张龙",
+      "quote": "张龙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

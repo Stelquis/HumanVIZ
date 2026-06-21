@@ -1,0 +1,183 @@
+{
+  "title": "钓金龟",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01002010_钓金龟.json",
+  "source_folder": "01000000",
+  "plot_summary": "有张媪者，家贫穷，生二子，长子张仁习儒，已娶妻，妻不能耐贫。时起勃豁。媪不能堪。令分炊焉。次子\n张义，秉性纯孝，日往孟津河钓鱼度日，所得鱼，悉供菽水。某日在河下钓得一龟而甚重，磨之色甚灿烂，\n盖金龟也。归以孝母，母大喜，以为张义纯孝格天，故得此酬报。张义又告母，闻河下人传说，张仁进京应\n试已中第八名进士，莅任相符县。媪不信，使义问诸邻近，皆言之凿凿。官报为张仁妻接去，潜赴相符，置\n张义母子于不顾。母大骂张仁夫妇丧尽天良。既以所用之杖，令张义持往相符，痛击其兄，责以不孝之罪。\n张义乃痛苦愤怒而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 180,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "了阳关": 1
+      },
+      "characters": {
+        "张义": 1,
+        "康氏": 1,
+        "周家伯伯": 1
+      },
+      "links": [
+        {
+          "source": "康氏",
+          "target": "张义",
+          "value": 1
+        },
+        {
+          "source": "周家伯伯",
+          "target": "康氏",
+          "value": 1
+        },
+        {
+          "source": "周家伯伯",
+          "target": "张义",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.054,
+      "locations": {
+        "了阳关": 1
+      },
+      "characters": {
+        "张义": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "了阳关",
+      "characters": [
+        {
+          "name": "康氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "家无隔夜粮，饥寒实难当。",
+          "rating": 0.143,
+          "role": "老旦"
+        },
+        {
+          "name": "张义",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忙将河下事，报与母亲知。",
+          "rating": -0.2,
+          "role": "丑"
+        },
+        {
+          "name": "周家伯伯",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "正是做了官了。",
+          "rating": -0.5,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：3位角色，180行",
+      "firstLine": 1,
+      "lastLine": 180,
+      "numLines": 180,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.231,
+        "sentiment": 0.2
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "了阳关",
+      "characters": [
+        {
+          "name": "张义",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.566,
+        "conflict": 0.0,
+        "sentiment": 0.093
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "康氏",
+      "short": "康氏",
+      "key": "康氏",
+      "quote": "康氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张义",
+      "short": "张义",
+      "key": "张义",
+      "quote": "张义 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "周家伯伯",
+      "short": "周家",
+      "key": "周家伯伯",
+      "quote": "周家伯伯 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "了阳关",
+      "key": "了阳关",
+      "quote": "场景发生在了阳关"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "title": "张良辞朝",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "01017010_张良辞朝.json",
+  "source_folder": "01000000",
+  "plot_summary": "汉高祖刘邦忌心颇重，开国元老，往往不能保全。如韩信、彭越、英布诸人，不特身遭诛戮，且至赤族绝祀。\n所谓“飞鸟尽，良弓藏；狡兔死，走狗烹”。张良目击功臣之惨祸，遂有厌业尘世之心；又料刘邦之人格，\n可与同忧患，不可与同安乐。若为利禄所绊，势必至于有始无终。因此富贵功名，胸怀毫无芥蒂，得避杀\n之术，欲从赤松子游。张良入朝纳还冠带，辞意殷切。刘邦再三慰留，张良决意不从。刘邦心中，亦极依依\n不舍，而张良已飘然隐去矣。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 75,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "刘邦": 1,
+        "张良": 1
+      },
+      "links": [
+        {
+          "source": "刘邦",
+          "target": "张良",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 1,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.026,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "刘邦": 1,
+        "张良": 1
+      },
+      "links": [
+        {
+          "source": "刘邦",
+          "target": "张良",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘邦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "金殿当头紫阁重，仙人掌上玉芙蓉。太平天子朝元日，五色云车驾六龙。",
+          "rating": 0.667,
+          "role": "老生"
+        },
+        {
+          "name": "张良",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "念蒙圣上降旨宣，微臣慌忙到金銮。幞头象简往下跪，万岁三呼把主参。",
+          "rating": 0.091,
+          "role": "外"
+        }
+      ],
+      "summary": "第1场：2位角色，75行",
+      "firstLine": 1,
+      "lastLine": 75,
+      "numLines": 75,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.513,
+        "sentiment": 0.326
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘邦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "张良",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第2场：2位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.708,
+        "conflict": 0.0,
+        "sentiment": 0.2
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张良",
+      "short": "张良",
+      "key": "张良",
+      "quote": "张良 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘邦",
+      "short": "刘邦",
+      "key": "刘邦",
+      "quote": "刘邦 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

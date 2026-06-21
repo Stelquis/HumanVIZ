@@ -1,0 +1,831 @@
+{
+  "title": "盗宗卷",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 12,
+  "num_locations": 4,
+  "source_file": "01004004_盗宗卷.json",
+  "source_folder": "01000000",
+  "plot_summary": "汉惠帝时，高后吕雉以帝无子，阴取后宫美人子名之，以为太子。迨惠帝既崩，吕雉即挟立少帝，自临朝称\n制，大封诸吕为王者四人，为列侯者六人，又酖杀赵隐王如意，幽死赵幽王友，逼使赵共王恢自杀，并废其\n嗣，杀燕灵王建之子以绝其后，盖欲弱刘氏，大诸吕，而阴移刘祚于吕也。然高帝有八男，尚有代王恒（即\n文帝）、齐王肥及其诸子在，吕雉恐关东诸侯王，执宗谱以危少帝，并锄去诸吕之不当王而王者。时御史大\n夫北平侯张苍，职掌刘氏宗卷，及诸图书文籍，吕雉因向张苍绐取得宗卷而焚之。适关东诸王遣田子春至，\n向丞相陈平索卷，陈平遂勒张苍交出，否则罪将赤族。张苍备受陈平奚落，归家惧极，筹思无计，欲自刎，\n忽其子张秀玉，袖出宗卷呈张苍。张苍喜极，询其故，则张秀玉预料汉室，必有萧墙之祸，故先抄录全卷，\n以备不虞。金殿所焚者，即赝本也。张苍闻语，极赞赏其子，急携卷赴陈平府。陈平得卷亦大喜，张苍又窥\n破陈平藏留田子春事，遂以向所受陈平奚落之情状，还以奚落陈平，而卒与田子春等共谋去吕之策。",
+  "performance_notes": "此剧为须生之做工戏，彼此奚落一段，虽戏情太觉离奇，似乎不类，然作者却即於此处见长。曩时小叫天曾\n一演之，今惟贵俊卿为能擅扬耳。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 74,
+      "summary": "第一场；第二场",
+      "conflict": 0.2,
+      "importance": 0.453,
+      "locations": {
+        "苍上殿": 1,
+        "此已是相府": 1
+      },
+      "characters": {
+        "张苍": 1,
+        "太监": 1,
+        "田子春": 1,
+        "吕后": 1,
+        "陈平": 1
+      },
+      "links": [
+        {
+          "source": "吕后",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "张苍",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "张苍",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "张苍",
+          "target": "陈平",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 110,
+      "summary": "第三场；第四场",
+      "conflict": 1.134,
+      "importance": 0.673,
+      "locations": {
+        "此已是相府": 2
+      },
+      "characters": {
+        "张苍": 1,
+        "田子春": 1,
+        "吕后": 1,
+        "院子": 1,
+        "陈平": 1,
+        "二衙役": 1,
+        "衙役甲": 1,
+        "家院": 1,
+        "衙役乙": 1
+      },
+      "links": [
+        {
+          "source": "陈平",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "衙役甲",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "衙役乙",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "田子春",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "衙役甲",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "衙役乙",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "田子春",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "衙役乙",
+          "target": "衙役甲",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "衙役甲",
+          "value": 1
+        },
+        {
+          "source": "田子春",
+          "target": "衙役甲",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "衙役乙",
+          "value": 1
+        },
+        {
+          "source": "田子春",
+          "target": "衙役乙",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "田子春",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "张苍",
+          "value": 1
+        },
+        {
+          "source": "张苍",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "张苍",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "陈平",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 306,
+      "summary": "第五场；第六场",
+      "conflict": 0.048,
+      "importance": 1.0,
+      "locations": {
+        "此已是相府": 2
+      },
+      "characters": {
+        "张苍": 1,
+        "田子春": 1,
+        "张秀玉": 1,
+        "吕后": 1,
+        "陈平": 1,
+        "家院": 1,
+        "张夫人": 1
+      },
+      "links": [
+        {
+          "source": "张苍",
+          "target": "陈平",
+          "value": 2
+        },
+        {
+          "source": "家院",
+          "target": "陈平",
+          "value": 2
+        },
+        {
+          "source": "张夫人",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "张秀玉",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "田子春",
+          "target": "陈平",
+          "value": 2
+        },
+        {
+          "source": "吕后",
+          "target": "陈平",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "张苍",
+          "value": 2
+        },
+        {
+          "source": "张夫人",
+          "target": "张苍",
+          "value": 1
+        },
+        {
+          "source": "张秀玉",
+          "target": "张苍",
+          "value": 1
+        },
+        {
+          "source": "张苍",
+          "target": "田子春",
+          "value": 2
+        },
+        {
+          "source": "吕后",
+          "target": "张苍",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "张夫人",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "张秀玉",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "田子春",
+          "value": 2
+        },
+        {
+          "source": "吕后",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "张秀玉",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "田子春",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "张夫人",
+          "value": 1
+        },
+        {
+          "source": "张秀玉",
+          "target": "田子春",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "张秀玉",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "田子春",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "苍上殿",
+      "characters": [
+        {
+          "name": "吕后",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "身在深宫院，重整汉室锦江山。",
+          "rating": 0.5,
+          "role": "旦"
+        },
+        {
+          "name": "太监",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "宣张苍上殿。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张苍",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "忽听国太宣，迈步上金銮。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "陈平",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "金銮殿上红光现，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：4位角色，61行",
+      "firstLine": 1,
+      "lastLine": 61,
+      "numLines": 61,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.7,
+        "conflict": 0.32,
+        "sentiment": 0.44
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "此已是相府",
+      "characters": [
+        {
+          "name": "田子春",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "道家模样改装扮，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：1位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.499,
+        "conflict": 1.0,
+        "sentiment": 0.24
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "此已是相府",
+      "characters": [
+        {
+          "name": "陈平",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "老夫陈平。只因国太在金殿之上，火焚宗卷，莫非淮河有人前来盗卷，不免在",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "夜不收走上。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "衙役甲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "人平不语，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "衙役乙",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "水平不流。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二衙役",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "呼唤小人，有何吩咐？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "田子春",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "行来不觉天色晚，",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：6位角色，101行",
+      "firstLine": 1,
+      "lastLine": 101,
+      "numLines": 101,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.824,
+        "conflict": 0.244,
+        "sentiment": 0.774
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "此已是相府",
+      "characters": [
+        {
+          "name": "张苍",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "陈平有帖来相请，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "吕后",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "陈平",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第四场：4位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.477,
+        "conflict": 1.0,
+        "sentiment": -0.36
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "此已是相府",
+      "characters": [
+        {
+          "name": "陈平",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "淮河来了田子春，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "张苍",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "时才朝房来叙话，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来此已是相府。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "张夫人",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "老爷为何自刎身？",
+          "rating": -1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "张秀玉",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "正在后堂看经纶，",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "田子春",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "吕后",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第五场：7位角色，170行",
+      "firstLine": 1,
+      "lastLine": 170,
+      "numLines": 170,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.171,
+        "sentiment": 0.196
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "此已是相府",
+      "characters": [
+        {
+          "name": "张苍",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "走吓！",
+          "rating": -0.167,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在这里。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "陈平",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "吓，张苍你来了？",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "田子春",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第六场：4位角色，136行",
+      "firstLine": 1,
+      "lastLine": 136,
+      "numLines": 136,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.871,
+        "conflict": 0.175,
+        "sentiment": 0.244
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张苍",
+      "short": "张苍",
+      "key": "张苍",
+      "quote": "张苍 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陈平",
+      "short": "陈平",
+      "key": "陈平",
+      "quote": "陈平 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "田子春",
+      "short": "田子",
+      "key": "田子春",
+      "quote": "田子春 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张夫人",
+      "short": "张夫",
+      "key": "张夫人",
+      "quote": "张夫人 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张秀玉",
+      "short": "张秀",
+      "key": "张秀玉",
+      "quote": "张秀玉 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "吕后",
+      "short": "吕后",
+      "key": "吕后",
+      "quote": "吕后 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二衙役",
+      "short": "二衙",
+      "key": "二衙役",
+      "quote": "二衙役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "衙役甲",
+      "short": "衙役",
+      "key": "衙役甲",
+      "quote": "衙役甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "衙役乙",
+      "short": "衙役",
+      "key": "衙役乙",
+      "quote": "衙役乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "此已是相府",
+      "key": "此已是相府",
+      "quote": "场景发生在此已是相府"
+    },
+    {
+      "name": "苍上殿",
+      "key": "苍上殿",
+      "quote": "场景发生在苍上殿"
+    },
+    {
+      "name": "宣张苍上殿",
+      "key": "宣张苍上殿",
+      "quote": "场景发生在宣张苍上殿"
+    },
+    {
+      "name": "一同回府",
+      "key": "一同回府",
+      "quote": "场景发生在一同回府"
+    }
+  ]
+}

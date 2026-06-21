@@ -1,0 +1,240 @@
+{
+  "title": "叔宝表功",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "03006005_叔宝表功.json",
+  "source_folder": "03000000",
+  "plot_summary": "隋末，秦琼为历城马快，押送粮草至杨林大营，因在辕门发笑犯规，被发交唐公李渊审讯。秦琼在问对之间，\n夸耀自己本领，叙述当年在临潼山杀退杨广，救护李渊的故事；李渊知秦琼即是自己的恩人，遂留秦琼在\n营为将。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 154,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四龙套": 1,
+        "李渊": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "四龙套",
+          "target": "李渊",
+          "value": 1
+        },
+        {
+          "source": "李渊",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "秦琼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 77,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.975,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李渊": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "李渊",
+          "target": "秦琼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.076,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "秦琼": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李渊",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "只为打牙恨，时刻挂在心。",
+          "rating": 0.143,
+          "role": "生"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "喝令一声要斩首！",
+          "rating": 0.667,
+          "role": "生"
+        }
+      ],
+      "summary": "第1场：3位角色，154行",
+      "firstLine": 1,
+      "lastLine": 154,
+      "numLines": 154,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.467,
+        "sentiment": 0.243
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "乃是东宫太子杨广。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "李渊",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "他君臣因何交战？",
+          "rating": -0.2,
+          "role": "生"
+        }
+      ],
+      "summary": "第2场：2位角色，77行",
+      "firstLine": 1,
+      "lastLine": 77,
+      "numLines": 77,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.895,
+        "conflict": 0.455,
+        "sentiment": 0.163
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "得令！",
+          "rating": 1.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第3场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.565,
+        "conflict": 1.0,
+        "sentiment": 0.827
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "秦琼",
+      "short": "秦琼",
+      "key": "秦琼",
+      "quote": "秦琼 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李渊",
+      "short": "李渊",
+      "key": "李渊",
+      "quote": "李渊 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

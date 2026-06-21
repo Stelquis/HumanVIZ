@@ -1,0 +1,391 @@
+{
+  "title": "枣阳山",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "03033006_枣阳山.json",
+  "source_folder": "03000000",
+  "plot_summary": "隋末，历城县捕快秦琼，奉命护送钦差黄大人回京。路过枣阳山，为单雄信所阻。秦琼以“撒手锏”击单雄\n信下马。单雄信乃服秦琼，拜见黄大人。黄大人欲问斩，经秦琼求情得免。遂嘱焚山归农。单雄信应允，各\n自别去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.302,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "秦琼": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 78,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "黄大人": 1,
+        "单雄信": 1,
+        "秦琼": 1,
+        "四青袍": 1
+      },
+      "links": [
+        {
+          "source": "四青袍",
+          "target": "黄大人",
+          "value": 1
+        },
+        {
+          "source": "单雄信",
+          "target": "黄大人",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "黄大人",
+          "value": 1
+        },
+        {
+          "source": "单雄信",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "单雄信",
+          "target": "秦琼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 33,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.83,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "秦琼": 1,
+        "单雄信": 1
+      },
+      "links": [
+        {
+          "source": "单雄信",
+          "target": "秦琼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 36,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 0.906,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "黄大人": 1,
+        "四喽兵": 1,
+        "秦琼": 1,
+        "单雄信": 1
+      },
+      "links": [
+        {
+          "source": "秦琼",
+          "target": "黄大人",
+          "value": 1
+        },
+        {
+          "source": "单雄信",
+          "target": "黄大人",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "黄大人",
+          "value": 1
+        },
+        {
+          "source": "单雄信",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "单雄信",
+          "target": "四喽兵",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "太爷堂上发了签，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：1位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.595,
+        "conflict": 0.0,
+        "sentiment": 0.567
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "黄大人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "天下荒荒烟尘乱，",
+          "rating": 0.429,
+          "role": ""
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "啊！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "单雄信",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "众喽兵，将旗扯起！",
+          "rating": 0.6,
+          "role": "净"
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "秦叔宝催马到山前。",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，78行",
+      "firstLine": 1,
+      "lastLine": 78,
+      "numLines": 78,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.994,
+        "conflict": 0.556,
+        "sentiment": 0.406
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住！山寇来得厉害。他若追来，撒手锏伤他！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "单雄信",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "哪里走？",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：2位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.825,
+        "conflict": 0.333,
+        "sentiment": 0.557
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "黄大人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "壮士秦琼把贼战，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "带来雄信见恩官。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "单雄信",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "参见大人！死罪呀死罪！",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "四喽兵",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.836,
+        "conflict": 0.274,
+        "sentiment": 0.416
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "单雄信",
+      "short": "单雄",
+      "key": "单雄信",
+      "quote": "单雄信 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "秦琼",
+      "short": "秦琼",
+      "key": "秦琼",
+      "quote": "秦琼 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四喽兵",
+      "short": "四喽",
+      "key": "四喽兵",
+      "quote": "四喽兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄大人",
+      "short": "黄大",
+      "key": "黄大人",
+      "quote": "黄大人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

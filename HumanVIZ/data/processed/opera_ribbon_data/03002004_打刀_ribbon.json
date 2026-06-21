@@ -1,0 +1,373 @@
+{
+  "title": "打刀",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "03002004_打刀.json",
+  "source_folder": "03000000",
+  "plot_summary": "《打刀》是一个小型闹剧。故事是赵匡胤流浪之时，行为无赖，在铁匠吴衍能家定制钢刀；吴衍能夫妻忙碌\n一夜将刀打成。赵匡胤因无钱付价，反将吴衍能夫妻杀害逸去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 88,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.476,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "吴衍能": 1,
+        "吴妻": 1,
+        "赵匡胤": 1
+      },
+      "links": [
+        {
+          "source": "吴衍能",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "吴妻",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "吴妻",
+          "target": "吴衍能",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 191,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "吴衍能": 1,
+        "赵匡胤": 1,
+        "吴妻": 1
+      },
+      "links": [
+        {
+          "source": "吴妻",
+          "target": "吴衍能",
+          "value": 1
+        },
+        {
+          "source": "吴衍能",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "吴妻",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 441,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "吴衍能": 1,
+        "赵匡胤": 1,
+        "吴妻": 1
+      },
+      "links": [
+        {
+          "source": "吴妻",
+          "target": "吴衍能",
+          "value": 1
+        },
+        {
+          "source": "吴衍能",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "吴妻",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.108,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "吴衍能": 1,
+        "赵匡胤": 1,
+        "吴妻": 1
+      },
+      "links": [
+        {
+          "source": "吴妻",
+          "target": "吴衍能",
+          "value": 1
+        },
+        {
+          "source": "吴衍能",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "吴妻",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "走哇！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "吴衍能",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "啊哈！",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "吴妻",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "当家的！",
+          "rating": 0.333,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第1场：3位角色，88行",
+      "firstLine": 1,
+      "lastLine": 88,
+      "numLines": 88,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.807,
+        "conflict": 0.258,
+        "sentiment": -0.039
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "吴衍能",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有的。老河漂子，一冒儿又回去啦。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "吴妻",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "当家的。",
+          "rating": 0.2,
+          "role": "花旦"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！做什么来了？",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：3位角色，191行",
+      "firstLine": 1,
+      "lastLine": 191,
+      "numLines": 191,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.932,
+        "conflict": 0.074,
+        "sentiment": 0.246
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "吴衍能",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我揍你啦。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "吴妻",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "怎么啦？",
+          "rating": -0.091,
+          "role": "花旦"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "嗯哼！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：3位角色，441行",
+      "firstLine": 1,
+      "lastLine": 441,
+      "numLines": 441,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.063,
+        "sentiment": 0.195
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "吴衍能",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哎！赵匡胤你回来，你讲理不讲理？拿刀就走，不给钱！",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "吴妻",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "我说谁不讲理呀？",
+          "rating": -1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第4场：3位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.724,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "吴衍能",
+      "short": "吴衍",
+      "key": "吴衍能",
+      "quote": "吴衍能 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "吴妻",
+      "short": "吴妻",
+      "key": "吴妻",
+      "quote": "吴妻 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

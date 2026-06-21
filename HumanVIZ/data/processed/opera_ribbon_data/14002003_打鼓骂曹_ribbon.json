@@ -1,0 +1,828 @@
+{
+  "title": "打鼓骂曹",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 13,
+  "num_locations": 3,
+  "source_file": "14002003_打鼓骂曹.json",
+  "source_folder": "14000000",
+  "plot_summary": "三国时有一个才子姓祢名衡字正平，他的好友孔融特地将他荐给曹操。不料他的性情太骄傲，见着曹操，只\n长揖不拜。曹操非常不高兴，当面说他太没有礼貌，他也就老实不客气和曹操对骂起来。曹操就想出一个法\n子：第二天邀请群臣宴会，命祢衡作一名鼓吏击鼓助兴，藉此来羞辱他。祢衡也识破了他的计策，本想不答\n应他，后来一想，何不将计就计，自己拼着一死，当着众朝官在座大骂曹操一顿，使他下不了台，所以随即\n就答应了。第二天祢衡实行了他的计划，果然把曹操气的要命。张辽在旁边看不过意，拔剑要杀他，众官连\n忙劝住。曹操一想杀了他，别人倒要说自己不能容人，不如用借刀杀人的办法，将祢衡打发走。当即派祢衡\n到荆州去说降刘表，将功赎罪。祢衡也就知机趁此走开。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 148,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.557,
+      "importance": 0.72,
+      "locations": {
+        "番进得相府": 1,
+        "才进得相府": 2
+      },
+      "characters": {
+        "张辽": 1,
+        "曹操": 1,
+        "祢衡": 1,
+        "孔融": 1
+      },
+      "links": [
+        {
+          "source": "曹操",
+          "target": "祢衡",
+          "value": 2
+        },
+        {
+          "source": "孔融",
+          "target": "祢衡",
+          "value": 2
+        },
+        {
+          "source": "孔融",
+          "target": "曹操",
+          "value": 2
+        },
+        {
+          "source": "张辽",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "张辽",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "祢衡",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 263,
+      "summary": "第四场；第五场",
+      "conflict": 0.277,
+      "importance": 1.0,
+      "locations": {
+        "才进得相府": 1,
+        "此已是相府": 1
+      },
+      "characters": {
+        "朝官乙": 1,
+        "张辽": 1,
+        "朝官甲": 1,
+        "旗牌甲": 1,
+        "祢衡": 1,
+        "孔融": 1,
+        "朝官丁": 1,
+        "三朝官": 1,
+        "四朝官": 1,
+        "曹操": 1,
+        "朝官丙": 1,
+        "二旗牌": 1,
+        "旗牌乙": 1
+      },
+      "links": [
+        {
+          "source": "旗牌乙",
+          "target": "旗牌甲",
+          "value": 1
+        },
+        {
+          "source": "朝官乙",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "朝官丙",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "朝官丁",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "朝官甲",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "朝官甲",
+          "value": 1
+        },
+        {
+          "source": "朝官丙",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "朝官丁",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "朝官乙",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "朝官乙",
+          "value": 1
+        },
+        {
+          "source": "朝官丁",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "朝官丙",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "朝官丙",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "朝官丁",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "朝官丁",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "二旗牌",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "张辽",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "四朝官",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "三朝官",
+          "target": "孔融",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "张辽",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "四朝官",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "孔融",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "张辽",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "张辽",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "张辽",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "四朝官",
+          "target": "孔融",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "祢衡",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "孔融",
+          "target": "祢衡",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "番进得相府",
+      "characters": [
+        {
+          "name": "祢衡",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "天宽地阔，论机谋，智广才多。",
+          "rating": 1.0,
+          "role": "正生"
+        },
+        {
+          "name": "曹操",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "孔融",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.66,
+        "conflict": 1.0,
+        "sentiment": 0.813
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "才进得相府",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "诸侯不合刀兵闹，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "张辽",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "一封书信忙修好，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "孔融",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "祢衡先生我请到，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "祢衡",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 0.714,
+          "role": "正生"
+        }
+      ],
+      "summary": "第二场：4位角色，115行",
+      "firstLine": 1,
+      "lastLine": 115,
+      "numLines": 115,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.515,
+        "sentiment": 0.586
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "才进得相府",
+      "characters": [
+        {
+          "name": "祢衡",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "走哇。",
+          "rating": 1.0,
+          "role": "正生"
+        }
+      ],
+      "summary": "第三场：1位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.536,
+        "conflict": 0.0,
+        "sentiment": 0.256
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "才进得相府",
+      "characters": [
+        {
+          "name": "旗牌甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "旗牌乙",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.165,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "此已是相府",
+      "characters": [
+        {
+          "name": "朝官甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "日观战国策，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "朝官乙",
+          "importance": 0.9090909090909091,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "夜读国风诗。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "朝官丙",
+          "importance": 0.8181818181818182,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "要知今古事，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "朝官丁",
+          "importance": 0.7272727272727273,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "还诵五车书。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "三朝官",
+          "importance": 0.6363636363636364,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二旗牌",
+          "importance": 0.5454545454545454,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "列位大人来了。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张辽",
+          "importance": 0.45454545454545453,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "四朝官",
+          "importance": 0.36363636363636365,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "张将军，丞相有帖，相邀我等到此，烦劳通禀。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "曹操",
+          "importance": 0.2727272727272727,
+          "importance_rank": 9,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 0.714,
+          "role": "净"
+        },
+        {
+          "name": "祢衡",
+          "importance": 0.18181818181818182,
+          "importance_rank": 10,
+          "emotion": "positive",
+          "quote": "来也。",
+          "rating": 0.529,
+          "role": "正生"
+        },
+        {
+          "name": "孔融",
+          "importance": 0.09090909090909091,
+          "importance_rank": 11,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：11位角色，258行",
+      "firstLine": 1,
+      "lastLine": 258,
+      "numLines": 258,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.189,
+        "sentiment": 0.437
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "祢衡",
+      "short": "祢衡",
+      "key": "祢衡",
+      "quote": "祢衡 — 正生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "曹操",
+      "short": "曹操",
+      "key": "曹操",
+      "quote": "曹操 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "孔融",
+      "short": "孔融",
+      "key": "孔融",
+      "quote": "孔融 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张辽",
+      "short": "张辽",
+      "key": "张辽",
+      "quote": "张辽 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "朝官乙",
+      "short": "朝官",
+      "key": "朝官乙",
+      "quote": "朝官乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌甲",
+      "short": "旗牌",
+      "key": "旗牌甲",
+      "quote": "旗牌甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "朝官甲",
+      "short": "朝官",
+      "key": "朝官甲",
+      "quote": "朝官甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "朝官丁",
+      "short": "朝官",
+      "key": "朝官丁",
+      "quote": "朝官丁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌乙",
+      "short": "旗牌",
+      "key": "旗牌乙",
+      "quote": "旗牌乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "三朝官",
+      "short": "三朝",
+      "key": "三朝官",
+      "quote": "三朝官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四朝官",
+      "short": "四朝",
+      "key": "四朝官",
+      "quote": "四朝官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "朝官丙",
+      "short": "朝官",
+      "key": "朝官丙",
+      "quote": "朝官丙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二旗牌",
+      "short": "二旗",
+      "key": "二旗牌",
+      "quote": "二旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "才进得相府",
+      "key": "才进得相府",
+      "quote": "场景发生在才进得相府"
+    },
+    {
+      "name": "番进得相府",
+      "key": "番进得相府",
+      "quote": "场景发生在番进得相府"
+    },
+    {
+      "name": "此已是相府",
+      "key": "此已是相府",
+      "quote": "场景发生在此已是相府"
+    }
+  ]
+}

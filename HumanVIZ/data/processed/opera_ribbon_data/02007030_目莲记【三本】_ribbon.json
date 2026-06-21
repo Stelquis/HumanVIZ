@@ -1,0 +1,110 @@
+{
+  "title": "目莲记",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "02007030_目莲记【三本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "罗卜之父傅斋公在世，不但信佛甚笃，对其他神祇，亦均焚香供养。五瘟神赫赫相公兄弟，即其一例。傅斋\n公死后，刘青提认为行善并无善报，乃破戒开荤，打僧骂道，将五瘟神兄弟牌位一律毁弃。刘青提恶贯满盈，\n死期将至之前，赫赫相公兄弟闻讯，乃前来报复云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 138,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四小瘟神": 1,
+        "大瘟神": 1
+      },
+      "links": [
+        {
+          "source": "四小瘟神",
+          "target": "大瘟神",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "大瘟神",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "身在荒凉，身在荒凉，",
+          "rating": -0.667,
+          "role": "净"
+        },
+        {
+          "name": "四小瘟神",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "伤亡吓，伤亡吓！",
+          "rating": -0.25,
+          "role": ""
+        }
+      ],
+      "summary": "段落1：2位角色，138行",
+      "firstLine": 1,
+      "lastLine": 138,
+      "numLines": 138,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.142,
+        "sentiment": -0.149
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "大瘟神",
+      "short": "大瘟",
+      "key": "大瘟神",
+      "quote": "大瘟神 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "四小瘟神",
+      "short": "四小",
+      "key": "四小瘟神",
+      "quote": "四小瘟神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

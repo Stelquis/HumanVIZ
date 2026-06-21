@@ -1,0 +1,778 @@
+{
+  "title": "安五路",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 13,
+  "num_locations": 3,
+  "source_file": "01032009_安五路.json",
+  "source_folder": "01000000",
+  "plot_summary": "蜀汉后主嗣位，诸葛武侯受昭烈帝托孤之重，竭其股肱智力，翼辅朝廷。盖武侯未出茅庐，已知三分鼎峙，\n故偏安西蜀，正天数使然耳。然“兴复汉室，讨贼伐魏”，武侯未尝一日忘怀。蜀与魏为仇敌，理也、亦势\n也。魏曹丕自篡汉以后，屡欲拓土开疆，冀达统一之目的。用司马懿之谋，分五路进兵，图攻西蜀。蕞尔小\n邦万不能敌中原劲旅；蜀之亡在旦夕，不待智者而后知也。羽檄飞驰，蜀人惊骇无地，君若臣相顾失色。武\n侯忽然染病并不出府视事，朝中诸臣窃窃私议，皆谓武侯辜负先帝之知遇，不救国难。后主亦怀疑莫释；命\n董允、杜琼至丞相府探病，被门吏阻挡，不得入内。后主闻信之下，惶急至不可名状，只得亲自前往。将进\n府门，不准门吏通报，屏去侍从，缓步而入。直达后园池边，见武侯袖手观鱼。伫立良久，方与武侯接洽，\n岂知武侯成竹在胸，早已退去四路；仅存东吴一路，兵虽未发，不可漠然置之。须得一能言舌辩者，往说东\n吴，俾释两国之嫌，庶几安然无事矣！个中消息，尽情披露，后主始恍然：武侯之托病，实因军事计划须严\n守秘密，并无他故。可见出奇制胜、转危为安，惟武侯有此经济，非他人所能逆料也。后主欣然，辞别回宫，\n随命邓芝为使与吴主通好。吴主欲试邓芝胆识，殿前设一油鼎，火势熊熊，以恐吓之。而邓芝殊不介意，\n睨傲自若，陈说利害。吴主为其所动，与之订盟，遣张温至蜀答礼。",
+  "performance_notes": "是剧悉照《三国演义》编，详细事实，当参阅之可也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 115,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.011,
+      "importance": 0.939,
+      "locations": {
+        "晏驾白帝城": 3
+      },
+      "characters": {
+        "董允": 1,
+        "门官": 1,
+        "内侍": 1,
+        "探子": 1,
+        "杜琼": 1,
+        "刘禅": 1,
+        "孙权": 1,
+        "诸葛亮": 1,
+        "邓芝": 1
+      },
+      "links": [
+        {
+          "source": "刘禅",
+          "target": "杜琼",
+          "value": 1
+        },
+        {
+          "source": "刘禅",
+          "target": "董允",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "刘禅",
+          "value": 1
+        },
+        {
+          "source": "杜琼",
+          "target": "董允",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "杜琼",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "董允",
+          "value": 1
+        },
+        {
+          "source": "刘禅",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "刘禅",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "刘禅",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "刘禅",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "邓芝",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "邓芝",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 130,
+      "summary": "第四场；第五场",
+      "conflict": 0.416,
+      "importance": 1.0,
+      "locations": {
+        "晏驾白帝城": 1,
+        "阊阖开宫殿": 1
+      },
+      "characters": {
+        "张昭": 1,
+        "内侍": 1,
+        "探子": 1,
+        "张温": 1,
+        "步骘": 1,
+        "顾雍": 1,
+        "孙权": 1,
+        "诸葛亮": 1,
+        "邓芝": 1
+      },
+      "links": [
+        {
+          "source": "孙权",
+          "target": "邓芝",
+          "value": 2
+        },
+        {
+          "source": "孙权",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "步骘",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "张昭",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "孙权",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "张温",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "顾雍",
+          "value": 1
+        },
+        {
+          "source": "孙权",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "步骘",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "张温",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "顾雍",
+          "value": 1
+        },
+        {
+          "source": "探子",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "步骘",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "步骘",
+          "value": 1
+        },
+        {
+          "source": "步骘",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "张温",
+          "target": "步骘",
+          "value": 1
+        },
+        {
+          "source": "步骘",
+          "target": "顾雍",
+          "value": 1
+        },
+        {
+          "source": "步骘",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "张昭",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "张温",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "顾雍",
+          "value": 1
+        },
+        {
+          "source": "张昭",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "张温",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "顾雍",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "张温",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "邓芝",
+          "target": "顾雍",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "邓芝",
+          "value": 1
+        },
+        {
+          "source": "张温",
+          "target": "顾雍",
+          "value": 1
+        },
+        {
+          "source": "张温",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "顾雍",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "晏驾白帝城",
+      "characters": [
+        {
+          "name": "刘禅",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "三分鼎足，统汉业，灭魏剿吴。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "杜琼",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "忙将丞相事，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "董允",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启奏幼主知。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "内侍",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.579,
+        "conflict": 1.0,
+        "sentiment": 0.191
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "晏驾白帝城",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "这几载把我的心血消化，",
+          "rating": 0.111,
+          "role": "老生"
+        },
+        {
+          "name": "刘禅",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来在了相府下车辇，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "门官",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "迎接万岁！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "孙权",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "邓芝",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：5位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.914,
+        "conflict": 0.611,
+        "sentiment": 0.181
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "晏驾白帝城",
+      "characters": [
+        {
+          "name": "探子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "打探军情事，报与大王知。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.077,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "晏驾白帝城",
+      "characters": [
+        {
+          "name": "邓芝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "奉命离了西川道，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "孙权",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.397,
+        "conflict": 0.0,
+        "sentiment": 0.024
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "阊阖开宫殿",
+      "characters": [
+        {
+          "name": "孙权",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "累动刀兵，成霸业，威震江东。",
+          "rating": 0.714,
+          "role": "净"
+        },
+        {
+          "name": "探子",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "探子叩头！",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "步骘",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "且将西蜀事，报与主公知。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张昭",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "此事必是诸葛亮退兵之计，特命邓芝来作说客耳。",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "邓芝",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "张温",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "忽听一声宣，迈步上银安。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "顾雍",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：9位角色，117行",
+      "firstLine": 1,
+      "lastLine": 117,
+      "numLines": 117,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.543,
+        "sentiment": 0.44
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "邓芝",
+      "short": "邓芝",
+      "key": "邓芝",
+      "quote": "邓芝 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘禅",
+      "short": "刘禅",
+      "key": "刘禅",
+      "quote": "刘禅 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "孙权",
+      "short": "孙权",
+      "key": "孙权",
+      "quote": "孙权 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "张昭",
+      "short": "张昭",
+      "key": "张昭",
+      "quote": "张昭 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "顾雍",
+      "short": "顾雍",
+      "key": "顾雍",
+      "quote": "顾雍 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张温",
+      "short": "张温",
+      "key": "张温",
+      "quote": "张温 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "董允",
+      "short": "董允",
+      "key": "董允",
+      "quote": "董允 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门官",
+      "short": "门官",
+      "key": "门官",
+      "quote": "门官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内侍",
+      "short": "内侍",
+      "key": "内侍",
+      "quote": "内侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杜琼",
+      "short": "杜琼",
+      "key": "杜琼",
+      "quote": "杜琼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "步骘",
+      "short": "步骘",
+      "key": "步骘",
+      "quote": "步骘 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "晏驾白帝城",
+      "key": "晏驾白帝城",
+      "quote": "场景发生在晏驾白帝城"
+    },
+    {
+      "name": "阊阖开宫殿",
+      "key": "阊阖开宫殿",
+      "quote": "场景发生在阊阖开宫殿"
+    },
+    {
+      "name": "白帝城",
+      "key": "白帝城",
+      "quote": "场景发生在白帝城"
+    }
+  ]
+}

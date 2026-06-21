@@ -1,0 +1,453 @@
+{
+  "title": "义责王魁",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "70001205_义责王魁.json",
+  "source_folder": "70001000",
+  "plot_summary": "王魁与妓女敫桂英情笃义深，互盟誓愿。王魁入京高榜得中，入赘宰相之家，回书休弃敫桂英。老仆王中，\n见他忘恩负义，痛加斥责，脱下丝带，愤愤而去。",
+  "performance_notes": "本剧故事愿于《焚香记》，系根据上海市人民评弹团的演出本编写，初由吕仲执笔，在排练和演出中，周信\n芳同志对剧本做了较大的修改，对老仆王中的形象有所丰富。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 265,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.5,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "四青袍": 1,
+        "张千": 1,
+        "王魁": 1,
+        "王中": 1
+      },
+      "links": [
+        {
+          "source": "四青袍",
+          "target": "王中",
+          "value": 1
+        },
+        {
+          "source": "王中",
+          "target": "王魁",
+          "value": 2
+        },
+        {
+          "source": "张千",
+          "target": "王魁",
+          "value": 1
+        },
+        {
+          "source": "张千",
+          "target": "王中",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 190,
+      "summary": "第4场；第5场",
+      "conflict": 0.669,
+      "importance": 0.835,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "门官": 1,
+        "王中": 1,
+        "张千": 1,
+        "王魁": 1,
+        "小院子": 1,
+        "王背": 1
+      },
+      "links": [
+        {
+          "source": "小院子",
+          "target": "王中",
+          "value": 1
+        },
+        {
+          "source": "张千",
+          "target": "王中",
+          "value": 2
+        },
+        {
+          "source": "小院子",
+          "target": "张千",
+          "value": 1
+        },
+        {
+          "source": "王中",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "王魁",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "王背",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "张千",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "王中",
+          "target": "王魁",
+          "value": 1
+        },
+        {
+          "source": "王中",
+          "target": "王背",
+          "value": 1
+        },
+        {
+          "source": "王背",
+          "target": "王魁",
+          "value": 1
+        },
+        {
+          "source": "张千",
+          "target": "王魁",
+          "value": 1
+        },
+        {
+          "source": "张千",
+          "target": "王背",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王中",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哈哈！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "状元公回府！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：2位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.436,
+        "conflict": 1.0,
+        "sentiment": 0.796
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王中",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "相公，赴过琼林宴了？",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "王魁",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "是啊，赴过琼林宴了。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：2位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.647,
+        "conflict": 0.345,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王魁",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎呀！险些将相府许亲之事脱口而出，王中性情甚是固执，相府招亲之事还要",
+          "rating": -0.2,
+          "role": "小生"
+        },
+        {
+          "name": "王中",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "定是莱阳传书简，",
+          "rating": 0.8,
+          "role": "老生"
+        },
+        {
+          "name": "张千",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "新到状元府，人生路不熟。",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第3场：3位角色，223行",
+      "firstLine": 1,
+      "lastLine": 223,
+      "numLines": 223,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.258,
+        "sentiment": 0.296
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王中",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "好一个贤德敫桂英，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "小院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "老人家！这是相府差来的门官，前来迎接新贵人。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张千",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第4场：3位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.584,
+        "conflict": 0.0,
+        "sentiment": 0.813
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "门官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "奉了相爷之命，来此迎接新姑老爷。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "王中",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "如今堂上无客，你家新姑老爷不住此处。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "王魁",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "老人家，为何这样慌张？",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "王背",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "背信弃义，我怎能不讲？",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "张千",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第5场：5位角色，181行",
+      "firstLine": 1,
+      "lastLine": 181,
+      "numLines": 181,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.342,
+        "sentiment": 0.144
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王中",
+      "short": "王中",
+      "key": "王中",
+      "quote": "王中 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王魁",
+      "short": "王魁",
+      "key": "王魁",
+      "quote": "王魁 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张千",
+      "short": "张千",
+      "key": "张千",
+      "quote": "张千 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "门官",
+      "short": "门官",
+      "key": "门官",
+      "quote": "门官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小院子",
+      "short": "小院",
+      "key": "小院子",
+      "quote": "小院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王背",
+      "short": "王背",
+      "key": "王背",
+      "quote": "王背 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

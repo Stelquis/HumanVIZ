@@ -1,0 +1,978 @@
+{
+  "title": "汤怀自刎",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 6,
+  "num_scenes": 12,
+  "num_characters": 12,
+  "num_locations": 2,
+  "source_file": "03028005_汤怀自刎.json",
+  "source_folder": "03000000",
+  "plot_summary": "状元张久成，奉命赴金邦探望徽、钦二帝。岳飞麾下大将汤怀领命护送，沿途杀金邦二平章。及见金兀术，\n许言放行，绑走状元，逼令汤怀投降。汤怀寡不敌众，连劈二平章，最后自刎。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 91,
+      "summary": "第一场；第二场",
+      "conflict": 0.082,
+      "importance": 1.0,
+      "locations": {
+        "兀术上高台": 2
+      },
+      "characters": {
+        "四军士": 1,
+        "岳飞": 1,
+        "张久成": 1,
+        "汤怀": 1,
+        "中军": 1
+      },
+      "links": [
+        {
+          "source": "四军士",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "张久成",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "张久成",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "张久成",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 84,
+      "summary": "第三场；第四场",
+      "conflict": 0.576,
+      "importance": 1.0,
+      "locations": {
+        "兀术上高台": 2
+      },
+      "characters": {
+        "报子": 1,
+        "六平章": 1,
+        "岳飞": 1,
+        "张久成": 1,
+        "撒里银": 1,
+        "汤怀": 1,
+        "撒里金": 1,
+        "中军": 1,
+        "金兀术": 1
+      },
+      "links": [
+        {
+          "source": "报子",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "撒里金",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "撒里银",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "六平章",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "撒里金",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "撒里银",
+          "value": 1
+        },
+        {
+          "source": "六平章",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "撒里金",
+          "target": "撒里银",
+          "value": 1
+        },
+        {
+          "source": "六平章",
+          "target": "撒里金",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "撒里金",
+          "value": 1
+        },
+        {
+          "source": "六平章",
+          "target": "撒里银",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "撒里银",
+          "value": 1
+        },
+        {
+          "source": "六平章",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "张久成",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "张久成",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "张久成",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 9,
+      "summary": "第五场；第六场",
+      "conflict": 0.063,
+      "importance": 0.217,
+      "locations": {
+        "兀术上高台": 1,
+        "久成上高台": 1
+      },
+      "characters": {
+        "汤怀": 1,
+        "张久成": 1
+      },
+      "links": [
+        {
+          "source": "张久成",
+          "target": "汤怀",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 11,
+      "summary": "第七场；第八场",
+      "conflict": 0.263,
+      "importance": 0.265,
+      "locations": {
+        "兀术上高台": 1,
+        "久成上高台": 1
+      },
+      "characters": {
+        "汤怀": 1,
+        "张久成": 1
+      },
+      "links": [
+        {
+          "source": "张久成",
+          "target": "汤怀",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 31,
+      "summary": "第九场；第十场",
+      "conflict": 0.278,
+      "importance": 0.747,
+      "locations": {
+        "兀术上高台": 2
+      },
+      "characters": {
+        "汤怀": 1,
+        "张久成": 1,
+        "金兀术": 1,
+        "岳飞": 1
+      },
+      "links": [
+        {
+          "source": "汤怀",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "张久成",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "张久成",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "张久成",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 2,
+      "numLines": 23,
+      "summary": "第十一场；第十二场",
+      "conflict": 0.392,
+      "importance": 0.554,
+      "locations": {
+        "兀术上高台": 2
+      },
+      "characters": {
+        "汤怀": 1,
+        "金兀术": 1,
+        "四平章": 1,
+        "平章乙": 1
+      },
+      "links": [
+        {
+          "source": "平章乙",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "四平章",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "汤怀",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "四平章",
+          "target": "平章乙",
+          "value": 1
+        },
+        {
+          "source": "平章乙",
+          "target": "金兀术",
+          "value": 1
+        },
+        {
+          "source": "四平章",
+          "target": "金兀术",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "兀术上高台",
+      "characters": [
+        {
+          "name": "汤怀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "军士们，趱行者！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "四军士",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.476,
+        "conflict": 0.0,
+        "sentiment": 0.22
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "兀术上高台",
+      "characters": [
+        {
+          "name": "岳飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一点忠心，保我主，锦绣华夷。",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "汤怀",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "回营！",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "张久成",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "状元到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "中军",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "在。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，70行",
+      "firstLine": 1,
+      "lastLine": 70,
+      "numLines": 70,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.82,
+        "conflict": 0.519,
+        "sentiment": 0.302
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "兀术上高台",
+      "characters": [
+        {
+          "name": "金兀术",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "将士英豪，儿郎虎豹，军威浩，地动山摇，要把狼烟扫！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "报子",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "报！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "撒里金",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "在！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "撒里银",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "在！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "六平章",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "岳飞",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：6位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.664,
+        "conflict": 0.625,
+        "sentiment": -0.438
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "兀术上高台",
+      "characters": [
+        {
+          "name": "汤怀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "要学堂堂奇男子，须立人间稀有功。",
+          "rating": -0.25,
+          "role": "武生"
+        },
+        {
+          "name": "岳飞",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "战马可曾备齐？",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "中军",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张久成",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "用手接过酒一樽，",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，57行",
+      "firstLine": 1,
+      "lastLine": 57,
+      "numLines": 57,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.773,
+        "conflict": 0.708,
+        "sentiment": 0.138
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "兀术上高台",
+      "characters": [],
+      "summary": "第五场：0位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.004,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "久成上高台",
+      "characters": [
+        {
+          "name": "张久成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "适才离了朱仙镇，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "汤怀",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "探望二圣走一程。",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第六场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.429,
+        "conflict": 0.0,
+        "sentiment": 0.063
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "兀术上高台",
+      "characters": [],
+      "summary": "第七场：0位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.004,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "久成上高台",
+      "characters": [
+        {
+          "name": "张久成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "枪挑番奴丧了命，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "汤怀",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "状元公不必胆怕惊。",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第八场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.436,
+        "conflict": 0.0,
+        "sentiment": 0.263
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "兀术上高台",
+      "characters": [
+        {
+          "name": "金兀术",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第九场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.504,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "兀术上高台",
+      "characters": [
+        {
+          "name": "汤怀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "二人双双番营进。",
+          "rating": 0.5,
+          "role": "武生"
+        },
+        {
+          "name": "金兀术",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "你是何人马踏孤营？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "张久成",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "参见狼主！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "岳飞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第十场：4位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.808,
+        "conflict": 0.282,
+        "sentiment": 0.278
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "兀术上高台",
+      "characters": [
+        {
+          "name": "金兀术",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十一场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.504,
+        "conflict": 0.0,
+        "sentiment": 0.6
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "兀术上高台",
+      "characters": [
+        {
+          "name": "汤怀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "身为大将无本领，",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "平章乙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "看刀！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "四平章",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "汤怀已死！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "金兀术",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "汤怀自刎一死，真乃忠良也。受孤家一拜！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十二场：4位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.646,
+        "conflict": 0.0,
+        "sentiment": 0.208
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "汤怀",
+      "short": "汤怀",
+      "key": "汤怀",
+      "quote": "汤怀 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "岳飞",
+      "short": "岳飞",
+      "key": "岳飞",
+      "quote": "岳飞 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "金兀术",
+      "short": "金兀",
+      "key": "金兀术",
+      "quote": "金兀术 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四军士",
+      "short": "四军",
+      "key": "四军士",
+      "quote": "四军士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "六平章",
+      "short": "六平",
+      "key": "六平章",
+      "quote": "六平章 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四平章",
+      "short": "四平",
+      "key": "四平章",
+      "quote": "四平章 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张久成",
+      "short": "张久",
+      "key": "张久成",
+      "quote": "张久成 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "撒里银",
+      "short": "撒里",
+      "key": "撒里银",
+      "quote": "撒里银 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "撒里金",
+      "short": "撒里",
+      "key": "撒里金",
+      "quote": "撒里金 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "平章乙",
+      "short": "平章",
+      "key": "平章乙",
+      "quote": "平章乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "兀术上高台",
+      "key": "兀术上高台",
+      "quote": "场景发生在兀术上高台"
+    },
+    {
+      "name": "久成上高台",
+      "key": "久成上高台",
+      "quote": "场景发生在久成上高台"
+    }
+  ]
+}

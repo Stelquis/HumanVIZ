@@ -1,0 +1,320 @@
+{
+  "title": "双尽忠",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 3,
+  "source_file": "02008008_双尽忠【二本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "五代时周朝之李广（并非汉之李广），因功高封为奉命侯。奉旨出外放饷，公毕回朝。及抵皇城，城门紧闭，\n不准入内。询问护兵，始知系要斩正宫杨国真。李广大为惊讶。当既向护兵特别通融，得以入城。迳赴法\n场，与监斩官石彦龙交涉，要与国母杨国真面谈。石彦龙慑于李广威名，只好应允。杨国真乃将西凉不进贡，\n而进美人石美容，周义王宠幸，封为西宫，荒淫无度，不理朝政，入宫进谏，反诬为有意谋反，竟问斩刑\n云云。李广不得已，赴宫廷见周义王，力谏国母不能斩之原因，周义王不听，反将宝剑悬于午门。再有谏者，\n一同问罪。李广不得已，将其弟李文从校场找回，商议营救国母，毫无良策。其家将李福等，遂劝造反。\n最后李广为营救国母，乃先到法场，救出国母，并换刀杀死自己妻子，杀出皇城。中途李文中箭身亡。李广\n保护国母逃出后，途中遇虎冲散。杨国贞行至中途，腹痛难行，避至女娲庙内，产生太子。李广与国母失散\n后，遇半架山大王李刚，带领喽啰下山。交战之下，被李刚擒住，缚至山岗，预备作下酒之用。李刚之母闻\n知哭声，询问根由，发见李广即其丈夫之子，乃令李刚与李广相见。骨肉团圆，喜出望外。一日忽一乞婆带\n一幼子求见，即国母与皇太子。相离已整七年，李广于是奉命发兵，杀入庆阳时，周义王已死。乃由太子即\n位，李广封为一字并肩王，李刚封为太平侯云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 35,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.332,
+      "locations": {
+        "不开放皇城": 1
+      },
+      "characters": {
+        "李福": 1,
+        "李广": 1,
+        "城官": 1,
+        "四大铠": 1,
+        "杨国贞": 1
+      },
+      "links": [
+        {
+          "source": "李广",
+          "target": "李福",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "李广",
+          "value": 1
+        },
+        {
+          "source": "城官",
+          "target": "李广",
+          "value": 1
+        },
+        {
+          "source": "李广",
+          "target": "杨国贞",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "李福",
+          "value": 1
+        },
+        {
+          "source": "城官",
+          "target": "李福",
+          "value": 1
+        },
+        {
+          "source": "李福",
+          "target": "杨国贞",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "城官",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "杨国贞",
+          "value": 1
+        },
+        {
+          "source": "城官",
+          "target": "杨国贞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 176,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "不开放皇城": 1
+      },
+      "characters": {
+        "杨国贞": 1,
+        "李广": 1,
+        "石彦龙": 1
+      },
+      "links": [
+        {
+          "source": "李广",
+          "target": "杨国贞",
+          "value": 1
+        },
+        {
+          "source": "杨国贞",
+          "target": "石彦龙",
+          "value": 1
+        },
+        {
+          "source": "李广",
+          "target": "石彦龙",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "不开放皇城",
+      "characters": [
+        {
+          "name": "李广",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "众将官，就此回朝。",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "李福",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "前道为何不行？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "四大铠",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来此皇城。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "城官",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "城内斩人。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨国贞",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：5位角色，35行",
+      "firstLine": 1,
+      "lastLine": 35,
+      "numLines": 35,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.716,
+        "conflict": 0.27,
+        "sentiment": -0.038
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "不开放皇城",
+      "characters": [
+        {
+          "name": "杨国贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "我好比睡梦人阴司行走，",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "李广",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "撩袍端带法场走，",
+          "rating": 0.4,
+          "role": "老生"
+        },
+        {
+          "name": "石彦龙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "乱闯席棚礼不周。",
+          "rating": 0.25,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：3位角色，176行",
+      "firstLine": 1,
+      "lastLine": 176,
+      "numLines": 176,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.299,
+        "sentiment": 0.253
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李广",
+      "short": "李广",
+      "key": "李广",
+      "quote": "李广 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨国贞",
+      "short": "杨国",
+      "key": "杨国贞",
+      "quote": "杨国贞 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "石彦龙",
+      "short": "石彦",
+      "key": "石彦龙",
+      "quote": "石彦龙 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "李福",
+      "short": "李福",
+      "key": "李福",
+      "quote": "李福 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "城官",
+      "short": "城官",
+      "key": "城官",
+      "quote": "城官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四大铠",
+      "short": "四大",
+      "key": "四大铠",
+      "quote": "四大铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "不开放皇城",
+      "key": "不开放皇城",
+      "quote": "场景发生在不开放皇城"
+    },
+    {
+      "name": " 来此皇城",
+      "key": " 来此皇城",
+      "quote": "场景发生在 来此皇城"
+    },
+    {
+      "name": "：来此皇城",
+      "key": "：来此皇城",
+      "quote": "场景发生在：来此皇城"
+    }
+  ]
+}

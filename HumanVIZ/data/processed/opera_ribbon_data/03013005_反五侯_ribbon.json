@@ -1,0 +1,929 @@
+{
+  "title": "反五侯",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 11,
+  "num_characters": 14,
+  "num_locations": 1,
+  "source_file": "03013005_反五侯.json",
+  "source_folder": "03000000",
+  "plot_summary": "五代时，诸侯乱争。赫连图与李克用交战，为李克用之义子李存孝所败。赫连图部将高思继英勇异常，请令\n出战。李存孝时正患病，为诸兄所激，力疾迎敌；终将高思继擒获，并劝服归降。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 66,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.687,
+      "importance": 0.924,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "赫连图": 1,
+        "郭从周": 1,
+        "高思继": 1,
+        "四小军": 1
+      },
+      "links": [
+        {
+          "source": "赫连图",
+          "target": "高思继",
+          "value": 1
+        },
+        {
+          "source": "四小军",
+          "target": "高思继",
+          "value": 1
+        },
+        {
+          "source": "郭从周",
+          "target": "高思继",
+          "value": 1
+        },
+        {
+          "source": "四小军",
+          "target": "赫连图",
+          "value": 1
+        },
+        {
+          "source": "赫连图",
+          "target": "郭从周",
+          "value": 1
+        },
+        {
+          "source": "四小军",
+          "target": "郭从周",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 57,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.136,
+      "importance": 0.798,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "李存孝": 1,
+        "大铠甲": 1,
+        "四大铠": 1,
+        "高思继": 1,
+        "赫连图": 1
+      },
+      "links": [
+        {
+          "source": "四大铠",
+          "target": "大铠甲",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "赫连图",
+          "value": 1
+        },
+        {
+          "source": "大铠甲",
+          "target": "赫连图",
+          "value": 1
+        },
+        {
+          "source": "李存孝",
+          "target": "赫连图",
+          "value": 2
+        },
+        {
+          "source": "赫连图",
+          "target": "高思继",
+          "value": 1
+        },
+        {
+          "source": "李存孝",
+          "target": "高思继",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 87,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.454,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "李嗣源": 1,
+        "李存孝": 1,
+        "李存信": 1,
+        "老军": 1,
+        "李克用": 1,
+        "高思继": 1,
+        "太保乙": 1,
+        "太保甲": 1
+      },
+      "links": [
+        {
+          "source": "李嗣源",
+          "target": "李存信",
+          "value": 1
+        },
+        {
+          "source": "李嗣源",
+          "target": "高思继",
+          "value": 1
+        },
+        {
+          "source": "李存信",
+          "target": "高思继",
+          "value": 1
+        },
+        {
+          "source": "李克用",
+          "target": "老军",
+          "value": 1
+        },
+        {
+          "source": "李克用",
+          "target": "李存孝",
+          "value": 2
+        },
+        {
+          "source": "李存孝",
+          "target": "老军",
+          "value": 1
+        },
+        {
+          "source": "太保乙",
+          "target": "太保甲",
+          "value": 1
+        },
+        {
+          "source": "太保乙",
+          "target": "李存孝",
+          "value": 1
+        },
+        {
+          "source": "太保乙",
+          "target": "李克用",
+          "value": 1
+        },
+        {
+          "source": "太保乙",
+          "target": "高思继",
+          "value": 1
+        },
+        {
+          "source": "太保甲",
+          "target": "李存孝",
+          "value": 1
+        },
+        {
+          "source": "太保甲",
+          "target": "李克用",
+          "value": 1
+        },
+        {
+          "source": "太保甲",
+          "target": "高思继",
+          "value": 1
+        },
+        {
+          "source": "李存孝",
+          "target": "高思继",
+          "value": 1
+        },
+        {
+          "source": "李克用",
+          "target": "高思继",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 147,
+      "summary": "第十场；第十场",
+      "conflict": 0.282,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "中军": 1,
+        "高思继": 1,
+        "李克用": 1,
+        "李存孝": 1
+      },
+      "links": [
+        {
+          "source": "李克用",
+          "target": "李存孝",
+          "value": 2
+        },
+        {
+          "source": "李克用",
+          "target": "高思继",
+          "value": 2
+        },
+        {
+          "source": "李存孝",
+          "target": "高思继",
+          "value": 2
+        },
+        {
+          "source": "中军",
+          "target": "李克用",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "高思继",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "李存孝",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "郭从周",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "定下牢笼套，逼反栋梁臣。",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.115,
+        "conflict": 0.0,
+        "sentiment": -0.42
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "高思继",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "白盔白甲白旌旗，刀枪剑戟放光辉。上阵全凭银战杆，万马营中无人敌。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "赫连图",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "本帅，赫连图。在朱温驾前为臣，官拜统兵大元帅，奉旨镇守五路等处。今大",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "四小军",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "先行进帐！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郭从周",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "圣旨下！",
+          "rating": 0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，53行",
+      "firstLine": 1,
+      "lastLine": 53,
+      "numLines": 53,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.567,
+        "conflict": 0.328,
+        "sentiment": 0.172
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "高思继",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "在营盘领了元帅令，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.518,
+        "conflict": 0.0,
+        "sentiment": 0.267
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "四大铠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "马来！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大铠甲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "众位将军请了。元帅有令，命我等辕门伺候。请！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赫连图",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "怒气高千丈，李鸦太不良。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.335,
+        "conflict": 0.0,
+        "sentiment": 0.164
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李存孝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "自幼生来胆气高，扭断朱温带一条。生擒活捉孟觉海，降龙伏虎任逍遥。",
+          "rating": 0.2,
+          "role": "武生"
+        },
+        {
+          "name": "赫连图",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来将通名！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：2位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.463,
+        "conflict": 0.93,
+        "sentiment": 0.3
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赫连图",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "大战一场力不加，",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "高思继",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "免战牌高挂在营门口，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "李存孝",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第六场：3位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.612,
+        "conflict": 1.0,
+        "sentiment": 0.218
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李嗣源",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "俺李嗣源。奉父王之命，大战高思继。马上加鞭！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李存信",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "俺李存信。奉父王之命，生擒高思继。马上加鞭！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "高思继",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第七场：3位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.446,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李克用",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "闷坐虎帐，心内惊，吾儿染病。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "老军",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李存孝",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第八场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.597,
+        "conflict": 0.0,
+        "sentiment": 0.4
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "太保乙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "对面山上乌鸦叫，",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "太保甲",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "炮炸的窟窿炮知道。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李存孝",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "寒病打倒李存孝！",
+          "rating": -0.333,
+          "role": "武生"
+        },
+        {
+          "name": "李克用",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "迈步来在营门口，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "高思继",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第九场：5位角色，70行",
+      "firstLine": 1,
+      "lastLine": 70,
+      "numLines": 70,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.876,
+        "conflict": 0.704,
+        "sentiment": -0.054
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李克用",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "我儿不必逞刚强，",
+          "rating": -0.5,
+          "role": "净"
+        },
+        {
+          "name": "李存孝",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "父王说话理太差，",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "高思继",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来将通名！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第十场：3位角色，57行",
+      "firstLine": 1,
+      "lastLine": 57,
+      "numLines": 57,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.844,
+        "conflict": 0.678,
+        "sentiment": 0.293
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "中军",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "报！王爷得胜！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "李克用",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "请王爷下马！",
+          "rating": 0.6,
+          "role": "净"
+        },
+        {
+          "name": "高思继",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "张良、韩信并萧何，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "李存孝",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "刀下留人！",
+          "rating": 0.5,
+          "role": "武生"
+        }
+      ],
+      "summary": "第十场：4位角色，90行",
+      "firstLine": 1,
+      "lastLine": 90,
+      "numLines": 90,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.927,
+        "conflict": 0.741,
+        "sentiment": 0.575
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李存孝",
+      "short": "李存",
+      "key": "李存孝",
+      "quote": "李存孝 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "高思继",
+      "short": "高思",
+      "key": "高思继",
+      "quote": "高思继 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李克用",
+      "short": "李克",
+      "key": "李克用",
+      "quote": "李克用 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "李嗣源",
+      "short": "李嗣",
+      "key": "李嗣源",
+      "quote": "李嗣源 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "郭从周",
+      "short": "郭从",
+      "key": "郭从周",
+      "quote": "郭从周 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李存信",
+      "short": "李存",
+      "key": "李存信",
+      "quote": "李存信 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大铠甲",
+      "short": "大铠",
+      "key": "大铠甲",
+      "quote": "大铠甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四大铠",
+      "short": "四大",
+      "key": "四大铠",
+      "quote": "四大铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老军",
+      "short": "老军",
+      "key": "老军",
+      "quote": "老军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "太保乙",
+      "short": "太保",
+      "key": "太保乙",
+      "quote": "太保乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赫连图",
+      "short": "赫连",
+      "key": "赫连图",
+      "quote": "赫连图 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四小军",
+      "short": "四小",
+      "key": "四小军",
+      "quote": "四小军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "太保甲",
+      "short": "太保",
+      "key": "太保甲",
+      "quote": "太保甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

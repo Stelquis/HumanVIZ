@@ -1,0 +1,276 @@
+{
+  "title": "送灯",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "03029003_送灯.json",
+  "source_folder": "03000000",
+  "plot_summary": "张继贤赴试遇虎，为壮士曾清所救，遂结金兰。曾清妹桂娟，色艳过人，恶霸万权强欲为婚。曾清扮女替妹，\n并嘱母贾氏许妹与张继贤。及提亲，张继贤不允。贾氏命桂娟夜晚送灯，张继贤见之惊喜，遂拜天地。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 46,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.758,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张继贤": 1,
+        "贾氏": 1
+      },
+      "links": [
+        {
+          "source": "张继贤",
+          "target": "贾氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 32,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.527,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张继贤": 1,
+        "贾桂娟": 1,
+        "贾氏": 1
+      },
+      "links": [
+        {
+          "source": "张继贤",
+          "target": "贾氏",
+          "value": 1
+        },
+        {
+          "source": "张继贤",
+          "target": "贾桂娟",
+          "value": 1
+        },
+        {
+          "source": "贾桂娟",
+          "target": "贾氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 104,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "贾桂娟": 1,
+        "贾氏": 1,
+        "张继贤": 1
+      },
+      "links": [
+        {
+          "source": "张继贤",
+          "target": "贾桂娟",
+          "value": 1
+        },
+        {
+          "source": "贾桂娟",
+          "target": "贾氏",
+          "value": 1
+        },
+        {
+          "source": "张继贤",
+          "target": "贾氏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张继贤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "笔底生花登池砚，半夜黄昏独自眠。",
+          "rating": -0.143,
+          "role": "小生"
+        },
+        {
+          "name": "贾氏",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "家有绢丝做生涯，织就绫罗与缎纱。",
+          "rating": 0.2,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第1场：2位角色，46行",
+      "firstLine": 1,
+      "lastLine": 46,
+      "numLines": 46,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.827,
+        "conflict": 0.702,
+        "sentiment": 0.043
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张继贤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "方才那妈妈说，少时有人送灯前来。话便一句，叫小生好难解也！",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "贾氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "随娘来！",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "贾桂娟",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "两道娥眉懒放开，",
+          "rating": 1.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第2场：3位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.858,
+        "conflict": 0.811,
+        "sentiment": 0.796
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "贾桂娟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "母亲转来！母亲转来啊！嗳，我那不明白的娘啊！",
+          "rating": 0.714,
+          "role": "花旦"
+        },
+        {
+          "name": "张继贤",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "呀！",
+          "rating": 0.6,
+          "role": "小生"
+        },
+        {
+          "name": "贾氏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "咳！你们俩做的好事啊！气死老娘了。",
+          "rating": 0.333,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第3场：3位角色，104行",
+      "firstLine": 1,
+      "lastLine": 104,
+      "numLines": 104,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.088,
+        "sentiment": 0.439
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张继贤",
+      "short": "张继",
+      "key": "张继贤",
+      "quote": "张继贤 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "贾桂娟",
+      "short": "贾桂",
+      "key": "贾桂娟",
+      "quote": "贾桂娟 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "贾氏",
+      "short": "贾氏",
+      "key": "贾氏",
+      "quote": "贾氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

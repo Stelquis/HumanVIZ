@@ -1,0 +1,387 @@
+{
+  "title": "快活林",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 7,
+  "num_locations": 2,
+  "source_file": "02009035_快活林.json",
+  "source_folder": "02000000",
+  "plot_summary": "一苏州算命者与一山西商人，相伴至快活林酒家喝酒。正畅饮时，武松带醉亦来。既要酒保斟酒，又要妓女\n陪酒，百般挑剔，女主人已不耐烦。后武松又要女主人陪酒，女主人无奈，竟至动武，被武松压入酒缸。其\n丈夫蒋忠与其门徒赶至，亦被武松打退，最后武松扬长而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 200,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "里二寺": 1
+      },
+      "characters": {
+        "武松": 1,
+        "蒋忠": 1,
+        "老西": 1,
+        "女主人": 1,
+        "陆怀": 1,
+        "蛮子": 1
+      },
+      "links": [
+        {
+          "source": "老西",
+          "target": "蛮子",
+          "value": 1
+        },
+        {
+          "source": "蛮子",
+          "target": "陆怀",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "蛮子",
+          "value": 1
+        },
+        {
+          "source": "女主人",
+          "target": "蛮子",
+          "value": 1
+        },
+        {
+          "source": "蒋忠",
+          "target": "蛮子",
+          "value": 1
+        },
+        {
+          "source": "老西",
+          "target": "陆怀",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "老西",
+          "value": 1
+        },
+        {
+          "source": "女主人",
+          "target": "老西",
+          "value": 1
+        },
+        {
+          "source": "老西",
+          "target": "蒋忠",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "陆怀",
+          "value": 1
+        },
+        {
+          "source": "女主人",
+          "target": "陆怀",
+          "value": 1
+        },
+        {
+          "source": "蒋忠",
+          "target": "陆怀",
+          "value": 1
+        },
+        {
+          "source": "女主人",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "蒋忠",
+          "value": 1
+        },
+        {
+          "source": "女主人",
+          "target": "蒋忠",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 26,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.23,
+      "locations": {
+        "里二寺": 1
+      },
+      "characters": {
+        "蒋忠": 1,
+        "武松": 1,
+        "四下手": 1,
+        "陆怀": 1
+      },
+      "links": [
+        {
+          "source": "四下手",
+          "target": "蒋忠",
+          "value": 1
+        },
+        {
+          "source": "蒋忠",
+          "target": "陆怀",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "蒋忠",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "陆怀",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "陆怀",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "里二寺",
+      "characters": [
+        {
+          "name": "蛮子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "子评生理，猫鱼大虾米。",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "老西",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "走吓。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "陆怀",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "吓，太爷来了，太爷来了。",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "走吓。",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "女主人",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "陆怀。那一大汉，他说什么？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蒋忠",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：6位角色，200行",
+      "firstLine": 1,
+      "lastLine": 200,
+      "numLines": 200,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.075,
+        "sentiment": 0.233
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "里二寺",
+      "characters": [
+        {
+          "name": "蒋忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "众徒弟们。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "吓。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "陆怀",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "大爷，大事不好了。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "正是某家。",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第二场：4位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.769,
+        "conflict": 0.333,
+        "sentiment": 0.475
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "武松",
+      "short": "武松",
+      "key": "武松",
+      "quote": "武松 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "蒋忠",
+      "short": "蒋忠",
+      "key": "蒋忠",
+      "quote": "蒋忠 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "老西",
+      "short": "老西",
+      "key": "老西",
+      "quote": "老西 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "女主人",
+      "short": "女主",
+      "key": "女主人",
+      "quote": "女主人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陆怀",
+      "short": "陆怀",
+      "key": "陆怀",
+      "quote": "陆怀 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "蛮子",
+      "short": "蛮子",
+      "key": "蛮子",
+      "quote": "蛮子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "里二寺",
+      "key": "里二寺",
+      "quote": "场景发生在里二寺"
+    },
+    {
+      "name": "货到里二寺",
+      "key": "货到里二寺",
+      "quote": "场景发生在货到里二寺"
+    }
+  ]
+}

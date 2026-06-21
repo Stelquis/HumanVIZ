@@ -1,0 +1,262 @@
+{
+  "title": "目莲记",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02007029_目莲记【二本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "罗卜出外经商，倏忽三年，因思母心切，转返故里。途中遇其父执李某，告知其母破戒骂僧等事。罗卜闻听\n之下，不禁晕倒。其母闻子归来，匆忙赶至。见其子晕倒，以为定系李某拨弄是非，将李某大骂。罗卜醒后，\n极力为李某开释，谓见父执如见其父，不禁忧从中来，突然晕倒。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.163,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "罗卜": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 135,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "罗卜": 1,
+        "李老丈": 1,
+        "金奴": 1,
+        "樵夫": 1,
+        "刘青提": 1
+      },
+      "links": [
+        {
+          "source": "李老丈",
+          "target": "樵夫",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "罗卜",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "金奴",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "樵夫",
+          "value": 1
+        },
+        {
+          "source": "李老丈",
+          "target": "罗卜",
+          "value": 1
+        },
+        {
+          "source": "李老丈",
+          "target": "金奴",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "李老丈",
+          "value": 1
+        },
+        {
+          "source": "罗卜",
+          "target": "金奴",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "罗卜",
+          "value": 1
+        },
+        {
+          "source": "刘青提",
+          "target": "金奴",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "罗卜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "归去来兮，",
+          "rating": -1.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第一场：1位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.582,
+        "conflict": 0.0,
+        "sentiment": -0.2
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "樵夫",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "老爷子，我上山去砍柴，看见罗卜官人，三步一拜，拜回来来咧。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "李老丈",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "日月如飞，如见梅花三五枝，",
+          "rating": -0.2,
+          "role": "外"
+        },
+        {
+          "name": "罗卜",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "难报春晖，",
+          "rating": -0.714,
+          "role": "生"
+        },
+        {
+          "name": "金奴",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "是李胡子。",
+          "rating": 0.0,
+          "role": "小旦"
+        },
+        {
+          "name": "刘青提",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "闻儿至，喜上眉，闻儿至，喜上眉，",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第二场：5位角色，135行",
+      "firstLine": 1,
+      "lastLine": 135,
+      "numLines": 135,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.504,
+        "sentiment": -0.036
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "罗卜",
+      "short": "罗卜",
+      "key": "罗卜",
+      "quote": "罗卜 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李老丈",
+      "short": "李老",
+      "key": "李老丈",
+      "quote": "李老丈 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘青提",
+      "short": "刘青",
+      "key": "刘青提",
+      "quote": "刘青提 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "金奴",
+      "short": "金奴",
+      "key": "金奴",
+      "quote": "金奴 — 小旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "樵夫",
+      "short": "樵夫",
+      "key": "樵夫",
+      "quote": "樵夫 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -67,7 +67,7 @@ function DataOverviewContent({ showProjectSidebar = true }: DataOverviewContentP
                     </tr>
                     <tr>
                       <td>Task 4</td>
-                      <td>叙事结构分析与模式总结</td>
+                      <td>结构分析与模式总结</td>
                       <td>识别剧情发展关键阶段，刻画剧情起伏与节奏变化</td>
                     </tr>
                     <tr>

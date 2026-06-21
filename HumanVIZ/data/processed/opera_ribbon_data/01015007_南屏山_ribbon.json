@@ -1,0 +1,528 @@
+{
+  "title": "南屏山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "01015007_南屏山.json",
+  "source_folder": "01000000",
+  "plot_summary": "考《三国演义》：曹操下荆、襄，败刘备，统大军八十三万伐吴，意欲平吞江东。吴主孙权，命周瑜为大都\n督，率兵御之，相拒于赤壁。诸葛亮奉使在吴，为周瑜参赞军务。周瑜思有所以一鼓而歼之者，暗令庞统献\n连环计于曹操，使大江中船只，大小配搭，将铁练锁住，一时不得猝解，方可用火攻以取。然，火攻须看风\n势。曹军在西北，吴军在东南；隆冬之际，西北风多而东南风少。风若不顺，反于自己人马不利。周瑜口虽\n不言，而心实踌躇。正在山顶瞭望曹营，见旗角瓢荡，触动心事，忽然吐血晕倒；各营将士惊惶无措，由鲁\n肃报知诸葛亮，诸葛亮以能医自任，及入帐晤谈，将周瑜心事一一道破，并嘱瑜于南屏山上筑一高台，用奇\n门遁甲之法借三日三夜东南大风，以助火攻之势。周瑜大惊服，而心中杀机已动，谓诸葛亮能夺造化之权，\n恐日后为东吴大患。命丁奉、徐盛、蒋钦、周泰四将陆续至南屏山，俟风起后杀之。殊不知诸葛亮早识周瑜\n局量之褊急，已借此脱身矣。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 56,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.635,
+      "importance": 0.875,
+      "locations": {
+        "贼趁此偷营": 3
+      },
+      "characters": {
+        "鲁肃": 1,
+        "诸葛亮": 1,
+        "周瑜": 1
+      },
+      "links": [
+        {
+          "source": "诸葛亮",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 107,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 1.171,
+      "importance": 1.0,
+      "locations": {
+        "贼趁此偷营": 3
+      },
+      "characters": {
+        "鲁肃": 1,
+        "诸葛亮": 1,
+        "周瑜": 1
+      },
+      "links": [
+        {
+          "source": "周瑜",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "鲁肃",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 29,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.453,
+      "locations": {
+        "贼趁此偷营": 1
+      },
+      "characters": {
+        "众人": 1,
+        "徐盛": 1,
+        "周泰": 1,
+        "周瑜": 1,
+        "四龙套": 1,
+        "诸葛亮": 1
+      },
+      "links": [
+        {
+          "source": "周瑜",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "徐盛",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "周瑜",
+          "value": 1
+        },
+        {
+          "source": "周泰",
+          "target": "周瑜",
+          "value": 1
+        },
+        {
+          "source": "周瑜",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "徐盛",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "周泰",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "徐盛",
+          "value": 1
+        },
+        {
+          "source": "周泰",
+          "target": "徐盛",
+          "value": 1
+        },
+        {
+          "source": "徐盛",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "周泰",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "周泰",
+          "target": "诸葛亮",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "贼趁此偷营",
+      "characters": [
+        {
+          "name": "周瑜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "前日里与曹军江中交战，",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.598,
+        "conflict": 1.0,
+        "sentiment": 0.225
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "贼趁此偷营",
+      "characters": [
+        {
+          "name": "鲁肃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "周都督观水寨忽发旧症，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：1位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.547,
+        "conflict": 1.0,
+        "sentiment": 0.84
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "贼趁此偷营",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "昨夜晚观天象阴阳料定，",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "急急忙忙往前走，",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：2位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 1.0,
+        "sentiment": 0.205
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "贼趁此偷营",
+      "characters": [
+        {
+          "name": "周瑜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "实指望破曹军大功可定，",
+          "rating": 0.6,
+          "role": "小生"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "请得良医到，进帐说分明。",
+          "rating": 0.6,
+          "role": "老生"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "都督在哪里？吓，参见都督。",
+          "rating": 0.333,
+          "role": "末"
+        }
+      ],
+      "summary": "第四场：3位角色，62行",
+      "firstLine": 1,
+      "lastLine": 62,
+      "numLines": 62,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.991,
+        "conflict": 0.787,
+        "sentiment": 0.233
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "贼趁此偷营",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "昨日里与周郎夸下海口，",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "一腔心腹事，说与知心人。",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：2位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.778,
+        "conflict": 0.339,
+        "sentiment": 0.811
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "贼趁此偷营",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "弟子诸葛亮，祷告天地神祗：今同东吴共破曹贼，愿借东风三昼夜。为此祈祷",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第六场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.533,
+        "conflict": 1.0,
+        "sentiment": -0.36
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "贼趁此偷营",
+      "characters": [
+        {
+          "name": "周瑜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "急欲破曹军，昼夜不安宁。",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "丁奉、徐盛进帐！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "徐盛",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "蒋钦、周泰进帐！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周泰",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第七场：6位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.703,
+        "conflict": 0.714,
+        "sentiment": 0.363
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "鲁肃",
+      "short": "鲁肃",
+      "key": "鲁肃",
+      "quote": "鲁肃 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周瑜",
+      "short": "周瑜",
+      "key": "周瑜",
+      "quote": "周瑜 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "徐盛",
+      "short": "徐盛",
+      "key": "徐盛",
+      "quote": "徐盛 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周泰",
+      "short": "周泰",
+      "key": "周泰",
+      "quote": "周泰 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "贼趁此偷营",
+      "key": "贼趁此偷营",
+      "quote": "场景发生在贼趁此偷营"
+    }
+  ]
+}

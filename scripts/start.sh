@@ -18,15 +18,15 @@ BACKEND_PORT=5000
 # ==================== LLM API 配置 ====================
 # 统一使用 OpenAI 兼容格式，只需配置以下四项：
 #   API_KEY    - 你的 API 密钥
-#   MODEL      - 模型名称 (如: glm-4.7, gpt-4o-mini, gemini-pro)
+#   MODEL      - 模型名称 (如: deepseek-chat, gpt-4o-mini, gemini-pro)
 #   BASE_URL   - API 基础地址 (OpenAI 兼容格式)
 #   PROVIDER   - 厂商标识 (仅用于日志显示)
 # =====================================================
 
-API_KEY="ab4b658d80fda2ac5a6b30bd4fe74de9.YOWE1nAL6kFN8Ivc"
-MODEL="glm-4.7"
-BASE_URL="https://open.bigmodel.cn/api/paas/v4"
-PROVIDER="Zhipu"
+API_KEY=""
+MODEL="deepseek-chat"
+BASE_URL="https://api.deepseek.com/v1"
+PROVIDER="DeepSeek"
 
 # ==================== 配置结束 ====================
 

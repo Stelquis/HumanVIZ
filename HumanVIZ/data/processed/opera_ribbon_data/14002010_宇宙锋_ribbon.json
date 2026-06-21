@@ -1,0 +1,308 @@
+{
+  "title": "宇宙锋",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 3,
+  "source_file": "14002010_宇宙锋.json",
+  "source_folder": "14000000",
+  "plot_summary": "秦二世时，赵高非常专权，因与匡洪有仇，就差人至匡府盗取秦皇前赐匡洪的宝剑，剑名宇宙锋，去刺秦二\n世。没有成功，于是陷害匡洪。匡洪的儿子逃走他乡，匡洪的管家赵忠，因为像貌很像匡子，就慨然替主一\n死。赵高的女儿寡而美，被秦二世看见，欲招她进宫，赵高当即叩头谢恩愿意进献。但是他的女儿倒是深明\n大义，见秦二世如此荒淫无道，国必不久，定不肯答应。赵高因为已答应了秦二世，如何能够反悔，非逼令\n她去不可。赵女正在无可如何的时候，忽然看见她的哑丫头在旁边做手势，教她只有装疯。赵女一想不错，\n马上指手画脚、见神见鬼的装起疯来。赵高竟被她蒙过，信以为真，次日上殿去奏明秦二世。秦二世不信，\n令她上殿当面验明。赵女仍旧作出毫无忌惮的神情胡骂乱叫。秦二世信以为真只得放她回去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 116,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "请小姐出堂": 1
+      },
+      "characters": {
+        "丫头": 1,
+        "门官": 1,
+        "赵女": 1,
+        "秦王": 1,
+        "赵高": 1
+      },
+      "links": [
+        {
+          "source": "赵高",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "丫头",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "赵女",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "秦王",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "丫头",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "赵女",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "秦王",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "丫头",
+          "target": "赵女",
+          "value": 1
+        },
+        {
+          "source": "丫头",
+          "target": "秦王",
+          "value": 1
+        },
+        {
+          "source": "秦王",
+          "target": "赵女",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 52,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.619,
+      "locations": {
+        "带上金殿": 1
+      },
+      "characters": {
+        "秦王": 1,
+        "赵女": 1,
+        "赵高": 1
+      },
+      "links": [
+        {
+          "source": "秦王",
+          "target": "赵高",
+          "value": 1
+        },
+        {
+          "source": "秦王",
+          "target": "赵女",
+          "value": 1
+        },
+        {
+          "source": "赵女",
+          "target": "赵高",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "请小姐出堂",
+      "characters": [
+        {
+          "name": "赵高",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "月影照纱窗，梅花绕粉墙。",
+          "rating": 0.667,
+          "role": "净"
+        },
+        {
+          "name": "门官",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "丫头",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哑叭，哑叭。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵女",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "杜鹃心头气，血泣含悲啼。",
+          "rating": 0.333,
+          "role": "正旦"
+        },
+        {
+          "name": "秦王",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "摆驾。",
+          "rating": 0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：5位角色，116行",
+      "firstLine": 1,
+      "lastLine": 116,
+      "numLines": 116,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.22,
+        "sentiment": 0.461
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "带上金殿",
+      "characters": [
+        {
+          "name": "秦王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "孤王御驾到龙廷，文臣武将朝寡人。",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "赵高",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "启奏万岁：小女昨晚得了疯病。",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "赵女",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "午门外下了那龙车凤辇，",
+          "rating": 0.6,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第二场：3位角色，52行",
+      "firstLine": 1,
+      "lastLine": 52,
+      "numLines": 52,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.513,
+        "sentiment": 0.269
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵女",
+      "short": "赵女",
+      "key": "赵女",
+      "quote": "赵女 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵高",
+      "short": "赵高",
+      "key": "赵高",
+      "quote": "赵高 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "秦王",
+      "short": "秦王",
+      "key": "秦王",
+      "quote": "秦王 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "门官",
+      "short": "门官",
+      "key": "门官",
+      "quote": "门官 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "丫头",
+      "short": "丫头",
+      "key": "丫头",
+      "quote": "丫头 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "带上金殿",
+      "key": "带上金殿",
+      "quote": "场景发生在带上金殿"
+    },
+    {
+      "name": "请小姐出堂",
+      "key": "请小姐出堂",
+      "quote": "场景发生在请小姐出堂"
+    },
+    {
+      "name": "小姐出堂",
+      "key": "小姐出堂",
+      "quote": "场景发生在小姐出堂"
+    }
+  ]
+}

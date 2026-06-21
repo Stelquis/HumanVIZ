@@ -1,0 +1,1420 @@
+{
+  "title": "汉忠烈",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 6,
+  "num_scenes": 12,
+  "num_characters": 14,
+  "num_locations": 7,
+  "source_file": "02002035_汉忠烈【四本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "张纲逃出后，仍欲转回店中，经刘豹父女苦劝，始应允往山东孔褒处。后因刘豹父女欲往江南，张纲乃托带\n信其子张士安。当张纲之子张士安与老仆张禄逃走后，路上又遇强盗蔡婴，将张士安抢至山上，欲令与其女\n结亲。张禄由后追赶，适与刘豹父女相遇，张禄以为渠等抢去公子，抓住不放，旋即跌倒而死。刘豹父女料\n张士安必系被蔡婴抢去，乃匆匆赶上山寨。适蔡婴正逼张士安与其女完婚之时，刘豹等上山，即向蔡婴要人，\n蔡婴诡称无有，刘豹不置信，主张一同去搜云。",
+  "performance_notes": "按张纲奉使询行风俗，乃埋其车辆于洛阳都亭，曰：豺狼当道，安问狐狸。遂劾奉梁冀等事，史家素所称颂。\n此本虽多演义，然义正词严，穿插亦极精警，惜只四本，词意未完，容再搜觅补正。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 91,
+      "summary": "第一场；第二场",
+      "conflict": 0.08,
+      "importance": 0.882,
+      "locations": {
+        "昆陵夏府": 1,
+        "汴京城": 1
+      },
+      "characters": {
+        "刘豹": 1,
+        "钟信": 1,
+        "张士安": 1,
+        "张纲": 1,
+        "玉姐": 1,
+        "张禄": 1
+      },
+      "links": [
+        {
+          "source": "张纲",
+          "target": "钟信",
+          "value": 1
+        },
+        {
+          "source": "张禄",
+          "target": "钟信",
+          "value": 1
+        },
+        {
+          "source": "张禄",
+          "target": "张纲",
+          "value": 2
+        },
+        {
+          "source": "刘豹",
+          "target": "张纲",
+          "value": 1
+        },
+        {
+          "source": "张纲",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "张纲",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "张士安",
+          "value": 1
+        },
+        {
+          "source": "张禄",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "张禄",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 50,
+      "summary": "第三场；第四场",
+      "conflict": 0.026,
+      "importance": 0.485,
+      "locations": {
+        "昆陵夏府": 2
+      },
+      "characters": {
+        "孙朗": 1,
+        "张纲": 1,
+        "张禄": 1,
+        "张士安": 1
+      },
+      "links": [
+        {
+          "source": "张士安",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "孙朗",
+          "target": "张纲",
+          "value": 1
+        },
+        {
+          "source": "孙朗",
+          "target": "张士安",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "张纲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 99,
+      "summary": "第五场；第六场",
+      "conflict": 0.474,
+      "importance": 0.96,
+      "locations": {
+        "蔡婴坐高台": 1,
+        "昆陵夏府": 1
+      },
+      "characters": {
+        "张士安": 1,
+        "蔡婴": 1,
+        "四大铠": 1,
+        "张纲": 1,
+        "张禄": 1
+      },
+      "links": [
+        {
+          "source": "张纲",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "张士安",
+          "value": 1
+        },
+        {
+          "source": "张禄",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "蔡婴",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 145,
+      "summary": "第七场；第八场",
+      "conflict": 0.621,
+      "importance": 1.0,
+      "locations": {
+        "救了张抚台": 1,
+        "到山东孔府": 1
+      },
+      "characters": {
+        "土地": 1,
+        "刘豹": 1,
+        "张士安": 1,
+        "蔡婴": 1,
+        "山神": 1,
+        "张纲": 1,
+        "玉姐": 1,
+        "张禄": 1
+      },
+      "links": [
+        {
+          "source": "刘豹",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "张纲",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "张士安",
+          "value": 1
+        },
+        {
+          "source": "张禄",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "张纲",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "张禄",
+          "target": "张纲",
+          "value": 2
+        },
+        {
+          "source": "张士安",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "张纲",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "山神",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "张纲",
+          "value": 1
+        },
+        {
+          "source": "山神",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "山神",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "山神",
+          "target": "张纲",
+          "value": 1
+        },
+        {
+          "source": "张禄",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "张纲",
+          "target": "蔡婴",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 48,
+      "summary": "第九场；第十场",
+      "conflict": 1.14,
+      "importance": 0.465,
+      "locations": {
+        "昆陵夏府": 2
+      },
+      "characters": {
+        "梅香": 1,
+        "刘豹": 1,
+        "张士安": 1,
+        "蔡婴": 1,
+        "勇姑": 1,
+        "玉姐": 1
+      },
+      "links": [
+        {
+          "source": "刘豹",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "玉姐",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "勇姑",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "勇姑",
+          "target": "梅香",
+          "value": 1
+        },
+        {
+          "source": "勇姑",
+          "target": "张士安",
+          "value": 1
+        },
+        {
+          "source": "梅香",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "梅香",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 2,
+      "numLines": 186,
+      "summary": "第十一场；第十二场",
+      "conflict": 0.117,
+      "importance": 1.0,
+      "locations": {
+        "昆陵夏府": 2
+      },
+      "characters": {
+        "梅香": 1,
+        "刘豹": 1,
+        "张士安": 1,
+        "蔡婴": 1,
+        "四大铠": 1,
+        "勇姑": 1,
+        "喽兵甲": 1,
+        "玉姐": 1,
+        "张禄": 1
+      },
+      "links": [
+        {
+          "source": "刘豹",
+          "target": "玉姐",
+          "value": 2
+        },
+        {
+          "source": "勇姑",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "勇姑",
+          "target": "梅香",
+          "value": 1
+        },
+        {
+          "source": "勇姑",
+          "target": "四大铠",
+          "value": 1
+        },
+        {
+          "source": "勇姑",
+          "target": "张士安",
+          "value": 1
+        },
+        {
+          "source": "勇姑",
+          "target": "喽兵甲",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "勇姑",
+          "value": 1
+        },
+        {
+          "source": "勇姑",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "勇姑",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "梅香",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "喽兵甲",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "玉姐",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "张禄",
+          "target": "蔡婴",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "梅香",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "梅香",
+          "value": 1
+        },
+        {
+          "source": "喽兵甲",
+          "target": "梅香",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "梅香",
+          "value": 1
+        },
+        {
+          "source": "梅香",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "张禄",
+          "target": "梅香",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "张士安",
+          "value": 1
+        },
+        {
+          "source": "喽兵甲",
+          "target": "四大铠",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "四大铠",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "喽兵甲",
+          "target": "张士安",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "张士安",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "张士安",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "喽兵甲",
+          "value": 1
+        },
+        {
+          "source": "喽兵甲",
+          "target": "玉姐",
+          "value": 1
+        },
+        {
+          "source": "喽兵甲",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "刘豹",
+          "target": "张禄",
+          "value": 1
+        },
+        {
+          "source": "张禄",
+          "target": "玉姐",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "昆陵夏府",
+      "characters": [
+        {
+          "name": "钟信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "马来！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张纲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "张禄",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.385,
+        "conflict": 0.0,
+        "sentiment": 0.24
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "汴京城",
+      "characters": [
+        {
+          "name": "张纲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "不知高低与平坦，",
+          "rating": 0.429,
+          "role": "老生"
+        },
+        {
+          "name": "刘豹",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哎呀，放下行李歇息歇息。",
+          "rating": -0.111,
+          "role": ""
+        },
+        {
+          "name": "玉姐",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "大人要进京面圣，岂不把千金之体，送与梁贼之手？若依民女，还是暂时避迹，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张禄",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "张士安",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：5位角色，77行",
+      "firstLine": 1,
+      "lastLine": 77,
+      "numLines": 77,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.716,
+        "conflict": 0.575,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "昆陵夏府",
+      "characters": [
+        {
+          "name": "张士安",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "咳！",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "张禄",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "公子，老奴伴你逃避踪迹，乃是老爷严命，不必忧心，且到昆陵再来打听。",
+          "rating": -0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：2位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.628,
+        "conflict": 0.69,
+        "sentiment": 0.041
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "昆陵夏府",
+      "characters": [
+        {
+          "name": "孙朗",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "自夸计高自抖胆，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张纲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张士安",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：3位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.378,
+        "conflict": 1.0,
+        "sentiment": 0.067
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "蔡婴坐高台",
+      "characters": [
+        {
+          "name": "蔡婴",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "霸占山巢，称王非盗，聚粮草，演习枪刀，谅官难以飞到。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "张纲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.367,
+        "conflict": 0.0,
+        "sentiment": 0.78
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "昆陵夏府",
+      "characters": [
+        {
+          "name": "张士安",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "不是闲游踏芳草，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "张禄",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "哎哟哎哟！",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "蔡婴",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "号炮惊飞山林鸟，",
+          "rating": 0.2,
+          "role": "净"
+        },
+        {
+          "name": "四大铠",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "二汉子当道。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：4位角色，90行",
+      "firstLine": 1,
+      "lastLine": 90,
+      "numLines": 90,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.874,
+        "conflict": 0.331,
+        "sentiment": 0.306
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "救了张抚台",
+      "characters": [
+        {
+          "name": "刘豹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "为救张公戴月跑，",
+          "rating": -0.5,
+          "role": ""
+        },
+        {
+          "name": "玉姐",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "严亲侠气今日消。",
+          "rating": -0.2,
+          "role": ""
+        },
+        {
+          "name": "张禄",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "公子等着。哎呀，好了！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "张纲",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "张士安",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第七场：5位角色，85行",
+      "firstLine": 1,
+      "lastLine": 85,
+      "numLines": 85,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.731,
+        "conflict": 0.324,
+        "sentiment": -0.158
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "到山东孔府",
+      "characters": [
+        {
+          "name": "土地",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "受祭无非肉和酒，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "山神",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来了。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "张禄",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "身在地府阴魂绕，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "蔡婴",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "张纲",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第八场：5位角色，60行",
+      "firstLine": 1,
+      "lastLine": 60,
+      "numLines": 60,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.683,
+        "conflict": 0.317,
+        "sentiment": 0.463
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "昆陵夏府",
+      "characters": [
+        {
+          "name": "刘豹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "走吓！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "玉姐",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "何惧关山路尽头。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蔡婴",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第九场：3位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.389,
+        "conflict": 0.0,
+        "sentiment": -0.36
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "昆陵夏府",
+      "characters": [
+        {
+          "name": "勇姑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "诗云子曰父不教，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "蔡婴",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "回山！",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "梅香",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "大人放心，没有不开张的油盐店。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张士安",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十场：4位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.629,
+        "conflict": 0.0,
+        "sentiment": 0.78
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "昆陵夏府",
+      "characters": [
+        {
+          "name": "刘豹",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "怕的是张生命难保，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "玉姐",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "张公之言岂辞劳。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十一场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.162,
+        "conflict": 0.0,
+        "sentiment": 0.32
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "昆陵夏府",
+      "characters": [
+        {
+          "name": "勇姑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "古言婚姻凭月老，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "蔡婴",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "银安宝殿俱打扫，",
+          "rating": 0.143,
+          "role": "净"
+        },
+        {
+          "name": "梅香",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "小姐已在屏风内。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四大铠",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "书生当面！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张士安",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "哎呀大王饶命！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "喽兵甲",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "报！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘豹",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "走吓！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "玉姐",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "舅父！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张禄",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第十二场：9位角色，180行",
+      "firstLine": 1,
+      "lastLine": 180,
+      "numLines": 180,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.11,
+        "sentiment": 0.437
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张士安",
+      "short": "张士",
+      "key": "张士安",
+      "quote": "张士安 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张禄",
+      "short": "张禄",
+      "key": "张禄",
+      "quote": "张禄 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "蔡婴",
+      "short": "蔡婴",
+      "key": "蔡婴",
+      "quote": "蔡婴 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "张纲",
+      "short": "张纲",
+      "key": "张纲",
+      "quote": "张纲 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "喽兵甲",
+      "short": "喽兵",
+      "key": "喽兵甲",
+      "quote": "喽兵甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "梅香",
+      "short": "梅香",
+      "key": "梅香",
+      "quote": "梅香 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "土地",
+      "short": "土地",
+      "key": "土地",
+      "quote": "土地 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘豹",
+      "short": "刘豹",
+      "key": "刘豹",
+      "quote": "刘豹 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "钟信",
+      "short": "钟信",
+      "key": "钟信",
+      "quote": "钟信 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "孙朗",
+      "short": "孙朗",
+      "key": "孙朗",
+      "quote": "孙朗 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四大铠",
+      "short": "四大",
+      "key": "四大铠",
+      "quote": "四大铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "山神",
+      "short": "山神",
+      "key": "山神",
+      "quote": "山神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "勇姑",
+      "short": "勇姑",
+      "key": "勇姑",
+      "quote": "勇姑 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "玉姐",
+      "short": "玉姐",
+      "key": "玉姐",
+      "quote": "玉姐 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "昆陵夏府",
+      "key": "昆陵夏府",
+      "quote": "场景发生在昆陵夏府"
+    },
+    {
+      "name": "救了张抚台",
+      "key": "救了张抚台",
+      "quote": "场景发生在救了张抚台"
+    },
+    {
+      "name": "到山东孔府",
+      "key": "到山东孔府",
+      "quote": "场景发生在到山东孔府"
+    },
+    {
+      "name": "汴京城",
+      "key": "汴京城",
+      "quote": "场景发生在汴京城"
+    },
+    {
+      "name": "山东孔府",
+      "key": "山东孔府",
+      "quote": "场景发生在山东孔府"
+    },
+    {
+      "name": "蔡婴坐高台",
+      "key": "蔡婴坐高台",
+      "quote": "场景发生在蔡婴坐高台"
+    },
+    {
+      "name": "我来到都城",
+      "key": "我来到都城",
+      "quote": "场景发生在我来到都城"
+    }
+  ]
+}

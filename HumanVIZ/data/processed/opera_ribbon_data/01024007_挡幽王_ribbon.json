@@ -1,0 +1,357 @@
+{
+  "title": "挡幽王",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 3,
+  "source_file": "01024007_挡幽王.json",
+  "source_folder": "01000000",
+  "plot_summary": "依据剧本述说，周幽王为犬戎所逼，弃镐京出走，欲投鲁国，为恢复之计。道经骊山，被申侯领兵拦阻，屡\n数幽王昏愤之事，声色俱厉，且命军卒将幽王捉拿，以泄私愤。幽王不敢与争，再三央告，始得放行。",
+  "performance_notes": "按《东周列国志》说部，幽王宠信褒姒，废申后，黜太子宜臼，无端举烽火征兵，以博褒姒之一笑。国舅申\n侯，欲昭雪申后、太子之冤，上疏直谏，适触幽王之怒，命虢石父兴师，讨申侯之罪，申侯侦知之，自虑无\n力抵抗，乃求助于犬戎，借兵以伐周。犬戎主自将而来，申侯节制不住，攻破镐京，诸侯曾受幽王之戏弄，\n勤王之兵，无有至者。郑桓公保护幽王出奔，犬戎主追及于骊山之下，遂弑幽王，而桓公亦战死。说部所载，\n与正史上无甚差别，较之剧本，大不相同，编排者必欲如此之改头换面，实不知其有何用意。然是剧以须\n生唱工为重头，苟其声调高亢，则趣味不在事实之中。枥老前在北京，曾见程长庚演唱，颇有余音缭绕之逸\n致。近今沪上各舞台，凡有名誉之艺员，大约均非擅长于是剧者，所以未之有见。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 32,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.522,
+      "locations": {
+        "夜逃出皇城": 1
+      },
+      "characters": {
+        "申伯侯": 1,
+        "探子": 1
+      },
+      "links": [
+        {
+          "source": "探子",
+          "target": "申伯侯",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 11,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.179,
+      "locations": {
+        "夜逃出皇城": 1
+      },
+      "characters": {
+        "大将": 1,
+        "周幽王": 1
+      },
+      "links": [
+        {
+          "source": "周幽王",
+          "target": "大将",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 141,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "人马出朝堂": 1
+      },
+      "characters": {
+        "大将": 1,
+        "龙套": 1,
+        "众人": 1,
+        "周幽王": 1,
+        "申伯侯": 1
+      },
+      "links": [
+        {
+          "source": "周幽王",
+          "target": "申伯侯",
+          "value": 1
+        },
+        {
+          "source": "大将",
+          "target": "申伯侯",
+          "value": 1
+        },
+        {
+          "source": "申伯侯",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "申伯侯",
+          "value": 1
+        },
+        {
+          "source": "周幽王",
+          "target": "大将",
+          "value": 1
+        },
+        {
+          "source": "周幽王",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "周幽王",
+          "value": 1
+        },
+        {
+          "source": "大将",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "大将",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "龙套",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "夜逃出皇城",
+      "characters": [
+        {
+          "name": "申伯侯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "统领雄兵，满腹经纶，声明振，神鬼皆惊，独把边疆镇。",
+          "rating": 0.667,
+          "role": "老生"
+        },
+        {
+          "name": "探子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启千岁：今有周天子，因戎狄犯境，点起烟墩，各国并不接应。周王已逃出皇",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.557,
+        "conflict": 1.0,
+        "sentiment": 0.688
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "夜逃出皇城",
+      "characters": [
+        {
+          "name": "周幽王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "打开玉笼出彩凤，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "大将",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第二场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.654,
+        "conflict": 1.0,
+        "sentiment": -0.36
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "人马出朝堂",
+      "characters": [
+        {
+          "name": "申伯侯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "旌旗不住空飘扬，",
+          "rating": 0.238,
+          "role": "老生"
+        },
+        {
+          "name": "周幽王",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "君臣们急忙往前闯，",
+          "rating": -0.25,
+          "role": "净"
+        },
+        {
+          "name": "大将",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启万岁：那帅旗之上，写的是“申”字。",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "龙套",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "启千岁：周王驾到！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "幽王君臣逃走！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，141行",
+      "firstLine": 1,
+      "lastLine": 141,
+      "numLines": 141,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.376,
+        "sentiment": 0.308
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "申伯侯",
+      "short": "申伯",
+      "key": "申伯侯",
+      "quote": "申伯侯 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周幽王",
+      "short": "周幽",
+      "key": "周幽王",
+      "quote": "周幽王 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "大将",
+      "short": "大将",
+      "key": "大将",
+      "quote": "大将 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "龙套",
+      "short": "龙套",
+      "key": "龙套",
+      "quote": "龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "夜逃出皇城",
+      "key": "夜逃出皇城",
+      "quote": "场景发生在夜逃出皇城"
+    },
+    {
+      "name": "兵困都城",
+      "key": "兵困都城",
+      "quote": "场景发生在兵困都城"
+    },
+    {
+      "name": "人马出朝堂",
+      "key": "人马出朝堂",
+      "quote": "场景发生在人马出朝堂"
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "title": "东宫扫雪",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 8,
+  "num_locations": 2,
+  "source_file": "01025010_东宫扫雪.json",
+  "source_folder": "01000000",
+  "plot_summary": "剧中事实，出于五代北汉时间。观其辞意，谓北汉王偏听西宫唐妃之谗言，幽禁正宫国母，并杀宫娥多人。\n太子深恨唐妃，见面时肆行辱骂。唐妃用药酒将太子毒死，并抛尸于河内。幸得宫中土地神，大施法力，唤\n醒东宫赵妃于睡梦中，使闻太子呼救声。遂暗至河边，将太子救至河岸，纵之使逸。又恐唐妃跟踪追究，用\n裙边将雪花扫乱，以灭其足迹云。",
+  "performance_notes": "是剧正旦唱工，最为吃重。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 78,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.664,
+      "importance": 0.987,
+      "locations": {
+        "楼台似银城": 3
+      },
+      "characters": {
+        "宫女": 1,
+        "土地": 1,
+        "刘彦真": 1,
+        "唐妃": 1
+      },
+      "links": [
+        {
+          "source": "刘彦真",
+          "target": "唐妃",
+          "value": 2
+        },
+        {
+          "source": "刘彦真",
+          "target": "宫女",
+          "value": 1
+        },
+        {
+          "source": "唐妃",
+          "target": "宫女",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 34,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.78,
+      "importance": 0.43,
+      "locations": {
+        "楼台似银城": 2,
+        "宝殿居水府": 1
+      },
+      "characters": {
+        "四水卒": 1,
+        "龙王": 1,
+        "二门神": 1,
+        "赵妃": 1
+      },
+      "links": [
+        {
+          "source": "四水卒",
+          "target": "龙王",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 125,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "楼台似银城": 1
+      },
+      "characters": {
+        "土地": 1,
+        "赵妃": 1,
+        "刘彦真": 1
+      },
+      "links": [
+        {
+          "source": "刘彦真",
+          "target": "赵妃",
+          "value": 1
+        },
+        {
+          "source": "土地",
+          "target": "赵妃",
+          "value": 1
+        },
+        {
+          "source": "刘彦真",
+          "target": "土地",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "楼台似银城",
+      "characters": [
+        {
+          "name": "刘彦真",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "在东宫领了千岁命，",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "唐妃",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "宫娥摆驾出宫门，",
+          "rating": -0.429,
+          "role": "花旦"
+        },
+        {
+          "name": "宫女",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "太子接驾。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，59行",
+      "firstLine": 1,
+      "lastLine": 59,
+      "numLines": 59,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.79,
+        "conflict": 0.769,
+        "sentiment": 0.005
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "楼台似银城",
+      "characters": [
+        {
+          "name": "土地",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "紫微大帝有大难，",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.095,
+        "conflict": 0.0,
+        "sentiment": 0.32
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "楼台似银城",
+      "characters": [
+        {
+          "name": "唐妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哀家带怒进宫廷，",
+          "rating": -1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "刘彦真",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "心疼气紧难扎挣，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.626,
+        "conflict": 0.0,
+        "sentiment": -0.344
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "楼台似银城",
+      "characters": [
+        {
+          "name": "二门神",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "神茶玉垒上天庭，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.095,
+        "conflict": 0.0,
+        "sentiment": 0.32
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "楼台似银城",
+      "characters": [
+        {
+          "name": "赵妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哀家事毕转回宫，",
+          "rating": -0.333,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第五场：1位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.556,
+        "conflict": 1.0,
+        "sentiment": 0.02
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "宝殿居水府",
+      "characters": [
+        {
+          "name": "龙王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "万里乾坤路遥遥，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四水卒",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "圣寿！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.221,
+        "conflict": 0.0,
+        "sentiment": 0.8
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "楼台似银城",
+      "characters": [
+        {
+          "name": "赵妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "赵素娘迈步往前行，",
+          "rating": -0.4,
+          "role": "正旦"
+        },
+        {
+          "name": "刘彦真",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "适才渺渺赴阴城，",
+          "rating": -0.714,
+          "role": "小生"
+        },
+        {
+          "name": "土地",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第七场：3位角色，125行",
+      "firstLine": 1,
+      "lastLine": 125,
+      "numLines": 125,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.138,
+        "sentiment": -0.02
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵妃",
+      "short": "赵妃",
+      "key": "赵妃",
+      "quote": "赵妃 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘彦真",
+      "short": "刘彦",
+      "key": "刘彦真",
+      "quote": "刘彦真 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "唐妃",
+      "short": "唐妃",
+      "key": "唐妃",
+      "quote": "唐妃 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "土地",
+      "short": "土地",
+      "key": "土地",
+      "quote": "土地 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "宫女",
+      "short": "宫女",
+      "key": "宫女",
+      "quote": "宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四水卒",
+      "short": "四水",
+      "key": "四水卒",
+      "quote": "四水卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二门神",
+      "short": "二门",
+      "key": "二门神",
+      "quote": "二门神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙王",
+      "short": "龙王",
+      "key": "龙王",
+      "quote": "龙王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "楼台似银城",
+      "key": "楼台似银城",
+      "quote": "场景发生在楼台似银城"
+    },
+    {
+      "name": "宝殿居水府",
+      "key": "宝殿居水府",
+      "quote": "场景发生在宝殿居水府"
+    }
+  ]
+}

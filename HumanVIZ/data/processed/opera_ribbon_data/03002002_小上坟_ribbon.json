@@ -1,0 +1,241 @@
+{
+  "title": "小上坟",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "03002002_小上坟.json",
+  "source_folder": "03000000",
+  "plot_summary": "刘禄景进京求官，多年未归，讹传已死。其妻萧素贞受娘舅虐待，逼嫁未从。时刘禄景得官，回乡祭祖，值\n萧素贞正在上坟。夫妻相见，不复相识。萧素贞控诉受虐待情形，刘禄景亦取出信物，夫妻乃相认偕归。",
+  "performance_notes": "这是一个来自民间的传统歌舞小剧，根据于莲仙先生生前的演出本编印的。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.062,
+      "locations": {
+        "抱土垒坟台": 1
+      },
+      "characters": {
+        "刘禄景": 1,
+        "衙役": 1
+      },
+      "links": [
+        {
+          "source": "刘禄景",
+          "target": "衙役",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 217,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "抱土垒坟台": 1
+      },
+      "characters": {
+        "刘禄景": 1,
+        "衙役": 1,
+        "萧素贞": 1,
+        "衙役甲": 1
+      },
+      "links": [
+        {
+          "source": "刘禄景",
+          "target": "萧素贞",
+          "value": 1
+        },
+        {
+          "source": "萧素贞",
+          "target": "衙役甲",
+          "value": 1
+        },
+        {
+          "source": "萧素贞",
+          "target": "衙役",
+          "value": 1
+        },
+        {
+          "source": "刘禄景",
+          "target": "衙役甲",
+          "value": 1
+        },
+        {
+          "source": "刘禄景",
+          "target": "衙役",
+          "value": 1
+        },
+        {
+          "source": "衙役",
+          "target": "衙役甲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "抱土垒坟台",
+      "characters": [
+        {
+          "name": "刘禄景",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "做高官名扬天下，奉圣旨祭祖回家。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "衙役",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.519,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "抱土垒坟台",
+      "characters": [
+        {
+          "name": "萧素贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "苦哇！",
+          "rating": -0.333,
+          "role": "花旦"
+        },
+        {
+          "name": "刘禄景",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "打道！",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "衙役甲",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "回老爷，刘氏新坟有一妇人啼哭。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "衙役",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，217行",
+      "firstLine": 1,
+      "lastLine": 217,
+      "numLines": 217,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.228,
+        "sentiment": -0.028
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "萧素贞",
+      "short": "萧素",
+      "key": "萧素贞",
+      "quote": "萧素贞 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "刘禄景",
+      "short": "刘禄",
+      "key": "刘禄景",
+      "quote": "刘禄景 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "衙役",
+      "short": "衙役",
+      "key": "衙役",
+      "quote": "衙役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "衙役甲",
+      "short": "衙役",
+      "key": "衙役甲",
+      "quote": "衙役甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "抱土垒坟台",
+      "key": "抱土垒坟台",
+      "quote": "场景发生在抱土垒坟台"
+    },
+    {
+      "name": "了两扇门",
+      "key": "了两扇门",
+      "quote": "场景发生在了两扇门"
+    }
+  ]
+}

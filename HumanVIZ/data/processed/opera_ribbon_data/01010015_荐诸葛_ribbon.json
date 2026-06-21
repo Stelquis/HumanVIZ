@@ -1,0 +1,600 @@
+{
+  "title": "荐诸葛",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 8,
+  "num_locations": 4,
+  "source_file": "01010015_荐诸葛.json",
+  "source_folder": "01000000",
+  "plot_summary": "徐庶因犯杀人罪，改名单福。初投刘表不得志，旋归刘备为军师，屡败曹操。至是，曹操已探得单福即徐庶\n化身。用程昱谋，招徐母至，令作书召徐庶来归。徐母不之诈，反辱骂曹操，且掷砚投击，欲激曹操怒以求\n死。曹操仍用程昱语，非特不罪，反优待之，旋被程昱诱得亲笔书，遂仿冒字迹，伪作徐母招徐庶归曹操书，\n投送刘备。徐庶本纯孝，得书后，寝食不安，急辞刘备欲往。刘备知不可留，乃设宴饯送。刘备不忍离别，\n复令军士砍伐树木以期可以远望。徐庶因此感激无地，复回马举荐诸葛亮于刘备而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 13,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.158,
+      "locations": {
+        "得了樊城": 1
+      },
+      "characters": {
+        "徐庶": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 101,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "得了樊城": 1
+      },
+      "characters": {
+        "徐庶": 1,
+        "赵云": 1,
+        "刘备": 1,
+        "下书人": 1,
+        "关羽": 1,
+        "张飞": 1,
+        "四龙套": 1,
+        "龙套": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "下书人",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "下书人",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "下书人",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "下书人",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "下书人",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "下书人",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "赵云",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "下书人",
+          "target": "龙套",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 133,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "：来此长亭": 1
+      },
+      "characters": {
+        "徐庶": 1,
+        "赵云": 1,
+        "刘备": 1,
+        "关羽": 1,
+        "张飞": 1,
+        "四龙套": 1
+      },
+      "links": [
+        {
+          "source": "四龙套",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "赵云",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "徐庶",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "得了樊城",
+      "characters": [
+        {
+          "name": "徐庶",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "八卦阴阳有准，胸中判断无错。",
+          "rating": -0.2,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：1位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.545,
+        "conflict": 1.0,
+        "sentiment": 0.43
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "得了樊城",
+      "characters": [
+        {
+          "name": "四龙套",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呵！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘备",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "忆及当年叙英雄，争破黄巾立大功。弟兄失散古城会，虎牢关前定邦家。",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "徐庶",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "执掌丝纶起凤毛，",
+          "rating": -0.143,
+          "role": "老生"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "全凭六略并三韬。",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "曾破黄巾兵百万，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "赵云",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "东灭孙权北灭曹！",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "下书人",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "negative",
+          "quote": "为人不怕死，前来下战书。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "龙套",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "呵！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：8位角色，101行",
+      "firstLine": 1,
+      "lastLine": 101,
+      "numLines": 101,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.563,
+        "sentiment": 0.088
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "：来此长亭",
+      "characters": [
+        {
+          "name": "赵云",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "小将生来胆气冲，要与我主立大功。哪怕曹营兵百万，难当常山赵子龙！",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘备",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "手挽手送先生出大营，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "徐庶",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "实指望保主公大事早成，",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "酒来！",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "叫人来——",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：6位角色，133行",
+      "firstLine": 1,
+      "lastLine": 133,
+      "numLines": 133,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.286,
+        "sentiment": 0.427
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "徐庶",
+      "short": "徐庶",
+      "key": "徐庶",
+      "quote": "徐庶 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "赵云",
+      "short": "赵云",
+      "key": "赵云",
+      "quote": "赵云 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "下书人",
+      "short": "下书",
+      "key": "下书人",
+      "quote": "下书人 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙套",
+      "short": "龙套",
+      "key": "龙套",
+      "quote": "龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "：来此长亭",
+      "key": "：来此长亭",
+      "quote": "场景发生在：来此长亭"
+    },
+    {
+      "name": " 打道长亭",
+      "key": " 打道长亭",
+      "quote": "场景发生在 打道长亭"
+    },
+    {
+      "name": "先生出大营",
+      "key": "先生出大营",
+      "quote": "场景发生在先生出大营"
+    },
+    {
+      "name": "得了樊城",
+      "key": "得了樊城",
+      "quote": "场景发生在得了樊城"
+    }
+  ]
+}

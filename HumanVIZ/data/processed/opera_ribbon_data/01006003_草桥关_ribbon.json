@@ -1,0 +1,982 @@
+{
+  "title": "草桥关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 14,
+  "num_locations": 5,
+  "source_file": "01006003_草桥关.json",
+  "source_folder": "01000000",
+  "plot_summary": "东汉光武帝刘秀，中兴汉室，灭除新莽，全赖后世所传云台二十八将之力。海内既平，诸功臣皆封爵锡土，\n在朝伴帝，惟姚期虽然年迈，因威望素著，尚坐镇草桥。草桥关者，当时备边重镇也。一日，刘秀忽思念姚\n期，遂令吴汉、岑彭、杜茂等奉诏往代，去召姚期进京。姚期因二子姚刚、姚能，生性粗莽，不畏强权，恐\n其好勇斗很，在外贾祸，故挈同进都，不令远离。既抵京觐见，刘秀特御太和殿，亲赐御酒三大爵。皇恩优\n渥，荣宠逾席。",
+  "performance_notes": "前见金秀山在新新舞台演此，声调宏亮，气度雍容。当执鞭上马时，在威严静穆之中，流露出一段顾盼自雄\n之态，与老年威重、及英雄气魄，两种神情，均能顾到。描摹姚期气概，可称入细，洵足令人想见当年英武\n弈弈之老将神威也。秀山之外，惟刘永春与金秀山工力悉敌，足相伯仲，此外则皆稍逊一筹矣。秀山每唱此\n剧，必连演第二本姚刚击死国丈、绑子上殿请罪、至蒙恩赦免为止，他净则均不接演也。\n考《汉书》二十八将中，只有铫期，此“姚”字乃沿传之讹。二子一名丹，一名统，传中事实，与此绝异。\n按吴汉，剧本作马武。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 63,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 1.039,
+      "importance": 0.875,
+      "locations": {
+        "少时登殿": 1,
+        "众人同进城": 2
+      },
+      "characters": {
+        "太监甲": 1,
+        "岑彭": 1,
+        "刘秀": 1,
+        "杜茂": 1,
+        "郭荣": 1,
+        "马武": 1,
+        "中军": 1,
+        "姚期": 1
+      },
+      "links": [
+        {
+          "source": "岑彭",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "杜茂",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "郭荣",
+          "target": "马武",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "姚期",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "岑彭",
+          "target": "杜茂",
+          "value": 2
+        },
+        {
+          "source": "岑彭",
+          "target": "马武",
+          "value": 2
+        },
+        {
+          "source": "刘秀",
+          "target": "岑彭",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "岑彭",
+          "value": 1
+        },
+        {
+          "source": "姚期",
+          "target": "岑彭",
+          "value": 2
+        },
+        {
+          "source": "杜茂",
+          "target": "马武",
+          "value": 2
+        },
+        {
+          "source": "刘秀",
+          "target": "杜茂",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "杜茂",
+          "value": 1
+        },
+        {
+          "source": "姚期",
+          "target": "杜茂",
+          "value": 2
+        },
+        {
+          "source": "刘秀",
+          "target": "马武",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "马武",
+          "value": 1
+        },
+        {
+          "source": "姚期",
+          "target": "马武",
+          "value": 2
+        },
+        {
+          "source": "刘秀",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "姚期",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 92,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.649,
+      "importance": 1.0,
+      "locations": {
+        "众人同进城": 2,
+        "夫君正朝堂": 1
+      },
+      "characters": {
+        "姚能": 1,
+        "旗牌": 1,
+        "岑彭": 1,
+        "杜茂": 1,
+        "郭荣": 1,
+        "马武": 1,
+        "姚夫人": 1,
+        "姚刚": 1,
+        "姚期": 1
+      },
+      "links": [
+        {
+          "source": "姚期",
+          "target": "岑彭",
+          "value": 2
+        },
+        {
+          "source": "岑彭",
+          "target": "杜茂",
+          "value": 2
+        },
+        {
+          "source": "岑彭",
+          "target": "马武",
+          "value": 2
+        },
+        {
+          "source": "姚期",
+          "target": "杜茂",
+          "value": 2
+        },
+        {
+          "source": "姚期",
+          "target": "马武",
+          "value": 2
+        },
+        {
+          "source": "杜茂",
+          "target": "马武",
+          "value": 2
+        },
+        {
+          "source": "姚夫人",
+          "target": "姚能",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "姚夫人",
+          "value": 1
+        },
+        {
+          "source": "姚夫人",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "姚夫人",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "姚夫人",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "姚能",
+          "value": 1
+        },
+        {
+          "source": "姚能",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "姚期",
+          "target": "姚能",
+          "value": 2
+        },
+        {
+          "source": "姚能",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "姚刚",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "姚期",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "姚期",
+          "target": "郭荣",
+          "value": 1
+        },
+        {
+          "source": "姚能",
+          "target": "岑彭",
+          "value": 1
+        },
+        {
+          "source": "姚能",
+          "target": "马武",
+          "value": 1
+        },
+        {
+          "source": "姚能",
+          "target": "杜茂",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 61,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.847,
+      "locations": {
+        "太和殿": 1
+      },
+      "characters": {
+        "太监甲": 1,
+        "太监": 1,
+        "刘秀": 1,
+        "郭妃": 1,
+        "姚期": 1
+      },
+      "links": [
+        {
+          "source": "刘秀",
+          "target": "郭妃",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "郭妃",
+          "value": 1
+        },
+        {
+          "source": "姚期",
+          "target": "郭妃",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "郭妃",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "姚期",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "姚期",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "少时登殿",
+      "characters": [
+        {
+          "name": "郭荣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "老夫郭荣。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "岑彭",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "本爵岑彭。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "杜茂",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "本爵杜茂。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "马武",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "本爵马武。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "刘秀",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "香烟缠渺，",
+          "rating": 0.75,
+          "role": "老生"
+        },
+        {
+          "name": "太监甲",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姚期",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：7位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.253,
+        "sentiment": 0.612
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "众人同进城",
+      "characters": [
+        {
+          "name": "姚期",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "终朝边塞征胡奴，扫灭蛮夷定河山。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "龙虎台前出入，貔貅帐内传唤。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.432,
+        "conflict": 1.0,
+        "sentiment": -0.427
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "众人同进城",
+      "characters": [
+        {
+          "name": "杜茂",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吓，姚皇兄！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "姚期",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓，杜皇兄！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "马武",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吓！姚皇兄，待我下马。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "岑彭",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：4位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.526,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "众人同进城",
+      "characters": [
+        {
+          "name": "岑彭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "见，圣旨下，跪！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "姚期",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "万岁！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "杜茂",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "马武",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：4位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.691,
+        "conflict": 0.4,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "夫君正朝堂",
+      "characters": [
+        {
+          "name": "姚夫人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "夫君正朝堂，使我乐安康。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "姚能",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "文韬武略广，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姚刚",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "力大逞刚强。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "王爷回府！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姚期",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "马、杜、岑奉王命草桥来镇，",
+          "rating": 0.667,
+          "role": "净"
+        },
+        {
+          "name": "郭荣",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：6位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.69,
+        "conflict": 0.519,
+        "sentiment": 0.632
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "众人同进城",
+      "characters": [
+        {
+          "name": "姚期",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "吓，三位皇兄，俺姚期有何德能，怎敢劳动众位皇兄，长亭饯行？",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "岑彭",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "姚皇兄，你我亦非一日之交，何出此言！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "姚能",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马武",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "来来，看酒！姚皇兄，待俺老马把敬你三大杯！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "杜茂",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第六场：5位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.781,
+        "conflict": 0.328,
+        "sentiment": -0.017
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "太和殿",
+      "characters": [
+        {
+          "name": "刘秀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "每日宫庭多欢笑，饮御宴酒乐逍遥。",
+          "rating": 0.429,
+          "role": "老生"
+        },
+        {
+          "name": "郭妃",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "陪伴君王多有道，文臣武将贺圣朝。",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "太监甲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姚期",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "皇恩浩调老臣宫庭独往，",
+          "rating": 0.6,
+          "role": "净"
+        },
+        {
+          "name": "太监",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：5位角色，61行",
+      "firstLine": 1,
+      "lastLine": 61,
+      "numLines": 61,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.781,
+        "conflict": 0.152,
+        "sentiment": 0.503
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "姚期",
+      "short": "姚期",
+      "key": "姚期",
+      "quote": "姚期 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "刘秀",
+      "short": "刘秀",
+      "key": "刘秀",
+      "quote": "刘秀 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "马武",
+      "short": "马武",
+      "key": "马武",
+      "quote": "马武 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "岑彭",
+      "short": "岑彭",
+      "key": "岑彭",
+      "quote": "岑彭 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杜茂",
+      "short": "杜茂",
+      "key": "杜茂",
+      "quote": "杜茂 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "郭妃",
+      "short": "郭妃",
+      "key": "郭妃",
+      "quote": "郭妃 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "郭荣",
+      "short": "郭荣",
+      "key": "郭荣",
+      "quote": "郭荣 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "太监甲",
+      "short": "太监",
+      "key": "太监甲",
+      "quote": "太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "姚能",
+      "short": "姚能",
+      "key": "姚能",
+      "quote": "姚能 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "姚夫人",
+      "short": "姚夫",
+      "key": "姚夫人",
+      "quote": "姚夫人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "姚刚",
+      "short": "姚刚",
+      "key": "姚刚",
+      "quote": "姚刚 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "众人同进城",
+      "key": "众人同进城",
+      "quote": "场景发生在众人同进城"
+    },
+    {
+      "name": "夫君正朝堂",
+      "key": "夫君正朝堂",
+      "quote": "场景发生在夫君正朝堂"
+    },
+    {
+      "name": "太和殿",
+      "key": "太和殿",
+      "quote": "场景发生在太和殿"
+    },
+    {
+      "name": "少时登殿",
+      "key": "少时登殿",
+      "quote": "场景发生在少时登殿"
+    },
+    {
+      "name": "同出城",
+      "key": "同出城",
+      "quote": "场景发生在同出城"
+    }
+  ]
+}

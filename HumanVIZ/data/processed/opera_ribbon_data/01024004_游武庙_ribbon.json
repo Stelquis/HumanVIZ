@@ -1,0 +1,278 @@
+{
+  "title": "游武庙",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 3,
+  "source_file": "01024004_游武庙.json",
+  "source_folder": "01000000",
+  "plot_summary": "明太祖起自布衣，统一天下，全赖文武诸臣之力。然心多忌刻，凡在朝之有功者，几至人人自危，不能保首\n领，并不能保家族。诚意伯青田刘伯温先生，随明祖征讨群雄，擘画经营，功亦无与伦比。明祖倚之如左右\n手，跬步不离。万几之暇，同游历代武臣庙，刘伯温将各武臣历史，一一奏闻。明祖任意品评，或褒或贬，\n惟于楚之伍员，责以无礼，因其鞭平王之尸也；汉之张良，责以不忠，因其功成隐退，不能终事汉皇也，立\n命侍卫等碎其偶像。刘伯温睹此情形，恍然大悟，暗想汉皇与明祖，杀戮功臣，同一性质，幸而张良智烛几\n先，未曾触汉皇之忌，不妨步张良之后尘，弃职归田，置国事于不问，若再贪恋禄位，万一有瓜蔓之祸，追\n悔亦嫌太迟。遂纳还印绶，恳切辞朝。明祖虽依依不舍，然已无可挽回矣。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 30,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.288,
+      "locations": {
+        "师刘基上殿": 1
+      },
+      "characters": {
+        "刘伯温": 1,
+        "内侍": 1,
+        "朱元璋": 1
+      },
+      "links": [
+        {
+          "source": "内侍",
+          "target": "朱元璋",
+          "value": 1
+        },
+        {
+          "source": "刘伯温",
+          "target": "朱元璋",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "刘伯温",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 178,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "将禅堂神殿": 1
+      },
+      "characters": {
+        "刘伯温": 1,
+        "四大铠": 1,
+        "朱元璋": 1,
+        "道士": 1
+      },
+      "links": [
+        {
+          "source": "朱元璋",
+          "target": "道士",
+          "value": 1
+        },
+        {
+          "source": "刘伯温",
+          "target": "道士",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "道士",
+          "value": 1
+        },
+        {
+          "source": "刘伯温",
+          "target": "朱元璋",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "朱元璋",
+          "value": 1
+        },
+        {
+          "source": "刘伯温",
+          "target": "四大铠",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "师刘基上殿",
+      "characters": [
+        {
+          "name": "朱元璋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "江山一统，民安乐，海晏河清。",
+          "rating": 0.2,
+          "role": "末"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "万岁有旨：宣军师刘基上殿。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘伯温",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：3位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.787,
+        "conflict": 0.857,
+        "sentiment": 0.331
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "将禅堂神殿",
+      "characters": [
+        {
+          "name": "道士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "道心似藏玉，双手不染尘。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "朱元璋",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来在庙前用目覻，",
+          "rating": -0.143,
+          "role": "末"
+        },
+        {
+          "name": "刘伯温",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "万岁容奏。",
+          "rating": 0.067,
+          "role": "老生"
+        },
+        {
+          "name": "四大铠",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，178行",
+      "firstLine": 1,
+      "lastLine": 178,
+      "numLines": 178,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.532,
+        "sentiment": 0.257
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘伯温",
+      "short": "刘伯",
+      "key": "刘伯温",
+      "quote": "刘伯温 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "朱元璋",
+      "short": "朱元",
+      "key": "朱元璋",
+      "quote": "朱元璋 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内侍",
+      "short": "内侍",
+      "key": "内侍",
+      "quote": "内侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四大铠",
+      "short": "四大",
+      "key": "四大铠",
+      "quote": "四大铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "道士",
+      "short": "道士",
+      "key": "道士",
+      "quote": "道士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "师刘基上殿",
+      "key": "师刘基上殿",
+      "quote": "场景发生在师刘基上殿"
+    },
+    {
+      "name": "将禅堂神殿",
+      "key": "将禅堂神殿",
+      "quote": "场景发生在将禅堂神殿"
+    },
+    {
+      "name": "这武庙",
+      "key": "这武庙",
+      "quote": "场景发生在这武庙"
+    }
+  ]
+}

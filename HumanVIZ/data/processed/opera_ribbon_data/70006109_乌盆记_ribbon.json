@@ -1,0 +1,570 @@
+{
+  "title": "乌盆记",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 9,
+  "num_locations": 1,
+  "source_file": "70006109_乌盆记.json",
+  "source_folder": "70006000",
+  "plot_summary": "南阳缎商刘世昌结账回家，行至定远县遇雨，借宿窑户赵大家。赵大见财起意，将其用酒毒死，后将其尸烧\n制乌盆。鞋工张别古向赵大索欠，得盆。刘世昌鬼魂诉冤。张别古代鸣冤。包拯雪冤，杖毙赵大。",
+  "performance_notes": "这个剧本是在钱培荣手抄余派戏词（不含配角唱念）的基础上，由李炳莘对照孟小冬说戏录音进行校核，并\n请范石人对配角的唱念进行修订，最终订稿。因原稿只含主角唱念的场次，故第三至四场从略。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 25,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.175,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "刘世昌": 1,
+        "刘升": 1
+      },
+      "links": [
+        {
+          "source": "刘世昌",
+          "target": "刘升",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 174,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵妻": 1,
+        "钟馗": 1,
+        "赵大": 1,
+        "刘升": 1,
+        "刘世昌": 1
+      },
+      "links": [
+        {
+          "source": "赵大",
+          "target": "赵妻",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵妻",
+          "value": 1
+        },
+        {
+          "source": "刘升",
+          "target": "赵妻",
+          "value": 1
+        },
+        {
+          "source": "赵妻",
+          "target": "钟馗",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘升",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "赵大",
+          "target": "钟馗",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "刘升",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "钟馗",
+          "value": 1
+        },
+        {
+          "source": "刘升",
+          "target": "钟馗",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 213,
+      "summary": "第五场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张别古": 1,
+        "刘世昌": 1,
+        "赵大": 1
+      },
+      "links": [
+        {
+          "source": "张别古",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵大",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 161,
+      "summary": "第六场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张别古": 1,
+        "包拯": 1,
+        "二差役": 1,
+        "赵大": 1,
+        "刘世昌": 1,
+        "差役甲": 1
+      },
+      "links": [
+        {
+          "source": "二差役",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "刘世昌",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "差役甲",
+          "target": "张别古",
+          "value": 1
+        },
+        {
+          "source": "张别古",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "差役甲",
+          "target": "赵大",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘世昌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "刘升！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘升",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：2位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.377,
+        "conflict": 0.0,
+        "sentiment": 0.193
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵妻",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "赵大",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "自幼，自幼生来命运单，又烧瓦来又烧砖，吃喝嫖赌又偷懒，只落得身穿破衣",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "刘世昌",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "行了一程又一程，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "刘升",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "是啦。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "钟馗",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "十载寒窗喜登科，只因貌丑忤金阙。玉帝怜俺死得苦，钦赐宝剑斩妖魔。",
+          "rating": -0.6,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：5位角色，174行",
+      "firstLine": 1,
+      "lastLine": 174,
+      "numLines": 174,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.781,
+        "conflict": 0.152,
+        "sentiment": 0.084
+      }
+    },
+    {
+      "number": 3,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "张别古",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "啊哈！",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "赵大",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "嗯哼！",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "刘世昌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "张别古！",
+          "rating": -0.273,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：3位角色，213行",
+      "firstLine": 1,
+      "lastLine": 213,
+      "numLines": 213,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.829,
+        "conflict": 0.124,
+        "sentiment": -0.034
+      }
+    },
+    {
+      "number": 4,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "想当年奉王命领凭上任，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "二差役",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "是。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "张别古",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "怪事年年有，没有今年多。苍蝇打破碗，蚊子叮破了锅。",
+          "rating": 0.143,
+          "role": "丑"
+        },
+        {
+          "name": "刘世昌",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "差役甲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "启太爷：有一老头儿喊冤。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵大",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第六场：6位角色，161行",
+      "firstLine": 1,
+      "lastLine": 161,
+      "numLines": 161,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.957,
+        "conflict": 0.157,
+        "sentiment": 0.371
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘世昌",
+      "short": "刘世",
+      "key": "刘世昌",
+      "quote": "刘世昌 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张别古",
+      "short": "张别",
+      "key": "张别古",
+      "quote": "张别古 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "赵大",
+      "short": "赵大",
+      "key": "赵大",
+      "quote": "赵大 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "包拯",
+      "short": "包拯",
+      "key": "包拯",
+      "quote": "包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "刘升",
+      "short": "刘升",
+      "key": "刘升",
+      "quote": "刘升 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "赵妻",
+      "short": "赵妻",
+      "key": "赵妻",
+      "quote": "赵妻 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "钟馗",
+      "short": "钟馗",
+      "key": "钟馗",
+      "quote": "钟馗 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "二差役",
+      "short": "二差",
+      "key": "二差役",
+      "quote": "二差役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "差役甲",
+      "short": "差役",
+      "key": "差役甲",
+      "quote": "差役甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

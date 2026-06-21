@@ -1,0 +1,448 @@
+{
+  "title": "连环套",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "01006009_连环套【三本】.json",
+  "source_folder": "01000000",
+  "plot_summary": "河北盗魁窦二敦，善使虎头双钩，自仗武力，横行齐鲁间。先是窦尔敦与飞镖黄三泰，在李家店地方，因角\n技被挫，从此江湖间窦尔敦之威名大损，遂恼羞成怒，暗与黄三泰结不解仇，继往关外占踞连环套山寨，日\n夜图报复，后知梁千岁有钦赐千里驹一乘，遂故遣部下往盗之，且留书署明飞镖黄三泰，盖意欲藉此陷害黄\n三泰。初不知黄三泰已谢世也。时黄三泰子黄天霸，已得记名总兵之职，幸彭公知其为仇家诬陷，曲予成全，\n限期令黄天霸访拿，天霸探得为窦尔敦所盗，乃与朱光祖亲入虎口，侦缉证据，先生下山遇寇，既入连环\n套，投刺进谒，谈次，亦借献知宝马为言，以相餂取，窦尔敦果坠其计，尽将盗马始末根由和盘托出，黄天\n霸至此，复故作不信状，窦尔敦乃令部下牵马出，以证其实。黄天霸既探得御马之真凭据，及计陷其父黄三\n泰之真口供，乃始直告己名。窦尔敦闻语，赫然暴怒，立欲加害，黄天霸挺身受刀，容貌间绝无一毫惧怯，\n且知窦尔敦以好汉自命，必不出此不武手段，以真害己，故复侃侃争辩，卒至约期比武，终盗得御马而归。",
+  "performance_notes": "前见杨小楼演此，从进见彭公做起，做至下山，其精细慷慨应变传神处，洵是得未曾有，非徒以白口工架声\n调等见长已也，从前潘月樵亦颇称拿手，然叫嚣跳荡，纯乎一团粗暴之气，以视杨氏，曾不可同日语矣。按\n曲本，仅为探山一段，盖此剧本以探山为菁华也，故近时演唱此剧者，大都皆不演全本，而仅演此一场。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 45,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.376,
+      "importance": 0.398,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "报子": 1,
+        "三头目": 1,
+        "窦尔敦": 1,
+        "二头目": 1,
+        "大头目": 1,
+        "黄天霸": 1
+      },
+      "links": [
+        {
+          "source": "三头目",
+          "target": "窦尔敦",
+          "value": 1
+        },
+        {
+          "source": "大头目",
+          "target": "窦尔敦",
+          "value": 2
+        },
+        {
+          "source": "报子",
+          "target": "窦尔敦",
+          "value": 1
+        },
+        {
+          "source": "三头目",
+          "target": "大头目",
+          "value": 1
+        },
+        {
+          "source": "三头目",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "大头目",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "二头目",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "大头目",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "窦尔敦",
+          "target": "黄天霸",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 181,
+      "summary": "第四场；第五场",
+      "conflict": 0.171,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "大头目": 1,
+        "窦尔敦": 1,
+        "黄天霸": 1,
+        "众人": 1
+      },
+      "links": [
+        {
+          "source": "窦尔敦",
+          "target": "黄天霸",
+          "value": 2
+        },
+        {
+          "source": "众人",
+          "target": "窦尔敦",
+          "value": 1
+        },
+        {
+          "source": "大头目",
+          "target": "窦尔敦",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "大头目",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "大头目",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "窦尔敦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "想当年李家店比武较量，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "三头目",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "寨主，大头目下山被擒。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大头目",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "吓，寨主！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "报子",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "报。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：4位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.678,
+        "conflict": 0.0,
+        "sentiment": 0.391
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "二头目",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "做什么的？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黄天霸",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "俺乃你家寨主好友，上山拜望。",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第二场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.428,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "大头目",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吓，镖客，这就是寨主。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "黄天霸",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "吓，（镖客）（寨主）。",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "窦尔敦",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "镖客到此，请来进山。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：3位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.606,
+        "conflict": 0.0,
+        "sentiment": 0.767
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "窦尔敦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "请坐。",
+          "rating": 0.273,
+          "role": "净"
+        },
+        {
+          "name": "黄天霸",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "有坐。",
+          "rating": 0.571,
+          "role": "武生"
+        },
+        {
+          "name": "众人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "嗳。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大头目",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "遵命。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，166行",
+      "firstLine": 1,
+      "lastLine": 166,
+      "numLines": 166,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.285,
+        "sentiment": 0.369
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "窦尔敦",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来此山下，不能远送了。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "黄天霸",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "告辞了。",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第五场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.66,
+        "conflict": 0.0,
+        "sentiment": 0.54
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "窦尔敦",
+      "short": "窦尔",
+      "key": "窦尔敦",
+      "quote": "窦尔敦 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "黄天霸",
+      "short": "黄天",
+      "key": "黄天霸",
+      "quote": "黄天霸 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "三头目",
+      "short": "三头",
+      "key": "三头目",
+      "quote": "三头目 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二头目",
+      "short": "二头",
+      "key": "二头目",
+      "quote": "二头目 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大头目",
+      "short": "大头",
+      "key": "大头目",
+      "quote": "大头目 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

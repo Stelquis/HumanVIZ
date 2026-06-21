@@ -1,0 +1,199 @@
+{
+  "title": "月下赞貂婵",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "05004008_月下赞貂婵.json",
+  "source_folder": "05000000",
+  "plot_summary": "关羽被困土山，与曹操约下三事，暂归曹营。曹操待关羽甚厚，并派美女十名侍奉二嫂，美女中有貂婵。关\n羽月下盛赞貂婵救国之功，并许日后刘备若得天下，必有封赠，貂婵乃去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 110,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四军校": 1,
+        "貂婵": 1,
+        "关羽": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "四军校",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "貂婵",
+          "value": 1
+        },
+        {
+          "source": "四军校",
+          "target": "貂婵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.087,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "貂婵": 1,
+        "关羽": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "貂婵",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一片丹心扶炎汉，何日里恢复中原。",
+          "rating": -0.143,
+          "role": "红生"
+        },
+        {
+          "name": "四军校",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "貂婵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：3位角色，110行",
+      "firstLine": 1,
+      "lastLine": 110,
+      "numLines": 110,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.426,
+        "sentiment": 0.118
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "曹丞相他把那美色来献，",
+          "rating": 1.0,
+          "role": "红生"
+        },
+        {
+          "name": "貂婵",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.726,
+        "conflict": 1.0,
+        "sentiment": 0.86
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "貂婵",
+      "short": "貂婵",
+      "key": "貂婵",
+      "quote": "貂婵 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "四军校",
+      "short": "四军",
+      "key": "四军校",
+      "quote": "四军校 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

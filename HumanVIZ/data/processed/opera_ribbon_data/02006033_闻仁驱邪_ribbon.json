@@ -1,0 +1,337 @@
+{
+  "title": "闻仁驱邪",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "02006033_闻仁驱邪.json",
+  "source_folder": "02000000",
+  "plot_summary": "爰爰道人及黄袍大仙在安乐镇一带为非作恶，乡民不得已，特为建庙祭祀。庙才建起，正要祭祀摆筵之日，\n闻仁赶到。劝乡民勿信妖言，并告爰爰道人：“吾在此挺立，若能兴风作雪，吾即信你。否则便系妖言惑众”\n。结果毫无灵应，遂将爰爰道人赶走，将庙改为乡会所。爰爰道人责备黄袍大仙，何以不显灵应。黄袍大\n仙曰：“闻仁系正人君子，文曲星下凡，吾等邪不胜正，安能不退避耶！”",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 30,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.938,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "黄袍大仙": 1,
+        "爰爰道人": 1,
+        "爰爰夫人": 1
+      },
+      "links": [
+        {
+          "source": "爰爰道人",
+          "target": "黄袍大仙",
+          "value": 1
+        },
+        {
+          "source": "爰爰夫人",
+          "target": "爰爰道人",
+          "value": 1
+        },
+        {
+          "source": "爰爰夫人",
+          "target": "黄袍大仙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 51,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "爰爰道人": 1,
+        "闻仁": 1,
+        "众乡民": 1,
+        "乡民甲": 1
+      },
+      "links": [
+        {
+          "source": "众乡民",
+          "target": "闻仁",
+          "value": 1
+        },
+        {
+          "source": "爰爰道人",
+          "target": "闻仁",
+          "value": 1
+        },
+        {
+          "source": "乡民甲",
+          "target": "闻仁",
+          "value": 1
+        },
+        {
+          "source": "众乡民",
+          "target": "爰爰道人",
+          "value": 1
+        },
+        {
+          "source": "乡民甲",
+          "target": "众乡民",
+          "value": 1
+        },
+        {
+          "source": "乡民甲",
+          "target": "爰爰道人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 15,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.469,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "黄袍大仙": 1,
+        "爰爰道人": 1
+      },
+      "links": [
+        {
+          "source": "爰爰道人",
+          "target": "黄袍大仙",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "爰爰道人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "自家名唤爰爰，修炼道气完全。也会餐霞吸露，也会拜斗谈元。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "黄袍大仙",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "蓄养先天，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "爰爰夫人",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "不知怎么摆弄出来的。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.848,
+        "conflict": 0.727,
+        "sentiment": 0.616
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "闻仁",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "众乡亲，不得听信妖人之言。倘官府知道，祸连一方，不是玩的。请早休息，",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "众乡民",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "前日有一人在庙里乱道几句话，霎时间七窍流血死了。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "爰爰道人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "贫道不过替天行道，先生何用执迷。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "乡民甲",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "不是张道陵，倒是一位有识之士。张道陵降魔要符咒，相公降魔只动口。可不",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，51行",
+      "firstLine": 1,
+      "lastLine": 51,
+      "numLines": 51,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.714,
+        "sentiment": 0.342
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "爰爰道人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我正在作难，偏偏我的黄袍祖宗，你方才哪里去了？为何不似往日显圣了？弄",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "黄袍大仙",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "大丑？你这小丑，你不知道往日显圣，只好吓那班村夫俗子。闻生是个正人，",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.741,
+        "conflict": 1.0,
+        "sentiment": 0.808
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "闻仁",
+      "short": "闻仁",
+      "key": "闻仁",
+      "quote": "闻仁 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "爰爰道人",
+      "short": "爰爰",
+      "key": "爰爰道人",
+      "quote": "爰爰道人 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "黄袍大仙",
+      "short": "黄袍",
+      "key": "黄袍大仙",
+      "quote": "黄袍大仙 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "乡民甲",
+      "short": "乡民",
+      "key": "乡民甲",
+      "quote": "乡民甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "爰爰夫人",
+      "short": "爰爰",
+      "key": "爰爰夫人",
+      "quote": "爰爰夫人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众乡民",
+      "short": "众乡",
+      "key": "众乡民",
+      "quote": "众乡民 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

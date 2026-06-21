@@ -1,0 +1,699 @@
+{
+  "title": "邪魔侵正",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 11,
+  "num_locations": 2,
+  "source_file": "02006034_邪魔侵正.json",
+  "source_folder": "02000000",
+  "plot_summary": "黄袍大仙，即黄袍郎（虎精）将唐僧卷入洞中，拟三日后由外归来，再吃唐僧之肉，暂由小妖看守。小妖等\n告知娘娘百花羞。百花羞甚为诧异。问明情由，始知亦系被黄袍郎卷来者，极为同情。遂言明系宝象国大将\n军柏宪之女，被妖卷来，强逼成婚。遂将唐僧释放，托带信父母，想法营救。并令花香洁亦写信其丈夫闻仁，\n由唐僧一同带去。黄袍郎归后，发现百花羞等将唐僧放出，必托带信其父母，想法营救。于是先发制人，\n变作美俊少年，往谒柏宪，言其女百花羞被伊救出，暂留渠家中。柏宪见黄袍郎少年英俊，且系救女恩人，\n一面令其入赘，一面带令朝见国王，封为都尉。正在庆贺欢宴时，家院报告唐僧带其女儿百花羞之信至。黄\n袍郎大窘，乃用妖法，喷水唐僧身上，使唐僧立时变成猛虎，装入槛中，听候国王命令处决。",
+  "performance_notes": "按此剧纯系由《西游记》第三十回“邪魔侵正法，意马忆心猿”而来，特结构较西游记稍为简略。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 92,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "日不得回府": 1
+      },
+      "characters": {
+        "花香洁": 1,
+        "唐僧": 1,
+        "百花羞": 1,
+        "四小妖": 1
+      },
+      "links": [
+        {
+          "source": "四小妖",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "四小妖",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "花香洁",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "百花羞",
+          "target": "花香洁",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "花香洁",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 34,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.569,
+      "locations": {
+        "他相貌堂堂": 1
+      },
+      "characters": {
+        "沙悟净": 1,
+        "猪悟能": 1,
+        "唐僧": 1,
+        "百花羞": 1
+      },
+      "links": [
+        {
+          "source": "沙悟净",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "猪悟能",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "沙悟净",
+          "value": 1
+        },
+        {
+          "source": "沙悟净",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "百花羞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 20,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.335,
+      "locations": {
+        "他相貌堂堂": 1
+      },
+      "characters": {
+        "化身": 1,
+        "唐僧": 1,
+        "黄袍郎": 1
+      },
+      "links": [
+        {
+          "source": "化身",
+          "target": "黄袍郎",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "黄袍郎",
+          "value": 1
+        },
+        {
+          "source": "化身",
+          "target": "唐僧",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 93,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "他相貌堂堂": 1
+      },
+      "characters": {
+        "猪悟能": 1,
+        "唐僧": 1,
+        "沙悟净": 1,
+        "百花羞": 1,
+        "闵氏": 1,
+        "院子乙": 1,
+        "柏宪": 1,
+        "化身": 1
+      },
+      "links": [
+        {
+          "source": "柏宪",
+          "target": "闵氏",
+          "value": 1
+        },
+        {
+          "source": "化身",
+          "target": "闵氏",
+          "value": 1
+        },
+        {
+          "source": "闵氏",
+          "target": "院子乙",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "闵氏",
+          "value": 1
+        },
+        {
+          "source": "猪悟能",
+          "target": "闵氏",
+          "value": 1
+        },
+        {
+          "source": "沙悟净",
+          "target": "闵氏",
+          "value": 1
+        },
+        {
+          "source": "百花羞",
+          "target": "闵氏",
+          "value": 1
+        },
+        {
+          "source": "化身",
+          "target": "柏宪",
+          "value": 1
+        },
+        {
+          "source": "柏宪",
+          "target": "院子乙",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "柏宪",
+          "value": 1
+        },
+        {
+          "source": "柏宪",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "柏宪",
+          "target": "沙悟净",
+          "value": 1
+        },
+        {
+          "source": "柏宪",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "化身",
+          "target": "院子乙",
+          "value": 1
+        },
+        {
+          "source": "化身",
+          "target": "唐僧",
+          "value": 1
+        },
+        {
+          "source": "化身",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "化身",
+          "target": "沙悟净",
+          "value": 1
+        },
+        {
+          "source": "化身",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "院子乙",
+          "value": 1
+        },
+        {
+          "source": "猪悟能",
+          "target": "院子乙",
+          "value": 1
+        },
+        {
+          "source": "沙悟净",
+          "target": "院子乙",
+          "value": 1
+        },
+        {
+          "source": "百花羞",
+          "target": "院子乙",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "沙悟净",
+          "value": 1
+        },
+        {
+          "source": "唐僧",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "沙悟净",
+          "target": "猪悟能",
+          "value": 1
+        },
+        {
+          "source": "猪悟能",
+          "target": "百花羞",
+          "value": 1
+        },
+        {
+          "source": "沙悟净",
+          "target": "百花羞",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "日不得回府",
+      "characters": [
+        {
+          "name": "四小妖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "娘娘有请！",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "百花羞",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "什么事情？",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "不消问得。我是该死之人，既被拿住，就是你们口中之物了。问他则甚？",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "花香洁",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，92行",
+      "firstLine": 1,
+      "lastLine": 92,
+      "numLines": 92,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.807,
+        "conflict": 0.447,
+        "sentiment": 0.123
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "他相貌堂堂",
+      "characters": [
+        {
+          "name": "猪悟能",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "好恨妖怪！",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "沙悟净",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哥吓，不要看这般光景，你我抖起精神，救出师父要紧。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "八戒哪里？",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "百花羞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：4位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.853,
+        "conflict": 0.26,
+        "sentiment": 0.062
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "他相貌堂堂",
+      "characters": [
+        {
+          "name": "黄袍郎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "冤仇未报难解怨，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "化身",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "变个英俊美少年。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：3位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.439,
+        "conflict": 1.0,
+        "sentiment": 0.627
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "他相貌堂堂",
+      "characters": [
+        {
+          "name": "闵氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "元夕吴女遭磨难，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "柏宪",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "夫人，国王喜他人才出众，相貌魁梧，官绶都尉之职。即刻就回来拜谢你我了。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "化身",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "天颜亲近，",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "院子乙",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "涎脸新夸男入赘，光头慌报女稍书。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "唐僧",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "大将军稽首了。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "猪悟能",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "听他言称贤婿，不要就是那卷去百花羞的妖魔，如今变了形象，反来认丈人了。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "沙悟净",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "妖魔硬把东床认，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "百花羞",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第四场：8位角色，93行",
+      "firstLine": 1,
+      "lastLine": 93,
+      "numLines": 93,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.335,
+        "sentiment": 0.179
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "唐僧",
+      "short": "唐僧",
+      "key": "唐僧",
+      "quote": "唐僧 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "百花羞",
+      "short": "百花",
+      "key": "百花羞",
+      "quote": "百花羞 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "猪悟能",
+      "short": "猪悟",
+      "key": "猪悟能",
+      "quote": "猪悟能 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "沙悟净",
+      "short": "沙悟",
+      "key": "沙悟净",
+      "quote": "沙悟净 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "化身",
+      "short": "化身",
+      "key": "化身",
+      "quote": "化身 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "花香洁",
+      "short": "花香",
+      "key": "花香洁",
+      "quote": "花香洁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四小妖",
+      "short": "四小",
+      "key": "四小妖",
+      "quote": "四小妖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄袍郎",
+      "short": "黄袍",
+      "key": "黄袍郎",
+      "quote": "黄袍郎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "闵氏",
+      "short": "闵氏",
+      "key": "闵氏",
+      "quote": "闵氏 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子乙",
+      "short": "院子",
+      "key": "院子乙",
+      "quote": "院子乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "柏宪",
+      "short": "柏宪",
+      "key": "柏宪",
+      "quote": "柏宪 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "他相貌堂堂",
+      "key": "他相貌堂堂",
+      "quote": "场景发生在他相貌堂堂"
+    },
+    {
+      "name": "日不得回府",
+      "key": "日不得回府",
+      "quote": "场景发生在日不得回府"
+    }
+  ]
+}

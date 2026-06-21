@@ -1,0 +1,110 @@
+{
+  "title": "十八扯",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "03031008_十八扯.json",
+  "source_folder": "03000000",
+  "plot_summary": "有孔怀者，其嫂被母困在磨房，并令其妹持鞭监工。孔怀闻知不忍，遂于半途阻妹，并以唱戏作耍，凡生旦\n净丑，前唐后汉，东拉西扯，极尽乐趣。及玩毕，已晚饭时候。孔凤英遂忘监工打嫂之事。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 435,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孔凤英": 1,
+        "孔怀": 1
+      },
+      "links": [
+        {
+          "source": "孔凤英",
+          "target": "孔怀",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孔怀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "啊哈！",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "孔凤英",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "哥哥等着！",
+          "rating": -0.333,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：2位角色，435行",
+      "firstLine": 1,
+      "lastLine": 435,
+      "numLines": 435,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.129,
+        "sentiment": 0.018
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孔凤英",
+      "short": "孔凤",
+      "key": "孔凤英",
+      "quote": "孔凤英 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "孔怀",
+      "short": "孔怀",
+      "key": "孔怀",
+      "quote": "孔怀 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

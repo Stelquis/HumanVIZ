@@ -1,0 +1,418 @@
+{
+  "_metadata": {
+    "export_time": "2026-06-01T00:15:41.748658",
+    "source": "4.5 构建跨剧本全局网络并导出"
+  },
+  "global": {
+    "node_count": 8255,
+    "edge_count": 54401,
+    "density": 0.001597,
+    "avg_clustering": 0.687644,
+    "connected_components": 758,
+    "largest_component_ratio": 0.893882,
+    "relation_type_distribution": {
+      "敌对": {
+        "count": 2532,
+        "ratio": 0.0465
+      },
+      "从属": {
+        "count": 4481,
+        "ratio": 0.0824
+      },
+      "同盟": {
+        "count": 4559,
+        "ratio": 0.0838
+      },
+      "中立": {
+        "count": 40452,
+        "ratio": 0.7436
+      },
+      "亲属": {
+        "count": 2193,
+        "ratio": 0.0403
+      },
+      "情感": {
+        "count": 184,
+        "ratio": 0.0034
+      }
+    },
+    "core_characters": [
+      {
+        "name": "院子",
+        "role_type": "",
+        "degree_centrality": 0.128907
+      },
+      {
+        "name": "四下手",
+        "role_type": "",
+        "degree_centrality": 0.069542
+      },
+      {
+        "name": "四文堂",
+        "role_type": "",
+        "degree_centrality": 0.069421
+      }
+    ],
+    "multi_play_nodes": 2470,
+    "multi_play_edges": 8825
+  },
+  "by_type": {
+    "侠义戏": {
+      "node_count": 1375,
+      "edge_count": 7187,
+      "density": 0.007608,
+      "avg_clustering": 0.691912,
+      "connected_components": 145,
+      "largest_component_ratio": 0.875636,
+      "relation_type_distribution": {
+        "敌对": {
+          "count": 357,
+          "ratio": 0.0497
+        },
+        "从属": {
+          "count": 394,
+          "ratio": 0.0548
+        },
+        "同盟": {
+          "count": 648,
+          "ratio": 0.0902
+        },
+        "中立": {
+          "count": 5552,
+          "ratio": 0.7725
+        },
+        "亲属": {
+          "count": 220,
+          "ratio": 0.0306
+        },
+        "情感": {
+          "count": 16,
+          "ratio": 0.0022
+        }
+      },
+      "core_characters": [
+        {
+          "name": "院子",
+          "role_type": "",
+          "degree_centrality": 0.11936
+        },
+        {
+          "name": "丑院子",
+          "role_type": "丑",
+          "degree_centrality": 0.069869
+        },
+        {
+          "name": "黄天霸",
+          "role_type": "武生",
+          "degree_centrality": 0.051674
+        }
+      ]
+    },
+    "公案戏": {
+      "node_count": 1090,
+      "edge_count": 6341,
+      "density": 0.010684,
+      "avg_clustering": 0.669189,
+      "connected_components": 166,
+      "largest_component_ratio": 0.817431,
+      "relation_type_distribution": {
+        "从属": {
+          "count": 447,
+          "ratio": 0.0705
+        },
+        "中立": {
+          "count": 5231,
+          "ratio": 0.8249
+        },
+        "同盟": {
+          "count": 295,
+          "ratio": 0.0465
+        },
+        "敌对": {
+          "count": 182,
+          "ratio": 0.0287
+        },
+        "亲属": {
+          "count": 164,
+          "ratio": 0.0259
+        },
+        "情感": {
+          "count": 22,
+          "ratio": 0.0035
+        }
+      },
+      "core_characters": [
+        {
+          "name": "包拯",
+          "role_type": "净",
+          "degree_centrality": 0.121212
+        },
+        {
+          "name": "院子",
+          "role_type": "",
+          "degree_centrality": 0.112948
+        },
+        {
+          "name": "王朝",
+          "role_type": "",
+          "degree_centrality": 0.092746
+        }
+      ]
+    },
+    "历史戏": {
+      "node_count": 4760,
+      "edge_count": 30715,
+      "density": 0.002712,
+      "avg_clustering": 0.675602,
+      "connected_components": 539,
+      "largest_component_ratio": 0.879832,
+      "relation_type_distribution": {
+        "敌对": {
+          "count": 1506,
+          "ratio": 0.049
+        },
+        "从属": {
+          "count": 2560,
+          "ratio": 0.0833
+        },
+        "同盟": {
+          "count": 2796,
+          "ratio": 0.091
+        },
+        "中立": {
+          "count": 22818,
+          "ratio": 0.7429
+        },
+        "亲属": {
+          "count": 993,
+          "ratio": 0.0323
+        },
+        "情感": {
+          "count": 42,
+          "ratio": 0.0014
+        }
+      },
+      "core_characters": [
+        {
+          "name": "院子",
+          "role_type": "",
+          "degree_centrality": 0.117462
+        },
+        {
+          "name": "四上手",
+          "role_type": "",
+          "degree_centrality": 0.096029
+        },
+        {
+          "name": "四下手",
+          "role_type": "",
+          "degree_centrality": 0.089094
+        }
+      ]
+    },
+    "家庭戏": {
+      "node_count": 1301,
+      "edge_count": 5137,
+      "density": 0.006075,
+      "avg_clustering": 0.688798,
+      "connected_components": 200,
+      "largest_component_ratio": 0.772483,
+      "relation_type_distribution": {
+        "亲属": {
+          "count": 610,
+          "ratio": 0.1187
+        },
+        "敌对": {
+          "count": 149,
+          "ratio": 0.029
+        },
+        "中立": {
+          "count": 3532,
+          "ratio": 0.6876
+        },
+        "从属": {
+          "count": 504,
+          "ratio": 0.0981
+        },
+        "情感": {
+          "count": 28,
+          "ratio": 0.0055
+        },
+        "同盟": {
+          "count": 314,
+          "ratio": 0.0611
+        }
+      },
+      "core_characters": [
+        {
+          "name": "院子",
+          "role_type": "",
+          "degree_centrality": 0.123846
+        },
+        {
+          "name": "傧相",
+          "role_type": "",
+          "degree_centrality": 0.044615
+        },
+        {
+          "name": "贾宝玉",
+          "role_type": "小生",
+          "degree_centrality": 0.036154
+        }
+      ]
+    },
+    "技法展示戏": {
+      "node_count": 73,
+      "edge_count": 150,
+      "density": 0.057078,
+      "avg_clustering": 0.739103,
+      "connected_components": 22,
+      "largest_component_ratio": 0.219178,
+      "relation_type_distribution": {
+        "亲属": {
+          "count": 24,
+          "ratio": 0.16
+        },
+        "中立": {
+          "count": 79,
+          "ratio": 0.5267
+        },
+        "从属": {
+          "count": 19,
+          "ratio": 0.1267
+        },
+        "同盟": {
+          "count": 18,
+          "ratio": 0.12
+        },
+        "敌对": {
+          "count": 9,
+          "ratio": 0.06
+        },
+        "情感": {
+          "count": 1,
+          "ratio": 0.0067
+        }
+      },
+      "core_characters": [
+        {
+          "name": "何元庆",
+          "role_type": "",
+          "degree_centrality": 0.166667
+        },
+        {
+          "name": "岳飞",
+          "role_type": "老生",
+          "degree_centrality": 0.166667
+        },
+        {
+          "name": "张奎",
+          "role_type": "",
+          "degree_centrality": 0.166667
+        }
+      ]
+    },
+    "爱情戏": {
+      "node_count": 741,
+      "edge_count": 2920,
+      "density": 0.01065,
+      "avg_clustering": 0.745059,
+      "connected_components": 102,
+      "largest_component_ratio": 0.669366,
+      "relation_type_distribution": {
+        "同盟": {
+          "count": 227,
+          "ratio": 0.0777
+        },
+        "中立": {
+          "count": 2044,
+          "ratio": 0.7
+        },
+        "从属": {
+          "count": 271,
+          "ratio": 0.0928
+        },
+        "情感": {
+          "count": 81,
+          "ratio": 0.0277
+        },
+        "敌对": {
+          "count": 113,
+          "ratio": 0.0387
+        },
+        "亲属": {
+          "count": 184,
+          "ratio": 0.063
+        }
+      },
+      "core_characters": [
+        {
+          "name": "院子",
+          "role_type": "",
+          "degree_centrality": 0.12973
+        },
+        {
+          "name": "鸨儿",
+          "role_type": "彩旦",
+          "degree_centrality": 0.085135
+        },
+        {
+          "name": "书童",
+          "role_type": "丑",
+          "degree_centrality": 0.056757
+        }
+      ]
+    },
+    "神话戏": {
+      "node_count": 921,
+      "edge_count": 3865,
+      "density": 0.009123,
+      "avg_clustering": 0.718458,
+      "connected_components": 120,
+      "largest_component_ratio": 0.767644,
+      "relation_type_distribution": {
+        "中立": {
+          "count": 2376,
+          "ratio": 0.6147
+        },
+        "同盟": {
+          "count": 566,
+          "ratio": 0.1464
+        },
+        "从属": {
+          "count": 471,
+          "ratio": 0.1219
+        },
+        "敌对": {
+          "count": 274,
+          "ratio": 0.0709
+        },
+        "亲属": {
+          "count": 166,
+          "ratio": 0.0429
+        },
+        "情感": {
+          "count": 12,
+          "ratio": 0.0031
+        }
+      },
+      "core_characters": [
+        {
+          "name": "孙悟空",
+          "role_type": "武生",
+          "degree_centrality": 0.201087
+        },
+        {
+          "name": "唐僧",
+          "role_type": "小生",
+          "degree_centrality": 0.08587
+        },
+        {
+          "name": "猪八戒",
+          "role_type": "",
+          "degree_centrality": 0.075
+        }
+      ]
+    }
+  }
+}

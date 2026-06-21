@@ -1,0 +1,468 @@
+{
+  "title": "芦花河",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 7,
+  "num_locations": 2,
+  "source_file": "01011007_芦花河.json",
+  "source_folder": "01000000",
+  "plot_summary": "薛丁山、樊梨花夫妇率兵征西，共挂头二路元帅之职，兵抵番境，与番将苏宝同战于芦花河，相持不下。先\n是薛丁山兵经玉泉山，收得义子薛应龙，年方弱冠，颇英伟出众，樊梨花亦甚爱怜之，遂带同随营效力。至\n是，薛应龙因与番将交战，迷路误入白家庄，被庄主强迫招亲，迨回营，樊梨花怒其未得父母之命，私自成\n婚，且有干军纪，欲斩之以伸军律。适薛丁山至，进帐向樊梨花说情。语时，并提及从前自己临阵招亲事，\n以为事有先例，谅梨花一念己身前事，必不忍过于苟求。孰意樊梨花反被羞激成怒，谓恐唐王责其治军不严，\n且防诸将效尤，必不徇情，夫妇几至反目。旋经众将士环请乞情，方允以立功自赎。既而苏宝同请得妖僧\n道二人，摆设金光魔阵，以阻唐兵。薛丁山不敢轻敌，即日往求老师父下山，相助破妖。以深悉此妖阵厉害，\n临行时频嘱樊梨花，勿令薛应龙轻出，免遭不测。薛应龙急欲立功赎罪，竟私往开战冲阵，卒被妖术所困，\n死于非命。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 226,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.368,
+      "importance": 1.0,
+      "locations": {
+        "人进了唐营": 2,
+        "敌楼观看": 1
+      },
+      "characters": {
+        "报子": 1,
+        "四红龙套": 1,
+        "窦一虎": 1,
+        "薛应龙": 1,
+        "薛丁山": 1,
+        "秦汉": 1,
+        "樊梨花": 1
+      },
+      "links": [
+        {
+          "source": "樊梨花",
+          "target": "窦一虎",
+          "value": 1
+        },
+        {
+          "source": "樊梨花",
+          "target": "薛应龙",
+          "value": 2
+        },
+        {
+          "source": "樊梨花",
+          "target": "秦汉",
+          "value": 1
+        },
+        {
+          "source": "樊梨花",
+          "target": "薛丁山",
+          "value": 3
+        },
+        {
+          "source": "窦一虎",
+          "target": "薛应龙",
+          "value": 1
+        },
+        {
+          "source": "秦汉",
+          "target": "窦一虎",
+          "value": 1
+        },
+        {
+          "source": "窦一虎",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "秦汉",
+          "target": "薛应龙",
+          "value": 1
+        },
+        {
+          "source": "薛丁山",
+          "target": "薛应龙",
+          "value": 2
+        },
+        {
+          "source": "秦汉",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "樊梨花",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "樊梨花",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "薛应龙",
+          "value": 1
+        },
+        {
+          "source": "四红龙套",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "薛应龙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 24,
+      "summary": "第4场；第5场",
+      "conflict": 0.729,
+      "importance": 0.192,
+      "locations": {
+        "人进了唐营": 2
+      },
+      "characters": {
+        "薛丁山": 1,
+        "樊梨花": 1
+      },
+      "links": [
+        {
+          "source": "樊梨花",
+          "target": "薛丁山",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "人进了唐营",
+      "characters": [
+        {
+          "name": "樊梨花",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "应龙去招亲，定斩不容情。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "窦一虎",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "参见元帅。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛应龙",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "离了芦花河，来此是营门。",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "秦汉",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "待我与你报门。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛丁山",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "马来！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：5位角色，117行",
+      "firstLine": 1,
+      "lastLine": 117,
+      "numLines": 117,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.55,
+        "sentiment": 0.065
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "人进了唐营",
+      "characters": [
+        {
+          "name": "樊梨花",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "“樊”什么？",
+          "rating": -0.6,
+          "role": "旦"
+        },
+        {
+          "name": "薛丁山",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "樊江镇，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "四红龙套",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我等俱以皆服。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛应龙",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "一见营门来松绑，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "报子",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "启元帅：芦花河摆下无名大阵。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：5位角色，97行",
+      "firstLine": 1,
+      "lastLine": 97,
+      "numLines": 97,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.12,
+        "sentiment": -0.168
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "敌楼观看",
+      "characters": [
+        {
+          "name": "薛丁山",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吓，夫人，芦花河摆下了无名大阵，你我夫妻到敌楼观看。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "樊梨花",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "王爷请。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.643,
+        "conflict": 0.0,
+        "sentiment": 0.2
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "人进了唐营",
+      "characters": [
+        {
+          "name": "薛丁山",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "休要惊动那贼兵。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "樊梨花",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "金光大阵。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第4场：2位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.665,
+        "conflict": 0.588,
+        "sentiment": -0.389
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "人进了唐营",
+      "characters": [
+        {
+          "name": "樊梨花",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一见王爷上马行，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第5场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.522,
+        "conflict": 0.0,
+        "sentiment": 0.34
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "樊梨花",
+      "short": "樊梨",
+      "key": "樊梨花",
+      "quote": "樊梨花 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "薛丁山",
+      "short": "薛丁",
+      "key": "薛丁山",
+      "quote": "薛丁山 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛应龙",
+      "short": "薛应",
+      "key": "薛应龙",
+      "quote": "薛应龙 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四红龙套",
+      "short": "四红",
+      "key": "四红龙套",
+      "quote": "四红龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "窦一虎",
+      "short": "窦一",
+      "key": "窦一虎",
+      "quote": "窦一虎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "秦汉",
+      "short": "秦汉",
+      "key": "秦汉",
+      "quote": "秦汉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "人进了唐营",
+      "key": "人进了唐营",
+      "quote": "场景发生在人进了唐营"
+    },
+    {
+      "name": "敌楼观看",
+      "key": "敌楼观看",
+      "quote": "场景发生在敌楼观看"
+    }
+  ]
+}

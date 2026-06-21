@@ -1,0 +1,199 @@
+{
+  "title": "荆钗记·男祭",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "70902105_荆钗记·男祭.json",
+  "source_folder": "70902000",
+  "plot_summary": "钱玉莲抗拒改嫁，投江自尽，但被钱载和所救。王十朋母子不知其遇救之事，以为她已葬身水底，故在清明\n时节，备礼祭奠之。",
+  "performance_notes": "此戏在舞台上很少演出，曲会的清唱中偶或有之。官生的〖北双调折桂令〗用赠板，是一个绝无仅有的特殊\n例子，可与《牡丹亭·硬拷》、《西楼记·错梦》等戏的同牌曲调，比较参考，以见其风格的异同，作为研\n究资料。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 119,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "嫦娥宫殿": 1
+      },
+      "characters": {
+        "王十朋": 1,
+        "王母": 1,
+        "李成": 1
+      },
+      "links": [
+        {
+          "source": "王十朋",
+          "target": "王母",
+          "value": 1
+        },
+        {
+          "source": "李成",
+          "target": "王十朋",
+          "value": 1
+        },
+        {
+          "source": "李成",
+          "target": "王母",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.141,
+      "locations": {
+        "嫦娥宫殿": 1
+      },
+      "characters": {
+        "王十朋": 1,
+        "王母": 1
+      },
+      "links": [
+        {
+          "source": "王十朋",
+          "target": "王母",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "嫦娥宫殿",
+      "characters": [
+        {
+          "name": "王十朋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "昨夜东风蓦吹透，报道桃花逐水流。",
+          "rating": -0.429,
+          "role": "冠生"
+        },
+        {
+          "name": "王母",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "细雨霏霏时候，柳眉烟锁长愁。",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "李成",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有酒。",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第1场：3位角色，119行",
+      "firstLine": 1,
+      "lastLine": 119,
+      "numLines": 119,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.103,
+        "sentiment": 0.023
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "嫦娥宫殿",
+      "characters": [
+        {
+          "name": "王母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "年年此日须当祭，",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "王十朋",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "直上嫦娥宫殿里。",
+          "rating": -1.0,
+          "role": "冠生"
+        }
+      ],
+      "summary": "第2场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.663,
+        "conflict": 0.87,
+        "sentiment": -0.413
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王十朋",
+      "short": "王十",
+      "key": "王十朋",
+      "quote": "王十朋 — 冠生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 冠生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王母",
+      "short": "王母",
+      "key": "王母",
+      "quote": "王母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李成",
+      "short": "李成",
+      "key": "李成",
+      "quote": "李成 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "嫦娥宫殿",
+      "key": "嫦娥宫殿",
+      "quote": "场景发生在嫦娥宫殿"
+    }
+  ]
+}

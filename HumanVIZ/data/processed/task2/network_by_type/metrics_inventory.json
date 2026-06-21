@@ -1,0 +1,116 @@
+{
+  "audit_time": "2026-06-06T15:37:00.631306",
+  "total_plays": 1473,
+  "metrics": {
+    "avg_clustering": {
+      "name": "avg_clustering",
+      "plays_with": 1473,
+      "plays_without": 0,
+      "coverage_pct": 100.0,
+      "non_null": 1473,
+      "type": "numeric",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.665871,
+      "median": 0.694626,
+      "std": 0.239011,
+      "zeros": 92
+    },
+    "connected_components": {
+      "name": "connected_components",
+      "plays_with": 1473,
+      "plays_without": 0,
+      "coverage_pct": 100.0,
+      "non_null": 1473,
+      "type": "numeric",
+      "min": 1,
+      "max": 38,
+      "mean": 4.264087,
+      "median": 3,
+      "std": 3.585928,
+      "zeros": 0
+    },
+    "core_characters": {
+      "name": "core_characters",
+      "plays_with": 1473,
+      "plays_without": 0,
+      "coverage_pct": 100.0,
+      "non_null": 1473,
+      "type": "list[dict]",
+      "avg_core_count": 2.97,
+      "max_core_count": 3
+    },
+    "density": {
+      "name": "density",
+      "plays_with": 1473,
+      "plays_without": 0,
+      "coverage_pct": 100.0,
+      "non_null": 1473,
+      "type": "numeric",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.456625,
+      "median": 0.380117,
+      "std": 0.280086,
+      "zeros": 11
+    },
+    "edge_count": {
+      "name": "edge_count",
+      "plays_with": 1473,
+      "plays_without": 0,
+      "coverage_pct": 100.0,
+      "non_null": 1473,
+      "type": "numeric",
+      "min": 0,
+      "max": 887,
+      "mean": 49.054311,
+      "median": 24,
+      "std": 75.614411,
+      "zeros": 11
+    },
+    "largest_component_ratio": {
+      "name": "largest_component_ratio",
+      "plays_with": 1473,
+      "plays_without": 0,
+      "coverage_pct": 100.0,
+      "non_null": 1473,
+      "type": "numeric",
+      "min": 0.277778,
+      "max": 1.0,
+      "mean": 0.792736,
+      "median": 0.8,
+      "std": 0.159881,
+      "zeros": 0
+    },
+    "node_count": {
+      "name": "node_count",
+      "plays_with": 1473,
+      "plays_without": 0,
+      "coverage_pct": 100.0,
+      "non_null": 1473,
+      "type": "numeric",
+      "min": 1,
+      "max": 102,
+      "mean": 15.270876,
+      "median": 12,
+      "std": 12.440973,
+      "zeros": 0
+    },
+    "relation_type_distribution": {
+      "name": "relation_type_distribution",
+      "plays_with": 1473,
+      "plays_without": 0,
+      "coverage_pct": 100.0,
+      "non_null": 1462,
+      "type": "dict[str,int|dict]",
+      "global_distribution": {
+        "中立": 50109,
+        "同盟": 7945,
+        "从属": 6989,
+        "敌对": 3683,
+        "亲属": 3261,
+        "情感": 270
+      }
+    }
+  }
+}

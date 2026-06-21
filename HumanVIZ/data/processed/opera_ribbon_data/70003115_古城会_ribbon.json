@@ -1,0 +1,749 @@
+{
+  "title": "古城会",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 10,
+  "num_locations": 2,
+  "source_file": "70003115_古城会.json",
+  "source_folder": "70003000",
+  "plot_summary": "关羽一行，过了黄河渡口，来到古城。马童探知古城由张飞据守，关羽闻讯心喜，期待弟兄即刻相会。不料\n张飞怀疑关羽降曹，拒不开城。时曹将蔡阳从后赶来，形势危急。张飞乃助三通战鼓，命斩蔡阳，以验关羽\n是否降曹。关羽力斩蔡阳，张飞之疑得释。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 104,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.605,
+      "importance": 1.0,
+      "locations": {
+        "去就是古城": 2,
+        " 师出朝堂": 1
+      },
+      "characters": {
+        "甘夫人": 1,
+        "四将": 1,
+        "蔡阳": 1,
+        "探子": 1,
+        "糜夫人": 1,
+        "关羽": 1,
+        "马童": 1,
+        "樵夫": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "探子",
+          "value": 2
+        },
+        {
+          "source": "探子",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "蔡阳",
+          "value": 2
+        },
+        {
+          "source": "关羽",
+          "target": "四将",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "樵夫",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "甘夫人",
+          "value": 1
+        },
+        {
+          "source": "糜夫人",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "蔡阳",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "糜夫人",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "甘夫人",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "蔡阳",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 67,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.248,
+      "importance": 0.798,
+      "locations": {
+        "去就是古城": 3
+      },
+      "characters": {
+        "蔡阳": 1,
+        "关羽": 1,
+        "马童": 1,
+        "张飞": 1,
+        "兵士": 1
+      },
+      "links": [
+        {
+          "source": "张飞",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "兵士",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "兵士",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "马童",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 81,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.964,
+      "locations": {
+        "去就是古城": 1
+      },
+      "characters": {
+        "甘夫人": 1,
+        "蔡阳": 1,
+        "糜夫人": 1,
+        "关羽": 1,
+        "马童": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "甘夫人",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "甘夫人",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "蔡阳",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "糜夫人",
+          "target": "马童",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "糜夫人",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "糜夫人",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "去就是古城",
+      "characters": [
+        {
+          "name": "探子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "俺，曹营探子是也。只因关羽过关斩将，在黄河渡口，将秦琪刀劈落马，不免",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第一场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.319,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 师出朝堂",
+      "characters": [
+        {
+          "name": "探子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "今有关羽，过关斩将，在黄河渡口，将少将军秦琪刀劈落马。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蔡阳",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "师出朝堂，盔明甲亮，军威壮，将勇兵强，要把烟尘扫荡。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "四将",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第二场：4位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.446,
+        "conflict": 0.606,
+        "sentiment": 0.765
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "去就是古城",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "离却曹营奔阳关，",
+          "rating": 0.2,
+          "role": "红生"
+        },
+        {
+          "name": "马童",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "二爷一路劳乏，前面有一松林，过去就是古城，大家歇息歇息再行。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "糜夫人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "二弟少礼。",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "樵夫",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "卖柴！",
+          "rating": 0.143,
+          "role": "丑"
+        },
+        {
+          "name": "甘夫人",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "蔡阳",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：6位角色，83行",
+      "firstLine": 1,
+      "lastLine": 83,
+      "numLines": 83,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.824,
+        "conflict": 0.518,
+        "sentiment": 0.231
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "去就是古城",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "心中恼恨关云长，保定二嫂赴许昌。忘却桃园三结义，真心归顺曹奸相。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "马童",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "离了松林地，",
+          "rating": 0.333,
+          "role": "武生"
+        },
+        {
+          "name": "兵士",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "做什么的？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：3位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.695,
+        "conflict": 0.638,
+        "sentiment": 0.077
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "去就是古城",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "曹营十二载，古城又相逢。",
+          "rating": -0.2,
+          "role": "红生"
+        },
+        {
+          "name": "马童",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "参见二爷。",
+          "rating": 0.5,
+          "role": "武生"
+        }
+      ],
+      "summary": "第五场：2位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.702,
+        "conflict": 0.667,
+        "sentiment": 0.248
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "去就是古城",
+      "characters": [
+        {
+          "name": "蔡阳",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.051,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "去就是古城",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "看枪！",
+          "rating": -0.167,
+          "role": "净"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "三弟为何提枪便刺？",
+          "rating": -0.2,
+          "role": "红生"
+        },
+        {
+          "name": "马童",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "不见大爷，死了无益。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "蔡阳",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "马前来的敢是关羽？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "甘夫人",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "糜夫人",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第七场：6位角色，81行",
+      "firstLine": 1,
+      "lastLine": 81,
+      "numLines": 81,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.957,
+        "conflict": 0.578,
+        "sentiment": 0.087
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "马童",
+      "short": "马童",
+      "key": "马童",
+      "quote": "马童 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "蔡阳",
+      "short": "蔡阳",
+      "key": "蔡阳",
+      "quote": "蔡阳 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "樵夫",
+      "short": "樵夫",
+      "key": "樵夫",
+      "quote": "樵夫 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "甘夫人",
+      "short": "甘夫",
+      "key": "甘夫人",
+      "quote": "甘夫人 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "糜夫人",
+      "short": "糜夫",
+      "key": "糜夫人",
+      "quote": "糜夫人 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "四将",
+      "short": "四将",
+      "key": "四将",
+      "quote": "四将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "兵士",
+      "short": "兵士",
+      "key": "兵士",
+      "quote": "兵士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "去就是古城",
+      "key": "去就是古城",
+      "quote": "场景发生在去就是古城"
+    },
+    {
+      "name": " 师出朝堂",
+      "key": " 师出朝堂",
+      "quote": "场景发生在 师出朝堂"
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "title": "洪羊洞",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 9,
+  "num_locations": 2,
+  "source_file": "70006108_洪羊洞.json",
+  "source_folder": "70006000",
+  "plot_summary": "杨延昭命孟良再往辽邦洪羊洞盗取杨继业骸骨，焦赞知而暗随至洞；孟良误以为敌将，用斧劈死。既而疑声\n音不类，细察为焦赞，哀悔不已，以遗骨付老兵程宣赍回，自刎洞前。杨延昭闻耗惊悼呕血，病势益重，与\n八贤王及母妻诀别而死。",
+  "performance_notes": "这个剧本是在钱培荣手抄余派戏词（不含配角唱念）的基础上，由李炳莘对照孟小冬说戏录音进行校核，并\n请范石人对配角的唱念进行修订，最终订稿。因原稿只含主角唱念的场次，故第二至六场、第八场从略。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 49,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.75,
+      "locations": {
+        "将命丧番营": 1
+      },
+      "characters": {
+        "孟良": 1,
+        "杨继业": 1,
+        "杨延昭": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "杨延昭",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "家院",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 59,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.903,
+      "locations": {
+        "将命丧番营": 1
+      },
+      "characters": {
+        "杨延昭": 1,
+        "老军": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "老军",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "老军",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 88,
+      "summary": "第九场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "将命丧番营": 1
+      },
+      "characters": {
+        "杨延昭": 1,
+        "柴氏": 1,
+        "八贤王": 1,
+        "杨宗保": 1,
+        "佘太君": 1,
+        "老军": 1
+      },
+      "links": [
+        {
+          "source": "八贤王",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨宗保",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "柴氏",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "老军",
+          "value": 1
+        },
+        {
+          "source": "八贤王",
+          "target": "杨宗保",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "八贤王",
+          "value": 1
+        },
+        {
+          "source": "八贤王",
+          "target": "柴氏",
+          "value": 1
+        },
+        {
+          "source": "八贤王",
+          "target": "老军",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "杨宗保",
+          "value": 1
+        },
+        {
+          "source": "杨宗保",
+          "target": "柴氏",
+          "value": 1
+        },
+        {
+          "source": "杨宗保",
+          "target": "老军",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "柴氏",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "老军",
+          "value": 1
+        },
+        {
+          "source": "柴氏",
+          "target": "老军",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "将命丧番营",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "为国家哪何曾半日闲空，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "杨继业",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "听谯楼打罢了三更时分，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "元帅醒来！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "孟良",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "不听皇王诏宣，但听杨家令传。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：4位角色，49行",
+      "firstLine": 1,
+      "lastLine": 49,
+      "numLines": 49,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.738,
+        "conflict": 0.408,
+        "sentiment": 0.593
+      }
+    },
+    {
+      "number": 2,
+      "name": "第七场",
+      "location": "将命丧番营",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "孟良盗骨无音信，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "随我来！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "老军",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "是。",
+          "rating": -1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第七场：3位角色，59行",
+      "firstLine": 1,
+      "lastLine": 59,
+      "numLines": 59,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.695,
+        "conflict": 0.299,
+        "sentiment": -0.119
+      }
+    },
+    {
+      "number": 3,
+      "name": "第九场",
+      "location": "将命丧番营",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "搀扶！",
+          "rating": -0.077,
+          "role": "老生"
+        },
+        {
+          "name": "八贤王",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来至在郡马府忙下金蹬，",
+          "rating": -0.5,
+          "role": "老生"
+        },
+        {
+          "name": "杨宗保",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "迎接千岁！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "佘太君",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "听说宗保一声请，",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "柴氏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "急忙上前看分明。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "老军",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第九场：6位角色，88行",
+      "firstLine": 1,
+      "lastLine": 88,
+      "numLines": 88,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.824,
+        "conflict": 0.127,
+        "sentiment": 0.07
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨延昭",
+      "short": "杨延",
+      "key": "杨延昭",
+      "quote": "杨延昭 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨继业",
+      "short": "杨继",
+      "key": "杨继业",
+      "quote": "杨继业 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "老军",
+      "short": "老军",
+      "key": "老军",
+      "quote": "老军 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "八贤王",
+      "short": "八贤",
+      "key": "八贤王",
+      "quote": "八贤王 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨宗保",
+      "short": "杨宗",
+      "key": "杨宗保",
+      "quote": "杨宗保 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "佘太君",
+      "short": "佘太",
+      "key": "佘太君",
+      "quote": "佘太君 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "柴氏",
+      "short": "柴氏",
+      "key": "柴氏",
+      "quote": "柴氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "孟良",
+      "short": "孟良",
+      "key": "孟良",
+      "quote": "孟良 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "将命丧番营",
+      "key": "将命丧番营",
+      "quote": "场景发生在将命丧番营"
+    },
+    {
+      "name": "在郡马府",
+      "key": "在郡马府",
+      "quote": "场景发生在在郡马府"
+    }
+  ]
+}

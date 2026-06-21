@@ -1,0 +1,347 @@
+{
+  "title": "双狮图",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "01001018_双狮图.json",
+  "source_folder": "01000000",
+  "plot_summary": "唐武则天时，薛刚闯祸，满门抄斩。薛刚逃出，占据寒山，积粮招兵，为报复之计。时薛刚兄薛猛，被武三\n思全家诛戮。有儿薛蛟，尚在襁褓，亦将受戮。薛猛有至友徐策，服官在朝。闻信后，往法场祭之，暗将己\n儿藏之金斗，换出薛蛟，以留薛门后裔。行刑时徐策子被狂风吹去。迨薛蛟年长，臂力过人，徐策亦拜相。\n一日徐策往朝堂，薛蛟与书童至门外，将石狮举起戏玩。适徐策回府，见狮易处，问书童，知薛蛟所为，乃\n唤薛蛟入祖先堂，观薛家被难图。薛蛟莫明其故。徐策为细讲当日冤情，声明薛蛟并非亲生子，实薛门后裔。\n薛蛟闻言大哭，誓必报仇。徐策乃修书付薛蛟，嘱至寒山助叔报仇。",
+  "performance_notes": "剧中白口至“家院磨墨伺候”，接唱一段，全神贯注疾徐高下，最难得中。前往春桂，听到刘鸿声唱，最为\n出色。其后《跑城》，乃徐策子回来，做工首推三麻子。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 140,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.615,
+      "importance": 1.0,
+      "locations": {
+        "一堆了真真淘": 2,
+        "一处": 1
+      },
+      "characters": {
+        "薛蛟": 1,
+        "家院": 1,
+        "书童": 1,
+        "徐策": 1
+      },
+      "links": [
+        {
+          "source": "书童",
+          "target": "薛蛟",
+          "value": 3
+        },
+        {
+          "source": "书童",
+          "target": "徐策",
+          "value": 2
+        },
+        {
+          "source": "书童",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "徐策",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛蛟",
+          "value": 2
+        },
+        {
+          "source": "家院",
+          "target": "薛蛟",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 49,
+      "summary": "第4场；第5场",
+      "conflict": 0.085,
+      "importance": 0.519,
+      "locations": {
+        "一堆了真真淘": 2
+      },
+      "characters": {
+        "薛蛟": 1,
+        "徐策": 1
+      },
+      "links": [
+        {
+          "source": "徐策",
+          "target": "薛蛟",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "一堆了真真淘",
+      "characters": [
+        {
+          "name": "书童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "书童书童，气概威风。人人怕我，",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "薛蛟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "忽听书童来相请，",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第1场：2位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.757,
+        "conflict": 0.27,
+        "sentiment": 0.774
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "一堆了真真淘",
+      "characters": [
+        {
+          "name": "书童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吓，两个狮子，放在一堆了真真淘气。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "徐策",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呵呵呵。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "薛蛟",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "书童，做什么？",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：4位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.876,
+        "conflict": 0.43,
+        "sentiment": 0.767
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "一处",
+      "characters": [
+        {
+          "name": "徐策",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "儿吓，府门外石狮子为何搬在一处，是何人搬的？",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "薛蛟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "启禀爹爹：孩儿与书童，在府门外玩耍，见爹爹未曾回府，是孩儿搬在一处。",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "书童",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第3场：3位角色，70行",
+      "firstLine": 1,
+      "lastLine": 70,
+      "numLines": 70,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.423,
+        "sentiment": 0.159
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "一堆了真真淘",
+      "characters": [
+        {
+          "name": "徐策",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "家院磨墨伺候。",
+          "rating": -0.5,
+          "role": "老生"
+        },
+        {
+          "name": "薛蛟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "向前来拜别我的父，",
+          "rating": -0.5,
+          "role": "小生"
+        }
+      ],
+      "summary": "第4场：2位角色，43行",
+      "firstLine": 1,
+      "lastLine": 43,
+      "numLines": 43,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.805,
+        "conflict": 0.208,
+        "sentiment": 0.155
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "一堆了真真淘",
+      "characters": [
+        {
+          "name": "徐策",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "儿吓，你真去了！哎，我的儿吓！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第5场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.529,
+        "conflict": 0.0,
+        "sentiment": 0.07
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐策",
+      "short": "徐策",
+      "key": "徐策",
+      "quote": "徐策 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛蛟",
+      "short": "薛蛟",
+      "key": "薛蛟",
+      "quote": "薛蛟 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "书童",
+      "short": "书童",
+      "key": "书童",
+      "quote": "书童 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "一堆了真真淘",
+      "key": "一堆了真真淘",
+      "quote": "场景发生在一堆了真真淘"
+    },
+    {
+      "name": "一处",
+      "key": "一处",
+      "quote": "场景发生在一处"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "_meta": {
+    "description": "基于统计的推理规则（从实际角色标注数据派生）",
+    "dataSource": "role-treering.json + char-role-map.json",
+    "note": "规则条件来源于领域知识标签，置信度基于角色出现频率。此为描述性统计而非预测模型。"
+  },
+  "rules": [
+    {
+      "condition": "男性 + 壮年 + 豪放 + 刚毅",
+      "result": "净",
+      "confidence": 95,
+      "sampleCount": 1636,
+      "exampleChars": [
+        "曹操",
+        "张飞",
+        "包拯"
+      ]
+    },
+    {
+      "condition": "不限 + 滑稽 + 机敏",
+      "result": "文丑",
+      "confidence": 94,
+      "sampleCount": 1136,
+      "exampleChars": [
+        "程咬金",
+        "书童",
+        "酒保"
+      ]
+    },
+    {
+      "condition": "女性 + 成年 + 贞烈 + 端庄",
+      "result": "青衣·正旦",
+      "confidence": 88,
+      "sampleCount": 1002,
+      "exampleChars": [
+        "王宝钏",
+        "丫鬟",
+        "萧太后"
+      ]
+    },
+    {
+      "condition": "男性 + 老年 + 忠义 + 稳重",
+      "result": "老生",
+      "confidence": 83,
+      "sampleCount": 1439,
+      "exampleChars": [
+        "诸葛亮",
+        "刘备",
+        "鲁肃"
+      ]
+    },
+    {
+      "condition": "男性 + 老年 + 宽厚 + 持重",
+      "result": "末·外·生",
+      "confidence": 81,
+      "sampleCount": 972,
+      "exampleChars": [
+        "刘备",
+        "廖化",
+        "唐明皇"
+      ]
+    },
+    {
+      "condition": "男性 + 青年 + 文雅 + 清秀",
+      "result": "小生",
+      "confidence": 79,
+      "sampleCount": 739,
+      "exampleChars": [
+        "周瑜",
+        "李世民",
+        "贾宝玉"
+      ]
+    },
+    {
+      "condition": "女性 + 老年 + 慈祥 + 稳重",
+      "result": "老旦",
+      "confidence": 79,
+      "sampleCount": 279,
+      "exampleChars": [
+        "佘太君",
+        "吴国太",
+        "徐母"
+      ]
+    },
+    {
+      "condition": "女性 + 年轻 + 活泼 + 娇俏",
+      "result": "花旦·花衫",
+      "confidence": 78,
+      "sampleCount": 233,
+      "exampleChars": [
+        "春兰",
+        "阎惜姣",
+        "戚赛玉"
+      ]
+    },
+    {
+      "condition": "男性 + 青年 + 英勇 + 刚毅",
+      "result": "武生",
+      "confidence": 77,
+      "sampleCount": 340,
+      "exampleChars": [
+        "赵云",
+        "孙悟空",
+        "黄天霸"
+      ]
+    },
+    {
+      "condition": "女性 + 青年 + 英武 + 飒爽",
+      "result": "武旦",
+      "confidence": 76,
+      "sampleCount": 65,
+      "exampleChars": [
+        "鲍金花",
+        "花碧莲",
+        "穆桂英"
+      ]
+    },
+    {
+      "condition": "不限 + 敏捷 + 灵活",
+      "result": "武丑",
+      "confidence": 76,
+      "sampleCount": 55,
+      "exampleChars": [
+        "朱光祖",
+        "杨香武",
+        "张谷"
+      ]
+    }
+  ],
+  "roleSampleCounts": {
+    "老生": 1439,
+    "小生": 739,
+    "武生": 340,
+    "末·外·生": 972,
+    "青衣·正旦": 1002,
+    "花旦·花衫": 233,
+    "老旦": 279,
+    "武旦": 65,
+    "净": 1636,
+    "文丑": 1136,
+    "武丑": 55
+  },
+  "exampleDistributions": [
+    {
+      "name": "包公",
+      "charCategory": "未知",
+      "items": [
+        {
+          "label": "净",
+          "pct": 53,
+          "color": "#5e6b76"
+        },
+        {
+          "label": "老生",
+          "pct": 47,
+          "color": "#b8926a"
+        }
+      ]
+    },
+    {
+      "name": "诸葛亮",
+      "charCategory": "生",
+      "items": [
+        {
+          "label": "老生",
+          "pct": 60,
+          "color": "#b8926a"
+        },
+        {
+          "label": "末·外·生",
+          "pct": 40,
+          "color": "#e0d2be"
+        }
+      ]
+    },
+    {
+      "name": "穆桂英",
+      "charCategory": "旦",
+      "items": [
+        {
+          "label": "武旦",
+          "pct": 6,
+          "color": "#96544d"
+        },
+        {
+          "label": "青衣·正旦",
+          "pct": 94,
+          "color": "#c09894"
+        }
+      ]
+    },
+    {
+      "name": "孙悟空",
+      "charCategory": "生",
+      "items": [
+        {
+          "label": "武生",
+          "pct": 86,
+          "color": "#cdb59c"
+        },
+        {
+          "label": "武丑",
+          "pct": 14,
+          "color": "#8ca39e"
+        }
+      ]
+    },
+    {
+      "name": "曹操",
+      "charCategory": "净",
+      "items": [
+        {
+          "label": "净",
+          "pct": 53,
+          "color": "#5e6b76"
+        },
+        {
+          "label": "老生",
+          "pct": 47,
+          "color": "#b8926a"
+        }
+      ]
+    },
+    {
+      "name": "赵云",
+      "charCategory": "生",
+      "items": [
+        {
+          "label": "武生",
+          "pct": 19,
+          "color": "#cdb59c"
+        },
+        {
+          "label": "老生",
+          "pct": 81,
+          "color": "#b8926a"
+        }
+      ]
+    },
+    {
+      "name": "红娘",
+      "charCategory": "其他",
+      "items": [
+        {
+          "label": "花旦·花衫",
+          "pct": 19,
+          "color": "#d3b8b3"
+        },
+        {
+          "label": "青衣·正旦",
+          "pct": 81,
+          "color": "#c09894"
+        }
+      ]
+    },
+    {
+      "name": "程咬金",
+      "charCategory": "丑",
+      "items": [
+        {
+          "label": "文丑",
+          "pct": 41,
+          "color": "#a7b8b3"
+        },
+        {
+          "label": "净",
+          "pct": 59,
+          "color": "#5e6b76"
+        }
+      ]
+    }
+  ]
+}

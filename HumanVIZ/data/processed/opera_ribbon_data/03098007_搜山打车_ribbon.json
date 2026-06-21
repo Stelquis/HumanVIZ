@@ -1,0 +1,610 @@
+{
+  "title": "搜山打车",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 7,
+  "num_locations": 2,
+  "source_file": "03098007_搜山打车.json",
+  "source_folder": "03000000",
+  "plot_summary": "明成祖以靖难为名，兴兵直取金陵。建文帝与吏部尚书程济乔装逃出，潜居白云观。礼部尚书严震直奉旨搜\n山，获建文帝，打入囚车，押解入都。程济拦路，痛诋严震直。严震直悔悟，打车自刎。程济与建文帝遂得\n逃走。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 50,
+      "summary": "第一场；第二场",
+      "conflict": 0.128,
+      "importance": 0.588,
+      "locations": {
+        "逃出皇城": 1,
+        "从逃出皇城": 1
+      },
+      "characters": {
+        "严震直": 1,
+        "程济": 1,
+        "二差役": 1,
+        "建文帝": 1
+      },
+      "links": [
+        {
+          "source": "严震直",
+          "target": "二差役",
+          "value": 2
+        },
+        {
+          "source": "严震直",
+          "target": "程济",
+          "value": 1
+        },
+        {
+          "source": "严震直",
+          "target": "建文帝",
+          "value": 2
+        },
+        {
+          "source": "二差役",
+          "target": "程济",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "建文帝",
+          "value": 2
+        },
+        {
+          "source": "建文帝",
+          "target": "程济",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 50,
+      "summary": "第三场；第四场",
+      "conflict": 0.964,
+      "importance": 0.588,
+      "locations": {
+        "从逃出皇城": 2
+      },
+      "characters": {
+        "差役乙": 1,
+        "二差役": 1,
+        "四青袍": 1,
+        "差役甲": 1,
+        "程济": 1
+      },
+      "links": [
+        {
+          "source": "四青袍",
+          "target": "程济",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "差役乙",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "程济",
+          "value": 1
+        },
+        {
+          "source": "差役乙",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "差役甲",
+          "target": "程济",
+          "value": 1
+        },
+        {
+          "source": "差役乙",
+          "target": "程济",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 155,
+      "summary": "第五场；第六场",
+      "conflict": 0.314,
+      "importance": 1.0,
+      "locations": {
+        "从逃出皇城": 2
+      },
+      "characters": {
+        "差役乙": 1,
+        "建文帝": 1,
+        "二差役": 1,
+        "严震直": 1,
+        "差役甲": 1,
+        "程济": 1
+      },
+      "links": [
+        {
+          "source": "建文帝",
+          "target": "程济",
+          "value": 2
+        },
+        {
+          "source": "严震直",
+          "target": "二差役",
+          "value": 1
+        },
+        {
+          "source": "严震直",
+          "target": "程济",
+          "value": 1
+        },
+        {
+          "source": "严震直",
+          "target": "建文帝",
+          "value": 1
+        },
+        {
+          "source": "严震直",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "严震直",
+          "target": "差役乙",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "程济",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "建文帝",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "差役乙",
+          "value": 1
+        },
+        {
+          "source": "差役甲",
+          "target": "程济",
+          "value": 1
+        },
+        {
+          "source": "差役乙",
+          "target": "程济",
+          "value": 1
+        },
+        {
+          "source": "差役甲",
+          "target": "建文帝",
+          "value": 1
+        },
+        {
+          "source": "差役乙",
+          "target": "建文帝",
+          "value": 1
+        },
+        {
+          "source": "差役乙",
+          "target": "差役甲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "逃出皇城",
+      "characters": [
+        {
+          "name": "严震直",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "居官秉忠心，食俸禄，当报君恩。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二差役",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "程济",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "建文帝",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：4位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.733,
+        "conflict": 1.0,
+        "sentiment": 0.168
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "从逃出皇城",
+      "characters": [
+        {
+          "name": "建文帝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "阿弥陀佛！",
+          "rating": 0.5,
+          "role": "小生"
+        },
+        {
+          "name": "二差役",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来此已是白云观。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "严震直",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "打了进去！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.585,
+        "conflict": 0.597,
+        "sentiment": 0.296
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "从逃出皇城",
+      "characters": [
+        {
+          "name": "程济",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "无量佛！",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "嗯咳！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：2位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.571,
+        "conflict": 0.851,
+        "sentiment": -0.195
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "从逃出皇城",
+      "characters": [
+        {
+          "name": "二差役",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "奉了严爷命，捉拿建文君。来在中途路，想起老道人。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "差役甲",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "请啦！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "差役乙",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "请啦！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "程济",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：4位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.547,
+        "conflict": 0.0,
+        "sentiment": 0.769
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "从逃出皇城",
+      "characters": [
+        {
+          "name": "程济",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎呀，愧煞我也！适才听差役言道，建文帝被他们拿住；中途路上，又想起我",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "建文帝",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第五场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.735,
+        "conflict": 0.0,
+        "sentiment": 0.416
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "从逃出皇城",
+      "characters": [
+        {
+          "name": "严震直",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "人役们！",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "二差役",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "程济",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "严老先生慢走！",
+          "rating": 0.059,
+          "role": "老生"
+        },
+        {
+          "name": "建文帝",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "苦哇！",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "差役甲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "哎呀！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "差役乙",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "什么事情，你们这么哭哇？",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：6位角色，140行",
+      "firstLine": 1,
+      "lastLine": 140,
+      "numLines": 140,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.46,
+        "sentiment": 0.102
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "程济",
+      "short": "程济",
+      "key": "程济",
+      "quote": "程济 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "建文帝",
+      "short": "建文",
+      "key": "建文帝",
+      "quote": "建文帝 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "差役乙",
+      "short": "差役",
+      "key": "差役乙",
+      "quote": "差役乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二差役",
+      "short": "二差",
+      "key": "二差役",
+      "quote": "二差役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "严震直",
+      "short": "严震",
+      "key": "严震直",
+      "quote": "严震直 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "差役甲",
+      "short": "差役",
+      "key": "差役甲",
+      "quote": "差役甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "从逃出皇城",
+      "key": "从逃出皇城",
+      "quote": "场景发生在从逃出皇城"
+    },
+    {
+      "name": "逃出皇城",
+      "key": "逃出皇城",
+      "quote": "场景发生在逃出皇城"
+    }
+  ]
+}

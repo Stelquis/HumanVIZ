@@ -1,0 +1,369 @@
+{
+  "title": "紫钗记·折柳",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "70902114_紫钗记·折柳.json",
+  "source_folder": "70902000",
+  "plot_summary": "唐诗人李益先与已故郡王之女霍小玉相好，后来从军有功，别娶他姓，霍小玉抑郁而亡。",
+  "performance_notes": "出自明汤显祖所撰《紫钗记》传奇，是一个悲剧。\n《紫钗记》流传演唱的唯此《折柳、阳关》，在原本中是一个折子，后世改题为两出。曲文典雅深奥，颇不\n易解，而旋律缠绵悱恻，很具特色，是小冠生与闺门旦的唱功戏。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 15,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.667,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "中军": 1,
+        "众人": 1
+      },
+      "links": [
+        {
+          "source": "中军",
+          "target": "众人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 10,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.444,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "霍小玉": 1,
+        "浣纱": 1
+      },
+      "links": [
+        {
+          "source": "浣纱",
+          "target": "霍小玉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 15,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.667,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "浣纱": 1,
+        "李益": 1,
+        "书童": 1
+      },
+      "links": [
+        {
+          "source": "李益",
+          "target": "浣纱",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "李益",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "浣纱",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 50,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "霍小玉": 1,
+        "浣纱": 1,
+        "李益": 1
+      },
+      "links": [
+        {
+          "source": "李益",
+          "target": "霍小玉",
+          "value": 1
+        },
+        {
+          "source": "浣纱",
+          "target": "霍小玉",
+          "value": 1
+        },
+        {
+          "source": "李益",
+          "target": "浣纱",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "中军",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "马来。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "渭城今雨清尘，清尘。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.35,
+        "conflict": 0.714,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "浣纱",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "车来。",
+          "rating": 0.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "霍小玉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "春纤余几许？",
+          "rating": 0.0,
+          "role": "五旦"
+        }
+      ],
+      "summary": "第2场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.7,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李益",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "旌旗日暖散春寒，洒湿沙场泪不干。花里断肠人一刻，明朝相忆路漫漫。",
+          "rating": 0.0,
+          "role": "冠生"
+        },
+        {
+          "name": "浣纱",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "老爷请住马，郡主在此送别。",
+          "rating": -1.0,
+          "role": "贴旦"
+        },
+        {
+          "name": "书童",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "老爷，郡主拉笃送别哉。",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：3位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.0,
+        "sentiment": -0.034
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "霍小玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "吓李郎。",
+          "rating": -0.6,
+          "role": "五旦"
+        },
+        {
+          "name": "李益",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "夫人。",
+          "rating": 0.0,
+          "role": "冠生"
+        },
+        {
+          "name": "浣纱",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有酒。",
+          "rating": 0.0,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "第4场：3位角色，50行",
+      "firstLine": 1,
+      "lastLine": 50,
+      "numLines": 50,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.215,
+        "sentiment": 0.082
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "霍小玉",
+      "short": "霍小",
+      "key": "霍小玉",
+      "quote": "霍小玉 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李益",
+      "short": "李益",
+      "key": "李益",
+      "quote": "李益 — 冠生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 冠生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "浣纱",
+      "short": "浣纱",
+      "key": "浣纱",
+      "quote": "浣纱 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "书童",
+      "short": "书童",
+      "key": "书童",
+      "quote": "书童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

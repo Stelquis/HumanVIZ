@@ -1,0 +1,429 @@
+{
+  "title": "红鸾禧",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "01002019_红鸾禧.json",
+  "source_folder": "01000000",
+  "plot_summary": "临安有丐头金大，平日节衣缩食，薄积家私；所生一女，名玉奴，才貌出众，爱如珍璧，拟招赘读书种子，\n以光门楣。适有秀才莫稽，贫寒落魄，金遂婿之。莫入赘后，衣食无虑，专心攻读，不数年一举成名，职授\n无为军同户。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 203,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "二杆": 1,
+        "金玉奴": 1,
+        "众人": 1,
+        "天喜星": 1,
+        "莫稽": 1,
+        "金松": 1
+      },
+      "links": [
+        {
+          "source": "天喜星",
+          "target": "莫稽",
+          "value": 1
+        },
+        {
+          "source": "天喜星",
+          "target": "金玉奴",
+          "value": 1
+        },
+        {
+          "source": "天喜星",
+          "target": "金松",
+          "value": 1
+        },
+        {
+          "source": "二杆",
+          "target": "天喜星",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "天喜星",
+          "value": 1
+        },
+        {
+          "source": "莫稽",
+          "target": "金玉奴",
+          "value": 1
+        },
+        {
+          "source": "莫稽",
+          "target": "金松",
+          "value": 1
+        },
+        {
+          "source": "二杆",
+          "target": "莫稽",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "莫稽",
+          "value": 1
+        },
+        {
+          "source": "金松",
+          "target": "金玉奴",
+          "value": 1
+        },
+        {
+          "source": "二杆",
+          "target": "金玉奴",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "金玉奴",
+          "value": 1
+        },
+        {
+          "source": "二杆",
+          "target": "金松",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "金松",
+          "value": 1
+        },
+        {
+          "source": "二杆",
+          "target": "众人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 1,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.01,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {},
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 83,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.868,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "二杆": 1,
+        "金玉奴": 1,
+        "众人": 1,
+        "莫稽": 1,
+        "金松": 1
+      },
+      "links": [
+        {
+          "source": "莫稽",
+          "target": "金玉奴",
+          "value": 1
+        },
+        {
+          "source": "莫稽",
+          "target": "金松",
+          "value": 1
+        },
+        {
+          "source": "二杆",
+          "target": "莫稽",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "莫稽",
+          "value": 1
+        },
+        {
+          "source": "金松",
+          "target": "金玉奴",
+          "value": 1
+        },
+        {
+          "source": "二杆",
+          "target": "金玉奴",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "金玉奴",
+          "value": 1
+        },
+        {
+          "source": "二杆",
+          "target": "金松",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "金松",
+          "value": 1
+        },
+        {
+          "source": "二杆",
+          "target": "众人",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "天喜星",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我乃天喜星是也。金玉奴与莫稽，有姻缘之分。今奉玉帝敕旨，与他二人完姻。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "莫稽",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "天寒冷冻饿得青衣烂袖，",
+          "rating": -0.2,
+          "role": "小生"
+        },
+        {
+          "name": "金玉奴",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哦唬！",
+          "rating": 0.111,
+          "role": "旦"
+        },
+        {
+          "name": "金松",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "吃不了残茶冷饭，",
+          "rating": 0.667,
+          "role": "丑"
+        },
+        {
+          "name": "二杆",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "弟兄们，听说我们金大哥，要办喜事，我们去道道喜。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "众人",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "一同前往。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：6位角色，203行",
+      "firstLine": 1,
+      "lastLine": 203,
+      "numLines": 203,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.171,
+        "sentiment": 0.276
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第二场：0位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.004,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "莫稽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "人逢喜事精神爽，",
+          "rating": 0.5,
+          "role": "小生"
+        },
+        {
+          "name": "金玉奴",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你与我配夫妻洪恩浩大，",
+          "rating": 0.5,
+          "role": "旦"
+        },
+        {
+          "name": "金松",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "呵呵……",
+          "rating": 0.2,
+          "role": "丑"
+        },
+        {
+          "name": "二杆",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "大哥什么事？",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "众人",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "无事了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，83行",
+      "firstLine": 1,
+      "lastLine": 83,
+      "numLines": 83,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.099,
+        "sentiment": 0.213
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "金玉奴",
+      "short": "金玉",
+      "key": "金玉奴",
+      "quote": "金玉奴 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "莫稽",
+      "short": "莫稽",
+      "key": "莫稽",
+      "quote": "莫稽 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "金松",
+      "short": "金松",
+      "key": "金松",
+      "quote": "金松 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "二杆",
+      "short": "二杆",
+      "key": "二杆",
+      "quote": "二杆 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "天喜星",
+      "short": "天喜",
+      "key": "天喜星",
+      "quote": "天喜星 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "title": "赵颜借寿",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01011013_赵颜借寿.json",
+  "source_folder": "01000000",
+  "plot_summary": "赵颜借寿事，本诸《三国演义》中。系太史丞许芝，为曹操言神卜管辂（字公明）之术而并及之。据许芝言，\n一日，管辂闲行郊外，见一少年耕于田。管辂立道旁观之良久，问其姓名及年龄。少年告以名赵颜，年十\n九矣。管辂忽叹曰：“汝貌诚美，惜无寿，眉间有死气。三日必死。”赵颜急归告其父，父子同至管辂前，\n哭拜于地，请以术救。管辂始不允，继见其父子情切，乃教赵颜备酒一瓶、鹿脯一块，来日去往南山中大树\n下，见盘石上有二人对奕，一穿白一穿红者，“汝可乘其奕兴浓时，将酒及鹿脯跪进之，待其饮食毕，汝乃\n哭拜求寿，必获益算也。”次日，赵颜如其言而往，果有所遇。赵颜遂阴伺之。待其食已，即泣求。二人大\n惊曰：“此必管公明饶舌也！”但既食其酒馔，似不可却，乃为检查簿籍，添注一“九”字于“十九”之上，\n而赵颜寿遂增至九十九矣。无何，一阵香风过处，二人化作白鹤冲天而去。",
+  "performance_notes": "此戏从南、北斗对奕开场，二人对唱一段颇长。赵颜借寿时，末有“何不更添一岁，凑成百岁之”一语，足\n以调侃世人之食心不足，用意颇妙。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 38,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.95,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "南斗星君": 1,
+        "北斗星君": 1
+      },
+      "links": [
+        {
+          "source": "北斗星君",
+          "target": "南斗星君",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 79,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "南斗星君": 1,
+        "赵颜": 1,
+        "北斗星君": 1
+      },
+      "links": [
+        {
+          "source": "北斗星君",
+          "target": "南斗星君",
+          "value": 1
+        },
+        {
+          "source": "南斗星君",
+          "target": "赵颜",
+          "value": 1
+        },
+        {
+          "source": "北斗星君",
+          "target": "赵颜",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 3,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.075,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵颜": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "南斗星君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "观天地和日月乾坤浩荡，",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "北斗星君",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "天连水水连天杳杳茫茫。",
+          "rating": 0.333,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：2位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.885,
+        "conflict": 0.211,
+        "sentiment": 0.298
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "南斗星君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "请！",
+          "rating": 0.429,
+          "role": "老生"
+        },
+        {
+          "name": "北斗星君",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "请！",
+          "rating": 0.429,
+          "role": "净"
+        },
+        {
+          "name": "赵颜",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "昨日里管先生对我言讲：",
+          "rating": -0.6,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：3位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.206,
+        "sentiment": 0.413
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵颜",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎！二位星君不见，待我望空一拜。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第3场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.522,
+        "conflict": 0.0,
+        "sentiment": 0.227
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "南斗星君",
+      "short": "南斗",
+      "key": "南斗星君",
+      "quote": "南斗星君 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "北斗星君",
+      "short": "北斗",
+      "key": "北斗星君",
+      "quote": "北斗星君 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "赵颜",
+      "short": "赵颜",
+      "key": "赵颜",
+      "quote": "赵颜 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

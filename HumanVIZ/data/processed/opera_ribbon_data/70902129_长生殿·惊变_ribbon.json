@@ -1,0 +1,452 @@
+{
+  "title": "长生殿·惊变",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "70902129_长生殿·惊变.json",
+  "source_folder": "70902000",
+  "plot_summary": "唐明皇和杨贵妃在御花园中，游赏秋景，浅斟低酌。杨妃用李白所做“清平词”为歌舞，唐明皇大悦，劝饮\n至醉。宫廷中正在欢娱，杨国忠入奏安禄山称兵做乱，已破潼关，即到长安。唐明皇大惊，传旨天下勤王，\n起驾幸蜀避祸。",
+  "performance_notes": "这是以大冠生和闺门旦为主的昆曲著名剧目，歌舞、表演，都很有精采之处。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 131,
+      "summary": "第1场；第2场",
+      "conflict": 0.23,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "高力士": 1,
+        "众宫娥": 1,
+        "杨贵妃": 1,
+        "唐明皇": 1
+      },
+      "links": [
+        {
+          "source": "杨贵妃",
+          "target": "高力士",
+          "value": 2
+        },
+        {
+          "source": "唐明皇",
+          "target": "高力士",
+          "value": 2
+        },
+        {
+          "source": "唐明皇",
+          "target": "杨贵妃",
+          "value": 2
+        },
+        {
+          "source": "众宫娥",
+          "target": "杨贵妃",
+          "value": 1
+        },
+        {
+          "source": "众宫娥",
+          "target": "唐明皇",
+          "value": 1
+        },
+        {
+          "source": "众宫娥",
+          "target": "高力士",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 44,
+      "summary": "第3场；第4场",
+      "conflict": 0.084,
+      "importance": 0.653,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "高力士": 1,
+        "太监": 1,
+        "杨国忠": 1,
+        "唐明皇": 1
+      },
+      "links": [
+        {
+          "source": "唐明皇",
+          "target": "高力士",
+          "value": 2
+        },
+        {
+          "source": "唐明皇",
+          "target": "杨国忠",
+          "value": 1
+        },
+        {
+          "source": "杨国忠",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "太监",
+          "value": 1
+        },
+        {
+          "source": "太监",
+          "target": "高力士",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 27,
+      "summary": "第5场；第6场",
+      "conflict": 0.16,
+      "importance": 0.401,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "众宫娥": 1,
+        "唐明皇": 1
+      },
+      "links": [
+        {
+          "source": "众宫娥",
+          "target": "唐明皇",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "高力士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "玉楼天半起笙歌，风送宫娥笑语和。月影殿开闻夜漏，水晶帘卷近秋河。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "杨贵妃",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "天淡云闲，",
+          "rating": 0.0,
+          "role": "五旦"
+        },
+        {
+          "name": "唐明皇",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "冠生"
+        }
+      ],
+      "summary": "第1场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.708,
+        "conflict": 0.0,
+        "sentiment": 0.773
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨贵妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "吓，陛下。",
+          "rating": 0.333,
+          "role": "五旦"
+        },
+        {
+          "name": "唐明皇",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "妃子，朕和你散步一回。",
+          "rating": 1.0,
+          "role": "冠生"
+        },
+        {
+          "name": "高力士",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "众宫娥",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：4位角色，117行",
+      "firstLine": 1,
+      "lastLine": 117,
+      "numLines": 117,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.08,
+        "sentiment": 0.543
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "唐明皇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "扶好了！",
+          "rating": 0.0,
+          "role": "冠生"
+        },
+        {
+          "name": "高力士",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "领旨。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "杨国忠",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊呀，不好了！",
+          "rating": 0.2,
+          "role": "白面"
+        }
+      ],
+      "summary": "第3场：3位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.706,
+        "sentiment": 0.076
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "唐明皇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "高力士。",
+          "rating": 0.0,
+          "role": "冠生"
+        },
+        {
+          "name": "高力士",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "太监",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第4场：3位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.527,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "唐明皇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "咳！正尔欢娱，忽而此变，怎生是了！",
+          "rating": 0.5,
+          "role": "冠生"
+        },
+        {
+          "name": "众宫娥",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "有。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第5场：2位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.487,
+        "conflict": 0.889,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第6场：0位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.024,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "唐明皇",
+      "short": "唐明",
+      "key": "唐明皇",
+      "quote": "唐明皇 — 冠生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 冠生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杨贵妃",
+      "short": "杨贵",
+      "key": "杨贵妃",
+      "quote": "杨贵妃 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "高力士",
+      "short": "高力",
+      "key": "高力士",
+      "quote": "高力士 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "杨国忠",
+      "short": "杨国",
+      "key": "杨国忠",
+      "quote": "杨国忠 — 白面",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 白面",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "太监",
+      "short": "太监",
+      "key": "太监",
+      "quote": "太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众宫娥",
+      "short": "众宫",
+      "key": "众宫娥",
+      "quote": "众宫娥 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

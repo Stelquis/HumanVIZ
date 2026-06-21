@@ -1,0 +1,923 @@
+{
+  "title": "南阳关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 6,
+  "num_scenes": 12,
+  "num_characters": 10,
+  "num_locations": 2,
+  "source_file": "01012012_南阳关.json",
+  "source_folder": "01000000",
+  "plot_summary": "按炀帝既杀伍建章及全家三百余口，以伍建章之子伍云昭远镇南阳、勇冠三军，留之必为后患，遂命韩擒虎\n率兵前往征讨。伍云昭闻讯，愤极而叛。两军相遇，隋兵大挫，折丧大将十余员。韩擒虎亲自会阵，亦不敌。\n惟韩擒虎与伍建章有故旧之谊，故暗嘱伍云昭暂行退兵，以避后路宇文成都之师。盖韩擒虎知伍云昭现虽\n获胜，然终非宇文成都之敌，后必败衄也。伍云昭不听，既而宇文成都至，伍云昭果大败，几被擒。幸赖朱\n粲伪饰周仓，用计哄退隋兵，方得弃城他往，保全性命也。惟《说唐》中朱粲系吓退尚师徒，剧中作为吓退\n宇文成都，是有小异。盖编剧者之剪裁借用也。",
+  "performance_notes": "隋炀帝弑父杀兄，既得篡位自立。以伍建章耿直负时望、有重名，欲令伍建章草诏发丧。伍建章不奉命，且\n痛骂杨广（即炀帝）灭伦绝理、神人不容，因被害。《骂杨广》一剧即演此事，而此《南阳关》，则在《骂\n杨广》之后。《说唐》中第十五回“伍云昭报仇起兵”、十七回“韩擒虎二路调兵，伍云昭被困南阳”、十\n九回“伍云昭弃城败走，勇朱灿杀退师徒”等节，即本剧事实。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 22,
+      "summary": "第一场；第二场",
+      "conflict": 0.611,
+      "importance": 0.567,
+      "locations": {
+        "南阳关": 2
+      },
+      "characters": {
+        "麻叔谋": 1,
+        "尚师徒": 1,
+        "韩擒虎": 1,
+        "伍保": 1,
+        "伍云昭": 1
+      },
+      "links": [
+        {
+          "source": "尚师徒",
+          "target": "麻叔谋",
+          "value": 1
+        },
+        {
+          "source": "尚师徒",
+          "target": "韩擒虎",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "尚师徒",
+          "value": 1
+        },
+        {
+          "source": "韩擒虎",
+          "target": "麻叔谋",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "麻叔谋",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "韩擒虎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 106,
+      "summary": "第三场；第四场",
+      "conflict": 0.009,
+      "importance": 1.0,
+      "locations": {
+        "扶保朝堂": 1,
+        "南阳关": 1
+      },
+      "characters": {
+        "麻叔谋": 1,
+        "尚师徒": 1,
+        "下手": 1,
+        "韩擒虎": 1,
+        "伍保": 1,
+        "伍云昭": 1
+      },
+      "links": [
+        {
+          "source": "伍云昭",
+          "target": "伍保",
+          "value": 1
+        },
+        {
+          "source": "下手",
+          "target": "伍云昭",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "韩擒虎",
+          "value": 2
+        },
+        {
+          "source": "下手",
+          "target": "伍保",
+          "value": 1
+        },
+        {
+          "source": "伍保",
+          "target": "韩擒虎",
+          "value": 1
+        },
+        {
+          "source": "下手",
+          "target": "韩擒虎",
+          "value": 1
+        },
+        {
+          "source": "尚师徒",
+          "target": "韩擒虎",
+          "value": 1
+        },
+        {
+          "source": "韩擒虎",
+          "target": "麻叔谋",
+          "value": 1
+        },
+        {
+          "source": "尚师徒",
+          "target": "麻叔谋",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "尚师徒",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "麻叔谋",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 9,
+      "summary": "第五场；第六场",
+      "conflict": 1.22,
+      "importance": 0.232,
+      "locations": {
+        "南阳关": 2
+      },
+      "characters": {
+        "韩擒虎": 1,
+        "伍云昭": 1,
+        "宇文成都": 1
+      },
+      "links": [
+        {
+          "source": "伍云昭",
+          "target": "韩擒虎",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 32,
+      "summary": "第七场；第八场",
+      "conflict": 0.786,
+      "importance": 0.824,
+      "locations": {
+        "南阳关": 2
+      },
+      "characters": {
+        "报子": 1,
+        "宇文成都": 1,
+        "伍夫人": 1,
+        "韩擒虎": 1,
+        "伍保": 1,
+        "伍云昭": 1
+      },
+      "links": [
+        {
+          "source": "报子",
+          "target": "韩擒虎",
+          "value": 1
+        },
+        {
+          "source": "宇文成都",
+          "target": "韩擒虎",
+          "value": 1
+        },
+        {
+          "source": "宇文成都",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "伍夫人",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "伍保",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "宇文成都",
+          "value": 1
+        },
+        {
+          "source": "伍保",
+          "target": "伍夫人",
+          "value": 1
+        },
+        {
+          "source": "伍夫人",
+          "target": "宇文成都",
+          "value": 1
+        },
+        {
+          "source": "伍保",
+          "target": "宇文成都",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 29,
+      "summary": "第九场；第十场",
+      "conflict": 0.19,
+      "importance": 0.747,
+      "locations": {
+        "南阳关": 2
+      },
+      "characters": {
+        "伍云昭": 1,
+        "宇文成都": 1,
+        "伍夫人": 1
+      },
+      "links": [
+        {
+          "source": "伍云昭",
+          "target": "宇文成都",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "伍夫人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 2,
+      "numLines": 35,
+      "summary": "第十一场；第十二场",
+      "conflict": 0.597,
+      "importance": 0.901,
+      "locations": {
+        "南阳关": 2
+      },
+      "characters": {
+        "伍云昭": 1,
+        "宇文成都": 1,
+        "朱粲": 1
+      },
+      "links": [
+        {
+          "source": "宇文成都",
+          "target": "朱粲",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "朱粲",
+          "value": 1
+        },
+        {
+          "source": "伍云昭",
+          "target": "宇文成都",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "南阳关",
+      "characters": [
+        {
+          "name": "尚师徒",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "大将生来秉性刚，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "麻叔谋",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "扶保社稷把名扬。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "韩擒虎",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "奉王钦命，统领雄兵，扫南阳，将勇兵精，要把干戈定太平。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "伍云昭",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：4位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.612,
+        "conflict": 0.488,
+        "sentiment": 0.171
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "南阳关",
+      "characters": [
+        {
+          "name": "伍保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "俺，伍保。可恨杨广无道，将太老爷斩首，不免去到南阳关，报与老爷知道。",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.068,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "扶保朝堂",
+      "characters": [
+        {
+          "name": "伍云昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "威镇南阳，秉忠心，扶保朝堂。",
+          "rating": 0.429,
+          "role": "老生"
+        },
+        {
+          "name": "伍保",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "忙将京中事，报与老爷知。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "下手",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我等情愿。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "韩擒虎",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第三场：4位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.789,
+        "sentiment": 0.335
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "南阳关",
+      "characters": [
+        {
+          "name": "韩擒虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "人马纷纷往前闯，",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "尚师徒",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "元帅说话多奥妙，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "麻叔谋",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "在王驾前说王好，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "伍云昭",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "越思越想心头恼，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：4位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.674,
+        "sentiment": 0.326
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "南阳关",
+      "characters": [
+        {
+          "name": "韩擒虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "伍云昭杀法厉害，老夫难以对敌。",
+          "rating": -1.0,
+          "role": "末"
+        },
+        {
+          "name": "伍云昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：2位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.516,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "南阳关",
+      "characters": [
+        {
+          "name": "宇文成都",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "奉了新主命，去助老将军。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.489,
+        "conflict": 0.0,
+        "sentiment": 0.78
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "南阳关",
+      "characters": [
+        {
+          "name": "韩擒虎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "眼望救兵，坐卧不宁。",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "报子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报：无敌将军到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "宇文成都",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "岂敢。不知老将军可曾见过阵来？",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.523,
+        "conflict": 0.625,
+        "sentiment": 0.764
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "南阳关",
+      "characters": [
+        {
+          "name": "伍云昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "满腹冤仇事，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "伍夫人",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "时刻挂在心。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "伍保",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "启老爷：宇文成都发兵到了。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "宇文成都",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第八场：4位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.602,
+        "conflict": 0.0,
+        "sentiment": -0.022
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "南阳关",
+      "characters": [
+        {
+          "name": "宇文成都",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一见云昭心烦恼，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "伍云昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呀呀呸！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第九场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.588,
+        "conflict": 0.0,
+        "sentiment": 0.263
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "南阳关",
+      "characters": [
+        {
+          "name": "伍夫人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "老爷出营把阵交，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "伍云昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "一阵杀得昏迷了，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第十场：2位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.46,
+        "conflict": 0.645,
+        "sentiment": 0.453
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "南阳关",
+      "characters": [
+        {
+          "name": "朱粲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一载干戈动，十载不太平。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "宇文成都",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呔！你是何人，挡住我的去路？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "伍云昭",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有劳仁兄搭救！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第十一场：3位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.668,
+        "conflict": 0.678,
+        "sentiment": 0.163
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "南阳关",
+      "characters": [
+        {
+          "name": "宇文成都",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "适才追赶伍云昭，遇见周仓挡住去路。不是人马强壮，险遭不测。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "伍云昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第十二场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.547,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "伍云昭",
+      "short": "伍云",
+      "key": "伍云昭",
+      "quote": "伍云昭 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "韩擒虎",
+      "short": "韩擒",
+      "key": "韩擒虎",
+      "quote": "韩擒虎 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "宇文成都",
+      "short": "宇文",
+      "key": "宇文成都",
+      "quote": "宇文成都 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "伍夫人",
+      "short": "伍夫",
+      "key": "伍夫人",
+      "quote": "伍夫人 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "朱粲",
+      "short": "朱粲",
+      "key": "朱粲",
+      "quote": "朱粲 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "伍保",
+      "short": "伍保",
+      "key": "伍保",
+      "quote": "伍保 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "尚师徒",
+      "short": "尚师",
+      "key": "尚师徒",
+      "quote": "尚师徒 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "麻叔谋",
+      "short": "麻叔",
+      "key": "麻叔谋",
+      "quote": "麻叔谋 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "下手",
+      "short": "下手",
+      "key": "下手",
+      "quote": "下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "南阳关",
+      "key": "南阳关",
+      "quote": "场景发生在南阳关"
+    },
+    {
+      "name": "扶保朝堂",
+      "key": "扶保朝堂",
+      "quote": "场景发生在扶保朝堂"
+    }
+  ]
+}

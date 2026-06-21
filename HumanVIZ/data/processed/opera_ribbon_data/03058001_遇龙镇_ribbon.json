@@ -1,0 +1,298 @@
+{
+  "title": "遇龙镇",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "03058001_遇龙镇.json",
+  "source_folder": "03000000",
+  "plot_summary": "王莽篡汉，刘秀出走，至遇龙镇，为店家李大之妹李月仙识破，结为夫妇。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 184,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李月仙": 1,
+        "刘秀": 1,
+        "王氏": 1,
+        "众邻人": 1,
+        "李大": 1
+      },
+      "links": [
+        {
+          "source": "刘秀",
+          "target": "李大",
+          "value": 1
+        },
+        {
+          "source": "李大",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "众邻人",
+          "target": "李大",
+          "value": 1
+        },
+        {
+          "source": "李大",
+          "target": "李月仙",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "众邻人",
+          "target": "刘秀",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "李月仙",
+          "value": 1
+        },
+        {
+          "source": "众邻人",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "李月仙",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "众邻人",
+          "target": "李月仙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 106,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.731,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "刘秀": 1,
+        "王氏": 1,
+        "李大": 1
+      },
+      "links": [
+        {
+          "source": "李大",
+          "target": "王氏",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "李大",
+          "value": 1
+        },
+        {
+          "source": "刘秀",
+          "target": "王氏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李大",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "李大生来罗里罗嗦，娶了个好吃懒做的老婆。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "刘秀",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "父王晏驾实可惨，",
+          "rating": 0.2,
+          "role": "小生"
+        },
+        {
+          "name": "王氏",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "速去速来！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "众邻人",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "嗳，李大，打更啦！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "李月仙",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "轻移莲步出绣房，",
+          "rating": 0.667,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：5位角色，184行",
+      "firstLine": 1,
+      "lastLine": 184,
+      "numLines": 184,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.282,
+        "sentiment": 0.209
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李大",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "鼓打三更半夜交，肩扛棍棒腰带刀。",
+          "rating": 0.429,
+          "role": "丑"
+        },
+        {
+          "name": "王氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "李大啊！快快家来，你妹子房里有了人啦。",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "刘秀",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，106行",
+      "firstLine": 1,
+      "lastLine": 106,
+      "numLines": 106,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.241,
+        "sentiment": 0.412
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李大",
+      "short": "李大",
+      "key": "李大",
+      "quote": "李大 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "王氏",
+      "short": "王氏",
+      "key": "王氏",
+      "quote": "王氏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "刘秀",
+      "short": "刘秀",
+      "key": "刘秀",
+      "quote": "刘秀 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李月仙",
+      "short": "李月",
+      "key": "李月仙",
+      "quote": "李月仙 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "众邻人",
+      "short": "众邻",
+      "key": "众邻人",
+      "quote": "众邻人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,947 @@
+{
+  "title": "战樊城",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 13,
+  "num_locations": 3,
+  "source_file": "03097002_战樊城.json",
+  "source_folder": "03000000",
+  "plot_summary": "楚平王听信费无极谗言，囚伍奢，并命其修书召子伍尚、伍员进京，一并杀之。时伍尚、伍员镇守樊城，见\n书后，伍员心疑，劝伍尚勿受命。伍尚不听，至京见父，被执，与父同时遇害。楚平王又命武城黑带兵至樊\n城，捉拿伍员，伍员不敌，弃城逃。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 160,
+      "summary": "第一场；第二场",
+      "conflict": 0.068,
+      "importance": 1.0,
+      "locations": {
+        "来此是樊城": 2
+      },
+      "characters": {
+        "家将": 1,
+        "院子": 1,
+        "伍员": 1,
+        "鄢将": 1,
+        "鄢将师": 1,
+        "伍尚": 1
+      },
+      "links": [
+        {
+          "source": "伍员",
+          "target": "伍尚",
+          "value": 1
+        },
+        {
+          "source": "伍尚",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "伍尚",
+          "target": "鄢将师",
+          "value": 2
+        },
+        {
+          "source": "伍尚",
+          "target": "鄢将",
+          "value": 1
+        },
+        {
+          "source": "伍尚",
+          "target": "家将",
+          "value": 2
+        },
+        {
+          "source": "伍员",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "鄢将师",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "鄢将",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "家将",
+          "value": 1
+        },
+        {
+          "source": "鄢将师",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "鄢将",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "鄢将",
+          "target": "鄢将师",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "鄢将师",
+          "value": 2
+        },
+        {
+          "source": "家将",
+          "target": "鄢将",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 78,
+      "summary": "第三场；第四场",
+      "conflict": 0.221,
+      "importance": 0.818,
+      "locations": {
+        "来此是樊城": 1,
+        "免去到樊城": 1
+      },
+      "characters": {
+        "四校尉": 1,
+        "伍奢": 1,
+        "二校尉": 1,
+        "家将": 1,
+        "费无极": 1,
+        "伍员": 1,
+        "武城黑": 1,
+        "鄢将师": 1,
+        "伍尚": 1,
+        "楚平王": 1
+      },
+      "links": [
+        {
+          "source": "费无极",
+          "target": "鄢将师",
+          "value": 1
+        },
+        {
+          "source": "楚平王",
+          "target": "费无极",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "费无极",
+          "value": 1
+        },
+        {
+          "source": "伍奢",
+          "target": "费无极",
+          "value": 1
+        },
+        {
+          "source": "伍尚",
+          "target": "费无极",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "费无极",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "费无极",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "费无极",
+          "value": 1
+        },
+        {
+          "source": "武城黑",
+          "target": "费无极",
+          "value": 1
+        },
+        {
+          "source": "楚平王",
+          "target": "鄢将师",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "鄢将师",
+          "value": 1
+        },
+        {
+          "source": "伍奢",
+          "target": "鄢将师",
+          "value": 1
+        },
+        {
+          "source": "伍尚",
+          "target": "鄢将师",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "鄢将师",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "鄢将师",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "鄢将师",
+          "value": 1
+        },
+        {
+          "source": "武城黑",
+          "target": "鄢将师",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "楚平王",
+          "value": 1
+        },
+        {
+          "source": "伍奢",
+          "target": "楚平王",
+          "value": 1
+        },
+        {
+          "source": "伍尚",
+          "target": "楚平王",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "楚平王",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "楚平王",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "楚平王",
+          "value": 1
+        },
+        {
+          "source": "楚平王",
+          "target": "武城黑",
+          "value": 1
+        },
+        {
+          "source": "伍奢",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "伍尚",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "家将",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "武城黑",
+          "value": 1
+        },
+        {
+          "source": "伍奢",
+          "target": "伍尚",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "伍奢",
+          "value": 1
+        },
+        {
+          "source": "伍奢",
+          "target": "家将",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "伍奢",
+          "value": 1
+        },
+        {
+          "source": "伍奢",
+          "target": "武城黑",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "伍尚",
+          "value": 1
+        },
+        {
+          "source": "伍尚",
+          "target": "家将",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "伍尚",
+          "value": 1
+        },
+        {
+          "source": "伍尚",
+          "target": "武城黑",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "家将",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "伍员",
+          "value": 1
+        },
+        {
+          "source": "二校尉",
+          "target": "武城黑",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "家将",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "武城黑",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "武城黑",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 48,
+      "summary": "第五场；第六场",
+      "conflict": 0.037,
+      "importance": 0.503,
+      "locations": {
+        "来此是樊城": 2
+      },
+      "characters": {
+        "家将": 1,
+        "费无极": 1,
+        "武城黑": 1,
+        "伍员": 1,
+        "四龙套": 1
+      },
+      "links": [
+        {
+          "source": "四龙套",
+          "target": "武城黑",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "武城黑",
+          "value": 2
+        },
+        {
+          "source": "伍员",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "家将",
+          "value": 1
+        },
+        {
+          "source": "伍员",
+          "target": "费无极",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "武城黑",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "费无极",
+          "value": 1
+        },
+        {
+          "source": "武城黑",
+          "target": "费无极",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "来此是樊城",
+      "characters": [
+        {
+          "name": "伍尚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "边外狼烟尽，",
+          "rating": 0.6,
+          "role": "老生"
+        },
+        {
+          "name": "伍员",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "共享太平春。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "鄢将师",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "离了京都地，来此是樊城。",
+          "rating": 0.6,
+          "role": "丑"
+        },
+        {
+          "name": "鄢将",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "师小人名叫鄢将师。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家将",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "俺本英雄好汉，侍奉帅府门前。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：6位角色，154行",
+      "firstLine": 1,
+      "lastLine": 154,
+      "numLines": 154,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.824,
+        "conflict": 0.256,
+        "sentiment": 0.408
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "来此是樊城",
+      "characters": [
+        {
+          "name": "伍尚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "爹娘书信到来临，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "家将",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "鄢将师",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：3位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.306,
+        "conflict": 0.0,
+        "sentiment": 0.34
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "来此是樊城",
+      "characters": [
+        {
+          "name": "费无极",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "眉头一皱计千条，舌尖杀人不用刀。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "鄢将师",
+          "importance": 0.9,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "离了樊城地，报与相爷知。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "楚平王",
+          "importance": 0.8,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "卿家上殿，有何本奏？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "四校尉",
+          "importance": 0.7,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "伍奢",
+          "importance": 0.6,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "见伍尚把我的牙咬坏，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "伍尚",
+          "importance": 0.5,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "老爹尊错把孩儿怪，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "二校尉",
+          "importance": 0.4,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "斩首已毕。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家将",
+          "importance": 0.3,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "伍员",
+          "importance": 0.2,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "武城黑",
+          "importance": 0.1,
+          "importance_rank": 10,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武净"
+        }
+      ],
+      "summary": "第三场：10位角色，75行",
+      "firstLine": 1,
+      "lastLine": 75,
+      "numLines": 75,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.366,
+        "sentiment": -0.061
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "免去到樊城",
+      "characters": [
+        {
+          "name": "家将",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住！伍府满门家眷俱已斩首，不免去到樊城，报与二老爷知道便了！",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.065,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "来此是樊城",
+      "characters": [
+        {
+          "name": "武城黑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "某，武城黑。奉了平王旨意，带领人马，去到樊城捉拿伍员进京问罪。",
+          "rating": 0.0,
+          "role": "武净"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "伍员",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：3位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.313,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "来此是樊城",
+      "characters": [
+        {
+          "name": "伍员",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "惦念京都事，心神不安宁。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "家将",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "参见二老爷。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "武城黑",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "然！",
+          "rating": 0.0,
+          "role": "武净"
+        },
+        {
+          "name": "费无极",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：4位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.738,
+        "conflict": 0.682,
+        "sentiment": 0.123
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "伍员",
+      "short": "伍员",
+      "key": "伍员",
+      "quote": "伍员 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "伍尚",
+      "short": "伍尚",
+      "key": "伍尚",
+      "quote": "伍尚 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "费无极",
+      "short": "费无",
+      "key": "费无极",
+      "quote": "费无极 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "伍奢",
+      "short": "伍奢",
+      "key": "伍奢",
+      "quote": "伍奢 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "鄢将师",
+      "short": "鄢将",
+      "key": "鄢将师",
+      "quote": "鄢将师 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "武城黑",
+      "short": "武城",
+      "key": "武城黑",
+      "quote": "武城黑 — 武净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 武净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "家将",
+      "short": "家将",
+      "key": "家将",
+      "quote": "家将 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四校尉",
+      "short": "四校",
+      "key": "四校尉",
+      "quote": "四校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二校尉",
+      "short": "二校",
+      "key": "二校尉",
+      "quote": "二校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "鄢将",
+      "short": "鄢将",
+      "key": "鄢将",
+      "quote": "鄢将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "楚平王",
+      "short": "楚平",
+      "key": "楚平王",
+      "quote": "楚平王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "来此是樊城",
+      "key": "来此是樊城",
+      "quote": "场景发生在来此是樊城"
+    },
+    {
+      "name": "免去到樊城",
+      "key": "免去到樊城",
+      "quote": "场景发生在免去到樊城"
+    },
+    {
+      "name": "兄镇守樊城",
+      "key": "兄镇守樊城",
+      "quote": "场景发生在兄镇守樊城"
+    }
+  ]
+}

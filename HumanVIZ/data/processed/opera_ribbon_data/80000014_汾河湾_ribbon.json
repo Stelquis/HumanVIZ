@@ -1,0 +1,256 @@
+{
+  "title": "汾河湾",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "80000014_汾河湾.json",
+  "source_folder": "80000000",
+  "plot_summary": "唐，薛仁贵投军多年不归，其妻柳迎春生子薛丁山，长大后每日打雁奉养母亲。薛仁贵在战场立功受爵，回\n乡探望柳迎春，行至汾河湾，恰遇薛丁山打雁，见其好箭法，正在惊讶。突然一猛虎奔至，薛仁贵为护薛丁\n山，急发袖箭，不料却误伤薛丁山，仓皇逃走。至寒窑，夫妻相会时，薛仁贵见床下有男鞋，疑其妻不贞，\n柳迎春乃告系子薛丁山所穿，薛仁贵欲见子，始知方才在汾河湾射死的孩子就是己子薛丁山，夫妻悲伤不已。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 31,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.248,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛丁山": 1,
+        "薛仁贵": 1,
+        "柳迎春": 1
+      },
+      "links": [
+        {
+          "source": "柳迎春",
+          "target": "薛丁山",
+          "value": 1
+        },
+        {
+          "source": "柳迎春",
+          "target": "薛仁贵",
+          "value": 1
+        },
+        {
+          "source": "薛丁山",
+          "target": "薛仁贵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 26,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.208,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛丁山": 1,
+        "薛仁贵": 1
+      },
+      "links": [
+        {
+          "source": "薛丁山",
+          "target": "薛仁贵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 318,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛仁贵": 1,
+        "柳迎春": 1
+      },
+      "links": [
+        {
+          "source": "柳迎春",
+          "target": "薛仁贵",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "柳迎春",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "儿夫投军无音信，母子寒窑受苦情。",
+          "rating": 0.2,
+          "role": "正旦"
+        },
+        {
+          "name": "薛丁山",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": 0.0,
+          "role": "娃娃生"
+        },
+        {
+          "name": "薛仁贵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：3位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.774,
+        "conflict": 0.323,
+        "sentiment": 0.277
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "薛仁贵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "催马来在汾河湾，",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "薛丁山",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在此打雁。",
+          "rating": 0.0,
+          "role": "娃娃生"
+        }
+      ],
+      "summary": "第二场：2位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.662,
+        "conflict": 1.0,
+        "sentiment": 0.304
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "柳迎春",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "娇儿打雁无音信。",
+          "rating": -0.167,
+          "role": "正旦"
+        },
+        {
+          "name": "薛仁贵",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "适才离了汾河境，",
+          "rating": 0.125,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：2位角色，318行",
+      "firstLine": 1,
+      "lastLine": 318,
+      "numLines": 318,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.158,
+        "sentiment": 0.153
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛仁贵",
+      "short": "薛仁",
+      "key": "薛仁贵",
+      "quote": "薛仁贵 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "柳迎春",
+      "short": "柳迎",
+      "key": "柳迎春",
+      "quote": "柳迎春 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "薛丁山",
+      "short": "薛丁",
+      "key": "薛丁山",
+      "quote": "薛丁山 — 娃娃生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 娃娃生",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

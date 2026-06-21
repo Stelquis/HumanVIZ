@@ -1,0 +1,367 @@
+{
+  "title": "马鞍山",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "03074005_马鞍山.json",
+  "source_folder": "03000000",
+  "plot_summary": "俞伯牙与钟子期别后，次年中秋往访，途遇钟子期父钟元圃，方知钟子期已死。俞伯牙至墓前哭祭，摔碎瑶\n琴，以报知音。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 24,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.393,
+      "locations": {
+        "在阳关": 1
+      },
+      "characters": {
+        "二旗牌": 1,
+        "俞伯牙": 1,
+        "琴童": 1
+      },
+      "links": [
+        {
+          "source": "俞伯牙",
+          "target": "琴童",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "俞伯牙",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "琴童",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.23,
+      "locations": {
+        "在阳关": 1
+      },
+      "characters": {
+        "钟元圃": 1,
+        "俞伯牙": 1
+      },
+      "links": [
+        {
+          "source": "俞伯牙",
+          "target": "钟元圃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 145,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "在阳关": 1
+      },
+      "characters": {
+        "钟元圃": 1,
+        "樵夫": 1,
+        "渔夫": 1,
+        "俞伯牙": 1,
+        "琴童": 1
+      },
+      "links": [
+        {
+          "source": "俞伯牙",
+          "target": "钟元圃",
+          "value": 1
+        },
+        {
+          "source": "俞伯牙",
+          "target": "琴童",
+          "value": 1
+        },
+        {
+          "source": "俞伯牙",
+          "target": "樵夫",
+          "value": 1
+        },
+        {
+          "source": "俞伯牙",
+          "target": "渔夫",
+          "value": 1
+        },
+        {
+          "source": "琴童",
+          "target": "钟元圃",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "钟元圃",
+          "value": 1
+        },
+        {
+          "source": "渔夫",
+          "target": "钟元圃",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "琴童",
+          "value": 1
+        },
+        {
+          "source": "渔夫",
+          "target": "琴童",
+          "value": 1
+        },
+        {
+          "source": "樵夫",
+          "target": "渔夫",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "在阳关",
+      "characters": [
+        {
+          "name": "俞伯牙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "为访名贤，涉水登山。",
+          "rating": 0.6,
+          "role": "老生"
+        },
+        {
+          "name": "琴童",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二旗牌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.579,
+        "conflict": 0.455,
+        "sentiment": 0.54
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "在阳关",
+      "characters": [
+        {
+          "name": "钟元圃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "可怜我年古稀子嗣断了，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "俞伯牙",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.746,
+        "conflict": 1.0,
+        "sentiment": 0.25
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "在阳关",
+      "characters": [
+        {
+          "name": "俞伯牙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "昨夜晚抚瑶琴内藏悲调，",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "钟元圃",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "儿呀！",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "琴童",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "此位就是俞伯牙大夫。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "樵夫",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "山中樵夫多自在，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "渔夫",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "江上渔翁乐逍遥。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，145行",
+      "firstLine": 1,
+      "lastLine": 145,
+      "numLines": 145,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.245,
+        "sentiment": 0.242
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "俞伯牙",
+      "short": "俞伯",
+      "key": "俞伯牙",
+      "quote": "俞伯牙 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "钟元圃",
+      "short": "钟元",
+      "key": "钟元圃",
+      "quote": "钟元圃 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "樵夫",
+      "short": "樵夫",
+      "key": "樵夫",
+      "quote": "樵夫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "渔夫",
+      "short": "渔夫",
+      "key": "渔夫",
+      "quote": "渔夫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二旗牌",
+      "short": "二旗",
+      "key": "二旗牌",
+      "quote": "二旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "琴童",
+      "short": "琴童",
+      "key": "琴童",
+      "quote": "琴童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "在阳关",
+      "key": "在阳关",
+      "quote": "场景发生在在阳关"
+    }
+  ]
+}

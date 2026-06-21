@@ -1,0 +1,790 @@
+{
+  "title": "泗州城",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 14,
+  "num_locations": 1,
+  "source_file": "01021005_泗州城.json",
+  "source_folder": "01000000",
+  "plot_summary": "长江大河之中，水族之种类不一。受日月之精华，得气机之鼓荡，历年既深，成为妖孽。或者潜伏水中，专\n事修炼，以冀证成仙果，迨修练久而心性自然通灵。于是变化多端，神通广大，辄欲逞其野心，兴妖作怪，\n伤害数十万生灵，使人烟稠密之乡，竟成泽国。非上帝之纵容，实亦劫数使然也。剧本所述，距离泗州相近\n之虹桥，有一水怪，系属女身，自称水母娘娘。聚其族类，盘踞于此，以为巢穴，幻一人形，出游街市，见\n泗州太守时德明之子时廷芳，风度翩翩，诚不愧为浊世之佳公子，爱而悦之。乘时廷芳出离衙署，赴京考试，\n陡起一阵狂风，摄至水府，欲谐伉俪。时廷芳暗想人妖异类，岂可轻於尝试，然亦不敢推却，姑且许之，\n于房中设合卺筵宴，弄盏传杯，对坐欢饮。水怪衣襟上，挂一明珠，光芒四射，知是异宝，问之乃避水珠也。\n伪为亲密，向水怪乞取，水怪欣然相赠。时廷芳遂殷勤劝酒，将水怪灌醉，怀珠而逃，竟出水府。及水怪\n酒醒，不见时廷芳在房，知已逃去，不禁忿火中烧，兴波作浪，水淹泗州城。观世音菩萨，怜悯泗州百姓，\n遭此大难，召天神天将，合力擒拿。而水怪竟然不惧，相与对抗。菩萨变化一卖面婆，伺候在道旁。水怪狠\n斗良久，肚中正在饥饿，取面食之，不意下肚后，遂将脏腑锁住，其实面即铣链也，遂为天神天将牵去。",
+  "performance_notes": "此剧系武旦重头，跌扑一场，颇有精采。若为能力薄弱之艺员所演，则无足观已。近见沪上各舞台，有《大\n泗州城》及《双泗州城》名目，惟前段则用花旦，后段则用武旦，分别串演，余外毫无异点。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 56,
+      "summary": "第一场；第二场",
+      "conflict": 0.428,
+      "importance": 0.857,
+      "locations": {
+        "滔滔要屯城": 2
+      },
+      "characters": {
+        "时廷芳": 1,
+        "院子": 1,
+        "时德明": 1,
+        "八下手": 1,
+        "水母娘娘": 1
+      },
+      "links": [
+        {
+          "source": "八下手",
+          "target": "水母娘娘",
+          "value": 1
+        },
+        {
+          "source": "时廷芳",
+          "target": "水母娘娘",
+          "value": 1
+        },
+        {
+          "source": "八下手",
+          "target": "时廷芳",
+          "value": 1
+        },
+        {
+          "source": "时德明",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "时廷芳",
+          "target": "时德明",
+          "value": 1
+        },
+        {
+          "source": "时廷芳",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 76,
+      "summary": "第三场；第四场",
+      "conflict": 0.533,
+      "importance": 1.0,
+      "locations": {
+        "滔滔要屯城": 2
+      },
+      "characters": {
+        "时廷芳": 1,
+        "丫鬟": 1,
+        "水母娘娘": 1
+      },
+      "links": [
+        {
+          "source": "时廷芳",
+          "target": "水母娘娘",
+          "value": 2
+        },
+        {
+          "source": "丫鬟",
+          "target": "水母娘娘",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "时廷芳",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 64,
+      "summary": "第五场；第六场",
+      "conflict": 0.502,
+      "importance": 0.98,
+      "locations": {
+        "滔滔要屯城": 2
+      },
+      "characters": {
+        "木吒": 1,
+        "金吒": 1,
+        "众人": 1,
+        "哪吒": 1,
+        "伽蓝": 1,
+        "时德明": 1,
+        "观音": 1,
+        "卖面婆": 1,
+        "贫婆": 1,
+        "水母娘娘": 1
+      },
+      "links": [
+        {
+          "source": "时德明",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "时德明",
+          "target": "贫婆",
+          "value": 1
+        },
+        {
+          "source": "时德明",
+          "target": "水母娘娘",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "时德明",
+          "value": 1
+        },
+        {
+          "source": "时德明",
+          "target": "木吒",
+          "value": 1
+        },
+        {
+          "source": "时德明",
+          "target": "金吒",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "时德明",
+          "value": 1
+        },
+        {
+          "source": "伽蓝",
+          "target": "时德明",
+          "value": 1
+        },
+        {
+          "source": "观音",
+          "target": "贫婆",
+          "value": 1
+        },
+        {
+          "source": "水母娘娘",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "木吒",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "观音",
+          "target": "金吒",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "伽蓝",
+          "target": "观音",
+          "value": 1
+        },
+        {
+          "source": "水母娘娘",
+          "target": "贫婆",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "贫婆",
+          "value": 1
+        },
+        {
+          "source": "木吒",
+          "target": "贫婆",
+          "value": 1
+        },
+        {
+          "source": "贫婆",
+          "target": "金吒",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "贫婆",
+          "value": 1
+        },
+        {
+          "source": "伽蓝",
+          "target": "贫婆",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "水母娘娘",
+          "value": 1
+        },
+        {
+          "source": "木吒",
+          "target": "水母娘娘",
+          "value": 1
+        },
+        {
+          "source": "水母娘娘",
+          "target": "金吒",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "水母娘娘",
+          "value": 1
+        },
+        {
+          "source": "伽蓝",
+          "target": "水母娘娘",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "木吒",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "金吒",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "哪吒",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "伽蓝",
+          "value": 1
+        },
+        {
+          "source": "木吒",
+          "target": "金吒",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "木吒",
+          "value": 1
+        },
+        {
+          "source": "伽蓝",
+          "target": "木吒",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "金吒",
+          "value": 1
+        },
+        {
+          "source": "伽蓝",
+          "target": "金吒",
+          "value": 1
+        },
+        {
+          "source": "伽蓝",
+          "target": "哪吒",
+          "value": 1
+        },
+        {
+          "source": "卖面婆",
+          "target": "水母娘娘",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "滔滔要屯城",
+      "characters": [
+        {
+          "name": "水母娘娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "变化人形，水晶宫，快乐安宁。",
+          "rating": 1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "八下手",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "时廷芳",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：3位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.642,
+        "conflict": 0.625,
+        "sentiment": 0.828
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "滔滔要屯城",
+      "characters": [
+        {
+          "name": "时德明",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "身受皇恩，秉忠心，为国为民。",
+          "rating": 0.5,
+          "role": "末"
+        },
+        {
+          "name": "院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有请少爷。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "时廷芳",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "忽听爹爹唤。迈步到跟前。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.667,
+        "conflict": 0.299,
+        "sentiment": 0.4
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "滔滔要屯城",
+      "characters": [
+        {
+          "name": "水母娘娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "按住风头来观定，",
+          "rating": 0.0,
+          "role": "武旦"
+        },
+        {
+          "name": "时廷芳",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "催马来到阳关上，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.577,
+        "conflict": 0.0,
+        "sentiment": 0.26
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "滔滔要屯城",
+      "characters": [
+        {
+          "name": "水母娘娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "公子醒来。",
+          "rating": 1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "时廷芳",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "一霎时唬得我昏迷不醒，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "娘娘醒来。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：3位角色，68行",
+      "firstLine": 1,
+      "lastLine": 68,
+      "numLines": 68,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.667,
+        "conflict": 0.552,
+        "sentiment": 0.793
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "滔滔要屯城",
+      "characters": [
+        {
+          "name": "时德明",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "大水滔滔要屯城，",
+          "rating": -1.0,
+          "role": "末"
+        },
+        {
+          "name": "观音",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "普渡慈航，功德无量，消魔障，善恶昭彰，空门皆色相。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "贫婆",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "变一贫婆把妖擒。",
+          "rating": -1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "水母娘娘",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "担起了江心水急忙前进，",
+          "rating": -1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "众人",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "菩萨圣寿无疆。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "木吒",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "金吒",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "哪吒",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "伽蓝",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第五场：9位角色，59行",
+      "firstLine": 1,
+      "lastLine": 59,
+      "numLines": 59,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.204,
+        "sentiment": 0.062
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "滔滔要屯城",
+      "characters": [
+        {
+          "name": "水母娘娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "杀了半日，腹中十分饥饿。看那旁有一饭店，待我饱餐一顿。",
+          "rating": -1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "卖面婆",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第六场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.336,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "水母娘娘",
+      "short": "水母",
+      "key": "水母娘娘",
+      "quote": "水母娘娘 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "时廷芳",
+      "short": "时廷",
+      "key": "时廷芳",
+      "quote": "时廷芳 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "时德明",
+      "short": "时德",
+      "key": "时德明",
+      "quote": "时德明 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "金吒",
+      "short": "金吒",
+      "key": "金吒",
+      "quote": "金吒 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "木吒",
+      "short": "木吒",
+      "key": "木吒",
+      "quote": "木吒 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "哪吒",
+      "short": "哪吒",
+      "key": "哪吒",
+      "quote": "哪吒 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "伽蓝",
+      "short": "伽蓝",
+      "key": "伽蓝",
+      "quote": "伽蓝 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "贫婆",
+      "short": "贫婆",
+      "key": "贫婆",
+      "quote": "贫婆 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "卖面婆",
+      "short": "卖面",
+      "key": "卖面婆",
+      "quote": "卖面婆 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "观音",
+      "short": "观音",
+      "key": "观音",
+      "quote": "观音 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八下手",
+      "short": "八下",
+      "key": "八下手",
+      "quote": "八下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "滔滔要屯城",
+      "key": "滔滔要屯城",
+      "quote": "场景发生在滔滔要屯城"
+    }
+  ]
+}

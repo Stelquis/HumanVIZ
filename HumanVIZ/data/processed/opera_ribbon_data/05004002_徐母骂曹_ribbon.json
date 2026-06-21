@@ -1,0 +1,479 @@
+{
+  "title": "徐母骂曹",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 7,
+  "num_locations": 2,
+  "source_file": "05004002_徐母骂曹.json",
+  "source_folder": "05000000",
+  "plot_summary": "徐庶辅佐刘备，连败曹兵；曹操乃将其母劫至许昌，劝其命子弃刘归曹，徐母不允，骂之且欲用砚击曹操。\n程昱献计，礼待徐母，诓其笔迹，欲假造徐母书以诱致徐庶。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 100,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.306,
+      "importance": 0.813,
+      "locations": {
+        "失守樊城": 1,
+        " 闷坐草堂": 2
+      },
+      "characters": {
+        "程昱": 1,
+        "家将": 1,
+        "村民": 1,
+        "徐母": 1,
+        "四大铠": 1,
+        "曹操": 1
+      },
+      "links": [
+        {
+          "source": "四大铠",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "曹操",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "徐母",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "徐母",
+          "value": 1
+        },
+        {
+          "source": "徐母",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "村民",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "徐母",
+          "value": 1
+        },
+        {
+          "source": "徐母",
+          "target": "村民",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 146,
+      "summary": "第四场；第五场",
+      "conflict": 0.022,
+      "importance": 1.0,
+      "locations": {
+        " 闷坐草堂": 2
+      },
+      "characters": {
+        "程昱": 1,
+        "四将": 1,
+        "家将": 1,
+        "徐母": 1,
+        "曹操": 1
+      },
+      "links": [
+        {
+          "source": "家将",
+          "target": "曹操",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "曹操",
+          "value": 2
+        },
+        {
+          "source": "徐母",
+          "target": "曹操",
+          "value": 2
+        },
+        {
+          "source": "四将",
+          "target": "家将",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "徐母",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "徐母",
+          "value": 2
+        },
+        {
+          "source": "曹操",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "四将",
+          "target": "程昱",
+          "value": 1
+        },
+        {
+          "source": "徐母",
+          "target": "程昱",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "失守樊城",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "执掌权威，收天下文武英豪。",
+          "rating": 0.2,
+          "role": "净"
+        },
+        {
+          "name": "四大铠",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请程谋士进帐。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "程昱",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "胸藏五典三略理，袖屯提兵调将才。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "徐母",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第一场：4位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.817,
+        "conflict": 0.923,
+        "sentiment": 0.286
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 闷坐草堂",
+      "characters": [
+        {
+          "name": "徐母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "闷坐草堂，自凄凉，好不惨伤！",
+          "rating": -0.333,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第二场：1位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.551,
+        "conflict": 1.0,
+        "sentiment": -0.02
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": " 闷坐草堂",
+      "characters": [
+        {
+          "name": "家将",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "丞相差我颍川往，",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "村民",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哪个徐老太太？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来了！",
+          "rating": 1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第三场：3位角色，54行",
+      "firstLine": 1,
+      "lastLine": 54,
+      "numLines": 54,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.631,
+        "conflict": 0.336,
+        "sentiment": 0.178
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": " 闷坐草堂",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "汉室衰危天地荡，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "家将",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "相府门前住车辆，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四将",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "得令。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐母",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "离了颍川奔许昌，",
+          "rating": -1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第四场：4位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.676,
+        "conflict": 0.702,
+        "sentiment": 0.225
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": " 闷坐草堂",
+      "characters": [
+        {
+          "name": "曹操",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "程昱先生有志量，",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "四将",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "徐母到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐母",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "未见姣儿面，叫人心不安。",
+          "rating": 0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "程昱",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "刀下留人！",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：4位角色，116行",
+      "firstLine": 1,
+      "lastLine": 116,
+      "numLines": 116,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.376,
+        "sentiment": 0.203
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐母",
+      "short": "徐母",
+      "key": "徐母",
+      "quote": "徐母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "曹操",
+      "short": "曹操",
+      "key": "曹操",
+      "quote": "曹操 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "程昱",
+      "short": "程昱",
+      "key": "程昱",
+      "quote": "程昱 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "家将",
+      "short": "家将",
+      "key": "家将",
+      "quote": "家将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "村民",
+      "short": "村民",
+      "key": "村民",
+      "quote": "村民 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四将",
+      "short": "四将",
+      "key": "四将",
+      "quote": "四将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四大铠",
+      "short": "四大",
+      "key": "四大铠",
+      "quote": "四大铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 闷坐草堂",
+      "key": " 闷坐草堂",
+      "quote": "场景发生在 闷坐草堂"
+    },
+    {
+      "name": "失守樊城",
+      "key": "失守樊城",
+      "quote": "场景发生在失守樊城"
+    }
+  ]
+}

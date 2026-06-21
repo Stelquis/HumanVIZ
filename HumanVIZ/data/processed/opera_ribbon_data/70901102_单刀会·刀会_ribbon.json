@@ -1,0 +1,179 @@
+{
+  "title": "单刀会·刀会",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70901102_单刀会·刀会.json",
+  "source_folder": "70901000",
+  "plot_summary": "鲁肃为索取荆州，暗定计谋，邀请荆州守将关羽前来赴宴。关羽单刀匹马而往。在设有埋伏的筵席上，据理\n以争，大义凛然。本折刻画了关羽英勇无畏，忠贞不屈的英雄形象。",
+  "performance_notes": "《刀会》为《关大王独赴单刀会》第四折。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 267,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "中军": 1,
+        "周仓": 1,
+        "鲁肃": 1,
+        "关羽": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "关羽",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周仓",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "志气凌云贯九霄，周仓今日显英豪。父王独赴单刀会，全仗青龙偃月刀。",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "波涛滚滚渡江东，独赴单刀孰与同？片帆瞬息西风力，鲁肃今日认关公。",
+          "rating": -0.053,
+          "role": "红净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "请爷。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "段落1：4位角色，267行",
+      "firstLine": 1,
+      "lastLine": 267,
+      "numLines": 267,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.195,
+        "sentiment": 0.15
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红净",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 红净",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "鲁肃",
+      "short": "鲁肃",
+      "key": "鲁肃",
+      "quote": "鲁肃 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周仓",
+      "short": "周仓",
+      "key": "周仓",
+      "quote": "周仓 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

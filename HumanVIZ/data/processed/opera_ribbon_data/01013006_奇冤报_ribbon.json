@@ -1,0 +1,391 @@
+{
+  "title": "奇冤报",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01013006_奇冤报.json",
+  "source_folder": "01000000",
+  "plot_summary": "考四川华阳县缎商刘世昌，贩缎出门三年，方作归计，主仆行至定远县境，因遇雨，投宿于赵大瓦窑中。赵\n大见其行李甚重，带有巨款，遂即起意谋害，下毒于食中。刘世昌主仆，于是均遭非命。至次日，夫妻二人\n将二尸捣成肉浆，和入泥中，烧成瓦盆，以灭形迹，可称神鬼不知。直待数年后，张别古见其家顿富，往索\n前欠，其案方明云。",
+  "performance_notes": "近来所演《乌盆计》，多仅演《瓦盆诉冤》一段，从张别古出场向赵大索债做起，未见有演全本者。良以此\n剧唱工本以盆鬼说话告状之一幕为重，故时流往往节演。然前本刘世昌主仆，为赵大毒害时，其做工亦颇吃\n重，即唱工亦不甚轻，此曲本即其前本也。从前叫天演此，每演全本，贵俊卿亦仿谭派全演，其毒发时，从\n桌上滚下之惨状，颇足动人。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 32,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.261,
+      "importance": 0.512,
+      "locations": {
+        "一窑门": 3
+      },
+      "characters": {
+        "判官": 1,
+        "赵妻": 1,
+        "刘升": 1,
+        "赵大": 1,
+        "刘世昌": 1
+      },
+      "links": [
+        {
+          "source": "赵大",
+          "target": "赵妻",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "刘升",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 93,
+      "summary": "第四场；第五场",
+      "conflict": 0.404,
+      "importance": 1.0,
+      "locations": {
+        "一窑门": 2
+      },
+      "characters": {
+        "判官": 1,
+        "赵妻": 1,
+        "刘升": 1,
+        "赵大": 1,
+        "刘世昌": 1
+      },
+      "links": [
+        {
+          "source": "刘世昌",
+          "target": "刘升",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵大",
+          "value": 2
+        },
+        {
+          "source": "刘世昌",
+          "target": "赵妻",
+          "value": 1
+        },
+        {
+          "source": "刘世昌",
+          "target": "判官",
+          "value": 2
+        },
+        {
+          "source": "刘升",
+          "target": "赵大",
+          "value": 1
+        },
+        {
+          "source": "刘升",
+          "target": "赵妻",
+          "value": 1
+        },
+        {
+          "source": "刘升",
+          "target": "判官",
+          "value": 1
+        },
+        {
+          "source": "赵大",
+          "target": "赵妻",
+          "value": 1
+        },
+        {
+          "source": "判官",
+          "target": "赵大",
+          "value": 2
+        },
+        {
+          "source": "判官",
+          "target": "赵妻",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "一窑门",
+      "characters": [
+        {
+          "name": "赵大",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "越热越出汗，越冷越打颤。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "赵妻",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "自幼儿在东庄居住，嫁了个汉子是窑户。",
+          "rating": 0.0,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第一场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.7,
+        "conflict": 0.0,
+        "sentiment": 0.195
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "一窑门",
+      "characters": [
+        {
+          "name": "刘世昌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "一日离家一日深，",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘升",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.512,
+        "conflict": 0.0,
+        "sentiment": -0.066
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "一窑门",
+      "characters": [
+        {
+          "name": "判官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.072,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "一窑门",
+      "characters": [
+        {
+          "name": "刘世昌",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "急急忙忙往前奔，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘升",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "这我会。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "赵大",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是谁呀？",
+          "rating": 0.2,
+          "role": "丑"
+        },
+        {
+          "name": "赵妻",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来了来了。当家的什么事？",
+          "rating": 0.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "判官",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：5位角色，87行",
+      "firstLine": 1,
+      "lastLine": 87,
+      "numLines": 87,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.319,
+        "sentiment": 0.384
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "一窑门",
+      "characters": [
+        {
+          "name": "判官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "天理昭彰不可欺，未从起意神先知，善恶到头终有报，只看来早与来迟。",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "赵大",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "刘世昌",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：3位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.519,
+        "conflict": 1.0,
+        "sentiment": -0.02
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘世昌",
+      "short": "刘世",
+      "key": "刘世昌",
+      "quote": "刘世昌 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵大",
+      "short": "赵大",
+      "key": "赵大",
+      "quote": "赵大 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "赵妻",
+      "short": "赵妻",
+      "key": "赵妻",
+      "quote": "赵妻 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "刘升",
+      "short": "刘升",
+      "key": "刘升",
+      "quote": "刘升 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "判官",
+      "short": "判官",
+      "key": "判官",
+      "quote": "判官 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "一窑门",
+      "key": "一窑门",
+      "quote": "场景发生在一窑门"
+    }
+  ]
+}

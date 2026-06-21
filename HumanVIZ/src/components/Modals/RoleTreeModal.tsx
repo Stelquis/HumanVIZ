@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import * as echarts from "echarts";
+import { ROLE_DETAILS, CATEGORY_META } from "../../data/role-details";
 import "./RoleTreeModal.scss";
 
 const ROLE_TREE = {
@@ -7,62 +8,41 @@ const ROLE_TREE = {
   itemStyle: { color: "#e8ddce" },
   children: [
     {
-      name: "生", value: 3307,
+      name: "生", value: 3274,
       itemStyle: { color: "#b8926a" },
       children: [
-        { name: "老生", value: 1441, itemStyle: { color: "#d4bea6" }, desc: "中老年男性，重唱工", traits: ["忠义", "稳重", "儒雅"] },
-        { name: "小生", value: 779, itemStyle: { color: "#dcc8b1" }, desc: "青年男性，真假声", traits: ["文雅", "清秀", "儒生气"] },
-        { name: "武生", value: 446, itemStyle: { color: "#cdb59c" }, desc: "武艺男性，重做工", traits: ["英勇", "刚毅", "武艺高强"] },
-        { name: "末·外·生", value: 641, itemStyle: { color: "#e0d2be" }, desc: "传统生行扩展类别", traits: ["宽厚", "持重"] },
+        { name: "老生", value: 1439, itemStyle: { color: "#d4bea6" }, desc: "中老年男性，重唱工", traits: ["忠义", "稳重", "儒雅"] },
+        { name: "小生", value: 805, itemStyle: { color: "#dcc8b1" }, desc: "青年男性，真假声", traits: ["文雅", "清秀", "儒生气"] },
+        { name: "武生", value: 353, itemStyle: { color: "#cdb59c" }, desc: "武艺男性，重做工", traits: ["英勇", "刚毅", "武艺高强"] },
+        { name: "末·外·生", value: 677, itemStyle: { color: "#e0d2be" }, desc: "传统生行扩展类别", traits: ["宽厚", "持重"] },
       ],
     },
     {
-      name: "旦", value: 1557,
+      name: "旦", value: 1507,
       itemStyle: { color: "#96544d" },
       children: [
-        { name: "青衣·正旦", value: 1010, itemStyle: { color: "#c09894" }, desc: "端庄正派女性", traits: ["贞烈", "端庄", "贤淑"] },
-        { name: "老旦", value: 353, itemStyle: { color: "#c9a49f" }, desc: "老年女性角色", traits: ["慈祥", "稳重", "沧桑"] },
-        { name: "花旦·花衫", value: 129, itemStyle: { color: "#d3b8b3" }, desc: "活泼少女/青年女性", traits: ["活泼", "娇俏", "直率"] },
-        { name: "武旦", value: 65, itemStyle: { color: "#b88b86" }, desc: "武艺女性角色", traits: ["英武", "飒爽", "矫健"] },
+        { name: "青衣·正旦", value: 945, itemStyle: { color: "#c09894" }, desc: "端庄正派女性", traits: ["贞烈", "端庄", "贤淑"] },
+        { name: "老旦", value: 280, itemStyle: { color: "#c9a49f" }, desc: "老年女性角色", traits: ["慈祥", "稳重", "沧桑"] },
+        { name: "花旦·花衫", value: 212, itemStyle: { color: "#d3b8b3" }, desc: "活泼少女/青年女性", traits: ["活泼", "娇俏", "直率"] },
+        { name: "武旦", value: 70, itemStyle: { color: "#b88b86" }, desc: "武艺女性角色", traits: ["英武", "飒爽", "矫健"] },
       ],
     },
     {
-      name: "净", value: 1635,
+      name: "净", value: 1755,
       itemStyle: { color: "#5e6b76" },
       children: [
-        { name: "净", value: 1635, itemStyle: { color: "#9ea6ad" }, desc: "性格刚烈/豪放男性", traits: ["豪放", "刚毅", "粗犷"] },
+        { name: "净", value: 1755, itemStyle: { color: "#9ea6ad" }, desc: "性格刚烈/豪放男性", traits: ["豪放", "刚毅", "粗犷"] },
       ],
     },
     {
-      name: "丑", value: 1251,
+      name: "丑", value: 1339,
       itemStyle: { color: "#7f968d" },
       children: [
-        { name: "文丑", value: 1196, itemStyle: { color: "#a7b8b3" }, desc: "滑稽/机敏角色", traits: ["滑稽", "机敏", "诙谐"] },
-        { name: "武丑", value: 55, itemStyle: { color: "#8ca39e" }, desc: "武艺丑角", traits: ["敏捷", "灵活", "滑稽"] },
+        { name: "文丑", value: 1282, itemStyle: { color: "#a7b8b3" }, desc: "滑稽/机敏角色", traits: ["滑稽", "机敏", "诙谐"] },
+        { name: "武丑", value: 57, itemStyle: { color: "#8ca39e" }, desc: "武艺丑角", traits: ["敏捷", "灵活", "滑稽"] },
       ],
     },
   ],
-};
-
-const ROLE_DETAILS = [
-  { name: "老生", category: "生", desc: "中老年男性角色，以唱工为主，嗓音苍劲浑厚。代表角色：诸葛亮、杨继业。", traits: ["忠义", "稳重", "儒雅"], color: "#d4bea6" },
-  { name: "小生", category: "生", desc: "青年男性角色，唱腔真假声结合。代表角色：周瑜、许仙。", traits: ["文雅", "清秀", "儒生气"], color: "#dcc8b1" },
-  { name: "武生", category: "生", desc: "武艺高强的男性角色，重做工与武打。代表角色：赵云、武松。", traits: ["英勇", "刚毅", "武艺高强"], color: "#cdb59c" },
-  { name: "末·外·生", category: "生", desc: "传统生行扩展类别，包括末、外等，多为年长配角。代表角色：黄忠、王允。", traits: ["宽厚", "持重", "沉稳"], color: "#e0d2be" },
-  { name: "青衣·正旦", category: "旦", desc: "端庄正派的女性角色，重唱工。代表角色：王宝钏、秦香莲。", traits: ["贞烈", "端庄", "贤淑"], color: "#c09894" },
-  { name: "老旦", category: "旦", desc: "老年女性角色，唱腔苍劲。代表角色：佘太君、窦娥。", traits: ["慈祥", "稳重", "沧桑"], color: "#c9a49f" },
-  { name: "花旦·花衫", category: "旦", desc: "活泼娇俏的少女或青年女性。代表角色：红娘、春草。", traits: ["活泼", "娇俏", "直率"], color: "#d3b8b3" },
-  { name: "武旦", category: "旦", desc: "精通武艺的女性角色。代表角色：穆桂英、梁红玉。", traits: ["英武", "飒爽", "矫健"], color: "#b88b86" },
-  { name: "净", category: "净", desc: "性格刚烈或豪放的男性角色，面部勾画脸谱。代表角色：包公、曹操。", traits: ["豪放", "刚毅", "粗犷"], color: "#9ea6ad" },
-  { name: "文丑", category: "丑", desc: "滑稽机敏的男性角色，鼻梁涂白。代表角色：蒋干、崇公道。", traits: ["滑稽", "机敏", "诙谐"], color: "#a7b8b3" },
-  { name: "武丑", category: "丑", desc: "精通武艺的滑稽角色，身手灵活。代表角色：时迁、刘利华。", traits: ["敏捷", "灵活", "滑稽"], color: "#8ca39e" },
-];
-
-const CATEGORY_META: Record<string, { color: string; bg: string; desc: string }> = {
-  "生": { color: "#b8926a", bg: "rgba(184,146,106,0.08)", desc: "男性角色，含老生、小生、武生等细分" },
-  "旦": { color: "#96544d", bg: "rgba(150,84,77,0.08)", desc: "女性角色，含青衣、老旦、花旦等细分" },
-  "净": { color: "#5e6b76", bg: "rgba(94,107,118,0.08)", desc: "性格刚烈或豪放的男性，面部勾画脸谱" },
-  "丑": { color: "#7f968d", bg: "rgba(127,150,141,0.08)", desc: "滑稽机敏角色，鼻梁涂白，分文丑武丑" },
 };
 
 interface RoleTreeModalProps {
@@ -121,6 +101,15 @@ function RoleTreeModal({ opened, onClose }: RoleTreeModalProps) {
       chart.setOption({
         tooltip: {
           trigger: "item",
+          backgroundColor: "rgba(255,253,249,0.96)",
+          borderColor: "rgba(184,149,111,0.5)",
+          borderWidth: 1,
+          padding: [10, 14],
+          textStyle: {
+            fontSize: 13,
+            color: "#3a2c21",
+            fontFamily: "Noto Sans SC, sans-serif",
+          },
           formatter: (p: any) => {
             const d = p.data;
             if (d._parent) {
@@ -143,13 +132,12 @@ function RoleTreeModal({ opened, onClose }: RoleTreeModalProps) {
               position: "inside",
               fontSize: 16,
               fontWeight: 700,
-              color: "#fff",
-              textShadowColor: "rgba(0,0,0,0.35)",
-              textShadowBlur: 3,
+              color: "#1c1c1c",
+              fontFamily: "PT Serif, Noto Serif SC, serif",
             },
             emphasis: {
               scaleSize: 8,
-              label: { fontSize: 18 },
+              label: { fontSize: 18, fontFamily: "PT Serif, Noto Serif SC, serif" },
             },
             z: 2,
           },
@@ -165,14 +153,13 @@ function RoleTreeModal({ opened, onClose }: RoleTreeModalProps) {
               position: "inside",
               fontSize: 12,
               fontWeight: 600,
-              color: "#fff",
-              textShadowColor: "rgba(0,0,0,0.3)",
-              textShadowBlur: 2,
+              color: "#000000",
+              fontFamily: "宋体, SimSun, serif",
               formatter: (p: any) => p.data.value > 200 ? p.data.name : "",
             },
             emphasis: {
               scaleSize: 6,
-              label: { fontSize: 14 },
+              label: { fontSize: 14, fontFamily: "Noto Sans SC, sans-serif" },
               itemStyle: {
                 shadowBlur: 12,
                 shadowColor: "rgba(0,0,0,0.2)",

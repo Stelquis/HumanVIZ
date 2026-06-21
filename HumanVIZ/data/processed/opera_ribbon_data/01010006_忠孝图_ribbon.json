@@ -1,0 +1,476 @@
+{
+  "title": "忠孝图",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 8,
+  "num_characters": 3,
+  "num_locations": 2,
+  "source_file": "01010006_忠孝图.json",
+  "source_folder": "01000000",
+  "plot_summary": "相传有曹庄者，事母至孝，弃官归养，惟家贫无以为生，乃樵采度日。一日，曹庄出外未归，时已过午，曹\n母甚饥，催令曹庄妻做饼充食。庄妻不愿，以灶下七八天以前之干饽饽搪塞之。老年人何能下咽，不食，庄\n妻遂呼犬至，喂之。曹母复令煮面，又以剩面汤给曹母，曹母又不食。庄妻仍以喂诸犬。曹母乃怒极，拟训\n责，不意反为媳所打骂。既而曹庄归，见曹母伫立门外掩泣。曹庄询知其故，怒甚，急唤妻出。始仍以好语\n相规劝，讵妻不服，反以三事耍曹庄，谓非妻母不顾，则夫妻离异。曹庄乃愤极，举刀欲杀妻。幸妻即退避。\n适所畜犬至，曹庄遂将犬杀死，以示妻。妻乃战栗无人色，始知悔惧，急向姑前乞恕。卒赖姑好言劝儿，\n方得无事。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 94,
+      "summary": "第1场；第2场",
+      "conflict": 0.121,
+      "importance": 1.0,
+      "locations": {
+        "前窑": 2
+      },
+      "characters": {
+        "曹母": 1,
+        "曹庄": 1,
+        "焦氏": 1
+      },
+      "links": [
+        {
+          "source": "曹母",
+          "target": "焦氏",
+          "value": 2
+        },
+        {
+          "source": "曹庄",
+          "target": "曹母",
+          "value": 1
+        },
+        {
+          "source": "曹庄",
+          "target": "焦氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 90,
+      "summary": "第3场；第4场",
+      "conflict": 0.639,
+      "importance": 1.0,
+      "locations": {
+        "前窑": 1,
+        "在家门": 1
+      },
+      "characters": {
+        "曹母": 1,
+        "曹庄": 1,
+        "焦氏": 1
+      },
+      "links": [
+        {
+          "source": "曹母",
+          "target": "焦氏",
+          "value": 1
+        },
+        {
+          "source": "曹庄",
+          "target": "曹母",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 129,
+      "summary": "第5场；第6场",
+      "conflict": 0.178,
+      "importance": 1.0,
+      "locations": {
+        "前窑": 2
+      },
+      "characters": {
+        "曹母": 1,
+        "焦氏": 1,
+        "曹庄": 1
+      },
+      "links": [
+        {
+          "source": "曹庄",
+          "target": "焦氏",
+          "value": 2
+        },
+        {
+          "source": "曹母",
+          "target": "焦氏",
+          "value": 1
+        },
+        {
+          "source": "曹庄",
+          "target": "曹母",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 17,
+      "summary": "第7场；第8场",
+      "conflict": 0.906,
+      "importance": 0.206,
+      "locations": {
+        "前窑": 2
+      },
+      "characters": {
+        "曹庄": 1,
+        "焦氏": 1
+      },
+      "links": [
+        {
+          "source": "曹庄",
+          "target": "焦氏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "前窑",
+      "characters": [
+        {
+          "name": "曹母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我儿上山去打柴，到叫为娘挂心怀。",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "焦氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哽哼。",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "曹庄",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第1场：3位角色，50行",
+      "firstLine": 1,
+      "lastLine": 50,
+      "numLines": 50,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.836,
+        "conflict": 0.172,
+        "sentiment": 0.058
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "前窑",
+      "characters": [
+        {
+          "name": "曹母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "焦氏，家常饼呢？",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "焦氏",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你也不吃，我也不吃，喂了犬呢。",
+          "rating": 0.333,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第2场：2位角色，44行",
+      "firstLine": 1,
+      "lastLine": 44,
+      "numLines": 44,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.72,
+        "conflict": 0.179,
+        "sentiment": 0.179
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "前窑",
+      "characters": [
+        {
+          "name": "曹母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我把你这贱人吓！",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "焦氏",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "妈吓。饶了我。下回不敢呢。",
+          "rating": 0.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第3场：2位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.657,
+        "conflict": 0.0,
+        "sentiment": 0.802
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "在家门",
+      "characters": [
+        {
+          "name": "曹母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "小贱人做事大不该，",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "曹庄",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "走吓！",
+          "rating": 0.5,
+          "role": "小生"
+        }
+      ],
+      "summary": "第4场：2位角色，69行",
+      "firstLine": 1,
+      "lastLine": 69,
+      "numLines": 69,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.788,
+        "conflict": 0.347,
+        "sentiment": 0.163
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "前窑",
+      "characters": [
+        {
+          "name": "曹庄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住。将这贱人，唤到前窑，听俺相劝，还则罢了；若是不听俺相劝，俺举拳",
+          "rating": 0.2,
+          "role": "小生"
+        },
+        {
+          "name": "焦氏",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "我与老乞婆争吵了半天，才要想吃一点，也不知谁，焦氏长焦氏短。待我看看。",
+          "rating": -0.5,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第5场：2位角色，84行",
+      "firstLine": 1,
+      "lastLine": 84,
+      "numLines": 84,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.829,
+        "conflict": 0.402,
+        "sentiment": 0.07
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "前窑",
+      "characters": [
+        {
+          "name": "焦氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "我的狗又死了。",
+          "rating": -1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "曹庄",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你要与我死吓！你要与我死吓！",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "曹母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "哪有你的罪过，儿起来，一旁坐下。",
+          "rating": 0.333,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第6场：3位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.823,
+        "conflict": 0.37,
+        "sentiment": 0.248
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": "前窑",
+      "characters": [
+        {
+          "name": "焦氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "从今改过要行孝。",
+          "rating": 0.5,
+          "role": "花旦"
+        },
+        {
+          "name": "曹庄",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "杀狗劝妻是曹庄。",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第7场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.641,
+        "conflict": 0.976,
+        "sentiment": 0.466
+      }
+    },
+    {
+      "number": 8,
+      "name": "第8场",
+      "location": "前窑",
+      "characters": [
+        {
+          "name": "曹庄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "且住，你这个贱人三天不打，就要前窑叫骂，听俺相劝，还则罢了；若是不听",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第8场：1位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.505,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "曹庄",
+      "short": "曹庄",
+      "key": "曹庄",
+      "quote": "曹庄 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "焦氏",
+      "short": "焦氏",
+      "key": "焦氏",
+      "quote": "焦氏 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "曹母",
+      "short": "曹母",
+      "key": "曹母",
+      "quote": "曹母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "前窑",
+      "key": "前窑",
+      "quote": "场景发生在前窑"
+    },
+    {
+      "name": "在家门",
+      "key": "在家门",
+      "quote": "场景发生在在家门"
+    }
+  ]
+}

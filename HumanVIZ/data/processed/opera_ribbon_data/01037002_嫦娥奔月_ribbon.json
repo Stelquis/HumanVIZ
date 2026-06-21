@@ -1,0 +1,1133 @@
+{
+  "title": "嫦娥奔月",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 8,
+  "num_scenes": 16,
+  "num_characters": 17,
+  "num_locations": 6,
+  "source_file": "01037002_嫦娥奔月.json",
+  "source_folder": "01000000",
+  "plot_summary": "剧本自后羿唤嫦娥出，向取灵药始，嫦娥以已自偷服，无可交代，只得出逃，岂知既服灵丹，身轻如叶，遂\n得逃入月宫，而月宫诸仙姑，则预奉金母旨，已知后羿妻嫦娥，将入月作桂府之主，而预备迎接矣，盖亦金\n母暗中按排定之事也，入后用月兔及吴刚等点辍一回，卒以后羿打不过吴刚，到西池金母处讯明因果而返，\n全剧至此告终。",
+  "performance_notes": "《嫦娥奔月》，向无此戏，始于京伶梅兰芳，见寻常京剧，不足见长，欲以特别创作取胜，因挽在京诸老名\n士，根据“羿妻奔于月窟”，及唐人诗中“嫦娥应悔偷灵药，碧海青天夜夜心”之句，创编此剧。专以古装\n舞蹈，迎合观者厌故喜新之心理，盖古装久不作，文明戏太滥，则古装反变为新花样矣。剧中情节，间亦不\n入情理：嫦娥因偷吃灵丹，故能飞升入月，后羿既凡骨，深以未曾吃得灵药为恨，则何能追至月宫门外，既\n到月宫门外亦何差此一门之限。总之全剧事实，本属神话时代之神怪情节，原不能以常理论，付之一笑可也。\n唱处纯用吹腔，前两年颇风靡一时也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 41,
+      "summary": "第一场；第二场",
+      "conflict": 0.338,
+      "importance": 1.0,
+      "locations": {
+        "节共醉琼楼": 2
+      },
+      "characters": {
+        "嫦娥": 1,
+        "吴刚": 1,
+        "后羿": 1
+      },
+      "links": [
+        {
+          "source": "后羿",
+          "target": "嫦娥",
+          "value": 1
+        },
+        {
+          "source": "吴刚",
+          "target": "嫦娥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 14,
+      "summary": "第三场；第四场",
+      "conflict": 0.61,
+      "importance": 0.41,
+      "locations": {
+        "节共醉琼楼": 2
+      },
+      "characters": {
+        "嫦娥": 1,
+        "后羿": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 11,
+      "summary": "第五场；第六场",
+      "conflict": 0.15,
+      "importance": 0.322,
+      "locations": {
+        "节共醉琼楼": 2
+      },
+      "characters": {
+        "嫦娥": 1,
+        "后羿": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 25,
+      "summary": "第七场；第八场",
+      "conflict": 0.625,
+      "importance": 0.733,
+      "locations": {
+        "广寒宫桂府": 1,
+        "桂府门": 1
+      },
+      "characters": {
+        "嫦娥": 1,
+        "四仙女": 1,
+        "仙女一": 1,
+        "三仙女": 1
+      },
+      "links": [
+        {
+          "source": "仙女一",
+          "target": "四仙女",
+          "value": 1
+        },
+        {
+          "source": "三仙女",
+          "target": "四仙女",
+          "value": 1
+        },
+        {
+          "source": "三仙女",
+          "target": "仙女一",
+          "value": 1
+        },
+        {
+          "source": "四仙女",
+          "target": "嫦娥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 80,
+      "summary": "第九场；第十场",
+      "conflict": 0.804,
+      "importance": 1.0,
+      "locations": {
+        "这月府": 1,
+        "节共醉琼楼": 1
+      },
+      "characters": {
+        "兔儿爷": 1,
+        "免儿爷": 1,
+        "免儿奶奶": 1,
+        "嫦娥": 1,
+        "吴刚": 1,
+        "兔儿奶奶": 1,
+        "后羿": 1
+      },
+      "links": [
+        {
+          "source": "兔儿奶奶",
+          "target": "兔儿爷",
+          "value": 1
+        },
+        {
+          "source": "免儿奶奶",
+          "target": "兔儿爷",
+          "value": 1
+        },
+        {
+          "source": "免儿爷",
+          "target": "兔儿爷",
+          "value": 1
+        },
+        {
+          "source": "免儿奶奶",
+          "target": "兔儿奶奶",
+          "value": 1
+        },
+        {
+          "source": "免儿爷",
+          "target": "兔儿奶奶",
+          "value": 1
+        },
+        {
+          "source": "免儿奶奶",
+          "target": "免儿爷",
+          "value": 1
+        },
+        {
+          "source": "兔儿爷",
+          "target": "后羿",
+          "value": 1
+        },
+        {
+          "source": "后羿",
+          "target": "吴刚",
+          "value": 1
+        },
+        {
+          "source": "后羿",
+          "target": "嫦娥",
+          "value": 1
+        },
+        {
+          "source": "兔儿爷",
+          "target": "吴刚",
+          "value": 1
+        },
+        {
+          "source": "兔儿爷",
+          "target": "嫦娥",
+          "value": 1
+        },
+        {
+          "source": "吴刚",
+          "target": "嫦娥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 2,
+      "numLines": 17,
+      "summary": "第十一场；第十二场",
+      "conflict": 0.013,
+      "importance": 0.498,
+      "locations": {
+        "静坐瑶台": 1,
+        "节共醉琼楼": 1
+      },
+      "characters": {
+        "嫦娥": 1,
+        "吴刚": 1,
+        "王母": 1,
+        "后羿": 1
+      },
+      "links": [
+        {
+          "source": "后羿",
+          "target": "王母",
+          "value": 1
+        },
+        {
+          "source": "嫦娥",
+          "target": "王母",
+          "value": 1
+        },
+        {
+          "source": "后羿",
+          "target": "嫦娥",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第7章",
+      "numScenes": 2,
+      "numLines": 24,
+      "summary": "第十三场；第十四场",
+      "conflict": 0.54,
+      "importance": 0.703,
+      "locations": {
+        "节共醉琼楼": 2
+      },
+      "characters": {
+        "嫦娥": 1,
+        "仙女一": 1,
+        "仙女二": 1
+      },
+      "links": [
+        {
+          "source": "仙女一",
+          "target": "仙女二",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第8章",
+      "numScenes": 2,
+      "numLines": 61,
+      "summary": "第十五场；第十六场",
+      "conflict": 0.393,
+      "importance": 1.0,
+      "locations": {
+        "节共醉琼楼": 2
+      },
+      "characters": {
+        "众仙姑": 1,
+        "三仙姑": 1,
+        "二宫女": 1,
+        "仙姑一": 1,
+        "嫦娥": 1,
+        "宫女": 1
+      },
+      "links": [
+        {
+          "source": "三仙姑",
+          "target": "仙姑一",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "嫦娥",
+          "value": 1
+        },
+        {
+          "source": "众仙姑",
+          "target": "嫦娥",
+          "value": 1
+        },
+        {
+          "source": "嫦娥",
+          "target": "宫女",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "众仙姑",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "宫女",
+          "value": 1
+        },
+        {
+          "source": "众仙姑",
+          "target": "宫女",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "后羿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "膂力天生，贯九日，万古扬名。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "嫦娥",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来了。",
+          "rating": 1.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第一场：2位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.736,
+        "conflict": 1.0,
+        "sentiment": 0.489
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "吴刚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "蟾宫折桂任邀游，不知人世几春秋。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "嫦娥",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第二场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.709,
+        "conflict": 0.0,
+        "sentiment": 0.827
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "嫦娥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "凌空驭气出凡尘，",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第三场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.709,
+        "conflict": 1.0,
+        "sentiment": 0.93
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "后羿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "恼恨贱人理不端，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.307,
+        "conflict": 0.0,
+        "sentiment": 0.32
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "嫦娥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "飞来飞去无投奔，",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第五场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.707,
+        "conflict": 0.0,
+        "sentiment": 0.33
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "后羿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住，我看贱人跳入月宫门去了。我不免回去取来强弓神箭，再来射她便了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.305,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "广寒宫桂府",
+      "characters": [
+        {
+          "name": "四仙女",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "广寒深处绮窗开，仙桂纷纷点碧苔。昨夜瑶池传玉旨，宫门齐迓美人来。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "仙女一",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "众位仙子请了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "三仙女",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：3位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.308,
+        "conflict": 0.0,
+        "sentiment": 0.168
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "桂府门",
+      "characters": [
+        {
+          "name": "嫦娥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "腾云驾雾往前奔，不觉来到桂府门。",
+          "rating": 1.0,
+          "role": "正旦"
+        },
+        {
+          "name": "四仙女",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "仙子请了。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：2位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.72,
+        "conflict": 0.526,
+        "sentiment": 0.793
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "这月府",
+      "characters": [
+        {
+          "name": "兔儿爷",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "道地药材连饮片，",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "兔儿奶奶",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "月饼葡萄水果梨，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "免儿奶奶",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "我吃点药，成了仙，也好长生不老。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "免儿爷",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "呀，长生不老？我这药不治短命人。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第九场：4位角色，51行",
+      "firstLine": 1,
+      "lastLine": 51,
+      "numLines": 51,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.356,
+        "conflict": 0.192,
+        "sentiment": 0.377
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "后羿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吾，后羿。只因我妻嫦娥，逃入月宫之中，不能追赶进去，特地回家，取来弓",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "兔儿爷",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "呔，你是何方妖怪，敢对月宫放箭！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "吴刚",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "嫦娥",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第十场：4位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.732,
+        "conflict": 0.317,
+        "sentiment": -0.427
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "静坐瑶台",
+      "characters": [
+        {
+          "name": "王母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "孔雀屏开，终日里，静坐瑶台。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "后羿",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "参见圣母。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "嫦娥",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第十一场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.713,
+        "conflict": 0.0,
+        "sentiment": 0.167
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "吴刚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "百花开放向东风，天上人间自不同。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十二场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.305,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 13,
+      "name": "第十三场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "嫦娥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "琼楼玉宇是儿家，",
+          "rating": 0.0,
+          "role": "正旦"
+        }
+      ],
+      "summary": "第十三场：1位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.721,
+        "conflict": 0.667,
+        "sentiment": 0.22
+      }
+    },
+    {
+      "number": 14,
+      "name": "第十四场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "仙女一",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "仙女二",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "请了。今日为中秋佳节，宫主要大排筵宴，庆贺良宵，命我等邀请众位仙姑，",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十四场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.305,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 15,
+      "name": "第十五场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "仙姑一",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "众位请了。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "三仙姑",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十五场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第8章",
+      "ratings": {
+        "importance": 0.307,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 16,
+      "name": "第十六场",
+      "location": "节共醉琼楼",
+      "characters": [
+        {
+          "name": "嫦娥",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "摆驾。",
+          "rating": 0.5,
+          "role": "正旦"
+        },
+        {
+          "name": "二宫女",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "众位仙姑到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众仙姑",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "参见宫主。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "宫女",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "众位仙姑到。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十六场：4位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第8章",
+      "ratings": {
+        "importance": 0.76,
+        "conflict": 0.179,
+        "sentiment": 0.367
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "嫦娥",
+      "short": "嫦娥",
+      "key": "嫦娥",
+      "quote": "嫦娥 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "兔儿爷",
+      "short": "兔儿",
+      "key": "兔儿爷",
+      "quote": "兔儿爷 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众仙姑",
+      "short": "众仙",
+      "key": "众仙姑",
+      "quote": "众仙姑 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四仙女",
+      "short": "四仙",
+      "key": "四仙女",
+      "quote": "四仙女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "免儿爷",
+      "short": "免儿",
+      "key": "免儿爷",
+      "quote": "免儿爷 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "仙女一",
+      "short": "仙女",
+      "key": "仙女一",
+      "quote": "仙女一 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "仙女二",
+      "short": "仙女",
+      "key": "仙女二",
+      "quote": "仙女二 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "三仙姑",
+      "short": "三仙",
+      "key": "三仙姑",
+      "quote": "三仙姑 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "仙姑一",
+      "short": "仙姑",
+      "key": "仙姑一",
+      "quote": "仙姑一 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "免儿奶奶",
+      "short": "免儿",
+      "key": "免儿奶奶",
+      "quote": "免儿奶奶 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二宫女",
+      "short": "二宫",
+      "key": "二宫女",
+      "quote": "二宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "宫女",
+      "short": "宫女",
+      "key": "宫女",
+      "quote": "宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "三仙女",
+      "short": "三仙",
+      "key": "三仙女",
+      "quote": "三仙女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "吴刚",
+      "short": "吴刚",
+      "key": "吴刚",
+      "quote": "吴刚 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "兔儿奶奶",
+      "short": "兔儿",
+      "key": "兔儿奶奶",
+      "quote": "兔儿奶奶 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王母",
+      "short": "王母",
+      "key": "王母",
+      "quote": "王母 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "后羿",
+      "short": "后羿",
+      "key": "后羿",
+      "quote": "后羿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "节共醉琼楼",
+      "key": "节共醉琼楼",
+      "quote": "场景发生在节共醉琼楼"
+    },
+    {
+      "name": "静坐瑶台",
+      "key": "静坐瑶台",
+      "quote": "场景发生在静坐瑶台"
+    },
+    {
+      "name": "这月府",
+      "key": "这月府",
+      "quote": "场景发生在这月府"
+    },
+    {
+      "name": "将广寒宫殿",
+      "key": "将广寒宫殿",
+      "quote": "场景发生在将广寒宫殿"
+    },
+    {
+      "name": "桂府门",
+      "key": "桂府门",
+      "quote": "场景发生在桂府门"
+    },
+    {
+      "name": "广寒宫桂府",
+      "key": "广寒宫桂府",
+      "quote": "场景发生在广寒宫桂府"
+    }
+  ]
+}

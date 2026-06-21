@@ -1,0 +1,365 @@
+{
+  "title": "打面缸",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "04025003_打面缸.json",
+  "source_folder": "04000000",
+  "plot_summary": "妓女周腊梅想脱籍嫁人，持状去往县衙。请求知县（大老爷）做主。大老爷当堂把她配于班头张才，然后又\n派张才出差，以便自己到腊梅家里去“找乐儿”。张才料到大老爷不怀好意，假作登程，至晚归家。果然大\n老爷和县衙的王书吏、四老爷都已来了。王书吏、四老爷只得以“温居”为饰词，在张才面前许下贺喜银子，\n狼狈而遁。最后，大老爷被张才剥了衣帽，推出门去。一对新夫妇欢欢喜喜地入了洞房。",
+  "performance_notes": "《打面缸》是一出在许多剧种中都流行的讽刺喜剧。本剧是根据萧长华先生的演出本，由萧先生与本院（中\n国戏曲研究院）编辑处田淞共同整理的。整理本主要有以下改动：\n一、删改了一些庸俗胡闹或不恰当的台词。\n二、旧本中张才和周腊梅彼此间的态度不够明确。从戏的结尾来看，这一对夫妇互相是满意的，而前面张才\n离家时并未把“假意登程”告诉妻子，回来时，周腊梅又冷淡地拒绝烫酒，这些都显得不合情理。整理本中\n已作了修改。\n本剧在刻画人物上，有许多比较夸张的地方，作为讽刺剧的特殊风格来讲，是可以存在的；但在表演时应注\n意避免庸俗化。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 335,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "烟花巷": 1
+      },
+      "characters": {
+        "众衙役": 1,
+        "周腊梅": 1,
+        "张才": 1,
+        "王书吏": 1,
+        "大老爷": 1
+      },
+      "links": [
+        {
+          "source": "大老爷",
+          "target": "王书吏",
+          "value": 1
+        },
+        {
+          "source": "周腊梅",
+          "target": "大老爷",
+          "value": 1
+        },
+        {
+          "source": "众衙役",
+          "target": "大老爷",
+          "value": 1
+        },
+        {
+          "source": "大老爷",
+          "target": "张才",
+          "value": 1
+        },
+        {
+          "source": "周腊梅",
+          "target": "王书吏",
+          "value": 1
+        },
+        {
+          "source": "众衙役",
+          "target": "王书吏",
+          "value": 1
+        },
+        {
+          "source": "张才",
+          "target": "王书吏",
+          "value": 1
+        },
+        {
+          "source": "众衙役",
+          "target": "周腊梅",
+          "value": 1
+        },
+        {
+          "source": "周腊梅",
+          "target": "张才",
+          "value": 1
+        },
+        {
+          "source": "众衙役",
+          "target": "张才",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 265,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.883,
+      "locations": {
+        "烟花巷": 1
+      },
+      "characters": {
+        "张才": 1,
+        "四老爷": 1,
+        "周腊梅": 1,
+        "王书吏": 1,
+        "大老爷": 1
+      },
+      "links": [
+        {
+          "source": "四老爷",
+          "target": "大老爷",
+          "value": 1
+        },
+        {
+          "source": "大老爷",
+          "target": "王书吏",
+          "value": 1
+        },
+        {
+          "source": "周腊梅",
+          "target": "大老爷",
+          "value": 1
+        },
+        {
+          "source": "大老爷",
+          "target": "张才",
+          "value": 1
+        },
+        {
+          "source": "四老爷",
+          "target": "王书吏",
+          "value": 1
+        },
+        {
+          "source": "周腊梅",
+          "target": "四老爷",
+          "value": 1
+        },
+        {
+          "source": "四老爷",
+          "target": "张才",
+          "value": 1
+        },
+        {
+          "source": "周腊梅",
+          "target": "王书吏",
+          "value": 1
+        },
+        {
+          "source": "张才",
+          "target": "王书吏",
+          "value": 1
+        },
+        {
+          "source": "周腊梅",
+          "target": "张才",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "烟花巷",
+      "characters": [
+        {
+          "name": "大老爷",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "张头儿、李头儿，老爷升堂喽！",
+          "rating": 0.273,
+          "role": "丑"
+        },
+        {
+          "name": "王书吏",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "王书吏接状看端详。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "周腊梅",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "手拿状子朝前走——",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "众衙役",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "外班儿张才新近失的家。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "张才",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "啊咳！",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：5位角色，335行",
+      "firstLine": 1,
+      "lastLine": 335,
+      "numLines": 335,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.071,
+        "sentiment": 0.442
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "烟花巷",
+      "characters": [
+        {
+          "name": "大老爷",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "手打灯笼朝前走，",
+          "rating": 0.5,
+          "role": "丑"
+        },
+        {
+          "name": "四老爷",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "有本厅把夜查，",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "王书吏",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "一旁闪出了我王书吏。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "周腊梅",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "有腊梅，掩柴扉。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "张才",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "夫妻们成佳期，",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：5位角色，265行",
+      "firstLine": 1,
+      "lastLine": 265,
+      "numLines": 265,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.092,
+        "sentiment": 0.246
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "大老爷",
+      "short": "大老",
+      "key": "大老爷",
+      "quote": "大老爷 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "王书吏",
+      "short": "王书",
+      "key": "王书吏",
+      "quote": "王书吏 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "周腊梅",
+      "short": "周腊",
+      "key": "周腊梅",
+      "quote": "周腊梅 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张才",
+      "short": "张才",
+      "key": "张才",
+      "quote": "张才 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "四老爷",
+      "short": "四老",
+      "key": "四老爷",
+      "quote": "四老爷 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "众衙役",
+      "short": "众衙",
+      "key": "众衙役",
+      "quote": "众衙役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "烟花巷",
+      "key": "烟花巷",
+      "quote": "场景发生在烟花巷"
+    }
+  ]
+}

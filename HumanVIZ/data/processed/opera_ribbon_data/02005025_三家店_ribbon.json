@@ -1,0 +1,220 @@
+{
+  "title": "三家店",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "02005025_三家店.json",
+  "source_folder": "02000000",
+  "plot_summary": "秦琼由罗周押解赴登州，夜宿三家店。瓦岗寨上程咬金、徐勣等特派史大奈前往搭救。当押解官罗周发觉秦\n琼与罗成关系时，遂与史大奈共同商议营救秦琼办法，遂由罗周代秦琼给瓦岗寨上魏徵、徐勣等写信，约定\n八月十五日一同往登州攻打杨林，并由罗周等里应外合。",
+  "performance_notes": "本剧之后段，即《观阵》与《打登州》。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.078,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "史大奈": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 297,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "罗周": 1,
+        "店家": 1,
+        "秦琼": 1,
+        "史大奈": 1
+      },
+      "links": [
+        {
+          "source": "店家",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "罗周",
+          "value": 1
+        },
+        {
+          "source": "史大奈",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "罗周",
+          "value": 1
+        },
+        {
+          "source": "史大奈",
+          "target": "店家",
+          "value": 1
+        },
+        {
+          "source": "史大奈",
+          "target": "罗周",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "史大奈",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "光武岭上军器摆，",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：1位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.535,
+        "conflict": 0.0,
+        "sentiment": 0.92
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "历城县登程往前走，",
+          "rating": 0.067,
+          "role": "老生"
+        },
+        {
+          "name": "店家",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "饭店实难开，锅内起青苔。灶里着上一把火，叽哩嘎啦跳出一个客官来！",
+          "rating": 0.143,
+          "role": ""
+        },
+        {
+          "name": "罗周",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "将爷。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "史大奈",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "店家，店家！",
+          "rating": 0.429,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：4位角色，297行",
+      "firstLine": 1,
+      "lastLine": 297,
+      "numLines": 297,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.22,
+        "sentiment": 0.15
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "秦琼",
+      "short": "秦琼",
+      "key": "秦琼",
+      "quote": "秦琼 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "罗周",
+      "short": "罗周",
+      "key": "罗周",
+      "quote": "罗周 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "史大奈",
+      "short": "史大",
+      "key": "史大奈",
+      "quote": "史大奈 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "店家",
+      "short": "店家",
+      "key": "店家",
+      "quote": "店家 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

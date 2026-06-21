@@ -1,0 +1,366 @@
+{
+  "title": "祥梅寺",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02006069_祥梅寺.json",
+  "source_folder": "02000000",
+  "plot_summary": "黄巢造反，将杀人八百万。阎王为造生死簿，夜间加工。灯油不足，乃命小鬼往祥梅寺，偷取佛前之灯油，\n不幸被寺僧变律抓获。变律讯明原因。并见生死簿底稿上第一名即其本人，极为忧虑。适黄巢往该寺屯兵。\n变律乃告黄巢所见。请求赦免，黄巢慨允。及至造反之日，变律怕被杀死，乃藏于门前之枯树中。黄巢因无\n物可杀，乃用枯树祭刀。劫数难逃，变律终被斩首云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.395,
+      "locations": {
+        " 来此钟楼": 1
+      },
+      "characters": {
+        "变律": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 22,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.512,
+      "locations": {
+        " 来此钟楼": 1
+      },
+      "characters": {
+        "鬼甲": 1,
+        "二鬼": 1,
+        "变律": 1,
+        "黄巢": 1
+      },
+      "links": [
+        {
+          "source": "二鬼",
+          "target": "鬼甲",
+          "value": 1
+        },
+        {
+          "source": "二鬼",
+          "target": "变律",
+          "value": 1
+        },
+        {
+          "source": "二鬼",
+          "target": "黄巢",
+          "value": 1
+        },
+        {
+          "source": "变律",
+          "target": "鬼甲",
+          "value": 1
+        },
+        {
+          "source": "鬼甲",
+          "target": "黄巢",
+          "value": 1
+        },
+        {
+          "source": "变律",
+          "target": "黄巢",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 83,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        " 来此钟楼": 1
+      },
+      "characters": {
+        "变律": 1,
+        "黄巢": 1
+      },
+      "links": [
+        {
+          "source": "变律",
+          "target": "黄巢",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 50,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        " 来此钟楼": 1
+      },
+      "characters": {
+        "军士": 1,
+        "变律": 1,
+        "黄巢": 1
+      },
+      "links": [
+        {
+          "source": "变律",
+          "target": "黄巢",
+          "value": 1
+        },
+        {
+          "source": "军士",
+          "target": "变律",
+          "value": 1
+        },
+        {
+          "source": "军士",
+          "target": "黄巢",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": " 来此钟楼",
+      "characters": [
+        {
+          "name": "变律",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我作和尚快活多，",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：1位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.609,
+        "conflict": 0.909,
+        "sentiment": 0.487
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 来此钟楼",
+      "characters": [
+        {
+          "name": "二鬼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我本供门一将星，祥梅寺里说原因。黄巢杀人八百万，血流三千里数程。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "鬼甲",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "兄弟，今有黄天子出世，阴司造册，缺少灯油，前来盗取，遇着和尚说与他便",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "变律",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "拿住了，休得逃走。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "黄巢",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：4位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.777,
+        "conflict": 1.0,
+        "sentiment": 0.363
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": " 来此钟楼",
+      "characters": [
+        {
+          "name": "变律",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "万岁！",
+          "rating": 0.2,
+          "role": "丑"
+        },
+        {
+          "name": "黄巢",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "思前事，恨怎休，",
+          "rating": 0.143,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：2位角色，83行",
+      "firstLine": 1,
+      "lastLine": 83,
+      "numLines": 83,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.99,
+        "conflict": 0.736,
+        "sentiment": 0.361
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": " 来此钟楼",
+      "characters": [
+        {
+          "name": "变律",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "徒弟鸣钟擂鼓。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "黄巢",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "杀气满乾坤，要整山河一统。",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "军士",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启大王，无鸡犬牛羊，只有枯树阻路。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：3位角色，50行",
+      "firstLine": 1,
+      "lastLine": 50,
+      "numLines": 50,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.874,
+        "conflict": 0.494,
+        "sentiment": -0.04
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "变律",
+      "short": "变律",
+      "key": "变律",
+      "quote": "变律 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "黄巢",
+      "short": "黄巢",
+      "key": "黄巢",
+      "quote": "黄巢 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "二鬼",
+      "short": "二鬼",
+      "key": "二鬼",
+      "quote": "二鬼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "军士",
+      "short": "军士",
+      "key": "军士",
+      "quote": "军士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "鬼甲",
+      "short": "鬼甲",
+      "key": "鬼甲",
+      "quote": "鬼甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 来此钟楼",
+      "key": " 来此钟楼",
+      "quote": "场景发生在 来此钟楼"
+    }
+  ]
+}

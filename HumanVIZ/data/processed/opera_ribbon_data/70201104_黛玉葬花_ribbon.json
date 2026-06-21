@@ -1,0 +1,426 @@
+{
+  "title": "黛玉葬花",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "70201104_黛玉葬花.json",
+  "source_folder": "70201000",
+  "plot_summary": "黛玉夜访贾宝玉，丫鬟恶语相对，拒不开门。林黛玉疑是贾宝玉故意不见，很懊恼。次日，见园中落花无主，\n乃荷锄葬花，并赋《葬花词》，以遣秋思。贾宝玉适至，表明心迹，二人又言归于好。",
+  "performance_notes": "这个戏是梅兰芳先生早期经常演出的古装戏之一。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 55,
+      "summary": "第一场；第二场",
+      "conflict": 0.213,
+      "importance": 0.682,
+      "locations": {
+        "这贾家荣国府": 2
+      },
+      "characters": {
+        "贾宝玉": 1,
+        "茗烟": 1
+      },
+      "links": [
+        {
+          "source": "茗烟",
+          "target": "贾宝玉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 52,
+      "summary": "第三场；第四场",
+      "conflict": 0.35,
+      "importance": 0.645,
+      "locations": {
+        "这贾家荣国府": 2
+      },
+      "characters": {
+        "林黛玉": 1,
+        "紫鹃": 1,
+        "袭人": 1
+      },
+      "links": [
+        {
+          "source": "林黛玉",
+          "target": "紫鹃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 135,
+      "summary": "第五场；第六场",
+      "conflict": 0.399,
+      "importance": 1.0,
+      "locations": {
+        "这贾家荣国府": 2
+      },
+      "characters": {
+        "紫鹃": 1,
+        "众人": 1,
+        "林黛玉": 1,
+        "袭人": 1,
+        "贾宝玉": 1
+      },
+      "links": [
+        {
+          "source": "林黛玉",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "袭人",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "紫鹃",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "贾宝玉",
+          "value": 1
+        },
+        {
+          "source": "林黛玉",
+          "target": "袭人",
+          "value": 1
+        },
+        {
+          "source": "林黛玉",
+          "target": "紫鹃",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "林黛玉",
+          "value": 1
+        },
+        {
+          "source": "紫鹃",
+          "target": "袭人",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "袭人",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "紫鹃",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "这贾家荣国府",
+      "characters": [
+        {
+          "name": "茗烟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 0.429,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：1位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.19,
+        "conflict": 1.0,
+        "sentiment": 0.437
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "这贾家荣国府",
+      "characters": [
+        {
+          "name": "贾宝玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "满苑春风，花如锦，快绿怡红。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "茗烟",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "二爷。",
+          "rating": 0.6,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.597,
+        "conflict": 0.779,
+        "sentiment": 0.65
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "这贾家荣国府",
+      "characters": [
+        {
+          "name": "林黛玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "孤苦伶仃，一腔心事向谁论！",
+          "rating": -0.556,
+          "role": "旦"
+        },
+        {
+          "name": "紫鹃",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：2位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.612,
+        "conflict": 0.519,
+        "sentiment": -0.13
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "这贾家荣国府",
+      "characters": [
+        {
+          "name": "袭人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "沉沉春院半垂帘，停绣添香出画檐。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.167,
+        "conflict": 0.0,
+        "sentiment": 0.22
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "这贾家荣国府",
+      "characters": [
+        {
+          "name": "紫鹃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "满地落红容易扫，",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：1位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.172,
+        "conflict": 1.0,
+        "sentiment": -0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "这贾家荣国府",
+      "characters": [
+        {
+          "name": "贾宝玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "幽微灵秀地，无可奈何天！",
+          "rating": -0.143,
+          "role": "小生"
+        },
+        {
+          "name": "林黛玉",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "你一人在此做甚？",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "袭人",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "林姑娘万福。这几日身体可好哇？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "紫鹃",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "原来姑娘在此。天色已晚，渐渐寒冷起来；现有衣服，请姑娘穿回去罢！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "原来姹紫嫣红开遍，",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：5位角色，126行",
+      "firstLine": 1,
+      "lastLine": 126,
+      "numLines": 126,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.235,
+        "sentiment": 0.239
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "林黛玉",
+      "short": "林黛",
+      "key": "林黛玉",
+      "quote": "林黛玉 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "贾宝玉",
+      "short": "贾宝",
+      "key": "贾宝玉",
+      "quote": "贾宝玉 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "紫鹃",
+      "short": "紫鹃",
+      "key": "紫鹃",
+      "quote": "紫鹃 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "袭人",
+      "short": "袭人",
+      "key": "袭人",
+      "quote": "袭人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "茗烟",
+      "short": "茗烟",
+      "key": "茗烟",
+      "quote": "茗烟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "这贾家荣国府",
+      "key": "这贾家荣国府",
+      "quote": "场景发生在这贾家荣国府"
+    }
+  ]
+}

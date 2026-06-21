@@ -1,0 +1,142 @@
+{
+  "title": "凤阳花鼓",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "03031002_凤阳花鼓.json",
+  "source_folder": "03000000",
+  "plot_summary": "明朝，凤阳地方，连年荒旱，农事欠收；苛捐备至，民不聊生。有夫妻二人，身背花鼓，串走四乡，卖唱糊\n口。但买唱者却不时予丈夫以侮辱，加妻子以调戏。致丈夫愤而打骂妻子，妻子气而埋怨丈夫。嗣经气平，\n又复体谅，为求生计，继续奔波。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 476,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "卖艺人": 1,
+        "花鼓娘": 1,
+        "丑公子": 1
+      },
+      "links": [
+        {
+          "source": "卖艺人",
+          "target": "花鼓娘",
+          "value": 1
+        },
+        {
+          "source": "丑公子",
+          "target": "花鼓娘",
+          "value": 1
+        },
+        {
+          "source": "丑公子",
+          "target": "卖艺人",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "花鼓娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "身背着花鼓，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "卖艺人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "啊哈哈哈……",
+          "rating": 0.4,
+          "role": "丑"
+        },
+        {
+          "name": "丑公子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "今日闲暇无事，大街走走。",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "段落1：3位角色，476行",
+      "firstLine": 1,
+      "lastLine": 476,
+      "numLines": 476,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.056,
+        "sentiment": 0.265
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "花鼓娘",
+      "short": "花鼓",
+      "key": "花鼓娘",
+      "quote": "花鼓娘 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "卖艺人",
+      "short": "卖艺",
+      "key": "卖艺人",
+      "quote": "卖艺人 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "丑公子",
+      "short": "丑公",
+      "key": "丑公子",
+      "quote": "丑公子 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

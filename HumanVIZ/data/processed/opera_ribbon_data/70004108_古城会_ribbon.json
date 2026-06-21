@@ -1,0 +1,990 @@
+{
+  "title": "古城会",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 10,
+  "num_characters": 10,
+  "num_locations": 2,
+  "source_file": "70004108_古城会.json",
+  "source_folder": "70004000",
+  "plot_summary": "关羽过关斩将行近古城，遣马童探得张飞下落，急而往见。张飞疑关羽负义，关羽含泪剖白。张飞若有所动，\n忽见蔡阳率兵追至，迎嫂而闭城。关羽无奈，力斩蔡阳，张飞始悟，亲迎关羽入城，并前往请罪。关羽义\n责张飞，二皇嫂出面跪劝，弟兄和好如初。",
+  "performance_notes": "此剧系唐韵笙根据王鸿寿先生的演出本整理而成。整理、演出年代约于一九三五年。其中关羽出场的西皮导\n板、原板，城下见张飞的西皮二六均与老本不同，训弟一折不上刘备，由二皇嫂劝弟。一九五七年作过一次\n修改。曾一度易名《古城释疑》，其中二六的个别唱词和场子有所改动。一九六零年唐韵笙对该剧重新做了\n修订。该剧从情节的处理到台词、唱词，与王本有明显区别，成为唐派红生戏中的代表剧目。三十年代以后，\n东北演关羽戏的演员大都宗唐派的路子演出。\n关羽面部揉红脸，头戴夫子巾，穿软靠，披斗篷，手执马鞭，三停青龙刀。训弟穿绿蟒折扇。口戴黑三，足\n穿黑靴。\n在艺术处理上，关羽第一个出场由马夫扛刀牵马而上，西皮二六以后没有小开打，斩蔡后增加了下马后的表\n演动作，训弟中强调了对于张飞的教育等。唐韵笙在该剧中通过细致的唱和做，着力表现关羽性格中的一个\n侧面，即始终如一地忠于桃园结义的情感。表演细腻、含蓄、深沉，使该剧具有鲜明的唐派风格。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 21,
+      "summary": "第一场；第二场",
+      "conflict": 0.586,
+      "importance": 0.313,
+      "locations": {
+        " 出师朝堂": 2
+      },
+      "characters": {
+        "探子": 1,
+        "关羽": 1,
+        "蔡阳": 1
+      },
+      "links": [
+        {
+          "source": "探子",
+          "target": "蔡阳",
+          "value": 2
+        },
+        {
+          "source": "关羽",
+          "target": "探子",
+          "value": 2
+        },
+        {
+          "source": "关羽",
+          "target": "蔡阳",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 81,
+      "summary": "第三场；第四场",
+      "conflict": 0.092,
+      "importance": 1.0,
+      "locations": {
+        " 出师朝堂": 2
+      },
+      "characters": {
+        "甘夫人": 1,
+        "糜夫人": 1,
+        "关羽": 1,
+        "马夫": 1,
+        "张飞": 1,
+        "兵士": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "甘夫人",
+          "value": 1
+        },
+        {
+          "source": "糜夫人",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "兵士",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "兵士",
+          "target": "马夫",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 25,
+      "summary": "第五场；第六场",
+      "conflict": 0.16,
+      "importance": 0.373,
+      "locations": {
+        " 出师朝堂": 2
+      },
+      "characters": {
+        "关羽": 1,
+        "马夫": 1,
+        "蔡阳": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "马夫",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 111,
+      "summary": "第七场；第八场",
+      "conflict": 0.006,
+      "importance": 1.0,
+      "locations": {
+        "义归顺曹营": 1,
+        " 出师朝堂": 1
+      },
+      "characters": {
+        "甘夫人": 1,
+        "旗牌": 1,
+        "蔡阳": 1,
+        "糜夫人": 1,
+        "关羽": 1,
+        "马夫": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "蔡阳",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "糜夫人",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "甘夫人",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "甘夫人",
+          "value": 2
+        },
+        {
+          "source": "张飞",
+          "target": "糜夫人",
+          "value": 2
+        },
+        {
+          "source": "甘夫人",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "糜夫人",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "糜夫人",
+          "value": 2
+        },
+        {
+          "source": "旗牌",
+          "target": "甘夫人",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "旗牌",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 97,
+      "summary": "第九场；第十场",
+      "conflict": 0.205,
+      "importance": 1.0,
+      "locations": {
+        " 出师朝堂": 2
+      },
+      "characters": {
+        "甘夫人": 1,
+        "蔡阳": 1,
+        "糜夫人": 1,
+        "关羽": 1,
+        "马夫": 1,
+        "张飞": 1,
+        "龙套": 1
+      },
+      "links": [
+        {
+          "source": "关羽",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "张飞",
+          "value": 2
+        },
+        {
+          "source": "关羽",
+          "target": "蔡阳",
+          "value": 2
+        },
+        {
+          "source": "马夫",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "蔡阳",
+          "target": "马夫",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "蔡阳",
+          "target": "龙套",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "蔡阳",
+          "value": 2
+        },
+        {
+          "source": "关羽",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "关羽",
+          "target": "甘夫人",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "糜夫人",
+          "value": 1
+        },
+        {
+          "source": "糜夫人",
+          "target": "蔡阳",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "甘夫人",
+          "value": 1
+        },
+        {
+          "source": "甘夫人",
+          "target": "蔡阳",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": " 出师朝堂",
+      "characters": [
+        {
+          "name": "探子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "探得军情事，报与将军知。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蔡阳",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第一场：3位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.469,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 出师朝堂",
+      "characters": [
+        {
+          "name": "探子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "报！老将军在上，探子大参！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蔡阳",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "出师朝堂，盔甲明亮，军威壮，将勇兵强，要把烟尘扫荡。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "关羽",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第二场：3位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.518,
+        "conflict": 0.0,
+        "sentiment": 0.766
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": " 出师朝堂",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "挂印封金辞汉相，",
+          "rating": -0.333,
+          "role": "红生"
+        },
+        {
+          "name": "马夫",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启禀二爷：一路匆忙，人困马乏，前面有一松林何不歇息歇息再走。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "糜夫人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "二弟免礼！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "甘夫人",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第三场：4位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.557,
+        "conflict": 0.247,
+        "sentiment": -0.015
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": " 出师朝堂",
+      "characters": [
+        {
+          "name": "张飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "弟兄结拜在桃园，乌牛白马祭地天。徐州不幸曾失败，红脸的他负义降曹瞒。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "马夫",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "离了松林地，来此是古城。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "兵士",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "作什么的？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：3位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.492,
+        "conflict": 0.222,
+        "sentiment": 0.077
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": " 出师朝堂",
+      "characters": [
+        {
+          "name": "马夫",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "有请二爷，",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "罢了，可曾见着三爷？",
+          "rating": -0.333,
+          "role": "红生"
+        }
+      ],
+      "summary": "第五场：2位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.427,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": " 出师朝堂",
+      "characters": [
+        {
+          "name": "蔡阳",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.464,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "义归顺曹营",
+      "characters": [
+        {
+          "name": "马夫",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "三爷出城来了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "关羽",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "噢，三弟来了！",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "看枪！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "蔡阳",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "来者敢是关云长！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "甘夫人",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "糜夫人",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第七场：6位角色，87行",
+      "firstLine": 1,
+      "lastLine": 87,
+      "numLines": 87,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.471,
+        "sentiment": 0.128
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": " 出师朝堂",
+      "characters": [
+        {
+          "name": "甘夫人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "失散各一方，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "糜夫人",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "相会叙衷肠。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哎呀！二位嫂嫂！适才城楼之上有所不知，得罪了我家二哥，此事还望二位嫂",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "遵命。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：4位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.481,
+        "conflict": 0.0,
+        "sentiment": 0.134
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": " 出师朝堂",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "卸连环露出了綠袍甲冑，",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "马夫",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "遵命。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "龙套",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "我等乃蔡阳帐下，失散军卒，无处投奔，故尔在此喧哗。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "烦劳通禀：古城县令张飞特地前来迎接我家二哥进城。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "蔡阳",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第九场：5位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.843,
+        "conflict": 0.0,
+        "sentiment": 0.384
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": " 出师朝堂",
+      "characters": [
+        {
+          "name": "关羽",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "参见二位嫂嫂。",
+          "rating": 0.167,
+          "role": "红生"
+        },
+        {
+          "name": "糜夫人",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "二弟少礼，请坐。",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "甘夫人",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "啊，二弟，如今三弟已知前过要我姐妹与他讲个人情，还望二弟念在兄弟情义",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "二位嫂嫂请转。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "蔡阳",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十场：5位角色，65行",
+      "firstLine": 1,
+      "lastLine": 65,
+      "numLines": 65,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.991,
+        "conflict": 0.469,
+        "sentiment": 0.179
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "关羽",
+      "short": "关羽",
+      "key": "关羽",
+      "quote": "关羽 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "蔡阳",
+      "short": "蔡阳",
+      "key": "蔡阳",
+      "quote": "蔡阳 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "甘夫人",
+      "short": "甘夫",
+      "key": "甘夫人",
+      "quote": "甘夫人 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "糜夫人",
+      "short": "糜夫",
+      "key": "糜夫人",
+      "quote": "糜夫人 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马夫",
+      "short": "马夫",
+      "key": "马夫",
+      "quote": "马夫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "兵士",
+      "short": "兵士",
+      "key": "兵士",
+      "quote": "兵士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙套",
+      "short": "龙套",
+      "key": "龙套",
+      "quote": "龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 出师朝堂",
+      "key": " 出师朝堂",
+      "quote": "场景发生在 出师朝堂"
+    },
+    {
+      "name": "义归顺曹营",
+      "key": "义归顺曹营",
+      "quote": "场景发生在义归顺曹营"
+    }
+  ]
+}

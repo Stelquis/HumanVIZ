@@ -1,0 +1,276 @@
+{
+  "title": "双断桥",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01010013_双断桥.json",
+  "source_folder": "01000000",
+  "plot_summary": "白氏既在金山下，被法海用天兵杀败，大受惩创，偕小青逃归西湖。一路自怨自艾，而心中恋恋，仍惦念许\n仙官人，不能一刻忘情，百结柔肠，哀伤欲绝，其一片真诚恳挚之情，真足以反衬许仙之薄倖无心肝也。行\n经断桥，忽然腹痛欲裂，寸步不能行，盖以心中忧郁万分，已惊动天元，胎震震然欲分娩矣。适许仙袖法海\n金钵至，小青见之，怒甚，欲挥剑斩之，赖白氏再三劝阻得免。白氏乃且泣且诉，历数许仙之不义，仍令偕\n归。小青在侧，按剑怒目，不平实甚焉。",
+  "performance_notes": "《双断桥》，亦即昆剧之中《断桥相会》也，在《水漫》之后，《产子合钵》之前。原本义妖小说《白蛇传\n》中之事实，固人人皆知者。\n此剧去白氏之一段唱工，须唱得哀怨动听，如猿啼巫峡，鹤唳缑山，方为合作。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.132,
+      "locations": {
+        "如今怀揣着许门": 1
+      },
+      "characters": {
+        "小青": 1,
+        "白素贞": 1
+      },
+      "links": [
+        {
+          "source": "小青",
+          "target": "白素贞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 116,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "如今怀揣着许门": 1
+      },
+      "characters": {
+        "小青": 1,
+        "许仙": 1,
+        "白素贞": 1
+      },
+      "links": [
+        {
+          "source": "小青",
+          "target": "白素贞",
+          "value": 1
+        },
+        {
+          "source": "白素贞",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "小青",
+          "target": "许仙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.309,
+      "locations": {
+        "如今怀揣着许门": 1
+      },
+      "characters": {
+        "小青": 1,
+        "许仙": 1,
+        "白素贞": 1
+      },
+      "links": [
+        {
+          "source": "白素贞",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "小青",
+          "target": "许仙",
+          "value": 1
+        },
+        {
+          "source": "小青",
+          "target": "白素贞",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "如今怀揣着许门",
+      "characters": [
+        {
+          "name": "白素贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎哎呀！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "小青",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.64,
+        "conflict": 1.0,
+        "sentiment": 0.233
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "如今怀揣着许门",
+      "characters": [
+        {
+          "name": "白素贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "金山寺与法海一处争斗，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "小青",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "端阳节你不该多贪药酒，",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "许仙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "老和尚他赐我金钵一口，",
+          "rating": -0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：3位角色，116行",
+      "firstLine": 1,
+      "lastLine": 116,
+      "numLines": 116,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.642,
+        "sentiment": -0.062
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "如今怀揣着许门",
+      "characters": [
+        {
+          "name": "许仙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "娘娘怎么样了？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "白素贞",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "官人，一霎时我腹内疼痛，想是娃儿分娩。你我夫妻，该在哪里安身了？",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "小青",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "看剑！",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.793,
+        "conflict": 1.0,
+        "sentiment": 0.015
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "白素贞",
+      "short": "白素",
+      "key": "白素贞",
+      "quote": "白素贞 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "许仙",
+      "short": "许仙",
+      "key": "许仙",
+      "quote": "许仙 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "小青",
+      "short": "小青",
+      "key": "小青",
+      "quote": "小青 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "如今怀揣着许门",
+      "key": "如今怀揣着许门",
+      "quote": "场景发生在如今怀揣着许门"
+    }
+  ]
+}

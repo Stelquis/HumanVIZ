@@ -1,0 +1,470 @@
+{
+  "title": "金雀记·乔醋",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 5,
+  "num_locations": 2,
+  "source_file": "70902159_金雀记·乔醋.json",
+  "source_folder": "70902000",
+  "plot_summary": "井文鸾得知丈夫潘岳将金雀赠于妓女巫彩凤，订下婚约，她故作妒忌之情状，调笑潘岳。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 33,
+      "summary": "第1场；第2场",
+      "conflict": 0.598,
+      "importance": 0.34,
+      "locations": {
+        "河阳锦绣城": 2
+      },
+      "characters": {
+        "瑶琴": 1,
+        "潘岳": 1
+      },
+      "links": [
+        {
+          "source": "潘岳",
+          "target": "瑶琴",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 43,
+      "summary": "第3场；第4场",
+      "conflict": 0.2,
+      "importance": 0.443,
+      "locations": {
+        "河阳锦绣城": 2
+      },
+      "characters": {
+        "井文鸾": 1,
+        "潘岳": 1,
+        "家院": 1,
+        "彩鹤": 1
+      },
+      "links": [
+        {
+          "source": "井文鸾",
+          "target": "彩鹤",
+          "value": 2
+        },
+        {
+          "source": "彩鹤",
+          "target": "潘岳",
+          "value": 2
+        },
+        {
+          "source": "家院",
+          "target": "彩鹤",
+          "value": 1
+        },
+        {
+          "source": "井文鸾",
+          "target": "潘岳",
+          "value": 2
+        },
+        {
+          "source": "井文鸾",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "潘岳",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 215,
+      "summary": "第5场；第6场",
+      "conflict": 0.343,
+      "importance": 1.0,
+      "locations": {
+        "公匆匆出堂": 1,
+        "河阳锦绣城": 1
+      },
+      "characters": {
+        "瑶琴": 1,
+        "井文鸾": 1,
+        "潘岳": 1,
+        "彩鹤": 1
+      },
+      "links": [
+        {
+          "source": "井文鸾",
+          "target": "潘岳",
+          "value": 1
+        },
+        {
+          "source": "井文鸾",
+          "target": "彩鹤",
+          "value": 1
+        },
+        {
+          "source": "井文鸾",
+          "target": "瑶琴",
+          "value": 1
+        },
+        {
+          "source": "彩鹤",
+          "target": "潘岳",
+          "value": 2
+        },
+        {
+          "source": "潘岳",
+          "target": "瑶琴",
+          "value": 1
+        },
+        {
+          "source": "彩鹤",
+          "target": "瑶琴",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "河阳锦绣城",
+      "characters": [
+        {
+          "name": "瑶琴",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "正欲清谈逢客至，偶思小饮报花开。",
+          "rating": 1.0,
+          "role": "付"
+        },
+        {
+          "name": "潘岳",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "承恩命，",
+          "rating": 1.0,
+          "role": "巾生"
+        }
+      ],
+      "summary": "第1场：2位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.641,
+        "conflict": 0.0,
+        "sentiment": 0.771
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "河阳锦绣城",
+      "characters": [
+        {
+          "name": "潘岳",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "待我拆开来看。",
+          "rating": 0.0,
+          "role": "巾生"
+        },
+        {
+          "name": "瑶琴",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "付"
+        }
+      ],
+      "summary": "第2场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.595,
+        "conflict": 1.0,
+        "sentiment": 0.173
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "河阳锦绣城",
+      "characters": [
+        {
+          "name": "彩鹤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "请夫人下轿。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "井文鸾",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "远涉兼程，",
+          "rating": 0.333,
+          "role": "五旦"
+        },
+        {
+          "name": "潘岳",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "彩鹤，夫人接到了么？",
+          "rating": 0.0,
+          "role": "巾生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "候着！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：4位角色，35行",
+      "firstLine": 1,
+      "lastLine": 35,
+      "numLines": 35,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.711,
+        "conflict": 0.0,
+        "sentiment": 0.36
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "河阳锦绣城",
+      "characters": [
+        {
+          "name": "潘岳",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "吓，夫人！正欲谈心，不想上司有紧急公文发下，待下官出堂发遣文书，即来",
+          "rating": 0.0,
+          "role": "巾生"
+        },
+        {
+          "name": "井文鸾",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "相公请便。",
+          "rating": 0.0,
+          "role": "五旦"
+        },
+        {
+          "name": "彩鹤",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第4场：3位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.525,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "公匆匆出堂",
+      "characters": [
+        {
+          "name": "井文鸾",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "呀！看相公匆匆出堂，袖中遗下一封书来，待我拾起来看。",
+          "rating": 0.25,
+          "role": "五旦"
+        },
+        {
+          "name": "潘岳",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "掩门！",
+          "rating": 1.0,
+          "role": "巾生"
+        },
+        {
+          "name": "彩鹤",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "掩门吓！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "瑶琴",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "付"
+        }
+      ],
+      "summary": "第5场：4位角色，207行",
+      "firstLine": 1,
+      "lastLine": 207,
+      "numLines": 207,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.185,
+        "sentiment": 0.417
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "河阳锦绣城",
+      "characters": [
+        {
+          "name": "彩鹤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "此跌，美跌，非凡之跌，乃天下第一跌也！",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "潘岳",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "𠳶，狗才！我老爷适才下阶错步。",
+          "rating": 0.0,
+          "role": "巾生"
+        }
+      ],
+      "summary": "第6场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.383,
+        "conflict": 0.833,
+        "sentiment": 0.76
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "井文鸾",
+      "short": "井文",
+      "key": "井文鸾",
+      "quote": "井文鸾 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "潘岳",
+      "short": "潘岳",
+      "key": "潘岳",
+      "quote": "潘岳 — 巾生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 巾生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "瑶琴",
+      "short": "瑶琴",
+      "key": "瑶琴",
+      "quote": "瑶琴 — 付",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 付",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "彩鹤",
+      "short": "彩鹤",
+      "key": "彩鹤",
+      "quote": "彩鹤 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "河阳锦绣城",
+      "key": "河阳锦绣城",
+      "quote": "场景发生在河阳锦绣城"
+    },
+    {
+      "name": "公匆匆出堂",
+      "key": "公匆匆出堂",
+      "quote": "场景发生在公匆匆出堂"
+    }
+  ]
+}

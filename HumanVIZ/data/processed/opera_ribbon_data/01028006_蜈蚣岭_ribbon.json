@@ -1,0 +1,584 @@
+{
+  "title": "蜈蚣岭",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "01028006_蜈蚣岭.json",
+  "source_folder": "01000000",
+  "plot_summary": "武松自血溅鸳鸯楼（事实见《水浒传》）之后，畏罪逃避，意欲往二龙山，与鲁智深合伙为盗。武松行色匆\n匆，虽节届清明，无暇遍观春色。行及蜈蚣岭，陡遇一家老仆，急遽前奔，有慌不择路之象。武松牵裾问故，\n则云张志善家小姐，在此间扫墓，被本山三清观内住持道人王飞天强抢而去。武松闻言，勃然大怒，愿为\n代抱不平。单身入山，与王飞天格斗，奋力杀之，又杀其徒众，放火烧毁巢穴，将张小姐救出，仍交与老仆，\n送回家中。",
+  "performance_notes": "绿林大盗，往往以劫夺财物、屠害生命，视为当然之事。然有行侠仗义者，亦在其中。所谓盗亦有道，此等\n人非甘心为盗，实不得已而为盗。行者武松，固《水浒传》中之盗也，而若观之举动，绝非他盗所能望其项\n背。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 63,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.588,
+      "importance": 1.0,
+      "locations": {
+        "血溅鸳鸯楼": 3
+      },
+      "characters": {
+        "武松": 1,
+        "王飞天": 1,
+        "院子": 1,
+        "张女": 1,
+        "老道": 1,
+        "四小道": 1,
+        "张志善": 1
+      },
+      "links": [
+        {
+          "source": "张志善",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "张女",
+          "target": "张志善",
+          "value": 1
+        },
+        {
+          "source": "张女",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "四小道",
+          "target": "王飞天",
+          "value": 1
+        },
+        {
+          "source": "四小道",
+          "target": "老道",
+          "value": 1
+        },
+        {
+          "source": "王飞天",
+          "target": "老道",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 57,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.393,
+      "importance": 1.0,
+      "locations": {
+        "血溅鸳鸯楼": 3
+      },
+      "characters": {
+        "武松": 1,
+        "王飞天": 1,
+        "院子": 1,
+        "张女": 1,
+        "老道": 1,
+        "四小道": 1,
+        "张志善": 1
+      },
+      "links": [
+        {
+          "source": "张志善",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "王飞天",
+          "value": 2
+        },
+        {
+          "source": "王飞天",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "四小道",
+          "target": "王飞天",
+          "value": 1
+        },
+        {
+          "source": "张女",
+          "target": "王飞天",
+          "value": 1
+        },
+        {
+          "source": "王飞天",
+          "target": "老道",
+          "value": 1
+        },
+        {
+          "source": "四小道",
+          "target": "张女",
+          "value": 1
+        },
+        {
+          "source": "四小道",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "四小道",
+          "target": "老道",
+          "value": 1
+        },
+        {
+          "source": "张女",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "张女",
+          "target": "老道",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "老道",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 13,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.293,
+      "locations": {
+        "血溅鸳鸯楼": 1
+      },
+      "characters": {
+        "武松": 1,
+        "院子": 1,
+        "王飞天": 1
+      },
+      "links": [
+        {
+          "source": "武松",
+          "target": "王飞天",
+          "value": 1
+        },
+        {
+          "source": "王飞天",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "血溅鸳鸯楼",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "沉月下踏月奔荒郊，",
+          "rating": -1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第一场：1位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.646,
+        "conflict": 0.833,
+        "sentiment": -0.12
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "血溅鸳鸯楼",
+      "characters": [
+        {
+          "name": "张志善",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "家有千担粮，前仓和后仓。",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有请小姐。",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "张女",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "不幸母亲亡故了，倒叫奴家双泪抛。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，21行",
+      "firstLine": 1,
+      "lastLine": 21,
+      "numLines": 21,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.548,
+        "conflict": 0.0,
+        "sentiment": 0.468
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "血溅鸳鸯楼",
+      "characters": [
+        {
+          "name": "四小道",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "出家不会诵经文，随同师父胡乱行。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "王飞天",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "身入空门，怀抱杀心，好吃荤，不念经文，最好美佳人。",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "老道",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "遵命。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.566,
+        "conflict": 0.87,
+        "sentiment": 0.467
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "血溅鸳鸯楼",
+      "characters": [
+        {
+          "name": "张志善",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "桃红柳绿万家春，",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "院子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第四场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.413,
+        "conflict": 0.0,
+        "sentiment": 0.1
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "血溅鸳鸯楼",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "山路崎岖甚难行，",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "老汉不、不、不是奸细，老汉是避、避、避难的。",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "王飞天",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：3位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.744,
+        "conflict": 1.0,
+        "sentiment": 0.46
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "血溅鸳鸯楼",
+      "characters": [
+        {
+          "name": "王飞天",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "徒弟下山去抢亲，为何不见转回程。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "四小道",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "抢来了！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "张女",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "唗！胆大狂徒，清平世界，朗朗乾坤，擅抢良家妇女，难道你不怕王法么！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "呔！开门来！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "老道",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "什么事吓？",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：5位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.765,
+        "conflict": 1.0,
+        "sentiment": 0.067
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "血溅鸳鸯楼",
+      "characters": [
+        {
+          "name": "王飞天",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "众徒弟走上！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "武松",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "待我放起火来。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "多蒙爷爷救命之恩，请问尊姓大名？",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第七场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.609,
+        "conflict": 0.741,
+        "sentiment": -0.462
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "武松",
+      "short": "武松",
+      "key": "武松",
+      "quote": "武松 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王飞天",
+      "short": "王飞",
+      "key": "王飞天",
+      "quote": "王飞天 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "张志善",
+      "short": "张志",
+      "key": "张志善",
+      "quote": "张志善 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张女",
+      "short": "张女",
+      "key": "张女",
+      "quote": "张女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老道",
+      "short": "老道",
+      "key": "老道",
+      "quote": "老道 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四小道",
+      "short": "四小",
+      "key": "四小道",
+      "quote": "四小道 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "血溅鸳鸯楼",
+      "key": "血溅鸳鸯楼",
+      "quote": "场景发生在血溅鸳鸯楼"
+    }
+  ]
+}

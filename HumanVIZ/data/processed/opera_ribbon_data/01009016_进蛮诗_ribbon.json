@@ -1,0 +1,418 @@
+{
+  "title": "进蛮诗",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "01009016_进蛮诗.json",
+  "source_folder": "01000000",
+  "plot_summary": "俗传明皇时有黑蛮国遣使进表，表用蛮文缮写，语多不逊，谓中国如无人识得此表，彼即将兴师夺取唐朝天\n下。时盈廷学士，俱不能辨，明皇甚惭虑。旋由贺知章、孟浩然等，举荐李白能识。明皇乃以殊礼迎召太白，\n并赐以学士官。太白即至殿，余酲尚未醒，因前曾受过杨国忠、高力士等恶气，乃令磨墨脱靴以报，卒乃\n朗诵蛮表，译明原意，亦草就蛮诗，仍交该臣带回，嘱其弗生妄想。蛮使战兢而退。此亦可谓战胜於朝廷之\n上矣。",
+  "performance_notes": "昆剧《彩毫记》中系《吟诗脱靴》，京剧翻为此本，剧情大异。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.032,
+      "locations": {
+        "时万岁登殿": 1
+      },
+      "characters": {
+        "使臣": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 307,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "时万岁登殿": 1
+      },
+      "characters": {
+        "李白": 1,
+        "高力士": 1,
+        "孟浩然": 1,
+        "贺知章": 1,
+        "杨国忠": 1,
+        "使臣": 1,
+        "内监": 1,
+        "唐明皇": 1
+      },
+      "links": [
+        {
+          "source": "杨国忠",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "杨国忠",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "孟浩然",
+          "target": "杨国忠",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "杨国忠",
+          "value": 1
+        },
+        {
+          "source": "使臣",
+          "target": "杨国忠",
+          "value": 1
+        },
+        {
+          "source": "李白",
+          "target": "杨国忠",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "杨国忠",
+          "value": 1
+        },
+        {
+          "source": "贺知章",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "孟浩然",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "使臣",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "李白",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "孟浩然",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "使臣",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "李白",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "贺知章",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "孟浩然",
+          "value": 1
+        },
+        {
+          "source": "使臣",
+          "target": "孟浩然",
+          "value": 1
+        },
+        {
+          "source": "孟浩然",
+          "target": "李白",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "孟浩然",
+          "value": 1
+        },
+        {
+          "source": "使臣",
+          "target": "唐明皇",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "李白",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "唐明皇",
+          "value": 1
+        },
+        {
+          "source": "使臣",
+          "target": "李白",
+          "value": 1
+        },
+        {
+          "source": "使臣",
+          "target": "内监",
+          "value": 1
+        },
+        {
+          "source": "内监",
+          "target": "李白",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "时万岁登殿",
+      "characters": [
+        {
+          "name": "使臣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "手捧黑蛮表，进贡大唐朝。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.084,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "时万岁登殿",
+      "characters": [
+        {
+          "name": "杨国忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "老夫杨国忠。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "高力士",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "咱家高力士。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "贺知章",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "下官贺知章。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "孟浩然",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "下官孟浩然。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "唐明皇",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "凤阁龙楼，万古千秋。",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "使臣",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "李白",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "叙皇封好一似琼林赴宴，",
+          "rating": 0.714,
+          "role": "老生"
+        },
+        {
+          "name": "内监",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "使臣上殿。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：8位角色，307行",
+      "firstLine": 1,
+      "lastLine": 307,
+      "numLines": 307,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.152,
+        "sentiment": 0.453
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李白",
+      "short": "李白",
+      "key": "李白",
+      "quote": "李白 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "唐明皇",
+      "short": "唐明",
+      "key": "唐明皇",
+      "quote": "唐明皇 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨国忠",
+      "short": "杨国",
+      "key": "杨国忠",
+      "quote": "杨国忠 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "高力士",
+      "short": "高力",
+      "key": "高力士",
+      "quote": "高力士 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "使臣",
+      "short": "使臣",
+      "key": "使臣",
+      "quote": "使臣 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "孟浩然",
+      "short": "孟浩",
+      "key": "孟浩然",
+      "quote": "孟浩然 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "贺知章",
+      "short": "贺知",
+      "key": "贺知章",
+      "quote": "贺知章 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内监",
+      "short": "内监",
+      "key": "内监",
+      "quote": "内监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "时万岁登殿",
+      "key": "时万岁登殿",
+      "quote": "场景发生在时万岁登殿"
+    }
+  ]
+}

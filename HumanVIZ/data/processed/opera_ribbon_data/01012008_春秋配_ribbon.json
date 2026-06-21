@@ -1,0 +1,272 @@
+{
+  "title": "春秋配",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01012008_春秋配.json",
+  "source_folder": "01000000",
+  "plot_summary": "姜秋莲，商人姜韶之女，姜韶原配早故。继娶贾氏，性悍刻，有小家气，以姜秋莲系前室所生，非己出，故\n待之虐。每逢姜韶远出经商，则待之甚酷。日者见姜秋莲深处闺中，又不悦，即呼之出，命往郊野捡柴。姜\n秋莲以非素习，辞不能。贾氏怒，遂詈且杖姜秋莲，乳娘见之不忍，愿代往，贾氏不许。姜秋莲无如何，只\n得勉强与乳娘同往郊外捡拾芦柴。偶忆亡母，不禁泪簌簌如梗糜，放哭声。时有书生李华者，走马郊野，适\n与姜秋莲主仆遇，见姜秋莲哭甚哀，且人品不类农家女，不应做此事，度必有委屈，因一再穷诘之。乳娘初\n之不理，且斥其无状，不避男女嫌。李华既去复返。意终不释，宁忍耐不与校，而必欲得其究竟。姜秋莲在\n后，见其人英伟不凡，知非伧荒鄙夫，始以直告，并再三诘问李华姓名身世，欲以终身委之，乃去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 119,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "姜秋莲": 1,
+        "贾氏": 1,
+        "乳娘": 1
+      },
+      "links": [
+        {
+          "source": "乳娘",
+          "target": "姜秋莲",
+          "value": 1
+        },
+        {
+          "source": "姜秋莲",
+          "target": "贾氏",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "贾氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.071,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "李春发": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 170,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "姜秋莲": 1,
+        "李春发": 1,
+        "乳娘": 1
+      },
+      "links": [
+        {
+          "source": "乳娘",
+          "target": "姜秋莲",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "李春发",
+          "value": 1
+        },
+        {
+          "source": "姜秋莲",
+          "target": "李春发",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "姜秋莲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": -0.143,
+          "role": "小旦"
+        },
+        {
+          "name": "乳娘",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "雨过芭蕉润，风送桂花香。",
+          "rating": -0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "贾氏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "闲来时装模作样，怒恼了拿刀弄棒，女儿称我为晚娘，常与老身算帐，妇人家",
+          "rating": -0.429,
+          "role": "丑旦"
+        }
+      ],
+      "summary": "第一场：3位角色，119行",
+      "firstLine": 1,
+      "lastLine": 119,
+      "numLines": 119,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.301,
+        "sentiment": 0.063
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "李春发",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "马来。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.503,
+        "conflict": 1.0,
+        "sentiment": -0.4
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "乳娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "大姐走吓。",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "姜秋莲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "出门来羞答答将头低下，",
+          "rating": 0.333,
+          "role": "小旦"
+        },
+        {
+          "name": "李春发",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "如画女坐荒郊此事有诈，",
+          "rating": -0.2,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：3位角色，170行",
+      "firstLine": 1,
+      "lastLine": 170,
+      "numLines": 170,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.194,
+        "sentiment": 0.175
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "姜秋莲",
+      "short": "姜秋",
+      "key": "姜秋莲",
+      "quote": "姜秋莲 — 小旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李春发",
+      "short": "李春",
+      "key": "李春发",
+      "quote": "李春发 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "乳娘",
+      "short": "乳娘",
+      "key": "乳娘",
+      "quote": "乳娘 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "贾氏",
+      "short": "贾氏",
+      "key": "贾氏",
+      "quote": "贾氏 — 丑旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 丑旦",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

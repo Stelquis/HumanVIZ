@@ -1,0 +1,484 @@
+{
+  "title": "玉簪记·秋江",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "70902121_玉簪记·秋江.json",
+  "source_folder": "70902000",
+  "plot_summary": "潘必正与陈妙常两情相好，欢娱正浓。姑母催迫潘必正，立赴临安应试。陈妙常因在众人前，无法话别，乃\n赶往秋江，与潘必正倾诉离情，然后黯然分袂。",
+  "performance_notes": "此剧重在唱工，曲调婉转缠绵，极为美听。戏的风格，与同名川剧迥然不同。有些曲白，不大健康，已作修\n改。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 114,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.399,
+      "importance": 1.0,
+      "locations": {
+        "望江楼上一看": 3
+      },
+      "characters": {
+        "潘必正": 1,
+        "进安": 1,
+        "陈妙常": 1,
+        "艄婆": 1,
+        "姑母": 1,
+        "艄公": 1
+      },
+      "links": [
+        {
+          "source": "姑母",
+          "target": "潘必正",
+          "value": 1
+        },
+        {
+          "source": "姑母",
+          "target": "进安",
+          "value": 1
+        },
+        {
+          "source": "姑母",
+          "target": "艄公",
+          "value": 1
+        },
+        {
+          "source": "潘必正",
+          "target": "进安",
+          "value": 1
+        },
+        {
+          "source": "潘必正",
+          "target": "艄公",
+          "value": 1
+        },
+        {
+          "source": "艄公",
+          "target": "进安",
+          "value": 1
+        },
+        {
+          "source": "姑母",
+          "target": "陈妙常",
+          "value": 2
+        },
+        {
+          "source": "姑母",
+          "target": "艄婆",
+          "value": 1
+        },
+        {
+          "source": "艄婆",
+          "target": "陈妙常",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 104,
+      "summary": "第4场；第5场",
+      "conflict": 0.049,
+      "importance": 0.954,
+      "locations": {
+        "望江楼上一看": 2
+      },
+      "characters": {
+        "潘必正": 1,
+        "进安": 1,
+        "陈妙常": 1,
+        "艄婆": 1,
+        "艄公": 1
+      },
+      "links": [
+        {
+          "source": "潘必正",
+          "target": "艄婆",
+          "value": 2
+        },
+        {
+          "source": "潘必正",
+          "target": "进安",
+          "value": 1
+        },
+        {
+          "source": "潘必正",
+          "target": "陈妙常",
+          "value": 2
+        },
+        {
+          "source": "潘必正",
+          "target": "艄公",
+          "value": 2
+        },
+        {
+          "source": "艄婆",
+          "target": "进安",
+          "value": 1
+        },
+        {
+          "source": "艄婆",
+          "target": "陈妙常",
+          "value": 2
+        },
+        {
+          "source": "艄公",
+          "target": "艄婆",
+          "value": 2
+        },
+        {
+          "source": "进安",
+          "target": "陈妙常",
+          "value": 1
+        },
+        {
+          "source": "艄公",
+          "target": "进安",
+          "value": 1
+        },
+        {
+          "source": "艄公",
+          "target": "陈妙常",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "望江楼上一看",
+      "characters": [
+        {
+          "name": "姑母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "侄儿走吓！",
+          "rating": -0.5,
+          "role": "老旦"
+        },
+        {
+          "name": "潘必正",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "噢！",
+          "rating": 0.0,
+          "role": "巾生"
+        },
+        {
+          "name": "进安",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "勿要看，进去个哉。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "艄公",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来哉。",
+          "rating": 0.0,
+          "role": "白面"
+        }
+      ],
+      "summary": "第1场：4位角色，51行",
+      "firstLine": 1,
+      "lastLine": 51,
+      "numLines": 51,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.767,
+        "conflict": 0.149,
+        "sentiment": -0.239
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "望江楼上一看",
+      "characters": [
+        {
+          "name": "姑母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我且到望江楼上一看。",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "陈妙常",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "霎时间云雨暗巫山，",
+          "rating": -1.0,
+          "role": "五旦"
+        }
+      ],
+      "summary": "第2场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.583,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "望江楼上一看",
+      "characters": [
+        {
+          "name": "姑母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "侄儿去远，料他决不转来。咳，妙常吓！",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "陈妙常",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "潘郎吓！",
+          "rating": -0.429,
+          "role": "五旦"
+        },
+        {
+          "name": "艄婆",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来哉。",
+          "rating": 0.0,
+          "role": "付"
+        }
+      ],
+      "summary": "第3场：3位角色，53行",
+      "firstLine": 1,
+      "lastLine": 53,
+      "numLines": 53,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.0,
+        "sentiment": -0.094
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "望江楼上一看",
+      "characters": [
+        {
+          "name": "潘必正",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "咳！",
+          "rating": -0.6,
+          "role": "巾生"
+        },
+        {
+          "name": "艄婆",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "喂，前头格只，阿是会试船？",
+          "rating": 0.0,
+          "role": "付"
+        },
+        {
+          "name": "进安",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "正是，问俚作啥？",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "陈妙常",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "快些摇上去吓！",
+          "rating": 0.0,
+          "role": "五旦"
+        },
+        {
+          "name": "艄公",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "满天子介风雾日影子介暖，",
+          "rating": -1.0,
+          "role": "白面"
+        }
+      ],
+      "summary": "第4场：5位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.789,
+        "conflict": 0.0,
+        "sentiment": -0.174
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "望江楼上一看",
+      "characters": [
+        {
+          "name": "陈妙常",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "事无端，恨无端，平地风波拆锦鸳，羞将泪眼向人看。",
+          "rating": -0.538,
+          "role": "五旦"
+        },
+        {
+          "name": "潘必正",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "这其间，那其间，恨我姑娘紧紧拦，狠心直送到江干。",
+          "rating": -0.778,
+          "role": "巾生"
+        },
+        {
+          "name": "艄婆",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "夜哉，要开船哉。",
+          "rating": 0.0,
+          "role": "付"
+        },
+        {
+          "name": "艄公",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "白面"
+        }
+      ],
+      "summary": "第5场：4位角色，71行",
+      "firstLine": 1,
+      "lastLine": 71,
+      "numLines": 71,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.767,
+        "conflict": 0.132,
+        "sentiment": -0.125
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "潘必正",
+      "short": "潘必",
+      "key": "潘必正",
+      "quote": "潘必正 — 巾生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 巾生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陈妙常",
+      "short": "陈妙",
+      "key": "陈妙常",
+      "quote": "陈妙常 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "姑母",
+      "short": "姑母",
+      "key": "姑母",
+      "quote": "姑母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "进安",
+      "short": "进安",
+      "key": "进安",
+      "quote": "进安 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "艄公",
+      "short": "艄公",
+      "key": "艄公",
+      "quote": "艄公 — 白面",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 白面",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "艄婆",
+      "short": "艄婆",
+      "key": "艄婆",
+      "quote": "艄婆 — 付",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 付",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "望江楼上一看",
+      "key": "望江楼上一看",
+      "quote": "场景发生在望江楼上一看"
+    }
+  ]
+}

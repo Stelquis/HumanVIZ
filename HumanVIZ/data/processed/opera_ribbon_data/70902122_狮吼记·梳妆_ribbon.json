@@ -1,0 +1,313 @@
+{
+  "title": "狮吼记·梳妆",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "70902122_狮吼记·梳妆.json",
+  "source_folder": "70902000",
+  "plot_summary": "陈季常应苏东坡游春之约，其妻柳氏恐夫冶游，约定如有妓陪伴将施以杖责。",
+  "performance_notes": "宋代诗人苏轼（字子瞻，号东坡）赠其好友陈慥（字季常，别号方山子）诗有句云：“忽闻河东狮子吼，拄\n杖落地心茫然。”诗意原是引用佛家典故，说陈季常好佛，听到讲解教义，好似狮子吼声的振聵发聋，手里\n拄杖堕地，思想上茫然若失。明代剧作家汪廷讷把这两句诗附会虚构为陈季常惧内的故事，写成了《狮吼记》\n传奇。\n在《梳妆、跪池》之间，还有一出《游春》，可以连演，也可省略。这是两出喜剧，舞台演出比较生动，但\n有宣扬“夫纲”的糟粕，以及列举妒妇的例子，冷僻难懂，今已分别作了修改。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 240,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.438,
+      "importance": 1.0,
+      "locations": {
+        "东坡家雪堂": 3
+      },
+      "characters": {
+        "柳氏": 1,
+        "陈季常": 1,
+        "苏院公": 1
+      },
+      "links": [
+        {
+          "source": "柳氏",
+          "target": "陈季常",
+          "value": 3
+        },
+        {
+          "source": "苏院公",
+          "target": "陈季常",
+          "value": 3
+        },
+        {
+          "source": "柳氏",
+          "target": "苏院公",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 18,
+      "summary": "第4场；第5场",
+      "conflict": 0.012,
+      "importance": 0.14,
+      "locations": {
+        "东坡家雪堂": 2
+      },
+      "characters": {
+        "陈季常": 1,
+        "苏院公": 1
+      },
+      "links": [
+        {
+          "source": "苏院公",
+          "target": "陈季常",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "东坡家雪堂",
+      "characters": [
+        {
+          "name": "陈季常",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "谈空说有遇名僧，看破浮生，了悟浮生。",
+          "rating": 0.333,
+          "role": "巾生"
+        },
+        {
+          "name": "柳氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "朦胧春梦莺啼醒，绿窗外日移花影。",
+          "rating": 0.6,
+          "role": "五旦"
+        },
+        {
+          "name": "苏院公",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "为有看花约，因传折柬来。",
+          "rating": -1.0,
+          "role": "付"
+        }
+      ],
+      "summary": "第1场：3位角色，120行",
+      "firstLine": 1,
+      "lastLine": 120,
+      "numLines": 120,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.326,
+        "sentiment": 0.328
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "东坡家雪堂",
+      "characters": [
+        {
+          "name": "陈季常",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊呀！“琴操”二字，不知娘子可曾听见？",
+          "rating": 0.0,
+          "role": "巾生"
+        },
+        {
+          "name": "柳氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "陈郎快来！",
+          "rating": 0.333,
+          "role": "五旦"
+        },
+        {
+          "name": "苏院公",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "哪说还勿出来？",
+          "rating": 1.0,
+          "role": "付"
+        }
+      ],
+      "summary": "第2场：3位角色，82行",
+      "firstLine": 1,
+      "lastLine": 82,
+      "numLines": 82,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.986,
+        "conflict": 0.367,
+        "sentiment": 0.417
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "东坡家雪堂",
+      "characters": [
+        {
+          "name": "陈季常",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "娘子，方才只道卑人哄你，难道来人的说话，也是说谎不成？",
+          "rating": 1.0,
+          "role": "巾生"
+        },
+        {
+          "name": "柳氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "你们的说话，",
+          "rating": 1.0,
+          "role": "五旦"
+        },
+        {
+          "name": "苏院公",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "陈相公！",
+          "rating": 1.0,
+          "role": "付"
+        }
+      ],
+      "summary": "第3场：3位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.833,
+        "conflict": 0.182,
+        "sentiment": 0.766
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "东坡家雪堂",
+      "characters": [
+        {
+          "name": "苏院公",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哈哈哈……",
+          "rating": 1.0,
+          "role": "付"
+        },
+        {
+          "name": "陈季常",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "吓，吓，苍头什么好笑？",
+          "rating": 1.0,
+          "role": "巾生"
+        }
+      ],
+      "summary": "第4场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.642,
+        "conflict": 0.0,
+        "sentiment": 0.764
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "东坡家雪堂",
+      "characters": [
+        {
+          "name": "陈季常",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "娘子吓，你好聪明也！怎么就晓得有妓？我方才没奈何，只得招认藜杖一百，",
+          "rating": 1.0,
+          "role": "巾生"
+        }
+      ],
+      "summary": "第5场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.521,
+        "conflict": 1.0,
+        "sentiment": 0.776
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "陈季常",
+      "short": "陈季",
+      "key": "陈季常",
+      "quote": "陈季常 — 巾生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 巾生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "柳氏",
+      "short": "柳氏",
+      "key": "柳氏",
+      "quote": "柳氏 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "苏院公",
+      "short": "苏院",
+      "key": "苏院公",
+      "quote": "苏院公 — 付",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 付",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "东坡家雪堂",
+      "key": "东坡家雪堂",
+      "quote": "场景发生在东坡家雪堂"
+    }
+  ]
+}

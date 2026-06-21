@@ -1,0 +1,232 @@
+{
+  "title": "五凤楼",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "02006044_五凤楼【头本】.json",
+  "source_folder": "02000000",
+  "plot_summary": "薛刚自打死张保，被天子诏处斩刑。虽由罗昌、秦红等往劫法场，得以逃出，但武后将薛丁山等全家三百余\n人，一齐处斩。薛刚闻知，又私往长安祭祀，被武三思等发觉，派兵捉拿。薛刚将武安国一棍打死，又得逃\n走。路过卧龙山，被寨主纪鸾英生擒。纪鸾英见其像貌奇伟，武艺超群，要求结婚。薛刚应允。",
+  "performance_notes": "按此系《薛丁山征西》小说中，自第七十三回“御花园打死张保”，至第七十七回等故事。原书卧龙山系李\n龙山，纪鸾英作李鸾英。姑志之以备参考。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.105,
+      "locations": {
+        "鲁王府": 1
+      },
+      "characters": {
+        "马登": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 126,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "鲁王府": 1
+      },
+      "characters": {
+        "纪鸾英": 1,
+        "纪申": 1,
+        "薛刚": 1,
+        "四喽兵": 1
+      },
+      "links": [
+        {
+          "source": "纪申",
+          "target": "纪鸾英",
+          "value": 1
+        },
+        {
+          "source": "纪鸾英",
+          "target": "薛刚",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "纪鸾英",
+          "value": 1
+        },
+        {
+          "source": "纪申",
+          "target": "薛刚",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "纪申",
+          "value": 1
+        },
+        {
+          "source": "四喽兵",
+          "target": "薛刚",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "鲁王府",
+      "characters": [
+        {
+          "name": "马登",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "玉鉴冰壶悬夜月，金章紫绶照青春。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.182,
+        "conflict": 0.0,
+        "sentiment": 0.78
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "鲁王府",
+      "characters": [
+        {
+          "name": "纪鸾英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "奴，纪鸾英。在山下擒来一黑汉，豹头环眼，俨若玄坛临凡；龙行虎步，可比",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "纪申",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓！",
+          "rating": 0.25,
+          "role": ""
+        },
+        {
+          "name": "薛刚",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "呔，女强盗，你用诡计擒俺，何为英雄？",
+          "rating": 0.091,
+          "role": "净"
+        },
+        {
+          "name": "四喽兵",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "呔，禀大王……",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，126行",
+      "firstLine": 1,
+      "lastLine": 126,
+      "numLines": 126,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.27,
+        "sentiment": 0.289
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "薛刚",
+      "short": "薛刚",
+      "key": "薛刚",
+      "quote": "薛刚 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "纪鸾英",
+      "short": "纪鸾",
+      "key": "纪鸾英",
+      "quote": "纪鸾英 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "四喽兵",
+      "short": "四喽",
+      "key": "四喽兵",
+      "quote": "四喽兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "纪申",
+      "short": "纪申",
+      "key": "纪申",
+      "quote": "纪申 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马登",
+      "short": "马登",
+      "key": "马登",
+      "quote": "马登 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "鲁王府",
+      "key": "鲁王府",
+      "quote": "场景发生在鲁王府"
+    }
+  ]
+}

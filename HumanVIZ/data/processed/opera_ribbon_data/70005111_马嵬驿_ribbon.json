@@ -1,0 +1,313 @@
+{
+  "title": "马嵬驿",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70005111_马嵬驿.json",
+  "source_folder": "70005000",
+  "plot_summary": "唐明皇转驾回京，路过马嵬坡，哭祭杨贵妃。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.226,
+      "locations": {
+        "设祭堂": 1
+      },
+      "characters": {
+        "四大铠": 1,
+        "陈元礼": 1
+      },
+      "links": [
+        {
+          "source": "四大铠",
+          "target": "陈元礼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 45,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "设祭堂": 1
+      },
+      "characters": {
+        "天宝帝": 1,
+        "四大铠": 1,
+        "高力士": 1,
+        "陈元礼": 1
+      },
+      "links": [
+        {
+          "source": "天宝帝",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "天宝帝",
+          "value": 1
+        },
+        {
+          "source": "天宝帝",
+          "target": "陈元礼",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "陈元礼",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "陈元礼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 53,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "设祭堂": 1
+      },
+      "characters": {
+        "高力士": 1,
+        "天宝帝": 1,
+        "陈元礼": 1
+      },
+      "links": [
+        {
+          "source": "天宝帝",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "陈元礼",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "天宝帝",
+          "target": "陈元礼",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "设祭堂",
+      "characters": [
+        {
+          "name": "陈元礼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "渔阳击鼓起仓猝，护驾巡行到西蜀。且喜逆贼已就戮，五色旌旗返帝都。",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "四大铠",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "俱已齐备。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.545,
+        "conflict": 1.0,
+        "sentiment": 0.77
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "设祭堂",
+      "characters": [
+        {
+          "name": "天宝帝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "万里巡行路途穷，看云山，乱愁交迸。长空孤雁添悲哽，无边落木响秋声。叹",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "高力士",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "御林军走上。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四大铠",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来此已是马嵬坡了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陈元礼",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第二场：4位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.955,
+        "conflict": 0.714,
+        "sentiment": -0.123
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "设祭堂",
+      "characters": [
+        {
+          "name": "高力士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "有请万岁！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "天宝帝",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "定情钿盒今犹在，",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "陈元礼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第三场：3位角色，53行",
+      "firstLine": 1,
+      "lastLine": 53,
+      "numLines": 53,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.541,
+        "sentiment": -0.114
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "天宝帝",
+      "short": "天宝",
+      "key": "天宝帝",
+      "quote": "天宝帝 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陈元礼",
+      "short": "陈元",
+      "key": "陈元礼",
+      "quote": "陈元礼 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四大铠",
+      "short": "四大",
+      "key": "四大铠",
+      "quote": "四大铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "高力士",
+      "short": "高力",
+      "key": "高力士",
+      "quote": "高力士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "设祭堂",
+      "key": "设祭堂",
+      "quote": "场景发生在设祭堂"
+    }
+  ]
+}

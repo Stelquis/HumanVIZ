@@ -1,0 +1,469 @@
+{
+  "title": "三岔口",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "04010005_三岔口.json",
+  "source_folder": "04000000",
+  "plot_summary": "见义勇为的旅店主人刘利华，为了救护被奸臣迫害而发配的焦赞，与暗地保护焦赞的杨延昭部将任堂惠发生\n误会，在深夜中搏斗起来。正当难解难分的时候，刘利华的老婆已把焦赞救出，大家相见，解释误会，同奔\n三关。",
+  "performance_notes": "原本把刘利华夫妻处理为“开黑店”的匪徒，最后被任、焦杀死。整理本则改为前述的情节。因而刘利华夫\n妻的性格就有了根本的改变。又原本第一场系解差到监中提出焦赞发配，但焦赞究竟为什么发配并未交代清\n楚，而且在演出形式上也与武松打店有些雷同。整理本已针对这一缺点，加以修改。\n本剧系中国京剧团演员李少春、叶盛章，与本院（中国戏曲研究院）编辑处范钧宏共同进行整理的。目前京\n剧团在国内外经常演出的就是这个剧本。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 42,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.875,
+      "locations": {
+        "杨家天波府": 1
+      },
+      "characters": {
+        "解差乙": 1,
+        "焦赞": 1,
+        "解差甲": 1
+      },
+      "links": [
+        {
+          "source": "焦赞",
+          "target": "解差甲",
+          "value": 1
+        },
+        {
+          "source": "焦赞",
+          "target": "解差乙",
+          "value": 1
+        },
+        {
+          "source": "解差乙",
+          "target": "解差甲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.104,
+      "locations": {
+        "杨家天波府": 1
+      },
+      "characters": {
+        "任堂惠": 1,
+        "焦赞": 1
+      },
+      "links": [
+        {
+          "source": "任堂惠",
+          "target": "焦赞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 79,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "杨家天波府": 1
+      },
+      "characters": {
+        "焦赞": 1,
+        "解差甲": 1,
+        "刘利华": 1,
+        "刘妻": 1,
+        "解差乙": 1
+      },
+      "links": [
+        {
+          "source": "刘利华",
+          "target": "刘妻",
+          "value": 1
+        },
+        {
+          "source": "刘妻",
+          "target": "解差乙",
+          "value": 1
+        },
+        {
+          "source": "刘妻",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "刘妻",
+          "target": "解差甲",
+          "value": 1
+        },
+        {
+          "source": "刘利华",
+          "target": "解差乙",
+          "value": 1
+        },
+        {
+          "source": "刘利华",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "刘利华",
+          "target": "解差甲",
+          "value": 1
+        },
+        {
+          "source": "焦赞",
+          "target": "解差乙",
+          "value": 1
+        },
+        {
+          "source": "解差乙",
+          "target": "解差甲",
+          "value": 1
+        },
+        {
+          "source": "焦赞",
+          "target": "解差甲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 66,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "杨家天波府": 1
+      },
+      "characters": {
+        "刘利华": 1,
+        "任堂惠": 1,
+        "焦赞": 1,
+        "刘妻": 1
+      },
+      "links": [
+        {
+          "source": "任堂惠",
+          "target": "刘利华",
+          "value": 1
+        },
+        {
+          "source": "任堂惠",
+          "target": "刘妻",
+          "value": 1
+        },
+        {
+          "source": "任堂惠",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "刘利华",
+          "target": "刘妻",
+          "value": 1
+        },
+        {
+          "source": "刘利华",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "刘妻",
+          "target": "焦赞",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "杨家天波府",
+      "characters": [
+        {
+          "name": "焦赞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "趱行哪！",
+          "rating": -0.143,
+          "role": "净"
+        },
+        {
+          "name": "解差甲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "嘿！我说焦赞哪，你这是怎么啦？",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "解差乙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "你赶紧给他戴上。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.621,
+        "conflict": 0.412,
+        "sentiment": 0.011
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "杨家天波府",
+      "characters": [
+        {
+          "name": "任堂惠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "披星戴月不辞劳，只为当年旧故交。焦赞发配沙门岛，暗地保护走一遭。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.581,
+        "conflict": 1.0,
+        "sentiment": -0.42
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "杨家天波府",
+      "characters": [
+        {
+          "name": "刘妻",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "来啦。",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "刘利华",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "夫妻双双开店房，开店房，",
+          "rating": 1.0,
+          "role": "武丑"
+        },
+        {
+          "name": "解差乙",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "二爷，天不早了，咱们该打店了。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "前去打店。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "解差甲",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "二爷，您倒是把这个给我摘下来呀！",
+          "rating": 0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.328,
+        "sentiment": 0.281
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "杨家天波府",
+      "characters": [
+        {
+          "name": "任堂惠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住！他在前面走，俺在后面赶，赶到此处，为何不见焦二哥？来此已是三岔",
+          "rating": 0.2,
+          "role": "武生"
+        },
+        {
+          "name": "刘利华",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "住店的吗？",
+          "rating": 1.0,
+          "role": "武丑"
+        },
+        {
+          "name": "刘妻",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "这小子扎手，我来帮你吧？",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "贤弟因何到此？",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：4位角色，66行",
+      "firstLine": 1,
+      "lastLine": 66,
+      "numLines": 66,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.38,
+        "sentiment": 0.365
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "任堂惠",
+      "short": "任堂",
+      "key": "任堂惠",
+      "quote": "任堂惠 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘利华",
+      "short": "刘利",
+      "key": "刘利华",
+      "quote": "刘利华 — 武丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 武丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "焦赞",
+      "short": "焦赞",
+      "key": "焦赞",
+      "quote": "焦赞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "刘妻",
+      "short": "刘妻",
+      "key": "刘妻",
+      "quote": "刘妻 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "解差甲",
+      "short": "解差",
+      "key": "解差甲",
+      "quote": "解差甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "解差乙",
+      "short": "解差",
+      "key": "解差乙",
+      "quote": "解差乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "杨家天波府",
+      "key": "杨家天波府",
+      "quote": "场景发生在杨家天波府"
+    }
+  ]
+}

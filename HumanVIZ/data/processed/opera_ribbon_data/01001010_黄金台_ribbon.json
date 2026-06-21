@@ -1,0 +1,471 @@
+{
+  "title": "黄金台",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 9,
+  "num_locations": 1,
+  "source_file": "01001010_黄金台.json",
+  "source_folder": "01000000",
+  "plot_summary": "战国，齐湣王宠邹妃，用太监伊立，沉于酒色，不理朝政。邹妃、伊立，欲害太子田法章，诬以戏妃，齐王\n大怒，即命伊立搜斩太子。太子闻信，乘夜逃出宫。适遇田单巡街，获之，藏于田府中。伊立大索太子不得，\n将至田府。田单闻信，急将太子改妆，伪为田单妹。未几伊立来搜府，竟被混过。伊立去后，田单与太子\n又扮做兄妹进香，连夜出关。关吏再四查问，行贿得脱，逃至即墨。后燕昭王使乐毅伐齐，一朝下七十余城。\n齐都失守，齐湣王被弑，邹妃、伊立死于乱军之中。赖田单出奇计，用火牛阵大破燕军，齐地尽复。太子\n返国即位，田单亦至上卿。",
+  "performance_notes": "谭叫天、金秀山合演是剧，最为出色。金秀山去伊立，搜府时白口斩钉截铁，一字不苟，能将奸阉身份，活\n演出来。叫天则做工老当，神情周到，而尤以踢灯时，最为得势。唱至“回头再把千岁请”，一躬倒地，一\n“请”字抑扬顿挫，有余不尽。真有三日绕梁之慨。盘关时形容尽致，尤可做贪鄙官吏现形记也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 48,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.453,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "伊立": 1,
+        "田法章": 1,
+        "二衙役": 1,
+        "田单": 1,
+        "衙役甲": 1,
+        "衙役乙": 1
+      },
+      "links": [
+        {
+          "source": "二衙役",
+          "target": "田单",
+          "value": 1
+        },
+        {
+          "source": "田单",
+          "target": "衙役甲",
+          "value": 1
+        },
+        {
+          "source": "田单",
+          "target": "衙役乙",
+          "value": 1
+        },
+        {
+          "source": "田单",
+          "target": "田法章",
+          "value": 1
+        },
+        {
+          "source": "伊立",
+          "target": "田单",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "衙役甲",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "衙役乙",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "田法章",
+          "value": 1
+        },
+        {
+          "source": "二衙役",
+          "target": "伊立",
+          "value": 1
+        },
+        {
+          "source": "衙役乙",
+          "target": "衙役甲",
+          "value": 1
+        },
+        {
+          "source": "田法章",
+          "target": "衙役甲",
+          "value": 1
+        },
+        {
+          "source": "伊立",
+          "target": "衙役甲",
+          "value": 1
+        },
+        {
+          "source": "田法章",
+          "target": "衙役乙",
+          "value": 1
+        },
+        {
+          "source": "伊立",
+          "target": "衙役乙",
+          "value": 1
+        },
+        {
+          "source": "伊立",
+          "target": "田法章",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 164,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四校尉": 1,
+        "伊立": 1,
+        "田法章": 1,
+        "田单": 1,
+        "家院": 1,
+        "乳娘": 1
+      },
+      "links": [
+        {
+          "source": "田单",
+          "target": "田法章",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "田单",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "田单",
+          "value": 1
+        },
+        {
+          "source": "伊立",
+          "target": "田单",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "田单",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "田法章",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "田法章",
+          "value": 1
+        },
+        {
+          "source": "伊立",
+          "target": "田法章",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "田法章",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "伊立",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "伊立",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "四校尉",
+          "value": 1
+        },
+        {
+          "source": "伊立",
+          "target": "四校尉",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "田单",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "掌灯。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "二衙役",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "衙役甲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "伙计你看住他，我去讨赏。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "衙役乙",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "好，我来看住他，你去。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "田法章",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "哎呀，卿……",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "伊立",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：6位角色，48行",
+      "firstLine": 1,
+      "lastLine": 48,
+      "numLines": 48,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.175,
+        "sentiment": -0.025
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "田单",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "千岁醒来。",
+          "rating": -0.333,
+          "role": "老生"
+        },
+        {
+          "name": "田法章",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "时才间搀得我昏迷不醒，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "今有伊公公带领许多校尉，前来搜府。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "乳娘",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "伊立",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "呔，马来！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "四校尉",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "有两个妇人。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：6位角色，164行",
+      "firstLine": 1,
+      "lastLine": 164,
+      "numLines": 164,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.192,
+        "sentiment": -0.025
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "田单",
+      "short": "田单",
+      "key": "田单",
+      "quote": "田单 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "伊立",
+      "short": "伊立",
+      "key": "伊立",
+      "quote": "伊立 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "田法章",
+      "short": "田法",
+      "key": "田法章",
+      "quote": "田法章 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "乳娘",
+      "short": "乳娘",
+      "key": "乳娘",
+      "quote": "乳娘 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "衙役甲",
+      "short": "衙役",
+      "key": "衙役甲",
+      "quote": "衙役甲 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "衙役乙",
+      "short": "衙役",
+      "key": "衙役乙",
+      "quote": "衙役乙 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "四校尉",
+      "short": "四校",
+      "key": "四校尉",
+      "quote": "四校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二衙役",
+      "short": "二衙",
+      "key": "二衙役",
+      "quote": "二衙役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

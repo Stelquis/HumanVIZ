@@ -1,0 +1,358 @@
+{
+  "title": "五台山",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 3,
+  "num_locations": 7,
+  "source_file": "04017004_五台山.json",
+  "source_folder": "04000000",
+  "plot_summary": "六郎杨延昭到北国昊天塔盗取了他父亲令公的遗骨，兼程而归。行至五台山，夜宿古庙中，遇见了在沙滩赴\n会时看破朝廷权奸用事，愤而削发出家的五郎杨延德。因阔别日久，彼此不敢贸然相认；几经盘询，始知是\n弟兄相遇。悲痛未已，北国追兵已临山下。五郎延德持杖下山，战退追兵，弟兄二人遂挥泪而别。",
+  "performance_notes": "本剧是《杨家将》传说中的一节，是一个流传较广的传统剧目，各剧种中多有这一剧目。并且有的剧本对人\n物性格、思想、感情，都作了很细致、生动的刻画与描写。如川剧就是其中很好的一个。而在京剧中，基本\n情节虽然相同，但在这一方面的描述，却比较简略、粗糙，这也是本剧在近年京剧舞台上已不太流行的原因\n之一。因此在进行整理时，针对以上缺点，参考了地方剧本，适当地吸收了川剧、湘剧的优点，特别是在\n“兄弟初见”、“六郎盘兄”等情节上，都作了一些补充和改动。\n本剧的整理是由中国京剧团演员赵文奎、杨少龙与本院（中国戏曲研究院）编辑处吕瑞明、何旭异共同进行\n的。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 91,
+      "summary": "第1场；第2场",
+      "conflict": 0.239,
+      "importance": 0.961,
+      "locations": {
+        "此已是古庙": 1,
+        "家命丧番营": 1
+      },
+      "characters": {
+        "杨延德": 1,
+        "杨延昭": 1,
+        "老僧": 1
+      },
+      "links": [
+        {
+          "source": "杨延昭",
+          "target": "老僧",
+          "value": 2
+        },
+        {
+          "source": "杨延德",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨延德",
+          "target": "老僧",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 185,
+      "summary": "第3场；第4场",
+      "conflict": 0.004,
+      "importance": 1.0,
+      "locations": {
+        "已是伽蓝殿": 1,
+        "天波杨府": 1
+      },
+      "characters": {
+        "杨延德": 1,
+        "杨延昭": 1
+      },
+      "links": [
+        {
+          "source": "杨延德",
+          "target": "杨延昭",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 8,
+      "summary": "第5场；第6场",
+      "conflict": 0.28,
+      "importance": 0.085,
+      "locations": {
+        "此已是古庙": 2
+      },
+      "characters": {
+        "杨延德": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "此已是古庙",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "休赶哪，休赶！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "老僧",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "嗯哼！",
+          "rating": -0.2,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：2位角色，35行",
+      "firstLine": 1,
+      "lastLine": 35,
+      "numLines": 35,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.574,
+        "conflict": 0.533,
+        "sentiment": 0.086
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "家命丧番营",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "看师父已去，不免取出爹爹骸骨一观便了。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "杨延德",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "好酒！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "老僧",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "外面喧哗，想是徒儿回来了。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：3位角色，56行",
+      "firstLine": 1,
+      "lastLine": 56,
+      "numLines": 56,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.818,
+        "conflict": 0.508,
+        "sentiment": -0.153
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "已是伽蓝殿",
+      "characters": [
+        {
+          "name": "杨延德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "阿弥陀佛！",
+          "rating": -0.25,
+          "role": "净"
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "看剑！",
+          "rating": -0.2,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：2位角色，166行",
+      "firstLine": 1,
+      "lastLine": 166,
+      "numLines": 166,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.153,
+        "sentiment": 0.044
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "天波杨府",
+      "characters": [
+        {
+          "name": "杨延德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "好贼子！",
+          "rating": -0.429,
+          "role": "净"
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "五哥可曾退贼兵？",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第4场：2位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.74,
+        "conflict": 0.93,
+        "sentiment": 0.04
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "此已是古庙",
+      "characters": [
+        {
+          "name": "杨延德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "六弟！延昭！",
+          "rating": -0.6,
+          "role": "净"
+        }
+      ],
+      "summary": "第5场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.563,
+        "conflict": 1.0,
+        "sentiment": -0.28
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "此已是古庙",
+      "characters": [],
+      "summary": "第6场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.004,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨延德",
+      "short": "杨延",
+      "key": "杨延德",
+      "quote": "杨延德 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨延昭",
+      "short": "杨延",
+      "key": "杨延昭",
+      "quote": "杨延昭 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "老僧",
+      "short": "老僧",
+      "key": "老僧",
+      "quote": "老僧 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "此已是古庙",
+      "key": "此已是古庙",
+      "quote": "场景发生在此已是古庙"
+    },
+    {
+      "name": "家命丧番营",
+      "key": "家命丧番营",
+      "quote": "场景发生在家命丧番营"
+    },
+    {
+      "name": "已是伽蓝殿",
+      "key": "已是伽蓝殿",
+      "quote": "场景发生在已是伽蓝殿"
+    },
+    {
+      "name": "天波杨府",
+      "key": "天波杨府",
+      "quote": "场景发生在天波杨府"
+    },
+    {
+      "name": "古庙门",
+      "key": "古庙门",
+      "quote": "场景发生在古庙门"
+    },
+    {
+      "name": "到天波杨府",
+      "key": "到天波杨府",
+      "quote": "场景发生在到天波杨府"
+    },
+    {
+      "name": "面有一古庙",
+      "key": "面有一古庙",
+      "quote": "场景发生在面有一古庙"
+    }
+  ]
+}

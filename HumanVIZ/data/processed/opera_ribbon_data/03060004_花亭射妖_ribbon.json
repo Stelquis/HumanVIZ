@@ -1,0 +1,468 @@
+{
+  "title": "花亭射妖",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 7,
+  "num_locations": 4,
+  "source_file": "03060004_花亭射妖.json",
+  "source_folder": "03000000",
+  "plot_summary": "柴荣见郭威，官封王位，便接赵匡胤同保郭威。弟兄花亭饮宴，池中鱼妖作怪，赵匡胤箭射之。郭威夜梦红\n脸大汉箭伤左眼。及见赵匡胤，正应梦兆，即欲斩之。经柴荣讨赦，赵匡胤戴罪往刺里刘化王。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 39,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.945,
+      "locations": {
+        "棋盘坡尧王庙": 1
+      },
+      "characters": {
+        "旗牌": 1,
+        "赵匡胤": 1,
+        "柴荣": 1,
+        "院子": 1,
+        "四文堂": 1
+      },
+      "links": [
+        {
+          "source": "四文堂",
+          "target": "柴荣",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "柴荣",
+          "value": 1
+        },
+        {
+          "source": "柴荣",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "柴荣",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "四文堂",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "四文堂",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "四文堂",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 1,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.024,
+      "locations": {
+        "棋盘坡尧王庙": 1
+      },
+      "characters": {},
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 69,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "你位列三台": 1
+      },
+      "characters": {
+        "院子": 1,
+        "赵匡胤": 1,
+        "柴荣": 1
+      },
+      "links": [
+        {
+          "source": "柴荣",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "柴荣",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 56,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        " 凤阁龙楼": 1
+      },
+      "characters": {
+        "郭威": 1,
+        "赵匡胤": 1,
+        "柴荣": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "大太监",
+          "target": "郭威",
+          "value": 1
+        },
+        {
+          "source": "柴荣",
+          "target": "郭威",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "郭威",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "柴荣",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "柴荣",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "棋盘坡尧王庙",
+      "characters": [
+        {
+          "name": "柴荣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "远观山河幽雅，近看红尘不差。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "四文堂",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "迎接二爷事，报与千岁知。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "兄长在哪里？",
+          "rating": 1.0,
+          "role": "红生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "宴齐。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：5位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.842,
+        "conflict": 0.0,
+        "sentiment": 0.536
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "棋盘坡尧王庙",
+      "characters": [],
+      "summary": "第二场：0位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.004,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "你位列三台",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "兄长，你我相会，好有一比。",
+          "rating": 0.75,
+          "role": "红生"
+        },
+        {
+          "name": "柴荣",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "比作何来？",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，69行",
+      "firstLine": 1,
+      "lastLine": 69,
+      "numLines": 69,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.951,
+        "conflict": 0.123,
+        "sentiment": 0.716
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "郭威",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "凤阁龙楼，万古千秋。",
+          "rating": 0.143,
+          "role": ""
+        },
+        {
+          "name": "大太监",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "闪放银安哪！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "柴荣",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "忙将匡胤事，奏与舅王知。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "天上日月常见面，庶子才得见明君。",
+          "rating": 0.333,
+          "role": "红生"
+        }
+      ],
+      "summary": "第四场：4位角色，56行",
+      "firstLine": 1,
+      "lastLine": 56,
+      "numLines": 56,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.904,
+        "conflict": 0.625,
+        "sentiment": 0.292
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "柴荣",
+      "short": "柴荣",
+      "key": "柴荣",
+      "quote": "柴荣 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四文堂",
+      "short": "四文",
+      "key": "四文堂",
+      "quote": "四文堂 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "郭威",
+      "short": "郭威",
+      "key": "郭威",
+      "quote": "郭威 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "棋盘坡尧王庙",
+      "key": "棋盘坡尧王庙",
+      "quote": "场景发生在棋盘坡尧王庙"
+    },
+    {
+      "name": " 凤阁龙楼",
+      "key": " 凤阁龙楼",
+      "quote": "场景发生在 凤阁龙楼"
+    },
+    {
+      "name": "你位列三台",
+      "key": "你位列三台",
+      "quote": "场景发生在你位列三台"
+    },
+    {
+      "name": "驾坐詹事府",
+      "key": "驾坐詹事府",
+      "quote": "场景发生在驾坐詹事府"
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "title": "浔阳楼",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 8,
+  "num_locations": 2,
+  "source_file": "01014003_浔阳楼.json",
+  "source_folder": "01000000",
+  "plot_summary": "宋江发配在江州，结识戴宗、张顺、李逵等；虽为军犯，亦可以优游岁月。一日，寻访三友不遇，独自一人\n至浔阳楼，饮酒遣兴。醉后在粉壁间任意涂鸦，被无为军通判黄文炳瞧见，指为反诗，抄呈太守蔡得章。命\n戴宗提取宋江，治以叛逆之罪。戴宗至牢营，私将情节备细告知。宋江闻言，惶恐无措。明知罪若成立，关\n系实为匪细，不特自己身命难保，即父母妻子宗族友朋，必致牵累，再三央求援救。戴宗为之设一装疯之计，\n希图暂时掩饰。及庭讯时，宋江遂语无伦次。大都所问非所对。问官欲辨真伪，传差役抬粪水一桶安放堂\n上，试其口鼻有无知觉。宋江无可如何，只得不顾臭秽，饱尝一种“特别滋味”，因此暂且收禁，再行定夺。",
+  "performance_notes": "枥老编此剧考，不禁莞尔发噱，又喟然兴叹曰：能忍人所不能忍，那是宋江机械变诈之心出人头地处。所以，\n后为盗中之渠魁，横行河朔一带也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 31,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.845,
+      "locations": {
+        "浔阳楼": 1
+      },
+      "characters": {
+        "戴宗": 1,
+        "载宗": 1,
+        "宋江": 1
+      },
+      "links": [
+        {
+          "source": "宋江",
+          "target": "载宗",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "戴宗",
+          "value": 1
+        },
+        {
+          "source": "戴宗",
+          "target": "载宗",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 34,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.927,
+      "locations": {
+        "浔阳楼": 1
+      },
+      "characters": {
+        "差役乙": 1,
+        "二差役": 1,
+        "戴宗": 1,
+        "差役甲": 1,
+        "宋江": 1
+      },
+      "links": [
+        {
+          "source": "二差役",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "差役乙",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "戴宗",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "宋江",
+          "value": 1
+        },
+        {
+          "source": "差役乙",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "差役甲",
+          "target": "戴宗",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "差役乙",
+          "target": "戴宗",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "差役乙",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "戴宗",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 45,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "浔阳楼": 1
+      },
+      "characters": {
+        "二差役": 1,
+        "州官": 1,
+        "青袍官甲": 1,
+        "差役甲": 1,
+        "宋江": 1
+      },
+      "links": [
+        {
+          "source": "州官",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "州官",
+          "target": "青袍官甲",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "州官",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "州官",
+          "value": 1
+        },
+        {
+          "source": "差役甲",
+          "target": "青袍官甲",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "差役甲",
+          "value": 1
+        },
+        {
+          "source": "宋江",
+          "target": "青袍官甲",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "青袍官甲",
+          "value": 1
+        },
+        {
+          "source": "二差役",
+          "target": "宋江",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "浔阳楼",
+      "characters": [
+        {
+          "name": "宋江",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "昨日里在江楼把酒饮，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "载宗",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忙将衙中事，报与大哥知。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "戴宗",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "大哥，大事不好了！",
+          "rating": 1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第一场：3位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.82,
+        "conflict": 0.0,
+        "sentiment": 0.393
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "浔阳楼",
+      "characters": [
+        {
+          "name": "二差役",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "奉了太爷命，捉拿造反人。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "差役甲",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "伙计，咱们太爷叫拿造反之人，叫什么葱姜？",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "差役乙",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "宋江。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "戴宗",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "你们敢是去拿宋江的么？",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "宋江",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "乔装改扮安排定，",
+          "rating": 0.5,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：5位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.978,
+        "conflict": 0.256,
+        "sentiment": 0.403
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "浔阳楼",
+      "characters": [
+        {
+          "name": "州官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "奉了太尊令，审问造反人。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "差役甲",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启太爷：宋江拿到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "青袍官甲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "带上来！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "宋江",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "我大摇大摆往前进，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "二差役",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "有！",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第三场：5位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.706,
+        "sentiment": 0.799
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "宋江",
+      "short": "宋江",
+      "key": "宋江",
+      "quote": "宋江 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "戴宗",
+      "short": "戴宗",
+      "key": "戴宗",
+      "quote": "戴宗 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "二差役",
+      "short": "二差",
+      "key": "二差役",
+      "quote": "二差役 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "差役乙",
+      "short": "差役",
+      "key": "差役乙",
+      "quote": "差役乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "州官",
+      "short": "州官",
+      "key": "州官",
+      "quote": "州官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "青袍官甲",
+      "short": "青袍",
+      "key": "青袍官甲",
+      "quote": "青袍官甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "差役甲",
+      "short": "差役",
+      "key": "差役甲",
+      "quote": "差役甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "载宗",
+      "short": "载宗",
+      "key": "载宗",
+      "quote": "载宗 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "浔阳楼",
+      "key": "浔阳楼",
+      "quote": "场景发生在浔阳楼"
+    },
+    {
+      "name": "醺转回牢城",
+      "key": "醺转回牢城",
+      "quote": "场景发生在醺转回牢城"
+    }
+  ]
+}

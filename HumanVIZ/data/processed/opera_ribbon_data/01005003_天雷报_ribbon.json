@@ -1,0 +1,711 @@
+{
+  "title": "天雷报",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 11,
+  "num_locations": 3,
+  "source_file": "01005003_天雷报.json",
+  "source_folder": "01000000",
+  "plot_summary": "相传有张继保者，原姓薛，襁褓时即遭兵难，父母委之于地，为开豆腐店之张元秀拾回，抚为己子，钟爱非\n常；继又送之入学，令其读书。盖张元秀本无子者，故爱护若掌上珠，胜于己出。不意至十三岁时，忽为薛\n氏生母认去，张继保掉头不顾，竟随之俱去，张元秀亦无如之何。从此老夫妇二人，思子逾分，日夕对泣，\n而老妻悲痛尤甚，致成疾病。以是生理抛荒，几将流为乞丐。数年后，忽张继保得中状元还乡，其薛氏亲生\n父母，令继保往清风亭地方，访寻二老迎归奉养，张继保勉强允从而去。时二老因得地保之报告，适亦在清\n风亭侧伺望，心中甚喜，以为必蒙优礼。孰意张继保既至，反眼若不相识，竟屏斥不认。二老复轮次哀告，\n跪求收养，张继保始赏给青钱二百，挥之使去。于是二老气愤填膺，触壁而死。张继保方欲回家，天忽阴云，\n大雨雷电，将张继保殛死，观者大快。呜呼继保岂即叔宝，何遂全无心肝若此耶？",
+  "performance_notes": "是剧初无年代可考；惟据《打龙袍》中，包拯放粮回京，命在宫外演放花灯，令扮“清风亭雷打张继保”故\n事，以感动仁宗，则当在仁宗以前无疑。\n此剧喜怒哀乐，四者具备，颇具力量，为须生、老旦二角之做工戏。沪上推贵俊卿为第一，演时描摹各种情\n状，面面最到，洵杰作也！",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 145,
+      "summary": "第一场；第二场",
+      "conflict": 0.91,
+      "importance": 1.0,
+      "locations": {
+        "清风亭": 1,
+        "爷得中回府": 1
+      },
+      "characters": {
+        "周桂英": 1,
+        "张继保": 1,
+        "薛荣": 1,
+        "张元秀": 1,
+        "门子": 1,
+        "周氏": 1
+      },
+      "links": [
+        {
+          "source": "周氏",
+          "target": "张元秀",
+          "value": 1
+        },
+        {
+          "source": "周氏",
+          "target": "张继保",
+          "value": 1
+        },
+        {
+          "source": "张元秀",
+          "target": "张继保",
+          "value": 1
+        },
+        {
+          "source": "周桂英",
+          "target": "薛荣",
+          "value": 1
+        },
+        {
+          "source": "薛荣",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "张继保",
+          "target": "薛荣",
+          "value": 1
+        },
+        {
+          "source": "周桂英",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "周桂英",
+          "target": "张继保",
+          "value": 1
+        },
+        {
+          "source": "张继保",
+          "target": "门子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 94,
+      "summary": "第三场；第四场",
+      "conflict": 0.278,
+      "importance": 0.695,
+      "locations": {
+        "打扫清风亭": 1,
+        "清风亭": 1
+      },
+      "characters": {
+        "张元秀": 1,
+        "周小义": 1,
+        "张继保": 1,
+        "周氏": 1
+      },
+      "links": [
+        {
+          "source": "周氏",
+          "target": "张元秀",
+          "value": 1
+        },
+        {
+          "source": "周小义",
+          "target": "张元秀",
+          "value": 1
+        },
+        {
+          "source": "张元秀",
+          "target": "张继保",
+          "value": 1
+        },
+        {
+          "source": "周小义",
+          "target": "周氏",
+          "value": 1
+        },
+        {
+          "source": "周氏",
+          "target": "张继保",
+          "value": 1
+        },
+        {
+          "source": "周小义",
+          "target": "张继保",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 167,
+      "summary": "第五场；第六场",
+      "conflict": 0.095,
+      "importance": 1.0,
+      "locations": {
+        "打扫清风亭": 2
+      },
+      "characters": {
+        "张继保": 1,
+        "四青袍": 1,
+        "张元秀": 1,
+        "雷祖": 1,
+        "周氏": 1,
+        "雷神": 1,
+        "周小义": 1,
+        "青袍甲": 1
+      },
+      "links": [
+        {
+          "source": "四青袍",
+          "target": "张继保",
+          "value": 1
+        },
+        {
+          "source": "周小义",
+          "target": "张继保",
+          "value": 2
+        },
+        {
+          "source": "张元秀",
+          "target": "张继保",
+          "value": 1
+        },
+        {
+          "source": "周氏",
+          "target": "张继保",
+          "value": 1
+        },
+        {
+          "source": "张继保",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "周小义",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "张元秀",
+          "value": 1
+        },
+        {
+          "source": "周氏",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "周小义",
+          "target": "张元秀",
+          "value": 1
+        },
+        {
+          "source": "周小义",
+          "target": "周氏",
+          "value": 1
+        },
+        {
+          "source": "周小义",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "周氏",
+          "target": "张元秀",
+          "value": 1
+        },
+        {
+          "source": "张元秀",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "周氏",
+          "target": "青袍甲",
+          "value": 1
+        },
+        {
+          "source": "周小义",
+          "target": "雷神",
+          "value": 1
+        },
+        {
+          "source": "雷祖",
+          "target": "雷神",
+          "value": 1
+        },
+        {
+          "source": "张继保",
+          "target": "雷神",
+          "value": 1
+        },
+        {
+          "source": "周小义",
+          "target": "雷祖",
+          "value": 1
+        },
+        {
+          "source": "张继保",
+          "target": "雷祖",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "清风亭",
+      "characters": [
+        {
+          "name": "周氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "思想娇儿不回来，怎不叫人痛伤怀。",
+          "rating": -0.636,
+          "role": "老旦"
+        },
+        {
+          "name": "张元秀",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "老眼昏花血气衰，恩养一子接后代。",
+          "rating": -0.6,
+          "role": "外"
+        },
+        {
+          "name": "张继保",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：3位角色，121行",
+      "firstLine": 1,
+      "lastLine": 121,
+      "numLines": 121,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.267,
+        "sentiment": -0.142
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "爷得中回府",
+      "characters": [
+        {
+          "name": "薛荣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "我儿去赴考。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "周桂英",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "未见转回还。",
+          "rating": 1.0,
+          "role": "正旦"
+        },
+        {
+          "name": "门子",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启禀太老爷、太夫人：少爷得中回府。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张继保",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "爹娘请上，受孩儿一拜。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：4位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.44,
+        "conflict": 0.37,
+        "sentiment": 0.768
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "打扫清风亭",
+      "characters": [
+        {
+          "name": "周小义",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "地方地方，差事难当。一点不到，屁股遭殃。",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第三场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.072,
+        "conflict": 0.0,
+        "sentiment": 0.78
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "清风亭",
+      "characters": [
+        {
+          "name": "张元秀",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "屋漏偏逢连夜雨，",
+          "rating": 0.778,
+          "role": "外"
+        },
+        {
+          "name": "周氏",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "破船又遇顶头风。",
+          "rating": 0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "周小义",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来此已是清风亭。里头怎么有人坐住吓，待我看看。吓，好像张伯伯，待我来",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "张继保",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：4位角色，89行",
+      "firstLine": 1,
+      "lastLine": 89,
+      "numLines": 89,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.243,
+        "sentiment": 0.502
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "打扫清风亭",
+      "characters": [
+        {
+          "name": "张继保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来，传地方。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "传地方。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "周小义",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "参见老爷。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "张元秀",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "妈妈，快走快走。",
+          "rating": 0.286,
+          "role": "外"
+        },
+        {
+          "name": "周氏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "你上前要看明白了。",
+          "rating": 0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "青袍甲",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "嘚！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：6位角色，150行",
+      "firstLine": 1,
+      "lastLine": 150,
+      "numLines": 150,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.272,
+        "sentiment": 0.232
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "打扫清风亭",
+      "characters": [
+        {
+          "name": "雷神",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "当年纣朝为大臣，一片忠心保乾坤。绝龙岭上归本位，玉帝封我五雷神。",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "周小义",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "哦，怎么好大是雨？哎吓，怎么不下？待我拿伞撑下来。吓，什么东西，待我",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "雷祖",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来，将张继保尸灵拖至荒郊，回复玉帝去者。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张继保",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第六场：4位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.409,
+        "conflict": 0.769,
+        "sentiment": 0.327
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张元秀",
+      "short": "张元",
+      "key": "张元秀",
+      "quote": "张元秀 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周氏",
+      "short": "周氏",
+      "key": "周氏",
+      "quote": "周氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张继保",
+      "short": "张继",
+      "key": "张继保",
+      "quote": "张继保 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛荣",
+      "short": "薛荣",
+      "key": "薛荣",
+      "quote": "薛荣 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周桂英",
+      "short": "周桂",
+      "key": "周桂英",
+      "quote": "周桂英 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周小义",
+      "short": "周小",
+      "key": "周小义",
+      "quote": "周小义 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门子",
+      "short": "门子",
+      "key": "门子",
+      "quote": "门子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "雷祖",
+      "short": "雷祖",
+      "key": "雷祖",
+      "quote": "雷祖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "雷神",
+      "short": "雷神",
+      "key": "雷神",
+      "quote": "雷神 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "青袍甲",
+      "short": "青袍",
+      "key": "青袍甲",
+      "quote": "青袍甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "打扫清风亭",
+      "key": "打扫清风亭",
+      "quote": "场景发生在打扫清风亭"
+    },
+    {
+      "name": "爷得中回府",
+      "key": "爷得中回府",
+      "quote": "场景发生在爷得中回府"
+    },
+    {
+      "name": "清风亭",
+      "key": "清风亭",
+      "quote": "场景发生在清风亭"
+    }
+  ]
+}

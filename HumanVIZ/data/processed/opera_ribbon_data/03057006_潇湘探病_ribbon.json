@@ -1,0 +1,220 @@
+{
+  "title": "潇湘探病",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "03057006_潇湘探病.json",
+  "source_folder": "03000000",
+  "plot_summary": "林黛玉病卧潇湘馆，薛宝钗、贾宝玉先后前往探视。林黛玉对景伤情，感发成词，俟二人去后，卧枕沉思，\n更不禁伤怀身世，欷歔泪下。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 42,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "薛宝钗": 1,
+        "林黛玉": 1
+      },
+      "links": [
+        {
+          "source": "林黛玉",
+          "target": "薛宝钗",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 60,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "贾宝玉": 1,
+        "林黛玉": 1
+      },
+      "links": [
+        {
+          "source": "林黛玉",
+          "target": "贾宝玉",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 3,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.086,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "林黛玉": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "林黛玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "一点秋心，声淅沥，风雨黄昏。",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "薛宝钗",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "一院秋深苔未扫，",
+          "rating": -0.6,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：2位角色，42行",
+      "firstLine": 1,
+      "lastLine": 42,
+      "numLines": 42,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.769,
+        "sentiment": -0.077
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "林黛玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎！",
+          "rating": -0.273,
+          "role": "旦"
+        },
+        {
+          "name": "贾宝玉",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "绕回廊穿曲径雨寒风劲，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第2场：2位角色，60行",
+      "firstLine": 1,
+      "lastLine": 60,
+      "numLines": 60,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.545,
+        "sentiment": 0.024
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "林黛玉",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "唉！",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.526,
+        "conflict": 0.0,
+        "sentiment": -0.36
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "林黛玉",
+      "short": "林黛",
+      "key": "林黛玉",
+      "quote": "林黛玉 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "贾宝玉",
+      "short": "贾宝",
+      "key": "贾宝玉",
+      "quote": "贾宝玉 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛宝钗",
+      "short": "薛宝",
+      "key": "薛宝钗",
+      "quote": "薛宝钗 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

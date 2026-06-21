@@ -1,0 +1,142 @@
+{
+  "title": "拾玉镯",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "04016002_拾玉镯.json",
+  "source_folder": "04000000",
+  "plot_summary": "少女孙玉姣在门外刺绣，正遇青年傅朋路过，二人相见，彼此爱慕，傅朋故意遗下玉镯一只，以为表记。孙\n玉姣拾镯时，被她的邻居刘婆看见，刘婆就到了孙家，开了一点玩笑，然后表示愿为傅、孙二人成全亲事。",
+  "performance_notes": "此剧原是京剧《法门寺》中的一出，以其表演艺术上的特殊成就而独立出来。这次主要改动了刘婆的身份性\n格。刘婆原是媒婆，现改成了一个善良风趣的老妈妈。在表演提示上和个别词句上也有所修改。剧本是由萧\n长华先生与本院（中国戏曲研究院）编辑处田淞共同整理的。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 320,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "孙玉姣": 1,
+        "傅朋": 1,
+        "刘婆": 1
+      },
+      "links": [
+        {
+          "source": "傅朋",
+          "target": "孙玉姣",
+          "value": 1
+        },
+        {
+          "source": "刘婆",
+          "target": "孙玉姣",
+          "value": 1
+        },
+        {
+          "source": "傅朋",
+          "target": "刘婆",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "孙玉姣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "愁锁双眉头，终日里，闷闷悠悠。",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "傅朋",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "散步儿打从这孙家门过，",
+          "rating": 0.2,
+          "role": "小生"
+        },
+        {
+          "name": "刘婆",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "妙哇！",
+          "rating": -0.25,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第一场：3位角色，320行",
+      "firstLine": 1,
+      "lastLine": 320,
+      "numLines": 320,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.11,
+        "sentiment": 0.091
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙玉姣",
+      "short": "孙玉",
+      "key": "孙玉姣",
+      "quote": "孙玉姣 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "傅朋",
+      "short": "傅朋",
+      "key": "傅朋",
+      "quote": "傅朋 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘婆",
+      "short": "刘婆",
+      "key": "刘婆",
+      "quote": "刘婆 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

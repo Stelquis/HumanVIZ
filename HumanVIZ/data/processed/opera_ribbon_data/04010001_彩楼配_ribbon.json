@@ -1,0 +1,569 @@
+{
+  "title": "彩楼配",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "04010001_彩楼配.json",
+  "source_folder": "04000000",
+  "plot_summary": "王宝钏是丞相王允的第三个女儿，她爱上了花郎薛平贵。当她奉旨在二月二日“抛球选婿”的时候，故意将\n彩球抛给了薛平贵。",
+  "performance_notes": "《彩楼配》是根据王瑶卿先生的演出本，由北京戏曲实验学校程玉菁、章小山、于玉蘅与本院（中国戏曲研\n究院）编辑处田淞、吕瑞明共同整理的。\n修改要点：就《彩楼配》中，王宝钏夜梦红星，见薛平贵有富贵之相；由于月老的撮合，二人才得到结合。\n这些带有迷信宿命论色彩的情节，在整理中已加以修改。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.139,
+      "locations": {
+        "膝下慰高堂": 1
+      },
+      "characters": {
+        "薛平贵": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 111,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "膝下慰高堂": 1
+      },
+      "characters": {
+        "丫鬟": 1,
+        "薛平贵": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "丫鬟",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "薛平贵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 74,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "膝下慰高堂": 1
+      },
+      "characters": {
+        "接彩人乙": 1,
+        "四接彩人": 1,
+        "薛平贵": 1,
+        "门官": 1,
+        "众人": 1,
+        "接彩人丁": 1,
+        "接彩人丙": 1,
+        "接彩人甲": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "接彩人乙",
+          "target": "接彩人甲",
+          "value": 1
+        },
+        {
+          "source": "接彩人丙",
+          "target": "接彩人甲",
+          "value": 1
+        },
+        {
+          "source": "接彩人丁",
+          "target": "接彩人甲",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "接彩人甲",
+          "value": 1
+        },
+        {
+          "source": "接彩人甲",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "接彩人甲",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "接彩人甲",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "四接彩人",
+          "target": "接彩人甲",
+          "value": 1
+        },
+        {
+          "source": "接彩人丙",
+          "target": "接彩人乙",
+          "value": 1
+        },
+        {
+          "source": "接彩人丁",
+          "target": "接彩人乙",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "接彩人乙",
+          "value": 1
+        },
+        {
+          "source": "接彩人乙",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "接彩人乙",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "接彩人乙",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "四接彩人",
+          "target": "接彩人乙",
+          "value": 1
+        },
+        {
+          "source": "接彩人丁",
+          "target": "接彩人丙",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "接彩人丙",
+          "value": 1
+        },
+        {
+          "source": "接彩人丙",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "接彩人丙",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "接彩人丙",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "四接彩人",
+          "target": "接彩人丙",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "接彩人丁",
+          "value": 1
+        },
+        {
+          "source": "接彩人丁",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "接彩人丁",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "接彩人丁",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "四接彩人",
+          "target": "接彩人丁",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "四接彩人",
+          "value": 1
+        },
+        {
+          "source": "薛平贵",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "四接彩人",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "四接彩人",
+          "target": "薛平贵",
+          "value": 1
+        },
+        {
+          "source": "四接彩人",
+          "target": "王宝钏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "膝下慰高堂",
+      "characters": [
+        {
+          "name": "薛平贵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "何日得遂凌云志，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.578,
+        "conflict": 0.0,
+        "sentiment": 0.26
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "膝下慰高堂",
+      "characters": [
+        {
+          "name": "王宝钏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "孝子是王祥，烈女是孟姜。",
+          "rating": 0.5,
+          "role": "旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "三姑娘，您瞧今年的梅花开得多好哇。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "薛平贵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "腹中饥饿身寒冷，",
+          "rating": 0.143,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，111行",
+      "firstLine": 1,
+      "lastLine": 111,
+      "numLines": 111,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.259,
+        "sentiment": 0.386
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "膝下慰高堂",
+      "characters": [
+        {
+          "name": "接彩人甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "春游芳草地，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "接彩人乙",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "夏赏绿荷池。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "接彩人丙",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "秋饮菊花酒，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "接彩人丁",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "冬吟白雪诗。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "门官",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "你们可是接彩的？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "薛平贵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "接彩的。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "梳妆打扮出绣房，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "四接彩人",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "positive",
+          "quote": "在这儿哪！在这儿哪！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：9位角色，74行",
+      "firstLine": 1,
+      "lastLine": 74,
+      "numLines": 74,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.929,
+        "conflict": 0.267,
+        "sentiment": 0.202
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "薛平贵",
+      "short": "薛平",
+      "key": "薛平贵",
+      "quote": "薛平贵 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "接彩人乙",
+      "short": "接彩",
+      "key": "接彩人乙",
+      "quote": "接彩人乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四接彩人",
+      "short": "四接",
+      "key": "四接彩人",
+      "quote": "四接彩人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门官",
+      "short": "门官",
+      "key": "门官",
+      "quote": "门官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "接彩人丁",
+      "short": "接彩",
+      "key": "接彩人丁",
+      "quote": "接彩人丁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "接彩人丙",
+      "short": "接彩",
+      "key": "接彩人丙",
+      "quote": "接彩人丙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "接彩人甲",
+      "short": "接彩",
+      "key": "接彩人甲",
+      "quote": "接彩人甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "膝下慰高堂",
+      "key": "膝下慰高堂",
+      "quote": "场景发生在膝下慰高堂"
+    }
+  ]
+}

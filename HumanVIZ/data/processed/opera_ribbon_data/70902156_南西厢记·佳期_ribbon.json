@@ -1,0 +1,327 @@
+{
+  "title": "南西厢记·佳期",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "70902156_南西厢记·佳期.json",
+  "source_folder": "70902000",
+  "plot_summary": "红娘怂恿莺莺到张珙书斋幽会，自己在外望风，想起背着老夫人促成这段姻缘，十分得意。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.364,
+      "locations": {
+        "如水浸楼台": 1
+      },
+      "characters": {
+        "张珙": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 26,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.788,
+      "locations": {
+        "神女会阳台": 1
+      },
+      "characters": {
+        "张珙": 1,
+        "崔莺莺": 1,
+        "红娘": 1,
+        "莺莺": 1
+      },
+      "links": [
+        {
+          "source": "张珙",
+          "target": "红娘",
+          "value": 1
+        },
+        {
+          "source": "崔莺莺",
+          "target": "红娘",
+          "value": 1
+        },
+        {
+          "source": "红娘",
+          "target": "莺莺",
+          "value": 1
+        },
+        {
+          "source": "崔莺莺",
+          "target": "张珙",
+          "value": 1
+        },
+        {
+          "source": "张珙",
+          "target": "莺莺",
+          "value": 1
+        },
+        {
+          "source": "崔莺莺",
+          "target": "莺莺",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 61,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "神女会阳台": 1
+      },
+      "characters": {
+        "张珙": 1,
+        "崔莺莺": 1,
+        "红娘": 1,
+        "莺莺": 1
+      },
+      "links": [
+        {
+          "source": "张珙",
+          "target": "红娘",
+          "value": 1
+        },
+        {
+          "source": "崔莺莺",
+          "target": "红娘",
+          "value": 1
+        },
+        {
+          "source": "红娘",
+          "target": "莺莺",
+          "value": 1
+        },
+        {
+          "source": "崔莺莺",
+          "target": "张珙",
+          "value": 1
+        },
+        {
+          "source": "张珙",
+          "target": "莺莺",
+          "value": 1
+        },
+        {
+          "source": "崔莺莺",
+          "target": "莺莺",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "如水浸楼台",
+      "characters": [
+        {
+          "name": "张珙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "彩云开，",
+          "rating": 0.0,
+          "role": "巾生"
+        }
+      ],
+      "summary": "第1场：1位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.609,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "神女会阳台",
+      "characters": [
+        {
+          "name": "红娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "小姐看仔细。",
+          "rating": 0.0,
+          "role": "六旦"
+        },
+        {
+          "name": "张珙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "甚人来？",
+          "rating": 1.0,
+          "role": "巾生"
+        },
+        {
+          "name": "崔莺莺",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "徐步花街，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "莺莺",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "徐步花街，",
+          "rating": 0.0,
+          "role": "五旦"
+        }
+      ],
+      "summary": "第2场：4位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.936,
+        "conflict": 0.0,
+        "sentiment": 0.763
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "神女会阳台",
+      "characters": [
+        {
+          "name": "红娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "没有吓，吓，张先生开门，开门㖸！呀，看他二人竟自闭门进去，撇了我红娘",
+          "rating": 1.0,
+          "role": "六旦"
+        },
+        {
+          "name": "张珙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "春香抱满怀，畅奇哉，",
+          "rating": -1.0,
+          "role": "巾生"
+        },
+        {
+          "name": "崔莺莺",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "红娘回去罢。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "莺莺",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "红娘回去罢。",
+          "rating": 0.0,
+          "role": "五旦"
+        }
+      ],
+      "summary": "第3场：4位角色，61行",
+      "firstLine": 1,
+      "lastLine": 61,
+      "numLines": 61,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.354,
+        "sentiment": 0.28
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "红娘",
+      "short": "红娘",
+      "key": "红娘",
+      "quote": "红娘 — 六旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 六旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "莺莺",
+      "short": "莺莺",
+      "key": "莺莺",
+      "quote": "莺莺 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张珙",
+      "short": "张珙",
+      "key": "张珙",
+      "quote": "张珙 — 巾生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 巾生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "崔莺莺",
+      "short": "崔莺",
+      "key": "崔莺莺",
+      "quote": "崔莺莺 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "神女会阳台",
+      "key": "神女会阳台",
+      "quote": "场景发生在神女会阳台"
+    },
+    {
+      "name": "如水浸楼台",
+      "key": "如水浸楼台",
+      "quote": "场景发生在如水浸楼台"
+    }
+  ]
+}

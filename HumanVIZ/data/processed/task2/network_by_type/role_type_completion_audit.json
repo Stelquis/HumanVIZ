@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "audit_time": "2026-06-06T15:36:26.000000",
+    "description": "更新版：LLM行当补全已集成到单剧本网络.json.gz后的审计",
+    "previous_audit": "2026-06-05T20:48:39.026041",
+    "change": "LLM role type results (127 entries) patched into 单剧本网络.json.gz, 126 nodes updated across 94 plays",
+    "sources": {
+      "主要角色": "原始JSON中的主要角色字段",
+      "角色字典": "Steps 2-4从对话中提取的角色字典",
+      "跨剧本全局映射": "同名角色在不同剧中取最高频行当 (5,016 filled)",
+      "LLM行当补全(Step5.4D)": "DeepSeek-V4对高价值未知核心角色的行当推断 (126 filled)"
+    }
+  },
+  "overall": {
+    "total_nodes": 22494,
+    "after_all_completions": {
+      "has_role_type": 8001,
+      "missing_role_type": 14493,
+      "missing_rate": 64.43,
+      "completion_rate": 35.57
+    },
+    "fill_sources_breakdown": {
+      "from_per_play_raw": 92,
+      "from_cross_play_global": 5016,
+      "from_llm_step5_4D": 126,
+      "total_filled": 5234
+    },
+    "llm_integration_status": {
+      "integrated": 126,
+      "not_integrated": 0,
+      "status": "fully_integrated"
+    }
+  },
+  "by_type": {
+    "侠义戏": {
+      "total_nodes": 2287,
+      "has_role_type": 978,
+      "missing": 1309,
+      "completion_rate": 42.76
+    },
+    "公案戏": {
+      "total_nodes": 1820,
+      "has_role_type": 730,
+      "missing": 1090,
+      "completion_rate": 40.11
+    },
+    "历史戏": {
+      "total_nodes": 13655,
+      "has_role_type": 4127,
+      "missing": 9528,
+      "completion_rate": 30.22
+    },
+    "家庭戏": {
+      "total_nodes": 2198,
+      "has_role_type": 1070,
+      "missing": 1128,
+      "completion_rate": 48.68
+    },
+    "技法展示戏": {
+      "total_nodes": 77,
+      "has_role_type": 49,
+      "missing": 28,
+      "completion_rate": 63.64
+    },
+    "爱情戏": {
+      "total_nodes": 1079,
+      "has_role_type": 532,
+      "missing": 547,
+      "completion_rate": 49.3
+    },
+    "神话戏": {
+      "total_nodes": 1378,
+      "has_role_type": 515,
+      "missing": 863,
+      "completion_rate": 37.37
+    }
+  }
+}

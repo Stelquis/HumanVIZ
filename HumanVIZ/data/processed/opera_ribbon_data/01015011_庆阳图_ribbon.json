@@ -1,0 +1,815 @@
+{
+  "title": "庆阳图",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 12,
+  "num_locations": 3,
+  "source_file": "01015011_庆阳图.json",
+  "source_folder": "01000000",
+  "plot_summary": "李广、李刚，兄弟二人，奉旨出征，自虹霓奏捷之后，爵封王位，钦赐御筵，命众大臣陪宴，以庆其功。有\n西宫贵妃之兄马兰，亦在席间，居常倚仗国舅之势，欺压同僚，李广素来恨之，佯为酒醉，将马兰辱骂殴打，\n经众劝散。马兰遂存报复之见，至西宫诉于贵妃，谓李广恃功而骄，谤毁宫闱，意图造反，求贵妃转奏，\n除去此人，以免后患。朝廷竟听枕边谗言，不问是非真假，猝然宣进李广，命武士缚斩之。其弟李刚，闻此\n警报，即点齐家将，围困宫门，与乃兄报仇云云。",
+  "performance_notes": "此剧无甚精彩，惟须生一段唱口，娓娓动听。至于剧中事实，枥老学识浅陋，无从考证。按西汉有一李广，\n南宋有一李纲（非刚字），隋末有王伯当战虹霓一说，时代互异，与剧本情节，殊属不类，断不能以人名地\n名，强为之臆测也。赘此数语，以质疑于观剧诸君。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 118,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.577,
+      "importance": 1.0,
+      "locations": {
+        "李刚坐二堂": 2,
+        "子逃出龙楼": 1
+      },
+      "characters": {
+        "李广": 1,
+        "朝臣乙": 1,
+        "朝臣甲": 1,
+        "皇上": 1,
+        "内侍": 1,
+        "朝臣丙": 1,
+        "李刚": 1,
+        "三朝臣": 1,
+        "马妃": 1,
+        "四龙套": 1,
+        "马兰": 1
+      },
+      "links": [
+        {
+          "source": "朝臣乙",
+          "target": "朝臣甲",
+          "value": 1
+        },
+        {
+          "source": "朝臣丙",
+          "target": "朝臣甲",
+          "value": 1
+        },
+        {
+          "source": "朝臣甲",
+          "target": "马兰",
+          "value": 1
+        },
+        {
+          "source": "朝臣甲",
+          "target": "李刚",
+          "value": 1
+        },
+        {
+          "source": "三朝臣",
+          "target": "朝臣甲",
+          "value": 1
+        },
+        {
+          "source": "朝臣甲",
+          "target": "李广",
+          "value": 1
+        },
+        {
+          "source": "朝臣丙",
+          "target": "朝臣乙",
+          "value": 1
+        },
+        {
+          "source": "朝臣乙",
+          "target": "马兰",
+          "value": 1
+        },
+        {
+          "source": "朝臣乙",
+          "target": "李刚",
+          "value": 1
+        },
+        {
+          "source": "三朝臣",
+          "target": "朝臣乙",
+          "value": 1
+        },
+        {
+          "source": "朝臣乙",
+          "target": "李广",
+          "value": 1
+        },
+        {
+          "source": "朝臣丙",
+          "target": "马兰",
+          "value": 1
+        },
+        {
+          "source": "朝臣丙",
+          "target": "李刚",
+          "value": 1
+        },
+        {
+          "source": "三朝臣",
+          "target": "朝臣丙",
+          "value": 1
+        },
+        {
+          "source": "朝臣丙",
+          "target": "李广",
+          "value": 1
+        },
+        {
+          "source": "李刚",
+          "target": "马兰",
+          "value": 2
+        },
+        {
+          "source": "三朝臣",
+          "target": "马兰",
+          "value": 1
+        },
+        {
+          "source": "李广",
+          "target": "马兰",
+          "value": 3
+        },
+        {
+          "source": "三朝臣",
+          "target": "李刚",
+          "value": 1
+        },
+        {
+          "source": "李刚",
+          "target": "李广",
+          "value": 2
+        },
+        {
+          "source": "三朝臣",
+          "target": "李广",
+          "value": 1
+        },
+        {
+          "source": "马兰",
+          "target": "马妃",
+          "value": 1
+        },
+        {
+          "source": "皇上",
+          "target": "马妃",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "马妃",
+          "value": 1
+        },
+        {
+          "source": "李广",
+          "target": "马妃",
+          "value": 1
+        },
+        {
+          "source": "李刚",
+          "target": "马妃",
+          "value": 1
+        },
+        {
+          "source": "皇上",
+          "target": "马兰",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "马兰",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "皇上",
+          "value": 1
+        },
+        {
+          "source": "李广",
+          "target": "皇上",
+          "value": 1
+        },
+        {
+          "source": "李刚",
+          "target": "皇上",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "李广",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "李刚",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "李广",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "马兰",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 16,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 1.648,
+      "importance": 0.327,
+      "locations": {
+        "李刚坐二堂": 3
+      },
+      "characters": {
+        "李刚": 1,
+        "李虎": 1,
+        "马兰": 1
+      },
+      "links": [
+        {
+          "source": "李刚",
+          "target": "李虎",
+          "value": 2
+        },
+        {
+          "source": "李刚",
+          "target": "马兰",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 13,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.265,
+      "locations": {
+        "李刚坐二堂": 1
+      },
+      "characters": {
+        "李刚": 1,
+        "李虎": 1,
+        "马兰": 1,
+        "皇上": 1
+      },
+      "links": [
+        {
+          "source": "李刚",
+          "target": "李虎",
+          "value": 1
+        },
+        {
+          "source": "李刚",
+          "target": "皇上",
+          "value": 1
+        },
+        {
+          "source": "李刚",
+          "target": "马兰",
+          "value": 1
+        },
+        {
+          "source": "李虎",
+          "target": "皇上",
+          "value": 1
+        },
+        {
+          "source": "李虎",
+          "target": "马兰",
+          "value": 1
+        },
+        {
+          "source": "皇上",
+          "target": "马兰",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "李刚坐二堂",
+      "characters": [
+        {
+          "name": "朝臣甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "位列上中下，",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "朝臣乙",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "才分天地人。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "朝臣丙",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "五行生父子，",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "马兰",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "八卦定君臣。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "李刚",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "开道。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "三朝臣",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "此乃是当朝国舅马大人。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李广",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：7位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.8,
+        "conflict": 0.494,
+        "sentiment": 0.786
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "李刚坐二堂",
+      "characters": [
+        {
+          "name": "马妃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "龙凤阁内换新妆，朝朝暮暮伴君王。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "马兰",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "可恨李刚太欺情，",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "皇上",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "朝罢了文武臣转回宫，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "宣亚父李广上殿。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "李广",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "乌鸦不住叫连天，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "李刚",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：6位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.531,
+        "sentiment": 0.209
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "子逃出龙楼",
+      "characters": [
+        {
+          "name": "李广",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "忠良被害气冲牛斗，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "马兰",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "时辰可到？",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "时辰未到。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.533,
+        "conflict": 0.976,
+        "sentiment": 0.416
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "李刚坐二堂",
+      "characters": [
+        {
+          "name": "李刚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "李刚坐二堂，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "李虎",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "李虎报端详。",
+          "rating": 1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第四场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.524,
+        "conflict": 0.0,
+        "sentiment": 0.768
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "李刚坐二堂",
+      "characters": [
+        {
+          "name": "李刚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "李虎",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第五场：2位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.285,
+        "conflict": 0.0,
+        "sentiment": -0.88
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "李刚坐二堂",
+      "characters": [
+        {
+          "name": "李刚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "马兰",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第六场：2位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.285,
+        "conflict": 0.0,
+        "sentiment": 0.4
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "李刚坐二堂",
+      "characters": [
+        {
+          "name": "李刚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "昏王呀，昏王！想我弟兄在朝，东荡西除，南征北剿，有十大汗马功劳，你不",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "李虎",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启王爷：天色已晚，明日再与昏王辩理。",
+          "rating": 0.0,
+          "role": "副净"
+        },
+        {
+          "name": "皇上",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "一见李刚出宫门，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "马兰",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第七场：4位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.639,
+        "conflict": 0.952,
+        "sentiment": 0.04
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李广",
+      "short": "李广",
+      "key": "李广",
+      "quote": "李广 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李刚",
+      "short": "李刚",
+      "key": "李刚",
+      "quote": "李刚 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "皇上",
+      "short": "皇上",
+      "key": "皇上",
+      "quote": "皇上 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "马妃",
+      "short": "马妃",
+      "key": "马妃",
+      "quote": "马妃 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "李虎",
+      "short": "李虎",
+      "key": "李虎",
+      "quote": "李虎 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "马兰",
+      "short": "马兰",
+      "key": "马兰",
+      "quote": "马兰 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "朝臣甲",
+      "short": "朝臣",
+      "key": "朝臣甲",
+      "quote": "朝臣甲 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "朝臣乙",
+      "short": "朝臣",
+      "key": "朝臣乙",
+      "quote": "朝臣乙 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "朝臣丙",
+      "short": "朝臣",
+      "key": "朝臣丙",
+      "quote": "朝臣丙 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "内侍",
+      "short": "内侍",
+      "key": "内侍",
+      "quote": "内侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "三朝臣",
+      "short": "三朝",
+      "key": "三朝臣",
+      "quote": "三朝臣 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "李刚坐二堂",
+      "key": "李刚坐二堂",
+      "quote": "场景发生在李刚坐二堂"
+    },
+    {
+      "name": "子逃出龙楼",
+      "key": "子逃出龙楼",
+      "quote": "场景发生在子逃出龙楼"
+    },
+    {
+      "name": "夏来避暑在高楼",
+      "key": "夏来避暑在高楼",
+      "quote": "场景发生在夏来避暑在高楼"
+    }
+  ]
+}

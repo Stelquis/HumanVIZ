@@ -1,0 +1,298 @@
+{
+  "title": "举鼎观画",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "04045004_举鼎观画.json",
+  "source_folder": "04000000",
+  "plot_summary": "徐策在法场上救回薛蛟，改名徐宗，抚养成人。一日，薛蛟偶与书童在府门游戏，将一对千斤重的石狮高举\n在手。这时，徐策朝罢归来，见状知薛蛟的本领已经能报家仇，遂将薛蛟带进祠堂，悬起薛氏三代图像，道\n破薛家的不幸遭遇，薛蛟闻言誓欲报仇雪恨，徐策立即修书，命他去往韩山邀薛刚发兵报仇。",
+  "performance_notes": "《举鼎观画》是写《法场换子》和《徐策跑城》两个剧目中间的一段故事。\n这个剧本是依据一般舞台流行本校订的。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 181,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "打扫祖先堂": 1
+      },
+      "characters": {
+        "徐策": 1,
+        "书童": 1,
+        "家院": 1,
+        "薛蛟": 1,
+        "四随役": 1
+      },
+      "links": [
+        {
+          "source": "书童",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "四随役",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "四随役",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "徐策",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "四随役",
+          "target": "徐策",
+          "value": 1
+        },
+        {
+          "source": "四随役",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "徐策",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 174,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.98,
+      "locations": {
+        "打扫祖先堂": 1
+      },
+      "characters": {
+        "薛蛟": 1,
+        "徐策": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "徐策",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "薛蛟",
+          "value": 1
+        },
+        {
+          "source": "徐策",
+          "target": "薛蛟",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "打扫祖先堂",
+      "characters": [
+        {
+          "name": "薛蛟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "幼习兵机，论韬略，谁能抵敌。",
+          "rating": 0.111,
+          "role": "小生"
+        },
+        {
+          "name": "书童",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 0.6,
+          "role": "丑"
+        },
+        {
+          "name": "四随役",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哦！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐策",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "打道！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "相爷。",
+          "rating": 0.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第一场：5位角色，181行",
+      "firstLine": 1,
+      "lastLine": 181,
+      "numLines": 181,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.229,
+        "sentiment": 0.332
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "打扫祖先堂",
+      "characters": [
+        {
+          "name": "家院",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有请相爷。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "徐策",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我儿向前拜过，儿要多拜上几拜！",
+          "rating": -0.1,
+          "role": "老生"
+        },
+        {
+          "name": "薛蛟",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "是。",
+          "rating": -0.4,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，174行",
+      "firstLine": 1,
+      "lastLine": 174,
+      "numLines": 174,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.792,
+        "conflict": 0.361,
+        "sentiment": 0.128
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐策",
+      "short": "徐策",
+      "key": "徐策",
+      "quote": "徐策 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "薛蛟",
+      "short": "薛蛟",
+      "key": "薛蛟",
+      "quote": "薛蛟 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "书童",
+      "short": "书童",
+      "key": "书童",
+      "quote": "书童 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四随役",
+      "short": "四随",
+      "key": "四随役",
+      "quote": "四随役 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "打扫祖先堂",
+      "key": "打扫祖先堂",
+      "quote": "场景发生在打扫祖先堂"
+    }
+  ]
+}

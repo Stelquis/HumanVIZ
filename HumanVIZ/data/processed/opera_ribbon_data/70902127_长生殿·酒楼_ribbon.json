@@ -1,0 +1,394 @@
+{
+  "title": "长生殿·酒楼",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 4,
+  "num_locations": 3,
+  "source_file": "70902127_长生殿·酒楼.json",
+  "source_folder": "70902000",
+  "plot_summary": "唐代中兴名将郭子仪，早年未得官职，独饮长安市中，见壁上题诗，语意未明，疑是谶言。正值众官员去向\n外戚杨国忠等庆贺新第落成，宠臣安禄山封王下朝，俱从酒楼经过，郭子仪目击其煊赫之状，痛感朝政荒弛，\n将召祸乱，因而慷慨悲歌，誓以此身为国家效力。",
+  "performance_notes": "《长生殿》是清代大戏剧家洪昇的杰作，写唐明皇和杨贵妃的爱情故事，也反映了唐代宫闱生活以及天宝之\n乱的历史过程，共有五十折。《酒楼》原本题作《疑谶》。\n传统剧且中用〖北商调集贤宾〗联套者，仅《西游记·认子》及此剧尚在舞台上搬演。《认子》笛色用六调，\n此剧则用尺调，是昆曲变之特例。郭子仪以老生饰演，曲调激昂，动作较繁，颇能刻划出剧中人物忧心国\n事，磊落不平的胸襟和抱负。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 89,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.399,
+      "importance": 1.0,
+      "locations": {
+        "丰馆大酒楼": 3
+      },
+      "characters": {
+        "酒保": 1,
+        "安禄山": 1,
+        "郭子仪": 1
+      },
+      "links": [
+        {
+          "source": "安禄山",
+          "target": "郭子仪",
+          "value": 1
+        },
+        {
+          "source": "郭子仪",
+          "target": "酒保",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 72,
+      "summary": "第4场；第5场；第6场",
+      "conflict": 0.592,
+      "importance": 1.0,
+      "locations": {
+        "这个地位": 1,
+        "丰馆大酒楼": 2
+      },
+      "characters": {
+        "家将": 1,
+        "酒保": 1,
+        "安禄山": 1,
+        "郭子仪": 1
+      },
+      "links": [
+        {
+          "source": "郭子仪",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "安禄山",
+          "target": "郭子仪",
+          "value": 1
+        },
+        {
+          "source": "安禄山",
+          "target": "酒保",
+          "value": 1
+        },
+        {
+          "source": "家将",
+          "target": "郭子仪",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第7场",
+      "conflict": 0.0,
+      "importance": 0.037,
+      "locations": {
+        "丰馆大酒楼": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "丰馆大酒楼",
+      "characters": [
+        {
+          "name": "郭子仪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "壮怀磊落有谁知，一剑防身且自随。整顿乾坤济时了，那回方表是男儿。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "安禄山",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：2位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.738,
+        "conflict": 0.606,
+        "sentiment": 0.599
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "丰馆大酒楼",
+      "characters": [
+        {
+          "name": "酒保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊哈！",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "郭子仪",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呀！",
+          "rating": 0.2,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：2位角色，49行",
+      "firstLine": 1,
+      "lastLine": 49,
+      "numLines": 49,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.871,
+        "conflict": 0.381,
+        "sentiment": 0.361
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "丰馆大酒楼",
+      "characters": [
+        {
+          "name": "郭子仪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "酒家！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "酒保",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "哎，爷可是要添酒？",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第3场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.683,
+        "conflict": 0.556,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "这个地位",
+      "characters": [
+        {
+          "name": "郭子仪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊呀，想外戚宠盛到这个地位，如何是了也！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "酒保",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "爷，您靠着窗户往下看。",
+          "rating": 0.2,
+          "role": "丑"
+        },
+        {
+          "name": "安禄山",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第4场：3位角色，50行",
+      "firstLine": 1,
+      "lastLine": 50,
+      "numLines": 50,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.976,
+        "conflict": 0.632,
+        "sentiment": 0.497
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "丰馆大酒楼",
+      "characters": [
+        {
+          "name": "郭子仪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我且回寓去者，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "家将",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忙将升迁事，报与老爷知。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第5场：2位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.477,
+        "conflict": 0.0,
+        "sentiment": 0.168
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "丰馆大酒楼",
+      "characters": [
+        {
+          "name": "郭子仪",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "想俺郭子仪虽官卑职小，便可从此报效朝廷也！",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第6场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.544,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 7,
+      "name": "第7场",
+      "location": "丰馆大酒楼",
+      "characters": [],
+      "summary": "第7场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.011,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "郭子仪",
+      "short": "郭子",
+      "key": "郭子仪",
+      "quote": "郭子仪 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "酒保",
+      "short": "酒保",
+      "key": "酒保",
+      "quote": "酒保 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "安禄山",
+      "short": "安禄",
+      "key": "安禄山",
+      "quote": "安禄山 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "家将",
+      "short": "家将",
+      "key": "家将",
+      "quote": "家将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "丰馆大酒楼",
+      "key": "丰馆大酒楼",
+      "quote": "场景发生在丰馆大酒楼"
+    },
+    {
+      "name": "这个地位",
+      "key": "这个地位",
+      "quote": "场景发生在这个地位"
+    },
+    {
+      "name": "我这酒楼",
+      "key": "我这酒楼",
+      "quote": "场景发生在我这酒楼"
+    }
+  ]
+}

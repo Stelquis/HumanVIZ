@@ -1,0 +1,542 @@
+{
+  "title": "打龙篷",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 6,
+  "num_locations": 3,
+  "source_file": "02008021_打龙篷.json",
+  "source_folder": "02000000",
+  "plot_summary": "柴荣登基后，国号曰大周，各国俱有贡奉。独南唐李号王，抗命不朝。且派其三子李豹，前来摆下百日擂台。\n经过九十九日，仍无人打下。满擂之日，柴王特派二位御弟，赵匡胤与郑子明前往探看，并派靠山侯石魁\n前往打擂。结果石魁被打下。正在危急之时，忽有一壮士高怀德上擂，将李豹打下。于是赵匡胤、郑子明回\n朝复旨。但知高怀德系柴王杀父仇人，柴王必报杀父之仇。乃先由郑子明向柴王讨封。讨得大赦圣旨，不杀\n高怀德之命令后，始令高怀德晋见柴王。",
+  "performance_notes": "事虽不见经传，但剧情则颇有情趣云。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 169,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.299,
+      "importance": 0.843,
+      "locations": {
+        "下百日擂台": 1,
+        "有吾家门": 2
+      },
+      "characters": {
+        "高怀德": 1,
+        "赵匡胤": 1,
+        "柴荣": 1,
+        "四武士": 1,
+        "郑恩": 1,
+        "大太监甲": 1
+      },
+      "links": [
+        {
+          "source": "大太监甲",
+          "target": "柴荣",
+          "value": 1
+        },
+        {
+          "source": "柴荣",
+          "target": "赵匡胤",
+          "value": 3
+        },
+        {
+          "source": "柴荣",
+          "target": "郑恩",
+          "value": 2
+        },
+        {
+          "source": "柴荣",
+          "target": "高怀德",
+          "value": 3
+        },
+        {
+          "source": "大太监甲",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "郑恩",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "郑恩",
+          "value": 2
+        },
+        {
+          "source": "赵匡胤",
+          "target": "高怀德",
+          "value": 3
+        },
+        {
+          "source": "郑恩",
+          "target": "高怀德",
+          "value": 2
+        },
+        {
+          "source": "四武士",
+          "target": "柴荣",
+          "value": 1
+        },
+        {
+          "source": "四武士",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "四武士",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 232,
+      "summary": "第4场；第5场",
+      "conflict": 0.443,
+      "importance": 1.0,
+      "locations": {
+        "有吾家门": 2
+      },
+      "characters": {
+        "高怀德": 1,
+        "赵匡胤": 1,
+        "柴荣": 1,
+        "郑恩": 1,
+        "大太监甲": 1
+      },
+      "links": [
+        {
+          "source": "柴荣",
+          "target": "赵匡胤",
+          "value": 2
+        },
+        {
+          "source": "赵匡胤",
+          "target": "郑恩",
+          "value": 2
+        },
+        {
+          "source": "大太监甲",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "赵匡胤",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "柴荣",
+          "target": "郑恩",
+          "value": 2
+        },
+        {
+          "source": "大太监甲",
+          "target": "柴荣",
+          "value": 1
+        },
+        {
+          "source": "柴荣",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "郑恩",
+          "value": 1
+        },
+        {
+          "source": "郑恩",
+          "target": "高怀德",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "高怀德",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "下百日擂台",
+      "characters": [
+        {
+          "name": "柴荣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "天开文运，万国称尊孤一人。",
+          "rating": 0.2,
+          "role": "老生"
+        },
+        {
+          "name": "大太监甲",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "保擂进龙篷，",
+          "rating": -1.0,
+          "role": "红生"
+        },
+        {
+          "name": "郑恩",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "各表各的功。",
+          "rating": 0.143,
+          "role": "净"
+        },
+        {
+          "name": "高怀德",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第1场：5位角色，100行",
+      "firstLine": 1,
+      "lastLine": 100,
+      "numLines": 100,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.999,
+        "conflict": 0.335,
+        "sentiment": 0.287
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "有吾家门",
+      "characters": [
+        {
+          "name": "柴荣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "打擂壮士一一奏来。",
+          "rating": -0.5,
+          "role": "老生"
+        },
+        {
+          "name": "高怀德",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "容奏！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "四武士",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "刀下留人！",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第2场：4位角色，20行",
+      "firstLine": 1,
+      "lastLine": 20,
+      "numLines": 20,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.627,
+        "conflict": 0.0,
+        "sentiment": 0.08
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "有吾家门",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "急水滩头难留月，",
+          "rating": 0.333,
+          "role": "红生"
+        },
+        {
+          "name": "柴荣",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "打擂壮士，就是御犯高怀德到了，故而取斩。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "郑恩",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "高怀德",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第3场：4位角色，49行",
+      "firstLine": 1,
+      "lastLine": 49,
+      "numLines": 49,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.847,
+        "conflict": 0.541,
+        "sentiment": 0.379
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "有吾家门",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "呀！",
+          "rating": 0.333,
+          "role": "红生"
+        },
+        {
+          "name": "柴荣",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "怎么斩不得？",
+          "rating": -0.25,
+          "role": "老生"
+        },
+        {
+          "name": "郑恩",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.273,
+          "role": "净"
+        },
+        {
+          "name": "大太监甲",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "高怀德赦回。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "高怀德",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "谢万岁不斩之恩。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第4场：5位角色，208行",
+      "firstLine": 1,
+      "lastLine": 208,
+      "numLines": 208,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.211,
+        "sentiment": 0.323
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "有吾家门",
+      "characters": [
+        {
+          "name": "郑恩",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "去罢，去罢。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "三弟哪里去？",
+          "rating": 0.0,
+          "role": "红生"
+        },
+        {
+          "name": "柴荣",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "只要下次少打些就是。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第5场：3位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.697,
+        "conflict": 0.312,
+        "sentiment": 0.766
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "郑恩",
+      "short": "郑恩",
+      "key": "郑恩",
+      "quote": "郑恩 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "柴荣",
+      "short": "柴荣",
+      "key": "柴荣",
+      "quote": "柴荣 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "高怀德",
+      "short": "高怀",
+      "key": "高怀德",
+      "quote": "高怀德 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四武士",
+      "short": "四武",
+      "key": "四武士",
+      "quote": "四武士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监甲",
+      "short": "大太",
+      "key": "大太监甲",
+      "quote": "大太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "有吾家门",
+      "key": "有吾家门",
+      "quote": "场景发生在有吾家门"
+    },
+    {
+      "name": "山东东平府",
+      "key": "山东东平府",
+      "quote": "场景发生在山东东平府"
+    },
+    {
+      "name": "下百日擂台",
+      "key": "下百日擂台",
+      "quote": "场景发生在下百日擂台"
+    }
+  ]
+}

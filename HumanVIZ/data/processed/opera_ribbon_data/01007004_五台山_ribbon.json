@@ -1,0 +1,312 @@
+{
+  "title": "五台山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 3,
+  "num_locations": 4,
+  "source_file": "01007004_五台山.json",
+  "source_folder": "01000000",
+  "plot_summary": "北宋杨家将，父子兄弟，一门为国戮力。金沙滩一役，散亡殆尽，所存者仅四郎延辉、五郎延德、六郎延昭\n三人而已。而延辉、延德，又一则没入萧邦，一则代主披剃。故令公殉国后，惟六郎一人，继父执掌兵事，\n镇守三边。一日六郎为番兵所追，单身独马，几不得脱，时已向暮，经过一山，见山上有一佛刹，遂敲门入\n避，以失路借宿为名。幸山僧慈悲，引之入别室安顿。至夜分，六郎正忧虑不能寐。忽一莽头陀酩酊归，冲\n门入，疑寄宿究非善类，入室盘诘。六郎不即应，莽头陀性本急躁者，怒甚，几至用武。既而彼此闻语，均\n觉乡音颇熟耳，各注意细诘邦族，始知莽头陀即五郎延德。盖此山即五台山也。弟兄相逢意外，悲喜交集。\n正语间，忽闻追兵人马声至，遂赖五郎下山杀退。六郎方得安然出险，挥泪而别。",
+  "performance_notes": "按剧本中所言，六郎此行系搬请令公尸骨而归。\n此剧刘永春颇擅演，永奎虽亦不恶，然不逮远矣。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 173,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.231,
+      "importance": 1.0,
+      "locations": {
+        "前叫门": 1,
+        "了年迈萱堂": 1,
+        "已是伽蓝殿": 1
+      },
+      "characters": {
+        "杨延德": 1,
+        "杨延昭": 1,
+        "老僧": 1
+      },
+      "links": [
+        {
+          "source": "杨延昭",
+          "target": "老僧",
+          "value": 2
+        },
+        {
+          "source": "杨延德",
+          "target": "杨延昭",
+          "value": 2
+        },
+        {
+          "source": "杨延德",
+          "target": "老僧",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 21,
+      "summary": "第4场；第5场",
+      "conflict": 0.933,
+      "importance": 0.216,
+      "locations": {
+        "了年迈萱堂": 2
+      },
+      "characters": {
+        "杨延德": 1,
+        "杨延昭": 1
+      },
+      "links": [
+        {
+          "source": "杨延德",
+          "target": "杨延昭",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "前叫门",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "休赶吓休赶！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "老僧",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "嗯哼。",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第1场：2位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.753,
+        "conflict": 0.0,
+        "sentiment": 0.175
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "了年迈萱堂",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "看四下无人，待我将尸骸打开观看。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "杨延德",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "好酒。",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "老僧",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "想是小徒回来了，待我开门。",
+          "rating": 1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第2场：3位角色，46行",
+      "firstLine": 1,
+      "lastLine": 46,
+      "numLines": 46,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.913,
+        "conflict": 0.404,
+        "sentiment": 0.172
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "已是伽蓝殿",
+      "characters": [
+        {
+          "name": "杨延德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哈哈哈！我家师父，本来是个好人吓！待我上前看过。",
+          "rating": -0.5,
+          "role": "净"
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "看剑。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：2位角色，94行",
+      "firstLine": 1,
+      "lastLine": 94,
+      "numLines": 94,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.179,
+        "sentiment": -0.056
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "了年迈萱堂",
+      "characters": [
+        {
+          "name": "杨延德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "杨家与你何仇恨，",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "杨延昭",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "五哥可曾退贼兵？",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第4场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.674,
+        "conflict": 1.0,
+        "sentiment": -0.093
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "了年迈萱堂",
+      "characters": [
+        {
+          "name": "杨延德",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "六弟！延昭！哎哎！六贤弟吓！",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第5场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.523,
+        "conflict": 0.0,
+        "sentiment": 0.84
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨延德",
+      "short": "杨延",
+      "key": "杨延德",
+      "quote": "杨延德 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨延昭",
+      "short": "杨延",
+      "key": "杨延昭",
+      "quote": "杨延昭 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "老僧",
+      "short": "老僧",
+      "key": "老僧",
+      "quote": "老僧 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "了年迈萱堂",
+      "key": "了年迈萱堂",
+      "quote": "场景发生在了年迈萱堂"
+    },
+    {
+      "name": "已是伽蓝殿",
+      "key": "已是伽蓝殿",
+      "quote": "场景发生在已是伽蓝殿"
+    },
+    {
+      "name": "前叫门",
+      "key": "前叫门",
+      "quote": "场景发生在前叫门"
+    },
+    {
+      "name": "沉沉到阳台",
+      "key": "沉沉到阳台",
+      "quote": "场景发生在沉沉到阳台"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "title": "董家山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01014016_董家山.json",
+  "source_folder": "01000000",
+  "plot_summary": "剧本中情节出于唐代，大致谓董明在朝为官，被奸臣所谗构，祸及全家。董明女董金莲，逃出此险，孑然一\n身，匿居董家山上。盖女荣华绝世，艺勇惊人者，无可泄愤，因招集亡命，专以抢夺为事。女恃其智力，笼\n络侪辈，为山中之主，亦闺阁中之杰出者也。一日巡哨，适有一少年经过、思劫其行囊，少年人奋力与斗，\n为女擒获。女见其纠纠气象，实生爱羡之心，愿以终身许之，自己却羞人答答，未便明言，遣心腹周鼎，为\n之说合。讵知少年再三推脱，不愿就此良缘。女恼羞成怒，即欲斩之，忽而拔剑上前，忽而释剑回步，脉脉\n含情，直使英雄气短。后少年说出姓名，系尉迟恭之子尉迟宝林。与女家确有世谊者。即释其缚，备酒筵以\n款之。",
+  "performance_notes": "此剧演时，观看周鼎插科打诨一段，令人发嘘；而女之风流旖旎，亦颇赏心悦目，谓为佳剧本也可。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 26,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.299,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "尉迟宝林": 1,
+        "董金莲": 1,
+        "四下手": 1,
+        "周鼎": 1
+      },
+      "links": [
+        {
+          "source": "四下手",
+          "target": "董金莲",
+          "value": 1
+        },
+        {
+          "source": "周鼎",
+          "target": "董金莲",
+          "value": 1
+        },
+        {
+          "source": "尉迟宝林",
+          "target": "董金莲",
+          "value": 1
+        },
+        {
+          "source": "周鼎",
+          "target": "四下手",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "尉迟宝林",
+          "value": 1
+        },
+        {
+          "source": "周鼎",
+          "target": "尉迟宝林",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 148,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "尉迟宝林": 1,
+        "董金莲": 1,
+        "周鼎": 1
+      },
+      "links": [
+        {
+          "source": "周鼎",
+          "target": "董金莲",
+          "value": 1
+        },
+        {
+          "source": "周鼎",
+          "target": "尉迟宝林",
+          "value": 1
+        },
+        {
+          "source": "尉迟宝林",
+          "target": "董金莲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "董金莲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "家住董家山，吃粮不种田。打我山前过，留下买路钱。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "周鼎进见。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周鼎",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "忽听姑娘唤，慌忙到跟前。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "尉迟宝林",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "何方毛贼，敢抢你少爷去路？",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：4位角色，26行",
+      "firstLine": 1,
+      "lastLine": 26,
+      "numLines": 26,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.834,
+        "conflict": 0.645,
+        "sentiment": 0.376
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "周鼎",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "回避了。",
+          "rating": -0.2,
+          "role": "丑"
+        },
+        {
+          "name": "董金莲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "老周啊，往日你姑娘下山，得些金银财宝，可以赏你们。今个姑娘，什么靡有",
+          "rating": 0.143,
+          "role": "旦"
+        },
+        {
+          "name": "尉迟宝林",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "咴。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，148行",
+      "firstLine": 1,
+      "lastLine": 148,
+      "numLines": 148,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.16,
+        "sentiment": 0.109
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "董金莲",
+      "short": "董金",
+      "key": "董金莲",
+      "quote": "董金莲 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "尉迟宝林",
+      "short": "尉迟",
+      "key": "尉迟宝林",
+      "quote": "尉迟宝林 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周鼎",
+      "short": "周鼎",
+      "key": "周鼎",
+      "quote": "周鼎 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "title": "景阳岗",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "01017011_景阳岗.json",
+  "source_folder": "01000000",
+  "plot_summary": "武松因酒醉后闯祸，避在沧州柴进庄上，一年有余。想起亲兄长武大，多时不通音问，须回清河县看望一次，\n辞别柴进，起程前往。及至阳谷县景阳岗界首，见一酒帘飘出，写着“三碗不过岗”五字，因入肆小憩。\n问明五字之解说，酒保答称，店中所酿之酒，醇醲无比，名透瓶香，又名出门倒，若吃三碗，即不得过前面\n景阳岗，言其酒好而易醉也。武松亦向其沽买，三碗之后，酒保坚不肯添，武松定欲再吃，前后共吃十八碗。\n天色将晚，结算酒钞，手提哨棒出门，向景阳岗而走。其时景阳岗，有一吊睛白额虎，屡伤行旅，县令着\n猎户会拿，以除地方之害，并出示晓谕，往来者只准巳、午、未三时，可以经过。酒保恐武松为虎所啖，挽\n留住宿。武松不听，乘醉踉跄上岗。未及数里，酒力上涌，拟择一大青石，假寐片刻。忽然狂风骤起，虎已\n出现，武松将哨棒迎之，不意误击树上，哨棒立折为两截。虎复猛扑及身，武松用双手揪住虎项，按倒于地，\n脚踢虎之双目，腾出右手，尽平生之力，连打数十拳头，而极凶极恶之虎，遂当场绝气，武松仍休息在大\n青石上。适遇众猎户前来，告知备细情形，将死虎抬送县衙，县令赏钱一千贯，以作酬劳焉。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.081,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "猎户甲": 1,
+        "猎户乙": 1
+      },
+      "links": [
+        {
+          "source": "猎户乙",
+          "target": "猎户甲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 213,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "武松": 1,
+        "猎户丙": 1,
+        "猎户乙": 1,
+        "店家": 1,
+        "四猎户": 1,
+        "猎户丁": 1,
+        "猎户甲": 1
+      },
+      "links": [
+        {
+          "source": "店家",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "猎户丁",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "猎户丙",
+          "value": 1
+        },
+        {
+          "source": "四猎户",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "猎户乙",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "猎户甲",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "猎户丁",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "猎户丙",
+          "value": 1
+        },
+        {
+          "source": "四猎户",
+          "target": "店家",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "猎户乙",
+          "value": 1
+        },
+        {
+          "source": "店家",
+          "target": "猎户甲",
+          "value": 1
+        },
+        {
+          "source": "猎户丁",
+          "target": "猎户丙",
+          "value": 1
+        },
+        {
+          "source": "四猎户",
+          "target": "猎户丁",
+          "value": 1
+        },
+        {
+          "source": "猎户丁",
+          "target": "猎户乙",
+          "value": 1
+        },
+        {
+          "source": "猎户丁",
+          "target": "猎户甲",
+          "value": 1
+        },
+        {
+          "source": "四猎户",
+          "target": "猎户丙",
+          "value": 1
+        },
+        {
+          "source": "猎户丙",
+          "target": "猎户乙",
+          "value": 1
+        },
+        {
+          "source": "猎户丙",
+          "target": "猎户甲",
+          "value": 1
+        },
+        {
+          "source": "四猎户",
+          "target": "猎户乙",
+          "value": 1
+        },
+        {
+          "source": "四猎户",
+          "target": "猎户甲",
+          "value": 1
+        },
+        {
+          "source": "猎户乙",
+          "target": "猎户甲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "猎户甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "官府有明文，猎户受灾星。倘若速严限，我等命难存。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "猎户乙",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "好，我们就此前去，正是：",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.373,
+        "conflict": 1.0,
+        "sentiment": -0.02
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "道旁车马日纷纷，行路悠悠何足云。未知肝胆向谁诉，今日却忆平原君。",
+          "rating": -0.167,
+          "role": "武生"
+        },
+        {
+          "name": "店家",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来哉，来哉！",
+          "rating": 0.667,
+          "role": "丑"
+        },
+        {
+          "name": "猎户丁",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "呔，你是人是鬼，敢在此独自行走！",
+          "rating": -0.333,
+          "role": "末"
+        },
+        {
+          "name": "猎户丙",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "你怎么不曾被他害了？",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四猎户",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "嗳哟哟，这样一只大虎，竟被你空拳打死。就是那卞庄、李存孝，也不如你！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "猎户乙",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "猎户甲",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：7位角色，213行",
+      "firstLine": 1,
+      "lastLine": 213,
+      "numLines": 213,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.124,
+        "sentiment": 0.196
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "武松",
+      "short": "武松",
+      "key": "武松",
+      "quote": "武松 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "店家",
+      "short": "店家",
+      "key": "店家",
+      "quote": "店家 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "猎户甲",
+      "short": "猎户",
+      "key": "猎户甲",
+      "quote": "猎户甲 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "猎户乙",
+      "short": "猎户",
+      "key": "猎户乙",
+      "quote": "猎户乙 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "猎户丙",
+      "short": "猎户",
+      "key": "猎户丙",
+      "quote": "猎户丙 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "猎户丁",
+      "short": "猎户",
+      "key": "猎户丁",
+      "quote": "猎户丁 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四猎户",
+      "short": "四猎",
+      "key": "四猎户",
+      "quote": "四猎户 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

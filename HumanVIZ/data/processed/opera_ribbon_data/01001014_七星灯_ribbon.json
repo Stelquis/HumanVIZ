@@ -1,0 +1,734 @@
+{
+  "title": "七星灯",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 11,
+  "num_locations": 3,
+  "source_file": "01001014_七星灯.json",
+  "source_folder": "01000000",
+  "plot_summary": "三国，诸葛亮伐魏，至六出祁山，心血日耗，自知不久，以后事嘱托诸将。姜维谓用祈寿之法，挽回天命。\n诸葛亮乃设七星灯，终日步罡踏斗以禳之。司马懿仰观星象，知诸葛亮不久人世，又不敢深信，使夏侯霸领\n兵探之。不料魏延误认劫寨，匆匆奔至帐中报信，将本命灯踏灭。诸葛亮掷剑叹曰：生死有命，不可挽也。\n姜维欲斩魏延，诸葛亮止之，乃告以：司马懿非劫寨，但探我生死耳。后诸葛亮嘱后事，死于军中。司马懿\n闻诸葛亮死，蜀军撤退，遂起兵追赶。姜维等以诸葛亮之偶像推出，吓退司马懿，蜀军退回西川。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 304,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.654,
+      "importance": 1.0,
+      "locations": {
+        "暗地踹营": 2,
+        "打扫玄台": 1
+      },
+      "characters": {
+        "杨仪": 1,
+        "李福": 1,
+        "旗牌": 1,
+        "姜维": 1,
+        "王平": 1,
+        "诸葛亮": 1,
+        "司马懿": 1,
+        "马岱": 1,
+        "众将": 1,
+        "魏延": 1
+      },
+      "links": [
+        {
+          "source": "旗牌",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "众将",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "姜维",
+          "target": "诸葛亮",
+          "value": 2
+        },
+        {
+          "source": "诸葛亮",
+          "target": "魏延",
+          "value": 2
+        },
+        {
+          "source": "司马懿",
+          "target": "诸葛亮",
+          "value": 3
+        },
+        {
+          "source": "众将",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "姜维",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "众将",
+          "target": "姜维",
+          "value": 1
+        },
+        {
+          "source": "众将",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "众将",
+          "target": "司马懿",
+          "value": 1
+        },
+        {
+          "source": "姜维",
+          "target": "魏延",
+          "value": 2
+        },
+        {
+          "source": "司马懿",
+          "target": "姜维",
+          "value": 2
+        },
+        {
+          "source": "司马懿",
+          "target": "魏延",
+          "value": 2
+        },
+        {
+          "source": "姜维",
+          "target": "李福",
+          "value": 1
+        },
+        {
+          "source": "姜维",
+          "target": "王平",
+          "value": 1
+        },
+        {
+          "source": "姜维",
+          "target": "杨仪",
+          "value": 1
+        },
+        {
+          "source": "姜维",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "李福",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "王平",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "杨仪",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "诸葛亮",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "李福",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "王平",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "杨仪",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "马岱",
+          "target": "魏延",
+          "value": 1
+        },
+        {
+          "source": "李福",
+          "target": "王平",
+          "value": 1
+        },
+        {
+          "source": "李福",
+          "target": "杨仪",
+          "value": 1
+        },
+        {
+          "source": "李福",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "李福",
+          "value": 1
+        },
+        {
+          "source": "杨仪",
+          "target": "王平",
+          "value": 1
+        },
+        {
+          "source": "王平",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "王平",
+          "value": 1
+        },
+        {
+          "source": "杨仪",
+          "target": "马岱",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "杨仪",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "马岱",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 27,
+      "summary": "第四场；第五场",
+      "conflict": 0.2,
+      "importance": 0.163,
+      "locations": {
+        "暗地踹营": 2
+      },
+      "characters": {
+        "报子": 1,
+        "姜维": 1,
+        "诸葛亮": 1,
+        "司马懿": 1,
+        "众将": 1
+      },
+      "links": [
+        {
+          "source": "众将",
+          "target": "司马懿",
+          "value": 2
+        },
+        {
+          "source": "司马懿",
+          "target": "姜维",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "众将",
+          "target": "姜维",
+          "value": 1
+        },
+        {
+          "source": "众将",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "姜维",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "司马懿",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "众将",
+          "target": "报子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "暗地踹营",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "安排脂粉计，耻笑司马懿。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "忙将机密事，报与丞相知。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "众将",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "忽听帐内闹声喧，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姜维",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "丞相自幼精习奇门之法，何不在此高搭玄台，祝告上苍，保得阳寿，也未可知。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "魏延",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "哽。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "司马懿",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：6位角色，66行",
+      "firstLine": 1,
+      "lastLine": 66,
+      "numLines": 66,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.879,
+        "conflict": 0.87,
+        "sentiment": 0.769
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "暗地踹营",
+      "characters": [
+        {
+          "name": "司马懿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "一霎时玉兔升星明朗见，",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.665,
+        "conflict": 0.588,
+        "sentiment": 0.809
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "打扫玄台",
+      "characters": [
+        {
+          "name": "姜维",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "有请师父！",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "为国家把我的心血用尽，",
+          "rating": -0.143,
+          "role": "老生"
+        },
+        {
+          "name": "魏延",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "司马懿父子来踹营，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "李福",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "忽听丞相唤一声，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王平",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "忽听帐中传一令，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨仪",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马岱",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "司马懿",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：8位角色，214行",
+      "firstLine": 1,
+      "lastLine": 214,
+      "numLines": 214,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.294,
+        "sentiment": 0.155
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "暗地踹营",
+      "characters": [
+        {
+          "name": "司马懿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "俺，司马懿。昨夜仰观天象，将星坠下，孔明已死。本帅带领人马前去抢他尸",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "众将",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "姜维",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "暗地里踹营，何为大将？我家师父，正在用兵拿你！",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "诸葛亮",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：4位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.741,
+        "conflict": 0.606,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "暗地踹营",
+      "characters": [
+        {
+          "name": "司马懿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎呀，我只说孔明已死，谁知他有移星转斗诈遁之法！不是俺早为防备，险些",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "报子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报知元帅：孔明已死，用沉香木雕成偶像，以作退兵之计。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众将",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.466,
+        "conflict": 0.0,
+        "sentiment": 0.36
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "姜维",
+      "short": "姜维",
+      "key": "姜维",
+      "quote": "姜维 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "司马懿",
+      "short": "司马",
+      "key": "司马懿",
+      "quote": "司马懿 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨仪",
+      "short": "杨仪",
+      "key": "杨仪",
+      "quote": "杨仪 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李福",
+      "short": "李福",
+      "key": "李福",
+      "quote": "李福 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王平",
+      "short": "王平",
+      "key": "王平",
+      "quote": "王平 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "马岱",
+      "short": "马岱",
+      "key": "马岱",
+      "quote": "马岱 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众将",
+      "short": "众将",
+      "key": "众将",
+      "quote": "众将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "魏延",
+      "short": "魏延",
+      "key": "魏延",
+      "quote": "魏延 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "暗地踹营",
+      "key": "暗地踹营",
+      "quote": "场景发生在暗地踹营"
+    },
+    {
+      "name": "暗地里踹营",
+      "key": "暗地里踹营",
+      "quote": "场景发生在暗地里踹营"
+    },
+    {
+      "name": "打扫玄台",
+      "key": "打扫玄台",
+      "quote": "场景发生在打扫玄台"
+    }
+  ]
+}

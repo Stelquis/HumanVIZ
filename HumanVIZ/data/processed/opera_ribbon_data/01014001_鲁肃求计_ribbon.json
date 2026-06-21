@@ -1,0 +1,211 @@
+{
+  "title": "鲁肃求计",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01014001_鲁肃求计.json",
+  "source_folder": "01000000",
+  "plot_summary": "按《三国演义》，刘氏借用荆州，系鲁肃担保。周瑜在日，为荆州一节，孙、刘几有两不相下之势。鲁肃则\n立心仁厚，能知大义。自继任水军都督后，终其身孙、刘两家，不闻有干戈之扰攘。惟迫于主命，与吕蒙等\n定计，诱关公至吴，为要索荆州之地步，所以有单刀赴会一事。至于向乔国老求计，不特正史中无可考，即\n罗贯中《三国演义》中亦未涉及。观是剧大意，当在赴会之前，鲁肃恐计不行，心中犹豫，因以咨询于乔玄。\n乔玄为东吴贵戚，窃以为计之非是。况孙、刘已结婚姻，不宜轻启衅端，再三劝阻。其识见明瞭，诚有大\n过人处。",
+  "performance_notes": "剧本重以须生唱工，情节极佳，颇足餍观剧者之心理。沪上各舞台，仅见排演，大约名角中无熟习者耳。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 19,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.139,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "鲁肃": 1,
+        "众人": 1
+      },
+      "links": [
+        {
+          "source": "众人",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 255,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "鲁肃": 1,
+        "院子": 1,
+        "乔玄": 1
+      },
+      "links": [
+        {
+          "source": "乔玄",
+          "target": "鲁肃",
+          "value": 1
+        },
+        {
+          "source": "乔玄",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "院子",
+          "target": "鲁肃",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "鲁肃",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "只为荆州，终日里，难展愁眉。",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "众人",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.462,
+        "conflict": 0.0,
+        "sentiment": 0.072
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "乔玄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "叹三皇和五帝历代有道，",
+          "rating": 0.158,
+          "role": "末"
+        },
+        {
+          "name": "鲁肃",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吾主爷坐江东治国最好，",
+          "rating": 0.111,
+          "role": "老生"
+        },
+        {
+          "name": "院子",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "原来大夫。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：3位角色，255行",
+      "firstLine": 1,
+      "lastLine": 255,
+      "numLines": 255,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.273,
+        "sentiment": 0.272
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "乔玄",
+      "short": "乔玄",
+      "key": "乔玄",
+      "quote": "乔玄 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "鲁肃",
+      "short": "鲁肃",
+      "key": "鲁肃",
+      "quote": "鲁肃 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

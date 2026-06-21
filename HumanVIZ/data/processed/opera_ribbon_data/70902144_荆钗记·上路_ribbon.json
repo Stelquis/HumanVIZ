@@ -1,0 +1,219 @@
+{
+  "title": "荆钗记·上路",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "70902144_荆钗记·上路.json",
+  "source_folder": "70902000",
+  "plot_summary": "钱流行夫妇由李成陪伴，同赴吉安。途中弃舟登岸，边行边观赏田野景色。",
+  "performance_notes": "常与《开眼》连演，题作《开眼上路》。主曲〖八声甘州〗曲调悠扬；外、副、末三个角色，身段优美，画\n面多姿多彩，于载歌载舞中描摹出阳春三月的诗情画意，是典型的“三脚撑”戏。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 54,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "任吉安知府": 1
+      },
+      "characters": {
+        "钱流行": 1,
+        "姚氏": 1,
+        "李成": 1
+      },
+      "links": [
+        {
+          "source": "姚氏",
+          "target": "钱流行",
+          "value": 1
+        },
+        {
+          "source": "姚氏",
+          "target": "李成",
+          "value": 1
+        },
+        {
+          "source": "李成",
+          "target": "钱流行",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 27,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.667,
+      "locations": {
+        "任吉安知府": 1
+      },
+      "characters": {
+        "钱流行": 1,
+        "姚氏": 1,
+        "李成": 1
+      },
+      "links": [
+        {
+          "source": "姚氏",
+          "target": "钱流行",
+          "value": 1
+        },
+        {
+          "source": "李成",
+          "target": "钱流行",
+          "value": 1
+        },
+        {
+          "source": "姚氏",
+          "target": "李成",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "任吉安知府",
+      "characters": [
+        {
+          "name": "姚氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "东城渐觉风光好，绉浪恬波行客棹，绿杨烟外少人行，红杏枝头春意闹。",
+          "rating": 1.0,
+          "role": "副"
+        },
+        {
+          "name": "钱流行",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "策杖登程去也，",
+          "rating": -0.333,
+          "role": "外"
+        },
+        {
+          "name": "李成",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "樵歌牧唱，",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第1场：3位角色，54行",
+      "firstLine": 1,
+      "lastLine": 54,
+      "numLines": 54,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.217,
+        "sentiment": 0.325
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "任吉安知府",
+      "characters": [
+        {
+          "name": "钱流行",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "想我早岁游庠，何曾遭此跋涉。老迈龙钟，反受许多苦楚！",
+          "rating": -1.0,
+          "role": "外"
+        },
+        {
+          "name": "姚氏",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "今日个苦，才是孙汝权个拖牢洞害我俚个！",
+          "rating": -0.333,
+          "role": "副"
+        },
+        {
+          "name": "李成",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "步徐徐水边林下，",
+          "rating": -1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第2场：3位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.0,
+        "sentiment": -0.2
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "钱流行",
+      "short": "钱流",
+      "key": "钱流行",
+      "quote": "钱流行 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "姚氏",
+      "short": "姚氏",
+      "key": "姚氏",
+      "quote": "姚氏 — 副",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 副",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李成",
+      "short": "李成",
+      "key": "李成",
+      "quote": "李成 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "任吉安知府",
+      "key": "任吉安知府",
+      "quote": "场景发生在任吉安知府"
+    }
+  ]
+}

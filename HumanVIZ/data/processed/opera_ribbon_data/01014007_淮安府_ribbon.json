@@ -1,0 +1,512 @@
+{
+  "title": "淮安府",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 7,
+  "num_locations": 4,
+  "source_file": "01014007_淮安府.json",
+  "source_folder": "01000000",
+  "plot_summary": "大盗蔡天化，诨名赛罡风，系飞来禅师首徒，武艺超群，且有一种惊人绝艺，其运用神功，刀枪可以不入。\n因性喜采花，不守空门戒，为禅师所逐。遂随处作恶，妇女被害者，指不胜屈。及至淮安，盗施公印信，匿\n居北极观。施公命黄天霸等众英雄，切实缉访。蔡党李兴儿，私报消息。贺仁杰跟踪至北极观，探明印信所\n藏之处，暗地盗回，通知黄天霸、关泰、金大力诸人，并力将蔡天化拿获。",
+  "performance_notes": "按《施公案》第五集中，施公在漕运总督任，摩天岭于成龙盗去印信，藏在凌虚楼，由贺仁杰用计盗回。第\n六集中，蔡天化方始出现。黄天霸、关泰等至天齐庙会拿，均为蔡天化所败。后在安东县打擂台，施公聘请\n万君兆，协同捉获。剧本以两人并为一人，两事合为一事，编排者任意拉杂，且改天齐庙为北极观，毫无取\n意。为演剧时长拳短打，刀枪剑戟，无不具备，来往追杀，犹如五花八门，目不暇接，诚武剧中之大观也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 30,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.453,
+      "importance": 0.756,
+      "locations": {
+        "衙暗进庙堂": 3
+      },
+      "characters": {
+        "蔡天化": 1,
+        "贺仁杰": 1,
+        "李兴儿": 1
+      },
+      "links": [
+        {
+          "source": "李兴儿",
+          "target": "贺仁杰",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 56,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.9,
+      "importance": 1.0,
+      "locations": {
+        "前叫门": 1,
+        "衙暗进庙堂": 1,
+        "在大雄宝殿": 1
+      },
+      "characters": {
+        "众人": 1,
+        "蔡天化": 1,
+        "贺仁杰": 1,
+        "李兴儿": 1,
+        "小道士": 1,
+        "黄天霸": 1
+      },
+      "links": [
+        {
+          "source": "小道士",
+          "target": "李兴儿",
+          "value": 1
+        },
+        {
+          "source": "李兴儿",
+          "target": "蔡天化",
+          "value": 1
+        },
+        {
+          "source": "李兴儿",
+          "target": "贺仁杰",
+          "value": 1
+        },
+        {
+          "source": "小道士",
+          "target": "蔡天化",
+          "value": 1
+        },
+        {
+          "source": "小道士",
+          "target": "贺仁杰",
+          "value": 1
+        },
+        {
+          "source": "蔡天化",
+          "target": "贺仁杰",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "蔡天化",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 33,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.832,
+      "locations": {
+        "蔡天化上台": 1
+      },
+      "characters": {
+        "黄天霸": 1,
+        "蔡天化": 1,
+        "关泰": 1,
+        "贺仁杰": 1
+      },
+      "links": [
+        {
+          "source": "贺仁杰",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "蔡天化",
+          "target": "贺仁杰",
+          "value": 1
+        },
+        {
+          "source": "关泰",
+          "target": "贺仁杰",
+          "value": 1
+        },
+        {
+          "source": "蔡天化",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "关泰",
+          "target": "黄天霸",
+          "value": 1
+        },
+        {
+          "source": "关泰",
+          "target": "蔡天化",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "衙暗进庙堂",
+      "characters": [
+        {
+          "name": "蔡天化",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "身入空门，习拳棒，不念经文。",
+          "rating": 0.5,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：1位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.566,
+        "conflict": 0.0,
+        "sentiment": 0.307
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "衙暗进庙堂",
+      "characters": [
+        {
+          "name": "贺仁杰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "吓哈！",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第二场：1位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.606,
+        "conflict": 0.0,
+        "sentiment": 0.533
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "衙暗进庙堂",
+      "characters": [
+        {
+          "name": "李兴儿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "在下李兴儿便是。今奉主母之命，去到大树林北极观蔡老师父那里送信。就此",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "贺仁杰",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "且住。看前面有一人，急走如飞，定不是好人，待我赶上前去。",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第三场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.431,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "前叫门",
+      "characters": [
+        {
+          "name": "李兴儿",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "来此已是，待我上前叫门。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "小道士",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "原来是李管家，到此何事？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蔡天化",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "何事？",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "贺仁杰",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "哎呀好呀，听他之言，此乃是天助俺成功也！",
+          "rating": 1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第四场：4位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.256,
+        "sentiment": 0.46
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "衙暗进庙堂",
+      "characters": [
+        {
+          "name": "黄天霸",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第五场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.485,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "在大雄宝殿",
+      "characters": [
+        {
+          "name": "蔡天化",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "呀，天明了。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "众人",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "师父何事惊慌？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.501,
+        "conflict": 0.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "蔡天化上台",
+      "characters": [
+        {
+          "name": "贺仁杰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "参见众位叔父。",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "黄天霸",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "印信之事如何？",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "蔡天化",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "徒弟们打座！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "关泰",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "你老爷，家住山西蒲州府，漕标参将，姓关名泰，字小西！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：4位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.519,
+        "sentiment": 0.54
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "贺仁杰",
+      "short": "贺仁",
+      "key": "贺仁杰",
+      "quote": "贺仁杰 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "蔡天化",
+      "short": "蔡天",
+      "key": "蔡天化",
+      "quote": "蔡天化 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "黄天霸",
+      "short": "黄天",
+      "key": "黄天霸",
+      "quote": "黄天霸 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李兴儿",
+      "short": "李兴",
+      "key": "李兴儿",
+      "quote": "李兴儿 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "关泰",
+      "short": "关泰",
+      "key": "关泰",
+      "quote": "关泰 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小道士",
+      "short": "小道",
+      "key": "小道士",
+      "quote": "小道士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "衙暗进庙堂",
+      "key": "衙暗进庙堂",
+      "quote": "场景发生在衙暗进庙堂"
+    },
+    {
+      "name": "前叫门",
+      "key": "前叫门",
+      "quote": "场景发生在前叫门"
+    },
+    {
+      "name": "在大雄宝殿",
+      "key": "在大雄宝殿",
+      "quote": "场景发生在在大雄宝殿"
+    },
+    {
+      "name": "蔡天化上台",
+      "key": "蔡天化上台",
+      "quote": "场景发生在蔡天化上台"
+    }
+  ]
+}

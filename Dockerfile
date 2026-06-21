@@ -216,7 +216,30 @@ COPY scripts/init-codex.sh /usr/local/bin/init-codex.sh
 RUN chmod +x /usr/local/bin/init-codex.sh
 
 # -----------------------------------------------------------------------------
-# 第八部分: Claude Code CLI 配置 + 汉化包
+# 第八部分: LaTeX 编译环境 (XeLaTeX) 安装
+# -----------------------------------------------------------------------------
+
+# 安装 TeX Live 核心包，支持 XeLaTeX 编译 .tex 生成 PDF
+# 包说明:
+#   texlive-xetex             - XeTeX 引擎，支持 Unicode 和系统字体
+#   texlive-latex-recommended - LaTeX 推荐宏包集 (amsmath, booktabs, geometry 等)
+#   texlive-fonts-recommended - 推荐字体包 (ec, cm-super，含基础中英文字体)
+#   texlive-lang-chinese      - 中文字体支持 (ctex, xeCJK)
+#   latexmk                   - 自动化编译工具 (自动处理多次编译、参考文献等)
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        texlive-xetex \
+        texlive-latex-recommended \
+        texlive-fonts-recommended \
+        texlive-lang-chinese \
+        latexmk && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/* && \
+    xelatex --version && \
+    latexmk --version
+
+# -----------------------------------------------------------------------------
+# 第九部分: Claude Code CLI 配置 + 汉化包
 # -----------------------------------------------------------------------------
 
 # 安装 Claude Code CLI (需要 Node.js 22+)
@@ -239,7 +262,7 @@ RUN node --version && \
     rm -rf /tmp/claude-code-zh-cn
 
 # -----------------------------------------------------------------------------
-# 第九部分: 环境变量配置
+# 第十部分: 环境变量配置
 # -----------------------------------------------------------------------------
 
 # Python 运行时环境变量
@@ -258,7 +281,7 @@ ENV LANGUAGE=C.UTF-8
 ENV NODE_ENV=development
 
 # -----------------------------------------------------------------------------
-# 第十部分: 配置文件复制
+# 第十一部分: 配置文件复制
 # -----------------------------------------------------------------------------
 
 # 复制 VS Code 设置到容器
@@ -267,7 +290,7 @@ ENV NODE_ENV=development
 COPY settings.jsonc /root/.local/share/code-server/Machine/settings.json
 
 # ---------------------------------------------------------------------------
-# 第十一部分: 工作目录与启动命令
+# 第十二部分: 工作目录与启动命令
 # ---------------------------------------------------------------------------
 
 # 设置容器默认工作目录

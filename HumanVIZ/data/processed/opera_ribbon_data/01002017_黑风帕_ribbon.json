@@ -1,0 +1,549 @@
+{
+  "title": "黑风帕",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 7,
+  "num_locations": 2,
+  "source_file": "01002017_黑风帕.json",
+  "source_folder": "01000000",
+  "plot_summary": "宋，杨氏父子，为潘仁美所害。有部将高旺，愤权臣骄横，忠良屈死，弃其妻子，出关逃隐。后天堂六国叛\n宋，使佘太君率兵征之。太君使杨八妹乔扮男装，颁取高旺回国，以资臂助。高旺情不可却，允之。行至牧\n虎关，守关者即高旺之妻子，高旺不知也。高旺叫关，其子张保出见，不许过关。高旺辱骂，张保出与敌，\n败回关上。易其媳出战，使黑风帕困高旺，而高旺之黑风帕，更高三尺。一切法术，均为高旺破。高旺见女\n将袅袅婷婷，忽发狂态，以游词戏弄之，媳抱惭而回。旺抵关下，见城上一白发婆娑者，直呼己名。异而询\n之，始知即老妻也。高旺妻开关迎旺及八妹入，数年阔别，一旦聚首，悲喜交集。即唤子媳来见，高旺见媳\n大惭，高旺妻笑而解之。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 254,
+      "summary": "第一场；第二场",
+      "conflict": 0.048,
+      "importance": 1.0,
+      "locations": {
+        "雅志府": 2
+      },
+      "characters": {
+        "高来": 1,
+        "杨八妹": 1,
+        "张保": 1,
+        "高旺": 1
+      },
+      "links": [
+        {
+          "source": "高旺",
+          "target": "高来",
+          "value": 1
+        },
+        {
+          "source": "杨八妹",
+          "target": "高旺",
+          "value": 2
+        },
+        {
+          "source": "杨八妹",
+          "target": "高来",
+          "value": 1
+        },
+        {
+          "source": "张保",
+          "target": "杨八妹",
+          "value": 1
+        },
+        {
+          "source": "张保",
+          "target": "高旺",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 80,
+      "summary": "第三场；第四场",
+      "conflict": 0.654,
+      "importance": 0.511,
+      "locations": {
+        "枉死城": 2
+      },
+      "characters": {
+        "张保": 1,
+        "鞑婆": 1,
+        "高旺": 1
+      },
+      "links": [
+        {
+          "source": "张保",
+          "target": "高旺",
+          "value": 2
+        },
+        {
+          "source": "张保",
+          "target": "鞑婆",
+          "value": 1
+        },
+        {
+          "source": "鞑婆",
+          "target": "高旺",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 136,
+      "summary": "第五场；第六场",
+      "conflict": 0.581,
+      "importance": 0.868,
+      "locations": {
+        "枉死城": 2
+      },
+      "characters": {
+        "张保": 1,
+        "高旺": 1,
+        "四青袍": 1,
+        "鞑婆": 1,
+        "杨八妹": 1,
+        "张兰英": 1
+      },
+      "links": [
+        {
+          "source": "鞑婆",
+          "target": "高旺",
+          "value": 2
+        },
+        {
+          "source": "四青袍",
+          "target": "鞑婆",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "高旺",
+          "value": 1
+        },
+        {
+          "source": "张兰英",
+          "target": "鞑婆",
+          "value": 1
+        },
+        {
+          "source": "张兰英",
+          "target": "高旺",
+          "value": 1
+        },
+        {
+          "source": "张保",
+          "target": "张兰英",
+          "value": 1
+        },
+        {
+          "source": "张兰英",
+          "target": "杨八妹",
+          "value": 1
+        },
+        {
+          "source": "张保",
+          "target": "鞑婆",
+          "value": 1
+        },
+        {
+          "source": "杨八妹",
+          "target": "鞑婆",
+          "value": 1
+        },
+        {
+          "source": "张保",
+          "target": "高旺",
+          "value": 1
+        },
+        {
+          "source": "杨八妹",
+          "target": "高旺",
+          "value": 1
+        },
+        {
+          "source": "张保",
+          "target": "杨八妹",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "雅志府",
+      "characters": [
+        {
+          "name": "高旺",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "扶保王家，倒做了，野草鲜花。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "高来",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "咳哩！",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "杨八妹",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "天波府奉了太君命，",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：3位角色，198行",
+      "firstLine": 1,
+      "lastLine": 198,
+      "numLines": 198,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.17,
+        "sentiment": 0.169
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "雅志府",
+      "characters": [
+        {
+          "name": "张保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "箭射雕翎箭，挽弓满上弦。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "杨八妹",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "雅志府搬来了泰山一座，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "高旺",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "雄纠纠气昂昂要赛阎罗！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：3位角色，56行",
+      "firstLine": 1,
+      "lastLine": 56,
+      "numLines": 56,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.631,
+        "conflict": 0.48,
+        "sentiment": 0.217
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "枉死城",
+      "characters": [
+        {
+          "name": "张保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "且住！黑汉杀法厉害，不免使起黑风，擒他便了。",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "高旺",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "杀得娃娃形无踪，",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：2位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.373,
+        "conflict": 0.667,
+        "sentiment": -0.351
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "枉死城",
+      "characters": [
+        {
+          "name": "鞑婆",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "头带三箍瓣，两耳坠金环。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "张保",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "杀败了！",
+          "rating": -0.333,
+          "role": "小生"
+        },
+        {
+          "name": "高旺",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "战败一合又一合，",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第四场：3位角色，61行",
+      "firstLine": 1,
+      "lastLine": 61,
+      "numLines": 61,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.517,
+        "conflict": 0.484,
+        "sentiment": 0.303
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "枉死城",
+      "characters": [
+        {
+          "name": "鞑婆",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "且住！黑汉杀法厉害，不免使起黑风擒他便了。",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "高旺",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呵呀贤妹吓，今日搬愚兄，明日搬愚兄，搬来搬去，将愚兄搬到枉死城中来了！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "不认识此阵。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：3位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.375,
+        "conflict": 0.755,
+        "sentiment": -0.114
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "枉死城",
+      "characters": [
+        {
+          "name": "张兰英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "丈夫去求官，不见转回还。",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "鞑婆",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "参见母亲！",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "高旺",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "战败一合又一合，",
+          "rating": 0.5,
+          "role": "净"
+        },
+        {
+          "name": "张保",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "杨八妹",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第六场：5位角色，112行",
+      "firstLine": 1,
+      "lastLine": 112,
+      "numLines": 112,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.817,
+        "conflict": 0.227,
+        "sentiment": 0.467
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "高旺",
+      "short": "高旺",
+      "key": "高旺",
+      "quote": "高旺 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨八妹",
+      "short": "杨八",
+      "key": "杨八妹",
+      "quote": "杨八妹 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "高来",
+      "short": "高来",
+      "key": "高来",
+      "quote": "高来 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "张保",
+      "short": "张保",
+      "key": "张保",
+      "quote": "张保 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "鞑婆",
+      "short": "鞑婆",
+      "key": "鞑婆",
+      "quote": "鞑婆 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "张兰英",
+      "short": "张兰",
+      "key": "张兰英",
+      "quote": "张兰英 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "枉死城",
+      "key": "枉死城",
+      "quote": "场景发生在枉死城"
+    },
+    {
+      "name": "雅志府",
+      "key": "雅志府",
+      "quote": "场景发生在雅志府"
+    }
+  ]
+}

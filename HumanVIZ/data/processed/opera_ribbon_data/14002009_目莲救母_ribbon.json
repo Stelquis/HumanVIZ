@@ -1,0 +1,331 @@
+{
+  "title": "目莲救母",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "14002009_目莲救母.json",
+  "source_folder": "14000000",
+  "plot_summary": "刘氏清蒂的儿子目莲僧，既已修成佛道，闻得母亲还在阴间受罪，特地前来探望。母子们会着面不免悲喜交\n集。刘氏哭诉一番，要目莲救她出去。鬼卒不许，经不得目莲使起佛法，只得任他将刘氏带走。目莲又将冤\n魂怨鬼放跑。鬼卒一想不好交差，也就溜之大吉。刘氏经过了这次磨难，这才一心向善，终究也修成了正果。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 112,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "看守酆都城": 1
+      },
+      "characters": {
+        "刘氏": 1,
+        "大鬼": 1,
+        "目莲": 1
+      },
+      "links": [
+        {
+          "source": "大鬼",
+          "target": "目莲",
+          "value": 1
+        },
+        {
+          "source": "刘氏",
+          "target": "大鬼",
+          "value": 1
+        },
+        {
+          "source": "刘氏",
+          "target": "目莲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 14,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.431,
+      "locations": {
+        "阎君回都城": 1
+      },
+      "characters": {
+        "刘氏": 1,
+        "大鬼": 1,
+        "目莲": 1,
+        "小鬼": 1
+      },
+      "links": [
+        {
+          "source": "刘氏",
+          "target": "目莲",
+          "value": 1
+        },
+        {
+          "source": "刘氏",
+          "target": "小鬼",
+          "value": 1
+        },
+        {
+          "source": "刘氏",
+          "target": "大鬼",
+          "value": 1
+        },
+        {
+          "source": "小鬼",
+          "target": "目莲",
+          "value": 1
+        },
+        {
+          "source": "大鬼",
+          "target": "目莲",
+          "value": 1
+        },
+        {
+          "source": "大鬼",
+          "target": "小鬼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.062,
+      "locations": {
+        "看守酆都城": 1
+      },
+      "characters": {
+        "大鬼": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.062,
+      "locations": {
+        "看守酆都城": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "看守酆都城",
+      "characters": [
+        {
+          "name": "大鬼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哽吓。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "目莲",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "阿弥陀佛。",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "刘氏",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "有哇！",
+          "rating": 1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第1场：3位角色，112行",
+      "firstLine": 1,
+      "lastLine": 112,
+      "numLines": 112,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.269,
+        "sentiment": -0.021
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "阎君回都城",
+      "characters": [
+        {
+          "name": "刘氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "儿啊，这饭多被鬼抢了去了。",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "目莲",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "还有佛法。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "小鬼",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "阎君回殿来了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "大鬼",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "知道了。",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第2场：4位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.797,
+        "conflict": 0.0,
+        "sentiment": -0.413
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "看守酆都城",
+      "characters": [
+        {
+          "name": "大鬼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哎呀，且住。这些冤鬼俱已逃生去了。阎君回来，如何是好。也罢，待我也逃",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第3场：1位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.514,
+        "conflict": 1.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "看守酆都城",
+      "characters": [],
+      "summary": "第4场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.014,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘氏",
+      "short": "刘氏",
+      "key": "刘氏",
+      "quote": "刘氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "目莲",
+      "short": "目莲",
+      "key": "目莲",
+      "quote": "目莲 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "大鬼",
+      "short": "大鬼",
+      "key": "大鬼",
+      "quote": "大鬼 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "小鬼",
+      "short": "小鬼",
+      "key": "小鬼",
+      "quote": "小鬼 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "看守酆都城",
+      "key": "看守酆都城",
+      "quote": "场景发生在看守酆都城"
+    },
+    {
+      "name": "阎君回都城",
+      "key": "阎君回都城",
+      "quote": "场景发生在阎君回都城"
+    }
+  ]
+}

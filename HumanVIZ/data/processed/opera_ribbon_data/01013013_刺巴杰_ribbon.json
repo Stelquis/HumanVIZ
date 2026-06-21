@@ -1,0 +1,789 @@
+{
+  "title": "刺巴杰",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 10,
+  "num_locations": 1,
+  "source_file": "01013013_刺巴杰.json",
+  "source_folder": "01000000",
+  "plot_summary": "《绿牡丹》第四十一回中，骆宏勋与余千主仆二人，从鲍自安处辞别北行，竟奔山东投花镇芳家，拟与母、\n妻相会。行至酸枣岭，路经巴家寨，因欲省行二十里路程，故径穿巴寨而行，孰意被巴九之子马杰侦知。巴\n杰因欲夺取花碧莲为妻，故暗中恨骆宏勋刺骨已久。今见骆宏勋自投罗纲，遂率领众少年，出将骆宏勋、余\n千围住，用棍猛击。骆宏勋既不知其为何人，又不知其因何事与己结下如此仇怨，竟欲取己性命。始则再三\n躲让，继见其来势凶猛，不得已乃举手回刺，不意一剑即将巴杰刺死，众见主人巴公子被骆宏勋所害，喧喧\n嚷嚷急往庄内报信。骆宏勋至此闻众呼噪，方知刺死者为巴九之子，心知惹下大祸，主仆二人遂乘间脱逃。\n途中得遇同窗胡琏及其弟胡理二人，随至其所开宿店中细谈，二胡与巴杰亦系结拜，且知巴九夫妇非易惹之\n人，定必追至。当晚商量定妥即送骆宏勋、余千二人出长叶岭，并细细指点路途方向，令其急奔花家老寨而\n去。",
+  "performance_notes": "此脚本中情节至此为止，以后骆宏勋、余千二人在路中尚须经过几许险事，方始得到花寨，然后由鲍自安出\n计，与两家调停解围，令骆宏勋一姓三祧，即是巴骆和。本剧虽亦名为《巴骆和》，实则尚无此事也，而脚\n本中情节，与书中亦稍有增损出入。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 48,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 1.206,
+      "importance": 0.727,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "余千": 1,
+        "骆宏勋": 1,
+        "董元": 1,
+        "四下手": 1,
+        "巴杰": 1
+      },
+      "links": [
+        {
+          "source": "余千",
+          "target": "骆宏勋",
+          "value": 2
+        },
+        {
+          "source": "董元",
+          "target": "骆宏勋",
+          "value": 1
+        },
+        {
+          "source": "巴杰",
+          "target": "董元",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "董元",
+          "value": 1
+        },
+        {
+          "source": "余千",
+          "target": "董元",
+          "value": 1
+        },
+        {
+          "source": "巴杰",
+          "target": "骆宏勋",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "骆宏勋",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "巴杰",
+          "value": 1
+        },
+        {
+          "source": "余千",
+          "target": "巴杰",
+          "value": 1
+        },
+        {
+          "source": "余千",
+          "target": "四下手",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 27,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.43,
+      "importance": 0.409,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "余千": 1,
+        "农夫甲": 1,
+        "骆宏勋": 1,
+        "二农夫": 1,
+        "四下手": 1,
+        "马金定": 1,
+        "巴杰": 1
+      },
+      "links": [
+        {
+          "source": "巴杰",
+          "target": "骆宏勋",
+          "value": 3
+        },
+        {
+          "source": "余千",
+          "target": "巴杰",
+          "value": 2
+        },
+        {
+          "source": "余千",
+          "target": "骆宏勋",
+          "value": 2
+        },
+        {
+          "source": "四下手",
+          "target": "马金定",
+          "value": 1
+        },
+        {
+          "source": "马金定",
+          "target": "骆宏勋",
+          "value": 2
+        },
+        {
+          "source": "巴杰",
+          "target": "马金定",
+          "value": 2
+        },
+        {
+          "source": "四下手",
+          "target": "骆宏勋",
+          "value": 1
+        },
+        {
+          "source": "四下手",
+          "target": "巴杰",
+          "value": 1
+        },
+        {
+          "source": "二农夫",
+          "target": "骆宏勋",
+          "value": 1
+        },
+        {
+          "source": "农夫甲",
+          "target": "骆宏勋",
+          "value": 1
+        },
+        {
+          "source": "二农夫",
+          "target": "马金定",
+          "value": 1
+        },
+        {
+          "source": "二农夫",
+          "target": "农夫甲",
+          "value": 1
+        },
+        {
+          "source": "二农夫",
+          "target": "余千",
+          "value": 1
+        },
+        {
+          "source": "二农夫",
+          "target": "巴杰",
+          "value": 1
+        },
+        {
+          "source": "农夫甲",
+          "target": "马金定",
+          "value": 1
+        },
+        {
+          "source": "余千",
+          "target": "马金定",
+          "value": 1
+        },
+        {
+          "source": "余千",
+          "target": "农夫甲",
+          "value": 1
+        },
+        {
+          "source": "农夫甲",
+          "target": "巴杰",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 123,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "余千": 1,
+        "胡琏": 1,
+        "骆宏勋": 1,
+        "胡理": 1,
+        "马金定": 1,
+        "巴杰": 1
+      },
+      "links": [
+        {
+          "source": "胡理",
+          "target": "骆宏勋",
+          "value": 1
+        },
+        {
+          "source": "余千",
+          "target": "胡理",
+          "value": 1
+        },
+        {
+          "source": "胡理",
+          "target": "胡琏",
+          "value": 1
+        },
+        {
+          "source": "胡理",
+          "target": "马金定",
+          "value": 1
+        },
+        {
+          "source": "巴杰",
+          "target": "胡理",
+          "value": 1
+        },
+        {
+          "source": "余千",
+          "target": "骆宏勋",
+          "value": 1
+        },
+        {
+          "source": "胡琏",
+          "target": "骆宏勋",
+          "value": 1
+        },
+        {
+          "source": "马金定",
+          "target": "骆宏勋",
+          "value": 1
+        },
+        {
+          "source": "巴杰",
+          "target": "骆宏勋",
+          "value": 1
+        },
+        {
+          "source": "余千",
+          "target": "胡琏",
+          "value": 1
+        },
+        {
+          "source": "余千",
+          "target": "马金定",
+          "value": 1
+        },
+        {
+          "source": "余千",
+          "target": "巴杰",
+          "value": 1
+        },
+        {
+          "source": "胡琏",
+          "target": "马金定",
+          "value": 1
+        },
+        {
+          "source": "巴杰",
+          "target": "胡琏",
+          "value": 1
+        },
+        {
+          "source": "巴杰",
+          "target": "马金定",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "骆宏勋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "久离家园，思老母，珠泪涟涟。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "余千",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第一场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.624,
+        "conflict": 0.0,
+        "sentiment": 0.19
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "巴杰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "膂力高强，爱拳棒，练习刀枪。",
+          "rating": 1.0,
+          "role": "武净"
+        }
+      ],
+      "summary": "第二场：1位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.549,
+        "conflict": 1.0,
+        "sentiment": 0.78
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "董元",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "在下董元。奉了花寨主之命，沿途开店迎接骆公子。就此走走。",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "骆宏勋",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "催马加鞭往前闯，见一老丈在路旁。",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "巴杰",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "方才是什么人由此闯过？",
+          "rating": 0.0,
+          "role": "武净"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "是花家寨的董元。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "余千",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第三场：5位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.879,
+        "conflict": 0.0,
+        "sentiment": -0.426
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "巴杰",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "骆宏勋你往哪里走？",
+          "rating": -1.0,
+          "role": "武净"
+        },
+        {
+          "name": "骆宏勋",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "我道是谁，原来是巴家公子。",
+          "rating": 1.0,
+          "role": "武生"
+        },
+        {
+          "name": "余千",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "公子使不得。",
+          "rating": -1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第四场：3位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.635,
+        "conflict": 0.833,
+        "sentiment": -0.01
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "马金定",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "这是怎么啦？",
+          "rating": 0.0,
+          "role": "武旦"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "适才大爷在郊外演习拳棒，偶遇骆宏勋，言语不合，被骆宏勋一剑刺死了。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "骆宏勋",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "巴杰",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武净"
+        }
+      ],
+      "summary": "第五场：4位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.491,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "骆宏勋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "巴杰被我刺死，看那面定是他母亲赶来了，这便怎么处？",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "二农夫",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "拿去穿戴。我二人躲在一旁。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "马金定",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "请问二位，可见两个汉子过去么？",
+          "rating": 0.0,
+          "role": "武旦"
+        },
+        {
+          "name": "农夫甲",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "往东南去了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "余千",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "巴杰",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武净"
+        }
+      ],
+      "summary": "第六场：6位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.784,
+        "conflict": 1.0,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "胡理",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "自幼生来矮小，身长肉翅飞高。不爱金银财宝，好吃人心人脑。",
+          "rating": 0.333,
+          "role": "武丑"
+        },
+        {
+          "name": "骆宏勋",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "天色已晚，就在此店安歇了吧。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "余千",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "店家哪里？",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "胡琏",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "何事？",
+          "rating": -0.333,
+          "role": "末"
+        },
+        {
+          "name": "马金定",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "来此已是。待我叫门。",
+          "rating": -1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "巴杰",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武净"
+        }
+      ],
+      "summary": "第七场：6位角色，123行",
+      "firstLine": 1,
+      "lastLine": 123,
+      "numLines": 123,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.957,
+        "conflict": 0.337,
+        "sentiment": 0.063
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "骆宏勋",
+      "short": "骆宏",
+      "key": "骆宏勋",
+      "quote": "骆宏勋 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "余千",
+      "short": "余千",
+      "key": "余千",
+      "quote": "余千 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "巴杰",
+      "short": "巴杰",
+      "key": "巴杰",
+      "quote": "巴杰 — 武净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 武净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "董元",
+      "short": "董元",
+      "key": "董元",
+      "quote": "董元 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "马金定",
+      "short": "马金",
+      "key": "马金定",
+      "quote": "马金定 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "胡理",
+      "short": "胡理",
+      "key": "胡理",
+      "quote": "胡理 — 武丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 武丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "胡琏",
+      "short": "胡琏",
+      "key": "胡琏",
+      "quote": "胡琏 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "农夫甲",
+      "short": "农夫",
+      "key": "农夫甲",
+      "quote": "农夫甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二农夫",
+      "short": "二农",
+      "key": "二农夫",
+      "quote": "二农夫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

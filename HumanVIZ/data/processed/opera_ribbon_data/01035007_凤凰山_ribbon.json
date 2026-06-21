@@ -1,0 +1,769 @@
+{
+  "title": "凤凰山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 5,
+  "num_scenes": 10,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "01035007_凤凰山.json",
+  "source_folder": "01000000",
+  "plot_summary": "番将盖贤谟，统领十万雄兵，镇守凤凰山。唐太宗御驾亲征，行抵凤凰山。唐太宗欲出观山景，徐勣、尉迟\n元帅力阻不得。徐勣乃请先命一将，前去探山，打听虚实，然后再保驾往游。唐太宗准奏，问何人愿往探山。\n定国公马三保告奋愿往，徐勣、尉迟恭等力劝马三保勿往。马三保弗听。及往，适遇盖贤谟，被其用绊马\n索绊倒擒住。马三保誓死不降，讵知被盖贤谟刖去四肢，抛弃山中。尉迟恭出巡，见状大悲伤，欲抬归。马\n三保不可，卒以疼痛难忍，嘱尉迟恭举枪刺心，乃卒。",
+  "performance_notes": "按《凤凰山》之戏名不一。百花公主斩巴喇，也名《凤凰山》；《征东传》中薛仁贵救驾，也名《凤凰山》，\n已载本考二十册中。此剧亦名《凤凰山》，专演定国公马三保。（《说唐传》中作平）国公出兵探路，途\n遇番将盖贤谟，中计被擒，誓死不屈，惨遭毒剁之状。剧中情节，全根据《说唐征东传》中。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 112,
+      "summary": "第一场；第二场",
+      "conflict": 0.031,
+      "importance": 1.0,
+      "locations": {
+        "贤谟上高台": 2
+      },
+      "characters": {
+        "四平章": 1,
+        "徐勣": 1,
+        "马三保": 1,
+        "唐王": 1,
+        "盖贤谟": 1,
+        "尉迟恭": 1,
+        "大太监甲": 1
+      },
+      "links": [
+        {
+          "source": "四平章",
+          "target": "盖贤谟",
+          "value": 1
+        },
+        {
+          "source": "唐王",
+          "target": "大太监甲",
+          "value": 1
+        },
+        {
+          "source": "唐王",
+          "target": "尉迟恭",
+          "value": 1
+        },
+        {
+          "source": "唐王",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "唐王",
+          "target": "马三保",
+          "value": 1
+        },
+        {
+          "source": "唐王",
+          "target": "盖贤谟",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "尉迟恭",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "马三保",
+          "value": 1
+        },
+        {
+          "source": "大太监甲",
+          "target": "盖贤谟",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "马三保",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "盖贤谟",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "马三保",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "盖贤谟",
+          "value": 1
+        },
+        {
+          "source": "盖贤谟",
+          "target": "马三保",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 21,
+      "summary": "第三场；第四场",
+      "conflict": 0.107,
+      "importance": 0.429,
+      "locations": {
+        "贤谟上高台": 2
+      },
+      "characters": {
+        "盖贤谟": 1,
+        "马三保": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 16,
+      "summary": "第五场；第六场",
+      "conflict": 0.986,
+      "importance": 0.327,
+      "locations": {
+        "贤谟上高台": 2
+      },
+      "characters": {
+        "盖贤谟": 1,
+        "马三保": 1
+      },
+      "links": [
+        {
+          "source": "盖贤谟",
+          "target": "马三保",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 60,
+      "summary": "第七场；第八场",
+      "conflict": 0.203,
+      "importance": 1.0,
+      "locations": {
+        "贤谟上高台": 2
+      },
+      "characters": {
+        "报子": 1,
+        "徐勣": 1,
+        "马三保": 1,
+        "唐王": 1,
+        "盖贤谟": 1,
+        "尉迟恭": 1
+      },
+      "links": [
+        {
+          "source": "唐王",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "唐王",
+          "target": "尉迟恭",
+          "value": 1
+        },
+        {
+          "source": "唐王",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "唐王",
+          "target": "马三保",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "报子",
+          "target": "马三保",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "徐勣",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "马三保",
+          "value": 1
+        },
+        {
+          "source": "徐勣",
+          "target": "马三保",
+          "value": 1
+        },
+        {
+          "source": "盖贤谟",
+          "target": "马三保",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 36,
+      "summary": "第九场；第十场",
+      "conflict": 0.07,
+      "importance": 0.735,
+      "locations": {
+        "贤谟上高台": 2
+      },
+      "characters": {
+        "盖贤谟": 1,
+        "马三保": 1,
+        "尉迟恭": 1
+      },
+      "links": [
+        {
+          "source": "尉迟恭",
+          "target": "马三保",
+          "value": 1
+        },
+        {
+          "source": "尉迟恭",
+          "target": "盖贤谟",
+          "value": 1
+        },
+        {
+          "source": "盖贤谟",
+          "target": "马三保",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "贤谟上高台",
+      "characters": [
+        {
+          "name": "盖贤谟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "两膀膂力似金刚，六国三川称豪强。一心要摘天边月，步星踏斗换太阳。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四平章",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.399,
+        "conflict": 1.0,
+        "sentiment": 0.17
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "贤谟上高台",
+      "characters": [
+        {
+          "name": "唐王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "统领人马征辽东，",
+          "rating": 0.2,
+          "role": ""
+        },
+        {
+          "name": "大太监甲",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "领旨！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "昨夜晚闲观天象，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "马三保",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "且慢！",
+          "rating": 0.25,
+          "role": "老生"
+        },
+        {
+          "name": "盖贤谟",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：6位角色，102行",
+      "firstLine": 1,
+      "lastLine": 102,
+      "numLines": 102,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.615,
+        "sentiment": 0.201
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "贤谟上高台",
+      "characters": [
+        {
+          "name": "盖贤谟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "列开旗门，探看凤凰山。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.504,
+        "conflict": 0.0,
+        "sentiment": 0.773
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "贤谟上高台",
+      "characters": [
+        {
+          "name": "马三保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "老夫马上哈哈笑，",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：1位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.548,
+        "conflict": 0.0,
+        "sentiment": 0.88
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "贤谟上高台",
+      "characters": [
+        {
+          "name": "盖贤谟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "呔！何方之将，快快通名受死！",
+          "rating": -0.6,
+          "role": "净"
+        },
+        {
+          "name": "马三保",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "番奴听了：老夫定国公马三保。",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.594,
+        "conflict": 0.952,
+        "sentiment": -0.166
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "贤谟上高台",
+      "characters": [
+        {
+          "name": "盖贤谟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住，这老儿十分骁勇。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "马三保",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哪里走！",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第六场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.584,
+        "conflict": 0.0,
+        "sentiment": 0.82
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "贤谟上高台",
+      "characters": [
+        {
+          "name": "唐王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "马皇兄一去无音信，",
+          "rating": -0.2,
+          "role": ""
+        },
+        {
+          "name": "报子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启奏万岁：今有定国公马三保被擒。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "尉迟恭",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "再探！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "徐勣",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "贼人把守凤凰镇，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "马三保",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第七场：5位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.674,
+        "conflict": 1.0,
+        "sentiment": 0.086
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "贤谟上高台",
+      "characters": [
+        {
+          "name": "盖贤谟",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "来，将马三保押上来！",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "马三保",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "盖世英雄遭圈套，",
+          "rating": -0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第八场：2位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.736,
+        "conflict": 0.845,
+        "sentiment": 0.289
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "贤谟上高台",
+      "characters": [
+        {
+          "name": "尉迟恭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第九场：1位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.48,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "贤谟上高台",
+      "characters": [
+        {
+          "name": "尉迟恭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "哎呀！",
+          "rating": -0.667,
+          "role": "净"
+        },
+        {
+          "name": "马三保",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "昏昏沉沉难扎挣，",
+          "rating": -0.6,
+          "role": "老生"
+        },
+        {
+          "name": "盖贤谟",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十场：3位角色，35行",
+      "firstLine": 1,
+      "lastLine": 35,
+      "numLines": 35,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.796,
+        "conflict": 0.635,
+        "sentiment": -0.07
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "马三保",
+      "short": "马三",
+      "key": "马三保",
+      "quote": "马三保 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "盖贤谟",
+      "short": "盖贤",
+      "key": "盖贤谟",
+      "quote": "盖贤谟 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "尉迟恭",
+      "short": "尉迟",
+      "key": "尉迟恭",
+      "quote": "尉迟恭 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "徐勣",
+      "short": "徐勣",
+      "key": "徐勣",
+      "quote": "徐勣 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四平章",
+      "short": "四平",
+      "key": "四平章",
+      "quote": "四平章 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "唐王",
+      "short": "唐王",
+      "key": "唐王",
+      "quote": "唐王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监甲",
+      "short": "大太",
+      "key": "大太监甲",
+      "quote": "大太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "贤谟上高台",
+      "key": "贤谟上高台",
+      "quote": "场景发生在贤谟上高台"
+    }
+  ]
+}

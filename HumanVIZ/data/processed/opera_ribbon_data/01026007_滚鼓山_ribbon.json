@@ -1,0 +1,305 @@
+{
+  "title": "滚鼓山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "01026007_滚鼓山.json",
+  "source_folder": "01000000",
+  "plot_summary": "蜀汉张飞，镇守阆中。忽见廖化匆遽前来，报告荆州失陷，至上鄘告急，刘封不肯发兵，关公已为吕蒙所害。\n张飞恨刘封甚，欲往杀之，乃移兵上鄘，诳取刘封手中剑、印，甘言蜜语，愿助以弑父袭位。复为划策，\n将一大铜鼓装载，混进成都。刘封受其愚弄，张飞隧掷大铜鼓于山下，刘封因此毙命焉。",
+  "performance_notes": "是剧事实，全属无稽之谈，亦不近情理，究系何人编排，无从探悉。枥老笔墨余闲，至各舞台消遣睡魔，恒\n见此种戏剧，排在开场之前三出内，可知时下推重之名艺员，均不屑串演，一试好身手。然荟萃之区，莫如\n北京、上海，既有此名称，且不时排出，本考当然有采取主人，不欲以糟粕视之也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 58,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.811,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "探子": 1,
+        "刘封": 1,
+        "廖化": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "张飞",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "廖化",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "刘封",
+          "target": "探子",
+          "value": 1
+        },
+        {
+          "source": "廖化",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "刘封",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "刘封",
+          "target": "廖化",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 85,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四上手": 1,
+        "刘封": 1,
+        "旗牌": 1,
+        "张飞": 1
+      },
+      "links": [
+        {
+          "source": "刘封",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "刘封",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "刘封",
+          "target": "四上手",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "张飞",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "探子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "启禀三千岁，廖将军到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "执掌兵权，威风八面，雄兵万，扶保江山，指日扫中原。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "廖化",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "三千岁！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "刘封",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第一场：4位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.84,
+        "sentiment": 0.255
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘封",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "营门战鼓响，军士赛虎狼。",
+          "rating": 0.429,
+          "role": "丑"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "三千岁到！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张飞",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "罢了。一旁坐下。",
+          "rating": 0.111,
+          "role": "净"
+        },
+        {
+          "name": "四上手",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "刘封尸骨碎如齑粉！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，85行",
+      "firstLine": 1,
+      "lastLine": 85,
+      "numLines": 85,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.758,
+        "sentiment": 0.262
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "刘封",
+      "short": "刘封",
+      "key": "刘封",
+      "quote": "刘封 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "廖化",
+      "short": "廖化",
+      "key": "廖化",
+      "quote": "廖化 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四上手",
+      "short": "四上",
+      "key": "四上手",
+      "quote": "四上手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "title": "洒金桥",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "02008026_洒金桥.json",
+  "source_folder": "02000000",
+  "plot_summary": "宋太祖赵匡胤，因酒醉杀人，被囚入天牢后，私自脱逃。行至洒金桥，闻算命者苗训测算最灵。乃求苗训，\n详测八字，细说终生。苗训谓赵匡胤系天上赤须龙下凡，四十岁陈桥时，才能交运，而贵为皇帝。赵匡胤谓\n假若实现，当封先生为开国元勋云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 19,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.418,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "赵匡胤": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 72,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "苗训": 1,
+        "赵匡胤": 1
+      },
+      "links": [
+        {
+          "source": "苗训",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "浪荡走天涯，心事乱如麻。",
+          "rating": 0.0,
+          "role": "红生"
+        }
+      ],
+      "summary": "第一场：1位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.675,
+        "conflict": 1.0,
+        "sentiment": 0.104
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "苗训",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "在深山领受了师尊之命，",
+          "rating": 0.25,
+          "role": "老生"
+        },
+        {
+          "name": "赵匡胤",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "有豪杰催骏马逶迤前进，",
+          "rating": 0.5,
+          "role": "红生"
+        }
+      ],
+      "summary": "第二场：2位角色，72行",
+      "firstLine": 1,
+      "lastLine": 72,
+      "numLines": 72,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.769,
+        "sentiment": 0.387
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "苗训",
+      "short": "苗训",
+      "key": "苗训",
+      "quote": "苗训 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

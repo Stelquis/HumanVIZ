@@ -1,0 +1,211 @@
+{
+  "title": "武松打虎",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "04023002_武松打虎.json",
+  "source_folder": "04000000",
+  "plot_summary": "武松别宋江回家，路经景阳岗，在酒店饮酒，乘酒醉过岗；虎跃出，武松将虎打死。",
+  "performance_notes": "盖叫天先生《打虎》本，不带酒馆。中国京剧团根据昆曲本《打虎》（明代沈璟作《义侠记》中之一折）进\n行整理的本子，有此一节。籍供参考。\n演出本与昆曲原本不同处，主要有下面几点：\n一、原本第一场先上猎户，唱一段“水红花”后，即念下。演出本删去了这一节。\n二、原本武松上场先念诗和表白。为了加强舞蹈动作，改为出场即唱“新水令”。\n三、修改了原本武松饮酒后付不出钱来，以行囊作押账的情节。\n四、原本《酒馆》、《打虎》是一场；为了演出方便，改为两场。又原本武松出场至剧终，共唱“新水令”、\n“折桂令”、“雁儿落”、“得胜令”、“沽美酒”、“太平令”、及“鸳鸯煞”等七曲，是为北曲一套。\n由于剧中情节的修改及舞蹈动作的丰富，演出本有所变动。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 94,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "武松": 1,
+        "酒保": 1
+      },
+      "links": [
+        {
+          "source": "武松",
+          "target": "酒保",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 55,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.738,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "猎户甲": 1,
+        "武松": 1,
+        "众猎户": 1
+      },
+      "links": [
+        {
+          "source": "众猎户",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "猎户甲",
+          "value": 1
+        },
+        {
+          "source": "众猎户",
+          "target": "猎户甲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "酒保",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.2,
+          "role": ""
+        },
+        {
+          "name": "武松",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "老天何苦困英雄，",
+          "rating": -0.333,
+          "role": "武生"
+        }
+      ],
+      "summary": "第一场：2位角色，94行",
+      "firstLine": 1,
+      "lastLine": 94,
+      "numLines": 94,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.889,
+        "conflict": 0.286,
+        "sentiment": 0.165
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "武松",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "道崎岖，路不平，",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "众猎户",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "且慢！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "猎户甲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "请问壮士尊姓大名？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.811,
+        "conflict": 0.19,
+        "sentiment": 0.085
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "武松",
+      "short": "武松",
+      "key": "武松",
+      "quote": "武松 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "猎户甲",
+      "short": "猎户",
+      "key": "猎户甲",
+      "quote": "猎户甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "酒保",
+      "short": "酒保",
+      "key": "酒保",
+      "quote": "酒保 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众猎户",
+      "short": "众猎",
+      "key": "众猎户",
+      "quote": "众猎户 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

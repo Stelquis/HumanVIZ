@@ -1,0 +1,110 @@
+{
+  "title": "牡丹亭·游园",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "70902109_牡丹亭·游园.json",
+  "source_folder": "70902000",
+  "plot_summary": "太守杜宝之女杜丽娘，深居闺阁，偶与婢女春香，游览花园，目睹春景，感动情思。",
+  "performance_notes": "《牡丹亭》传奇是明代大戏剧家汤显祖的名著，寓有个性解放的启蒙思想，影响极大，为世界文坛所推崇。\n《游园、惊梦》两折富有浪漫主义色彩，文词、曲调、舞蹈三者完美地结合在一起，成为昆曲代表作之一，\n至今仍是舞台上经常演出的剧目。俞振飞与梅兰芳先生合作次数最多，并于1960年摄制了电影。",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 77,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "杜丽娘": 1,
+        "春香": 1
+      },
+      "links": [
+        {
+          "source": "春香",
+          "target": "杜丽娘",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杜丽娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "梦回莺啭，乱煞年光遍，",
+          "rating": 1.0,
+          "role": "五旦"
+        },
+        {
+          "name": "春香",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "炷尽沉烟，抛残绣线，",
+          "rating": 0.667,
+          "role": "贴旦"
+        }
+      ],
+      "summary": "段落1：2位角色，77行",
+      "firstLine": 1,
+      "lastLine": 77,
+      "numLines": 77,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.238,
+        "sentiment": 0.598
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杜丽娘",
+      "short": "杜丽",
+      "key": "杜丽娘",
+      "quote": "杜丽娘 — 五旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 五旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "春香",
+      "short": "春香",
+      "key": "春香",
+      "quote": "春香 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

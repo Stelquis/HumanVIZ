@@ -1,0 +1,313 @@
+{
+  "title": "戏叔",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01018012_戏叔.json",
+  "source_folder": "01000000",
+  "plot_summary": "武松自景阳冈打虎后，阳谷县令爱其勇健，拔为捕盗都头，常川在衙门当差。路遇兄长武大，谈及别后事情，\n始知武大已娶潘氏金莲为妻，寄居此地。而习卖炊饼之业，以图糊口。邀武松至家中认嫂，潘氏性本淫荡，\n见武松气象魁梧，堂堂一表，不禁怦然心动。怂恿兄弟同居，便于照应。武松性情爽直，并不疑有他故。\n一诺无辞，遂下榻焉。从此早出夜归，习以为常。一日公务已毕，随至下处，而武大尚未返家，潘氏自忖趁\n此时机，可以遂我私愿，预备酒肴，强邀武松对饮，于眉目送情之外，复用言语勾挑，以为年轻小叔，定然\n识趣。殊不知武松一义侠男儿，岂肯为乱伦之事，悻悻然离坐而起。潘氏恼羞成怒，俟武大入门，反哭诉武\n松无礼于嫂，尽情调戏。武大不信为真，武松亦不言其故。匆促间取出行李，仍往衙门中歇宿焉。",
+  "performance_notes": "是剧即《义侠记》中，《别兄》之前一出，系花旦唱做兼全之重头戏，颇有价值，谅能合观剧者之心理。惟\n后半截丑角插科打诨处，较之《义侠记》中，稍有异点。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 148,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "潘金莲": 1,
+        "武松": 1
+      },
+      "links": [
+        {
+          "source": "武松",
+          "target": "潘金莲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 36,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.646,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "武松": 1,
+        "武大": 1,
+        "潘金莲": 1
+      },
+      "links": [
+        {
+          "source": "武大",
+          "target": "武松",
+          "value": 1
+        },
+        {
+          "source": "武大",
+          "target": "潘金莲",
+          "value": 1
+        },
+        {
+          "source": "武松",
+          "target": "潘金莲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 34,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.61,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "潘金莲": 1,
+        "武大": 1
+      },
+      "links": [
+        {
+          "source": "武大",
+          "target": "潘金莲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.09,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "潘金莲": 1,
+        "武大": 1
+      },
+      "links": [
+        {
+          "source": "武大",
+          "target": "潘金莲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "潘金莲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "痴男子假装乔，",
+          "rating": -0.333,
+          "role": "花旦"
+        },
+        {
+          "name": "武松",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "挥汗归来罢早衙，何日成名扬天涯。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第1场：2位角色，148行",
+      "firstLine": 1,
+      "lastLine": 148,
+      "numLines": 148,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.292,
+        "sentiment": 0.041
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "武大",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "清晨出去犹嫌晚，下午回来汗未消。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "武松",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "嗳呀哥哥呀，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "潘金莲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "嫂什么？",
+          "rating": 0.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第2场：3位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.845,
+        "conflict": 0.238,
+        "sentiment": 0.762
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "武大",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "嗳哟哟，二官人怒气冲冲去了，道是为着煞个事情？待我叫出老婆来问问看。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "潘金莲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "呀啐！你还是勾魂，你还是叫命呐？",
+          "rating": 0.333,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第3场：2位角色，34行",
+      "firstLine": 1,
+      "lastLine": 34,
+      "numLines": 34,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.737,
+        "conflict": 0.488,
+        "sentiment": 0.297
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "武大",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "我把你个臭花娘！",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "潘金莲",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "你骂哪一个呀？",
+          "rating": 0.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第4场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.62,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "潘金莲",
+      "short": "潘金",
+      "key": "潘金莲",
+      "quote": "潘金莲 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "武松",
+      "short": "武松",
+      "key": "武松",
+      "quote": "武松 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "武大",
+      "short": "武大",
+      "key": "武大",
+      "quote": "武大 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

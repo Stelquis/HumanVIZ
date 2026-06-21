@@ -1,0 +1,275 @@
+{
+  "title": "三击掌",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 3,
+  "source_file": "14001007_三击掌.json",
+  "source_folder": "14000000",
+  "plot_summary": "王宝钏是丞相王允的第三个女儿，自从彩楼抛球招亲，彩球落在薛平贵的手里以后，王允以为身为宰相，女\n儿怎能嫁给一个乞丐做妻子，因此不肯。偏偏王宝钏一定要嫁薛平贵，王允当然很气，就把薛平贵从相府里\n赶了出来。王宝钏也气了，情愿和薛平贵同走。临走的时候，还和她的父亲三击掌，说道如果将来不富不贵，\n就永远不再回来了。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 139,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "高搭彩楼": 1
+      },
+      "characters": {
+        "王宝钏": 1,
+        "丫鬟": 1,
+        "王允": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "王允",
+          "value": 1
+        },
+        {
+          "source": "王允",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "王允",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "王宝钏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 7,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.142,
+      "locations": {
+        "高搭彩楼": 1
+      },
+      "characters": {
+        "王允": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "王允",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.041,
+      "locations": {
+        "高搭彩楼": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "高搭彩楼",
+      "characters": [
+        {
+          "name": "王允",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "调和鼎鼐，位列三台。",
+          "rating": 0.429,
+          "role": "老生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "天子赐绒线，绣彩球，天配良缘。",
+          "rating": 0.2,
+          "role": "青衣"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "三姑娘，要往哪里去？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：4位角色，139行",
+      "firstLine": 1,
+      "lastLine": 139,
+      "numLines": 139,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.498,
+        "sentiment": 0.287
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "高搭彩楼",
+      "characters": [
+        {
+          "name": "家院",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "三姑娘出府去了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王允",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "奴才呀！",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：2位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.528,
+        "conflict": 0.0,
+        "sentiment": 0.81
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "高搭彩楼",
+      "characters": [],
+      "summary": "第3场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.008,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 青衣",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 青衣",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王允",
+      "short": "王允",
+      "key": "王允",
+      "quote": "王允 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "高搭彩楼",
+      "key": "高搭彩楼",
+      "quote": "场景发生在高搭彩楼"
+    },
+    {
+      "name": "位列三台",
+      "key": "位列三台",
+      "quote": "场景发生在位列三台"
+    },
+    {
+      "name": "十字街",
+      "key": "十字街",
+      "quote": "场景发生在十字街"
+    }
+  ]
+}

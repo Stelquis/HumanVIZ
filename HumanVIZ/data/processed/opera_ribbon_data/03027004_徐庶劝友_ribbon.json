@@ -1,0 +1,183 @@
+{
+  "title": "徐庶劝友",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "03027004_徐庶劝友.json",
+  "source_folder": "03000000",
+  "plot_summary": "三国时，徐庶劝刘备计袭樊城后，曹操惊其才，乃赚徐母至许昌，假书召徐庶。徐庶为母命而往，临别时，\n因感刘备盛情，遂荐诸葛亮，犹恐诸葛亮不肯去，乃亲至诸葛亮草庐敦劝。诸葛亮不听，徐庶乃怅然而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 11,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.114,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "徐庶": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 182,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "徐庶": 1,
+        "诸葛亮": 1,
+        "童儿": 1
+      },
+      "links": [
+        {
+          "source": "童儿",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "诸葛亮",
+          "value": 1
+        },
+        {
+          "source": "徐庶",
+          "target": "童儿",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "徐庶",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "山人马上敲鞭镫，",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：1位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.584,
+        "conflict": 0.0,
+        "sentiment": 0.267
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "诸葛亮",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "追念前贤，居隆中，自在安然。",
+          "rating": 0.846,
+          "role": "老生"
+        },
+        {
+          "name": "童儿",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "徐庶",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "马来！",
+          "rating": 0.474,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：3位角色，182行",
+      "firstLine": 1,
+      "lastLine": 182,
+      "numLines": 182,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.391,
+        "sentiment": 0.504
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "徐庶",
+      "short": "徐庶",
+      "key": "徐庶",
+      "quote": "徐庶 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "诸葛亮",
+      "short": "诸葛",
+      "key": "诸葛亮",
+      "quote": "诸葛亮 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "童儿",
+      "short": "童儿",
+      "key": "童儿",
+      "quote": "童儿 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

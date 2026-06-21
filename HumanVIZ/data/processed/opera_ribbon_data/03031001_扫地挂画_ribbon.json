@@ -1,0 +1,171 @@
+{
+  "title": "扫地挂画",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "03031001_扫地挂画.json",
+  "source_folder": "03000000",
+  "plot_summary": "朱元龙微时，与马忠兄妹同佣工于马员外家。一日，员外为祝寿诞，命马忠扫地挂画，布置寿堂。马忠不识\n字，求助于朱元龙。适妹马赛花前来，见朱元龙气宇非凡，具帝王相，乃托兄为媒，委以终身，并讨封赐。\n马忠出私蓄，即送二人出走。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 383,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "马赛花": 1,
+        "朱元龙": 1,
+        "马忠": 1
+      },
+      "links": [
+        {
+          "source": "朱元龙",
+          "target": "马忠",
+          "value": 1
+        },
+        {
+          "source": "马忠",
+          "target": "马赛花",
+          "value": 1
+        },
+        {
+          "source": "朱元龙",
+          "target": "马赛花",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 2,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.01,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "马忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊哈！",
+          "rating": 0.286,
+          "role": "丑"
+        },
+        {
+          "name": "朱元龙",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "嗯哼！",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "马赛花",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "走哇！",
+          "rating": 0.6,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第1场：3位角色，383行",
+      "firstLine": 1,
+      "lastLine": 383,
+      "numLines": 383,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.085,
+        "sentiment": 0.321
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第2场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.005,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "马忠",
+      "short": "马忠",
+      "key": "马忠",
+      "quote": "马忠 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "马赛花",
+      "short": "马赛",
+      "key": "马赛花",
+      "quote": "马赛花 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "朱元龙",
+      "short": "朱元",
+      "key": "朱元龙",
+      "quote": "朱元龙 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

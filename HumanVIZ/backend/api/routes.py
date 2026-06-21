@@ -548,7 +548,7 @@ class OperaAnalysisRequest(BaseModel):
 @router.post("/llm/classify-roles", response_model=dict, summary="Task1: 行当分类")
 async def classify_roles(request: OperaAnalysisRequest):
     """
-    Task 1: 推断角色行当归属
+    角色行当归属推断
 
     基于剧本角色描述和对话，推断未标注角色的行当归属（生旦净丑及细分支）。
     """
@@ -568,10 +568,10 @@ async def classify_roles(request: OperaAnalysisRequest):
         raise HTTPException(status_code=500, detail=f"LLM 分析失败: {str(e)}")
 
 
-@router.post("/llm/classify-play-type", response_model=dict, summary="Task2前置: 剧目分类")
+@router.post("/llm/classify-play-type", response_model=dict, summary="剧目分类")
 async def classify_play_type(request: OperaAnalysisRequest):
     """
-    Task 2 前置: 剧目类型分类标注
+    剧目类型分类标注
 
     根据剧本情节、主要角色、正文对话，推断剧目类型
     （历史戏/家庭戏/公案戏/爱情戏/神话戏/侠义戏/技法展示戏），
@@ -625,10 +625,10 @@ async def classify_play_type(request: OperaAnalysisRequest):
         raise HTTPException(status_code=500, detail=f"LLM 分析失败: {str(e)}")
 
 
-@router.post("/llm/extract-themes", response_model=dict, summary="Task3: 主题提取")
+@router.post("/llm/extract-themes", response_model=dict, summary="主题提取")
 async def extract_themes(request: OperaAnalysisRequest):
     """
-    Task 3: 提取剧本核心主题标签
+    剧本核心主题标签提取
 
     从剧本情节和对话中提取 2-5 个主题标签。
     """
@@ -648,10 +648,10 @@ async def extract_themes(request: OperaAnalysisRequest):
         raise HTTPException(status_code=500, detail=f"LLM 分析失败: {str(e)}")
 
 
-@router.post("/llm/analyze-narrative", response_model=dict, summary="Task4: 叙事结构分析")
+@router.post("/llm/analyze-narrative", response_model=dict, summary="叙事结构分析")
 async def analyze_narrative(request: OperaAnalysisRequest):
     """
-    Task 4: 分析剧本叙事结构
+    剧本叙事结构分析
 
     将剧本划分为 开端/发展/高潮/结局/尾声 等关键阶段。
     """
@@ -671,10 +671,10 @@ async def analyze_narrative(request: OperaAnalysisRequest):
         raise HTTPException(status_code=500, detail=f"LLM 分析失败: {str(e)}")
 
 
-@router.post("/llm/extract-relations", response_model=dict, summary="Task2: 关系提取")
+@router.post("/llm/extract-relations", response_model=dict, summary="关系提取")
 async def extract_relations(request: OperaAnalysisRequest):
     """
-    Task 2: 从剧本中提取角色互动关系类型
+    角色互动关系类型提取
 
     识别角色之间的互动关系（敌对/同盟/从属/亲属等）。
     """

@@ -1,0 +1,268 @@
+{
+  "title": "佘塘关",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01019010_佘塘关.json",
+  "source_folder": "01000000",
+  "plot_summary": "杨业年轻时，从征佘塘关，武艺精强，颇著勇绩，关中大小诸将士，或斩或逃，均非敌手。女将佘氏赛花，\n欲报杀兄之仇，出关抵拒，舞枪而前，点点纷纷，如梨花遍漓。杨业与之战，力不能敌，大败逃窜。恐冲动\n自己人马，落荒而去。佘赛花从后追之。路旁有一七星庙，杨业骤马躲入，急速紧闭庙门。佘赛花跟踪而至，\n激以言语，使之开出再战。杨业畏其勇，不敢轻于尝试，瑟缩庙中。佘赛花在门外扬言，命军卒焚烧此庙。\n杨业情急计生，伪与佘赛花订约：各弃枪刀马匹，徒手相搏。隐身门侧。佘赛花匆遽入庙，突出推倒，即\n用绳索缚住。见其容貌美丽，不忍加害，相与神前立誓，结为夫妇，并马回营焉。",
+  "performance_notes": "此剧即老令公杨业战阵上招亲之故事。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 16,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.369,
+      "locations": {
+        "我就此回营": 1
+      },
+      "characters": {
+        "佘赛花": 1,
+        "女马童": 1
+      },
+      "links": [
+        {
+          "source": "佘赛花",
+          "target": "女马童",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 102,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "我就此回营": 1
+      },
+      "characters": {
+        "佘赛花": 1,
+        "探子": 1,
+        "杨业": 1
+      },
+      "links": [
+        {
+          "source": "探子",
+          "target": "杨业",
+          "value": 1
+        },
+        {
+          "source": "佘赛花",
+          "target": "杨业",
+          "value": 1
+        },
+        {
+          "source": "佘赛花",
+          "target": "探子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.277,
+      "locations": {
+        "我就此回营": 1
+      },
+      "characters": {
+        "佘赛花": 1,
+        "杨业": 1
+      },
+      "links": [
+        {
+          "source": "佘赛花",
+          "target": "杨业",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "我就此回营",
+      "characters": [
+        {
+          "name": "女马童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "请姑娘上马。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "佘赛花",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "我翻身跨上了桃花马，",
+          "rating": -1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第一场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.574,
+        "conflict": 1.0,
+        "sentiment": -0.337
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "我就此回营",
+      "characters": [
+        {
+          "name": "杨业",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "两国不和把仗打，",
+          "rating": 0.2,
+          "role": "小生"
+        },
+        {
+          "name": "探子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "佘赛花讨战。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "佘赛花",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "阵前来了杨家将，",
+          "rating": -0.143,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：3位角色，102行",
+      "firstLine": 1,
+      "lastLine": 102,
+      "numLines": 102,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.433,
+        "sentiment": 0.099
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "我就此回营",
+      "characters": [
+        {
+          "name": "杨业",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "吓，哈哈哈哈。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "佘赛花",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "一同上马住了刀兵。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第三场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.755,
+        "conflict": 0.0,
+        "sentiment": 0.82
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "佘赛花",
+      "short": "佘赛",
+      "key": "佘赛花",
+      "quote": "佘赛花 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "杨业",
+      "short": "杨业",
+      "key": "杨业",
+      "quote": "杨业 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "探子",
+      "short": "探子",
+      "key": "探子",
+      "quote": "探子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "女马童",
+      "short": "女马",
+      "key": "女马童",
+      "quote": "女马童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "我就此回营",
+      "key": "我就此回营",
+      "quote": "场景发生在我就此回营"
+    }
+  ]
+}

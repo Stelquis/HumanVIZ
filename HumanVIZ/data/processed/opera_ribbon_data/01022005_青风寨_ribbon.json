@@ -1,0 +1,758 @@
+{
+  "title": "青风寨",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 8,
+  "num_characters": 9,
+  "num_locations": 1,
+  "source_file": "01022005_青风寨.json",
+  "source_folder": "01000000",
+  "plot_summary": "大盗刘通占住青风寨，以抢劫为生涯。见近村张员外之女，携带仆从，在乡间祭扫坟墓，美丽容颜动人怜爱，\n然罗敷固有夫也。刘通即遣人向张员外说亲。张员外婉辞以却之。讵知刘通竟行强硬手段，遂将聘礼交付，\n作为文定，并约日来娶。适值梁山泊燕青、李逵奉令下山，巡哨各处。至张员外门首，天色昏黑，扣门借\n宿。张员外殷勤款待，陪二人饮酒，忽然紧蹙双眉，咳声叹气。二人不胜惊讶，固问之。张员外将刘通逼迫\n情形，备细告知。实因娶期在即，异常焦急。二人颇有义侠之概，虽居盗窟，深恨此种行为。闻言怒甚，遂\n相与计议，李逵装扮员外之女，为之替嫁。燕青冒员外之子，混进青风寨。刘通竟受之愚弄，被二人杀死。",
+  "performance_notes": "此系净、副合演，而为插科打诨之剧。亦属别开生面，尤堪发噱。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 19,
+      "summary": "第一场；第二场",
+      "conflict": 0.326,
+      "importance": 0.319,
+      "locations": {
+        "喜气满华堂": 2
+      },
+      "characters": {
+        "张员外": 1,
+        "张女": 1,
+        "刘通": 1
+      },
+      "links": [
+        {
+          "source": "张员外",
+          "target": "张女",
+          "value": 1
+        },
+        {
+          "source": "刘通",
+          "target": "张女",
+          "value": 1
+        },
+        {
+          "source": "刘通",
+          "target": "张员外",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 38,
+      "summary": "第三场；第四场",
+      "conflict": 0.616,
+      "importance": 0.639,
+      "locations": {
+        "喜气满华堂": 2
+      },
+      "characters": {
+        "二大王": 1,
+        "张员外": 1,
+        "家院": 1,
+        "刘通": 1
+      },
+      "links": [
+        {
+          "source": "二大王",
+          "target": "刘通",
+          "value": 1
+        },
+        {
+          "source": "二大王",
+          "target": "张员外",
+          "value": 2
+        },
+        {
+          "source": "刘通",
+          "target": "张员外",
+          "value": 1
+        },
+        {
+          "source": "二大王",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "张员外",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 132,
+      "summary": "第五场；第六场",
+      "conflict": 0.798,
+      "importance": 1.0,
+      "locations": {
+        "喜气满华堂": 2
+      },
+      "characters": {
+        "二大王": 1,
+        "燕青": 1,
+        "李逵": 1,
+        "张员外": 1,
+        "家院": 1,
+        "丫鬟": 1
+      },
+      "links": [
+        {
+          "source": "李逵",
+          "target": "燕青",
+          "value": 2
+        },
+        {
+          "source": "家院",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "张员外",
+          "target": "李逵",
+          "value": 2
+        },
+        {
+          "source": "丫鬟",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "张员外",
+          "target": "燕青",
+          "value": 2
+        },
+        {
+          "source": "丫鬟",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "张员外",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "张员外",
+          "value": 1
+        },
+        {
+          "source": "二大王",
+          "target": "张员外",
+          "value": 1
+        },
+        {
+          "source": "二大王",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "二大王",
+          "target": "李逵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 49,
+      "summary": "第七场；第八场",
+      "conflict": 0.357,
+      "importance": 0.824,
+      "locations": {
+        "喜气满华堂": 2
+      },
+      "characters": {
+        "二大王": 1,
+        "燕青": 1,
+        "李逵": 1,
+        "傧相": 1,
+        "刘通": 1
+      },
+      "links": [
+        {
+          "source": "傧相",
+          "target": "刘通",
+          "value": 1
+        },
+        {
+          "source": "刘通",
+          "target": "李逵",
+          "value": 2
+        },
+        {
+          "source": "二大王",
+          "target": "刘通",
+          "value": 2
+        },
+        {
+          "source": "刘通",
+          "target": "燕青",
+          "value": 2
+        },
+        {
+          "source": "傧相",
+          "target": "李逵",
+          "value": 1
+        },
+        {
+          "source": "二大王",
+          "target": "傧相",
+          "value": 1
+        },
+        {
+          "source": "傧相",
+          "target": "燕青",
+          "value": 1
+        },
+        {
+          "source": "二大王",
+          "target": "李逵",
+          "value": 2
+        },
+        {
+          "source": "李逵",
+          "target": "燕青",
+          "value": 2
+        },
+        {
+          "source": "二大王",
+          "target": "燕青",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "喜气满华堂",
+      "characters": [
+        {
+          "name": "刘通",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "独霸高山，自称好汉，逞凶蛮，抢掠银钱，谁不心胆寒！",
+          "rating": -0.5,
+          "role": "副净"
+        }
+      ],
+      "summary": "第一场：1位角色，7行",
+      "firstLine": 1,
+      "lastLine": 7,
+      "numLines": 7,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.503,
+        "conflict": 0.0,
+        "sentiment": -0.12
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "喜气满华堂",
+      "characters": [
+        {
+          "name": "张女",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来在松林下车轮，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "张员外",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走向前来忙跪定，",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "刘通",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第二场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.374,
+        "conflict": 0.0,
+        "sentiment": 0.206
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "喜气满华堂",
+      "characters": [
+        {
+          "name": "二大王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "大哥下山去游玩，为何不见转回还？",
+          "rating": 1.0,
+          "role": "武丑"
+        },
+        {
+          "name": "刘通",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "贤弟有所不知：适才在山下，观见张员外之女，生得十分美貌，愚兄想要将她",
+          "rating": 1.0,
+          "role": "副净"
+        },
+        {
+          "name": "张员外",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第三场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.389,
+        "conflict": 0.667,
+        "sentiment": 0.778
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "喜气满华堂",
+      "characters": [
+        {
+          "name": "二大王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "门上有人么？",
+          "rating": 1.0,
+          "role": "武丑"
+        },
+        {
+          "name": "家院",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张员外",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "何事？",
+          "rating": -1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第四场：3位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.332,
+        "conflict": 0.0,
+        "sentiment": 0.162
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "喜气满华堂",
+      "characters": [
+        {
+          "name": "李逵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "走啊！",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "燕青",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "山上领了大哥命，",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "家院",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是哪一位？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张员外",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "何事？",
+          "rating": -0.333,
+          "role": "末"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第五场：5位角色，120行",
+      "firstLine": 1,
+      "lastLine": 120,
+      "numLines": 120,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.817,
+        "conflict": 0.313,
+        "sentiment": 0.295
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "喜气满华堂",
+      "characters": [
+        {
+          "name": "二大王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "花轿已到，请新人上轿！",
+          "rating": -1.0,
+          "role": "武丑"
+        },
+        {
+          "name": "张员外",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "呵呵，是了。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "燕青",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我上了你的当了，真真岂有此理！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "李逵",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第六场：4位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.557,
+        "conflict": 0.0,
+        "sentiment": -0.503
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "喜气满华堂",
+      "characters": [
+        {
+          "name": "刘通",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "喜气满华堂，打扮做新郎。",
+          "rating": 0.6,
+          "role": "副净"
+        },
+        {
+          "name": "傧相",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "今日喜相逢，刀切两颗葱。好的配好的，蚊子配臭虫。",
+          "rating": 0.333,
+          "role": ""
+        },
+        {
+          "name": "李逵",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "我想啊。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "二大王",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武丑"
+        },
+        {
+          "name": "燕青",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第七场：5位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.95,
+        "conflict": 0.325,
+        "sentiment": 0.557
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "喜气满华堂",
+      "characters": [
+        {
+          "name": "二大王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武丑"
+        },
+        {
+          "name": "燕青",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武生"
+        },
+        {
+          "name": "李逵",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "刘通",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "副净"
+        }
+      ],
+      "summary": "第八场：4位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.63,
+        "conflict": 1.0,
+        "sentiment": 0.2
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李逵",
+      "short": "李逵",
+      "key": "李逵",
+      "quote": "李逵 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "刘通",
+      "short": "刘通",
+      "key": "刘通",
+      "quote": "刘通 — 副净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 副净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "燕青",
+      "short": "燕青",
+      "key": "燕青",
+      "quote": "燕青 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张员外",
+      "short": "张员",
+      "key": "张员外",
+      "quote": "张员外 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二大王",
+      "short": "二大",
+      "key": "二大王",
+      "quote": "二大王 — 武丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 武丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "张女",
+      "short": "张女",
+      "key": "张女",
+      "quote": "张女 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "傧相",
+      "short": "傧相",
+      "key": "傧相",
+      "quote": "傧相 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "喜气满华堂",
+      "key": "喜气满华堂",
+      "quote": "场景发生在喜气满华堂"
+    }
+  ]
+}

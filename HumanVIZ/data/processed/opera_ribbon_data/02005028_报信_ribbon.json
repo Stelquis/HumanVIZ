@@ -1,0 +1,335 @@
+{
+  "title": "报信",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "02005028_报信.json",
+  "source_folder": "02000000",
+  "plot_summary": "歌姬张紫艳闻大王杨林将杀秦琼，因女扮男装，冒充差官，令秦琼速逃往潼关。秦琼恐累张姬，逡巡不肯遽\n逃。张紫艳乃自刎，绝秦琼顾虑，秦始逃往潼关。大王杨林派贺芳来杀秦琼，已早逃远，不能追及云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 99,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "贺芳": 1,
+        "张紫艳": 1,
+        "秦琼": 1,
+        "将官": 1
+      },
+      "links": [
+        {
+          "source": "将官",
+          "target": "张紫艳",
+          "value": 1
+        },
+        {
+          "source": "将官",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "将官",
+          "target": "贺芳",
+          "value": 1
+        },
+        {
+          "source": "张紫艳",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "张紫艳",
+          "target": "贺芳",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "贺芳",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 33,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.5,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "贺芳": 1,
+        "杨林": 1,
+        "张紫艳": 1,
+        "上官仪": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "杨林",
+          "target": "贺芳",
+          "value": 1
+        },
+        {
+          "source": "上官仪",
+          "target": "杨林",
+          "value": 1
+        },
+        {
+          "source": "张紫艳",
+          "target": "杨林",
+          "value": 1
+        },
+        {
+          "source": "杨林",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "上官仪",
+          "target": "贺芳",
+          "value": 1
+        },
+        {
+          "source": "张紫艳",
+          "target": "贺芳",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "贺芳",
+          "value": 1
+        },
+        {
+          "source": "上官仪",
+          "target": "张紫艳",
+          "value": 1
+        },
+        {
+          "source": "上官仪",
+          "target": "秦琼",
+          "value": 1
+        },
+        {
+          "source": "张紫艳",
+          "target": "秦琼",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "将官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "上府传金札，前军拥铁衣。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张紫艳",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "如簧口心性乔，",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "令严鼓角三更静，夜宿貔貅万灶炊。",
+          "rating": -0.667,
+          "role": "生"
+        },
+        {
+          "name": "贺芳",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "付"
+        }
+      ],
+      "summary": "第一场：4位角色，99行",
+      "firstLine": 1,
+      "lastLine": 99,
+      "numLines": 99,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.807,
+        "conflict": 0.5,
+        "sentiment": -0.037
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨林",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "日月依龙德，风云挟豹韬。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "贺芳",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "忙将破胆惊天事，报与金枝玉叶人。",
+          "rating": 0.0,
+          "role": "付"
+        },
+        {
+          "name": "上官仪",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "别号人中杰，威分阃外司。",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "张紫艳",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第二场：5位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.845,
+        "sentiment": -0.132
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "秦琼",
+      "short": "秦琼",
+      "key": "秦琼",
+      "quote": "秦琼 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张紫艳",
+      "short": "张紫",
+      "key": "张紫艳",
+      "quote": "张紫艳 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "杨林",
+      "short": "杨林",
+      "key": "杨林",
+      "quote": "杨林 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "贺芳",
+      "short": "贺芳",
+      "key": "贺芳",
+      "quote": "贺芳 — 付",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 付",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "上官仪",
+      "short": "上官",
+      "key": "上官仪",
+      "quote": "上官仪 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "将官",
+      "short": "将官",
+      "key": "将官",
+      "quote": "将官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

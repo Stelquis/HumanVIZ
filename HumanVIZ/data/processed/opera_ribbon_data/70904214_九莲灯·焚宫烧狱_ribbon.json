@@ -1,0 +1,363 @@
+{
+  "title": "九莲灯·焚宫烧狱",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70904214_九莲灯·焚宫烧狱.json",
+  "source_folder": "70904000",
+  "plot_summary": "上帝因晋室皇帝逆天不道，乱法滥刑，敕命火灵圣母率火部众神下凡，焚烧宫闱刑狱。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 28,
+      "summary": "第1场；第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "圣母上高台": 2
+      },
+      "characters": {
+        "众仙童": 1,
+        "天使": 1,
+        "火灵圣母": 1
+      },
+      "links": [
+        {
+          "source": "天使",
+          "target": "火灵圣母",
+          "value": 1
+        },
+        {
+          "source": "众仙童",
+          "target": "火灵圣母",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 37,
+      "summary": "第3场；第4场",
+      "conflict": 0.157,
+      "importance": 1.0,
+      "locations": {
+        "圣母上高台": 2
+      },
+      "characters": {
+        "火炬星君": 1,
+        "火灵圣母": 1
+      },
+      "links": [
+        {
+          "source": "火灵圣母",
+          "target": "火炬星君",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 7,
+      "summary": "第5场；第6场",
+      "conflict": 0.16,
+      "importance": 0.292,
+      "locations": {
+        "圣母上高台": 2
+      },
+      "characters": {
+        "火鸦军": 1,
+        "火炬星君": 1,
+        "火灵圣母": 1
+      },
+      "links": [
+        {
+          "source": "火灵圣母",
+          "target": "火炬星君",
+          "value": 1
+        },
+        {
+          "source": "火炬星君",
+          "target": "火鸦军",
+          "value": 1
+        },
+        {
+          "source": "火灵圣母",
+          "target": "火鸦军",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "圣母上高台",
+      "characters": [
+        {
+          "name": "天使",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "玉旨下，火灵圣母接旨。",
+          "rating": 0.6,
+          "role": ""
+        },
+        {
+          "name": "火灵圣母",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "迎接天使。",
+          "rating": 0.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第1场：2位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.762,
+        "conflict": 0.0,
+        "sentiment": 0.52
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "圣母上高台",
+      "characters": [
+        {
+          "name": "火灵圣母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "传谕火部诸神，尘凡去者。",
+          "rating": 0.6,
+          "role": "武旦"
+        },
+        {
+          "name": "众仙童",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：2位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.754,
+        "conflict": 0.0,
+        "sentiment": 0.52
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "圣母上高台",
+      "characters": [
+        {
+          "name": "火灵圣母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一轮明月出海陬，",
+          "rating": 0.0,
+          "role": "武旦"
+        },
+        {
+          "name": "火炬星君",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第3场：2位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.796,
+        "conflict": 0.526,
+        "sentiment": 0.167
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "圣母上高台",
+      "characters": [
+        {
+          "name": "火灵圣母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "呀呀呀，倾刻间晋国喧如吼，",
+          "rating": -0.333,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第4场：1位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.758,
+        "conflict": 0.0,
+        "sentiment": 0.01
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "圣母上高台",
+      "characters": [
+        {
+          "name": "火炬星君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "烧牢已毕。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "火灵圣母",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "回复玉帝者。",
+          "rating": 0.0,
+          "role": "武旦"
+        },
+        {
+          "name": "火鸦军",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第5场：3位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.721,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 6,
+      "name": "第6场",
+      "location": "圣母上高台",
+      "characters": [],
+      "summary": "第6场：0位角色，2行",
+      "firstLine": 1,
+      "lastLine": 2,
+      "numLines": 2,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.008,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "火灵圣母",
+      "short": "火灵",
+      "key": "火灵圣母",
+      "quote": "火灵圣母 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "天使",
+      "short": "天使",
+      "key": "天使",
+      "quote": "天使 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "火炬星君",
+      "short": "火炬",
+      "key": "火炬星君",
+      "quote": "火炬星君 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众仙童",
+      "short": "众仙",
+      "key": "众仙童",
+      "quote": "众仙童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "火鸦军",
+      "short": "火鸦",
+      "key": "火鸦军",
+      "quote": "火鸦军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "圣母上高台",
+      "key": "圣母上高台",
+      "quote": "场景发生在圣母上高台"
+    }
+  ]
+}

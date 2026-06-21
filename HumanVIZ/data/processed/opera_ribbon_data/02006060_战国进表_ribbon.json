@@ -1,0 +1,426 @@
+{
+  "title": "战国进表",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "02006060_战国进表.json",
+  "source_folder": "02000000",
+  "plot_summary": "西凉代战国王，因中原连年荒旱，思乘机叛乱，夺取江山，特派人进来战表。唐王阅后，不得已派兵往讨云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 25,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.551,
+      "locations": {
+        "凤阁与龙楼": 1
+      },
+      "characters": {
+        "卜荷": 1,
+        "唐王": 1
+      },
+      "links": [
+        {
+          "source": "卜荷",
+          "target": "唐王",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 47,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "凤阁与龙楼": 1
+      },
+      "characters": {
+        "内侍": 1,
+        "卜荷": 1,
+        "代战王": 1
+      },
+      "links": [
+        {
+          "source": "代战王",
+          "target": "内侍",
+          "value": 1
+        },
+        {
+          "source": "代战王",
+          "target": "卜荷",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "卜荷",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 64,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "凤阁与龙楼": 1
+      },
+      "characters": {
+        "太监甲": 1,
+        "李子忠": 1,
+        "代战王": 1,
+        "众太监": 1,
+        "唐王": 1,
+        "使臣": 1
+      },
+      "links": [
+        {
+          "source": "使臣",
+          "target": "李子忠",
+          "value": 1
+        },
+        {
+          "source": "众太监",
+          "target": "使臣",
+          "value": 1
+        },
+        {
+          "source": "使臣",
+          "target": "唐王",
+          "value": 1
+        },
+        {
+          "source": "使臣",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "代战王",
+          "target": "使臣",
+          "value": 1
+        },
+        {
+          "source": "众太监",
+          "target": "李子忠",
+          "value": 1
+        },
+        {
+          "source": "唐王",
+          "target": "李子忠",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "李子忠",
+          "value": 1
+        },
+        {
+          "source": "代战王",
+          "target": "李子忠",
+          "value": 1
+        },
+        {
+          "source": "众太监",
+          "target": "唐王",
+          "value": 1
+        },
+        {
+          "source": "众太监",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "代战王",
+          "target": "众太监",
+          "value": 1
+        },
+        {
+          "source": "唐王",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "代战王",
+          "target": "唐王",
+          "value": 1
+        },
+        {
+          "source": "代战王",
+          "target": "太监甲",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "凤阁与龙楼",
+      "characters": [
+        {
+          "name": "卜荷",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "身居将帅逞英豪，方显男儿志量高。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "唐王",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：2位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.796,
+        "conflict": 0.667,
+        "sentiment": 0.587
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "凤阁与龙楼",
+      "characters": [
+        {
+          "name": "代战王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "香绕拱门，一心坐九重。",
+          "rating": 0.143,
+          "role": "外"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "卜荷",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "一步入金阙，奏与圣明君。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：3位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.747,
+        "conflict": 1.0,
+        "sentiment": 0.385
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "凤阁与龙楼",
+      "characters": [
+        {
+          "name": "使臣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "奉旨打战表，急急到天朝。",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "李子忠",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "执掌黄门侍奉君，金阶玉路色色新。为人若是全忠孝，臣奉君来子奉亲。",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "众太监",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "咦咦。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "唐王",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "河清海晏，一统江山。",
+          "rating": 0.6,
+          "role": "老生"
+        },
+        {
+          "name": "太监甲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "代战王",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第三场：6位角色，64行",
+      "firstLine": 1,
+      "lastLine": 64,
+      "numLines": 64,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.36,
+        "sentiment": 0.479
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "代战王",
+      "short": "代战",
+      "key": "代战王",
+      "quote": "代战王 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "唐王",
+      "short": "唐王",
+      "key": "唐王",
+      "quote": "唐王 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "卜荷",
+      "short": "卜荷",
+      "key": "卜荷",
+      "quote": "卜荷 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "李子忠",
+      "short": "李子",
+      "key": "李子忠",
+      "quote": "李子忠 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "使臣",
+      "short": "使臣",
+      "key": "使臣",
+      "quote": "使臣 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "太监甲",
+      "short": "太监",
+      "key": "太监甲",
+      "quote": "太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内侍",
+      "short": "内侍",
+      "key": "内侍",
+      "quote": "内侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众太监",
+      "short": "众太",
+      "key": "众太监",
+      "quote": "众太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "凤阁与龙楼",
+      "key": "凤阁与龙楼",
+      "quote": "场景发生在凤阁与龙楼"
+    }
+  ]
+}

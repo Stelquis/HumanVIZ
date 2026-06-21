@@ -1,0 +1,151 @@
+{
+  "title": "除三害",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 2,
+  "num_locations": 1,
+  "source_file": "01014009_除三害.json",
+  "source_folder": "01000000",
+  "plot_summary": "西晋周处，秉性爽直，自幼未曾受家庭教育，恒有不规则之行为，而且勇猛过人，专以武力欺凌乡里，大都\n侧目而视，不敢与之计较。宜兴太守王晋，素知周处系可造才，深为惋惜，意欲激发其天良，使之幡然自悔，\n以成大器。乃改换装束，伺于道旁，睨周处长叹。周处以为此老必受人侮辱，愿抱不平，代为报复。叩其\n故，王晋曰是处近出三害，乡人不获宁居，因而愁闷。周处欲其指正三害之实，王晋曰一为长桥下蛟，不时\n兴波作浪，害田中禾稼；二为南山猛虎，不时出来伤人，害及行路；三则不言。周处固问之，王晋附耳告曰：\n“三害即汝也！汝不明道德，平日横行不法，畏汝甚于蛟虎。”周处被其激发，所谓良知良能，尽情披露，\n对王晋曰：“易为也，盍少待之。”遂入长桥下水中斩蛟，往南山中射杀猛虎，然后至云间陆基、陆云二\n名士处求学，卒成通儒，殉节于数机能之难，增史册之光焉。",
+  "performance_notes": "此剧可见生、净唱做工夫，颇成善本。惟时下素不重视，沪上各舞台，鼎鼎大名之艺员，未见一演。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 88,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "周处": 1,
+        "王晋": 1
+      },
+      "links": [
+        {
+          "source": "周处",
+          "target": "王晋",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.108,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "王晋": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王晋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "巧装打扮出衙厅，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "周处",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吓嚇！",
+          "rating": -0.2,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：2位角色，88行",
+      "firstLine": 1,
+      "lastLine": 88,
+      "numLines": 88,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.642,
+        "sentiment": 0.2
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王晋",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "呵哈哈哈哈！",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.582,
+        "conflict": 0.0,
+        "sentiment": 0.827
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "周处",
+      "short": "周处",
+      "key": "周处",
+      "quote": "周处 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "王晋",
+      "short": "王晋",
+      "key": "王晋",
+      "quote": "王晋 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

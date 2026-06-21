@@ -1,0 +1,2095 @@
+{
+  "title": "闹东京",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 7,
+  "num_scenes": 14,
+  "num_characters": 35,
+  "num_locations": 1,
+  "source_file": "03053005_闹东京.json",
+  "source_folder": "03000000",
+  "plot_summary": "书生施俊上京考试，为白鼠精所悉。白鼠精假扮施俊，调戏施妻。施俊回大怒，控于首相王延龄。王延龄亦\n难辨真假，转案于包拯。五鼠精变假包拯以扰之。包拯请来李天王降妖。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 52,
+      "summary": "第一场；第二场",
+      "conflict": 0.031,
+      "importance": 0.635,
+      "locations": {
+        "李天王上台": 2
+      },
+      "characters": {
+        "四小妖": 1,
+        "白鼠仙": 1,
+        "施俊": 1,
+        "书童": 1,
+        "丫鬟": 1,
+        "何氏": 1
+      },
+      "links": [
+        {
+          "source": "四小妖",
+          "target": "白鼠仙",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "何氏",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "何氏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "书童",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "何氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 92,
+      "summary": "第三场；第四场",
+      "conflict": 0.527,
+      "importance": 1.0,
+      "locations": {
+        "李天王上台": 2
+      },
+      "characters": {
+        "假书生": 1,
+        "四小妖": 1,
+        "假店家": 1,
+        "白鼠仙": 1,
+        "施俊": 1,
+        "书童": 1,
+        "小妖甲": 1,
+        "四假店家": 1,
+        "假施俊": 1
+      },
+      "links": [
+        {
+          "source": "小妖甲",
+          "target": "白鼠仙",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "小妖甲",
+          "value": 1
+        },
+        {
+          "source": "假书生",
+          "target": "小妖甲",
+          "value": 1
+        },
+        {
+          "source": "四假店家",
+          "target": "小妖甲",
+          "value": 1
+        },
+        {
+          "source": "四小妖",
+          "target": "白鼠仙",
+          "value": 1
+        },
+        {
+          "source": "假书生",
+          "target": "白鼠仙",
+          "value": 1
+        },
+        {
+          "source": "四假店家",
+          "target": "白鼠仙",
+          "value": 1
+        },
+        {
+          "source": "假书生",
+          "target": "四小妖",
+          "value": 1
+        },
+        {
+          "source": "四假店家",
+          "target": "四小妖",
+          "value": 1
+        },
+        {
+          "source": "假书生",
+          "target": "四假店家",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "假店家",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "假书生",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "假店家",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "假书生",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "假施俊",
+          "value": 1
+        },
+        {
+          "source": "假书生",
+          "target": "假店家",
+          "value": 1
+        },
+        {
+          "source": "假店家",
+          "target": "假施俊",
+          "value": 1
+        },
+        {
+          "source": "假书生",
+          "target": "假施俊",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 47,
+      "summary": "第五场；第六场",
+      "conflict": 0.422,
+      "importance": 0.574,
+      "locations": {
+        "李天王上台": 2
+      },
+      "characters": {
+        "施俊": 1,
+        "王延龄": 1,
+        "丫鬟": 1,
+        "何氏": 1,
+        "假施俊": 1
+      },
+      "links": [
+        {
+          "source": "何氏",
+          "target": "假施俊",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "假施俊",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "何氏",
+          "value": 1
+        },
+        {
+          "source": "何氏",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "施俊",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 157,
+      "summary": "第七场；第八场",
+      "conflict": 0.805,
+      "importance": 1.0,
+      "locations": {
+        "李天王上台": 2
+      },
+      "characters": {
+        "旗牌": 1,
+        "施俊啊": 1,
+        "主延龄": 1,
+        "二青袍": 1,
+        "四青袍": 1,
+        "施俊": 1,
+        "书童": 1,
+        "王延龄": 1,
+        "何氏": 1,
+        "假施俊": 1
+      },
+      "links": [
+        {
+          "source": "书童",
+          "target": "何氏",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "假施俊",
+          "value": 1
+        },
+        {
+          "source": "书童",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "何氏",
+          "target": "假施俊",
+          "value": 2
+        },
+        {
+          "source": "何氏",
+          "target": "施俊",
+          "value": 2
+        },
+        {
+          "source": "假施俊",
+          "target": "施俊",
+          "value": 2
+        },
+        {
+          "source": "假施俊",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "施俊",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "何氏",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "施俊啊",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "主延龄",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "二青袍",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "施俊啊",
+          "value": 1
+        },
+        {
+          "source": "主延龄",
+          "target": "假施俊",
+          "value": 1
+        },
+        {
+          "source": "二青袍",
+          "target": "假施俊",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "何氏",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "施俊啊",
+          "value": 1
+        },
+        {
+          "source": "主延龄",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "二青袍",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "施俊",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "施俊",
+          "target": "施俊啊",
+          "value": 1
+        },
+        {
+          "source": "主延龄",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "二青袍",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "何氏",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "施俊啊",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "主延龄",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "二青袍",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "何氏",
+          "target": "施俊啊",
+          "value": 1
+        },
+        {
+          "source": "主延龄",
+          "target": "何氏",
+          "value": 1
+        },
+        {
+          "source": "二青袍",
+          "target": "何氏",
+          "value": 1
+        },
+        {
+          "source": "主延龄",
+          "target": "施俊啊",
+          "value": 1
+        },
+        {
+          "source": "二青袍",
+          "target": "施俊啊",
+          "value": 1
+        },
+        {
+          "source": "主延龄",
+          "target": "二青袍",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 45,
+      "summary": "第九场；第十场",
+      "conflict": 0.536,
+      "importance": 0.55,
+      "locations": {
+        "李天王上台": 2
+      },
+      "characters": {
+        "包拯": 1,
+        "长尾仙": 1,
+        "过梁仙": 1,
+        "地里仙": 1,
+        "腾云仙": 1,
+        "王延龄": 1,
+        "施俊": 1,
+        "陈忠": 1
+      },
+      "links": [
+        {
+          "source": "地里仙",
+          "target": "过梁仙",
+          "value": 1
+        },
+        {
+          "source": "地里仙",
+          "target": "长尾仙",
+          "value": 1
+        },
+        {
+          "source": "地里仙",
+          "target": "腾云仙",
+          "value": 1
+        },
+        {
+          "source": "地里仙",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "过梁仙",
+          "target": "长尾仙",
+          "value": 1
+        },
+        {
+          "source": "腾云仙",
+          "target": "过梁仙",
+          "value": 1
+        },
+        {
+          "source": "施俊",
+          "target": "过梁仙",
+          "value": 1
+        },
+        {
+          "source": "腾云仙",
+          "target": "长尾仙",
+          "value": 1
+        },
+        {
+          "source": "施俊",
+          "target": "长尾仙",
+          "value": 1
+        },
+        {
+          "source": "施俊",
+          "target": "腾云仙",
+          "value": 1
+        },
+        {
+          "source": "王延龄",
+          "target": "陈忠",
+          "value": 1
+        },
+        {
+          "source": "施俊",
+          "target": "陈忠",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "陈忠",
+          "value": 1
+        },
+        {
+          "source": "施俊",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "施俊",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 2,
+      "numLines": 106,
+      "summary": "第十一场；第十二场",
+      "conflict": 1.235,
+      "importance": 1.0,
+      "locations": {
+        "李天王上台": 2
+      },
+      "characters": {
+        "包拯": 1,
+        "长尾仙": 1,
+        "四青袍": 1,
+        "施俊": 1,
+        "六小妖": 1,
+        "假包拯": 1,
+        "假赵虎": 1,
+        "赵虎": 1,
+        "假施俊": 1
+      },
+      "links": [
+        {
+          "source": "包拯",
+          "target": "赵虎",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "四青袍",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "施俊",
+          "value": 2
+        },
+        {
+          "source": "四青袍",
+          "target": "赵虎",
+          "value": 1
+        },
+        {
+          "source": "施俊",
+          "target": "赵虎",
+          "value": 1
+        },
+        {
+          "source": "四青袍",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "六小妖",
+          "target": "长尾仙",
+          "value": 1
+        },
+        {
+          "source": "假赵虎",
+          "target": "长尾仙",
+          "value": 1
+        },
+        {
+          "source": "假包拯",
+          "target": "长尾仙",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "长尾仙",
+          "value": 1
+        },
+        {
+          "source": "施俊",
+          "target": "长尾仙",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "长尾仙",
+          "value": 1
+        },
+        {
+          "source": "假赵虎",
+          "target": "六小妖",
+          "value": 1
+        },
+        {
+          "source": "假包拯",
+          "target": "六小妖",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "六小妖",
+          "value": 1
+        },
+        {
+          "source": "六小妖",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "六小妖",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "假包拯",
+          "target": "假赵虎",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "假赵虎",
+          "value": 1
+        },
+        {
+          "source": "假赵虎",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "假赵虎",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "假包拯",
+          "target": "假施俊",
+          "value": 1
+        },
+        {
+          "source": "假包拯",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "假包拯",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "施俊",
+          "value": 1
+        },
+        {
+          "source": "假施俊",
+          "target": "包拯",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第7章",
+      "numScenes": 2,
+      "numLines": 74,
+      "summary": "第十三场；第十四场",
+      "conflict": 0.4,
+      "importance": 0.904,
+      "locations": {
+        "李天王上台": 2
+      },
+      "characters": {
+        "包拯": 1,
+        "八天将": 1,
+        "众人": 1,
+        "哪吒": 1,
+        "杨戬": 1,
+        "四孩儿兵": 1,
+        "功曹": 1,
+        "李天王": 1,
+        "佛祖": 1
+      },
+      "links": [
+        {
+          "source": "功曹",
+          "target": "包拯",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "李天王",
+          "value": 1
+        },
+        {
+          "source": "李天王",
+          "target": "杨戬",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "李天王",
+          "value": 1
+        },
+        {
+          "source": "四孩儿兵",
+          "target": "李天王",
+          "value": 1
+        },
+        {
+          "source": "佛祖",
+          "target": "李天王",
+          "value": 1
+        },
+        {
+          "source": "八天将",
+          "target": "李天王",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "杨戬",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "哪吒",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "四孩儿兵",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "佛祖",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "八天将",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "杨戬",
+          "value": 1
+        },
+        {
+          "source": "四孩儿兵",
+          "target": "杨戬",
+          "value": 1
+        },
+        {
+          "source": "佛祖",
+          "target": "杨戬",
+          "value": 1
+        },
+        {
+          "source": "八天将",
+          "target": "杨戬",
+          "value": 1
+        },
+        {
+          "source": "哪吒",
+          "target": "四孩儿兵",
+          "value": 1
+        },
+        {
+          "source": "佛祖",
+          "target": "哪吒",
+          "value": 1
+        },
+        {
+          "source": "八天将",
+          "target": "哪吒",
+          "value": 1
+        },
+        {
+          "source": "佛祖",
+          "target": "四孩儿兵",
+          "value": 1
+        },
+        {
+          "source": "八天将",
+          "target": "四孩儿兵",
+          "value": 1
+        },
+        {
+          "source": "佛祖",
+          "target": "八天将",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "四小妖",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "白鼠仙",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "五色云高，祥光缭绕，妖气扰，地动山摇，个个威风浩。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.173,
+        "conflict": 0.0,
+        "sentiment": 0.767
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "施俊",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "云散明金阙，心清爱玉壶。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "书童",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "何氏",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "梳罢妆台晚，又到画堂深。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.519,
+        "conflict": 0.0,
+        "sentiment": 0.798
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "小妖甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来此山前。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "白鼠仙",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "闪开了！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四小妖",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "假书生",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "好酒贪花，杏花村内是吾家；我今寻找，俊悄女姣娃。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四假店家",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：5位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.34,
+        "conflict": 0.0,
+        "sentiment": 0.778
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "施俊",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "方才离了桃花坞，",
+          "rating": -0.2,
+          "role": "小生"
+        },
+        {
+          "name": "书童",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "相公，这儿有座旅店，安宿一夜再走吧。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "假店家",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "来啦！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "假书生",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "玩月人何处，风景依旧时。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "假施俊",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "我今变作施俊样，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：5位角色，73行",
+      "firstLine": 1,
+      "lastLine": 73,
+      "numLines": 73,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.586,
+        "conflict": 0.118,
+        "sentiment": 0.251
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "假施俊",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "山中也有人行路，水深岂无过渡人。",
+          "rating": 0.6,
+          "role": "小生"
+        },
+        {
+          "name": "何氏",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "歌管楼台声细细，",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "待我看来。是哪个？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "施俊",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "山中也有人行路，水深岂无过渡人。",
+          "rating": 0.6,
+          "role": "小生"
+        }
+      ],
+      "summary": "第五场：4位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.519,
+        "conflict": 0.202,
+        "sentiment": 0.338
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "王延龄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "名振朝纲，奉君王，忠心浩荡。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.088,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "书童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "主人一句话，怎敢慢迟捱。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "何氏",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "鸟鸣春日暖，花绿五风和。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "假施俊",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "施俊",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来了！",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第七场：4位角色，56行",
+      "firstLine": 1,
+      "lastLine": 56,
+      "numLines": 56,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.551,
+        "conflict": 0.308,
+        "sentiment": -0.016
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "王延龄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "宋王本是有道君，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "假施俊",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "启相爷：两个书生喊冤。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "施俊",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "走！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "何氏",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "结发之夫难相认，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "施俊啊",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "娘子，我与你数载夫妻，难道你就不认得我么？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "主延龄",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "这就是了。下面听审！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二青袍",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：9位角色，101行",
+      "firstLine": 1,
+      "lastLine": 101,
+      "numLines": 101,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.645,
+        "conflict": 0.086,
+        "sentiment": 0.789
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "地里仙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "瑞海洞中我为仙，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "过梁仙",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "修行学道几千年。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "长尾仙",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "兄妹未曾成正果，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "腾云仙",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "要把宋朝化洞天。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "施俊",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第九场：5位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.49,
+        "conflict": 0.0,
+        "sentiment": 0.235
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "陈忠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "朝朝随驾走，时时伴龙行。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "王延龄",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "圣贤相际会，海岳共清明。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "施俊",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "包拯",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十场：4位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.604,
+        "conflict": 0.0,
+        "sentiment": 0.771
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "解君忧，除民患难；整山河，扫尽烽烟。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "赵虎",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四青袍",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "施俊",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十一场：4位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.6,
+        "conflict": 0.0,
+        "sentiment": -0.413
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "长尾仙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "真个奇来真个妙，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "六小妖",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "假赵虎",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我等变得可像？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "假包拯",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "哈哈哈……",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "假施俊",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "大人在上。生员叩头！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "施俊",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "大人在上。生员叩头！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "包拯",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "哈哈哈……",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第十二场：7位角色，90行",
+      "firstLine": 1,
+      "lastLine": 90,
+      "numLines": 90,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.888,
+        "conflict": 0.22,
+        "sentiment": 0.822
+      }
+    },
+    {
+      "number": 13,
+      "name": "第十三场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "包拯",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "来在乌台气象雄，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "功曹",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来也！",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十三场：2位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.384,
+        "conflict": 0.0,
+        "sentiment": 0.806
+      }
+    },
+    {
+      "number": 14,
+      "name": "第十四场",
+      "location": "李天王上台",
+      "characters": [
+        {
+          "name": "李天王",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "玉旨钦差，",
+          "rating": 0.6,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨戬",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "群妖骁勇，如何是好？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "哪吒",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "遣孩儿兵擒他便了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四孩儿兵",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "negative",
+          "quote": "啊！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "佛祖",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "佛祖驾到！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "八天将",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "negative",
+          "quote": "啊！",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十四场：7位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.421,
+        "conflict": 0.348,
+        "sentiment": 0.406
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "包拯",
+      "short": "包拯",
+      "key": "包拯",
+      "quote": "包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "假包拯",
+      "short": "假包",
+      "key": "假包拯",
+      "quote": "假包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "施俊",
+      "short": "施俊",
+      "key": "施俊",
+      "quote": "施俊 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "假施俊",
+      "short": "假施",
+      "key": "假施俊",
+      "quote": "假施俊 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "假书生",
+      "short": "假书",
+      "key": "假书生",
+      "quote": "假书生 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "施俊啊",
+      "short": "施俊",
+      "key": "施俊啊",
+      "quote": "施俊啊 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四小妖",
+      "short": "四小",
+      "key": "四小妖",
+      "quote": "四小妖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "假店家",
+      "short": "假店",
+      "key": "假店家",
+      "quote": "假店家 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杨戬",
+      "short": "杨戬",
+      "key": "杨戬",
+      "quote": "杨戬 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "白鼠仙",
+      "short": "白鼠",
+      "key": "白鼠仙",
+      "quote": "白鼠仙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "书童",
+      "short": "书童",
+      "key": "书童",
+      "quote": "书童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "功曹",
+      "short": "功曹",
+      "key": "功曹",
+      "quote": "功曹 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "何氏",
+      "short": "何氏",
+      "key": "何氏",
+      "quote": "何氏 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "假赵虎",
+      "short": "假赵",
+      "key": "假赵虎",
+      "quote": "假赵虎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "长尾仙",
+      "short": "长尾",
+      "key": "长尾仙",
+      "quote": "长尾仙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八天将",
+      "short": "八天",
+      "key": "八天将",
+      "quote": "八天将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "哪吒",
+      "short": "哪吒",
+      "key": "哪吒",
+      "quote": "哪吒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "佛祖",
+      "short": "佛祖",
+      "key": "佛祖",
+      "quote": "佛祖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵虎",
+      "short": "赵虎",
+      "key": "赵虎",
+      "quote": "赵虎 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "过梁仙",
+      "short": "过梁",
+      "key": "过梁仙",
+      "quote": "过梁仙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "主延龄",
+      "short": "主延",
+      "key": "主延龄",
+      "quote": "主延龄 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二青袍",
+      "short": "二青",
+      "key": "二青袍",
+      "quote": "二青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四青袍",
+      "short": "四青",
+      "key": "四青袍",
+      "quote": "四青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王延龄",
+      "short": "王延",
+      "key": "王延龄",
+      "quote": "王延龄 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陈忠",
+      "short": "陈忠",
+      "key": "陈忠",
+      "quote": "陈忠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "地里仙",
+      "short": "地里",
+      "key": "地里仙",
+      "quote": "地里仙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "腾云仙",
+      "short": "腾云",
+      "key": "腾云仙",
+      "quote": "腾云仙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四孩儿兵",
+      "short": "四孩",
+      "key": "四孩儿兵",
+      "quote": "四孩儿兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "六小妖",
+      "short": "六小",
+      "key": "六小妖",
+      "quote": "六小妖 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李天王",
+      "short": "李天",
+      "key": "李天王",
+      "quote": "李天王 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小妖甲",
+      "short": "小妖",
+      "key": "小妖甲",
+      "quote": "小妖甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四假店家",
+      "short": "四假",
+      "key": "四假店家",
+      "quote": "四假店家 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "李天王上台",
+      "key": "李天王上台",
+      "quote": "场景发生在李天王上台"
+    }
+  ]
+}

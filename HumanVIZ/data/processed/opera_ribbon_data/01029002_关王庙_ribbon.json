@@ -1,0 +1,323 @@
+{
+  "title": "关王庙",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "01029002_关王庙.json",
+  "source_folder": "01000000",
+  "plot_summary": "王三公子相识玉堂春之后，身带数万金，尽行开支嫖费，分文无剩，犹复恋恋不舍，自以为与玉堂春如胶似\n漆，不忍相离，殊不知已为老鸨所厌弃。大凡为老鸨者，得普通传授之心法，但知注重者利，欢迎者财，\n“情义”二字，向来置之度外。嫖客之报效，或金或银，或珠宝，或衣物，如韩信将兵，多多益善，决不嫌其\n数之溢出也。一至金尽床头，遽加白眼，昔日患其少来，今则欲其不来矣。即使妓女真有爱情，迫于老鸨之\n势，亦无可如何。然真爱情能真有几许耶？玉堂春确系真爱情，并不辜负王三公子，而王三公子之受困受窘\n受辱，因玉堂春一人而致此。被老鸨驱逐出院后，无处存身，逗留关王庙内，所谓回不得家乡，见不得爹娘，\n即为王三公子目前之景象，并且衣衫褴褛，形如乞丐，无如执迷不悟，总不能忘怀于玉堂春。央人通信，\n欲玉堂春到庙中，暂叙情愫。玉堂春遂于老鸨前，托言腹痛，须到关王庙还愿，否则病必危。老鸨视玉堂春\n为钱树子，不忍拂其意，央人伴送前往，二人得以见面。玉堂春规劝一番，赠银三百两，作为入京应试之费。\n演至此处，遂闭幕焉。",
+  "performance_notes": "是剧在王三公子嫖院之后，即在《苏三起解》、《三堂会审》之前也。\n昔为伍月仙拿手好戏，每逢星期六必排演此剧。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 133,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "在北楼": 1
+      },
+      "characters": {
+        "鸨儿": 1,
+        "玉堂春": 1,
+        "忘八": 1,
+        "王金龙": 1,
+        "金哥": 1
+      },
+      "links": [
+        {
+          "source": "玉堂春",
+          "target": "金哥",
+          "value": 1
+        },
+        {
+          "source": "玉堂春",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "忘八",
+          "target": "玉堂春",
+          "value": 1
+        },
+        {
+          "source": "玉堂春",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "金哥",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "忘八",
+          "target": "金哥",
+          "value": 1
+        },
+        {
+          "source": "王金龙",
+          "target": "金哥",
+          "value": 1
+        },
+        {
+          "source": "忘八",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "王金龙",
+          "target": "鸨儿",
+          "value": 1
+        },
+        {
+          "source": "忘八",
+          "target": "王金龙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 75,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.721,
+      "locations": {
+        "在北楼": 1
+      },
+      "characters": {
+        "忘八": 1,
+        "金哥": 1,
+        "王金龙": 1,
+        "玉堂春": 1
+      },
+      "links": [
+        {
+          "source": "玉堂春",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "王金龙",
+          "target": "金哥",
+          "value": 1
+        },
+        {
+          "source": "忘八",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "玉堂春",
+          "target": "金哥",
+          "value": 1
+        },
+        {
+          "source": "忘八",
+          "target": "玉堂春",
+          "value": 1
+        },
+        {
+          "source": "忘八",
+          "target": "金哥",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "在北楼",
+      "characters": [
+        {
+          "name": "玉堂春",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "将身儿来至在北楼之上，",
+          "rating": -0.143,
+          "role": "花旦"
+        },
+        {
+          "name": "金哥",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "急急忙忙往前行，",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "鸨儿",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哎呀，我的宝贝儿啊，为何这等模样？",
+          "rating": 0.0,
+          "role": "丑旦"
+        },
+        {
+          "name": "忘八",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "咳，阎王爷在上，我忘八。",
+          "rating": 1.0,
+          "role": "付"
+        },
+        {
+          "name": "王金龙",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：5位角色，133行",
+      "firstLine": 1,
+      "lastLine": 133,
+      "numLines": 133,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.41,
+        "sentiment": -0.022
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "在北楼",
+      "characters": [
+        {
+          "name": "王金龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "金哥一去无音信，",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "玉堂春",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "金哥带路。",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "金哥",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "到了到了。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "忘八",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "付"
+        }
+      ],
+      "summary": "第二场：4位角色，75行",
+      "firstLine": 1,
+      "lastLine": 75,
+      "numLines": 75,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.94,
+        "conflict": 0.351,
+        "sentiment": -0.029
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "玉堂春",
+      "short": "玉堂",
+      "key": "玉堂春",
+      "quote": "玉堂春 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王金龙",
+      "short": "王金",
+      "key": "王金龙",
+      "quote": "王金龙 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "金哥",
+      "short": "金哥",
+      "key": "金哥",
+      "quote": "金哥 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "忘八",
+      "short": "忘八",
+      "key": "忘八",
+      "quote": "忘八 — 付",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 付",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "鸨儿",
+      "short": "鸨儿",
+      "key": "鸨儿",
+      "quote": "鸨儿 — 丑旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 丑旦",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "在北楼",
+      "key": "在北楼",
+      "quote": "场景发生在在北楼"
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "title": "将相和",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 8,
+  "num_characters": 8,
+  "num_locations": 2,
+  "source_file": "01022001_将相和.json",
+  "source_folder": "01000000",
+  "plot_summary": "战国时，秦最强大。赵有和氏璧，为无价之宝。秦王愿以十五城易之。蔺相如奉命使秦，见秦王受璧，并无\n偿城之意。蔺相如仍诳得此璧，怀之而归。后于渑池会上，秦王欲辱赵王，使之当众鼓瑟。蔺相如立逼秦王\n击缶，以为抵制。从此秦王不敢轻赵，而蔺相如亦名显诸侯矣。赵王爵以上卿，封为相国，赫赫然位冠百僚。\n赵将廉颇，智勇兼全，为诸侯所畏重。其所以位高爵者，是亦身经百战而得之。乃与蔺相如比并，犹有所\n不及。蔺相如一儒生资格，徒恃口舌以博取功名，反高出于自己之上，不平实甚焉。意欲窘辱蔺相如，以洩\n其气。俟蔺相如入朝，率领麾下将弁，守候于必经之路。事为蔺相如所闻，命从者避道而行，不与计较。廉\n颇又出其前，蔺相如又避之。廉颇非常疑惑，暗想蔺相如不应如是懦怯，恐有挟恨陷害之计。然蔺相如之心，\n以为二人在赵，文武各尽其用。秦之所以不敢加兵于赵者，有二人故耳。若使将相不和，秦必乘隙而来，\n赵亡无日矣。蔺相如以国家为重，未尝稍萌私见。廉颇探知其故，恍然大悟。即至蔺相如府中，负荆请罪。\n蔺相如毫不芥蒂。二人遂结为刎劲交。终二人之世，赵国得安然无事。",
+  "performance_notes": "此剧事实，出于《东周列国志》说部中。与正史上并不枘凿。惟加以点缀耳。剧本系名伶汪笑侬之手笔。措\n词命意，迥与他剧本不同。中间几处说白，于政界中人，寓有箴规之意，允称高尚。去岁笑侬在沪上後一台，\n串演此剧，卖座为之一空。其魔力之广大，有如此者。近见共舞台客串某，步笑侬之后尘，嗓音尚觉清亮，\n而于态度举动，似嫌鄙俗，不合大臣身分。倘能加以琢磨功夫，亦属伶界中之不多得者也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 47,
+      "summary": "第一场；第二场",
+      "conflict": 0.239,
+      "importance": 0.8,
+      "locations": {
+        "来此蔺相府": 2
+      },
+      "characters": {
+        "四校尉": 1,
+        "廉颇": 1,
+        "蔺相如": 1,
+        "侍卫": 1,
+        "李贤": 1
+      },
+      "links": [
+        {
+          "source": "廉颇",
+          "target": "李贤",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "廉颇",
+          "value": 1
+        },
+        {
+          "source": "廉颇",
+          "target": "蔺相如",
+          "value": 2
+        },
+        {
+          "source": "四校尉",
+          "target": "李贤",
+          "value": 1
+        },
+        {
+          "source": "李贤",
+          "target": "蔺相如",
+          "value": 1
+        },
+        {
+          "source": "四校尉",
+          "target": "蔺相如",
+          "value": 1
+        },
+        {
+          "source": "侍卫",
+          "target": "蔺相如",
+          "value": 1
+        },
+        {
+          "source": "侍卫",
+          "target": "廉颇",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 45,
+      "summary": "第三场；第四场",
+      "conflict": 0.613,
+      "importance": 0.766,
+      "locations": {
+        "来此蔺相府": 1,
+        "竟自回府": 1
+      },
+      "characters": {
+        "廉颇": 1,
+        "校尉": 1,
+        "蔺相如": 1,
+        "侍卫": 1,
+        "李贤": 1
+      },
+      "links": [
+        {
+          "source": "侍卫",
+          "target": "蔺相如",
+          "value": 1
+        },
+        {
+          "source": "校尉",
+          "target": "蔺相如",
+          "value": 1
+        },
+        {
+          "source": "廉颇",
+          "target": "蔺相如",
+          "value": 2
+        },
+        {
+          "source": "侍卫",
+          "target": "校尉",
+          "value": 1
+        },
+        {
+          "source": "侍卫",
+          "target": "廉颇",
+          "value": 1
+        },
+        {
+          "source": "廉颇",
+          "target": "校尉",
+          "value": 1
+        },
+        {
+          "source": "廉颇",
+          "target": "李贤",
+          "value": 1
+        },
+        {
+          "source": "李贤",
+          "target": "蔺相如",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 87,
+      "summary": "第五场；第六场",
+      "conflict": 0.019,
+      "importance": 1.0,
+      "locations": {
+        "来此蔺相府": 2
+      },
+      "characters": {
+        "李贤": 1,
+        "廉颇": 1,
+        "兵卒": 1,
+        "蔺相如": 1
+      },
+      "links": [
+        {
+          "source": "李贤",
+          "target": "蔺相如",
+          "value": 2
+        },
+        {
+          "source": "兵卒",
+          "target": "蔺相如",
+          "value": 1
+        },
+        {
+          "source": "廉颇",
+          "target": "蔺相如",
+          "value": 2
+        },
+        {
+          "source": "兵卒",
+          "target": "李贤",
+          "value": 1
+        },
+        {
+          "source": "廉颇",
+          "target": "李贤",
+          "value": 2
+        },
+        {
+          "source": "兵卒",
+          "target": "廉颇",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 56,
+      "summary": "第七场；第八场",
+      "conflict": 0.269,
+      "importance": 0.953,
+      "locations": {
+        "来此蔺相府": 2
+      },
+      "characters": {
+        "李贤": 1,
+        "廉颇": 1,
+        "二侍卫": 1,
+        "蔺相如": 1
+      },
+      "links": [
+        {
+          "source": "二侍卫",
+          "target": "廉颇",
+          "value": 1
+        },
+        {
+          "source": "廉颇",
+          "target": "蔺相如",
+          "value": 1
+        },
+        {
+          "source": "廉颇",
+          "target": "李贤",
+          "value": 1
+        },
+        {
+          "source": "李贤",
+          "target": "蔺相如",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "来此蔺相府",
+      "characters": [
+        {
+          "name": "廉颇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "可恼可恼。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "李贤",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "老将军，今日为何这样烦恼？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四校尉",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蔺相如",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第一场：4位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.749,
+        "conflict": 1.0,
+        "sentiment": 0.373
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "来此蔺相府",
+      "characters": [
+        {
+          "name": "蔺相如",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "威烈王坐洛阳朝政不善，",
+          "rating": 1.0,
+          "role": "生"
+        },
+        {
+          "name": "侍卫",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "廉颇",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：3位角色，28行",
+      "firstLine": 1,
+      "lastLine": 28,
+      "numLines": 28,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.771,
+        "conflict": 1.0,
+        "sentiment": 0.612
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "来此蔺相府",
+      "characters": [
+        {
+          "name": "蔺相如",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "人说是人说非人说长短，",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "侍卫",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "廉大人怒气满面，挡住去路。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "校尉",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "禀大人，蔺大人避道而行。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "廉颇",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "哼，这娃娃，倒也眼亮。难道罢了不成。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：4位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.777,
+        "conflict": 0.714,
+        "sentiment": 0.2
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "竟自回府",
+      "characters": [
+        {
+          "name": "李贤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "老将军太任性见识又浅，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "廉颇",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我与他活冤家偏不相见，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "蔺相如",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第四场：3位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.738,
+        "conflict": 1.0,
+        "sentiment": 0.813
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "来此蔺相府",
+      "characters": [
+        {
+          "name": "蔺相如",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "心儿里最可气将军廉颇，",
+          "rating": -0.5,
+          "role": "生"
+        },
+        {
+          "name": "李贤",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "可笑那廉将军性烈如火，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "兵卒",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "什么人？",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "廉颇",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：4位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.802,
+        "conflict": 0.667,
+        "sentiment": 0.251
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "来此蔺相府",
+      "characters": [
+        {
+          "name": "廉颇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "蔺相如在长街两次避躲，",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "李贤",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "蔺相如他真是聪明不过，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "蔺相如",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第六场：3位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.82,
+        "conflict": 0.5,
+        "sentiment": 0.27
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "来此蔺相府",
+      "characters": [
+        {
+          "name": "二侍卫",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "堂上一呼，阶下百诺。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "廉颇",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "来此蔺相府。",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.531,
+        "conflict": 0.0,
+        "sentiment": 0.766
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "来此蔺相府",
+      "characters": [
+        {
+          "name": "廉颇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "小人廉颇，前来请罪！",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "蔺相如",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "看秦人似虎狼其心叵测，",
+          "rating": 0.333,
+          "role": "生"
+        },
+        {
+          "name": "李贤",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "今二位大人，互相退让，同心辅国，和衷共济，真国家之幸福也。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第八场：3位角色，44行",
+      "firstLine": 1,
+      "lastLine": 44,
+      "numLines": 44,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.812,
+        "conflict": 0.274,
+        "sentiment": 0.497
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "蔺相如",
+      "short": "蔺相",
+      "key": "蔺相如",
+      "quote": "蔺相如 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "廉颇",
+      "short": "廉颇",
+      "key": "廉颇",
+      "quote": "廉颇 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "兵卒",
+      "short": "兵卒",
+      "key": "兵卒",
+      "quote": "兵卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四校尉",
+      "short": "四校",
+      "key": "四校尉",
+      "quote": "四校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "校尉",
+      "short": "校尉",
+      "key": "校尉",
+      "quote": "校尉 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "侍卫",
+      "short": "侍卫",
+      "key": "侍卫",
+      "quote": "侍卫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "李贤",
+      "short": "李贤",
+      "key": "李贤",
+      "quote": "李贤 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二侍卫",
+      "short": "二侍",
+      "key": "二侍卫",
+      "quote": "二侍卫 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "来此蔺相府",
+      "key": "来此蔺相府",
+      "quote": "场景发生在来此蔺相府"
+    },
+    {
+      "name": "竟自回府",
+      "key": "竟自回府",
+      "quote": "场景发生在竟自回府"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "title": "七星庙",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "03089001_七星庙.json",
+  "source_folder": "03000000",
+  "plot_summary": "杨继业与佘赛花交战，败于佘赛花，逃至七星庙内。佘赛花赶至，二人相互爱慕，结为夫妇。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.254,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "佘赛花": 1,
+        "四女兵": 1,
+        "女马童": 1
+      },
+      "links": [
+        {
+          "source": "佘赛花",
+          "target": "女马童",
+          "value": 1
+        },
+        {
+          "source": "四女兵",
+          "target": "女马童",
+          "value": 1
+        },
+        {
+          "source": "佘赛花",
+          "target": "四女兵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 124,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "报子": 1,
+        "杨继业": 1,
+        "佘赛花": 1,
+        "四女兵": 1,
+        "四上手": 1
+      },
+      "links": [
+        {
+          "source": "报子",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "佘赛花",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "四女兵",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "佘赛花",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "四女兵",
+          "target": "报子",
+          "value": 1
+        },
+        {
+          "source": "佘赛花",
+          "target": "四上手",
+          "value": 1
+        },
+        {
+          "source": "四上手",
+          "target": "四女兵",
+          "value": 1
+        },
+        {
+          "source": "佘赛花",
+          "target": "四女兵",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "女马童",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "请姑娘上马！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "佘赛花",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "我翻身跨上桃花马！",
+          "rating": -1.0,
+          "role": "旦"
+        },
+        {
+          "name": "四女兵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.576,
+        "conflict": 1.0,
+        "sentiment": -0.35
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "杨继业",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "两国不和把仗打，",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "报子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "报！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四上手",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "佘赛花",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "阵前来了杨家将，",
+          "rating": -0.143,
+          "role": "旦"
+        },
+        {
+          "name": "四女兵",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：5位角色，124行",
+      "firstLine": 1,
+      "lastLine": 124,
+      "numLines": 124,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.358,
+        "sentiment": 0.256
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "佘赛花",
+      "short": "佘赛",
+      "key": "佘赛花",
+      "quote": "佘赛花 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "杨继业",
+      "short": "杨继",
+      "key": "杨继业",
+      "quote": "杨继业 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "报子",
+      "short": "报子",
+      "key": "报子",
+      "quote": "报子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四女兵",
+      "short": "四女",
+      "key": "四女兵",
+      "quote": "四女兵 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四上手",
+      "short": "四上",
+      "key": "四上手",
+      "quote": "四上手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "女马童",
+      "short": "女马",
+      "key": "女马童",
+      "quote": "女马童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

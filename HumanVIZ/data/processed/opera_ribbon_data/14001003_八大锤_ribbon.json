@@ -1,0 +1,669 @@
+{
+  "title": "八大锤",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 10,
+  "num_locations": 3,
+  "source_file": "14001003_八大锤.json",
+  "source_folder": "14000000",
+  "plot_summary": "王佐是岳飞帐下一员参军。因为岳飞在朱仙镇一仗打得大败而回，王佐问起情由，刚才知道金邦有一员小将，\n名叫陆文龙，十分骁勇。岳飞谈起陆文龙，就是当年镇守潞安州节度使陆登的儿子。陆登尽忠自刎，陆夫\n人尽节悬梁缢死。那时候陆文龙还在襁褓，生下未满三月，就被金兀术掳去。如今长大成人，不但不晓得去\n报父仇，并且帮了仇人来杀自己人。王佐听了岳飞的许多话，私下里砍伤了自己的左臂，又写了一封信，告\n诉了岳飞，连夜跑到金营里去诈降。不久被他见着陆文龙，用言语打动与他，又将陆登全家死得如何可惨，\n陆文龙本人如何被掳，讲经说法的讲给陆文龙听。再加乳娘在旁一证明，陆文龙方才明白，气得咬牙切齿，\n痛哭流泪，立刻就想去杀金人。王佐代为画计，约定岳飞，里应外合，大破金兵。陆文龙本想将金兀术刺死，\n替他父母报仇，因为念他有十几年的养育恩，才成全了金兀术的性命。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 74,
+      "summary": "第一场；第二场",
+      "conflict": 0.007,
+      "importance": 0.763,
+      "locations": {
+        "来窥探吾营": 2
+      },
+      "characters": {
+        "陆文龙": 1,
+        "岳飞": 1,
+        "兀术": 1,
+        "王佐": 1,
+        "二旗牌": 1
+      },
+      "links": [
+        {
+          "source": "岳飞",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "王佐",
+          "target": "陆文龙",
+          "value": 2
+        },
+        {
+          "source": "兀术",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "陆文龙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 23,
+      "summary": "第三场；第四场",
+      "conflict": 0.593,
+      "importance": 0.237,
+      "locations": {
+        "来窥探吾营": 1,
+        "此巡营": 1
+      },
+      "characters": {
+        "番卒甲": 1,
+        "岳飞": 1,
+        "番卒乙": 1,
+        "汤怀": 1,
+        "二番卒": 1,
+        "王佐": 1,
+        "二旗牌": 1
+      },
+      "links": [
+        {
+          "source": "二旗牌",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "二旗牌",
+          "target": "汤怀",
+          "value": 1
+        },
+        {
+          "source": "番卒乙",
+          "target": "番卒甲",
+          "value": 1
+        },
+        {
+          "source": "王佐",
+          "target": "番卒甲",
+          "value": 1
+        },
+        {
+          "source": "二番卒",
+          "target": "番卒甲",
+          "value": 1
+        },
+        {
+          "source": "王佐",
+          "target": "番卒乙",
+          "value": 1
+        },
+        {
+          "source": "二番卒",
+          "target": "番卒乙",
+          "value": 1
+        },
+        {
+          "source": "二番卒",
+          "target": "王佐",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 194,
+      "summary": "第五场；第六场",
+      "conflict": 0.266,
+      "importance": 1.0,
+      "locations": {
+        "来窥探吾营": 1,
+        "陆登陆大老爷府": 1
+      },
+      "characters": {
+        "陆文龙": 1,
+        "番卒甲": 1,
+        "岳飞": 1,
+        "兀术": 1,
+        "王佐": 1,
+        "乳娘": 1
+      },
+      "links": [
+        {
+          "source": "兀术",
+          "target": "番卒甲",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "兀术",
+          "target": "岳飞",
+          "value": 1
+        },
+        {
+          "source": "王佐",
+          "target": "番卒甲",
+          "value": 1
+        },
+        {
+          "source": "番卒甲",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "番卒甲",
+          "value": 1
+        },
+        {
+          "source": "王佐",
+          "target": "陆文龙",
+          "value": 2
+        },
+        {
+          "source": "岳飞",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "岳飞",
+          "target": "陆文龙",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "王佐",
+          "value": 1
+        },
+        {
+          "source": "乳娘",
+          "target": "陆文龙",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "来窥探吾营",
+      "characters": [
+        {
+          "name": "王佐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "欲为天下奇男子，须学人间大丈夫。",
+          "rating": 1.0,
+          "role": "须生"
+        },
+        {
+          "name": "岳飞",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "想俺岳飞，每战金人，未有如此大败。今日一战，被陆文龙伤将数员，此乃天",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "陆文龙",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "兀术",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：4位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.584,
+        "conflict": 1.0,
+        "sentiment": 0.363
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "来窥探吾营",
+      "characters": [
+        {
+          "name": "王佐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "听谯楼打初更玉兔东上，",
+          "rating": 0.429,
+          "role": "须生"
+        },
+        {
+          "name": "二旗牌",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "王将军醒来！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陆文龙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：3位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.206,
+        "sentiment": 0.356
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "来窥探吾营",
+      "characters": [
+        {
+          "name": "岳飞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "闷坐帐中心烦恼，梦里君王回故朝。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "二旗牌",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启禀元帅：王将军有书信一封，请元帅观看。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "汤怀",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "参见元帅。",
+          "rating": 0.0,
+          "role": "武生"
+        }
+      ],
+      "summary": "第三场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.224,
+        "conflict": 0.0,
+        "sentiment": 0.167
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "此巡营",
+      "characters": [
+        {
+          "name": "番卒甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "番卒乙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王佐",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "哪里去？",
+          "rating": 1.0,
+          "role": "须生"
+        },
+        {
+          "name": "二番卒",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "去见我家狼主。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：4位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.401,
+        "conflict": 0.0,
+        "sentiment": 0.76
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "来窥探吾营",
+      "characters": [
+        {
+          "name": "兀术",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "多亏殿下打一仗，",
+          "rating": -0.2,
+          "role": "净"
+        },
+        {
+          "name": "番卒甲",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启禀狼主：拿住宋朝奸细。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王佐",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "留头讲话。",
+          "rating": -1.0,
+          "role": "须生"
+        },
+        {
+          "name": "陆文龙",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "父王必须与他起个名字才是。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "岳飞",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第五场：5位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.715,
+        "conflict": 1.0,
+        "sentiment": -0.125
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "陆登陆大老爷府",
+      "characters": [
+        {
+          "name": "乳娘",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "老身周氏，向在陆登陆大老爷府中以为乳娘。那年金人打破潞安州，老爷夫人",
+          "rating": -0.25,
+          "role": "老旦"
+        },
+        {
+          "name": "王佐",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "到番营一月整未遇巧机，",
+          "rating": 0.077,
+          "role": "须生"
+        },
+        {
+          "name": "陆文龙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "上阵交锋无人敌，管教宋室一扫平。",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第六场：3位角色，162行",
+      "firstLine": 1,
+      "lastLine": 162,
+      "numLines": 162,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.387,
+        "sentiment": 0.141
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王佐",
+      "short": "王佐",
+      "key": "王佐",
+      "quote": "王佐 — 须生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 须生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陆文龙",
+      "short": "陆文",
+      "key": "陆文龙",
+      "quote": "陆文龙 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "乳娘",
+      "short": "乳娘",
+      "key": "乳娘",
+      "quote": "乳娘 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "岳飞",
+      "short": "岳飞",
+      "key": "岳飞",
+      "quote": "岳飞 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "兀术",
+      "short": "兀术",
+      "key": "兀术",
+      "quote": "兀术 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "汤怀",
+      "short": "汤怀",
+      "key": "汤怀",
+      "quote": "汤怀 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "番卒甲",
+      "short": "番卒",
+      "key": "番卒甲",
+      "quote": "番卒甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "番卒乙",
+      "short": "番卒",
+      "key": "番卒乙",
+      "quote": "番卒乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二番卒",
+      "short": "二番",
+      "key": "二番卒",
+      "quote": "二番卒 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二旗牌",
+      "short": "二旗",
+      "key": "二旗牌",
+      "quote": "二旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "来窥探吾营",
+      "key": "来窥探吾营",
+      "quote": "场景发生在来窥探吾营"
+    },
+    {
+      "name": "此巡营",
+      "key": "此巡营",
+      "quote": "场景发生在此巡营"
+    },
+    {
+      "name": "陆登陆大老爷府",
+      "key": "陆登陆大老爷府",
+      "quote": "场景发生在陆登陆大老爷府"
+    }
+  ]
+}

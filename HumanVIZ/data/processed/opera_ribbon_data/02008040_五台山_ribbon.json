@@ -1,0 +1,377 @@
+{
+  "title": "五台山",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "02008040_五台山.json",
+  "source_folder": "02000000",
+  "plot_summary": "金沙滩之双龙会，杨大郎代替宋王赴会，被长枪刺死。杨二郎、杨三郎，均战死沙场。杨四郎下落不明。杨\n继业闻讯后，悲痛之情，自在意中。宋王除对死者一一追封，对生者如杨五郎、杨六郎、杨七郎，亦均加官\n晋禄。惟杨五郎看破红尘，不受官禄，决意在五台山出家。宋王及其父一再挽留，迄不动摇。宋王及杨继业\n不得已，勉强允准云。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 170,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "天波府": 1
+      },
+      "characters": {
+        "杨延德": 1,
+        "杨继业": 1,
+        "宋太宗": 1,
+        "赵德芳": 1,
+        "众僧人": 1,
+        "长老": 1,
+        "杨延嗣": 1
+      },
+      "links": [
+        {
+          "source": "宋太宗",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "宋太宗",
+          "target": "杨延嗣",
+          "value": 1
+        },
+        {
+          "source": "宋太宗",
+          "target": "杨延德",
+          "value": 1
+        },
+        {
+          "source": "宋太宗",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "宋太宗",
+          "target": "长老",
+          "value": 1
+        },
+        {
+          "source": "众僧人",
+          "target": "宋太宗",
+          "value": 1
+        },
+        {
+          "source": "杨延嗣",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "杨延德",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "杨继业",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "杨继业",
+          "target": "长老",
+          "value": 1
+        },
+        {
+          "source": "众僧人",
+          "target": "杨继业",
+          "value": 1
+        },
+        {
+          "source": "杨延嗣",
+          "target": "杨延德",
+          "value": 1
+        },
+        {
+          "source": "杨延嗣",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "杨延嗣",
+          "target": "长老",
+          "value": 1
+        },
+        {
+          "source": "众僧人",
+          "target": "杨延嗣",
+          "value": 1
+        },
+        {
+          "source": "杨延德",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "杨延德",
+          "target": "长老",
+          "value": 1
+        },
+        {
+          "source": "众僧人",
+          "target": "杨延德",
+          "value": 1
+        },
+        {
+          "source": "赵德芳",
+          "target": "长老",
+          "value": 1
+        },
+        {
+          "source": "众僧人",
+          "target": "赵德芳",
+          "value": 1
+        },
+        {
+          "source": "众僧人",
+          "target": "长老",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.182,
+      "locations": {
+        "天波府": 1
+      },
+      "characters": {
+        "杨继业": 1,
+        "杨延嗣": 1
+      },
+      "links": [
+        {
+          "source": "杨延嗣",
+          "target": "杨继业",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "天波府",
+      "characters": [
+        {
+          "name": "宋太宗",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "眼观旌旂起，",
+          "rating": -0.5,
+          "role": "生"
+        },
+        {
+          "name": "杨继业",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "耳听好消息。",
+          "rating": -0.333,
+          "role": "外"
+        },
+        {
+          "name": "杨延嗣",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "主公在上，臣等班师回来。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "杨延德",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "杨五郎跪尘埃泪双流，",
+          "rating": -0.111,
+          "role": "小生"
+        },
+        {
+          "name": "赵德芳",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "五将军说话理太差，",
+          "rating": 0.0,
+          "role": "占旦"
+        },
+        {
+          "name": "长老",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "五台山，众僧伺候了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众僧人",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "哦。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：7位角色，170行",
+      "firstLine": 1,
+      "lastLine": 170,
+      "numLines": 170,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.213,
+        "sentiment": 0.056
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "天波府",
+      "characters": [
+        {
+          "name": "杨延嗣",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "爹爹请转回，到天波府，拜上年迈娘亲，恕孩儿不孝之罪。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "杨继业",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "五郎，延德，还记得你的娘亲？若是舍不得母亲，可随为父回去，到天波府，",
+          "rating": -1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第2场：2位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.459,
+        "conflict": 0.556,
+        "sentiment": -0.168
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨延德",
+      "short": "杨延",
+      "key": "杨延德",
+      "quote": "杨延德 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "杨继业",
+      "short": "杨继",
+      "key": "杨继业",
+      "quote": "杨继业 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "宋太宗",
+      "short": "宋太",
+      "key": "宋太宗",
+      "quote": "宋太宗 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵德芳",
+      "short": "赵德",
+      "key": "赵德芳",
+      "quote": "赵德芳 — 占旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 占旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众僧人",
+      "short": "众僧",
+      "key": "众僧人",
+      "quote": "众僧人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "长老",
+      "short": "长老",
+      "key": "长老",
+      "quote": "长老 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "杨延嗣",
+      "short": "杨延",
+      "key": "杨延嗣",
+      "quote": "杨延嗣 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "天波府",
+      "key": "天波府",
+      "quote": "场景发生在天波府"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "title": "花子骂相",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "05004012_花子骂相.json",
+  "source_folder": "05000000",
+  "plot_summary": "洛阳孙降，流落街头乞讨，闻范太师告老荣归，前往请求周济，范太师使暂留西廊候赏。时吕蒙正亦闻讯前\n来，范太师闻吕蒙正穿着如旧，拒与相见。吕蒙正以诗进呈，范太师爱其字，延之入，赠以升米十文，吕蒙\n正拒而不受。孙降闻讯，意颇不平，代吕蒙正向范太师争论，范太师以其出言不逊逐之。孙降劝吕蒙正待来\n科高中，再作道理，复入府以言责范太师，并以乞讨所得斗米百钱慷慨赠与吕蒙正。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 300,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "下洛阳城": 1
+      },
+      "characters": {
+        "院子": 1,
+        "孙降": 1,
+        "吕蒙正": 1,
+        "范太师": 1
+      },
+      "links": [
+        {
+          "source": "孙降",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "范太师",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "吕蒙正",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "孙降",
+          "target": "范太师",
+          "value": 1
+        },
+        {
+          "source": "吕蒙正",
+          "target": "孙降",
+          "value": 1
+        },
+        {
+          "source": "吕蒙正",
+          "target": "范太师",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "下洛阳城",
+      "characters": [
+        {
+          "name": "院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "天上神仙府，人间宰相家。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "孙降",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "遇丰年当街引进，作乞丐有朝侥幸。食的冷菜饭，终日无忧闷。穿一件破衲袄，",
+          "rating": 0.158,
+          "role": "丑"
+        },
+        {
+          "name": "范太师",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "告老归林，无事站在书院。",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "吕蒙正",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "天地与人分厚薄，世上多少不均匀。富贵之家常富贵，似我贫穷——",
+          "rating": 0.667,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：4位角色，300行",
+      "firstLine": 1,
+      "lastLine": 300,
+      "numLines": 300,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.204,
+        "sentiment": 0.214
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "孙降",
+      "short": "孙降",
+      "key": "孙降",
+      "quote": "孙降 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "吕蒙正",
+      "short": "吕蒙",
+      "key": "吕蒙正",
+      "quote": "吕蒙正 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "范太师",
+      "short": "范太",
+      "key": "范太师",
+      "quote": "范太师 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "下洛阳城",
+      "key": "下洛阳城",
+      "quote": "场景发生在下洛阳城"
+    }
+  ]
+}

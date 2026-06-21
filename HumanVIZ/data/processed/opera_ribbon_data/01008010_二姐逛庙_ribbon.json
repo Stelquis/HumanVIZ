@@ -1,0 +1,240 @@
+{
+  "title": "二姐逛庙",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "01008010_二姐逛庙.json",
+  "source_folder": "01000000",
+  "plot_summary": "此系秦腔剧中之打诨戏，纯以诌白打趣见长，毫无剧情可取。仅不过为上巳良辰，乡村举行赛会，有刘二姐\n者，在会场上遇见同村妇女，诉述家常事，乘间插入种种科诨，以描摹村妇鄙俚猥亵之丑状而已。",
+  "performance_notes": "是本彩旦之重头戏，余均配角也。忆七八年前，曾见紫金僊演此，描摹颇入彀。坤角张文艳亦善此，活泼泼\n地，诙谐尽致，更觉难能可贵矣。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 23,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.253,
+      "locations": {
+        "两天逛庙": 1
+      },
+      "characters": {
+        "女儿": 1,
+        "陈氏": 1
+      },
+      "links": [
+        {
+          "source": "女儿",
+          "target": "陈氏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 25,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.275,
+      "locations": {
+        "两天逛庙": 1
+      },
+      "characters": {
+        "刘二姐": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 225,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "两天逛庙": 1
+      },
+      "characters": {
+        "女儿": 1,
+        "陈氏": 1,
+        "刘二姐": 1
+      },
+      "links": [
+        {
+          "source": "刘二姐",
+          "target": "陈氏",
+          "value": 1
+        },
+        {
+          "source": "女儿",
+          "target": "陈氏",
+          "value": 1
+        },
+        {
+          "source": "刘二姐",
+          "target": "女儿",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "两天逛庙",
+      "characters": [
+        {
+          "name": "陈氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "春前有雨花开早，秋后无霜叶落迟。",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "女儿",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "绣阁绣鸳鸯，金簪别凤凰。",
+          "rating": -1.0,
+          "role": "小旦"
+        }
+      ],
+      "summary": "第一场：2位角色，23行",
+      "firstLine": 1,
+      "lastLine": 23,
+      "numLines": 23,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.676,
+        "conflict": 0.488,
+        "sentiment": 0.364
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "两天逛庙",
+      "characters": [
+        {
+          "name": "刘二姐",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "年年有个三月三，",
+          "rating": 0.0,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第二场：1位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.582,
+        "conflict": 0.69,
+        "sentiment": 0.46
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "两天逛庙",
+      "characters": [
+        {
+          "name": "陈氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "母女二人往前趱，",
+          "rating": 0.333,
+          "role": "老旦"
+        },
+        {
+          "name": "刘二姐",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "急急走来莫消停，",
+          "rating": 0.6,
+          "role": "彩旦"
+        },
+        {
+          "name": "女儿",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "刘二姐请来见礼。",
+          "rating": 0.0,
+          "role": "小旦"
+        }
+      ],
+      "summary": "第三场：3位角色，225行",
+      "firstLine": 1,
+      "lastLine": 225,
+      "numLines": 225,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.104,
+        "sentiment": 0.561
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘二姐",
+      "short": "刘二",
+      "key": "刘二姐",
+      "quote": "刘二姐 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "陈氏",
+      "short": "陈氏",
+      "key": "陈氏",
+      "quote": "陈氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "女儿",
+      "short": "女儿",
+      "key": "女儿",
+      "quote": "女儿 — 小旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小旦",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "两天逛庙",
+      "key": "两天逛庙",
+      "quote": "场景发生在两天逛庙"
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "title": "玉堂春",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 8,
+  "num_locations": 1,
+  "source_file": "14002007_玉堂春.json",
+  "source_folder": "14000000",
+  "plot_summary": "八府巡按王金龙，来到山西太原府洪洞县，查阅案卷。见内有苏三谋杀亲夫一案，随即升堂，请藩台、臬台\n一同陪审。一见犯妇就是自己从前所热恋的妓女玉堂春，不禁吓晕过去，只好暂时罢审。随即请医生诊过，\n精神恢复后才继续审问。不意苏三所供，都是些旧事重提。王金龙听得渐渐忘形，要想跑下位去，和苏三叙\n叙离情。被藩、臬二人识破他的隐秘，向他只管冷嘲热讽。王金龙羞惭得无地自容，只好再装旧病复发，将\n案子索性交与他们二人去审。藩、臬故意只略一盘问就退了堂，看王金龙怎样和苏三会面。王金龙到底因为\n耳目众多，暂时也不敢相认。只不过稍加安慰苏三，说是极力设法来搭救她罢了。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 38,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.158,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "刘大人": 1,
+        "周大人": 1,
+        "门子": 1,
+        "王金龙": 1
+      },
+      "links": [
+        {
+          "source": "王金龙",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "刘大人",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "周大人",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "刘大人",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "周大人",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "刘大人",
+          "target": "周大人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 443,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "周大人": 1,
+        "崇公道": 1,
+        "医生": 1,
+        "门子": 1,
+        "王金龙": 1,
+        "苏三": 1,
+        "中军": 1,
+        "刘大人": 1
+      },
+      "links": [
+        {
+          "source": "刘大人",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "刘大人",
+          "target": "崇公道",
+          "value": 1
+        },
+        {
+          "source": "刘大人",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "刘大人",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "刘大人",
+          "value": 1
+        },
+        {
+          "source": "刘大人",
+          "target": "医生",
+          "value": 1
+        },
+        {
+          "source": "刘大人",
+          "target": "周大人",
+          "value": 1
+        },
+        {
+          "source": "崇公道",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "王金龙",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "苏三",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "医生",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "周大人",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "崇公道",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "崇公道",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "崇公道",
+          "value": 1
+        },
+        {
+          "source": "医生",
+          "target": "崇公道",
+          "value": 1
+        },
+        {
+          "source": "周大人",
+          "target": "崇公道",
+          "value": 1
+        },
+        {
+          "source": "王金龙",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "医生",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "周大人",
+          "target": "王金龙",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "医生",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "周大人",
+          "target": "苏三",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "医生",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "周大人",
+          "value": 1
+        },
+        {
+          "source": "医生",
+          "target": "周大人",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "王金龙",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "今奉圣旨，来到洪洞。",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "门子",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "二位大人到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘大人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我等来得鲁莽，望大人恕罪。",
+          "rating": 0.0,
+          "role": "须生"
+        },
+        {
+          "name": "周大人",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "须生"
+        }
+      ],
+      "summary": "第一场：4位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.625,
+        "conflict": 0.494,
+        "sentiment": -0.438
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘大人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "带长解。",
+          "rating": 0.429,
+          "role": "须生"
+        },
+        {
+          "name": "门子",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "带长解。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "崇公道",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "参见三位大人。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "王金龙",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "免。",
+          "rating": 0.2,
+          "role": "小生"
+        },
+        {
+          "name": "苏三",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "苦啊！",
+          "rating": -0.2,
+          "role": "青衣"
+        },
+        {
+          "name": "中军",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "先生请转。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "医生",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周大人",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "啊，大人。谋杀亲夫的案子要审。",
+          "rating": 0.2,
+          "role": "须生"
+        }
+      ],
+      "summary": "第二场：8位角色，443行",
+      "firstLine": 1,
+      "lastLine": 443,
+      "numLines": 443,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.143,
+        "sentiment": 0.219
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "苏三",
+      "short": "苏三",
+      "key": "苏三",
+      "quote": "苏三 — 青衣",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 青衣",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王金龙",
+      "short": "王金",
+      "key": "王金龙",
+      "quote": "王金龙 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘大人",
+      "short": "刘大",
+      "key": "刘大人",
+      "quote": "刘大人 — 须生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 须生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "周大人",
+      "short": "周大",
+      "key": "周大人",
+      "quote": "周大人 — 须生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 须生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "崇公道",
+      "short": "崇公",
+      "key": "崇公道",
+      "quote": "崇公道 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "医生",
+      "short": "医生",
+      "key": "医生",
+      "quote": "医生 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门子",
+      "short": "门子",
+      "key": "门子",
+      "quote": "门子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

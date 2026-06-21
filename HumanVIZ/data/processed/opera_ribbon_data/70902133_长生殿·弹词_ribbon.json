@@ -1,0 +1,330 @@
+{
+  "title": "长生殿·弹词",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 6,
+  "num_locations": 2,
+  "source_file": "70902133_长生殿·弹词.json",
+  "source_folder": "70902000",
+  "plot_summary": "安禄山乱起，人民流离失所。宫廷供奉李龟年也流落江南，卖唱为生。善吹铁笛的李謩，在鹫峰寺大会上，\n与众人一起聆听李龟年弹唱。老伶工慨叹国家兴衰，把唐明皇宠爱贵妃、失政致乱的经过，唱得声泪俱下，\n深深感动了听众，从此，李謩结识了这位前辈，向他学习，继承了《霓裳羽衣曲》的全谱。",
+  "performance_notes": "这是老生的唱工名剧，曲调苍凉悲壮，颇为感人。在昆曲盛行的时代，传播很广。所谓“家家收拾起，户户\n不提防”，即指《千忠戮·惨睹》和这出戏而言。俞振飞先生幼时，曾由其父俞粟庐先生教过此曲，但其中\n〖梁州第七〗及〖八转〗两支，一般都不唱，予以省略。读者如需要，需要查《长生殿曲谱》、《集成曲谱》\n、《与众曲氆》等书。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 205,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "朝元阁": 1
+      },
+      "characters": {
+        "李謩": 1,
+        "听客丙": 1,
+        "听客乙": 1,
+        "听客丁": 1,
+        "听客甲": 1,
+        "李龟年": 1
+      },
+      "links": [
+        {
+          "source": "李謩",
+          "target": "李龟年",
+          "value": 1
+        },
+        {
+          "source": "听客丁",
+          "target": "李龟年",
+          "value": 1
+        },
+        {
+          "source": "听客甲",
+          "target": "李龟年",
+          "value": 1
+        },
+        {
+          "source": "听客乙",
+          "target": "李龟年",
+          "value": 1
+        },
+        {
+          "source": "听客丙",
+          "target": "李龟年",
+          "value": 1
+        },
+        {
+          "source": "听客丁",
+          "target": "李謩",
+          "value": 1
+        },
+        {
+          "source": "听客甲",
+          "target": "李謩",
+          "value": 1
+        },
+        {
+          "source": "听客乙",
+          "target": "李謩",
+          "value": 1
+        },
+        {
+          "source": "听客丙",
+          "target": "李謩",
+          "value": 1
+        },
+        {
+          "source": "听客丁",
+          "target": "听客甲",
+          "value": 1
+        },
+        {
+          "source": "听客丁",
+          "target": "听客乙",
+          "value": 1
+        },
+        {
+          "source": "听客丁",
+          "target": "听客丙",
+          "value": 1
+        },
+        {
+          "source": "听客乙",
+          "target": "听客甲",
+          "value": 1
+        },
+        {
+          "source": "听客丙",
+          "target": "听客甲",
+          "value": 1
+        },
+        {
+          "source": "听客丙",
+          "target": "听客乙",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 55,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.423,
+      "locations": {
+        "朝元阁": 1
+      },
+      "characters": {
+        "李謩": 1,
+        "李龟年": 1
+      },
+      "links": [
+        {
+          "source": "李謩",
+          "target": "李龟年",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "朝元阁",
+      "characters": [
+        {
+          "name": "李龟年",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一从鼙鼓起渔阳，宫娥俄看蔓草荒。留得白头遗老在，谱将残恨说兴亡。",
+          "rating": -0.182,
+          "role": "老生"
+        },
+        {
+          "name": "李謩",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "花动游人眼，春伤故国心。霓裳人去后，无复有知音。",
+          "rating": 0.0,
+          "role": "巾生"
+        },
+        {
+          "name": "听客丁",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "请吓！",
+          "rating": -0.143,
+          "role": "贴旦"
+        },
+        {
+          "name": "听客甲",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "闲步寻芳惜好春，",
+          "rating": 0.667,
+          "role": "末"
+        },
+        {
+          "name": "听客乙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "且看胜会逐游人。",
+          "rating": 1.0,
+          "role": "付"
+        },
+        {
+          "name": "听客丙",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "大姐，",
+          "rating": 0.333,
+          "role": "白面"
+        }
+      ],
+      "summary": "第1场：6位角色，205行",
+      "firstLine": 1,
+      "lastLine": 205,
+      "numLines": 205,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.229,
+        "sentiment": 0.045
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "朝元阁",
+      "characters": [
+        {
+          "name": "李謩",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "老丈，我听你这琵琶，非同凡手，得自何人传授？乞道其详。",
+          "rating": 0.333,
+          "role": "巾生"
+        },
+        {
+          "name": "李龟年",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "官人吓。",
+          "rating": -0.25,
+          "role": "老生"
+        }
+      ],
+      "summary": "第2场：2位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.8,
+        "conflict": 0.588,
+        "sentiment": 0.041
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "李龟年",
+      "short": "李龟",
+      "key": "李龟年",
+      "quote": "李龟年 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李謩",
+      "short": "李謩",
+      "key": "李謩",
+      "quote": "李謩 — 巾生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 巾生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "听客甲",
+      "short": "听客",
+      "key": "听客甲",
+      "quote": "听客甲 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "听客乙",
+      "short": "听客",
+      "key": "听客乙",
+      "quote": "听客乙 — 付",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 付",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "听客丙",
+      "short": "听客",
+      "key": "听客丙",
+      "quote": "听客丙 — 白面",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 白面",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "听客丁",
+      "short": "听客",
+      "key": "听客丁",
+      "quote": "听客丁 — 贴旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 贴旦",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "朝元阁",
+      "key": "朝元阁",
+      "quote": "场景发生在朝元阁"
+    },
+    {
+      "name": "从在朝元阁",
+      "key": "从在朝元阁",
+      "quote": "场景发生在从在朝元阁"
+    }
+  ]
+}

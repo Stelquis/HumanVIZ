@@ -1,0 +1,330 @@
+{
+  "title": "战山",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "03041005_战山.json",
+  "source_folder": "03000000",
+  "plot_summary": "隋末，杨林败于罗成，秦琼大笑。杨林恼羞成怒，遂问秦琼以“惊驾”罪。经李渊保奏，得免。秦琼、杨林\n遂赌：秦琼若胜罗成，杨林输玉带；罗成若胜秦琼，秦琼献己头。秦琼、罗成原为姑表兄弟，罗成之锏法，\n俱系秦琼授；秦琼之枪法，虽由罗成教，然隐匿不全。故秦琼实则无以胜罗成。及见阵，秦琼以赌头实告。\n罗成念戚谊，让秦琼一阵，而瓦岗兄弟均笑罗成不胜秦琼。罗成愧极，二次下山，要与秦琼决一死战。秦琼\n痛哭流涕，责以往事。罗成终被感动，佯败而归。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 17,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.255,
+      "locations": {
+        "泰山营": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "四下手": 1
+      },
+      "links": [
+        {
+          "source": "四下手",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 47,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.704,
+      "locations": {
+        "泰山营": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "秦琼",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 12,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.18,
+      "locations": {
+        "泰山营": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "秦琼": 1,
+        "众人": 1
+      },
+      "links": [
+        {
+          "source": "众人",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "秦琼",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "秦琼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 191,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "泰山营": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "秦琼": 1
+      },
+      "links": [
+        {
+          "source": "秦琼",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "泰山营",
+      "characters": [
+        {
+          "name": "罗成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "少小英雄志凌云，万马军中显奇能。上阵跨下白龙马，全凭——",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "四下手",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.538,
+        "conflict": 1.0,
+        "sentiment": 0.194
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "泰山营",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "解粮打赌把印争，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "罗成",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "罗成打马随后跟。",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：2位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.806,
+        "conflict": 0.893,
+        "sentiment": 0.52
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "泰山营",
+      "characters": [
+        {
+          "name": "罗成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "广武山前败了阵，",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "众人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "罗成败阵，叫我等好笑哇，啊哈哈哈……",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "秦琼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：3位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.727,
+        "conflict": 0.0,
+        "sentiment": 0.6
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "泰山营",
+      "characters": [
+        {
+          "name": "秦琼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "头戴金盔凤翅缨，",
+          "rating": -0.091,
+          "role": "老生"
+        },
+        {
+          "name": "罗成",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "看枪！",
+          "rating": -0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：2位角色，191行",
+      "firstLine": 1,
+      "lastLine": 191,
+      "numLines": 191,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.321,
+        "sentiment": 0.226
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "秦琼",
+      "short": "秦琼",
+      "key": "秦琼",
+      "quote": "秦琼 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "罗成",
+      "short": "罗成",
+      "key": "罗成",
+      "quote": "罗成 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四下手",
+      "short": "四下",
+      "key": "四下手",
+      "quote": "四下手 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "泰山营",
+      "key": "泰山营",
+      "quote": "场景发生在泰山营"
+    },
+    {
+      "name": "回到泰山营",
+      "key": "回到泰山营",
+      "quote": "场景发生在回到泰山营"
+    }
+  ]
+}

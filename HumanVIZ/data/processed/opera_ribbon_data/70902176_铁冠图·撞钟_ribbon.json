@@ -1,0 +1,485 @@
+{
+  "title": "铁冠图·撞钟",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 8,
+  "num_locations": 3,
+  "source_file": "70902176_铁冠图·撞钟.json",
+  "source_folder": "70902000",
+  "plot_summary": "风雪之夜为酬粮饷，崇祯帝前往众臣府第借钱，结果遭到冷遇。无奈之余，命人撞响景阳宫，招群臣议政，\n三撞之后，竟只有监军杜勋一人前来，而此人早已暗降李自成。",
+  "performance_notes": "此折通过描绘恶劣的自然环境，和对明王朝君臣的刻画，表现了大明王朝将亡前的一片灰暗、惨淡景象。此\n折前有一组北曲，表现了崇祯帝在风雪中焦急、忧虑的心情。后又有一组南曲，表现了崇祯帝等待中的烦闷、\n凄凉的心境。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 84,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.602,
+      "importance": 1.0,
+      "locations": {
+        "内饮宴": 2,
+        "平明登紫阁": 1
+      },
+      "characters": {
+        "王承恩": 1,
+        "门官": 1,
+        "众人": 1,
+        "巡军": 1,
+        "张丞相": 1,
+        "家院": 1,
+        "崇祯帝": 1
+      },
+      "links": [
+        {
+          "source": "崇祯帝",
+          "target": "王承恩",
+          "value": 3
+        },
+        {
+          "source": "崇祯帝",
+          "target": "巡军",
+          "value": 1
+        },
+        {
+          "source": "巡军",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "崇祯帝",
+          "value": 1
+        },
+        {
+          "source": "崇祯帝",
+          "target": "张丞相",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "张丞相",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "张丞相",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "崇祯帝",
+          "value": 1
+        },
+        {
+          "source": "崇祯帝",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "王承恩",
+          "target": "门官",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "门官",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 80,
+      "summary": "第4场；第5场",
+      "conflict": 0.074,
+      "importance": 0.976,
+      "locations": {
+        "内饮宴": 2
+      },
+      "characters": {
+        "杜勋": 1,
+        "崇祯帝": 1,
+        "王承恩": 1
+      },
+      "links": [
+        {
+          "source": "崇祯帝",
+          "target": "王承恩",
+          "value": 2
+        },
+        {
+          "source": "杜勋",
+          "target": "王承恩",
+          "value": 1
+        },
+        {
+          "source": "崇祯帝",
+          "target": "杜勋",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "内饮宴",
+      "characters": [
+        {
+          "name": "崇祯帝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "王承恩。",
+          "rating": 0.0,
+          "role": "官生"
+        },
+        {
+          "name": "王承恩",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "巡军",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "呔，什么人？",
+          "rating": 0.0,
+          "role": "杂"
+        }
+      ],
+      "summary": "第1场：3位角色，22行",
+      "firstLine": 1,
+      "lastLine": 22,
+      "numLines": 22,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.658,
+        "conflict": 0.0,
+        "sentiment": 0.46
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "平明登紫阁",
+      "characters": [
+        {
+          "name": "崇祯帝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "王承恩，什么样人？",
+          "rating": 1.0,
+          "role": "官生"
+        },
+        {
+          "name": "王承恩",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "是御林军巡夜的。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "家院",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "何人叩门？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张丞相",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "平明登紫阁，日宴下彤帏。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第2场：4位角色，30行",
+      "firstLine": 1,
+      "lastLine": 30,
+      "numLines": 30,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.541,
+        "sentiment": 0.762
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "内饮宴",
+      "characters": [
+        {
+          "name": "崇祯帝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "唔，唔……",
+          "rating": -0.333,
+          "role": "官生"
+        },
+        {
+          "name": "王承恩",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "启万岁，时已二更，周皇亲家还是不去了吧。请万岁爷回宫。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "众人",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "请吓、吓哈、哈……",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "门官",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "谁呀？半夜三更，大呼小叫的。",
+          "rating": 0.333,
+          "role": "杂"
+        }
+      ],
+      "summary": "第3场：4位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.767,
+        "conflict": 0.256,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "内饮宴",
+      "characters": [
+        {
+          "name": "王承恩",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "啊呀了不得！启万岁爷，门上人说，家爷请六部大堂在内饮宴，不肯通报。",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "崇祯帝",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊呀！",
+          "rating": -0.143,
+          "role": "官生"
+        },
+        {
+          "name": "杜勋",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "马来！",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第4场：3位角色，72行",
+      "firstLine": 1,
+      "lastLine": 72,
+      "numLines": 72,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.8,
+        "sentiment": 0.086
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "内饮宴",
+      "characters": [
+        {
+          "name": "王承恩",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "启禀万岁，夜静更深，请万岁回宫，将息圣体。",
+          "rating": 0.0,
+          "role": "末"
+        },
+        {
+          "name": "崇祯帝",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "唉！",
+          "rating": 0.0,
+          "role": "官生"
+        }
+      ],
+      "summary": "第5场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.588,
+        "conflict": 1.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "崇祯帝",
+      "short": "崇祯",
+      "key": "崇祯帝",
+      "quote": "崇祯帝 — 官生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 官生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "王承恩",
+      "short": "王承",
+      "key": "王承恩",
+      "quote": "王承恩 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张丞相",
+      "short": "张丞",
+      "key": "张丞相",
+      "quote": "张丞相 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杜勋",
+      "short": "杜勋",
+      "key": "杜勋",
+      "quote": "杜勋 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "门官",
+      "short": "门官",
+      "key": "门官",
+      "quote": "门官 — 杂",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 杂",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "巡军",
+      "short": "巡军",
+      "key": "巡军",
+      "quote": "巡军 — 杂",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 杂",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "内饮宴",
+      "key": "内饮宴",
+      "quote": "场景发生在内饮宴"
+    },
+    {
+      "name": "平明登紫阁",
+      "key": "平明登紫阁",
+      "quote": "场景发生在平明登紫阁"
+    },
+    {
+      "name": "此已是相府",
+      "key": "此已是相府",
+      "quote": "场景发生在此已是相府"
+    }
+  ]
+}

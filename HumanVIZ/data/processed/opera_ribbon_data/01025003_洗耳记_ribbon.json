@@ -1,0 +1,405 @@
+{
+  "title": "洗耳记",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 6,
+  "num_locations": 2,
+  "source_file": "01025003_洗耳记.json",
+  "source_folder": "01000000",
+  "plot_summary": "陶唐氏帝尧在位，耄期倦勤，知其子丹朱不肖，不足以畀付托之重，欲破除家天下之例，不传于子，而传于\n贤，旁求俊乂，得一隐君子，曰许由。访其居处，亲身至村落间迎迓，以帝位让之。许由不受，逃避至荒郊。\n以为如此污秽之言，不堪入耳，骤至溪边，以清流洗耳。适欲巢父，牵牛饮水，问其故，许由一一告之，\n尚未毕辞，巢父勃然大怒，谓耳中莫大之污，为水所纳，从此清流作浊流，断不可入于牛腹之中。遂牵牛至\n上游而饮焉。二人之孤高自赏，直超出寻常万万者，而今之熏必利禄者流，蔬食布衣，引为可耻，必欲蝇营\n狗苟，昏暮乞怜，犹复靦然告人，据为运之能力，及至事权在握，尸位素餐，妇人醇酒，酣嬉恒舞粉饰升平，\n昂然曰：“我无心于富贵，富贵逼人来耳。”观笑侬之剧，亦知所愧否。噫！",
+  "performance_notes": "凡剧本事实，依据历史上编排者，恒居多数，夏商之剧，已属仅见，况唐虞之时乎。盖代远年湮，普通社会\n中人，局局于闻见，证以五帝间之人物，茫无所知，无怪亲剧者之不合于心理也。若文献足征，载籍可考，\n其人为当时所杰出，其事为后世所难能，用以编排成剧，串演于舞台之上，自然赏心豁目，到处欢迎。余览\n名伶汪笑侬之《洗耳记》，诚有足尚焉，是剧处于历史上，称为最古。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 135,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.187,
+      "importance": 1.0,
+      "locations": {
+        "主公登殿": 1,
+        "从后门": 2
+      },
+      "characters": {
+        "四朝臣": 1,
+        "朝臣甲": 1,
+        "四御林军": 1,
+        "尧帝": 1,
+        "许由": 1
+      },
+      "links": [
+        {
+          "source": "尧帝",
+          "target": "朝臣甲",
+          "value": 1
+        },
+        {
+          "source": "四朝臣",
+          "target": "朝臣甲",
+          "value": 1
+        },
+        {
+          "source": "朝臣甲",
+          "target": "许由",
+          "value": 1
+        },
+        {
+          "source": "四朝臣",
+          "target": "尧帝",
+          "value": 2
+        },
+        {
+          "source": "尧帝",
+          "target": "许由",
+          "value": 3
+        },
+        {
+          "source": "四朝臣",
+          "target": "许由",
+          "value": 2
+        },
+        {
+          "source": "四御林军",
+          "target": "许由",
+          "value": 1
+        },
+        {
+          "source": "四御林军",
+          "target": "尧帝",
+          "value": 1
+        },
+        {
+          "source": "四御林军",
+          "target": "四朝臣",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 49,
+      "summary": "第四场；第五场",
+      "conflict": 0.245,
+      "importance": 0.533,
+      "locations": {
+        "从后门": 2
+      },
+      "characters": {
+        "许由": 1,
+        "巢父": 1
+      },
+      "links": [
+        {
+          "source": "巢父",
+          "target": "许由",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "主公登殿",
+      "characters": [
+        {
+          "name": "朝臣甲",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "列位请了，主公登殿，分班侍立。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "尧帝",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "传贤不传子，官天下，大公无私。",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "四朝臣",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "万岁！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "许由",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第一场：4位角色，41行",
+      "firstLine": 1,
+      "lastLine": 41,
+      "numLines": 41,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.767,
+        "conflict": 1.0,
+        "sentiment": 0.373
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "从后门",
+      "characters": [
+        {
+          "name": "许由",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "笑世人口圣贤心同贼盗，",
+          "rating": 0.5,
+          "role": "末"
+        },
+        {
+          "name": "尧帝",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "三十里浮云村眼前到了，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "四朝臣",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "那许由品行孤高，从不交接富贵之人，或者闻得车马声喧，从后门逃走，也未",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四御林军",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "现在后门大开，似有人出入。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.753,
+        "conflict": 1.0,
+        "sentiment": 0.315
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "从后门",
+      "characters": [
+        {
+          "name": "许由",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "借羽毛任翱翔出笼飞鸟，",
+          "rating": 0.077,
+          "role": "末"
+        },
+        {
+          "name": "尧帝",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "请先生且留步有话相交。",
+          "rating": -0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：2位角色，56行",
+      "firstLine": 1,
+      "lastLine": 56,
+      "numLines": 56,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.874,
+        "conflict": 0.513,
+        "sentiment": 0.186
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "从后门",
+      "characters": [
+        {
+          "name": "巢父",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "心比寒梅傲骨清，",
+          "rating": -0.333,
+          "role": "外"
+        },
+        {
+          "name": "许由",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第四场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.659,
+        "conflict": 1.0,
+        "sentiment": 0.024
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "从后门",
+      "characters": [
+        {
+          "name": "许由",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "忽忽掩耳向前走，",
+          "rating": 0.333,
+          "role": "末"
+        },
+        {
+          "name": "巢父",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "你因何洗耳说原由。",
+          "rating": -0.333,
+          "role": "外"
+        }
+      ],
+      "summary": "第五场：2位角色，37行",
+      "firstLine": 1,
+      "lastLine": 37,
+      "numLines": 37,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.781,
+        "conflict": 1.0,
+        "sentiment": 0.269
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "许由",
+      "short": "许由",
+      "key": "许由",
+      "quote": "许由 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "尧帝",
+      "short": "尧帝",
+      "key": "尧帝",
+      "quote": "尧帝 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "巢父",
+      "short": "巢父",
+      "key": "巢父",
+      "quote": "巢父 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "四朝臣",
+      "short": "四朝",
+      "key": "四朝臣",
+      "quote": "四朝臣 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "朝臣甲",
+      "short": "朝臣",
+      "key": "朝臣甲",
+      "quote": "朝臣甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四御林军",
+      "short": "四御",
+      "key": "四御林军",
+      "quote": "四御林军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "从后门",
+      "key": "从后门",
+      "quote": "场景发生在从后门"
+    },
+    {
+      "name": "主公登殿",
+      "key": "主公登殿",
+      "quote": "场景发生在主公登殿"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "title": "专母训子",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 3,
+  "num_locations": 3,
+  "source_file": "05004001_专母训子.json",
+  "source_folder": "05000000",
+  "plot_summary": "伍员荐专诸助姬光夺国，专诸归家别母，有所留恋，专母训诫后自缢，以绝专诸顾虑。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 110,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "这姑苏城": 1
+      },
+      "characters": {
+        "专诸": 1,
+        "专母": 1
+      },
+      "links": [
+        {
+          "source": "专母",
+          "target": "专诸",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 43,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.822,
+      "locations": {
+        "家中": 1
+      },
+      "characters": {
+        "专妻": 1,
+        "专诸": 1,
+        "专母": 1
+      },
+      "links": [
+        {
+          "source": "专母",
+          "target": "专诸",
+          "value": 1
+        },
+        {
+          "source": "专妻",
+          "target": "专母",
+          "value": 1
+        },
+        {
+          "source": "专妻",
+          "target": "专诸",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 4,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.076,
+      "locations": {
+        "了阳关": 1
+      },
+      "characters": {
+        "专妻": 1
+      },
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "这姑苏城",
+      "characters": [
+        {
+          "name": "专母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "节烈冰霜，慕先贤，百世流芳。",
+          "rating": 0.333,
+          "role": "老旦"
+        },
+        {
+          "name": "专诸",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "伍子胥他与我情投谊好，",
+          "rating": -0.455,
+          "role": "净"
+        }
+      ],
+      "summary": "第1场：2位角色，110行",
+      "firstLine": 1,
+      "lastLine": 110,
+      "numLines": 110,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.294,
+        "sentiment": 0.12
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "家中",
+      "characters": [
+        {
+          "name": "专母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "哎呀且住！趁此时我儿不在家中，待我行个自尽了罢啊……",
+          "rating": 0.333,
+          "role": "老旦"
+        },
+        {
+          "name": "专诸",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "适才取水心惊跳，",
+          "rating": 0.75,
+          "role": "净"
+        },
+        {
+          "name": "专妻",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "忽听前堂一声吵，",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第2场：3位角色，43行",
+      "firstLine": 1,
+      "lastLine": 43,
+      "numLines": 43,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.946,
+        "conflict": 0.563,
+        "sentiment": 0.52
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "了阳关",
+      "characters": [
+        {
+          "name": "专妻",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "见儿夫上了阳关道，",
+          "rating": 1.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第3场：1位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.523,
+        "conflict": 0.0,
+        "sentiment": 0.86
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "专母",
+      "short": "专母",
+      "key": "专母",
+      "quote": "专母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "专诸",
+      "short": "专诸",
+      "key": "专诸",
+      "quote": "专诸 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "专妻",
+      "short": "专妻",
+      "key": "专妻",
+      "quote": "专妻 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "这姑苏城",
+      "key": "这姑苏城",
+      "quote": "场景发生在这姑苏城"
+    },
+    {
+      "name": "家中",
+      "key": "家中",
+      "quote": "场景发生在家中"
+    },
+    {
+      "name": "了阳关",
+      "key": "了阳关",
+      "quote": "场景发生在了阳关"
+    }
+  ]
+}

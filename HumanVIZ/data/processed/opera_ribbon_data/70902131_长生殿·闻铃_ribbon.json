@@ -1,0 +1,297 @@
+{
+  "title": "长生殿·闻铃",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70902131_长生殿·闻铃.json",
+  "source_folder": "70902000",
+  "plot_summary": "唐明皇避乱迁蜀，行至剑阁，正值风雨交加，听到檐前铃声聒耳，更加思念已在马嵬坡缢死的杨贵妃。不胜\n凄凉之感。",
+  "performance_notes": "这是一出有名的唱工戏，由两支〖南双调武陵花〗组成，曲调十分凄婉，节奏由慢转快，层次分明，要求一\n气呵成，声情并茂。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 8,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.432,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "众人": 1,
+        "陈元礼": 1
+      },
+      "links": [
+        {
+          "source": "众人",
+          "target": "陈元礼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 29,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "高力士": 1,
+        "陈元礼": 1,
+        "唐明皇": 1
+      },
+      "links": [
+        {
+          "source": "唐明皇",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "陈元礼",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "陈元礼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 33,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "高力士": 1,
+        "唐明皇": 1
+      },
+      "links": [
+        {
+          "source": "唐明皇",
+          "target": "高力士",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 4,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.216,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "陈元礼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "金戈铁马扬飞乌，猛将齐驱下国都。管教乱贼归吾掌，方显人间大丈夫。",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "众人",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：2位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.497,
+        "conflict": 0.0,
+        "sentiment": 0.768
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "高力士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "请万岁爷缓辔而行。",
+          "rating": -1.0,
+          "role": "丑"
+        },
+        {
+          "name": "唐明皇",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "万里巡行，",
+          "rating": -1.0,
+          "role": "冠生"
+        },
+        {
+          "name": "陈元礼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第2场：3位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 1.0,
+        "sentiment": -0.255
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "唐明皇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "独自登临意转伤，蜀山蜀水恨茫茫。",
+          "rating": -0.6,
+          "role": "冠生"
+        },
+        {
+          "name": "高力士",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第3场：2位角色，33行",
+      "firstLine": 1,
+      "lastLine": 33,
+      "numLines": 33,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.9,
+        "conflict": 0.37,
+        "sentiment": -0.191
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第4场：0位角色，4行",
+      "firstLine": 1,
+      "lastLine": 4,
+      "numLines": 4,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.049,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "唐明皇",
+      "short": "唐明",
+      "key": "唐明皇",
+      "quote": "唐明皇 — 冠生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 冠生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "陈元礼",
+      "short": "陈元",
+      "key": "陈元礼",
+      "quote": "陈元礼 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "高力士",
+      "short": "高力",
+      "key": "高力士",
+      "quote": "高力士 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

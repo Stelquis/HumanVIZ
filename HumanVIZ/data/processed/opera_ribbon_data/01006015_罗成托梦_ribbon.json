@@ -1,0 +1,267 @@
+{
+  "title": "罗成托梦",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 5,
+  "num_locations": 2,
+  "source_file": "01006015_罗成托梦.json",
+  "source_folder": "01000000",
+  "plot_summary": "罗成死后，小秦王李世民同秦叔宝、徐茂公、程咬金等亲诣其家祭奠，伴宿灵堂。罗成鬼魂降灵受祭，见李\n世民等均假寐在旁，遂入梦显灵，备诉身死惨状，及为元吉所陷害等情。并以妻子相托。",
+  "performance_notes": "前本即《罗成叫关》。此剧首场，系罗成魂率领四鬼卒绕场行唱，纯用唢呐腔。惟每唱一节，则众鬼卒必同\n堆罗汉一般，幻成种种怪戏，颇足令人发噱，是殆即世人所谓“鬼趣欢”。第二场即《灵堂托兆》亦。此场\n虽有三、四配角，然亦只需如傀儡一般足亦，故仿佛为小生之独角戏。前听朱素云唱此，又飘忽苍凉，又凄\n惨沉着，我不禁为之泪下。顿时觉场上景色，亦俱现一派愁惨气象。其工拙可知也。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 13,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.382,
+      "locations": {
+        "伴宿吾府": 1
+      },
+      "characters": {
+        "罗成": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 55,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "扫灵堂": 1
+      },
+      "characters": {
+        "罗成": 1,
+        "李世民": 1,
+        "众国公": 1,
+        "门子": 1,
+        "罗妻": 1
+      },
+      "links": [
+        {
+          "source": "罗妻",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "众国公",
+          "target": "罗妻",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "罗妻",
+          "value": 1
+        },
+        {
+          "source": "罗妻",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "众国公",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "罗成",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "众国公",
+          "target": "李世民",
+          "value": 1
+        },
+        {
+          "source": "众国公",
+          "target": "罗成",
+          "value": 1
+        },
+        {
+          "source": "李世民",
+          "target": "罗成",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "伴宿吾府",
+      "characters": [
+        {
+          "name": "罗成",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "生前为良将，死后作忠魂。",
+          "rating": 0.429,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：1位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.672,
+        "conflict": 1.0,
+        "sentiment": 0.107
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "扫灵堂",
+      "characters": [
+        {
+          "name": "罗妻",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哎吓！",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "门子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "圣驾到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众国公",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "岂敢。为国身亡，理当如此。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "李世民",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "小王要在此伴灵一夜，众家国公，俱在灵堂陪伴小王一宵。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "罗成",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "天下荒荒无真主，",
+          "rating": 0.6,
+          "role": "小生"
+        }
+      ],
+      "summary": "第二场：5位角色，55行",
+      "firstLine": 1,
+      "lastLine": 55,
+      "numLines": 55,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.674,
+        "sentiment": 0.036
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "罗成",
+      "short": "罗成",
+      "key": "罗成",
+      "quote": "罗成 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李世民",
+      "short": "李世",
+      "key": "李世民",
+      "quote": "李世民 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "罗妻",
+      "short": "罗妻",
+      "key": "罗妻",
+      "quote": "罗妻 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "众国公",
+      "short": "众国",
+      "key": "众国公",
+      "quote": "众国公 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门子",
+      "short": "门子",
+      "key": "门子",
+      "quote": "门子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "扫灵堂",
+      "key": "扫灵堂",
+      "quote": "场景发生在扫灵堂"
+    },
+    {
+      "name": "伴宿吾府",
+      "key": "伴宿吾府",
+      "quote": "场景发生在伴宿吾府"
+    }
+  ]
+}

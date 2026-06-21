@@ -1,0 +1,484 @@
+{
+  "title": "未央宫",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 6,
+  "num_locations": 2,
+  "source_file": "01016005_未央宫.json",
+  "source_folder": "01000000",
+  "plot_summary": "考《西汉演义》，高祖伪游云梦，擒楚王韩信，降封淮阴侯。废置咸阳，赫赫功勋，付诸流水。无怪韩信之\n郁郁不乐，而羞与降灌为伍也。陈豨奉高祖命，平代州番寇，往辞韩信。韩信动以利害，嗾其起反，且约为\n内应。陈豨至代州，遂自立为王。高祖亲征之，委托吕后及丞相萧何监国。临行犹再三谆嘱，注意韩信之举\n动。韩信与陈豨两处，均有函札往来。家仆谢公箸，醉后漏言，韩信欲杀未果。谢公著迳至丞相府告变，吕\n后即与萧何定计，伪称高祖已杀陈豨，诱韩信入贺。至未央宫前。突出武士数十人，缚见吕后，宣以反状，\n证以家仆，斩于长乐殿钟楼之下，并夷其三族。后之人无不为之痛惜，当夫楚汉争衡之际，若非韩信赞助，\n高祖万万不能得天下。乃坐未安席，而擒之废之，且又杀之族之，高祖之不仁实甚矣，虽属吕后之主谋，高\n祖不有疑忌之心，不敢为此。焉知非高祖临行时，授意於吕后耶。《二十四史》中，残暴之君，指不胜屈，\n当推汉高祖为第一。",
+  "performance_notes": "剧本让吕后斩韩信。在高祖宴驾之后，与演义中所载不同。至于宫女用厨刀斩信，及韩信自述天道报应等语，\n编排者点缀剧情，不能不强加以附会。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 50,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "鼎鼐列三台": 1
+      },
+      "characters": {
+        "萧何": 1,
+        "韩信": 1
+      },
+      "links": [
+        {
+          "source": "萧何",
+          "target": "韩信",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 115,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "鼎鼐列三台": 1
+      },
+      "characters": {
+        "吕后": 1,
+        "萧何": 1,
+        "二宫女": 1,
+        "韩信": 1,
+        "陈仓": 1
+      },
+      "links": [
+        {
+          "source": "吕后",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "陈仓",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "吕后",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "陈仓",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "陈仓",
+          "value": 1
+        },
+        {
+          "source": "二宫女",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "陈仓",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 18,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.383,
+      "locations": {
+        "鼎鼐列三台": 1
+      },
+      "characters": {
+        "吕后": 1,
+        "内侍": 1,
+        "萧何": 1,
+        "韩信": 1,
+        "陈仓": 1
+      },
+      "links": [
+        {
+          "source": "吕后",
+          "target": "陈仓",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "陈仓",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "陈仓",
+          "value": 1
+        },
+        {
+          "source": "陈仓",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "吕后",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "吕后",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "萧何",
+          "value": 1
+        },
+        {
+          "source": "内侍",
+          "target": "韩信",
+          "value": 1
+        },
+        {
+          "source": "萧何",
+          "target": "韩信",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第4场",
+      "conflict": 0.0,
+      "importance": 0.106,
+      "locations": {
+        "鼎鼐列三台": 1
+      },
+      "characters": {
+        "萧何": 1,
+        "韩信": 1
+      },
+      "links": [
+        {
+          "source": "萧何",
+          "target": "韩信",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "鼎鼐列三台",
+      "characters": [
+        {
+          "name": "萧何",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "燮理阴阳官极品，调和鼎鼐列三台。",
+          "rating": 0.333,
+          "role": "外"
+        },
+        {
+          "name": "韩信",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "操演将士出校场，",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第1场：2位角色，50行",
+      "firstLine": 1,
+      "lastLine": 50,
+      "numLines": 50,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.85,
+        "conflict": 0.762,
+        "sentiment": 0.545
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "鼎鼐列三台",
+      "characters": [
+        {
+          "name": "韩信",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "你看这萧何老儿，年纪衰迈，言语颠倒，令人好笑。吓，这老儿转眼不见，他",
+          "rating": 0.077,
+          "role": "老生"
+        },
+        {
+          "name": "吕后",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "宫外何人讲话？",
+          "rating": 0.5,
+          "role": "旦"
+        },
+        {
+          "name": "二宫女",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陈仓",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "我来斩你！",
+          "rating": -1.0,
+          "role": "小旦"
+        },
+        {
+          "name": "萧何",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第2场：5位角色，115行",
+      "firstLine": 1,
+      "lastLine": 115,
+      "numLines": 115,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.524,
+        "sentiment": 0.148
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "鼎鼐列三台",
+      "characters": [
+        {
+          "name": "陈仓",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "首级献上！",
+          "rating": 0.0,
+          "role": "小旦"
+        },
+        {
+          "name": "吕后",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "好一个刚强小陈仓，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "内侍",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "国太有旨：宣萧何进宫。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "萧何",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来也！",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "韩信",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：5位角色，18行",
+      "firstLine": 1,
+      "lastLine": 18,
+      "numLines": 18,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.815,
+        "conflict": 0.0,
+        "sentiment": 0.793
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "鼎鼐列三台",
+      "characters": [
+        {
+          "name": "萧何",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "领旨！",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "韩信",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第4场：2位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.582,
+        "conflict": 1.0,
+        "sentiment": 0.827
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "韩信",
+      "short": "韩信",
+      "key": "韩信",
+      "quote": "韩信 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "吕后",
+      "short": "吕后",
+      "key": "吕后",
+      "quote": "吕后 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "萧何",
+      "short": "萧何",
+      "key": "萧何",
+      "quote": "萧何 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陈仓",
+      "short": "陈仓",
+      "key": "陈仓",
+      "quote": "陈仓 — 小旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 小旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "内侍",
+      "short": "内侍",
+      "key": "内侍",
+      "quote": "内侍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "二宫女",
+      "short": "二宫",
+      "key": "二宫女",
+      "quote": "二宫女 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "鼎鼐列三台",
+      "key": "鼎鼐列三台",
+      "quote": "场景发生在鼎鼐列三台"
+    },
+    {
+      "name": "萧何在朝堂",
+      "key": "萧何在朝堂",
+      "quote": "场景发生在萧何在朝堂"
+    }
+  ]
+}

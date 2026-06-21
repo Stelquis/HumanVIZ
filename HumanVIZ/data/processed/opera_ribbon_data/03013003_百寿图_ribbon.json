@@ -1,0 +1,444 @@
+{
+  "title": "百寿图",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 6,
+  "num_locations": 2,
+  "source_file": "03013003_百寿图.json",
+  "source_folder": "03000000",
+  "plot_summary": "平原农家子赵颜，年十九岁。某日，行径相士管辂卦棚。管辂相其气色，断定三日后夭亡。赵颜之父母闻知，\n哀求救死之术。管辂授意赵颜持鹿脯、美酒往终南山，向二老人献酒求寿。赵颜如言而去，果见二老人在\n松下对弈，乃献上酒食。二老人系南斗、北斗二星君。饮酒后，问知来意，许将寿数改为九十九岁，赵颜叩\n谢而归。",
+  "performance_notes": "故事源出于《三国演义》。\n这个剧本经陈少武先生帮助校正。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 74,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.928,
+      "locations": {
+        "这十字街": 1
+      },
+      "characters": {
+        "管辂": 1,
+        "赵颜": 1
+      },
+      "links": [
+        {
+          "source": "管辂",
+          "target": "赵颜",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 25,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.313,
+      "locations": {
+        "牛家门": 1
+      },
+      "characters": {
+        "赵母": 1,
+        "赵范": 1,
+        "赵颜": 1
+      },
+      "links": [
+        {
+          "source": "赵范",
+          "target": "赵颜",
+          "value": 1
+        },
+        {
+          "source": "赵母",
+          "target": "赵范",
+          "value": 1
+        },
+        {
+          "source": "赵母",
+          "target": "赵颜",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 83,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "牛家门": 1
+      },
+      "characters": {
+        "赵母": 1,
+        "管辂": 1,
+        "赵范": 1,
+        "赵颜": 1
+      },
+      "links": [
+        {
+          "source": "管辂",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "管辂",
+          "target": "赵范",
+          "value": 1
+        },
+        {
+          "source": "管辂",
+          "target": "赵颜",
+          "value": 1
+        },
+        {
+          "source": "赵母",
+          "target": "赵范",
+          "value": 1
+        },
+        {
+          "source": "赵母",
+          "target": "赵颜",
+          "value": 1
+        },
+        {
+          "source": "赵范",
+          "target": "赵颜",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 137,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "牛家门": 1
+      },
+      "characters": {
+        "南斗星": 1,
+        "管辂": 1,
+        "北斗星": 1,
+        "赵颜": 1
+      },
+      "links": [
+        {
+          "source": "北斗星",
+          "target": "南斗星",
+          "value": 1
+        },
+        {
+          "source": "北斗星",
+          "target": "赵颜",
+          "value": 1
+        },
+        {
+          "source": "北斗星",
+          "target": "管辂",
+          "value": 1
+        },
+        {
+          "source": "南斗星",
+          "target": "赵颜",
+          "value": 1
+        },
+        {
+          "source": "南斗星",
+          "target": "管辂",
+          "value": 1
+        },
+        {
+          "source": "管辂",
+          "target": "赵颜",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "这十字街",
+      "characters": [
+        {
+          "name": "管辂",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "慧眼能识仙鬼，判断祸福无差。",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "赵颜",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "在家中遵奉了双亲严命，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第一场：2位角色，74行",
+      "firstLine": 1,
+      "lastLine": 74,
+      "numLines": 74,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.628,
+        "conflict": 0.513,
+        "sentiment": 0.297
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "牛家门",
+      "characters": [
+        {
+          "name": "赵范",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "一家人全凭着耕种为本，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵颜",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "走啊！",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "赵母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "儿啊，为何啼哭？",
+          "rating": -0.333,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：3位角色，25行",
+      "firstLine": 1,
+      "lastLine": 25,
+      "numLines": 25,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.319,
+        "conflict": 0.784,
+        "sentiment": -0.145
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "牛家门",
+      "characters": [
+        {
+          "name": "管辂",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "将身儿来至在卦棚坐定，",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "赵母",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "走啊！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "赵范",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "小娇儿你与我把路来领，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "赵颜",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "有。",
+          "rating": -1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：4位角色，83行",
+      "firstLine": 1,
+      "lastLine": 83,
+      "numLines": 83,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.733,
+        "conflict": 0.115,
+        "sentiment": 0.008
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "牛家门",
+      "characters": [
+        {
+          "name": "北斗星",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "走啊！",
+          "rating": 0.429,
+          "role": "净"
+        },
+        {
+          "name": "南斗星",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "观天地和日月乾坤浩荡，",
+          "rating": 0.385,
+          "role": "老生"
+        },
+        {
+          "name": "赵颜",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "走啊！",
+          "rating": -0.5,
+          "role": "小生"
+        },
+        {
+          "name": "管辂",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第四场：4位角色，137行",
+      "firstLine": 1,
+      "lastLine": 137,
+      "numLines": 137,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.19,
+        "sentiment": 0.451
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "管辂",
+      "short": "管辂",
+      "key": "管辂",
+      "quote": "管辂 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "南斗星",
+      "short": "南斗",
+      "key": "南斗星",
+      "quote": "南斗星 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "北斗星",
+      "short": "北斗",
+      "key": "北斗星",
+      "quote": "北斗星 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "赵颜",
+      "short": "赵颜",
+      "key": "赵颜",
+      "quote": "赵颜 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "赵母",
+      "short": "赵母",
+      "key": "赵母",
+      "quote": "赵母 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵范",
+      "short": "赵范",
+      "key": "赵范",
+      "quote": "赵范 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "牛家门",
+      "key": "牛家门",
+      "quote": "场景发生在牛家门"
+    },
+    {
+      "name": "这十字街",
+      "key": "这十字街",
+      "quote": "场景发生在这十字街"
+    }
+  ]
+}

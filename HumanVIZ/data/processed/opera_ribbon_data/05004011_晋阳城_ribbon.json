@@ -1,0 +1,424 @@
+{
+  "title": "晋阳城",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 4,
+  "num_characters": 6,
+  "num_locations": 1,
+  "source_file": "05004011_晋阳城.json",
+  "source_folder": "05000000",
+  "plot_summary": "后汉刘知远建都晋阳，因国库空虚，命王章捐募民财，以赏将士。王章订下捐款等级，向百姓勒索。百姓无\n钱可付，均被王章锁走。路遇刘知远之子刘承佑巡街，问知其故，命王章释放众人，百姓称谢而去。王章归\n报刘知远，谓刘承佑逆旨。刘知远乃宣子上殿加以责问。刘承佑奏请勿以苛政扰民，刘知远大怒，欲斩之。\n刘承佑再三婉言劝谏，拔剑欲自刎。李后闻讯赶来，急止之，请以宫中所有犒军。刘知远感悟，知民为国本，\n遂使王章将宫中珠宝分赏将士。众将士得悉，转请将珠宝赈济百姓，刘知远更为惶愧。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 36,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.426,
+      "locations": {
+        "驾坐晋阳城": 1
+      },
+      "characters": {
+        "王章": 1,
+        "刘知远": 1
+      },
+      "links": [
+        {
+          "source": "刘知远",
+          "target": "王章",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 32,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.379,
+      "locations": {
+        "驾坐晋阳城": 1
+      },
+      "characters": {
+        "王章": 1,
+        "老民人": 1
+      },
+      "links": [
+        {
+          "source": "王章",
+          "target": "老民人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 77,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.911,
+      "locations": {
+        "驾坐晋阳城": 1
+      },
+      "characters": {
+        "刘承佑": 1,
+        "老民人": 1,
+        "王章": 1
+      },
+      "links": [
+        {
+          "source": "刘承佑",
+          "target": "老民人",
+          "value": 1
+        },
+        {
+          "source": "刘承佑",
+          "target": "王章",
+          "value": 1
+        },
+        {
+          "source": "王章",
+          "target": "老民人",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 1,
+      "numLines": 193,
+      "summary": "第四场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "驾坐晋阳城": 1
+      },
+      "characters": {
+        "王章": 1,
+        "刘知远": 1,
+        "小太监甲": 1,
+        "刘夫人": 1,
+        "刘承佑": 1
+      },
+      "links": [
+        {
+          "source": "刘知远",
+          "target": "王章",
+          "value": 1
+        },
+        {
+          "source": "刘知远",
+          "target": "小太监甲",
+          "value": 1
+        },
+        {
+          "source": "刘承佑",
+          "target": "刘知远",
+          "value": 1
+        },
+        {
+          "source": "刘夫人",
+          "target": "刘知远",
+          "value": 1
+        },
+        {
+          "source": "小太监甲",
+          "target": "王章",
+          "value": 1
+        },
+        {
+          "source": "刘承佑",
+          "target": "王章",
+          "value": 1
+        },
+        {
+          "source": "刘夫人",
+          "target": "王章",
+          "value": 1
+        },
+        {
+          "source": "刘承佑",
+          "target": "小太监甲",
+          "value": 1
+        },
+        {
+          "source": "刘夫人",
+          "target": "小太监甲",
+          "value": 1
+        },
+        {
+          "source": "刘夫人",
+          "target": "刘承佑",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "驾坐晋阳城",
+      "characters": [
+        {
+          "name": "刘知远",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "国离乱群雄起争夺天下，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "王章",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "领旨。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，36行",
+      "firstLine": 1,
+      "lastLine": 36,
+      "numLines": 36,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.564,
+        "conflict": 1.0,
+        "sentiment": 0.227
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "驾坐晋阳城",
+      "characters": [
+        {
+          "name": "老民人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "几载干戈起，",
+          "rating": -0.2,
+          "role": ""
+        },
+        {
+          "name": "王章",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "呔，众百姓，你们可知道，如今是天下太平，多亏的是将士们用武。万岁传下",
+          "rating": -1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，32行",
+      "firstLine": 1,
+      "lastLine": 32,
+      "numLines": 32,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.357,
+        "conflict": 0.909,
+        "sentiment": -0.089
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "驾坐晋阳城",
+      "characters": [
+        {
+          "name": "刘承佑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "烽烟起群雄立兵荒马乱，",
+          "rating": 0.714,
+          "role": "小生"
+        },
+        {
+          "name": "老民人",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哎呀天哪，苦死人了哇！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王章",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "哎呀呀，小千岁。这黄昏交夜之时，你怎么来到此地？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：3位角色，77行",
+      "firstLine": 1,
+      "lastLine": 77,
+      "numLines": 77,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.637,
+        "conflict": 0.417,
+        "sentiment": 0.532
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "驾坐晋阳城",
+      "characters": [
+        {
+          "name": "刘知远",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "命王章募民捐未见回奏，",
+          "rating": 0.091,
+          "role": "老生"
+        },
+        {
+          "name": "王章",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "捐募民财成画饼，急忙上殿奏当今。",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "小太监甲",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "万岁有旨，宣小千岁上殿。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "刘承佑",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": -0.043,
+          "role": "小生"
+        },
+        {
+          "name": "刘夫人",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "我儿为何自刎？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：5位角色，193行",
+      "firstLine": 1,
+      "lastLine": 193,
+      "numLines": 193,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.415,
+        "sentiment": 0.194
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘知远",
+      "short": "刘知",
+      "key": "刘知远",
+      "quote": "刘知远 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘承佑",
+      "short": "刘承",
+      "key": "刘承佑",
+      "quote": "刘承佑 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王章",
+      "short": "王章",
+      "key": "王章",
+      "quote": "王章 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老民人",
+      "short": "老民",
+      "key": "老民人",
+      "quote": "老民人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小太监甲",
+      "short": "小太",
+      "key": "小太监甲",
+      "quote": "小太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "刘夫人",
+      "short": "刘夫",
+      "key": "刘夫人",
+      "quote": "刘夫人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "驾坐晋阳城",
+      "key": "驾坐晋阳城",
+      "quote": "场景发生在驾坐晋阳城"
+    }
+  ]
+}

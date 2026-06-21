@@ -1,0 +1,142 @@
+{
+  "title": "哭灵牌",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 1,
+  "num_scenes": 1,
+  "num_characters": 3,
+  "num_locations": 1,
+  "source_file": "80000008_哭灵牌.json",
+  "source_folder": "80000000",
+  "plot_summary": "刘备率蜀兵、蛮兵在猇亭大败吴兵，沙摩柯射死甘宁，江南大震。孙权遣诸葛瑾押解范疆、张达及张飞首级\n往蜀营求和，刘备不允。乃设位哭祭关、张，斩杀范、张及傅士仁、糜芳，誓必灭吴。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "全剧",
+      "numScenes": 1,
+      "numLines": 76,
+      "summary": "段落1",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "张苞": 1,
+        "关兴": 1,
+        "刘备": 1
+      },
+      "links": [
+        {
+          "source": "关兴",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "张苞",
+          "value": 1
+        },
+        {
+          "source": "关兴",
+          "target": "张苞",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "段落1",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "白盔白甲白旗号，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "关兴",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "伯父！",
+          "rating": -0.333,
+          "role": ""
+        },
+        {
+          "name": "张苞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "儿臣代祭。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "段落1：3位角色，76行",
+      "firstLine": 1,
+      "lastLine": 76,
+      "numLines": 76,
+      "chapter": "全剧",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.488,
+        "sentiment": 0.076
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张苞",
+      "short": "张苞",
+      "key": "张苞",
+      "quote": "张苞 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "关兴",
+      "short": "关兴",
+      "key": "关兴",
+      "quote": "关兴 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

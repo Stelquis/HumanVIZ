@@ -1,0 +1,956 @@
+{
+  "title": "打龙袍",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 6,
+  "num_characters": 11,
+  "num_locations": 2,
+  "source_file": "14002006_打龙袍.json",
+  "source_folder": "14000000",
+  "plot_summary": "包拯自辰州放粮回来，路过天齐庙，遇着了李太后（戏情可参看老旦戏中之《断太后》）。回朝想把李后蒙\n冤遭难情节奏明宋仁宗。因怕触怒宋仁宗，就着人扮演花灯，邀请宋仁宗去看。故意扮演些不忠不孝的戏来\n打动宋仁宗，乘机把李后的事申奏出来。宋仁宗闻奏，不但不信，反怪他不该欺君，竟要把他斩首。包拯就\n说老太监陈琳晓得这事本末。宋仁宗召来一问，果然不错。后宫忽报刘太后自尽身死，宋仁宗这才相信这是\n真的。当命包拯迎李后回宫。李后因怪宋仁宗二十年来，还不知生身之母在民间受苦，赐包拯紫金棍一根，\n命他责打宋仁宗。包拯因无臣打君之理，如是叫宋仁宗把龙袍脱下打了几下，算是责罚了宋仁宗。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 87,
+      "summary": "第一场；第二场",
+      "conflict": 0.009,
+      "importance": 0.882,
+      "locations": {
+        " 凤阁龙楼": 2
+      },
+      "characters": {
+        "包拯": 1,
+        "宋仁宗": 1,
+        "四太监": 1,
+        "王延龄": 1,
+        "灯官": 1
+      },
+      "links": [
+        {
+          "source": "四太监",
+          "target": "宋仁宗",
+          "value": 1
+        },
+        {
+          "source": "宋仁宗",
+          "target": "王延龄",
+          "value": 2
+        },
+        {
+          "source": "包拯",
+          "target": "宋仁宗",
+          "value": 2
+        },
+        {
+          "source": "四太监",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "四太监",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "王延龄",
+          "value": 2
+        },
+        {
+          "source": "宋仁宗",
+          "target": "灯官",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "灯官",
+          "value": 1
+        },
+        {
+          "source": "灯官",
+          "target": "王延龄",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 131,
+      "summary": "第三场；第四场",
+      "conflict": 0.268,
+      "importance": 1.0,
+      "locations": {
+        " 凤阁龙楼": 1,
+        "凤辇进皇城": 1
+      },
+      "characters": {
+        "太监甲": 1,
+        "包拯": 1,
+        "李后": 1,
+        "四御林军": 1,
+        "宋仁宗": 1,
+        "郭槐": 1,
+        "王延龄": 1,
+        "皇后": 1,
+        "陈琳": 1
+      },
+      "links": [
+        {
+          "source": "宋仁宗",
+          "target": "王延龄",
+          "value": 2
+        },
+        {
+          "source": "包拯",
+          "target": "宋仁宗",
+          "value": 2
+        },
+        {
+          "source": "太监甲",
+          "target": "宋仁宗",
+          "value": 1
+        },
+        {
+          "source": "宋仁宗",
+          "target": "陈琳",
+          "value": 2
+        },
+        {
+          "source": "四御林军",
+          "target": "宋仁宗",
+          "value": 1
+        },
+        {
+          "source": "宋仁宗",
+          "target": "郭槐",
+          "value": 1
+        },
+        {
+          "source": "宋仁宗",
+          "target": "李后",
+          "value": 2
+        },
+        {
+          "source": "包拯",
+          "target": "王延龄",
+          "value": 2
+        },
+        {
+          "source": "太监甲",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "王延龄",
+          "target": "陈琳",
+          "value": 2
+        },
+        {
+          "source": "四御林军",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "王延龄",
+          "target": "郭槐",
+          "value": 1
+        },
+        {
+          "source": "李后",
+          "target": "王延龄",
+          "value": 2
+        },
+        {
+          "source": "包拯",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "陈琳",
+          "value": 2
+        },
+        {
+          "source": "包拯",
+          "target": "四御林军",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "郭槐",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "李后",
+          "value": 2
+        },
+        {
+          "source": "太监甲",
+          "target": "陈琳",
+          "value": 1
+        },
+        {
+          "source": "四御林军",
+          "target": "太监甲",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "郭槐",
+          "value": 1
+        },
+        {
+          "source": "太监甲",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "四御林军",
+          "target": "陈琳",
+          "value": 1
+        },
+        {
+          "source": "郭槐",
+          "target": "陈琳",
+          "value": 1
+        },
+        {
+          "source": "李后",
+          "target": "陈琳",
+          "value": 2
+        },
+        {
+          "source": "四御林军",
+          "target": "郭槐",
+          "value": 1
+        },
+        {
+          "source": "四御林军",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "李后",
+          "target": "郭槐",
+          "value": 1
+        },
+        {
+          "source": "李后",
+          "target": "皇后",
+          "value": 1
+        },
+        {
+          "source": "王延龄",
+          "target": "皇后",
+          "value": 1
+        },
+        {
+          "source": "皇后",
+          "target": "陈琳",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "皇后",
+          "value": 1
+        },
+        {
+          "source": "宋仁宗",
+          "target": "皇后",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 78,
+      "summary": "第五场；第六场",
+      "conflict": 0.162,
+      "importance": 0.791,
+      "locations": {
+        " 凤阁龙楼": 2
+      },
+      "characters": {
+        "包拯": 1,
+        "李后": 1,
+        "宋仁宗": 1,
+        "四太监": 1,
+        "郭槐": 1,
+        "王延龄": 1,
+        "陈琳": 1
+      },
+      "links": [
+        {
+          "source": "宋仁宗",
+          "target": "李后",
+          "value": 2
+        },
+        {
+          "source": "宋仁宗",
+          "target": "陈琳",
+          "value": 2
+        },
+        {
+          "source": "包拯",
+          "target": "宋仁宗",
+          "value": 2
+        },
+        {
+          "source": "宋仁宗",
+          "target": "王延龄",
+          "value": 2
+        },
+        {
+          "source": "李后",
+          "target": "陈琳",
+          "value": 2
+        },
+        {
+          "source": "包拯",
+          "target": "李后",
+          "value": 2
+        },
+        {
+          "source": "李后",
+          "target": "王延龄",
+          "value": 2
+        },
+        {
+          "source": "包拯",
+          "target": "陈琳",
+          "value": 2
+        },
+        {
+          "source": "王延龄",
+          "target": "陈琳",
+          "value": 2
+        },
+        {
+          "source": "包拯",
+          "target": "王延龄",
+          "value": 2
+        },
+        {
+          "source": "四太监",
+          "target": "宋仁宗",
+          "value": 1
+        },
+        {
+          "source": "宋仁宗",
+          "target": "郭槐",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "李后",
+          "value": 1
+        },
+        {
+          "source": "李后",
+          "target": "郭槐",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "四太监",
+          "value": 1
+        },
+        {
+          "source": "包拯",
+          "target": "郭槐",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "郭槐",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "王延龄",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "陈琳",
+          "value": 1
+        },
+        {
+          "source": "王延龄",
+          "target": "郭槐",
+          "value": 1
+        },
+        {
+          "source": "郭槐",
+          "target": "陈琳",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "宋仁宗",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "凤阁龙楼，万古千秋。",
+          "rating": 0.667,
+          "role": "小生"
+        },
+        {
+          "name": "四太监",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王延龄",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "忙将包拯事，奏与万岁知。",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "包拯",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "领旨。",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：4位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.198,
+        "sentiment": 0.336
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "灯官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "奉了包相命，午门扮花灯。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "宋仁宗",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "将灯名报上来。",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "包拯",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "且慢！万岁，为何将扮灯官拿下？",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "王延龄",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "回头埋怨小包文。",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：4位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.717,
+        "conflict": 0.256,
+        "sentiment": 0.345
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "宋仁宗",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "内侍摆驾金殿进，",
+          "rating": 0.333,
+          "role": "小生"
+        },
+        {
+          "name": "王延龄",
+          "importance": 0.875,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "包拯拿到。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "包拯",
+          "importance": 0.75,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "忽听二次宣一声，",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "太监甲",
+          "importance": 0.625,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "万岁有旨：金牌宣，银牌召，亚父陈琳上殿。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陈琳",
+          "importance": 0.5,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "四御林军",
+          "importance": 0.375,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "刘娘娘自尽，郭槐拿到。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郭槐",
+          "importance": 0.25,
+          "importance_rank": 7,
+          "emotion": "negative",
+          "quote": "原来是一党奸臣在此。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "李后",
+          "importance": 0.125,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第三场：8位角色，104行",
+      "firstLine": 1,
+      "lastLine": 104,
+      "numLines": 104,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.094,
+        "sentiment": 0.344
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "凤辇进皇城",
+      "characters": [
+        {
+          "name": "李后",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "龙车凤辇进皇城，",
+          "rating": 0.6,
+          "role": "老旦"
+        },
+        {
+          "name": "王延龄",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "王延龄见驾，国太千岁！",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "陈琳",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "奴婢陈琳见驾，国太千岁！",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "包拯",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "negative",
+          "quote": "包拯见驾，国太千岁！",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "皇后",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "儿臣见驾，国太千岁。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "宋仁宗",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "包卿，国太双目不明，如何是好？",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：6位角色，27行",
+      "firstLine": 1,
+      "lastLine": 27,
+      "numLines": 27,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.844,
+        "conflict": 0.727,
+        "sentiment": 0.612
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "宋仁宗",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "孤，大宋天子仁宗在位。只因母亲双目不明，望上苍恩赐光明。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "李后",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "皇儿。",
+          "rating": 0.0,
+          "role": "老旦"
+        },
+        {
+          "name": "陈琳",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "国太。",
+          "rating": 0.0,
+          "role": "生"
+        },
+        {
+          "name": "包拯",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "王延龄",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第五场：5位角色，15行",
+      "firstLine": 1,
+      "lastLine": 15,
+      "numLines": 15,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.709,
+        "conflict": 0.0,
+        "sentiment": 0.391
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": " 凤阁龙楼",
+      "characters": [
+        {
+          "name": "宋仁宗",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "儿臣见驾，母后千岁。",
+          "rating": 0.0,
+          "role": "小生"
+        },
+        {
+          "name": "李后",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "哎，我把你这无道的昏君。",
+          "rating": -0.143,
+          "role": "老旦"
+        },
+        {
+          "name": "包拯",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "臣。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "四太监",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "摆驾回宫。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "郭槐",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "王延龄",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "陈琳",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "生"
+        }
+      ],
+      "summary": "第六场：7位角色，63行",
+      "firstLine": 1,
+      "lastLine": 63,
+      "numLines": 63,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.963,
+        "conflict": 0.0,
+        "sentiment": 0.229
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "包拯",
+      "short": "包拯",
+      "key": "包拯",
+      "quote": "包拯 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "李后",
+      "short": "李后",
+      "key": "李后",
+      "quote": "李后 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "宋仁宗",
+      "short": "宋仁",
+      "key": "宋仁宗",
+      "quote": "宋仁宗 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "王延龄",
+      "short": "王延",
+      "key": "王延龄",
+      "quote": "王延龄 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陈琳",
+      "short": "陈琳",
+      "key": "陈琳",
+      "quote": "陈琳 — 生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "郭槐",
+      "short": "郭槐",
+      "key": "郭槐",
+      "quote": "郭槐 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "灯官",
+      "short": "灯官",
+      "key": "灯官",
+      "quote": "灯官 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "皇后",
+      "short": "皇后",
+      "key": "皇后",
+      "quote": "皇后 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "太监甲",
+      "short": "太监",
+      "key": "太监甲",
+      "quote": "太监甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四御林军",
+      "short": "四御",
+      "key": "四御林军",
+      "quote": "四御林军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四太监",
+      "short": "四太",
+      "key": "四太监",
+      "quote": "四太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": " 凤阁龙楼",
+      "key": " 凤阁龙楼",
+      "quote": "场景发生在 凤阁龙楼"
+    },
+    {
+      "name": "凤辇进皇城",
+      "key": "凤辇进皇城",
+      "quote": "场景发生在凤辇进皇城"
+    }
+  ]
+}

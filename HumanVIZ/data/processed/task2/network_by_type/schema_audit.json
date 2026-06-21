@@ -1,0 +1,416 @@
+{
+  "audit_time": "2026-06-06T15:37:00.642934",
+  "audit_version": "v2",
+  "previous_audit": "2026-06-05T17:40:54.894537",
+  "changes_since_v1": [
+    "新增 LLM 角色类型补全集成检查 (Phase 4.9)",
+    "新增跨数据源 entity_id 四源对齐 (Phase 4.6)",
+    "新增 node_count metrics vs actual 一致性检查 (Phase 4.10)",
+    "新增 中立关系占比异常检测 (Phase 4.8)",
+    "新增 core_roles.json 和 llm_role_type_results.json 的结构检查",
+    "区分功能性角色和命名角色的 role_type 缺失",
+    "逐指标详细统计移至独立文件 metrics_inventory.json",
+    "新增 source_tag/direction 分布审计 (Phase 3)"
+  ],
+  "data_sources": {
+    "单剧本网络.json.gz": {
+      "description": "每部剧的图结构 + 指标，Step 4.2-4.3 产出",
+      "play_count": 1473,
+      "total_nodes": 22494,
+      "total_edges": 72257,
+      "top_level_fields": [
+        "edges",
+        "entity_id",
+        "metrics",
+        "nodes",
+        "剧本名",
+        "剧目类型"
+      ],
+      "metrics_sub_fields": [
+        "avg_clustering",
+        "connected_components",
+        "core_characters",
+        "density",
+        "edge_count",
+        "largest_component_ratio",
+        "node_count",
+        "relation_type_distribution"
+      ],
+      "node_attributes": [
+        "betweenness_centrality",
+        "closeness_centrality",
+        "degree_centrality",
+        "dialogue_count",
+        "id",
+        "name",
+        "role_type",
+        "scene_count"
+      ],
+      "edge_attributes": [
+        "direction",
+        "evidence",
+        "micro_type",
+        "relation_type",
+        "source",
+        "source_tag",
+        "target",
+        "weight"
+      ],
+      "metadata": {
+        "export_time": "2026-06-01T00:43:55.063071",
+        "total_plays": 1473,
+        "total_nodes": 22494,
+        "total_edges": 72257,
+        "weight_params": {
+          "alpha": 0.6,
+          "beta": 0.5
+        },
+        "graph_type": "undirected",
+        "node_attributes": [
+          "name",
+          "role_type",
+          "scene_count",
+          "dialogue_count",
+          "degree_centrality",
+          "betweenness_centrality",
+          "closeness_centrality"
+        ],
+        "edge_attributes": [
+          "weight",
+          "relation_type",
+          "micro_type",
+          "direction",
+          "evidence",
+          "source_tag"
+        ],
+        "source": {
+          "4.1": "数据加载与整合",
+          "4.2": "单剧本网络图构建",
+          "4.3": "网络指标计算"
+        }
+      }
+    },
+    "4.1_unified_data.json.gz": {
+      "description": "角色字典、别名映射、语义关系边列表、共现边列表",
+      "play_count": 1473,
+      "top_level_fields": [
+        "entity_id",
+        "共现边列表",
+        "别名映射",
+        "剧本名",
+        "剧目类型",
+        "角色字典",
+        "语义关系边列表"
+      ]
+    },
+    "剧目类型.json": {
+      "play_count": 1473,
+      "type_distribution": {
+        "历史戏": 776,
+        "家庭戏": 223,
+        "侠义戏": 126,
+        "爱情戏": 116,
+        "神话戏": 115,
+        "公案戏": 100,
+        "技法展示戏": 17
+      }
+    },
+    "角色关系.json": {
+      "play_count": 1473,
+      "total_relations": 72361,
+      "macro_types": {
+        "亲属": 3267,
+        "同盟": 7972,
+        "从属": 7012,
+        "中立": 50112,
+        "敌对": 3721,
+        "情感": 277
+      }
+    },
+    "全局网络.json.gz": {
+      "total_nodes": 8255,
+      "total_edges": 54401
+    },
+    "网络指标.json": {
+      "sections": [
+        "_metadata",
+        "global",
+        "by_type"
+      ],
+      "by_type_available": [
+        "侠义戏",
+        "公案戏",
+        "历史戏",
+        "家庭戏",
+        "技法展示戏",
+        "爱情戏",
+        "神话戏"
+      ]
+    },
+    "llm_role_type_results.json (Step 5.4)": {
+      "description": "LLM 行当补全结果",
+      "exists": true
+    },
+    "core_roles.json (Step 5.4)": {
+      "description": "核心角色识别结果",
+      "exists": true,
+      "plays_with_core": 1473
+    }
+  },
+  "field_coverage": {
+    "top_level": {
+      "entity_id": 1473,
+      "剧本名": 1473,
+      "剧目类型": 1473,
+      "nodes": 1473,
+      "edges": 1473,
+      "metrics": 1473
+    },
+    "metrics_sub_fields": {
+      "node_count": 1473,
+      "edge_count": 1473,
+      "density": 1473,
+      "avg_clustering": 1473,
+      "connected_components": 1473,
+      "largest_component_ratio": 1473,
+      "relation_type_distribution": 1473,
+      "core_characters": 1473
+    },
+    "node_sub_fields": {
+      "id": 22494,
+      "name": 22494,
+      "role_type": 22494,
+      "scene_count": 22494,
+      "dialogue_count": 22494,
+      "degree_centrality": 22494,
+      "betweenness_centrality": 22494,
+      "closeness_centrality": 22494
+    },
+    "edge_sub_fields": {
+      "source": 72257,
+      "target": 72257,
+      "weight": 72257,
+      "relation_type": 72257,
+      "micro_type": 72257,
+      "direction": 72257,
+      "evidence": 72257,
+      "source_tag": 72257
+    },
+    "node_sub_fields_nonnull": {
+      "id": 22494,
+      "name": 22494,
+      "scene_count": 22245,
+      "dialogue_count": 22245,
+      "degree_centrality": 17809,
+      "closeness_centrality": 17802,
+      "role_type": 8001,
+      "betweenness_centrality": 6857
+    },
+    "edge_sub_fields_nonnull": {
+      "source": 72257,
+      "target": 72257,
+      "relation_type": 72257,
+      "micro_type": 72257,
+      "direction": 72257,
+      "source_tag": 72257,
+      "weight": 72256,
+      "evidence": 24167
+    }
+  },
+  "play_type_distribution": {
+    "历史戏": 776,
+    "家庭戏": 223,
+    "侠义戏": 126,
+    "爱情戏": 116,
+    "神话戏": 115,
+    "公案戏": 100,
+    "技法展示戏": 17
+  },
+  "available_metrics": [
+    {
+      "metric": "avg_clustering",
+      "coverage": 1473,
+      "coverage_pct": 100.0,
+      "status": "ready"
+    },
+    {
+      "metric": "connected_components",
+      "coverage": 1473,
+      "coverage_pct": 100.0,
+      "status": "ready"
+    },
+    {
+      "metric": "core_characters",
+      "coverage": 1473,
+      "coverage_pct": 100.0,
+      "status": "ready"
+    },
+    {
+      "metric": "density",
+      "coverage": 1473,
+      "coverage_pct": 100.0,
+      "status": "ready"
+    },
+    {
+      "metric": "edge_count",
+      "coverage": 1473,
+      "coverage_pct": 100.0,
+      "status": "ready"
+    },
+    {
+      "metric": "largest_component_ratio",
+      "coverage": 1473,
+      "coverage_pct": 100.0,
+      "status": "ready"
+    },
+    {
+      "metric": "node_count",
+      "coverage": 1473,
+      "coverage_pct": 100.0,
+      "status": "ready"
+    },
+    {
+      "metric": "relation_type_distribution",
+      "coverage": 1473,
+      "coverage_pct": 100.0,
+      "status": "ready"
+    }
+  ],
+  "supplementary_metrics_computable": [
+    {
+      "name": "degree_centralization",
+      "description": "度中心化程度 (Freeman's formula)",
+      "formula": "sum(max_deg - deg_i) / ((n-1)*(n-2))",
+      "inputs": "nodes.degree_centrality",
+      "can_compute": true
+    },
+    {
+      "name": "betweenness_centralization",
+      "description": "介数中心化程度",
+      "formula": "sum(max_betw - betw_i) / ((n-1)*(n-2)*(n-3)/2) or normalized",
+      "inputs": "nodes.betweenness_centrality",
+      "can_compute": true
+    },
+    {
+      "name": "degree_entropy",
+      "description": "度分布熵（归一化）",
+      "formula": "-sum(p_i * log(p_i)) / log(n)",
+      "inputs": "nodes.degree_centrality",
+      "can_compute": true
+    },
+    {
+      "name": "top1_top2_gap",
+      "description": "最高度与第二高度的差值比",
+      "formula": "(max1 - max2) / max1",
+      "inputs": "nodes.degree_centrality",
+      "can_compute": true
+    },
+    {
+      "name": "top3_centrality_share",
+      "description": "Top 3 节点中心性占比",
+      "formula": "sum(top3_deg) / sum(all_deg)",
+      "inputs": "nodes.degree_centrality",
+      "can_compute": true
+    },
+    {
+      "name": "max_to_mean_ratio",
+      "description": "最大中心性与平均中心性比值",
+      "formula": "max_deg / mean_deg",
+      "inputs": "nodes.degree_centrality",
+      "can_compute": true
+    },
+    {
+      "name": "core_periphery_ratio",
+      "description": "前20%节点与后80%节点的边权重比",
+      "formula": "edges_in_top20 / edges_in_bottom80",
+      "inputs": "nodes + edges",
+      "can_compute": true
+    },
+    {
+      "name": "modularity",
+      "description": "社区模块度",
+      "formula": "Louvain/标签传播算法",
+      "inputs": "full adjacency",
+      "can_compute": true,
+      "note": "需 networkx community 算法"
+    },
+    {
+      "name": "assortativity",
+      "description": "行当同配性",
+      "formula": "Pearson correlation of role_type between connected nodes",
+      "inputs": "nodes.role_type + edges",
+      "can_compute": "partial",
+      "note": "role_type 覆盖率仅 {pct}%，需先补全"
+    },
+    {
+      "name": "avg_shortest_path",
+      "description": "平均最短路径长度",
+      "formula": "networkx.average_shortest_path_length",
+      "inputs": "adjacency",
+      "can_compute": true,
+      "note": "大网络计算成本高"
+    }
+  ],
+  "value_coverage": {
+    "nodes.role_type_nonempty": {
+      "count": 8001,
+      "total": 22494,
+      "pct": 35.6
+    },
+    "nodes.role_type_explicit_unknown": 0,
+    "nodes.role_type_blank": 14493,
+    "edges.micro_type_nonempty": 72257,
+    "edges.evidence_nonempty": 24167,
+    "edges.evidence_nonempty_pct": 33.4,
+    "macro_type_distribution": {
+      "中立": 50109,
+      "同盟": 7945,
+      "从属": 6989,
+      "敌对": 3683,
+      "亲属": 3261,
+      "情感": 270
+    },
+    "source_tag_distribution": {
+      "merged": 71912,
+      "llm": 344,
+      "cooccurrence": 1
+    },
+    "direction_distribution": {
+      "bidirectional": 64610,
+      "unidirectional": 7647
+    }
+  },
+  "cross_source_alignment": {
+    "single_net_count": 1473,
+    "unified_data_count": 1473,
+    "play_types_count": 1473,
+    "role_relations_count": 1473,
+    "in_all_four": 1473,
+    "only_in_single_net": [],
+    "only_in_unified": [],
+    "only_in_types": [],
+    "only_in_relations": []
+  },
+  "data_quality_summary": {
+    "total_plays": 1473,
+    "plays_with_empty_relation_distribution": 11,
+    "plays_with_empty_core_characters": 0,
+    "plays_with_role_type_gaps": 1193,
+    "total_nodes_without_role_type": 14493,
+    "named_nodes_no_role": 9305,
+    "functional_nodes_expected": 5188,
+    "isolated_nodes_total": 4685,
+    "isolated_nodes_crowd": 2398,
+    "isolated_nodes_named": 2287,
+    "entity_id_alignment": "ok",
+    "density_anomalies": 0,
+    "neutral_dominated_plays": 113,
+    "node_count_mismatch": 0
+  },
+  "reusability_summary": {
+    "ready_metrics_count": 8,
+    "computable_metrics_count": 10,
+    "llm_required_count": 2,
+    "role_type_coverage_pct": 35.6
+  }
+}

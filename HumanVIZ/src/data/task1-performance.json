@@ -1,0 +1,400 @@
+{
+  "_meta": {
+    "description": "按行当大类聚合的表演维度统计（唱念做打比率）",
+    "dataSource": "structural_fingerprints.json + scripts-summary.json roleType",
+    "note": "数据为剧本级比率，按剧本首角色行当大类聚合。唱(singing_ratio)、念/白(speaking_ratio)、做(acting_ratio)、打(fighting_ratio)。",
+    "totalScripts": 1473
+  },
+  "categories": [
+    "生",
+    "旦",
+    "净",
+    "丑"
+  ],
+  "dimensions": [
+    {
+      "key": "sing",
+      "label": "唱",
+      "color": "#b8926a"
+    },
+    {
+      "key": "speak",
+      "label": "念",
+      "color": "#96544d"
+    },
+    {
+      "key": "act",
+      "label": "做",
+      "color": "#5e6b76"
+    },
+    {
+      "key": "fight",
+      "label": "打",
+      "color": "#7f968d"
+    }
+  ],
+  "categoryProfiles": [
+    {
+      "category": "生",
+      "color": "#b8926a",
+      "label": "琉璃金",
+      "scriptCount": 891,
+      "sing": {
+        "mean": 0.1257,
+        "sd": 0.1012,
+        "n": 891
+      },
+      "speak": {
+        "mean": 0.6069,
+        "sd": 0.113,
+        "n": 891
+      },
+      "act": {
+        "mean": 0.0003,
+        "sd": 0.0022,
+        "n": 891
+      },
+      "fight": {
+        "mean": 0.0099,
+        "sd": 0.0114,
+        "n": 891
+      }
+    },
+    {
+      "category": "旦",
+      "color": "#96544d",
+      "label": "朱砂红",
+      "scriptCount": 346,
+      "sing": {
+        "mean": 0.1199,
+        "sd": 0.0981,
+        "n": 346
+      },
+      "speak": {
+        "mean": 0.616,
+        "sd": 0.1278,
+        "n": 346
+      },
+      "act": {
+        "mean": 0.0007,
+        "sd": 0.0027,
+        "n": 346
+      },
+      "fight": {
+        "mean": 0.0061,
+        "sd": 0.0099,
+        "n": 346
+      }
+    },
+    {
+      "category": "净",
+      "color": "#5e6b76",
+      "label": "石板灰",
+      "scriptCount": 183,
+      "sing": {
+        "mean": 0.1076,
+        "sd": 0.1002,
+        "n": 183
+      },
+      "speak": {
+        "mean": 0.6286,
+        "sd": 0.1095,
+        "n": 183
+      },
+      "act": {
+        "mean": 0.0005,
+        "sd": 0.0021,
+        "n": 183
+      },
+      "fight": {
+        "mean": 0.0133,
+        "sd": 0.0138,
+        "n": 183
+      }
+    },
+    {
+      "category": "丑",
+      "color": "#7f968d",
+      "label": "云水青",
+      "scriptCount": 53,
+      "sing": {
+        "mean": 0.0438,
+        "sd": 0.0763,
+        "n": 53
+      },
+      "speak": {
+        "mean": 0.7539,
+        "sd": 0.1233,
+        "n": 53
+      },
+      "act": {
+        "mean": 0.0003,
+        "sd": 0.001,
+        "n": 53
+      },
+      "fight": {
+        "mean": 0.0074,
+        "sd": 0.0111,
+        "n": 53
+      }
+    }
+  ],
+  "globalStats": {
+    "sing": {
+      "mean": 0.1191,
+      "sd": 0.1007,
+      "median": 0.098,
+      "min": 0.0,
+      "max": 0.6864,
+      "nonzeroPct": 89.8,
+      "n": 1473
+    },
+    "speak": {
+      "mean": 0.617,
+      "sd": 0.1197,
+      "median": 0.6299,
+      "min": 0.0345,
+      "max": 0.9671,
+      "nonzeroPct": 100.0,
+      "n": 1473
+    },
+    "act": {
+      "mean": 0.0004,
+      "sd": 0.0023,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0546,
+      "nonzeroPct": 8.6,
+      "n": 1473
+    },
+    "fight": {
+      "mean": 0.0093,
+      "sd": 0.0116,
+      "median": 0.0058,
+      "min": 0.0,
+      "max": 0.0857,
+      "nonzeroPct": 67.1,
+      "n": 1473
+    }
+  },
+  "anova": {
+    "sing": {
+      "F": 12.222,
+      "dfBetween": 3,
+      "dfWithin": 1469,
+      "p": 0.0,
+      "etaSq": 0.0244,
+      "sig": "***"
+    },
+    "speak": {
+      "F": 27.204,
+      "dfBetween": 3,
+      "dfWithin": 1469,
+      "p": 0.0,
+      "etaSq": 0.0526,
+      "sig": "***"
+    },
+    "act": {
+      "F": 3.44,
+      "dfBetween": 3,
+      "dfWithin": 1469,
+      "p": 0.0323,
+      "etaSq": 0.007,
+      "sig": "*"
+    },
+    "fight": {
+      "F": 18.044,
+      "dfBetween": 3,
+      "dfWithin": 1469,
+      "p": 0.0,
+      "etaSq": 0.0355,
+      "sig": "***"
+    }
+  },
+  "categoryMeans": {
+    "sing": {
+      "生": 0.1257,
+      "旦": 0.1199,
+      "净": 0.1076,
+      "丑": 0.0438
+    },
+    "speak": {
+      "生": 0.6069,
+      "旦": 0.616,
+      "净": 0.6286,
+      "丑": 0.7539
+    },
+    "act": {
+      "生": 0.0003,
+      "旦": 0.0007,
+      "净": 0.0005,
+      "丑": 0.0003
+    },
+    "fight": {
+      "生": 0.0099,
+      "旦": 0.0061,
+      "净": 0.0133,
+      "丑": 0.0074
+    }
+  },
+  "pairwiseDiffs": [
+    {
+      "cat1": "生",
+      "cat2": "丑",
+      "dim": "speak",
+      "diff": -0.147,
+      "effectSize": 1.243,
+      "sig": "***"
+    },
+    {
+      "cat1": "旦",
+      "cat2": "丑",
+      "dim": "speak",
+      "diff": -0.1379,
+      "effectSize": 1.098,
+      "sig": "***"
+    },
+    {
+      "cat1": "净",
+      "cat2": "丑",
+      "dim": "speak",
+      "diff": -0.1253,
+      "effectSize": 1.075,
+      "sig": "***"
+    },
+    {
+      "cat1": "生",
+      "cat2": "丑",
+      "dim": "sing",
+      "diff": 0.0819,
+      "effectSize": 0.914,
+      "sig": "***"
+    },
+    {
+      "cat1": "旦",
+      "cat2": "丑",
+      "dim": "sing",
+      "diff": 0.0761,
+      "effectSize": 0.866,
+      "sig": "***"
+    },
+    {
+      "cat1": "净",
+      "cat2": "丑",
+      "dim": "sing",
+      "diff": 0.0638,
+      "effectSize": 0.716,
+      "sig": "**"
+    },
+    {
+      "cat1": "旦",
+      "cat2": "净",
+      "dim": "fight",
+      "diff": -0.0072,
+      "effectSize": 0.599,
+      "sig": "**"
+    },
+    {
+      "cat1": "净",
+      "cat2": "丑",
+      "dim": "fight",
+      "diff": 0.0058,
+      "effectSize": 0.465,
+      "sig": "*"
+    },
+    {
+      "cat1": "生",
+      "cat2": "旦",
+      "dim": "fight",
+      "diff": 0.0038,
+      "effectSize": 0.359,
+      "sig": "*"
+    },
+    {
+      "cat1": "生",
+      "cat2": "净",
+      "dim": "fight",
+      "diff": -0.0034,
+      "effectSize": 0.267,
+      "sig": "*"
+    },
+    {
+      "cat1": "生",
+      "cat2": "丑",
+      "dim": "fight",
+      "diff": 0.0025,
+      "effectSize": 0.219,
+      "sig": "*"
+    },
+    {
+      "cat1": "旦",
+      "cat2": "丑",
+      "dim": "act",
+      "diff": 0.0004,
+      "effectSize": 0.214,
+      "sig": "*"
+    },
+    {
+      "cat1": "生",
+      "cat2": "净",
+      "dim": "speak",
+      "diff": -0.0217,
+      "effectSize": 0.195,
+      "sig": "n.s."
+    },
+    {
+      "cat1": "生",
+      "cat2": "旦",
+      "dim": "act",
+      "diff": -0.0005,
+      "effectSize": 0.182,
+      "sig": "n.s."
+    },
+    {
+      "cat1": "生",
+      "cat2": "净",
+      "dim": "sing",
+      "diff": 0.0181,
+      "effectSize": 0.18,
+      "sig": "n.s."
+    }
+  ],
+  "correlations": [
+    {
+      "dim1": "sing",
+      "dim2": "speak",
+      "r": -0.6514,
+      "interpretation": "强负相关"
+    },
+    {
+      "dim1": "sing",
+      "dim2": "act",
+      "r": -0.0283,
+      "interpretation": "弱相关"
+    },
+    {
+      "dim1": "sing",
+      "dim2": "fight",
+      "r": -0.1529,
+      "interpretation": "弱相关"
+    },
+    {
+      "dim1": "speak",
+      "dim2": "act",
+      "r": 0.0114,
+      "interpretation": "弱相关"
+    },
+    {
+      "dim1": "speak",
+      "dim2": "fight",
+      "r": -0.0646,
+      "interpretation": "弱相关"
+    },
+    {
+      "dim1": "act",
+      "dim2": "fight",
+      "r": 0.0029,
+      "interpretation": "弱相关"
+    }
+  ]
+}

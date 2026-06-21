@@ -1,0 +1,246 @@
+{
+  "title": "三击掌",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 3,
+  "source_file": "01023004_三击掌.json",
+  "source_folder": "01000000",
+  "plot_summary": "王允之女王宝钏，自抛彩球择定丐薛平贵为夫之后，其父大以为辱，不允嫁薛平贵，而王宝钏偏立志欲从之。\n王允遂逐薛平贵出。王宝钏愤极，宁拔去钗饰，出从薛平贵居寒窑，其父更怒极，竟不齿王宝钏。王宝钏\n临行，与其父三击掌为誓，谓不富贵不再入父门。其母夫人虽再三从中解释，而王宝钏志甚决，竟一去不顾，\n其母亦无如之何。",
+  "performance_notes": "此后本即《探寒窑》，均为《彩楼记》中戏。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 117,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "高搭彩楼": 1
+      },
+      "characters": {
+        "院子": 1,
+        "丫鬟": 1,
+        "王允": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "王允",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "王允",
+          "value": 1
+        },
+        {
+          "source": "王允",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "院子",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "王宝钏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.098,
+      "locations": {
+        "高搭彩楼": 1
+      },
+      "characters": {
+        "院子": 1,
+        "王允": 1
+      },
+      "links": [
+        {
+          "source": "王允",
+          "target": "院子",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "高搭彩楼",
+      "characters": [
+        {
+          "name": "王允",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "调和鼎鼐，位列三台。",
+          "rating": 0.2,
+          "role": "外"
+        },
+        {
+          "name": "院子",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "后堂传话：请三姑娘出堂。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "请三姑娘。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "来了。",
+          "rating": 0.143,
+          "role": "旦"
+        }
+      ],
+      "summary": "第1场：4位角色，117行",
+      "firstLine": 1,
+      "lastLine": 117,
+      "numLines": 117,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.41,
+        "sentiment": 0.25
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "高搭彩楼",
+      "characters": [
+        {
+          "name": "院子",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "三姑娘出府去了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "王允",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "奴才呀！",
+          "rating": 1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第2场：2位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.529,
+        "conflict": 0.0,
+        "sentiment": 0.81
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王允",
+      "short": "王允",
+      "key": "王允",
+      "quote": "王允 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "院子",
+      "short": "院子",
+      "key": "院子",
+      "quote": "院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "高搭彩楼",
+      "key": "高搭彩楼",
+      "quote": "场景发生在高搭彩楼"
+    },
+    {
+      "name": "位列三台",
+      "key": "位列三台",
+      "quote": "场景发生在位列三台"
+    },
+    {
+      "name": "十字街",
+      "key": "十字街",
+      "quote": "场景发生在十字街"
+    }
+  ]
+}

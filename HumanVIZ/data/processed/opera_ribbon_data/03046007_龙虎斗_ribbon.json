@@ -1,0 +1,367 @@
+{
+  "title": "龙虎斗",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 7,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "03046007_龙虎斗.json",
+  "source_folder": "03000000",
+  "plot_summary": "宋初，呼延寿廷被欧阳方所杀；其子呼延赞闻讯，举兵至河东报仇，宋军皆非其敌。赵匡胤亲自出阵，顺说\n不服，击呼延赞下马，正欲杀之，见呼延赞头上现虎形，赵匡胤乃惊倒；呼延赞举鞭欲打，见赵匡胤头上现\n龙形，呼延赞因降宋，后杀欧阳方。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 90,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 1.184,
+      "importance": 1.0,
+      "locations": {
+        "在御营": 3
+      },
+      "characters": {
+        "黄信": 1,
+        "四大铠": 1,
+        "呼延赞": 1,
+        "赵匡胤": 1
+      },
+      "links": [
+        {
+          "source": "赵匡胤",
+          "target": "黄信",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "赵匡胤",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "黄信",
+          "value": 1
+        },
+        {
+          "source": "呼延赞",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 46,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 0.6,
+      "importance": 0.719,
+      "locations": {
+        "在御营": 3
+      },
+      "characters": {
+        "呼延赞": 1,
+        "赵匡胤": 1
+      },
+      "links": [
+        {
+          "source": "呼延赞",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 56,
+      "summary": "第七场",
+      "conflict": 0.0,
+      "importance": 0.875,
+      "locations": {
+        "在御营": 1
+      },
+      "characters": {
+        "呼延赞": 1,
+        "赵匡胤": 1
+      },
+      "links": [
+        {
+          "source": "呼延赞",
+          "target": "赵匡胤",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "在御营",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "龙争虎斗，这干戈，何日罢休！",
+          "rating": -0.2,
+          "role": "红生"
+        },
+        {
+          "name": "黄信",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "马来！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四大铠",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "领旨。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：3位角色，48行",
+      "firstLine": 1,
+      "lastLine": 48,
+      "numLines": 48,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.65,
+        "conflict": 1.0,
+        "sentiment": -0.024
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "在御营",
+      "characters": [
+        {
+          "name": "呼延赞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哈哈！哈哈！啊哈哈哈……",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：1位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.559,
+        "conflict": 0.0,
+        "sentiment": 0.8
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "在御营",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "催马来在战场道，",
+          "rating": -1.0,
+          "role": "红生"
+        },
+        {
+          "name": "呼延赞",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "乌骓马不住的连声吼，",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：2位角色，39行",
+      "firstLine": 1,
+      "lastLine": 39,
+      "numLines": 39,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.822,
+        "conflict": 0.345,
+        "sentiment": -0.384
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "在御营",
+      "characters": [],
+      "summary": "第四场：0位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.003,
+        "conflict": 0.0,
+        "sentiment": 0.0
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "在御营",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "小将生来武艺大，",
+          "rating": -1.0,
+          "role": "红生"
+        },
+        {
+          "name": "呼延赞",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "我的父犯了何条罪，",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第五场：2位角色，44行",
+      "firstLine": 1,
+      "lastLine": 44,
+      "numLines": 44,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.838,
+        "conflict": 0.923,
+        "sentiment": -0.378
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "在御营",
+      "characters": [],
+      "summary": "第六场：0位角色，1行",
+      "firstLine": 1,
+      "lastLine": 1,
+      "numLines": 1,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.003,
+        "conflict": 1.0,
+        "sentiment": -0.6
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "在御营",
+      "characters": [
+        {
+          "name": "赵匡胤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "人困马乏难交战，",
+          "rating": 0.333,
+          "role": "红生"
+        },
+        {
+          "name": "呼延赞",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "梦儿里只见我父到，",
+          "rating": -1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第七场：2位角色，56行",
+      "firstLine": 1,
+      "lastLine": 56,
+      "numLines": 56,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.875,
+        "conflict": 0.392,
+        "sentiment": -0.002
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "赵匡胤",
+      "short": "赵匡",
+      "key": "赵匡胤",
+      "quote": "赵匡胤 — 红生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 红生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "呼延赞",
+      "short": "呼延",
+      "key": "呼延赞",
+      "quote": "呼延赞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "黄信",
+      "short": "黄信",
+      "key": "黄信",
+      "quote": "黄信 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四大铠",
+      "short": "四大",
+      "key": "四大铠",
+      "quote": "四大铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "在御营",
+      "key": "在御营",
+      "quote": "场景发生在在御营"
+    }
+  ]
+}

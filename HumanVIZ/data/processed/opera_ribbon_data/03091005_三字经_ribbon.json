@@ -1,0 +1,357 @@
+{
+  "title": "三字经",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 7,
+  "num_locations": 1,
+  "source_file": "03091005_三字经.json",
+  "source_folder": "03000000",
+  "plot_summary": "临淮骑都尉温韬，胸无点墨，欲招一幕宾，适不第举子罗英穷困卖字，应募入府。罗英曲解《三字经》以讽\n之。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 96,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.683,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "旗牌": 1,
+        "四绿龙套": 1,
+        "四龙套": 1,
+        "关卞": 1,
+        "温韬": 1,
+        "龙套甲": 1
+      },
+      "links": [
+        {
+          "source": "关卞",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "关卞",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "关卞",
+          "target": "温韬",
+          "value": 1
+        },
+        {
+          "source": "关卞",
+          "target": "四绿龙套",
+          "value": 1
+        },
+        {
+          "source": "关卞",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "温韬",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "四绿龙套",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "龙套甲",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "温韬",
+          "value": 1
+        },
+        {
+          "source": "四绿龙套",
+          "target": "四龙套",
+          "value": 1
+        },
+        {
+          "source": "四龙套",
+          "target": "旗牌",
+          "value": 1
+        },
+        {
+          "source": "四绿龙套",
+          "target": "温韬",
+          "value": 1
+        },
+        {
+          "source": "旗牌",
+          "target": "温韬",
+          "value": 1
+        },
+        {
+          "source": "四绿龙套",
+          "target": "旗牌",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 185,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "温韬": 1,
+        "关卞": 1,
+        "罗英": 1
+      },
+      "links": [
+        {
+          "source": "关卞",
+          "target": "罗英",
+          "value": 1
+        },
+        {
+          "source": "温韬",
+          "target": "罗英",
+          "value": 1
+        },
+        {
+          "source": "关卞",
+          "target": "温韬",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "关卞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "人情如水急，世事似棋更。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "龙套甲",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "打了二鼓。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四龙套",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "温韬",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "剑气冲斗牛，得知遇，指日盼封侯。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "四绿龙套",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "旗牌",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "为求知名士，特地下书文。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：6位角色，96行",
+      "firstLine": 1,
+      "lastLine": 96,
+      "numLines": 96,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.867,
+        "conflict": 0.18,
+        "sentiment": 0.767
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "罗英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "卖字呀！",
+          "rating": 0.429,
+          "role": "老生"
+        },
+        {
+          "name": "关卞",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "嘿！你这个人低头走路，往你老爷身上撞，是何道理！",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "温韬",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "手使大钺斧，不及小毛锥。",
+          "rating": 0.2,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：3位角色，185行",
+      "firstLine": 1,
+      "lastLine": 185,
+      "numLines": 185,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.154,
+        "sentiment": 0.34
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "罗英",
+      "short": "罗英",
+      "key": "罗英",
+      "quote": "罗英 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "温韬",
+      "short": "温韬",
+      "key": "温韬",
+      "quote": "温韬 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "关卞",
+      "short": "关卞",
+      "key": "关卞",
+      "quote": "关卞 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "旗牌",
+      "short": "旗牌",
+      "key": "旗牌",
+      "quote": "旗牌 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四绿龙套",
+      "short": "四绿",
+      "key": "四绿龙套",
+      "quote": "四绿龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四龙套",
+      "short": "四龙",
+      "key": "四龙套",
+      "quote": "四龙套 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "龙套甲",
+      "short": "龙套",
+      "key": "龙套甲",
+      "quote": "龙套甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

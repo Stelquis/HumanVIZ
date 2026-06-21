@@ -1,0 +1,293 @@
+{
+  "title": "打渔杀家",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "80000002_打渔杀家.json",
+  "source_folder": "80000000",
+  "plot_summary": "宋，梁山泊宋江投顺后，阮小七不愿招安，仍以捕鱼为业。所生一女，许于花荣之子，以庆顶珠为定物。阮\n氏父女二人，一叶扁舟，烟蓑雨笠，悠然自适。有土豪丁某，向阮小七需索陋规，阮小七不与。丁某遣教师\n率家丁往捕阮小七。阮小七举手一挥，众皆倾跌，负创而回。丁某嘱县官逮阮小七，责以四十六板，阮小七\n出而大愤，率女儿杀至丁府，残其全家而逃隐焉。",
+  "performance_notes": "剧本中以阮小七为萧恩，或系阮小七之隐名。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 40,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.449,
+      "locations": {
+        "在草堂": 1
+      },
+      "characters": {
+        "萧桂英": 1,
+        "萧恩": 1
+      },
+      "links": [
+        {
+          "source": "萧恩",
+          "target": "萧桂英",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 161,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "在草堂": 1
+      },
+      "characters": {
+        "家丁": 1,
+        "萧桂英": 1,
+        "大教师": 1,
+        "萧恩": 1
+      },
+      "links": [
+        {
+          "source": "萧恩",
+          "target": "萧桂英",
+          "value": 1
+        },
+        {
+          "source": "家丁",
+          "target": "萧恩",
+          "value": 1
+        },
+        {
+          "source": "大教师",
+          "target": "萧恩",
+          "value": 1
+        },
+        {
+          "source": "家丁",
+          "target": "萧桂英",
+          "value": 1
+        },
+        {
+          "source": "大教师",
+          "target": "萧桂英",
+          "value": 1
+        },
+        {
+          "source": "大教师",
+          "target": "家丁",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 66,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 0.742,
+      "locations": {
+        "在草堂": 1
+      },
+      "characters": {
+        "萧桂英": 1,
+        "萧恩": 1
+      },
+      "links": [
+        {
+          "source": "萧恩",
+          "target": "萧桂英",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "在草堂",
+      "characters": [
+        {
+          "name": "萧桂英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "白浪滔滔海水发，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "萧恩",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "开船呐！",
+          "rating": 0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：2位角色，40行",
+      "firstLine": 1,
+      "lastLine": 40,
+      "numLines": 40,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.735,
+        "conflict": 0.22,
+        "sentiment": 0.406
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "在草堂",
+      "characters": [
+        {
+          "name": "萧恩",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "昨夜晚吃酒醉和衣而卧，",
+          "rating": 0.5,
+          "role": "老生"
+        },
+        {
+          "name": "萧桂英",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "遭不幸我的母早年亡故，",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "家丁",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "走哇。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "大教师",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "走哇。",
+          "rating": -0.25,
+          "role": "丑"
+        }
+      ],
+      "summary": "第二场：4位角色，161行",
+      "firstLine": 1,
+      "lastLine": 161,
+      "numLines": 161,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.254,
+        "sentiment": 0.081
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "在草堂",
+      "characters": [
+        {
+          "name": "萧桂英",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "我的父强上告输赢未准，",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "萧恩",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "恼恨那吕子秋为官不正，",
+          "rating": -0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第三场：2位角色，66行",
+      "firstLine": 1,
+      "lastLine": 66,
+      "numLines": 66,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.822,
+        "conflict": 0.637,
+        "sentiment": -0.036
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "萧恩",
+      "short": "萧恩",
+      "key": "萧恩",
+      "quote": "萧恩 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "萧桂英",
+      "short": "萧桂",
+      "key": "萧桂英",
+      "quote": "萧桂英 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "大教师",
+      "short": "大教",
+      "key": "大教师",
+      "quote": "大教师 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "家丁",
+      "short": "家丁",
+      "key": "家丁",
+      "quote": "家丁 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "在草堂",
+      "key": "在草堂",
+      "quote": "场景发生在在草堂"
+    }
+  ]
+}

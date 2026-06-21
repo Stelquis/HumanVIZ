@@ -1,0 +1,445 @@
+{
+  "title": "打孟良",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 5,
+  "num_locations": 4,
+  "source_file": "94000003_打孟良.json",
+  "source_folder": "94000000",
+  "plot_summary": "宋时，天波杨府的烧火丫鬟杨排风，降服了青龙，化为焰火棍。宋、辽交战，杨延昭之子杨宗保被辽邦韩昌\n擒去，三关二十四员上将均非韩昌对手，孟良飞马奔至天波府搬兵求救，杨排风愿去营救小本官，孟良却轻\n视之。二人比武较量，杨排风棍打孟良，孟良折服，佘太君令杨排风与孟良一同前往。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 65,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.643,
+      "importance": 0.512,
+      "locations": {
+        "天波府": 3
+      },
+      "characters": {
+        "佘大君": 1,
+        "杨洪": 1,
+        "佘太君": 1,
+        "杨排风": 1,
+        "孟良": 1
+      },
+      "links": [
+        {
+          "source": "佘太君",
+          "target": "孟良",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "杨洪",
+          "value": 1
+        },
+        {
+          "source": "佘大君",
+          "target": "佘太君",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨洪",
+          "value": 1
+        },
+        {
+          "source": "佘大君",
+          "target": "孟良",
+          "value": 1
+        },
+        {
+          "source": "佘大君",
+          "target": "杨洪",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 189,
+      "summary": "第四场；第五场",
+      "conflict": 0.164,
+      "importance": 1.0,
+      "locations": {
+        "调将台": 1,
+        "天波府": 1
+      },
+      "characters": {
+        "佘大君": 1,
+        "杨洪": 1,
+        "佘太君": 1,
+        "杨排风": 1,
+        "孟良": 1
+      },
+      "links": [
+        {
+          "source": "孟良",
+          "target": "杨排风",
+          "value": 2
+        },
+        {
+          "source": "孟良",
+          "target": "杨洪",
+          "value": 2
+        },
+        {
+          "source": "佘太君",
+          "target": "孟良",
+          "value": 2
+        },
+        {
+          "source": "佘大君",
+          "target": "孟良",
+          "value": 1
+        },
+        {
+          "source": "杨排风",
+          "target": "杨洪",
+          "value": 2
+        },
+        {
+          "source": "佘太君",
+          "target": "杨排风",
+          "value": 2
+        },
+        {
+          "source": "佘大君",
+          "target": "杨排风",
+          "value": 1
+        },
+        {
+          "source": "佘太君",
+          "target": "杨洪",
+          "value": 2
+        },
+        {
+          "source": "佘大君",
+          "target": "杨洪",
+          "value": 1
+        },
+        {
+          "source": "佘大君",
+          "target": "佘太君",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "天波府",
+      "characters": [
+        {
+          "name": "孟良",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "马来。",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.503,
+        "conflict": 0.0,
+        "sentiment": 0.173
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "天波府",
+      "characters": [
+        {
+          "name": "佘太君",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "杨家为国秉忠心，血战沙场费辛勤。",
+          "rating": 0.5,
+          "role": "老旦"
+        },
+        {
+          "name": "孟良",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "嗯。",
+          "rating": 0.333,
+          "role": "净"
+        },
+        {
+          "name": "杨洪",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": "丑"
+        },
+        {
+          "name": "佘大君",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "何事惊慌？",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：4位角色，48行",
+      "firstLine": 1,
+      "lastLine": 48,
+      "numLines": 48,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.793,
+        "conflict": 0.55,
+        "sentiment": 0.177
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "天波府",
+      "characters": [
+        {
+          "name": "杨排风",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "自幼儿性刚强胸怀志量，",
+          "rating": 0.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第三场：1位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.527,
+        "conflict": 0.0,
+        "sentiment": 0.816
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "调将台",
+      "characters": [
+        {
+          "name": "孟良",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "杨洪，带路。",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "杨排风",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我愿前往。",
+          "rating": 0.0,
+          "role": "武旦"
+        },
+        {
+          "name": "杨洪",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "回禀二爷：有人应声。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "佘太君",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "啊，孟良。适才将台叫将，何人应声？",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "佘大君",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "快快同往花园，看看他们的胜负如何。",
+          "rating": 1.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：5位角色，72行",
+      "firstLine": 1,
+      "lastLine": 72,
+      "numLines": 72,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.473,
+        "sentiment": 0.546
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "天波府",
+      "characters": [
+        {
+          "name": "孟良",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "排风！来到花园，你我怎样比武？",
+          "rating": 0.6,
+          "role": "净"
+        },
+        {
+          "name": "杨排风",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "二爷身带何物？",
+          "rating": 0.0,
+          "role": "武旦"
+        },
+        {
+          "name": "佘太君",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "唗！胆大排风，孟二爷乃是三关有名的上将，被你打得这般光景，这还了得！",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "杨洪",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "是。",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第五场：4位角色，117行",
+      "firstLine": 1,
+      "lastLine": 117,
+      "numLines": 117,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.301,
+        "sentiment": 0.382
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨排风",
+      "short": "杨排",
+      "key": "杨排风",
+      "quote": "杨排风 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "孟良",
+      "short": "孟良",
+      "key": "孟良",
+      "quote": "孟良 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "佘太君",
+      "short": "佘太",
+      "key": "佘太君",
+      "quote": "佘太君 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "杨洪",
+      "short": "杨洪",
+      "key": "杨洪",
+      "quote": "杨洪 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "佘大君",
+      "short": "佘大",
+      "key": "佘大君",
+      "quote": "佘大君 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "天波府",
+      "key": "天波府",
+      "quote": "场景发生在天波府"
+    },
+    {
+      "name": "调将台",
+      "key": "调将台",
+      "quote": "场景发生在调将台"
+    },
+    {
+      "name": "身坐天波府",
+      "key": "身坐天波府",
+      "quote": "场景发生在身坐天波府"
+    },
+    {
+      "name": "这天波杨府",
+      "key": "这天波杨府",
+      "quote": "场景发生在这天波杨府"
+    }
+  ]
+}

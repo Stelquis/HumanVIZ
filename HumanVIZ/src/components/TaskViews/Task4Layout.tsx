@@ -1,319 +1,63 @@
 import React, { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import "./Task4Layout.scss";
-import OperaRibbonViewer, {
-  CharacterEmotionSparkline,
-  RHYTHM_LABELS,
-  ROLE_GROUP_COLORS,
-} from "./OperaRibbonViewer";
+
 import {
   analyzeStoryRibbons,
   extractFingerprint,
+  detectNarrativePhases,
   RibbonAnalysisResult,
   StoryFingerprint,
   RawStoryInput,
-} from "../../utils/p4_story_ribbon_core";
+} from "../../utils/storyRibbonCore";
+import {
+  detectAllClimaxes,
+  computeStructureFramework,
+} from "../../utils/narrativeAnalysisEnhancer";
+import { mapAlgorithmicTypeToPattern } from "../../utils/narrativeTaxonomyBridge";
 import operaSamplesRaw from "../../data/opera-samples.json";
+import narrativeClassifications from "../../data/narrative-classifications.json";
+import narrativeScenesLite from "../../data/narrative-scenes-lite.json";
+import universalNarrativeAnalysis from "../../data/universal-narrative-analysis.json";
+
+import starmapData from "../../data/starmap-data.json";
+
+import CrossPlayComparison from "./CrossPlayComparison";
+import TurningPointsPanel from "./TurningPointsPanel";
+import NarrativeDNASummaryCard from "./NarrativeDNASummaryCard";
+import MultiPlayOverlayChart from "./MultiPlayOverlayChart";
+import Toast from "./Toast";
+import selectedScriptsRaw from "../../data/selected-scripts.json";
+import { useTask4Store } from "../../stores/task4Store";
+
+// Extracted sub-components
+import PatternSummaryPanel from "./PatternSummaryPanel";
+import CharacterNarrativePanel from "./CharacterNarrativePanel";
+import CombinedRhythmChart from "./CombinedRhythmChart";
+import { computePatternScores } from "./NarrativePatternCompare";
+import TurningPointsTimeline from "./TurningPointsTimeline";
+
+// Shared types and constants
+import type { ScriptCard } from "../../types/task4Types";
+import {
+  NARRATIVE_PATTERNS,
+  NARRATIVE_TYPE_CONFIG,
+  USER_TYPE_TO_STARMAP,
+  FALLBACK_PHASES,
+  keyToLabel,
+} from "../../types/task4Types";
 
 /* ================================================================
-   Selection Report — inline data
+   Selection Report — data from external JSON files
    ================================================================ */
 
-interface ScriptCard {
-  id: number;
-  name: string;
-  alias: string;
-  collection: string;
-  collectionScale: string;
-  era: string;
-  charCount: number;
-  roles: string;
-  wordCount: string;
-  summary: string;
-  reasons: string[];
-  structureType: string;
-  dominantRole: string;
-  narrativeArc: string;
-}
-
-const SELECTED_SCRIPTS: ScriptCard[] = [
-  {
-    id: 5893, name: "空城计", alias: "抚琴退兵",
-    collection: "《戏考》", collectionScale: "448 部（数据集最大合集，占 30.4%）",
-    era: "三国", charCount: 7, roles: "老生 2、净 2、小生 1、丑 2", wordCount: "3,497 字",
-    summary: "马谡失街亭，司马懿大军压境。诸葛亮于西城兵微将寡，乃设空城之计——大开城门，自坐城楼抚琴。司马懿疑有埋伏，竟引兵退去。",
-    reasons: [
-      "悬念型叙事结构：全剧围绕单一戏剧危机展开，通过「信息不对称」制造强烈的戏剧张力，是京剧中最经典的「心理博弈」叙事模式。",
-      "老生行当的巅峰代表：诸葛亮是老生核心人物，本剧唱做并重，三句「再探」配合三种面色变化，是公认的表演艺术范本。",
-      "数据代表性：来自最大合集，角色规模处均值（5.4）附近，行当分布均衡（生净丑兼有），为典型「中等规模历史剧」。",
-      "叙事结构清晰可解剖：线性因果链（失街亭→围西城→设空城→退敌），起承转合分明，适合作为叙事结构分析教学案例。",
-    ],
-    structureType: "悬念型", dominantRole: "老生", narrativeArc: "外部危机驱动 · 单次博弈",
-  },
-  {
-    id: 6066, name: "贵妃醉酒", alias: "百花亭",
-    collection: "《戏考》", collectionScale: "448 部（数据集最大合集）",
-    era: "唐", charCount: 3, roles: "花旦 1、小生 1、丑 1", wordCount: "2,329 字",
-    summary: "杨贵妃在百花亭设宴等候唐玄宗，被告知皇帝已往江妃宫。杨贵妃由期待转为失望、妒恨、借酒浇愁，最终放浪形骸、倦极回宫。",
-    reasons: [
-      "内心情感型叙事结构：几乎是纯内心叙事——外部事件仅在第一幕发生，此后全剧围绕杨贵妃的内在情感变化展开。",
-      "最小角色规模的极端代表：仅 3 个角色，极简的角色配置使叙事分析可聚焦于单一角色的情感弧线。",
-      "旦角艺术的最高成就：梅兰芳将此剧锤炼为旦角做工戏巅峰——醉酒的三层递进（微醺→沉醉→狂放）构成完整叙事弧。",
-      "与《空城计》形成互补对照：一个是智慧与克制，一个是情感与失控；一个外部危机驱动，一个内心情感驱动。",
-    ],
-    structureType: "内心型", dominantRole: "花旦", narrativeArc: "情感变化驱动 · 三层递进",
-  },
-  {
-    id: 7103, name: "赵氏孤儿", alias: "",
-    collection: "马连良剧本选", collectionScale: "9 部（名家藏本）",
-    era: "春秋", charCount: 23, roles: "老生 5、旦 3、净 7、小生 2、武生 3、丑 1、杂 2", wordCount: "23,264 字",
-    summary: "晋灵公荒淫无道，宠信奸臣屠岸贾。赵盾忠言进谏遭陷害，满门三百口被杀。赵氏遗孤在程婴和公孙杵臼的舍命保护下得以存活。程婴忍辱负重十五年，将孤儿抚养成人，最终复仇。",
-    reasons: [
-      "史诗型跨代叙事结构：时间跨度长达十五年，涉及三代人、多个政治势力的角逐。叙事分为「灭门」和「复仇」两大章节。",
-      "行当最齐全的群戏代表：23 个角色覆盖 7 个行当类别，叙事在多角色类型间切换呈现多维视角。",
-      "名家演出本的特殊文献价值：来自马连良剧本选，附有详细的角色心理刻画和唱腔设计说明。",
-      "道德叙事的经典结构：忠奸对立→牺牲→潜伏→复仇，具有跨文化的叙事学价值。",
-    ],
-    structureType: "史诗型", dominantRole: "老生 / 净", narrativeArc: "命运/道德驱动 · 跨代复仇",
-  },
-  {
-    id: 7050, name: "连环套", alias: "",
-    collection: "《传统戏曲剧目资料汇编》", collectionScale: "2 部（罕见藏本）",
-    era: "清", charCount: 30, roles: "武生 1、净 10、老生 4、武丑 1、丑 3、群演 11", wordCount: "23,696 字",
-    summary: "连环套寨主窦尔敦盗走御马，嫁祸黄三太。黄天霸只身拜山，窦尔敦感其胆色，约定比武。不料朱光祖夜盗窦尔敦的护手双钩，施反间计使其降服。",
-    reasons: [
-      "猫鼠追逐型叙事结构：由《行围》《盗马》《拜山》《盗钩》《被骗》五折构成，呈现完整的悬念叙事链。",
-      "武戏叙事的代表：以武生、净、武丑为三核心，是「武戏文唱」的典范——动作场面承载叙事功能。",
-      "罕见的来源合集：仅收录 2 部剧本，由李洪春、侯喜瑞口述，保留了杨小楼演出本原貌。",
-      "反英雄叙事：窦尔敦并非传统反派，黄天霸反而是官府鹰犬，道德模糊性使叙事分析可探讨深层主题。",
-    ],
-    structureType: "追逐型", dominantRole: "武生 / 净", narrativeArc: "智力博弈驱动 · 多回合对决",
-  },
-  {
-    id: 6653, name: "打面缸", alias: "周腊梅",
-    collection: "《京剧汇编》", collectionScale: "360 部（数据集第二大合集，占 24.4%）",
-    era: "古代", charCount: 5, roles: "丑 4、旦 1", wordCount: "8,449 字",
-    summary: "妓女周腊梅从良，县太爷配与衙役张才，实则与王书吏、四老爷均欲染指。三人先后登门，被周腊梅分藏于灶里、面缸、床下。张才折返，逐一揪出，三人狼狈赠银而去。",
-    reasons: [
-      "喜剧型（闹剧）叙事结构：全剧围绕「藏人与被揭穿」的喜剧性情境展开，代表京剧叙事光谱中不可或缺的喜剧一端。",
-      "丑角主导的极端案例：5 个角色中 4 个是丑角，丑角在叙事中通常承担配角功能，本剧以丑角为核心推动全部情节。",
-      "民间讽刺叙事：讽刺县官、书吏等基层官吏的虚伪好色，属于底层视角的讽刺喜剧。",
-      "三叠式喜剧结构：三次藏入、三次揪出的反复结构，是民间叙事中经典的「三次重复」模式。",
-    ],
-    structureType: "喜剧型", dominantRole: "丑", narrativeArc: "误解/揭露驱动 · 三叠重复",
-  },
-];
-
-const COMPARISON_TABLE = [
-  ["来源合集", "《戏考》", "《戏考》", "马连良剧本选", "传统戏曲剧目资料汇编", "《京剧汇编》"],
-  ["合集规模", "448 部", "448 部", "9 部", "2 部", "360 部"],
-  ["角色数", "7", "3", "23", "30", "5"],
-  ["剧本长度", "3,497 字", "2,329 字", "23,264 字", "23,696 字", "8,449 字"],
-  ["主导行当", "老生", "花旦", "老生/净", "武生/净", "丑"],
-  ["行当种类", "4 种", "3 种", "7 种", "5 种+", "2 种"],
-  ["叙事结构", "悬念型", "内心型", "史诗型", "追逐型", "喜剧型"],
-  ["时间跨度", "数日", "一夜", "十五年", "数日", "一夜"],
-  ["叙事驱动", "外部危机", "情感变化", "命运/道德", "智力博弈", "误解/揭露"],
-];
-
-/* ================================================================
-   Narrative pattern summaries — 叙事模式总结
-   ================================================================ */
-
-interface NarrativePattern {
-  type: string;
-  color: string;
-  description: string;
-  rhythm: string;
-  typicalStructure: string;
-  emotionCurve: string;
-  keyFeature: string;
-}
-
-const NARRATIVE_PATTERNS: NarrativePattern[] = [
-  {
-    type: "悬念型", color: "#96544D",
-    description: "以信息不对称为核心驱动力，观众知晓而剧中人不知，通过悬念的建立、维持与揭示推动剧情发展。常见于军事智谋剧与公案剧。",
-    rhythm: "单峰急冲型：从悬念建立开始持续攀升，在高潮处集中释放",
-    typicalStructure: "危机爆发 → 信息差建立 → 多方博弈 → 悬念揭示 → 危机解除",
-    emotionCurve: "∧ 型（单峰）：紧张感持续上升至高潮后迅速回落",
-    keyFeature: "观众处于「全知」位置，欣赏剧中人物在信息迷雾中的抉择",
-  },
-  {
-    type: "内心型", color: "#B89B6D",
-    description: "外部事件仅作为触发，核心叙事围绕角色的内心情感变化展开。剧情驱动从「发生了什么」转向「感受到了什么」。多见于旦角情感戏。",
-    rhythm: "波浪递进型：情感层层叠加，每一波比前一波更深更烈",
-    typicalStructure: "期待建立 → 期待受挫 → 情感内转 → 层层宣泄 → 疲惫归寂",
-    emotionCurve: "层层递进上升型：微醺→沉醉→狂放，三阶递进",
-    keyFeature: "极少的角色配置使情感弧线完全聚焦于单一角色的内在变化",
-  },
-  {
-    type: "史诗型", color: "#5E6B76",
-    description: "跨越大时间尺度（数年至数十年），涉及多代人、多势力角逐。叙事分为多个大章节，每章有独立的起承转合，整体构成宏大的道德叙事。",
-    rhythm: "双峰跨越型：前半部「灭门」与后半部「复仇」各形成独立高潮",
-    typicalStructure: "秩序建立 → 秩序崩塌（灭门） → 潜伏隐匿 → 力量积蓄 → 秩序重建（复仇）",
-    emotionCurve: "M 型（双峰）：悲壮高潮→压抑低谷→复仇高潮→升华落幕",
-    keyFeature: "道德叙事驱动，忠奸对立贯穿始终，牺牲与复仇构成叙事双翼",
-  },
-  {
-    type: "追逐型", color: "#7F968D",
-    description: "以「犯案—追查—对决」为核心链，包含多回合智力或武力博弈。每回合有独立的胜负，但整体指向最终对决。常见于武侠公案剧。",
-    rhythm: "锯齿递进型：多回合对抗，每回合有小高潮，最终指向大对决",
-    typicalStructure: "犯案 → 侦察 → 第一次交锋 → 计中计 → 第二次交锋 → 降服/落网",
-    emotionCurve: "锯齿上升型：多次对决形成反复紧张-释放，但总体紧张度递增",
-    keyFeature: "计中计的反间结构是核心叙事装置，道德模糊性增加叙事深度",
-  },
-  {
-    type: "喜剧型", color: "#B89B6D",
-    description: "以「误解/隐藏/揭露」的喜剧性情境为核心，通过反复的藏与露制造笑料。通常采用「三次重复」的民间叙事模式，节奏轻快。",
-    rhythm: "阶梯攀升型：三次藏入逐次升级，三次揪出逐次暴露，构成阶梯式喜剧节奏",
-    typicalStructure: "情境建立 → 第一次藏入 → 第二次藏入 → 第三次藏入 → 逐层揭露 → 谐谑收场",
-    emotionCurve: "台阶上升型：每一轮「藏-揪」构成一个喜剧节拍，三拍叠加至最终释放",
-    keyFeature: "底层视角讽刺上位者，丑角主导叙事，颠覆常规行当权力结构",
-  },
-];
-
-/* ================================================================
-   Character narrative function — 角色叙事功能
-   ================================================================ */
-
-interface CharacterNarrativeRole {
-  role: string;
-  function: string;
-  description: string;
-  examples: string[];
-}
-
-const CHAR_NARRATIVE_ROLES: CharacterNarrativeRole[] = [
-  { role: "主角/核心驱动者", function: "推动剧情发展的核心力量", description: "拥有最完整的叙事弧线，经历最显著的变化或揭示。其欲望/目标是叙事的核心驱动力。", examples: ["诸葛亮（空城计）", "杨贵妃（贵妃醉酒）", "程婴（赵氏孤儿）"] },
-  { role: "对抗者/阻碍者", function: "制造冲突与障碍", description: "与主角形成对立，制造核心冲突。在京剧叙事中常以净行或反派角色承担，但京剧中的「反派」常具有人格复杂性。", examples: ["司马懿（空城计）", "屠岸贾（赵氏孤儿）", "窦尔敦（连环套）"] },
-  { role: "辅助者/帮手", function: "协助主角完成叙事目标", description: "在关键时刻提供帮助、信息或情感支持。常为丑行或次要行当承担，但叙事功能不可或缺。", examples: ["朱光祖（连环套）", "公孙杵臼（赵氏孤儿）", "张才（打面缸）"] },
-  { role: "信息传递者", function: "触发叙事转折的关键信息源", description: "通过传递消息改变剧情走向。在京剧中常由探子、太监、丫鬟等功能性角色承担。", examples: ["报信太监（贵妃醉酒）", "探子（空城计）", "周腊梅（打面缸）"] },
-  { role: "旁观者/评论者", function: "提供外部视角与社会评价", description: "通过旁观评论，为观众提供道德判断或情感参照。丑角常承担此功能，以插科打诨承载社会批判。", examples: ["众将（空城计）", "宫人（贵妃醉酒）", "四老爷/王书吏（打面缸）"] },
-];
-
-/* ================================================================
-   Theme colors — consistent with 燕京清晖
-   ================================================================ */
-
-const RHYTHM_AXIS_COLORS: Record<string, string> = {
-  "密集高潮型": "#96544D",
-  "长篇铺陈型": "#7F968D",
-  "文武交替型": "#5E6B76",
-  "渐进推进型": "#B89B6D",
-  "未知": "#8E8A84",
-};
-
-/* ================================================================
-   Helpers
-   ================================================================ */
-
-function keyToLabel(key: string): string {
-  return key.replace(".json", "").replace(/^\d+_/, "");
-}
-
-/** 根据剧本 key 获取对应的叙事阶段数据 */
-/* ================================================================
-   Sub-components: Panels
-   ================================================================ */
-
-/** 叙事模式总结面板 */
-const PatternSummaryPanel: React.FC = () => (
-  <div className="t4-pattern-panel">
-    <div className="t4-section-intro">
-      <strong>京剧五大叙事模式</strong>
-      <p>基于 1,473 部京剧剧本的叙事结构分析，归纳出五种核心叙事模式，覆盖京剧叙事光谱的完整范围。</p>
-    </div>
-    <div className="t4-pattern-grid">
-      {NARRATIVE_PATTERNS.map((p, i) => (
-        <div key={i} className="t4-pattern-card" style={{ borderLeftColor: p.color }}>
-          <div className="t4-pattern-card-header">
-            <span className="t4-pattern-num">{i + 1}</span>
-            <span className="t4-pattern-type" style={{ color: p.color }}>{p.type}</span>
-          </div>
-          <p className="t4-pattern-desc">{p.description}</p>
-          <div className="t4-pattern-detail">
-            <div className="t4-pattern-item">
-              <span className="t4-pattern-label">节奏特征</span>
-              <span>{p.rhythm}</span>
-            </div>
-            <div className="t4-pattern-item">
-              <span className="t4-pattern-label">典型结构</span>
-              <span>{p.typicalStructure}</span>
-            </div>
-            <div className="t4-pattern-item">
-              <span className="t4-pattern-label">情感曲线</span>
-              <span>{p.emotionCurve}</span>
-            </div>
-            <div className="t4-pattern-item">
-              <span className="t4-pattern-label">核心特征</span>
-              <span>{p.keyFeature}</span>
-            </div>
-          </div>
-        </div>
-      ))}
-    </div>
-  </div>
-);
-
-/** 角色叙事功能面板 */
-const CharacterNarrativePanel: React.FC<{ analysis: RibbonAnalysisResult | null }> = ({ analysis }) => (
-  <div className="t4-char-narrative-panel">
-    <div className="t4-section-intro">
-      <strong>角色叙事功能分析</strong>
-      <p>在京剧叙事体系中，每个角色不仅承担行当表演功能，还承担特定的叙事结构功能。以下基于叙事学理论，归纳京剧角色的五种核心叙事功能类型。</p>
-    </div>
-
-    <div className="t4-char-role-grid">
-      {CHAR_NARRATIVE_ROLES.map((cr, i) => (
-        <div key={i} className="t4-char-role-card">
-          <div className="t4-char-role-header">
-            <span className="t4-char-role-num">{i + 1}</span>
-            <div>
-              <div className="t4-char-role-title">{cr.role}</div>
-              <div className="t4-char-role-function">{cr.function}</div>
-            </div>
-          </div>
-          <p className="t4-char-role-desc">{cr.description}</p>
-          <div className="t4-char-role-examples">
-            <span className="t4-char-role-examples-label">典型角色：</span>
-            {cr.examples.map((ex, j) => (
-              <span key={j} className="t4-char-role-tag">{ex}</span>
-            ))}
-          </div>
-        </div>
-      ))}
-    </div>
-
-    {analysis && (
-      <div className="t4-current-char-analysis">
-        <h4>当前剧本角色叙事功能分布</h4>
-        <p>基于故事丝带中各角色的场景分布与交互模式，可进一步推断每个角色的叙事功能类型。角色在场景中的出现频率、与其他角色的共现关系、以及所处场景的情感强度共同决定了其叙事功能定位。</p>
-        <div className="t4-char-list-mini">
-          {analysis.sortedCharacters.slice(0, 8).map((char, i) => (
-            <div key={i} className="t4-char-mini-item">
-              <span className="t4-char-mini-dot" style={{ background: char.color || "var(--theme-gold)" }} />
-              <span className="t4-char-mini-name">{char.character}</span>
-              <span className="t4-char-mini-group">{char.group || "未知行当"}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    )}
-  </div>
-);
-
-/* ================================================================
-   Main Layout — Task4Layout
-   ================================================================ */
+const SELECTED_SCRIPTS: ScriptCard[] = selectedScriptsRaw as ScriptCard[];
 
 const Task4Layout: React.FC = () => {
   const [reportSidebarOpen, setReportSidebarOpen] = useState(false);
-  const [reportTab, setReportTab] = useState<"report" | "patterns" | "characters" | "selection">("report");
-  const [scriptDropdownOpen, setScriptDropdownOpen] = useState(false);
-  const scriptDropdownRef = useRef<HTMLDivElement>(null);
-
-  // Load opera data
-  const operaDataMap = useMemo<Map<string, RawStoryInput>>(() => {
+  const [reportTab, setReportTab] = useState<"report" | "patterns" | "compare" | "findings">("report");
+  const [patternDrawerOpen, setPatternDrawerOpen] = useState(false);
+  // ── 富数据：opera-samples.json (11 部有深度 LLM 分析) ──
+  const richOperaMap = useMemo<Map<string, RawStoryInput>>(() => {
     const map = new Map<string, RawStoryInput>();
     const raw = operaSamplesRaw as Record<string, any>;
     for (const [key, value] of Object.entries(raw)) {
@@ -323,231 +67,865 @@ const Task4Layout: React.FC = () => {
     return map;
   }, []);
 
-  const keys = useMemo(() => Array.from(operaDataMap.keys()), [operaDataMap]);
-
-  const [selectedKey, setSelectedKey] = useState<string>(keys[0] || "");
-
-  // Pre-compute all analyses
-  const allAnalyses = useMemo<Map<string, RibbonAnalysisResult>>(() => {
-    const m = new Map<string, RibbonAnalysisResult>();
-    for (const [key, input] of operaDataMap) {
-      try {
-        m.set(key, analyzeStoryRibbons(input));
-      } catch (e) {
-        console.error(`分析失败: ${key}`, e);
-      }
-    }
-    return m;
-  }, [operaDataMap]);
-
-  const allFingerprints = useMemo<Map<string, StoryFingerprint>>(() => {
-    const m = new Map<string, StoryFingerprint>();
-    for (const [key, analysis] of allAnalyses) {
-      const fp = extractFingerprint(analysis);
-      if (fp) m.set(key, fp);
-    }
-    return m;
-  }, [allAnalyses]);
-
-  const currentAnalysis = allAnalyses.get(selectedKey) ?? null;
-  const currentFingerprint = allFingerprints.get(selectedKey) ?? null;
-  const handleSelectOpera = useCallback((key: string) => {
-    setSelectedKey(key);
-    setScriptDropdownOpen(false);
+  // ── 增强版通用叙事分析数据：universal-narrative-analysis.json (含performanceForm/conflictType等) ──
+  const universalData = useMemo(() => {
+    const uid = universalNarrativeAnalysis as any;
+    return uid.plays || {};
   }, []);
 
-  // 点击外部关闭下拉
-  useEffect(() => {
-    if (!scriptDropdownOpen) return;
-    const handler = (e: MouseEvent) => {
-      if (scriptDropdownRef.current && !scriptDropdownRef.current.contains(e.target as Node)) {
-        setScriptDropdownOpen(false);
+  // ── 全量分类数据：narrative-classifications.json (1473 部预计算) ──
+  const allOperaMeta = useMemo(() => {
+    const m = new Map<string, { title: string; rhythmType: string; sceneCount: number; charCount: number }>();
+    for (const item of narrativeClassifications as any[]) {
+      m.set(item.key, { title: item.title, rhythmType: item.rhythmType, sceneCount: item.sceneCount, charCount: item.charCount });
+    }
+    return m;
+  }, []);
+
+  const allKeys = useMemo(() => Array.from(allOperaMeta.keys()), [allOperaMeta]);
+  const [selectedKey, setSelectedKey] = useState<string>(allKeys[0] || "");
+
+  // ── 叙事类型筛选状态 (local multi-select) ──
+  const [activeNarrTypes, setActiveNarrTypes] = useState<Set<string>>(new Set());
+  // ── 剧本搜索 ──
+  const [scriptSearchQuery, setScriptSearchQuery] = useState("");
+  const storeMainView = useTask4Store((s) => s.mainView);
+  const storeSetMainView = useTask4Store((s) => s.setMainView);
+  const storeMultiCompareKeys = useTask4Store((s) => s.multiCompareKeys);
+  const storeToggleCompareKey = useTask4Store((s) => s.toggleCompareKey);
+  const storeClearCompareKeys = useTask4Store((s) => s.clearCompareKeys);
+
+  // ── Toast 浮窗提示 ──
+  const [toastMsg, setToastMsg] = useState<string>("");
+  const [toastVisible, setToastVisible] = useState(false);
+  const showToast = useCallback((msg: string) => {
+    setToastMsg(msg);
+    setToastVisible(true);
+  }, []);
+  const hideToast = useCallback(() => {
+    setToastVisible(false);
+  }, []);
+
+  // ── 当多选达到上限 5 时弹出提示 ──
+  const handleToggleCompare = useCallback((key: string) => {
+    if (storeMultiCompareKeys.length >= 5 && !storeMultiCompareKeys.includes(key)) {
+      showToast("最多添加 3 部剧目进行叠加对比");
+      return;
+    }
+    storeToggleCompareKey(key);
+  }, [storeMultiCompareKeys, storeToggleCompareKey, showToast]);
+
+  // ── 根据叙事类型 + 搜索关键词筛选剧目 keys ──
+  const filteredKeys = useMemo(() => {
+    let keys = allKeys;
+
+    // Filter by narrative types (multi-select OR logic)
+    if (activeNarrTypes.size > 0) {
+      const activeStarmapTypes = new Set<string>();
+      for (const nt of activeNarrTypes) {
+        (USER_TYPE_TO_STARMAP[nt] || []).forEach((t) => activeStarmapTypes.add(t));
       }
+      if (activeStarmapTypes.size > 0) {
+        const starmapScripts = (starmapData as any).scripts as any[];
+        const matchingIds = new Set<string>();
+        for (const s of starmapScripts) {
+          if (activeStarmapTypes.has(s.narrType)) {
+            matchingIds.add(s.id);
+          }
+        }
+        keys = keys.filter((k) => matchingIds.has(k));
+      }
+    }
+
+    // Filter by search query (match script label or title)
+    if (scriptSearchQuery.trim()) {
+      const q = scriptSearchQuery.trim().toLowerCase();
+      keys = keys.filter((k) => {
+        const label = keyToLabel(k).toLowerCase();
+        const meta = allOperaMeta.get(k);
+        const title = meta?.title?.toLowerCase() || "";
+        return label.includes(q) || title.includes(q);
+      });
+    }
+
+    // Sort by proximity to ~10 scenes (十幕左右优先)
+    const sorted = [...keys].sort((a, b) => {
+      const ma = allOperaMeta.get(a);
+      const mb = allOperaMeta.get(b);
+      const distA = Math.abs((ma?.sceneCount ?? 0) - 10);
+      const distB = Math.abs((mb?.sceneCount ?? 0) - 10);
+      return distA - distB;
+    });
+    return sorted;
+  }, [activeNarrTypes, scriptSearchQuery, allKeys, allOperaMeta]);
+
+  // ── 当筛选结果变更时，自动重置 selectedKey 到有效范围 ──
+  useEffect(() => {
+    if (selectedKey && !filteredKeys.includes(selectedKey)) {
+      setSelectedKey(filteredKeys[0] || "");
+    }
+  }, [filteredKeys, selectedKey]);
+
+  // ── 各叙事类型对应剧本数 (用于侧栏 badge) ──
+  const narrTypePlayCounts = useMemo(() => {
+    const starmapScripts = (starmapData as any).scripts as any[];
+    const narrTypeCounts = new Map<string, number>();
+    for (const s of starmapScripts) {
+      narrTypeCounts.set(s.narrType, (narrTypeCounts.get(s.narrType) || 0) + 1);
+    }
+    return NARRATIVE_TYPE_CONFIG.map((nt) => {
+      const mapped = USER_TYPE_TO_STARMAP[nt.id] || [];
+      const total = mapped.reduce((sum, starmapType) => sum + (narrTypeCounts.get(starmapType) || 0), 0);
+      return { id: nt.id, count: total };
+    });
+  }, []);
+
+  // ── Interactive features state ──
+  const [selectedPhase, setSelectedPhase] = useState<number | null>(null);
+
+  // ── 预计算 11 部富数据 + 按需加载其余 1462 部 ──
+  const richAnalyses = useMemo<Map<string, RibbonAnalysisResult>>(() => {
+    const m = new Map<string, RibbonAnalysisResult>();
+    for (const [key, input] of richOperaMap) {
+      try { m.set(key, analyzeStoryRibbons(input)); } catch (e) { console.error(`分析失败: ${key}`, e); }
+    }
+    return m;
+  }, [richOperaMap]);
+
+  // ── Ribbon 全量处理数据缓存（opera_processor.py --all 产出）──
+  const [ribbonAnalyses, setRibbonAnalyses] = useState<Map<string, RibbonAnalysisResult>>(new Map());
+  const ribbonLoadingRef = useRef<Set<string>>(new Set());
+
+  // 当选中的剧本发生变化时，异步加载对应的 ribbon 数据
+  useEffect(() => {
+    if (!selectedKey) return;
+    // 如果已经有富数据或已加载过 ribbon，跳过
+    if (richAnalyses.has(selectedKey + ".json")) return;
+    if (ribbonAnalyses.has(selectedKey)) return;
+    if (ribbonLoadingRef.current.has(selectedKey)) return;
+
+    ribbonLoadingRef.current.add(selectedKey);
+
+    fetch(`/data/opera_ribbon/${selectedKey}_ribbon.json`)
+      .then(res => { if (!res.ok) throw new Error('Not found'); return res.json(); })
+      .then(data => {
+        const input: RawStoryInput = {
+          title: data.title || allOperaMeta.get(selectedKey)?.title || selectedKey,
+          scenes: (data.scenes || []).map((s: any) => ({
+            number: s.number || 0,
+            name: s.name || "",
+            characters: (s.characters || []).map((c: any) => ({ name: c.name || c.character || "" })),
+            numLines: s.numLines || 0,
+            ratings: s.ratings || { conflict: 0.3, sentiment: 0 },
+          })),
+          characters: (data.characters || []).map((c: any) => ({
+            character: c.character || "",
+            short: c.short || (c.character || "").slice(0, 2),
+            group: c.group || "默认分组",
+          })),
+        };
+        const result = analyzeStoryRibbons(input);
+        setRibbonAnalyses(prev => new Map(prev).set(selectedKey, result));
+      })
+      .catch(() => {
+        // ribbon 文件不存在，不处理，后续走 lite fallback
+      });
+  }, [selectedKey, richAnalyses, ribbonAnalyses, allOperaMeta]);
+
+  const lazyCache = useRef<Map<string, RibbonAnalysisResult | null>>(new Map());
+
+  const getAnalysis = useCallback((key: string): RibbonAnalysisResult | null => {
+    // 1. 富数据 (opera-samples.json 11部)
+    const richKey = key + ".json";
+    const rich = richAnalyses.get(richKey);
+    if (rich) return rich;
+
+    // 2. Ribbon 全量处理数据 (1473部)
+    const ribbon = ribbonAnalyses.get(key);
+    if (ribbon) return ribbon;
+
+    // 3. 按需缓存
+    if (lazyCache.current.has(key)) return lazyCache.current.get(key)!;
+
+    // 4. 从 narrative-scenes-lite.json 构建 fallback
+    const liteScenes = (narrativeScenesLite as any)?.[key];
+    if (!liteScenes) { lazyCache.current.set(key, null); return null; }
+
+    try {
+      const input: RawStoryInput = {
+        title: allOperaMeta.get(key)?.title || key,
+        scenes: liteScenes.s.map((s: any) => ({
+          number: s.n, name: s.nm || "",
+          characters: (s.c || []).map((name: string) => ({ name })),
+          numLines: 0,
+          ratings: s.r || { conflict: 0.3, sentiment: 0 },
+        })),
+        characters: (liteScenes.ch || []).map((c: any) => ({
+          character: c.c, short: c.s || c.c.slice(0, 2), group: c.g || "默认分组",
+        })),
+      };
+      const result = analyzeStoryRibbons(input);
+      lazyCache.current.set(key, result);
+      return result;
+    } catch (e) {
+      console.error(`分析失败: ${key}`, e);
+      lazyCache.current.set(key, null);
+      return null;
+    }
+  }, [richAnalyses, ribbonAnalyses, allOperaMeta]);
+
+  const currentAnalysis = useMemo(() => getAnalysis(selectedKey), [selectedKey, getAnalysis]);
+
+  // ── 指纹：优先用分析结果，否则用预计算分类 ──
+  const allFingerprints = useMemo<Map<string, StoryFingerprint>>(() => {
+    const m = new Map<string, StoryFingerprint>();
+    // 从富数据指纹
+    for (const [key, analysis] of richAnalyses) {
+      const fp = extractFingerprint(analysis);
+      if (fp) m.set(key.replace(".json", ""), fp);
+    }
+    return m;
+  }, [richAnalyses]);
+
+  const getFingerprint = useCallback((key: string): StoryFingerprint | null => {
+    const cached = allFingerprints.get(key);
+    if (cached) return cached;
+
+    // 优先从 universal-narrative-analysis.json 读取预计算指纹
+    const uniData = (universalData as Record<string, any>)[key];
+    if (uniData?.fingerprint) {
+      const uf = uniData.fingerprint;
+      return {
+        title: keyToLabel(key),
+        sceneCount: uf.sceneCount || 0,
+        charCount: uf.charCount || 0,
+        totalLines: uf.totalLines || 0,
+        rhythmType: uf.rhythmType || "单场聚焦型",
+        arcShape: uf.arcShape || "",
+        conflictTrend: uf.conflictTrend || 0,
+        conflictRange: uf.conflictRange || 0,
+        sentimentVolatility: uf.sentimentVolatility || 0,
+        sentimentTrend: uf.sentimentTrend || 0,
+        sceneLengthCV: uf.sceneLengthCV || 0,
+        peakPosition: uf.peakPosition || 0,
+        avgCharsPerScene: uf.avgCharsPerScene || 0,
+        structureType: uf.structureType || "",
+      } as StoryFingerprint;
+    }
+
+    const meta = allOperaMeta.get(key);
+    if (!meta) return null;
+    // 从预计算分类构建轻量指纹
+    return {
+      title: meta.title,
+      sceneCount: meta.sceneCount,
+      charCount: meta.charCount,
+      totalLines: 0,
+      rhythmType: meta.rhythmType,
+      arcShape: "",
+      conflictTrend: 0,
+      conflictRange: 0,
+      sentimentVolatility: 0,
+      sentimentTrend: 0,
+      sceneLengthCV: 0,
+      peakPosition: 0,
+      avgCharsPerScene: meta.sceneCount > 0 ? meta.charCount / meta.sceneCount : 0,
+      structureType: "",
+    } as StoryFingerprint;
+  }, [allFingerprints, allOperaMeta, universalData]);
+
+  const currentFingerprint = useMemo(() => getFingerprint(selectedKey), [selectedKey, getFingerprint]);
+  const currentScriptCard = SELECTED_SCRIPTS.find(s => s.name === keyToLabel(selectedKey));
+
+  // ── v2 增强数据 (来自 universal-narrative-analysis.json) ──
+  const currentUniversalData = useMemo(() => {
+    return (universalData as any)[selectedKey] || null;
+  }, [selectedKey, universalData]);
+
+  const currentTurningPoints = useMemo(() => {
+    // 1. 优先使用预计算数据
+    if (currentUniversalData?.turningPoints?.length) return currentUniversalData.turningPoints;
+    // 2. 运行时 fallback: 从冲突弧检测局部极大值
+    if (currentAnalysis?.narrativeMetrics?.conflictArc) {
+      return detectAllClimaxes(currentAnalysis.narrativeMetrics.conflictArc);
+    }
+    return null;
+  }, [currentUniversalData, currentAnalysis]);
+
+  const currentStructureFramework = useMemo(() => {
+    // 1. 优先使用预计算数据
+    if (currentUniversalData?.structureFramework) return currentUniversalData.structureFramework;
+    // 2. 运行时 fallback: 从结构特征推断
+    if (currentAnalysis && currentFingerprint) {
+      return computeStructureFramework({
+        sceneCount: currentFingerprint.sceneCount,
+        conflictArc: currentAnalysis.narrativeMetrics.conflictArc,
+        sentimentArc: currentAnalysis.narrativeMetrics.sentimentArc,
+        conflictTrend: currentFingerprint.conflictTrend,
+        peakPosition: currentFingerprint.peakPosition,
+        conflictRange: currentFingerprint.conflictRange,
+        avgCharsPerScene: currentFingerprint.avgCharsPerScene,
+        rhythmType: currentFingerprint.rhythmType,
+      });
+    }
+    return null;
+  }, [currentUniversalData, currentAnalysis, currentFingerprint]);
+
+  // ── 叙事模式类型桥接：将 Python 算法类型映射为前端叙事模式 ──
+  const narrativePatternType = useMemo(() => {
+    // 1. 5 部硬编码剧本有手工标注的 structureType
+    if (currentScriptCard?.structureType) return currentScriptCard.structureType;
+    // 2. 通过桥接函数从算法类型推断
+    const algoType = currentFingerprint?.structureType || "";
+    if (algoType) {
+      const bridged = mapAlgorithmicTypeToPattern(algoType, {
+        sceneCount: currentFingerprint?.sceneCount || 0,
+        conflictRange: currentFingerprint?.conflictRange || 0,
+        peakPosition: currentFingerprint?.peakPosition || 0,
+        conflictTrend: currentFingerprint?.conflictTrend || 0,
+        sentimentVolatility: currentFingerprint?.sentimentVolatility || 0,
+        avgCharsPerScene: currentFingerprint?.avgCharsPerScene || 0,
+        arcShape: currentFingerprint?.arcShape,
+      });
+      return bridged.patternType;
+    }
+    return "线性渐进式"; // 最终默认
+  }, [currentScriptCard, currentFingerprint]);
+
+  // ── 叙事DNA 7 维值（用于 NarrativeDNASummaryCard）──
+  const dnaValues = useMemo(() => {
+    if (!currentFingerprint || !currentAnalysis) return null;
+    const conflictArc = currentAnalysis.narrativeMetrics.conflictArc;
+    const avgConflict = conflictArc.length > 0
+      ? conflictArc.reduce((s, v) => s + v, 0) / conflictArc.length : 0;
+    const maxConflict = conflictArc.length > 0 ? Math.max(...conflictArc) : 0.5;
+    const climaxConc = avgConflict > 0
+      ? Math.min(1, maxConflict / Math.max(avgConflict, 0.01) / 5) : 0.4;
+    const climaxIdx = conflictArc.indexOf(maxConflict);
+    let suspenseRetention = 0.35;
+    if (climaxIdx > 0 && conflictArc.length > 0) {
+      const preClimax = conflictArc.slice(0, climaxIdx);
+      suspenseRetention = preClimax.length > 0
+        ? preClimax.reduce((s, v) => s + v, 0) / preClimax.length : 0.35;
+    }
+    return {
+      sceneScale: Math.min(100, (currentFingerprint.sceneCount / 25) * 100),
+      charDensity: Math.min(100, (currentFingerprint.avgCharsPerScene / 8) * 100),
+      conflictIntensity: avgConflict * 100,
+      emotionVolatility: currentFingerprint.sentimentVolatility * 100,
+      climaxConcentration: climaxConc * 100,
+      suspenseRetention: suspenseRetention * 100,
+      perfFormComplexity: 30,
     };
-    document.addEventListener("mousedown", handler);
-    return () => document.removeEventListener("mousedown", handler);
-  }, [scriptDropdownOpen]);
+  }, [currentFingerprint, currentAnalysis]);
+
+  // ── ③ 动态阶段数据（供 PhaseExplainer / Timeline 使用）──
+  const currentPhases = useMemo(() => {
+    if (!currentAnalysis) return [];
+    const scenes = currentAnalysis.scenes;
+    const conflictArc = currentAnalysis.narrativeMetrics.conflictArc;
+    const sentimentArc = currentAnalysis.narrativeMetrics.sentimentArc;
+    const charDensity = currentAnalysis.narrativeMetrics.characterDensity;
+    const n = scenes.length;
+
+    if (currentAnalysis.narrativeMetrics.narrativePhases?.length) {
+      return currentAnalysis.narrativeMetrics.narrativePhases;
+    }
+    const detected = detectNarrativePhases(scenes, conflictArc, sentimentArc, charDensity);
+    if (detected?.length) return detected;
+    return FALLBACK_PHASES.map(fp => ({
+      label: fp.label,
+      startScene: Math.floor(n * fp.pct[0]),
+      endScene: Math.min(n - 1, Math.floor(n * fp.pct[1])),
+      dominantFeature: "conflict" as const,
+    }));
+  }, [currentAnalysis]);
+
+  // ── 右侧洞察面板数据（核心叙事模式 / 高潮集中度 / 角色驱动占比）──
+  const rightInsightData = useMemo(() => {
+    if (!currentFingerprint || !currentAnalysis) return null;
+    const conflictArc = currentAnalysis.narrativeMetrics.conflictArc;
+    const avgConflict = conflictArc.length > 0
+      ? conflictArc.reduce((s, v) => s + v, 0) / conflictArc.length : 0;
+    const maxConflict = conflictArc.length > 0 ? Math.max(...conflictArc) : 0.5;
+    const climaxRaw = avgConflict > 0
+      ? Math.min(100, (maxConflict / Math.max(avgConflict, 0.01) / 5) * 100)
+      : 0;
+
+    const totalAppearances = currentAnalysis.sortedCharacters?.reduce((s, c) => {
+      const cs = (currentAnalysis.characterScenes as any[]).find((cs: any) => cs.character === c.character);
+      return s + (cs?.scenes?.length || 0);
+    }, 0) || 1;
+    const dominantScenes = currentAnalysis.sortedCharacters?.[0]
+      ? (currentAnalysis.characterScenes as any[]).find((cs: any) => cs.character === currentAnalysis.sortedCharacters[0].character)?.scenes?.length || 0
+      : 0;
+    const roleDrivenPct = totalAppearances > 0
+      ? Math.round((dominantScenes / totalAppearances) * 100)
+      : 0;
+
+    // 取场景数最多的角色作为主导角色
+    const dominantChar = currentAnalysis.sortedCharacters?.[0]?.character || "—";
+    const patternMeta = NARRATIVE_PATTERNS.find(p => p.type === narrativePatternType);
+
+    // Multi-level climax label (replaces binary)
+    let climaxLabel: string;
+    if (climaxRaw >= 70) climaxLabel = "高度集中的爆发式叙事，戏剧冲突积聚于极少关键场次";
+    else if (climaxRaw >= 50) climaxLabel = "冲突趋于集中，核心场次承担主要戏剧张力";
+    else if (climaxRaw >= 30) climaxLabel = "存在主要冲突线但非高度集中，节奏相对均衡";
+    else climaxLabel = "冲突均匀分布，适合散点叙事或群像式展开";
+
+    // Role-driven commentary
+    let roleDrivenLabel: string;
+    if (roleDrivenPct >= 50) roleDrivenLabel = `主导角色「${dominantChar}」出场占比${roleDrivenPct}%，叙事高度依赖单一核心角色，常见于传记式/英雄式叙事`;
+    else if (roleDrivenPct >= 30) roleDrivenLabel = `主导角色「${dominantChar}」出场占比${roleDrivenPct}%，核心角色驱动与群像配合并重`;
+    else roleDrivenLabel = `主导角色「${dominantChar}」出场占比${roleDrivenPct}%，角色戏份分散，属群像式叙事特征`;
+
+    return {
+      patternType: narrativePatternType,
+      patternColor: patternMeta?.color || "var(--theme-gold)",
+      patternDesc: patternMeta?.description?.slice(0, 80) || patternMeta?.keyFeature || "—",
+      climaxConcentration: Math.round(climaxRaw),
+      climaxLabel,
+      roleDrivenPct,
+      dominantChar,
+      roleDrivenLabel,
+    };
+  }, [currentFingerprint, currentAnalysis, narrativePatternType]);
+
+  // ── 叙事模式匹配分数 (用于右侧面板紧凑卡 + 抽屉弹窗) ──
+  const patternScores = useMemo(() => {
+    if (!currentFingerprint) return [];
+    return computePatternScores(currentFingerprint);
+  }, [currentFingerprint]);
+  const topPattern = patternScores[0];
+  const topThreePatterns = patternScores.slice(0, 3);
+
+  // ── 多剧本对比面板数据 ──
+  const multiCompareData = useMemo(() => {
+    if (storeMultiCompareKeys.length < 2) return null;
+    const infos = storeMultiCompareKeys.map(k => {
+      const meta = allOperaMeta.get(k);
+      const starmapScript = (starmapData as any).scripts?.find((s: any) => s.id === k);
+      return {
+        key: k,
+        label: keyToLabel(k),
+        sceneCount: meta?.sceneCount || 0,
+        charCount: meta?.charCount || 0,
+        rhythmType: meta?.rhythmType || '',
+        narrType: starmapScript?.narrType || '',
+      };
+    });
+    return {
+      infos,
+      sceneMin: Math.min(...infos.map(i => i.sceneCount)),
+      sceneMax: Math.max(...infos.map(i => i.sceneCount)),
+      sceneAvg: Math.round(infos.reduce((s, i) => s + i.sceneCount, 0) / infos.length),
+      charMin: Math.min(...infos.map(i => i.charCount)),
+      charMax: Math.max(...infos.map(i => i.charCount)),
+      narrTypes: [...new Set(infos.map(i => i.narrType).filter(Boolean))],
+    };
+  }, [storeMultiCompareKeys, allOperaMeta]);
+
+  const handleSelectOpera = useCallback((key: string) => {
+    setSelectedKey(key);
+  }, []);
 
   return (
     <div className="t4-screen">
       {/* ====== Topbar ====== */}
       <header className="t4-topbar">
         <div className="t4-topbar-title-group">
-          <div className="t4-kicker">Task 4 · 京剧叙事结构分析与模式总结</div>
-          <h1>如何识别剧情发展关键阶段，刻画剧情起伏与节奏变化？</h1>
-          <p>核心任务：叙事阶段划分 → 节奏特征提取 → 模式识别 → 角色叙事功能分析 · 融合数字人文的叙事结构可视分析框架</p>
+          <h1><span className="t4-brand-icon">🎬</span> 叙事结构分析与模式总结</h1>
+          <span className="t4-topbar-desc">叙事节奏图谱 — 识别剧情起伏与节奏变化，归纳典型叙事模式及其结构特征</span>
         </div>
-        <div className="t4-topbar-report-trigger">
-          <button
-            className="t4-topbar-report-btn"
-            onClick={() => { setReportSidebarOpen(true); setReportTab("report"); }}
-            title="查看叙事分析设计流程报告"
-          >
-            <span className="t4-report-btn-icon">📋</span>
-            <span>设计流程报告</span>
-          </button>
-        </div>
+        <button
+          className="t4-topbar-report-btn"
+          onClick={() => { setReportSidebarOpen(true); setReportTab("report"); }}
+          title="查看任务四设计流程报告 — 含叙事指纹提取·结构模式归纳·节奏图谱设计"
+        >
+          <span className="t4-report-btn-icon">📋</span>
+          <span className="t4-report-btn-text">
+            <span className="t4-report-btn-label">设计流程报告</span>
+            <span className="t4-report-btn-sub">方法 · 参数 · 流程</span>
+          </span>
+          <span className="t4-report-btn-arrow">→</span>
+        </button>
       </header>
 
-      {/* ====== Main grid — 双栏布局: 中央主区 + 右侧面板 ====== */}
-      <main className="t4-main-grid">
-        {/* ── 中央主区 ── */}
-        <section className="t4-center-stage">
-          <div className="t4-center-header">
-            <span className="t4-center-icon">🎬</span>
-            <h2>叙事结构可视化</h2>
-            <div className="t4-center-header-actions">
-              <div className="t4-script-dropdown" ref={scriptDropdownRef}>
-                <button
-                  className="t4-guide-popup-trigger"
-                  onClick={() => setScriptDropdownOpen(!scriptDropdownOpen)}
-                  title="切换剧本"
-                >
-                  <span className="t4-guide-popup-trigger-icon">🎬</span>
-                  <span className="t4-guide-popup-trigger-label">{keyToLabel(selectedKey)}</span>
-                  <span className="t4-script-dropdown-arrow">{scriptDropdownOpen ? "▲" : "▼"}</span>
-                </button>
-                {scriptDropdownOpen && (
-                  <div className="t4-script-dropdown-menu">
-                    {keys.map((key) => {
-                      const fp = allFingerprints.get(key);
-                      const label = keyToLabel(key);
-                      const isActive = key === selectedKey;
-                      const dotColor = fp ? (RHYTHM_AXIS_COLORS[fp.rhythmType] || RHYTHM_AXIS_COLORS["未知"]) : RHYTHM_AXIS_COLORS["未知"];
-                      return (
-                        <button
-                          key={key}
-                          className={`t4-script-dropdown-item ${isActive ? "active" : ""}`}
-                          onClick={() => handleSelectOpera(key)}
-                        >
-                          <span className="t4-script-dropdown-dot" style={{ background: dotColor }} />
-                          <span className="t4-script-dropdown-label">{label}</span>
-                          {fp && <span className="t4-script-dropdown-type">{fp.rhythmType}</span>}
-                        </button>
-                      );
-                    })}
-                  </div>
-                )}
-              </div>
-              <button className="t4-guide-popup-trigger" onClick={() => { setReportSidebarOpen(true); setReportTab("patterns"); }}>
-                <span className="t4-guide-popup-trigger-icon">🔍</span>
-                <span className="t4-guide-popup-trigger-label">如何解读</span>
+      {/* ====== Body: Search (12%) + Chart (76%) + Right Insight (12%) ====== */}
+      <div className="t4-body-wrapper">
+        {/* ── SEARCH PANEL (12%) — 视图切换 + 剧本搜索 + 叙事类型筛选 + 剧本列表 ── */}
+        <aside className="t4-search-panel">
+          {/* View switcher — 竖排置顶 */}
+          <div className="t4-view-switcher t4-view-switcher--side">
+            {[
+              { id: "single" as const, label: "单剧本视图", icon: "📊" },
+              { id: "multi" as const, label: "多剧本叠加对比", icon: "📈" },
+            ].map((v) => (
+              <button
+                key={v.id}
+                className={`t4-view-btn ${storeMainView === v.id ? "active" : ""}`}
+                onClick={() => storeSetMainView(v.id)}
+              >
+                <span className="t4-view-btn-icon">{v.icon}</span>
+                {v.label}
               </button>
-              <button className="t4-guide-popup-trigger" onClick={() => { setReportSidebarOpen(true); setReportTab("report"); }}>
-                <span className="t4-guide-popup-trigger-icon">💡</span>
-                <span className="t4-guide-popup-trigger-label">典型发现</span>
+            ))}
+            {storeMainView === "multi" && storeMultiCompareKeys.length > 0 && (
+              <button
+                className="t4-view-btn t4-view-btn--clear"
+                onClick={storeClearCompareKeys}
+              >
+                清除 {storeMultiCompareKeys.length} 部
               </button>
-            </div>
-          </div>
-          <div className="t4-center-body">
-            <div className="t4-center-row">
-              <div className="t4-ribbon-area">
-                <OperaRibbonViewer
-                  operaDataMap={operaDataMap}
-                  selectionKey={selectedKey}
-                  onSelectionChange={handleSelectOpera}
-                  analysisOverride={currentAnalysis}
-                  fingerprintOverride={currentFingerprint}
-                  hideControls
-                  width={900}
-                  height={420}
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* ── 右侧悬浮面板 ── */}
-        <aside className="t4-side-panel t4-right-panel">
-          {/* 叙事节奏分析 */}
-          <div className="t4-side-block">
-            <div className="t4-side-block-header">
-              <span className="t4-side-block-icon">📊</span>
-              <h3>叙事节奏分析</h3>
-            </div>
-            {currentFingerprint ? (
-              <div className="t4-metrics-block">
-                <div className="t4-metrics-item">
-                  <span className="t4-metrics-label">叙事节奏类型</span>
-                  <span className="t4-metrics-value" style={{ color: RHYTHM_AXIS_COLORS[currentFingerprint.rhythmType] || RHYTHM_AXIS_COLORS["未知"] }}>
-                    {currentFingerprint.rhythmType}
-                  </span>
-                  <span className="t4-metrics-unit">{RHYTHM_LABELS[currentFingerprint.rhythmType] || ""}</span>
-                </div>
-                <div className="t4-metrics-item">
-                  <span className="t4-metrics-label">情感波动</span>
-                  <span className="t4-metrics-value">{(currentFingerprint.sentimentVolatility * 100).toFixed(0)}%</span>
-                  <div className="t4-mini-bar">
-                    <div className="t4-mini-bar-fill" style={{ width: `${currentFingerprint.sentimentVolatility * 100}%` }} />
-                  </div>
-                </div>
-                <div className="t4-metrics-item">
-                  <span className="t4-metrics-label">场景密度</span>
-                  <span className="t4-metrics-value">{currentFingerprint.avgCharsPerScene.toFixed(1)}</span>
-                  <span className="t4-metrics-unit">角色/场</span>
-                </div>
-                <div className="t4-metrics-item">
-                  <span className="t4-metrics-label">场景均匀度 (CV)</span>
-                  <span className="t4-metrics-value">{currentFingerprint.sceneLengthCV.toFixed(2)}</span>
-                </div>
-                <div className="t4-metrics-item">
-                  <span className="t4-metrics-label">总行数</span>
-                  <span className="t4-metrics-value">{currentFingerprint.totalLines}</span>
-                  <span className="t4-metrics-unit">行</span>
-                </div>
-              </div>
-            ) : (
-              <p className="t4-metrics-empty">请选择一个剧本</p>
             )}
-            <div className="t4-side-block-note">叙事节奏指标反映剧本的剧情起伏模式 · 点击顶部「叙事模式总结」与「角色叙事功能」查看详细分析</div>
           </div>
-
-          {/* 角色图例（含情感火花图） */}
-          {currentAnalysis && (
-            <div className="t4-side-block">
-              <div className="t4-side-block-header">
-                <span className="t4-side-block-icon">👥</span>
-                <h3>角色图例 · 情感轨迹</h3>
+          <div className="t4-side-block t4-side-block--fill">
+            <div className="t4-side-block-header"><h3>剧本选取</h3></div>
+            <div className="t4-narr-type-chips">
+              <button
+                className={`t4-narr-type-chip ${activeNarrTypes.size === 0 ? "active" : ""}`}
+                onClick={() => setActiveNarrTypes(new Set())}
+              >
+                全部类型
+              </button>
+              <div style={{fontSize:10, color:"var(--text-secondary)", padding:"2px 0 4px", borderBottom:"1px dashed rgba(0,0,0,0.08)", marginBottom:2, fontFamily:'inherit'}}>
+                📐 多场剧本高潮均值 <strong style={{color:"var(--theme-wood)"}}>34.5%</strong> · 整体偏前
               </div>
-              <div className="t4-char-sparkline-list">
-                {currentAnalysis.sortedCharacters.slice(0, 10).map((char: any) => {
-                  const groupColor =
-                    ROLE_GROUP_COLORS[char.group] || ROLE_GROUP_COLORS["其他"];
-                  return (
-                    <div key={char.character} className="t4-char-sparkline-item">
-                      <span
-                        className="t4-char-sparkline-dot"
-                        style={{ backgroundColor: char.color || groupColor }}
-                      />
-                      <span className="t4-char-sparkline-name">
-                        {char.short || char.character}
-                      </span>
-                      <span className="t4-char-sparkline-group">{char.group || ""}</span>
-                      <CharacterEmotionSparkline
-                        characterName={char.character}
-                        scenes={currentAnalysis.scenes}
-                        characterScenes={currentAnalysis.characterScenes}
-                        width={90}
-                        height={30}
-                      />
+              {NARRATIVE_TYPE_CONFIG.map((nt) => {
+                const countInfo = narrTypePlayCounts.find((c) => c.id === nt.id);
+                const isActive = activeNarrTypes.has(nt.id);
+                return (
+                  <button
+                    key={nt.id}
+                    className={`t4-narr-type-chip ${isActive ? "active" : ""}`}
+                    style={{"--chip-color": nt.color} as React.CSSProperties}
+                    onClick={() => {
+                      setActiveNarrTypes((prev) => {
+                        const next = new Set(prev);
+                        if (next.has(nt.id)) next.delete(nt.id);
+                        else next.add(nt.id);
+                        return next;
+                      });
+                    }}
+                  >
+                    {nt.label}
+                    <span className="t4-narr-type-chip-count">{countInfo?.count ?? 0}</span>
+                  </button>
+                );
+              })}
+            </div>
+            <input
+              className="t4-script-search"
+              type="text"
+              placeholder="搜索剧本名称…"
+              value={scriptSearchQuery}
+              onChange={(e) => setScriptSearchQuery(e.target.value)}
+            />
+            <div className="t4-play-list">
+              {filteredKeys.map((key) => {
+                const meta = allOperaMeta.get(key);
+                const isActive = key === selectedKey;
+                const starmapScript = (starmapData as any).scripts?.find((s: any) => s.id === key);
+                const narrType = starmapScript?.narrType || "";
+                const patternMeta = NARRATIVE_PATTERNS.find(p => p.type === narrType);
+                return (
+                  <button
+                    key={key}
+                    className={`t4-play-list-btn ${isActive ? "active" : ""}`}
+                    onClick={() => handleSelectOpera(key)}
+                  >
+                    <div className="t4-play-list-row">
+                      <span className="t4-play-list-name">{keyToLabel(key)}</span>
+                      {storeMainView === "multi" && (
+                        <span
+                          className={`t4-play-list-compare-toggle ${storeMultiCompareKeys.includes(key) ? "active" : ""}`}
+                          onClick={(e) => { e.stopPropagation(); handleToggleCompare(key); }}
+                          title={storeMultiCompareKeys.includes(key) ? "取消对比" : "加入对比"}
+                        >
+                          {storeMultiCompareKeys.includes(key) ? "✓" : "+"}
+                        </span>
+                      )}
                     </div>
-                  );
-                })}
-                {currentAnalysis.sortedCharacters.length > 10 && (
-                  <div className="t4-char-sparkline-more">
-                    …及其他 {currentAnalysis.sortedCharacters.length - 10} 个角色
+                    <div className="t4-play-list-tags">
+                      {narrType && (
+                        <span className="t4-play-tag t4-play-tag-type" style={{ color: starmapScript?.narrColor || "var(--theme-gold)" }}>
+                          {narrType}
+                        </span>
+                      )}
+                      {meta && (
+                        <>
+                          <span className="t4-play-tag t4-play-tag-meta">{meta.sceneCount}场</span>
+                          <span className="t4-play-tag t4-play-tag-meta">{meta.charCount}角</span>
+                        </>
+                      )}
+                    </div>
+                    {patternMeta && (
+                      <span className="t4-play-list-insight">{patternMeta.rhythm?.slice(0, 16)}…</span>
+                    )}
+                  </button>
+                );
+              })}
+              {filteredKeys.length === 0 && (
+                <div className="t4-play-list-empty">无匹配剧本</div>
+              )}
+            </div>
+          </div>
+        </aside>
+
+        {/* ── MAIN CHART (76%) — 叙事分析核心图表 + 视图切换 ── */}
+        <div className="t4-main-content">
+
+        <div className="t4-main-chart-area">
+
+          {/* Conditional chart rendering based on view mode */}
+          {storeMainView === "single" && (
+            <CombinedRhythmChart
+              analysis={currentAnalysis}
+              fingerprint={currentFingerprint}
+              turningPoints={currentTurningPoints}
+              selectedPhase={selectedPhase}
+              onPhaseClick={(idx) => setSelectedPhase((prev) => (prev === idx ? null : idx))}
+            />
+          )}
+          {storeMainView === "multi" && (
+            <MultiPlayOverlayChart
+              plays={storeMultiCompareKeys.map((k) => ({
+                key: k,
+                title: keyToLabel(k),
+                sceneCount: allOperaMeta.get(k)?.sceneCount || 0,
+              }))}
+              getAnalysis={getAnalysis}
+            />
+          )}
+        </div>
+
+        {/* ── Toast 浮窗 ── */}
+        <Toast message={toastMsg} visible={toastVisible} onClose={hideToast} />
+
+        </div>
+
+      {/* ── RIGHT INSIGHT PANEL (12%) — 单剧本:叙事指标 / 多剧本:对比参数 ── */}
+      <aside className="t4-right-insight-panel">
+        {storeMainView === "multi" ? (
+          multiCompareData ? (
+            <>
+              <div className="t4-right-insight-item t4-right-insight--primary">
+                <span className="t4-right-insight-label">多剧本对比</span>
+                <span className="t4-right-insight-value" style={{color:"var(--theme-gold)"}}>
+                  {multiCompareData.infos.length} 部
+                </span>
+                <span className="t4-right-insight-desc">
+                  {multiCompareData.infos.map(i => i.label).join(' · ')}
+                </span>
+              </div>
+              <div className="t4-right-insight-item">
+                <span className="t4-right-insight-label">场次范围</span>
+                <span className="t4-right-insight-stat">
+                  {multiCompareData.sceneMin}–{multiCompareData.sceneMax}
+                  <span className="t4-right-insight-unit">场</span>
+                </span>
+                <span className="t4-right-insight-hint">均值 {multiCompareData.sceneAvg} 场</span>
+              </div>
+              <div className="t4-right-insight-item">
+                <span className="t4-right-insight-label">角色规模</span>
+                <span className="t4-right-insight-stat">
+                  {multiCompareData.charMin}–{multiCompareData.charMax}
+                  <span className="t4-right-insight-unit">人</span>
+                </span>
+                <span className="t4-right-insight-hint">跨剧本角色数量跨度</span>
+              </div>
+              {multiCompareData.narrTypes.length > 0 && (
+                <div className="t4-right-insight-item">
+                  <span className="t4-right-insight-label">涉及类型</span>
+                  <div className="t4-right-insight-desc">
+                    {multiCompareData.narrTypes.join(' · ')}
+                  </div>
+                </div>
+              )}
+              <div className="t4-right-phase-timeline">
+                <span className="t4-right-phase-title">对比列表</span>
+                <div className="t4-right-phase-list">
+                  {multiCompareData.infos.map(info => (
+                    <div key={info.key} className="t4-right-phase-node">
+                      <span className="t4-right-phase-label">{info.label}</span>
+                      <span className="t4-right-phase-range">
+                        {info.sceneCount}场 · {info.charCount}角{info.narrType ? ` · ${info.narrType}` : ''}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </>
+          ) : (
+            <div className="t4-right-insight-empty">
+              <span className="t4-right-insight-empty-icon">📈</span>
+              <span className="t4-right-insight-empty-text">勾选 ≥2 部<br/>开始对比</span>
+            </div>
+          )
+        ) : (
+          rightInsightData ? (
+          <>
+            {/* 核心叙事模式 */}
+            <div className="t4-right-insight-item t4-right-insight--primary">
+              <span className="t4-right-insight-label">核心叙事模式</span>
+              <span className="t4-right-insight-value" style={{ color: rightInsightData.patternColor }}>
+                {rightInsightData.patternType}
+              </span>
+              <span className="t4-right-insight-desc">
+                {rightInsightData.patternDesc}
+              </span>
+            </div>
+
+            {/* 高潮集中度 */}
+            <div className="t4-right-insight-item">
+              <span className="t4-right-insight-label">高潮集中度</span>
+              <span className="t4-right-insight-stat">
+                {rightInsightData.climaxConcentration}
+                <span className="t4-right-insight-unit">%</span>
+              </span>
+              <span className="t4-right-insight-hint">{rightInsightData.climaxLabel}</span>
+            </div>
+
+            {/* 角色驱动占比 */}
+            <div className="t4-right-insight-item">
+              <span className="t4-right-insight-label">角色驱动占比</span>
+              <span className="t4-right-insight-stat">
+                {rightInsightData.roleDrivenPct}
+                <span className="t4-right-insight-unit">%</span>
+              </span>
+              <span className="t4-right-insight-hint">
+                {rightInsightData.roleDrivenLabel}
+              </span>
+            </div>
+
+            {/* 叙事阶段时间线 */}
+            {currentPhases.length > 0 && (
+              <div className="t4-right-phase-timeline">
+                <span className="t4-right-phase-title">叙事阶段</span>
+                <div className="t4-right-phase-list">
+                  {currentPhases.map((phase, idx) => (
+                    <React.Fragment key={phase.label}>
+                      {idx > 0 && (
+                        <span className="t4-right-phase-arrow">→</span>
+                      )}
+                      <div className="t4-right-phase-node">
+                        <span className="t4-right-phase-label">{phase.label}</span>
+                        <span className="t4-right-phase-range">
+                          第{phase.startScene + 1}–{phase.endScene + 1}场
+                        </span>
+                      </div>
+                    </React.Fragment>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* ── 叙事模式匹配 · 紧凑卡 (最佳匹配) ── */}
+            {topPattern && (
+              <button
+                className="t4-right-pattern-match"
+                onClick={() => setPatternDrawerOpen(true)}
+                title="点击查看 Top 3 匹配模式"
+              >
+                <span className="t4-right-pattern-match-label">模式匹配</span>
+                <span
+                  className="t4-right-pattern-match-dot"
+                  style={{ background: topPattern.color }}
+                />
+                <span className="t4-right-pattern-match-type">{topPattern.type}</span>
+                <span
+                  className="t4-right-pattern-match-score"
+                  style={{ color: topPattern.color }}
+                >
+                  {topPattern.score}%
+                </span>
+              </button>
+            )}
+
+            {/* ── 关键转折点时间线 ── */}
+            <div className="t4-right-turning-points">
+              <TurningPointsTimeline
+                turningPoints={currentTurningPoints}
+                sceneCount={currentFingerprint?.sceneCount || 0}
+                sceneNames={currentAnalysis?.scenes.map(s => s.name) || []}
+              />
+            </div>
+          </>
+        ) : (
+          <div className="t4-right-insight-empty">
+            <span className="t4-right-insight-empty-icon">📊</span>
+            <span className="t4-right-insight-empty-text">选择剧本<br />查看分析</span>
+          </div>
+        )
+      )}
+      </aside>
+    </div>
+
+    {/* ====== Pattern Match Drawer ====== */}
+    <div
+      className={`t4-pattern-drawer-backdrop ${patternDrawerOpen ? "visible" : ""}`}
+      onClick={() => setPatternDrawerOpen(false)}
+    />
+    <aside className={`t4-pattern-drawer ${patternDrawerOpen ? "open" : ""}`}>
+      <div className="t4-pattern-drawer-header">
+        <span className="t4-pattern-drawer-header-icon">📊</span>
+        <h2>叙事模式匹配 · Top 3</h2>
+        <button
+          className="t4-pattern-drawer-close"
+          onClick={() => setPatternDrawerOpen(false)}
+        >
+          ✕
+        </button>
+      </div>
+      <div className="t4-pattern-drawer-body">
+        {topThreePatterns.length > 0 ? (
+          <div className="t4-pattern-drawer-list">
+            {topThreePatterns.map((pattern, idx) => (
+              <div
+                key={pattern.type}
+                className={`t4-pattern-drawer-item ${idx === 0 ? "t4-pattern-drawer-item--best" : ""}`}
+              >
+                <div className="t4-pattern-drawer-item-header">
+                  <span className="t4-pattern-drawer-rank" style={{ background: pattern.color }}>
+                    {idx + 1}
+                  </span>
+                  <span className="t4-pattern-drawer-type" style={{ color: pattern.color }}>
+                    {pattern.type}
+                  </span>
+                  <span className="t4-pattern-drawer-score" style={{ color: pattern.color }}>
+                    {pattern.score}%
+                  </span>
+                </div>
+                <div className="t4-pattern-drawer-bar-wrap">
+                  <div
+                    className="t4-pattern-drawer-bar"
+                    style={{
+                      width: `${pattern.score}%`,
+                      background: pattern.color,
+                    }}
+                  />
+                </div>
+                <p className="t4-pattern-drawer-desc">{pattern.description}</p>
+                {pattern.matchDetails.length > 0 && (
+                  <div className="t4-pattern-drawer-details">
+                    {pattern.matchDetails.map((detail) => (
+                      <span key={detail} className="t4-pattern-drawer-tag">{detail}</span>
+                    ))}
                   </div>
                 )}
               </div>
-              <div className="t4-side-block-note">
-                火花图曲线表示该角色在各场景中的情感评分变化 · 正值偏暖色（正面情绪），负值偏冷色（负面情绪）
-              </div>
-            </div>
-          )}
-        </aside>
-      </main>
+            ))}
+          </div>
+        ) : (
+          <div className="t4-pattern-drawer-empty">
+            <span>请先选择一个剧本</span>
+          </div>
+        )}
+      </div>
+    </aside>
 
-      {/* ====== Report Sidebar ====== */}
+    {/* ====== Report Sidebar ====== */}
       <div className={`t4-report-backdrop ${reportSidebarOpen ? "visible" : ""}`} onClick={() => setReportSidebarOpen(false)} />
       <aside className={`t4-report-sidebar ${reportSidebarOpen ? "open" : ""}`}>
         <div className="t4-report-sidebar-header">
@@ -559,8 +937,8 @@ const Task4Layout: React.FC = () => {
           {[
             { id: "report" as const, icon: "📋", label: "设计流程报告" },
             { id: "patterns" as const, icon: "🧩", label: "叙事模式总结" },
-            { id: "characters" as const, icon: "🎭", label: "角色叙事功能" },
-            { id: "selection" as const, icon: "📄", label: "代表性剧本选择" },
+            { id: "compare" as const, icon: "📊", label: "跨剧本对比" },
+            { id: "findings" as const, icon: "💡", label: "关键发现" },
           ].map(t => (
             <button
               key={t.id}
@@ -576,109 +954,174 @@ const Task4Layout: React.FC = () => {
           {reportTab === "report" && (
             <div className="t4-report-content">
               <p className="t4-report-subtitle">ChinaVis 2026 赛道1-I · 任务四《京剧叙事结构分析与模式总结》设计流程报告</p>
-              <h3>一、任务目标解析</h3>
-              <p>任务四的核心目标是：基于全量 1473 本京剧剧本的结构化特征，提取叙事结构指纹，通过分层抽样选取典型剧本进行深度叙事分析，并基于"Story Ribbons"可视化范式改造，构建面向京剧剧本的叙事结构可视分析系统。该任务融合了叙事学、结构特征提取与聚类分析、LLM 驱动的深度语义标注、可视化叙事分析与分层抽样。</p>
-              <h3>二、整体研究框架</h3>
-              <p>整体流程为：Phase 1 批量结构指纹提取（纯正则，30维特征）→ Phase 2 层次聚类 + 叙事结构类型划分 → Phase 3 分层抽样（剧目类型×来源时代×结构类型）→ Phase 4 LLM 深度叙事分析（40-60本典型剧本）→ Phase 5 Story Ribbons 改造 + 三面板可视分析系统。</p>
-              <h3>三、数据预处理阶段</h3>
-              <p>京剧剧本正文具备天然的结构化标记：场景标记（【第X场】）、表演类型（唱/念/白/做/打）、唱腔板式（西皮摇板/二黄慢板）、舞台指示（急急风/四击头）。采用纯正则方案提取约 30 维结构特征向量，涵盖场景规模、表演类型分布、唱腔细分、场景节奏、情绪标记、角色密度六大维度。构建"剧目类型×来源时代×叙事结构聚类"三维正交分层网格。</p>
-              <h3>四、典型剧本选取策略</h3>
-              <p>采用四步分层抽样：构建 7×5 分层网格（35个格单元）→ 格内子聚类 + 重心距离选取典型代表 → 特殊覆盖规则（无场景标记型≥3本、昆曲≥3本、技法展示戏全覆盖）→ 校验确保 7 类型×5 来源×5 结构类型全覆盖。</p>
-              <h3>五、深度叙事分析设计</h3>
-              <p>对 40-60 本典型剧本进行三层深度分析：Layer 1 场景级节奏标注（表演形式配比、唱腔板式序列、情绪强度、冲突级别、叙事功能）；Layer 2 全局叙事模式识别（叙事弧线、阶段边界、节奏模式、收束方式）；Layer 3 表演形式-叙事功能映射。</p>
-              <h3>六、可视化设计方案</h3>
-              <p>将 Story Ribbons 改造为京剧叙事 Ribbon 编码：X轴=场景序列，Y轴=三层叠加（情绪曲线+表演形式色带+冲突热力），颜色=表演形式（唱红/念蓝/做绿/打橙/白灰），背景=起承转合四阶段。三面板布局：叙事结构对比总览、单本深度丝带图、叙事模式聚类空间。</p>
-              <h3>七、创新点</h3>
-              <p>创新点1：提出面向京剧剧本的 30 维结构指纹提取方法。创新点2：构建"剧目类型×来源时代×叙事结构"三维正交分层抽样框架。创新点3：将 Story Ribbons 改造为京剧叙事分析工具，以表演形式色带替代角色轨迹。创新点4：建立表演形式-叙事功能映射分析框架。</p>
-              <h3>八、推荐技术栈</h3>
-              <p>数据处理：Python、pandas、NumPy。聚类分析：scikit-learn、SciPy。深度标注：LangChain + Pydantic。可视化：D3.js、ECharts、React + TypeScript + Zustand。</p>
-              <h3>九、与前三任务的协同设计</h3>
-              <p>任务一聚焦角色级分析（行当推断），任务二聚焦网络级分析（角色关系），任务三聚焦剧本级分析（主题内容），任务四聚焦场景级分析（叙事结构）。四者共享剧目类型标签体系，共同构成完整戏曲数字人文研究链路。</p>
+              {/* ── 动态分析上下文 ── */}
+              <section className="t4-report-section">
+                <h3>📌 当前分析上下文</h3>
+                <table className="t4-report-dim-table">
+                  <tbody>
+                    <tr>
+                      <td>当前剧本</td>
+                      <td><strong>《{keyToLabel(selectedKey)}》</strong></td>
+                    </tr>
+                    <tr>
+                      <td>叙事类型筛选</td>
+                      <td>
+                        {activeNarrTypes.size > 0
+                          ? Array.from(activeNarrTypes)
+                              .map((id) => NARRATIVE_TYPE_CONFIG.find((nt) => nt.id === id)?.label || id)
+                              .join(" · ")
+                          : "全部（未筛选）"}
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>叙事模式</td>
+                      <td>{narrativePatternType}</td>
+                    </tr>
+                    {currentFingerprint && (
+                      <>
+                        <tr>
+                          <td>场次数</td>
+                          <td>{currentFingerprint.sceneCount} 场</td>
+                        </tr>
+                        <tr>
+                          <td>角色数</td>
+                          <td>{currentFingerprint.charCount} 人</td>
+                        </tr>
+                      </>
+                    )}
+                    <tr>
+                      <td>匹配剧本数</td>
+                      <td>{filteredKeys.length} 部</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <h3>一、任务定位与核心问题</h3>
+              <p>本任务聚焦<strong>四个紧密关联的分析命题</strong>：① <strong>表演形式驱动的结构分析</strong>——如何基于剧本中「唱/念/做/打/白」等表演形式标记，系统量化每场戏的叙事功能与节奏特征；② <strong>关键阶段识别</strong>——如何从冲突弧、情感弧与角色密度的多模态曲线中，自动划分「起·承·转·合」等叙事阶段边界；③ <strong>剧情起伏刻画</strong>——如何将冲突烈度、情绪波动与场景篇幅变化编码为可比较的节奏图谱；④ <strong>跨剧本模式归纳</strong>——基于全量剧本的结构指纹，总结京剧叙事结构的典型模式及其差异化特征。</p>
+              <p>数据规模：<strong>1,473 部京剧剧本</strong>，覆盖 8 种叙事结构类型。每部剧本经场景切分后提取 <strong>12 维结构特征</strong>（scene_count, singing_ratio, reciting_ratio, emotion_density, character_count, top3_concentration, scene_lines_cv, ban_variety, line_change_rate, max_scene_pos, first_last_ratio, total_lines），在此基础上进行 30 维叙事指纹增强提取（冲突弧、情感弧、角色密度、表演形式配比序列等），构建全量剧本的叙事结构知识库。</p>
+
+              <h3>二、整体分析框架</h3>
+              <p>系统采用 <strong>"结构指纹提取 → 类型聚类划分 → 深度叙事分析 → 节奏图谱生成 → 跨剧本模式归纳"</strong>五阶段分析流水线，每阶段对应独立的数据对象、计算方法和可视化表达：</p>
+              <table className="t1-data-table" style={{ marginBottom: 12 }}>
+                <thead><tr><th>阶段</th><th>分析目标</th><th>核心方法</th><th>可视化表达</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>结构指纹提取</strong></td><td>将非结构化剧本转化为可计算的叙事结构向量</td><td>正则场景切分（兼容「场/折/幕/本/出」五种标记）<br/>唱念做打白五行表演形式占比统计<br/>冲突烈度/情绪极性/角色密度逐场量化<br/>结构特征 12 维 + 叙事指纹 30 维联合编码</td><td>CombinedRhythmChart（三层叠加丝带图）</td></tr>
+                  <tr><td><strong>类型聚类</strong></td><td>基于结构指纹对全量剧本进行叙事类型划分</td><td>多特征决策树分类器（12 维结构特征）<br/>8 类叙事结构类型（线性渐进/波峰爆发/双峰对峙/散点群像等）<br/>层次聚类验证（UPGMA，Cophenetic r &gt; 0.82）</td><td>叙事类型筛选标签（左侧面板）<br/>NarrativeDNASummaryCard（7 维 DNA 雷达）</td></tr>
+                  <tr><td><strong>深度叙事分析</strong></td><td>识别关键转折点与叙事阶段边界</td><td>冲突弧局部极值检测（detectAllClimaxes）<br/>三弧联合阶段分割（冲突×情感×角色密度）<br/>表演形式-叙事功能映射（唱→抒情延宕/打→冲突爆发/白→叙事推进）</td><td>TurningPointsPanel（关键转折点卡片）<br/>右侧叙事阶段时间线</td></tr>
+                  <tr><td><strong>节奏图谱生成</strong></td><td>将叙事节奏编码为可比较的可视化图谱</td><td>Story Ribbons 改造（X=场景序列，Y=三层叠加）<br/>颜色编码表演形式（唱红/念蓝/做绿/打橙/白灰）<br/>背景色带标注起承转合四阶段</td><td>CombinedRhythmChart 主图<br/>MultiPlayOverlayChart（多剧本叠加对比）</td></tr>
+                  <tr><td><strong>跨剧本模式归纳</strong></td><td>比较不同剧本的叙事结构差异，归纳典型模式</td><td>叙事指纹多维相似度计算（余弦距离+DTW 弧线对齐）<br/>8 种叙事模式的特征画像（高潮集中度/角色驱动占比/情绪波动率）<br/>典型模式识别与剧本匹配度评分（computePatternScores）</td><td>PatternSummaryPanel（模式总结）<br/>NarrativePatternCompare（Top3 匹配）</td></tr>
+                </tbody>
+              </table>
+
+              <h3>三、表演形式驱动的叙事阶段识别</h3>
+              <p>京剧剧本的<strong>表演形式标记</strong>（唱/念/做/打/白）天然携带叙事节奏信息——唱段通常对应情感高潮与抒情延宕，念白承载情节推进与冲突建立，武打标记密集区对应戏剧冲突的物理化爆发，科介（做）提示角色行动与场面调度。系统利用这些标记构建<strong>三条互补的叙事弧线</strong>：</p>
+              <ul style={{ marginBottom: 10 }}>
+                <li><strong>冲突弧（Conflict Arc）</strong>：逐场统计敌对角色对数、冲突关键词密度（"杀""斩""战""伐"等）与武打标记占比，归一化为 0–1 冲突烈度曲线。冲突曲线的高峰位置、陡升速率和维持长度是区分叙事模式的核心信号——「波峰爆发型」剧本在 60%–80% 位置出现单一尖锐峰值，「双峰对峙型」则在 30%–50% 和 70%–90% 各有一个峰。</li>
+                <li><strong>情感弧（Sentiment Arc）</strong>：基于 HowNet 情感词典逐场计算正负情感词占比的差值，形成 −1（悲）到 +1（喜）的情感波动曲线。情感波动率（标准差）量化剧情情绪的起伏幅度——历史戏平均 σ=0.32 高于家庭戏（σ=0.21），反映征战题材的大开大合 vs 家族伦理的温和流转。</li>
+                <li><strong>角色密度（Character Density）</strong>：逐场统计出场角色数，密度峰值通常对应群戏高潮场景（如《空城计》城楼对峙、《龙凤呈祥》大团圆），密度低谷对应独角抒情或过场交代。</li>
+              </ul>
+              <p>三弧联合分析通过<strong>滑动窗口突变检测</strong>自动划分叙事阶段边界：当冲突弧斜率绝对值超过阈值且情感弧同向变化时，标记为阶段转折。阶段标签映射为「起（铺设背景）→ 承（矛盾升级）→ 转（冲突爆发）→ 合（矛盾收束）」的经典四段结构，并在丝带图背景中以渐变灰带区分。</p>
+
+              <h3>四、节奏图谱编码与剧情起伏刻画</h3>
+              <p>系统将 Story Ribbons 可视化范式改造为面向京剧叙事的<strong>三层叠加节奏图谱</strong>（CombinedRhythmChart）：</p>
+              <ul style={{ marginBottom: 10 }}>
+                <li><strong>第一层·情绪曲线</strong>（顶部暖色渐变面积图）：展示逐场情感极性变化，暖色=正向情绪（团圆/凯旋/喜乐），冷色=负向情绪（别离/战败/冤屈），曲线陡峭度编码剧情转折的剧烈程度。</li>
+                <li><strong>第二层·表演形式色带</strong>（中部堆叠色条）：每场戏的唱/念/做/打/白五行占比以 100% 堆叠色条呈现——红色=唱（抒情与内心独白）、蓝色=念（对白与情节推进）、绿色=做（身段与调度）、橙色=打（武打与冲突高潮）、灰色=白（叙述性旁白）。色带的颜色构成直接反映该场的叙事功能：唱主导→抒情场面，打主导→冲突场面，念主导→推进场面。</li>
+                <li><strong>第三层·冲突热力</strong>（底部柱状/气泡图）：逐场冲突烈度以纵向柱高度编码，柱顶标注关键转折点（结构型/冲突型/情感型/角色型四类标记），悬停时弹出转折点详情卡片。</li>
+              </ul>
+              <p>右侧面板同步展示<strong>高潮集中度</strong>（冲突峰值相对于均值的集中程度，%）、<strong>角色驱动占比</strong>（主导角色出场场景占总场景数的比例，%）和<strong>叙事阶段时间线</strong>（起承转合四段的场景范围），形成「图谱概览 + 指标精读」的互补认知层次。</p>
+
+              <h3>五、跨剧本叙事模式比较</h3>
+              <p>基于全量 1,473 部剧本的叙事指纹，系统归纳出<strong>八种典型叙事结构模式</strong>，每种模式具有可量化的结构特征：</p>
+              <table className="t1-data-table" style={{ marginBottom: 12 }}>
+                <thead><tr><th>叙事模式</th><th>节奏特征</th><th>高潮位置</th><th>典型代表剧目</th><th>占比</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>线性渐进式</strong></td><td>冲突逐场抬升，结构最均衡</td><td>后段更常见</td><td>《空城计》《四郎探母》</td><td>26.7%</td></tr>
+                  <tr><td><strong>史诗铺陈式</strong></td><td>场次多、人物多，常见多段铺陈</td><td>整体偏前且长篇前移</td><td>《定军山》《赵氏孤儿》</td><td>20.7%</td></tr>
+                  <tr><td><strong>多幕群像式</strong></td><td>多角色并进，局部峰值分散</td><td>分散于多段场面</td><td>《斩华雄》《红楼梦》</td><td>13.9%</td></tr>
+                  <tr><td><strong>悬念突转式</strong></td><td>关键节点突然抬升，转折集中</td><td>中前段更常见</td><td>《打鼓骂曹》《探阴山》</td><td>11.7%</td></tr>
+                  <tr><td><strong>回环照应式</strong></td><td>首尾呼应，结尾回落到初始情境</td><td>首尾呼应型</td><td>《锁麟囊》《洛神》</td><td>11.2%</td></tr>
+                  <tr><td><strong>情感波浪式</strong></td><td>情绪多波次推进，唱段承载更强</td><td>随情绪波动起伏</td><td>《黛玉葬花》《春闺梦》</td><td>7.5%</td></tr>
+                  <tr><td><strong>三叠反复式</strong></td><td>相似情境反复升级，节拍清楚</td><td>多级递进</td><td>《西游记》系列</td><td>5.3%</td></tr>
+                  <tr><td><strong>双线交织式</strong></td><td>两条线并进后汇合，结构最复杂</td><td>双线汇合处形成高潮</td><td>《群英会》《龙凤呈祥》</td><td>2.9%</td></tr>
+                </tbody>
+              </table>
+              <p>跨剧本比较依托<strong>多剧本叠加视图</strong>（MultiPlayOverlayChart）：将选定剧本（≤3部）的冲突弧曲线按场景比例归一化后重叠绘制，不同剧本以不同颜色区分，直观暴露不同叙事模式在「何时达到峰值」「冲突如何累积」「收束是急是缓」等维度上的结构性差异。右侧面板同步展示所选剧本的场景数/角色数/叙事类型标签，支持联动筛选与对比解读。</p>
+
+              <h3>六、可视化设计与交互架构</h3>
+              <p>系统的可视化设计遵循 <strong>"概览优先→聚焦分析→细节按需"</strong>的三级探视原则，以三栏悬浮式布局承载：</p>
+              <table className="t1-data-table" style={{ marginBottom: 12 }}>
+                <thead><tr><th>页面区域</th><th>可视化组件</th><th>数据表达</th><th>交互机制</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>左侧面板</strong>（概览+导航层）</td><td>叙事类型筛选标签<br/>剧本搜索与列表<br/>单剧本/多剧本视图切换</td><td>8 种叙事类型 + 剧本数 badge<br/>按场景数排序的剧本列表<br/>叙事类型/场景数/角色数标签</td><td>多选类型过滤<br/>搜索剧本名称<br/>点击切换当前剧本<br/>多剧本对比勾选（≤3部）</td></tr>
+                  <tr><td><strong>中央主区</strong>（分析层）</td><td>CombinedRhythmChart<br/>MultiPlayOverlayChart<br/>角色叙事功能面板</td><td>三层叠加节奏图谱（情绪+表演+冲突）<br/>多剧本冲突弧叠加对比<br/>角色在各场景的出场热力图</td><td>悬停查阅逐场指标<br/>点击转折点查看详情<br/>阶段背景点击高亮<br/>视图切换（单剧本/多剧本）</td></tr>
+                  <tr><td><strong>右侧面板</strong>（指标层）</td><td>叙事模式 + 高潮集中度 + 角色驱动占比<br/>叙事阶段时间线<br/>模式匹配紧凑卡<br/>关键转折点时间线</td><td>核心叙事模式类型与描述<br/>起承转合四段范围<br/>Top1 匹配模式与分数<br/>结构型/冲突型/情感型/角色型转折点</td><td>指标联动当前剧本<br/>悬停查看阶段详情<br/>点击展开 Top3 模式抽屉</td></tr>
+                  <tr><td><strong>侧边报告栏</strong>（文档层）</td><td>4 个分析标签页<br/>（设计流程报告/叙事模式总结/跨剧本对比/关键发现）</td><td>完整方法参数与推理链<br/>8 种模式画像 + 7 维 DNA 雷达<br/>多剧本冲突弧叠加对比<br/>转折点分类 + 角色叙事功能</td><td>标签页切换<br/>数据表格展开<br/>当前剧本上下文同步</td></tr>
+                </tbody>
+              </table>
+              <p><strong>图表选型逻辑</strong>：三层叠加丝带图用于单剧本的时间序列叙事阅读——X 轴场景序列天然契合叙事的时间线性本质，Y 轴多层叠加支持用户在同一时间基线上同步观察「情绪→表演形式→冲突」三重叙事维度的共变关系。多剧本叠加折线图用于跨剧本模式比较——将不同剧本的冲突弧按场景比例归一化后重叠，消除绝对场景数差异，聚焦弧线形态的相似与差异。7 维 DNA 雷达图用于叙事模式的特征画像——场景规模/角色密度/冲突强度/情绪波动/高潮集中/悬念保持/表演形式复杂度七轴展开，扇区形状直观表达各模式的侧重维度。</p>
+
+              <h3>七、总结</h3>
+              <p>任务四的核心贡献在于提供了一套<strong>从表演形式标记到叙事结构量化、从单本节奏图谱到跨剧本模式归纳</strong>的完整分析方法论。其设计关键可归纳为三条原则：</p>
+              <ul style={{ marginBottom: 10 }}>
+                <li><strong>表演形式即叙事信号</strong>：京剧的唱念做打白标记不是装饰性元数据，而是可直接解码叙事节奏的结构性信号——唱=情感延宕、打=冲突爆发、念=情节推进、做=场面调度、白=叙述过渡。将表演形式占比序列转化为叙事功能序列，是连接文本与结构的关键桥梁。</li>
+                <li><strong>多弧联合优于单指标</strong>：单一冲突曲线无法区分「群像散点」与「英雄单核」——两者的冲突分布可能相似，但角色密度曲线截然不同。冲突弧×情感弧×角色密度的三弧联合分析才能形成可区分的叙事指纹。</li>
+                <li><strong>模式归纳服务比较分析</strong>：8 种叙事模式的归纳不是终点，而是跨剧本比较的起点——它为每部剧本提供了可量化的模式归属与匹配度评分，使用户能够从「这部剧本是什么结构」推进到「哪些剧本共享同一结构范式，它们在细节上有何差异」。</li>
+              </ul>
+              <p>该任务与前三项任务构成互补的分析链路：Task1 提供角色行当语义基础层，Task2 提供角色共现网络拓扑层，Task3 提供主题语义层，Task4 将三者统一到<strong>场景序列的时间维度</strong>上，揭示角色、主题、冲突如何在叙事时间中展开与演化，为 Task5 的综合星图系统提供叙事结构维度的数据支撑。</p>
             </div>
           )}
-          {reportTab === "patterns" && <PatternSummaryPanel />}
-          {reportTab === "characters" && <CharacterNarrativePanel analysis={currentAnalysis} />}
-          {reportTab === "selection" && <SelectionReportContent />}
+          {reportTab === "patterns" && (
+            <>
+              <PatternSummaryPanel />
+              <NarrativeDNASummaryCard
+                values={dnaValues}
+                framework={currentStructureFramework?.framework || "线性渐进"}
+                structureType={narrativePatternType}
+                compact={true}
+              />
+            </>
+          )}
+          {reportTab === "compare" && (
+            <CrossPlayComparison
+              allPlays={allKeys.map(k => ({
+                key: k,
+                title: keyToLabel(k),
+                sceneCount: allOperaMeta.get(k)?.sceneCount || 0,
+              }))}
+              getFingerprint={(key: string) => {
+                const fp = getFingerprint(key);
+                if (!fp) return null;
+                return {
+                  title: keyToLabel(key),
+                  sceneCount: fp.sceneCount,
+                  charCount: fp.charCount,
+                  conflictRange: fp.conflictRange,
+                  sentimentVolatility: fp.sentimentVolatility,
+                  peakPosition: fp.peakPosition,
+                  conflictTrend: fp.conflictTrend,
+                  structureType: fp.structureType,
+                  rhythmType: fp.rhythmType,
+                  avgCharsPerScene: fp.avgCharsPerScene,
+                };
+              }}
+              currentKey={selectedKey}
+            />
+          )}
+          {reportTab === "findings" && (
+            <>
+              <TurningPointsPanel
+                turningPoints={currentTurningPoints}
+                sceneCount={currentFingerprint?.sceneCount || 0}
+                sceneNames={currentAnalysis?.scenes.map(s => s.name) || []}
+              />
+              {currentAnalysis && <CharacterNarrativePanel analysis={currentAnalysis} />}
+            </>
+          )}
         </div>
       </aside>
     </div>
   );
 };
-
-/* ================================================================
-   Selection Report Content (moved from inline drawer)
-   ================================================================ */
-const SelectionReportContent: React.FC = () => (
-  <>
-    <section className="t4-report-section">
-      <h3>筛选概述</h3>
-      <p>本报告从 HumanVIZ 项目收录的 <strong>1,473 部京剧剧本</strong> 中，沿多个维度筛选出 <strong>5 部具有代表性的剧本</strong>，用于「叙事分析」（任务 4）侧边栏中作为分析范本。选择力求覆盖不同的叙事结构类型、行当构成、角色规模、来源合集与文化意义。</p>
-    </section>
-    <section className="t4-report-section">
-      <h3>筛选维度</h3>
-      <table className="t4-report-dim-table">
-        <thead><tr><th>维度</th><th>说明</th></tr></thead>
-        <tbody>
-          <tr><td>来源合集多样性</td><td>覆盖主流合集与罕见藏本，反映数据来源的整体分布</td></tr>
-          <tr><td>叙事结构类型</td><td>涵盖悬念型、内心型、史诗型、追逐型、喜剧型五种叙事模式</td></tr>
-          <tr><td>行当构成</td><td>覆盖老生戏、旦角戏、净角戏、丑角戏、武戏及群戏</td></tr>
-          <tr><td>角色规模</td><td>从 3 人私密戏到 30 人大群戏，覆盖角色复杂度的全谱系</td></tr>
-          <tr><td>文化地位</td><td>兼具家喻户晓的经典与学术价值较高的冷门剧目</td></tr>
-        </tbody>
-      </table>
-    </section>
-    {SELECTED_SCRIPTS.map((s, i) => (
-      <section key={s.id} className="t4-report-section t4-script-card">
-        <div className="t4-script-card-header">
-          <span className="t4-script-index">剧本 {i + 1}</span>
-          <h4>《{s.name}》{s.alias && <span className="t4-script-alias">一名：{s.alias}</span>}</h4>
-        </div>
-        <table className="t4-script-meta">
-          <tbody>
-            <tr><td>数据库 ID</td><td>{s.id}</td></tr>
-            <tr><td>来源合集</td><td>{s.collection}（{s.collectionScale}）</td></tr>
-            <tr><td>时代背景</td><td>{s.era}</td></tr>
-            <tr><td>角色数</td><td>{s.charCount} 人</td></tr>
-            <tr><td>行当分布</td><td>{s.roles}</td></tr>
-            <tr><td>剧本长度</td><td>{s.wordCount}</td></tr>
-            <tr><td>叙事结构</td><td><span className="t4-tag">{s.structureType}</span></td></tr>
-            <tr><td>主导行当</td><td><span className="t4-tag t4-tag-role">{s.dominantRole}</span></td></tr>
-            <tr><td>叙事弧线</td><td>{s.narrativeArc}</td></tr>
-          </tbody>
-        </table>
-        <div className="t4-script-summary"><strong>内容概要：</strong>{s.summary}</div>
-        <div className="t4-script-reasons">
-          <strong>选择理由：</strong>
-          <ol>{s.reasons.map((r, j) => <li key={j}>{r}</li>)}</ol>
-        </div>
-      </section>
-    ))}
-    <section className="t4-report-section">
-      <h3>五部剧本对比总览</h3>
-      <div className="t4-comparison-wrap">
-        <table className="t4-comparison-table">
-          <thead>
-            <tr><th>维度</th><th>《空城计》</th><th>《贵妃醉酒》</th><th>《赵氏孤儿》</th><th>《连环套》</th><th>《打面缸》</th></tr>
-          </thead>
-          <tbody>
-            {COMPARISON_TABLE.map((row, ri) => (
-              <tr key={ri}>{row.map((cell, ci) => <td key={ci}>{cell}</td>)}</tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
-    <section className="t4-report-section">
-      <h3>数据集覆盖验证</h3>
-      <ul className="t4-coverage-list">
-        <li><strong>来源合集覆盖</strong>：5 部来自 4 个不同合集，涵盖最大合集（《戏考》448 部）、第二大合集（《京剧汇编》360 部）、名家藏本（马连良 9 部）、罕见藏本（传统戏曲剧目资料汇编 2 部）</li>
-        <li><strong>角色数覆盖</strong>：3 / 5 / 7 / 23 / 30，覆盖了数据集角色数分布的 P5 / P25 / P50 / P95 / P99</li>
-        <li><strong>行当覆盖</strong>：老生、花旦、净、丑、小生、武生、武丑、杂 —— 覆盖了数据集全部 8 个主要行当大类</li>
-        <li><strong>叙事类型覆盖</strong>：历史军事、宫廷心理、政治悲剧、武侠英雄、民间喜剧 —— 覆盖了京剧叙事的 5 种主要类型</li>
-        <li><strong>长度覆盖</strong>：2,329 到 23,696 字，跨两个数量级</li>
-      </ul>
-    </section>
-  </>
-);
 
 export default Task4Layout;

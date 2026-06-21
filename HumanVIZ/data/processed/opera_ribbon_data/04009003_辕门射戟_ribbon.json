@@ -1,0 +1,552 @@
+{
+  "title": "辕门射戟",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 9,
+  "num_locations": 1,
+  "source_file": "04009003_辕门射戟.json",
+  "source_folder": "04000000",
+  "plot_summary": "袁术在淮南欲进取吕布所占据的徐州，但因刘备屯驻小沛，恐刘备和吕布联合起来对抗，于是派大将纪灵先\n去攻打小沛，并预先带了厚礼送给吕布。这时，刘备也写信求助于吕布。处在举足轻重地位的吕布，却已看\n破了袁术的野心，于是一面收了礼物，一面却在徐州设下酒筵，分别下书请纪灵和刘备赴宴。席间，吕布说\n明要为他两家解和，并且施展本领箭射画戟，威胁纪灵不得不收兵复命。于是袁、刘的战争，遂暂时中止。",
+  "performance_notes": "《辕门射戟》的故事，取自《三国演义》。这个戏主要是中国京剧团演员叶盛兰整理的。因原剧本比较完整，\n整理时只对个别词句，作了若干修正。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 74,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.779,
+      "locations": {
+        "来此吕布营": 1
+      },
+      "characters": {
+        "纪灵": 1,
+        "刘备": 1,
+        "吕布": 1,
+        "下书人甲": 1,
+        "四兵士": 1,
+        "下书人乙": 1,
+        "中军": 1
+      },
+      "links": [
+        {
+          "source": "吕布",
+          "target": "四兵士",
+          "value": 1
+        },
+        {
+          "source": "下书人甲",
+          "target": "吕布",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "吕布",
+          "value": 1
+        },
+        {
+          "source": "下书人乙",
+          "target": "吕布",
+          "value": 1
+        },
+        {
+          "source": "吕布",
+          "target": "纪灵",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "吕布",
+          "value": 1
+        },
+        {
+          "source": "下书人甲",
+          "target": "四兵士",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "四兵士",
+          "value": 1
+        },
+        {
+          "source": "下书人乙",
+          "target": "四兵士",
+          "value": 1
+        },
+        {
+          "source": "四兵士",
+          "target": "纪灵",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "四兵士",
+          "value": 1
+        },
+        {
+          "source": "下书人甲",
+          "target": "中军",
+          "value": 1
+        },
+        {
+          "source": "下书人乙",
+          "target": "下书人甲",
+          "value": 1
+        },
+        {
+          "source": "下书人甲",
+          "target": "纪灵",
+          "value": 1
+        },
+        {
+          "source": "下书人甲",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "下书人乙",
+          "target": "中军",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "纪灵",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "下书人乙",
+          "target": "纪灵",
+          "value": 1
+        },
+        {
+          "source": "下书人乙",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "纪灵",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 6,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.063,
+      "locations": {
+        "来此吕布营": 1
+      },
+      "characters": {
+        "纪灵": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 205,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "来此吕布营": 1
+      },
+      "characters": {
+        "纪灵": 1,
+        "刘备": 1,
+        "吕布": 1,
+        "张飞": 1,
+        "军士": 1,
+        "中军": 1
+      },
+      "links": [
+        {
+          "source": "刘备",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "吕布",
+          "value": 1
+        },
+        {
+          "source": "军士",
+          "target": "刘备",
+          "value": 1
+        },
+        {
+          "source": "刘备",
+          "target": "纪灵",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "吕布",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "军士",
+          "target": "张飞",
+          "value": 1
+        },
+        {
+          "source": "张飞",
+          "target": "纪灵",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "吕布",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "军士",
+          "value": 1
+        },
+        {
+          "source": "中军",
+          "target": "纪灵",
+          "value": 1
+        },
+        {
+          "source": "军士",
+          "target": "吕布",
+          "value": 1
+        },
+        {
+          "source": "吕布",
+          "target": "纪灵",
+          "value": 1
+        },
+        {
+          "source": "军士",
+          "target": "纪灵",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "来此吕布营",
+      "characters": [
+        {
+          "name": "吕布",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "辕门站立三千将，统领貔貅百万郎。",
+          "rating": -0.111,
+          "role": "小生"
+        },
+        {
+          "name": "四兵士",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "下书人甲",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "奉了将军令，送礼到辕门。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "中军",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "做什么的？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "下书人乙",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "奉了使君命，前来下书文。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "纪灵",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "刘备",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：7位角色，74行",
+      "firstLine": 1,
+      "lastLine": 74,
+      "numLines": 74,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.563,
+        "sentiment": 0.133
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "来此吕布营",
+      "characters": [
+        {
+          "name": "纪灵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "奉命夺沛摆战场，",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第二场：1位角色，6行",
+      "firstLine": 1,
+      "lastLine": 6,
+      "numLines": 6,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.5,
+        "conflict": 1.0,
+        "sentiment": 0.887
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "来此吕布营",
+      "characters": [
+        {
+          "name": "刘备",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "离了小沛地，",
+          "rating": 0.333,
+          "role": "老生"
+        },
+        {
+          "name": "张飞",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "来此吕布营。",
+          "rating": -0.333,
+          "role": "净"
+        },
+        {
+          "name": "中军",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "吕布",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "辕门鼓角声高，两旁站立英豪。",
+          "rating": -0.2,
+          "role": "小生"
+        },
+        {
+          "name": "军士",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "纪将军到！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "纪灵",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "啊温侯！",
+          "rating": 0.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：6位角色，205行",
+      "firstLine": 1,
+      "lastLine": 205,
+      "numLines": 205,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.279,
+        "sentiment": 0.087
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "吕布",
+      "short": "吕布",
+      "key": "吕布",
+      "quote": "吕布 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "刘备",
+      "short": "刘备",
+      "key": "刘备",
+      "quote": "刘备 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "纪灵",
+      "short": "纪灵",
+      "key": "纪灵",
+      "quote": "纪灵 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "张飞",
+      "short": "张飞",
+      "key": "张飞",
+      "quote": "张飞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "军士",
+      "short": "军士",
+      "key": "军士",
+      "quote": "军士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "下书人甲",
+      "short": "下书",
+      "key": "下书人甲",
+      "quote": "下书人甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四兵士",
+      "short": "四兵",
+      "key": "四兵士",
+      "quote": "四兵士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "下书人乙",
+      "short": "下书",
+      "key": "下书人乙",
+      "quote": "下书人乙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "中军",
+      "short": "中军",
+      "key": "中军",
+      "quote": "中军 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "来此吕布营",
+      "key": "来此吕布营",
+      "quote": "场景发生在来此吕布营"
+    }
+  ]
+}

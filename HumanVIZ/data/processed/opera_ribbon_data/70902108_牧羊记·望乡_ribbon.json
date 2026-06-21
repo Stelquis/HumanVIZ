@@ -1,0 +1,325 @@
+{
+  "title": "牧羊记·望乡",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 5,
+  "num_locations": 1,
+  "source_file": "70902108_牧羊记·望乡.json",
+  "source_folder": "70902000",
+  "plot_summary": "汉武帝时，苏武出使匈奴，被拘不降，牧羊于北海边，餐毡啮雪，艰苦卓绝。名将李广之后李陵，领兵五千\n来战，败于匈奴。汉帝杀李陵一家，毁其祖宗坟墓。匈奴单于乘机诱降了李陵。李陵往见苏武，一同拜望家\n乡。苏武大义凛然，责李陵降敌；李陵羞惭而去。苏武在匈奴十九年，不屈不挠，其后终于归汉。",
+  "performance_notes": "此剧老生、小生并重，要求通过唱工，塑造两个正反不同的人物形象，以伸张民族气节，批判投降行为。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 47,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.585,
+      "locations": {
+        "哪里？吓": 1
+      },
+      "characters": {
+        "四小番": 1,
+        "李陵": 1,
+        "苏武": 1
+      },
+      "links": [
+        {
+          "source": "四小番",
+          "target": "苏武",
+          "value": 1
+        },
+        {
+          "source": "四小番",
+          "target": "李陵",
+          "value": 1
+        },
+        {
+          "source": "李陵",
+          "target": "苏武",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 149,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "哪里？吓": 1
+      },
+      "characters": {
+        "小番甲": 1,
+        "李陵": 1,
+        "苏武": 1,
+        "众人": 1
+      },
+      "links": [
+        {
+          "source": "李陵",
+          "target": "苏武",
+          "value": 1
+        },
+        {
+          "source": "小番甲",
+          "target": "李陵",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "李陵",
+          "value": 1
+        },
+        {
+          "source": "小番甲",
+          "target": "苏武",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "苏武",
+          "value": 1
+        },
+        {
+          "source": "众人",
+          "target": "小番甲",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 45,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 0.56,
+      "locations": {
+        "哪里？吓": 1
+      },
+      "characters": {
+        "李陵": 1,
+        "苏武": 1
+      },
+      "links": [
+        {
+          "source": "李陵",
+          "target": "苏武",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "哪里？吓",
+      "characters": [
+        {
+          "name": "四小番",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "杀！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "苏武",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "凝望眼，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "李陵",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "苏子卿别来数年，",
+          "rating": -1.0,
+          "role": "冠生"
+        }
+      ],
+      "summary": "第1场：3位角色，47行",
+      "firstLine": 1,
+      "lastLine": 47,
+      "numLines": 47,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.817,
+        "conflict": 0.845,
+        "sentiment": 0.164
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "哪里？吓",
+      "characters": [
+        {
+          "name": "李陵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哥哥在哪里？吓，啊呀哥哥吓！",
+          "rating": 0.077,
+          "role": "冠生"
+        },
+        {
+          "name": "苏武",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "㕶！",
+          "rating": 0.059,
+          "role": "老生"
+        },
+        {
+          "name": "小番甲",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吓。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众人",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "悬丝傀儡，",
+          "rating": -0.2,
+          "role": ""
+        }
+      ],
+      "summary": "第2场：4位角色，149行",
+      "firstLine": 1,
+      "lastLine": 149,
+      "numLines": 149,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.266,
+        "sentiment": 0.145
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "哪里？吓",
+      "characters": [
+        {
+          "name": "李陵",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "哥哥！",
+          "rating": 0.0,
+          "role": "冠生"
+        },
+        {
+          "name": "苏武",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "离情万种愁无奈，",
+          "rating": 0.333,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：2位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.812,
+        "conflict": 0.217,
+        "sentiment": 0.264
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "苏武",
+      "short": "苏武",
+      "key": "苏武",
+      "quote": "苏武 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "李陵",
+      "short": "李陵",
+      "key": "李陵",
+      "quote": "李陵 — 冠生",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 冠生",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "小番甲",
+      "short": "小番",
+      "key": "小番甲",
+      "quote": "小番甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众人",
+      "short": "众人",
+      "key": "众人",
+      "quote": "众人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四小番",
+      "short": "四小",
+      "key": "四小番",
+      "quote": "四小番 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "哪里？吓",
+      "key": "哪里？吓",
+      "quote": "场景发生在哪里？吓"
+    }
+  ]
+}

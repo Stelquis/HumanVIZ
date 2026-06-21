@@ -1,0 +1,47 @@
+{
+  // ── TypeScript ──
+  "js/ts.tsdk.path": "HumanVIZ/node_modules/typescript/lib",
+  "js/ts.tsdk.promptToUseWorkspaceVersion": true,
+
+  // ── 编辑器 ──
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // ── ESLint ──
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // ── 文件关联 ──
+  "files.associations": {
+    "*.tsx": "typescriptreact"
+  },
+
+  // ── Git ──
+  "gitblame.inlineMessageFormat": "${author.name} (${commit.shortHash})",
+
+  // ── 终端 ──
+  "terminal.integrated.suggest.enabled": true,
+  "terminal.integrated.shellIntegration.environmentReporting": true,
+
+  // ── 工作区外观 ──
+  "workbench.colorTheme": "Light+",
+  "workbench.iconTheme": "vs-seti",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+
+  // ── Python ──
+  "python.defaultInterpreterPath": "/opt/venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+
+  // ── 其他 ──
+  "extensions.disabledExtensions": []
+}

@@ -1,0 +1,313 @@
+{
+  "title": "马嵬坡",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "01015001_马嵬坡.json",
+  "source_folder": "01000000",
+  "plot_summary": "唐明皇为安禄山所逼，驾幸西蜀，出咸阳道，次马嵬驿，六军徘徊，持戟不进，伏明皇驾前，请诛杨国忠以\n谢天下，未降旨而杨国忠已死于道周。左右之意犹未快，陈元礼复请诛贵妃以释众怨。明皇不得已，命高力\n士引贵妃于佛堂缢杀之，葬于马嵬坡下，始整顿部伍而行。杨氏兄妹之怙宠藉势，乱天下，祸苍生，尽人饮\n恨，独明皇不悟耳。然自贵妃死后，明皇朝夕思念，未曾有一日忘怀，甚至梦寐之间，时时索绕。后郭子仪、\n李光弼等，恢复两京，迎驾还都，再经马嵬，触景伤怀，命于贵妃坟茔前，陈设祭品，降尊拜奠，掩面悲\n泣，不胜凄怆。经高力士再三劝解，方肯回銮。",
+  "performance_notes": "按此剧系沪上名艺员汪笑侬所编排，自香山《长恨歌》中有句云：“蜀江水碧蜀山青，圣主朝朝暮暮情。行\n宫见月伤心色，夜雨闻铃肠断声。天旋地转回龙驭，到此踌躇不能去。马嵬坡下泥土中，不见玉颜空死处。”\n大约胎息于此。尤妙在剧本中辞句，缠绵悱恻，旖旎风华，脱却俚言俗语之习气，是为众剧本之上乘。笑\n侬诚不愧剧界杰出之人。当年鼎鼎大名，轰传南北，亦实至名归之确证耳。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 9,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 0.231,
+      "locations": {
+        "设祭堂": 1
+      },
+      "characters": {
+        "四大铠": 1,
+        "陈元礼": 1
+      },
+      "links": [
+        {
+          "source": "四大铠",
+          "target": "陈元礼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 50,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "设祭堂": 1
+      },
+      "characters": {
+        "高力士": 1,
+        "四大铠": 1,
+        "陈元礼": 1,
+        "唐明皇": 1
+      },
+      "links": [
+        {
+          "source": "唐明皇",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "四大铠",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "陈元礼",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "陈元礼",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "四大铠",
+          "target": "陈元礼",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 58,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "设祭堂": 1
+      },
+      "characters": {
+        "高力士": 1,
+        "陈元礼": 1,
+        "唐明皇": 1
+      },
+      "links": [
+        {
+          "source": "唐明皇",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "陈元礼",
+          "target": "高力士",
+          "value": 1
+        },
+        {
+          "source": "唐明皇",
+          "target": "陈元礼",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "设祭堂",
+      "characters": [
+        {
+          "name": "陈元礼",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "渔阳击鼓起仓猝，护驾巡行到西蜀。且喜逆贼已就戮，五色旌旗返帝都。",
+          "rating": 1.0,
+          "role": "末"
+        },
+        {
+          "name": "四大铠",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "俱已齐备。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，9行",
+      "firstLine": 1,
+      "lastLine": 9,
+      "numLines": 9,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.546,
+        "conflict": 1.0,
+        "sentiment": 0.77
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "设祭堂",
+      "characters": [
+        {
+          "name": "唐明皇",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "万里巡行路途穷，看云山，乱愁交迸。长空孤雁添悲哽，无边落木响秋声。叹",
+          "rating": -1.0,
+          "role": "老生"
+        },
+        {
+          "name": "高力士",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "四大铠",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "来此已是马嵬坡了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陈元礼",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第二场：4位角色，50行",
+      "firstLine": 1,
+      "lastLine": 50,
+      "numLines": 50,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.956,
+        "conflict": 0.619,
+        "sentiment": -0.127
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "设祭堂",
+      "characters": [
+        {
+          "name": "高力士",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "有请万岁！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "唐明皇",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "定情钿盒今犹在，",
+          "rating": -0.2,
+          "role": "老生"
+        },
+        {
+          "name": "陈元礼",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "末"
+        }
+      ],
+      "summary": "第三场：3位角色，58行",
+      "firstLine": 1,
+      "lastLine": 58,
+      "numLines": 58,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.997,
+        "conflict": 0.494,
+        "sentiment": -0.119
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "唐明皇",
+      "short": "唐明",
+      "key": "唐明皇",
+      "quote": "唐明皇 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陈元礼",
+      "short": "陈元",
+      "key": "陈元礼",
+      "quote": "陈元礼 — 末",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 末",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "高力士",
+      "short": "高力",
+      "key": "高力士",
+      "quote": "高力士 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四大铠",
+      "short": "四大",
+      "key": "四大铠",
+      "quote": "四大铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "设祭堂",
+      "key": "设祭堂",
+      "quote": "场景发生在设祭堂"
+    }
+  ]
+}

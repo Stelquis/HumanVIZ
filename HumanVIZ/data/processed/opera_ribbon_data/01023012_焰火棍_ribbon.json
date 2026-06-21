@@ -1,0 +1,332 @@
+{
+  "title": "焰火棍",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 4,
+  "num_locations": 3,
+  "source_file": "01023012_焰火棍.json",
+  "source_folder": "01000000",
+  "plot_summary": "宋，杨六帅被辽邦萧天佑困住九龙谷口。辽将韩昌，勇不可当。六帅部下诸将，均非敌手。势颇危急，命孟\n良回朝，至天波无佞府，央求佘太君发遣猛将，可以制胜韩昌者。佘太君即在府中选择，大众闻韩昌之名，\n均不敢轻于尝试，惟丫鬟杨排凤上前请行，佘太君准之。盖佘太君素有军事知识，杨排凤之能力，早已深信\n不疑，并非贸然允许也。杨排凤奉令后，随同孟良星夜趱程，赶至宋营。焦赞一见，大不为然，以为“能征\n惯战之士，我营中尚不乏人，区区一年幼丫鬟，有何用处？”在六帅前，面斥杨排凤。杨排凤不受，欲与焦\n赞比较武艺。孟良在旁亦极力怂恿，互相赌赛，请六帅亲临监视。往后营隙地演示棍法，焦赞竟为杨排凤所\n败，方始佩服，以后不敢藐视焉。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 78,
+      "summary": "第一场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "儿前来偷营": 1
+      },
+      "characters": {
+        "孟良": 1,
+        "杨延昭": 1,
+        "焦赞": 1,
+        "杨排凤": 1
+      },
+      "links": [
+        {
+          "source": "孟良",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "杨排凤",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨排凤",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "杨排凤",
+          "target": "焦赞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 5,
+      "summary": "第二场",
+      "conflict": 0.0,
+      "importance": 0.093,
+      "locations": {
+        "在大营": 1
+      },
+      "characters": {
+        "杨排凤": 1
+      },
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 79,
+      "summary": "第三场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "在大营": 1
+      },
+      "characters": {
+        "孟良": 1,
+        "杨排凤": 1,
+        "杨延昭": 1,
+        "焦赞": 1
+      },
+      "links": [
+        {
+          "source": "杨延昭",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "杨延昭",
+          "target": "杨排凤",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨延昭",
+          "value": 1
+        },
+        {
+          "source": "杨排凤",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "焦赞",
+          "value": 1
+        },
+        {
+          "source": "孟良",
+          "target": "杨排凤",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "儿前来偷营",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "恨韩昌杀法甚凶猛，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "孟良",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "离了天波府，搬来杨排凤。",
+          "rating": 0.667,
+          "role": "净"
+        },
+        {
+          "name": "杨排凤",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "吓哈！",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "呀哈！",
+          "rating": 0.5,
+          "role": "净"
+        }
+      ],
+      "summary": "第一场：4位角色，78行",
+      "firstLine": 1,
+      "lastLine": 78,
+      "numLines": 78,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.538,
+        "sentiment": 0.303
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "在大营",
+      "characters": [
+        {
+          "name": "杨排凤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住，看焦二爷，藐视于我，要与我比试。等他到来，不免用法术打他便了。",
+          "rating": 0.0,
+          "role": "旦"
+        }
+      ],
+      "summary": "第二场：1位角色，5行",
+      "firstLine": 1,
+      "lastLine": 5,
+      "numLines": 5,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.512,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "在大营",
+      "characters": [
+        {
+          "name": "杨延昭",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "杨延景奉王命统貔貅，",
+          "rating": 0.6,
+          "role": "老生"
+        },
+        {
+          "name": "焦赞",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "排凤！",
+          "rating": 1.0,
+          "role": "净"
+        },
+        {
+          "name": "杨排凤",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "二爷！",
+          "rating": 0.333,
+          "role": "旦"
+        },
+        {
+          "name": "孟良",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "排凤，焦二爷往哪里去了？",
+          "rating": 1.0,
+          "role": "净"
+        }
+      ],
+      "summary": "第三场：4位角色，79行",
+      "firstLine": 1,
+      "lastLine": 79,
+      "numLines": 79,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.565,
+        "sentiment": 0.435
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "杨排凤",
+      "short": "杨排",
+      "key": "杨排凤",
+      "quote": "杨排凤 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "焦赞",
+      "short": "焦赞",
+      "key": "焦赞",
+      "quote": "焦赞 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "孟良",
+      "short": "孟良",
+      "key": "孟良",
+      "quote": "孟良 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "杨延昭",
+      "short": "杨延",
+      "key": "杨延昭",
+      "quote": "杨延昭 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "在大营",
+      "key": "在大营",
+      "quote": "场景发生在在大营"
+    },
+    {
+      "name": "儿前来偷营",
+      "key": "儿前来偷营",
+      "quote": "场景发生在儿前来偷营"
+    },
+    {
+      "name": "离了天波府",
+      "key": "离了天波府",
+      "quote": "场景发生在离了天波府"
+    }
+  ]
+}

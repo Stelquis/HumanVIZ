@@ -1,0 +1,803 @@
+{
+  "title": "朝金顶",
+  "type": "京剧剧本",
+  "author": "新中国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 4,
+  "num_scenes": 9,
+  "num_characters": 13,
+  "num_locations": 2,
+  "source_file": "03052005_朝金顶.json",
+  "source_folder": "03000000",
+  "plot_summary": "鱼精兴风作浪，海瑞运粮受阻，祷于金顶山玄天大帝。玄天大帝命周仓、二郎神降妖护粮，鱼精被擒。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 133,
+      "summary": "第一场；第二场；第三场",
+      "conflict": 0.405,
+      "importance": 1.0,
+      "locations": {
+        "圣命出朝堂": 2,
+        "大帝坐高台": 1
+      },
+      "characters": {
+        "海瑞": 1,
+        "蛇将": 1,
+        "老道": 1,
+        "二郎神": 1,
+        "门子": 1,
+        "周仓": 1,
+        "玄天大帝": 1
+      },
+      "links": [
+        {
+          "source": "海瑞",
+          "target": "门子",
+          "value": 1
+        },
+        {
+          "source": "海瑞",
+          "target": "老道",
+          "value": 2
+        },
+        {
+          "source": "海瑞",
+          "target": "玄天大帝",
+          "value": 1
+        },
+        {
+          "source": "玄天大帝",
+          "target": "老道",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "玄天大帝",
+          "value": 1
+        },
+        {
+          "source": "二郎神",
+          "target": "玄天大帝",
+          "value": 1
+        },
+        {
+          "source": "玄天大帝",
+          "target": "蛇将",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "海瑞",
+          "value": 1
+        },
+        {
+          "source": "二郎神",
+          "target": "海瑞",
+          "value": 1
+        },
+        {
+          "source": "海瑞",
+          "target": "蛇将",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "老道",
+          "value": 1
+        },
+        {
+          "source": "二郎神",
+          "target": "老道",
+          "value": 1
+        },
+        {
+          "source": "老道",
+          "target": "蛇将",
+          "value": 1
+        },
+        {
+          "source": "二郎神",
+          "target": "周仓",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "蛇将",
+          "value": 1
+        },
+        {
+          "source": "二郎神",
+          "target": "蛇将",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 3,
+      "numLines": 47,
+      "summary": "第四场；第五场；第六场",
+      "conflict": 1.253,
+      "importance": 0.851,
+      "locations": {
+        "圣命出朝堂": 3
+      },
+      "characters": {
+        "四黑大铠": 1,
+        "银鱼大仙": 1,
+        "螺蛎精": 1,
+        "银鱼仙姑": 1,
+        "周仓": 1
+      },
+      "links": [
+        {
+          "source": "螺蛎精",
+          "target": "银鱼仙姑",
+          "value": 1
+        },
+        {
+          "source": "银鱼仙姑",
+          "target": "银鱼大仙",
+          "value": 1
+        },
+        {
+          "source": "螺蛎精",
+          "target": "银鱼大仙",
+          "value": 1
+        },
+        {
+          "source": "周仓",
+          "target": "四黑大铠",
+          "value": 2
+        },
+        {
+          "source": "四黑大铠",
+          "target": "银鱼仙姑",
+          "value": 2
+        },
+        {
+          "source": "周仓",
+          "target": "银鱼仙姑",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 3,
+      "numLines": 41,
+      "summary": "第七场；第八场；第九场",
+      "conflict": 0.552,
+      "importance": 0.742,
+      "locations": {
+        "圣命出朝堂": 3
+      },
+      "characters": {
+        "二郎神": 1,
+        "银鱼仙姑": 1,
+        "关平": 1,
+        "黄毛童": 1
+      },
+      "links": [
+        {
+          "source": "二郎神",
+          "target": "关平",
+          "value": 1
+        },
+        {
+          "source": "关平",
+          "target": "黄毛童",
+          "value": 1
+        },
+        {
+          "source": "二郎神",
+          "target": "黄毛童",
+          "value": 3
+        },
+        {
+          "source": "二郎神",
+          "target": "银鱼仙姑",
+          "value": 2
+        },
+        {
+          "source": "银鱼仙姑",
+          "target": "黄毛童",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 0,
+      "numLines": 0,
+      "summary": "",
+      "conflict": 0.3,
+      "importance": 0.0,
+      "locations": {},
+      "characters": {},
+      "links": []
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "圣命出朝堂",
+      "characters": [
+        {
+          "name": "海瑞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "钦奉王命，解皇粮，昼夜担惊。",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "门子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第一场：2位角色，31行",
+      "firstLine": 1,
+      "lastLine": 31,
+      "numLines": 31,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.518,
+        "conflict": 0.435,
+        "sentiment": 0.797
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "圣命出朝堂",
+      "characters": [
+        {
+          "name": "老道",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "老道修行金顶山，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "海瑞",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "走哇！",
+          "rating": -1.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第二场：2位角色，49行",
+      "firstLine": 1,
+      "lastLine": 49,
+      "numLines": 49,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.616,
+        "conflict": 0.748,
+        "sentiment": 0.392
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "大帝坐高台",
+      "characters": [
+        {
+          "name": "玄天大帝",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "护金身法无边祥光涌现，",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "海瑞",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "急急忙忙进庙堂，",
+          "rating": 0.0,
+          "role": "老生"
+        },
+        {
+          "name": "老道",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "待我撞钟擂鼓！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "周仓",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "在！",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "二郎神",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "蛇将",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第三场：6位角色，53行",
+      "firstLine": 1,
+      "lastLine": 53,
+      "numLines": 53,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.854,
+        "conflict": 0.194,
+        "sentiment": 0.549
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "圣命出朝堂",
+      "characters": [
+        {
+          "name": "银鱼仙姑",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "修练千年未成果，",
+          "rating": 1.0,
+          "role": "武旦"
+        },
+        {
+          "name": "螺蛎精",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请了！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "银鱼大仙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "你我奉了逐波蛟龙之命，在海中巡查。若有童男童女，擒来使用。大家一同前",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第四场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.451,
+        "conflict": 0.0,
+        "sentiment": 0.813
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "圣命出朝堂",
+      "characters": [
+        {
+          "name": "四黑大铠",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "周仓",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "杀气冲霄，威风飘绕，皇粮保，去往天朝，要把风来讨。",
+          "rating": -1.0,
+          "role": "净"
+        },
+        {
+          "name": "银鱼仙姑",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第五场：3位角色，16行",
+      "firstLine": 1,
+      "lastLine": 16,
+      "numLines": 16,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.445,
+        "conflict": 0.769,
+        "sentiment": -0.366
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "圣命出朝堂",
+      "characters": [
+        {
+          "name": "周仓",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住！一时之间，妖魔水中而逃。",
+          "rating": 0.0,
+          "role": "净"
+        },
+        {
+          "name": "四黑大铠",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "啊！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "银鱼仙姑",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第六场：3位角色，14行",
+      "firstLine": 1,
+      "lastLine": 14,
+      "numLines": 14,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.434,
+        "conflict": 0.833,
+        "sentiment": -0.44
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "圣命出朝堂",
+      "characters": [
+        {
+          "name": "关平",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "某（二郎神）（关平）。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "二郎神",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "请了！",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "黄毛童",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第七场：3位角色，11行",
+      "firstLine": 1,
+      "lastLine": 11,
+      "numLines": 11,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.418,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "圣命出朝堂",
+      "characters": [
+        {
+          "name": "二郎神",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住！看前面黑气弥漫，必有妖魔在此作耗。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "黄毛童",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "啊！",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "银鱼仙姑",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "",
+          "rating": -1.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第八场：3位角色，13行",
+      "firstLine": 1,
+      "lastLine": 13,
+      "numLines": 13,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.562,
+        "conflict": 0.0,
+        "sentiment": -0.392
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "圣命出朝堂",
+      "characters": [
+        {
+          "name": "二郎神",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "且住！妖魔十分难降。",
+          "rating": 0.0,
+          "role": "武生"
+        },
+        {
+          "name": "黄毛童",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "啊！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "银鱼仙姑",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "武旦"
+        }
+      ],
+      "summary": "第九场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.584,
+        "conflict": 0.0,
+        "sentiment": 0.16
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "银鱼仙姑",
+      "short": "银鱼",
+      "key": "银鱼仙姑",
+      "quote": "银鱼仙姑 — 武旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 武旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "二郎神",
+      "short": "二郎",
+      "key": "二郎神",
+      "quote": "二郎神 — 武生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 武生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "海瑞",
+      "short": "海瑞",
+      "key": "海瑞",
+      "quote": "海瑞 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "周仓",
+      "short": "周仓",
+      "key": "周仓",
+      "quote": "周仓 — 净",
+      "group": "净",
+      "color": "",
+      "explanation": [
+        "行当: 净",
+        "所属: 净组"
+      ]
+    },
+    {
+      "character": "四黑大铠",
+      "short": "四黑",
+      "key": "四黑大铠",
+      "quote": "四黑大铠 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "银鱼大仙",
+      "short": "银鱼",
+      "key": "银鱼大仙",
+      "quote": "银鱼大仙 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "蛇将",
+      "short": "蛇将",
+      "key": "蛇将",
+      "quote": "蛇将 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "黄毛童",
+      "short": "黄毛",
+      "key": "黄毛童",
+      "quote": "黄毛童 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老道",
+      "short": "老道",
+      "key": "老道",
+      "quote": "老道 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "门子",
+      "short": "门子",
+      "key": "门子",
+      "quote": "门子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "螺蛎精",
+      "short": "螺蛎",
+      "key": "螺蛎精",
+      "quote": "螺蛎精 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "关平",
+      "short": "关平",
+      "key": "关平",
+      "quote": "关平 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "玄天大帝",
+      "short": "玄天",
+      "key": "玄天大帝",
+      "quote": "玄天大帝 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "圣命出朝堂",
+      "key": "圣命出朝堂",
+      "quote": "场景发生在圣命出朝堂"
+    },
+    {
+      "name": "大帝坐高台",
+      "key": "大帝坐高台",
+      "quote": "场景发生在大帝坐高台"
+    }
+  ]
+}

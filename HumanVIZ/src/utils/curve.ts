@@ -1,6 +1,6 @@
 // adapted from https://codepen.io/francoisromain/pen/dzoZZj
 
-import { character_offset, location_buffer } from "./consts";
+import { character_offset, location_buffer } from "./constants";
 
 // The smoothing ratio
 // const smoothing = 0.4;

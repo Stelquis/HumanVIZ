@@ -1,0 +1,624 @@
+{
+  "title": "遐龄永祝",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 3,
+  "num_scenes": 3,
+  "num_characters": 11,
+  "num_locations": 1,
+  "source_file": "02001004_遐龄永祝.json",
+  "source_folder": "02000000",
+  "plot_summary": "赐福天官紫微大帝、赦罪地官清虚大帝及解厄水官洞音大帝，因下界善门福地，荫功浩大，特奉玉帝敕旨，\n前往福地，赐宝降祥。途中遇四时嘉祥如意大仙等，亦奉玉帝赦旨，前赐宝降祥，后又遇天福星君、天禄星\n君、天寿星君、天财星君与天喜星君等，乃一同前往。到福地后，各献吉言，最后一同合唱颂词而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 38,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 0.597,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "四仙官": 1,
+        "众瓜棍": 1,
+        "水官": 1,
+        "天官": 1,
+        "地官": 1
+      },
+      "links": [
+        {
+          "source": "地官",
+          "target": "天官",
+          "value": 1
+        },
+        {
+          "source": "天官",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "四仙官",
+          "target": "天官",
+          "value": 1
+        },
+        {
+          "source": "众瓜棍",
+          "target": "天官",
+          "value": 1
+        },
+        {
+          "source": "地官",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "四仙官",
+          "target": "地官",
+          "value": 1
+        },
+        {
+          "source": "众瓜棍",
+          "target": "地官",
+          "value": 1
+        },
+        {
+          "source": "四仙官",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "众瓜棍",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "众瓜棍",
+          "target": "四仙官",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 10,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.157,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {},
+      "links": []
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 1,
+      "numLines": 143,
+      "summary": "第3场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 1
+      },
+      "characters": {
+        "天禄星": 1,
+        "八如意": 1,
+        "天寿星": 1,
+        "天财星": 1,
+        "四仙官": 1,
+        "天福星": 1,
+        "天喜星": 1,
+        "水官": 1,
+        "天官": 1
+      },
+      "links": [
+        {
+          "source": "天禄星",
+          "target": "天福星",
+          "value": 1
+        },
+        {
+          "source": "天寿星",
+          "target": "天福星",
+          "value": 1
+        },
+        {
+          "source": "天福星",
+          "target": "天财星",
+          "value": 1
+        },
+        {
+          "source": "天喜星",
+          "target": "天福星",
+          "value": 1
+        },
+        {
+          "source": "天福星",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "四仙官",
+          "target": "天福星",
+          "value": 1
+        },
+        {
+          "source": "八如意",
+          "target": "天福星",
+          "value": 1
+        },
+        {
+          "source": "天官",
+          "target": "天福星",
+          "value": 1
+        },
+        {
+          "source": "天寿星",
+          "target": "天禄星",
+          "value": 1
+        },
+        {
+          "source": "天禄星",
+          "target": "天财星",
+          "value": 1
+        },
+        {
+          "source": "天喜星",
+          "target": "天禄星",
+          "value": 1
+        },
+        {
+          "source": "天禄星",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "四仙官",
+          "target": "天禄星",
+          "value": 1
+        },
+        {
+          "source": "八如意",
+          "target": "天禄星",
+          "value": 1
+        },
+        {
+          "source": "天官",
+          "target": "天禄星",
+          "value": 1
+        },
+        {
+          "source": "天寿星",
+          "target": "天财星",
+          "value": 1
+        },
+        {
+          "source": "天喜星",
+          "target": "天寿星",
+          "value": 1
+        },
+        {
+          "source": "天寿星",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "四仙官",
+          "target": "天寿星",
+          "value": 1
+        },
+        {
+          "source": "八如意",
+          "target": "天寿星",
+          "value": 1
+        },
+        {
+          "source": "天官",
+          "target": "天寿星",
+          "value": 1
+        },
+        {
+          "source": "天喜星",
+          "target": "天财星",
+          "value": 1
+        },
+        {
+          "source": "天财星",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "四仙官",
+          "target": "天财星",
+          "value": 1
+        },
+        {
+          "source": "八如意",
+          "target": "天财星",
+          "value": 1
+        },
+        {
+          "source": "天官",
+          "target": "天财星",
+          "value": 1
+        },
+        {
+          "source": "天喜星",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "四仙官",
+          "target": "天喜星",
+          "value": 1
+        },
+        {
+          "source": "八如意",
+          "target": "天喜星",
+          "value": 1
+        },
+        {
+          "source": "天喜星",
+          "target": "天官",
+          "value": 1
+        },
+        {
+          "source": "四仙官",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "八如意",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "天官",
+          "target": "水官",
+          "value": 1
+        },
+        {
+          "source": "八如意",
+          "target": "四仙官",
+          "value": 1
+        },
+        {
+          "source": "四仙官",
+          "target": "天官",
+          "value": 1
+        },
+        {
+          "source": "八如意",
+          "target": "天官",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "天官",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "上元赐福到人间，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "地官",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "中元赦罪百禄添。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "水官",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "欣逢化宇日时长，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四仙官",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "在。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "众瓜棍",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "领法旨。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：5位角色，38行",
+      "firstLine": 1,
+      "lastLine": 38,
+      "numLines": 38,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.76,
+        "conflict": 0.303,
+        "sentiment": 0.77
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [],
+      "summary": "第2场：0位角色，10行",
+      "firstLine": 1,
+      "lastLine": 10,
+      "numLines": 10,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.016,
+        "conflict": 0.0,
+        "sentiment": 0.78
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "天福星",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "吾乃天福星君是也。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "天禄星",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "吾乃天禄星君是也。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "天寿星",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "吾乃天寿星君是也。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "天财星",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "吾乃天财星君是也。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "天喜星",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "路迢迢皇域地脉长，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "水官",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "今有善门福地，荫功浩大，德行无边，我等奉玉帝敕旨前往赐宝降祥。列位大",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四仙官",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "分道移仙杖，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "八如意",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "positive",
+          "quote": "领法旨。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "天官",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第3场：9位角色，143行",
+      "firstLine": 1,
+      "lastLine": 143,
+      "numLines": 143,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.925,
+        "conflict": 0.098,
+        "sentiment": 0.775
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "天官",
+      "short": "天官",
+      "key": "天官",
+      "quote": "天官 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "天禄星",
+      "short": "天禄",
+      "key": "天禄星",
+      "quote": "天禄星 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "八如意",
+      "short": "八如",
+      "key": "八如意",
+      "quote": "八如意 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "天寿星",
+      "short": "天寿",
+      "key": "天寿星",
+      "quote": "天寿星 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "天财星",
+      "short": "天财",
+      "key": "天财星",
+      "quote": "天财星 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四仙官",
+      "short": "四仙",
+      "key": "四仙官",
+      "quote": "四仙官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "天福星",
+      "short": "天福",
+      "key": "天福星",
+      "quote": "天福星 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "天喜星",
+      "short": "天喜",
+      "key": "天喜星",
+      "quote": "天喜星 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "众瓜棍",
+      "short": "众瓜",
+      "key": "众瓜棍",
+      "quote": "众瓜棍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "水官",
+      "short": "水官",
+      "key": "水官",
+      "quote": "水官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "地官",
+      "short": "地官",
+      "key": "地官",
+      "quote": "地官 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}

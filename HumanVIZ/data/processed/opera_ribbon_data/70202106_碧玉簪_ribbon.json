@@ -1,0 +1,2333 @@
+{
+  "title": "碧玉簪",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 9,
+  "num_scenes": 18,
+  "num_characters": 18,
+  "num_locations": 3,
+  "source_file": "70202106_碧玉簪.json",
+  "source_folder": "70202000",
+  "plot_summary": "明代礼部尚书张瑞华，有女名张玉贞，许配与同乡赵启贤。张玉贞的表兄陆某，因求婚于先被拒，买通了媒\n婆，托词骗得张玉贞的碧玉簪，并假造情书，乘张玉贞结婚之夕暗地放于洞房。赵启贤果然中计，疑心张玉\n贞不贞。一怒离开洞房，从此与张玉贞不和，并时加辱骂，张玉贞因而抑郁成病。张玉贞归家，丫鬟小蕙，\n把情形告知张母，正值张瑞华返家，亲去赵府质问，真相始得大白，陆某畏罪而死，赵启贤向张玉贞悔过赔\n礼，夫妻言归于好。",
+  "performance_notes": "这是程砚秋先生从地方戏吸收来的一个剧目；1924年编演。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 2,
+      "numLines": 20,
+      "summary": "第一场；第二场",
+      "conflict": 0.673,
+      "importance": 0.169,
+      "locations": {
+        "有老母在堂": 2
+      },
+      "characters": {
+        "赵院子": 1,
+        "张瑞华": 1,
+        "赵启贤": 1,
+        "四太监": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "四太监",
+          "target": "大太监",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "四太监",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "赵院子",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 138,
+      "summary": "第三场；第四场",
+      "conflict": 0.199,
+      "importance": 1.0,
+      "locations": {
+        "有老母在堂": 2
+      },
+      "characters": {
+        "小蕙": 1,
+        "顾媒婆": 1,
+        "丑院子": 1,
+        "张玉贞": 1,
+        "张瑞华": 1,
+        "赵启贤": 1,
+        "陆少庄": 1,
+        "张院子": 1,
+        "张夫人": 1
+      },
+      "links": [
+        {
+          "source": "张瑞华",
+          "target": "张院子",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "张瑞华",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张院子",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "张院子",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "张院子",
+          "value": 1
+        },
+        {
+          "source": "张院子",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张夫人",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张玉贞",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "张玉贞",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵启贤",
+          "value": 2
+        },
+        {
+          "source": "丑院子",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "陆少庄",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "丑院子",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "丑院子",
+          "target": "张玉贞",
+          "value": 1
+        },
+        {
+          "source": "丑院子",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "顾媒婆",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第3章",
+      "numScenes": 2,
+      "numLines": 139,
+      "summary": "第五场；第六场",
+      "conflict": 0.104,
+      "importance": 1.0,
+      "locations": {
+        "父母在堂": 1,
+        "有老母在堂": 1
+      },
+      "characters": {
+        "小蕙": 1,
+        "顾媒婆": 1,
+        "张玉贞": 1,
+        "张瑞华": 1,
+        "赵启贤": 1,
+        "家院": 1,
+        "张夫人": 1,
+        "大太监": 1
+      },
+      "links": [
+        {
+          "source": "小蕙",
+          "target": "张玉贞",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "张夫人",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "张夫人",
+          "value": 1
+        },
+        {
+          "source": "大太监",
+          "target": "家院",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第4章",
+      "numScenes": 2,
+      "numLines": 115,
+      "summary": "第七场；第八场",
+      "conflict": 0.011,
+      "importance": 0.97,
+      "locations": {
+        "有老母在堂": 2
+      },
+      "characters": {
+        "小蕙": 1,
+        "顾媒婆": 1,
+        "张玉贞": 1,
+        "赵启贤": 1,
+        "赵母": 1,
+        "傧相": 1,
+        "陆少庄": 1
+      },
+      "links": [
+        {
+          "source": "陆少庄",
+          "target": "顾媒婆",
+          "value": 2
+        },
+        {
+          "source": "赵启贤",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "傧相",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "赵母",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "赵母",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "傧相",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "傧相",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "傧相",
+          "target": "小蕙",
+          "value": 1
+        },
+        {
+          "source": "傧相",
+          "target": "张玉贞",
+          "value": 1
+        },
+        {
+          "source": "傧相",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张玉贞",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "陆少庄",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第5章",
+      "numScenes": 2,
+      "numLines": 167,
+      "summary": "第九场；第十场",
+      "conflict": 0.611,
+      "importance": 1.0,
+      "locations": {
+        "有老母在堂": 2
+      },
+      "characters": {
+        "小蕙": 1,
+        "赵玉贞": 1,
+        "张玉贞": 1,
+        "赵启贤": 1,
+        "赵母": 1
+      },
+      "links": [
+        {
+          "source": "赵启贤",
+          "target": "赵母",
+          "value": 2
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵母",
+          "value": 2
+        },
+        {
+          "source": "小蕙",
+          "target": "赵母",
+          "value": 2
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵启贤",
+          "value": 2
+        },
+        {
+          "source": "小蕙",
+          "target": "赵启贤",
+          "value": 2
+        },
+        {
+          "source": "小蕙",
+          "target": "张玉贞",
+          "value": 2
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵玉贞",
+          "value": 1
+        },
+        {
+          "source": "赵母",
+          "target": "赵玉贞",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵玉贞",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "赵玉贞",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第6章",
+      "numScenes": 2,
+      "numLines": 161,
+      "summary": "第十一场；第十二场",
+      "conflict": 0.502,
+      "importance": 1.0,
+      "locations": {
+        "有老母在堂": 2
+      },
+      "characters": {
+        "小蕙": 1,
+        "赵院子": 1,
+        "张玉贞": 1,
+        "苍头": 1,
+        "赵启贤": 1,
+        "赵母": 1,
+        "陆少庄": 1,
+        "张院子": 1,
+        "张夫人": 1
+      },
+      "links": [
+        {
+          "source": "张夫人",
+          "target": "张院子",
+          "value": 2
+        },
+        {
+          "source": "张夫人",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张夫人",
+          "value": 2
+        },
+        {
+          "source": "张夫人",
+          "target": "张玉贞",
+          "value": 2
+        },
+        {
+          "source": "张夫人",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "苍头",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "张院子",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "张院子",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张院子",
+          "value": 2
+        },
+        {
+          "source": "张玉贞",
+          "target": "张院子",
+          "value": 2
+        },
+        {
+          "source": "张院子",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "张院子",
+          "target": "苍头",
+          "value": 1
+        },
+        {
+          "source": "张院子",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "赵母",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "赵院子",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "赵母",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张玉贞",
+          "value": 2
+        },
+        {
+          "source": "小蕙",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "苍头",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "苍头",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "苍头",
+          "target": "陆少庄",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第7章",
+      "numScenes": 2,
+      "numLines": 193,
+      "summary": "第十三场；第十四场",
+      "conflict": 0.504,
+      "importance": 1.0,
+      "locations": {
+        "有老母在堂": 2
+      },
+      "characters": {
+        "小蕙": 1,
+        "兵士甲": 1,
+        "顾媒婆": 1,
+        "赵院子": 1,
+        "张玉贞": 1,
+        "张瑞华": 1,
+        "赵启贤": 1,
+        "赵母": 1,
+        "张院子": 1,
+        "张夫人": 1
+      },
+      "links": [
+        {
+          "source": "张瑞华",
+          "target": "张院子",
+          "value": 2
+        },
+        {
+          "source": "兵士甲",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "兵士甲",
+          "target": "张院子",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "张院子",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张夫人",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "张玉贞",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "张瑞华",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "张瑞华",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "张瑞华",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "张瑞华",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "张院子",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "赵母",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "赵院子",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "张院子",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "张院子",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张院子",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "张院子",
+          "value": 1
+        },
+        {
+          "source": "张院子",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "赵母",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张玉贞",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "顾媒婆",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第8章",
+      "numScenes": 2,
+      "numLines": 59,
+      "summary": "第十五场；第十六场",
+      "conflict": 0.391,
+      "importance": 0.498,
+      "locations": {
+        "有老母在堂": 2
+      },
+      "characters": {
+        "小蕙": 1,
+        "顾媒婆": 1,
+        "张玉贞": 1,
+        "张瑞华": 1,
+        "赵母": 1,
+        "陆少庄": 1,
+        "张院子": 1,
+        "张夫人": 1
+      },
+      "links": [
+        {
+          "source": "张夫人",
+          "target": "张瑞华",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "张院子",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "张夫人",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "张瑞华",
+          "target": "张院子",
+          "value": 1
+        },
+        {
+          "source": "张瑞华",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "张瑞华",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "张院子",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "张院子",
+          "target": "陆少庄",
+          "value": 1
+        },
+        {
+          "source": "陆少庄",
+          "target": "顾媒婆",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张玉贞",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵母",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第9章",
+      "numScenes": 2,
+      "numLines": 75,
+      "summary": "第十七场；第十八场",
+      "conflict": 0.108,
+      "importance": 0.633,
+      "locations": {
+        "有老母在堂": 1,
+        "子得中回府": 1
+      },
+      "characters": {
+        "小蕙": 1,
+        "赵院子": 1,
+        "张玉贞": 1,
+        "赵启贤": 1,
+        "赵母": 1
+      },
+      "links": [
+        {
+          "source": "赵母",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵母",
+          "value": 1
+        },
+        {
+          "source": "赵启贤",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵院子",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "张玉贞",
+          "target": "赵启贤",
+          "value": 1
+        },
+        {
+          "source": "小蕙",
+          "target": "张玉贞",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第一场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "大太监",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "恭奉新皇诏，宣用老成人。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "四太监",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张瑞华",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "老生"
+        }
+      ],
+      "summary": "第一场：3位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.144,
+        "conflict": 0.0,
+        "sentiment": 0.77
+      }
+    },
+    {
+      "number": 2,
+      "name": "第二场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "赵启贤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "拜别母亲离家门，",
+          "rating": -1.0,
+          "role": "小生"
+        },
+        {
+          "name": "赵院子",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第二场：2位角色，12行",
+      "firstLine": 1,
+      "lastLine": 12,
+      "numLines": 12,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.309,
+        "conflict": 0.0,
+        "sentiment": 0.097
+      }
+    },
+    {
+      "number": 3,
+      "name": "第三场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "张瑞华",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "华堂寿诞全家庆，引来林下荷深恩。",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张院子",
+          "importance": 0.8333333333333334,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "有。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "小蕙",
+          "importance": 0.6666666666666666,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "有请夫人、小姐出堂。",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "张夫人",
+          "importance": 0.5,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "寿添海屋人偕老，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张玉贞",
+          "importance": 0.3333333333333333,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "椿荫门庭日正长。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "赵启贤",
+          "importance": 0.16666666666666666,
+          "importance_rank": 6,
+          "emotion": "neutral",
+          "quote": "谨奉慈亲命，前来奉寿觞。",
+          "rating": 0.2,
+          "role": "小生"
+        }
+      ],
+      "summary": "第三场：6位角色，60行",
+      "firstLine": 1,
+      "lastLine": 60,
+      "numLines": 60,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.775,
+        "conflict": 0.469,
+        "sentiment": 0.446
+      }
+    },
+    {
+      "number": 4,
+      "name": "第四场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "陆少庄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "每日寻花去问柳，婚姻的大事没得手。",
+          "rating": 0.333,
+          "role": "丑"
+        },
+        {
+          "name": "丑院子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "大爷。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "顾媒婆",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "穿门入户家家走，蜜语甜言会做媒。",
+          "rating": 0.5,
+          "role": "彩旦"
+        },
+        {
+          "name": "张玉贞",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "赵启贤",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第四场：5位角色，78行",
+      "firstLine": 1,
+      "lastLine": 78,
+      "numLines": 78,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.634,
+        "conflict": 0.333,
+        "sentiment": 0.247
+      }
+    },
+    {
+      "number": 5,
+      "name": "第五场",
+      "location": "父母在堂",
+      "characters": [
+        {
+          "name": "张玉贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "晓莺啼月画楼前，",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "小蕙",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "忙将好消息，禀报小姐知。",
+          "rating": 0.778,
+          "role": "花旦"
+        },
+        {
+          "name": "顾媒婆",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "安排巧妙计，诓骗女娇娃。",
+          "rating": 0.667,
+          "role": "彩旦"
+        },
+        {
+          "name": "赵启贤",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第五场：4位角色，110行",
+      "firstLine": 1,
+      "lastLine": 110,
+      "numLines": 110,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.788,
+        "conflict": 0.233,
+        "sentiment": 0.67
+      }
+    },
+    {
+      "number": 6,
+      "name": "第六场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "张瑞华",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "残年最是怜姣女，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张夫人",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "择婿欣逢有美才。",
+          "rating": 0.5,
+          "role": ""
+        },
+        {
+          "name": "大太监",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "圣旨下！",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "家院",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "圣旨下。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第六场：4位角色，29行",
+      "firstLine": 1,
+      "lastLine": 29,
+      "numLines": 29,
+      "chapter": "第3章",
+      "ratings": {
+        "importance": 0.229,
+        "conflict": 0.571,
+        "sentiment": 0.566
+      }
+    },
+    {
+      "number": 7,
+      "name": "第七场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "陆少庄",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "但愿表妹到我手，不枉世上走一走。",
+          "rating": 1.0,
+          "role": "丑"
+        },
+        {
+          "name": "顾媒婆",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "今天簪子到我手，此事成功有八九。",
+          "rating": 1.0,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第七场：2位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.174,
+        "conflict": 0.526,
+        "sentiment": 0.762
+      }
+    },
+    {
+      "number": 8,
+      "name": "第八场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "赵母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "且喜调羹得佳妇，",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "赵启贤",
+          "importance": 0.8571428571428571,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "从兹举案有贤妻。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "傧相",
+          "importance": 0.7142857142857143,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "花轿到。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "顾媒婆",
+          "importance": 0.5714285714285714,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "这儿来！",
+          "rating": 1.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "小蕙",
+          "importance": 0.42857142857142855,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "干嘛呀？",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "张玉贞",
+          "importance": 0.2857142857142857,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "我也不知。适才他自言自语，讲了半日，就匆匆出房去了哇！",
+          "rating": 1.0,
+          "role": "旦"
+        },
+        {
+          "name": "陆少庄",
+          "importance": 0.14285714285714285,
+          "importance_rank": 7,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第八场：7位角色，70行",
+      "firstLine": 1,
+      "lastLine": 70,
+      "numLines": 70,
+      "chapter": "第4章",
+      "ratings": {
+        "importance": 0.838,
+        "conflict": 0.408,
+        "sentiment": 0.773
+      }
+    },
+    {
+      "number": 9,
+      "name": "第九场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "赵母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "喜得我儿成婚姻，",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "赵启贤",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "孩儿拜揖。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "张玉贞",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "一日为新妇，堂上拜阿姑。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "小蕙",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "参拜老夫人。",
+          "rating": 1.0,
+          "role": "花旦"
+        }
+      ],
+      "summary": "第九场：4位角色，45行",
+      "firstLine": 1,
+      "lastLine": 45,
+      "numLines": 45,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.66,
+        "conflict": 0.594,
+        "sentiment": 0.769
+      }
+    },
+    {
+      "number": 10,
+      "name": "第十场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "张玉贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "红烛有情都下泪，一腔幽恨诉谁知！",
+          "rating": -0.2,
+          "role": "旦"
+        },
+        {
+          "name": "赵玉贞",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "在家中有慈母嘘寒问暖，",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "赵母",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "你这小奴才，走走走。",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "小蕙",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "门锁了！我看你往哪儿跑？",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "赵启贤",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "咳！我母亲不知道其中缘故，强迫我进入洞房；我是拿定了主意，不与这贱人",
+          "rating": 0.333,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十场：5位角色，122行",
+      "firstLine": 1,
+      "lastLine": 122,
+      "numLines": 122,
+      "chapter": "第5章",
+      "ratings": {
+        "importance": 0.854,
+        "conflict": 0.329,
+        "sentiment": 0.158
+      }
+    },
+    {
+      "number": 11,
+      "name": "第十一场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "张夫人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "今日是我寿辰家门有庆！",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张院子",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "有。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵院子",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "甚么人？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵母",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "何事？",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "小蕙",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "来啦。",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "张玉贞",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "negative",
+          "quote": "终日愁眉和泪眼，不知何日见光明。",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "赵启贤",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "适才苍头报道，孩儿都已明白，这几日儿身体不爽，不能前去。就是媳妇她，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "苍头",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "来了！少爷何事吩咐？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "陆少庄",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第十一场：9位角色，71行",
+      "firstLine": 1,
+      "lastLine": 71,
+      "numLines": 71,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.84,
+        "conflict": 0.278,
+        "sentiment": 0.432
+      }
+    },
+    {
+      "number": 12,
+      "name": "第十二场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "张夫人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "今日里画堂中摆开酒宴，",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张玉贞",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "凄惨惨独自个家门回转，",
+          "rating": -0.333,
+          "role": "旦"
+        },
+        {
+          "name": "小蕙",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "我们小姐回来了。",
+          "rating": 0.0,
+          "role": "花旦"
+        },
+        {
+          "name": "张院子",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "赵家来人言道：请小姐即刻回去。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十二场：4位角色，90行",
+      "firstLine": 1,
+      "lastLine": 90,
+      "numLines": 90,
+      "chapter": "第6章",
+      "ratings": {
+        "importance": 0.615,
+        "conflict": 0.417,
+        "sentiment": -0.07
+      }
+    },
+    {
+      "number": 13,
+      "name": "第十三场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "张瑞华",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "且喜得公事毕回京复命，",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "家院求见。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "兵士甲",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "大人，家院求见。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第十三场：3位角色，19行",
+      "firstLine": 1,
+      "lastLine": 19,
+      "numLines": 19,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 0.166,
+        "conflict": 0.889,
+        "sentiment": 0.774
+      }
+    },
+    {
+      "number": 14,
+      "name": "第十四场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "张夫人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "老爷回家无音信，",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "张瑞华",
+          "importance": 0.8888888888888888,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "夫人！",
+          "rating": 0.143,
+          "role": "老生"
+        },
+        {
+          "name": "赵院子",
+          "importance": 0.7777777777777778,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "什么人？",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "张院子",
+          "importance": 0.6666666666666666,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "我家老爷来了。",
+          "rating": 0.0,
+          "role": ""
+        },
+        {
+          "name": "赵母",
+          "importance": 0.5555555555555556,
+          "importance_rank": 5,
+          "emotion": "neutral",
+          "quote": "何事？",
+          "rating": 0.2,
+          "role": "老旦"
+        },
+        {
+          "name": "赵启贤",
+          "importance": 0.4444444444444444,
+          "importance_rank": 6,
+          "emotion": "positive",
+          "quote": "在书房忽听得母亲传唤，",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "小蕙",
+          "importance": 0.3333333333333333,
+          "importance_rank": 7,
+          "emotion": "positive",
+          "quote": "老夫人，什么事啊？",
+          "rating": 0.5,
+          "role": "花旦"
+        },
+        {
+          "name": "张玉贞",
+          "importance": 0.2222222222222222,
+          "importance_rank": 8,
+          "emotion": "neutral",
+          "quote": "一身似海风波险，度日如年泪眼干。",
+          "rating": 0.0,
+          "role": "旦"
+        },
+        {
+          "name": "顾媒婆",
+          "importance": 0.1111111111111111,
+          "importance_rank": 9,
+          "emotion": "positive",
+          "quote": "你撒手吧！你不知道男女授受不亲吗？",
+          "rating": 1.0,
+          "role": "彩旦"
+        }
+      ],
+      "summary": "第十四场：9位角色，174行",
+      "firstLine": 1,
+      "lastLine": 174,
+      "numLines": 174,
+      "chapter": "第7章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.256,
+        "sentiment": 0.27
+      }
+    },
+    {
+      "number": 15,
+      "name": "第十五场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "张夫人",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "恨老奴把娇女糊涂婚配，",
+          "rating": -0.5,
+          "role": ""
+        },
+        {
+          "name": "张瑞华",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "嘿！",
+          "rating": 1.0,
+          "role": "老生"
+        },
+        {
+          "name": "张院子",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "陆家差人来报：陆公子亡故了。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "顾媒婆",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "彩旦"
+        },
+        {
+          "name": "陆少庄",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "",
+          "rating": 1.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第十五场：5位角色，24行",
+      "firstLine": 1,
+      "lastLine": 24,
+      "numLines": 24,
+      "chapter": "第8章",
+      "ratings": {
+        "importance": 0.262,
+        "conflict": 0.714,
+        "sentiment": 0.086
+      }
+    },
+    {
+      "number": 16,
+      "name": "第十六场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "张玉贞",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "无端巧计将人来陷，",
+          "rating": -0.714,
+          "role": "旦"
+        },
+        {
+          "name": "小蕙",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "保重身体要紧！",
+          "rating": -0.5,
+          "role": "花旦"
+        },
+        {
+          "name": "赵母",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "可怜娇子是痴子，错把佳人作坏人。",
+          "rating": 1.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第十六场：3位角色，35行",
+      "firstLine": 1,
+      "lastLine": 35,
+      "numLines": 35,
+      "chapter": "第8章",
+      "ratings": {
+        "importance": 0.464,
+        "conflict": 0.87,
+        "sentiment": -0.305
+      }
+    },
+    {
+      "number": 17,
+      "name": "第十七场",
+      "location": "有老母在堂",
+      "characters": [
+        {
+          "name": "赵启贤",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "幸今日得科名家门回转，",
+          "rating": 0.0,
+          "role": "小生"
+        }
+      ],
+      "summary": "第十七场：1位角色，8行",
+      "firstLine": 1,
+      "lastLine": 8,
+      "numLines": 8,
+      "chapter": "第9章",
+      "ratings": {
+        "importance": 0.459,
+        "conflict": 0.0,
+        "sentiment": 0.44
+      }
+    },
+    {
+      "number": 18,
+      "name": "第十八场",
+      "location": "子得中回府",
+      "characters": [
+        {
+          "name": "赵母",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "幸喜我将贤媳殷勤劝解，",
+          "rating": 1.0,
+          "role": "老旦"
+        },
+        {
+          "name": "赵院子",
+          "importance": 0.8,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "老夫人，少公子得中回府。",
+          "rating": 1.0,
+          "role": ""
+        },
+        {
+          "name": "赵启贤",
+          "importance": 0.6,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "孩儿大礼参拜。",
+          "rating": 1.0,
+          "role": "小生"
+        },
+        {
+          "name": "小蕙",
+          "importance": 0.4,
+          "importance_rank": 4,
+          "emotion": "positive",
+          "quote": "来啦。老夫人什么事呀？",
+          "rating": 1.0,
+          "role": "花旦"
+        },
+        {
+          "name": "张玉贞",
+          "importance": 0.2,
+          "importance_rank": 5,
+          "emotion": "positive",
+          "quote": "且喜闺中新病起，忽听堂上唤儿声。",
+          "rating": 0.5,
+          "role": "旦"
+        }
+      ],
+      "summary": "第十八场：5位角色，67行",
+      "firstLine": 1,
+      "lastLine": 67,
+      "numLines": 67,
+      "chapter": "第9章",
+      "ratings": {
+        "importance": 0.746,
+        "conflict": 0.286,
+        "sentiment": 0.548
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "张玉贞",
+      "short": "张玉",
+      "key": "张玉贞",
+      "quote": "张玉贞 — 旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "小蕙",
+      "short": "小蕙",
+      "key": "小蕙",
+      "quote": "小蕙 — 花旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 花旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "赵启贤",
+      "short": "赵启",
+      "key": "赵启贤",
+      "quote": "赵启贤 — 小生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 小生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "张瑞华",
+      "short": "张瑞",
+      "key": "张瑞华",
+      "quote": "张瑞华 — 老生",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 老生",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "陆少庄",
+      "short": "陆少",
+      "key": "陆少庄",
+      "quote": "陆少庄 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "顾媒婆",
+      "short": "顾媒",
+      "key": "顾媒婆",
+      "quote": "顾媒婆 — 彩旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 彩旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "赵母",
+      "short": "赵母",
+      "key": "赵母",
+      "quote": "赵母 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "兵士甲",
+      "short": "兵士",
+      "key": "兵士甲",
+      "quote": "兵士甲 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丑院子",
+      "short": "丑院",
+      "key": "丑院子",
+      "quote": "丑院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵玉贞",
+      "short": "赵玉",
+      "key": "赵玉贞",
+      "quote": "赵玉贞 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "赵院子",
+      "short": "赵院",
+      "key": "赵院子",
+      "quote": "赵院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "苍头",
+      "short": "苍头",
+      "key": "苍头",
+      "quote": "苍头 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "四太监",
+      "short": "四太",
+      "key": "四太监",
+      "quote": "四太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张院子",
+      "short": "张院",
+      "key": "张院子",
+      "quote": "张院子 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "傧相",
+      "short": "傧相",
+      "key": "傧相",
+      "quote": "傧相 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "张夫人",
+      "short": "张夫",
+      "key": "张夫人",
+      "quote": "张夫人 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "大太监",
+      "short": "大太",
+      "key": "大太监",
+      "quote": "大太监 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "有老母在堂",
+      "key": "有老母在堂",
+      "quote": "场景发生在有老母在堂"
+    },
+    {
+      "name": "父母在堂",
+      "key": "父母在堂",
+      "quote": "场景发生在父母在堂"
+    },
+    {
+      "name": "子得中回府",
+      "key": "子得中回府",
+      "quote": "场景发生在子得中回府"
+    }
+  ]
+}

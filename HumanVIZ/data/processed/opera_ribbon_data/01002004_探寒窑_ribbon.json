@@ -1,0 +1,241 @@
+{
+  "title": "探寒窑",
+  "type": "京剧剧本",
+  "author": "民国",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 2,
+  "num_characters": 4,
+  "num_locations": 2,
+  "source_file": "01002004_探寒窑.json",
+  "source_folder": "01000000",
+  "plot_summary": "王允官居首相，有少女名宝钏，彩楼择配，球中丐者薛平贵。王允以为耻，逐薛平贵。女愤，出从薛平贵居\n寒窑。临行与父三击掌为誓：不富贵，无相见。薛平贵从军西去，女独居寒窑十七年，备受艰苦。有魏虎者，\n女之姊婿也，自西域归，诡称平贵已死。王宝钏闻耗，悲忧成疾。相府老仆告知老夫人，夫人携婢捧银，\n亲至寒窑探病，则见败瓦颓垣，菜羹粗粝，较之相府画栋雕梁，珍馐美味，不胜苦乐之感。王宝钏形容憔悴，\n见母大哭。夫人劝以同回相府，王宝钏坚执不允，夫人爱怜之极欲与女同居寒窑。王宝钏无奈，假允同归。\n诳夫人出窑紧闭双门，以示决绝。夫人叹息而去。",
+  "performance_notes": "",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 1,
+      "numLines": 141,
+      "summary": "第1场",
+      "conflict": 0.0,
+      "importance": 1.0,
+      "locations": {
+        "意不肯回府": 1
+      },
+      "characters": {
+        "陈氏": 1,
+        "丫鬟": 1,
+        "王宝钏": 1,
+        "家院": 1
+      },
+      "links": [
+        {
+          "source": "家院",
+          "target": "陈氏",
+          "value": 1
+        },
+        {
+          "source": "王宝钏",
+          "target": "陈氏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "陈氏",
+          "value": 1
+        },
+        {
+          "source": "家院",
+          "target": "王宝钏",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "家院",
+          "value": 1
+        },
+        {
+          "source": "丫鬟",
+          "target": "王宝钏",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 1,
+      "numLines": 71,
+      "summary": "第2场",
+      "conflict": 0.0,
+      "importance": 0.67,
+      "locations": {
+        "寒窑叙一叙苦": 1
+      },
+      "characters": {
+        "陈氏": 1,
+        "王宝钏": 1
+      },
+      "links": [
+        {
+          "source": "王宝钏",
+          "target": "陈氏",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "意不肯回府",
+      "characters": [
+        {
+          "name": "陈氏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "鹤发皓首，两鬓如霜。",
+          "rating": -0.375,
+          "role": "老旦"
+        },
+        {
+          "name": "家院",
+          "importance": 0.75,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "有事即来报，无事不乱言。",
+          "rating": -1.0,
+          "role": ""
+        },
+        {
+          "name": "王宝钏",
+          "importance": 0.5,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "来了。",
+          "rating": -0.556,
+          "role": "正旦"
+        },
+        {
+          "name": "丫鬟",
+          "importance": 0.25,
+          "importance_rank": 4,
+          "emotion": "neutral",
+          "quote": "参见三姑娘！",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：4位角色，141行",
+      "firstLine": 1,
+      "lastLine": 141,
+      "numLines": 141,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.365,
+        "sentiment": -0.103
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "寒窑叙一叙苦",
+      "characters": [
+        {
+          "name": "王宝钏",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "母女们在寒窑叙一叙苦情：",
+          "rating": -0.385,
+          "role": "正旦"
+        },
+        {
+          "name": "陈氏",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "我儿不必心烦闷，",
+          "rating": 0.0,
+          "role": "老旦"
+        }
+      ],
+      "summary": "第2场：2位角色，71行",
+      "firstLine": 1,
+      "lastLine": 71,
+      "numLines": 71,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.901,
+        "conflict": 0.336,
+        "sentiment": -0.199
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "陈氏",
+      "short": "陈氏",
+      "key": "陈氏",
+      "quote": "陈氏 — 老旦",
+      "group": "旦",
+      "color": "",
+      "explanation": [
+        "行当: 老旦",
+        "所属: 旦组"
+      ]
+    },
+    {
+      "character": "王宝钏",
+      "short": "王宝",
+      "key": "王宝钏",
+      "quote": "王宝钏 — 正旦",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 正旦",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "丫鬟",
+      "short": "丫鬟",
+      "key": "丫鬟",
+      "quote": "丫鬟 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "家院",
+      "short": "家院",
+      "key": "家院",
+      "quote": "家院 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "寒窑叙一叙苦",
+      "key": "寒窑叙一叙苦",
+      "quote": "场景发生在寒窑叙一叙苦"
+    },
+    {
+      "name": "意不肯回府",
+      "key": "意不肯回府",
+      "quote": "场景发生在意不肯回府"
+    }
+  ]
+}

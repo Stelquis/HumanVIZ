@@ -1,0 +1,345 @@
+{
+  "title": "东窗事犯·扫秦",
+  "type": "京剧剧本",
+  "author": "近代",
+  "year": 1900,
+  "url": "",
+  "image": "",
+  "num_chapters": 2,
+  "num_scenes": 5,
+  "num_characters": 4,
+  "num_locations": 1,
+  "source_file": "70902102_东窗事犯·扫秦.json",
+  "source_folder": "70902000",
+  "plot_summary": "南宋时奸臣秦桧害死了岳飞父子以后，一次，到杭州灵隐寺进香，遇见一位疯僧，将他与王氏在东窗下设计\n通敌、陷害忠良的前后隐私，一一揭穿，终于狼狈而去。",
+  "performance_notes": "剧中指出疯僧是地藏王菩萨的化身，实际是反映了当时人民对这个“莫须有”三字冤狱的极大义愤，具有强\n烈的人民性，因此长期流传在昆剧舞台上。\n此剧旧题《精忠记》，或《如是观》，皆非；实系元孔学诗所作杂剧《东窗事犯》之一折。\n这是昆曲丑角的唱工戏，俞粟庐先生欣赏其曲调之别具风格，所以在俞振飞年幼时就教其学唱了这个戏。",
+  "chapters": [
+    {
+      "chapter": "第1章",
+      "numScenes": 3,
+      "numLines": 205,
+      "summary": "第1场；第2场；第3场",
+      "conflict": 0.454,
+      "importance": 1.0,
+      "locations": {
+        "舞台": 3
+      },
+      "characters": {
+        "老和尚": 1,
+        "疯僧": 1,
+        "青袍": 1,
+        "秦桧": 1
+      },
+      "links": [
+        {
+          "source": "秦桧",
+          "target": "老和尚",
+          "value": 3
+        },
+        {
+          "source": "老和尚",
+          "target": "青袍",
+          "value": 1
+        },
+        {
+          "source": "秦桧",
+          "target": "青袍",
+          "value": 1
+        },
+        {
+          "source": "疯僧",
+          "target": "秦桧",
+          "value": 2
+        },
+        {
+          "source": "疯僧",
+          "target": "老和尚",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "chapter": "第2章",
+      "numScenes": 2,
+      "numLines": 71,
+      "summary": "第4场；第5场",
+      "conflict": 0.32,
+      "importance": 0.514,
+      "locations": {
+        "舞台": 2
+      },
+      "characters": {
+        "疯僧": 1,
+        "秦桧": 1
+      },
+      "links": [
+        {
+          "source": "疯僧",
+          "target": "秦桧",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "number": 1,
+      "name": "第1场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "老和尚",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "扫地恐伤蝼蚁命，爱惜飞蛾纱罩灯。",
+          "rating": 0.0,
+          "role": "外"
+        },
+        {
+          "name": "秦桧",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "罢了。经典可曾诵完？",
+          "rating": 1.0,
+          "role": "白面"
+        },
+        {
+          "name": "青袍",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "neutral",
+          "quote": "三公之位，自小登科占大魁。",
+          "rating": 0.0,
+          "role": ""
+        }
+      ],
+      "summary": "第1场：3位角色，17行",
+      "firstLine": 1,
+      "lastLine": 17,
+      "numLines": 17,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.622,
+        "conflict": 0.588,
+        "sentiment": 0.365
+      }
+    },
+    {
+      "number": 2,
+      "name": "第2场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦桧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "啊呀佛爷吓！愿岳家父子，早登仙界。",
+          "rating": -0.333,
+          "role": "白面"
+        },
+        {
+          "name": "老和尚",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "positive",
+          "quote": "请相爷各处随喜随喜。",
+          "rating": 1.0,
+          "role": "外"
+        },
+        {
+          "name": "疯僧",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "negative",
+          "quote": "谁唤我？",
+          "rating": -0.333,
+          "role": "丑"
+        }
+      ],
+      "summary": "第2场：3位角色，67行",
+      "firstLine": 1,
+      "lastLine": 67,
+      "numLines": 67,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 0.918,
+        "conflict": 0.468,
+        "sentiment": -0.036
+      }
+    },
+    {
+      "number": 3,
+      "name": "第3场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦桧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "positive",
+          "quote": "呸！我道是怎么一个疯僧，原来是个腌臢和尚！",
+          "rating": 1.0,
+          "role": "白面"
+        },
+        {
+          "name": "疯僧",
+          "importance": 0.6666666666666666,
+          "importance_rank": 2,
+          "emotion": "negative",
+          "quote": "我道是怎么一个丞相，原来是个奸臣秦桧！",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "老和尚",
+          "importance": 0.3333333333333333,
+          "importance_rank": 3,
+          "emotion": "positive",
+          "quote": "吓！",
+          "rating": 1.0,
+          "role": "外"
+        }
+      ],
+      "summary": "第3场：3位角色，121行",
+      "firstLine": 1,
+      "lastLine": 121,
+      "numLines": 121,
+      "chapter": "第1章",
+      "ratings": {
+        "importance": 1.0,
+        "conflict": 0.364,
+        "sentiment": 0.418
+      }
+    },
+    {
+      "number": 4,
+      "name": "第4场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "疯僧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "negative",
+          "quote": "呔！秦桧！我坏了你两个，你就发恼，亏你害了他三个哩！",
+          "rating": -0.333,
+          "role": "丑"
+        },
+        {
+          "name": "秦桧",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "这是馒头。",
+          "rating": 0.0,
+          "role": "白面"
+        }
+      ],
+      "summary": "第4场：2位角色，68行",
+      "firstLine": 1,
+      "lastLine": 68,
+      "numLines": 68,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.822,
+        "conflict": 0.457,
+        "sentiment": -0.14
+      }
+    },
+    {
+      "number": 5,
+      "name": "第5场",
+      "location": "舞台",
+      "characters": [
+        {
+          "name": "秦桧",
+          "importance": 1.0,
+          "importance_rank": 1,
+          "emotion": "neutral",
+          "quote": "啊呀！倒被这疯僧一番言语，说得毛骨悚然。回去与夫人商议便了。",
+          "rating": 0.0,
+          "role": "白面"
+        },
+        {
+          "name": "疯僧",
+          "importance": 0.5,
+          "importance_rank": 2,
+          "emotion": "neutral",
+          "quote": "",
+          "rating": 0.0,
+          "role": "丑"
+        }
+      ],
+      "summary": "第5场：2位角色，3行",
+      "firstLine": 1,
+      "lastLine": 3,
+      "numLines": 3,
+      "chapter": "第2章",
+      "ratings": {
+        "importance": 0.61,
+        "conflict": 0.0,
+        "sentiment": 0.18
+      }
+    }
+  ],
+  "characters": [
+    {
+      "character": "疯僧",
+      "short": "疯僧",
+      "key": "疯僧",
+      "quote": "疯僧 — 丑",
+      "group": "丑",
+      "color": "",
+      "explanation": [
+        "行当: 丑",
+        "所属: 丑组"
+      ]
+    },
+    {
+      "character": "秦桧",
+      "short": "秦桧",
+      "key": "秦桧",
+      "quote": "秦桧 — 白面",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 白面",
+        "所属: 其他组"
+      ]
+    },
+    {
+      "character": "老和尚",
+      "short": "老和",
+      "key": "老和尚",
+      "quote": "老和尚 — 外",
+      "group": "生",
+      "color": "",
+      "explanation": [
+        "行当: 外",
+        "所属: 生组"
+      ]
+    },
+    {
+      "character": "青袍",
+      "short": "青袍",
+      "key": "青袍",
+      "quote": "青袍 — 未知行当",
+      "group": "其他",
+      "color": "",
+      "explanation": [
+        "行当: 未知",
+        "所属: 其他组"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "舞台",
+      "key": "舞台",
+      "quote": "场景发生在舞台"
+    }
+  ]
+}
