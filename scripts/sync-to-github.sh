@@ -6,11 +6,17 @@
 # 前置条件: GitHub CLI (gh) 已安装并登录
 #   gh auth login
 #
+# 自动推断目标仓库: {当前登录用户}/{本地仓库名}
+#   无需手动配置，fork 用户登录自己的 GitHub 账号即可自动同步到自己的仓库。
+#
 # 工作流程:
-#   检查/安装 gh CLI → 检查登录 → 初始化仓库 → 快照同步 → push → 切回 main
+#   安装 gh CLI → 登录 → 推断仓库 → 配置 remote → 快照同步 → push → 切回 main
 #
 # 一键运行:
 #   bash /workspace/scripts/sync-to-github.sh
+#
+# 覆盖目标仓库（可选）:
+#   GITHUB_REPO="OtherUser/OtherRepo" bash /workspace/scripts/sync-to-github.sh
 # ===================================================================
 
 set -e
@@ -19,7 +25,6 @@ set -e
 # 配置区
 # -------------------------------------------------------------------
 
-GITHUB_REPO="Stelquis/HumanVIZ"
 GITHUB_REMOTE="github"
 SYNC_BRANCH="github-main"
 
@@ -54,7 +59,19 @@ fi
 echo "✅ 已登录 GitHub: $(gh auth status 2>&1 | head -1)"
 
 # -------------------------------------------------------------------
-# 1. 初始化 GitHub remote，配置 gh 为 git 凭证助手
+# 1. 推断目标 GitHub 仓库
+# -------------------------------------------------------------------
+# 如果环境变量 GITHUB_REPO 已设置则直接使用，否则自动推断：
+#   {gh 当前登录用户}/{本地 git 仓库名}
+if [ -z "${GITHUB_REPO:-}" ]; then
+    GITHUB_USER=$(gh api user --jq '.login' 2>/dev/null)
+    REPO_NAME=$(git remote get-url origin 2>/dev/null | sed 's|.*/||; s|\.git$||')
+    GITHUB_REPO="${GITHUB_USER}/${REPO_NAME}"
+fi
+echo "📦 目标仓库: https://github.com/${GITHUB_REPO}"
+
+# -------------------------------------------------------------------
+# 2. 初始化 GitHub remote，配置 gh 为 git 凭证助手
 # -------------------------------------------------------------------
 # 禁止 git 弹窗索要密码（防止 hang），失败即报错
 export GIT_TERMINAL_PROMPT=0
@@ -62,8 +79,17 @@ export GIT_TERMINAL_PROMPT=0
 # 确保 git 使用 gh CLI 的登录凭证
 gh auth setup-git -h github.com
 
-# 设置 GitHub remote
-if ! git remote get-url "$GITHUB_REMOTE" &>/dev/null; then
+TARGET_URL="https://github.com/${GITHUB_REPO}.git"
+
+# 设置或校验 GitHub remote
+if CURRENT_URL=$(git remote get-url "$GITHUB_REMOTE" 2>/dev/null); then
+    if [ "$CURRENT_URL" != "$TARGET_URL" ]; then
+        echo "🔧 GitHub remote URL 不匹配，更新为: $TARGET_URL"
+        git remote set-url "$GITHUB_REMOTE" "$TARGET_URL"
+    else
+        echo "✅ GitHub remote 已存在且正确"
+    fi
+else
     echo "🔧 配置 GitHub remote..."
 
     # 确保 GitHub 仓库存在（不存在则创建，公开仓库）
@@ -72,12 +98,10 @@ if ! git remote get-url "$GITHUB_REMOTE" &>/dev/null; then
 
     # 如果 remote 仍不存在，手动添加
     if ! git remote get-url "$GITHUB_REMOTE" &>/dev/null; then
-        git remote add "$GITHUB_REMOTE" "https://github.com/${GITHUB_REPO}.git"
+        git remote add "$GITHUB_REMOTE" "$TARGET_URL"
     fi
 
     echo "✅ GitHub remote 已配置"
-else
-    echo "✅ GitHub remote 已存在"
 fi
 
 # -------------------------------------------------------------------
