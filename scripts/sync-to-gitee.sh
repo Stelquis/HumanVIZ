@@ -85,12 +85,18 @@ else
 fi
 
 # -------------------------------------------------------------------
-# 4. 配置 Gitee remote
+# 4. 配置 Gitee remote（用 credential helper 避免 token 出现在 URL 中）
 # -------------------------------------------------------------------
-TARGET_URL="https://oauth2:${GITEE_TOKEN}@gitee.com/${GITEE_USER}/${REPO_NAME}.git"
+TARGET_URL="https://gitee.com/${GITEE_USER}/${REPO_NAME}.git"
 
 # 禁止 git 弹窗索要密码
 export GIT_TERMINAL_PROMPT=0
+
+# 使用临时 credential helper，token 不落盘也不出现在 URL 中
+CRED_FILE=$(mktemp)
+trap "rm -f '$CRED_FILE'" EXIT
+printf 'url=%s\nusername=oauth2\npassword=%s\n' "$TARGET_URL" "$GITEE_TOKEN" > "$CRED_FILE"
+git config --local credential.helper "store --file=$CRED_FILE"
 
 # 先清理旧的 gitee remote
 git remote remove "$GITEE_REMOTE" 2>/dev/null || true

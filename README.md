@@ -5,14 +5,18 @@
 # 🎭 HumanVIZ
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-6-blue.svg)](https://www.typescriptlang.org/)
-[![React 19](https://img.shields.io/badge/React-19-61DAFB.svg)](https://react.dev/)
-[![Three.js](https://img.shields.io/badge/Three.js-0.184-black.svg)](https://threejs.org/)
-[![Vite](https://img.shields.io/badge/Vite-6-646CFF.svg)](https://vitejs.dev/)
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB.svg?logo=python)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.136-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![TypeScript 6](https://img.shields.io/badge/TypeScript-6.0-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
+[![React 19](https://img.shields.io/badge/React-19.1-61DAFB.svg?logo=react)](https://react.dev/)
+[![Vite 6](https://img.shields.io/badge/Vite-6.3-646CFF.svg?logo=vite)](https://vitejs.dev/)
+[![Three.js](https://img.shields.io/badge/Three.js-0.184-black.svg?logo=three.js)](https://threejs.org/)
+[![D3.js](https://img.shields.io/badge/D3.js-7.9-F9A03C.svg?logo=d3.js)](https://d3js.org/)
+[![ECharts](https://img.shields.io/badge/ECharts-6.1-AA344D.svg)](https://echarts.apache.org/)
+[![Mantine](https://img.shields.io/badge/Mantine-7.17-339AF0.svg)](https://mantine.dev/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED.svg?logo=docker)](https://www.docker.com/)
 
-> 🎭 面向京剧剧本数据的多维可视化分析系统
+> 🎭 梨园万象——京剧剧本多维可视化分析系统
 >
 > 面向 1,473 部京剧剧本，我们构建"梨园万象"多维可视分析系统，从行当、关系、主题、叙事与综合关联五个层面提炼结构规律，以可交互界面支持单剧验证与跨剧本比较，呈现京剧文本中的人物组织、主题组合与叙事节奏。
 
@@ -20,7 +24,7 @@
 
 ## 📖 项目简介
 
-HumanVIZ 是一个面向京剧剧本数据的多维可视化分析系统，为 **ChinaVIS 2026 可视分析挑战赛** 赛道 I 而构建。系统通过定制化的可视化视图和交互式分析，帮助用户深入理解京剧剧本中的人物关系、主题表达、叙事结构及其演化规律。
+HumanVIZ 是一个面向京剧剧本数据的多维可视化分析系统，为 **ChinaVIS 2026 可视分析挑战赛** 1-I的任务一而构建。系统通过定制化的可视化视图和交互式分析，帮助用户深入理解京剧剧本中的人物关系、主题表达、叙事结构及其演化规律。
 
 ### 🎯 核心能力
 
@@ -135,7 +139,7 @@ HumanVIZ 是一个面向京剧剧本数据的多维可视化分析系统，为 *
 | 技术 | 版本 | 用途 |
 |------|------|------|
 | 🐍 **Python** | 3.12 | 编程语言 |
-| ⚡ **FastAPI** | - | 异步 Web 框架 |
+| ⚡ **FastAPI** | 0.136 | 异步 Web 框架 |
 | 🚀 **Uvicorn** | - | ASGI 服务器 |
 | ✅ **Pydantic** | v2 | 数据验证与序列化 |
 | 🤖 **LangChain** | - | LLM 集成框架 |
@@ -153,7 +157,7 @@ HumanVIZ 是一个面向京剧剧本数据的多维可视化分析系统，为 *
 | 🐳 **Docker** | 容器化部署 |
 | ☁️ **CNB** | 云原生构建 |
 | 💻 **code-server** | 浏览器端 VS Code |
-| 🤖 **AI 编程** | CodeBuddy + CodeX + ChatGPT |
+| 🤖 **AI 编程** | Claude Code + CodeBuddy + CodeX |
 
 ---
 
@@ -192,7 +196,7 @@ pip install fastapi uvicorn pydantic langchain-openai pandas jinja2
 
 ```bash
 # 一键启动（推荐）
-./start.sh
+./scripts/start.sh
 
 # 或分别启动：
 # 前端开发服务器（端口 5200）
@@ -219,7 +223,7 @@ uvicorn main:app --host 0.0.0.0 --port 5000
 ### ⏹️ 停止服务
 
 ```bash
-./stop.sh
+./scripts/stop.sh
 ```
 
 ---
@@ -235,25 +239,64 @@ workspace/
 │   │   │   ├── Liyuan/          #     梨园万象概览（∞字粒子河流）
 │   │   │   ├── StarMap/         #     星图可视化（3D 漩涡星系 + Bloom）
 │   │   │   ├── TaskViews/       #     5 个任务视图
-│   │   │   └── Modals/          #     弹窗组件
+│   │   │   ├── Modals/          #     弹窗组件
+│   │   │   └── SplashScreen/    #     启动画面
 │   │   ├── data/                #   前端数据文件（JSON, ~30MB）
+│   │   ├── hooks/               #   自定义 React Hooks
 │   │   ├── stores/              #   Zustand 状态管理
+│   │   ├── types/               #   TypeScript 类型定义
 │   │   └── utils/               #   工具函数
 │   ├── backend/                 # 🐍 后端服务（FastAPI）
-│   ├── scripts/                 # 📊 数据处理管线（Python, ~30 个脚本）
+│   ├── scripts/                 # 📊 数据处理管线（Python, ~40 个脚本）
 │   ├── notebooks/               # 📓 Jupyter 笔记本
-│   ├── data/                    # 💾 原始与加工数据（~800MB）
+│   ├── data/                    # 💾 原始与加工数据
 │   │   ├── raw/dataSet/         #   1473 部剧本 JSON
 │   │   └── processed/           #   网络/主题/叙事/结构指纹等加工数据
 │   └── public/                  #   静态资源
 ├── scripts/                     # 🚀 部署与工具脚本
+│   ├── start.sh                 #   一键启动开发服务器
+│   ├── stop.sh                  #   停止所有服务
+│   ├── deploy-to-tencent.sh     #   部署到腾讯云
+│   ├── sync-to-gitee.sh         #   同步到 Gitee
+│   ├── sync-to-github.sh        #   同步到 GitHub
+│   ├── init-claude.sh           #   初始化 Claude Code 环境
+│   ├── init-codex.sh            #   初始化 CodeX 环境
+│   ├── init-opencode.sh         #   初始化 OpenCode 环境
+│   ├── init-qoder.sh            #   初始化 Qoder 环境
+│   └── test_api.py              #   API 测试脚本
+├── docs/                        # 📖 项目文档
+│   ├── claude-code-skills.md    #   Claude Code Skills 说明
+│   ├── Collaboration.md         #   协作开发指南
+│   ├── CV-ChinaVIS.md           #   项目价值挖掘
+│   ├── github-sync-guide.md     #   GitHub 同步指南
+│   ├── md-to-web-deploy.md      #   Markdown 转 Web 部署
+│   └── tencent-cloud-deployment.md  # 腾讯云部署文档
 ├── files/                       # 📚 文档与比赛材料
-│   ├── competition/             #   赛题说明、提交指南、答题纸
-│   │   ├── Task1/               #     任务一分析文档
-│   │   └── Task5/               #     任务五回答稿、视频脚本
+│   ├── FULL-STACK.md            #   全栈开发学习指南
+│   ├── 京剧科普.md               #   京剧知识科普
+│   ├── competition/             #   比赛相关
+│   │   ├── papre.tex            #     LaTeX 论文源文件
+│   │   ├── papre.pdf            #     论文 PDF
+│   │   ├── poster.html          #     海报 HTML
+│   │   ├── CODEX.md             #     CodeX 使用说明
+│   │   ├── files/               #     比赛提交文档
+│   │   │   ├── Problem.md       #       赛题说明
+│   │   │   ├── Submit.md        #       提交指南
+│   │   │   ├── Data.md          #       数据集说明
+│   │   │   ├── 1-I_answerSheet.pdf  #   答题纸模板
+│   │   │   ├── Subtitles.md     #       视频字幕稿
+│   │   │   └── Front_Back_page-Prompt.md  # 封面封底提示
+│   │   └── Image/               #     比赛截图与可视化成果
+│   ├── Image/                   #   项目宣传图
+│   │   ├── Poster.png           #     海报
+│   │   └── HumanVIZ.png         #     项目 Logo
 │   └── paper/                   #   论文参考资料
+│       ├── CharacterNetworks/   #     角色网络
+│       └── StroyRibbon/         #     故事丝带
 ├── Dockerfile                   # 🐳 容器化配置
-└── Repo/                        # 📦 参考可视化项目
+├── .cnb.yml                     # ☁️ 云原生构建配置
+├── LICENSE                      # 📜 MIT 许可证
+└── README.md                    # 📘 项目说明
 ```
 
 ---
@@ -266,18 +309,19 @@ workspace/
 
 | 文档 | 说明 |
 |------|------|
-| 📋 **[Problem.md](./files/competition/Problem.md)** | ChinaVIS 2026 赛题说明 |
-| 📝 **[Submit.md](./files/competition/Submit.md)** | 作品提交指南与评审标准 |
-| 📊 **[Data.md](./files/competition/Data.md)** | 京剧剧本数据集详细说明 |
-| 📄 **[1-I_answerSheet.pdf](./files/competition/1-I_answerSheet.pdf)** | 比赛答题纸模板 |
+| 📋 **[Problem.md](./files/competition/files/Problem.md)** | ChinaVIS 2026 赛题说明 |
+| 📝 **[Submit.md](./files/competition/files/Submit.md)** | 作品提交指南与评审标准 |
+| 📊 **[Data.md](./files/competition/files/Data.md)** | 京剧剧本数据集详细说明 |
+| 📄 **[1-I_answerSheet.pdf](./files/competition/files/1-I_answerSheet.pdf)** | 比赛答题纸模板 |
 
 ### 📖 技术文档
 
 | 文档 | 说明 |
 |------|------|
-| 📐 **[Outline.md](./files/Outline.md)** | 项目架构设计与规划 |
-| 🚀 **[Start.md](./files/Start.md)** | 快速上手指南 |
 | 📚 **[FULL-STACK.md](./files/FULL-STACK.md)** | 全栈开发学习指南 |
+| 📄 **[papre.tex](./files/competition/papre.tex)** | 比赛论文 LaTeX 源文件 |
+| 📄 **[papre.pdf](./files/competition/papre.pdf)** | 比赛论文 PDF |
+| 🎨 **[poster.html](./files/competition/poster.html)** | 比赛海报 |
 
 ---
 

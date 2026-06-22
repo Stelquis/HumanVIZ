@@ -3,164 +3,62 @@
 # ========================================
 
 # ========================================
-# 依赖包目录
+# 构建 / 运行时产物
 # ========================================
 
-# Node.js 依赖包目录（由 yarn install 或 npm install 生成）
-# 包含所有前端项目所需的第三方库和工具
-node_modules/
-
-# Python 虚拟环境
-# 包含 Python 虚拟环境的所有文件
-.venv/
-venv/
-ENV/
-
-# Python 虚拟环境锁定文件（由 pipenv install 生成）
-# 包含精确的依赖包版本信息，不建议提交到代码仓库
-# 因为不同开发环境可能需要不同的依赖版本
-Pipfile.lock
-
-# ========================================
-# 系统和缓存文件
-# ========================================
-
-# Python 字节码缓存目录
-# 包含 .pyc 文件，是 Python 运行时自动生成的
-# 应该被忽略，让每个开发者环境独立生成
+# Python 字节码缓存（自动生成）
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
 
-# ========================================
-# 构建产物和输出文件
-# ========================================
-
-# Vite 前端构建输出目录（由 yarn build 生成）
-# 包含打包、压缩后的生产环境代码
-# 应该忽略，每个部署时独立构建
+# Vite / 前端构建输出
 dist/
 
-# 归档文件目录
-# 用于存储旧版本的文件或备份数据
-archive/
-
-# ========================================
-# 敏感配置文件
-# ========================================
-
-# 私人数据目录（仅根目录）
-# 包含用户私人数据，不应公开
-# /scripts/
-
-# API 密钥配置文件
-# 包含 OpenAI、Google、智谱等平台的 API 密钥
-# 绝对不能提交到代码仓库，防止密钥泄露
-secrets.json
-
-# 环境变量配置文件
-# 包含敏感的环境配置信息，如数据库连接字符串等
-.env
-.env.local
-.env.*.local
-
-# ========================================
-# 日志和运行时文件
-# ========================================
-
-# 日志文件
-# 包含应用程序运行时生成的日志
-*.log
-logs/
-log/
-
-# 进程 PID 文件
-# 用于记录正在运行的服务进程 ID
-.pids
-*.pid
-*.pid.lock
+# Node.js 依赖包目录
+node_modules/
 
 # ========================================
 # 数据库文件
 # ========================================
 
-# SQLite 数据库文件
-# 二进制大文件，频繁修改，不应提交到仓库
+# SQLite 数据库（二进制大文件，频繁修改）
 *.db
-*.db-journal
-*.sqlite
-*.sqlite3
-
-# 数据处理结果文件
-# 由脚本自动生成的分类/处理结果，不需要版本控制
-classification_results/
-dialogue_parsing_results/
 
 # ========================================
-# 前端工具缓存
+# 敏感配置
 # ========================================
 
-# ESLint 缓存
-.eslintcache
+# API 密钥配置文件
+secrets.json
 
-# Vite 缓存
-.vite/
-
-# TypeScript 缓存
-*.tsbuildinfo
-
-# Yarn 缓存
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.*
+# 环境变量文件
+.env
 
 # ========================================
-# LaTeX 编译中间文件 (XeLaTeX / pdfLaTeX)
+# LaTeX 编译中间文件（XeLaTeX / pdfLaTeX）
 # ========================================
 
 # 辅助文件（跨次编译引用、目录、交叉引用等）
 *.aux
 *.out
 *.toc
-
-# SyncTeX 同步文件（编辑器反向搜索 PDF 位置用）
-*.synctex.gz
-
-# BibTeX / biblatex 参考文献编译文件
-*.bbl
-*.blg
-*.bcf
-*.run.xml
-
-# latexmk 编译管理文件
-*.fdb_latexmk
-*.fls
-
-# Beamer 演示文稿辅助文件
-*.nav
-*.snm
-*.vrb
-
-# 其他 LaTeX 过程文件
-*.thm
-*.lof
-*.lot
-*.lol
-*.glg
-*.glo
-*.gls
-*.ist
-*.xdy
-*-blx.bib
+*.log
 
 # ========================================
-# Claude Code / Skills
+# 日志和运行时文件
 # ========================================
 
-# skills-src 是 symlink 指向 npx 缓存目录，不应提交
-# 通过 init-claude.sh 中的 npx @flitzrrr/frontend-design-skills install 自动生成
-skills-src
+# 日志文件
+*.log
+
+# 进程 PID 文件
+.pids
+*.pid
+
+# ========================================
+# Skills / Agent 自动生成目录
+# ========================================
+
+# Agent 框架 skill 定义（由 init-claude.sh / init-codex.sh 自动生成）
+.agents/
+.codebuddy/skills/
+.claude/

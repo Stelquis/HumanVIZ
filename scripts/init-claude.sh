@@ -127,6 +127,20 @@ PROJECT_DIR="${CLAUDE_CODE_PROJECT_DIR:-$(git rev-parse --show-toplevel 2>/dev/n
 echo "=== Claude Code 配置初始化 ==="
 
 # -----------------------------------------------------------------------------
+# 交互确认辅助函数：提示用户输入 y/n（忽略大小写），默认 n
+# -----------------------------------------------------------------------------
+ask_yn() {
+    local prompt="$1"
+    local answer
+    printf "%s [y/N]: " "$prompt"
+    read -r answer
+    case "$answer" in
+        [Yy]|[Yy][Ee][Ss]) return 0 ;;
+        *) return 1 ;;
+    esac
+}
+
+# -----------------------------------------------------------------------------
 # 安装 karpathy-skills 编码规范（从 GitHub 拉取）
 # -----------------------------------------------------------------------------
 install_karpathy_skills() {
@@ -231,11 +245,17 @@ install_frontend_design_skills() {
     fi
 }
 
-# 安装所有 skills
-install_karpathy_skills
-install_gsap_skills
-install_taste_skill
-install_frontend_design_skills
+# 安装所有 skills（一次询问用户确认）
+echo ""
+if ask_yn "📦 是否安装所有 Skills（karpathy-skills / gsap-skills / taste-skill / frontend-design-skills）？"; then
+    install_karpathy_skills
+    install_gsap_skills
+    install_taste_skill
+    install_frontend_design_skills
+else
+    echo "⏭️  已跳过所有 Skills 安装"
+fi
+echo ""
 
 # -----------------------------------------------------------------------------
 # 注册 Skills 为斜杠命令（创建 symlink 到 Claude Code skills 目录）
