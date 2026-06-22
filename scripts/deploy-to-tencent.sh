@@ -133,7 +133,7 @@ clone_code() {
         print_success "代码从 CNB 仓库拉取成功"
     else
         print_info "代码目录已存在，拉取最新版本..."
-        remote_exec "cd $DEPLOY_DIR && git pull"
+        remote_exec "cd $DEPLOY_DIR && git fetch origin && git reset --hard origin/main"
         print_success "代码已更新"
     fi
 }
@@ -142,7 +142,7 @@ clone_code() {
 configure_secrets() {
     print_step "3/7 配置 LLM 密钥..."
 
-    remote_exec "cat > $DEPLOY_DIR/secrets.json << 'EOF'
+    remote_exec "cat > $FRONTEND_DIR/secrets.json << 'EOF'
 {
   \"api_key\": \"${API_KEY}\",
   \"model\": \"${MODEL}\",
@@ -161,7 +161,7 @@ install_python_deps() {
     remote_exec "if [ ! -d $VENV_DIR ]; then python3 -m venv $VENV_DIR; echo 'VENV_CREATED'; else echo 'VENV_EXISTS'; fi"
 
     # 使用 UV 安装依赖（参考 Dockerfile 中 uv pip install 方式）
-    remote_exec "source $VENV_DIR/bin/activate && export PATH=\$HOME/.local/bin:\$PATH && uv pip install -r $DEPLOY_DIR/requirements.txt"
+    remote_exec "source $VENV_DIR/bin/activate && export PATH=\$HOME/.local/bin:\$PATH && uv pip install -r $FRONTEND_DIR/requirements.txt"
 
     print_success "Python 依赖安装完成"
 }
@@ -356,9 +356,9 @@ do_update() {
 
     input_password
 
-    # 丢弃本地改动（避免符号链接等手动修复导致 git pull 冲突）
+    # 强制对齐远程分支（部署场景不需要保留本地修改）
     print_step "1/4 拉取最新代码..."
-    remote_exec "cd $DEPLOY_DIR && git restore . && git pull"
+    remote_exec "cd $DEPLOY_DIR && git fetch origin && git reset --hard origin/main"
     print_success "代码已更新"
 
     # 重新构建前端（Vite 插件自动处理 ribbon 数据）
@@ -368,7 +368,7 @@ do_update() {
 
     # 更新 Python 依赖（如有新增）
     print_step "3/4 更新 Python 依赖..."
-    remote_exec "source $VENV_DIR/bin/activate && export PATH=\$HOME/.local/bin:\$PATH && uv pip install -r $DEPLOY_DIR/requirements.txt"
+    remote_exec "source $VENV_DIR/bin/activate && export PATH=\$HOME/.local/bin:\$PATH && uv pip install -r $FRONTEND_DIR/requirements.txt"
     print_success "Python 依赖已是最新"
 
     # 重启后端
