@@ -112,20 +112,20 @@ GITEE_HEAD=$(git ls-remote "$GITEE_REMOTE" HEAD 2>/dev/null | awk '{print $1}')
 git branch -D "$SYNC_BRANCH" 2>/dev/null || true
 
 if [ -n "$GITEE_HEAD" ]; then
-    # Gitee 上已有历史：拉取元数据做树级对比
+    # Gitee 上已有历史：只拉 commit+tree 元数据（不含 blob 文件），做树级对比
     echo "🔧 Gitee 已有历史，拉取元数据..."
-    git fetch --depth=1 --filter=blob:none "$GITEE_REMOTE" main 2>/dev/null || \
-        git fetch "$GITEE_REMOTE" main
+    git fetch --depth=1 --filter=blob:none "$GITEE_REMOTE" main
 
+    # 直接对比两棵树的 hash，无需下载任何文件内容
     CNB_TREE=$(git rev-parse main^{tree})
     GITEE_TREE=$(git rev-parse "${GITEE_REMOTE}/main^{tree}")
     if [ "$CNB_TREE" = "$GITEE_TREE" ]; then
         echo "⏭️  没有新变更（树 hash 一致），跳过推送"
-        git remote remove "$GITEE_REMOTE"
         exit 0
     fi
 
-    # 基于 main 创建分支，parent 设为 gitee/main（纯增量）
+    # 基于 main 创建分支，再将父提交设为 gitee/main
+    # 效果：提交树 = CNB 内容，parent = gitee/main（纯增量）
     git checkout -b "$SYNC_BRANCH" main
     git reset --soft "${GITEE_REMOTE}/main"
     git commit -m "$(date '+%Y-%m-%d %H:%M')"
@@ -144,14 +144,12 @@ fi
 # 6. 推送到 Gitee
 # -------------------------------------------------------------------
 echo "📤 推送到 Gitee..."
-git push --force "$GITEE_REMOTE" "${SYNC_BRANCH}:main"
+git push "$GITEE_REMOTE" "${SYNC_BRANCH}:main"
 
 # -------------------------------------------------------------------
-# 7. 切回 main，清理 remote
+# 7. 切回 main
 # -------------------------------------------------------------------
-git checkout -f main
-git remote remove "$GITEE_REMOTE"
-echo "✅ Gitee remote 已清理（令牌不落盘）"
+git checkout main
 
 echo ""
 echo "✅ 同步完成！"
